@@ -75,6 +75,7 @@ bing_song_character_template = {
 	culture = culture:han
 
 	trait = shrewd
+	trait = conqueror
 
 	random_traits = yes
 	after_creation = {

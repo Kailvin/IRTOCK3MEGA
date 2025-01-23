@@ -543,17 +543,19 @@ cathedral_construct = {
 }
 lightwithoutheat_modifier={
 	icon = treatment_negative
-	development_growth_factor = -0.25
-	tax_mult = -0.12
-	epidemic_resistance= -5
+	tax_mult = -0.25
+	levy_reinforcement_rate = -0.25
+	epidemic_resistance= -40
 
 }
 fimbulwinter_modifier={
 	icon = treatment_negative
-	development_growth_factor = -0.1
-	tax_mult = -0.05
-	county_opinion_add = -12
-
+	development_growth_factor = -0.5
+	tax_mult = -0.25
+	epidemic_resistance= -5
+	county_opinion_add = -25
+	levy_reinforcement_rate = -0.25
+	epidemic_resistance= -10
 }
 mound_of_the_dead={
 	icon = piety_positive

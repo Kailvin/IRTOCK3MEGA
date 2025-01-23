@@ -4,39 +4,17 @@ ash.0001 = {
 	scope = none
 	immediate = {
         every_county={
-			limit={
-				title_province={
-
-
-				NOT={
-					geographical_region=world_africa
-
-				}
-				NOT={
-					geographical_region=world_middle_east
-					
-				}
-				NOT={
-					geographical_region=world_india
-					
-				}
-			}
                 add_county_modifier={
                     modifier = lightwithoutheat_modifier
-                    years = 5
+                    years = 3
+				}
+				add_county_modifier={
+                    modifier = fimbulwinter_modifier
+                    years = 15
 				}
 			}
         
         }
-		every_county_in_region={
-		
-			region=ghw_region_scandinavia
-			
-			 add_county_modifier={
-                    modifier = fimbulwinter_modifier
-                    years = 5
-				}
-		}
         every_ruler={
             trigger_event = ash.0002
         }

@@ -1,0 +1,53 @@
+﻿### balgarsko Conquest Regions
+
+special_balgarsko_conquest_region_1 = {
+	duchies = {
+		# k_bulgaria
+		d_bulgaria
+		d_philippopolis
+		d_turnovo
+		d_vidin
+		d_dobrudja
+	}
+}
+
+special_balgarsko_conquest_region_2 = {
+	duchies = {
+		# k_dacia
+		d_oltenia
+		d_transylvanian_alps
+		d_muntenia
+
+		# k_moldavia
+		d_bukovina
+		d_moldova
+		d_bugeac
+	}
+}
+
+special_balgarsko_conquest_region_3 = {
+	duchies = {
+		# k_epirus
+		#d_dyrrachion
+	}
+}
+
+special_balgarsko_conquest_region_start = {
+	regions = {
+		special_balgarsko_conquest_region_1
+	}
+}
+
+special_balgarsko_conquest_region_total = {
+	regions = {
+		special_balgarsko_conquest_region_1
+		special_balgarsko_conquest_region_2
+		special_balgarsko_conquest_region_3
+	}
+}
+
+special_balgarsko_conquest_region_de_jure = {
+	regions = {
+		special_historicinvasions_bulgaria_region
+	}
+}

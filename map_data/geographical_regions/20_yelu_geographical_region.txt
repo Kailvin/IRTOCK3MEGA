@@ -1,0 +1,45 @@
+﻿# Yelü (Qara Khitai) conquest regions
+
+special_yelu_conquest_region_1 = {
+	duchies = {
+		# k_dzungaria
+		d_kara_khoja
+		d_naiman_gobi
+		d_altay
+		d_gurbantunggut
+	}
+}
+
+special_yelu_conquest_region_2 = {
+	duchies = {
+		# k_zhetysu
+		d_zhetysu
+		d_alakol
+		d_tarbagatai
+		d_ili-alatau
+
+		# k_khotan
+		d_karashar
+		d_charkliq
+		d_khotan
+		d_kashgar
+
+		# k_syr_darya
+		d_muyunkum
+		d_syr_darya
+		d_chah
+	}
+}
+
+special_yelu_conquest_region_start = {
+	regions = {
+		special_yelu_conquest_region_1
+	}
+}
+
+special_yelu_conquest_region_total = {
+	regions = {
+		special_yelu_conquest_region_1
+		special_yelu_conquest_region_2
+	}
+}

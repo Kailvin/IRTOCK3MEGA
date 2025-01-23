@@ -1,0 +1,499 @@
+﻿namespace = borjigin_invasion
+
+### Spawn invader with the associated story...
+borjigin_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_mongol_empire # update compatibility - new titles in old saves return false
+		title:e_mongol_empire = { is_title_created = no }
+		any_county_in_region = {
+			region = special_borjigin_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+		NAND = { # is set in story
+			is_target_in_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:borjigin_story_started
+			}
+			has_global_variable = mongols_have_appeared
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "borjigin story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "borjigin story owner has appeared"
+		debug_log_date = yes
+		
+		spawn_borjigin_invader_effect = {
+			INVADER_DYNN = borjigin
+		}
+		scope:invader = {
+			create_story = story_borjigin_invasion
+		}
+	}
+}
+
+### Spawn base game invasion
+# var mongols_have_appeared & flag borjigin_story_started are immediately set via on_action
+# borjigin_invasion.0002 = { # mongol_invasion.0001
+# 	scope = none
+# 	hidden = yes
+
+# 	trigger = {
+# 		NOT = { # Stop Temujin destroying a stronk Mongol player
+# 			any_player = {
+# 				THIS = culture:mongol.culture_head
+# 				realm_size >= 100
+# 			}
+# 		}
+# 	}
+
+# 	immediate = {
+# 		debug_log = "Mongols appeared!"
+# 		debug_log_date = yes
+# 		spawn_temujin_character_effect = yes
+# 		scope:temujin = {
+# 			save_scope_as = story_owner # Do I really need to do this? Isn't it set automatically?
+# 			create_story = story_mongol_invasion
+# 		}
+# 	}
+# }
+
+# Event for handling army spawning
+borjigin_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_borjigin_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+borjigin_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = borjigin
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = start
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### foreboding event
+borjigin_invasion.1000 = { # only players see this
+	type = character_event
+	title = borjigin_invasion.1000.t
+	desc = borjigin_invasion.1000.desc
+	
+	theme = hi_theme_steppe
+
+	right_portrait = {
+		character = root
+		animation = dismissal
+	}
+
+	#trigger = { NOT = { has_game_rule = historicinvasions_notification_disabled } }
+	
+	option = { name = borjigin_invasion.1000.a }
+}
+
+### The invader has appeared! Would you like to play as them?
+borjigin_invasion.1001 = { # only players see this
+	type = character_event
+	title = borjigin_invasion.1001.t
+	desc = borjigin_invasion.1001.desc
+	
+	
+	theme = hi_theme_steppe
+
+	right_portrait = {
+		character = scope:invader
+		animation = jockey_gallop
+		#animation = jockey_lance_couched_gallop
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = {
+		name = {
+			trigger = { any_realm_province = { geographical_region = special_borjigin_conquest_region_total_complete } }
+			text = borjigin_invasion.1001.a.danger
+		}
+		name = {
+			trigger = { NOT = { any_realm_province = { geographical_region = special_borjigin_conquest_region_total_complete } } }
+			text = borjigin_invasion.1001.a.far_away
+		}
+	}
+
+	option = { # play as the newly spawned invader
+		name = borjigin_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+### the Mongol Empire has splintered
+borjigin_invasion.1002 = { # only players see this
+	type = character_event
+	title = borjigin_invasion.1002.t
+	desc = {
+		desc = borjigin_invasion.1002.desc.intro
+		triggered_desc = {
+			trigger = {
+				exists = scope:yuan_heir
+				scope:yuan_heir = { has_title = title:e_mongolia }
+			}
+			desc = borjigin_invasion.1002.desc.yuan
+		}
+		triggered_desc = {
+			trigger = {
+				exists = scope:golden_horde_heir
+				scope:golden_horde_heir = { has_title = title:e_golden_horde }
+			}
+			desc = borjigin_invasion.1002.desc.golden_horde
+		}
+		triggered_desc = {
+			trigger = {
+				exists = scope:chagatai_heir
+				scope:chagatai_heir = { has_title = title:e_chagatai }
+			}
+			desc = borjigin_invasion.1002.desc.chagatai
+		}
+		triggered_desc = {
+			trigger = {
+				exists = scope:ilkhanate_heir
+				scope:ilkhanate_heir = { has_title = title:e_ilkhanate }
+			}
+			desc = borjigin_invasion.1002.desc.ilkhanate
+		}
+		desc = borjigin_invasion.1002.desc.outro
+	}
+	
+	theme = hi_theme_steppe
+
+	left_portrait = {
+		character = scope:old_emperor
+		animation = idle
+	}
+	right_portrait = {
+		character = scope:yuan_heir
+		animation = personality_honorable
+	}
+	lower_left_portrait = {
+		character = scope:golden_horde_heir
+		animation = personality_bold
+	}
+	lower_center_portrait = {
+		character = scope:chagatai_heir
+		animation = marshal
+	}
+	lower_right_portrait = {
+		character = scope:ilkhanate_heir
+		animation = personality_rational
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = borjigin_invasion.1002.a }
+
+	option = { # play as yuan
+		name = borjigin_invasion.1002.b
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:yuan_heir = {
+				is_ruler = yes
+				is_landed = yes
+				borjigin_play_as_yuan_title_trigger = yes # checks for Mongolia or Celestia China if RoA is active
+			}
+		}
+		add_internal_flag = dangerous
+		scope:yuan_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:yuan_heir
+	}
+
+	option = { # play as golden horde
+		name = borjigin_invasion.1002.c
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:golden_horde_heir = {
+				is_ruler = yes
+				is_landed = yes
+				primary_title = title:e_golden_horde
+			}
+		}
+		add_internal_flag = dangerous
+		scope:golden_horde_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:golden_horde_heir
+	}
+
+	option = { # play as chagatai
+		name = borjigin_invasion.1002.d
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:chagatai_heir = {
+				is_ruler = yes
+				is_landed = yes
+				primary_title = title:e_chagatai
+			}
+		}
+		add_internal_flag = dangerous
+		scope:chagatai_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:chagatai_heir
+	}
+
+	option = { # play as ilkhanate
+		name = borjigin_invasion.1002.e
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:ilkhanate_heir = {
+				is_ruler = yes
+				is_landed = yes
+				primary_title = title:e_ilkhanate
+			}
+		}
+		add_internal_flag = dangerous
+		scope:ilkhanate_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:ilkhanate_heir
+	}
+}
+
+### the travels of Marco Polo
+borjigin_invasion.1003 = { # only players see this
+	type = character_event
+	title = borjigin_invasion.1003.t
+	desc = borjigin_invasion.1003.desc
+	
+	theme = hi_theme_docks
+
+	right_portrait = {
+		character = scope:marco_polo
+		animation = throne_room_writer
+	}
+
+	immediate = {
+		# also create father?
+		create_character = {
+			template = marco_polo_character_template
+			dynasty = generate
+			culture = title:c_venezia.culture
+			faith = title:c_venezia.faith
+			location = title:c_venezia.title_province
+			save_scope_as = marco_polo
+			after_creation = {
+				disease_immunity_short_effect = yes
+				dynasty = { set_dynasty_name = hi_dynn_polo }
+				house = { set_house_name = hi_dynn_polo }
+			}
+		}
+		scope:marco_polo = {
+			hidden_effect = {
+				marco_polo_create_artifacts_effect = yes
+				add_gold = 23
+				add_prestige = 174
+				add_piety = 18
+			}
+		}
+	}
+
+	#trigger = { NOT = { has_game_rule = historicinvasions_notification_disabled } }
+	
+	# ok!
+	option = {
+		name = borjigin_invasion.1003.a
+
+		stress_impact = {
+			curious = minor_stress_impact_gain
+		}
+	}
+
+	# I need a copy!
+	option = {
+		name = borjigin_invasion.1003.b
+		trigger = { in_diplomatic_range = scope:marco_polo }
+		show_as_unavailable = { NOT = { in_diplomatic_range = scope:marco_polo } }
+		pay_short_term_gold = {
+			target = scope:marco_polo
+			gold = {
+				value = 90 # destroying grants 80 gold
+				min = 0
+			}
+		}
+		marco_polo_create_artifacts_effect = yes
+
+		stress_impact = {
+			cynical = minor_stress_impact_gain
+		}
+	}
+
+	### hire Marco Polo
+	# option = {
+	# 	name = borjigin_invasion.1003.c
+	# 	trigger = {
+	# 		in_diplomatic_range = scope:marco_polo
+	# 		scope:marco_polo = { # in case of multiplayer?
+	# 			is_courtier = no
+	# 		}
+	# 	}
+	# 	show_as_unavailable = {
+	# 		NOR = {
+	# 			in_diplomatic_range = scope:marco_polo
+	# 			scope:marco_polo = {
+	# 				is_courtier = no
+	# 			}
+	# 		}
+	# 	}
+	# 	pay_short_term_gold = {
+	# 		target = scope:marco_polo
+	# 		gold = {
+	# 			value = 90 # destroying grants 80 gold
+	# 			min = 0
+	# 		}
+	# 	}
+	# 	marco_polo_create_artifacts_effect = yes
+	# 	if = {
+	# 		limit = {
+	# 			scope:marco_polo = {
+	# 				is_courtier = no
+	# 			}
+	# 		}
+	# 		pay_short_term_gold = {
+	# 			target = scope:marco_polo
+	# 			gold = {
+	# 				value = 120 # travel expenses
+	# 				min = 0
+	# 			}
+	# 		}
+	# 		add_courtier = scope:marco_polo
+	# 	}
+
+	# 	stress_impact = {
+	# 		cynical = minor_stress_impact_gain
+	# 		shy = medium_stress_impact_gain
+	# 		gregarious = minor_stress_impact_loss
+	# 	}
+	# }
+}
+
+### would you like to raze Baghdad?
+borjigin_invasion.1004 = {
+	type = character_event
+	title = borjigin_invasion.1004.t
+	desc = borjigin_invasion.1004.desc
+
+	theme = hi_theme_farmlands
+
+	right_portrait = {
+		character = root
+		animation = jockey_gallop
+	}
+
+	trigger = {
+	}
+
+	immediate = {
+		title:e_mongol_empire.holder = { save_scope_as = mongol_emperor }
+		### only once
+		hidden_effect = {
+			title:c_baghdad = { remove_title_from_important_location = title:e_mongol_empire }
+		}
+	}
+
+	# RAZE!
+	option = {
+		name = borjigin_invasion.1004.a
+
+		borjigin_raze_baghdad_effect = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	# keep
+	option = {
+		name = borjigin_invasion.1004.b
+
+		if = {
+			limit = {
+				title:b_baghdad = { is_holy_site_of = root.faith }
+			}
+			add_piety = 250
+		}
+		else = {
+			add_prestige = -500
+		}
+
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+### notification event: Baghdad has been razed by the Mongols!
+borjigin_invasion.1010 = { # Baghdad has been razed
+	type = character_event
+	title = borjigin_invasion.1010.t
+	desc = borjigin_invasion.1010.desc
+	
+	theme = hi_theme_farmlands
+
+	right_portrait = {
+		character = scope:invader
+		animation = jockey_gallop
+	}
+
+	trigger = { NOT = { has_game_rule = historicinvasions_notification_disabled } }
+	
+	option = {
+		name = borjigin_invasion.1010.a
+		show_as_tooltip = { borjigin_raze_baghdad_effect = yes } # this is only a visual tooltip; actual effect is triggered within decision
+	}
+}

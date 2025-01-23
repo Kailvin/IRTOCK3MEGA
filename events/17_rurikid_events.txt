@@ -1,0 +1,906 @@
+﻿namespace = rurikid_invasion
+
+### Spawn invader with the associated story...
+rurikid_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_rurikid # update compatibility - new titles in old saves return false
+		character:40605 ?= { # Rurik
+			OR = {
+				is_alive = no
+				OR = {
+					is_landed = no
+					highest_held_title_tier = tier_barony
+				}
+			}
+		}
+		any_county_in_region = {
+			region = special_rurikid_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "rurikid story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "rurikid story owner has appeared"
+		debug_log_date = yes
+
+		character:40605 = { save_scope_as = rurik }
+
+		scope:rurik.dynasty = {
+			# pick an already existing dynasty member
+			ordered_dynasty_member = {
+				limit = {
+					is_landed = yes
+					highest_held_title_tier > tier_barony
+					capital_county = { title_province = { geographical_region = special_rurikid_conquest_region_total } }
+					is_independent_ruler = yes
+					is_adult = yes
+					is_healthy = yes
+					is_imprisoned = no
+					historicinvasions_player_may_become_invader_trigger = yes
+					historicinvasions_common_existing_character_restrictions_trigger = yes
+				}
+				alternative_limit = {
+					is_landed = yes
+					highest_held_title_tier > tier_barony
+					capital_county = { title_province = { geographical_region = special_rurikid_conquest_region_total } }
+					is_adult = yes
+					is_healthy = yes
+					is_imprisoned = no
+					historicinvasions_player_may_become_invader_trigger = yes
+					historicinvasions_common_existing_character_restrictions_trigger = yes
+				}
+				order_by = realm_size
+				save_scope_as = invader
+			}
+		}
+		
+		# only spawns a new character if scope:invader is not set
+		spawn_rurikid_invader_effect = {
+			INVADER_DYNN = rurikid
+		}
+
+		# start story
+		scope:invader = {
+			create_story = story_rurikid_invasion
+		}
+	}
+}
+
+# Event for handling army spawning
+rurikid_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_rurikid_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+rurikid_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = rurikid
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+rurikid_invasion.1001 = { # only players see this
+	type = character_event
+	title = rurikid_invasion.1001.t
+	desc = rurikid_invasion.1001.desc
+	
+	theme = hi_theme_forest
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = rurikid_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = rurikid_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+##### Realm Conversion; 5000 - 5999
+
+### send the envoys!
+# we are unreformed, which makes us undesirable for trade and diplomacy
+rurikid_invasion.5001 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5001.t
+	desc = rurikid_invasion.5001.desc
+	
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = scheme
+	}
+
+	lower_left_portrait = {
+		character = scope:envoy_target_christianity
+		animation = idle
+	}
+
+	lower_center_portrait = {
+		character = scope:envoy_target_islam
+		animation = idle
+	}
+
+	lower_right_portrait = {
+		character = scope:envoy_target_judaism
+		animation = idle
+	}
+
+	immediate = {
+		save_scope_as = rus_ruler # localization
+
+		### pick the three largest rulers of either Orthodox, Ash'ari or Kabarite faith - unless there are players of that faith, then pick those instead
+
+		# Christianity
+		if = {
+			limit = {
+				any_ruler = {
+					is_ai = no
+					faith = faith:orthodox
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = no
+					faith = faith:orthodox
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_christianity
+			}
+		}
+		else_if = {
+			limit = {
+				any_ruler = {
+					is_ai = yes
+					faith = faith:orthodox
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = yes
+					faith = faith:orthodox
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_christianity
+			}
+		}
+		else = {
+			# if there is no ruler of the faith, act as though the envoy was accepted
+			scope:story = { set_variable = envoy_christianity_accepted }
+		}
+
+		# Islam
+		if = {
+			limit = {
+				any_ruler = {
+					is_ai = no
+					faith = faith:ashari
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = no
+					faith = faith:ashari
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_islam
+			}
+		}
+		else_if = {
+			limit = {
+				any_ruler = {
+					is_ai = yes
+					faith = faith:ashari
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = yes
+					faith = faith:ashari
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_islam
+			}
+		}
+		else = {
+			# if there is no ruler of the faith, act as though the envoy was accepted
+			scope:story = { set_variable = envoy_islam_accepted }
+		}
+
+		# Judaism
+		if = {
+			limit = {
+				any_ruler = {
+					is_ai = no
+					faith = faith:kabarism
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = no
+					faith = faith:kabarism
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_judaism
+			}	
+		}
+		else_if = {
+			limit = {
+				any_ruler = {
+					is_ai = yes
+					faith = faith:kabarism
+					NOT = { this = scope:story.story_owner }
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_ai = yes
+					faith = faith:kabarism
+					NOT = { this = scope:story.story_owner }
+				}
+				order_by = sub_realm_size
+				max = 1
+				save_scope_as = envoy_target_judaism
+			}
+		}
+		else = {
+			# if there is no ruler of the faith, act as though the envoy was accepted
+			scope:story = { set_variable = envoy_judaism_accepted }
+		}
+	}
+
+	# send the three envoys on their way
+	option = {
+		name = rurikid_invasion.5001.a
+
+		if = {
+			limit = { exists = scope:envoy_target_christianity }
+			scope:envoy_target_christianity = { trigger_event = rurikid_invasion.5002 }
+		}
+		if = {
+			limit = { exists = scope:envoy_target_islam }
+			scope:envoy_target_islam = { trigger_event = rurikid_invasion.5003 }
+		}
+		if = {
+			limit = { exists = scope:envoy_target_judaism }
+			scope:envoy_target_judaism = { trigger_event = rurikid_invasion.5004 }
+		}
+
+		# choice menu
+		scope:story.story_owner = {
+			trigger_event = {
+				id = rurikid_invasion.5010
+				days = 60
+			}
+		}
+
+		ai_chance = { base = 100 }
+	}
+}
+
+# envoy: Christianity
+rurikid_invasion.5002 = {
+	type = letter_event
+
+	opening = rurikid_invasion.5002.opening
+	desc = rurikid_invasion.5002.desc
+
+	sender = scope:story.story_owner
+
+	immediate = {
+		# spawn the envoy
+		create_character = {
+			template = rus_envoy_character_template
+			gender_female_chance = 10
+			faith = scope:story.story_owner.faith
+			culture = scope:story.story_owner.culture
+			employer = scope:envoy_target_christianity
+			after_creation = {
+				disease_immunity_short_effect = yes
+				save_scope_as = rus_envoy_christianity
+			}
+		}
+	}
+
+	# accept envoy
+	option = {
+		name = rurikid_invasion.5002.a
+
+		scope:story = { set_variable = envoy_christianity_accepted }
+
+		custom_tooltip = rurikid_invasion_accept_envoy
+
+		set_relation_potential_friend = scope:story.story_owner
+		scope:rus_envoy_christianity = { set_character_faith = scope:envoy_target_christianity.faith }
+
+		ai_chance = { base = 100 }
+	}
+
+	# decline envoy
+	option = {
+		name = rurikid_invasion.5002.b
+
+		scope:story = { set_variable = envoy_christianity_declined }
+
+		custom_tooltip = rurikid_invasion_decline_envoy
+
+		set_relation_potential_rival = scope:story.story_owner
+		scope:rus_envoy_christianity = { set_employer = scope:story.story_owner }
+
+		ai_chance = { base = 0 }
+	}
+}
+
+# envoy: Islam
+rurikid_invasion.5003 = {
+	type = letter_event
+
+	opening = rurikid_invasion.5003.opening
+	desc = rurikid_invasion.5003.desc
+
+	sender = scope:story.story_owner
+
+	immediate = {
+		# spawn the envoy
+		create_character = {
+			template = rus_envoy_character_template
+			gender_female_chance = 10
+			faith = scope:story.story_owner.faith
+			culture = scope:story.story_owner.culture
+			employer = scope:envoy_target_islam
+			after_creation = {
+				disease_immunity_short_effect = yes
+				save_scope_as = rus_envoy_islam
+			}
+		}
+	}
+
+	# accept envoy
+	option = {
+		name = rurikid_invasion.5003.a
+
+		scope:story = { set_variable = envoy_islam_accepted }
+
+		custom_tooltip = rurikid_invasion_accept_envoy
+
+		set_relation_potential_friend = scope:story.story_owner
+		scope:rus_envoy_islam = { set_character_faith = scope:envoy_target_islam.faith }
+
+		ai_chance = { base = 100 }
+	}
+
+	# decline envoy
+	option = {
+		name = rurikid_invasion.5003.b
+
+		scope:story = { set_variable = envoy_islam_declined }
+
+		custom_tooltip = rurikid_invasion_decline_envoy
+
+		set_relation_potential_rival = scope:story.story_owner
+		scope:rus_envoy_islam = { set_employer = scope:story.story_owner }
+
+		ai_chance = { base = 0 }
+	}
+}
+
+# envoy: Judaism
+rurikid_invasion.5004 = {
+	type = letter_event
+
+	opening = rurikid_invasion.5004.opening
+	desc = rurikid_invasion.5004.desc
+
+	sender = scope:story.story_owner
+
+	immediate = {
+		# spawn the envoy
+		create_character = {
+			template = rus_envoy_character_template
+			gender_female_chance = 10
+			faith = scope:story.story_owner.faith
+			culture = scope:story.story_owner.culture
+			employer = scope:envoy_target_judaism
+			after_creation = {
+				disease_immunity_short_effect = yes
+				save_scope_as = rus_envoy_judaism
+			}
+		}
+	}
+
+	# accept envoy
+	option = {
+		name = rurikid_invasion.5004.a
+
+		scope:story = { set_variable = envoy_judaism_accepted }
+
+		custom_tooltip = rurikid_invasion_accept_envoy
+
+		set_relation_potential_friend = scope:story.story_owner
+		scope:rus_envoy_judaism = { set_character_faith = scope:envoy_target_judaism.faith }
+
+		ai_chance = { base = 100 }
+	}
+
+	# decline envoy
+	option = {
+		name = rurikid_invasion.5004.b
+
+		scope:story = { set_variable = envoy_judaism_declined }
+
+		custom_tooltip = rurikid_invasion_decline_envoy
+
+		set_relation_potential_rival = scope:story.story_owner
+		scope:rus_envoy_judaism = { set_employer = scope:story.story_owner }
+
+		ai_chance = { base = 0 }
+	}
+}
+
+# the choice menu
+rurikid_invasion.5010 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5010.t
+	desc = rurikid_invasion.5010.desc
+
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = personality_rational
+	}
+
+	lower_left_portrait = {
+		character = scope:envoy_target_christianity
+		animation = idle
+	}
+
+	lower_center_portrait = {
+		character = scope:envoy_target_islam
+		animation = idle
+	}
+
+	lower_right_portrait = {
+		character = scope:envoy_target_judaism
+		animation = idle
+	}
+
+	immediate = { save_scope_as = rus_ruler }
+
+	# menu Christianity
+	option = {
+		name = rurikid_invasion.5010.a
+		trigger = {
+			custom_tooltip = {
+				text = rurikid_invasion_envoy_rejected
+				scope:story = {
+					has_variable = envoy_christianity_accepted
+					NOT = { has_variable = envoy_christianity_declined }
+				}
+			}
+		}
+		show_as_unavailable = {
+			always = yes
+		}
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5011 }
+		ai_chance = { base = 94 }
+	}
+
+	# menu Islam
+	option = {
+		name = rurikid_invasion.5010.b
+		trigger = {
+			custom_tooltip = {
+				text = rurikid_invasion_envoy_rejected
+				scope:story = {
+					has_variable = envoy_islam_accepted
+					NOT = { has_variable = envoy_islam_declined }
+				}
+			}
+		}
+		show_as_unavailable = {
+			always = yes
+		}
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5012 }
+		ai_chance = { base = 4 }
+	}
+
+	# menu Judaism
+	option = {
+		name = rurikid_invasion.5010.c
+		trigger = {
+			custom_tooltip = {
+				text = rurikid_invasion_envoy_rejected
+				scope:story = {
+					has_variable = envoy_judaism_accepted
+					NOT = { has_variable = envoy_judaism_declined }
+				}
+			}
+		}
+		show_as_unavailable = {
+			always = yes
+		}
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5013 }
+		ai_chance = { base = 1 }
+	}
+
+	# no changes
+	option = {
+		name = rurikid_invasion.5010.d
+
+		faith = {
+			change_fervor = {
+				value = 5
+				desc = rurikid_no_faith_conversion
+			}
+		}
+
+		ai_chance = {
+			base = 0
+			# if the AI converted to a reformed faith between the start and conclusion of the event chain, abort the event chain
+			modifier = {
+				NOT = { scope:story.story_owner.faith = { has_doctrine_parameter = unreformed } }
+				add = 10000
+			}
+		}
+	}
+}
+
+# menu: Christianity
+rurikid_invasion.5011 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5011.t
+	desc = rurikid_invasion.5011.desc
+
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = personality_rational
+	}
+
+	right_portrait = {
+		character = scope:envoy_target_christianity
+		animation = idle
+	}
+
+	# Orthodox
+	option = {
+		name = rurikid_invasion.5011.a
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:orthodox
+
+		scope:envoy_target_christianity = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:story.story_owner
+				opinion = 20
+			}
+		}
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 100 }
+	}
+
+	# Catholic
+	option = {
+		name = rurikid_invasion.5011.b
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:catholic
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 0 }
+	}
+
+	# go back to the menu
+	option = {
+		name = rurikid_invasion.5011.m
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5010 }
+		ai_chance = { base = 0 }
+	}
+}
+
+# menu: Islam
+rurikid_invasion.5012 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5012.t
+	desc = rurikid_invasion.5012.desc
+
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = personality_rational
+	}
+
+	right_portrait = {
+		character = scope:envoy_target_islam
+		animation = idle
+	}
+
+	# Ash'ari
+	option = {
+		name = rurikid_invasion.5012.a
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:ashari
+
+		scope:envoy_target_islam = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:story.story_owner
+				opinion = 20
+			}
+		}
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 70 }
+	}
+
+	# Isma'ili
+	option = {
+		name = rurikid_invasion.5012.b
+
+		trigger = {
+			custom_tooltip = {
+				text = shia_caliphate_has_not_appeared
+				OR = {
+					title:d_shiite = { is_title_created = yes }
+					AND = {
+						NOT = { has_game_rule = never_fatimid_invasion }
+						is_target_in_global_variable_list = {
+							name = historicinvasions_story_started
+							target = flag:fatimid_africa_story_started
+						}
+					}
+				}
+			}
+		}
+		show_as_unavailable = {
+			always = yes
+		}
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:ismaili
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 30 }
+	}
+
+	# go back to the menu
+	option = {
+		name = rurikid_invasion.5012.m
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5010 }
+		ai_chance = { base = 0 }
+	}
+}
+
+# menu: Judaism
+rurikid_invasion.5013 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5013.t
+	desc = rurikid_invasion.5013.desc
+
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = personality_rational
+	}
+
+	right_portrait = {
+		character = scope:envoy_target_judaism
+		animation = idle
+	}
+
+	# Kabarism
+	option = {
+		name = rurikid_invasion.5013.a
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:kabarism
+
+		scope:envoy_target_judaism = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:story.story_owner
+				opinion = 20
+			}
+		}
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 50 }
+	}
+
+	# Rabbinism
+	option = {
+		name = rurikid_invasion.5013.b
+
+		hidden_effect = { hi_aid_realm_faith_conversion_relaxed_effect = yes }
+		set_character_faith_with_conversion = faith:rabbinism
+
+		scope:envoy_target_judaism = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = scope:story.story_owner
+				opinion = 20
+			}
+		}
+
+		# notify players of abrahamic religion
+		every_player = {
+			limit = {
+				NOT = { this = scope:story.story_owner }
+				religion = { is_in_family = rf_abrahamic }
+			}
+			trigger_event = {
+				id = rurikid_invasion.5020
+				days = 3
+			}
+		}
+
+		ai_chance = { base = 50 }
+	}
+
+	# go back to the menu
+	option = {
+		name = rurikid_invasion.5011.m
+		scope:story.story_owner = { trigger_event = rurikid_invasion.5010 }
+		ai_chance = { base = 0 }
+	}
+}
+
+# the Rus' has converted!
+rurikid_invasion.5020 = {
+	type = character_event
+	theme = faith
+
+	title = rurikid_invasion.5020.t
+	desc = rurikid_invasion.5020.desc
+
+	right_portrait = {
+		character = scope:story.story_owner
+		animation = personality_zealous
+	}
+
+	# same faith
+	option = {
+		name = rurikid_invasion.5020.a
+
+		trigger = {
+			faith = scope:story.story_owner.faith
+		}
+	}
+
+	# same religion
+	option = {
+		name = rurikid_invasion.5020.b
+
+		trigger = {
+			NOT = { faith = scope:story.story_owner.faith }
+			religion = scope:story.story_owner.religion
+		}
+	}
+
+	# other
+	option = {
+		name = rurikid_invasion.5020.c
+
+		trigger = { always = no }
+
+		fallback = yes
+	}
+}

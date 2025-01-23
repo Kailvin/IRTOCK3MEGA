@@ -1,0 +1,36 @@
+﻿on_game_start_after_lobby = {
+	on_actions = { irtock3_on_game_start_after_lobby }
+}
+irtock3_on_game_start_after_lobby = {
+	effect = {
+	# IRToCK3: disable Nicene after the Council of Chalcedon.
+	if = {
+		limit = {
+			game_start_date >= 451.8.25
+		}
+		faith:armenian_apostolic = {
+			remove_doctrine = unavailable_doctrine
+		}
+		faith:nestorian = {
+			remove_doctrine = unavailable_doctrine
+		}
+		faith:coptic = {
+			remove_doctrine = unavailable_doctrine
+		}
+		faith:syriac = {
+			remove_doctrine = unavailable_doctrine
+		}
+		faith:chalcedonian = {
+			remove_doctrine = unavailable_doctrine
+		}
+		faith:nicene = {
+			add_doctrine = unavailable_doctrine
+		}
+	}
+	# IRToCK3: disable the Seven Houses mechanic for Persia.
+	set_global_variable = {
+		name = sevenhouses_dead
+		value = yes
+	}
+	}
+}

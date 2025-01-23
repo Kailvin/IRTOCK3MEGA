@@ -1,0 +1,17 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+    on_actions = {
+        set_tributaries_on_game_start
+    }
+}
+
+######
+
+set_tributaries_on_game_start = {
+
+    effect = {
+
+        
+    }
+}

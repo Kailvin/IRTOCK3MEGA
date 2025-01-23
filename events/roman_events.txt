@@ -1,0 +1,2388 @@
+﻿namespace = western_roman
+
+##################################################
+# #Standard Events
+# 0001 - 0010	Abandon Britannia
+# 0011 - 0020	Reform Western Rome - Hróðvitnir
+# 0021 - 0030	Reform Eastern Rome - Hróðvitnir
+# 0031 - 0040 Restore Dioceses
+# 0041 - 0050 Expand Roman Provinces
+##################################################
+
+western_roman.0001 = { #Abandon Britannia Emperor
+	type = character_event
+	title = western_roman.0001.t
+	desc = western_roman.0001.desc
+	theme = realm
+	
+	left_portrait = {
+		character = root
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = title:k_britannia.holder
+		animation = rage
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	option = {
+		name = western_roman.0001.a
+		add_gold = abandon_britannia_gold_gained
+		
+		if = {
+			limit = { any_realm_province = { has_building = real_hadrians_wall_01 } }
+			custom_tooltip = western_roman.0001.a_hadrians_wall_crumbles
+		}
+		if = {
+			limit = { any_realm_province = { has_building = dolaucothi_gold_mines_01 } }
+			custom_tooltip = western_roman.0001.a_dolaucothi_gold_mines_crumbles
+		}
+		
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_britannia.holder = {
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			becomes_independent = { change = scope:change }
+			resolve_title_and_vassal_change = scope:change
+		}
+		#Break all duchies
+		title:k_britannia = {
+			reset_title_name = yes
+			holder.top_liege = { save_scope_as = emperor_destroy_titles }
+			reset_title_name = yes
+			every_in_de_jure_hierarchy = {
+				limit = {
+					is_title_created = yes
+					holder ?= {
+						top_liege = title:k_britannia.holder
+					}
+				}
+				reset_title_name = yes
+				scope:emperor_destroy_titles = { destroy_title = prev }
+			}
+			scope:emperor_destroy_titles = { destroy_title = prev }
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { exists = global_var:britannia_dejure_splity }
+				}
+				dejure_shift_britannia_effect = yes
+			}
+
+			random_list = {
+				30 = {
+					if = {
+						limit = {
+							title:k_saxony = {
+								is_title_created = yes
+							}
+						}
+						title:k_saxony.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:old_saxon
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+				10 = {
+					if = {
+						limit = {
+							title:k_frisia = {
+								is_title_created = yes
+							}
+						}
+						title:k_frisia.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:frisa
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+				10 = {
+					if = {
+						limit = {
+							title:k_jutland = {
+								is_title_created = yes
+							}
+						}
+						title:k_jutland.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:angle
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+			}
+			set_global_variable = {
+				name = britannia_dejure_splity
+				value = yes
+			}
+			
+
+		}
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				OR = {
+					government_has_flag = government_is_imperial
+					government_has_flag = government_is_administrative
+				}
+			}
+			trigger_event = {
+				id = western_roman.0002
+				days = 10
+			}
+		}
+	}
+}
+
+western_roman.0002 = { #Abandon Britannia - Vassals
+	type = character_event
+	title = western_roman.0001.t
+	desc = western_roman.0001.desc
+	theme = realm
+	
+	left_portrait = {
+		character = title:e_western_roman_empire.holder
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = title:k_britannia.holder
+		animation = rage
+	}
+
+	option = {
+		name = "This starts a new age for the Britons"
+	}
+}
+
+##################################################
+# Restoring the Western Empire
+# Hróðvitnir
+##################################################
+
+# Founder event
+western_roman.0011 = {
+	type = character_event
+	title = western_roman.0011.t
+	desc = western_roman.0011.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		#Apply decision effects.
+		restore_the_west_effect = yes
+	}
+
+	option = {
+		name = western_roman.0011.a
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# Vassal notification event
+western_roman.0012 = {
+	type = character_event
+	title = western_roman.0012.t
+	desc = western_roman.0012.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_west_effect = yes }
+	}
+
+	option = {
+		name = western_roman.0012.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = western_roman.0012.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+#germanic notification event
+western_roman.0013 = {
+	type = character_event
+	title = western_roman.0013.t
+	desc = western_roman.0013.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_west_effect = yes }
+	}
+
+	option = {
+		name = western_roman.0013.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = western_roman.0013.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+#slavic notification event
+western_roman.0014 = {
+	type = character_event
+	title = western_roman.0014.t
+	desc = western_roman.0014.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_west_effect = yes }
+	}
+
+	option = {
+		name = western_roman.0014.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = western_roman.0014.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# Other notification event.
+western_roman.0015 = {
+	type = character_event
+	title = western_roman.0015.t
+	desc = western_roman.0015.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_west_effect = yes }
+	}
+
+	option = {
+		name = western_roman.0015.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = western_roman.0015.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+##################################################
+# Restoring the Eastern Empire
+# Hróðvitnir
+##################################################
+
+# Founder event
+western_roman.0021 = {
+	type = character_event
+	title = eastern_roman.0001.t
+	desc = eastern_roman.0001.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		#Apply decision effects.
+		restore_the_east_effect = yes
+	}
+
+	option = {
+		name = eastern_roman.0001.a
+		
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# Vassal notification event
+western_roman.0022 = {
+	type = character_event
+	title = eastern_roman.0002.t
+	desc = eastern_roman.0002.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_east_effect = yes }
+	}
+
+	option = {
+		name = eastern_roman.0002.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = eastern_roman.0002.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+#germanic notification event
+western_roman.0023 = {
+	type = character_event
+	title = eastern_roman.0003.t
+	desc = eastern_roman.0003.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_east_effect = yes }
+	}
+
+	option = {
+		name = eastern_roman.0003.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = eastern_roman.0003.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+#slavic notification event
+western_roman.0024 = {
+	type = character_event
+	title = eastern_roman.0004.t
+	desc = eastern_roman.0004.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_east_effect = yes }
+	}
+
+	option = {
+		name = eastern_roman.0004.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = eastern_roman.0004.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# Other notification event.
+western_roman.0025 = {
+	type = character_event
+	title = eastern_roman.0005.t
+	desc = eastern_roman.0005.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_honorable
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		show_as_tooltip = { restore_the_east_effect = yes }
+	}
+
+	option = {
+		name = eastern_roman.0005.a
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = eastern_roman.0005.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+western_roman.0026 = {
+	type = character_event
+	title = western_roman.0026.t
+	desc = western_roman.0026.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	artifact = {
+		target = scope:regaliaroman
+		position = lower_left_portrait
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0026.a
+	}
+	
+}
+
+
+
+western_roman.0028 = {
+	type = character_event
+	title = western_roman.0028.t
+	desc = western_roman.0028.desc
+	theme = realm
+	override_background = {
+		reference = battlefield
+	}
+	left_portrait = {
+		character = scope:nepos
+		animation = personality_vengeful
+	}
+	right_portrait = {
+		character = scope:ere_emperor
+		animation = personality_honorable
+	}
+	option = {
+		name = western_roman.0028.a
+		scope:nepos = {
+			spawn_army = {
+					name = "Illyrian Mercenaries"
+					levies = 1000
+					men_at_arms = {
+						type = light_footmen
+						#type = armored_footmen
+						stacks = 2
+					}
+					men_at_arms = {
+						type = light_horsemen
+						#type = armored_footmen
+						stacks = 2
+					}
+					location = capital_province
+					inheritable = no
+			}
+		}
+	}
+}
+
+western_roman.0029 = {
+	type = character_event
+	title = western_roman.0029.t
+	desc = western_roman.0029.desc
+	theme = realm
+	override_background = {
+		reference = throne_room
+	}
+	left_portrait = {
+		character = scope:ere_emperor
+		animation = personality_callous
+	}
+	right_portrait = {
+		character = scope:nepos
+		animation = personality_vengeful
+	}
+
+	option = { # Beeg
+		name = western_roman.0029.a
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 1000
+			}
+		}
+		remove_short_term_gold = 1000
+		add_prestige = 1000
+		scope:nepos = {
+			spawn_army = {
+					name = "Zeno's Auxiliaries"
+					levies = 2000
+					men_at_arms = {
+						type = palatinae
+						stacks = 2
+					}
+					men_at_arms = {
+						type = comitatenses
+						stacks = 6
+					}
+					men_at_arms = {
+						type = clibanarius
+						stacks = 2
+					}
+					location = capital_province
+					inheritable = no
+			}
+		}
+		scope:nepos = {
+			add_character_modifier = {
+				modifier = zenos_blessing
+				years = 10
+			}
+			add_opinion = {
+				target = scope:ere_emperor
+				opinion = 50
+				modifier = grateful_opinion
+			}
+			send_interface_toast = {
+				title = nepos_big_help.tt
+				left_icon = scope:nepos
+				right_icon = scope:ere_emperor
+			}
+		}
+		custom_tooltip = nepos_reward_tooltip
+		set_global_variable = {
+				name = helped_nepos_big
+				value = yes
+		}
+		ai_chance = {
+			base = 3
+		}
+	}
+
+	option = { # Medium
+		name = western_roman.0029.b
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 500
+			}
+		}
+		remove_short_term_gold = 500
+		add_prestige = 500
+		scope:nepos = {
+			spawn_army = {
+					name = "Zeno's Auxiliaries"
+					levies = 1500
+					men_at_arms = {
+						type = palatinae
+						stacks = 2
+					}
+					men_at_arms = {
+						type = comitatenses
+						stacks = 4
+					}
+					location = capital_province
+					inheritable = no
+			}
+		}
+		scope:nepos = {
+			add_character_modifier = {
+				modifier = zenos_blessing
+				years = 10
+			}
+			add_opinion = {
+				target = scope:ere_emperor
+				opinion = 25
+				modifier = grateful_opinion
+			}
+			send_interface_toast = {
+				title = nepos_medium_help.tt
+				left_icon = scope:nepos
+				right_icon = scope:ere_emperor
+			}
+		}
+		custom_tooltip = nepos_reward_tooltip
+		set_global_variable = {
+				name = helped_nepos_medium
+				value = yes
+		}
+		ai_chance = {
+			base = 3
+		}
+	}
+
+	option = { # Small
+		name = western_roman.0029.c
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 1000
+			}
+		}
+		remove_short_term_gold = 250
+		add_prestige = 250
+		scope:nepos = {
+			spawn_army = {
+					name = "Zeno's Auxiliaries"
+					levies = 1000
+					men_at_arms = {
+						type = palatinae
+						stacks = 1
+					}
+					men_at_arms = {
+						type = comitatenses
+						stacks = 2
+					}
+					location = capital_province
+					inheritable = no
+			}
+		}
+		scope:nepos = {
+			add_character_modifier = {
+				modifier = zenos_blessing
+				years = 10
+			}
+			add_opinion = {
+				target = scope:ere_emperor
+				opinion = 15
+				modifier = grateful_opinion
+			}
+			send_interface_toast = {
+				title = nepos_small_help.tt
+				left_icon = scope:nepos
+				right_icon = scope:ere_emperor
+			}
+		}
+		custom_tooltip = nepos_reward_tooltip
+		set_global_variable = {
+				name = helped_nepos_small
+				value = yes
+		}
+		ai_chance = {
+			base = 3
+		}
+	}
+
+	option = { # Nominal
+		name = western_roman.0029.d
+		add_prestige = -100
+		scope:nepos = {
+			add_character_modifier = {
+				modifier = zenos_blessing
+				years = 10
+			}
+			add_opinion = {
+				target = scope:ere_emperor
+				opinion = -15
+				modifier = disappointed_opinion
+			}
+			send_interface_toast = {
+				title = nepos_no_help.tt
+				left_icon = scope:nepos
+				right_icon = scope:ere_emperor
+			}
+		}
+		custom_tooltip = nepos_reward_tooltip_unlikely
+		set_global_variable = {
+				name = helped_nepos_tiny
+				value = yes
+		}
+		ai_chance = {
+			base = 90
+		}
+	}
+	option = { # Get Out!
+		name = western_roman.0029.e
+		add_prestige = -1000
+		add_pressed_claim = title:k_croatia
+		scope:nepos = {
+			add_opinion = {
+				target = scope:ere_emperor
+				opinion = -100
+				modifier = angry_opinion
+			}
+			send_interface_toast = {
+				title = nepos_booted.tt
+				left_icon = scope:nepos
+				right_icon = scope:ere_emperor
+			}
+		}
+		set_global_variable = {
+				name = helped_nepos_tiny
+				value = yes
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+western_roman.0030 = {
+	type = character_event
+	title = western_roman.0030.t
+	desc = western_roman.0030.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	right_portrait = {
+		character = title:e_byzantium.holder
+		animation = personality_greedy
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+		root = {
+			save_scope_as = nepos
+		}
+		remove_character_flag = nepos_ambition_triggered
+	}
+
+	option = { # Become Allies
+		name = western_roman.0030.a
+		create_alliance = {
+			target = title:e_byzantium.holder
+			allied_through_owner = root
+			allied_through_target = title:e_byzantium.holder
+		}
+		title:e_byzantium.holder = { # This opinion modifier controls the interaction, and is removed when breaking the alliance in any way (though on_actions)
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = root
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_medium
+					has_global_variable = helped_nepos_small
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 50
+					modifier = friendliness_opinion
+				}
+				add_prestige = 500
+			}
+			add_prestige = 500
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_big
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 25
+					modifier = friendliness_opinion
+				}
+				add_prestige = 500
+				add_hook = {
+		  			target = root
+		  			type = favor_hook
+		 		}
+			}
+			add_prestige = 250
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_tiny
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 50
+					modifier = grateful_opinion
+				}
+				add_prestige = 500
+			}
+			add_prestige = 100
+			add_hook = {
+		  		target = title:e_byzantium.holder
+		  		type = favor_hook
+		 	}
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				has_global_variable = helped_nepos_big
+				add = 9
+			}
+			modifier = {
+				has_global_variable = helped_nepos_medium
+				add = 60
+			}
+			modifier = {
+				has_global_variable = helped_nepos_small
+				add = 10
+			}
+			modifier = {
+				has_global_variable = helped_nepos_tiny
+				add = -9
+			}
+		}
+	}
+	option = { # Become Tributary
+		name = western_roman.0030.b
+		make_tributary = {
+			TYPE = tributary_permanent
+			SUZERAIN = title:e_byzantium.holder
+			TRIBUTARY = root
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_medium
+					has_global_variable = helped_nepos_small
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 75
+					modifier = friendliness_opinion
+				}
+				add_prestige = 1000
+			}
+			add_prestige = 100
+			add_hook = {
+		  		target = title:e_byzantium.holder
+		  		type = favor_hook
+		 	}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_big
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 25
+					modifier = friendliness_opinion
+				}
+				add_prestige = 1000
+			}
+			add_prestige = 250
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_tiny
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = 100
+					modifier = grateful_opinion
+				}
+				add_prestige = 1000
+				
+			}
+			add_prestige = -100
+			add_hook = {
+		  		target = title:e_byzantium.holder
+		  		type = favor_hook
+		 	}
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				has_global_variable = helped_nepos_big
+				add = 70
+			}
+			modifier = {
+				has_global_variable = helped_nepos_medium
+				add = 15
+			}
+			modifier = {
+				has_global_variable = helped_nepos_small
+				add = 0
+			}
+			modifier = {
+				has_global_variable = helped_nepos_tiny
+				add = -9
+			}
+		}
+	}
+	option = { # Remain Independent
+		name = western_roman.0030.c
+				if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_medium
+					has_global_variable = helped_nepos_small
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = -50
+					modifier = angry_opinion
+				}
+				add_hook = {
+		  			target = root
+		  			type = favor_hook
+		 		}
+			}
+			add_prestige = -250
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_big
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = -100
+					modifier = angry_opinion
+				}
+				add_hook = {
+		  			target = root
+		  			type = favor_hook
+		 		}
+			}
+			add_prestige = -500
+		}
+		if = {
+			limit = {
+				OR = {
+					has_global_variable = helped_nepos_tiny
+				}
+			}
+			title:e_byzantium.holder = {
+				add_opinion = {
+					target = root
+					opinion = -10
+					modifier = disappointed_opinion
+				}
+			}
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				has_global_variable = helped_nepos_big
+				add = -9
+			}
+			modifier = {
+				has_global_variable = helped_nepos_medium
+				add = -5
+			}
+			modifier = {
+				has_global_variable = helped_nepos_small
+				add = 10
+			}
+			modifier = {
+				has_global_variable = helped_nepos_tiny
+				add = 38
+			}
+		}
+	}
+}
+
+western_roman.0031 = {
+	type = character_event
+	title = western_roman.0031.t
+	desc = western_roman.0031.desc
+	theme = realm
+	left_portrait = {
+		character = global_var:julian
+		animation = personality_honorable
+	}
+
+	immediate = {
+		create_character = {
+			name = "Alypius"
+			gender = male
+			location = root.capital_province
+			template = alypius
+			save_scope_as = alypius
+		}
+		cp:councillor_steward = {
+			save_scope_as = steward
+		}
+	}
+	
+	option = {
+		name = western_roman.0031.a
+			scope:alypius = {
+				add_character_flag = {
+					flag = blocked_from_leaving
+					years = 5
+				}
+				set_global_variable = {
+					name = temple_builder
+					value = THIS
+				}
+			}
+			global_var:julian = {
+				add_courtier = scope:alypius
+			}
+		remove_long_term_gold = build_temple_cost
+		custom_tooltip = stewardship_temple
+		trigger_event = {
+			id = western_roman.0032
+			days = { 100 150 }
+		}
+		ai_chance = {
+			base = 98
+		}		
+	}
+
+	option = {
+		name = western_roman.0031.b
+		trigger = {
+			NOT = {
+				root = title:c_jerusalem.holder
+			}
+		}
+			title:c_jerusalem.holder = {
+				set_global_variable = {
+					name = temple_builder
+					value = THIS
+				}
+			}
+		remove_long_term_gold = build_temple_cost
+		custom_tooltip = stewardship_temple
+		trigger_event = {
+			id = western_roman.0032
+			days = { 100 150 }
+		}	
+		ai_chance = {
+			base = 1
+		}		
+	}
+
+	option = {
+		name = western_roman.0031.c
+		trigger = {
+			exists = scope:steward
+		}
+			scope:steward = {
+				set_global_variable = {
+					name = temple_builder
+					value = THIS
+				}
+			}
+		remove_long_term_gold = build_temple_cost
+		custom_tooltip = stewardship_temple
+		trigger_event = {
+			id = western_roman.0032
+			days = { 100 150 }
+		}	
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0032 = {
+	type = character_event
+	title = western_roman.0032.t
+	desc = western_roman.0032.desc
+	theme = realm
+	left_portrait = {
+		character = global_var:julian
+		animation = worry
+	}
+	
+	option = {
+		name = western_roman.0032.a
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= build_temple_cost_fifth
+			}
+		}
+		remove_long_term_gold = build_temple_cost_fifth
+		global_var:temple_builder = {
+		duel = {
+			skill = intrigue
+			value = average_skill_rating
+			40 = { #Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+				}
+				custom_tooltip = thrid_temple_fire_success
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0033
+						days = 25
+					}
+				}
+				
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -2
+				}
+				custom_tooltip = thrid_temple_fire_failure
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0034
+						days = 50
+					}
+				}
+			}
+		}
+		}
+		ai_chance = {
+			base = 90
+		}		
+	}
+
+	option = {
+		name = western_roman.0032.b
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= build_temple_cost_tenth
+			}
+		}
+		remove_long_term_gold = build_temple_cost_tenth
+		global_var:temple_builder = {
+		duel = { #Success
+			skill = intrigue
+			value = average_skill_rating
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+				}
+				custom_tooltip = thrid_temple_fire_success
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0033
+						days = 50
+					}
+				}
+				
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -2
+				}
+				custom_tooltip = thrid_temple_fire_failure
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0034
+						days = 100
+					}
+				}
+			}
+		}
+		}
+		ai_chance = {
+			base = 9
+		}		
+	}
+
+	option = {
+		name = western_roman.0032.c
+		custom_tooltip = end_temple
+		every_realm_county = {
+			limit = {
+				religion = religion:judaism_religion
+			}
+			add_county_modifier = {
+				modifier = governance_1054_upset_peasants_modifier
+				years = 25
+			}
+		}
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0033 = {
+	type = character_event
+	title = western_roman.0033.t
+	desc = western_roman.0033.desc
+	theme = secret
+	left_portrait = {
+		character = global_var:julian
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = western_roman.0033.a
+		trigger_event = {
+			id = western_roman.0035
+			days = 150
+		}
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+western_roman.0034 = {
+	type = character_event
+	title = western_roman.0034.t
+	desc = western_roman.0034.desc
+	theme = realm
+	left_portrait = {
+		character = global_var:julian
+		animation = worry
+	}
+	
+	option = {
+		name = western_roman.0034.a
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= build_temple_cost_fifth
+			}
+		}
+		remove_long_term_gold = build_temple_cost_fifth
+		global_var:temple_builder = {
+		duel = {
+			skill = intrigue
+			value = average_skill_rating
+			40 = { #Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+				}
+				custom_tooltip = thrid_temple_fire_success
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0033
+						days = 25
+					}
+				}
+				
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -2
+				}
+				custom_tooltip = thrid_temple_fire_failure
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0032
+						days = 50
+					}
+				}
+			}
+		}
+		}
+		ai_chance = {
+			base = 90
+		}		
+	}
+
+	option = {
+		name = western_roman.0034.b
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= build_temple_cost_tenth
+			}
+		}
+		remove_long_term_gold = build_temple_cost_tenth
+		global_var:temple_builder = {
+		duel = { #Success
+			skill = intrigue
+			value = average_skill_rating
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+				}
+				custom_tooltip = thrid_temple_fire_success
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0033
+						days = 50
+					}
+				}
+				
+			}
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -2
+				}
+				custom_tooltip = thrid_temple_fire_failure
+				global_var:julian = {
+					trigger_event = {
+						id = western_roman.0032
+						days = 100
+					}
+				}
+			}
+		}
+		}
+		ai_chance = {
+			base = 9
+		}		
+	}
+
+	option = {
+		name = western_roman.0034.c
+		custom_tooltip = end_temple
+		every_realm_county = {
+			limit = {
+				religion = religion:judaism_religion
+			}
+			add_county_modifier = {
+				modifier = governance_1054_upset_peasants_modifier
+				years = 25
+			}
+		}
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0035 = {
+	type = character_event
+	title = western_roman.0035.t
+	desc = western_roman.0035.desc
+	theme = realm
+	left_portrait = {
+		character = global_var:julian
+		animation = grief
+	}
+
+	option = {
+		name = western_roman.0035.a
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 1000
+			}
+		}
+		remove_long_term_gold = build_temple_cost
+		trigger_event = {
+			id = western_roman.0036
+			days = 100
+		}
+		ai_chance = {
+			base = 90
+		}		
+	}
+	option = {
+		name = western_roman.0035.b
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 500
+			}
+		}
+		remove_long_term_gold = build_temple_cost_half
+		trigger_event = {
+			id = western_roman.0036
+			days = 200
+		}
+		ai_chance = {
+			base = 9
+		}		
+	}
+	option = {
+		name = western_roman.0035.c
+		custom_tooltip = end_temple
+		every_realm_county = {
+			limit = {
+				religion = religion:judaism_religion
+			}
+			add_county_modifier = {
+				modifier = governance_1054_upset_peasants_modifier
+				years = 25
+			}
+		}
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0036 = {
+	type = character_event
+	title = western_roman.0036.t
+	desc = western_roman.0036.desc
+	theme = faith
+	left_portrait = {
+		character = global_var:julian
+		animation = personality_honorable
+	}
+
+	option = {
+		name = western_roman.0036.a
+		if = {
+			limit = {
+				title:b_jerusalem.title_province = { has_special_building = no }
+			}
+			title:b_jerusalem.title_province = {
+				add_building = temple_in_jerusalem_01
+			}
+		}
+		else = {
+			title:b_jerusalem.title_province = {
+				add_building = temple_in_jerusalem_01
+			}
+		}
+		custom_tooltip = {
+			text = faith_third_temple
+			if = {
+				limit = {
+					faith:chalcedonian = {
+						has_doctrine = unavailable_doctrine
+					}
+				}
+				faith:nicene = {
+					change_fervor = {
+						value = -75
+						desc = fervor_third_temple
+					}
+				}
+			}
+			else = {
+				faith:chalcedonian = {
+					change_fervor = {
+						value = -75
+						desc = fervor_third_temple
+					}
+				}
+			}
+			faith:rabbinism.religion = {
+				every_faith = {
+					change_fervor = {
+						value = 75
+						desc = fervor_third_temple_jew
+					}
+				}
+			}
+		}
+		global_var:julian = {
+			add_prestige = 2500
+			dynasty = {
+				add_dynasty_prestige = 500
+			}
+			if = {
+				limit = {
+					faith.religion = faith:rabbinism.religion
+				}
+				add_piety = 5000
+			}
+			add_character_modifier = rebuilt_third_temple
+			custom_tooltip = {
+				text = third_temple_reward_opinion
+				every_vassal_or_below = {
+					trigger = {
+						faith.religion = faith:nicene.religion
+						NOT = { has_trait = zealous }
+						is_ai = yes
+					}
+					random_list = {
+						33 = {}
+						67 = {
+							set_character_faith_with_conversion = global_var:julian.faith
+						}
+					}
+				}
+				every_vassal_or_below = {
+					trigger = {
+						faith.religion = faith:rabbinism.religion
+						is_ai = yes
+					}
+					add_opinion = {
+						modifier = respect_opinion
+						target = global_var:julian
+						opinion = 100
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = jewish_convert_third_temple
+			if = {
+				limit = {
+					NOT = {
+					title:c_jerusalem = {
+							religion = religion:judaism_religion
+					}
+					}
+				}
+				title:c_jerusalem = {
+					set_county_faith = faith:rabbinism
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+					title:c_ghazza = {
+							religion = religion:judaism_religion
+					}
+					}
+				}
+				title:c_ghazza = {
+					set_county_faith = faith:rabbinism
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+					title:c_jaffa = {
+							religion = religion:judaism_religion
+					}
+					}
+				}
+				title:c_jaffa = {
+					set_county_faith = faith:rabbinism
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+					title:c_tiberias = {
+							religion = religion:judaism_religion
+					}
+					}
+				}
+				title:c_tiberias = {
+					set_county_faith = faith:rabbinism
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+					title:c_acre = {
+							religion = religion:judaism_religion
+					}
+					}
+				}
+				title:c_acre = {
+					set_county_faith = faith:rabbinism
+				}
+			}
+		}
+		ai_chance = {
+			base = 99
+		}		
+	}
+	#option = {
+	#	name = western_roman.0036.b
+	#	ai_chance = {
+	#		base = 1
+	#	}		
+	#}
+}
+
+western_roman.0037 = {
+	type = character_event
+	title = western_roman.0037.t
+	desc = western_roman.0037.desc
+	theme = realm
+	left_portrait = {
+		character = global_var:julian
+		animation = grief
+	}
+
+	immediate = {
+		cp:councillor_steward = {
+			save_scope_as = steward
+		}
+	}
+
+	option = {
+		name = western_roman.0037.a
+		trigger = {
+			NOT = {
+				root = title:c_jerusalem.holder
+			}
+		}
+			title:c_jerusalem.holder = {
+				set_global_variable = {
+					name = temple_builder
+					value = THIS
+				}
+			}	
+		ai_chance = {
+			base = 9
+		}		
+	}
+
+	option = {
+		name = western_roman.0037.b
+		trigger = {
+			exists = scope:steward
+		}
+			scope:steward = {
+				set_global_variable = {
+					name = temple_builder
+					value = THIS
+				}
+			}
+		ai_chance = {
+			base = 9
+		}		
+	}
+
+	option = {
+		name = western_roman.0037.c
+		trigger = {
+			exists = global_var:julian
+		}
+		global_var:julian = {
+			set_global_variable = {
+					name = temple_builder
+					value = THIS
+			}
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+
+}
+
+
+
+
+
+western_roman.0040 = {
+	type = character_event
+	title = western_roman.0040.t
+	desc = western_roman.0040.desc
+	theme = realm
+	left_portrait = {
+		character = scope:attacker
+		animation = personality_vengeful
+	}
+	lower_center_portrait = {
+		character = global_var:hildirix
+		animation = fear
+	}
+	right_portrait = {
+		character = root
+		animation = rage
+	}
+	immediate = {
+		title:e_byzantium.holder = {
+			save_scope_as = attacker
+		}
+	}
+
+	option = {
+		name = western_roman.0040.a
+		execute_prisoner_effect = {
+			VICTIM = global_var:hildirix
+			EXECUTIONER = root
+		}
+		reverse_add_opinion = {
+			modifier = angry_opinion
+			target = title:e_byzantium.holder
+			opinion = -50
+		}
+		ai_chance = {
+			base = 100
+		}		
+	}
+
+	option = {
+		name = western_roman.0040.b
+		global_var:hildirix = {
+			remove_character_flag = is_being_tortured
+		}
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
+
+
+western_roman.0042 = {
+	type = character_event
+	title = western_roman.0042.t
+	desc = western_roman.0042.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = western_roman.0042.a
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+
+
+western_roman.0045 = {
+	type = character_event
+	title = western_roman.0045.t
+	desc = western_roman.0045.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+
+	immediate = {
+		root = {
+			save_scope_as = emperor
+		}
+		title:k_italy.holder = {
+			save_scope_as = nepos
+		}
+	}
+
+	option = {
+		name = western_roman.0045.a
+
+		add_prestige = -1000
+		scope:nepos = {
+			add_opinion = {
+				modifier = hate_opinion
+				target = scope:emperor
+				opinion = -50
+			}
+		}
+
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		scope:nepos = {
+			change_liege = {
+				liege = scope:emperor
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		if = {
+			limit = {
+				scope:nepos = {
+					NOT = {
+						OR = {
+						has_government = imperial_government
+						has_government = administrative_government
+						}
+					}
+				}
+			}
+			scope:nepos = { 
+				if = {
+					limit = {
+						has_dlc_feature = roads_to_power
+					}
+						change_government = administrative_government
+					}
+					else = {
+						change_government = imperial_government
+				} 
+			}
+		}
+
+		if = {
+			limit = {
+				is_permanent_tributary = {
+                    SUZERAIN = scope:emperor
+                    TRIBUTARY = scope:nepos
+                }
+			}
+			scope:nepos = {
+                unset_tributary = {
+                    TRIBUTARY = scope:emperor
+                    TRIBUTARY_BASE_TYPE = flag:permanent
+        		}  
+            } 
+		}
+
+		ai_chance = {
+			base = 5
+		}		
+	}
+
+	option = {
+		name = western_roman.0045.b
+		trigger = {
+			OR = {
+				is_ai = no
+				gold >= 500
+			}
+		}
+
+		remove_long_term_gold = 500
+		add_hook = {
+			type = loyalty_hook
+			target = scope:nepos
+		}
+		scope:nepos = {
+			add_prestige = 1000
+			add_prestige_level = 1
+			get_title = title:e_western_roman_empire
+			add_opinion = {
+				modifier = friendliness_opinion
+				target = scope:emperor
+				opinion = 50
+			}
+		}
+
+		if = {
+			limit = {
+				scope:nepos = {
+					NOT = {
+						OR = {
+						has_government = imperial_government
+						has_government = administrative_government
+						}
+					}
+				}
+			}
+			scope:nepos = { 
+				if = {
+					limit = {
+						has_dlc_feature = roads_to_power
+					}
+						change_government = administrative_government
+					}
+					else = {
+						change_government = imperial_government
+				}  
+			}
+		}
+
+		if = {
+			limit = {
+				title:e_italy = {
+					is_titular = no
+				}
+			}
+			hidden_effect = {
+			title:e_italy = {
+				every_in_de_jure_hierarchy = {
+					set_de_jure_liege_title = title:e_western_roman_empire
+				}
+			}
+			}
+		}
+
+		ai_chance = {
+			base = 20
+		}		
+	}
+
+	option = {
+		name = western_roman.0045.c
+
+		add_prestige = 500
+		add_hook = {
+			type = favor_hook
+			target = scope:nepos
+		}
+
+		scope:nepos = {
+			add_prestige = 500
+			add_opinion = {
+				modifier = friendliness_opinion
+				target = scope:emperor
+				opinion = 25
+			}
+		}
+
+		ai_chance = {
+			base = 20
+		}		
+	}
+}
+
+western_roman.0050 = { #Restore Diocese of Britannia
+	title = western_roman.0050.t
+	desc = western_roman.0050.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0050.option
+		custom_tooltip = western_roman.0050.option.tooltip_1
+		custom_tooltip = western_roman.0050.option.tooltip_2
+	}
+}
+
+western_roman.0051 = { #Restore Diocese of Septem Provinciae
+	title = western_roman.0051.t
+	desc = western_roman.0051.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0051.option
+		custom_tooltip = western_roman.0051.option.tooltip_1
+		custom_tooltip = western_roman.0051.option.tooltip_2
+	}
+}
+
+western_roman.0052 = { #Restore Diocese of Gallia
+	title = western_roman.0052.t
+	desc = western_roman.0052.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0052.option
+		custom_tooltip = western_roman.0052.option.tooltip_1
+		custom_tooltip = western_roman.0052.option.tooltip_2
+	}
+}
+
+western_roman.0053 = { #Restore Diocese of Hispania
+	title = western_roman.0053.t
+	desc = western_roman.0053.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0053.option
+		custom_tooltip = western_roman.0053.option.tooltip_1
+		custom_tooltip = western_roman.0053.option.tooltip_2
+	}
+}
+
+western_roman.0060 = { #Create Province of Caledonia
+	title = western_roman.0060.t
+	desc = western_roman.0060.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0060.option
+		custom_tooltip = western_roman.0060.option.tooltip_1
+		custom_tooltip = western_roman.0060.option.tooltip_2
+	}
+}
+
+western_roman.0061 = { #Create Province of Hibernia
+	title = western_roman.0061.t
+	desc = western_roman.0061.desc
+	scope = character
+	theme = diplomacy
+	override_background = {
+		reference = throne_room_mediterranean
+	}
+	left_portrait = {
+		character = root
+		animation = war_over_win
+	}
+
+	immediate = {
+		play_music_cue = "TFE_General_Cue"
+	}
+
+	option = {
+		name = western_roman.0061.option
+		custom_tooltip = western_roman.0061.option.tooltip_1
+		custom_tooltip = western_roman.0061.option.tooltip_2
+	}
+}
+
+
+
+western_roman.0063 = {
+	type = character_event
+	title = western_roman.0063.t
+	desc = western_roman.0063.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = western_roman.0063.a
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+
+
+western_roman.0067 = {
+	type = character_event
+	title = western_roman.0067.t
+	desc = western_roman.0067.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+
+	option = {
+		name = western_roman.0067.a
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+
+
+western_roman.0070 = {
+	type = character_event
+	title = western_roman.0070.t
+	desc = western_roman.0070.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = rage
+	}
+
+	option = {
+		name = western_roman.0067.a
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+
+
+
+
+
+
+western_roman.0078 = {
+	type = character_event
+	title = western_roman.0078.t
+	desc = western_roman.0078.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:migration_leader
+		animation = sadness
+	}
+
+	option = {
+		name = western_roman.0078.a
+		ai_chance = {
+			base = 100
+		}		
+	}
+}
+
+western_roman.0079 = {
+	type = character_event
+	title = western_roman.0079.t
+	desc = western_roman.0079.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = scope:migration_target.holder.top_liege
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:migration_leader
+		animation = sadness
+	}
+
+	immediate = {
+		scope:migration_target.duchy = {
+			save_scope_as = target_duchy
+		}
+	}
+
+	option = {
+		name = western_roman.0079.a
+		custom_tooltip = western_roman.0079.migration_target
+		hidden_effect = {
+			start_war = {
+				cb = event_nomadic_migration_cb 
+				target = scope:migration_target.holder.top_liege
+				target_title = scope:migration_target.duchy
+			}
+			scope:migration_target.duchy = {
+				add_to_list = already_target_migration
+			}
+			scope:migration_target.holder.top_liege = {
+				trigger_event = western_roman.0078
+			}
+		}
+		ai_chance = {
+			base = 100
+		}		
+	}
+	option = {
+		name = western_roman.0079.b
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0080 = {
+	type = character_event
+	title = western_roman.0079.t
+	desc = western_roman.0079.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = scope:migration_target.holder.top_liege
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:migration_leader
+		animation = sadness
+	}
+
+	immediate = {
+		scope:migration_target.duchy = {
+			save_scope_as = target_duchy
+		}
+	}
+
+	option = {
+		name = western_roman.0079.a
+		custom_tooltip = western_roman.0079.migration_target
+		hidden_effect = {
+			start_war = {
+				cb = event_germanic_migration_cb 
+				target = scope:migration_target.holder.top_liege
+				target_title = scope:migration_target.duchy
+			}
+			scope:migration_target.duchy = {
+				add_to_list = already_target_migration
+			}
+			scope:migration_target.holder.top_liege = {
+				trigger_event = western_roman.0078
+			}
+		}
+		ai_chance = {
+			base = 100
+		}		
+	}
+	option = {
+		name = western_roman.0079.b
+		ai_chance = {
+			base = 1
+		}		
+	}
+}
+
+western_roman.0081 = {
+	type = character_event
+	title = western_roman.0081.t
+	desc = western_roman.0081.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_rhomaion.dds" }
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	option = {
+		name = western_roman.0081.a
+		ai_chance = {
+			base = 1
+		}		
+	}
+}

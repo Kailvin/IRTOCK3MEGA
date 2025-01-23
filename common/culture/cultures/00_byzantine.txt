@@ -1,0 +1,116 @@
+﻿greek = {
+	color = greek
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_byzantine
+	language = language_greek
+	martial_custom = martial_custom_male_only
+
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_roman_ceremonies
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_byzantine_succession
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_palace_politics
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	dlc_tradition = {
+		trait = tradition_religious_patronage
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_religious_patronage
+	}
+
+	name_list = name_list_greek
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+cappadocian = {
+	color = { 0.8 0.15 0.6 }
+
+	ethos = ethos_stoic
+	heritage = heritage_byzantine
+	language = language_greek
+	martial_custom = martial_custom_male_only
+
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	traditions = {
+		tradition_horse_breeder # Dyst: Land of the Beautiful Horses
+		tradition_hill_dwellers # Dyst: In the famously rugged parts of Anatolia, very well suited towards it historically
+		tradition_underground_cities # Dyst: famous underground cities of Cappadocia
+	}
+
+	name_list = name_list_greek
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+lesbian = {
+	color = { 0.82 0.38 0.65 }
+	parents = { greek }
+
+	ethos = ethos_courtly
+	heritage = heritage_byzantine
+	language = language_greek
+	martial_custom = martial_custom_equal
+
+	dlc_tradition = {
+		trait = tradition_ep3_imperial_tagmata
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_palace_politics
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_formation_fighting
+	}
+	dlc_tradition = {
+		trait = tradition_ep3_cultivated_sophistication
+		requires_dlc_flag = roads_to_power
+		fallback = tradition_legalistic
+	}
+	traditions = {
+		tradition_sapphic_romance
+	}
+
+	name_list = name_list_greek
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

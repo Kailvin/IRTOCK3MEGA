@@ -1,0 +1,550 @@
+﻿on_game_start = {
+	on_actions = {
+		on_roman_government_start
+	}
+	on_actions = {
+		delay = { days = 1 }
+		on_government_change_start
+	}
+}
+
+on_government_change_start = {
+	effect = {
+		if = {
+			limit = {
+				title:e_byzantium = {
+					is_title_created = yes
+				}
+			}
+			title:e_byzantium.holder ?= {
+				if = {
+					limit = {
+						has_dlc_feature = roads_to_power
+					}
+					change_government = administrative_government
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						has_government = feudal_government
+						has_government = republic_government
+						}
+					}
+					if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+						}
+						change_government = imperial_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						change_government = roman_government
+					}
+				}
+			}
+		}
+		
+		
+		if = {
+			limit = {
+				title:e_persia = {
+					is_title_created = yes
+				}
+			}
+			title:e_persia.holder ?= {
+				change_government = eranshar_government
+				every_vassal_or_below = {
+					limit = {
+						has_government = feudal_government
+						
+					}
+					change_government = eranshar_government
+				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_western_roman_empire = {
+					is_title_created = yes
+				}
+			}
+			title:e_western_roman_empire.holder ?= {
+				if = {
+					limit = {
+						has_dlc_feature = roads_to_power
+					}
+					change_government = administrative_government
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						has_government = feudal_government
+						has_government = republic_government
+						}
+						
+					}
+					if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+						}
+						change_government = imperial_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						change_government = roman_government
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_roman_empire = {
+					is_title_created = yes
+				}
+			}
+			title:e_roman_empire.holder ?= {
+				if = {
+					limit = {
+						has_dlc_feature = roads_to_power
+					}
+					change_government = administrative_government
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+						has_government = feudal_government
+						has_government = republic_government
+						}
+						
+					}
+					if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier >= tier_barony
+						}
+						change_government = imperial_government
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						change_government = roman_government
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_caspian-pontic_steppe = {
+					is_title_created = yes
+				}
+			}
+			title:e_caspian-pontic_steppe.holder ?= {
+				change_government = nomadic_government
+			}
+		}
+		
+	}
+}
+
+on_roman_government_start = {
+	effect = {
+		if = {
+			limit = {
+				title:e_western_roman_empire = {
+					is_title_created = yes
+				}
+			}
+			title:e_western_roman_empire.holder ?= {
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+							has_government = feudal_government
+							has_government = republic_government
+							government_has_flag = government_is_administrative
+						}
+						
+					}
+					if = {
+						limit = {
+							highest_held_title_tier > tier_county
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+						random_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										THIS = PREV.capital_county
+									}
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier > tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = imperial_government
+						
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = roman_government
+						
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_byzantium = {
+					is_title_created = yes
+				}
+			}
+			title:e_byzantium.holder ?= {
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+							has_government = feudal_government
+							has_government = republic_government
+							government_has_flag = government_is_administrative
+						}
+						
+					}
+					if = {
+						limit = {
+							highest_held_title_tier > tier_county
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+						random_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										THIS = PREV.capital_county
+									}
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier > tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = imperial_government
+						
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = roman_government
+						
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_roman_empire = {
+					is_title_created = yes
+				}
+			}
+			title:e_roman_empire.holder ?= {
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				random_held_title = {
+					limit = {
+						AND = {
+							tier = tier_county
+							NOT = {
+								THIS = PREV.capital_county
+							}
+							NOT = {
+								title_province = {
+									has_holding_type = estate_holding
+								}
+							}
+						}
+					}
+					title_province = {
+						set_holding_type = estate_holding
+					}
+				}
+				every_vassal_or_below = {
+					limit = {
+						OR = {
+							has_government = feudal_government
+							has_government = republic_government
+							government_has_flag = government_is_administrative
+						}
+						
+					}
+					if = {
+						limit = {
+							highest_held_title_tier > tier_county
+							has_dlc_feature = roads_to_power
+						}
+						change_government = administrative_government
+						random_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										THIS = PREV.capital_county
+									}
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier > tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = imperial_government
+						
+					}
+					else_if = {
+						limit = {
+							highest_held_title_tier = tier_county
+						}
+						every_held_title = {
+							limit = {
+								AND = {
+									tier = tier_county
+									NOT = {
+										title_province = {
+											has_holding_type = estate_holding
+										}
+									}
+								}
+							}
+							title_province = {
+								set_holding_type = estate_holding
+							}
+						}
+						change_government = roman_government
+						
+					}
+				}
+			}
+		}
+		
+	}
+}

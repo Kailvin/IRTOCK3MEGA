@@ -1,0 +1,31 @@
+﻿### Toast SFX
+@default_toast_soundeffect = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notification_toast_generic"
+@toast_soundeffect_neutral = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_neutral"
+@toast_soundeffect_good = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_positive"
+@toast_soundeffect_bad = "event:/SFX/UI/Notifications/Toasts/sfx_ui_notifications_toast_negative"
+
+### Message SFX
+@default_msg_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_neutral"
+@msg_neutral_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_neutral"
+@msg_good_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_positive"
+@msg_bad_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_negative"
+
+event_tribute_paid = {
+	display = feed
+	message_filter_type = event_tribute_paid
+	title = event_message_title
+	desc = event_message_effect
+	icon = "money"
+	style = good
+}
+
+### Minorities messages
+
+sea_minority_growth = {
+	display = feed
+	message_filter_type = event_minority
+	title = event_message_title
+	desc = event_message_effect
+	icon = "gfx/interface/icons/modifiers/sea_culture_minority_large.dds"
+}
+

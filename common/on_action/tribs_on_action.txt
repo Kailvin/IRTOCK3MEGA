@@ -1,0 +1,77 @@
+﻿on_game_start= {
+	on_actions = {
+		on_trib_set_start
+	}
+}
+
+on_trib_set_start = {
+	effect = {
+		set_global_variable = {
+            name = custom_map_mode
+            value = flag:none
+        }
+		every_ruler = {
+			if = {
+				limit = {
+					government_has_flag = government_is_nomadic
+				}
+				add_realm_law_skip_effects = nomadic_authority_1
+			}
+			else_if = {
+				limit = {
+					government_has_flag = government_is_gupta
+				}
+				add_realm_law_skip_effects = gupta_authority_1
+			}
+			else_if = {
+				limit = {
+					government_has_flag = government_is_eranshar
+				}
+				add_realm_law_skip_effects = eranshar_authority_1
+			}
+			else_if = {
+				limit = {
+					government_has_flag = government_is_city_state
+				}
+				add_realm_law_skip_effects = city_state_authority_1
+			}
+			else_if = {
+				limit = {
+					OR = {
+						government_has_flag = government_is_imperial
+						government_has_flag = government_is_imperial_cult
+						government_has_flag = government_is_autocratic
+						government_has_flag = government_is_autocratic_ep3
+						government_has_flag = government_is_administrative
+					}
+				}
+				add_realm_law_skip_effects = imperial_authority_2
+			}
+		}
+		
+		
+		title:c_rhodos = {
+			set_variable = {
+				name = monument_existing
+				value = yes
+			}
+			set_variable = {
+				name = monument_material
+				value = flag:copper
+			}
+			set_variable = {
+				name = historical_monument 
+				value = yes
+			}
+			set_variable = {
+				name = colossus_monument
+				value = yes
+			}
+			add_county_modifier = statue_copper
+			holder = {
+				add_character_modifier = statue_char_copper
+			}
+		}
+		
+	}
+}

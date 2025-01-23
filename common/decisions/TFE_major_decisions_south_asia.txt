@@ -1,0 +1,157 @@
+﻿#Reform the Indo-Scythian Kingdom
+
+reform_indo_scythian_kingdom = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+
+	desc = reform_indo_scythian_kingdom_desc
+	selection_tooltip = reform_indo_scythian_kingdom_tooltip
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_landed_or_landless_administrative = yes
+		exists = capital_province
+		
+		OR = {
+			culture = culture:shaka
+			culture = { any_parent_culture_or_above = { this = culture:shaka }}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 3
+		is_independent_ruler = yes
+		completely_controls = title:k_gujarat
+		completely_controls = title:k_malwa
+		completely_controls = title:k_rajputana
+		completely_controls = title:k_delhi
+		completely_controls = title:k_punjab
+		completely_controls = title:k_sindh
+		completely_controls = title:k_sistan
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	cost = {
+		# Based on Revive Greater Armenia
+		prestige = 2000
+		piety = 1000
+	}
+
+	effect = {
+		show_as_tooltip = {
+			restore_indo_scythian_kingdom_decision_scripted_effect = yes
+		}
+		save_scope_as = founder
+		trigger_event = {
+			id = tfe_south_asia_decision.1001
+		}
+		#Notify other players.
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				is_within_diplo_range = { CHARACTER = root }
+			}
+			trigger_event = tfe_south_asia_decision.1002
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+
+#Expand Aryavarta to the West and South
+
+expand_aryavarta_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	decision_group_type = major
+
+	desc = expand_aryavarta_decision_desc
+	selection_tooltip = expand_aryavarta_decision_tooltip
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed_or_landless_administrative = yes
+		AND = {
+			exists = capital_county
+			title:e_bengal = { is_de_jure_liege_or_above_target = root.capital_county }
+		}
+		culture ?= { has_cultural_pillar = heritage_indo_aryan }
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:expand_aryavarta_decision
+			}
+		}
+	}
+	
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:e_bengal
+		completely_controls = title:k_maharastra
+		completely_controls = title:k_telingana
+		completely_controls = title:k_andhra
+		completely_controls = title:k_karnata
+		completely_controls = title:k_sistan
+		completely_controls = title:k_kabulistan
+		completely_controls = title:k_makran
+		
+		prestige_level >= 5
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		prestige = 2000
+		piety = 2000
+	}
+
+	effect = {
+		title:k_maharastra = { set_de_jure_liege_title = title:e_bengal }
+		title:k_telingana = { set_de_jure_liege_title = title:e_bengal }
+		title:k_andhra = { set_de_jure_liege_title = title:e_bengal }
+		title:k_karnata = { set_de_jure_liege_title = title:e_bengal }
+		title:k_sistan = { set_de_jure_liege_title = title:e_bengal }
+		title:k_kabulistan = { set_de_jure_liege_title = title:e_bengal }
+		title:k_makran = { set_de_jure_liege_title = title:e_bengal }
+		dynasty = { add_dynasty_prestige = 500 }
+
+		save_scope_as = founder
+		trigger_event = tfe_south_asia_decision.3001
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:expand_aryavarta_decision
+			}
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+

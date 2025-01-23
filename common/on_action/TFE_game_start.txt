@@ -1,0 +1,709 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+	events = {
+		migration.0014  # Start the migration cycle
+		tfe_brythonic_adventurer.0004
+	}
+	on_actions = {
+		TFE_on_game_start
+		
+		
+		
+	}
+}
+
+
+
+TFE_on_game_start = {
+	effect = {
+		title:b_alexandria.title_province = {
+			add_province_modifier = library_construct
+		}
+		every_ruler = {
+			limit = {
+				culture = {
+					has_cultural_tradition = tradition_nomadic_migrations
+				}
+				has_government = tribal_government
+			}
+			change_government = nomadic_government
+		}
+		every_ruler = {
+			limit = {
+				culture = {
+					has_cultural_tradition = tradition_migrations
+				}
+				has_government = nomadic_government
+			}
+			change_government = tribal_government
+		}
+		every_ruler = {
+			limit = {
+				government_allows = administrative
+				top_liege = { government_allows = administrative }
+				OR = {
+					is_house_head = yes
+					house.house_head = { is_landed = no }
+				}
+				primary_title.tier >= tier_duchy
+				NOT = {
+					any_held_title = { is_noble_family_title = yes }
+				}
+				house.house_head = {
+					NOT = {
+						any_held_title = { is_noble_family_title = yes }
+					}
+				}
+			}
+			if = {
+				limit = { is_independent_ruler = no }
+				add_character_flag = not_indy
+				liege = { save_scope_as = old_liege }
+			}
+			create_noble_family_effect = yes
+			domicile ?= { set_up_domicile_estate_effect = yes }
+			save_scope_as = temp_ruler
+			scope:temp_ruler = {
+				add_trait = governor
+				set_variable = { name = init_gov_val value = 0 }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.age }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.diplomacy }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.martial }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.stewardship }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.intrigue }
+				change_variable = { name = init_gov_val add = scope:temp_ruler.learning }
+				change_variable = { name = init_gov_val multiply = 0.5 }
+				add_trait_xp = {
+					trait = governor
+					value = scope:temp_ruler.var:init_gov_val
+				}
+				#increase_governance_effect = { VALUE = scope:temp_ruler.var:init_gov_val }
+			}
+			if = {
+				limit = { has_character_flag = not_indy }
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = change
+					add_claim_on_loss = no
+				}
+				change_liege = {
+					liege = scope:old_liege
+					change = scope:change
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+			remove_character_flag = not_indy
+		}
+		title:b_al-barkat.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+		}
+		title:b_benin-city.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = walls_of_benin_01
+		}
+		title:b_vemulavada.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+		}
+		title:b_bamiyan.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = buddhas_of_bamian_01
+		}
+		title:b_alamut.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = alamut_castle_01
+		}
+		title:b_pagan.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = ananda_temple_01
+		}
+		title:b_chanderi.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = khajuraho_01
+		}
+		title:b_tanjavur.title_province = {
+			if = {
+				limit = {
+					OR = {
+						has_holding_type = city_holding
+						has_holding_type = church_holding
+					}
+				}
+				set_holding_type = castle_holding
+			}
+			add_special_building_slot = brihadeeswarar_temple_01
+		}
+		
+		faith:basque_pagan = {
+			# Remove the restrictions on converting to Basque paganism.
+			remove_variable = block_conversion_till_decision_taken
+		}
+		
+		
+		if = {
+			limit = {
+				game_start_date >= 393.1.1
+			}
+			faith:jovinian = {
+				remove_doctrine = unavailable_doctrine
+			}			
+			set_global_variable = {
+				name = jovinianism_spawned
+				value = yes
+			}
+		}
+		if = {
+			limit = {
+				game_start_date >= 490.1.1
+			}
+			faith:mazdakism = {
+				remove_doctrine = unavailable_doctrine
+			}			
+			set_global_variable = {
+				name = mazdakism_spawned
+				value = yes
+			}
+		}
+		
+		
+		
+		
+		if = {
+			limit = {
+				game_start_date >= 450.1.1
+			}
+			set_global_variable = {
+				name = slavs_split
+				value = yes
+			}
+		}
+		if = {
+			limit = {
+				game_start_date >= 405.1.1
+			}
+			
+		}
+		else = {
+			
+			#### Set the High Priesthood capitals
+			title:d_mazdayasna = {
+				set_capital_county = title:c_baghdad
+			}
+			title:d_gayomarthianism = {
+				set_capital_county = title:c_baghdad
+			}
+			title:d_khurmazta = {
+				set_capital_county = title:c_baghdad
+			}
+			title:d_mazdakism = {
+				set_capital_county = title:c_baghdad
+			}
+			title:d_khurramism = {
+				set_capital_county = title:c_baghdad
+			}
+			title:d_urartuism = {
+				set_capital_county = title:c_baghdad
+			}
+		}
+		if = {
+			limit = {
+				game_start_date >= 476.9.4
+			}
+			
+			faith:armenian_apostolic = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:nestorian = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:coptic = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:syriac = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:chalcedonian = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:nicene = {
+				add_doctrine = unavailable_doctrine
+			}
+			
+			
+		}
+		
+		#if = {
+		#	limit = {
+		#		game_start_date > 500
+		#	}
+		#	tiele_split_532_effect = yes
+		#}
+		
+		
+		if = {
+			limit = {
+				game_start_date = 632.6.8
+			}
+			faith:zurvanism = {
+				remove_doctrine = unavailable_doctrine
+			}
+			faith:khurramism = {
+				remove_doctrine = unavailable_doctrine
+			}
+		}
+		
+		every_independent_ruler = {
+			limit = {
+				primary_title.tier = tier_empire
+				NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
+			}
+			
+			save_scope_as = current_emperor
+			
+			
+			#new_official_imperial_faith_effect_skip_effects = { EMPIRE = scope:current_emperor.primary_title FAITH = scope:current_emperor.faith }
+			#title:e_roman_empire = {
+			#	set_variable = {
+			#		name = official_imperial_faith
+			#		value = faith:nicene
+			#	}
+			#}
+		}
+		
+		
+		# Cybr: Failsafe to add missionary doctrines to any faith that doesn't have it for some reason (such as faiths added by other mods like RICE)
+		every_religion_global = {
+			every_faith = {
+				limit = {
+					NOR = {
+						has_doctrine = doctrine_missionary_encouraged
+						has_doctrine = doctrine_missionary_allowed
+						has_doctrine = doctrine_missionary_not_allowed
+					}
+				}
+				add_doctrine = doctrine_missionary_not_allowed
+			}
+		}
+
+
+		
+		
+		
+
+		
+
+
+		
+
+
+		if = {
+			limit = {
+				game_start_date >= 366.1.1
+			}		
+			set_global_variable = {
+				name = TFE_395_earthquake_global_flag
+				value = yes
+			}
+		}
+
+
+	}
+}
+
+# Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
+on_game_start_after_lobby = {
+	on_actions = {
+		TFE_on_game_start_after_lobby
+	}
+}
+TFE_on_game_start_after_lobby = {
+	effect = {
+
+		TFE_on_game_start_landless_adventurers_effect = yes
+
+		#if = {
+		#	limit = {
+		#		culture:anglo_saxon = {
+		#			culture_number_of_counties = 0
+		#		}
+		#	}
+			#culture:anglo_saxon = {
+			#	set_culture_name = {
+			#		noun = pcjkkjlmbprjjl
+			#		collective_noun = pcjkkjlmbprjjl
+			#		prefix = pcjkkjlmbprjjl
+			#	}
+			#}
+		#}
+		
+		# Set Cultural Acceptance for Romans and Greeks
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_latin
+			}
+			change_cultural_acceptance = {
+				target = culture:greek
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		
+		# Set Cultural Acceptance for Mauro Romans and Berbers
+		culture:mauro_roman = {
+			change_cultural_acceptance = {
+				target = culture:gaetulian
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:maurian
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:afro_roman
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		culture:afro_roman = {
+			change_cultural_acceptance = {
+				target = culture:gaetulian
+				value = 20
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:maurian
+				value = 20
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_ruler = {
+			limit = {
+				OR = {
+					culture = culture:afro_roman
+					culture = culture:mauro_roman
+				}
+			}
+			learn_language = language_berber
+		}
+		# Set Cultural Acceptance for Indo-Aryans and Dravidians
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_indo_aryan
+			}
+			change_cultural_acceptance = {
+				target = culture:kannada
+				value = 70
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_indo_aryan
+			}
+			change_cultural_acceptance = {
+				target = culture:telugu
+				value = 70
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_indo_aryan
+			}
+			change_cultural_acceptance = {
+				target = culture:malaiya
+				value = 70
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_indo_aryan
+			}
+			change_cultural_acceptance = {
+				target = culture:newari
+				value = 70
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		every_culture_global = {
+			limit = {
+				has_cultural_pillar = heritage_indo_aryan
+			}
+			change_cultural_acceptance = {
+				target = culture:tamil
+				value = 70
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		culture:kachari = {
+			change_cultural_acceptance = {
+				target = culture:varendri
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+			change_cultural_acceptance = {
+				target = culture:bengali
+				value = 40
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+		if = {
+			limit = {
+				current_date <= 650.1.1
+			}
+			# Abby: Sike, Bon actually hasn't been reformed yet
+			# This is under game start after lobby, and so will happen after the vanilla one that sets it to reformed which is under game start
+			faith:old_bon = {
+				remove_variable = has_been_reformed
+			}
+			faith:bon = {
+				add_doctrine = unavailable_doctrine
+			}
+		}
+	}
+}
+
+
+
+#TFE_on_game_start_writing_traditions = {
+#	effect = {
+#		if = {
+#			limit = {
+#				has_dlc_feature = royal_court
+#				always = no
+#			}
+#			culture:roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:hispano_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:gallo_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:britano_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:rhaetio_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:illyro_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:dacio_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:thracio_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:afro_roman = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:rhaetian = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:castran = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:asturian = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:cantabrian = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:basque = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:gaul = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:illyrian = {
+#				add_culture_tradition = tradition_script_latin
+#			}
+#			culture:greek = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:aegyptian = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:syrian = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:phrygian = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:cappadocian = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:pontic = {
+#				add_culture_tradition = tradition_script_greek
+#			}
+#			culture:gaelic = {
+#				add_culture_tradition = tradition_script_ogham
+#			}
+#			culture:pictish = {
+#				add_culture_tradition = tradition_script_ogham
+#			}
+#			culture:briton = {
+#				add_culture_tradition = tradition_script_ogham
+#			}
+#			culture:maurian = {
+#				add_culture_tradition = tradition_script_tifinagh
+#			}
+#			culture:himyarite = {
+#				add_culture_tradition = tradition_script_south_arabian
+#			}
+#			culture:punic = {
+#				add_culture_tradition = tradition_script_phoenician
+#			}
+#			culture:frankish = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:old_saxon = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:angle = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:jute = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:frisa = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:alamannic = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:old_suebi = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:burgundian = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:vandal = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:thuringian = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:langobard = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:varinian = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:rugian = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:gautish = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:gutish = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:norse = {
+#				add_culture_tradition = tradition_script_runic
+#			}
+#			culture:gothic = {
+#				add_culture_tradition = tradition_script_gothic
+#			}
+#			culture:kemetic = {
+#				add_culture_tradition = tradition_script_coptic
+#			}
+#			culture:nubian = {
+#				add_culture_tradition = tradition_script_meroitic
+#			}
+#			culture:ethiopian = {
+#				add_culture_tradition = tradition_script_geez
+#			}
+#		}
+#	}
+#}
+
+#on_monthly_writing = {
+#	on_actions = {
+#		delay = { months = 3 }
+#		on_monthly_writing
+#	}
+#	effect = {
+#		if = {
+#			limit = {
+#				has_dlc_feature = royal_court
+#				always = no
+#			}
+#			every_ruler = {
+#				limit = {
+#					is_literate = yes
+#					has_royal_court = yes
+#				}
+#				while = {
+#					count = culture.culture_script_grandeur_bonus
+#					add_character_modifier = {
+#						modifier = script_grandeur_bonus
+#						months = 3
+#					}
+#				}
+#			}
+#		}
+#	}
+#}
+

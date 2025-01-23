@@ -1,0 +1,14 @@
+﻿# Last updated: CK3 patch 1.10.0.1
+namespace = welcome
+#welcome.1 = {
+#	hidden = no
+#	type = character_event
+#	opening = { desc = welcome_title }
+#	desc = welcome_desc
+#
+#	trigger = { }
+#
+#	option = {
+#		name = welcome_ok
+#	}
+#}

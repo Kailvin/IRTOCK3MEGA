@@ -569,7 +569,7 @@ historicinvasions_invasion_war_valid_to_start_trigger = {
 	####### FANTASY
 	trigger_else_if = {
 		limit = {
-			scope:attacker = title:e_song.holder
+			scope:attacker = title:e_celestia_china.holder
 		}
 		scope:target = {
 			tier = tier_kingdom

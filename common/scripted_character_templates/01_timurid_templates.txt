@@ -1,0 +1,207 @@
+﻿# [historical ID]
+
+timur_timurid_character_template = {
+	name = timur_timurid_character_template_name
+	age = 34 #in 1370
+	gender = male
+	dynasty = generate
+
+	diplomacy = 11
+	martial = 26
+	stewardship = 12
+	intrigue = 9
+	learning = 15
+	prowess = 30
+
+	faith = faith:maturidi
+	culture = culture:karluk
+
+	trait = ambitious
+	trait = fickle # opportunistic
+	trait = brave
+	trait = sadistic
+	trait = education_martial_4
+
+	trait = clubfooted_timur
+	trait = lifestyle_hunter
+	
+	trait = military_engineer
+	trait = open_terrain_expert
+	
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+saray_mulkh_character_template = {
+	name = saray_mulkh_character_template_name
+	age = 29 #in 1370
+	gender = female
+
+	#dynasty_house = house:house_borjigin
+	dynasty = generate #todo
+
+	diplomacy = 15
+	martial = 26
+	stewardship = 9
+	intrigue = 15
+	learning = 12
+	prowess = 30
+
+	faith = faith:maturidi
+	culture = culture:mongol
+
+	trait = ambitious
+	trait = chaste #had no children
+	trait = gregarious
+	trait = education_martial_4
+
+	trait = beauty_good_3
+	trait = lifestyle_hunter
+	
+	trait = flexible_leader
+	trait = open_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+tohun_character_template = {
+	name = tohun_character_template_name
+	age = 24 #random
+	gender = female
+	dynasty = none
+	faith = faith:maturidi
+	culture = culture:karluk #agha = turkic
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+umar_timurid_character_template = {
+	name = umar_timurid_character_template_name
+	age = 14
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:karluk
+
+	trait = rowdy
+	trait = bossy
+
+	trait = open_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+turmish_character_template = {
+	name = turmish_character_template_name
+	age = 27 #random
+	gender = female
+	dynasty = none
+	faith = faith:maturidi
+	culture = culture:karluk #agha = turkic
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+jahangir_timurid_character_template = {
+	name = jahangir_timurid_character_template_name
+	age = 14 #in 1370; dies in 1376 due to illness
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:karluk
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+mengli_character_template = {
+	name = mengli_character_template_name
+	age = 26 #random
+	gender = female
+	dynasty = none
+	faith = faith:maturidi
+	culture = culture:mongol #khatun = mongol
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+miran_timurid_character_template = {
+	name = miran_timurid_character_template_name
+	age = 4
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:karluk
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+taghay_character_template = {
+	name = taghay_character_template_name
+	age = 25 #random
+	gender = female
+	dynasty = none
+	faith = faith:maturidi
+	culture = culture:punjabi #tarkhan = upper indian?
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+rukh_timurid_character_template = {
+	name = rukh_timurid_character_template_name
+	age = 1 #born in 1377
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:karluk
+
+	trait = zealous
+	trait = charming
+	trait = curious
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+hafez_character_template = { #court poet
+	name = hafez_character_template_name
+	age = 45 #in 1370
+	gender = male
+	dynasty= none
+
+	faith = faith:sufri
+	culture = culture:persian
+
+	trait = education_diplomacy_4
+	trait = poet
+	trait = journaller
+	
+	random_traits = yes
+	after_creation = {
+		disease_immunity_short_effect = yes
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

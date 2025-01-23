@@ -1,0 +1,89 @@
+﻿### Teutonic State Character Templates [ID, history ID]
+# timestamp: 1147
+
+# INVADER teutonic (? - 1200)
+heinrich_bassenheim_character_template = {
+	name = heinrich_bassenheim_character_template_name
+	age = { 30 50 }
+	gender = male
+
+	faith = faith:catholic
+	random_culture = {
+		culture:franconian = {}
+		culture:bavarian = {}
+		culture:saxon = {}
+		culture:swabian = {}
+	}
+	# random_culture_global = {
+	# 	limit = { has_cultural_pillar = heritage_central_germanic }
+	# }
+
+	trait = zealous
+	trait = education_martial_4
+
+	trait = holy_warrior
+	trait = organizer
+
+	random_traits_list = {
+		count = { 0 1 }
+		diplomat = {}
+		strategist = {}
+		architect = {}
+		schemer = {}
+		scholar = {}
+		whole_of_body = {}
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+	}
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# INVADER livonian (? - 1239)
+hermann_balk_character_template = {
+	name = hermann_balk_character_template_name
+	age = { 30 50 }
+	gender = male
+
+	faith = faith:catholic
+	random_culture = {
+		culture:franconian = {}
+		culture:bavarian = {}
+		culture:saxon = {}
+		culture:swabian = {}
+	}
+
+	trait = zealous
+	trait = education_martial_4
+
+	trait = holy_warrior
+	trait = organizer
+
+	random_traits_list = {
+		count = { 0 1 }
+		diplomat = {}
+		strategist = {}
+		architect = {}
+		schemer = {}
+		scholar = {}
+		whole_of_body = {}
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+	}
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

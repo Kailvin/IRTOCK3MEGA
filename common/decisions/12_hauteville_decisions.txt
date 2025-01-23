@@ -1,0 +1,103 @@
+﻿settle_norse_character_in_neustria_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 36
+
+	desc = settle_norse_character_in_neustria_decision_desc
+	selection_tooltip = settle_norse_character_in_neustria_decision_tooltip
+
+	is_shown = {
+		is_RICE_loaded = no
+
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		has_game_rule = default_norman_settlers_normandy
+		#current_date >= 900.1.1
+		current_date < 1000.1.1
+		highest_held_title_tier >= tier_kingdom
+		has_title = title:d_normandy.de_jure_liege
+		religion = religion:christianity_religion
+		NOT = {	# norman culture doesn't exist yet
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_normandy_decision
+			}
+		}
+		NOT = { # only once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:settle_norse_character_in_neustria_decision
+			}
+		}
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = { # can Charles be alive?
+				game_start_date <= 877.10.6
+				exists = character:90104
+			}
+			custom_tooltip = {
+				text = france_not_charles_tt
+				NOT = { ROOT = character:90104 } # not charles the bald
+			}
+		}
+		religion = religion:christianity_religion
+		completely_controls = title:d_normandy
+		has_title = title:d_normandy.de_jure_liege
+		custom_tooltip = { # don't steal player owned land
+			text = settle_norse_character_in_neustria_decision_neustria_only_ai
+			NOR = {
+				any_county_in_region = {
+					region = special_hauteville_decision_region_neustria
+					count = all
+					holder = { is_ai = no }
+				}
+				title:d_normandy.holder = { is_ai = no }
+			}
+		}
+		trigger_if = { # the holder isn't already norse
+			limit = { exists = title:d_normandy.holder }
+			custom_tooltip = {
+				text = settle_norse_character_in_neustria_decision_neustria_not_norse_already
+				NOT = { title:d_normandy.holder.culture = { has_cultural_pillar = heritage_north_germanic } }
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = { text = settle_norse_character_in_neustria_decision_effect_text }
+		settle_norse_character_in_neustria_decision_effect = yes
+	}
+
+	cost = { # only players pay a cost
+		gold = {
+			value = 0
+			if = {
+				limit = { is_ai = no }
+				add = 100
+			}
+		}
+		prestige = {
+			value = 0
+			if = {
+				limit = { is_ai = no }
+				add = 750
+			}
+		}
+	}
+
+	ai_potential = { primary_title.tier >= tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}

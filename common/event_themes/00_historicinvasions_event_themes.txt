@@ -1,0 +1,119 @@
+﻿hi_theme_steppe = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_steppe
+	}
+}
+
+hi_theme_desert = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_desert
+	}
+}
+
+hi_theme_mountains = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_mountains
+	}
+}
+
+hi_theme_forest_pine = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_forest_pine
+	}
+}
+
+hi_theme_forest = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_forest
+	}
+}
+
+hi_theme_farmlands = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = farmland
+	}
+}
+
+hi_theme_jungle = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = wilderness_jungle
+	}
+}
+
+hi_theme_alley_day = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_war.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_war"
+	}
+	background = {
+		reference = alley_day 
+	}
+}
+
+hi_theme_docks = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		reference = docks
+	}
+}
+
+hi_theme_battlefield = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_diplomacy.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_diplomacy"
+	}
+	background = {
+		reference = battlefield
+	}
+}

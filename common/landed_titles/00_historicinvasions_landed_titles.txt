@@ -1,0 +1,1411 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@hi_always_primary_score = 1100
+
+e_timurid = {
+	color = { 130 15 15 }
+
+	capital = c_samarkand
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_fatimid = {
+	color = { 0.2 0.8 0 }
+
+	capital = c_cairo
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		add = @hi_always_primary_score
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+e_ghaznavid = {
+	#color = { 160 120 60 }
+	color = { 90 110 210 }
+
+	capital = c_kabul # Kabul
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_seljuk = {
+	color = { 10 220 210 }
+
+	capital = c_isfahan #	Esfahan
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+k_ziyarid = {
+	color = { 0.5 0.3 0.6 }
+
+	capital = c_gilan
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_iranian }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	can_be_named_after_dynasty = yes
+
+	destroy_on_succession = yes
+}
+
+e_ayyubid = {
+	color = { 255 202 7 }
+	#color = { 255  220  104 } # Mamluks
+
+	capital = c_damascus
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	k_hejaz = {
+		color = { 160 250 50 }
+
+		capital = c_medina
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					NOT = { culture = culture:egyptian }
+					culture = { has_cultural_pillar = heritage_arabic }
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		can_be_named_after_dynasty = yes
+	}
+
+	k_bahrain = {
+		color = { 30 120 30 }
+
+		capital = c_al-hasa
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					NOT = { culture = culture:egyptian }
+					culture = { has_cultural_pillar = heritage_arabic }
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+		can_be_named_after_dynasty = yes
+	}
+}
+
+e_bulgaria = {
+	color = { 120 90 100 }
+
+	capital = c_sredets
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_south_slavic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+e_balgarsko = {
+	color = { 120 90 100 }
+
+	capital = c_sredets
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_south_slavic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_balgarsko = {
+		color = { 110 85 95 }
+
+		capital = c_turnovo
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:bulgarian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+}
+
+e_almoravid = {
+	color = { 200 40 20 }
+
+	capital = c_marrakesh # Marrakesh
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_berber }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_almohad = {
+	#color = { 0 0.6 0.2 }
+	color = { 120 25 50 }
+
+	capital = c_marrakesh # Marrakesh
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_berber }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_ghurid = {
+	
+	color = { 255 120 0 } # e_ghurid
+	#color = { 20 105 20 } # old green
+	#color = { 220 150 75 } # k_delhi
+	#color = { 255 90 20 } # k_punjab
+	#color = { 220 140 60 } # e_delhi
+
+	capital = c_delhi
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+}
+
+k_ludolfinger = {
+	color = { 180 180 180 }
+
+	capital = c_frankfurt
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:franconian
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				NOT = { culture = culture:franconian }
+				culture = { has_cultural_pillar = heritage_central_germanic }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+}
+
+k_hauteville = {
+	color = { 170 170 60 }
+
+	capital = c_apulia
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = culture:norman
+					culture = culture:sicilian
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+k_jannabid = {
+	color = { 90 110 40 }
+
+	capital = c_al-hasa
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				NOT = { culture = culture:egyptian }
+				culture = { has_cultural_pillar = heritage_arabic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_vlaanderen = {
+	color = { 150 105 55 }
+
+	capital = c_byzantion
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_byzantine }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+e_nikaea = {
+	color = { 240 17 17 }
+
+	capital = c_nikaea
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_byzantine }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	k_cappadocia = {
+		color = { 200 70 50 }
+	
+		capital = c_cappadocia
+
+		cultural_names = {
+			name_list_greek = cn_kappadokia
+			name_list_turkish = cn_kapadokya
+		}
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_byzantine }
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	
+		can_be_named_after_dynasty = no
+	}
+}
+
+e_teutonic_state = {
+	color = { 80 80 80 }
+
+	capital = c_malbork
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_central_germanic }
+					culture = { has_cultural_pillar = language_saxon }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOR = {
+					culture = { has_cultural_pillar = heritage_central_germanic }
+					culture = { has_cultural_pillar = language_saxon }
+				}
+				culture = { has_cultural_pillar = language_central_germanic }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	k_bassenheim = { # teutonic order
+		color = { 30 30 80 }
+	
+		capital = c_konigsberg #c_malbork # Malbork is de jure duchy capital
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = { has_cultural_pillar = heritage_central_germanic }
+						culture = { has_cultural_pillar = language_saxon }
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+			else_if = {
+				limit = {
+					NOR = {
+						culture = { has_cultural_pillar = heritage_central_germanic }
+						culture = { has_cultural_pillar = language_saxon }
+					}
+					culture = { has_cultural_pillar = language_central_germanic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	
+		definite_form = yes
+		can_be_named_after_dynasty = no
+	}
+	
+	k_balk = { # livonian order
+		color = { 80 30 50 }
+	
+		capital = c_vidzeme
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = { has_cultural_pillar = heritage_central_germanic }
+						culture = { has_cultural_pillar = language_saxon }
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+			else_if = {
+				limit = {
+					NOR = {
+						culture = { has_cultural_pillar = heritage_central_germanic }
+						culture = { has_cultural_pillar = language_saxon }
+					}
+					culture = { has_cultural_pillar = language_central_germanic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	
+		definite_form = yes
+		can_be_named_after_dynasty = no
+	}
+}
+
+e_terteroba = {
+	color = { 100 55 30 }
+
+	capital = c_teniz
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_turkic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+e_rurikid = {
+	color = { 60 175 60 }
+
+	capital = c_kiev
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:russian
+				culture = culture:norse
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOR = {
+					culture = culture:russian
+					culture = culture:norse
+				}
+				culture = { has_cultural_pillar = heritage_east_slavic }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+e_chola = {
+	#color = { 170 20 25 }
+	color = { 175 70 55 }
+
+	capital = c_cholamandalam
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:tamil
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOT = { culture = culture:tamil }
+				culture = { has_cultural_pillar = heritage_dravidian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+
+	#destroy_on_succession = yes # set at end of story
+}
+
+e_anushtiginid = {
+	#color = { 0.85 0.75 0.45 } # khwarezmian map color
+	#color = { 220 190 170 } # similar color
+	color = { 170 220 255 } # blue-ish
+
+	capital = c_gurganj
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:khwarezmian
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOT = { culture = culture:khwarezmian }
+				culture = { has_cultural_pillar = heritage_iranian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_yelu = {
+	#color = { 45 49 107 }
+	color = { 10 10 10 } # base game color
+
+	capital = c_balashagun
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:khitan
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOT = { culture = culture:khitan }
+				culture = { has_cultural_pillar = heritage_mongolic }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	cultural_names = {
+		name_list_khitan = cn_kara_khitai
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+}
+
+e_ottoman = {
+	color = { 247 145 30 }
+
+	capital = c_byzantion
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+e_keita = {
+	color = { 220 220 0 }
+
+	capital = c_niani #	Niani
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_west_african }
+					culture = { has_cultural_pillar = heritage_sahelian }
+					culture = { has_cultural_pillar = heritage_senegambian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+# not in use
+d_al-qays = {
+	color = { 80 125 20 }
+
+	capital = c_ubulla
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				NOT = { culture = culture:egyptian }
+				culture = { has_cultural_pillar = heritage_arabic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	destroy_on_succession = yes
+}
+
+e_knytling = {
+	color = { 0.3 0.4 1 } # similar to Danish culture
+
+	capital = c_ribe
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					culture = { has_cultural_pillar = language_norse }
+					culture = { has_cultural_pillar = heritage_west_germanic }
+					culture = { has_cultural_pillar = language_anglic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+
+	destroy_on_succession = yes
+}
+
+e_gediminid = {
+	#color = { 0.56 0.55 0.2 } # lithuanian culture
+	#color = { 90 10 0 } # k_lithuania
+	#color = { 81 0 0 } # d_lithuanians
+	color = { 70 5 5 }
+
+	capital = c_trakai
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_baltic }
+					culture = { has_cultural_pillar = language_baltic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+d_yngling = {
+	color = { 120 0 30 }
+
+	capital = c_vingulmork
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_north_germanic }
+					culture = { has_cultural_pillar = language_norse }
+					culture = { has_cultural_pillar = heritage_west_germanic }
+					culture = { has_cultural_pillar = language_anglic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+
+	destroy_on_succession = yes
+}
+
+k_sabbah = {
+	color = { 85 205 250 } #color = { 93 252 34 }
+
+	capital = c_qazwin #c_shayzar
+
+	ai_primary_priority = {
+		if = {
+			limit = { faith = faith:nizari }
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = { faith = { has_doctrine = muhammad_succession_shia_doctrine } }
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+	destroy_if_invalid_heir = yes
+}
+
+k_jabalid = {
+	color = { 95 250 35 }
+
+	capital = c_shayzar
+
+	ai_primary_priority = {
+		if = {
+			limit = { faith = faith:nizari }
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = { faith = { has_doctrine = muhammad_succession_shia_doctrine } }
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+	destroy_if_invalid_heir = yes
+}
+
+d_qarghuyid = {
+	color = { 95 240 25 }
+
+	capital = c_aleppo
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+
+	destroy_on_succession = yes
+}
+
+d_vivar = {
+	color = { 50 185 95 }
+
+	capital = c_valencia
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	destroy_on_succession = yes
+}
+
+k_normandie = {
+	color = { 200 25 25 }
+
+	capital = c_rouen
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_frankish }
+					culture = { has_cultural_pillar = language_french }
+					culture = { has_cultural_pillar = heritage_west_germanic }
+					culture = { has_cultural_pillar = language_anglic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+k_piast = {
+	color = { 150 20 20 }
+
+	capital = c_krakowska # Krakowska
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_west_slavic }
+					culture = { has_cultural_pillar = language_lechitic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+e_sangama = { # Vijayanagara Empire
+	color = { 160 20 20 }
+
+	capital = c_adoni
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:kannada
+			}
+			add = @correct_culture_primary_score
+		}
+		else_if = {
+			limit = {
+				NOT = { culture = culture:kannada }
+				culture = { has_cultural_pillar = heritage_dravidian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+k_eldiguzid = {
+	#color = { 5 15 150 }
+	color = { 0 155 145 }
+
+	capital = c_bailaqan
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+		else = {
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+}
+
+# e_borjigin = {
+# 	color = { 130 180 240 }
+
+# 	capital = c_karakorum
+
+# 	can_create = {
+# 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+# 	}
+
+# 	ai_primary_priority = {
+# 		if = {
+# 			limit = {
+# 				OR = {
+# 					culture = { has_cultural_pillar = heritage_mongolic }
+# 					culture = { has_cultural_pillar = language_mongolic }
+# 				}
+# 			}
+# 			add = @correct_culture_primary_score
+# 		}
+# 	}
+
+# 	definite_form = yes
+# 	can_be_named_after_dynasty = no
+# }
+
+e_blue_horde = {
+	color = { 50 150 180 }
+
+	capital = c_beksima
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_mongolic }
+					culture = { has_cultural_pillar = language_mongolic }
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+e_mamluk = {
+	color = { 255 220 104 }
+
+	capital = c_cairo
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+}
+
+e_delhi = {
+	color = { 220 140 60 } # e_delhi
+	#color = { 255 120 0 } # e_ghurid
+	#color = { 20 105 20 } # old green
+	#color = { 220 150 75 } # k_delhi
+	#color = { 255 90 20 } # k_punjab
+
+	capital = c_delhi
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_indo_aryan }
+					culture = { has_cultural_pillar = heritage_iranian }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+}
+
+d_bearn = {
+	color = { 120 50 65 }
+
+	capital = c_kerch
+
+	definite_form = no
+	can_be_named_after_dynasty = no
+
+	destroy_on_succession = yes
+}
+
+k_azerbaijan = {
+	#color = { 5 120 80 } # d_azerbaijan
+	#color = { 45 190 160 } # d_shirvan
+	color = { 25 160 140 }
+
+	capital = c_tabriz # capital of the Eldiguzids
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	can_be_named_after_dynasty = yes
+}
+
+k_kurdistan = {
+	color = { 0 0.9 0.7 }
+
+	capital = c_irbil # capital of d_kurdistan
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:kurdish
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				NOT = { culture = culture:kurdish }
+				culture = { has_cultural_pillar = heritage_iranian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	can_be_named_after_dynasty = yes
+}
+
+e_qara_qoyunlu = {
+	color = { 0 135 135 }
+
+	capital = c_vaspurakan
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	destroy_on_succession = yes
+
+	k_qara_qoyunlu = {
+		color = { 0 145 145 }
+	
+		capital = c_vaspurakan
+	
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = { has_cultural_pillar = heritage_turkic }
+						culture = { has_cultural_pillar = language_turkic }
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	
+		definite_form = yes
+		can_be_named_after_dynasty = yes
+	}
+}
+
+e_aq_qoyunlu = {
+	color = { 0 75 100 }
+
+	capital = c_colonea
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				OR = {
+					culture = { has_cultural_pillar = heritage_turkic }
+					culture = { has_cultural_pillar = language_turkic }
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	destroy_on_succession = yes
+
+	k_aq_qoyunlu = {
+		color = { 0 85 110 }
+	
+		capital = c_colonea
+	
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = { has_cultural_pillar = heritage_turkic }
+						culture = { has_cultural_pillar = language_turkic }
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	
+		definite_form = yes
+		can_be_named_after_dynasty = yes
+	}
+}
+
+####### ANCIENT HISTORY
+
+e_attila = {
+	color = { 70 30 5 }
+
+	capital = c_esztergom
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_turkic }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = no
+
+	ignore_titularity_for_title_weighting = yes
+
+	destroy_on_succession = yes
+}
+
+e_argead = {
+	#color = { 0 145 250 }
+	color = { 65 77 186 }
+
+	capital = c_veria # Pella?
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_byzantine }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+
+	destroy_on_succession = yes
+}
+
+e_maurya = {
+	color = { 255 180 10 }
+
+	capital = c_magadha
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_indo_aryan }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+####### FANTASY
+
+e_song = {
+	color = { 35 200 170 }
+
+	capital = c_kataka
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_chinese }
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	definite_form = yes
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+}
+
+k_zunbil = {
+	color = { 0.9 1.0 0.0 }
+
+	capital = c_ghazna
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:afghan
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				NOT = { culture = culture:afghan }
+				culture = { has_cultural_pillar = heritage_iranian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+	definite_form = no
+	can_be_named_after_dynasty = yes
+
+	ignore_titularity_for_title_weighting = yes
+	
+	#destroy_on_succession = yes
+}

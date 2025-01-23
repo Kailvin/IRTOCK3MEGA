@@ -45,6 +45,7 @@ song_invasion.0200 = {
 	hidden = yes
 	trigger = { is_ai = yes } # don't force a player into a war
 	immediate = {
+		change_government = administrative_government
 		war_target_evaluation_and_declaration_effect = {
 			INVADER_DYNN = song
 			INVADER_CHAR = scope:story.story_owner

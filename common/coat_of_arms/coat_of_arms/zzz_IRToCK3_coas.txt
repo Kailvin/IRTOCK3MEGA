@@ -4,6 +4,54 @@
 @smLysY=0.26
 @smCross=0.22
 @smErmine=0.27
+e_celestia_china={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=black
+	colored_emblem={
+		color1=rgb { 41 140 135 }
+		color2=yellow
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.800000 0.800000 }
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_h_tamaru.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.910000 0.910000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=yellow_light
+		color2=yellow
+		color3=orange
+		texture="ce_circle.dds"
+		instance={
+			position={ 0.590000 0.450000 }
+			scale={ 0.470000 0.470000 }
+			rotation=22
+		}
+	}
+	colored_emblem={
+		color1=red
+		color2=yellow_light
+		color3=yellow_light
+		texture="ce_dayak_04.dds"
+		instance={
+			position={ 0.500000 0.450000 }
+			scale={ 0.930000 0.930000 }
+			depth=3.010000
+		}
+	}
+}
+
 e_IRTOCK3_BAC={
 	pattern = "pattern_solid.tga"
 	color1 = "indus_color"

@@ -76,68 +76,6 @@ new_official_imperial_faith_decision = {
 
 ### Reopen the Catechetical School of Alexandria
 # Swaps tenet_alexandrian_catechism for tenet_alexandrian_catechism_reformed
-reopen_catechetical_school_alexandria = {
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
-	}
-	decision_group_type = religious
-
-	desc = reopen_catechetical_school_alexandria_desc
-	
-	ai_check_interval = 36
-	
-	is_shown = {
-		is_landed_or_landless_administrative = yes
-		primary_title.tier >= tier_kingdom
-		
-		# Obviously your faith needs to have tenet_alexandrian_catechism
-		faith = { has_doctrine = tenet_alexandrian_catechism }
-		
-		NOT = {  #Can only do it once. Also used in the tenet selection, in case you wanna create a new faith with the tenet
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_reopen_catechetical_school_alexandria
-			}
-		}
-	}
-	
-	is_valid = {
-		# piety_level >= 3
-		
-		# # Control all your holy sites
-		# num_realm_holy_sites_faithful_holders = {
-			# CHARACTER = root
-			# COUNT = 4
-		# }
-		
-		# title:b_alexandria = { title_province = { has_building = holy_site_cathedral_01 } }
-	}
-	
-	cost = {
-		piety = 1000
-	}
-	
-	effect = {
-		show_as_tooltip = { reopen_catechetical_school_alexandria_effect = { MAIN_FAITH = root.faith } }
-		
-		trigger_event = TFE_major_decisions.0010
-		
-		hidden_effect = {
-			add_to_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_reopen_catechetical_school_alexandria
-			}
-		}
-	}
-	
-	ai_potential = {
-		always = yes
-	}
-	
-	ai_will_do = {
-		base = 100
-	}
-}
 
 #Restore the Palmyrene Empire
 restore_palmyrene_empire_decision = {

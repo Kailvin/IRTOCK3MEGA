@@ -1260,32 +1260,6 @@ on_death = {
 		if = {
 			limit = {
 				AND = {
-					global_var:italy_senate_tasks = flag:conquer
-					OR = {
-						NOT = {
-							exists = global_var:italy_senate_conquer
-						}
-						trigger_if = {
-							limit = {
-								exists = global_var:italy_senate_conquer
-							}
-							global_var:italy_senate_conquer = THIS
-						}
-					}
-				}
-			}
-			title:c_roma.holder.top_liege = {
-				if = {
-					limit = {
-						access_to_italian_senate = yes
-					}
-					trigger_event = senate.0005
-				}
-			}
-		}
-		if = {
-			limit = {
-				AND = {
 					global_var:eastern_senate_tasks = flag:conquer
 					OR = {
 						NOT = {

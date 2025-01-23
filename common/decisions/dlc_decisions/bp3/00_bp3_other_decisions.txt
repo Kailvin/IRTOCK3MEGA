@@ -657,6 +657,10 @@ form_bosporan_kingdom_decision = {
 			DE_JURE = title:k_bosporan_kingdom
 		}
 		adjust_de_jure_effect = {
+			TITLE = title:d_tmutarakan
+			DE_JURE = title:k_bosporan_kingdom
+		}
+		adjust_de_jure_effect = {
 			TITLE = title:d_yedisan
 			DE_JURE = title:k_bosporan_kingdom
 		}

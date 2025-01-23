@@ -1,0 +1,32 @@
+﻿# vivar conquest regions
+
+special_vivar_conquest_region_1 = {
+	duchies = {
+		# k_badajoz
+		d_algarve
+		d_beja
+		d_badajoz
+
+		# k_andalusia
+		d_sevilla
+		d_granada
+		d_cordoba
+		d_toledo
+
+		# k_valencia
+		d_murcia
+		d_valencia
+	}
+}
+
+special_vivar_conquest_region_start = {
+	regions = {
+		special_vivar_conquest_region_1
+	}
+}
+
+special_vivar_conquest_region_total = {
+	regions = {
+		special_vivar_conquest_region_1
+	}
+}

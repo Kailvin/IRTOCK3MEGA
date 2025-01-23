@@ -1,0 +1,198 @@
+﻿### Seljuk Conquest Regions
+
+special_seljuk_conquest_region_1 = {
+	duchies = {
+		# k_daylam
+		d_gurgan
+
+		# k_khorasan
+		d_nasa
+		d_nishapur
+	}
+}
+
+special_seljuk_conquest_region_2 = {
+	duchies = {
+		# k_daylam
+		d_tabaristan
+		d_daylam
+
+		# k_khorasan
+		d_merv
+		d_herat
+		#d_kohestan
+	}
+}
+
+special_seljuk_conquest_region_3 = {
+	duchies = {
+		# k_persia
+		d_rayy
+		d_hamadan
+		d_kermanshah
+
+		# k_daylam
+		d_azerbaijan
+		d_shirvan
+	}
+}
+
+special_seljuk_conquest_region_4 = {
+	duchies = {
+		# k_khorsan
+		#d_balkh
+
+		# k_mesopotamia
+		d_samarra
+		d_baghdad
+		d_kufa
+		d_wasit
+		d_basra
+	}
+}
+
+special_seljuk_conquest_region_5 = {
+	duchies = {
+		# k_persia
+		d_isfahan
+		d_khuzestan
+		d_yazd
+		d_fars
+		d_kirman
+		#d_hormuz
+
+		# k_bahrain
+		d_bahrain
+		d_al-hasa
+		d_oman
+	}
+}
+
+special_seljuk_conquest_region_6 = {
+	duchies = {
+		# k_armenia
+		d_greater_armenia
+		d_vaspurakan
+		d_mesopotamia
+
+		# k_syria
+		d_edessa
+		d_antioch
+		d_aleppo
+		d_homs
+		d_palmyra
+		d_lebanon
+		d_damascus
+
+		# k_jerusalem
+		#d_urdunn
+		#d_palestine
+	}
+}
+
+special_seljuk_conquest_region_7 = { # anatolia; for rum invasion
+	duchies = {
+		# k_pontus
+		d_chaldia
+		d_armeniac
+		d_paphlagonia
+		d_sebasteia
+		
+		# k_anatolia
+		d_cilicia
+		d_charsianon
+		d_cappadocia
+		d_anatolia
+		d_cibyrrhaeot
+
+		# k_nikaea
+		d_bucellaria
+		d_optimatoi
+		d_opsikion
+		d_thracesia
+		d_ephese
+	}
+}
+
+special_seljuk_conquest_region_8 = {
+	duchies = {
+		# k_jazira
+		d_kurdistan
+		d_diyarbakr
+		d_diyarmudar
+		d_diyarrabia
+		d_euphrates
+	}
+}
+
+special_seljuk_conquest_region_start = {
+	duchies = {
+		d_gurgan
+		d_nasa
+		d_nishapur
+		d_merv
+		d_herat
+		d_kohestan
+	}
+}
+
+special_seljuk_conquest_region_de_jure = {
+	regions = {
+		special_historicinvasions_persia_region
+	}
+}
+
+special_seljuk_rum_conquest_region_de_jure = {
+	duchies = {
+		# k_rum
+		d_sebasteia
+		d_charsianon
+		d_cappadocia
+		d_anatolia
+	}
+}
+
+special_seljuk_conquest_region_faith = { # don't include Ziyarid conquest region (parts of Persia and Daylam)
+	duchies = {
+		# k_transoxiana
+		d_soghd d_badakhshan d_khuttal d_osrushana d_ferghana d_khorezm d_uzboy
+		# k_persia
+		d_hormuz d_fars d_kirman d_yazd #d_khuzestan #d_isfahan #d_rayy #d_hamadan #d_kermanshah
+		# k_khorasan
+		d_nishapur d_merv d_ghur d_herat d_balkh d_nasa d_kohestan
+		# k_daylam
+		d_gurgan
+	}
+}
+
+special_seljuk_conquest_region_mesopotamia = { # for caliph migration
+	duchies = {
+		#k_mesopotamia
+		d_samarra d_wasit d_kufa d_basra d_baghdad
+	}
+}
+
+special_seljuk_conquest_region_total = {
+	regions = {
+		special_seljuk_conquest_region_1
+		special_seljuk_conquest_region_2
+		special_seljuk_conquest_region_3
+		special_seljuk_conquest_region_4
+		special_seljuk_conquest_region_5
+		special_seljuk_conquest_region_6
+		special_seljuk_conquest_region_7
+		special_seljuk_conquest_region_8
+	}
+}
+
+special_seljuk_conquest_region_total_no_anatolia = {
+	regions = {
+		special_seljuk_conquest_region_1
+		special_seljuk_conquest_region_2
+		special_seljuk_conquest_region_3
+		special_seljuk_conquest_region_4
+		special_seljuk_conquest_region_5
+		special_seljuk_conquest_region_6
+		special_seljuk_conquest_region_8
+	}
+}

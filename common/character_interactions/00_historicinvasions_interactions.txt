@@ -1,0 +1,30 @@
+﻿historicinvasions_end_story_debug_interaction = {
+	icon = icon_dead
+	desc = historicinvasions_end_story_debug_interaction_desc
+	category = interaction_debug_main
+	use_diplomatic_range = no
+	ignores_pending_interaction_block = yes
+	interface_priority = -100
+
+	is_shown = {
+		debug_only = yes
+		scope:actor = { is_ai = no }
+		scope:recipient = {
+			has_character_modifier = historicinvasions_plot_armor
+			any_owned_story = { has_variable = story_owner_counter }
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			every_owned_story = {
+				limit = { has_variable = story_owner_counter }
+				end_story = yes
+			}
+		}
+	}
+	
+	auto_accept = yes
+
+	ai_frequency = 0
+}

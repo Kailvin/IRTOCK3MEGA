@@ -1,0 +1,54 @@
+﻿### vivar templates [Historical ID]
+# timestamp: 1094
+
+# Rodrigo 'the Campeador' de Vivar (1048 - 1099, 56) [107590]
+# Rodrigo Díaz de Vivar 'El Cid' (AKA: El Cid Campeador), Count of Valencia (1094-1099)
+
+rodrigo_vivar_character_template = {
+	name = rodrigo_vivar_character_template_name
+	age = 46
+	gender = male
+	dynasty = generate
+
+	#dna = 107590_rodrigo_de_vidar
+
+	faith = faith:catholic
+	culture = culture:castilian
+
+	#father = 107600
+	#mother = 107601
+
+	# Skills
+	diplomacy = 10
+	martial = 10
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	prowess = 10
+	
+	# Education
+	trait = education_martial_4
+	trait = education_martial_prowess_4
+
+	# Personality Traits
+	trait = trusting
+	trait = diligent
+	trait = brave
+
+	# Other Traits
+	trait = open_terrain_expert
+	trait = aggressive_attacker
+	trait = flexible_leader
+	trait = gallant
+	trait = strategist
+	
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		random_list = {
+			50 = { give_nickname = nick_hi_el_cid }
+			50 = { give_nickname = nick_hi_el_campeador }
+		}
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

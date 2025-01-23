@@ -1,0 +1,154 @@
+﻿# ludolfinger conquest regions
+
+special_ludolfinger_conquest_region_1 = {
+	duchies = {
+		# k_germany
+		d_anhalt
+		d_thuringia
+		d_alsace
+		d_swabia
+		d_hesse
+		d_west_franconia
+		d_east_franconia
+		d_holstein
+		d_ostfalen
+		d_angria
+		d_westfalen
+		d_currezia
+
+		# k_bavaria
+		d_augsburg
+		d_nordgau
+		d_bavaria
+		d_salzburg
+		d_osterreich
+		d_tyrol
+		d_carinthia
+		d_steyermark
+		d_krain
+		#d_istria
+	}
+}
+
+special_ludolfinger_conquest_region_2 = { # 880
+	duchies = {
+		# k_lotharingia
+		d_lower_lorraine
+		d_upper_lorraine
+		d_brabant
+		d_julich
+		d_luxembourg
+		d_bar
+
+		# k_frisia
+		d_frisia
+		d_holland
+		d_gelre
+		d_utrecht
+	}
+}
+
+special_ludolfinger_conquest_region_3 = { # 962
+	duchies = {
+		# k_italy
+		d_genoa
+		d_piedmonte
+		d_lombardia
+		d_friuli
+		d_verona
+		d_emilia
+		d_pisa
+		d_toscana
+	}
+}
+
+special_ludolfinger_conquest_region_4 = { # 1002
+	duchies = {
+		# k_bohemia
+		d_bohemia
+	}
+}
+
+special_ludolfinger_conquest_region_5 = { # 1010
+	duchies = {
+		# k_sorbia
+		d_meissen
+		d_lausitz
+	}
+}
+
+special_ludolfinger_conquest_region_6 = { # 1032
+	duchies = {
+		# k_burgundy
+		d_upper_burgundy
+		d_transjurania
+		d_savoie
+		d_dauphine
+		d_provence
+	}
+}
+
+special_ludolfinger_conquest_region_7 = { # 1181
+	duchies = {
+		# k_pomerania
+		d_ostmark
+		d_nordmark
+		d_pommerania
+		#d_pomerelia
+	}
+}
+
+special_ludolfinger_conquest_region_start = {
+	duchies = {
+		# k_germany
+		d_anhalt
+		d_thuringia
+		#d_alsace
+		d_swabia
+		d_hesse
+		d_west_franconia
+		d_east_franconia
+		d_holstein
+		d_ostfalen
+		d_angria
+		d_westfalen
+		#d_currezia
+	}
+}
+
+special_ludolfinger_conquest_region_de_jure = {
+	regions = {
+		special_ludolfinger_conquest_region_1
+		special_ludolfinger_conquest_region_2
+		special_ludolfinger_conquest_region_3
+		special_ludolfinger_conquest_region_4
+		special_ludolfinger_conquest_region_5
+		special_ludolfinger_conquest_region_6
+		special_ludolfinger_conquest_region_7
+	}
+}
+
+special_ludolfinger_conquest_region_core = {
+	regions = {
+		special_ludolfinger_conquest_region_1
+		special_ludolfinger_conquest_region_2
+		special_ludolfinger_conquest_region_3
+	}
+}
+
+# used in game concept localization
+special_ludolfinger_conquest_region_core_gc = {
+	regions = { special_ludolfinger_conquest_region_core }
+}
+
+special_ludolfinger_conquest_region_total = {
+	regions = {
+		special_ludolfinger_conquest_region_1
+		special_ludolfinger_conquest_region_2
+		special_ludolfinger_conquest_region_3
+		special_ludolfinger_conquest_region_4
+		special_ludolfinger_conquest_region_5
+		special_ludolfinger_conquest_region_6
+		special_ludolfinger_conquest_region_7
+	}
+}

@@ -1,0 +1,64 @@
+﻿# rurikid conquest regions
+
+special_rurikid_conquest_region_1 = {
+	duchies = {
+		# k_novgorod
+		d_novgorod
+		d_vepsia
+		d_luki
+	}
+}
+
+special_rurikid_conquest_region_2 = {
+	duchies = {
+		# k_bjarmaland
+		#d_biarmia
+		#d_ustyug
+		#d_chudia
+		#d_vologda
+
+		# k_vladimir
+		d_nizhny_novgorod
+		d_opolye
+		d_ryazan
+
+		# k_white_rus
+		d_smolensk
+		d_polotsk
+		d_minsk
+		d_grodno
+		d_pinsk
+		d_turov
+
+		# k_ruthenia
+		d_novosil
+		d_karachev
+		d_chernigov
+		d_pereyaslavl
+		d_kiev
+
+		# k_galicia-volhynia
+		d_volhynia
+		d_cherven_cities
+		d_halych
+	}
+}
+
+special_rurikid_conquest_region_start = {
+	regions = {
+		special_rurikid_conquest_region_1
+	}
+}
+
+special_rurikid_conquest_region_de_jure = {
+	regions = {
+		special_historicinvasions_rus_region
+	}
+}
+
+special_rurikid_conquest_region_total = {
+	regions = {
+		special_rurikid_conquest_region_1
+		special_rurikid_conquest_region_2
+	}
+}

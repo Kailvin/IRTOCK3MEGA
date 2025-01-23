@@ -1,0 +1,134 @@
+﻿### Argead Conquest Regions
+
+# Macedonia
+special_argead_conquest_region_1 = {
+	duchies = {
+		# k_thessalonika
+		d_thrace d_strymon d_thessalonika d_thessaly
+
+		# k_bulgaria
+		d_turnovo d_dobrudja d_bulgaria d_philippopolis #d_vidin
+	}
+}
+
+# Asia Minor & Levant
+special_argead_conquest_region_2 = {
+	duchies = {
+		# k_thessalonika
+		d_aegean_islands
+
+		# k_nikaea
+		d_opsikion d_ephese d_thracesia d_optimatoi d_bucellaria
+
+		# k_anatolia
+		d_cilicia d_cibyrrhaeot d_anatolia d_cappadocia
+
+		# k_cyprus
+		d_cyprus
+
+		# k_syria
+		d_damascus d_aleppo d_antioch d_edessa d_homs d_lebanon d_palmyra
+
+		# k_jerusalem
+		d_oultrejourdain d_palestine d_urdunn
+
+		# k_egypt
+		d_cyrenaica d_alexandria d_delta d_cairo d_al-wahat d_al-said d_eastern_desert d_sinai
+	}
+}
+
+# Persia
+special_argead_conquest_region_3 = {
+	duchies = {
+		# k_pontus
+		d_paphlagonia d_armeniac d_sebasteia d_charsianon d_chaldia
+
+		# k_armenia
+		d_mesopotamia d_vaspurakan d_greater_armenia
+
+		# k_jazira
+		d_diyarrabia d_diyarmudar d_diyarbakr d_euphrates
+
+		# k_mesopotamia
+		d_basra d_baghdad d_samarra d_kurdistan d_wasit d_kufa
+
+		# k_daylam
+		d_daylam d_tabaristan d_gurgan d_azerbaijan d_shirvan
+
+		# k_persia
+		d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan d_kermanshah
+
+		# k_khorsan
+		d_nishapur d_merv d_ghur d_herat d_balkh d_nasa d_kohestan
+
+		# k_transoxiana
+		d_soghd d_badakhshan d_khuttal d_osrushana d_ferghana #d_khorezm d_uzboy
+	}
+}
+
+# Indus
+special_argead_conquest_region_4 = {
+	duchies = {
+		# k_kabulistan
+		d_kabul d_zabulistan
+
+		# k_makran
+		d_jabal_kufs d_makran d_sistan
+
+		# k_punjab
+		d_multan d_lahore d_gandhara
+
+		# k_sindh
+		d_sauvira d_bhakkar
+	}
+}
+
+# what if Alexander hadn't been killed?
+special_argead_conquest_region_5 = {
+	duchies = {
+		# k_krete
+		d_krete
+
+		# k_epirus
+		d_dyrrachion d_epirus d_cephalonia
+
+		# k_hellas
+		d_athens d_achaia
+
+		# k_sicily
+		d_benevento d_capua d_apulia d_salerno d_calabria d_sicily
+
+		# k_delhi
+		d_kuru d_haritanaka d_mathura d_vodamayutja
+
+		# k_kosala
+		d_kanyakubja d_saryupara
+
+		# k_bihar
+		d_tirabhukti d_kasi d_jharkand d_magadha
+
+		# k_bengal
+		d_vanga d_varendra d_gauda d_nadia d_suhma
+	}
+}
+
+historicinvasions_persia_region = {
+	duchies = {
+		d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan d_kermanshah 
+	}
+}
+
+special_argead_conquest_region_start = {
+	regions = {
+		special_argead_conquest_region_1
+	}
+}
+
+special_argead_conquest_region_total = {
+	regions = {
+		special_argead_conquest_region_1
+		special_argead_conquest_region_2
+		special_argead_conquest_region_3
+		special_argead_conquest_region_4
+	}
+}

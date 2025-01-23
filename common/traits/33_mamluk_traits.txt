@@ -1,0 +1,24 @@
+﻿mamluk_commander = {
+	category = fame
+	ruler_designer_cost = 25
+
+	martial = 1
+	prowess = 2
+
+	same_opinion = 3
+	same_opinion_if_same_faith = 3
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_mamluk_commander_desc
+			}
+			desc = trait_mamluk_commander_character_desc
+		}
+	}
+
+	ai_boldness = 30
+}

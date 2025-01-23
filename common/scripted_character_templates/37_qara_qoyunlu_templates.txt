@@ -1,0 +1,410 @@
+﻿### Qara Qoyunlu Character Templates [historical ID]
+# timestamp: 1405
+
+### legendary
+# Dengiz / Tengiz Oghuz [1000230120] 893 - 945
+tengiz_oghuz_character_template = {
+	name = tengiz_oghuz_character_template_name
+	age = 512
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+# Yiwa Oghuz [1000230131] 918 - 975
+yiwa_oghuz_character_template = {
+	name = yiwa_oghuz_character_template_name
+	age = 487
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		create_cadet_branch = yes
+		set_interesting_traits_and_modifiers_effect = yes
+		father = { death = natural } # so a cadet branch can be created
+		death = natural
+	}
+}
+
+### filler
+qara_qoyunlu_filler_character_template = {
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+### ancestors
+# Qara Mansur, gen A (? - ?, ?)
+mansur_qara_qoyunlu_character_template = {
+	name = mansur_qara_qoyunlu_character_template_name
+	age = 150
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		create_cadet_branch = yes
+		set_interesting_traits_and_modifiers_effect = yes
+		father = { death = natural } # so a cadet branch can be created
+		death = natural
+	}
+}
+
+# Bayram Khwaja, gen B (? - 1380, ?) (r. 1351+)
+bayram_khwaja_qara_qoyunlu_character_template = {
+	name = bayram_khwaja_qara_qoyunlu_character_template_name
+	age = 110
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+# Qara Dursun, gen B (? - ?, ?)
+dursun_qara_qoyunlu_character_template = {
+	name = dursun_qara_qoyunlu_character_template_name
+	age = 110
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Qara Mahammad, gen C, son of Dursun (? - 1389)
+mahammad_qara_qoyunlu_character_template = {
+	name = mahammad_qara_qoyunlu_character_template_name
+	age = 70
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Khwaja Misr, gen D
+misr_qara_qoyunlu_character_template = {
+	name = misr_qara_qoyunlu_character_template_name
+	age = { 40 50 }
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Qara Yusuf Nuyan, gen D, son of Mahammad (1356/1357 - 1420, 62+); INVADER
+yusuf_qara_qoyunlu_character_template = {
+	name = yusuf_qara_qoyunlu_character_template_name
+	age = 48
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	# education
+	trait = education_martial_4
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# additional traits
+	random_traits_list = {
+		count = { 0 2 }
+		# neutral
+		albino = {}
+		giant = {}
+		scaly = {}
+		scarred = {}
+		one_eyed = {}
+		weak = {}
+		dull = {}
+		bastard = {}
+		twin = {}
+		# positive
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+		shrewd = {}
+		strong = {}
+		athletic = {}
+		# activities
+		lifestyle_blademaster = {}
+		lifestyle_hunter = {}
+	}
+
+	trait = rough_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = flexible_truces_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# Ispend
+ispend_qara_qoyunlu_character_template = {
+	name = ispend_qara_qoyunlu_character_template_name
+	age = 19
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	# education
+	trait = education_martial_4
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# additional traits
+	random_traits_list = {
+		count = { 0 2 }
+		# neutral
+		albino = {}
+		giant = {}
+		scaly = {}
+		scarred = {}
+		one_eyed = {}
+		weak = {}
+		dull = {}
+		bastard = {}
+		twin = {}
+		# positive
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+		shrewd = {}
+		strong = {}
+		athletic = {}
+		# activities
+		lifestyle_blademaster = {}
+		lifestyle_hunter = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# Qara Iskander, gen E (? - 1436)
+iskander_qara_qoyunlu_character_template = {
+	name = iskander_qara_qoyunlu_character_template_name
+	age = 16
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	# education
+	trait = education_martial_4
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# additional traits
+	random_traits_list = {
+		count = { 0 2 }
+		# neutral
+		albino = {}
+		giant = {}
+		scaly = {}
+		scarred = {}
+		one_eyed = {}
+		weak = {}
+		dull = {}
+		bastard = {}
+		twin = {}
+		# positive
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+		shrewd = {}
+		strong = {}
+		athletic = {}
+		# activities
+		lifestyle_blademaster = {}
+		lifestyle_hunter = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# Jahan
+jahan_qara_qoyunlu_character_template = {
+	name = jahan_qara_qoyunlu_character_template_name
+	age = 12
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Abu Said
+abu_said_qara_qoyunlu_character_template = {
+	name = abu_said_qara_qoyunlu_character_template_name
+	age = 8
+	gender = male
+
+	faith = faith:imami
+	culture = culture:turkish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

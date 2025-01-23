@@ -1,0 +1,210 @@
+﻿namespace = ayyubid_invasion
+
+### Spawn invader with the associated story...
+ayyubid_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_ayyubid # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_ayyubid_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "ayyubid story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		# egypt has been converted - skip invasion
+		if = {
+			limit = {
+				OR = {
+					# 80% of starting region has been converted
+					any_county_in_region = {
+						region = special_ayyubid_conquest_region_start
+						percent >= 0.8
+						NOT = { religion = religion:islam_religion }
+					}
+					# k_egypt, holder is not Muslim
+					trigger_if = {
+						limit = { title:c_cairo.kingdom = { is_title_created = yes } }
+						title:c_cairo.kingdom.holder = {
+							NOT = { religion = religion:islam_religion }
+						}
+					}
+					# e_arabia, holder is not Muslim and they control at least one de jure county of k_egypt
+					trigger_if = {
+						limit = { title:c_cairo.empire = { is_title_created = yes } }
+						title:c_cairo.empire.holder = {
+							NOT = { religion = religion:islam_religion }
+							any_realm_de_jure_kingdom = {
+								this = title:c_cairo.kingdom
+							}
+						}
+					}
+					# c_cairo.top_liege ?
+				}
+			}
+			debug_log = "ayyubid story canceled; Egypt is no longer Muslim"
+			debug_log_date = yes
+
+			spawn_ayyubid_invader_as_landless_adventurer_effect = {
+				INVADER_DYNN = ayyubid
+			}
+
+			add_to_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:ayyubid_story_started
+			}
+			add_to_global_variable_list = {
+				name = historicinvasions_story_ended
+				target = flag:ayyubid_story_ended
+			}
+		}
+		# INVASION
+		else = {
+			debug_log = "ayyubid story owner has appeared"
+			debug_log_date = yes
+					
+			spawn_ayyubid_invader_effect = {
+				INVADER_DYNN = ayyubid
+			}
+			scope:invader = {
+				create_story = story_ayyubid_invasion
+			}
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+ayyubid_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_ayyubid_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+ayyubid_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = ayyubid
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = 1
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+# landed
+ayyubid_invasion.1001 = { # only players see this
+	type = character_event
+	title = ayyubid_invasion.1001.t
+	desc = ayyubid_invasion.1001.desc
+	
+	theme = hi_theme_desert
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_honorable
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = ayyubid_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = ayyubid_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+# unlanded
+ayyubid_invasion.1002 = { # only players see this
+	type = character_event
+	title = ayyubid_invasion.1002.t
+	desc = ayyubid_invasion.1002.desc
+	
+	theme = hi_theme_desert
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_honorable
+	}
+
+	trigger = {
+		has_ep3_dlc_trigger = yes
+		hi_show_invader_notification_event_trigger = yes
+	}
+	
+	option = { name = ayyubid_invasion.1002.a }
+
+	option = { # play as the newly spawned invader
+		name = ayyubid_invasion.1002.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+### in egypt: ask vassals to convert
+ayyubid_invasion.1007 = {
+	type = letter_event
+	opening = ayyubid_invasion.1007.opening
+	desc = ayyubid_invasion.1007.desc
+	sender = {
+		character = title:e_ayyubid.holder
+		animation = personality_zealous
+	}
+
+	option = { # convert
+		name = ayyubid_invasion.1007.a
+		add_internal_flag = special
+
+		set_character_faith_with_conversion = title:e_ayyubid.holder.faith
+
+		ai_chance = {
+			base = 100
+
+			modifier = {
+				factor = 0
+				has_trait = zealous
+			}
+		}
+	}
+
+	option = { # refuse
+		name = ayyubid_invasion.1007.b
+		ai_chance = { base = 1 }
+	}
+}

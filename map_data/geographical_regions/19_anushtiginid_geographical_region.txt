@@ -1,0 +1,95 @@
+﻿# anushtiginid conquest regions
+
+special_anushtiginid_conquest_region_1 = {
+	duchies = {
+		# k_transoxiana
+		d_uzboy
+		d_khorezm
+		d_soghd
+		d_osrushana
+		d_ferghana
+		d_khuttal
+		d_badakhshan
+	}
+}
+
+special_anushtiginid_conquest_region_2 = {
+	duchies = {
+		# k_khorasan
+		d_nasa
+		d_nishapur
+		d_merv
+		d_herat
+		#d_kohestan
+		d_balkh
+		d_ghur
+
+		# k_persia
+		d_rayy
+		d_hamadan
+		d_kermanshah
+		d_kirman
+		d_isfahan
+		d_khuzestan
+		d_yazd
+		d_fars
+		d_hormuz
+
+		# k_daylam
+		d_gurgan
+		d_tabaristan
+		d_daylam
+		d_azerbaijan
+		d_shirvan
+
+		# k_makran
+		#d_sistan
+		#d_jabal_kufs
+		#d_makran
+	}
+}
+
+special_anushtiginid_conquest_region_start = {
+	duchies = {
+		d_khorezm
+		d_uzboy
+		d_nasa
+		d_soghd
+		d_merv
+	}
+}
+
+special_anushtiginid_conquest_region_faith = {
+	duchies = {
+		# k_transoxiana
+		d_uzboy
+		d_khorezm
+		d_soghd
+		d_osrushana
+		d_ferghana
+		d_khuttal
+		d_badakhshan
+
+		# k_khorasan
+		d_nasa
+		d_nishapur
+		d_merv
+		d_herat
+		d_kohestan
+		d_balkh
+		d_ghur
+	}
+}
+
+special_anushtiginid_conquest_region_de_jure = {
+	regions = {
+		special_historicinvasions_persia_region
+	}
+}
+
+special_anushtiginid_conquest_region_total = {
+	regions = {
+		special_anushtiginid_conquest_region_1
+		special_anushtiginid_conquest_region_2
+	}
+}

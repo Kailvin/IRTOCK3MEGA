@@ -1,0 +1,16 @@
+﻿l_english:
+ rule_mongol_invasion:0 "[Concept('historicinvasions_mod','@historicinvasions_icon!')] $temujin_borjigin_character_template_name$ @tengri_icon! (Mongolia)"
+ setting_default_mongol_invasion:0 "1206 (default, #high modded#!)"
+ setting_default_mongol_invasion_desc:0 "Around 1206, the $e_borjigin$ will rapidly expand."
+ setting_never_mongol_invasion:0 "#r Never#!"
+ setting_never_mongol_invasion_desc:0 "$temujin_borjigin_character_template_name$ won't invade."
+ setting_random_mongol_invasion:0 "Base Game Mechanics"
+ setting_random_mongol_invasion_desc:0 "The $e_mongol_empire$ will use the base game mechanics and appear around 1206."
+
+ rule_dlc_fp3_seljuk_invasion:0 "[Concept('historicinvasions_mod','@historicinvasions_icon!')] $hi_dynn_oghuz_house_seljuk$ Invasion @maturidi_icon! (Persia)"
+ setting_default_seljuk_invasion:0 "1037 (default, #high modded#!)"
+ setting_default_seljuk_invasion_desc:0 "$tughril_seljuk_character_template_name$ will invade around 1037 if the game was started before 1035."
+ setting_never_seljuk_invasion:0 "#r Never#!"
+ setting_never_seljuk_invasion_desc:0 "$tughril_seljuk_character_template_name$ will never appear."
+ setting_random_seljuk_invasion:0 "Base Game Mechanics"
+ setting_random_seljuk_invasion_desc:0 "The Seljuks will use the base game mechanics and appear some time after the year 945."

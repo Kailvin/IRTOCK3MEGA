@@ -1,0 +1,322 @@
+﻿namespace = fatimid_invasion
+
+### Spawn caliph with the associated story...
+fatimid_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_fatimid # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_fatimid_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "fatimid story 1 has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "fatimid story owner 1 has appeared"
+		debug_log_date = yes
+		
+		# strongest ruler in Persia converts, if there are no prominent Shia rulers already present in the region
+		if = {
+			limit = { # must NOT be present: medium-sized Shia (non-qarmatian) AI realm
+				any_ruler = {
+					count = 0
+					is_landed = yes
+					capital_province = { geographical_region = special_fatimid_persia_region }
+					is_independent_ruler = yes
+					is_adult = yes
+					is_ai = yes
+					religion = religion:islam_religion
+					faith = { has_doctrine = muhammad_succession_shia_doctrine }
+					NOR = {
+						faith = faith:qarmatian
+						has_trait = zealous
+						has_character_modifier = historicinvasions_plot_armor
+						any_held_title = { is_head_of_faith = yes }
+					}
+					realm_size > 8
+				}
+			}
+			ordered_ruler = {
+				limit = {
+					is_landed = yes
+					capital_province = { geographical_region = special_fatimid_persia_region }
+					is_independent_ruler = yes
+					is_adult = yes
+					is_ai = yes
+					religion = religion:islam_religion
+					NOR = {
+						faith = { has_doctrine = muhammad_succession_shia_doctrine }
+						faith = faith:qarmatian
+						has_trait = zealous
+						has_character_modifier = historicinvasions_plot_armor
+						any_held_title = { is_head_of_faith = yes }
+					}
+				}
+				order_by = realm_size
+				position = 0
+				save_scope_as = persia_convert
+				set_global_variable = { # localization
+					name = persia_convert_var
+					value = scope:persia_convert
+					months = 3
+				}
+			}
+		}
+		else = { # localization: Shia faith already present in Persia
+			set_global_variable = {
+				name = persia_already_converted_var
+				value = yes
+				months = 3
+			}
+		}
+
+		# make invader appear
+		spawn_fatimid_invader_effect = { # creates invader, triggers notification event
+			INVADER_DYNN = fatimid
+		}
+		scope:invader = {
+			create_story = story_fatimid_invasion_one
+		}
+
+		# make picked ruler convert
+		if = {
+			limit = { exists = scope:persia_convert }
+			scope:persia_convert = {
+				hidden_effect = { hi_aid_realm_faith_conversion_same_religion_effect = yes }
+				set_character_faith_with_conversion = scope:invader.faith
+			}
+			scope:invader = {
+				add_opinion = {
+					modifier = grateful_opinion
+					target = scope:persia_convert
+					opinion = 20
+				}
+			}
+		}
+	}
+}
+
+fatimid_invasion.0002 = {
+	scope = none
+	hidden = yes
+
+	trigger = {
+		exists = title:e_fatimid # update compatibility - new titles in old saves return false
+		is_target_in_global_variable_list = {
+			name = historicinvasions_story_ended
+			target = flag:fatimid_africa_story_ended
+		}
+		this = title:k_egypt.holder
+		this = title:d_shiite.holder
+	}
+
+	on_trigger_fail = {
+		debug_log = "fatimid story 2 has failed to trigger; not trying again"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "fatimid story owner 2 has appeared"
+		debug_log_date = yes
+		
+		title:k_egypt.holder = {
+			create_story = story_fatimid_invasion_two
+			trigger_event = fatimid_invasion.0100
+		}
+	}
+}
+
+# Event for handling army spawning
+fatimid_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_fatimid_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+fatimid_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = fatimid
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total_north_africa
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+fatimid_invasion.1001 = { # only players see this
+	type = character_event
+	title = fatimid_invasion.1001.t
+	desc = {
+		desc = fatimid_invasion.1001.desc.intro
+		triggered_desc = {
+			trigger = { exists = global_var:persia_convert_var }
+			desc = fatimid_invasion.1001.desc.conversion
+		}
+		triggered_desc = {
+			trigger = { exists = global_var:persia_already_converted_var }
+			desc = fatimid_invasion.1001.desc.converted
+		}
+		desc = fatimid_invasion.1001.desc.outro
+	}
+	
+	theme = hi_theme_desert
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_zealous
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+
+	after = { # they time out after some time anyway
+		remove_global_variable = persia_convert_var
+		remove_global_variable = persia_already_converted_var
+	}
+	
+	option = { name = fatimid_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = fatimid_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+
+	option = { # convert
+		name = fatimid_invasion.1001.c
+		add_internal_flag = special
+		trigger = {
+			religion = scope:invader.religion
+			NOR = {
+				faith = scope:invader.faith
+				faith = faith:qarmatian
+				has_character_modifier = historicinvasions_plot_armor
+				any_held_title = { is_head_of_faith = yes }
+			}
+		}
+		set_character_faith_with_conversion = scope:invader.faith
+		scope:invader = {
+			add_opinion = {
+				modifier = grateful_opinion
+				target = root
+				opinion = 20
+			}
+		}
+	}
+}
+
+### my caliph, we can now migrate to egypt!
+fatimid_invasion.1006 = {
+	type = character_event
+	title = fatimid_invasion.1006.t
+	desc = fatimid_invasion.1006.desc
+	theme = friendly #todo
+
+	left_portrait = {
+		character = scope:story.story_owner
+		animation = admiration
+	}
+
+	right_portrait = {
+		character = scope:random_fatimid_vassal
+		animation = ecstasy
+	}
+
+	option = {
+		name = fatimid_invasion.1006.a
+		custom_tooltip = fatimid_invasion.1006.a.tt
+	}
+}
+
+### in egypt: ask vassals to convert
+fatimid_invasion.1007 = {
+	type = letter_event
+	opening = fatimid_invasion.1007.opening
+	desc = fatimid_invasion.1007.desc
+	sender = {
+		character = title:k_egypt.holder
+		animation = personality_zealous
+	}
+
+	option = { # convert
+		name = fatimid_invasion.1007.a
+		add_internal_flag = special
+
+		set_character_faith_with_conversion = title:k_egypt.holder.faith
+
+		ai_chance = {
+			base = 100
+
+			modifier = {
+				factor = 0
+				has_trait = zealous
+			}
+		}
+	}
+
+	option = { # refuse
+		name = fatimid_invasion.1007.b
+		ai_chance = { base = 1 }
+	}
+}
+
+# invite Hashimids into Mecca / Medina decision
+fatimid_invasion.1010 = {
+	type = character_event
+	title = fatimid_invasion.1010.t
+	desc = fatimid_invasion.1010.desc
+	theme = diplomacy_foreign_affairs_focus
+
+	left_portrait = {
+		character = scope:hashimid_receiver
+		animation = personality_zealous
+	}
+
+	right_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		fatimid_grant_mecca_to_hashimids_decision_effect = yes
+	}
+
+	after = { # to prevent errors
+		fatimid_grant_mecca_to_hashimids_decision_after_effect = yes
+	}
+
+	# yes
+	option = {
+		name = fatimid_invasion.1010.a
+
+		ai_chance = { base = 100 }
+	}
+}

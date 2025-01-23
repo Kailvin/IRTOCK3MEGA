@@ -1,0 +1,239 @@
+﻿namespace = ludolfinger_invasion
+
+### Spawn invader with the associated story...
+ludolfinger_invasion.0001 = { #todo
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:k_east_francia
+		exists = title:e_hre
+		OR = { # either the king of East Francia is old enough or East Francia isn't created | if the HRE exists, the story is marked as complete
+			title:k_east_francia.holder.age >= 16
+			OR = {
+				title:k_east_francia = { is_title_created = no }
+				title:e_hre = { is_title_created = yes }
+			}
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "ludolfinger story / hre story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		# Carolingian borders were restored - skip invasion
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:flag_reformed_carolingian_empire
+				}
+			}
+			debug_log = "ludolfinger story / hre story canceled; Carolingian borders have been restored"
+			debug_log_date = yes
+			add_to_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:ludolfinger_story_started
+			}
+			add_to_global_variable_list = {
+				name = historicinvasions_story_ended
+				target = flag:ludolfinger_story_ended
+			}
+		}
+		# HRE is already created - skip invasion
+		else_if = {
+			limit = { title:e_hre = { is_title_created = yes } }
+			debug_log = "ludolfinger story / hre story canceled; HRE has already been united"
+			debug_log_date = yes
+			add_to_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:ludolfinger_story_started
+			}
+			add_to_global_variable_list = {
+				name = historicinvasions_story_ended
+				target = flag:ludolfinger_story_ended
+			}
+		}
+		# otherwise: start invasion
+		else = {
+			debug_log = "ludolfinger story / hre story owner has appeared"
+			debug_log_date = yes
+					
+			spawn_ludolfinger_invader_effect = {
+				INVADER_DYNN = ludolfinger
+			}
+			scope:invader = {
+				create_story = story_ludolfinger_invasion
+			}
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+ludolfinger_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_ludolfinger_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+ludolfinger_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = ludolfinger
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = core
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = "NOT = { this = title:k_papal_state.holder }"
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+ludolfinger_invasion.1001 = { # only players see this
+	type = character_event
+	title = ludolfinger_invasion.1001.t
+	desc = ludolfinger_invasion.1001.desc
+	
+	theme = hi_theme_forest_pine
+	
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	immediate = { # Karl; ID 4043, hist ID 6392
+		character:6392 = { save_scope_as = karl }
+		title:k_east_francia.holder = { save_scope_as = otto }
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = ludolfinger_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = ludolfinger_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+##################################################
+# Reform the Holy Roman Empire
+# by Ewan Cowhig Croft
+##################################################
+
+#	Conduct the reformation
+ludolfinger_invasion.2000 = {
+	type = character_event
+	title = middle_europe_decisions.0015.t
+	desc = middle_europe_decisions.0015.desc
+	theme = realm
+	left_portrait =	{
+		character = scope:founder
+		animation = personality_bold
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		legend_seed_new_title_effect = yes
+		ludolfinger_grant_historical_artifacts_effect = yes
+	}
+
+	#Renovatio Imperii!
+	option = {
+		name = middle_europe_decisions.0015.a
+		give_nickname = nick_the_great
+		add_prestige_experience = monumental_fame_gain
+		every_vassal = {
+			add_opinion = {
+				modifier = reformed_holy_roman_empire_opinion
+				target = root
+			}
+			custom = restore_holy_roman_empire_decision_effects_vassal_opinion.tt
+		}
+		ai_chance = {	#When taken, the AI should always pick this.
+			base = 100
+		}
+	}
+	
+	##No Germany please, we're Byzantine.
+	#option = {
+	#	name = middle_europe_decisions.0015.b
+	#	ai_chance = {	#When taken, the AI should always go for the decision.
+	#		base = 0
+	#	}
+	#}
+}
+
+#	Inform any players
+ludolfinger_invasion.2001 = {
+	type = character_event
+	title = middle_europe_decisions.0015.t
+	desc = middle_europe_decisions.0016.desc
+	theme = realm
+	left_portrait =	{
+		character = scope:founder
+		animation = personality_bold
+	}
+
+	immediate = {
+		#Other emperors are not happy about this.
+		if = {
+			limit = { highest_held_title_tier = tier_empire }
+			play_music_cue = "mx_cue_combat_2"
+		}
+	}
+
+	#Well, that happened.
+	option = {
+		name = {	#Other emperors are threatened.
+			trigger = {
+				highest_held_title_tier = tier_empire
+				NOT = { has_title = title:e_byzantium }
+			}
+			text = middle_europe_decisions.0016.a
+		}
+		name = {	#The true emperor is a tad pissed off.
+			trigger = { has_title = title:e_byzantium }
+			text = middle_europe_decisions.0016.b
+		}
+		name = {	#All other rulers fear Roman invasion.
+			trigger = {
+				NOR = {
+					highest_held_title_tier = tier_empire
+					any_liege_or_above = { this = scope:founder }
+				}
+			}
+			text = middle_europe_decisions.0016.c
+		}
+		name = {
+			trigger = {
+				any_liege_or_above = { this = scope:founder }
+			}
+			text = middle_europe_decisions.0016.d
+		}
+		ai_chance = {	#Solo option.
+			base = 100
+		}
+	}
+}

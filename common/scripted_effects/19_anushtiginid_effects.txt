@@ -1,0 +1,423 @@
+﻿# spawn invader, before story
+spawn_anushtiginid_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+	if = {
+		limit = {
+			has_game_rule = default_anushtiginid_invasion
+		}
+		hi_determine_county_faiths_in_region_effect = { # saves scope most_popular_region_faith
+			FAITH_REGION = special_$INVADER_DYNN$_conquest_region_faith
+			FAITH_RESTRICTIONS = "NOT = { has_doctrine_parameter = unreformed }"
+			FAITH_POPULARITY = 0 # 0 = 1st, 1 = 2nd, ...
+		}
+	}
+	else = {
+		faith:maturidi = {
+			save_scope_as = most_popular_region_faith
+		}
+	}
+
+	# spawn in Anushtiginid house
+	if = {
+		limit = { NOT = { exists = scope:invader } }
+		# legendary ancestry
+		character:1000230100 = { save_scope_as = oghuz_oghuz }
+		if = { # create none
+			limit = {
+				exists = character:1000230116
+			}
+			character:1000230101 = { save_scope_as = bozoq_oghuz }
+			character:1000230105 = { save_scope_as = yulduz_oghuz }
+			character:1000230116 = { save_scope_as = begdili_oghuz }
+		}
+		else_if = { # create 1
+			limit = {
+				exists = character:1000230105
+			}
+			character:1000230101 = { save_scope_as = bozoq_oghuz }
+			character:1000230105 = { save_scope_as = yulduz_oghuz }
+
+			create_character = {
+				template = begdili_oghuz_character_template
+				dynasty = inherit
+				father = scope:yulduz_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = begdili_oghuz
+				after_creation = {
+					house = {
+						if = {
+							limit = {
+								NOT = { # prevent the main house from being changed
+									this = scope:begdili_oghuz.father.house
+								}
+							}
+							set_house_name = hi_dynn_oghuz_house_begdili
+							set_coa = dynasty_oghuz_house_begdili_coa
+						}
+					}
+				}
+			}
+		}
+		else_if = { # create 2
+			limit = {
+				exists = character:1000230101
+			}
+			character:1000230101 = { save_scope_as = bozoq_oghuz }
+
+			create_character = {
+				template = yulduz_oghuz_character_template
+				dynasty = inherit
+				father = scope:bozoq_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = yulduz_oghuz
+				after_creation = {}
+			}
+			create_character = {
+				template = begdili_oghuz_character_template
+				dynasty = inherit
+				father = scope:yulduz_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = begdili_oghuz
+				after_creation = {
+					house = {
+						if = {
+							limit = {
+								NOT = { # prevent the main house from being changed
+									this = scope:begdili_oghuz.father.house
+								}
+							}
+							set_house_name = hi_dynn_oghuz_house_begdili
+							set_coa = dynasty_oghuz_house_begdili_coa
+						}
+					}
+				}
+			}
+		}
+		else = { # create all 3
+			create_character = {
+				template = bozoq_oghuz_character_template
+				dynasty = inherit
+				father = scope:oghuz_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = bozoq_oghuz
+				after_creation = {}
+			}
+			create_character = {
+				template = yulduz_oghuz_character_template
+				dynasty = inherit
+				father = scope:bozoq_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = yulduz_oghuz
+				after_creation = {}
+			}
+			create_character = {
+				template = begdili_oghuz_character_template
+				dynasty = inherit
+				father = scope:yulduz_oghuz
+				location = scope:invader_spawn_location
+				save_scope_as = begdili_oghuz
+				after_creation = {
+					house = {
+						if = {
+							limit = {
+								NOT = { # prevent the main house from being changed
+									this = scope:begdili_oghuz.father.house
+								}
+							}
+							set_house_name = hi_dynn_oghuz_house_begdili
+							set_coa = dynasty_oghuz_house_begdili_coa
+						}
+					}
+				}
+			}
+		}
+
+		# filler for cadet branch creation
+		create_character = {
+			template = anushtiginid_filler_character_template
+			age = 225
+			dynasty = inherit
+			father = scope:begdili_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = anushtiginid_filler_01
+			after_creation = { death = natural }
+		}
+		create_character = {
+			template = anushtiginid_filler_character_template
+			age = 175
+			dynasty = inherit
+			father = scope:anushtiginid_filler_01
+			location = scope:invader_spawn_location
+			save_scope_as = anushtiginid_filler_02
+			#after_creation = { death = natural } # is killed after the first real ancestor has created their cadet branch
+		}
+
+		### ancestors
+		# gen A
+		create_character = {
+			template = anushtigin_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:anushtiginid_filler_02
+			location = scope:invader_spawn_location
+			save_scope_as = anushtigin_anushtiginid
+			after_creation = {
+				create_cadet_branch = yes
+				house = {
+					if = {
+						limit = {
+							NOT = { # prevent the main house from being changed
+								this = scope:anushtigin_anushtiginid.father.house
+							}
+						}
+						set_house_name = hi_dynn_oghuz_house_anushtiginid
+						set_coa = title:e_anushtiginid
+					}
+				}
+				father = { death = natural }
+				death = natural
+			}
+		}
+		# gen B
+		create_character = {
+			template = muhammad_i_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:anushtigin_anushtiginid
+			location = scope:invader_spawn_location
+			save_scope_as = muhammad_i_anushtiginid
+		}
+		# gen C
+		create_character = {
+			template = atsiz_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:muhammad_i_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = atsiz_anushtiginid
+		}
+		create_character = {
+			template = inaltigin_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:muhammad_i_anushtiginid
+			location = scope:invader_spawn_location
+		}
+		create_character = {
+			template = yusuf_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:muhammad_i_anushtiginid
+			location = scope:invader_spawn_location
+		}
+		# gen D + spouses
+		create_character = { # dead
+			template = il-arslan_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:atsiz_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = il-arslan_anushtiginid
+		}
+		create_character = {
+			template = atliq_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:atsiz_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = atliq_anushtiginid
+		}
+		create_character = {
+			template = hitan_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:atsiz_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = hitan_anushtiginid
+		}
+		create_character = {
+			template = suleiman_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:atsiz_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = suleiman_anushtiginid
+		}
+
+		# gen E
+		### INVADER
+		create_character = {
+			template = tekish_anushtiginid_character_template
+			dynasty = inherit
+			father = scope:il-arslan_anushtiginid
+			location = scope:invader_spawn_location
+			faith = scope:most_popular_region_faith
+			save_scope_as = invader
+			after_creation = {
+				add_character_flag = spawned_$INVADER_DYNN$
+			}
+		}
+	}
+	# use characters provided by 1178 start date
+	else = {}
+
+	scope:invader = {
+		add_gold = 2000
+		add_prestige = 2250
+		add_piety = 150
+		
+		dynasty = {
+			add_dynasty_prestige_level = 2
+			add_dynasty_prestige = 1750
+		
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+	}
+
+	every_player = {
+		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+	}
+}
+
+anushtiginid_add_dynasty_perks_effect = {
+	add_dynasty_perk = warfare_legacy_1
+}
+
+anushtiginid_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	if = {
+		limit = { $INVADER_CHAR$ = { has_character_flag = spawned_$INVADER_DYNN$ } }
+		give_invader_land_effect = {
+			INVADER_DYNN = $INVADER_DYNN$
+			INVADER_CHAR = $INVADER_CHAR$
+			STARTING_TIER = $STARTING_TIER$
+		}
+	}
+	if = {
+		limit = { game_start_date < 1172.1.1 }
+		spawn_$INVADER_DYNN$_family_effect = {
+			INVADER_CHAR = $INVADER_CHAR$
+		}
+	}
+	else = { $INVADER_CHAR$ = { remove_character_flag = is_first_invader_flag } }
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_anushtiginid_family_effect = {
+	# brother
+	create_character = {
+		template = mahmud_anushtiginid_character_template
+		dynasty = inherit
+		father = $INVADER_CHAR$.father
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		save_scope_as = mahmud_anushtiginid
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		age = { 17 20 }
+		template = hi_random_spouse_character_template
+		dynasty = none
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		culture = $INVADER_CHAR$.culture
+		after_creation = {
+			marry = scope:mahmud_anushtiginid
+			disease_immunity_short_effect = yes
+		}
+	}
+
+	# spouse
+	create_character = {
+		age = { 20 30 }
+		template = hi_random_spouse_character_template
+		dynasty = none
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		culture = $INVADER_CHAR$.culture
+		save_scope_as = tekish_spouse
+		after_creation = {
+			marry = $INVADER_CHAR$
+			disease_immunity_long_effect = yes
+		}
+	}
+
+	# children
+	create_character = {
+		template = muhammad_ii_anushtiginid_character_template
+		dynasty = inherit
+		mother = scope:tekish_spouse
+		father = $INVADER_CHAR$
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = khutan_anushtiginid_character_template
+		dynasty = inherit
+		mother = scope:tekish_spouse
+		father = $INVADER_CHAR$
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+}
+
+# Make sure invader has troops
+spawn_anushtiginid_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_anushtiginid_army_effect = yes
+		spawn_anushtiginid_army_effect = yes
+	}
+	spawn_anushtiginid_army_effect = yes
+	spawn_anushtiginid_army_effect = yes
+	spawn_anushtiginid_army_effect = yes
+	if = {
+		limit = { game_start_date < 1000.1.1 }
+		spawn_anushtiginid_army_effect = yes
+	}
+}
+spawn_anushtiginid_army_effect = {
+	spawn_army = {
+		name = anushtiginid_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = no
+		
+		levies = 250
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 12
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 12
+		}
+		men_at_arms = {
+			type = ayyar
+			stacks = 12
+		}
+		men_at_arms = {
+			type = horse_archers
+			stacks = 12
+		}
+		# siege
+		men_at_arms = {
+			type = trebuchet
+			stacks = 10
+		}
+	}
+}

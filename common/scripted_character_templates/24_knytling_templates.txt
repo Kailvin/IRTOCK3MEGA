@@ -1,0 +1,166 @@
+﻿### North Sea Empire templates [hist ID]
+# timestamp: 1016
+
+# Knud (858 - 934, 76) [101549]
+# Gorm (877 - 958, 81) [101500]
+gorm_gorm_character_template = {
+	name = gorm_gorm_character_template_name
+	age = 139
+	gender = male
+	dynasty = inherit
+
+	faith = faith:norse_pagan
+	culture = culture:norse
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Haraldr, grandfather (920 - 986, 66) [101502]
+haraldr_gorm_character_template = {
+	name = haraldr_gorm_character_template_name
+	age = 96
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norse
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Sveinn, father (960 - 1014, 54) [101505]
+sveinn_gorm_character_template = {
+	name = sveinn_gorm_character_template_name
+	age = 56
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norse
+
+	random_traits = yes
+	after_creation = { # dies after his son creates his own cadet branch; results in an error and no cadet branch being created otherwise
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# Knud INVADER (990 - 1035, 45) [101510]
+knud_knytling_character_template = {
+	name = knud_knytling_character_template_name
+	age = 26
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norse
+
+	trait = education_martial_4
+
+	trait = lifestyle_blademaster
+	trait = giant
+	trait = strong
+	trait = physique_good_1
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		create_cadet_branch = yes
+		father = { death = natural }
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Harald, son (1015 - 1040) [101513]
+haraldr_knytling_character_template = {
+	name = haraldr_knytling_character_template_name
+	age = 1
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norse
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Sveinn, son (1016 - 1035) [101514]
+sveinn_knytling_character_template = {
+	name = sveinn_knytling_character_template_name
+	age = 1
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norse
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+##### de Normandie
+
+# Hrolfr [242]
+
+# William (914 - 942) [244]
+william_i_normandie_knytling_character_template = {
+	name = william_i_normandie_knytling_character_template_name
+	age = 102
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norman
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Richard (933 - 996) [246]
+richard_normandie_knytling_character_template = {
+	name = richard_normandie_knytling_character_template_name
+	age = 83
+	gender = male
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norman
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Emma, spouse (988 - 1052) [259]
+emma_normandie_character_template = {
+	name = emma_normandie_character_template_name
+	age = 28
+	gender = female
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:norman
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

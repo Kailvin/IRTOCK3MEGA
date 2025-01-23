@@ -1,0 +1,26 @@
+k_IRTOCK3_M08={
+	422.9.15 = { holder = imperator204990 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_akara_dasarna={
+	423.7.6 = { liege = 0 }
+}
+c_vidisa={
+	422.9.15 = { liege = 0 holder = imperator204990 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 18 }
+}
+b_bhojpur={
+	423.7.6 = { holder = imperator187947 }
+}
+c_sarangpur={
+	422.9.15 = { liege = 0 holder = imperator205090 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_chanderi={
+	422.9.15 = { liege = 0 holder = imperator204990 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_candhoba={
+	422.9.15 = { liege = 0 holder = imperator204940 }
+	423.7.6 = { change_development_level = 15 }
+}

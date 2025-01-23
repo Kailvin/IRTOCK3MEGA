@@ -1,0 +1,56 @@
+k_badajoz={
+	423.7.6 = { liege = 0 }
+}
+d_beja={
+	423.7.6 = { liege = 0 }
+}
+c_lisboa={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_beja={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_alcacer_do_sal={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_elvas={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_badajoz={
+	423.7.6 = { liege = 0 }
+}
+c_badajoz={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_plasencia={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_caceres={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_merida={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_medellin={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_algarve={
+	423.7.6 = { liege = 0 }
+}
+c_faro={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_silves={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}

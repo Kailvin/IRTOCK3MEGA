@@ -1,0 +1,29 @@
+506={
+	culture = kolochin
+	faith = orthodox
+	holding = castle_holding
+}
+3664={
+	culture = kolochin
+	faith = orthodox
+	holding = castle_holding
+}
+3665={
+	holding = none
+}
+3666={
+	holding = none
+}
+3667={
+	holding = none
+	100.1.1 = { special_building_slot = west_trajans_bridge }
+}
+3668={
+	holding = castle_holding
+}
+3669={
+	holding = none
+}
+3670={
+	holding = city_holding
+}

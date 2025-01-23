@@ -1,0 +1,72 @@
+k_brittany={
+	392.8.20 = { government = feudal_government holder = imperator188449 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+}
+d_brittany={
+	423.7.6 = { liege = 0 }
+}
+c_vannes={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_nantes={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_cornouaille={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_french_leon={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_penthievre={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_rennes={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_anjou={
+	423.7.6 = { liege = 0 }
+}
+c_anjou={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_saumur={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_maine={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_sable={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_orleans={
+	423.7.6 = { liege = 0 }
+}
+c_orleans={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_montargis={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_vendome={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_chartres={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_sancerre={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}

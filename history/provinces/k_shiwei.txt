@@ -1,0 +1,223 @@
+7473={
+	culture = sibe
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+7505={
+	holding = none
+}
+7684={
+	holding = none
+}
+7734={
+	culture = sibe
+	religion = abkaism
+	holding = tribal_holding
+}
+7991={
+	culture = sibe
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+11838={
+	holding = none
+}
+11844={
+	culture = sibe
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+11958={
+	holding = none
+}
+12007={
+	holding = none
+}
+12184={
+	holding = none
+}
+12196={
+	culture = sibe
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+12211={
+	holding = none
+}
+12227={
+	culture = qay
+	religion = eastern_tengri
+	holding = tribal_holding
+	900.1.1 = { culture = khitan }
+	1150.1.1 = { culture = sibe }
+}
+12333={
+	holding = none
+}
+12342={
+	holding = none
+}
+12488={
+	holding = none
+}
+12549={
+	holding = none
+}
+12690={
+	holding = none
+}
+12693={
+	holding = none
+}
+12696={
+	holding = none
+}
+12706={
+	culture = khitan
+	religion = eastern_tengri
+	holding = tribal_holding
+	1150.1.1 = { culture = sibe }
+}
+12732={
+	holding = none
+}
+12777={
+	holding = none
+}
+12906={
+	holding = none
+}
+13217={
+	holding = none
+}
+13291={
+	holding = none
+}
+13350={
+	holding = none
+}
+13358={
+	holding = none
+}
+13368={
+	culture = sibe
+	religion = abkaism
+	holding = tribal_holding
+	1150.1.1 = { culture = jurchen }
+}
+13371={
+	holding = none
+}
+13383={
+	holding = none
+}
+13513={
+	holding = none
+}
+13559={
+	holding = none
+}
+13560={
+	holding = none
+}
+13561={
+	holding = none
+}
+13562={
+	holding = none
+}
+13563={
+	holding = none
+}
+13564={
+	holding = none
+}
+13565={
+	holding = none
+}
+13568={
+	holding = none
+}
+13615={
+	culture = sibe
+	religion = abkaism
+	holding = tribal_holding
+	1150.1.1 = { culture = daur }
+}
+13626={
+	holding = none
+}
+13628={
+	culture = onggirad
+	religion = eastern_tengri
+	holding = tribal_holding
+	1050.1.1 = { culture = sibe }
+}
+13649={
+	holding = none
+}
+13651={
+	culture = tajiuud
+	religion = eastern_tengri
+	holding = tribal_holding
+	1150.1.1 = { culture = daur }
+}
+13664={
+	holding = none
+}
+13684={
+	holding = none
+}
+13701={
+	culture = tajiuud
+	religion = eastern_tengri
+	holding = tribal_holding
+	1150.1.1 = { culture = daur }
+}
+13714={
+	culture = onggirad
+	religion = eastern_tengri
+	holding = tribal_holding
+	1050.1.1 = { culture = sibe }
+	1150.1.1 = { culture = daur }
+}
+13727={
+	holding = none
+}
+13734={
+	holding = none
+}
+13735={
+	holding = none
+}
+13750={
+	holding = none
+}
+13760={
+	culture = tajiuud
+	religion = eastern_tengri
+	holding = tribal_holding
+	1150.1.1 = { culture = daur }
+}
+13783={
+	holding = none
+}
+13788={
+	holding = none
+}
+13802={
+	culture = khitan
+	religion = eastern_tengri
+	holding = tribal_holding
+	1150.1.1 = { culture = sibe }
+}
+13803={
+	holding = none
+}
+13966={
+	culture = sibe
+	religion = abkaism
+	holding = tribal_holding
+	1050.1.1 = { culture = khitan }
+	1150.1.1 = { culture = jurchen }
+}

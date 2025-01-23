@@ -1,0 +1,165 @@
+511={
+	culture = kolochin
+	faith = slavic_pagan
+	holding = castle_holding
+	380.1.1 = { culture = herulian }
+}
+513={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+	380.1.1 = { culture = herulian }
+}
+536={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+541={
+	culture = hun
+	faith = tengri_pagan
+	holding = castle_holding
+}
+545={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+546={
+	culture = hun
+	faith = scythian_pagan
+	holding = castle_holding
+	400.1.1 = { culture = sclavenian }
+}
+5019={
+	culture = scythian
+	faith = scythian_pagan
+	holding = tribal_holding
+}
+5020={
+	holding = none
+}
+5021={
+	culture = sarmatian
+	faith = gothic_pagan
+	holding = castle_holding
+}
+5022={
+	holding = none
+}
+5023={
+	holding = church_holding
+}
+5024={
+	holding = castle_holding
+}
+5025={
+	holding = none
+}
+5026={
+	holding = city_holding
+}
+5027={
+	holding = city_holding
+}
+5028={
+	holding = castle_holding
+}
+5029={
+	culture = kolochin
+	faith = orthodox
+	holding = castle_holding
+	380.1.1 = { culture = herulian }
+}
+5030={
+	holding = city_holding
+}
+5031={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+	380.1.1 = { culture = herulian }
+}
+5032={
+	holding = city_holding
+}
+5033={
+	holding = city_holding
+}
+5034={
+	holding = city_holding
+}
+5035={
+	holding = city_holding
+}
+5036={
+	holding = city_holding
+}
+5037={
+	holding = church_holding
+}
+5038={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5039={
+	holding = none
+}
+5040={
+	culture = getian
+	faith = orthodox
+	holding = castle_holding
+	special_building_slot = hotin_fort_01
+}
+5041={
+	holding = church_holding
+}
+5042={
+	holding = church_holding
+}
+5060={
+	holding = city_holding
+}
+5061={
+	holding = city_holding
+}
+5062={
+	holding = city_holding
+}
+5063={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+	400.1.1 = { culture = sclavenian }
+}
+5064={
+	holding = city_holding
+}
+5065={
+	holding = none
+}
+5066={
+	holding = none
+}
+5067={
+	holding = none
+}
+5068={
+	holding = none
+}
+5069={
+	holding = none
+}
+5070={
+	culture = hun
+	faith = tengri_pagan
+	holding = castle_holding
+	400.1.1 = { culture = sclavenian }
+}
+5071={
+	holding = none
+}
+5072={
+	holding = none
+}

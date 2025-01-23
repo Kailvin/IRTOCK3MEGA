@@ -1,0 +1,37 @@
+k_castille={
+	423.7.6 = { liege = 0 }
+}
+d_castilla={
+	423.7.6 = { liege = 0 }
+}
+c_burgos={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_valladolid={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_soria={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_cuellar={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_olmedo={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_cantabria={
+	423.7.6 = { liege = 0 }
+}
+c_asturias_de_santillana={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_amaya={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}

@@ -1,0 +1,42 @@
+k_sunda={
+	423.7.6 = { liege = 0 }
+}
+d_sunda={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_pakuanpajajaran_holder liege = 0 }
+}
+c_pakuanpajajaran={
+	423.7.6 = { holder = IRToCK3_c_pakuanpajajaran_holder change_development_level = 0 }
+}
+c_sundakalapa={
+	423.7.6 = { holder = IRToCK3_c_pakuanpajajaran_holder change_development_level = 0 }
+}
+c_parahyangan={
+	423.7.6 = { holder = IRToCK3_c_pakuanpajajaran_holder change_development_level = 0 }
+}
+c_salakanagara={
+	423.7.6 = { holder = IRToCK3_c_pakuanpajajaran_holder change_development_level = 0 }
+}
+c_banten={
+	423.7.6 = { holder = IRToCK3_c_pakuanpajajaran_holder change_development_level = 0 }
+}
+d_galuh={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_galuh_holder liege = 0 }
+}
+c_galuh={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}
+c_patapan={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}
+c_watukura={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}
+c_nusalarang={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}
+c_panumwangan={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}
+c_pamanukan={
+	423.7.6 = { holder = IRToCK3_c_galuh_holder change_development_level = 0 }
+}

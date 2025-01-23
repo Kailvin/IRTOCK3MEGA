@@ -1,0 +1,72 @@
+k_south_sulawesi={
+	423.7.6 = { liege = 0 }
+}
+d_bugis={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_sopeng_holder government = tribal_government }
+}
+c_sopeng={
+	423.7.6 = { holder = IRToCK3_c_sopeng_holder change_development_level = 0 }
+}
+c_palattae={
+	423.7.6 = { holder = IRToCK3_c_sopeng_holder change_development_level = 0 }
+}
+c_watampone={
+	423.7.6 = { holder = IRToCK3_c_sopeng_holder change_development_level = 0 }
+}
+c_parepare={
+	423.7.6 = { holder = IRToCK3_c_sopeng_holder change_development_level = 0 }
+}
+d_luwu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_burau_holder government = tribal_government }
+}
+c_burau={
+	423.7.6 = { holder = IRToCK3_c_burau_holder change_development_level = 0 }
+}
+c_larompong={
+	423.7.6 = { holder = IRToCK3_c_burau_holder change_development_level = 0 }
+}
+c_sidenreng={
+	423.7.6 = { holder = IRToCK3_c_burau_holder change_development_level = 0 }
+}
+d_mandar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_topoyo_holder liege = 0 }
+}
+c_topoyo={
+	423.7.6 = { holder = IRToCK3_c_topoyo_holder change_development_level = 0 }
+}
+c_seko={
+	423.7.6 = { holder = IRToCK3_c_topoyo_holder change_development_level = 0 }
+}
+c_sadan={
+	423.7.6 = { holder = IRToCK3_c_topoyo_holder change_development_level = 0 }
+}
+d_mamuju={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mamuju_holder government = tribal_government }
+}
+c_mamuju={
+	423.7.6 = { holder = IRToCK3_c_mamuju_holder change_development_level = 0 }
+}
+c_polewali={
+	423.7.6 = { holder = IRToCK3_c_mamuju_holder change_development_level = 0 }
+}
+c_mamasa={
+	423.7.6 = { holder = IRToCK3_c_mamuju_holder change_development_level = 0 }
+}
+c_toraja={
+	423.7.6 = { holder = IRToCK3_c_mamuju_holder change_development_level = 0 }
+}
+d_makassar={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_makassar_holder government = tribal_government }
+}
+c_makassar={
+	423.7.6 = { holder = IRToCK3_c_makassar_holder change_development_level = 0 }
+}
+c_jeneponto={
+	423.7.6 = { holder = IRToCK3_c_makassar_holder change_development_level = 0 }
+}
+c_bulukumba={
+	423.7.6 = { holder = IRToCK3_c_makassar_holder change_development_level = 0 }
+}
+c_selayar={
+	423.7.6 = { holder = IRToCK3_c_makassar_holder change_development_level = 0 }
+}

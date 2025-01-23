@@ -1,0 +1,95 @@
+k_ghana={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+d_wagadu={
+	360.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 4 }
+	416.1.1 = { holder = awkar_18 }
+	423.7.6 = { holder = IRToCK3_c_walata_holder government = tribal_government }
+}
+c_awkar={
+	360.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 6 }
+	416.1.1 = { holder = awkar_18 }
+}
+c_walata={
+	423.7.6 = { holder = IRToCK3_c_walata_holder change_development_level = 4 }
+}
+c_masin={
+	360.1.1 = { government = tribal_government }
+	415.1.1 = { holder = awkar_13 }
+	423.7.6 = { change_development_level = 4 }
+}
+d_mema={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kouga_holder government = tribal_government }
+}
+c_mema={
+	360.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 4 }
+	416.1.1 = { holder = awkar_18 }
+}
+c_kouga={
+	423.7.6 = { holder = IRToCK3_c_kouga_holder change_development_level = 2 }
+}
+c_massina={
+	360.1.1 = { government = tribal_government }
+	416.1.1 = { holder = awkar_18 }
+	423.7.6 = { change_development_level = 2 }
+}
+d_tagant={
+	360.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 4 }
+	415.1.1 = { holder = awkar_13 }
+}
+c_hodh={
+	360.1.1 = { government = tribal_government }
+	415.1.1 = { holder = awkar_13 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_tichitt={
+	360.1.1 = { government = tribal_government }
+	415.1.1 = { holder = awkar_13 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_tagant={
+	360.1.1 = { government = tribal_government }
+	415.1.1 = { holder = awkar_13 }
+	423.7.6 = { change_development_level = 4 }
+}
+d_diafunu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_guidimaka_holder government = tribal_government }
+}
+c_guidimaka={
+	351.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { holder = IRToCK3_c_guidimaka_holder }
+}
+c_yelimane={
+	351.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_guidimaka_holder change_development_level = 2 }
+}
+c_kingui={
+	351.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_guidimaka_holder change_development_level = 2 }
+}
+d_kaniaga={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kaniaga_holder government = tribal_government }
+}
+c_kaniaga={
+	351.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { holder = IRToCK3_c_kaniaga_holder }
+}
+c_kaarta={
+	351.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kaniaga_holder change_development_level = 2 }
+}
+c_kita={
+	351.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kaniaga_holder change_development_level = 2 }
+}
+c_soso={
+	351.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kaniaga_holder change_development_level = 2 }
+}

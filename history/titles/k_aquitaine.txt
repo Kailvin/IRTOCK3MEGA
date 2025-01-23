@@ -1,0 +1,174 @@
+k_aquitaine={
+	422.10.15 = { government = feudal_government holder = imperator198572 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+}
+d_gascogne={
+	423.7.6 = { liege = 0 }
+}
+c_bordeaux={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_labourd={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_albret={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_marsan={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_agenais={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_aquitaine={
+	423.7.6 = { liege = 0 }
+}
+c_angouleme={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_perigord={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_limousin={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_saintonge={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_aunis={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_toulouse={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gevaudan_holder liege = 0 }
+}
+c_toulouse={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_quercy={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_gevaudan={
+	423.7.6 = { holder = IRToCK3_c_gevaudan_holder liege = 0 change_development_level = 7 }
+}
+c_rouergue={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_millau={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_languedoc={
+	423.7.6 = { liege = 0 }
+}
+c_albi={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_uses={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_montpellier={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_carcassonne={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_beziers={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_foix={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_armagnac={
+	423.7.6 = { liege = 0 }
+}
+c_armagnac={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_bigorre={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_bearn={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_comminges={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_poitou={
+	423.7.6 = { liege = 0 }
+}
+c_poitiers={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_lusignan={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_montaigu={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_thouars={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_auvergne={
+	423.7.6 = { liege = 0 }
+}
+c_auvergne={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_clermont_sur_allier={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_thiers={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_velay={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_berry={
+	423.7.6 = { liege = 0 }
+}
+c_berry={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_tourraine={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_blois={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_issoudun={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}

@@ -1,0 +1,38 @@
+k_IRTOCK3_G52={
+	-14.7.11 = { holder = imperator126758 government = city_state_government }
+	-9.7.11 = { holder = imperator126734 government = city_state_government }
+	-4.7.11 = { holder = imperator126736 government = city_state_government }
+	2.7.11 = { holder = imperator126735 government = city_state_government }
+	7.7.11 = { holder = imperator126744 government = city_state_government }
+	12.7.11 = { holder = imperator126734 government = city_state_government }
+	17.7.11 = { holder = imperator126745 government = city_state_government }
+	22.7.11 = { holder = imperator126735 government = city_state_government }
+	27.7.11 = { holder = imperator126744 government = city_state_government }
+	30.4.25 = { holder = imperator126751 government = city_state_government }
+	392.3.1 = { holder = imperator194779 government = city_state_government }
+	397.3.1 = { holder = imperator194797 government = city_state_government }
+	402.3.1 = { holder = imperator194780 government = city_state_government }
+	407.3.1 = { holder = imperator194785 government = city_state_government }
+	412.3.1 = { holder = imperator194788 government = city_state_government }
+	417.3.1 = { holder = imperator197706 government = city_state_government }
+	422.3.1 = { holder = imperator194779 government = city_state_government }
+	423.7.6 = { succession_laws = { city_succession_law } }
+}
+d_slesvig={
+	423.7.6 = { liege = 0 }
+}
+c_slesvig={
+	422.3.1 = { liege = 0 holder = imperator194779 }
+	423.7.6 = { change_development_level = 10 }
+}
+b_aabenraa={
+	423.7.6 = { holder = imperator194790 }
+}
+c_vorbasse={
+	422.3.1 = { liege = 0 holder = imperator194779 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ribe={
+	422.3.1 = { liege = 0 holder = imperator194779 }
+	423.7.6 = { liege = k_IRTOCK3_G52 holder = imperator194797 change_development_level = 10 }
+}

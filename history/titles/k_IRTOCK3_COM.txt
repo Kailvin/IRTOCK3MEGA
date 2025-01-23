@@ -1,0 +1,188 @@
+k_IRTOCK3_COM={
+	-304.10.1 = { holder = imperator4872 government = feudal_government }
+	-252.5.6 = { holder = imperator4914 government = feudal_government }
+	-248.10.17 = { holder = imperator47557 government = feudal_government }
+	385.11.20 = { holder = imperator193037 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_mesopotamia={
+	423.7.6 = { liege = 0 }
+}
+c_theodosiopolis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_melitene={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_mesopotamia={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_samarra={
+	423.7.6 = { liege = 0 }
+}
+c_samarra={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_hulwan={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_kirkuk={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_takrit={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_kufa={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_qadisiya_holder liege = 0 }
+}
+c_kufa={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_safata={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_qadisiya={
+	423.7.6 = { holder = IRToCK3_c_qadisiya_holder liege = 0 change_development_level = 0 }
+}
+c_batiha={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_akhadid={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_waqisa={
+	423.7.6 = { holder = IRToCK3_c_qadisiya_holder liege = 0 change_development_level = 0 }
+}
+d_baghdad={
+	423.7.6 = { liege = 0 }
+}
+c_baghdad={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_iskaf={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_anbar={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_karbala={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_badaraya={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_diyarrabia={
+	423.7.6 = { liege = 0 }
+}
+c_mosul={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ninive={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_sinjar={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_nasibin={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_khabur={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_upper_khabur={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_diyarbakr={
+	423.7.6 = { liege = 0 }
+}
+c_amida={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_tall_basma={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_hakkari={
+	373.8.26 = { liege = 0 holder = imperator185577 }
+	423.7.6 = { liege = k_IRTOCK3_K37 holder = imperator186427 change_development_level = 12 }
+}
+c_mayyafariqin={
+	422.12.1 = { liege = 0 holder = imperator199171 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_bakriya={
+	422.12.1 = { liege = 0 holder = imperator199171 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_euphrates={
+	423.7.6 = { liege = 0 }
+}
+c_rahba={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_hadithat-ana={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_al-haditha={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_kurdistan={
+	423.7.6 = { liege = 0 }
+}
+c_irbil={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_kurdistan={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_shahrazur={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_edessa={
+	423.7.6 = { liege = 0 }
+}
+c_edessa={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_samosata={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { liege = k_IRTOCK3_COM holder = imperator193136 change_development_level = 6 }
+}
+c_marash={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_aintab={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}

@@ -1,0 +1,61 @@
+k_igbo-benue={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+d_igboland={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_igbo_holder government = tribal_government }
+}
+c_igbo={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_igbo_holder }
+}
+c_idoma={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_igbo_holder change_development_level = 0 }
+}
+c_igala={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_igbo_holder change_development_level = 0 }
+}
+c_ijaw={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_igbo_holder }
+}
+c_ibibo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_igbo_holder change_development_level = 0 }
+}
+d_nupe={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nupe_holder liege = 0 }
+}
+c_nupe={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_nupe_holder change_development_level = 0 }
+}
+c_guwari={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_nupe_holder }
+}
+c_opanda={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_nupe_holder change_development_level = 0 }
+}
+c_kyadya={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_nupe_holder change_development_level = 0 }
+}
+d_kwararafa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kwararafa_holder government = tribal_government }
+}
+c_kwararafa={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_kwararafa_holder }
+}
+c_keffi={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kwararafa_holder change_development_level = 0 }
+}
+c_bauchi={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_kwararafa_holder }
+}

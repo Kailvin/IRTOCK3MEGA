@@ -1,0 +1,76 @@
+k_shan={
+	423.7.6 = { liege = 0 }
+}
+d_north_shan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tangyang_holder liege = 0 }
+}
+c_tangyang={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+c_namhsan={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+c_hsenwi={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+c_mongsu={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+c_mong_mit={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator193247 change_development_level = 15 }
+}
+c_manglon={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+c_hopang={
+	423.7.6 = { holder = IRToCK3_c_tangyang_holder change_development_level = 0 }
+}
+d_mang_shuea={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mang_shuea_holder government = tribal_government }
+}
+c_mang_shuea={
+	423.7.6 = { holder = IRToCK3_c_mang_shuea_holder change_development_level = 0 }
+}
+c_yang_wen_dun={
+	423.7.6 = { holder = IRToCK3_c_mang_shuea_holder change_development_level = 0 }
+}
+c_zhen_xi={
+	423.7.6 = { holder = IRToCK3_c_mang_shuea_holder change_development_level = 0 }
+}
+d_hsipaw={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_hsipaw_holder government = tribal_government }
+}
+c_hsipaw={
+	423.7.6 = { holder = IRToCK3_c_hsipaw_holder change_development_level = 0 }
+}
+c_mongkung={
+	423.7.6 = { holder = IRToCK3_c_hsipaw_holder change_development_level = 0 }
+}
+c_laikha={
+	423.7.6 = { holder = IRToCK3_c_hsipaw_holder change_development_level = 0 }
+}
+c_mongnawng={
+	423.7.6 = { holder = IRToCK3_c_hsipaw_holder change_development_level = 0 }
+}
+d_mongnai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_mongnai_holder liege = 0 }
+}
+c_mongnai={
+	423.7.6 = { holder = IRToCK3_c_mongnai_holder change_development_level = 0 }
+}
+c_mongpan={
+	423.7.6 = { holder = IRToCK3_c_mongnai_holder change_development_level = 0 }
+}
+c_mawkmai={
+	423.7.6 = { holder = IRToCK3_c_mongnai_holder change_development_level = 0 }
+}
+d_mongpai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_mong_pai_holder liege = 0 }
+}
+c_mong_pai={
+	423.7.6 = { holder = IRToCK3_c_mong_pai_holder liege = 0 change_development_level = 0 }
+}
+c_karenni={
+	423.7.6 = { holder = IRToCK3_c_mong_pai_holder change_development_level = 0 }
+}

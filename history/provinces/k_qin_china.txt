@@ -1,0 +1,208 @@
+11766={
+	culture = tuyuhun
+	religion = vajrayana
+	holding = none
+}
+11771={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+11772={
+	holding = none
+}
+11774={
+	holding = none
+}
+11778={
+	holding = none
+}
+11781={
+	holding = none
+}
+11782={
+	holding = none
+}
+11859={
+	holding = none
+}
+11863={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+11867={
+	holding = none
+}
+11871={
+	holding = none
+}
+11872={
+	holding = none
+}
+11891={
+	holding = none
+}
+11897={
+	holding = none
+}
+12743={
+	holding = none
+}
+12751={
+	holding = church_holding
+}
+12760={
+	holding = church_holding
+	special_building = generic_university
+}
+12761={
+	culture = han
+	religion = zenzong
+	holding = castle_holding
+	buildings = { castle_04 }
+	special_building_slot = wild_goose_pagoda_01
+	special_building = wild_goose_pagoda_01
+	duchy_capital_building = daming_palace_01
+}
+12762={
+	holding = none
+}
+12765={
+	holding = none
+}
+12766={
+	holding = castle_holding
+}
+12792={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12793={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12800={
+	holding = city_holding
+}
+12801={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12816={
+	holding = none
+}
+12825={
+	holding = none
+}
+12826={
+	holding = none
+	special_building_slot = zhengguoqu_01
+	special_building = zhengguoqu_01
+}
+12829={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12833={
+	holding = none
+}
+12836={
+	holding = none
+	special_building_slot = zhengguoqu_01
+	special_building = zhengguoqu_01
+}
+12851={
+	culture = han
+	religion = zenzong
+	holding = none
+	special_building_slot = zhengguoqu_01
+	special_building = zhengguoqu_01
+}
+12858={
+	holding = none
+	special_building_slot = zhengguoqu_01
+	special_building = zhengguoqu_01
+}
+12863={
+	holding = none
+}
+12871={
+	holding = none
+}
+12882={
+	holding = none
+}
+12887={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12895={
+	holding = none
+}
+12896={
+	holding = none
+}
+12899={
+	holding = none
+}
+12914={
+	holding = none
+}
+12917={
+	holding = none
+}
+12920={
+	holding = none
+}
+12923={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12926={
+	holding = none
+}
+12932={
+	holding = none
+}
+12938={
+	holding = none
+}
+12950={
+	holding = none
+}
+12957={
+	holding = none
+}
+12958={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12964={
+	culture = tuyuhun
+	religion = vajrayana
+	holding = none
+}
+12966={
+	holding = none
+}
+12968={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12971={
+	culture = han
+	religion = zenzong
+	holding = none
+}
+12976={
+	holding = none
+}

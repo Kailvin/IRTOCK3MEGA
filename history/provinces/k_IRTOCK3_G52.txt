@@ -1,0 +1,34 @@
+59={
+	culture = old_suebi
+	faith = norse_pagan
+	holding = city_holding
+}
+60={
+	culture = old_suebi
+	faith = norse_pagan
+	holding = city_holding
+}
+61={
+	holding = city_holding
+}
+62={
+	culture = old_suebi
+	faith = norse_pagan
+	holding = city_holding
+	special_building_slot = danevirke_01
+}
+83={
+	holding = none
+}
+84={
+	holding = none
+}
+220={
+	holding = none
+}
+227={
+	holding = city_holding
+}
+434={
+	holding = none
+}

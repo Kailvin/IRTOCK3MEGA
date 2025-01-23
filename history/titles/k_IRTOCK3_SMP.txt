@@ -1,0 +1,227 @@
+k_IRTOCK3_SMP={
+	-304.10.1 = { holder = imperator20407 government = tribal_government }
+	-251.5.10 = { holder = imperator43377 government = tribal_government }
+	-249.1.20 = { holder = imperator20426 government = tribal_government }
+	-247.6.27 = { holder = imperator36007 government = tribal_government }
+	-243.7.17 = { holder = imperator43376 government = tribal_government }
+	-237.8.8 = { holder = imperator20443 government = tribal_government }
+	-235.2.4 = { holder = imperator36360 government = tribal_government }
+	-230.7.29 = { holder = imperator33684 government = tribal_government }
+	-225.11.25 = { holder = imperator46014 government = tribal_government }
+	-217.11.25 = { holder = imperator45077 government = tribal_government }
+	-212.1.4 = { holder = imperator49013 government = tribal_government }
+	-204.2.14 = { holder = imperator53745 government = tribal_government }
+	-202.5.23 = { holder = imperator56711 government = tribal_government }
+	-196.7.13 = { holder = imperator76223 government = tribal_government }
+	-174.12.26 = { holder = imperator73659 government = tribal_government }
+	-153.8.4 = { holder = imperator85702 government = tribal_government }
+	-151.6.23 = { holder = imperator76839 government = tribal_government }
+	-150.3.22 = { holder = imperator81213 government = tribal_government }
+	-132.4.4 = { holder = imperator82614 government = tribal_government }
+	-123.5.31 = { holder = imperator88089 government = tribal_government }
+	-121.6.10 = { holder = imperator90592 government = tribal_government }
+	-109.2.13 = { holder = imperator95691 government = tribal_government }
+	-85.3.26 = { holder = imperator111439 government = tribal_government }
+	-76.9.9 = { holder = imperator102395 government = tribal_government }
+	-62.6.6 = { holder = imperator106467 government = tribal_government }
+	-46.4.28 = { holder = imperator108437 government = tribal_government }
+	-36.10.31 = { holder = imperator112945 government = tribal_government }
+	-16.6.26 = { holder = imperator116029 government = tribal_government }
+	-6.7.28 = { holder = imperator122023 government = tribal_government }
+	27.11.14 = { holder = imperator121684 government = tribal_government }
+	31.1.10 = { holder = imperator126834 government = tribal_government }
+	67.3.14 = { holder = imperator128403 government = tribal_government }
+	70.11.4 = { holder = imperator130629 government = tribal_government }
+	81.11.10 = { holder = imperator131427 government = tribal_government }
+	89.12.19 = { holder = imperator139098 government = tribal_government }
+	99.5.8 = { holder = imperator136979 government = tribal_government }
+	128.10.22 = { holder = imperator136908 government = tribal_government }
+	129.9.19 = { holder = imperator140471 government = tribal_government }
+	154.12.11 = { holder = imperator141448 government = tribal_government }
+	159.10.27 = { holder = imperator143507 government = tribal_government }
+	184.6.18 = { holder = imperator145935 government = tribal_government }
+	203.11.16 = { holder = imperator150536 government = tribal_government }
+	215.8.1 = { holder = imperator154606 government = tribal_government }
+	226.12.10 = { holder = imperator150867 government = tribal_government }
+	245.2.4 = { holder = imperator153702 government = tribal_government }
+	253.10.5 = { holder = imperator160097 government = tribal_government }
+	274.11.18 = { holder = imperator160105 government = tribal_government }
+	290.2.2 = { holder = imperator160564 government = tribal_government }
+	298.11.5 = { holder = imperator165758 government = tribal_government }
+	301.6.9 = { holder = imperator162332 government = tribal_government }
+	314.11.3 = { holder = imperator165453 government = tribal_government }
+	327.10.7 = { holder = imperator172037 government = tribal_government }
+	343.7.4 = { holder = imperator171805 government = tribal_government }
+	368.8.4 = { holder = imperator173958 government = tribal_government }
+	369.8.18 = { holder = imperator174380 government = tribal_government }
+	380.10.6 = { holder = imperator183353 government = tribal_government }
+	420.5.20 = { holder = imperator187586 government = tribal_government }
+	423.7.6 = { succession_laws = { high_partition_succession_law } }
+}
+d_yarlung={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_zetang={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_nagarze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_comai={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_gyaca={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_nang={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_lhasa={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_lhasa={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_gyama={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_lhunzhub={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_nyemo={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_damxung={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator180797 change_development_level = 6 }
+}
+d_nagchu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_baingoin_holder liege = 0 }
+}
+c_nagchu={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_baingoin={
+	423.7.6 = { holder = IRToCK3_c_baingoin_holder liege = "d_nagchu" change_development_level = 0 }
+}
+c_lhari={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_xigaze={
+	423.7.6 = { liege = 0 }
+}
+c_xigaze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_gyangze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_kangmar={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_sagya={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nyalam_holder liege = 0 }
+}
+c_sagya={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_nyalam={
+	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = "d_sagya" change_development_level = 1 }
+}
+c_gyirong={
+	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = 0 change_development_level = 1 }
+}
+c_kyakyaru={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
+}
+d_ngamring={
+	423.7.6 = { liege = 0 }
+}
+c_kagar={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator184940 change_development_level = 5 }
+}
+c_caze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
+}
+c_xaitongmoin={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_nyingchi={
+	423.7.6 = { liege = 0 }
+}
+c_nyingchi={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_gongbo={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_bumthang={
+	423.7.6 = { liege = 0 }
+}
+c_bumthang={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_kurmaed={
+	422.9.21 = { liege = 0 holder = imperator203565 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_trongsa={
+	422.4.29 = { liege = 0 holder = imperator203587 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 14 }
+}
+d_monyul={
+	423.7.6 = { liege = 0 }
+}
+c_tawang={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_cona={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_lhunze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_lhoyul={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_itanagar_holder liege = 0 }
+}
+c_itanagar={
+	423.7.6 = { holder = IRToCK3_c_itanagar_holder liege = 0 change_development_level = 7 }
+}
+c_along={
+	423.7.6 = { holder = IRToCK3_c_itanagar_holder liege = 0 change_development_level = 4 }
+}
+c_mainling={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_pemako={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}

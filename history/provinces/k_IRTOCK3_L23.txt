@@ -1,0 +1,57 @@
+2802={
+	culture = old_suebi
+	faith = saxon_pagan
+	holding = city_holding
+}
+2803={
+	holding = castle_holding
+}
+2805={
+	holding = none
+}
+2893={
+	culture = old_suebi
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2894={
+	culture = ripurian
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2895={
+	holding = none
+}
+2899={
+	holding = city_holding
+}
+2900={
+	culture = ripurian
+	faith = saxon_pagan
+	holding = castle_holding
+	395.1.1 = { culture = old_saxon religion = saxon_pagan }
+}
+2901={
+	culture = ripurian
+	faith = saxon_pagan
+	holding = castle_holding
+	395.1.1 = { culture = old_saxon religion = saxon_pagan }
+}
+2902={
+	holding = none
+}
+2903={
+	holding = none
+}
+2904={
+	holding = none
+}
+2905={
+	holding = none
+}
+2907={
+	holding = none
+}
+2937={
+	holding = none
+}

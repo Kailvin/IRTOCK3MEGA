@@ -1,0 +1,59 @@
+1112={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	special_building_slot = madurai_temple_01
+}
+1116={
+	holding = city_holding
+}
+1201={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+1214={
+	holding = city_holding
+}
+7804={
+	holding = none
+	special_building_slot = dhandayuthapani_temple_01
+	terrain = hills
+}
+7805={
+	holding = castle_holding
+	terrain = hills
+}
+7806={
+	holding = city_holding
+	special_building_slot = arulmigu_solaimalai_temple_01
+	terrain = hills
+}
+7807={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+7808={
+	holding = city_holding
+	terrain = hills
+}
+7809={
+	holding = castle_holding
+	special_building_slot = ramanathaswamy_temple_01
+}
+7810={
+	holding = none
+}
+7811={
+	holding = city_holding
+}
+7812={
+	holding = castle_holding
+	special_building_slot = subramaniya_swamy_temple_01
+}
+7813={
+	holding = city_holding
+}

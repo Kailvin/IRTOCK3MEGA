@@ -1,0 +1,58 @@
+1115={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1120={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+7824={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7828={
+	holding = city_holding
+	terrain = hills
+}
+7829={
+	holding = none
+	terrain = hills
+}
+7830={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+7831={
+	holding = castle_holding
+	terrain = hills
+}
+7832={
+	holding = castle_holding
+	terrain = hills
+}
+7833={
+	holding = none
+	terrain = hills
+}
+7834={
+	holding = none
+	terrain = hills
+}
+7835={
+	holding = none
+}
+7836={
+	holding = none
+}
+7837={
+	holding = city_holding
+}
+7838={
+	holding = castle_holding
+}

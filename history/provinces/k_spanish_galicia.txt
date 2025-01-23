@@ -1,0 +1,66 @@
+1781={
+	holding = none
+}
+1782={
+	holding = castle_holding
+}
+1783={
+	holding = none
+}
+1784={
+	culture = scythian
+	faith = catholic
+	holding = castle_holding
+}
+1785={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1786={
+	holding = none
+}
+1787={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	100.1.1 = { special_building_slot = tower_of_hercules }
+}
+1788={
+	holding = none
+}
+1789={
+	holding = none
+}
+1790={
+	holding = church_holding
+}
+1791={
+	holding = none
+}
+1792={
+	holding = none
+	special_building_slot = roman_wall_of_lugo_01
+}
+1799={
+	holding = none
+}
+1800={
+	holding = none
+}
+1818={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1819={
+	holding = none
+}
+1820={
+	holding = none
+}
+1821={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}

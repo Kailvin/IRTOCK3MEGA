@@ -1,0 +1,30 @@
+k_adal={
+	423.7.6 = { liege = 0 }
+}
+d_dawaro={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_dawaro_holder government = tribal_government }
+}
+c_dawaro={
+	423.7.6 = { holder = IRToCK3_c_dawaro_holder liege = 0 change_development_level = 0 }
+}
+c_gabal={
+	423.7.6 = { holder = IRToCK3_c_dawaro_holder liege = 0 change_development_level = 0 }
+}
+c_arusi={
+	423.7.6 = { holder = IRToCK3_c_dawaro_holder liege = 0 change_development_level = 0 }
+}
+d_adal={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_dakkar_holder liege = 0 }
+}
+c_dakkar={
+	423.7.6 = { holder = IRToCK3_c_dakkar_holder liege = 0 change_development_level = 0 }
+}
+c_harar={
+	423.7.6 = { holder = IRToCK3_c_dakkar_holder liege = 0 change_development_level = 0 }
+}
+c_hargaya={
+	423.7.6 = { holder = IRToCK3_c_dakkar_holder liege = 0 change_development_level = 0 }
+}
+c_fafan={
+	423.7.6 = { holder = IRToCK3_c_dakkar_holder liege = 0 change_development_level = 2 }
+}

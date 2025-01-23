@@ -1,0 +1,58 @@
+k_kong={
+	423.7.6 = { liege = 0 }
+}
+d_worodugu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_worodugu_holder government = tribal_government }
+}
+c_worodugu={
+	361.1.1 = { government = tribal_government change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_worodugu_holder }
+}
+c_tyendugu={
+	361.1.1 = { government = tribal_government change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_worodugu_holder }
+}
+c_nyene={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_worodugu_holder }
+}
+d_kong={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kong_holder liege = 0 }
+}
+c_kong={
+	361.1.1 = { government = tribal_government change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_kong_holder }
+}
+c_leraba={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kong_holder }
+}
+c_boron={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kong_holder }
+}
+c_nzi={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kong_holder }
+}
+d_lobi={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_lobi_holder liege = 0 }
+}
+c_lobi={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_lobi_holder change_development_level = 1 }
+}
+c_loropeni={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_lobi_holder }
+}
+c_dyulaso={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_lobi_holder }
+}
+c_wa={
+	361.1.1 = { government = tribal_government change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_lobi_holder }
+}

@@ -1,0 +1,45 @@
+k_permia={
+	423.7.6 = { liege = 0 }
+}
+d_perm={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_perm_holder liege = 0 }
+}
+c_perm={
+	423.7.6 = { holder = IRToCK3_c_perm_holder change_development_level = 0 }
+}
+c_sebur={
+	423.7.6 = { holder = IRToCK3_c_perm_holder change_development_level = 0 }
+}
+c_lysva={
+	423.7.6 = { holder = IRToCK3_c_perm_holder change_development_level = 0 }
+}
+c_kumych={
+	423.7.6 = { holder = IRToCK3_c_perm_holder change_development_level = 0 }
+}
+d_ural={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ural_holder liege = 0 }
+}
+c_ural={
+	423.7.6 = { holder = IRToCK3_c_ural_holder change_development_level = 0 }
+}
+c_votkinsk={
+	423.7.6 = { holder = IRToCK3_c_ural_holder change_development_level = 0 }
+}
+c_kerken={
+	423.7.6 = { holder = IRToCK3_c_ural_holder change_development_level = 0 }
+}
+d_udmurtia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kargadan_holder liege = 0 }
+}
+c_kargadan={
+	423.7.6 = { holder = IRToCK3_c_kargadan_holder change_development_level = 0 }
+}
+c_palniki={
+	423.7.6 = { holder = IRToCK3_c_kargadan_holder change_development_level = 0 }
+}
+c_glazov={
+	423.7.6 = { holder = IRToCK3_c_kargadan_holder change_development_level = 0 }
+}
+c_kolyn={
+	423.7.6 = { holder = IRToCK3_c_kargadan_holder change_development_level = 0 }
+}

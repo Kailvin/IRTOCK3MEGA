@@ -1,0 +1,91 @@
+k_champa={
+	423.7.6 = { liege = 0 }
+}
+d_amaravati={
+	300.1.1 = { change_development_level = 8 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_indrapura_holder liege = 0 }
+}
+c_indrapura={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 8 }
+}
+c_mahaparvata={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 8 }
+}
+c_kon_tum={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 8 }
+}
+c_bahnar={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 8 }
+}
+c_simhapura={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 8 }
+}
+d_vijaya={
+	300.1.1 = { change_development_level = 8 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_vijaya_holder liege = 0 }
+}
+c_vijaya={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 8 }
+}
+c_ayun_pa={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 8 }
+}
+c_aia_ru={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 8 }
+}
+d_tribhuvanadevi={
+	300.1.1 = { change_development_level = 8 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_visnupura_vn_holder liege = 0 }
+}
+c_visnupura_vn={
+	423.7.6 = { holder = IRToCK3_c_visnupura_vn_holder liege = 0 change_development_level = 0 }
+}
+c_kandarpapura={
+	423.7.6 = { holder = IRToCK3_c_visnupura_vn_holder change_development_level = 8 }
+}
+c_melhi={
+	423.7.6 = { holder = IRToCK3_c_visnupura_vn_holder change_development_level = 8 }
+}
+d_panduranga={
+	300.1.1 = { change_development_level = 8 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_panduranga_holder liege = 0 }
+}
+c_panduranga={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_baigaur={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_kraong={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_cho_ro={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_kauthara={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_lach={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+c_pajai={
+	423.7.6 = { holder = IRToCK3_c_panduranga_holder change_development_level = 8 }
+}
+d_dagar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_dagar_holder liege = 0 }
+}
+c_dagar={
+	423.7.6 = { holder = IRToCK3_c_dagar_holder change_development_level = 0 }
+}
+c_dak_lak={
+	423.7.6 = { holder = IRToCK3_c_dagar_holder change_development_level = 0 }
+}
+c_jarai={
+	423.7.6 = { holder = IRToCK3_c_dagar_holder change_development_level = 0 }
+}
+c_mnong={
+	423.7.6 = { holder = IRToCK3_c_dagar_holder change_development_level = 0 }
+}
+c_blao={
+	423.7.6 = { holder = IRToCK3_c_dagar_holder change_development_level = 0 }
+}

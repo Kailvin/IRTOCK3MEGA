@@ -1,0 +1,23 @@
+k_IRTOCK3_L65={
+	422.9.15 = { holder = imperator203915 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_chera_nadu={
+	423.7.6 = { liege = 0 }
+}
+c_kerala={
+	422.9.15 = { liege = 0 holder = imperator203915 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_venadu={
+	387.11.7 = { liege = 0 holder = imperator192749 }
+	423.7.6 = { holder = imperator186687 change_development_level = 14 }
+}
+c_alupa={
+	422.9.15 = { liege = 0 holder = imperator204015 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator184077 change_development_level = 16 }
+}
+c_eranad={
+	422.9.15 = { liege = 0 holder = imperator204015 }
+	423.7.6 = { change_development_level = 14 }
+}

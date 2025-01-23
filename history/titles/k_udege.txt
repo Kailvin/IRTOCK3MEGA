@@ -1,0 +1,48 @@
+k_udege={
+	423.7.6 = { liege = 0 }
+}
+d_khodyo={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tulechi_holder government = tribal_government }
+}
+c_tulechi={
+	423.7.6 = { holder = IRToCK3_c_tulechi_holder change_development_level = 0 }
+}
+c_mui={
+	423.7.6 = { holder = IRToCK3_c_tulechi_holder change_development_level = 0 }
+}
+c_maa={
+	423.7.6 = { holder = IRToCK3_c_tulechi_holder change_development_level = 0 }
+}
+c_samarga={
+	423.7.6 = { holder = IRToCK3_c_tulechi_holder change_development_level = 0 }
+}
+d_uru={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_amgu_holder liege = 0 }
+}
+c_amgu={
+	423.7.6 = { holder = IRToCK3_c_amgu_holder change_development_level = 0 }
+}
+c_kentsu={
+	423.7.6 = { holder = IRToCK3_c_amgu_holder change_development_level = 0 }
+}
+c_yeonghaeju={
+	423.7.6 = { holder = IRToCK3_c_amgu_holder change_development_level = 0 }
+}
+d_anwon={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ulunga_holder liege = 0 }
+}
+c_ulunga={
+	423.7.6 = { holder = IRToCK3_c_ulunga_holder change_development_level = 0 }
+}
+c_yeongju={
+	423.7.6 = { holder = IRToCK3_c_ulunga_holder change_development_level = 0 }
+}
+c_wolhui={
+	423.7.6 = { holder = IRToCK3_c_ulunga_holder change_development_level = 0 }
+}
+c_bul-yeolju={
+	423.7.6 = { holder = IRToCK3_c_ulunga_holder change_development_level = 0 }
+}
+c_dongyeong={
+	423.7.6 = { holder = IRToCK3_c_ulunga_holder change_development_level = 0 }
+}

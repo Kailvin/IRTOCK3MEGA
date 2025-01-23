@@ -1,0 +1,40 @@
+k_outer_ajuraan={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+d_shabelle={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_gode_holder government = tribal_government }
+}
+c_gode={
+	423.7.6 = { holder = IRToCK3_c_gode_holder liege = 0 change_development_level = 0 }
+}
+c_ganale={
+	423.7.6 = { holder = IRToCK3_c_gode_holder liege = 0 change_development_level = 0 }
+}
+c_gidaya={
+	423.7.6 = { holder = IRToCK3_c_gode_holder liege = 0 change_development_level = 0 }
+}
+d_bali={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_sidamo_holder government = tribal_government }
+}
+c_sidamo={
+	423.7.6 = { holder = IRToCK3_c_sidamo_holder liege = 0 change_development_level = 0 }
+}
+c_bali={
+	423.7.6 = { holder = IRToCK3_c_sidamo_holder liege = 0 change_development_level = 0 }
+}
+d_samalo={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_marsabit_holder government = tribal_government }
+}
+c_marsabit={
+	423.7.6 = { holder = IRToCK3_c_marsabit_holder liege = 0 change_development_level = 0 }
+}
+c_fudalhi={
+	423.7.6 = { holder = IRToCK3_c_marsabit_holder liege = 0 change_development_level = 0 }
+}
+c_el_waak={
+	423.7.6 = { holder = IRToCK3_c_marsabit_holder liege = 0 change_development_level = 0 }
+}
+c_lag_dera={
+	423.7.6 = { holder = IRToCK3_c_marsabit_holder liege = 0 change_development_level = 0 }
+}

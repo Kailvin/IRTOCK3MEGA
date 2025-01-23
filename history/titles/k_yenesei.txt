@@ -1,0 +1,60 @@
+k_yenesei={
+	423.7.6 = { liege = 0 }
+}
+d_biryus={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_assan_holder liege = 0 }
+}
+c_assan={
+	423.7.6 = { holder = IRToCK3_c_assan_holder change_development_level = 0 }
+}
+c_borha={
+	423.7.6 = { holder = IRToCK3_c_assan_holder change_development_level = 0 }
+}
+c_kan={
+	423.7.6 = { holder = IRToCK3_c_assan_holder change_development_level = 0 }
+}
+c_tayshet={
+	423.7.6 = { holder = IRToCK3_c_assan_holder change_development_level = 0 }
+}
+d_sagay={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_arin_holder liege = 0 }
+}
+c_arin={
+	423.7.6 = { holder = IRToCK3_c_arin_holder change_development_level = 0 }
+}
+c_mana={
+	423.7.6 = { holder = IRToCK3_c_arin_holder change_development_level = 0 }
+}
+c_bogotul={
+	423.7.6 = { holder = IRToCK3_c_arin_holder change_development_level = 0 }
+}
+d_shoria={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_chultuk_holder liege = 0 }
+}
+c_chultuk={
+	423.7.6 = { holder = IRToCK3_c_chultuk_holder change_development_level = 0 }
+}
+c_alatau={
+	423.7.6 = { holder = IRToCK3_c_chultuk_holder change_development_level = 0 }
+}
+c_taglig_shor={
+	423.7.6 = { holder = IRToCK3_c_chultuk_holder change_development_level = 0 }
+}
+d_min_usa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_altyr_holder government = tribal_government }
+}
+c_altyr={
+	423.7.6 = { holder = IRToCK3_c_altyr_holder change_development_level = 0 }
+}
+c_abakan={
+	423.7.6 = { holder = IRToCK3_c_altyr_holder change_development_level = 0 }
+}
+c_irik={
+	423.7.6 = { holder = IRToCK3_c_altyr_holder change_development_level = 0 }
+}
+c_mator={
+	423.7.6 = { holder = IRToCK3_c_altyr_holder change_development_level = 0 }
+}
+c_issar={
+	423.7.6 = { holder = IRToCK3_c_altyr_holder change_development_level = 0 }
+}

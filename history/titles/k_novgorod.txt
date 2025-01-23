@@ -1,0 +1,15 @@
+k_novgorod={
+	423.7.6 = { liege = 0 }
+}
+d_vepsia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_beloozero_holder liege = 0 }
+}
+c_beloozero={
+	423.7.6 = { holder = IRToCK3_c_beloozero_holder change_development_level = 6 }
+}
+c_tikhvin={
+	423.7.6 = { holder = IRToCK3_c_beloozero_holder liege = 0 change_development_level = 5 }
+}
+c_vyangi={
+	423.7.6 = { holder = IRToCK3_c_beloozero_holder change_development_level = 0 }
+}

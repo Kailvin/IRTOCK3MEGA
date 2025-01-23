@@ -1,0 +1,29 @@
+k_mesopotamia={
+	414.3.13 = { government = feudal_government holder = imperator200856 liege = e_IRTOCK3_PRN succession_laws = { high_partition_succession_law } }
+}
+d_wasit={
+	423.7.6 = { liege = 0 }
+}
+c_wasit={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_tib={
+	421.8.11 = { liege = 0 holder = imperator189280 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_basra={
+	423.7.6 = { liege = 0 }
+}
+c_basra={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ubulla={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_rusafa={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 7 }
+}

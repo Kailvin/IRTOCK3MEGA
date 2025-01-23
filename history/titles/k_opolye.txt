@@ -1,0 +1,15 @@
+k_opolye={
+	423.7.6 = { liege = 0 }
+}
+d_nizhny_novgorod={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_nizhny_novgorod_holder government = tribal_government }
+}
+c_nizhny_novgorod={
+	423.7.6 = { holder = IRToCK3_c_nizhny_novgorod_holder liege = 0 change_development_level = 6 }
+}
+c_plyos={
+	423.7.6 = { holder = IRToCK3_c_nizhny_novgorod_holder liege = 0 change_development_level = 6 }
+}
+c_manturovo={
+	423.7.6 = { holder = IRToCK3_c_nizhny_novgorod_holder liege = 0 change_development_level = 6 }
+}

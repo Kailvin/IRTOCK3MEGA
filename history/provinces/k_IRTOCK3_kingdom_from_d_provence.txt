@@ -1,0 +1,66 @@
+2017={
+	culture = greek
+	faith = catholic
+	holding = castle_holding
+}
+2018={
+	holding = church_holding
+}
+2019={
+	culture = greek
+	faith = catholic
+	holding = castle_holding
+}
+2020={
+	holding = none
+}
+2021={
+	culture = greek
+	faith = catholic
+	holding = castle_holding
+}
+2023={
+	holding = city_holding
+}
+2024={
+	holding = city_holding
+}
+2025={
+	holding = none
+}
+2026={
+	holding = city_holding
+}
+2027={
+	holding = none
+}
+2028={
+	holding = none
+}
+2059={
+	holding = none
+	100.1.1 = { special_building_slot = arles_cryptoporticus }
+}
+2060={
+	holding = none
+}
+2061={
+	culture = greek
+	faith = catholic
+	holding = castle_holding
+}
+2062={
+	holding = none
+}
+2067={
+	holding = none
+}
+8718={
+	holding = none
+}
+8720={
+	holding = city_holding
+}
+8721={
+	holding = none
+}

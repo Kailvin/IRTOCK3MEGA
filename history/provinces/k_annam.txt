@@ -1,0 +1,451 @@
+9939={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+9953={
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+9954={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+9955={
+	holding = none
+}
+9956={
+	holding = city_holding
+}
+9957={
+	holding = none
+}
+9959={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+9960={
+	holding = none
+}
+9961={
+	holding = none
+}
+9962={
+	holding = church_holding
+}
+9963={
+	holding = none
+}
+9964={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+9965={
+	holding = none
+}
+9966={
+	holding = city_holding
+}
+9967={
+	holding = city_holding
+}
+9968={
+	holding = none
+}
+9969={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+9970={
+	holding = none
+}
+9971={
+	holding = city_holding
+}
+9972={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+9973={
+	holding = city_holding
+}
+9974={
+	holding = castle_holding
+}
+9975={
+	holding = church_holding
+}
+9976={
+	holding = church_holding
+}
+9977={
+	holding = church_holding
+}
+9978={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+9979={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+9980={
+	holding = none
+}
+9981={
+	holding = castle_holding
+}
+9982={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+9983={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+9984={
+	holding = church_holding
+}
+9985={
+	holding = none
+}
+10029={
+	holding = city_holding
+}
+10046={
+	holding = none
+}
+10282={
+	holding = none
+}
+10283={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10284={
+	holding = none
+}
+10285={
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+}
+10665={
+	holding = none
+}
+10667={
+	holding = none
+}
+10668={
+	culture = bugan
+	religion = kuy_animism
+	holding = tribal_holding
+}
+10783={
+	holding = church_holding
+}
+10792={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10794={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10795={
+	holding = none
+}
+10798={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+	1060.1.1 = { holding = castle_holding }
+}
+10800={
+	holding = none
+}
+10801={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+	1060.1.1 = { holding = castle_holding }
+}
+10804={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+10805={
+	holding = church_holding
+}
+10806={
+	holding = city_holding
+}
+10807={
+	holding = none
+}
+10809={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+10810={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10812={
+	holding = none
+}
+10813={
+	holding = none
+}
+10814={
+	holding = city_holding
+}
+10816={
+	holding = church_holding
+}
+10818={
+	holding = none
+}
+10819={
+	holding = none
+}
+10820={
+	holding = none
+}
+10823={
+	holding = none
+}
+10824={
+	holding = castle_holding
+}
+10825={
+	holding = none
+}
+10826={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10829={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10830={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10831={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10832={
+	holding = church_holding
+}
+10833={
+	holding = none
+}
+10834={
+	holding = none
+}
+10835={
+	holding = none
+}
+10836={
+	holding = none
+}
+10837={
+	holding = none
+}
+10838={
+	holding = castle_holding
+}
+10839={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10840={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10843={
+	holding = none
+}
+10845={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+10846={
+	holding = none
+}
+10848={
+	holding = none
+}
+10850={
+	holding = none
+}
+10851={
+	holding = none
+}
+10853={
+	holding = none
+}
+10854={
+	holding = none
+}
+10856={
+	holding = none
+}
+10857={
+	holding = none
+}
+10859={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10860={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10862={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10863={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+}
+10864={
+	holding = none
+}
+10865={
+	holding = none
+}
+10866={
+	holding = city_holding
+}
+10867={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+	buildings = { castle_04 }
+	special_building_slot = temple_of_literature
+	1011.1.1 = { duchy_capital_building = thang_long_citadel_01 }
+	1070.1.1 = { special_building = temple_of_literature }
+}
+10868={
+	holding = none
+}
+10871={
+	holding = none
+}
+10872={
+	holding = church_holding
+}
+10874={
+	holding = none
+}
+10875={
+	holding = none
+}
+10876={
+	holding = none
+}
+10877={
+	holding = none
+}
+10878={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10879={
+	holding = church_holding
+}
+10880={
+	holding = church_holding
+}
+10881={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10882={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+10883={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+	1050.1.1 = { holding = castle_holding }
+}
+10884={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10885={
+	culture = kinh
+	religion = phat_giao
+	holding = castle_holding
+}
+10886={
+	culture = gelao
+	religion = moism
+	holding = tribal_holding
+}
+10887={
+	holding = church_holding
+}
+10888={
+	culture = muong
+	religion = phat_giao
+	holding = tribal_holding
+	1060.1.1 = { holding = castle_holding }
+}
+11341={
+	holding = none
+}
+11350={
+	holding = none
+}
+11377={
+	culture = khmu
+	religion = kuy_animism
+	holding = tribal_holding
+}
+11378={
+	culture = khmu
+	religion = kuy_animism
+	holding = tribal_holding
+}
+11379={
+	holding = none
+}

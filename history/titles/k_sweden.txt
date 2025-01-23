@@ -1,0 +1,37 @@
+k_sweden={
+	20.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+d_bergslagen={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_vastmanland_holder government = tribal_government }
+}
+c_vastmanland={
+	423.7.6 = { holder = IRToCK3_c_vastmanland_holder liege = 0 change_development_level = 0 }
+}
+c_varmland={
+	423.7.6 = { holder = IRToCK3_c_vastmanland_holder liege = 0 change_development_level = 0 }
+}
+c_dalarna={
+	423.7.6 = { holder = IRToCK3_c_vastmanland_holder liege = 0 change_development_level = 0 }
+}
+c_dalabergslagen={
+	423.7.6 = { holder = IRToCK3_c_vastmanland_holder liege = 0 change_development_level = 0 }
+}
+d_norrland={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_halsingland_holder government = tribal_government }
+}
+c_halsingland={
+	423.7.6 = { holder = IRToCK3_c_halsingland_holder change_development_level = 2 }
+}
+c_medelpad={
+	423.7.6 = { holder = IRToCK3_c_halsingland_holder change_development_level = 2 }
+}
+c_angermanland={
+	423.7.6 = { holder = IRToCK3_c_halsingland_holder change_development_level = 2 }
+}
+d_gotland={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gutland_holder liege = 0 }
+}
+c_gutland={
+	423.7.6 = { holder = IRToCK3_c_gutland_holder liege = 0 change_development_level = 0 }
+}

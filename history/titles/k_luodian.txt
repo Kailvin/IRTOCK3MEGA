@@ -1,0 +1,57 @@
+k_luodian={
+	423.7.6 = { liege = 0 }
+}
+d_luodian={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_luodian_holder liege = 0 }
+}
+c_luodian={
+	423.7.6 = { holder = IRToCK3_c_luodian_holder change_development_level = 0 }
+}
+c_zhuangzhou={
+	423.7.6 = { holder = IRToCK3_c_luodian_holder change_development_level = 0 }
+}
+c_wuhou_china={
+	423.7.6 = { holder = IRToCK3_c_luodian_holder change_development_level = 0 }
+}
+c_luanzhou_china={
+	423.7.6 = { holder = IRToCK3_c_luodian_holder change_development_level = 0 }
+}
+d_luoshi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_qianxi_china_holder liege = 0 }
+}
+c_qianxi_china={
+	423.7.6 = { holder = IRToCK3_c_qianxi_china_holder change_development_level = 0 }
+}
+c_guanling={
+	423.7.6 = { holder = IRToCK3_c_qianxi_china_holder change_development_level = 0 }
+}
+c_juzhou_china={
+	423.7.6 = { holder = IRToCK3_c_qianxi_china_holder change_development_level = 0 }
+}
+d_baise={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_baise_china_holder liege = 0 }
+}
+c_baise_china={
+	423.7.6 = { holder = IRToCK3_c_baise_china_holder change_development_level = 0 }
+}
+c_rulai={
+	423.7.6 = { holder = IRToCK3_c_baise_china_holder change_development_level = 0 }
+}
+d_yushi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_anlong_china_holder liege = 0 }
+}
+c_anlong_china={
+	423.7.6 = { holder = IRToCK3_c_anlong_china_holder change_development_level = 0 }
+}
+c_pu_an={
+	423.7.6 = { holder = IRToCK3_c_anlong_china_holder change_development_level = 0 }
+}
+c_temo={
+	423.7.6 = { holder = IRToCK3_c_anlong_china_holder change_development_level = 0 }
+}
+c_ni_jiao={
+	423.7.6 = { holder = IRToCK3_c_anlong_china_holder change_development_level = 0 }
+}
+c_shi_tsong={
+	423.7.6 = { holder = IRToCK3_c_anlong_china_holder change_development_level = 0 }
+}

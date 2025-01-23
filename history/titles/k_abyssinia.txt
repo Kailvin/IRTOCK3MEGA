@@ -1,0 +1,56 @@
+k_abyssinia={
+	421.8.26 = { government = imperial_government holder = imperator197857 liege = e_IRTOCK3_GAR succession_laws = { high_partition_succession_law } }
+}
+d_hafun={
+	423.7.6 = { liege = 0 }
+}
+c_ras_hafun={
+	421.8.26 = { liege = 0 holder = imperator197857 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_barbacadle={
+	420.11.28 = { liege = 0 holder = imperator194237 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_nugaal={
+	418.9.1 = { liege = 0 holder = imperator202312 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_mudug={
+	420.11.28 = { liege = 0 holder = imperator194237 }
+	423.7.6 = { liege = k_IRTOCK3_I35 holder = imperator190161 change_development_level = 6 }
+}
+d_gojjam={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gojjam_holder liege = 0 }
+}
+c_gojjam={
+	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
+}
+c_gafat={
+	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
+}
+c_agaw_meder={
+	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
+}
+d_showa={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_showa_holder liege = 0 }
+}
+c_showa={
+	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+}
+c_fetegar={
+	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+}
+c_waj={
+	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+}
+c_ifat={
+	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+}
+d_socotra={
+	423.7.6 = { liege = 0 }
+}
+c_socotra={
+	421.8.26 = { liege = 0 holder = imperator197857 }
+	423.7.6 = { change_development_level = 6 }
+}

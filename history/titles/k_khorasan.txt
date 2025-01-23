@@ -1,0 +1,67 @@
+k_khorasan={
+	413.3.18 = { government = feudal_government holder = imperator195076 liege = e_IRTOCK3_PRN succession_laws = { high_partition_succession_law } }
+}
+d_uzboy={
+	423.7.6 = { liege = 0 }
+}
+c_sarykamysh={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_kugunek={
+	423.7.6 = { holder = imperator187025 }
+}
+c_uzboy={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_balkh={
+	423.7.6 = { liege = 0 }
+}
+c_balkh={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_west-tokharestan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { liege = k_khorasan holder = imperator182879 change_development_level = 12 }
+}
+b_saan={
+	423.7.6 = { holder = imperator187441 }
+}
+c_east-tokharestan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { liege = k_khorasan holder = imperator185687 change_development_level = 9 }
+}
+d_nasa={
+	423.7.6 = { liege = 0 }
+}
+c_abivard={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { liege = k_khorasan holder = imperator194245 change_development_level = 9 }
+}
+c_farava={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_tabaristan={
+	423.7.6 = { liege = 0 }
+}
+c_mazandaran={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator188017 change_development_level = 13 }
+}
+b_sariya={
+	423.7.6 = { holder = imperator188017 }
+}
+c_ruyan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 8 }
+}
+b_shalush={
+	423.7.6 = { holder = imperator194030 }
+}
+c_baduspan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator188017 change_development_level = 10 }
+}

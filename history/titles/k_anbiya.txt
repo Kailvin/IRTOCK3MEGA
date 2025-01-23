@@ -1,0 +1,36 @@
+k_anbiya={
+	423.7.6 = { liege = 0 }
+}
+d_zammour={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_zammour_holder government = tribal_government }
+}
+c_zammour={
+	423.7.6 = { holder = IRToCK3_c_zammour_holder change_development_level = 0 }
+}
+c_tindouf={
+	423.7.6 = { holder = IRToCK3_c_zammour_holder liege = 0 change_development_level = 0 }
+}
+c_tiris={
+	423.7.6 = { holder = IRToCK3_c_zammour_holder change_development_level = 2 }
+}
+d_adrar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_wadan_holder liege = 0 }
+}
+c_wadan={
+	423.7.6 = { holder = IRToCK3_c_wadan_holder change_development_level = 2 }
+}
+c_azukki={
+	423.7.6 = { holder = IRToCK3_c_wadan_holder change_development_level = 2 }
+}
+c_amatlus={
+	423.7.6 = { holder = IRToCK3_c_wadan_holder change_development_level = 2 }
+}
+d_touat={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_touat_holder government = tribal_government }
+}
+c_touat={
+	423.7.6 = { holder = IRToCK3_c_touat_holder change_development_level = 15 }
+}
+c_tamentit={
+	423.7.6 = { holder = IRToCK3_c_touat_holder change_development_level = 2 }
+}

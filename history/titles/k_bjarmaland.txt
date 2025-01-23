@@ -1,0 +1,60 @@
+k_bjarmaland={
+	423.7.6 = { liege = 0 }
+}
+d_biarmia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kholmogory_holder liege = 0 }
+}
+c_kholmogory={
+	423.7.6 = { holder = IRToCK3_c_kholmogory_holder change_development_level = 0 }
+}
+c_onega_BJA={
+	423.7.6 = { holder = IRToCK3_c_kholmogory_holder change_development_level = 0 }
+}
+c_povenets={
+	423.7.6 = { holder = IRToCK3_c_kholmogory_holder change_development_level = 0 }
+}
+c_pudozh={
+	423.7.6 = { holder = IRToCK3_c_kholmogory_holder change_development_level = 0 }
+}
+d_chudia={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kargopol_holder government = tribal_government }
+}
+c_kargopol={
+	423.7.6 = { holder = IRToCK3_c_kargopol_holder change_development_level = 0 }
+}
+c_kirillov={
+	423.7.6 = { holder = IRToCK3_c_kargopol_holder change_development_level = 0 }
+}
+c_totma={
+	423.7.6 = { holder = IRToCK3_c_kargopol_holder change_development_level = 0 }
+}
+d_vologda={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_vologda_holder government = tribal_government }
+}
+c_vologda={
+	423.7.6 = { holder = IRToCK3_c_vologda_holder change_development_level = 6 }
+}
+c_lyubim={
+	423.7.6 = { holder = IRToCK3_c_vologda_holder change_development_level = 0 }
+}
+c_onsthia={
+	423.7.6 = { holder = IRToCK3_c_vologda_holder change_development_level = 0 }
+}
+c_choklema={
+	423.7.6 = { holder = IRToCK3_c_vologda_holder change_development_level = 0 }
+}
+d_ustyug={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ustyug_holder government = tribal_government }
+}
+c_ustyug={
+	423.7.6 = { holder = IRToCK3_c_ustyug_holder change_development_level = 0 }
+}
+c_shenkursk={
+	423.7.6 = { holder = IRToCK3_c_ustyug_holder change_development_level = 0 }
+}
+c_velsk={
+	423.7.6 = { holder = IRToCK3_c_ustyug_holder change_development_level = 0 }
+}
+c_kevrola={
+	423.7.6 = { holder = IRToCK3_c_ustyug_holder change_development_level = 0 }
+}

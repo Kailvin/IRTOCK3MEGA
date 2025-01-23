@@ -1,0 +1,45 @@
+k_panua={
+	423.7.6 = { liege = 0 }
+}
+d_tanoq={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_latangai_holder government = tribal_government }
+}
+c_latangai={
+	423.7.6 = { holder = IRToCK3_c_latangai_holder change_development_level = 0 }
+}
+c_baining={
+	423.7.6 = { holder = IRToCK3_c_latangai_holder change_development_level = 0 }
+}
+c_mengen={
+	423.7.6 = { holder = IRToCK3_c_latangai_holder change_development_level = 0 }
+}
+c_manus={
+	423.7.6 = { holder = IRToCK3_c_latangai_holder change_development_level = 0 }
+}
+c_ngero={
+	423.7.6 = { holder = IRToCK3_c_latangai_holder change_development_level = 0 }
+}
+d_raki={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_liwang_holder government = tribal_government }
+}
+c_liwang={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_maramapaina={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_roviana={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_isatabu={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_makira={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_mahaga={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}
+c_lauru={
+	423.7.6 = { holder = IRToCK3_c_liwang_holder change_development_level = 0 }
+}

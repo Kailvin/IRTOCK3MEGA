@@ -1,0 +1,111 @@
+k_finland={
+	21.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+d_finland={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_finland_holder liege = 0 }
+}
+c_finland={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_02 }
+	423.7.6 = { holder = IRToCK3_c_finland_holder liege = 0 change_development_level = 0 }
+}
+c_nyland={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_05 }
+	423.7.6 = { holder = IRToCK3_c_finland_holder liege = 0 change_development_level = 0 }
+}
+c_satakunta={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_02 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_messukyla={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_08 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_tavasts={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_05 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_savo={
+	423.7.6 = { liege = 0 }
+}
+c_olavinlinna={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_08 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_sysma={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_08 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_pielinen={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_20 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_pohjanmaa={
+	423.7.6 = { liege = 0 }
+}
+c_oulu={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_23 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_pedersore={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_23 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_mustasaari={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_23 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_kainuu={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_20 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_karelia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_viipuri_holder liege = 0 }
+}
+c_kakisalmi={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_11 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_viipuri={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_11 }
+	423.7.6 = { holder = IRToCK3_c_viipuri_holder liege = 0 change_development_level = 0 }
+}
+c_sortavala={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_11 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_salinis={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_14 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_onega={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_14 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_viena={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_17 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_kontupohja={
+	361.1.1 = { government = tribal_government }
+	400.1.1 = { holder = finland_17 }
+	423.7.6 = { change_development_level = 1 }
+}

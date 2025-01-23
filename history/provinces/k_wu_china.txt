@@ -1,0 +1,337 @@
+11815={
+	holding = none
+}
+11864={
+	holding = none
+}
+11883={
+	holding = none
+}
+11884={
+	holding = none
+}
+11952={
+	culture = sheren
+	religion = hmongism
+	holding = castle_holding
+	1050.1.1 = { culture = hakka }
+}
+11957={
+	holding = none
+}
+11998={
+	holding = none
+}
+12013={
+	holding = none
+}
+12019={
+	holding = none
+}
+12024={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = hakka }
+}
+12041={
+	holding = none
+}
+12048={
+	holding = none
+}
+12072={
+	holding = none
+}
+12074={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = hakka }
+}
+12077={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12084={
+	holding = none
+}
+12095={
+	holding = none
+}
+12121={
+	holding = none
+}
+12127={
+	holding = none
+}
+12128={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12142={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12179={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12186={
+	holding = none
+}
+12197={
+	holding = none
+}
+12226={
+	holding = none
+}
+12236={
+	holding = none
+}
+12237={
+	holding = none
+}
+12249={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12251={
+	holding = none
+}
+12254={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = wu }
+}
+12280={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = wu }
+}
+12302={
+	holding = none
+}
+12303={
+	holding = none
+}
+12319={
+	holding = castle_holding
+}
+12327={
+	holding = none
+}
+12331={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12340={
+	holding = church_holding
+}
+12358={
+	holding = city_holding
+}
+12366={
+	holding = none
+}
+12367={
+	holding = city_holding
+}
+12368={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	special_building = china_grand_canal_01
+	1050.1.1 = { culture = wu }
+}
+12371={
+	holding = none
+}
+12380={
+	holding = none
+}
+12386={
+	holding = castle_holding
+	special_building = china_grand_canal_01
+}
+12389={
+	holding = none
+}
+12393={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = gan }
+}
+12404={
+	holding = none
+}
+12410={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = wu }
+}
+12413={
+	holding = none
+}
+12415={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12421={
+	culture = han
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = wu }
+}
+12422={
+	holding = none
+}
+12428={
+	holding = none
+}
+12481={
+	holding = none
+}
+12489={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	special_building = china_grand_canal_01
+	1050.1.1 = { culture = wu }
+}
+12492={
+	holding = none
+}
+12499={
+	holding = none
+}
+12501={
+	holding = none
+}
+12502={
+	holding = none
+}
+12503={
+	holding = none
+}
+12505={
+	holding = none
+}
+12512={
+	holding = none
+}
+12513={
+	holding = none
+}
+12516={
+	holding = none
+}
+12517={
+	holding = none
+}
+12520={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	special_building = china_grand_canal_01
+	1050.1.1 = { culture = wu }
+}
+12523={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12524={
+	holding = city_holding
+	special_building = china_grand_canal_01
+}
+12531={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12534={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12539={
+	holding = church_holding
+	special_building_slot = generic_university
+	1024.1.1 = { special_building = generic_university }
+}
+12545={
+	culture = han
+	religion = shendao
+	holding = none
+	937.1.1 = { holding = castle_holding buildings = { castle_04 } }
+}
+12550={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	special_building = china_grand_canal_01
+}
+12554={
+	holding = none
+}
+12564={
+	holding = none
+}
+12569={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12572={
+	holding = none
+}
+12579={
+	culture = han
+	religion = shendao
+	holding = none
+}
+12585={
+	holding = none
+}
+12586={
+	holding = none
+}
+12605={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	special_building = china_grand_canal_01
+}
+12629={
+	holding = city_holding
+	special_building = china_grand_canal_01
+}
+12644={
+	holding = city_holding
+	special_building = china_grand_canal_01
+}
+12676={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+}
+12682={
+	holding = none
+}

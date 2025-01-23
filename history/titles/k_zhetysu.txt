@@ -1,0 +1,51 @@
+k_zhetysu={
+	423.7.6 = { liege = 0 }
+}
+d_talas={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_karatau_holder liege = 0 }
+}
+c_karatau={
+	423.7.6 = { holder = IRToCK3_c_karatau_holder change_development_level = 4 }
+}
+c_taraz={
+	423.7.6 = { holder = IRToCK3_c_karatau_holder change_development_level = 5 }
+}
+c_mirki={
+	423.7.6 = { holder = IRToCK3_c_karatau_holder change_development_level = 7 }
+}
+b_aspara={
+	423.7.6 = { holder = imperator196713 }
+}
+c_jamukat={
+	423.7.6 = { holder = IRToCK3_c_karatau_holder change_development_level = 6 }
+}
+b_taldy-sal={
+	423.7.6 = { holder = imperator196905 }
+}
+d_saryesik={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_saryesik_holder government = tribal_government }
+}
+c_saryesik={
+	423.7.6 = { holder = IRToCK3_c_saryesik_holder change_development_level = 0 }
+}
+c_bayanjurek={
+	423.7.6 = { holder = IRToCK3_c_saryesik_holder change_development_level = 0 }
+}
+d_illiq={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_temerlik_holder liege = 0 }
+}
+c_temerlik={
+	423.7.6 = { holder = IRToCK3_c_temerlik_holder change_development_level = 0 }
+}
+c_khulja={
+	423.7.6 = { holder = IRToCK3_c_temerlik_holder change_development_level = 0 }
+}
+c_borohoro={
+	423.7.6 = { holder = IRToCK3_c_temerlik_holder change_development_level = 0 }
+}
+c_almaliq={
+	423.7.6 = { holder = IRToCK3_c_temerlik_holder change_development_level = 0 }
+}
+c_altyn-emel={
+	423.7.6 = { holder = IRToCK3_c_temerlik_holder change_development_level = 0 }
+}

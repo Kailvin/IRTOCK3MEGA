@@ -1,0 +1,45 @@
+1963={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1965={
+	holding = none
+}
+1966={
+	holding = none
+}
+1977={
+	culture = non_indo_european_iberian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1985={
+	holding = church_holding
+}
+1986={
+	holding = none
+}
+1987={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	395.1.1 = { religion = basilidianism }
+}
+1988={
+	holding = none
+}
+1989={
+	holding = city_holding
+}
+1994={
+	holding = church_holding
+}
+1995={
+	culture = non_indo_european_iberian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1999={
+	holding = church_holding
+}

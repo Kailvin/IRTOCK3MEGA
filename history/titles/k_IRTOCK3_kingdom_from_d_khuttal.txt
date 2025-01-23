@@ -1,0 +1,22 @@
+d_khuttal={
+	423.7.6 = { liege = 0 }
+}
+c_khuttal={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator182879 change_development_level = 10 }
+}
+c_wakhsh={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator185687 change_development_level = 11 }
+}
+b_awzaj={
+	423.7.6 = { holder = imperator185687 }
+}
+c_chaghaniyan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_rasht={
+	422.3.20 = { liege = 0 holder = imperator194995 }
+	423.7.6 = { change_development_level = 8 }
+}

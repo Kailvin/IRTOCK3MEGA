@@ -1,0 +1,23 @@
+k_IRTOCK3_L98={
+	422.9.15 = { holder = imperator204740 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_sinhala={
+	423.7.6 = { liege = 0 }
+}
+c_phiti={
+	422.9.15 = { liege = 0 holder = imperator204740 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_trincomalee={
+	422.9.15 = { liege = 0 holder = imperator204740 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_jaffna={
+	422.9.15 = { liege = 0 holder = imperator204740 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator189705 change_development_level = 16 }
+}
+c_kotte={
+	422.9.15 = { liege = 0 holder = imperator204740 }
+	423.7.6 = { change_development_level = 17 }
+}

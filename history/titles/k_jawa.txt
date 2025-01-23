@@ -1,0 +1,90 @@
+k_jawa={
+	423.7.6 = { liege = 0 }
+}
+d_mataram={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_mataram_holder liege = 0 }
+}
+c_mataram={
+	423.7.6 = { holder = IRToCK3_c_mataram_holder change_development_level = 0 }
+}
+c_jagaraga={
+	423.7.6 = { holder = IRToCK3_c_mataram_holder change_development_level = 0 }
+}
+c_warak={
+	423.7.6 = { holder = IRToCK3_c_mataram_holder change_development_level = 0 }
+}
+c_panunggalan={
+	423.7.6 = { holder = IRToCK3_c_mataram_holder change_development_level = 0 }
+}
+c_mamrati={
+	423.7.6 = { holder = IRToCK3_c_mataram_holder change_development_level = 0 }
+}
+d_panjalu={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_kadiri_holder liege = 0 }
+}
+c_kadiri={
+	423.7.6 = { holder = IRToCK3_c_kadiri_holder change_development_level = 0 }
+}
+c_tumapel={
+	423.7.6 = { holder = IRToCK3_c_kadiri_holder change_development_level = 0 }
+}
+c_wwatan={
+	423.7.6 = { holder = IRToCK3_c_kadiri_holder change_development_level = 0 }
+}
+c_wanagiri={
+	423.7.6 = { holder = IRToCK3_c_kadiri_holder change_development_level = 0 }
+}
+d_kalingga={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_kayuwangi_holder liege = 0 }
+}
+c_kayuwangi={
+	423.7.6 = { holder = IRToCK3_c_kayuwangi_holder change_development_level = 0 }
+}
+c_pikatan={
+	423.7.6 = { holder = IRToCK3_c_kayuwangi_holder change_development_level = 0 }
+}
+c_watuhumalang={
+	423.7.6 = { holder = IRToCK3_c_kayuwangi_holder change_development_level = 0 }
+}
+c_panaraban={
+	423.7.6 = { holder = IRToCK3_c_kayuwangi_holder change_development_level = 0 }
+}
+d_lumajang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_pakembangan_holder liege = 0 }
+}
+c_pakembangan={
+	423.7.6 = { holder = IRToCK3_c_pakembangan_holder change_development_level = 0 }
+}
+c_wirabhumi={
+	423.7.6 = { holder = IRToCK3_c_pakembangan_holder change_development_level = 0 }
+}
+c_lumajang={
+	423.7.6 = { holder = IRToCK3_c_pakembangan_holder change_development_level = 0 }
+}
+d_janggala={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_pamotan_holder liege = 0 }
+}
+c_pamotan={
+	423.7.6 = { holder = IRToCK3_c_pamotan_holder change_development_level = 0 }
+}
+c_medang={
+	423.7.6 = { holder = IRToCK3_c_pamotan_holder change_development_level = 0 }
+}
+c_kahuripan={
+	423.7.6 = { holder = IRToCK3_c_pamotan_holder change_development_level = 0 }
+}
+c_lwaram={
+	423.7.6 = { holder = IRToCK3_c_pamotan_holder change_development_level = 0 }
+}
+c_walaing={
+	423.7.6 = { holder = IRToCK3_c_pamotan_holder change_development_level = 0 }
+}
+d_madura={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_madura_holder liege = 0 }
+}
+c_madura={
+	423.7.6 = { holder = IRToCK3_c_madura_holder change_development_level = 0 }
+}
+c_ngaliyao={
+	423.7.6 = { holder = IRToCK3_c_madura_holder change_development_level = 0 }
+}

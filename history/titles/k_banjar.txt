@@ -1,0 +1,57 @@
+k_banjar={
+	423.7.6 = { liege = 0 }
+}
+d_kuripan={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_paser_holder liege = 0 }
+}
+c_paser={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+c_banjarmasin={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+c_malawaken={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+c_tunjung={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+c_bakumpai={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+c_tanah_bumbu={
+	423.7.6 = { holder = IRToCK3_c_paser_holder change_development_level = 0 }
+}
+d_katingan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_baamang_holder government = feudal_government }
+}
+c_baamang={
+	423.7.6 = { holder = IRToCK3_c_baamang_holder change_development_level = 0 }
+}
+c_katingan_hilir={
+	423.7.6 = { holder = IRToCK3_c_baamang_holder change_development_level = 0 }
+}
+c_palangka_raya={
+	423.7.6 = { holder = IRToCK3_c_baamang_holder change_development_level = 0 }
+}
+c_kapuas={
+	423.7.6 = { holder = IRToCK3_c_baamang_holder change_development_level = 0 }
+}
+c_katingan_kuala={
+	423.7.6 = { holder = IRToCK3_c_baamang_holder change_development_level = 0 }
+}
+d_dohoi={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_takajung_holder government = tribal_government }
+}
+c_takajung={
+	423.7.6 = { holder = IRToCK3_c_takajung_holder change_development_level = 0 }
+}
+c_bukit_raya={
+	423.7.6 = { holder = IRToCK3_c_takajung_holder change_development_level = 0 }
+}
+c_kuala_kurun={
+	423.7.6 = { holder = IRToCK3_c_takajung_holder change_development_level = 0 }
+}
+c_sumbur_barito={
+	423.7.6 = { holder = IRToCK3_c_takajung_holder change_development_level = 0 }
+}

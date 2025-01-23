@@ -1,0 +1,254 @@
+1443={
+	holding = none
+}
+1446={
+	holding = none
+}
+1449={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+	1134.1.1 = { culture = qitai }
+}
+7185={
+	culture = yagma
+	religion = tengri_pagan
+	holding = none
+	900.1.1 = { religion = vajrayana }
+	1134.1.1 = { culture = qitai }
+}
+7186={
+	holding = none
+}
+7190={
+	holding = none
+}
+7191={
+	holding = none
+}
+7192={
+	holding = none
+}
+7194={
+	culture = ograk
+	religion = tengri_pagan
+	holding = none
+	1134.1.1 = { culture = qitai }
+}
+7196={
+	holding = none
+}
+7206={
+	culture = yagma
+	religion = tengri_pagan
+	holding = none
+}
+7215={
+	culture = ograk
+	religion = tengri_pagan
+	holding = none
+	1134.1.1 = { culture = qitai }
+}
+7455={
+	holding = none
+}
+7456={
+	holding = none
+}
+7457={
+	holding = none
+}
+7458={
+	holding = none
+}
+7459={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+7460={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+7461={
+	holding = none
+}
+7462={
+	holding = none
+}
+7463={
+	holding = none
+}
+7464={
+	holding = none
+}
+7465={
+	holding = none
+}
+7466={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+7467={
+	holding = none
+}
+7468={
+	holding = none
+}
+7469={
+	holding = none
+}
+7470={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+7471={
+	holding = none
+}
+7492={
+	holding = none
+}
+7497={
+	culture = ograk
+	religion = tengri_pagan
+	holding = none
+	1150.1.1 = { culture = naiman religion = nestorian }
+}
+7498={
+	holding = none
+}
+7499={
+	holding = none
+}
+7506={
+	holding = none
+}
+7507={
+	culture = basmyl
+	religion = tengri_pagan
+	holding = none
+	900.1.1 = { culture = qun religion = nestorian }
+	1050.1.1 = { culture = basmyl }
+	1150.1.1 = { culture = naiman religion = nestorian }
+}
+7508={
+	holding = none
+}
+7509={
+	culture = basmyl
+	religion = tengri_pagan
+	holding = none
+	900.1.1 = { culture = qun }
+	1050.1.1 = { culture = uyghur }
+}
+7510={
+	culture = basmyl
+	religion = vajrayana
+	holding = none
+	900.1.1 = { culture = qun }
+	1050.1.1 = { culture = uyghur }
+}
+7511={
+	holding = none
+}
+7983={
+	holding = none
+}
+7984={
+	holding = none
+}
+7985={
+	holding = none
+}
+7986={
+	holding = none
+}
+7987={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+9617={
+	holding = none
+}
+9618={
+	holding = none
+}
+9619={
+	holding = none
+}
+12749={
+	holding = none
+}
+13566={
+	holding = none
+}
+13567={
+	holding = none
+}
+13570={
+	holding = none
+}
+13575={
+	holding = none
+}
+13647={
+	holding = none
+}
+13660={
+	holding = none
+}
+13678={
+	holding = none
+}
+13903={
+	culture = tocharian
+	religion = vajrayana
+	holding = none
+	870.1.1 = { culture = uyghur religion = manichean }
+}
+13912={
+	holding = none
+}
+13917={
+	holding = none
+}
+13918={
+	holding = none
+}
+13927={
+	holding = none
+}
+13928={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}
+13930={
+	holding = none
+}
+13932={
+	culture = tocharian
+	religion = vajrayana
+	holding = none
+	870.1.1 = { culture = uyghur religion = manichean }
+}
+13934={
+	holding = none
+}
+13938={
+	culture = uigur
+	religion = manichean
+	holding = none
+	870.1.1 = { culture = uyghur }
+}

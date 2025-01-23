@@ -1,0 +1,54 @@
+﻿war = {
+	start_date = 416.8.1
+	end_date = 423.7.7
+	targeted_titles={ c_massawa c_intarta c_bur c_serae c_qataa c_welamo c_kassala }
+	casus_belli = independence_faction_war
+	attackers={ imperator201743 imperator202312 imperator203521 }
+	defenders={ imperator186910 imperator186432 imperator189850 imperator187340 imperator191374 imperator201001 }
+	claimant = imperator201743
+}
+war = {
+	start_date = 419.7.25
+	end_date = 423.7.7
+	targeted_titles={ c_fyn c_lolland_falster }
+	casus_belli = claim_cb
+	attackers={ imperator198337 }
+	defenders={ imperator186502 imperator191894 imperator194779 imperator191897 imperator195334 imperator200862 imperator199756 imperator198070 imperator195692 imperator194344 }
+	claimant = imperator198337
+}
+war = {
+	start_date = 420.6.1
+	end_date = 423.7.7
+	targeted_titles={ c_dathina c_mahra c_jawf-al-yamani c_hadramawt c_kinda_sakun }
+	casus_belli = independence_faction_war
+	attackers={ imperator202811 imperator203104 imperator206758 }
+	defenders={ imperator186910 imperator187340 imperator189850 imperator191374 imperator186432 imperator201001 }
+	claimant = imperator202811
+}
+war = {
+	start_date = 420.12.1
+	end_date = 423.7.7
+	targeted_titles={ c_muyunkum c_chun-illi c_mirki c_balashagun }
+	casus_belli = independence_faction_war
+	attackers={ imperator202985 }
+	defenders={ imperator196338 }
+	claimant = imperator202985
+}
+war = {
+	start_date = 422.12.1
+	end_date = 423.7.7
+	targeted_titles={ c_nasibin c_hakkari c_bakriya c_mayyafariqin c_theodosiopolis c_tall_basma c_amida }
+	casus_belli = claim_cb
+	attackers={ imperator193037 }
+	defenders={ imperator199171 }
+	claimant = imperator193037
+}
+war = {
+	start_date = 423.6.1
+	end_date = 423.7.7
+	targeted_titles={ c_kaliska c_wielunska }
+	casus_belli = independence_faction_war
+	attackers={ imperator207042 }
+	defenders={ imperator186502 }
+	claimant = imperator207042
+}

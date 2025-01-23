@@ -1,0 +1,14 @@
+k_daylam={
+	423.7.6 = { liege = 0 }
+}
+d_gurgan={
+	423.7.6 = { liege = 0 }
+}
+c_gurgan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator188017 change_development_level = 10 }
+}
+c_dihistan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator182879 change_development_level = 9 }
+}

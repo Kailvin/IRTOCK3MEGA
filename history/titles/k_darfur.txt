@@ -1,0 +1,84 @@
+k_darfur={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+d_darfur={
+	340.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 1 }
+	362.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder government = tribal_government }
+}
+c_el_fasher={
+	362.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+}
+c_dar_al-said={
+	362.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+}
+c_dar-al-rih={
+	362.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+}
+c_east_darfur={
+	362.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+}
+d_west_darfur={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ayn_farah_holder government = tribal_government }
+}
+c_ayn_farah={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ayn_farah_holder liege = d_darfur change_development_level = 0 }
+}
+c_qimr={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ayn_farah_holder liege = d_darfur change_development_level = 0 }
+}
+c_masalit={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ayn_farah_holder liege = d_darfur change_development_level = 0 }
+}
+d_wadai={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_dar_sila_holder government = tribal_government }
+}
+c_wadai={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { change_development_level = 0 }
+}
+c_dar_sila={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_dar_sila_holder change_development_level = 0 }
+}
+c_kadam={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_dar_sila_holder change_development_level = 0 }
+}
+c_fitri={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { change_development_level = 0 }
+}
+c_fellata={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_dar_sila_holder change_development_level = 0 }
+}
+c_ghazzal={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { change_development_level = 0 }
+}
+d_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder government = tribal_government }
+}
+c_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
+}
+c_west_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
+}
+c_south_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
+}

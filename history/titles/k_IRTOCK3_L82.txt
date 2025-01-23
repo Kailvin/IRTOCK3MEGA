@@ -1,0 +1,42 @@
+k_IRTOCK3_L82={
+	422.9.15 = { holder = imperator204340 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_ratanpur={
+	361.1.1 = { change_development_level = 5 }
+	423.7.6 = { liege = 0 }
+}
+c_ratanpur={
+	422.9.15 = { liege = 0 holder = imperator204340 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_tummana={
+	422.9.15 = { liege = 0 holder = imperator204340 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 12 }
+}
+c_bandhugadha={
+	422.9.15 = { liege = 0 holder = imperator204215 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_daksina_kosala={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_kiranapura_holder liege = 0 }
+}
+c_rayapura={
+	422.9.15 = { liege = 0 holder = imperator204340 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_sripuri={
+	422.9.15 = { liege = 0 holder = imperator204340 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_suvarnapura={
+	422.9.15 = { liege = 0 holder = imperator204390 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_sambalpur={
+	422.9.15 = { liege = 0 holder = imperator204390 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_kiranapura={
+	423.7.6 = { holder = IRToCK3_c_kiranapura_holder liege = 0 change_development_level = 11 }
+}

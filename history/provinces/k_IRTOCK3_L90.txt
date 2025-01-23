@@ -1,0 +1,27 @@
+1143={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1158={
+	holding = castle_holding
+}
+1210={
+	holding = none
+}
+1265={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = jungle
+}
+7886={
+	holding = city_holding
+}
+7887={
+	holding = none
+	terrain = jungle
+}
+7901={
+	holding = none
+}

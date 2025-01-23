@@ -1,0 +1,11 @@
+d_dobrudja={
+	423.7.6 = { liege = 0 }
+}
+c_constanta={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_mesembria={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 17 }
+}

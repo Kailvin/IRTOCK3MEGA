@@ -1,0 +1,40 @@
+k_IRTOCK3_L27={
+	411.5.18 = { holder = imperator200185 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_opolye={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_yaroslavl_holder liege = 0 }
+}
+c_yaroslavl={
+	423.7.6 = { holder = IRToCK3_c_yaroslavl_holder liege = 0 change_development_level = 6 }
+}
+c_vladimir={
+	411.5.18 = { liege = 0 holder = imperator200185 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_suzdal={
+	411.5.18 = { liege = 0 holder = imperator200185 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_tver={
+	411.5.18 = { liege = 0 holder = imperator200185 }
+	423.7.6 = { liege = k_IRTOCK3_L27 holder = imperator200164 change_development_level = 7 }
+}
+c_moskva={
+	411.5.18 = { liege = 0 holder = imperator200185 }
+	423.7.6 = { change_development_level = 0 }
+}
+d_ryazan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_murom_holder liege = 0 }
+}
+c_ryazan={
+	411.5.18 = { liege = 0 holder = imperator200185 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_tula={
+	421.11.14 = { liege = 0 holder = imperator203336 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_murom={
+	423.7.6 = { holder = IRToCK3_c_murom_holder liege = 0 change_development_level = 3 }
+}

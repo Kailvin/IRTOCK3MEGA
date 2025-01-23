@@ -1,0 +1,39 @@
+k_micronesia={
+	423.7.6 = { liege = 0 }
+}
+d_micronesia={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_pohnpei_holder government = tribal_government }
+}
+c_pohnpei={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_pohnpei_holder }
+}
+c_chuuk={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_pohnpei_holder }
+}
+c_kosrae={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_pohnpei_holder }
+}
+d_palau={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_palau_holder liege = 0 }
+}
+c_palau={
+	423.7.6 = { holder = IRToCK3_c_palau_holder change_development_level = 0 }
+}
+d_guahan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_guahan_holder government = tribal_government }
+}
+c_guahan={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_guahan_holder }
+}
+c_saipan={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_guahan_holder }
+}
+c_rota={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_guahan_holder }
+}
+d_yap={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_yap_holder government = tribal_government }
+}
+c_yap={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_yap_holder }
+}

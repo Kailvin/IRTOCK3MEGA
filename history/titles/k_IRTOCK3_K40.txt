@@ -1,0 +1,32 @@
+k_IRTOCK3_K40={
+	357.2.24 = { holder = imperator185734 government = feudal_government }
+	413.6.5 = { holder = imperator185740 government = feudal_government }
+	422.3.20 = { holder = imperator194995 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_yettishar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_terek_pass_holder liege = 0 }
+}
+c_terek_pass={
+	423.7.6 = { holder = IRToCK3_c_terek_pass_holder change_development_level = 7 }
+}
+c_kashgar={
+	422.3.20 = { liege = 0 holder = imperator194995 }
+	423.7.6 = { change_development_level = 7 }
+}
+b_ulangqat={
+	423.7.6 = { holder = imperator187415 }
+}
+c_bachu={
+	421.1.22 = { liege = 0 holder = imperator196086 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_yarkand={
+	100.1.1 = { government = feudal_government }
+	397.1.1 = { liege = d_khotan }
+	423.7.6 = { holder = IRToCK3_c_terek_pass_holder liege = 0 change_development_level = 5 }
+}
+c_sariq_qol={
+	422.3.20 = { liege = 0 holder = imperator194995 }
+	423.7.6 = { liege = k_IRTOCK3_K40 holder = imperator188212 change_development_level = 2 }
+}

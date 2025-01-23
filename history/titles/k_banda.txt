@@ -1,0 +1,42 @@
+k_banda={
+	423.7.6 = { liege = 0 }
+}
+d_seram={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_piru_holder government = tribal_government }
+}
+c_piru={
+	423.7.6 = { holder = IRToCK3_c_piru_holder change_development_level = 0 }
+}
+c_masohi={
+	423.7.6 = { holder = IRToCK3_c_piru_holder change_development_level = 0 }
+}
+c_bula={
+	423.7.6 = { holder = IRToCK3_c_piru_holder change_development_level = 0 }
+}
+d_aru_east={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_aru_east_holder government = tribal_government }
+}
+c_aru_east={
+	423.7.6 = { holder = IRToCK3_c_aru_east_holder change_development_level = 0 }
+}
+c_babar={
+	423.7.6 = { holder = IRToCK3_c_aru_east_holder change_development_level = 0 }
+}
+c_yamdena={
+	423.7.6 = { holder = IRToCK3_c_aru_east_holder change_development_level = 0 }
+}
+c_ewav={
+	423.7.6 = { holder = IRToCK3_c_aru_east_holder change_development_level = 0 }
+}
+d_sula={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_sula_holder government = tribal_government }
+}
+c_sula={
+	423.7.6 = { holder = IRToCK3_c_sula_holder change_development_level = 0 }
+}
+d_buru={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_buru_holder government = tribal_government }
+}
+c_buru={
+	423.7.6 = { holder = IRToCK3_c_buru_holder change_development_level = 0 }
+}

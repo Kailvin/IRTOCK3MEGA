@@ -1,0 +1,85 @@
+k_IRTOCK3_J39={
+	281.5.4 = { holder = imperator170339 government = feudal_government }
+	286.5.4 = { holder = imperator170315 government = republic_government }
+	291.5.4 = { holder = imperator170316 government = republic_government }
+	296.5.4 = { holder = imperator170317 government = republic_government }
+	301.5.4 = { holder = imperator171484 government = republic_government }
+	306.5.4 = { holder = imperator170382 government = republic_government }
+	311.5.4 = { holder = imperator170334 government = republic_government }
+	316.5.4 = { holder = imperator170317 government = republic_government }
+	322.5.12 = { holder = imperator170965 government = feudal_government }
+	363.11.26 = { holder = imperator183323 government = feudal_government }
+	370.5.19 = { holder = imperator174028 government = feudal_government }
+	371.3.26 = { holder = imperator175455 government = feudal_government }
+	381.12.27 = { holder = imperator176841 government = feudal_government }
+	390.8.18 = { holder = imperator178209 government = feudal_government }
+	397.10.22 = { holder = imperator180555 government = feudal_government }
+	408.12.12 = { holder = imperator193273 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_azov={
+	423.7.6 = { liege = 0 }
+}
+c_khumar={
+	396.5.20 = { liege = 0 holder = imperator190935 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_azov={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 4 }
+}
+b_manych={
+	423.7.6 = { holder = imperator202757 }
+}
+d_tmutarakan={
+	423.7.6 = { liege = 0 }
+}
+c_tmutarakan={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_papagia={
+	396.5.20 = { liege = 0 holder = imperator190935 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_levedia={
+	423.7.6 = { liege = 0 }
+}
+c_khortytsia={
+	422.10.22 = { liege = 0 holder = imperator206173 }
+	423.7.6 = { change_development_level = 5 }
+}
+b_mariupol={
+	423.7.6 = { holder = imperator184723 }
+}
+c_oleshye={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_bakhmut={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_samar={
+	422.10.22 = { liege = 0 holder = imperator206173 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_crimea={
+	20.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_kerch={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_kalos_limen={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_kalos_limen={
+	423.7.6 = { holder = imperator191982 }
+}
+c_perekop={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 5 }
+}

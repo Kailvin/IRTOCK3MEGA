@@ -1,0 +1,87 @@
+k_bargujin={
+	423.7.6 = { liege = 0 }
+}
+d_kol-bargujin={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_baragkhan_holder government = tribal_government }
+}
+c_baragkhan={
+	423.7.6 = { holder = IRToCK3_c_baragkhan_holder change_development_level = 0 }
+}
+c_bargajin={
+	423.7.6 = { holder = IRToCK3_c_baragkhan_holder change_development_level = 0 }
+}
+c_kotokel={
+	423.7.6 = { holder = IRToCK3_c_baragkhan_holder change_development_level = 0 }
+}
+c_barkhan_ula={
+	423.7.6 = { holder = IRToCK3_c_baragkhan_holder change_development_level = 0 }
+}
+d_khori-tumat={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_gorkhon_holder government = tribal_government }
+}
+c_gorkhon={
+	423.7.6 = { holder = IRToCK3_c_gorkhon_holder change_development_level = 0 }
+}
+c_inzagata={
+	423.7.6 = { holder = IRToCK3_c_gorkhon_holder change_development_level = 0 }
+}
+c_ebilgete={
+	423.7.6 = { holder = IRToCK3_c_gorkhon_holder change_development_level = 0 }
+}
+d_ingedei={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ingoda_holder government = tribal_government }
+}
+c_ingoda={
+	423.7.6 = { holder = IRToCK3_c_ingoda_holder change_development_level = 0 }
+}
+c_chikoi={
+	423.7.6 = { holder = IRToCK3_c_ingoda_holder change_development_level = 0 }
+}
+c_chita={
+	423.7.6 = { holder = IRToCK3_c_ingoda_holder change_development_level = 0 }
+}
+d_delyun-uran={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_muya_holder government = tribal_government }
+}
+c_muya={
+	423.7.6 = { holder = IRToCK3_c_muya_holder change_development_level = 0 }
+}
+c_yankan={
+	423.7.6 = { holder = IRToCK3_c_muya_holder change_development_level = 0 }
+}
+c_chara={
+	423.7.6 = { holder = IRToCK3_c_muya_holder change_development_level = 0 }
+}
+c_angar={
+	423.7.6 = { holder = IRToCK3_c_muya_holder change_development_level = 0 }
+}
+d_vitim={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bagdarin_holder government = tribal_government }
+}
+c_bagdarin={
+	423.7.6 = { holder = IRToCK3_c_bagdarin_holder change_development_level = 0 }
+}
+c_bugunda={
+	423.7.6 = { holder = IRToCK3_c_bagdarin_holder change_development_level = 0 }
+}
+c_ikat={
+	423.7.6 = { holder = IRToCK3_c_bagdarin_holder change_development_level = 0 }
+}
+c_karavkit={
+	423.7.6 = { holder = IRToCK3_c_bagdarin_holder change_development_level = 0 }
+}
+d_khilok={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ude_holder government = tribal_government }
+}
+c_ude={
+	423.7.6 = { holder = IRToCK3_c_ude_holder change_development_level = 0 }
+}
+c_sharaldai={
+	423.7.6 = { holder = IRToCK3_c_ude_holder change_development_level = 0 }
+}
+c_terepkhen={
+	423.7.6 = { holder = IRToCK3_c_ude_holder change_development_level = 0 }
+}
+c_egetyn={
+	423.7.6 = { holder = IRToCK3_c_ude_holder change_development_level = 0 }
+}

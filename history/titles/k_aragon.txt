@@ -1,0 +1,73 @@
+k_aragon={
+	423.7.6 = { liege = 0 }
+}
+d_aragon={
+	423.7.6 = { liege = 0 }
+}
+c_zaragoza={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_albarracin={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_alto_aragon={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_sobrarbe={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_huesca={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_calatayud={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_fraga={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_alcaniz={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_barcelona={
+	423.7.6 = { liege = 0 }
+}
+c_barcelona={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_urgell={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_pallas={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_puigcerda={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_girona={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_rossello={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_lleida={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_tarragona={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 13 }
+}

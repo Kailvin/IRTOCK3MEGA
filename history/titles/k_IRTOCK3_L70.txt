@@ -1,0 +1,11 @@
+k_IRTOCK3_L70={
+	422.9.15 = { holder = imperator204040 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_maldives={
+	423.7.6 = { liege = 0 }
+}
+c_maldives={
+	422.9.15 = { liege = 0 holder = imperator204040 }
+	423.7.6 = { change_development_level = 15 }
+}

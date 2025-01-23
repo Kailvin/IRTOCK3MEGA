@@ -1,0 +1,89 @@
+5903={
+	holding = none
+}
+5904={
+	holding = city_holding
+}
+5905={
+	culture = greek
+	faith = orthodox
+	holding = castle_holding
+}
+5909={
+	holding = church_holding
+}
+5910={
+	culture = syrian
+	faith = orthodox
+	holding = castle_holding
+}
+5911={
+	holding = none
+}
+5912={
+	holding = castle_holding
+}
+5916={
+	holding = city_holding
+}
+5918={
+	culture = syrian
+	faith = orthodox
+	holding = castle_holding
+}
+5919={
+	culture = syrian
+	faith = orthodox
+	holding = castle_holding
+}
+5920={
+	holding = city_holding
+}
+5923={
+	holding = city_holding
+}
+5924={
+	culture = adnanite
+	faith = arabic_pagan
+	holding = castle_holding
+}
+5925={
+	holding = none
+}
+5926={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
+5927={
+	holding = city_holding
+}
+5937={
+	holding = church_holding
+}
+5951={
+	culture = adnanite
+	faith = arabic_pagan
+	holding = none
+}
+5952={
+	holding = none
+}
+5953={
+	holding = none
+}
+5954={
+	holding = city_holding
+}
+5955={
+	culture = hebrew
+	faith = orthodox
+	holding = castle_holding
+	100.1.1 = { special_building_slot = theater_of_bosra }
+}
+5956={
+	holding = none
+}
+5957={
+	holding = none
+}

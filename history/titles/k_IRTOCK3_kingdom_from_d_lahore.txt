@@ -1,0 +1,35 @@
+d_lahore={
+	423.7.6 = { liege = 0 }
+}
+c_lahur={
+	393.8.15 = { liege = 0 holder = imperator188168 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_dipalpur={
+	422.9.15 = { liege = 0 holder = imperator205415 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_bhera={
+	422.9.15 = { liege = 0 holder = imperator205415 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_shorkot={
+	422.9.15 = { liege = 0 holder = imperator205415 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_sakala={
+	393.8.15 = { liege = 0 holder = imperator188168 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_trigarta={
+	422.9.15 = { liege = 0 holder = imperator205290 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_kangra={
+	393.8.15 = { liege = 0 holder = imperator188168 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_gurjaratra={
+	393.8.15 = { liege = 0 holder = imperator188168 }
+	423.7.6 = { change_development_level = 17 }
+}

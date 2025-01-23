@@ -1,0 +1,18 @@
+k_IRTOCK3_J79={
+	332.10.1 = { holder = imperator179463 government = feudal_government }
+	341.2.1 = { holder = imperator181360 government = feudal_government }
+	349.8.5 = { holder = imperator182696 government = feudal_government }
+	351.10.10 = { holder = imperator181363 government = feudal_government }
+	391.7.14 = { holder = imperator184128 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_kohestan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tun_holder liege = 0 }
+}
+c_qain={
+	391.7.14 = { liege = 0 holder = imperator184128 }
+	423.7.6 = { liege = k_IRTOCK3_J79 holder = imperator185799 change_development_level = 7 }
+}
+c_tun={
+	423.7.6 = { holder = IRToCK3_c_tun_holder liege = 0 change_development_level = 5 }
+}

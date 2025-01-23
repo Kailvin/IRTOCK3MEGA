@@ -1,0 +1,283 @@
+11775={
+	holding = none
+}
+11783={
+	culture = kam
+	religion = moism
+	holding = tribal_holding
+}
+11785={
+	holding = none
+}
+11788={
+	culture = kam
+	religion = moism
+	holding = castle_holding
+}
+11790={
+	holding = none
+}
+11792={
+	holding = none
+}
+11811={
+	culture = yao
+	religion = hmongism
+	holding = none
+	1050.1.1 = { culture = hakka religion = shendao }
+}
+11813={
+	holding = none
+}
+11899={
+	holding = none
+}
+12419={
+	culture = hlai
+	religion = moism
+	holding = tribal_holding
+}
+12434={
+	culture = hlai
+	religion = moism
+	holding = tribal_holding
+}
+12436={
+	holding = none
+}
+12449={
+	holding = none
+}
+12458={
+	culture = be
+	religion = moism
+	holding = tribal_holding
+}
+12542={
+	culture = hlai
+	religion = moism
+	holding = castle_holding
+	1050.1.1 = { culture = min religion = zhengyi }
+}
+12612={
+	culture = tai
+	religion = moism
+	holding = none
+	1050.1.1 = { culture = yue religion = shendao }
+}
+12619={
+	holding = none
+}
+12640={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	1050.1.1 = { culture = min }
+}
+12651={
+	culture = tai
+	religion = moism
+	holding = none
+	1050.1.1 = { culture = yue religion = shendao }
+}
+12654={
+	holding = none
+}
+12656={
+	holding = none
+}
+12661={
+	holding = none
+}
+12667={
+	holding = none
+}
+12668={
+	holding = none
+}
+12684={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	1050.1.1 = { culture = yue }
+}
+12692={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	1050.1.1 = { culture = yue }
+}
+12694={
+	holding = none
+}
+12698={
+	holding = none
+}
+12702={
+	holding = none
+}
+12708={
+	culture = nong
+	religion = moism
+	holding = castle_holding
+}
+12712={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+12713={
+	holding = none
+}
+12720={
+	culture = han
+	religion = zhengyi
+	holding = none
+	1050.1.1 = { culture = min }
+}
+12729={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+	special_building_slot = sea_gold_mines_01
+	1020.1.1 = { special_building = sea_gold_mines_01 }
+}
+12730={
+	holding = none
+}
+12731={
+	culture = han
+	religion = shendao
+	holding = castle_holding
+	1050.1.1 = { culture = yue }
+}
+12737={
+	holding = none
+}
+12772={
+	holding = none
+}
+12775={
+	holding = none
+}
+12780={
+	holding = none
+}
+12781={
+	holding = none
+}
+12784={
+	culture = han
+	religion = zhengyi
+	holding = none
+	1050.1.1 = { culture = yue }
+}
+12786={
+	culture = han
+	religion = zhengyi
+	holding = none
+	1050.1.1 = { culture = yue }
+}
+12808={
+	holding = none
+}
+12815={
+	holding = none
+}
+12822={
+	holding = none
+}
+12824={
+	holding = none
+}
+12831={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+12845={
+	holding = none
+}
+12855={
+	holding = none
+}
+12860={
+	holding = none
+}
+12865={
+	holding = none
+}
+12866={
+	holding = none
+}
+12877={
+	holding = none
+}
+12880={
+	holding = none
+}
+12881={
+	culture = min
+	religion = shangqing
+	holding = none
+}
+12927={
+	holding = none
+}
+12928={
+	holding = none
+}
+12930={
+	holding = none
+}
+12933={
+	culture = kam
+	religion = moism
+	holding = tribal_holding
+}
+12934={
+	holding = none
+}
+12940={
+	holding = none
+}
+12942={
+	culture = nong
+	religion = moism
+	holding = tribal_holding
+}
+12945={
+	culture = min
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = hakka }
+}
+12948={
+	culture = min
+	religion = shendao
+	holding = none
+	1050.1.1 = { culture = hakka }
+}
+12955={
+	culture = hmong
+	religion = hmongism
+	holding = tribal_holding
+}
+12983={
+	holding = none
+}
+13025={
+	holding = none
+}
+13027={
+	holding = none
+}
+13028={
+	holding = none
+}
+13029={
+	holding = none
+}
+13035={
+	holding = none
+}

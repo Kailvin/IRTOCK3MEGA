@@ -1,0 +1,99 @@
+k_east_francia={
+	420.2.7 = { government = feudal_government holder = imperator199044 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+}
+d_alsace={
+	423.7.6 = { liege = 0 }
+}
+c_strassburg={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_breisgau={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_colmar={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_sundgau={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_swabia={
+	423.7.6 = { liege = 0 }
+}
+c_ulm={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_grunningen={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_wurttemberg={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_baden={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_zollern={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_hohenberg={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_furstenberg={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_upper_lorraine={
+	423.7.6 = { liege = 0 }
+}
+c_trier={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_nancy={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_metz={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_saarbrucken={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_puttlingen={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_neufchateau={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_nordgau={
+	423.7.6 = { liege = 0 }
+}
+c_eichstadt={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_leuchtenburg={
+	422.2.21 = { liege = 0 holder = imperator199299 }
+	423.7.6 = { holder = imperator199294 change_development_level = 2 }
+}
+c_parsberg={
+	422.2.21 = { liege = 0 holder = imperator199299 }
+	423.7.6 = { holder = imperator199294 change_development_level = 1 }
+}
+c_hohenburg={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 3 }
+}

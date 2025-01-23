@@ -1,0 +1,102 @@
+k_ob={
+	423.7.6 = { liege = 0 }
+}
+d_salair={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ob_holder government = tribal_government }
+}
+c_ob={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_biia={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_torema={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_sorok={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_kondoma={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_kyin={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_aley={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_korgon={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+c_terektai={
+	423.7.6 = { holder = IRToCK3_c_ob_holder change_development_level = 0 }
+}
+d_ala_tau={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tomsk_holder government = tribal_government }
+}
+c_tomsk={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+c_kiia={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+c_chulym={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+c_narim={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+c_sochur={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+c_yenisei={
+	423.7.6 = { holder = IRToCK3_c_tomsk_holder change_development_level = 0 }
+}
+d_vasyugan_mire={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_vasyugan_holder government = tribal_government }
+}
+c_vasyugan={
+	423.7.6 = { holder = IRToCK3_c_vasyugan_holder change_development_level = 0 }
+}
+c_umiai={
+	423.7.6 = { holder = IRToCK3_c_vasyugan_holder change_development_level = 0 }
+}
+c_tartas_SIB={
+	423.7.6 = { holder = IRToCK3_c_vasyugan_holder change_development_level = 0 }
+}
+c_chich={
+	423.7.6 = { holder = IRToCK3_c_vasyugan_holder change_development_level = 0 }
+}
+d_baraba_steppe={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kolyvan_holder government = tribal_government }
+}
+c_kolyvan={
+	423.7.6 = { holder = IRToCK3_c_kolyvan_holder change_development_level = 0 }
+}
+c_sartlan={
+	423.7.6 = { holder = IRToCK3_c_kolyvan_holder change_development_level = 0 }
+}
+c_ubins={
+	423.7.6 = { holder = IRToCK3_c_kolyvan_holder change_development_level = 0 }
+}
+c_igaran={
+	423.7.6 = { holder = IRToCK3_c_kolyvan_holder change_development_level = 0 }
+}
+c_konda_ob={
+	423.7.6 = { holder = IRToCK3_c_kolyvan_holder change_development_level = 0 }
+}
+d_kulyndy_steppe={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kulunda_holder government = tribal_government }
+}
+c_kulunda={
+	423.7.6 = { holder = IRToCK3_c_kulunda_holder change_development_level = 0 }
+}
+c_barnaul={
+	423.7.6 = { holder = IRToCK3_c_kulunda_holder change_development_level = 0 }
+}
+c_kachu={
+	423.7.6 = { holder = IRToCK3_c_kulunda_holder change_development_level = 0 }
+}
+c_kuchuk={
+	423.7.6 = { holder = IRToCK3_c_kulunda_holder change_development_level = 0 }
+}

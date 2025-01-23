@@ -1,0 +1,19 @@
+d_provence={
+	423.7.6 = { liege = 0 }
+}
+c_venaissin={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_provence={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_nice={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_forcalquier={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 12 }
+}

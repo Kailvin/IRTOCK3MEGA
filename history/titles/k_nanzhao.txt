@@ -1,0 +1,150 @@
+k_nanzhao={
+	423.7.6 = { liege = 0 }
+}
+d_yon_zon_mi={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yon_zon_mi_holder liege = 0 }
+}
+c_yon_zon_mi={
+	423.7.6 = { holder = IRToCK3_c_yon_zon_mi_holder change_development_level = 0 }
+}
+c_yunnan={
+	423.7.6 = { holder = IRToCK3_c_yon_zon_mi_holder change_development_level = 0 }
+}
+c_ma_shy={
+	423.7.6 = { holder = IRToCK3_c_yon_zon_mi_holder change_development_level = 0 }
+}
+d_lung_dong={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lung_dung_holder liege = 0 }
+}
+c_lung_dung={
+	423.7.6 = { holder = IRToCK3_c_lung_dung_holder change_development_level = 0 }
+}
+c_ddi_yi={
+	423.7.6 = { holder = IRToCK3_c_lung_dung_holder change_development_level = 0 }
+}
+c_wo_lu={
+	423.7.6 = { holder = IRToCK3_c_lung_dung_holder change_development_level = 0 }
+}
+c_shuangbai={
+	423.7.6 = { holder = IRToCK3_c_lung_dung_holder change_development_level = 0 }
+}
+d_yi_du={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_yi_du_holder liege = 0 }
+}
+c_yi_du={
+	423.7.6 = { holder = IRToCK3_c_yi_du_holder change_development_level = 0 }
+}
+c_kun_ming={
+	423.7.6 = { holder = IRToCK3_c_yi_du_holder change_development_level = 0 }
+}
+c_maso={
+	423.7.6 = { holder = IRToCK3_c_yi_du_holder change_development_level = 0 }
+}
+d_koksang={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_koksang_holder government = feudal_government }
+}
+c_koksang={
+	423.7.6 = { holder = IRToCK3_c_koksang_holder change_development_level = 0 }
+}
+c_lang_kion={
+	423.7.6 = { holder = IRToCK3_c_koksang_holder change_development_level = 0 }
+}
+c_deqen={
+	423.7.6 = { holder = IRToCK3_c_koksang_holder change_development_level = 0 }
+}
+d_yongchang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yongchang_holder liege = 0 }
+}
+c_yongchang={
+	423.7.6 = { holder = IRToCK3_c_yongchang_holder change_development_level = 0 }
+}
+c_yinsheng={
+	423.7.6 = { holder = IRToCK3_c_yongchang_holder change_development_level = 0 }
+}
+c_tuonan={
+	423.7.6 = { holder = IRToCK3_c_yongchang_holder change_development_level = 0 }
+}
+c_man_kueng={
+	423.7.6 = { holder = IRToCK3_c_yongchang_holder change_development_level = 0 }
+}
+d_kainan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kainan_holder liege = 0 }
+}
+c_kainan={
+	423.7.6 = { holder = IRToCK3_c_kainan_holder change_development_level = 0 }
+}
+c_buri_yn={
+	423.7.6 = { holder = IRToCK3_c_kainan_holder change_development_level = 0 }
+}
+c_in_yuan={
+	423.7.6 = { holder = IRToCK3_c_kainan_holder change_development_level = 0 }
+}
+c_mang_xie={
+	423.7.6 = { holder = IRToCK3_c_kainan_holder change_development_level = 0 }
+}
+d_huichuan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_huichuan_holder government = feudal_government }
+}
+c_huichuan={
+	423.7.6 = { holder = IRToCK3_c_huichuan_holder change_development_level = 0 }
+}
+c_jianchang={
+	423.7.6 = { holder = IRToCK3_c_huichuan_holder change_development_level = 0 }
+}
+c_a_du={
+	423.7.6 = { holder = IRToCK3_c_huichuan_holder change_development_level = 0 }
+}
+c_khuo={
+	423.7.6 = { holder = IRToCK3_c_huichuan_holder change_development_level = 0 }
+}
+c_khiong={
+	423.7.6 = { holder = IRToCK3_c_huichuan_holder change_development_level = 0 }
+}
+d_tuodong={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_tuodong_holder liege = 0 }
+}
+c_tuodong={
+	423.7.6 = { holder = IRToCK3_c_tuodong_holder change_development_level = 0 }
+}
+c_dzi_khe={
+	423.7.6 = { holder = IRToCK3_c_tuodong_holder change_development_level = 0 }
+}
+c_lu_nai={
+	423.7.6 = { holder = IRToCK3_c_tuodong_holder change_development_level = 0 }
+}
+c_anning_yn={
+	423.7.6 = { holder = IRToCK3_c_tuodong_holder change_development_level = 0 }
+}
+c_lu_khuon={
+	423.7.6 = { holder = IRToCK3_c_tuodong_holder change_development_level = 0 }
+}
+d_shicheng={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_shicheng_holder liege = 0 }
+}
+c_shicheng={
+	423.7.6 = { holder = IRToCK3_c_shicheng_holder change_development_level = 0 }
+}
+c_dongchuan={
+	423.7.6 = { holder = IRToCK3_c_shicheng_holder change_development_level = 0 }
+}
+c_u_mung={
+	423.7.6 = { holder = IRToCK3_c_shicheng_holder change_development_level = 0 }
+}
+c_mo_mie={
+	423.7.6 = { holder = IRToCK3_c_shicheng_holder change_development_level = 0 }
+}
+d_tonghai={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_tonghai_holder liege = 0 }
+}
+c_tonghai={
+	423.7.6 = { holder = IRToCK3_c_tonghai_holder change_development_level = 0 }
+}
+c_goje={
+	423.7.6 = { holder = IRToCK3_c_tonghai_holder change_development_level = 0 }
+}
+c_hohoxe={
+	423.7.6 = { holder = IRToCK3_c_tonghai_holder change_development_level = 0 }
+}
+c_butou={
+	423.7.6 = { holder = IRToCK3_c_tonghai_holder change_development_level = 0 }
+}

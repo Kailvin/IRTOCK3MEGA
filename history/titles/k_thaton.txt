@@ -1,0 +1,90 @@
+k_thaton={
+	423.7.6 = { liege = 0 }
+}
+d_thaton={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_thaton_holder liege = 0 }
+}
+c_thaton={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_mawlamyine={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_hpa_an={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder change_development_level = 0 }
+}
+c_hpapun={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder change_development_level = 0 }
+}
+d_ramannadesa={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_pegu_holder liege = 0 }
+}
+c_pegu={
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+c_sittaung={
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+c_tharrawaddy={
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+c_phyu={
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+d_dagon={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_dagon_holder government = tribal_government }
+}
+c_dagon={
+	423.7.6 = { holder = IRToCK3_c_dagon_holder change_development_level = 0 }
+}
+c_dala={
+	423.7.6 = { holder = IRToCK3_c_dagon_holder liege = 0 change_development_level = 0 }
+}
+c_syriam={
+	423.7.6 = { holder = IRToCK3_c_dagon_holder liege = 0 change_development_level = 0 }
+}
+d_krapan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kusima_holder liege = 0 }
+}
+c_kusima={
+	423.7.6 = { holder = IRToCK3_c_kusima_holder liege = 0 change_development_level = 0 }
+}
+c_myaungmya={
+	423.7.6 = { holder = IRToCK3_c_kusima_holder liege = 0 change_development_level = 0 }
+}
+c_pantanaw={
+	423.7.6 = { holder = IRToCK3_c_kusima_holder change_development_level = 0 }
+}
+c_bogale={
+	423.7.6 = { holder = IRToCK3_c_kusima_holder liege = 0 change_development_level = 0 }
+}
+d_yebyu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_rew_holder liege = 0 }
+}
+c_rew={
+	423.7.6 = { holder = IRToCK3_c_rew_holder change_development_level = 0 }
+}
+c_kawkareik={
+	423.7.6 = { holder = IRToCK3_c_rew_holder change_development_level = 0 }
+}
+c_nong_lu={
+	423.7.6 = { holder = IRToCK3_c_rew_holder change_development_level = 0 }
+}
+c_pho_pha={
+	423.7.6 = { holder = IRToCK3_c_rew_holder change_development_level = 0 }
+}
+d_tanintharyi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_dawei_holder liege = 0 }
+}
+c_dawei={
+	423.7.6 = { holder = IRToCK3_c_dawei_holder change_development_level = 0 }
+}
+c_myeik={
+	423.7.6 = { holder = IRToCK3_c_dawei_holder change_development_level = 0 }
+}
+c_tanangsi={
+	423.7.6 = { holder = IRToCK3_c_dawei_holder change_development_level = 0 }
+}
+c_kainggyaung={
+	423.7.6 = { holder = IRToCK3_c_dawei_holder change_development_level = 0 }
+}

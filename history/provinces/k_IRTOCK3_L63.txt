@@ -1,0 +1,51 @@
+867={
+	holding = city_holding
+}
+868={
+	holding = city_holding
+}
+869={
+	holding = castle_holding
+}
+870={
+	holding = city_holding
+}
+871={
+	holding = city_holding
+}
+872={
+	holding = city_holding
+	special_building_slot = generic_university
+}
+873={
+	holding = city_holding
+}
+874={
+	holding = none
+}
+875={
+	holding = none
+}
+876={
+	holding = castle_holding
+}
+1152={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1154={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1251={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1276={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}

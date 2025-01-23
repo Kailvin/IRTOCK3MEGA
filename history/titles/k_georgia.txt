@@ -1,0 +1,17 @@
+k_georgia={
+	423.7.6 = { liege = 0 }
+}
+d_odishi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_svaneti_holder liege = 0 }
+}
+c_odishi={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_svaneti={
+	423.7.6 = { holder = IRToCK3_c_svaneti_holder liege = 0 change_development_level = 4 }
+}
+c_guria={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}

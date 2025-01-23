@@ -1,0 +1,32 @@
+k_IRTOCK3_J95={
+	339.10.1 = { holder = imperator181026 government = feudal_government }
+	409.3.1 = { holder = imperator199477 government = feudal_government }
+	423.2.20 = { holder = imperator200958 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_atyrau={
+	423.7.6 = { liege = 0 }
+}
+c_atyrau={
+	423.2.20 = { liege = 0 holder = imperator200958 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_sagiz={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 0 }
+}
+b_kainar={
+	423.7.6 = { holder = imperator188800 }
+}
+c_manatau={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_baisary={
+	397.10.11 = { liege = 0 holder = imperator196051 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_basagha={
+	397.10.11 = { liege = 0 holder = imperator196051 }
+	423.7.6 = { liege = k_IRTOCK3_C12 holder = imperator182473 change_development_level = 0 }
+}

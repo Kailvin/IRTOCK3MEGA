@@ -1,0 +1,532 @@
+k_IRTOCK3_ATH={
+	-304.10.1 = { holder = imperator159 government = republic_government }
+	-299.10.1 = { holder = imperator218 government = republic_government }
+	-294.10.1 = { holder = imperator107 government = republic_government }
+	-289.10.1 = { holder = imperator391 government = republic_government }
+	-284.10.1 = { holder = imperator524 government = republic_government }
+	-274.10.1 = { holder = imperator107 government = republic_government }
+	-264.10.1 = { holder = imperator52915 government = republic_government }
+	-254.10.1 = { holder = imperator52910 government = republic_government }
+	-244.10.1 = { holder = imperator539 government = republic_government }
+	-234.10.1 = { holder = imperator52915 government = republic_government }
+	-229.12.30 = { holder = imperator60207 government = city_state_government }
+	-219.12.30 = { holder = imperator67707 government = city_state_government }
+	-209.12.30 = { holder = imperator65780 government = city_state_government }
+	-200.5.17 = { holder = imperator58145 government = city_state_government }
+	-191.1.21 = { holder = imperator60207 government = city_state_government }
+	-189.9.28 = { holder = imperator74392 government = city_state_government }
+	-179.9.28 = { holder = imperator70108 government = city_state_government }
+	-169.9.28 = { holder = imperator89216 government = city_state_government }
+	-159.9.28 = { holder = imperator86615 government = city_state_government }
+	-149.9.28 = { holder = imperator85127 government = city_state_government }
+	-139.2.8 = { holder = imperator92552 government = city_state_government }
+	-129.2.8 = { holder = imperator86615 government = city_state_government }
+	-119.2.8 = { holder = imperator98418 government = city_state_government }
+	-109.2.8 = { holder = imperator95558 government = city_state_government }
+	-99.2.8 = { holder = imperator93540 government = city_state_government }
+	-97.8.14 = { holder = imperator101095 government = city_state_government }
+	-89.1.7 = { holder = imperator99745 government = city_state_government }
+	-79.1.7 = { holder = imperator103777 government = republic_government }
+	-69.1.7 = { holder = imperator113255 government = republic_government }
+	-64.1.7 = { holder = imperator110031 government = republic_government }
+	-59.1.7 = { holder = imperator111386 government = republic_government }
+	-54.1.7 = { holder = imperator119003 government = republic_government }
+	-49.1.7 = { holder = imperator111892 government = republic_government }
+	-44.1.7 = { holder = imperator113255 government = republic_government }
+	-39.1.7 = { holder = imperator114727 government = republic_government }
+	-34.1.7 = { holder = imperator119003 government = republic_government }
+	-29.1.7 = { holder = imperator111892 government = republic_government }
+	-26.2.5 = { holder = imperator120067 government = republic_government }
+	-21.2.5 = { holder = imperator118840 government = republic_government }
+	-16.2.5 = { holder = imperator114727 government = republic_government }
+	-11.2.5 = { holder = imperator123716 government = republic_government }
+	-6.2.5 = { holder = imperator123380 government = republic_government }
+	-1.2.5 = { holder = imperator125369 government = republic_government }
+	5.2.5 = { holder = imperator124095 government = republic_government }
+	10.2.5 = { holder = imperator124751 government = republic_government }
+	15.2.5 = { holder = imperator128263 government = republic_government }
+	20.2.5 = { holder = imperator124945 government = republic_government }
+	25.2.5 = { holder = imperator128694 government = republic_government }
+	30.2.5 = { holder = imperator127539 government = theocracy_government }
+	35.2.5 = { holder = imperator129132 government = theocracy_government }
+	40.2.5 = { holder = imperator124945 government = theocracy_government }
+	45.2.5 = { holder = imperator128694 government = theocracy_government }
+	46.4.6 = { holder = imperator127539 government = theocracy_government }
+	51.4.6 = { holder = imperator129132 government = theocracy_government }
+	56.4.6 = { holder = imperator134088 government = theocracy_government }
+	61.4.6 = { holder = imperator133763 government = theocracy_government }
+	66.4.6 = { holder = imperator136338 government = theocracy_government }
+	71.4.6 = { holder = imperator136812 government = theocracy_government }
+	72.11.11 = { holder = imperator136712 government = theocracy_government }
+	77.11.11 = { holder = imperator133763 government = theocracy_government }
+	82.11.11 = { holder = imperator136209 government = theocracy_government }
+	87.11.11 = { holder = imperator137287 government = theocracy_government }
+	92.11.11 = { holder = imperator134225 government = theocracy_government }
+	97.11.11 = { holder = imperator136540 government = theocracy_government }
+	102.11.11 = { holder = imperator140021 government = theocracy_government }
+	107.11.11 = { holder = imperator137287 government = theocracy_government }
+	112.11.11 = { holder = imperator140853 government = theocracy_government }
+	117.11.11 = { holder = imperator136540 government = theocracy_government }
+	120.7.17 = { holder = imperator140021 government = theocracy_government }
+	125.7.17 = { holder = imperator138949 government = theocracy_government }
+	130.7.17 = { holder = imperator140657 government = theocracy_government }
+	135.7.17 = { holder = imperator143620 government = theocracy_government }
+	140.7.17 = { holder = imperator142537 government = theocracy_government }
+	152.2.18 = { holder = imperator143620 government = theocracy_government }
+	160.2.9 = { holder = imperator144162 government = theocracy_government }
+	165.2.9 = { holder = imperator149188 government = theocracy_government }
+	170.2.9 = { holder = imperator144739 government = theocracy_government }
+	175.2.9 = { holder = imperator147936 government = theocracy_government }
+	180.2.9 = { holder = imperator144162 government = theocracy_government }
+	184.6.13 = { holder = imperator149188 government = theocracy_government }
+	189.6.13 = { holder = imperator148661 government = theocracy_government }
+	194.6.13 = { holder = imperator149413 government = theocracy_government }
+	199.6.13 = { holder = imperator148443 government = theocracy_government }
+	204.6.13 = { holder = imperator149188 government = theocracy_government }
+	208.3.17 = { holder = imperator154543 government = imperial_government }
+	256.1.9 = { holder = imperator160073 government = imperial_government }
+	294.1.21 = { holder = imperator163502 government = imperial_government }
+	314.6.3 = { holder = imperator164248 government = imperial_government }
+	322.10.11 = { holder = imperator173954 government = imperial_government }
+	381.4.15 = { holder = imperator179922 government = imperial_government }
+	383.10.30 = { holder = imperator182223 government = imperial_government }
+	417.1.6 = { holder = imperator194255 government = imperial_government }
+	423.5.22 = { liege = e_IRTOCK3_BDI }
+	423.7.6 = { succession_laws = { male_only_law acclamation_succession_law } }
+}
+d_thrace={
+	423.7.6 = { liege = 0 }
+}
+c_byzantion={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_kalliopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator183583 change_development_level = 18 }
+}
+b_ainos={
+	423.7.6 = { holder = imperator183583 }
+}
+c_brysis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator183583 change_development_level = 15 }
+}
+d_strymon={
+	423.7.6 = { liege = 0 }
+}
+c_mosynopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator193477 change_development_level = 17 }
+}
+c_serres={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_aegean_islands={
+	423.7.6 = { liege = 0 }
+}
+c_naxos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_abydos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_lesbos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_chios={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_rhodos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_thessalonika={
+	423.7.6 = { liege = 0 }
+}
+c_thessalonika={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_chalkidike={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+b_kassandreia={
+	423.7.6 = { holder = imperator190681 }
+}
+c_veria={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_thessaly={
+	423.7.6 = { liege = 0 }
+}
+c_thessalia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_demetrias={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_neopatras={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_thessaliotis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator193557 change_development_level = 17 }
+}
+b_stagoi={
+	423.7.6 = { holder = imperator193557 }
+}
+d_epirus={
+	423.7.6 = { liege = 0 }
+}
+c_nicopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_epeiros={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_aetolia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_metzovo={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+d_dyrrachion={
+	423.7.6 = { liege = 0 }
+}
+c_dyrrachion={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_arbanon={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_debar={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_antipatreia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_avlonas={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 17 }
+}
+d_cephalonia={
+	423.7.6 = { liege = 0 }
+}
+c_cephalonia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_buthrotum={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_athens={
+	423.7.6 = { liege = 0 }
+}
+c_attica={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_boeotia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_euboea={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_achaia={
+	423.7.6 = { liege = 0 }
+}
+c_achaia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_korinthos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_messenia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_laconia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_krete={
+	423.7.6 = { liege = 0 }
+}
+c_chandax={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_chania={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_turnovo={
+	423.7.6 = { liege = 0 }
+}
+c_turnovo={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_sredets={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_nikopolis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_dorostorum={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_vratsa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_aytos={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator199439 change_development_level = 17 }
+}
+d_bulgaria={
+	423.7.6 = { liege = 0 }
+}
+c_naissus={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_pomoravlje={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_velbazhd={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_pirin={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_strumica={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_skopje={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_ohrid={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_philippopolis={
+	423.7.6 = { liege = 0 }
+}
+c_philippopolis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator183583 change_development_level = 14 }
+}
+c_kran={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_beroe={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_burgas={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_adrianopolis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_zherkovo={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_rhodopes={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_opsikion={
+	423.7.6 = { liege = 0 }
+}
+c_nikaea={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+b_kyzikos={
+	423.7.6 = { holder = imperator190629 }
+}
+c_mysia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_prusa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_phrygia={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_ephese={
+	423.7.6 = { liege = 0 }
+}
+c_ionia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_aeolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+d_thracesia={
+	423.7.6 = { liege = 0 }
+}
+c_lydia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_thyatira={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_hadrianeia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_chonae={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_chaldia={
+	423.7.6 = { liege = 0 }
+}
+c_trebizond={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator189496 change_development_level = 11 }
+}
+c_cerasus={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_colonea={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_satala={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_tao-klarjeti={
+	423.7.6 = { liege = 0 }
+}
+c_tao={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_klarjeti={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator184425 change_development_level = 15 }
+}
+b_tmogvi={
+	423.7.6 = { holder = imperator184425 }
+}
+c_kartli={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_acampse={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_diyarmudar={
+	423.7.6 = { liege = 0 }
+}
+c_raqqa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator184532 change_development_level = 11 }
+}
+c_harran={
+	385.11.20 = { liege = 0 holder = imperator193037 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_dausar={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_aleppo={
+	423.7.6 = { liege = 0 }
+}
+c_aleppo={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_suriya={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_syrrusafa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator183583 change_development_level = 16 }
+}
+c_qinnasrin={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_homs={
+	423.7.6 = { liege = 0 }
+}
+c_homs={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_shayzar={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_hama={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator194741 change_development_level = 10 }
+}
+d_palmyra={
+	423.7.6 = { liege = 0 }
+}
+c_palmyra={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator183583 change_development_level = 5 }
+}
+c_sukhna={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator184532 change_development_level = 8 }
+}
+c_qaryatan={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 8 }
+}

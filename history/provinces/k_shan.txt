@@ -1,0 +1,196 @@
+9594={
+	culture = bengali
+	faith = hellenic_pagan
+	holding = none
+}
+9642={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9833={
+	holding = church_holding
+}
+9836={
+	culture = karen
+	religion = burmic
+	holding = tribal_holding
+}
+9837={
+	holding = church_holding
+}
+9841={
+	culture = palaung
+	religion = burmic
+	holding = tribal_holding
+	980.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan }
+}
+9842={
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+	944.1.1 = { religion = theravada }
+	1150.1.1 = { culture = shan }
+}
+9843={
+	holding = none
+}
+9844={
+	culture = palaung
+	religion = burmic
+	holding = tribal_holding
+}
+9845={
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+	1060.1.1 = { religion = theravada }
+	1150.1.1 = { culture = shan }
+}
+9846={
+	holding = church_holding
+}
+9847={
+	holding = none
+}
+9848={
+	holding = none
+}
+9849={
+	culture = palaung
+	religion = burmic
+	holding = tribal_holding
+	1150.1.1 = { culture = shan religion = ban_phi }
+}
+9850={
+	culture = palaung
+	religion = burmic
+	holding = tribal_holding
+}
+9851={
+	holding = none
+}
+9852={
+	culture = wa
+	religion = wa_animism
+	holding = tribal_holding
+}
+9853={
+	culture = wa
+	religion = wa_animism
+	holding = tribal_holding
+}
+9854={
+	holding = none
+}
+9855={
+	culture = karen
+	religion = burmic
+	holding = tribal_holding
+	1050.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan religion = theravada }
+}
+9856={
+	holding = none
+}
+9857={
+	culture = karen
+	religion = burmic
+	holding = tribal_holding
+	1050.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan }
+}
+9858={
+	culture = tai
+	religion = ban_phi
+	holding = tribal_holding
+	1050.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan religion = theravada }
+}
+9888={
+	holding = church_holding
+}
+9889={
+	holding = city_holding
+}
+9890={
+	culture = achang
+	religion = burmic
+	holding = tribal_holding
+}
+9891={
+	holding = church_holding
+}
+9947={
+	holding = none
+}
+10901={
+	culture = wa
+	religion = wa_animism
+	holding = tribal_holding
+}
+10903={
+	culture = achang
+	religion = burmic
+	holding = tribal_holding
+	1000.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan }
+}
+11064={
+	holding = none
+}
+11066={
+	holding = none
+}
+11067={
+	holding = none
+}
+11068={
+	holding = none
+}
+11069={
+	holding = none
+}
+11312={
+	holding = none
+}
+11313={
+	culture = lisu
+	religion = benzhu
+	holding = castle_holding
+}
+11320={
+	holding = city_holding
+}
+11321={
+	holding = city_holding
+}
+11394={
+	holding = church_holding
+}
+11395={
+	culture = wa
+	religion = wa_animism
+	holding = tribal_holding
+	1060.1.1 = { culture = tai religion = ban_phi }
+	1150.1.1 = { culture = shan }
+}
+11396={
+	holding = church_holding
+}
+11397={
+	holding = none
+}
+11400={
+	holding = none
+}
+11405={
+	holding = none
+}
+11407={
+	holding = none
+}
+11408={
+	holding = church_holding
+}

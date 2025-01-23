@@ -1,0 +1,61 @@
+k_IRTOCK3_I90={
+	238.2.6 = { holder = imperator162952 government = feudal_government liege = e_IRTOCK3_GAR }
+	283.7.17 = { holder = imperator162984 government = feudal_government }
+	313.4.25 = { holder = imperator167598 government = feudal_government }
+	349.9.19 = { holder = imperator169191 government = feudal_government }
+	356.12.25 = { holder = imperator184063 government = feudal_government }
+	379.8.15 = { holder = imperator180321 government = feudal_government }
+	379.11.22 = { holder = imperator182082 government = feudal_government }
+	384.1.20 = { holder = imperator177311 government = feudal_government }
+	391.1.23 = { holder = imperator184334 government = feudal_government }
+	394.2.11 = { holder = imperator191374 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_medina={
+	423.7.6 = { liege = 0 }
+}
+c_medina={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_wajh={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_al-awnid={
+	423.7.6 = { holder = imperator186038 }
+}
+c_khaybar={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_yanbu={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_harrat_rahat={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_mecca={
+	423.7.6 = { liege = 0 }
+}
+c_mecca={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_taif={
+	412.5.1 = { liege = 0 holder = imperator200438 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_tihama={
+	413.3.29 = { liege = 0 holder = imperator193127 }
+	423.7.6 = { change_development_level = 9 }
+}
+b_ash-shuqayq={
+	423.7.6 = { holder = imperator200441 }
+}
+c_bisha={
+	412.5.1 = { liege = 0 holder = imperator200438 }
+	423.7.6 = { change_development_level = 9 }
+}

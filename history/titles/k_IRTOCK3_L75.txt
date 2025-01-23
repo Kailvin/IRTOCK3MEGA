@@ -1,0 +1,31 @@
+k_IRTOCK3_L75={
+	422.9.15 = { holder = imperator204165 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_kanyakubja={
+	423.7.6 = { liege = 0 }
+}
+c_kanyakubja={
+	422.9.15 = { liege = 0 holder = imperator204165 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_lakhnau={
+	422.9.15 = { liege = 0 holder = imperator204190 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_kalpi={
+	422.9.15 = { liege = 0 holder = imperator204140 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_manikpur={
+	422.9.15 = { liege = 0 holder = imperator204065 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_asni={
+	422.9.15 = { liege = 0 holder = imperator204140 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_prayaga={
+	422.9.15 = { liege = 0 holder = imperator204065 }
+	423.7.6 = { change_development_level = 18 }
+}

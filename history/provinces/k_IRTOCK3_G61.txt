@@ -1,0 +1,107 @@
+2416={
+	holding = church_holding
+}
+2417={
+	culture = norse
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2419={
+	holding = none
+}
+2420={
+	holding = none
+	1258.1.1 = { holding = church_holding }
+}
+2421={
+	culture = old_suebi
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2422={
+	holding = castle_holding
+}
+2423={
+	holding = city_holding
+}
+2424={
+	culture = irish
+	faith = druidism
+	holding = city_holding
+}
+2430={
+	holding = castle_holding
+}
+2431={
+	holding = none
+}
+2439={
+	holding = church_holding
+}
+2440={
+	culture = ripurian
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2441={
+	holding = none
+}
+2443={
+	holding = none
+}
+2444={
+	holding = church_holding
+}
+2445={
+	holding = none
+}
+2446={
+	culture = old_suebi
+	faith = saxon_pagan
+	holding = castle_holding
+}
+2451={
+	holding = city_holding
+}
+2452={
+	holding = church_holding
+}
+2670={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+2671={
+	holding = none
+}
+2672={
+	holding = none
+}
+2674={
+	holding = none
+}
+2841={
+	holding = none
+}
+2842={
+	holding = none
+}
+2843={
+	holding = none
+}
+2847={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}
+2848={
+	holding = church_holding
+}
+2849={
+	holding = none
+}
+2850={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}

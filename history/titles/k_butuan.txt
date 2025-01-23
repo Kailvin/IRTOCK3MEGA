@@ -1,0 +1,45 @@
+k_butuan={
+	423.7.6 = { liege = 0 }
+}
+d_kalagan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_butuan_holder liege = 0 }
+}
+c_butuan={
+	423.7.6 = { holder = IRToCK3_c_butuan_holder change_development_level = 0 }
+}
+c_suligaw={
+	423.7.6 = { holder = IRToCK3_c_butuan_holder change_development_level = 0 }
+}
+c_tandag={
+	423.7.6 = { holder = IRToCK3_c_butuan_holder change_development_level = 0 }
+}
+c_agusan={
+	423.7.6 = { holder = IRToCK3_c_butuan_holder change_development_level = 0 }
+}
+d_dabaw={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_bisaya_holder liege = 0 }
+}
+c_bisaya={
+	423.7.6 = { holder = IRToCK3_c_bisaya_holder change_development_level = 0 }
+}
+c_dabaw={
+	423.7.6 = { holder = IRToCK3_c_bisaya_holder change_development_level = 0 }
+}
+c_nabunturan={
+	423.7.6 = { holder = IRToCK3_c_bisaya_holder change_development_level = 0 }
+}
+c_baganga={
+	423.7.6 = { holder = IRToCK3_c_bisaya_holder change_development_level = 0 }
+}
+d_himologan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_himologan_holder government = tribal_government }
+}
+c_himologan={
+	423.7.6 = { holder = IRToCK3_c_himologan_holder change_development_level = 0 }
+}
+c_bukidnon={
+	423.7.6 = { holder = IRToCK3_c_himologan_holder change_development_level = 0 }
+}
+c_ramulog={
+	423.7.6 = { holder = IRToCK3_c_himologan_holder change_development_level = 0 }
+}

@@ -1,0 +1,53 @@
+2918={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+	361.1.1 = { special_building_slot = rammelsberg_mines_01 }
+}
+2919={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}
+2920={
+	holding = church_holding
+}
+2921={
+	holding = none
+}
+2928={
+	holding = none
+}
+2999={
+	holding = none
+}
+3000={
+	holding = city_holding
+}
+3003={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3005={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3006={
+	holding = none
+}
+3007={
+	holding = church_holding
+}
+3008={
+	holding = none
+}
+3009={
+	holding = none
+}
+3010={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}

@@ -1,0 +1,48 @@
+k_qi_china={
+	423.7.6 = { liege = 0 }
+}
+d_ziqing_china={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_qingzhou_qi_china_holder liege = 0 }
+}
+c_qingzhou_qi_china={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_qi_china_holder change_development_level = 0 }
+}
+c_zibo_china={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_qi_china_holder change_development_level = 0 }
+}
+c_qizhou_qi_china={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_qi_china_holder change_development_level = 0 }
+}
+d_denglai_china={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_laizhou_china_holder liege = 0 }
+}
+c_laizhou_china={
+	423.7.6 = { holder = IRToCK3_c_laizhou_china_holder change_development_level = 0 }
+}
+c_penglai_china={
+	423.7.6 = { holder = IRToCK3_c_laizhou_china_holder change_development_level = 0 }
+}
+d_taining_china={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_yanzhou_china_holder liege = 0 }
+}
+c_yanzhou_china={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_china_holder change_development_level = 0 }
+}
+c_kongmeng_china={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_china_holder change_development_level = 0 }
+}
+c_taishan_china={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_china_holder change_development_level = 0 }
+}
+d_yihai_china={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_yizhou_taining_china_holder liege = 0 }
+}
+c_yizhou_taining_china={
+	423.7.6 = { holder = IRToCK3_c_yizhou_taining_china_holder change_development_level = 0 }
+}
+c_mizhou_qi_china={
+	423.7.6 = { holder = IRToCK3_c_yizhou_taining_china_holder change_development_level = 0 }
+}
+c_haizhou_xu_china={
+	423.7.6 = { holder = IRToCK3_c_yizhou_taining_china_holder change_development_level = 0 }
+}

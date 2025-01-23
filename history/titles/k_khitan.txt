@@ -1,0 +1,69 @@
+k_khitan={
+	423.7.6 = { liege = 0 }
+}
+d_xiliao={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_shangjing_holder liege = 0 }
+}
+c_shangjing={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_dongyi={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_sumu={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_gumu_TEMP={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_qingzhou={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_shiwen_TEMP={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+c_sira_moren={
+	423.7.6 = { holder = IRToCK3_c_shangjing_holder change_development_level = 0 }
+}
+d_taoer={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_hure_holder liege = 0 }
+}
+c_hure={
+	423.7.6 = { holder = IRToCK3_c_hure_holder change_development_level = 0 }
+}
+c_jirem={
+	423.7.6 = { holder = IRToCK3_c_hure_holder change_development_level = 0 }
+}
+c_huangtou={
+	423.7.6 = { holder = IRToCK3_c_hure_holder change_development_level = 0 }
+}
+d_irkin={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gongyan_TEMP_holder liege = 0 }
+}
+c_gongyan_TEMP={
+	423.7.6 = { holder = IRToCK3_c_gongyan_TEMP_holder change_development_level = 0 }
+}
+c_shi={
+	423.7.6 = { holder = IRToCK3_c_gongyan_TEMP_holder change_development_level = 0 }
+}
+c_juyuan={
+	423.7.6 = { holder = IRToCK3_c_gongyan_TEMP_holder change_development_level = 0 }
+}
+d_raole={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_liaocheng_holder liege = 0 }
+}
+c_liaocheng={
+	423.7.6 = { holder = IRToCK3_c_liaocheng_holder change_development_level = 0 }
+}
+c_jinxie_TEMP={
+	423.7.6 = { holder = IRToCK3_c_liaocheng_holder change_development_level = 0 }
+}
+c_raole={
+	423.7.6 = { holder = IRToCK3_c_liaocheng_holder change_development_level = 0 }
+}
+c_zhaoye_TEMP={
+	423.7.6 = { holder = IRToCK3_c_liaocheng_holder change_development_level = 0 }
+}
+c_chuti_TEMP={
+	423.7.6 = { holder = IRToCK3_c_liaocheng_holder change_development_level = 0 }
+}

@@ -1,0 +1,45 @@
+k_sahara={
+	423.7.6 = { liege = 0 }
+}
+d_tadmekka={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tadmekka_holder government = tribal_government }
+}
+c_tadmekka={
+	423.7.6 = { change_development_level = 2 holder = IRToCK3_c_tadmekka_holder }
+}
+c_tessalit={
+	423.7.6 = { change_development_level = 2 holder = IRToCK3_c_tadmekka_holder }
+}
+d_air={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_takkeda_holder government = tribal_government }
+}
+c_takkeda={
+	423.7.6 = { holder = IRToCK3_c_takkeda_holder change_development_level = 2 }
+}
+c_air={
+	423.7.6 = { holder = IRToCK3_c_takkeda_holder change_development_level = 2 }
+}
+d_kawar={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bilma_holder government = tribal_government }
+}
+c_bilma={
+	423.7.6 = { holder = IRToCK3_c_bilma_holder change_development_level = 2 }
+}
+c_dirku={
+	423.7.6 = { holder = IRToCK3_c_bilma_holder change_development_level = 2 }
+}
+c_djado={
+	423.7.6 = { holder = IRToCK3_c_bilma_holder change_development_level = 2 }
+}
+d_tibesti={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ain_galakka_holder government = tribal_government }
+}
+c_ain_galakka={
+	423.7.6 = { holder = IRToCK3_c_ain_galakka_holder change_development_level = 2 }
+}
+c_bodele={
+	423.7.6 = { holder = IRToCK3_c_ain_galakka_holder change_development_level = 2 }
+}
+c_tibesti={
+	423.7.6 = { holder = IRToCK3_c_ain_galakka_holder change_development_level = 2 }
+}

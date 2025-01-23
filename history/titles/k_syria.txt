@@ -1,0 +1,43 @@
+k_syria={
+	423.7.6 = { liege = 0 }
+}
+d_antioch={
+	423.7.6 = { liege = 0 }
+}
+c_antiocheia={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_alexandretta={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_lebanon={
+	423.7.6 = { liege = 0 }
+}
+c_beirut={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_tripoli={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_damascus={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_juwair_holder liege = 0 }
+}
+c_damascus={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_juwair={
+	423.7.6 = { holder = IRToCK3_c_juwair_holder liege = 0 change_development_level = 8 }
+}
+c_baalbek={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_hauran={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 4 }
+}

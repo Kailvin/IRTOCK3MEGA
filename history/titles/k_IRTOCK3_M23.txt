@@ -1,0 +1,27 @@
+k_IRTOCK3_M23={
+	422.9.15 = { holder = imperator205365 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_gandhara={
+	423.7.6 = { liege = 0 }
+}
+c_udabhanda={
+	422.9.15 = { liege = 0 holder = imperator205365 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_purushapura={
+	422.9.15 = { liege = 0 holder = imperator205365 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_nandana={
+	422.9.15 = { liege = 0 holder = imperator205490 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_bannu={
+	422.9.15 = { liege = 0 holder = imperator205490 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_urgun={
+	422.9.15 = { liege = 0 holder = imperator205490 }
+	423.7.6 = { change_development_level = 9 }
+}

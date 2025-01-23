@@ -1,0 +1,63 @@
+k_IRTOCK3_L58={
+	422.9.14 = { holder = imperator203739 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_ciscaucasia={
+	422.9.21 = { liege = k_IRTOCK3_L58 holder = imperator203715 government = feudal_government succession_laws = { high_partition_succession_law } }
+}
+c_derbent={
+	422.9.21 = { liege = 0 holder = imperator203715 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_avaria={
+	420.9.10 = { liege = 0 holder = imperator192789 }
+	423.7.6 = { liege = k_IRTOCK3_K34 holder = imperator187129 change_development_level = 5 }
+}
+c_balanjar={
+	422.9.21 = { liege = 0 holder = imperator203715 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_kuba={
+	422.9.21 = { liege = 0 holder = imperator203715 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_georgia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_lori_holder liege = 0 }
+}
+c_tbilisi={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_lori={
+	423.7.6 = { holder = IRToCK3_c_lori_holder liege = 0 change_development_level = 3 }
+}
+c_kakheti={
+	422.9.14 = { liege = 0 holder = imperator203739 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_hereti={
+	422.9.14 = { liege = 0 holder = imperator203739 }
+	423.7.6 = { change_development_level = 4 }
+}
+b_ghisi={
+	423.7.6 = { holder = imperator184072 }
+}
+d_shirvan={
+	423.7.6 = { liege = 0 }
+}
+c_shirvan={
+	422.9.21 = { liege = 0 holder = imperator203715 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_shaki={
+	422.9.21 = { liege = 0 holder = imperator203715 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_aran={
+	373.8.26 = { liege = 0 holder = imperator185577 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_mugan={
+	392.6.6 = { liege = 0 holder = imperator194870 }
+	423.7.6 = { change_development_level = 8 }
+}

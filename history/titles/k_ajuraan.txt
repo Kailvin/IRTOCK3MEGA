@@ -1,0 +1,21 @@
+k_ajuraan={
+	423.7.6 = { liege = 0 }
+}
+d_west_ajuraan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_jubba_holder government = tribal_government }
+}
+c_jubba={
+	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+}
+c_baydhabo={
+	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+}
+c_qalaafe={
+	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+}
+c_jilib={
+	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+}
+c_luuq={
+	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+}

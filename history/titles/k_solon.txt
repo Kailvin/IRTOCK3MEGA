@@ -1,0 +1,63 @@
+k_solon={
+	423.7.6 = { liege = 0 }
+}
+d_solon={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_soktahan_holder government = tribal_government }
+}
+c_soktahan={
+	423.7.6 = { holder = IRToCK3_c_soktahan_holder change_development_level = 0 }
+}
+c_zeya={
+	423.7.6 = { holder = IRToCK3_c_soktahan_holder change_development_level = 0 }
+}
+c_ulagach={
+	423.7.6 = { holder = IRToCK3_c_soktahan_holder change_development_level = 0 }
+}
+c_sivaki={
+	423.7.6 = { holder = IRToCK3_c_soktahan_holder change_development_level = 0 }
+}
+d_yakesa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_urkan_holder government = tribal_government }
+}
+c_urkan={
+	423.7.6 = { holder = IRToCK3_c_urkan_holder change_development_level = 0 }
+}
+c_urusha={
+	423.7.6 = { holder = IRToCK3_c_urkan_holder change_development_level = 0 }
+}
+c_albaasin={
+	423.7.6 = { holder = IRToCK3_c_urkan_holder change_development_level = 0 }
+}
+c_batakan={
+	423.7.6 = { holder = IRToCK3_c_urkan_holder change_development_level = 0 }
+}
+c_dalin={
+	423.7.6 = { holder = IRToCK3_c_urkan_holder change_development_level = 0 }
+}
+d_selemda={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_selembda_holder government = tribal_government }
+}
+c_selembda={
+	423.7.6 = { holder = IRToCK3_c_selembda_holder change_development_level = 0 }
+}
+c_ezop={
+	423.7.6 = { holder = IRToCK3_c_selembda_holder change_development_level = 0 }
+}
+c_yam-alin={
+	423.7.6 = { holder = IRToCK3_c_selembda_holder change_development_level = 0 }
+}
+c_ulma={
+	423.7.6 = { holder = IRToCK3_c_selembda_holder change_development_level = 0 }
+}
+d_ulyagir={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_chilcha_holder government = tribal_government }
+}
+c_chilcha={
+	423.7.6 = { holder = IRToCK3_c_chilcha_holder change_development_level = 0 }
+}
+c_tynda={
+	423.7.6 = { holder = IRToCK3_c_chilcha_holder change_development_level = 0 }
+}
+c_bom={
+	423.7.6 = { holder = IRToCK3_c_chilcha_holder change_development_level = 0 }
+}

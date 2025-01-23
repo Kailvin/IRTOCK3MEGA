@@ -1,0 +1,136 @@
+1424={
+	holding = none
+}
+1432={
+	holding = none
+}
+7147={
+	holding = city_holding
+}
+7148={
+	holding = none
+}
+7149={
+	holding = none
+}
+7150={
+	holding = none
+}
+7151={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = none
+}
+7152={
+	holding = none
+}
+7153={
+	holding = city_holding
+}
+7154={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = tribal_holding
+}
+7156={
+	holding = none
+}
+7157={
+	holding = none
+}
+7158={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = castle_holding
+}
+7159={
+	holding = none
+}
+7160={
+	holding = none
+}
+7161={
+	holding = castle_holding
+}
+7163={
+	culture = scythian
+	faith = hellenic_pagan
+	holding = none
+}
+7164={
+	holding = city_holding
+}
+7165={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = tribal_holding
+}
+7166={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = tribal_holding
+}
+7168={
+	holding = none
+}
+7171={
+	holding = none
+}
+7172={
+	holding = none
+}
+7214={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = none
+}
+13549={
+	holding = none
+}
+13550={
+	holding = none
+}
+13551={
+	holding = none
+}
+13552={
+	holding = none
+}
+13554={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = chigil religion = nestorian }
+	1134.1.1 = { culture = qitai }
+}
+13556={
+	holding = none
+}
+13618={
+	holding = none
+}
+13650={
+	holding = none
+}
+13687={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+13692={
+	holding = none
+}
+13721={
+	holding = none
+}
+13746={
+	holding = none
+}
+13770={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+13781={
+	holding = none
+}

@@ -1,0 +1,51 @@
+k_timor={
+	423.7.6 = { liege = 0 }
+}
+d_atoni={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_helong_holder government = tribal_government }
+}
+c_helong={
+	423.7.6 = { holder = IRToCK3_c_helong_holder change_development_level = 0 }
+}
+c_amfoan={
+	423.7.6 = { holder = IRToCK3_c_helong_holder change_development_level = 0 }
+}
+d_sumba={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_wejewa_holder government = tribal_government }
+}
+c_wejewa={
+	423.7.6 = { holder = IRToCK3_c_wejewa_holder change_development_level = 0 }
+}
+c_kambera={
+	423.7.6 = { holder = IRToCK3_c_wejewa_holder change_development_level = 0 }
+}
+d_nipa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_manggarai_holder government = tribal_government }
+}
+c_manggarai={
+	423.7.6 = { holder = IRToCK3_c_manggarai_holder change_development_level = 0 }
+}
+c_ngada={
+	423.7.6 = { holder = IRToCK3_c_manggarai_holder change_development_level = 0 }
+}
+c_larantuka={
+	423.7.6 = { holder = IRToCK3_c_manggarai_holder change_development_level = 0 }
+}
+d_tetun={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_belu_holder government = tribal_government }
+}
+c_belu={
+	423.7.6 = { holder = IRToCK3_c_belu_holder change_development_level = 0 }
+}
+c_makasae={
+	423.7.6 = { holder = IRToCK3_c_belu_holder change_development_level = 0 }
+}
+c_alor={
+	423.7.6 = { holder = IRToCK3_c_belu_holder change_development_level = 0 }
+}
+c_wetar={
+	423.7.6 = { holder = IRToCK3_c_belu_holder change_development_level = 0 }
+}
+c_leti={
+	423.7.6 = { holder = IRToCK3_c_belu_holder change_development_level = 0 }
+}

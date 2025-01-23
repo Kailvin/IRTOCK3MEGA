@@ -1,0 +1,51 @@
+k_IRTOCK3_J74={
+	331.2.11 = { holder = imperator179079 government = nomadic_government }
+	383.8.24 = { holder = imperator191426 government = nomadic_government }
+	422.11.27 = { holder = imperator193274 government = nomadic_government }
+	423.7.6 = { succession_laws = { high_partition_succession_law } }
+}
+d_ordukent={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_naryn_holder liege = 0 }
+}
+c_naryn={
+	423.7.6 = { holder = IRToCK3_c_naryn_holder liege = 0 change_development_level = 0 }
+}
+c_barsghan={
+	422.11.27 = { liege = 0 holder = imperator193274 }
+	423.7.6 = { liege = k_IRTOCK3_J74 holder = imperator192058 change_development_level = 8 }
+}
+c_balashagun={
+	422.11.27 = { liege = 0 holder = imperator193274 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_boluzhi={
+	423.7.6 = { holder = imperator196911 }
+}
+c_chuy={
+	423.7.6 = { holder = IRToCK3_c_naryn_holder liege = 0 change_development_level = 0 }
+}
+c_chun-illi={
+	420.12.1 = { liege = 0 holder = imperator202985 }
+	423.7.6 = { change_development_level = 3 }
+}
+d_qoksu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_sarkand_holder liege = 0 }
+}
+c_almaty={
+	361.1.1 = { government = nomadic_government }
+	395.1.1 = { holder = 1250006 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_sarkand={
+	423.7.6 = { holder = IRToCK3_c_sarkand_holder change_development_level = 0 }
+}
+c_qayaliq={
+	423.7.6 = { holder = IRToCK3_c_sarkand_holder change_development_level = 0 }
+}
+c_tamgaly={
+	423.7.6 = { holder = IRToCK3_c_sarkand_holder liege = 0 change_development_level = 0 }
+}
+c_chiliq={
+	422.11.27 = { liege = 0 holder = imperator193274 }
+	423.7.6 = { change_development_level = 8 }
+}

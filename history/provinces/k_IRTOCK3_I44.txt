@@ -1,0 +1,35 @@
+512={
+	culture = slavic
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5011={
+	holding = church_holding
+}
+5012={
+	culture = slavic
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5013={
+	holding = city_holding
+}
+5014={
+	holding = city_holding
+}
+5015={
+	culture = slavic
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5016={
+	holding = none
+}
+5017={
+	culture = getian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5018={
+	holding = none
+}

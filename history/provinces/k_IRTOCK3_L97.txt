@@ -1,0 +1,134 @@
+1140={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = mountain
+}
+1146={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1198={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+1202={
+	holding = none
+}
+1203={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1206={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1212={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1218={
+	holding = city_holding
+	special_building_slot = alampur_jogulamba_temple_01
+}
+1258={
+	holding = castle_holding
+}
+1416={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	special_building_slot = mahalakshmi_temple_01
+	terrain = mountain
+}
+7868={
+	holding = none
+	terrain = mountain
+}
+7869={
+	holding = none
+	terrain = mountain
+}
+7870={
+	holding = none
+	terrain = hills
+}
+7871={
+	holding = castle_holding
+	terrain = hills
+}
+7872={
+	holding = none
+	terrain = mountain
+}
+7873={
+	holding = none
+	terrain = mountain
+}
+7874={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = mountain
+}
+7875={
+	holding = none
+	terrain = mountain
+}
+7876={
+	holding = none
+	terrain = mountain
+}
+7877={
+	holding = none
+}
+7878={
+	holding = castle_holding
+}
+7879={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = mountain
+}
+7881={
+	holding = castle_holding
+	special_building_slot = vithoba_temple_01
+}
+7882={
+	holding = none
+}
+7883={
+	holding = none
+}
+7884={
+	holding = none
+}
+7885={
+	holding = none
+	terrain = jungle
+}
+7890={
+	holding = castle_holding
+}
+7891={
+	holding = castle_holding
+}
+7892={
+	holding = city_holding
+}
+7894={
+	holding = castle_holding
+}
+7895={
+	holding = none
+}
+7896={
+	holding = none
+}

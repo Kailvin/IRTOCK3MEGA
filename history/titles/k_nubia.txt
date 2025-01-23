@@ -1,0 +1,46 @@
+k_nubia={
+	361.1.1 = { change_development_level = 4 }
+	413.5.31 = { government = imperial_government holder = imperator200116 liege = e_IRTOCK3_GAR succession_laws = { high_partition_succession_law } }
+}
+d_alwa={
+	423.7.6 = { liege = 0 }
+}
+c_alodia={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_naga={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_gezira={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_eleila={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_ushara={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_sennar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_fazughli_holder liege = 0 }
+}
+c_sennar={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_fazughli={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_fazughli_holder liege = 0 change_development_level = 0 }
+}
+c_tagali={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_gumuz={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_fazughli_holder liege = 0 change_development_level = 0 }
+}

@@ -1,0 +1,78 @@
+k_gyalrong={
+	423.7.6 = { liege = 0 }
+}
+d_gyalrong={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_barkam_holder liege = 0 }
+}
+c_barkam={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+c_ngawa={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+c_maowun={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+c_sungqu={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+c_zoige={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+c_quqen={
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 1 }
+}
+d_chakla={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_chakla_holder liege = 0 }
+}
+c_chakla={
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 1 }
+}
+c_lhagang={
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 1 }
+}
+c_dawu={
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 1 }
+}
+c_sertar={
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 1 }
+}
+d_golog={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_maqen_holder liege = 0 }
+}
+c_maqen={
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 1 }
+}
+c_madoi={
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_qumarleb" change_development_level = 1 }
+}
+c_baima={
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 1 }
+}
+d_malho={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_rebgong_holder liege = 0 }
+}
+c_rebgong={
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_xining" change_development_level = 1 }
+}
+c_mangra={
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 1 }
+}
+c_zekog={
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 1 }
+}
+d_gainlho={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_jone_holder liege = 0 }
+}
+c_jone={
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 1 }
+}
+c_sangqu={
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 1 }
+}
+c_tewo={
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 1 }
+}
+c_maqu={
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_malho" change_development_level = 1 }
+}

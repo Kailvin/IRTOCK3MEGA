@@ -1,0 +1,29 @@
+1227={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1252={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = jungle
+}
+3999={
+	holding = city_holding
+}
+7913={
+	holding = none
+	terrain = jungle
+}
+7914={
+	holding = city_holding
+	terrain = jungle
+}
+7915={
+	holding = castle_holding
+	terrain = jungle
+}
+9659={
+	holding = none
+}

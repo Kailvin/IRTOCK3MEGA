@@ -1,0 +1,93 @@
+k_laos={
+	423.7.6 = { liege = 0 }
+}
+d_luang_prabang={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_luang_prabang_holder liege = 0 }
+}
+c_luang_prabang={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_nam_bak={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_pak_beng={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+d_kengtung={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kengtung_holder liege = 0 }
+}
+c_kengtung={
+	423.7.6 = { holder = IRToCK3_c_kengtung_holder change_development_level = 0 }
+}
+c_mongyawng={
+	423.7.6 = { holder = IRToCK3_c_kengtung_holder change_development_level = 0 }
+}
+c_mong_hpyak={
+	423.7.6 = { holder = IRToCK3_c_kengtung_holder change_development_level = 0 }
+}
+c_mong_hsat={
+	423.7.6 = { holder = IRToCK3_c_kengtung_holder change_development_level = 0 }
+}
+d_chiang_hung={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_chiang_hung_holder liege = 0 }
+}
+c_chiang_hung={
+	423.7.6 = { holder = IRToCK3_c_chiang_hung_holder change_development_level = 0 }
+}
+c_meng_lun={
+	423.7.6 = { holder = IRToCK3_c_chiang_hung_holder change_development_level = 0 }
+}
+c_meng_laa={
+	423.7.6 = { holder = IRToCK3_c_chiang_hung_holder change_development_level = 0 }
+}
+c_mang_lian={
+	423.7.6 = { holder = IRToCK3_c_chiang_hung_holder change_development_level = 0 }
+}
+d_luang_nam_tha={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nam_tha_holder liege = 0 }
+}
+c_nam_tha={
+	423.7.6 = { holder = IRToCK3_c_nam_tha_holder change_development_level = 0 }
+}
+c_kengcheng={
+	423.7.6 = { holder = IRToCK3_c_nam_tha_holder change_development_level = 0 }
+}
+c_huai_sai={
+	423.7.6 = { holder = IRToCK3_c_nam_tha_holder change_development_level = 0 }
+}
+d_muang_thaeng={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_muang_thaeng_holder liege = 0 }
+}
+c_muang_thaeng={
+	423.7.6 = { holder = IRToCK3_c_muang_thaeng_holder change_development_level = 0 }
+}
+c_tung_lang={
+	423.7.6 = { holder = IRToCK3_c_muang_thaeng_holder change_development_level = 0 }
+}
+c_na_kang={
+	423.7.6 = { holder = IRToCK3_c_muang_thaeng_holder change_development_level = 0 }
+}
+c_muang_lay={
+	423.7.6 = { holder = IRToCK3_c_muang_thaeng_holder change_development_level = 0 }
+}
+c_son_la={
+	423.7.6 = { holder = IRToCK3_c_muang_thaeng_holder change_development_level = 0 }
+}
+d_phongsali={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_phongsali_holder liege = 0 }
+}
+c_phongsali={
+	423.7.6 = { holder = IRToCK3_c_phongsali_holder change_development_level = 0 }
+}
+c_mai={
+	423.7.6 = { holder = IRToCK3_c_phongsali_holder change_development_level = 0 }
+}
+d_xiangkhouang={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_xiangkhouang_holder government = tribal_government }
+}
+c_xiangkhouang={
+	423.7.6 = { holder = IRToCK3_c_xiangkhouang_holder change_development_level = 0 }
+}
+c_houaphanh={
+	423.7.6 = { holder = IRToCK3_c_xiangkhouang_holder change_development_level = 0 }
+}

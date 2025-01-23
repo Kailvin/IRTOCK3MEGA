@@ -1,0 +1,88 @@
+1801={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1802={
+	holding = none
+}
+1812={
+	holding = none
+}
+1813={
+	holding = none
+}
+1814={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1815={
+	holding = none
+}
+1896={
+	holding = none
+}
+1897={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	395.1.1 = { religion = priscillianism }
+}
+1898={
+	holding = none
+}
+1899={
+	holding = none
+}
+1900={
+	holding = city_holding
+}
+1901={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+}
+1904={
+	holding = none
+}
+1905={
+	holding = castle_holding
+}
+1906={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	381.1.1 = { religion = priscillianism }
+}
+1907={
+	holding = none
+}
+1908={
+	holding = none
+}
+1909={
+	holding = none
+}
+1915={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	395.1.1 = { religion = priscillianism }
+}
+1922={
+	holding = none
+}
+1924={
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
+	special_building_slot = alcazar_of_segovia_01
+	395.1.1 = { religion = priscillianism }
+}
+1925={
+	holding = city_holding
+}
+1926={
+	holding = none
+}

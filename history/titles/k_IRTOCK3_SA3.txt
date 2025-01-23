@@ -1,0 +1,109 @@
+k_IRTOCK3_SA3={
+	-304.10.1 = { holder = imperator32610 government = nomadic_government }
+	248.5.4 = { holder = imperator164587 government = nomadic_government }
+	262.9.7 = { holder = imperator164742 government = nomadic_government }
+	264.7.3 = { holder = imperator164596 government = nomadic_government }
+	292.10.25 = { holder = imperator171891 government = nomadic_government }
+	322.5.28 = { holder = imperator172481 government = nomadic_government }
+	345.8.29 = { holder = imperator169093 government = nomadic_government }
+	352.1.20 = { holder = imperator177316 government = nomadic_government }
+	360.11.17 = { holder = imperator180942 government = nomadic_government }
+	367.6.13 = { holder = imperator181935 government = nomadic_government }
+	386.5.28 = { holder = imperator181630 government = nomadic_government }
+	398.3.2 = { holder = imperator180940 government = nomadic_government }
+	409.3.25 = { holder = imperator187405 government = nomadic_government }
+	423.7.6 = { succession_laws = { high_partition_succession_law } }
+}
+d_circassia={
+	423.7.6 = { liege = 0 }
+}
+c_kassogia={
+	417.10.6 = { liege = 0 holder = imperator200669 }
+	423.7.6 = { change_development_level = 3 }
+}
+b_etzeri={
+	423.7.6 = { holder = imperator184323 }
+}
+c_zichia={
+	396.5.20 = { liege = 0 holder = imperator190935 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_don_valley={
+	423.7.6 = { liege = 0 }
+}
+c_tana={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_golden_hills={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_kazanskaya={
+	417.7.27 = { liege = 0 holder = imperator186461 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_sarysyn={
+	409.3.25 = { liege = 0 holder = imperator187405 }
+	423.7.6 = { liege = k_IRTOCK3_SA3 holder = imperator190570 change_development_level = 2 }
+}
+d_alania={
+	423.7.6 = { liege = 0 }
+}
+c_maghas={
+	417.10.6 = { liege = 0 holder = imperator200669 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_cabardinia={
+	420.9.10 = { liege = 0 holder = imperator192789 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_khazaria={
+	423.7.6 = { liege = 0 }
+}
+c_sarkel={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_astrakhan={
+	408.1.30 = { liege = 0 holder = imperator185444 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_beksima={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 2 }
+}
+d_pecheneg={
+	423.7.6 = { liege = 0 }
+}
+c_pecheneg={
+	412.12.16 = { liege = 0 holder = imperator187392 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_jambalar={
+	412.12.16 = { liege = 0 holder = imperator187392 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_yaitsk={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_chuvashia={
+	423.7.6 = { liege = 0 }
+}
+c_saratov={
+	412.12.16 = { liege = 0 holder = imperator187392 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_penza={
+	403.8.1 = { liege = 0 holder = imperator189502 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_atkarsk={
+	412.12.16 = { liege = 0 holder = imperator187392 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_petrovsk={
+	412.12.16 = { liege = 0 holder = imperator187392 }
+	423.7.6 = { change_development_level = 1 }
+}

@@ -1,0 +1,33 @@
+k_portugal={
+	423.7.6 = { liege = 0 }
+}
+d_porto={
+	423.7.6 = { liege = 0 }
+}
+c_porto={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_braganza={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_coimbra={
+	423.7.6 = { liege = 0 }
+}
+c_coimbra={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_viseu={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_aveiro={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_castelo_branco={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}

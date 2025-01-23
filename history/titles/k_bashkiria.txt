@@ -1,0 +1,39 @@
+k_bashkiria={
+	423.7.6 = { liege = 0 }
+}
+d_bashkiria={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ufa_holder government = tribal_government }
+}
+c_ufa={
+	423.7.6 = { holder = IRToCK3_c_ufa_holder liege = 0 change_development_level = 0 }
+}
+c_yanokul={
+	423.7.6 = { holder = IRToCK3_c_ufa_holder liege = 0 change_development_level = 0 }
+}
+c_sakmara={
+	423.7.6 = { holder = IRToCK3_c_ufa_holder liege = 0 change_development_level = 0 }
+}
+d_uraltau={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_uraltau_holder government = tribal_government }
+}
+c_uraltau={
+	423.7.6 = { holder = IRToCK3_c_uraltau_holder change_development_level = 0 }
+}
+c_karabash={
+	423.7.6 = { holder = IRToCK3_c_uraltau_holder change_development_level = 0 }
+}
+c_uiska={
+	423.7.6 = { holder = IRToCK3_c_uraltau_holder change_development_level = 0 }
+}
+d_vogulia={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_yekaterinburg_holder government = tribal_government }
+}
+c_yekaterinburg={
+	423.7.6 = { holder = IRToCK3_c_yekaterinburg_holder change_development_level = 0 }
+}
+c_chadrinsk={
+	423.7.6 = { holder = IRToCK3_c_yekaterinburg_holder change_development_level = 0 }
+}
+c_chelabinsk={
+	423.7.6 = { holder = IRToCK3_c_yekaterinburg_holder change_development_level = 0 }
+}

@@ -1,0 +1,42 @@
+k_sulu={
+	423.7.6 = { liege = 0 }
+}
+d_lupah_sug={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_sug_holder liege = 0 }
+}
+c_sug={
+	423.7.6 = { holder = IRToCK3_c_sug_holder change_development_level = 0 }
+}
+c_tagima={
+	423.7.6 = { holder = IRToCK3_c_sug_holder change_development_level = 0 }
+}
+c_jawi_jawi={
+	423.7.6 = { holder = IRToCK3_c_sug_holder change_development_level = 0 }
+}
+d_pulaoan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ipolot_holder government = tribal_government }
+}
+c_ipolot={
+	423.7.6 = { holder = IRToCK3_c_ipolot_holder change_development_level = 0 }
+}
+c_taytay={
+	423.7.6 = { holder = IRToCK3_c_ipolot_holder change_development_level = 0 }
+}
+c_busuanga={
+	423.7.6 = { holder = IRToCK3_c_ipolot_holder change_development_level = 0 }
+}
+c_aborlan={
+	423.7.6 = { holder = IRToCK3_c_ipolot_holder change_development_level = 0 }
+}
+d_sandakan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kinabatangan_holder liege = 0 }
+}
+c_kinabatangan={
+	423.7.6 = { holder = IRToCK3_c_kinabatangan_holder change_development_level = 0 }
+}
+c_kinabalu={
+	423.7.6 = { holder = IRToCK3_c_kinabatangan_holder change_development_level = 0 }
+}
+c_tomborungan={
+	423.7.6 = { holder = IRToCK3_c_kinabatangan_holder change_development_level = 0 }
+}

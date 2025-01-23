@@ -1,0 +1,20 @@
+k_IRTOCK3_K72={
+	379.10.18 = { holder = imperator191341 government = feudal_government }
+	406.3.23 = { holder = imperator191349 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_polotsk={
+	423.7.6 = { liege = 0 }
+}
+c_polotsk={
+	406.3.23 = { liege = 0 holder = imperator191349 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_lukoml={
+	381.1.16 = { liege = 0 holder = imperator191717 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_vitebsk={
+	388.3.13 = { liege = 0 holder = imperator193638 }
+	423.7.6 = { change_development_level = 4 }
+}

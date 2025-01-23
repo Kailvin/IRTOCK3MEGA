@@ -1,0 +1,69 @@
+k_IRTOCK3_K04={
+	343.1.21 = { holder = imperator177174 government = feudal_government }
+	360.8.10 = { holder = imperator181958 government = feudal_government }
+	386.3.20 = { holder = imperator182198 government = feudal_government }
+	387.12.12 = { holder = imperator181957 government = feudal_government }
+	393.4.8 = { holder = imperator183418 government = feudal_government }
+	402.10.23 = { holder = imperator182399 government = feudal_government }
+	404.5.27 = { holder = imperator182778 government = feudal_government }
+	412.8.3 = { holder = imperator192486 government = feudal_government }
+	416.8.15 = { holder = imperator198235 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_aral_il={
+	423.7.6 = { liege = 0 }
+}
+c_yangikent={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_raimskoe={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_ak-dzulpas={
+	423.2.20 = { liege = 0 holder = imperator199909 }
+	423.7.6 = { change_development_level = 3 }
+}
+b_zhelanash={
+	423.7.6 = { holder = imperator198136 }
+}
+c_aralkizil={
+	423.2.20 = { liege = 0 holder = imperator199909 }
+	423.7.6 = { liege = k_IRTOCK3_I28 holder = imperator190764 change_development_level = 2 }
+}
+d_syr_darya={
+	423.7.6 = { liege = 0 }
+}
+c_jend={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_sighnaq={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_uzgend_KARA={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_betpaqdala={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_jambyl_holder liege = 0 }
+}
+c_sarysu={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_qinfajun_TEMP={
+	423.7.6 = { holder = imperator185748 }
+}
+c_zhuan_tobe={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_jambyl={
+	423.7.6 = { holder = IRToCK3_c_jambyl_holder liege = 0 change_development_level = 0 }
+}
+c_muyunkum={
+	423.7.6 = { holder = IRToCK3_c_jambyl_holder change_development_level = 5 }
+}

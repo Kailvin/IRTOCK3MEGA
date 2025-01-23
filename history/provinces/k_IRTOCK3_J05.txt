@@ -1,0 +1,370 @@
+1351={
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7951={
+	holding = none
+}
+7952={
+	holding = city_holding
+}
+7953={
+	culture = hephthalite
+	faith = khurmazta
+	holding = none
+}
+7954={
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7955={
+	holding = city_holding
+}
+7956={
+	holding = city_holding
+}
+7957={
+	holding = city_holding
+}
+9002={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9003={
+	holding = none
+}
+9004={
+	holding = none
+}
+9005={
+	holding = none
+}
+9006={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9007={
+	holding = none
+}
+9008={
+	holding = none
+}
+9009={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9010={
+	holding = city_holding
+}
+9011={
+	holding = city_holding
+}
+9012={
+	holding = none
+}
+9013={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9014={
+	holding = none
+}
+9015={
+	holding = none
+}
+9016={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9017={
+	holding = none
+}
+9018={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9019={
+	holding = none
+}
+9020={
+	culture = tocharian
+	faith = orthodox
+	holding = castle_holding
+}
+9021={
+	holding = city_holding
+}
+9022={
+	holding = none
+}
+9023={
+	holding = church_holding
+}
+9024={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9025={
+	holding = castle_holding
+}
+9026={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9027={
+	holding = church_holding
+}
+9028={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9029={
+	holding = church_holding
+}
+9030={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9031={
+	holding = none
+}
+9032={
+	holding = none
+}
+9033={
+	culture = sumpa
+	faith = old_bon
+	holding = none
+}
+9034={
+	holding = none
+}
+9035={
+	culture = sumpa
+	faith = old_bon
+	holding = none
+}
+9036={
+	holding = none
+}
+9037={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9038={
+	holding = none
+}
+9039={
+	holding = none
+}
+9040={
+	holding = none
+}
+9041={
+	culture = sumpa
+	faith = old_bon
+	holding = none
+}
+9042={
+	holding = none
+}
+9043={
+	holding = none
+}
+9051={
+	holding = city_holding
+}
+9052={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9053={
+	holding = castle_holding
+}
+9054={
+	holding = none
+}
+9055={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9056={
+	culture = zhangzhung
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9057={
+	holding = none
+}
+9058={
+	culture = sumpa
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9059={
+	holding = city_holding
+}
+9060={
+	holding = none
+}
+9061={
+	culture = sumpa
+	faith = old_bon
+	holding = tribal_holding
+}
+9062={
+	holding = none
+}
+9063={
+	culture = sumpa
+	faith = old_bon
+	holding = none
+}
+9064={
+	holding = none
+}
+9065={
+	holding = none
+}
+9066={
+	culture = sumpa
+	faith = old_bon
+	holding = tribal_holding
+}
+9067={
+	holding = none
+}
+9068={
+	culture = sumpa
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9069={
+	holding = city_holding
+}
+9070={
+	culture = sumpa
+	faith = old_bon
+	holding = tribal_holding
+}
+9071={
+	holding = none
+}
+9072={
+	holding = none
+}
+9073={
+	holding = none
+}
+9074={
+	culture = sumpa
+	faith = old_bon
+	holding = tribal_holding
+}
+9075={
+	culture = sumpa
+	faith = old_bon
+	holding = tribal_holding
+}
+9076={
+	holding = none
+}
+9077={
+	holding = none
+}
+9078={
+	holding = church_holding
+}
+9079={
+	culture = nepali
+	faith = old_bon
+	holding = none
+}
+9080={
+	holding = none
+}
+9084={
+	holding = none
+}
+9085={
+	holding = none
+}
+9086={
+	holding = church_holding
+}
+9099={
+	culture = nepali
+	faith = old_bon
+	holding = none
+}
+9100={
+	holding = none
+}
+9101={
+	culture = kirati
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9102={
+	holding = none
+}
+9103={
+	holding = none
+}
+9104={
+	culture = nepali
+	faith = old_bon
+	holding = none
+}
+9105={
+	holding = none
+}
+9106={
+	holding = none
+}
+9107={
+	holding = castle_holding
+}
+9108={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9109={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	special_building_slot = maya_devi_temple_01
+}
+9110={
+	holding = none
+}
+9111={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9112={
+	holding = none
+}
+9113={
+	holding = none
+}
+9202={
+	holding = none
+}

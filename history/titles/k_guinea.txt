@@ -1,0 +1,105 @@
+k_guinea={
+	423.7.6 = { liege = 0 }
+}
+d_sapi={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_temne_holder government = tribal_government }
+}
+c_temne={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_temne_holder change_development_level = 0 }
+}
+c_nalu={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_temne_holder change_development_level = 0 }
+}
+c_tamiso={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_temne_holder change_development_level = 0 }
+}
+c_sanda={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_temne_holder change_development_level = 0 }
+}
+d_kono={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kono_holder government = tribal_government }
+}
+c_kono={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kono_holder change_development_level = 0 }
+}
+c_sherbro={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kono_holder change_development_level = 0 }
+}
+c_gola={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kono_holder change_development_level = 0 }
+}
+d_bassa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bassa_holder government = tribal_government }
+}
+c_bassa={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bassa_holder change_development_level = 0 }
+}
+c_nuon={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bassa_holder change_development_level = 0 }
+}
+c_man={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bassa_holder change_development_level = 0 }
+}
+d_toro={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_toro_holder liege = 0 }
+}
+c_toro={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_toro_holder change_development_level = 0 }
+}
+c_kabarasana={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_toro_holder change_development_level = 0 }
+}
+c_konyan={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_toro_holder change_development_level = 0 }
+}
+c_mau={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_toro_holder change_development_level = 0 }
+}
+c_toma={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_toro_holder change_development_level = 0 }
+}
+d_wenyon={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_wenyon_holder liege = 0 }
+}
+c_wenyon={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_wenyon_holder change_development_level = 0 }
+}
+c_grebo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_wenyon_holder change_development_level = 0 }
+}
+d_kru={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kru_holder liege = 0 }
+}
+c_kru={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kru_holder change_development_level = 0 }
+}
+c_dibri={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kru_holder change_development_level = 0 }
+}
+c_lobo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kru_holder change_development_level = 0 }
+}
+c_boubo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kru_holder change_development_level = 0 }
+}

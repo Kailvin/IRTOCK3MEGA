@@ -1,0 +1,346 @@
+12411={
+	holding = none
+}
+12746={
+	holding = none
+}
+13224={
+	culture = jeju
+	religion = mahayana
+	holding = castle_holding
+}
+13253={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13255={
+	holding = none
+}
+13276={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13287={
+	holding = none
+}
+13315={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13320={
+	holding = none
+}
+13321={
+	holding = none
+}
+13324={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13326={
+	holding = none
+}
+13338={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13342={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13347={
+	holding = none
+}
+13348={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13353={
+	holding = none
+}
+13361={
+	holding = none
+}
+13364={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13365={
+	holding = none
+}
+13379={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13384={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13386={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13389={
+	holding = none
+}
+13394={
+	holding = none
+}
+13399={
+	culture = jeju
+	religion = mahayana
+	holding = castle_holding
+}
+13402={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+13407={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13409={
+	holding = none
+}
+13411={
+	holding = none
+}
+13416={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13421={
+	holding = none
+}
+13422={
+	culture = goguryeo
+	religion = muism
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13423={
+	culture = goguryeo
+	religion = muism
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13424={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13428={
+	holding = none
+}
+13432={
+	holding = none
+}
+13434={
+	culture = goguryeo
+	religion = muism
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13435={
+	holding = none
+}
+13437={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13440={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	special_building_slot = generic_university
+	900.1.1 = { culture = samhan }
+	992.1.1 = { special_building = generic_university }
+}
+13442={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13443={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13447={
+	holding = none
+}
+13449={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13452={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+13455={
+	holding = none
+}
+13688={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+14015={
+	holding = none
+}
+14016={
+	holding = none
+}
+14017={
+	holding = none
+}
+14018={
+	holding = none
+}
+14019={
+	holding = none
+}
+14020={
+	holding = none
+}
+14021={
+	holding = none
+}
+14022={
+	holding = none
+}
+14023={
+	holding = none
+}
+14024={
+	holding = none
+}
+14025={
+	holding = none
+}
+14026={
+	holding = none
+}
+14027={
+	holding = none
+}
+14028={
+	holding = none
+}
+14029={
+	holding = none
+}
+14030={
+	holding = none
+}
+14031={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+14032={
+	holding = none
+}
+14033={
+	holding = none
+}
+14034={
+	holding = none
+}
+14035={
+	holding = none
+}
+14036={
+	holding = none
+}
+14037={
+	holding = none
+}
+14038={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+14039={
+	culture = goguryeo
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = samhan }
+}
+14040={
+	holding = none
+}
+14041={
+	holding = none
+}
+14042={
+	holding = none
+}
+14043={
+	holding = none
+}
+14044={
+	holding = none
+}
+14045={
+	holding = none
+}
+14046={
+	holding = none
+}
+14047={
+	holding = none
+}
+14048={
+	culture = samhan
+	religion = mahayana
+	holding = castle_holding
+}
+14049={
+	holding = none
+}
+14050={
+	holding = none
+}
+14051={
+	holding = none
+}
+14052={
+	holding = none
+}
+14053={
+	holding = none
+}
+14054={
+	holding = none
+}
+14055={
+	holding = none
+}

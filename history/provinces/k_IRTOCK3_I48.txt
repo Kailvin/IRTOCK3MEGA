@@ -1,0 +1,1046 @@
+99={
+	culture = aestian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+100={
+	holding = none
+}
+101={
+	holding = church_holding
+}
+102={
+	culture = aestian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+103={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+104={
+	culture = aestian
+	faith = central_pagan
+	holding = castle_holding
+}
+105={
+	holding = none
+}
+106={
+	holding = none
+}
+107={
+	holding = none
+}
+108={
+	culture = aestian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+109={
+	holding = castle_holding
+}
+110={
+	culture = aestian
+	faith = central_pagan
+	holding = castle_holding
+}
+111={
+	holding = city_holding
+}
+112={
+	holding = none
+}
+113={
+	holding = none
+}
+114={
+	culture = aestian
+	faith = central_pagan
+	holding = castle_holding
+}
+115={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+}
+116={
+	holding = none
+}
+117={
+	holding = none
+}
+118={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+119={
+	holding = none
+}
+120={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+121={
+	holding = none
+}
+122={
+	holding = none
+}
+123={
+	holding = none
+}
+124={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+125={
+	holding = none
+}
+126={
+	holding = none
+}
+127={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+128={
+	holding = city_holding
+}
+129={
+	holding = none
+}
+130={
+	holding = church_holding
+}
+131={
+	holding = none
+}
+132={
+	holding = none
+}
+133={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+134={
+	holding = castle_holding
+}
+135={
+	holding = none
+}
+136={
+	culture = aestian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+137={
+	holding = none
+}
+138={
+	holding = none
+}
+139={
+	holding = castle_holding
+}
+140={
+	holding = none
+}
+141={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+142={
+	holding = castle_holding
+}
+143={
+	holding = none
+}
+144={
+	holding = castle_holding
+}
+145={
+	culture = aestian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+147={
+	holding = church_holding
+}
+148={
+	holding = none
+}
+149={
+	holding = none
+}
+150={
+	holding = none
+}
+151={
+	holding = none
+}
+152={
+	holding = none
+}
+153={
+	culture = vandal
+	faith = central_pagan
+	holding = castle_holding
+}
+154={
+	culture = vandal
+	faith = central_pagan
+	holding = castle_holding
+}
+155={
+	holding = none
+}
+156={
+	culture = vandal
+	faith = central_pagan
+	holding = castle_holding
+}
+157={
+	holding = none
+}
+158={
+	holding = none
+}
+159={
+	holding = none
+}
+160={
+	holding = none
+}
+161={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+162={
+	holding = none
+}
+163={
+	holding = none
+}
+164={
+	holding = none
+}
+165={
+	holding = none
+}
+166={
+	culture = aestian
+	faith = central_pagan
+	holding = castle_holding
+}
+529={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+530={
+	culture = scirian
+	faith = gothic_pagan
+	holding = tribal_holding
+}
+535={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+	380.1.1 = { culture = slavic religion = slavic_pagan }
+	400.1.1 = { culture = sclavenian }
+}
+544={
+	culture = alan
+	faith = central_pagan
+	holding = castle_holding
+}
+547={
+	culture = alan
+	faith = central_pagan
+	holding = castle_holding
+	special_building_slot = golden_gate_of_kiev_01
+}
+548={
+	culture = vandal
+	faith = central_pagan
+	holding = castle_holding
+}
+549={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+}
+550={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+552={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+553={
+	holding = castle_holding
+}
+554={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+555={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+567={
+	culture = hun
+	faith = scythian_pagan
+	holding = castle_holding
+}
+576={
+	holding = church_holding
+}
+2814={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}
+2815={
+	holding = city_holding
+}
+2818={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+2822={
+	holding = castle_holding
+}
+2823={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+2824={
+	holding = none
+}
+2825={
+	holding = none
+}
+2826={
+	culture = wenedyk
+	faith = gothic_pagan
+	holding = castle_holding
+}
+2827={
+	culture = wenedyk
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2828={
+	holding = city_holding
+}
+2829={
+	holding = church_holding
+}
+2830={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+2831={
+	holding = church_holding
+}
+2832={
+	holding = church_holding
+}
+2833={
+	holding = church_holding
+}
+2834={
+	holding = church_holding
+}
+2835={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+2836={
+	holding = none
+}
+3142={
+	holding = none
+}
+3147={
+	holding = castle_holding
+}
+3148={
+	holding = castle_holding
+}
+3149={
+	culture = ripurian
+	faith = gothic_pagan
+	holding = tribal_holding
+}
+3151={
+	holding = none
+}
+3152={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3153={
+	holding = none
+}
+3154={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3155={
+	holding = city_holding
+}
+3156={
+	holding = city_holding
+}
+3157={
+	holding = none
+}
+3158={
+	culture = ripurian
+	faith = central_pagan
+	holding = city_holding
+}
+3160={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3161={
+	holding = city_holding
+}
+3162={
+	holding = none
+}
+3163={
+	holding = none
+}
+3164={
+	holding = none
+}
+3165={
+	holding = none
+}
+3166={
+	culture = old_suebi
+	faith = central_pagan
+	holding = city_holding
+}
+3167={
+	holding = castle_holding
+}
+3168={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}
+3169={
+	holding = none
+}
+3170={
+	holding = city_holding
+}
+3177={
+	holding = city_holding
+}
+3183={
+	holding = none
+}
+3184={
+	holding = none
+}
+3185={
+	holding = city_holding
+}
+3186={
+	holding = none
+}
+3187={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3188={
+	holding = city_holding
+}
+3189={
+	holding = city_holding
+}
+3190={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3191={
+	holding = city_holding
+}
+3192={
+	holding = none
+}
+3193={
+	holding = none
+}
+3194={
+	holding = none
+}
+3195={
+	holding = city_holding
+}
+3196={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3197={
+	holding = city_holding
+}
+3198={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3199={
+	holding = none
+}
+3200={
+	holding = none
+}
+3201={
+	holding = none
+}
+3202={
+	holding = none
+}
+3203={
+	holding = none
+}
+3204={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3205={
+	holding = none
+}
+3206={
+	holding = none
+}
+3207={
+	holding = none
+}
+3208={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3209={
+	holding = none
+}
+3210={
+	holding = none
+}
+3211={
+	holding = none
+}
+3212={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3213={
+	holding = none
+}
+3214={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3215={
+	holding = none
+}
+3216={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+}
+3217={
+	holding = none
+}
+3218={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+3219={
+	holding = none
+}
+3220={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+4900={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+4901={
+	holding = castle_holding
+}
+4902={
+	holding = castle_holding
+}
+4903={
+	holding = castle_holding
+}
+4904={
+	holding = castle_holding
+}
+4905={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+4906={
+	holding = none
+}
+4907={
+	holding = none
+}
+4908={
+	holding = none
+}
+4909={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+4910={
+	holding = none
+}
+4911={
+	holding = none
+}
+4912={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+4913={
+	holding = none
+}
+4914={
+	holding = none
+}
+4915={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+4916={
+	holding = none
+}
+4917={
+	holding = none
+}
+4933={
+	holding = none
+}
+4934={
+	holding = city_holding
+}
+4935={
+	holding = none
+}
+4936={
+	holding = none
+}
+4937={
+	holding = church_holding
+}
+4938={
+	holding = none
+}
+4939={
+	holding = church_holding
+}
+4940={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = tribal_holding
+}
+4941={
+	holding = castle_holding
+}
+4942={
+	holding = none
+}
+4943={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+}
+4944={
+	holding = none
+}
+4945={
+	holding = none
+}
+4946={
+	culture = bastarnian
+	faith = central_pagan
+	holding = castle_holding
+}
+4947={
+	holding = none
+}
+4948={
+	holding = castle_holding
+}
+4949={
+	holding = none
+}
+4950={
+	holding = none
+}
+5043={
+	holding = none
+}
+5044={
+	culture = old_suebi
+	faith = central_pagan
+	holding = castle_holding
+}
+5045={
+	holding = none
+}
+5046={
+	holding = none
+}
+5047={
+	holding = none
+}
+5048={
+	holding = none
+}
+5049={
+	holding = city_holding
+}
+5050={
+	holding = none
+}
+5051={
+	culture = sarmatian
+	faith = central_pagan
+	holding = castle_holding
+	400.1.1 = { culture = sclavenian }
+}
+5052={
+	holding = none
+}
+5053={
+	holding = none
+}
+5054={
+	holding = none
+}
+5055={
+	holding = none
+}
+5056={
+	holding = none
+}
+5057={
+	culture = scirian
+	faith = central_pagan
+	holding = tribal_holding
+}
+5058={
+	holding = none
+}
+5059={
+	holding = church_holding
+}
+5082={
+	holding = none
+}
+5083={
+	holding = none
+}
+5084={
+	holding = none
+}
+5085={
+	holding = none
+}
+5086={
+	holding = none
+}
+5087={
+	culture = alan
+	faith = central_pagan
+	holding = castle_holding
+}
+5088={
+	holding = none
+}
+5089={
+	holding = castle_holding
+}
+5090={
+	holding = none
+}
+5091={
+	culture = alan
+	faith = central_pagan
+	holding = castle_holding
+}
+5092={
+	holding = none
+}
+5093={
+	holding = none
+}
+5094={
+	holding = none
+}
+5095={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5096={
+	holding = none
+}
+5097={
+	holding = none
+}
+5098={
+	culture = sarmatian
+	faith = central_pagan
+	holding = castle_holding
+}
+5099={
+	holding = none
+}
+5100={
+	holding = church_holding
+}
+5101={
+	holding = none
+}
+5102={
+	holding = none
+}
+5103={
+	holding = castle_holding
+}
+5104={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5105={
+	holding = none
+}
+5106={
+	holding = castle_holding
+}
+5107={
+	holding = none
+}
+5108={
+	holding = none
+}
+5109={
+	culture = alan
+	faith = central_pagan
+	holding = castle_holding
+}
+5110={
+	holding = none
+}
+5111={
+	holding = none
+}
+5112={
+	holding = none
+}
+5113={
+	holding = none
+}
+5114={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5115={
+	holding = none
+}
+5116={
+	holding = city_holding
+}
+5117={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5118={
+	holding = none
+}
+5119={
+	culture = aestian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5120={
+	holding = none
+}
+5121={
+	holding = city_holding
+}
+5122={
+	holding = none
+}
+5123={
+	holding = castle_holding
+}
+5124={
+	holding = none
+}
+5125={
+	holding = none
+}
+5126={
+	holding = castle_holding
+}
+5127={
+	culture = aestian
+	faith = slavic_pagan
+	holding = castle_holding
+}
+5128={
+	holding = none
+}
+5136={
+	culture = macedonian
+	faith = central_pagan
+	holding = castle_holding
+}
+5178={
+	holding = none
+}
+5179={
+	holding = castle_holding
+}
+5180={
+	holding = castle_holding
+}
+5181={
+	culture = hun
+	faith = tengri_pagan
+	holding = castle_holding
+}
+5182={
+	holding = church_holding
+}
+5183={
+	holding = none
+}
+5184={
+	holding = city_holding
+}
+5185={
+	culture = sarmatian
+	faith = tengri_pagan
+	holding = castle_holding
+}
+5186={
+	holding = none
+}
+5187={
+	holding = none
+}
+5188={
+	holding = church_holding
+}
+5189={
+	culture = sarmatian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+5190={
+	holding = castle_holding
+}
+5191={
+	holding = none
+}
+5192={
+	holding = city_holding
+}
+5193={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5194={
+	holding = city_holding
+}
+5195={
+	holding = castle_holding
+}
+5196={
+	culture = hun
+	faith = tengri_pagan
+	holding = castle_holding
+}
+5197={
+	holding = none
+}
+5198={
+	holding = church_holding
+}
+5199={
+	holding = none
+}
+5200={
+	holding = castle_holding
+}
+5201={
+	holding = none
+}
+5202={
+	holding = none
+}
+5203={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5204={
+	holding = none
+}
+5205={
+	holding = none
+}

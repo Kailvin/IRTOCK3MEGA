@@ -1,0 +1,83 @@
+k_IRTOCK3_I58={
+	202.1.18 = { holder = imperator157402 government = feudal_government liege = e_IRTOCK3_BDI }
+	243.10.16 = { holder = imperator157378 government = theocracy_government }
+	245.3.23 = { holder = imperator157389 government = theocracy_government }
+	255.7.3 = { holder = imperator157379 government = theocracy_government }
+	260.8.24 = { holder = imperator161016 government = theocracy_government }
+	287.8.3 = { holder = imperator165998 government = feudal_government }
+	339.9.9 = { holder = imperator173533 government = feudal_government }
+	340.12.18 = { holder = imperator178378 government = feudal_government }
+	401.3.5 = { holder = imperator185133 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_halych={
+	423.7.6 = { liege = 0 }
+}
+c_halych={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_lviv={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_terebovl={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_zaslavl={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_bukovina={
+	423.7.6 = { liege = 0 }
+}
+c_suceava={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_neamnt={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { liege = k_IRTOCK3_I58 holder = imperator187001 change_development_level = 5 }
+}
+b_roman={
+	423.7.6 = { holder = imperator187001 }
+}
+c_dorohoi={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_hotin={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { change_development_level = 3 }
+}
+d_moldova={
+	423.7.6 = { liege = 0 }
+}
+c_iasi={
+	419.6.14 = { liege = 0 holder = imperator195548 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_orhei={
+	407.4.24 = { liege = 0 holder = imperator192335 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_soroca={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_barlad={
+	419.6.14 = { liege = 0 holder = imperator195548 }
+	423.7.6 = { liege = k_IRTOCK3_I58 holder = imperator184955 change_development_level = 3 }
+}
+c_galati={
+	419.6.14 = { liege = 0 holder = imperator195548 }
+	423.7.6 = { liege = k_IRTOCK3_I58 holder = imperator184955 change_development_level = 7 }
+}
+b_tecuci={
+	423.7.6 = { holder = imperator184955 }
+}
+c_stoenesti={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}

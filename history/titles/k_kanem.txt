@@ -1,0 +1,48 @@
+k_kanem={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+d_kanem={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kanem_holder liege = 0 }
+}
+c_kanem={
+	361.1.1 = { government = tribal_government change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_kanem_holder }
+}
+c_jimi={
+	361.1.1 = { government = tribal_government change_development_level = 4 }
+	423.7.6 = { holder = IRToCK3_c_kanem_holder }
+}
+d_bornu={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_garumele_holder liege = 0 }
+}
+c_bornu={
+	361.1.1 = { government = tribal_government change_development_level = 3 }
+}
+c_garumele={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_garumele_holder change_development_level = 2 }
+}
+c_yau={
+	361.1.1 = { government = tribal_government change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_garumele_holder }
+}
+c_munio={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_garumele_holder change_development_level = 2 }
+}
+d_kagha={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_katagum_holder government = tribal_government }
+}
+c_kagha={
+	361.1.1 = { government = tribal_government change_development_level = 2 }
+}
+c_fika={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { change_development_level = 1 }
+}
+c_katagum={
+	361.1.1 = { government = tribal_government change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_katagum_holder }
+}

@@ -1,0 +1,102 @@
+k_kham={
+	423.7.6 = { liege = 0 }
+}
+d_qamdo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_qamdo_holder liege = 0 }
+}
+c_qamdo={
+	423.7.6 = { holder = IRToCK3_c_qamdo_holder liege = "d_qamdo" change_development_level = 0 }
+}
+c_dengqen={
+	423.7.6 = { holder = IRToCK3_c_qamdo_holder liege = "d_qamdo" change_development_level = 0 }
+}
+c_baqen={
+	423.7.6 = { holder = IRToCK3_c_qamdo_holder liege = 0 change_development_level = 0 }
+}
+c_sog={
+	423.7.6 = { holder = IRToCK3_c_qamdo_holder liege = 0 change_development_level = 0 }
+}
+c_banbar={
+	423.7.6 = { holder = IRToCK3_c_qamdo_holder liege = "d_qamdo" change_development_level = 0 }
+}
+d_boyul={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_bome_holder liege = 0 }
+}
+c_bome={
+	423.7.6 = { holder = IRToCK3_c_bome_holder liege = 0 change_development_level = 1 }
+}
+c_baxoi={
+	423.7.6 = { holder = IRToCK3_c_bome_holder change_development_level = 0 }
+}
+c_zogang={
+	423.7.6 = { holder = IRToCK3_c_bome_holder change_development_level = 1 }
+}
+d_nangqen={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nangqen_holder liege = 0 }
+}
+c_nangqen={
+	423.7.6 = { holder = IRToCK3_c_nangqen_holder liege = 0 change_development_level = 0 }
+}
+c_gyegumdo={
+	423.7.6 = { holder = IRToCK3_c_nangqen_holder liege = 0 change_development_level = 0 }
+}
+d_lhatok={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_lhatok_holder liege = 0 }
+}
+c_lhatok={
+	423.7.6 = { holder = IRToCK3_c_lhatok_holder liege = 0 change_development_level = 0 }
+}
+c_zhagyab={
+	423.7.6 = { holder = IRToCK3_c_lhatok_holder change_development_level = 1 }
+}
+c_gonjo={
+	423.7.6 = { holder = IRToCK3_c_lhatok_holder change_development_level = 1 }
+}
+d_lingtsang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lingtsang_holder liege = 0 }
+}
+c_lingtsang={
+	423.7.6 = { holder = IRToCK3_c_lingtsang_holder change_development_level = 1 }
+}
+c_ariksar={
+	423.7.6 = { holder = IRToCK3_c_lingtsang_holder change_development_level = 1 }
+}
+d_dege={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_dege_holder liege = 0 }
+}
+c_dege={
+	423.7.6 = { holder = IRToCK3_c_dege_holder change_development_level = 1 }
+}
+c_pelyul={
+	423.7.6 = { holder = IRToCK3_c_dege_holder change_development_level = 1 }
+}
+c_garze={
+	423.7.6 = { holder = IRToCK3_c_dege_holder change_development_level = 1 }
+}
+d_batang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_batang_holder liege = 0 }
+}
+c_batang={
+	423.7.6 = { holder = IRToCK3_c_batang_holder change_development_level = 1 }
+}
+c_markam={
+	423.7.6 = { holder = IRToCK3_c_batang_holder change_development_level = 1 }
+}
+c_gyaitang={
+	423.7.6 = { holder = IRToCK3_c_batang_holder change_development_level = 1 }
+}
+d_litang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_litang_holder liege = 0 }
+}
+c_litang={
+	423.7.6 = { holder = IRToCK3_c_litang_holder change_development_level = 1 }
+}
+c_muli={
+	423.7.6 = { holder = IRToCK3_c_litang_holder change_development_level = 1 }
+}
+c_lenggu={
+	423.7.6 = { holder = IRToCK3_c_litang_holder change_development_level = 1 }
+}
+c_nyagrong={
+	423.7.6 = { holder = IRToCK3_c_litang_holder change_development_level = 1 }
+}

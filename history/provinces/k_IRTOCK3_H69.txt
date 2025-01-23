@@ -1,0 +1,95 @@
+6232={
+	holding = city_holding
+}
+6240={
+	culture = himyarite
+	faith = orthodox
+	holding = castle_holding
+}
+6241={
+	holding = city_holding
+}
+6242={
+	holding = city_holding
+}
+6243={
+	culture = himyarite
+	faith = orthodox
+	holding = castle_holding
+}
+6244={
+	culture = himyarite
+	faith = arabic_pagan
+	holding = castle_holding
+}
+6245={
+	holding = city_holding
+}
+6246={
+	culture = himyarite
+	faith = egyptian_pagan
+	holding = castle_holding
+}
+6247={
+	holding = none
+}
+6270={
+	holding = castle_holding
+}
+6271={
+	holding = castle_holding
+}
+6272={
+	holding = city_holding
+}
+6273={
+	holding = city_holding
+}
+6274={
+	holding = none
+}
+6275={
+	holding = city_holding
+}
+6276={
+	culture = south_arabian
+	faith = orthodox
+	holding = castle_holding
+}
+6278={
+	holding = city_holding
+}
+6279={
+	holding = church_holding
+}
+6280={
+	culture = himyarite
+	faith = orthodox
+	holding = castle_holding
+}
+6281={
+	holding = none
+}
+6296={
+	holding = city_holding
+}
+6297={
+	holding = city_holding
+}
+6298={
+	holding = church_holding
+}
+6299={
+	culture = himyarite
+	faith = orthodox
+	holding = castle_holding
+	special_building_slot = marib_dam
+}
+6300={
+	culture = south_arabian
+	faith = orthodox
+	holding = castle_holding
+}
+6301={
+	holding = none
+}

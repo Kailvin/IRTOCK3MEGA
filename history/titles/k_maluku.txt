@@ -1,0 +1,36 @@
+k_maluku={
+	423.7.6 = { liege = 0 }
+}
+d_halmahera={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tidore_holder government = tribal_government }
+}
+c_tidore={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+c_ternate={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+c_tobelo={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+c_wasile={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+c_bajan={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+c_sawai={
+	423.7.6 = { holder = IRToCK3_c_tidore_holder change_development_level = 0 }
+}
+d_raja_ampat={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_waigeo_holder government = tribal_government }
+}
+c_waigeo={
+	423.7.6 = { holder = IRToCK3_c_waigeo_holder change_development_level = 0 }
+}
+c_salawati={
+	423.7.6 = { holder = IRToCK3_c_waigeo_holder change_development_level = 0 }
+}
+c_waigama={
+	423.7.6 = { holder = IRToCK3_c_waigeo_holder change_development_level = 0 }
+}

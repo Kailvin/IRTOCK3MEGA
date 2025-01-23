@@ -1,0 +1,103 @@
+k_akan={
+	423.7.6 = { liege = 0 }
+}
+d_ashanti={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kumasi_holder government = tribal_government }
+}
+c_kumasi={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_kumasi_holder }
+}
+c_adanse={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_kumasi_holder }
+}
+c_kwahu-akyem={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kumasi_holder }
+}
+c_fante={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kumasi_holder }
+}
+c_wassa={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kumasi_holder }
+}
+d_adiukru={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_attie_holder liege = 0 }
+}
+c_attie={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_attie_holder }
+}
+c_dabou={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_attie_holder }
+}
+c_aowin={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_attie_holder }
+}
+d_gyaman={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bonduku_holder government = tribal_government }
+}
+c_bonduku={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_bonduku_holder }
+}
+c_ndenye={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bonduku_holder }
+}
+d_brong={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bono_holder government = tribal_government }
+}
+c_bono={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_bono_holder }
+}
+c_begho={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_bono_holder }
+}
+c_upper_bono={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_bono_holder }
+}
+c_bonoso={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_bono_holder }
+}
+d_eweland={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ewe_holder government = tribal_government }
+}
+c_ewe={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ewe_holder }
+}
+c_afram={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_ewe_holder }
+}
+c_nanumba={
+	350.1.1 = { government = tribal_government }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_ewe_holder }
+}

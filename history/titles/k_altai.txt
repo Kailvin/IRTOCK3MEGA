@@ -1,0 +1,66 @@
+k_altai={
+	423.7.6 = { liege = 0 }
+}
+d_dzungar={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ulungu_holder liege = 0 }
+}
+c_ulungu={
+	423.7.6 = { holder = IRToCK3_c_ulungu_holder change_development_level = 0 }
+}
+c_xinggenqi_TEMP={
+	423.7.6 = { holder = IRToCK3_c_ulungu_holder change_development_level = 0 }
+}
+c_qinggil={
+	423.7.6 = { holder = IRToCK3_c_ulungu_holder change_development_level = 0 }
+}
+c_changhanzheng_TEMP={
+	423.7.6 = { holder = IRToCK3_c_ulungu_holder change_development_level = 0 }
+}
+d_altai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ukok_holder liege = 0 }
+}
+c_ukok={
+	423.7.6 = { holder = IRToCK3_c_ukok_holder change_development_level = 0 }
+}
+c_olgii={
+	423.7.6 = { holder = IRToCK3_c_ukok_holder change_development_level = 0 }
+}
+c_kupanwei_TEMP={
+	423.7.6 = { holder = IRToCK3_c_ukok_holder change_development_level = 0 }
+}
+c_xiaozuozhai_TEMP={
+	423.7.6 = { holder = IRToCK3_c_ukok_holder change_development_level = 0 }
+}
+c_gaoran_TEMP={
+	423.7.6 = { holder = IRToCK3_c_ukok_holder change_development_level = 0 }
+}
+d_ubsunur={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_myangad_holder liege = 0 }
+}
+c_myangad={
+	423.7.6 = { holder = IRToCK3_c_myangad_holder change_development_level = 0 }
+}
+c_bayanuur={
+	423.7.6 = { holder = IRToCK3_c_myangad_holder change_development_level = 0 }
+}
+c_oold={
+	423.7.6 = { holder = IRToCK3_c_myangad_holder change_development_level = 0 }
+}
+c_sharga={
+	423.7.6 = { holder = IRToCK3_c_myangad_holder change_development_level = 0 }
+}
+d_altaigobi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_andri-anqa_holder liege = 0 }
+}
+c_andri-anqa={
+	423.7.6 = { holder = IRToCK3_c_andri-anqa_holder change_development_level = 0 }
+}
+c_qulan_qol={
+	423.7.6 = { holder = IRToCK3_c_andri-anqa_holder change_development_level = 0 }
+}
+c_yeson_bulag={
+	423.7.6 = { holder = IRToCK3_c_andri-anqa_holder change_development_level = 0 }
+}
+c_jiucai_TEMP={
+	423.7.6 = { holder = IRToCK3_c_andri-anqa_holder change_development_level = 0 }
+}

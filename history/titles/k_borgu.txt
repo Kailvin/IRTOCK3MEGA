@@ -1,0 +1,38 @@
+k_borgu={
+	423.7.6 = { liege = 0 }
+}
+d_borgu={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nikki_holder liege = 0 }
+}
+c_nikki={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_nikki_holder }
+}
+c_bussa={
+	423.7.6 = { holder = IRToCK3_c_nikki_holder change_development_level = 1 }
+}
+c_ilo={
+	423.7.6 = { holder = IRToCK3_c_nikki_holder change_development_level = 1 }
+}
+c_ilesa={
+	423.7.6 = { holder = IRToCK3_c_nikki_holder change_development_level = 1 }
+}
+c_djugu={
+	423.7.6 = { holder = IRToCK3_c_nikki_holder change_development_level = 1 }
+}
+d_savalu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_savalu_holder liege = 0 }
+}
+c_savalu={
+	423.7.6 = { holder = IRToCK3_c_savalu_holder change_development_level = 0 }
+}
+c_sokode={
+	423.7.6 = { holder = IRToCK3_c_savalu_holder change_development_level = 0 }
+}
+c_todo={
+	423.7.6 = { holder = IRToCK3_c_savalu_holder change_development_level = 0 }
+}
+c_shabe={
+	423.7.6 = { holder = IRToCK3_c_savalu_holder change_development_level = 0 }
+}

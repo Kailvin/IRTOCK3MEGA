@@ -1,0 +1,60 @@
+k_volga_bulgaria={
+	423.7.6 = { liege = 0 }
+}
+d_volga_bulgaria={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_bolghar_holder liege = 0 }
+}
+c_bolghar={
+	20.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
+}
+c_ashli={
+	20.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 4 }
+}
+c_yar-calli={
+	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
+}
+c_karabolam={
+	20.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
+}
+c_samar_VB={
+	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
+}
+d_kazan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kazan_holder government = tribal_government }
+}
+c_kazan={
+	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
+}
+c_yoshkar-ola={
+	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
+}
+c_elabuga={
+	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
+}
+d_jalmat={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_jalmat_holder government = tribal_government }
+}
+c_jalmat={
+	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+c_belebey={
+	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+c_bugurslan={
+	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+c_salavat={
+	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+d_martyuba={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_martyuba_holder government = tribal_government }
+}
+c_martyuba={
+	423.7.6 = { holder = IRToCK3_c_martyuba_holder liege = 0 change_development_level = 6 }
+}
+c_cykma={
+	423.7.6 = { holder = IRToCK3_c_martyuba_holder liege = 0 change_development_level = 6 }
+}

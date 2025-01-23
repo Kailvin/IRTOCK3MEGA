@@ -1,0 +1,170 @@
+k_IRTOCK3_CAR={
+	-304.10.1 = { holder = imperator142 government = republic_government }
+	-299.10.1 = { holder = imperator362 government = republic_government }
+	-294.10.1 = { holder = imperator515 government = republic_government }
+	-289.10.1 = { holder = imperator363 government = republic_government }
+	-287.7.16 = { holder = imperator11956 government = republic_government }
+	-282.7.16 = { holder = imperator11979 government = republic_government }
+	-277.7.16 = { holder = imperator515 government = republic_government }
+	-272.7.16 = { holder = imperator11977 government = republic_government }
+	-267.7.16 = { holder = imperator11962 government = republic_government }
+	-262.7.16 = { holder = imperator11957 government = republic_government }
+	-254.2.2 = { holder = imperator32995 government = republic_government }
+	-248.8.12 = { holder = imperator12001 government = republic_government }
+	-243.8.12 = { holder = imperator49025 government = republic_government }
+	-238.8.12 = { holder = imperator68009 government = republic_government }
+	-233.8.12 = { holder = imperator48905 government = republic_government }
+	-228.8.12 = { holder = imperator71797 government = republic_government }
+	-223.8.12 = { holder = imperator49025 government = republic_government }
+	-218.8.12 = { holder = imperator52668 government = republic_government }
+	-213.8.12 = { holder = imperator73083 government = republic_government }
+	-208.8.12 = { holder = imperator71797 government = republic_government }
+	-203.8.12 = { holder = imperator57114 government = republic_government }
+	-202.7.30 = { holder = imperator76993 government = republic_government }
+	-197.7.30 = { holder = imperator59468 government = republic_government }
+	-194.10.11 = { holder = imperator68807 government = republic_government }
+	-189.10.11 = { holder = imperator63029 government = republic_government }
+	-184.10.11 = { holder = imperator67717 government = republic_government }
+	-179.10.11 = { holder = imperator75150 government = republic_government }
+	-174.5.28 = { holder = imperator92374 government = republic_government }
+	423.5.25 = { holder = imperator207026 government = republic_government }
+	423.7.4 = { liege = e_IRTOCK3_GAR }
+	423.7.6 = { succession_laws = { city_succession_law } }
+}
+d_marrakesh={
+	423.7.6 = { liege = 0 }
+}
+c_marrakesh={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_tadla={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_fazaz={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_tamasna={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_asfi={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_tinmallal={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_sous={
+	423.7.6 = { liege = 0 }
+}
+c_sous={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_agadir={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_ifni={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_draa={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_tafilalt={
+	423.7.6 = { liege = 0 }
+}
+c_sijilmasa={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_tudgha={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_ziz={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_fes={
+	423.7.6 = { liege = 0 }
+}
+c_fes={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_muluya={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_taza={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_meknes={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_gharb={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_rif={
+	423.7.6 = { liege = 0 }
+}
+c_tangiers={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_ceuta={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_melilla={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_tlemcen={
+	423.7.6 = { liege = 0 }
+}
+c_tlemcen={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_wajda={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_orania={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_hunyan={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_tahert={
+	423.7.6 = { liege = 0 }
+}
+c_tahert={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_yalala={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_ashir={
+	395.5.19 = { liege = 0 holder = imperator184156 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_figuig={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 7 }
+}

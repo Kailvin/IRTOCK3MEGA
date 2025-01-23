@@ -1,0 +1,81 @@
+k_otuken={
+	423.7.6 = { liege = 0 }
+}
+d_otuken={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_karabalgasun_holder liege = 0 }
+}
+c_karabalgasun={
+	423.7.6 = { holder = IRToCK3_c_karabalgasun_holder change_development_level = 0 }
+}
+c_karakorum={
+	423.7.6 = { holder = IRToCK3_c_karabalgasun_holder change_development_level = 0 }
+}
+c_arkhangai={
+	423.7.6 = { holder = IRToCK3_c_karabalgasun_holder change_development_level = 0 }
+}
+c_khermen_tal={
+	423.7.6 = { holder = IRToCK3_c_karabalgasun_holder change_development_level = 0 }
+}
+c_selenge={
+	423.7.6 = { holder = IRToCK3_c_karabalgasun_holder change_development_level = 0 }
+}
+d_ovorkhangai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ongqin_holder liege = 0 }
+}
+c_ongqin={
+	423.7.6 = { holder = IRToCK3_c_ongqin_holder change_development_level = 0 }
+}
+c_dundgobi={
+	423.7.6 = { holder = IRToCK3_c_ongqin_holder change_development_level = 0 }
+}
+c_ongi={
+	423.7.6 = { holder = IRToCK3_c_ongqin_holder change_development_level = 0 }
+}
+c_ikh_khoshoot={
+	423.7.6 = { holder = IRToCK3_c_ongqin_holder change_development_level = 0 }
+}
+d_ogrash={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ogrash_holder government = tribal_government }
+}
+c_ogrash={
+	423.7.6 = { holder = IRToCK3_c_ogrash_holder change_development_level = 0 }
+}
+c_baibaliq={
+	423.7.6 = { holder = IRToCK3_c_ogrash_holder change_development_level = 0 }
+}
+c_tuula={
+	423.7.6 = { holder = IRToCK3_c_ogrash_holder change_development_level = 0 }
+}
+c_ulaan_kherem={
+	423.7.6 = { holder = IRToCK3_c_ogrash_holder change_development_level = 0 }
+}
+c_khar_bukhyn={
+	423.7.6 = { holder = IRToCK3_c_ogrash_holder change_development_level = 0 }
+}
+d_khamar-daban={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_arik_usun_holder liege = 0 }
+}
+c_arik_usun={
+	423.7.6 = { holder = IRToCK3_c_arik_usun_holder change_development_level = 0 }
+}
+c_tongluo={
+	423.7.6 = { holder = IRToCK3_c_arik_usun_holder change_development_level = 0 }
+}
+c_kharaji_kheer={
+	423.7.6 = { holder = IRToCK3_c_arik_usun_holder change_development_level = 0 }
+}
+c_bur_kheer={
+	423.7.6 = { holder = IRToCK3_c_arik_usun_holder change_development_level = 0 }
+}
+d_khentii={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_boroo_holder liege = 0 }
+}
+c_boroo={
+	423.7.6 = { holder = IRToCK3_c_boroo_holder change_development_level = 0 }
+}
+c_tele_etu={
+	423.7.6 = { holder = IRToCK3_c_boroo_holder change_development_level = 0 }
+}
+c_qara-tun={
+	423.7.6 = { holder = IRToCK3_c_boroo_holder change_development_level = 0 }
+}

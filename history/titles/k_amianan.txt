@@ -1,0 +1,72 @@
+k_amianan={
+	423.7.6 = { liege = 0 }
+}
+d_iluek={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_laoag_holder liege = 0 }
+}
+c_laoag={
+	423.7.6 = { holder = IRToCK3_c_laoag_holder change_development_level = 0 }
+}
+c_bigan={
+	423.7.6 = { holder = IRToCK3_c_laoag_holder change_development_level = 0 }
+}
+c_kandong={
+	423.7.6 = { holder = IRToCK3_c_laoag_holder change_development_level = 0 }
+}
+d_agta={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_divilikan_holder government = tribal_government }
+}
+c_divilikan={
+	423.7.6 = { holder = IRToCK3_c_divilikan_holder change_development_level = 0 }
+}
+c_dupaningan={
+	423.7.6 = { holder = IRToCK3_c_divilikan_holder change_development_level = 0 }
+}
+d_pangasinan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_binalatongan_holder liege = 0 }
+}
+c_binalatongan={
+	423.7.6 = { holder = IRToCK3_c_binalatongan_holder change_development_level = 0 }
+}
+c_bolinao={
+	423.7.6 = { holder = IRToCK3_c_binalatongan_holder change_development_level = 0 }
+}
+c_agoo={
+	423.7.6 = { holder = IRToCK3_c_binalatongan_holder change_development_level = 0 }
+}
+d_ifugao={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_lagawe_holder government = tribal_government }
+}
+c_lagawe={
+	423.7.6 = { holder = IRToCK3_c_lagawe_holder change_development_level = 0 }
+}
+c_apayao={
+	423.7.6 = { holder = IRToCK3_c_lagawe_holder change_development_level = 0 }
+}
+c_bugyas={
+	423.7.6 = { holder = IRToCK3_c_lagawe_holder change_development_level = 0 }
+}
+c_kalinga={
+	423.7.6 = { holder = IRToCK3_c_lagawe_holder change_development_level = 0 }
+}
+d_cagayan_valley={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_aparri_holder government = tribal_government }
+}
+c_aparri={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}
+c_bayombong={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}
+c_baggao={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}
+c_balintang={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}
+c_bolo_ph={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}
+c_burubur={
+	423.7.6 = { holder = IRToCK3_c_aparri_holder change_development_level = 0 }
+}

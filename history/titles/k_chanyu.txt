@@ -1,0 +1,60 @@
+k_chanyu={
+	423.7.6 = { liege = 0 }
+}
+d_ujumuchin={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_merten_tolgod_nuurud_holder liege = 0 }
+}
+c_merten_tolgod_nuurud={
+	423.7.6 = { holder = IRToCK3_c_merten_tolgod_nuurud_holder change_development_level = 0 }
+}
+c_barayun={
+	423.7.6 = { holder = IRToCK3_c_merten_tolgod_nuurud_holder change_development_level = 0 }
+}
+c_jejun={
+	423.7.6 = { holder = IRToCK3_c_merten_tolgod_nuurud_holder change_development_level = 0 }
+}
+c_zhupai_TEMP={
+	423.7.6 = { holder = IRToCK3_c_merten_tolgod_nuurud_holder change_development_level = 0 }
+}
+d_sanggan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_dingxiang_holder liege = 0 }
+}
+c_dingxiang={
+	423.7.6 = { holder = IRToCK3_c_dingxiang_holder change_development_level = 0 }
+}
+c_abaga={
+	423.7.6 = { holder = IRToCK3_c_dingxiang_holder change_development_level = 0 }
+}
+c_sonud={
+	423.7.6 = { holder = IRToCK3_c_dingxiang_holder change_development_level = 0 }
+}
+d_danyu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_chengle_holder liege = 0 }
+}
+c_chengle={
+	423.7.6 = { holder = IRToCK3_c_chengle_holder change_development_level = 0 }
+}
+c_zhangbei={
+	423.7.6 = { holder = IRToCK3_c_chengle_holder change_development_level = 0 }
+}
+c_tungzhengzhou={
+	423.7.6 = { holder = IRToCK3_c_chengle_holder change_development_level = 0 }
+}
+c_dayan_TEMP={
+	423.7.6 = { holder = IRToCK3_c_chengle_holder change_development_level = 0 }
+}
+c_duanzhi_TEMP={
+	423.7.6 = { holder = IRToCK3_c_chengle_holder change_development_level = 0 }
+}
+d_omnogobi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_mangasiin_holder liege = 0 }
+}
+c_mangasiin={
+	423.7.6 = { holder = IRToCK3_c_mangasiin_holder change_development_level = 0 }
+}
+c_dalanzadgad={
+	423.7.6 = { holder = IRToCK3_c_mangasiin_holder change_development_level = 0 }
+}
+c_berke={
+	423.7.6 = { holder = IRToCK3_c_mangasiin_holder change_development_level = 0 }
+}

@@ -1,0 +1,25 @@
+k_IRTOCK3_I35={
+	178.4.1 = { holder = imperator145762 }
+	186.5.1 = { holder = imperator150814 government = feudal_government }
+	192.11.6 = { holder = imperator155154 government = feudal_government }
+	375.3.1 = { holder = imperator190151 government = feudal_government }
+	400.3.29 = { holder = imperator191847 government = feudal_government }
+	420.11.28 = { holder = imperator194237 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_mogadishu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mogadishu_holder government = tribal_government }
+}
+c_mogadishu={
+	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
+}
+c_hobyo={
+	420.11.28 = { liege = 0 holder = imperator194237 }
+	423.7.6 = { liege = k_IRTOCK3_I35 holder = imperator190161 change_development_level = 5 }
+}
+c_mareeg={
+	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
+}
+c_hiraab={
+	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
+}

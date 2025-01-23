@@ -1,0 +1,29 @@
+k_nikaea={
+	423.7.6 = { liege = 0 }
+}
+d_optimatoi={
+	423.7.6 = { liege = 0 }
+}
+c_bithynia={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_tarsos={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_bucellaria={
+	423.7.6 = { liege = 0 }
+}
+c_honorias={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_galatia={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_hadrianopolis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}

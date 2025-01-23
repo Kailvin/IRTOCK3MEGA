@@ -1,0 +1,54 @@
+k_bungku={
+	423.7.6 = { liege = 0 }
+}
+d_bungku={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bungku_holder government = tribal_government }
+}
+c_bungku={
+	423.7.6 = { holder = IRToCK3_c_bungku_holder change_development_level = 0 }
+}
+c_marsaoleh={
+	423.7.6 = { holder = IRToCK3_c_bungku_holder change_development_level = 0 }
+}
+c_malili={
+	423.7.6 = { holder = IRToCK3_c_bungku_holder change_development_level = 0 }
+}
+d_butungmuna={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_muna_holder government = tribal_government }
+}
+c_muna={
+	423.7.6 = { holder = IRToCK3_c_muna_holder change_development_level = 0 }
+}
+c_buton={
+	423.7.6 = { holder = IRToCK3_c_muna_holder change_development_level = 0 }
+}
+c_wakatobi={
+	423.7.6 = { holder = IRToCK3_c_muna_holder change_development_level = 0 }
+}
+c_wowoni={
+	423.7.6 = { holder = IRToCK3_c_muna_holder change_development_level = 0 }
+}
+d_south_bungku={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tinanggea_holder government = tribal_government }
+}
+c_tinanggea={
+	423.7.6 = { holder = IRToCK3_c_tinanggea_holder change_development_level = 0 }
+}
+c_bombana={
+	423.7.6 = { holder = IRToCK3_c_tinanggea_holder change_development_level = 0 }
+}
+c_kabaena={
+	423.7.6 = { holder = IRToCK3_c_tinanggea_holder change_development_level = 0 }
+}
+c_kendari={
+	423.7.6 = { holder = IRToCK3_c_tinanggea_holder change_development_level = 0 }
+}
+d_mekongka={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_lasusua_holder government = tribal_government }
+}
+c_lasusua={
+	423.7.6 = { holder = IRToCK3_c_lasusua_holder change_development_level = 0 }
+}
+c_kolaka={
+	423.7.6 = { holder = IRToCK3_c_lasusua_holder change_development_level = 0 }
+}

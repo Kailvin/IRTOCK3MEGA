@@ -1,0 +1,69 @@
+k_samudera={
+	423.7.6 = { liege = 0 }
+}
+d_lamuri={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lamuri_holder liege = 0 }
+}
+c_lamuri={
+	423.7.6 = { holder = IRToCK3_c_lamuri_holder change_development_level = 0 }
+}
+c_daya={
+	423.7.6 = { holder = IRToCK3_c_lamuri_holder change_development_level = 0 }
+}
+c_perlak={
+	423.7.6 = { holder = IRToCK3_c_lamuri_holder change_development_level = 0 }
+}
+c_pedir={
+	423.7.6 = { holder = IRToCK3_c_lamuri_holder change_development_level = 0 }
+}
+c_pasai={
+	423.7.6 = { holder = IRToCK3_c_lamuri_holder change_development_level = 0 }
+}
+d_gayo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gayo_holder liege = 0 }
+}
+c_gayo={
+	423.7.6 = { holder = IRToCK3_c_gayo_holder change_development_level = 0 }
+}
+c_simeulue={
+	423.7.6 = { holder = IRToCK3_c_gayo_holder change_development_level = 0 }
+}
+c_pasikaram={
+	423.7.6 = { holder = IRToCK3_c_gayo_holder change_development_level = 0 }
+}
+c_kluet={
+	423.7.6 = { holder = IRToCK3_c_gayo_holder change_development_level = 0 }
+}
+d_aru={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_aru_holder liege = 0 }
+}
+c_aru={
+	423.7.6 = { holder = IRToCK3_c_aru_holder change_development_level = 0 }
+}
+c_nagur={
+	423.7.6 = { holder = IRToCK3_c_aru_holder change_development_level = 0 }
+}
+c_panai={
+	423.7.6 = { holder = IRToCK3_c_aru_holder change_development_level = 0 }
+}
+c_padang_lawas={
+	423.7.6 = { holder = IRToCK3_c_aru_holder change_development_level = 0 }
+}
+d_batak={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_toba_holder liege = 0 }
+}
+c_toba={
+	423.7.6 = { holder = IRToCK3_c_toba_holder change_development_level = 0 }
+}
+c_pakpak={
+	423.7.6 = { holder = IRToCK3_c_toba_holder change_development_level = 0 }
+}
+c_mandailing={
+	423.7.6 = { holder = IRToCK3_c_toba_holder change_development_level = 0 }
+}
+c_barus={
+	423.7.6 = { holder = IRToCK3_c_toba_holder change_development_level = 0 }
+}
+c_nias={
+	423.7.6 = { holder = IRToCK3_c_toba_holder change_development_level = 0 }
+}

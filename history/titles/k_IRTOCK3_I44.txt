@@ -1,0 +1,36 @@
+k_IRTOCK3_I44={
+	189.7.5 = { holder = imperator155294 government = feudal_government liege = e_IRTOCK3_BDI }
+	239.7.5 = { holder = imperator157056 government = theocracy_government }
+	272.2.5 = { holder = imperator162398 government = theocracy_government }
+	286.7.21 = { holder = imperator166899 government = feudal_government }
+	340.4.10 = { holder = imperator173210 government = feudal_government }
+	340.10.14 = { holder = imperator180992 government = feudal_government }
+	355.4.3 = { holder = imperator175785 government = feudal_government }
+	361.7.16 = { holder = imperator186892 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_bugeac={
+	423.7.6 = { liege = 0 }
+}
+c_tigheci={
+	361.7.16 = { liege = 0 holder = imperator186892 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_cetatea_alba={
+	361.7.16 = { liege = 0 holder = imperator186892 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_chilia={
+	361.7.16 = { liege = 0 holder = imperator186892 }
+	423.7.6 = { change_development_level = 8 }
+}
+b_oblucita={
+	423.7.6 = { holder = imperator191484 }
+}
+b_artsyz={
+	423.7.6 = { holder = imperator193706 }
+}
+c_lapusna={
+	419.6.14 = { liege = 0 holder = imperator195548 }
+	423.7.6 = { change_development_level = 5 }
+}

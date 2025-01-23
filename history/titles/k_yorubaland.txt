@@ -1,0 +1,60 @@
+k_yorubaland={
+	423.7.6 = { liege = 0 }
+}
+d_ibadan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ibadan_holder liege = 0 }
+}
+c_ibadan={
+	423.7.6 = { holder = IRToCK3_c_ibadan_holder change_development_level = 0 }
+}
+c_abomey={
+	423.7.6 = { holder = IRToCK3_c_ibadan_holder change_development_level = 0 }
+}
+c_ifonyin={
+	423.7.6 = { holder = IRToCK3_c_ibadan_holder change_development_level = 0 }
+}
+c_ketu={
+	423.7.6 = { holder = IRToCK3_c_ibadan_holder change_development_level = 0 }
+}
+d_oyo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_oyo_holder liege = 0 }
+}
+c_oyo={
+	423.7.6 = { holder = IRToCK3_c_oyo_holder change_development_level = 0 }
+}
+c_igana={
+	423.7.6 = { holder = IRToCK3_c_oyo_holder change_development_level = 0 }
+}
+c_ilorin={
+	423.7.6 = { holder = IRToCK3_c_oyo_holder change_development_level = 0 }
+}
+c_igbomina={
+	423.7.6 = { holder = IRToCK3_c_oyo_holder change_development_level = 0 }
+}
+c_yagba={
+	423.7.6 = { holder = IRToCK3_c_oyo_holder change_development_level = 0 }
+}
+d_ife={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ife_holder liege = 0 }
+}
+c_ife={
+	423.7.6 = { holder = IRToCK3_c_ife_holder change_development_level = 0 }
+}
+c_ijebu={
+	423.7.6 = { holder = IRToCK3_c_ife_holder change_development_level = 0 }
+}
+c_owu={
+	423.7.6 = { holder = IRToCK3_c_ife_holder change_development_level = 0 }
+}
+d_benin={
+	100.1.1 = { holder = 0 }
+	414.1.1 = { holder = edo_06 }
+}
+c_benin={
+	414.1.1 = { holder = edo_06 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_edo={
+	414.1.1 = { holder = edo_06 }
+	423.7.6 = { change_development_level = 0 }
+}

@@ -1,0 +1,152 @@
+1425={
+	culture = yagma
+	religion = vajrayana
+	holding = tribal_holding
+}
+7127={
+	holding = castle_holding
+}
+7133={
+	holding = none
+}
+7140={
+	holding = church_holding
+}
+7141={
+	holding = none
+}
+7142={
+	holding = none
+}
+7144={
+	holding = city_holding
+}
+7145={
+	holding = city_holding
+}
+7146={
+	holding = city_holding
+}
+7167={
+	holding = none
+}
+7169={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = yagma religion = vajrayana }
+}
+7170={
+	holding = none
+}
+7173={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7174={
+	holding = none
+}
+7199={
+	holding = none
+}
+7200={
+	holding = none
+}
+7201={
+	holding = none
+}
+7202={
+	culture = yagma
+	religion = vajrayana
+	holding = tribal_holding
+}
+7203={
+	holding = none
+}
+7204={
+	holding = none
+}
+7205={
+	holding = none
+}
+7216={
+	holding = city_holding
+}
+13535={
+	holding = none
+}
+13538={
+	culture = karluk
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { religion = ashari }
+}
+13540={
+	holding = none
+}
+13543={
+	holding = none
+}
+13544={
+	holding = none
+}
+13547={
+	culture = sogdian
+	religion = khurmazta
+	holding = tribal_holding
+	900.1.1 = { culture = karluk religion = ashari }
+	1134.1.1 = { culture = qitai }
+}
+13558={
+	culture = chigil
+	religion = nestorian
+	holding = tribal_holding
+	1050.1.1 = { culture = yagma }
+}
+13644={
+	holding = none
+}
+13653={
+	holding = none
+}
+13719={
+	holding = none
+}
+13761={
+	holding = none
+}
+13793={
+	culture = turgesh
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+13947={
+	holding = none
+}
+13948={
+	culture = karluk
+	religion = khurmazta
+	holding = tribal_holding
+}
+13957={
+	culture = chigil
+	religion = nestorian
+	holding = tribal_holding
+	1050.1.1 = { culture = yagma }
+}
+13960={
+	holding = none
+}
+13963={
+	holding = none
+}
+13964={
+	culture = karluk
+	religion = khurmazta
+	holding = tribal_holding
+	900.1.1 = { religion = ashari }
+}
+13967={
+	holding = none
+}

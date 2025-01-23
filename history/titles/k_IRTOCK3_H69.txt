@@ -1,0 +1,59 @@
+k_IRTOCK3_H69={
+	136.9.21 = { holder = imperator146864 government = feudal_government }
+	187.4.15 = { holder = imperator147424 government = feudal_government }
+	214.5.20 = { holder = imperator155820 government = feudal_government }
+	219.1.10 = { liege = e_IRTOCK3_GAR }
+	270.12.15 = { holder = imperator156765 government = autocratic_government }
+	279.5.30 = { holder = imperator161619 government = autocratic_government }
+	301.4.10 = { holder = imperator162511 government = autocratic_government }
+	303.8.10 = { holder = imperator168696 government = autocratic_government }
+	321.9.7 = { holder = imperator172197 government = autocratic_government }
+	366.11.28 = { holder = imperator181110 government = autocratic_government }
+	386.11.1 = { holder = imperator188705 government = autocratic_government }
+	421.7.9 = { holder = imperator189850 government = autocratic_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_asir={
+	423.7.6 = { liege = 0 }
+}
+c_aqiq={
+	413.3.29 = { liege = 0 holder = imperator193127 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_asir={
+	413.3.29 = { liege = 0 holder = imperator193127 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_sanaa={
+	423.7.6 = { liege = 0 }
+}
+c_sanaa={
+	421.7.9 = { liege = 0 holder = imperator189850 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_tihamat-al-yamani={
+	421.7.9 = { liege = 0 holder = imperator189850 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_najran={
+	421.7.9 = { liege = 0 holder = imperator189850 }
+	423.7.6 = { liege = k_IRTOCK3_H69 holder = imperator185594 change_development_level = 9 }
+}
+b_sada={
+	423.7.6 = { holder = imperator185594 }
+}
+c_zabid={
+	423.3.1 = { liege = 0 holder = imperator206758 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_jawf-al-yamani={
+	423.7.6 = { liege = 0 }
+}
+c_jawf-al-yamani={
+	421.7.9 = { liege = 0 holder = imperator189850 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_wabar={
+	421.7.9 = { liege = 0 holder = imperator189850 }
+	423.7.6 = { liege = k_IRTOCK3_H69 holder = imperator185594 change_development_level = 8 }
+}

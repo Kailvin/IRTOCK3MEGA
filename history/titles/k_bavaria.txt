@@ -1,0 +1,40 @@
+k_bavaria={
+	422.9.15 = { government = feudal_government holder = imperator196563 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+}
+d_steyermark={
+	423.7.6 = { liege = 0 }
+}
+c_graz={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_pitten={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_liebnitz={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_murzzuschlag={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_krain={
+	423.7.6 = { liege = 0 }
+}
+c_kranj={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ljubljana={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_istria={
+	423.7.6 = { liege = 0 }
+}
+c_pula={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}

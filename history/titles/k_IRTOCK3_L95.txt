@@ -1,0 +1,19 @@
+k_IRTOCK3_L95={
+	422.9.15 = { holder = imperator204665 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_lata={
+	423.7.6 = { liege = 0 }
+}
+c_vadodara={
+	422.9.15 = { liege = 0 holder = imperator204665 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_navasarika={
+	422.9.15 = { liege = 0 holder = imperator204665 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_daman={
+	422.9.15 = { liege = 0 holder = imperator204665 }
+	423.7.6 = { change_development_level = 15 }
+}

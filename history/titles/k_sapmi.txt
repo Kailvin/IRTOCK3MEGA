@@ -1,0 +1,116 @@
+k_sapmi={
+	21.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+d_aarjetje={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ubmejeiednuo_holder liege = 0 }
+}
+c_sjeltie={
+	361.1.1 = { government = tribal_government }
+	395.1.1 = { holder = sapmi_22 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_ubmejeiednuo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ubmejeiednuo_holder change_development_level = 0 }
+}
+c_pite={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ubmejeiednuo_holder change_development_level = 0 }
+}
+c_jahkamakke={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ubmejeiednuo_holder change_development_level = 0 }
+}
+d_vuovdisamieana={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_biton_holder government = tribal_government }
+}
+c_biton={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_biton_holder change_development_level = 0 }
+}
+c_julevadno={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_biton_holder change_development_level = 0 }
+}
+c_kittila={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_biton_holder change_development_level = 0 }
+}
+c_torne={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_biton_holder change_development_level = 0 }
+}
+d_duortnoseatnu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_siggevara_holder government = tribal_government }
+}
+c_siggevara={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_siggevara_holder change_development_level = 0 }
+}
+c_suondavara={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_siggevara_holder change_development_level = 0 }
+}
+c_rounala={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_siggevara_holder change_development_level = 0 }
+}
+c_aviovara={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_siggevara_holder change_development_level = 0 }
+}
+c_karasjohka={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_siggevara_holder change_development_level = 0 }
+}
+d_giemajohka={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_peaccam_holder government = tribal_government }
+}
+c_peaccam={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_kitka={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_koutajoki={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_akkel={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_sombio={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_inari={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+c_skolt={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_peaccam_holder change_development_level = 0 }
+}
+d_guoldat={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ter_holder government = tribal_government }
+}
+c_ter={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ter_holder change_development_level = 0 }
+}
+c_jovvkuj={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ter_holder change_development_level = 0 }
+}
+c_east_kiilt={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ter_holder change_development_level = 0 }
+}
+c_kintus={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_ter_holder change_development_level = 0 }
+}

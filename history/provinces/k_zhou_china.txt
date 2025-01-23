@@ -1,0 +1,151 @@
+12608={
+	holding = none
+}
+12628={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12681={
+	holding = none
+}
+12687={
+	holding = none
+}
+12700={
+	holding = none
+}
+12703={
+	holding = none
+}
+12704={
+	holding = none
+}
+12724={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12728={
+	holding = none
+}
+12740={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12745={
+	holding = none
+}
+12750={
+	holding = none
+}
+12753={
+	holding = none
+}
+12754={
+	holding = none
+}
+12755={
+	holding = none
+}
+12768={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12774={
+	holding = none
+}
+12779={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12789={
+	holding = none
+}
+12795={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12798={
+	holding = none
+}
+12803={
+	culture = han
+	religion = zhengyi
+	holding = church_holding
+	special_building_slot = mount_song
+	special_building = mount_song
+}
+12804={
+	holding = none
+}
+12812={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12820={
+	holding = church_holding
+	special_building = longmen_grottoes_01
+}
+12823={
+	holding = none
+}
+12830={
+	holding = castle_holding
+}
+12834={
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+	buildings = { castle_04 }
+	special_building_slot = white_horse_temple_01
+	special_building = white_horse_temple_01
+	duchy_capital_building = luoyang_palace_01
+}
+12837={
+	culture = han
+	religion = zhengyi
+	holding = castle_holding
+}
+12839={
+	culture = han
+	religion = zhengyi
+	holding = none
+}
+12843={
+	holding = castle_holding
+}
+12847={
+	holding = none
+}
+12854={
+	holding = city_holding
+}
+12857={
+	holding = none
+}
+12859={
+	holding = none
+}
+12876={
+	holding = city_holding
+	special_building_slot = generic_university
+	1035.1.1 = { special_building = generic_university }
+}
+12883={
+	holding = city_holding
+	special_building = china_grand_canal_01
+}
+12913={
+	holding = none
+}
+12939={
+	culture = han
+	religion = zhengyi
+	holding = none
+}

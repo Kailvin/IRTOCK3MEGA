@@ -1,0 +1,87 @@
+k_melayu={
+	423.7.6 = { liege = 0 }
+}
+d_jambi={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_muaro_jambi_holder liege = 0 }
+}
+c_muaro_jambi={
+	423.7.6 = { holder = IRToCK3_c_muaro_jambi_holder change_development_level = 0 }
+}
+c_sungai_berbak={
+	423.7.6 = { holder = IRToCK3_c_muaro_jambi_holder change_development_level = 0 }
+}
+c_tanjung_bolo={
+	423.7.6 = { holder = IRToCK3_c_muaro_jambi_holder change_development_level = 0 }
+}
+c_batanghari={
+	423.7.6 = { holder = IRToCK3_c_muaro_jambi_holder change_development_level = 0 }
+}
+c_tebo={
+	423.7.6 = { holder = IRToCK3_c_muaro_jambi_holder change_development_level = 0 }
+}
+d_kerinci={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kerinci_holder liege = 0 }
+}
+c_kerinci={
+	423.7.6 = { holder = IRToCK3_c_kerinci_holder change_development_level = 0 }
+}
+c_merangin={
+	423.7.6 = { holder = IRToCK3_c_kerinci_holder change_development_level = 0 }
+}
+c_serolangun={
+	423.7.6 = { holder = IRToCK3_c_kerinci_holder change_development_level = 0 }
+}
+c_bungo={
+	423.7.6 = { holder = IRToCK3_c_kerinci_holder change_development_level = 0 }
+}
+d_siak={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_siak_holder liege = 0 }
+}
+c_siak={
+	423.7.6 = { holder = IRToCK3_c_siak_holder change_development_level = 0 }
+}
+c_rokan={
+	423.7.6 = { holder = IRToCK3_c_siak_holder change_development_level = 0 }
+}
+c_kampar={
+	423.7.6 = { holder = IRToCK3_c_siak_holder change_development_level = 0 }
+}
+c_indragiri={
+	423.7.6 = { holder = IRToCK3_c_siak_holder change_development_level = 0 }
+}
+c_pelalawan={
+	423.7.6 = { holder = IRToCK3_c_siak_holder change_development_level = 0 }
+}
+d_riau={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_batam_holder government = tribal_government }
+}
+c_batam={
+	423.7.6 = { holder = IRToCK3_c_batam_holder change_development_level = 0 }
+}
+c_lingga={
+	423.7.6 = { holder = IRToCK3_c_batam_holder change_development_level = 0 }
+}
+d_mentawai={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mentawai_islands_holder government = tribal_government }
+}
+c_mentawai_islands={
+	423.7.6 = { holder = IRToCK3_c_mentawai_islands_holder change_development_level = 0 }
+}
+d_minangkabau={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_dharmasraya_holder government = feudal_government }
+}
+c_dharmasraya={
+	423.7.6 = { holder = IRToCK3_c_dharmasraya_holder change_development_level = 0 }
+}
+c_darek={
+	423.7.6 = { holder = IRToCK3_c_dharmasraya_holder change_development_level = 0 }
+}
+c_pariaman={
+	423.7.6 = { holder = IRToCK3_c_dharmasraya_holder change_development_level = 0 }
+}
+c_pasaman={
+	423.7.6 = { holder = IRToCK3_c_dharmasraya_holder change_development_level = 0 }
+}
+c_inderapura={
+	423.7.6 = { holder = IRToCK3_c_dharmasraya_holder change_development_level = 0 }
+}

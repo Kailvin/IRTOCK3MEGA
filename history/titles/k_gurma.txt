@@ -1,0 +1,56 @@
+k_gurma={
+	423.7.6 = { liege = 0 }
+}
+d_lower_gurma={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gurma_holder liege = 0 }
+}
+c_gurma={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_gurma_holder change_development_level = 0 }
+}
+c_bura={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_gurma_holder change_development_level = 0 }
+}
+c_say={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_gurma_holder change_development_level = 0 }
+}
+c_biun={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_gurma_holder change_development_level = 0 }
+}
+d_upper_gurma={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_oudalan_holder liege = 0 }
+}
+c_oudalan={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_oudalan_holder change_development_level = 0 }
+}
+c_kurumba={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_oudalan_holder change_development_level = 0 }
+}
+c_upper_gurma={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_oudalan_holder change_development_level = 0 }
+}
+d_yatenga={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_yatenga_holder liege = 0 }
+}
+c_yatenga={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_yatenga_holder change_development_level = 0 }
+}
+c_gondo={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_yatenga_holder change_development_level = 0 }
+}
+c_seno={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_yatenga_holder change_development_level = 0 }
+}
+c_bandiagara={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_yatenga_holder change_development_level = 0 }
+}

@@ -1,0 +1,64 @@
+1150={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1170={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = jungle
+}
+1298={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1299={
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+3315={
+	holding = none
+}
+3316={
+	holding = none
+}
+3317={
+	holding = none
+}
+3318={
+	holding = castle_holding
+}
+3319={
+	holding = castle_holding
+}
+3320={
+	holding = city_holding
+}
+3321={
+	holding = city_holding
+	terrain = jungle
+}
+3322={
+	holding = none
+	terrain = jungle
+}
+3323={
+	holding = castle_holding
+	terrain = jungle
+}
+3324={
+	holding = city_holding
+	terrain = jungle
+}
+3325={
+	holding = city_holding
+}
+3326={
+	holding = city_holding
+}
+3327={
+	holding = none
+}

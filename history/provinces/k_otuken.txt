@@ -1,0 +1,298 @@
+1457={
+	culture = uigur
+	religion = manichean
+	holding = tribal_holding
+	900.1.1 = { culture = tongra }
+	1005.1.1 = { culture = kerait }
+}
+1461={
+	holding = none
+}
+7500={
+	holding = none
+}
+7517={
+	holding = none
+}
+7518={
+	holding = none
+}
+7519={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+}
+7520={
+	holding = none
+}
+7521={
+	holding = none
+}
+7522={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+	1005.1.1 = { culture = kerait }
+}
+7523={
+	holding = none
+}
+7524={
+	holding = none
+}
+7525={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { religion = manichean }
+	1005.1.1 = { culture = kerait }
+}
+7526={
+	holding = none
+}
+7527={
+	holding = none
+}
+7528={
+	holding = none
+}
+7529={
+	holding = none
+}
+7530={
+	culture = siqar
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = uigur }
+	1050.1.1 = { culture = dukha religion = ulganism }
+}
+7531={
+	holding = none
+}
+7532={
+	holding = none
+}
+7533={
+	holding = none
+}
+7534={
+	holding = none
+}
+7535={
+	holding = none
+}
+7536={
+	culture = merkit
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+7537={
+	culture = merkit
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+7541={
+	holding = none
+}
+7542={
+	holding = none
+}
+7543={
+	holding = none
+}
+7544={
+	holding = none
+}
+7545={
+	culture = uigur
+	religion = manichean
+	holding = tribal_holding
+	1000.1.1 = { culture = merkit }
+}
+7546={
+	culture = dukha
+	religion = ulganism
+	holding = tribal_holding
+}
+7547={
+	holding = none
+}
+7548={
+	holding = none
+}
+7550={
+	holding = none
+}
+7551={
+	culture = merkit
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+7552={
+	culture = merkit
+	religion = eastern_tengri
+	holding = tribal_holding
+}
+7554={
+	holding = none
+}
+7557={
+	holding = none
+}
+7568={
+	culture = qun
+	religion = tengri_pagan
+	holding = tribal_holding
+	1005.1.1 = { culture = kerait }
+}
+7569={
+	culture = bayirku
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = qun }
+	1005.1.1 = { culture = kerait }
+}
+7570={
+	holding = none
+}
+7571={
+	holding = none
+}
+7572={
+	holding = none
+}
+7573={
+	holding = none
+}
+7575={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = tongra }
+	1005.1.1 = { culture = kerait }
+}
+7576={
+	holding = none
+}
+7580={
+	holding = none
+}
+7581={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	1005.1.1 = { culture = kerait }
+}
+7582={
+	holding = none
+}
+7694={
+	holding = none
+}
+7746={
+	culture = uigur
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = merkit religion = eastern_tengri }
+}
+7783={
+	holding = none
+}
+11852={
+	holding = none
+}
+12022={
+	holding = none
+}
+12172={
+	holding = none
+}
+12191={
+	holding = none
+}
+12220={
+	holding = none
+}
+12264={
+	culture = tongra
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+}
+12278={
+	holding = none
+}
+12383={
+	culture = uigur
+	religion = manichean
+	holding = tribal_holding
+	900.1.1 = { culture = tongra religion = tengri_pagan }
+	1050.1.1 = { culture = balhae }
+	1150.1.1 = { culture = kerait }
+}
+12441={
+	holding = none
+}
+12548={
+	holding = none
+}
+12597={
+	holding = none
+}
+12636={
+	culture = tongra
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+}
+12639={
+	holding = none
+}
+12711={
+	culture = tongra
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+}
+12718={
+	holding = none
+}
+12735={
+	holding = none
+}
+12742={
+	holding = none
+}
+12785={
+	holding = none
+}
+12864={
+	holding = none
+}
+13202={
+	holding = none
+}
+13247={
+	holding = none
+}
+13430={
+	holding = none
+}
+13536={
+	holding = none
+}
+13537={
+	holding = none
+}
+13772={
+	holding = none
+}
+13969={
+	culture = qun
+	religion = tengri_pagan
+	holding = tribal_holding
+	900.1.1 = { culture = mongol religion = eastern_tengri }
+	1005.1.1 = { culture = kerait }
+}

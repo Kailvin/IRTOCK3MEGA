@@ -1,0 +1,18 @@
+k_IRTOCK3_F38={
+	-101.12.5 = { holder = imperator111115 government = nomadic_government }
+	347.9.8 = { holder = imperator182949 government = nomadic_government }
+	396.12.9 = { holder = imperator183647 government = nomadic_government }
+	407.3.4 = { holder = imperator196072 government = nomadic_government }
+	423.7.6 = { succession_laws = { high_partition_succession_law } }
+}
+d_novosil={
+	423.7.6 = { liege = 0 }
+}
+c_novosil={
+	407.3.4 = { liege = 0 holder = imperator196072 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_odoyev={
+	421.11.14 = { liege = 0 holder = imperator203336 }
+	423.7.6 = { change_development_level = 2 }
+}

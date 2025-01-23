@@ -1,0 +1,58 @@
+k_sao={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+d_baguirmi={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_baguirmi_holder liege = 0 }
+}
+c_baguirmi={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_baguirmi_holder change_development_level = 1 }
+}
+c_banre={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_baguirmi_holder }
+}
+c_barma={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_baguirmi_holder }
+}
+c_masa={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_baguirmi_holder }
+}
+c_kuku={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_baguirmi_holder }
+}
+c_tumak={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_baguirmi_holder }
+}
+d_salamat={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_salamat_holder liege = 0 }
+}
+c_salamat={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_salamat_holder change_development_level = 1 }
+}
+c_dar_rashid={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_salamat_holder }
+}
+d_wandala={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_wandala_holder liege = 0 }
+}
+c_wandala={
+	340.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_wandala_holder change_development_level = 1 }
+}
+c_kotoko={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_wandala_holder }
+}
+c_diamare={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_wandala_holder }
+}
+c_garoua={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_wandala_holder }
+}
+c_kera={
+	423.7.6 = { change_development_level = 1 holder = IRToCK3_c_wandala_holder }
+}

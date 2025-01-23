@@ -1,0 +1,51 @@
+k_sibir={
+	423.7.6 = { liege = 0 }
+}
+d_sibir={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_sibir_holder government = tribal_government }
+}
+c_sibir={
+	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
+}
+c_tobol={
+	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
+}
+c_belogorje={
+	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
+}
+c_bardak={
+	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
+}
+d_ishim={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ishim_holder government = tribal_government }
+}
+c_ishim={
+	423.7.6 = { holder = IRToCK3_c_ishim_holder change_development_level = 0 }
+}
+c_dolgujar={
+	423.7.6 = { holder = IRToCK3_c_ishim_holder change_development_level = 0 }
+}
+d_tara={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tara_holder liege = 0 }
+}
+c_tara={
+	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
+}
+c_kazanskoye={
+	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
+}
+c_petropavolsk={
+	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
+}
+d_lanikaz={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_omsk_holder liege = 0 }
+}
+c_omsk={
+	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
+}
+c_kainsk={
+	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
+}
+c_pavlodar={
+	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
+}

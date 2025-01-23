@@ -1,0 +1,15 @@
+k_IRTOCK3_L84={
+	422.9.15 = { holder = imperator204390 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_dandakaranya={
+	423.7.6 = { liege = 0 }
+}
+c_cakrakuta={
+	422.9.15 = { liege = 0 holder = imperator204390 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_barasuru={
+	422.9.15 = { liege = 0 holder = imperator204390 }
+	423.7.6 = { change_development_level = 15 }
+}

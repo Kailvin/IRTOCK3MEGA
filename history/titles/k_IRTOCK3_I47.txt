@@ -1,0 +1,43 @@
+k_IRTOCK3_I47={
+	190.1.1 = { holder = imperator155438 government = feudal_government }
+	235.1.5 = { holder = imperator156465 government = feudal_government }
+	244.10.9 = { holder = imperator161455 government = autocratic_government }
+	299.9.26 = { holder = imperator169579 government = autocratic_government }
+	355.12.10 = { holder = imperator175464 government = autocratic_government }
+	362.9.25 = { holder = imperator182388 government = autocratic_government }
+	421.6.19 = { holder = imperator189846 government = autocratic_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_oman={
+	423.7.6 = { liege = 0 }
+}
+c_nizwa={
+	421.6.19 = { liege = 0 holder = imperator189846 }
+	423.7.6 = { liege = k_IRTOCK3_I47 holder = imperator184407 change_development_level = 8 }
+}
+b_bahla={
+	423.7.6 = { holder = imperator184407 }
+}
+c_julfar={
+	421.6.19 = { liege = 0 holder = imperator189846 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_batina={
+	421.6.19 = { liege = 0 holder = imperator189846 }
+	423.7.6 = { liege = k_IRTOCK3_I47 holder = imperator184407 change_development_level = 12 }
+}
+c_az-dhahira={
+	421.6.19 = { liege = 0 holder = imperator189846 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_muscat={
+	421.6.19 = { liege = 0 holder = imperator189846 }
+	423.7.6 = { liege = k_IRTOCK3_I47 holder = imperator187779 change_development_level = 11 }
+}
+b_matrah={
+	423.7.6 = { holder = imperator188984 }
+}
+c_duqm={
+	422.9.14 = { liege = 0 holder = imperator203764 }
+	423.7.6 = { change_development_level = 8 }
+}

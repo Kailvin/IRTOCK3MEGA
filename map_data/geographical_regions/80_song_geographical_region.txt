@@ -3,24 +3,40 @@
 special_song_conquest_region_1 = {
 	duchies = {
 		# k_orissa
-		d_tosali
-		d_kalinga
-
-		# k_andhra
-		d_vengi
-		d_udayagiri
+		d_lingnan_china
+		d_chaoshan_china
+		d_qiongya_china
+		d_ronguang_china
+		d_yongguan_china
+		d_guiguan_china
 	}
 }
 
 special_song_conquest_region_2 = {
 	duchies = {
-		# k_telingana
-		d_warangal
-		d_racakonda
-
-		# k_orissa
-		d_dandakaranya
-		d_daksina_kosala
+		d_fujian_china
+		d_luling_china
+		d_hunan_china
+		d_wuxi_china
+		d_zhedong_china
+		d_jiangxi_china
+		d_eyue_china
+		d_huaixi_china
+		d_xuanshe_china
+		d_zhenhai_china
+		d_zangke_china
+		d_bozhou_china
+		d_qianzhong_china
+		d_ningjiang_china
+		d_jingnan_china
+		d_ba_china
+		d_jinshang_china
+		d_hanzhong_china
+		d_dongchuan_china
+		d_xichuan_china
+		d_yongping_china
+		d_luzhou_china
+		d_mangbu_china
 	}
 }
 

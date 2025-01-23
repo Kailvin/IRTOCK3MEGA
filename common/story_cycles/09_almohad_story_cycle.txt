@@ -1,0 +1,350 @@
+﻿# Story for the almohad Invasion
+# originally made by Petter Vilberg
+# adjusted by me
+
+story_almohad_invasion_mod = {
+	on_setup = {
+		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
+			INVADER_DYNN = almohad # for story start global variable
+			INVADER_TITLE = title:e_almohad # title the invader spawns with
+		}
+		story_owner = { 
+			almohad_maintenance_effect = {
+				INVADER_DYNN = almohad
+				INVADER_CHAR = scope:story.story_owner
+				INVADER_TITLE = scope:story.var:invader_title_var
+				LANDLESS_YES_NO = no
+				#STARTING_TIER = duchy
+			}
+			if = { # if e_maghreb is created, spawn as a vassal and start a claim war
+				limit = {
+					title:e_maghreb = { is_title_created = yes }
+				}
+				start_war = {
+					cb = claim_cb
+					claimant = scope:story.story_owner
+					target = title:e_maghreb.holder
+					target_title = title:e_maghreb
+				}
+			}
+			else_if = { # if e_almoravid is created, spawn as a vassal and start a claim war
+				limit = {
+					title:e_almoravid = { is_title_created = yes }
+				}
+				start_war = {
+					cb = claim_cb
+					claimant = scope:story.story_owner
+					target = title:e_almoravid.holder
+					target_title = title:e_almoravid
+				}
+			}
+			else = { # if e_almoravid is not created, declare war on everyone in k_maghreb and directly spawn the empire
+				trigger_event = {
+					id = almohad_invasion.0200
+					months = 1
+				}
+			}
+			almohad_create_artifacts_effect = yes
+		}
+		set_global_variable = { # base game variable
+			name = spawned_almohads
+			value = yes
+		}
+	}
+
+	on_end = {
+		invader_story_on_end_effect = { INVADER_DYNN = almohad }
+
+		### attempt to switch over to local title
+		if = {
+			limit = {
+				story_owner = {
+					is_alive = no
+					exists = player_heir
+				}
+			}
+			story_owner.player_heir = { save_scope_as = replacement_title_holder }
+		}
+		if = {
+			limit = {
+				hi_can_story_switch_to_local_title_trigger = {
+					INVADER_TITLE = e_almohad # to be replaced by
+					LOCAL_TITLE = e_maghreb
+				}
+			}
+			hi_story_switches_to_local_title_effect = {
+				INVADER_TITLE = e_almohad # to be replaced by
+				LOCAL_TITLE = e_maghreb
+			}
+		}
+
+		### struggle involvement
+		if = {
+			limit = {
+				has_fp2_dlc_trigger = yes
+				exists = struggle:iberian_struggle
+				struggle:iberian_struggle = {
+					# faith isn't yet involved
+					NOT = { is_faith_involved_in_struggle = faith:masmudi }
+					# any interloper = not involved
+					any_interloper_ruler = {
+						faith = faith:masmudi
+						OR = {
+							top_liege = scope:story.story_owner
+							this = scope:story.story_owner
+						}
+					}
+				}
+			}
+			story_owner = { save_scope_as = invader } # event localization
+			struggle:iberian_struggle = {
+				set_faith_as_involved = faith:masmudi
+				# notification event
+				every_involved_ruler = {
+					limit = { is_ai = no }
+					trigger_event = almohad_invasion.1002
+				}
+			}
+		}
+
+		destroy_titular_invader_title_effect = yes
+	}
+
+	on_owner_death = {
+		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
+		random = {
+			chance = 0
+			modifier = {
+				add = 0
+				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			modifier = {
+				add = 30
+				var:story_owner_counter >= 2
+			}
+			modifier = {
+				add = 70
+				var:story_owner_counter >= 3
+			}
+			set_variable = {
+				name = end_of_invasion_story
+				value = yes
+			}
+		}
+		invader_story_on_death_effect = { INVADER_DYNN = almohad }
+	}
+
+	# misc maintenance
+	effect_group = {
+		days = 1 # historicinvasions_story_maintenance_value
+
+		trigger = { always = yes }
+
+		# make sure they have money on hand
+		triggered_effect = {
+			trigger = { story_owner = { gold < 0 } }
+			effect = { story_owner = { add_gold = 300 } }
+		}
+
+		# end the story prematurely, because their conquests have been completed
+		triggered_effect = {
+			trigger = {
+				story_owner = { completely_controls_region = special_almohad_conquest_region_total }
+			}
+			effect = {
+				debug_log = "ending almohad story because the conquest goal has been completed"
+				end_story = yes
+			}
+		}
+
+		# end the story prematurely, because the invader has lost their #th offensive war
+		triggered_effect = {
+			trigger = {
+				NOT = { has_game_rule = historicinvasions_invasion_ends_after_defeat_disabled }
+			}
+			effect = {
+				historicinvasions_invasion_ends_after_defeat_effect = yes
+			}
+		}
+
+		# prevent kingdoms under e_spain from shifting into the invader's primary title
+		triggered_effect = {
+			trigger = {
+				always = yes
+			}
+			effect = {
+				story_owner = {
+					every_realm_de_jure_kingdom = {
+						limit = {
+							de_jure_liege = title:e_spain
+							de_jure_drift_progress = {
+								target = scope:story.var:invader_title_var
+								value > 12 # months
+							}
+						}
+						change_de_jure_drift_progress = {
+							target = scope:story.var:invader_title_var
+							value = -12 # months
+						}
+					}
+				}
+			}
+		}
+
+		# faith becomes involved in the iberian struggle
+		triggered_effect = {
+			trigger = {
+				has_fp2_dlc_trigger = yes
+				exists = struggle:iberian_struggle
+				struggle:iberian_struggle = {
+					# faith isn't yet involved
+					NOT = { is_faith_involved_in_struggle = faith:masmudi }
+					# any interloper = not involved
+					any_interloper_ruler = {
+						faith = faith:masmudi
+						OR = {
+							top_liege = scope:story.story_owner
+							this = scope:story.story_owner
+						}
+					}
+				}
+			}
+			effect = {
+				struggle:iberian_struggle = { set_faith_as_involved = faith:masmudi }
+			}
+		}
+	}
+
+	#Start a new war if none is ongoing
+	effect_group = {
+		days = { 365 730 }
+
+		trigger = { story_owner = { is_ai = yes } }
+
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = { has_character_flag = invasion_ends_after_player_win }
+				}
+				effect = {
+					debug_log = "ending almohad story because a player was able to defend against the invader"
+					end_story = yes
+				}
+			}
+			triggered_effect = { # kingdoms
+				trigger = {
+					story_owner = {
+						should_invader_declare_war_trigger = { INVADER_TITLE = scope:story.var:invader_title_var }
+						NOT = { completely_controls_region = special_almohad_conquest_region_core }
+					}
+				}
+				effect = {
+					story_owner = {
+						war_target_evaluation_and_declaration_effect = {
+							INVADER_DYNN = almohad
+							INVADER_CHAR = scope:story.story_owner
+							INVADER_REGION = core
+							INVADER_TARGET_TITLE_TIER = kingdom
+							INVADER_RANGE = neighboring
+							INVADER_LIEGE_RESTRICTIONS = ""
+						}
+					}
+				}
+			}
+			triggered_effect = { # duchies // hispania
+				trigger = {
+					story_owner = {
+						should_invader_declare_war_trigger = { INVADER_TITLE = scope:story.var:invader_title_var }
+						completely_controls_region = special_almohad_conquest_region_core
+					}
+				}
+				effect = {
+					story_owner = {
+						war_target_evaluation_and_declaration_effect = {
+							INVADER_DYNN = almohad
+							INVADER_CHAR = scope:story.story_owner
+							INVADER_REGION = 4
+							INVADER_TARGET_TITLE_TIER = duchy
+							INVADER_RANGE = neighboring
+							INVADER_LIEGE_RESTRICTIONS = ""
+						}
+					}
+				}
+			}
+		}
+	}
+
+	effect_group = { # amghar started as a vassal; check whether he ought to become an emperor now
+		days = 120
+
+		trigger = {
+			exists = global_var:almohad_coup
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = historicinvasions_titles
+					target = flag:almohad_title_spawned
+				}
+			}
+		}
+
+		triggered_effect = {
+			trigger = {
+				title:e_almoravid.holder = scope:story.story_owner
+			}
+			effect = {
+				story_owner = {
+					form_the_almohad_title_effect = {
+						INVADER_DYNN = almohad
+						INVADER_CHAR = scope:story.story_owner
+						INVADER_TITLE = scope:story.var:invader_title_var
+						LANDLESS_YES_NO = no
+					}
+				}
+			}
+		}
+	}
+
+	# Story handling in case of succession weirdness
+	effect_group = {
+		days = historicinvasions_succession_weirdness_value
+
+		trigger = {
+			NOT = { story_owner = { has_title = scope:story.var:invader_title_var } }
+			# if invader spawns as a vassal, the above title obviously won't exist yet; automatically clears itself after some time
+			NOT = { exists = global_var:almohad_coup }
+		}
+
+		# either transfer story ownership or end story if the title is not created
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				hi_check_for_valid_story_owner_effect = {
+					INVADER_TITLE = scope:story.var:invader_title_var
+					STORY_COUNTER_INCREASE = 0
+				}
+			}
+		}
+	}
+
+	# switch to local title
+	effect_group = {
+		days = 240
+
+		trigger = {}
+
+		triggered_effect = {
+			trigger = {
+				hi_can_story_switch_to_local_title_trigger = {
+					INVADER_TITLE = e_almohad
+					LOCAL_TITLE = e_maghreb
+				}
+			}
+			effect = {
+				hi_story_switches_to_local_title_effect = {
+					INVADER_TITLE = e_almohad
+					LOCAL_TITLE = e_maghreb
+				}
+			}
+		}
+	}
+}

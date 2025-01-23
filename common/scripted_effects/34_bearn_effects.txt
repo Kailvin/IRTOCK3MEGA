@@ -1,0 +1,114 @@
+﻿# invader appears, before story
+spawn_bearn_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+
+	# INVADER
+	create_character = {
+		template = sigeweard_bearn_character_template
+		dynasty = generate
+		location = scope:invader_spawn_location
+		save_scope_as = invader
+	}
+	scope:invader = {
+		add_gold = 400
+		add_prestige = 75
+		add_piety = 50
+		
+		dynasty = {
+			set_dynasty_name = hi_dynn_bearn
+			set_coa = title:d_bearn
+
+			add_dynasty_prestige_level = 1
+			add_dynasty_prestige = 750
+
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+		house = {
+			set_house_name = hi_dynn_bearn
+		}
+	}
+}
+
+bearn_add_dynasty_perks_effect = {}
+
+bearn_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	spawn_$INVADER_DYNN$_family_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_bearn_family_effect = {
+	$INVADER_CHAR$ = { trigger_event = game_rule.1001 }
+
+	# government
+	apply_invader_government_type_effect = { INVADER_CHAR = $INVADER_CHAR$ }
+
+	# culture
+	$INVADER_CHAR$.capital_county = { set_county_culture = $INVADER_CHAR$.culture }
+
+	# faith
+	#$INVADER_CHAR$.capital_county = { set_county_faith = $INVADER_CHAR$.faith }
+}
+
+# Make sure invader has troops
+spawn_bearn_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_bearn_army_effect = yes
+	}
+	spawn_bearn_army_effect = yes
+	if = {
+		limit = { game_start_date < 1000.1.1 }
+		spawn_bearn_army_effect = yes
+		spawn_bearn_army_effect = yes
+	}
+}
+spawn_bearn_army_effect = {
+	spawn_army = {
+		name = bearn_event_troops
+		location = primary_title.title_capital_county.title_province
+		war = scope:war
+		war_keep_on_attacker_victory = no
+		uses_supply = no
+		inheritable = no
+		
+		levies = 750
+		men_at_arms = {
+			type = armored_footmen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 5
+		}
+		men_at_arms = {
+			type = pikemen_unit
+			stacks = 7
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 7
+		}
+		# siege
+		men_at_arms = {
+			type = mangonel
+			stacks = 5
+		}
+	}
+}

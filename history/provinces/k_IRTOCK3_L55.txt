@@ -1,10 +1,4 @@
-808={
-	holding = none
-}
-809={
-	holding = none
-}
-810={
+400={
 	culture = indo_greek
 	faith = hellenic_pagan
 	holding = castle_holding
@@ -56,9 +50,9 @@
 	holding = none
 }
 826={
-	culture = bengali
-	faith = sedism
-	holding = none
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 827={
 	holding = city_holding

@@ -32,9 +32,9 @@
 
 
 # Filled Near
-@filled_near_gradient_alpha_inside = 			0.3
+@filled_near_gradient_alpha_inside = 			1
 @filled_near_gradient_alpha_outside = 			@hollow_near_gradient_alpha_outside
-@filled_near_gradient_width = 					0.2
+@filled_near_gradient_width = 					0.4
 @filled_near_gradient_color_mult = 				1
 @filled_near_edge_width = 						@hollow_near_gradient_width
 @filled_near_edge_sharpness = 					0.000
@@ -48,7 +48,7 @@
 @filled_mid_gradient_alpha_outside = 			@filled_near_gradient_alpha_outside
 @filled_mid_gradient_width = 					@filled_near_gradient_width
 @filled_mid_gradient_color_mult = 				@filled_near_gradient_color_mult
-@filled_mid_edge_width = 						0.03
+@filled_mid_edge_width = 						@[hollow_near_edge_width*2]
 @filled_mid_edge_sharpness = 					@filled_near_edge_sharpness
 @filled_mid_edge_alpha = 						@filled_near_edge_alpha
 @filled_mid_edge_color_mult = 					@filled_near_edge_color_mult
@@ -60,7 +60,7 @@
 @filled_far_gradient_alpha_outside = 			@filled_mid_gradient_alpha_outside
 @filled_far_gradient_width = 					@filled_mid_gradient_width
 @filled_far_gradient_color_mult = 				@filled_mid_gradient_color_mult
-@filled_far_edge_width = 						0.03
+@filled_far_edge_width = 						@filled_mid_edge_width
 @filled_far_edge_sharpness = 					@filled_mid_edge_sharpness
 @filled_far_edge_alpha = 						@filled_mid_edge_alpha
 @filled_far_edge_color_mult = 					@filled_mid_edge_color_mult
@@ -68,11 +68,11 @@
 @filled_far_after_lighting_blend = 				1
 
 # Filled Pre Flat Map
-@pre_flat_map_gradient_alpha_inside = 			1
+@pre_flat_map_gradient_alpha_inside = 			@filled_far_gradient_alpha_inside
 @pre_flat_map_gradient_alpha_outside = 			@filled_far_gradient_alpha_outside
 @pre_flat_map_gradient_width = 					@filled_far_gradient_width
 @pre_flat_map_gradient_color_mult = 			@filled_far_gradient_color_mult
-@pre_flat_map_edge_width = 						0.03
+@pre_flat_map_edge_width = 						@filled_far_edge_width
 @pre_flat_map_edge_sharpness = 					@filled_far_edge_sharpness
 @pre_flat_map_edge_alpha = 						@filled_far_edge_alpha
 @pre_flat_map_edge_color_mult = 				@filled_far_edge_color_mult
@@ -80,11 +80,11 @@
 @pre_flat_map_after_lighting_blend = 			@filled_far_after_lighting_blend
 
 # Flat Map
-@flat_map_gradient_alpha_inside = 				0.96
+@flat_map_gradient_alpha_inside = 				0.8
 @flat_map_gradient_alpha_outside = 				@pre_flat_map_gradient_alpha_outside
 @flat_map_gradient_width = 						@pre_flat_map_gradient_width
 @flat_map_gradient_color_mult = 				@pre_flat_map_gradient_color_mult
-@flat_map_edge_width = 							0.03
+@flat_map_edge_width = 							@pre_flat_map_edge_width
 @flat_map_edge_sharpness = 						@pre_flat_map_edge_sharpness
 @flat_map_edge_alpha = 							@pre_flat_map_edge_alpha
 @flat_map_edge_color_mult = 					@pre_flat_map_edge_color_mult
@@ -3843,7 +3843,7 @@ legends = {
 }
 
 landless_rulers = {
-	color_mode = landless_rulers
+	color_mode = selected_character_realms
 	small_map_names = counties
 	large_map_names = selected_character_realms
 	selection = selected_character_realms_or_holdings

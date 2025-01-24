@@ -2133,7 +2133,7 @@ e_western_roman_empire = {
 					NOT = { has_dlc_feature = roads_to_power }
 				}
 				holder = {
-					change_government = imperial_government
+					change_government = administrative_government
 					add_realm_law_skip_effects = single_heir_succession_law
 				}
 			}

@@ -1,5 +1,5 @@
 k_IRTOCK3_GAR_lower_nubia_region={
-	394.1.26 = { liege = e_IRTOCK3_GAR holder = imperator194390 government = imperial_government succession_laws = { high_partition_succession_law } }
+	394.1.26 = { liege = e_IRTOCK3_GAR holder = imperator194390 government = administrative_government succession_laws = { high_partition_succession_law } }
 }
 d_nobatia={
 	423.7.6 = { liege = 0 }

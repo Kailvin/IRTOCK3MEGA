@@ -88,14 +88,14 @@ k_IRTOCK3_MNA={
 	193.8.8 = { holder = imperator146714 government = city_state_government }
 	196.12.25 = { holder = imperator153664 government = city_state_government }
 	201.12.25 = { holder = imperator151312 government = city_state_government }
-	223.2.1 = { holder = imperator158035 government = imperial_government }
-	274.12.29 = { holder = imperator166473 government = imperial_government }
-	278.5.4 = { holder = imperator158877 government = imperial_government }
-	283.9.27 = { holder = imperator165048 government = imperial_government }
-	312.5.19 = { holder = imperator171751 government = imperial_government }
-	363.4.7 = { holder = imperator179684 government = imperial_government }
-	394.2.3 = { holder = imperator188018 government = imperial_government }
-	417.5.21 = { holder = imperator193903 government = imperial_government }
+	223.2.1 = { holder = imperator158035 government = administrative_government }
+	274.12.29 = { holder = imperator166473 government = administrative_government }
+	278.5.4 = { holder = imperator158877 government = administrative_government }
+	283.9.27 = { holder = imperator165048 government = administrative_government }
+	312.5.19 = { holder = imperator171751 government = administrative_government }
+	363.4.7 = { holder = imperator179684 government = administrative_government }
+	394.2.3 = { holder = imperator188018 government = administrative_government }
+	417.5.21 = { holder = imperator193903 government = administrative_government }
 	423.7.6 = { succession_laws = { male_preference_law acclamation_succession_law } }
 }
 d_bedford={

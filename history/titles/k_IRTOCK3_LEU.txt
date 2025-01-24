@@ -32,20 +32,20 @@ k_IRTOCK3_LEU={
 	118.3.31 = { holder = imperator138592 government = nomadic_government }
 	135.2.21 = { holder = imperator141644 government = nomadic_government }
 	147.6.15 = { holder = imperator140199 government = nomadic_government }
-	154.6.10 = { holder = imperator145095 government = imperial_government }
-	192.11.16 = { holder = imperator147378 government = imperial_government }
-	218.4.19 = { holder = imperator152911 government = imperial_government }
-	254.7.20 = { holder = imperator155178 government = imperial_government }
-	262.10.24 = { holder = imperator164398 government = imperial_government }
-	318.12.6 = { holder = imperator168478 government = imperial_government }
-	346.11.29 = { holder = imperator176809 government = imperial_government }
-	392.4.20 = { holder = imperator177776 government = imperial_government }
-	402.7.23 = { holder = imperator185947 government = imperial_government }
+	154.6.10 = { holder = imperator145095 government = administrative_government }
+	192.11.16 = { holder = imperator147378 government = administrative_government }
+	218.4.19 = { holder = imperator152911 government = administrative_government }
+	254.7.20 = { holder = imperator155178 government = administrative_government }
+	262.10.24 = { holder = imperator164398 government = administrative_government }
+	318.12.6 = { holder = imperator168478 government = administrative_government }
+	346.11.29 = { holder = imperator176809 government = administrative_government }
+	392.4.20 = { holder = imperator177776 government = administrative_government }
+	402.7.23 = { holder = imperator185947 government = administrative_government }
 	423.5.22 = { liege = e_IRTOCK3_GAR }
 	423.7.6 = { succession_laws = { male_only_law acclamation_succession_law } }
 }
 d_fezzan={
-	418.8.29 = { government = imperial_government holder = imperator199856 liege = k_IRTOCK3_LEU succession_laws = { high_partition_succession_law } }
+	418.8.29 = { government = administrative_government holder = imperator199856 liege = k_IRTOCK3_LEU succession_laws = { high_partition_succession_law } }
 }
 c_murzuk={
 	418.8.29 = { liege = 0 holder = imperator199856 }

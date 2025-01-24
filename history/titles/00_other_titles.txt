@@ -477,11 +477,11 @@ e_caspian-pontic_steppe={
 	159.1.30 = { government = feudal_government holder = imperator147535 }
 	216.5.7 = { government = feudal_government holder = imperator150440 }
 	238.3.29 = { government = feudal_government holder = imperator161833 }
-	305.1.14 = { government = imperial_government holder = imperator162860 }
-	307.3.18 = { government = imperial_government holder = imperator170160 }
-	354.6.1 = { government = imperial_government holder = imperator175207 }
-	387.4.8 = { government = imperial_government holder = imperator182043 }
-	416.7.12 = { government = imperial_government holder = imperator198687 }
+	305.1.14 = { government = administrative_government holder = imperator162860 }
+	307.3.18 = { government = administrative_government holder = imperator170160 }
+	354.6.1 = { government = administrative_government holder = imperator175207 }
+	387.4.8 = { government = administrative_government holder = imperator182043 }
+	416.7.12 = { government = administrative_government holder = imperator198687 }
 	423.7.6 = { succession_laws = { male_preference_law acclamation_succession_law } }
 }
 k_greater_zichia={
@@ -1119,22 +1119,22 @@ e_IRTOCK3_BAC={
 	-258.9.17 = { holder = imperator47999 government = feudal_government }
 	-224.9.30 = { holder = imperator66771 government = feudal_government }
 	-221.5.13 = { holder = imperator77005 government = feudal_government }
-	-176.10.2 = { holder = imperator78283 government = imperial_government }
-	-146.10.9 = { holder = imperator86237 government = imperial_government }
-	-122.1.27 = { holder = imperator99830 government = imperial_government }
-	-71.1.11 = { holder = imperator109043 government = imperial_government }
-	-35.5.17 = { holder = imperator119004 government = imperial_government }
-	14.5.27 = { holder = imperator121889 government = imperial_government }
-	28.7.29 = { holder = imperator127997 government = imperial_government }
-	63.1.30 = { holder = imperator136160 government = imperial_government }
-	80.8.9 = { holder = imperator136739 government = imperial_government }
-	109.4.30 = { holder = imperator141862 government = imperial_government }
-	167.11.23 = { holder = imperator145917 government = imperial_government }
-	199.7.1 = { holder = imperator156883 government = imperial_government }
-	276.9.14 = { holder = imperator161736 government = imperial_government }
-	310.11.7 = { holder = imperator171322 government = imperial_government }
-	362.8.17 = { holder = imperator176776 government = imperial_government }
-	393.8.15 = { holder = imperator188168 government = imperial_government }
+	-176.10.2 = { holder = imperator78283 government = administrative_government }
+	-146.10.9 = { holder = imperator86237 government = administrative_government }
+	-122.1.27 = { holder = imperator99830 government = administrative_government }
+	-71.1.11 = { holder = imperator109043 government = administrative_government }
+	-35.5.17 = { holder = imperator119004 government = administrative_government }
+	14.5.27 = { holder = imperator121889 government = administrative_government }
+	28.7.29 = { holder = imperator127997 government = administrative_government }
+	63.1.30 = { holder = imperator136160 government = administrative_government }
+	80.8.9 = { holder = imperator136739 government = administrative_government }
+	109.4.30 = { holder = imperator141862 government = administrative_government }
+	167.11.23 = { holder = imperator145917 government = administrative_government }
+	199.7.1 = { holder = imperator156883 government = administrative_government }
+	276.9.14 = { holder = imperator161736 government = administrative_government }
+	310.11.7 = { holder = imperator171322 government = administrative_government }
+	362.8.17 = { holder = imperator176776 government = administrative_government }
+	393.8.15 = { holder = imperator188168 government = administrative_government }
 	423.7.6 = { succession_laws = { } }
 }
 e_IRTOCK3_PRN={
@@ -1145,25 +1145,25 @@ e_IRTOCK3_PRN={
 	-158.11.28 = { holder = imperator81075 government = feudal_government }
 	-156.1.11 = { holder = imperator96989 government = feudal_government }
 	-101.12.15 = { holder = imperator108563 government = autocratic_government }
-	-40.10.2 = { holder = imperator111940 government = imperial_government }
-	-39.3.31 = { holder = imperator118505 government = imperial_government }
-	-33.6.6 = { holder = imperator121078 government = imperial_government }
-	-23.9.13 = { holder = imperator121372 government = imperial_government }
-	-2.10.8 = { holder = imperator122053 government = imperial_government }
-	7.11.14 = { holder = imperator127522 government = imperial_government }
-	43.11.23 = { holder = imperator131515 government = imperial_government }
-	58.7.14 = { holder = imperator135785 government = imperial_government }
-	118.3.6 = { holder = imperator138785 government = imperial_government }
-	144.4.6 = { holder = imperator144076 government = imperial_government }
-	188.5.20 = { holder = imperator148847 government = imperial_government }
-	226.4.18 = { holder = imperator149807 government = imperial_government }
-	233.1.16 = { holder = imperator154051 government = imperial_government }
-	255.2.24 = { holder = imperator157900 government = imperial_government }
-	267.10.18 = { holder = imperator163441 government = imperial_government }
-	277.8.29 = { holder = imperator167284 government = imperial_government }
-	279.11.5 = { holder = imperator167906 government = imperial_government }
-	309.5.11 = { holder = imperator170728 government = imperial_government }
-	356.4.29 = { holder = imperator177495 government = imperial_government }
+	-40.10.2 = { holder = imperator111940 government = administrative_government }
+	-39.3.31 = { holder = imperator118505 government = administrative_government }
+	-33.6.6 = { holder = imperator121078 government = administrative_government }
+	-23.9.13 = { holder = imperator121372 government = administrative_government }
+	-2.10.8 = { holder = imperator122053 government = administrative_government }
+	7.11.14 = { holder = imperator127522 government = administrative_government }
+	43.11.23 = { holder = imperator131515 government = administrative_government }
+	58.7.14 = { holder = imperator135785 government = administrative_government }
+	118.3.6 = { holder = imperator138785 government = administrative_government }
+	144.4.6 = { holder = imperator144076 government = administrative_government }
+	188.5.20 = { holder = imperator148847 government = administrative_government }
+	226.4.18 = { holder = imperator149807 government = administrative_government }
+	233.1.16 = { holder = imperator154051 government = administrative_government }
+	255.2.24 = { holder = imperator157900 government = administrative_government }
+	267.10.18 = { holder = imperator163441 government = administrative_government }
+	277.8.29 = { holder = imperator167284 government = administrative_government }
+	279.11.5 = { holder = imperator167906 government = administrative_government }
+	309.5.11 = { holder = imperator170728 government = administrative_government }
+	356.4.29 = { holder = imperator177495 government = administrative_government }
 	390.6.22 = { holder = imperator193916 government = feudal_government }
 	415.10.5 = { holder = imperator200628 government = feudal_government }
 	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
@@ -1265,12 +1265,12 @@ e_IRTOCK3_BDI={
 	132.12.31 = { holder = imperator142994 government = feudal_government }
 	173.10.23 = { holder = imperator147795 government = feudal_government }
 	200.12.19 = { holder = imperator153944 government = feudal_government }
-	255.6.15 = { holder = imperator158029 government = imperial_government }
-	256.4.24 = { holder = imperator162916 government = imperial_government }
-	306.4.17 = { holder = imperator168560 government = imperial_government }
-	347.5.14 = { holder = imperator172027 government = imperial_government }
-	368.2.24 = { holder = imperator177384 government = imperial_government }
-	389.10.30 = { holder = imperator183693 government = imperial_government }
+	255.6.15 = { holder = imperator158029 government = administrative_government }
+	256.4.24 = { holder = imperator162916 government = administrative_government }
+	306.4.17 = { holder = imperator168560 government = administrative_government }
+	347.5.14 = { holder = imperator172027 government = administrative_government }
+	368.2.24 = { holder = imperator177384 government = administrative_government }
+	389.10.30 = { holder = imperator183693 government = administrative_government }
 	423.7.6 = { succession_laws = { equal_law acclamation_succession_law } }
 }
 k_IRTOCK3_ALZ={
@@ -1318,15 +1318,15 @@ e_IRTOCK3_GAR={
 	87.11.29 = { holder = imperator137937 government = feudal_government }
 	108.4.7 = { holder = imperator143678 government = feudal_government }
 	176.7.25 = { holder = imperator146632 government = feudal_government }
-	205.6.23 = { holder = imperator147778 government = imperial_government }
-	215.6.29 = { holder = imperator149818 government = imperial_government }
-	225.4.29 = { holder = imperator154554 government = imperial_government }
-	251.6.25 = { holder = imperator160057 government = imperial_government }
-	291.5.5 = { holder = imperator162850 government = imperial_government }
-	317.1.8 = { holder = imperator167303 government = imperial_government }
-	320.8.28 = { holder = imperator175719 government = imperial_government }
-	377.7.21 = { holder = imperator180309 government = imperial_government }
-	410.11.10 = { holder = imperator186910 government = imperial_government }
+	205.6.23 = { holder = imperator147778 government = administrative_government }
+	215.6.29 = { holder = imperator149818 government = administrative_government }
+	225.4.29 = { holder = imperator154554 government = administrative_government }
+	251.6.25 = { holder = imperator160057 government = administrative_government }
+	291.5.5 = { holder = imperator162850 government = administrative_government }
+	317.1.8 = { holder = imperator167303 government = administrative_government }
+	320.8.28 = { holder = imperator175719 government = administrative_government }
+	377.7.21 = { holder = imperator180309 government = administrative_government }
+	410.11.10 = { holder = imperator186910 government = administrative_government }
 	423.7.6 = { succession_laws = { male_preference_law acclamation_succession_law } }
 }
 e_IRTOCK3_B99={
@@ -2709,7 +2709,7 @@ d_IRTOCK3_M31={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_IRTOCK3_LEU_numidia_region={
-	395.5.19 = { liege = k_IRTOCK3_LEU holder = imperator184156 government = imperial_government succession_laws = { high_partition_succession_law } }
+	395.5.19 = { liege = k_IRTOCK3_LEU holder = imperator184156 government = administrative_government succession_laws = { high_partition_succession_law } }
 }
 d_IRTOCK3_I48_scythia_region={
 	399.9.22 = { liege = k_IRTOCK3_I48 holder = imperator186393 government = feudal_government succession_laws = { high_partition_succession_law } }

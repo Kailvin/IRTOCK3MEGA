@@ -83,14 +83,14 @@ k_IRTOCK3_ATH={
 	194.6.13 = { holder = imperator149413 government = theocracy_government }
 	199.6.13 = { holder = imperator148443 government = theocracy_government }
 	204.6.13 = { holder = imperator149188 government = theocracy_government }
-	208.3.17 = { holder = imperator154543 government = imperial_government }
-	256.1.9 = { holder = imperator160073 government = imperial_government }
-	294.1.21 = { holder = imperator163502 government = imperial_government }
-	314.6.3 = { holder = imperator164248 government = imperial_government }
-	322.10.11 = { holder = imperator173954 government = imperial_government }
-	381.4.15 = { holder = imperator179922 government = imperial_government }
-	383.10.30 = { holder = imperator182223 government = imperial_government }
-	417.1.6 = { holder = imperator194255 government = imperial_government }
+	208.3.17 = { holder = imperator154543 government = administrative_government }
+	256.1.9 = { holder = imperator160073 government = administrative_government }
+	294.1.21 = { holder = imperator163502 government = administrative_government }
+	314.6.3 = { holder = imperator164248 government = administrative_government }
+	322.10.11 = { holder = imperator173954 government = administrative_government }
+	381.4.15 = { holder = imperator179922 government = administrative_government }
+	383.10.30 = { holder = imperator182223 government = administrative_government }
+	417.1.6 = { holder = imperator194255 government = administrative_government }
 	423.5.22 = { liege = e_IRTOCK3_BDI }
 	423.7.6 = { succession_laws = { male_only_law acclamation_succession_law } }
 }

@@ -531,7 +531,7 @@ historicinvasions_invasion_war_valid_to_start_trigger = {
 	####### ANCIENT HISTORY
 	trigger_else_if = {
 		limit = {
-			scope:attacker = title:e_attila.holder
+			scope:attacker = title:e_hunnic_empire.holder
 		}
 		scope:target = {
 			tier = tier_kingdom

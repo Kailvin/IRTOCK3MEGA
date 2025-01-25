@@ -98,13 +98,41 @@ special_attila_conquest_region_4 = {
 		d_hesse
 		d_east_franconia
 		d_west_franconia
-
+		d_krain
+		d_steyermark
+		d_turnovo
+		d_philippopolis
+		d_strymon
+		d_thessalonika
+		d_thessaly
 		d_ostfalen
 
 		d_swabia
-		
+		d_osterreich
+		d_salzburg
+		d_bavaria
+		d_nordgau
+		d_augsburg
+		d_tyrol
+		d_lombardia
+		d_verona
+		d_friuli
+		d_emilia
+		d_romagna
+		d_piedmonte
+		d_genoa
 		# k_lotharingia
-		#d_lower_lorraine
+		d_lower_lorraine
+		d_upper_lorraine
+		d_bar
+		d_luxembourg
+		d_julich
+		d_brabant
+		d_valois
+		d_champagne
+		d_burgundy
+		d_orleans
+		d_upper_burgundy
 	}
 }
 

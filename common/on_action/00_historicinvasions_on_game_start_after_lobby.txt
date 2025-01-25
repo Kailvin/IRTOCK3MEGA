@@ -117,6 +117,15 @@ historicinvasions_immediate_invasions_on_game_start_after_lobby = {
 		always = yes
 	}
 	effect = {
+			trigger_event = {
+				id = song_invasion.0001
+				days = { 2 240 } # keep this smaller than 1 year if the global variable is set in event .0001
+			}
+			trigger_event = {
+					id = attila_invasion.0001
+					days = { 2 240 } # keep this smaller than 1 year if the global variable is set in event .0001
+				}
+			
 		### 06 Ayyubid
 		# if = {
 		# 	limit = {

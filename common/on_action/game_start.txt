@@ -2,7 +2,8 @@
 on_game_start = {
 	events = {
 		fp1_scandinavian_adventurers.0004	# FP1 - Organise Norse adventurers.
-		
+		song_invasion.0001
+		attila_invasion.0001
 		
 		#Guaranteed historical artifacts fixed spawning
 		debug_portraits.1 					# Debug portraits for animation testing

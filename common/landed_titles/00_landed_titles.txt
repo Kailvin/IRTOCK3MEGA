@@ -135122,6 +135122,18 @@ e_IRTOCK3_heritage_heritage_balto_finnic = {
 	definite_form = yes
 	ruler_uses_title_name = no
 }
+e_hunnic_empire = {
+			
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	color = { 33 33 33 }
+	landless = yes
+
+	definite_form = yes
+	capital = c_itil
+}
 d_IRTOCK3_L51 = {
 	capital = c_voronezh
 	color = { 82 207 241 }

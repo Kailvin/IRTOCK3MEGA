@@ -29,6 +29,7 @@ attila_attila_character_template = {
 	trait = open_terrain_expert
 	trait = forest_fighter
 	trait = military_engineer
+	trait = the_hun
 
 	random_traits = no
 	after_creation = {

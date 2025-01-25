@@ -3,7 +3,7 @@ k_IRTOCK3_L88={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_tosali={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_khinjali_mandala_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = imperator188168 liege = 0 }
 }
 c_kataka={
 	422.9.15 = { liege = 0 holder = imperator204490 }
@@ -17,7 +17,7 @@ b_ratnagiri={
 	423.7.6 = { holder = imperator190615 }
 }
 c_khinjali_mandala={
-	423.7.6 = { holder = IRToCK3_c_khinjali_mandala_holder liege = 0 change_development_level = 14 }
+	423.7.6 = { holder = imperator188168 liege = 0 change_development_level = 14 }
 }
 c_kodalaka_mandala={
 	422.9.15 = { liege = 0 holder = imperator204465 }

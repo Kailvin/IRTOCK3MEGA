@@ -291,9 +291,9 @@
 	holding = church_holding
 }
 9079={
-	culture = nepali
-	faith = old_bon
-	holding = none
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9080={
 	holding = none
@@ -308,15 +308,15 @@
 	holding = church_holding
 }
 9099={
-	culture = nepali
-	faith = old_bon
-	holding = none
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9100={
 	holding = none
 }
 9101={
-	culture = kirati
+	culture = greek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -327,9 +327,9 @@
 	holding = none
 }
 9104={
-	culture = nepali
-	faith = old_bon
-	holding = none
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9105={
 	holding = none

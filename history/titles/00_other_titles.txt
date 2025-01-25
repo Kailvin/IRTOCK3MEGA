@@ -1971,11 +1971,11 @@ k_IRTOCK3_L59={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_L71={
-	422.9.15 = { holder = imperator204065 government = feudal_government }
+	422.9.15 = { holder = imperator204065 government = feudal_government liege = e_IRTOCK3_BAC}
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_M09={
-	422.9.15 = { holder = imperator205015 government = feudal_government }
+	422.9.15 = { holder = imperator205015 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_M30={

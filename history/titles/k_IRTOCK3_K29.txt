@@ -1,5 +1,5 @@
 k_IRTOCK3_K29={
-	355.6.22 = { holder = imperator185083 government = feudal_government liege = e_IRTOCK3_BAC }
+	355.6.22 = { holder = imperator185083 government = feudal_government liege = 0 }
 	405.11.14 = { holder = imperator189813 government = autocratic_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
@@ -25,4 +25,8 @@ c_khawr={
 c_turan={
 	405.11.14 = { liege = 0 holder = imperator189813 }
 	423.7.6 = { liege = k_IRTOCK3_K29 holder = imperator186596 change_development_level = 12 }
+}
+c_sibi={
+	422.9.15 = { holder = imperator185083 }
+	423.7.6 = { change_development_level = 10 }
 }

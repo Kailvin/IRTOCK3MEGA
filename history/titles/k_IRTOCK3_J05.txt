@@ -10,16 +10,16 @@ d_khasa={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_bajura_holder liege = 0 }
 }
 c_jumla={
-	392.1.14 = { liege = 0 holder = imperator191227 }
+	392.1.14 = { holder = imperator188168 }
 	423.7.6 = { change_development_level = 3 }
 }
 c_bajura={
 	350.1.1 = { government = feudal_government }
-	423.7.6 = { holder = IRToCK3_c_bajura_holder liege = 0 change_development_level = 5 }
+	423.7.6 = { holder = imperator188168 liege = 0 change_development_level = 5 }
 }
 c_jagatipur={
 	350.1.1 = { government = feudal_government }
-	423.7.6 = { holder = IRToCK3_c_bajura_holder liege = 0 change_development_level = 4 }
+	423.7.6 = { holder = imperator188168 liege = 0 change_development_level = 4 }
 }
 c_dang={
 	422.9.15 = { liege = 0 holder = imperator203815 }
@@ -74,7 +74,7 @@ c_gomoco={
 	423.7.6 = { holder = IRToCK3_c_gomoco_holder liege = 0 change_development_level = 0 }
 }
 d_purang={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_manthang_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = imperator188168 liege = 0 }
 }
 c_purang={
 	392.1.14 = { liege = 0 holder = imperator191227 }
@@ -93,7 +93,7 @@ c_zhongba={
 	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 7 }
 }
 c_manthang={
-	423.7.6 = { holder = IRToCK3_c_manthang_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = imperator188168 liege = 0 change_development_level = 10 }
 }
 c_coqen={
 	420.5.20 = { liege = 0 holder = imperator187586 }

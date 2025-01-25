@@ -108,7 +108,7 @@ c_dimapur={
 	423.7.6 = { change_development_level = 17 }
 }
 c_manipur={
-	423.7.6 = { holder = IRToCK3_c_manipur_holder liege = 0 change_development_level = 8 }
+	423.7.6 = { holder = imperator188168r liege = 0 change_development_level = 8 }
 }
 d_jaintia={
 	423.7.6 = { liege = 0 }
@@ -140,7 +140,7 @@ c_thabeik_taung={
 	423.7.6 = { change_development_level = 14 }
 }
 c_matamuhuri={
-	423.7.6 = { holder = IRToCK3_c_matamuhuri_holder liege = 0 change_development_level = 6 }
+	423.7.6 = { holder = imperator188168 liege = 0 change_development_level = 6 }
 }
 d_arakan={
 	423.7.6 = { liege = 0 }

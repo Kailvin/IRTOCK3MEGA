@@ -291,9 +291,9 @@
 	holding = none
 }
 9140={
-	culture = lhomon
-	faith = old_bon
-	holding = tribal_holding
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9141={
 	holding = none
@@ -375,9 +375,9 @@
 	holding = castle_holding
 }
 9584={
-	culture = arakanese
-	faith = burmic
-	holding = none
+	culture = indo_greek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9585={
 	culture = indo_greek

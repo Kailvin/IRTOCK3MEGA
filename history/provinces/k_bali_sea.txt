@@ -11,12 +11,12 @@
 10973={
 	culture = bali
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 10976={
 	culture = bali
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 10979={
 	holding = city_holding
@@ -27,7 +27,7 @@
 11241={
 	culture = samawa
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 11242={
 	holding = none
@@ -35,7 +35,7 @@
 11243={
 	culture = samawa
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 11244={
 	holding = none
@@ -46,7 +46,7 @@
 11246={
 	culture = samawa
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 11247={
 	holding = none

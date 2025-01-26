@@ -5,7 +5,7 @@
 	holding = city_holding
 }
 869={
-	holding = castle_holding
+	holding = estate_holding
 }
 870={
 	holding = city_holding
@@ -27,25 +27,25 @@
 	holding = none
 }
 876={
-	holding = castle_holding
+	holding = estate_holding
 }
 1152={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1154={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1251={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1276={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }

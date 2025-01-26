@@ -90,7 +90,7 @@
 9828={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 9831={
 	holding = none
@@ -128,7 +128,7 @@
 10661={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10664={
 	culture = karen
@@ -150,7 +150,7 @@
 11060={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11061={
 	culture = mon

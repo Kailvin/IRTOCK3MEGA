@@ -2,7 +2,7 @@
 	holding = none
 }
 1782={
-	holding = castle_holding
+	holding = estate_holding
 }
 1783={
 	holding = none
@@ -10,12 +10,12 @@
 1784={
 	culture = scythian
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 1785={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1786={
 	holding = none
@@ -23,7 +23,7 @@
 1787={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	100.1.1 = { special_building_slot = tower_of_hercules }
 }
 1788={
@@ -51,7 +51,7 @@
 1818={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1819={
 	holding = none
@@ -62,5 +62,5 @@
 1821={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }

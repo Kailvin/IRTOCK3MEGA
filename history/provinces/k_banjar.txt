@@ -15,7 +15,7 @@
 10523={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10524={
 	holding = none
@@ -26,7 +26,7 @@
 10526={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10527={
 	holding = none
@@ -100,20 +100,20 @@
 10545={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10546={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10547={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10548={
-	holding = castle_holding
+	holding = estate_holding
 }
 10549={
 	holding = none

@@ -1,5 +1,5 @@
 9316={
-	holding = castle_holding
+	holding = estate_holding
 }
 9317={
 	holding = city_holding
@@ -7,7 +7,7 @@
 9892={
 	culture = tai
 	religion = ban_phi
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = bai religion = benzhu }
 }
 9893={
@@ -16,7 +16,7 @@
 9894={
 	culture = lisu
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 }
 9895={
 	culture = lisu
@@ -30,7 +30,7 @@
 9897={
 	culture = nakhi
 	religion = dongba
-	holding = castle_holding
+	holding = estate_holding
 }
 9898={
 	holding = church_holding
@@ -44,7 +44,7 @@
 9901={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 9902={
 	holding = church_holding
@@ -105,7 +105,7 @@
 9921={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 9922={
 	holding = none
@@ -124,7 +124,7 @@
 9926={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = hmong religion = hmongism }
 }
 9928={
@@ -133,7 +133,7 @@
 9929={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 }
 9930={
 	holding = none
@@ -149,12 +149,12 @@
 	holding = none
 }
 9934={
-	holding = castle_holding
+	holding = estate_holding
 }
 9935={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = sea_salt_mines_01
 	860.1.1 = { special_building = sea_salt_mines_01 }
 	1050.1.1 = { religion = azhaliism }
@@ -166,7 +166,7 @@
 	holding = none
 }
 9940={
-	holding = castle_holding
+	holding = estate_holding
 }
 9942={
 	holding = city_holding
@@ -185,7 +185,7 @@
 9949={
 	culture = bugan
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 }
 10669={
 	holding = city_holding
@@ -209,7 +209,7 @@
 10673={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 10674={
 	holding = none
@@ -217,7 +217,7 @@
 10675={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { religion = azhaliism }
 }
 10676={
@@ -246,13 +246,13 @@
 10684={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { religion = azhaliism }
 }
 10685={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = sea_salt_mines_01
 }
 10686={
@@ -261,12 +261,12 @@
 10688={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 10689={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 10690={
 	holding = city_holding
@@ -290,17 +290,17 @@
 10896={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 }
 10897={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 }
 10899={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = hmong religion = hmongism }
 }
 10900={
@@ -309,17 +309,17 @@
 11140={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { religion = azhaliism }
 }
 11141={
 	culture = bai
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { religion = azhaliism }
 }
 11142={
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = sea_salt_mines_01
 	860.1.1 = { special_building = sea_salt_mines_01 }
 }
@@ -342,7 +342,7 @@
 	holding = church_holding
 }
 11317={
-	holding = castle_holding
+	holding = estate_holding
 }
 11318={
 	culture = tai
@@ -372,7 +372,7 @@
 11327={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 11328={
 	holding = none
@@ -401,12 +401,12 @@
 11337={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 11338={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 11339={
 	holding = none

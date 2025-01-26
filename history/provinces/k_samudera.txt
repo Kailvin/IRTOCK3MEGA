@@ -1,17 +1,17 @@
 10303={
 	culture = aceh
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10304={
 	culture = aceh
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10305={
 	culture = aceh
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10306={
 	culture = gayo
@@ -123,7 +123,7 @@
 10427={
 	culture = aceh
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 10428={
 	holding = none
@@ -140,7 +140,7 @@
 10915={
 	culture = aceh
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 	special_building = perlak_forests
 	1112.1.1 = { religion = ashari }
 }
@@ -170,7 +170,7 @@
 11252={
 	culture = malay
 	religion = vajrayana
-	holding = castle_holding
+	holding = estate_holding
 }
 11463={
 	holding = none

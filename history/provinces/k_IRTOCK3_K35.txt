@@ -2,12 +2,12 @@
 	holding = none
 }
 4440={
-	holding = castle_holding
+	holding = estate_holding
 }
 4441={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4442={
 	holding = none
@@ -16,7 +16,7 @@
 	holding = none
 }
 4444={
-	holding = castle_holding
+	holding = estate_holding
 }
 4445={
 	holding = none
@@ -30,7 +30,7 @@
 4448={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4449={
 	holding = none
@@ -44,7 +44,7 @@
 4452={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4453={
 	holding = city_holding
@@ -58,7 +58,7 @@
 4456={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4457={
 	holding = none
@@ -72,14 +72,14 @@
 4460={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4461={
-	holding = castle_holding
+	holding = estate_holding
 }
 4462={
 	holding = none
 }
 7089={
-	holding = castle_holding
+	holding = estate_holding
 }

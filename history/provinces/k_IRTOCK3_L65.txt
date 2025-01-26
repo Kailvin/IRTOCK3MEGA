@@ -1,12 +1,12 @@
 1114={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1117={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1200={
 	holding = none
@@ -20,16 +20,16 @@
 7798={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7799={
-	holding = castle_holding
+	holding = estate_holding
 }
 7800={
 	holding = city_holding
 }
 7801={
-	holding = castle_holding
+	holding = estate_holding
 }
 7802={
 	holding = church_holding
@@ -37,7 +37,7 @@
 7803={
 	culture = indo_greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 7814={
 	holding = city_holding

@@ -1,17 +1,17 @@
 1181={
 	culture = tocharian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1186={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1431={
 	culture = alan
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4242={
 	holding = city_holding
@@ -29,7 +29,7 @@
 	holding = city_holding
 }
 4385={
-	holding = castle_holding
+	holding = estate_holding
 }
 4386={
 	holding = none
@@ -40,7 +40,7 @@
 4388={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4389={
 	holding = none
@@ -48,7 +48,7 @@
 4390={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4391={
 	holding = none
@@ -59,12 +59,12 @@
 4393={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4394={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4395={
 	holding = city_holding
@@ -90,7 +90,7 @@
 4402={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4403={
 	holding = none
@@ -98,7 +98,7 @@
 4404={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4405={
 	holding = none
@@ -115,7 +115,7 @@
 4409={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4410={
 	holding = city_holding
@@ -132,7 +132,7 @@
 4414={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4416={
 	holding = city_holding
@@ -149,7 +149,7 @@
 7129={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7130={
 	holding = none
@@ -161,7 +161,7 @@
 	holding = none
 }
 7136={
-	holding = castle_holding
+	holding = estate_holding
 }
 7137={
 	holding = city_holding
@@ -170,5 +170,5 @@
 	holding = city_holding
 }
 7139={
-	holding = castle_holding
+	holding = estate_holding
 }

@@ -1,18 +1,18 @@
 1115={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1120={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 7824={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7828={
 	holding = city_holding
@@ -25,15 +25,15 @@
 7830={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 7831={
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 7832={
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 7833={
@@ -54,5 +54,5 @@
 	holding = city_holding
 }
 7838={
-	holding = castle_holding
+	holding = estate_holding
 }

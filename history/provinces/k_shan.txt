@@ -6,7 +6,7 @@
 9642={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9833={
 	holding = church_holding
@@ -158,7 +158,7 @@
 11313={
 	culture = lisu
 	religion = benzhu
-	holding = castle_holding
+	holding = estate_holding
 }
 11320={
 	holding = city_holding

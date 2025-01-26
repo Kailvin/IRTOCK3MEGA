@@ -18,10 +18,10 @@
 575={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 577={
-	holding = castle_holding
+	holding = estate_holding
 }
 578={
 	holding = none
@@ -29,7 +29,7 @@
 580={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 581={
 	culture = sarmatian
@@ -39,7 +39,7 @@
 582={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 583={
 	holding = none
@@ -47,7 +47,7 @@
 5173={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5174={
 	holding = none
@@ -70,10 +70,10 @@
 5231={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5232={
-	holding = castle_holding
+	holding = estate_holding
 }
 5233={
 	holding = none
@@ -96,7 +96,7 @@
 5239={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5240={
 	holding = none

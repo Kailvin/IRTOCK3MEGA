@@ -41,7 +41,7 @@
 7158={
 	culture = tocharian
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7159={
 	holding = none
@@ -50,7 +50,7 @@
 	holding = none
 }
 7161={
-	holding = castle_holding
+	holding = estate_holding
 }
 7163={
 	culture = scythian

@@ -1,18 +1,18 @@
 1140={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = mountain
 }
 1146={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1198={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 1202={
@@ -21,29 +21,29 @@
 1203={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1206={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1212={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1218={
 	holding = city_holding
 	special_building_slot = alampur_jogulamba_temple_01
 }
 1258={
-	holding = castle_holding
+	holding = estate_holding
 }
 1416={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = mahalakshmi_temple_01
 	terrain = mountain
 }
@@ -60,7 +60,7 @@
 	terrain = hills
 }
 7871={
-	holding = castle_holding
+	holding = estate_holding
 	terrain = hills
 }
 7872={
@@ -74,7 +74,7 @@
 7874={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = mountain
 }
 7875={
@@ -89,16 +89,16 @@
 	holding = none
 }
 7878={
-	holding = castle_holding
+	holding = estate_holding
 }
 7879={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = mountain
 }
 7881={
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = vithoba_temple_01
 }
 7882={
@@ -115,16 +115,16 @@
 	terrain = jungle
 }
 7890={
-	holding = castle_holding
+	holding = estate_holding
 }
 7891={
-	holding = castle_holding
+	holding = estate_holding
 }
 7892={
 	holding = city_holding
 }
 7894={
-	holding = castle_holding
+	holding = estate_holding
 }
 7895={
 	holding = none

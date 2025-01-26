@@ -59,7 +59,7 @@
 12761={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	buildings = { castle_04 }
 	special_building_slot = wild_goose_pagoda_01
 	special_building = wild_goose_pagoda_01
@@ -72,7 +72,7 @@
 	holding = none
 }
 12766={
-	holding = castle_holding
+	holding = estate_holding
 }
 12792={
 	culture = han

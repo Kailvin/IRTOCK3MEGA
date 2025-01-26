@@ -7,7 +7,7 @@
 4647={
 	culture = norse
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4655={
 	culture = norse
@@ -348,7 +348,7 @@
 4749={
 	culture = norse
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4750={
 	holding = none

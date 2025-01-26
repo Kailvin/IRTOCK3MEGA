@@ -21,7 +21,7 @@
 6154={
 	culture = adnanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6155={
 	culture = indo_greek
@@ -31,7 +31,7 @@
 6156={
 	culture = adnanite
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 6157={
 	holding = none
@@ -39,10 +39,10 @@
 6158={
 	culture = adnanite
 	faith = rabbinism
-	holding = castle_holding
+	holding = estate_holding
 }
 6159={
-	holding = castle_holding
+	holding = estate_holding
 }
 6160={
 	holding = none
@@ -50,7 +50,7 @@
 6161={
 	culture = adnanite
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 6162={
 	holding = church_holding

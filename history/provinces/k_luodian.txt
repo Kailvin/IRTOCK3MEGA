@@ -4,7 +4,7 @@
 9938={
 	culture = yi
 	religion = bimoism
-	holding = castle_holding
+	holding = estate_holding
 }
 10855={
 	culture = gelao
@@ -26,7 +26,7 @@
 	holding = none
 }
 11344={
-	holding = castle_holding
+	holding = estate_holding
 }
 11762={
 	holding = none

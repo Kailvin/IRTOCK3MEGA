@@ -1,5 +1,5 @@
 2869={
-	holding = castle_holding
+	holding = estate_holding
 }
 2870={
 	culture = ripurian
@@ -42,7 +42,7 @@
 2886={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2887={
 	holding = city_holding
@@ -53,13 +53,13 @@
 2889={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2890={
-	holding = castle_holding
+	holding = estate_holding
 }
 2891={
-	holding = castle_holding
+	holding = estate_holding
 }
 2892={
 	holding = none

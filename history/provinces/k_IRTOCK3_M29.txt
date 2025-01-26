@@ -1,7 +1,7 @@
 1161={
 	culture = old_suebi
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = sharada_peeth_01
 }
 3445={
@@ -11,12 +11,12 @@
 	holding = none
 }
 7947={
-	holding = castle_holding
+	holding = estate_holding
 }
 7948={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7949={
 	holding = none

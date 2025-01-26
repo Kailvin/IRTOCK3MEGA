@@ -7,7 +7,7 @@
 4552={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4553={
 	holding = none
@@ -21,12 +21,12 @@
 4556={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4563={
 	culture = norse
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4564={
 	holding = none
@@ -34,12 +34,12 @@
 6098={
 	culture = garamantian
 	faith = egyptian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 6099={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 6100={
 	holding = church_holding
@@ -64,11 +64,11 @@
 6106={
 	culture = norse
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 6107={
 	holding = none
 }
 6108={
-	holding = castle_holding
+	holding = estate_holding
 }

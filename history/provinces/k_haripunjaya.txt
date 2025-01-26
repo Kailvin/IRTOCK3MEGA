@@ -10,7 +10,7 @@
 10039={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10072={
@@ -50,7 +50,7 @@
 10081={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10082={
 	culture = wa
@@ -66,7 +66,7 @@
 10085={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10086={
@@ -114,7 +114,7 @@
 10127={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10128={
@@ -130,14 +130,14 @@
 10138={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10139={
 	culture = wa
 	religion = wa_animism
 	holding = tribal_holding
-	900.1.1 = { culture = mon religion = theravada holding = castle_holding }
+	900.1.1 = { culture = mon religion = theravada holding = estate_holding }
 	1050.1.1 = { culture = tai }
 }
 10166={
@@ -145,7 +145,7 @@
 	religion = wa_animism
 	holding = tribal_holding
 	800.1.1 = { religion = theravada }
-	900.1.1 = { culture = mon holding = castle_holding }
+	900.1.1 = { culture = mon holding = estate_holding }
 	1050.1.1 = { culture = tai }
 }
 10167={
@@ -154,13 +154,13 @@
 10169={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10170={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10171={
@@ -169,7 +169,7 @@
 10172={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10196={
@@ -178,7 +178,7 @@
 10197={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10198={
@@ -278,7 +278,7 @@
 11281={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 11282={
@@ -314,7 +314,7 @@
 11358={
 	culture = khmu
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 }
 11367={
 	holding = none

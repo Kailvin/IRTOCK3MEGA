@@ -9,7 +9,7 @@
 568={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 569={
 	holding = none
@@ -17,17 +17,17 @@
 587={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 933={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5161={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5162={
 	holding = none
@@ -60,7 +60,7 @@
 5170={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5171={
 	holding = none
@@ -69,7 +69,7 @@
 	holding = none
 }
 5219={
-	holding = castle_holding
+	holding = estate_holding
 }
 5220={
 	holding = none
@@ -77,7 +77,7 @@
 5221={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5222={
 	holding = none
@@ -89,13 +89,13 @@
 	holding = city_holding
 }
 5225={
-	holding = castle_holding
+	holding = estate_holding
 }
 5226={
 	holding = none
 }
 5227={
-	holding = castle_holding
+	holding = estate_holding
 }
 5284={
 	holding = church_holding
@@ -109,13 +109,13 @@
 5350={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5351={
 	holding = none
 }
 5352={
-	holding = castle_holding
+	holding = estate_holding
 }
 5371={
 	culture = alan
@@ -123,7 +123,7 @@
 	holding = tribal_holding
 }
 5372={
-	holding = castle_holding
+	holding = estate_holding
 }
 5373={
 	holding = none

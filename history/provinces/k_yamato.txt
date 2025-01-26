@@ -548,7 +548,7 @@
 	holding = none
 }
 13392={
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = generic_university
 	839.1.1 = { special_building = generic_university }
 }
@@ -566,7 +566,7 @@
 13400={
 	culture = yamato
 	religion = shinto
-	holding = castle_holding
+	holding = estate_holding
 }
 13401={
 	holding = none
@@ -606,7 +606,7 @@
 13417={
 	culture = emishi
 	religion = ainu_paganism
-	holding = castle_holding
+	holding = estate_holding
 	1000.1.1 = { culture = yamato religion = shinto }
 }
 13418={
@@ -618,7 +618,7 @@
 13426={
 	culture = emishi
 	religion = ainu_paganism
-	holding = castle_holding
+	holding = estate_holding
 	1000.1.1 = { culture = yamato religion = shinto }
 }
 13427={
@@ -651,7 +651,7 @@
 	culture = emishi
 	religion = ainu_paganism
 	holding = tribal_holding
-	1000.1.1 = { holding = castle_holding }
+	1000.1.1 = { holding = estate_holding }
 }
 13446={
 	holding = none
@@ -662,7 +662,7 @@
 13450={
 	culture = emishi
 	religion = ainu_paganism
-	holding = castle_holding
+	holding = estate_holding
 	1000.1.1 = { culture = yamato religion = shinto }
 }
 13451={
@@ -699,13 +699,13 @@
 	culture = emishi
 	religion = ainu_paganism
 	holding = tribal_holding
-	1000.1.1 = { holding = castle_holding }
+	1000.1.1 = { holding = estate_holding }
 }
 13464={
 	culture = emishi
 	religion = ainu_paganism
 	holding = tribal_holding
-	1000.1.1 = { holding = castle_holding }
+	1000.1.1 = { holding = estate_holding }
 }
 13465={
 	holding = none
@@ -720,7 +720,7 @@
 	culture = emishi
 	religion = ainu_paganism
 	holding = tribal_holding
-	1000.1.1 = { holding = castle_holding }
+	1000.1.1 = { holding = estate_holding }
 }
 13471={
 	holding = none

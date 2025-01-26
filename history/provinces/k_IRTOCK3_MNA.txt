@@ -10,12 +10,12 @@
 8={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 9={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 10={
 	holding = none
@@ -35,7 +35,7 @@
 15={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 16={
 	holding = none
@@ -46,7 +46,7 @@
 18={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 19={
 	holding = none
@@ -54,7 +54,7 @@
 20={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 21={
 	holding = city_holding
@@ -68,7 +68,7 @@
 24={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 25={
 	holding = none
@@ -82,7 +82,7 @@
 28={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 29={
 	holding = none
@@ -102,7 +102,7 @@
 34={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 35={
 	holding = none
@@ -113,7 +113,7 @@
 37={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 38={
 	holding = none
@@ -133,20 +133,20 @@
 43={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 44={
-	holding = castle_holding
+	holding = estate_holding
 }
 45={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 46={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 47={
 	holding = none
@@ -157,18 +157,18 @@
 49={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 50={
 	holding = none
 }
 51={
-	holding = castle_holding
+	holding = estate_holding
 }
 52={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 53={
 	holding = none
@@ -177,7 +177,7 @@
 	holding = none
 }
 1499={
-	holding = castle_holding
+	holding = estate_holding
 }
 1500={
 	holding = none
@@ -185,7 +185,7 @@
 1502={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1503={
 	holding = city_holding
@@ -199,7 +199,7 @@
 1506={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1507={
 	holding = city_holding
@@ -213,7 +213,7 @@
 1510={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1511={
 	holding = city_holding
@@ -227,7 +227,7 @@
 1514={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1515={
 	holding = city_holding
@@ -241,7 +241,7 @@
 1518={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1519={
 	holding = city_holding
@@ -255,7 +255,7 @@
 1522={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1523={
 	holding = city_holding
@@ -273,7 +273,7 @@
 1527={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = the_tower_of_london_01
 }
 1528={
@@ -288,7 +288,7 @@
 1531={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1532={
 	holding = city_holding
@@ -299,7 +299,7 @@
 1534={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1535={
 	holding = city_holding
@@ -313,7 +313,7 @@
 1538={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1539={
 	holding = city_holding
@@ -324,7 +324,7 @@
 1541={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1542={
 	holding = city_holding
@@ -335,7 +335,7 @@
 1544={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1545={
 	holding = city_holding
@@ -352,12 +352,12 @@
 1549={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1551={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1552={
 	holding = city_holding
@@ -371,7 +371,7 @@
 1555={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1556={
 	holding = city_holding
@@ -382,7 +382,7 @@
 1558={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1559={
 	holding = city_holding
@@ -393,7 +393,7 @@
 1561={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	special_building = stonehenge_01
 }
 1562={
@@ -408,7 +408,7 @@
 1565={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1566={
 	holding = city_holding
@@ -422,7 +422,7 @@
 1569={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1570={
 	holding = city_holding
@@ -436,7 +436,7 @@
 1573={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1574={
 	holding = city_holding
@@ -447,7 +447,7 @@
 1576={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1577={
 	holding = city_holding
@@ -461,7 +461,7 @@
 1580={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1581={
 	holding = city_holding
@@ -472,7 +472,7 @@
 1583={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1584={
 	holding = none
@@ -489,18 +489,18 @@
 1588={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1589={
-	holding = castle_holding
+	holding = estate_holding
 }
 1590={
-	holding = castle_holding
+	holding = estate_holding
 }
 1591={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1592={
 	holding = none
@@ -514,7 +514,7 @@
 1595={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1596={
 	holding = none
@@ -531,7 +531,7 @@
 1600={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1601={
 	holding = none
@@ -542,7 +542,7 @@
 1603={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1604={
 	holding = city_holding
@@ -553,7 +553,7 @@
 1606={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1607={
 	holding = none
@@ -564,16 +564,16 @@
 1609={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1610={
 	holding = church_holding
 }
 1611={
-	holding = castle_holding
+	holding = estate_holding
 }
 1612={
-	holding = castle_holding
+	holding = estate_holding
 }
 1613={
 	holding = city_holding
@@ -581,7 +581,7 @@
 1615={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1616={
 	holding = city_holding
@@ -592,7 +592,7 @@
 1618={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1619={
 	holding = none
@@ -603,7 +603,7 @@
 1621={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1622={
 	holding = none
@@ -614,7 +614,7 @@
 1624={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1625={
 	holding = none
@@ -625,7 +625,7 @@
 1627={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1628={
 	holding = none
@@ -636,7 +636,7 @@
 1630={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1631={
 	holding = none
@@ -644,7 +644,7 @@
 1632={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1633={
 	holding = none
@@ -655,7 +655,7 @@
 1635={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1636={
 	holding = none
@@ -663,7 +663,7 @@
 1637={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1638={
 	holding = none
@@ -671,7 +671,7 @@
 1639={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1640={
 	holding = none
@@ -685,7 +685,7 @@
 1643={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1644={
 	holding = none
@@ -696,7 +696,7 @@
 1646={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1647={
 	holding = none
@@ -707,7 +707,7 @@
 1649={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1650={
 	holding = none
@@ -718,7 +718,7 @@
 1652={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1653={
 	holding = none
@@ -726,7 +726,7 @@
 1654={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	380.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1655={
@@ -738,7 +738,7 @@
 1657={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1658={
 	holding = none
@@ -746,7 +746,7 @@
 1659={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	74.1.1 = { special_building_slot = dolaucothi_gold_mines_01 }
 }
 1660={
@@ -755,7 +755,7 @@
 1661={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1662={
 	holding = none
@@ -763,7 +763,7 @@
 1663={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1664={
 	holding = none
@@ -771,7 +771,7 @@
 1665={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1666={
 	holding = none
@@ -779,7 +779,7 @@
 1667={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1668={
 	holding = none
@@ -790,7 +790,7 @@
 1670={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1671={
 	holding = none
@@ -801,7 +801,7 @@
 1673={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1674={
 	holding = church_holding
@@ -812,12 +812,12 @@
 1676={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1677={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1678={
 	holding = none
@@ -825,12 +825,12 @@
 1679={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1680={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1681={
 	holding = none
@@ -838,7 +838,7 @@
 1682={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1683={
 	holding = none
@@ -852,7 +852,7 @@
 1686={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1687={
 	holding = none
@@ -863,7 +863,7 @@
 1689={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	380.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1690={
@@ -875,7 +875,7 @@
 1692={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1693={
 	holding = none
@@ -886,18 +886,18 @@
 1695={
 	culture = pictish
 	faith = pictish_druidism
-	holding = castle_holding
+	holding = estate_holding
 }
 1696={
-	holding = castle_holding
+	holding = estate_holding
 }
 1697={
-	holding = castle_holding
+	holding = estate_holding
 }
 1698={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 	365.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1699={
@@ -906,10 +906,10 @@
 1700={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1701={
-	holding = castle_holding
+	holding = estate_holding
 }
 1702={
 	holding = none
@@ -917,7 +917,7 @@
 1703={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1704={
 	holding = none
@@ -925,7 +925,7 @@
 1705={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1706={
 	holding = none
@@ -933,7 +933,7 @@
 1707={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1708={
 	holding = none
@@ -941,10 +941,10 @@
 1709={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1710={
-	holding = castle_holding
+	holding = estate_holding
 }
 1711={
 	holding = none
@@ -952,7 +952,7 @@
 1712={
 	culture = pictish
 	faith = pictish_druidism
-	holding = castle_holding
+	holding = estate_holding
 }
 1713={
 	holding = none
@@ -963,7 +963,7 @@
 1715={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1716={
 	holding = none
@@ -974,40 +974,40 @@
 1718={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1719={
-	holding = castle_holding
+	holding = estate_holding
 }
 1720={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1721={
 	holding = none
 }
 1722={
-	holding = castle_holding
+	holding = estate_holding
 }
 1723={
-	holding = castle_holding
+	holding = estate_holding
 }
 1724={
 	culture = pictish
 	faith = pictish_druidism
-	holding = castle_holding
+	holding = estate_holding
 }
 1725={
-	holding = castle_holding
+	holding = estate_holding
 }
 1726={
-	holding = castle_holding
+	holding = estate_holding
 }
 1727={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1728={
 	holding = none
@@ -1021,29 +1021,29 @@
 1731={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1732={
 	holding = none
 }
 1733={
-	holding = castle_holding
+	holding = estate_holding
 }
 1734={
 	culture = pictish
 	faith = pictish_druidism
-	holding = castle_holding
+	holding = estate_holding
 }
 1735={
-	holding = castle_holding
+	holding = estate_holding
 }
 1736={
-	holding = castle_holding
+	holding = estate_holding
 }
 1737={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1738={
 	holding = none
@@ -1057,7 +1057,7 @@
 1741={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1742={
 	holding = none
@@ -1065,7 +1065,7 @@
 1743={
 	culture = pictish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 1744={
 	holding = none
@@ -1077,7 +1077,7 @@
 	holding = none
 }
 8742={
-	holding = castle_holding
+	holding = estate_holding
 }
 8743={
 	holding = none
@@ -1088,7 +1088,7 @@
 8745={
 	culture = irish
 	faith = insular_celtic
-	holding = castle_holding
+	holding = estate_holding
 }
 8746={
 	holding = none

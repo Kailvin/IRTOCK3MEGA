@@ -1,7 +1,7 @@
 702={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 703={
 	holding = none
@@ -9,20 +9,20 @@
 704={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 707={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4773={
-	holding = castle_holding
+	holding = estate_holding
 }
 4774={
 	culture = syrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4775={
 	holding = none
@@ -33,7 +33,7 @@
 4777={
 	culture = syrian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4778={
 	holding = none
@@ -44,21 +44,21 @@
 4780={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4788={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4789={
 	holding = none
 }
 4790={
-	holding = castle_holding
+	holding = estate_holding
 }
 4791={
-	holding = castle_holding
+	holding = estate_holding
 }
 4792={
 	holding = none
@@ -78,7 +78,7 @@
 4797={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4798={
 	holding = none
@@ -89,7 +89,7 @@
 4800={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4801={
 	holding = city_holding
@@ -100,7 +100,7 @@
 4803={
 	culture = syrian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4804={
 	holding = none
@@ -108,7 +108,7 @@
 4805={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4806={
 	holding = none
@@ -117,18 +117,18 @@
 	holding = none
 }
 4808={
-	holding = castle_holding
+	holding = estate_holding
 }
 4809={
 	holding = none
 }
 4810={
-	holding = castle_holding
+	holding = estate_holding
 }
 4811={
 	culture = syrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4812={
 	holding = none
@@ -142,7 +142,7 @@
 4815={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4816={
 	holding = church_holding
@@ -151,7 +151,7 @@
 	holding = church_holding
 }
 4824={
-	holding = castle_holding
+	holding = estate_holding
 }
 4825={
 	holding = city_holding
@@ -165,17 +165,17 @@
 4828={
 	culture = macedonian
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 4829={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4830={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4831={
 	holding = none
@@ -192,7 +192,7 @@
 4835={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4836={
 	holding = church_holding
@@ -201,7 +201,7 @@
 	holding = city_holding
 }
 4838={
-	holding = castle_holding
+	holding = estate_holding
 }
 4839={
 	holding = city_holding
@@ -209,7 +209,7 @@
 4840={
 	culture = syrian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4841={
 	holding = none
@@ -226,7 +226,7 @@
 4845={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4846={
 	holding = none
@@ -237,7 +237,7 @@
 4848={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4849={
 	holding = none
@@ -254,7 +254,7 @@
 4853={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4854={
 	holding = church_holding
@@ -262,10 +262,10 @@
 4855={
 	culture = adnanite
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4856={
-	holding = castle_holding
+	holding = estate_holding
 }
 4857={
 	holding = none
@@ -276,7 +276,7 @@
 4859={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4860={
 	holding = city_holding
@@ -284,7 +284,7 @@
 4861={
 	culture = syrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4862={
 	holding = none
@@ -293,7 +293,7 @@
 	holding = none
 }
 4864={
-	holding = castle_holding
+	holding = estate_holding
 }
 4865={
 	holding = none
@@ -304,7 +304,7 @@
 4867={
 	culture = syrian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4868={
 	holding = none
@@ -312,7 +312,7 @@
 4869={
 	culture = syrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4871={
 	holding = city_holding
@@ -324,7 +324,7 @@
 	holding = none
 }
 4880={
-	holding = castle_holding
+	holding = estate_holding
 }
 4881={
 	holding = none
@@ -335,7 +335,7 @@
 4883={
 	culture = adnanite
 	faith = karaism
-	holding = castle_holding
+	holding = estate_holding
 }
 4884={
 	holding = none
@@ -343,12 +343,12 @@
 4885={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4886={
 	culture = adnanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4887={
 	holding = none
@@ -359,7 +359,7 @@
 4889={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4890={
 	holding = none
@@ -373,12 +373,12 @@
 4893={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4894={
 	culture = syrian
 	faith = kitebacilweism
-	holding = castle_holding
+	holding = estate_holding
 }
 4899={
 	holding = city_holding
@@ -399,7 +399,7 @@
 	holding = city_holding
 }
 5711={
-	holding = castle_holding
+	holding = estate_holding
 }
 5712={
 	holding = city_holding
@@ -407,7 +407,7 @@
 5900={
 	culture = syrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5901={
 	holding = city_holding
@@ -421,7 +421,7 @@
 5991={
 	culture = babylonian
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 5992={
 	holding = church_holding
@@ -429,7 +429,7 @@
 5993={
 	culture = babylonian
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 5994={
 	culture = babylonian
@@ -456,7 +456,7 @@
 6001={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 6002={
 	holding = church_holding
@@ -464,7 +464,7 @@
 6003={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6004={
 	holding = city_holding

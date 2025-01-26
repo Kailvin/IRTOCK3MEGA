@@ -13,12 +13,12 @@
 8301={
 	culture = ethiopian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8308={
 	culture = ethiopian
 	faith = kushitism_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 8318={
 	holding = none
@@ -37,7 +37,7 @@
 8326={
 	culture = afar
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8328={
 	holding = none
@@ -51,7 +51,7 @@
 8332={
 	culture = afar
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8333={
 	holding = none
@@ -76,7 +76,7 @@
 8339={
 	culture = south_arabian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8340={
 	holding = none
@@ -87,7 +87,7 @@
 8342={
 	culture = south_arabian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8343={
 	holding = city_holding
@@ -95,7 +95,7 @@
 8344={
 	culture = afar
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8345={
 	holding = none
@@ -120,7 +120,7 @@
 8400={
 	culture = ethiopian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8401={
 	holding = city_holding
@@ -131,5 +131,5 @@
 8404={
 	culture = south_arabian
 	faith = haymanot
-	holding = castle_holding
+	holding = estate_holding
 }

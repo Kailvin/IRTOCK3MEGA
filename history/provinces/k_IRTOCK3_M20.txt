@@ -1,18 +1,18 @@
 1352={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	terrain = jungle
 }
 1364={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1366={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 3455={
 	holding = city_holding
@@ -24,7 +24,7 @@
 	holding = city_holding
 }
 3458={
-	holding = castle_holding
+	holding = estate_holding
 }
 3459={
 	holding = none

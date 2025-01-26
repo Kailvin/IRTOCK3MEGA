@@ -1,7 +1,7 @@
 88={
 	culture = aestian
 	faith = slavic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 89={
 	holding = none
@@ -15,7 +15,7 @@
 92={
 	culture = aestian
 	faith = slavic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 93={
 	holding = church_holding

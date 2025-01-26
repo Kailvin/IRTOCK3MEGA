@@ -1,22 +1,22 @@
 622={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 623={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 900={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 901={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7090={
 	holding = none
@@ -37,7 +37,7 @@
 	holding = city_holding
 }
 7109={
-	holding = castle_holding
+	holding = estate_holding
 }
 7110={
 	holding = none
@@ -45,7 +45,7 @@
 7111={
 	culture = tocharian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7112={
 	holding = city_holding
@@ -74,12 +74,12 @@
 7120={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7121={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7122={
 	holding = none
@@ -87,7 +87,7 @@
 7123={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7124={
 	holding = church_holding
@@ -95,7 +95,7 @@
 7125={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7131={
 	holding = none

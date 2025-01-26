@@ -96,12 +96,12 @@
 	holding = none
 }
 12830={
-	holding = castle_holding
+	holding = estate_holding
 }
 12834={
 	culture = han
 	religion = zhengyi
-	holding = castle_holding
+	holding = estate_holding
 	buildings = { castle_04 }
 	special_building_slot = white_horse_temple_01
 	special_building = white_horse_temple_01
@@ -110,7 +110,7 @@
 12837={
 	culture = han
 	religion = zhengyi
-	holding = castle_holding
+	holding = estate_holding
 }
 12839={
 	culture = han
@@ -118,7 +118,7 @@
 	holding = none
 }
 12843={
-	holding = castle_holding
+	holding = estate_holding
 }
 12847={
 	holding = none

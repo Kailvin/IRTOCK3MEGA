@@ -1,12 +1,12 @@
 469={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 502={
 	culture = illyrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 503={
 	holding = none
@@ -14,7 +14,7 @@
 505={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3571={
 	holding = none
@@ -22,7 +22,7 @@
 3572={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3573={
 	holding = church_holding
@@ -33,10 +33,10 @@
 3575={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3576={
-	holding = castle_holding
+	holding = estate_holding
 }
 3577={
 	holding = city_holding
@@ -59,7 +59,7 @@
 3583={
 	culture = illyrian
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3584={
 	holding = city_holding
@@ -85,7 +85,7 @@
 3591={
 	culture = illyrian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3592={
 	holding = city_holding
@@ -98,12 +98,12 @@
 	special_building_slot = trepca_mines_01
 }
 3595={
-	holding = castle_holding
+	holding = estate_holding
 }
 3596={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3597={
 	holding = city_holding
@@ -111,7 +111,7 @@
 3598={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3599={
 	holding = church_holding
@@ -132,13 +132,13 @@
 3604={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3605={
 	holding = none
 }
 3606={
-	holding = castle_holding
+	holding = estate_holding
 }
 3607={
 	holding = city_holding

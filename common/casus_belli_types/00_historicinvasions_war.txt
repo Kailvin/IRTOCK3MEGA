@@ -216,7 +216,7 @@
 		}
 
 		# Truce
-		add_truce_attacker_victory_effect = yes
+		add_historic_invasion_truce_attacker_victory_effect = yes
 
 		# FP1: note the victory for future memorialisation via stele (if applicable).
 		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
@@ -257,7 +257,7 @@
 			}
 		}
 
-		add_truce_white_peace_effect = yes
+		add_historic_invasion_truce_white_peace_effect = yes
 
 		scope:attacker = {
 			add_prestige = historicinvasions_cb_prestige_white_peace
@@ -311,7 +311,7 @@
 		}
 	
 		# Truce
-		add_truce_attacker_defeat_effect = yes
+		add_historic_invasion_truce_attacker_defeat_effect = yes
 			
 		# piety change
 		every_in_list = {

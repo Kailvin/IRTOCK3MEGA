@@ -80458,6 +80458,202 @@ e_IRTOCK3_B99 = {
 	k_brittany = {
 		capital = c_vannes
 		color = { 248 184 120 }
+		d_normandy = {
+			capital = c_rouen
+			color = { 7 7 145 }
+			c_rouen = {
+				color = { 7 7 145 }
+				b_rouen = {
+					color = { 7 7 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2179
+				}
+				b_gisors = {
+					color = { 7 7 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2180
+				}
+				b_harcourt = {
+					color = { 7 7 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2175
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_evreux = {
+				color = { 0 15 130 }
+				b_evreux = {
+					color = { 0 15 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2329
+				}
+				b_vernon = {
+					color = { 0 15 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2330
+				}
+				b_verneuil = {
+					color = { 0 15 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2328
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_bayeux = {
+				color = { 10 0 130 }
+				b_bayeux = {
+					color = { 10 0 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2170
+				}
+				b_caen = {
+					color = { 10 0 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2172
+				}
+				b_falaise = {
+					color = { 10 0 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2173
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_avranches = {
+				color = { 0 0 125 }
+				b_avranches = {
+					color = { 0 0 125 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2167
+				}
+				b_cherbourg = {
+					color = { 0 0 125 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2169
+				}
+				b_coutances = {
+					color = { 0 0 125 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2168
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_alencon = {
+				color = { 12 12 105 }
+				b_alencon = {
+					color = { 12 12 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2325
+				}
+				b_mortain = {
+					color = { 12 12 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2171
+				}
+				b_argentan = {
+					color = { 12 12 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2326
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_lisieux = {
+				color = { 10 10 160 }
+				b_lisieux = {
+					color = { 10 10 160 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2174
+				}
+				b_sees = {
+					color = { 10 10 160 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2327
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_eu = {
+				color = { 20 20 130 }
+				b_eu = {
+					color = { 20 20 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2178
+				}
+				b_fecamp = {
+					color = { 20 20 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2176
+				}
+				b_dieppe = {
+					color = { 20 20 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2177
+				}
+				b_aumale = {
+					color = { 20 20 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2182
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
 		d_brittany = {
 			capital = c_vannes
 			color = { 166 190 191 }
@@ -81142,114 +81338,6 @@ e_IRTOCK3_B99 = {
 					definite_form = no
 					ruler_uses_title_name = no
 					province = 2385
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_bourbon = {
-			capital = c_bourbon
-			color = { 26 10 135 }
-			c_bourbon = {
-				color = { 26 10 135 }
-				b_bourbon = {
-					color = { 26 10 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2310
-				}
-				b_orval = {
-					color = { 26 10 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2311
-				}
-				b_montlucon = {
-					color = { 26 10 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2308
-				}
-				b_boussac = {
-					color = { 26 10 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2281
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_bellac = {
-				color = { 15 5 125 }
-				b_bellac = {
-					color = { 15 5 125 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2284
-				}
-				b_la_tremouille = {
-					color = { 15 5 125 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2464
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_jaligny = {
-				color = { 37 10 150 }
-				b_saint_pourcain = {
-					color = { 37 10 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2309
-				}
-				b_jaligny = {
-					color = { 37 10 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2306
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_la_marche = {
-				color = { 20 5 150 }
-				b_grandmont = {
-					color = { 20 5 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2285
-				}
-				b_gueret = {
-					color = { 20 5 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2286
-				}
-				b_aubusson = {
-					color = { 20 5 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2287
 				}
 				landless = no
 				definite_form = no
@@ -82247,202 +82335,6 @@ e_IRTOCK3_B99 = {
 			definite_form = no
 			ruler_uses_title_name = no
 		}
-		d_normandy = {
-			capital = c_rouen
-			color = { 7 7 145 }
-			c_rouen = {
-				color = { 7 7 145 }
-				b_rouen = {
-					color = { 7 7 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2179
-				}
-				b_gisors = {
-					color = { 7 7 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2180
-				}
-				b_harcourt = {
-					color = { 7 7 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2175
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_evreux = {
-				color = { 0 15 130 }
-				b_evreux = {
-					color = { 0 15 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2329
-				}
-				b_vernon = {
-					color = { 0 15 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2330
-				}
-				b_verneuil = {
-					color = { 0 15 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2328
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_bayeux = {
-				color = { 10 0 130 }
-				b_bayeux = {
-					color = { 10 0 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2170
-				}
-				b_caen = {
-					color = { 10 0 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2172
-				}
-				b_falaise = {
-					color = { 10 0 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2173
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_avranches = {
-				color = { 0 0 125 }
-				b_avranches = {
-					color = { 0 0 125 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2167
-				}
-				b_cherbourg = {
-					color = { 0 0 125 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2169
-				}
-				b_coutances = {
-					color = { 0 0 125 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2168
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_alencon = {
-				color = { 12 12 105 }
-				b_alencon = {
-					color = { 12 12 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2325
-				}
-				b_mortain = {
-					color = { 12 12 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2171
-				}
-				b_argentan = {
-					color = { 12 12 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2326
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_lisieux = {
-				color = { 10 10 160 }
-				b_lisieux = {
-					color = { 10 10 160 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2174
-				}
-				b_sees = {
-					color = { 10 10 160 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2327
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_eu = {
-				color = { 20 20 130 }
-				b_eu = {
-					color = { 20 20 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2178
-				}
-				b_fecamp = {
-					color = { 20 20 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2176
-				}
-				b_dieppe = {
-					color = { 20 20 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2177
-				}
-				b_aumale = {
-					color = { 20 20 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2182
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
 		d_champagne = {
 			capital = c_reims
 			color = { 7 60 160 }
@@ -82995,6 +82887,114 @@ e_IRTOCK3_B99 = {
 	k_aquitaine = {
 		capital = c_bordeaux
 		color = { 156 81 182 }
+		d_bourbon = {
+			capital = c_bourbon
+			color = { 26 10 135 }
+			c_bourbon = {
+				color = { 26 10 135 }
+				b_bourbon = {
+					color = { 26 10 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2310
+				}
+				b_orval = {
+					color = { 26 10 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2311
+				}
+				b_montlucon = {
+					color = { 26 10 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2308
+				}
+				b_boussac = {
+					color = { 26 10 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2281
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_bellac = {
+				color = { 15 5 125 }
+				b_bellac = {
+					color = { 15 5 125 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2284
+				}
+				b_la_tremouille = {
+					color = { 15 5 125 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2464
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_jaligny = {
+				color = { 37 10 150 }
+				b_saint_pourcain = {
+					color = { 37 10 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2309
+				}
+				b_jaligny = {
+					color = { 37 10 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2306
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_la_marche = {
+				color = { 20 5 150 }
+				b_grandmont = {
+					color = { 20 5 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2285
+				}
+				b_gueret = {
+					color = { 20 5 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2286
+				}
+				b_aubusson = {
+					color = { 20 5 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2287
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
 		d_gascogne = {
 			capital = c_bordeaux
 			color = { 81 30 243 }

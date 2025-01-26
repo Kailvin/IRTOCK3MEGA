@@ -28,7 +28,7 @@
 10097={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10098={
 	culture = moklen
@@ -52,7 +52,7 @@
 10168={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 10173={
@@ -64,7 +64,7 @@
 10175={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10176={
@@ -77,7 +77,7 @@
 	holding = none
 }
 10180={
-	holding = castle_holding
+	holding = estate_holding
 }
 10181={
 	holding = none
@@ -88,7 +88,7 @@
 10183={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10184={
 	holding = none
@@ -96,7 +96,7 @@
 10185={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 10186={
@@ -108,19 +108,19 @@
 10188={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10189={
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
 }
 10190={
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
 }
 10192={
 	holding = none
@@ -131,7 +131,7 @@
 10194={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10195={
 	holding = none
@@ -142,7 +142,7 @@
 10281={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10287={
 	holding = none
@@ -156,7 +156,7 @@
 10632={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = phra_pathommachedi_01
 	special_building = phra_pathommachedi_01
 	600.1.1 = { special_building = phra_pathommachedi_02 }
@@ -165,7 +165,7 @@
 10633={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10634={
 	holding = none
@@ -182,7 +182,7 @@
 10638={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10640={
 	holding = none
@@ -193,7 +193,7 @@
 10651={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10652={
 	holding = none
@@ -214,12 +214,12 @@
 11139={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11152={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11156={
 	holding = none
@@ -230,7 +230,7 @@
 11253={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 11294={
@@ -254,12 +254,12 @@
 11559={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11560={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11562={
 	holding = none
@@ -273,7 +273,7 @@
 11565={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 11566={

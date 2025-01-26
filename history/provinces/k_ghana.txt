@@ -51,7 +51,7 @@
 	holding = tribal_holding
 	960.1.1 = { culture = soninke religion = west_african_bidu_pagan }
 	1050.1.1 = { religion = ashari }
-	1066.1.1 = { holding = castle_holding buildings = { orchards_01 plantations_01 pastures_01 } }
+	1066.1.1 = { holding = estate_holding buildings = { orchards_01 plantations_01 pastures_01 } }
 }
 6626={
 	holding = none
@@ -150,7 +150,7 @@
 	867.1.1 = { buildings = { market_villages_01 } }
 	895.1.1 = { culture = soninke }
 	960.1.1 = { religion = ashari }
-	1066.1.1 = { holding = castle_holding }
+	1066.1.1 = { holding = estate_holding }
 }
 6765={
 	holding = none

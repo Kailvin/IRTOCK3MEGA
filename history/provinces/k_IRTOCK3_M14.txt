@@ -1,42 +1,42 @@
 1134={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1135={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1136={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = dwarkadhish_temple_01
 }
 1266={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = somnath_temple_temple_01
 }
 1267={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1268={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1295={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 3350={
-	holding = castle_holding
+	holding = estate_holding
 }
 3351={
 	holding = none
@@ -45,7 +45,7 @@
 	holding = none
 }
 3353={
-	holding = castle_holding
+	holding = estate_holding
 }
 3354={
 	holding = none
@@ -90,5 +90,5 @@
 	holding = none
 }
 3368={
-	holding = castle_holding
+	holding = estate_holding
 }

@@ -7,17 +7,17 @@
 5958={
 	culture = hebrew
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5959={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5960={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5961={
 	holding = church_holding
@@ -25,7 +25,7 @@
 5962={
 	culture = hebrew
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5963={
 	holding = none
@@ -36,7 +36,7 @@
 5965={
 	culture = nabatean
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	300.1.1 = { special_building_slot = dome_of_the_rock_01 }
 }
 5966={
@@ -48,12 +48,12 @@
 5968={
 	culture = hebrew
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5969={
 	culture = nabatean
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5971={
 	holding = city_holding
@@ -62,7 +62,7 @@
 	holding = none
 }
 5973={
-	holding = castle_holding
+	holding = estate_holding
 }
 5978={
 	holding = city_holding
@@ -73,7 +73,7 @@
 5980={
 	culture = hebrew
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5985={
 	holding = none

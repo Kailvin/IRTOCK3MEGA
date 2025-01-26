@@ -7,7 +7,7 @@
 6131={
 	culture = qahtanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6132={
 	holding = none
@@ -18,7 +18,7 @@
 6134={
 	culture = qahtanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6135={
 	holding = none
@@ -29,7 +29,7 @@
 6137={
 	culture = qahtanite
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 6138={
 	holding = none
@@ -40,18 +40,18 @@
 6140={
 	culture = qahtanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6141={
 	holding = none
 }
 6143={
-	holding = castle_holding
+	holding = estate_holding
 }
 6144={
 	culture = qahtanite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6145={
 	holding = none
@@ -63,10 +63,10 @@
 	holding = none
 }
 6268={
-	holding = castle_holding
+	holding = estate_holding
 }
 6269={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }

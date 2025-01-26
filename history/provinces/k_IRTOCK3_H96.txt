@@ -9,7 +9,7 @@
 6284={
 	culture = himyarite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6285={
 	holding = city_holding
@@ -32,7 +32,7 @@
 6291={
 	culture = south_arabian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6292={
 	holding = none
@@ -52,24 +52,24 @@
 6312={
 	culture = himyarite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6313={
 	culture = himyarite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6314={
 	culture = himyarite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6315={
-	holding = castle_holding
+	holding = estate_holding
 }
 6316={
-	holding = castle_holding
+	holding = estate_holding
 }
 6317={
-	holding = castle_holding
+	holding = estate_holding
 }

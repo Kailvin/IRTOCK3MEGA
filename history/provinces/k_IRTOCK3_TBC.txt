@@ -7,10 +7,10 @@
 2694={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2695={
-	holding = castle_holding
+	holding = estate_holding
 }
 2701={
 	holding = none
@@ -30,7 +30,7 @@
 2729={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2730={
 	holding = none
@@ -38,12 +38,12 @@
 2731={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2732={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2733={
 	holding = none
@@ -57,7 +57,7 @@
 2737={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2738={
 	holding = none
@@ -65,13 +65,13 @@
 2739={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2741={
-	holding = castle_holding
+	holding = estate_holding
 }
 2742={
-	holding = castle_holding
+	holding = estate_holding
 }
 2743={
 	holding = none
@@ -82,7 +82,7 @@
 2745={
 	culture = greek
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 2772={
 	holding = city_holding
@@ -113,5 +113,5 @@
 	holding = city_holding
 }
 2868={
-	holding = castle_holding
+	holding = estate_holding
 }

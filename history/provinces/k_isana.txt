@@ -1,7 +1,7 @@
 10049={
 	culture = khmu
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { religion = theravada }
 	1050.1.1 = { culture = tai }
 }
@@ -13,7 +13,7 @@
 10051={
 	culture = khmu
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai religion = ban_phi }
 }
 10052={
@@ -27,7 +27,7 @@
 10054={
 	culture = bruso
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 }
 10055={
 	holding = none
@@ -38,7 +38,7 @@
 10057={
 	culture = bruso
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai religion = ban_phi }
 }
 10058={
@@ -77,7 +77,7 @@
 10067={
 	culture = kuy
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { religion = theravada }
 	1050.1.1 = { culture = tai }
 }
@@ -102,19 +102,19 @@
 10129={
 	culture = khmu
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10130={
 	culture = khmu
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = tai }
 }
 10131={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10132={
@@ -129,7 +129,7 @@
 10134={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 10135={
@@ -138,13 +138,13 @@
 10136={
 	culture = khmu
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai religion = ban_phi }
 }
 10140={
 	culture = bruso
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = phrathat_phanom_01
 	900.1.1 = { culture = tai religion = ban_phi }
 	950.1.1 = { special_building = phrathat_phanom_01 }
@@ -156,7 +156,7 @@
 10142={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = tai }
 }
 10143={
@@ -171,7 +171,7 @@
 10145={
 	culture = kuy
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 }
 10146={
 	holding = none
@@ -180,7 +180,7 @@
 	culture = sambor
 	religion = shaivism
 	holding = tribal_holding
-	1050.1.1 = { culture = khmer holding = castle_holding }
+	1050.1.1 = { culture = khmer holding = estate_holding }
 }
 10148={
 	holding = none
@@ -200,12 +200,12 @@
 10152={
 	culture = kuy
 	religion = kuy_animism
-	holding = castle_holding
+	holding = estate_holding
 }
 10153={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 10154={
@@ -225,7 +225,7 @@
 10158={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 10160={
 	holding = none
@@ -239,7 +239,7 @@
 10162={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 10163={
@@ -375,7 +375,7 @@
 11392={
 	culture = sambor
 	religion = shaivism
-	holding = castle_holding
+	holding = estate_holding
 }
 11393={
 	holding = none
@@ -452,7 +452,7 @@
 11438={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 }
 11439={
 	holding = none
@@ -466,7 +466,7 @@
 11442={
 	culture = mon
 	religion = theravada
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = tai }
 }
 11443={

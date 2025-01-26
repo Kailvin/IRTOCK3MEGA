@@ -1,5 +1,5 @@
 1441={
-	holding = castle_holding
+	holding = estate_holding
 }
 1442={
 	culture = tocharian
@@ -55,7 +55,7 @@
 	holding = none
 }
 9601={
-	holding = castle_holding
+	holding = estate_holding
 }
 9602={
 	holding = church_holding
@@ -69,7 +69,7 @@
 9605={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 13679={
 	holding = none

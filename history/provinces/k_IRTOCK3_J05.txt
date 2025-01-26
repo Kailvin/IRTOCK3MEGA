@@ -1,7 +1,7 @@
 1351={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7951={
 	holding = none
@@ -17,7 +17,7 @@
 7954={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7955={
 	holding = city_holding
@@ -31,7 +31,7 @@
 9002={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9003={
 	holding = none
@@ -45,7 +45,7 @@
 9006={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9007={
 	holding = none
@@ -56,7 +56,7 @@
 9009={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9010={
 	holding = city_holding
@@ -70,7 +70,7 @@
 9013={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9014={
 	holding = none
@@ -81,7 +81,7 @@
 9016={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9017={
 	holding = none
@@ -89,7 +89,7 @@
 9018={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9019={
 	holding = none
@@ -97,7 +97,7 @@
 9020={
 	culture = tocharian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 9021={
 	holding = city_holding
@@ -111,15 +111,15 @@
 9024={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9025={
-	holding = castle_holding
+	holding = estate_holding
 }
 9026={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9027={
 	holding = church_holding
@@ -127,7 +127,7 @@
 9028={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9029={
 	holding = church_holding
@@ -135,7 +135,7 @@
 9030={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9031={
 	holding = none
@@ -162,7 +162,7 @@
 9037={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9038={
 	holding = none
@@ -190,10 +190,10 @@
 9052={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9053={
-	holding = castle_holding
+	holding = estate_holding
 }
 9054={
 	holding = none
@@ -201,12 +201,12 @@
 9055={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9056={
 	culture = zhangzhung
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9057={
 	holding = none
@@ -214,7 +214,7 @@
 9058={
 	culture = sumpa
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9059={
 	holding = city_holding
@@ -252,7 +252,7 @@
 9068={
 	culture = sumpa
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9069={
 	holding = city_holding
@@ -293,7 +293,7 @@
 9079={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9080={
 	holding = none
@@ -310,7 +310,7 @@
 9099={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9100={
 	holding = none
@@ -318,7 +318,7 @@
 9101={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9102={
 	holding = none
@@ -329,7 +329,7 @@
 9104={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9105={
 	holding = none
@@ -338,17 +338,17 @@
 	holding = none
 }
 9107={
-	holding = castle_holding
+	holding = estate_holding
 }
 9108={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9109={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = maya_devi_temple_01
 }
 9110={
@@ -357,7 +357,7 @@
 9111={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 9112={
 	holding = none

@@ -2,12 +2,12 @@
 	holding = church_holding
 }
 4354={
-	holding = castle_holding
+	holding = estate_holding
 }
 4355={
 	culture = hephthalite
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4356={
 	holding = city_holding
@@ -15,7 +15,7 @@
 4357={
 	culture = macedonian
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 4358={
 	holding = none
@@ -32,12 +32,12 @@
 4362={
 	culture = hephthalite
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4363={
 	culture = hephthalite
 	faith = khurmazta
-	holding = castle_holding
+	holding = estate_holding
 }
 4364={
 	holding = none
@@ -48,7 +48,7 @@
 4366={
 	culture = hephthalite
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4367={
 	holding = none

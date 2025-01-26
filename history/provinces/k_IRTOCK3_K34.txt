@@ -1,12 +1,12 @@
 5305={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5306={
 	culture = alan
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5307={
 	holding = none
@@ -20,5 +20,5 @@
 5343={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }

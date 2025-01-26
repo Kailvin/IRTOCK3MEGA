@@ -1,7 +1,7 @@
 63={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 64={
 	holding = none
@@ -9,7 +9,7 @@
 65={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 66={
 	holding = city_holding
@@ -17,10 +17,10 @@
 67={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 68={
-	holding = castle_holding
+	holding = estate_holding
 }
 69={
 	holding = church_holding
@@ -28,7 +28,7 @@
 70={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = lund_cathedral_01
 }
 71={
@@ -38,28 +38,28 @@
 	holding = none
 }
 73={
-	holding = castle_holding
+	holding = estate_holding
 }
 74={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 75={
 	holding = none
 }
 76={
-	holding = castle_holding
+	holding = estate_holding
 }
 77={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 78={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 79={
 	holding = none
@@ -68,7 +68,7 @@
 	holding = none
 }
 85={
-	holding = castle_holding
+	holding = estate_holding
 }
 86={
 	holding = none
@@ -90,7 +90,7 @@
 229={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 230={
 	holding = city_holding
@@ -107,7 +107,7 @@
 234={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 246={
 	holding = church_holding
@@ -136,17 +136,17 @@
 	holding = none
 }
 300={
-	holding = castle_holding
+	holding = estate_holding
 }
 301={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 302={
 	culture = old_saxon
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 303={
 	holding = none
@@ -163,7 +163,7 @@
 307={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 308={
 	holding = none
@@ -186,7 +186,7 @@
 314={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 315={
 	holding = none
@@ -197,13 +197,13 @@
 317={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 318={
 	holding = none
 }
 319={
-	holding = castle_holding
+	holding = estate_holding
 }
 320={
 	holding = none
@@ -211,7 +211,7 @@
 321={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 322={
 	holding = none
@@ -222,7 +222,7 @@
 327={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 328={
 	holding = none
@@ -233,7 +233,7 @@
 330={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 331={
 	holding = none
@@ -241,7 +241,7 @@
 332={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 333={
 	holding = none
@@ -252,7 +252,7 @@
 335={
 	culture = norse
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 336={
 	holding = none
@@ -266,7 +266,7 @@
 339={
 	culture = old_suebi
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 340={
 	holding = none
@@ -274,7 +274,7 @@
 341={
 	culture = old_saxon
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 342={
 	holding = none
@@ -297,15 +297,15 @@
 	holding = none
 }
 433={
-	holding = castle_holding
+	holding = estate_holding
 }
 8723={
 	culture = aestian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 8724={
-	holding = castle_holding
+	holding = estate_holding
 }
 8725={
 	holding = none
@@ -316,7 +316,7 @@
 8727={
 	culture = ripurian
 	faith = norse_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 8731={
 	culture = norse

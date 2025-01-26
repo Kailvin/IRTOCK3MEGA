@@ -10,7 +10,7 @@
 12175={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = samhan }
 }
 12182={
@@ -19,7 +19,7 @@
 12187={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = samhan }
 }
 12193={
@@ -37,14 +37,14 @@
 12246={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = balhae }
 	1150.1.1 = { culture = han }
 }
 12272={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = samhan }
 }
 12286={
@@ -71,7 +71,7 @@
 12398={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 }
 12438={
 	holding = none
@@ -100,7 +100,7 @@
 12540={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = jurchen }
 }
 12594={
@@ -112,7 +112,7 @@
 13037={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = samhan }
 }
 13038={
@@ -130,13 +130,13 @@
 13818={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	1150.1.1 = { culture = han }
 }
 13819={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 }
 13822={
 	holding = none
@@ -150,7 +150,7 @@
 13842={
 	culture = goguryeo
 	religion = muism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = samhan }
 }
 13845={
@@ -165,7 +165,7 @@
 13852={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 }
 13853={
 	holding = none
@@ -191,7 +191,7 @@
 13885={
 	culture = goguryeo
 	religion = muism
-	holding = castle_holding
+	holding = estate_holding
 }
 13887={
 	holding = none
@@ -211,7 +211,7 @@
 13904={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = balhae }
 	1150.1.1 = { culture = goguryeo }
 }
@@ -221,7 +221,7 @@
 13914={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = balhae }
 	1050.1.1 = { culture = jurchen }
 }
@@ -231,7 +231,7 @@
 13922={
 	culture = goguryeo
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 }
 13929={
 	holding = none
@@ -239,7 +239,7 @@
 13936={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = balhae }
 	1050.1.1 = { culture = khitan }
 	1150.1.1 = { culture = jurchen }

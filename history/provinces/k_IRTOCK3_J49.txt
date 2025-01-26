@@ -1,13 +1,13 @@
 534={
 	culture = bastarnian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 	400.1.1 = { culture = sclavenian religion = slavic_pagan }
 }
 5073={
 	culture = bastarnian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 	380.1.1 = { culture = slavic religion = slavic_pagan }
 	400.1.1 = { culture = sclavenian religion = slavic_pagan }
 }
@@ -23,7 +23,7 @@
 5077={
 	culture = bastarnian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 	380.1.1 = { culture = slavic religion = slavic_pagan }
 	400.1.1 = { culture = sclavenian }
 }

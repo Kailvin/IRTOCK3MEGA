@@ -4,7 +4,7 @@
 1369={
 	culture = south_arabian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8314={
 	holding = none
@@ -95,12 +95,12 @@
 8432={
 	culture = nuragic
 	faith = kushitism_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 8504={
 	culture = ethiopian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8505={
 	holding = none
@@ -117,12 +117,12 @@
 8509={
 	culture = ethiopian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8512={
 	culture = somali
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 8513={
 	holding = none

@@ -42,7 +42,7 @@
 9964={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 9965={
 	holding = none
@@ -59,7 +59,7 @@
 9969={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 9970={
 	holding = none
@@ -70,13 +70,13 @@
 9972={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 9973={
 	holding = city_holding
 }
 9974={
-	holding = castle_holding
+	holding = estate_holding
 }
 9975={
 	holding = church_holding
@@ -95,18 +95,18 @@
 9979={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 9980={
 	holding = none
 }
 9981={
-	holding = castle_holding
+	holding = estate_holding
 }
 9982={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 9983={
 	culture = muong
@@ -172,7 +172,7 @@
 	culture = muong
 	religion = phat_giao
 	holding = tribal_holding
-	1060.1.1 = { holding = castle_holding }
+	1060.1.1 = { holding = estate_holding }
 }
 10800={
 	holding = none
@@ -181,7 +181,7 @@
 	culture = muong
 	religion = phat_giao
 	holding = tribal_holding
-	1060.1.1 = { holding = castle_holding }
+	1060.1.1 = { holding = estate_holding }
 }
 10804={
 	culture = muong
@@ -205,7 +205,7 @@
 10810={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10812={
 	holding = none
@@ -232,7 +232,7 @@
 	holding = none
 }
 10824={
-	holding = castle_holding
+	holding = estate_holding
 }
 10825={
 	holding = none
@@ -250,12 +250,12 @@
 10830={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10831={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10832={
 	holding = church_holding
@@ -276,7 +276,7 @@
 	holding = none
 }
 10838={
-	holding = castle_holding
+	holding = estate_holding
 }
 10839={
 	culture = nong
@@ -328,7 +328,7 @@
 10860={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10862={
 	culture = gelao
@@ -352,7 +352,7 @@
 10867={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 	buildings = { castle_04 }
 	special_building_slot = temple_of_literature
 	1011.1.1 = { duchy_capital_building = thang_long_citadel_01 }
@@ -382,7 +382,7 @@
 10878={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10879={
 	holding = church_holding
@@ -404,17 +404,17 @@
 	culture = nong
 	religion = moism
 	holding = tribal_holding
-	1050.1.1 = { holding = castle_holding }
+	1050.1.1 = { holding = estate_holding }
 }
 10884={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10885={
 	culture = kinh
 	religion = phat_giao
-	holding = castle_holding
+	holding = estate_holding
 }
 10886={
 	culture = gelao
@@ -428,7 +428,7 @@
 	culture = muong
 	religion = phat_giao
 	holding = tribal_holding
-	1060.1.1 = { holding = castle_holding }
+	1060.1.1 = { holding = estate_holding }
 }
 11341={
 	holding = none

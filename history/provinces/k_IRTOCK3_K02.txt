@@ -4,7 +4,7 @@
 4001={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4004={
 	holding = none
@@ -18,18 +18,18 @@
 4046={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4047={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4048={
-	holding = castle_holding
+	holding = estate_holding
 }
 4049={
-	holding = castle_holding
+	holding = estate_holding
 }
 4050={
 	holding = none
@@ -46,7 +46,7 @@
 4103={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4104={
 	holding = city_holding
@@ -57,7 +57,7 @@
 4106={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	361.1.1 = { special_building_slot = the_friday_mosque_01 }
 }
 4107={
@@ -69,18 +69,18 @@
 4109={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4110={
 	holding = city_holding
 }
 4111={
-	holding = castle_holding
+	holding = estate_holding
 }
 4112={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4113={
 	holding = none
@@ -94,7 +94,7 @@
 4116={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4260={
 	holding = none
@@ -102,18 +102,18 @@
 4261={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4262={
 	holding = none
 }
 4318={
-	holding = castle_holding
+	holding = estate_holding
 }
 4319={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4320={
 	holding = none
@@ -127,7 +127,7 @@
 4323={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4324={
 	holding = city_holding
@@ -135,7 +135,7 @@
 4325={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = soltaniyeh_01
 }
 4326={
@@ -159,12 +159,12 @@
 4332={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4333={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4763={
 	holding = none
@@ -178,13 +178,13 @@
 4781={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4782={
 	holding = none
 }
 4783={
-	holding = castle_holding
+	holding = estate_holding
 }
 4784={
 	holding = none
@@ -198,5 +198,5 @@
 4787={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }

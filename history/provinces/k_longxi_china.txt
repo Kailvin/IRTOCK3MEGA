@@ -10,7 +10,7 @@
 9418={
 	culture = han
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { religion = lamaism }
 	1140.1.1 = { religion = vajrayana }
 }
@@ -78,7 +78,7 @@
 12810={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 }
 12811={
 	holding = none
@@ -137,7 +137,7 @@
 12916={
 	culture = han
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 }
 12919={
 	holding = none
@@ -148,7 +148,7 @@
 12972={
 	culture = han
 	religion = mahayana
-	holding = castle_holding
+	holding = estate_holding
 }
 16017={
 	holding = none

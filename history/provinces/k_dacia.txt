@@ -4,12 +4,12 @@
 515={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 516={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	100.1.1 = { special_building_slot = east_trajans_bridge }
 }
 3881={
@@ -27,7 +27,7 @@
 4978={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4979={
 	holding = none
@@ -38,7 +38,7 @@
 4981={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4982={
 	holding = none
@@ -52,7 +52,7 @@
 4985={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4986={
 	holding = none
@@ -66,13 +66,13 @@
 4989={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4990={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4991={
@@ -90,7 +90,7 @@
 4995={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4996={
@@ -99,7 +99,7 @@
 4997={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4998={
@@ -111,7 +111,7 @@
 5000={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 5001={
@@ -123,7 +123,7 @@
 5003={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 5004={
@@ -132,7 +132,7 @@
 5005={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5006={
 	holding = none

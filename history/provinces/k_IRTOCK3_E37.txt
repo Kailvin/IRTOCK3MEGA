@@ -21,12 +21,12 @@
 	holding = city_holding
 }
 6308={
-	holding = castle_holding
+	holding = estate_holding
 }
 6309={
 	culture = south_arabian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6310={
 	holding = none

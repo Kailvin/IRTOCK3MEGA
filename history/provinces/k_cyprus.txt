@@ -4,7 +4,7 @@
 757={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5679={
 	holding = city_holding
@@ -15,7 +15,7 @@
 5681={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	303.1.1 = { special_building_slot = saint_lazarus }
 }
 5682={

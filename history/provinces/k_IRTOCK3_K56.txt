@@ -1,7 +1,7 @@
 896={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 897={
 	holding = none
@@ -9,7 +9,7 @@
 1273={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1430={
 	holding = none
@@ -23,7 +23,7 @@
 5501={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7218={
 	holding = none
@@ -37,7 +37,7 @@
 7239={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7240={
 	holding = none
@@ -48,7 +48,7 @@
 7242={
 	culture = alan
 	faith = manichean
-	holding = castle_holding
+	holding = estate_holding
 }
 7243={
 	holding = none
@@ -79,7 +79,7 @@
 7251={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7252={
 	holding = none
@@ -93,12 +93,12 @@
 7256={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7257={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7258={
 	holding = none
@@ -118,7 +118,7 @@
 7263={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7264={
 	holding = none
@@ -129,7 +129,7 @@
 7266={
 	culture = alan
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7267={
 	holding = none

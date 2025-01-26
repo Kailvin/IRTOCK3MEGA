@@ -1,7 +1,7 @@
 740={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 741={
 	holding = city_holding
@@ -9,12 +9,12 @@
 753={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5565={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	303.1.1 = { special_building_slot = maiden_tower }
 }
 5566={
@@ -29,7 +29,7 @@
 5569={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5570={
 	holding = city_holding
@@ -38,7 +38,7 @@
 	holding = none
 }
 5572={
-	holding = castle_holding
+	holding = estate_holding
 }
 5573={
 	holding = none
@@ -46,7 +46,7 @@
 5574={
 	culture = greek
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 5575={
 	holding = none
@@ -58,7 +58,7 @@
 	holding = none
 }
 5578={
-	holding = castle_holding
+	holding = estate_holding
 }
 5579={
 	holding = none

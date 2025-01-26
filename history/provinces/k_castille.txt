@@ -1,7 +1,7 @@
 1801={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1802={
 	holding = none
@@ -15,7 +15,7 @@
 1814={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1815={
 	holding = none
@@ -26,7 +26,7 @@
 1897={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	395.1.1 = { religion = priscillianism }
 }
 1898={
@@ -41,18 +41,18 @@
 1901={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1904={
 	holding = none
 }
 1905={
-	holding = castle_holding
+	holding = estate_holding
 }
 1906={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	381.1.1 = { religion = priscillianism }
 }
 1907={
@@ -67,7 +67,7 @@
 1915={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	395.1.1 = { religion = priscillianism }
 }
 1922={
@@ -76,7 +76,7 @@
 1924={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = alcazar_of_segovia_01
 	395.1.1 = { religion = priscillianism }
 }

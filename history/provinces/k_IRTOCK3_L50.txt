@@ -13,12 +13,12 @@
 	holding = none
 }
 4536={
-	holding = castle_holding
+	holding = estate_holding
 }
 4537={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4538={
 	holding = none
@@ -38,15 +38,15 @@
 4543={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4544={
-	holding = castle_holding
+	holding = estate_holding
 }
 4545={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4546={
 	holding = city_holding
@@ -66,13 +66,13 @@
 4767={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4768={
 	holding = none
 }
 4769={
-	holding = castle_holding
+	holding = estate_holding
 }
 4770={
 	holding = city_holding
@@ -80,7 +80,7 @@
 4771={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 	100.1.1 = { special_building_slot = adur_gushnasp }
 }
 4772={

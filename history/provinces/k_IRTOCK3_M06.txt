@@ -1,21 +1,21 @@
 1141={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1357={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1359={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = krishna_janmasthan_temple_01
 }
 3460={
-	holding = castle_holding
+	holding = estate_holding
 }
 3461={
 	holding = none

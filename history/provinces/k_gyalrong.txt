@@ -7,13 +7,13 @@
 9330={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	1200.1.1 = { culture = bodpa religion = lamaism }
 }
 9331={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	650.1.1 = { culture = bodpa religion = lamaism }
 }
 9332={
@@ -25,7 +25,7 @@
 9334={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	1200.1.1 = { religion = lamaism }
 }
 9335={
@@ -68,7 +68,7 @@
 9432={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = lamaism }
 }
 9433={
@@ -77,13 +77,13 @@
 9434={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = lamaism }
 }
 9435={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = bodpa religion = lamaism }
 }
 9436={
@@ -92,7 +92,7 @@
 9437={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	900.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 	1150.1.1 = { religion = lamaism }
@@ -106,7 +106,7 @@
 9440={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 	1150.1.1 = { religion = lamaism }
@@ -120,7 +120,7 @@
 9443={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 	1150.1.1 = { religion = lamaism }
@@ -128,7 +128,7 @@
 9444={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 	1150.1.1 = { religion = lamaism }
@@ -139,7 +139,7 @@
 9446={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
@@ -152,7 +152,7 @@
 9449={
 	culture = tangut
 	religion = melieism
-	holding = castle_holding
+	holding = estate_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
@@ -165,14 +165,14 @@
 9452={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	850.1.1 = { religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9453={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	850.1.1 = { religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
@@ -185,7 +185,7 @@
 9456={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 	650.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
@@ -195,7 +195,7 @@
 9458={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 }
 9459={
 	holding = church_holding
@@ -212,12 +212,12 @@
 9463={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 }
 9464={
 	culture = qiang
 	religion = rrmeaism
-	holding = castle_holding
+	holding = estate_holding
 }
 9465={
 	holding = none

@@ -4,7 +4,7 @@
 6172={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 6174={
 	holding = none
@@ -56,12 +56,12 @@
 	holding = none
 }
 6259={
-	holding = castle_holding
+	holding = estate_holding
 }
 6260={
 	culture = nuragic
 	faith = rabbinism
-	holding = castle_holding
+	holding = estate_holding
 }
 6261={
 	holding = none
@@ -69,7 +69,7 @@
 6262={
 	culture = himyarite
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 6263={
 	holding = none

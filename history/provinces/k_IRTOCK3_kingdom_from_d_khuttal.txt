@@ -4,10 +4,10 @@
 4369={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4370={
-	holding = castle_holding
+	holding = estate_holding
 }
 4371={
 	holding = city_holding
@@ -27,7 +27,7 @@
 4376={
 	culture = macedonian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 4377={
 	holding = none
@@ -35,7 +35,7 @@
 4378={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 4379={
 	holding = city_holding
@@ -44,7 +44,7 @@
 	holding = none
 }
 4381={
-	holding = castle_holding
+	holding = estate_holding
 }
 4382={
 	holding = none
@@ -52,5 +52,5 @@
 4383={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }

@@ -1,27 +1,27 @@
 517={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 518={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 519={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 520={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 521={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 522={
 	holding = none
@@ -29,45 +29,45 @@
 523={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 524={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 525={
 	culture = bastarnian
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 533={
 	culture = bastarnian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 537={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 538={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 539={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 540={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3611={
-	holding = castle_holding
+	holding = estate_holding
 }
 3613={
 	holding = none
@@ -75,7 +75,7 @@
 3739={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3802={
 	holding = none
@@ -83,7 +83,7 @@
 3803={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3804={
 	holding = none
@@ -91,7 +91,7 @@
 3805={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3806={
 	holding = none
@@ -102,12 +102,12 @@
 3808={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3809={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3810={
 	holding = city_holding
@@ -115,7 +115,7 @@
 3811={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3812={
 	holding = none
@@ -129,7 +129,7 @@
 3815={
 	culture = ripurian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 3816={
 	holding = none
@@ -137,7 +137,7 @@
 3817={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3818={
 	holding = none
@@ -148,7 +148,7 @@
 3820={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3821={
 	holding = none
@@ -159,7 +159,7 @@
 3823={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3824={
 	holding = city_holding
@@ -170,12 +170,12 @@
 3826={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3827={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3828={
 	holding = city_holding
@@ -189,7 +189,7 @@
 3831={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3832={
 	holding = none
@@ -203,7 +203,7 @@
 3835={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3836={
 	holding = none
@@ -217,7 +217,7 @@
 3839={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3840={
 	holding = city_holding
@@ -228,7 +228,7 @@
 3842={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3843={
 	holding = city_holding
@@ -242,7 +242,7 @@
 3846={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3847={
 	holding = none
@@ -250,13 +250,13 @@
 3848={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3849={
 	holding = none
 }
 3850={
-	holding = castle_holding
+	holding = estate_holding
 }
 3851={
 	holding = none
@@ -270,40 +270,40 @@
 3854={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3855={
-	holding = castle_holding
+	holding = estate_holding
 }
 3856={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3857={
-	holding = castle_holding
+	holding = estate_holding
 }
 3858={
-	holding = castle_holding
+	holding = estate_holding
 }
 3859={
-	holding = castle_holding
+	holding = estate_holding
 }
 3860={
 	holding = city_holding
 }
 3861={
-	holding = castle_holding
+	holding = estate_holding
 }
 3862={
 	culture = bastarnian
 	faith = central_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 3863={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3864={
 	holding = city_holding
@@ -311,7 +311,7 @@
 3865={
 	culture = kolochin
 	faith = catholic
-	holding = castle_holding
+	holding = estate_holding
 }
 3866={
 	holding = city_holding
@@ -328,7 +328,7 @@
 3870={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3871={
 	holding = none
@@ -339,7 +339,7 @@
 3873={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3874={
 	holding = city_holding
@@ -353,7 +353,7 @@
 3877={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3878={
 	holding = none
@@ -367,35 +367,35 @@
 3882={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3883={
 	holding = city_holding
 }
 3884={
-	holding = castle_holding
+	holding = estate_holding
 }
 3885={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3886={
 	holding = none
 }
 3887={
-	holding = castle_holding
+	holding = estate_holding
 }
 3888={
-	holding = castle_holding
+	holding = estate_holding
 }
 3889={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3890={
-	holding = castle_holding
+	holding = estate_holding
 }
 3891={
 	holding = none
@@ -410,7 +410,7 @@
 	holding = none
 }
 3895={
-	holding = castle_holding
+	holding = estate_holding
 }
 3896={
 	holding = none
@@ -418,7 +418,7 @@
 3897={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3898={
 	holding = none
@@ -438,7 +438,7 @@
 3903={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3904={
 	holding = none
@@ -446,7 +446,7 @@
 3905={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3906={
 	holding = city_holding
@@ -454,7 +454,7 @@
 3907={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3908={
 	holding = none
@@ -492,7 +492,7 @@
 3919={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3920={
 	holding = none
@@ -509,7 +509,7 @@
 3924={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3925={
 	holding = none
@@ -527,12 +527,12 @@
 	holding = none
 }
 3930={
-	holding = castle_holding
+	holding = estate_holding
 }
 3931={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3932={
 	holding = city_holding
@@ -553,7 +553,7 @@
 	holding = none
 }
 3938={
-	holding = castle_holding
+	holding = estate_holding
 }
 3939={
 	holding = none
@@ -561,7 +561,7 @@
 3940={
 	culture = getian
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3941={
 	holding = none
@@ -569,7 +569,7 @@
 3942={
 	culture = kolochin
 	faith = orthodox
-	holding = castle_holding
+	holding = estate_holding
 }
 3943={
 	holding = none
@@ -605,7 +605,7 @@
 	holding = none
 }
 3978={
-	holding = castle_holding
+	holding = estate_holding
 }
 3979={
 	holding = none

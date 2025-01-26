@@ -6,12 +6,12 @@
 1439={
 	culture = tocharian
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7958={
 	culture = tocharian
 	faith = tengri_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 7959={
 	holding = none
@@ -40,7 +40,7 @@
 7969={
 	culture = macedonian
 	faith = khurmazta
-	holding = castle_holding
+	holding = estate_holding
 }
 7971={
 	holding = none

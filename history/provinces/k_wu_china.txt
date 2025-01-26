@@ -13,7 +13,7 @@
 11952={
 	culture = sheren
 	religion = hmongism
-	holding = castle_holding
+	holding = estate_holding
 	1050.1.1 = { culture = hakka }
 }
 11957={
@@ -128,7 +128,7 @@
 	holding = none
 }
 12319={
-	holding = castle_holding
+	holding = estate_holding
 }
 12327={
 	holding = none
@@ -153,7 +153,7 @@
 12368={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 	1050.1.1 = { culture = wu }
 }
@@ -164,7 +164,7 @@
 	holding = none
 }
 12386={
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 }
 12389={
@@ -211,7 +211,7 @@
 12489={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 	1050.1.1 = { culture = wu }
 }
@@ -248,7 +248,7 @@
 12520={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 	1050.1.1 = { culture = wu }
 }
@@ -280,12 +280,12 @@
 	culture = han
 	religion = shendao
 	holding = none
-	937.1.1 = { holding = castle_holding buildings = { castle_04 } }
+	937.1.1 = { holding = estate_holding buildings = { castle_04 } }
 }
 12550={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 }
 12554={
@@ -316,7 +316,7 @@
 12605={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 }
 12629={
@@ -330,7 +330,7 @@
 12676={
 	culture = han
 	religion = shendao
-	holding = castle_holding
+	holding = estate_holding
 }
 12682={
 	holding = none

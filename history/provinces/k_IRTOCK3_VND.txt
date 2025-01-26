@@ -46,7 +46,7 @@
 5146={
 	culture = aestian
 	faith = slavic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5147={
 	holding = none
@@ -60,7 +60,7 @@
 5150={
 	culture = aestian
 	faith = slavic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5151={
 	holding = none
@@ -69,5 +69,5 @@
 	holding = none
 }
 5177={
-	holding = castle_holding
+	holding = estate_holding
 }

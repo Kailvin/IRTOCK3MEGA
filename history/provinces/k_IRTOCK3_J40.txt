@@ -6,7 +6,7 @@
 5353={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5354={
 	holding = none
@@ -31,7 +31,7 @@
 5377={
 	culture = aestian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5378={
 	holding = none
@@ -51,7 +51,7 @@
 5388={
 	culture = sarmatian
 	faith = scythian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5389={
 	holding = none

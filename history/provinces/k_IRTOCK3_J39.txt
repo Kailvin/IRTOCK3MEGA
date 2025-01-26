@@ -1,17 +1,17 @@
 556={
 	culture = sarmatian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 557={
 	culture = hun
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 558={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 559={
 	holding = city_holding
@@ -25,7 +25,7 @@
 562={
 	culture = alan
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 564={
 	culture = sarmatian
@@ -38,12 +38,12 @@
 597={
 	culture = alan
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 598={
 	culture = sarmatian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 599={
 	culture = sarmatian
@@ -53,7 +53,7 @@
 5276={
 	culture = greek
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5277={
 	holding = none
@@ -102,7 +102,7 @@
 5330={
 	culture = sarmatian
 	faith = hellenic_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 5331={
 	holding = none

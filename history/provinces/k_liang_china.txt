@@ -28,7 +28,7 @@
 12658={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 }
 12666={
@@ -38,7 +38,7 @@
 12672={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 }
 12675={
@@ -47,7 +47,7 @@
 12710={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 }
 12722={
 	holding = none
@@ -73,7 +73,7 @@
 12776={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = generic_university
 	1009.1.1 = { special_building = generic_university }
 }
@@ -106,7 +106,7 @@
 12869={
 	culture = han
 	religion = zenzong
-	holding = castle_holding
+	holding = estate_holding
 	special_building = china_grand_canal_01
 	960.1.1 = { buildings = { castle_04 } }
 }

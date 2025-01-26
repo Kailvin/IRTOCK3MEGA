@@ -1,27 +1,27 @@
 1837={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1838={
 	holding = none
 }
 1839={
-	holding = castle_holding
+	holding = estate_holding
 }
 1840={
-	holding = castle_holding
+	holding = estate_holding
 }
 1841={
 	holding = none
 }
 1842={
-	holding = castle_holding
+	holding = estate_holding
 }
 1843={
 	culture = baranis
 	faith = priscillianism
-	holding = castle_holding
+	holding = estate_holding
 }
 1844={
 	holding = none
@@ -29,12 +29,12 @@
 1845={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1846={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1847={
 	holding = none
@@ -45,7 +45,7 @@
 1849={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1918={
 	holding = none
@@ -53,7 +53,7 @@
 1919={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = city_wall_of_toledo_01
 	395.1.1 = { religion = priscillianism }
 }
@@ -63,7 +63,7 @@
 1923={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1927={
 	holding = none
@@ -86,7 +86,7 @@
 1935={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1944={
 	holding = city_holding
@@ -97,7 +97,7 @@
 1947={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1951={
 	holding = none
@@ -105,7 +105,7 @@
 1952={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1953={
 	holding = none
@@ -122,7 +122,7 @@
 1960={
 	culture = scythian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	395.1.1 = { religion = basilidianism }
 }
 1961={
@@ -146,21 +146,21 @@
 1978={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 	special_building_slot = alhambra_01
 }
 1979={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1980={
-	holding = castle_holding
+	holding = estate_holding
 }
 1981={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1982={
 	holding = city_holding
@@ -174,11 +174,11 @@
 1991={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = castle_holding
+	holding = estate_holding
 }
 1992={
 	holding = none
 }
 1993={
-	holding = castle_holding
+	holding = estate_holding
 }

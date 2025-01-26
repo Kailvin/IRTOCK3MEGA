@@ -1421,20 +1421,6 @@ k_guiyi = {
 	definite_form = no
 	ruler_uses_title_name = no
 }
-k_switzerland = {
-	capital = c_bern
-	color = { 255 80 80 }
-	landless = no
-	definite_form = yes
-	ruler_uses_title_name = no
-}
-k_austria = {
-	capital = c_vienna
-	color = { 240 240 240 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-}
 k_visigoths = {
 	capital = c_toledo
 	color = { 116 135 65 }
@@ -2002,547 +1988,7 @@ e_britannia = {
 				name_list_old_saxon = cn_east_seaxe
 			}
 		}
-		d_northumberland = {
-			capital = c_northumberland
-			color = { 229 22 47 }
-			c_northumberland = {
-				color = { 245 0 0 }
-				b_bamburgh = {
-					color = { 245 0 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_anglo_saxon = cn_bebbanburg
-						name_list_old_saxon = cn_bebbanburg
-						name_list_norwegian = cn_bamborg
-						name_list_danish = cn_bamborg
-						name_list_swedish = cn_bamborg
-						name_list_norse = cn_bamborg
-						name_list_welsh = cn_din_guarie
-						name_list_cumbrian = cn_din_guarie
-						name_list_pictish = cn_din_guarie
-						name_list_cornish = cn_din_guarie
-						name_list_breton = cn_din_guarie
-					}
-					province = 1609
-				}
-				b_rothbury = {
-					color = { 245 0 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1612
-				}
-				b_lindisfarne = {
-					color = { 245 0 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_welsh = cn_medcaut
-						name_list_cumbrian = cn_medcaut
-						name_list_pictish = cn_medcaut
-						name_list_cornish = cn_medcaut
-						name_list_breton = cn_medcaut
-					}
-					province = 1610
-				}
-				b_hexham = {
-					color = { 245 0 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1611
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_anglo_saxon = cn_bernicia
-					name_list_breton = cn_bryneich
-					name_list_cornish = cn_bryneich
-					name_list_cumbrian = cn_bryneich
-					name_list_pictish = cn_bryneich
-					name_list_welsh = cn_bryneich
-				}
-			}
-			c_durham = {
-				color = { 255 15 15 }
-				b_durham = {
-					color = { 255 15 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_anglo_saxon = cn_dunholm
-						name_list_old_saxon = cn_dunholm
-						name_list_norman = cn_duresm
-						name_list_french = cn_duresm
-						name_list_outremer = cn_duresm
-						name_list_occitan = cn_duresm
-						name_list_norse = cn_ulfreksfjordr
-						name_list_norwegian = cn_ulfreksfjordr
-					}
-					province = 1606
-				}
-				b_hartlepool = {
-					color = { 255 15 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1607
-				}
-				b_darlington = {
-					color = { 255 15 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1608
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_anglo_saxon = cn_dunholm
-					name_list_old_saxon = cn_dunholm
-					name_list_norman = cn_duresm
-					name_list_french = cn_duresm
-					name_list_outremer = cn_duresm
-					name_list_occitan = cn_duresm
-				}
-			}
-			c_cumberland = {
-				color = { 240 25 25 }
-				b_carlisle = {
-					color = { 240 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_cumbrian = cn_caer_luel
-						name_list_welsh = cn_caer_luel
-						name_list_pictish = cn_caer_luel
-						name_list_breton = cn_caer_luel
-						name_list_cornish = cn_caer_luel
-						name_list_gaelic = cn_cathair_luail
-						name_list_irish = cn_cathair_luail
-						name_list_anglo_saxon = cn_carleol
-						name_list_old_saxon = cn_carleol
-					}
-					province = 1635
-				}
-				b_whitehaven = {
-					color = { 240 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1636
-				}
-				b_furness = {
-					color = { 240 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1642
-				}
-				b_wigton = {
-					color = { 240 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8780
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				ai_primary_priority = {
-					if = {
-						limit = {
-							culture = culture:cumbrian
-						}
-						add = @correct_culture_primary_score
-					}
-				}
-				cultural_names = {
-					name_list_anglo_saxon = cn_cumbraland
-					name_list_old_saxon = cn_cumbraland
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:anglo_saxon
-					}
-					add = @better_than_the_alternatives_score
-				}
-			}
-			cultural_names = {
-				name_list_breton = cn_bryneich
-				name_list_cornish = cn_bryneich
-				name_list_cumbrian = cn_bryneich
-				name_list_pictish = cn_bryneich
-				name_list_welsh = cn_bryneich
-				name_list_norman = cn_norroy
-				name_list_french = cn_norroy
-				name_list_outremer = cn_norroy
-				name_list_occitan = cn_norroy
-			}
-		}
-		d_lancaster = {
-			capital = c_lancashire
-			color = { 255 48 0 }
-			c_lancashire = {
-				color = { 250 55 5 }
-				b_lancaster = {
-					color = { 250 55 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1639
-				}
-				b_salford = {
-					color = { 250 55 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1640
-				}
-				b_west_derby = {
-					color = { 250 55 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1641
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_westmorland = {
-				color = { 210 35 10 }
-				b_kendal = {
-					color = { 210 35 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1637
-				}
-				b_appleby = {
-					color = { 210 35 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1638
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_cheshire = {
-				color = { 255 127 15 }
-				b_chester = {
-					color = { 255 152 50 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1643
-				}
-				b_northwich = {
-					color = { 255 127 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1644
-				}
-				b_macclesfield = {
-					color = { 255 127 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1645
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_derby = {
-				color = { 255 50 20 }
-				b_derby = {
-					color = { 255 89 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_djuraby
-						name_list_danish = cn_djuraby
-						name_list_swedish = cn_djuraby
-						name_list_norse = cn_djuraby
-					}
-					province = 1621
-				}
-				b_chesterfield = {
-					color = { 255 50 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1622
-				}
-				b_castleton = {
-					color = { 255 50 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1623
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norwegian = cn_djuraby
-					name_list_danish = cn_djuraby
-					name_list_swedish = cn_djuraby
-					name_list_norse = cn_djuraby
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_breton = cn_rheged
-				name_list_cornish = cn_rheged
-				name_list_cumbrian = cn_rheged
-				name_list_welsh = cn_rheged
-				name_list_pictish = cn_rheged
-			}
-		}
-		d_york = {
-			capital = c_north_riding
-			color = { 255 90 15 }
-			c_north_riding = {
-				color = { 255 95 20 }
-				b_york = {
-					color = { 255 95 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norse = cn_jorvik
-						name_list_norwegian = cn_jorvik
-						name_list_swedish = cn_jorvik
-						name_list_danish = cn_jorvik
-						name_list_anglo_saxon = cn_eoforwic
-						name_list_breton = cn_efrog
-						name_list_cornish = cn_efrog
-						name_list_cumbrian = cn_efrog
-						name_list_welsh = cn_efrog
-						name_list_pictish = cn_efrog
-					}
-					province = 1595
-				}
-				b_scarborough = {
-					color = { 255 95 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1596
-				}
-				b_whitby = {
-					color = { 255 95 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1597
-				}
-				b_richmond = {
-					color = { 255 95 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1598
-				}
-				b_yarlestre = {
-					color = { 255 95 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1500
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_breton = cn_efrog
-					name_list_cornish = cn_efrog
-					name_list_cumbrian = cn_efrog
-					name_list_welsh = cn_efrog
-					name_list_pictish = cn_efrog
-				}
-			}
-			c_east_riding = {
-				color = { 255 139 15 }
-				b_pockington = {
-					color = { 255 160 59 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_anglo_saxon = cn_poclintun
-					}
-					province = 1588
-				}
-				b_cottingham = {
-					color = { 255 139 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1589
-				}
-				b_bridlington = {
-					color = { 255 139 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1590
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_west_riding = {
-				color = { 255 120 35 }
-				b_leeds = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_welsh = cn_ladenses
-						name_list_cumbrian = cn_ladenses
-						name_list_cornish = cn_ladenses
-						name_list_breton = cn_ladenses
-						name_list_pictish = cn_ladenses
-						name_list_anglo_saxon = cn_leodis
-					}
-					province = 1591
-				}
-				b_doncaster = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1592
-				}
-				b_halifax = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1593
-				}
-				b_sheffield = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1594
-				}
-				b_bolton = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1499
-				}
-				b_ripon = {
-					color = { 255 120 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1599
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_welsh = cn_elmet
-					name_list_cumbrian = cn_elmet
-					name_list_cornish = cn_elmet
-					name_list_breton = cn_elmet
-					name_list_pictish = cn_elmet
-				}
-			}
-			c_lincolnshire = {
-				color = { 232 195 74 }
-				b_lincoln = {
-					color = { 232 195 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1583
-				}
-				b_stamford = {
-					color = { 232 195 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1584
-				}
-				b_boston = {
-					color = { 232 195 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1585
-				}
-				b_bolingsbroke = {
-					color = { 232 195 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1586
-				}
-				b_grimsby = {
-					color = { 232 195 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1587
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_anglo_saxon = cn_lindsey
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			ai_primary_priority = {
-				if = {
-					limit = {
-						culture = culture:norse
-					}
-					add = @better_than_the_alternatives_score
-				}
-			}
-			cultural_names = {
-				name_list_norse = cn_jorvik
-				name_list_norwegian = cn_jorvik
-				name_list_swedish = cn_jorvik
-				name_list_danish = cn_jorvik
-				name_list_anglo_saxon = cn_deira
-				name_list_breton = cn_deifr
-				name_list_cornish = cn_deifr
-				name_list_cumbrian = cn_deifr
-				name_list_welsh = cn_deifr
-				name_list_pictish = cn_deifr
-			}
-		}
+		
 		d_norfolk = {
 			capital = c_norfolk
 			color = { 200 90 0 }
@@ -2912,6 +2358,323 @@ e_britannia = {
 				}
 			}
 		}
+		d_northumberland = {
+			capital = c_northumberland
+			color = { 229 22 47 }
+			c_northumberland = {
+				color = { 245 0 0 }
+				b_bamburgh = {
+					color = { 245 0 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_anglo_saxon = cn_bebbanburg
+						name_list_old_saxon = cn_bebbanburg
+						name_list_norwegian = cn_bamborg
+						name_list_danish = cn_bamborg
+						name_list_swedish = cn_bamborg
+						name_list_norse = cn_bamborg
+						name_list_welsh = cn_din_guarie
+						name_list_cumbrian = cn_din_guarie
+						name_list_pictish = cn_din_guarie
+						name_list_cornish = cn_din_guarie
+						name_list_breton = cn_din_guarie
+					}
+					province = 1609
+				}
+				b_rothbury = {
+					color = { 245 0 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1612
+				}
+				b_lindisfarne = {
+					color = { 245 0 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_welsh = cn_medcaut
+						name_list_cumbrian = cn_medcaut
+						name_list_pictish = cn_medcaut
+						name_list_cornish = cn_medcaut
+						name_list_breton = cn_medcaut
+					}
+					province = 1610
+				}
+				b_hexham = {
+					color = { 245 0 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1611
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_anglo_saxon = cn_bernicia
+					name_list_breton = cn_bryneich
+					name_list_cornish = cn_bryneich
+					name_list_cumbrian = cn_bryneich
+					name_list_pictish = cn_bryneich
+					name_list_welsh = cn_bryneich
+				}
+			}
+			c_durham = {
+				color = { 255 15 15 }
+				b_durham = {
+					color = { 255 15 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_anglo_saxon = cn_dunholm
+						name_list_old_saxon = cn_dunholm
+						name_list_norman = cn_duresm
+						name_list_french = cn_duresm
+						name_list_outremer = cn_duresm
+						name_list_occitan = cn_duresm
+						name_list_norse = cn_ulfreksfjordr
+						name_list_norwegian = cn_ulfreksfjordr
+					}
+					province = 1606
+				}
+				b_hartlepool = {
+					color = { 255 15 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1607
+				}
+				b_darlington = {
+					color = { 255 15 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1608
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_anglo_saxon = cn_dunholm
+					name_list_old_saxon = cn_dunholm
+					name_list_norman = cn_duresm
+					name_list_french = cn_duresm
+					name_list_outremer = cn_duresm
+					name_list_occitan = cn_duresm
+				}
+			}
+			c_cumberland = {
+				color = { 240 25 25 }
+				b_carlisle = {
+					color = { 240 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_cumbrian = cn_caer_luel
+						name_list_welsh = cn_caer_luel
+						name_list_pictish = cn_caer_luel
+						name_list_breton = cn_caer_luel
+						name_list_cornish = cn_caer_luel
+						name_list_gaelic = cn_cathair_luail
+						name_list_irish = cn_cathair_luail
+						name_list_anglo_saxon = cn_carleol
+						name_list_old_saxon = cn_carleol
+					}
+					province = 1635
+				}
+				b_whitehaven = {
+					color = { 240 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1636
+				}
+				b_furness = {
+					color = { 240 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1642
+				}
+				b_wigton = {
+					color = { 240 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8780
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				ai_primary_priority = {
+					if = {
+						limit = {
+							culture = culture:cumbrian
+						}
+						add = @correct_culture_primary_score
+					}
+				}
+				cultural_names = {
+					name_list_anglo_saxon = cn_cumbraland
+					name_list_old_saxon = cn_cumbraland
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:anglo_saxon
+					}
+					add = @better_than_the_alternatives_score
+				}
+			}
+			cultural_names = {
+				name_list_breton = cn_bryneich
+				name_list_cornish = cn_bryneich
+				name_list_cumbrian = cn_bryneich
+				name_list_pictish = cn_bryneich
+				name_list_welsh = cn_bryneich
+				name_list_norman = cn_norroy
+				name_list_french = cn_norroy
+				name_list_outremer = cn_norroy
+				name_list_occitan = cn_norroy
+			}
+		}
+		d_lancaster = {
+			capital = c_lancashire
+			color = { 255 48 0 }
+			c_lancashire = {
+				color = { 250 55 5 }
+				b_lancaster = {
+					color = { 250 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1639
+				}
+				b_salford = {
+					color = { 250 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1640
+				}
+				b_west_derby = {
+					color = { 250 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1641
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_westmorland = {
+				color = { 210 35 10 }
+				b_kendal = {
+					color = { 210 35 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1637
+				}
+				b_appleby = {
+					color = { 210 35 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1638
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_cheshire = {
+				color = { 255 127 15 }
+				b_chester = {
+					color = { 255 152 50 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1643
+				}
+				b_northwich = {
+					color = { 255 127 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1644
+				}
+				b_macclesfield = {
+					color = { 255 127 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1645
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_derby = {
+				color = { 255 50 20 }
+				b_derby = {
+					color = { 255 89 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_djuraby
+						name_list_danish = cn_djuraby
+						name_list_swedish = cn_djuraby
+						name_list_norse = cn_djuraby
+					}
+					province = 1621
+				}
+				b_chesterfield = {
+					color = { 255 50 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1622
+				}
+				b_castleton = {
+					color = { 255 50 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1623
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norwegian = cn_djuraby
+					name_list_danish = cn_djuraby
+					name_list_swedish = cn_djuraby
+					name_list_norse = cn_djuraby
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_breton = cn_rheged
+				name_list_cornish = cn_rheged
+				name_list_cumbrian = cn_rheged
+				name_list_welsh = cn_rheged
+				name_list_pictish = cn_rheged
+			}
+		}
 		d_gloucester = {
 			capital = c_gloucestershire
 			color = { 241 79 15 }
@@ -3029,119 +2792,6 @@ e_britannia = {
 				landless = no
 				definite_form = no
 				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_canterbury = {
-			capital = c_kent
-			color = { 241 100 15 }
-			c_kent = {
-				color = { 245 105 20 }
-				b_dover = {
-					color = { 245 105 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1502
-				}
-				b_canterbury = {
-					color = { 245 105 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1503
-				}
-				b_rochester = {
-					color = { 245 105 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1504
-				}
-				b_tonbridge = {
-					color = { 245 105 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1505
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_surrey = {
-				color = { 225 80 20 }
-				b_chertsey = {
-					color = { 225 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1510
-				}
-				b_guildford = {
-					color = { 225 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1511
-				}
-				b_kingston = {
-					color = { 225 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1512
-				}
-				b_tandbridge = {
-					color = { 225 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1513
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_sussex = {
-				color = { 225 105 10 }
-				b_lewes = {
-					color = { 225 105 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1506
-				}
-				b_chichester = {
-					color = { 225 105 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1507
-				}
-				b_arun = {
-					color = { 225 105 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1508
-				}
-				b_hastings = {
-					color = { 225 105 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 1509
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_anglo_saxon = cn_south_seaxe
-					name_list_old_saxon = cn_south_seaxe
-				}
 			}
 			landless = no
 			definite_form = no
@@ -3284,84 +2934,204 @@ e_britannia = {
 				}
 			}
 		}
-		d_cornwall = {
-			capital = c_devon
-			color = { 181 60 10 }
-			c_devon = {
-				color = { 170 60 10 }
-				b_exeter = {
-					color = { 170 60 10 }
+		d_york = {
+			capital = c_north_riding
+			color = { 255 90 15 }
+			c_north_riding = {
+				color = { 255 95 20 }
+				b_york = {
+					color = { 255 95 20 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1569
+					cultural_names = {
+						name_list_norse = cn_jorvik
+						name_list_norwegian = cn_jorvik
+						name_list_swedish = cn_jorvik
+						name_list_danish = cn_jorvik
+						name_list_anglo_saxon = cn_eoforwic
+						name_list_breton = cn_efrog
+						name_list_cornish = cn_efrog
+						name_list_cumbrian = cn_efrog
+						name_list_welsh = cn_efrog
+						name_list_pictish = cn_efrog
+					}
+					province = 1595
 				}
-				b_totnes = {
-					color = { 170 60 10 }
+				b_scarborough = {
+					color = { 255 95 20 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1570
+					province = 1596
 				}
-				b_okehampton = {
-					color = { 170 60 10 }
+				b_whitby = {
+					color = { 255 95 20 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1571
+					province = 1597
 				}
-				b_barnstaple = {
-					color = { 170 60 10 }
+				b_richmond = {
+					color = { 255 95 20 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1572
+					province = 1598
+				}
+				b_yarlestre = {
+					color = { 255 95 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1500
 				}
 				landless = no
 				definite_form = no
 				ruler_uses_title_name = no
-				ai_primary_priority = {
-					if = {
-						limit = {
-							culture = culture:cornish
-						}
-						add = @better_than_the_alternatives_score
-					}
+				cultural_names = {
+					name_list_breton = cn_efrog
+					name_list_cornish = cn_efrog
+					name_list_cumbrian = cn_efrog
+					name_list_welsh = cn_efrog
+					name_list_pictish = cn_efrog
 				}
 			}
-			c_cornwall = {
-				color = { 150 55 5 }
-				b_launceston = {
-					color = { 150 55 5 }
+			c_east_riding = {
+				color = { 255 139 15 }
+				b_pockington = {
+					color = { 255 160 59 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1573
+					cultural_names = {
+						name_list_anglo_saxon = cn_poclintun
+					}
+					province = 1588
 				}
-				b_tintagel = {
-					color = { 150 55 5 }
+				b_cottingham = {
+					color = { 255 139 15 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1574
+					province = 1589
 				}
-				b_helston = {
-					color = { 150 55 5 }
+				b_bridlington = {
+					color = { 255 139 15 }
 					landless = no
 					definite_form = no
 					ruler_uses_title_name = no
-					province = 1575
+					province = 1590
 				}
 				landless = no
 				definite_form = no
 				ruler_uses_title_name = no
-				ai_primary_priority = {
-					if = {
-						limit = {
-							culture = culture:cornish
-						}
-						add = @correct_culture_primary_score
+			}
+			c_west_riding = {
+				color = { 255 120 35 }
+				b_leeds = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_welsh = cn_ladenses
+						name_list_cumbrian = cn_ladenses
+						name_list_cornish = cn_ladenses
+						name_list_breton = cn_ladenses
+						name_list_pictish = cn_ladenses
+						name_list_anglo_saxon = cn_leodis
 					}
+					province = 1591
+				}
+				b_doncaster = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1592
+				}
+				b_halifax = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1593
+				}
+				b_sheffield = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1594
+				}
+				b_bolton = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1499
+				}
+				b_ripon = {
+					color = { 255 120 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1599
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_welsh = cn_elmet
+					name_list_cumbrian = cn_elmet
+					name_list_cornish = cn_elmet
+					name_list_breton = cn_elmet
+					name_list_pictish = cn_elmet
+				}
+			}
+			c_lincolnshire = {
+				color = { 232 195 74 }
+				b_lincoln = {
+					color = { 232 195 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1583
+				}
+				b_stamford = {
+					color = { 232 195 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1584
+				}
+				b_boston = {
+					color = { 232 195 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1585
+				}
+				b_bolingsbroke = {
+					color = { 232 195 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1586
+				}
+				b_grimsby = {
+					color = { 232 195 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1587
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_anglo_saxon = cn_lindsey
 				}
 			}
 			landless = no
@@ -3370,10 +3140,917 @@ e_britannia = {
 			ai_primary_priority = {
 				if = {
 					limit = {
-						culture = culture:cornish
+						culture = culture:norse
 					}
-					add = @correct_culture_primary_score
+					add = @better_than_the_alternatives_score
 				}
+			}
+			cultural_names = {
+				name_list_norse = cn_jorvik
+				name_list_norwegian = cn_jorvik
+				name_list_swedish = cn_jorvik
+				name_list_danish = cn_jorvik
+				name_list_anglo_saxon = cn_deira
+				name_list_breton = cn_deifr
+				name_list_cornish = cn_deifr
+				name_list_cumbrian = cn_deifr
+				name_list_welsh = cn_deifr
+				name_list_pictish = cn_deifr
+			}
+		}
+		d_canterbury = {
+			capital = c_kent
+			color = { 241 100 15 }
+			c_kent = {
+				color = { 245 105 20 }
+				b_dover = {
+					color = { 245 105 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1502
+				}
+				b_canterbury = {
+					color = { 245 105 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1503
+				}
+				b_rochester = {
+					color = { 245 105 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1504
+				}
+				b_tonbridge = {
+					color = { 245 105 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1505
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_surrey = {
+				color = { 225 80 20 }
+				b_chertsey = {
+					color = { 225 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1510
+				}
+				b_guildford = {
+					color = { 225 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1511
+				}
+				b_kingston = {
+					color = { 225 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1512
+				}
+				b_tandbridge = {
+					color = { 225 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1513
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_sussex = {
+				color = { 225 105 10 }
+				b_lewes = {
+					color = { 225 105 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1506
+				}
+				b_chichester = {
+					color = { 225 105 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1507
+				}
+				b_arun = {
+					color = { 225 105 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1508
+				}
+				b_hastings = {
+					color = { 225 105 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1509
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_anglo_saxon = cn_south_seaxe
+					name_list_old_saxon = cn_south_seaxe
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_northern_isles = {
+			capital = c_orkney
+			color = { 195 75 75 }
+			c_orkney = {
+				color = { 195 75 75 }
+				b_kirkwall = {
+					color = { 195 75 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_kirkuvag
+						name_list_danish = cn_kyrkovik
+						name_list_swedish = cn_kyrkovik
+						name_list_norse = cn_kirkuvag
+						name_list_pictish = cn_icluasctreh
+						name_list_welsh = cn_eglwystref
+						name_list_irish = cn_baile_na_h_eaglais
+					}
+					province = 8
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norse = cn_orkneyjar
+					name_list_norwegian = cn_orkneyjar
+				}
+			}
+			c_faereyar = {
+				color = { 200 70 70 }
+				b_torshavn = {
+					color = { 200 70 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norse = cn_torshavn
+						name_list_pictish = cn_pirth_taran
+						name_list_welsh = cn_porth_taran
+						name_list_irish = cn_port_turenn
+					}
+					province = 6
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_shetland = {
+				color = { 205 65 65 }
+				b_scalloway = {
+					color = { 205 65 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norse = cn_skalavagr
+						name_list_norwegian = cn_skalavagr
+						name_list_pictish = cn_bachuuon_maurt
+						name_list_welsh = cn_bachwyon_mawrty
+						name_list_irish = cn_batin_mortaigh
+					}
+					province = 7
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norse = cn_hjaltland
+					name_list_norwegian = cn_hjaltland
+				}
+			}
+			landless = no
+			definite_form = yes
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_norse = cn_nordreyjar
+			}
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
+	k_ireland = {
+	capital = c_dublin
+	color = { 6 127 2 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:irish
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					culture = culture:gaelic
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+		d_meath = {
+			capital = c_dublin
+			color = { 49 249 72 }
+			c_dublin = {
+				color = { 55 250 85 }
+				b_dublin = {
+					color = { 55 250 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norse = cn_dyflinn
+						name_list_norwegian = cn_dyflinn
+						name_list_irish = cn_dubhlinn
+						name_list_welsh = cn_dulyn
+					}
+					province = 28
+				}
+				b_wicklow = {
+					color = { 55 250 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_cill_mhantain
+					}
+					province = 29
+				}
+				b_kildare = {
+					color = { 55 250 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_cill_dara
+					}
+					province = 30
+				}
+				b_trim = {
+					color = { 55 250 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_baile_atha_troim
+					}
+					province = 31
+				}
+				b_drogheda = {
+					color = { 55 250 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_droichead_atha
+					}
+					province = 32
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norse = cn_dyflinn
+					name_list_norwegian = cn_dyflinn
+					name_list_irish = cn_dubhlinn
+					name_list_welsh = cn_dulyn
+				}
+			}
+			c_athlone = {
+				color = { 40 230 65 }
+				b_athlone = {
+					color = { 40 230 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 34
+				}
+				b_birr = {
+					color = { 40 230 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 33
+				}
+				b_uisneach = {
+					color = { 40 230 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 36
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_ulster = {
+			capital = c_ulster
+			color = { 5 222 31 }
+			c_ulster = {
+				color = { 25 230 35 }
+				b_downpatrick = {
+					color = { 25 230 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_strangfjordr
+						name_list_swedish = cn_strangfjord
+						name_list_danish = cn_strangfjord
+						name_list_norse = cn_strangfjordr
+						name_list_irish = cn_dun_padraig
+					}
+					province = 15
+				}
+				b_slemish = {
+					color = { 25 230 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 13
+				}
+				b_carrickfergus = {
+					color = { 25 230 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_carraig_fhearghais
+					}
+					province = 14
+				}
+				b_bangor = {
+					color = { 25 230 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8741
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_oriel = {
+				color = { 30 180 45 }
+				b_dundalk = {
+					color = { 30 180 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_kerlingfrjordr
+						name_list_swedish = cn_kerlingfjord
+						name_list_danish = cn_kerlingfjord
+						name_list_norse = cn_kerlingfrjordr
+						name_list_irish = cn_dun_dealgan
+					}
+					province = 18
+				}
+				b_armagh = {
+					color = { 30 180 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_ard_mhacha
+					}
+					province = 17
+				}
+				b_ardee = {
+					color = { 30 180 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_baile_atha_fhirdhia
+					}
+					province = 19
+				}
+				b_clogher = {
+					color = { 30 180 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8742
+				}
+				b_dungannon = {
+					color = { 30 180 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8743
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_ailech = {
+				color = { 66 157 22 }
+				b_donegal = {
+					color = { 66 157 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_dun_na_ngall
+					}
+					province = 9
+				}
+				b_raphoe = {
+					color = { 66 157 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_rath_bhoth
+					}
+					province = 10
+				}
+				b_fahan = {
+					color = { 66 157 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_fathain
+					}
+					province = 11
+				}
+				b_derry = {
+					color = { 66 157 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_daire_coluimb_chille
+						name_list_norse = cn_ulfkelsfjordr
+						name_list_norwegian = cn_ulfkelsfjordr
+					}
+					province = 12
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norse = cn_ulfkelsfjordr
+					name_list_norwegian = cn_ulfkelsfjordr
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_connacht = {
+			capital = c_mayo
+			color = { 43 229 108 }
+			c_connacht = {
+				color = { 45 230 70 }
+				b_galway = {
+					color = { 45 230 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_dun_bhun_na_gaillimhe
+					}
+					province = 20
+				}
+				b_athenry = {
+					color = { 45 230 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 23
+				}
+				b_tuam = {
+					color = { 45 230 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8746
+				}
+				b_da_chainoc = {
+					color = { 45 230 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8747
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_irish = cn_ui_maine
+				}
+			}
+			c_mayo = {
+				color = { 15 190 70 }
+				b_cruachu = {
+					color = { 15 190 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8745
+				}
+				b_castlebar = {
+					color = { 15 190 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 21
+				}
+				b_sligo = {
+					color = { 15 190 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 22
+				}
+				b_killala = {
+					color = { 15 190 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8748
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_breifne = {
+				color = { 95 221 121 }
+				b_dromahair = {
+					color = { 95 221 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_droim_ath_thiar
+					}
+					province = 24
+				}
+				b_belcoo = {
+					color = { 95 221 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 25
+				}
+				b_longford = {
+					color = { 95 221 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_an_longphort
+					}
+					province = 26
+				}
+				b_cavan = {
+					color = { 95 221 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_an_cabhan
+					}
+					province = 27
+				}
+				b_adragh = {
+					color = { 95 221 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8744
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_leinster = {
+			capital = c_leinster
+			color = { 85 211 27 }
+			c_leinster = {
+				color = { 68 156 28 }
+				b_wexford = {
+					color = { 68 156 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_veisafjordr
+						name_list_swedish = cn_veisafjord
+						name_list_danish = cn_veisafjord
+						name_list_norse = cn_veisafjordr
+						name_list_irish = cn_loch_garman
+					}
+					province = 37
+				}
+				b_enniscorthy = {
+					color = { 68 156 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_inis_corthaidh
+					}
+					province = 38
+				}
+				b_ferns = {
+					color = { 68 156 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_fearna_mor_maedhog
+					}
+					province = 39
+				}
+				b_carlow = {
+					color = { 68 156 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_ceatharlach
+					}
+					province = 40
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_ossory = {
+				color = { 93 166 15 }
+				b_gowran = {
+					color = { 93 166 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_gabhran
+					}
+					province = 43
+				}
+				b_kilkenny = {
+					color = { 93 166 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_cill_chainnigh
+					}
+					province = 41
+				}
+				b_athy = {
+					color = { 93 166 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 42
+				}
+				b_carrick = {
+					color = { 93 166 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 44
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_munster = {
+			capital = c_thomond
+			color = { 16 157 12 }
+			c_thomond = {
+				color = { 3 128 0 }
+				b_limerick = {
+					color = { 3 128 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_hlymrek
+						name_list_danish = cn_lymrek
+						name_list_swedish = cn_lymrek
+						name_list_norse = cn_hlymrek
+						name_list_irish = cn_luimneach
+					}
+					province = 45
+				}
+				b_nenagh = {
+					color = { 3 128 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_aonach_urmhumhan
+					}
+					province = 47
+				}
+				b_roscrea = {
+					color = { 3 128 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_ros_cre
+					}
+					province = 48
+				}
+				b_kilmallock = {
+					color = { 3 128 0 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8750
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_ennis = {
+				color = { 32 115 30 }
+				b_ennis = {
+					color = { 32 115 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_inis
+					}
+					province = 46
+				}
+				b_kincora = {
+					color = { 32 115 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8749
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_ormond = {
+				color = { 0 80 20 }
+				b_waterford = {
+					color = { 0 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norwegian = cn_vedrafjord
+						name_list_swedish = cn_vedrafjord
+						name_list_danish = cn_vedrafjord
+						name_list_norse = cn_vedrafjordr
+						name_list_irish = cn_port_lairge
+					}
+					province = 49
+				}
+				b_emly = {
+					color = { 0 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_imleach_iubhair
+					}
+					province = 50
+				}
+				b_clonmel = {
+					color = { 0 80 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_cluain_meala
+					}
+					province = 51
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_desmond = {
+				color = { 10 137 35 }
+				b_tralee = {
+					color = { 10 137 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 52
+				}
+				b_cork = {
+					color = { 10 137 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_irish = cn_corcaigh
+					}
+					province = 53
+				}
+				b_kinsale = {
+					color = { 10 137 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 54
+				}
+				b_baltimore = {
+					color = { 10 137 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 16
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+	can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				culture = { has_cultural_pillar = heritage_goidelic }
+			}
+		}
+}
+	k_cornwall = {
+	capital = c_cornwall
+	color = { 204 153 10 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:cornish
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					OR = {
+						culture = culture:welsh
+						culture = culture:cumbrian
+						culture = culture:breton
+					}
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				culture = { has_cultural_pillar = heritage_brythonic }
 			}
 		}
 		d_gwynedd = {
@@ -3827,6 +4504,123 @@ e_britannia = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
+		}
+		d_cornwall = {
+			capital = c_devon
+			color = { 181 60 10 }
+			c_devon = {
+				color = { 170 60 10 }
+				b_exeter = {
+					color = { 170 60 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1569
+				}
+				b_totnes = {
+					color = { 170 60 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1570
+				}
+				b_okehampton = {
+					color = { 170 60 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1571
+				}
+				b_barnstaple = {
+					color = { 170 60 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1572
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				ai_primary_priority = {
+					if = {
+						limit = {
+							culture = culture:cornish
+						}
+						add = @better_than_the_alternatives_score
+					}
+				}
+			}
+			c_cornwall = {
+				color = { 150 55 5 }
+				b_launceston = {
+					color = { 150 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1573
+				}
+				b_tintagel = {
+					color = { 150 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1574
+				}
+				b_helston = {
+					color = { 150 55 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 1575
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				ai_primary_priority = {
+					if = {
+						limit = {
+							culture = culture:cornish
+						}
+						add = @correct_culture_primary_score
+					}
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			ai_primary_priority = {
+				if = {
+					limit = {
+						culture = culture:cornish
+					}
+					add = @correct_culture_primary_score
+				}
+			}
+		}
+}
+k_scotland = {
+	capital = c_gowrie
+	color = { 230 140 0 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:scottish
+						culture = culture:gaelic
+						culture = culture:pictish
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+			if = {
+				limit = {
+					culture = culture:irish
+				}
+				add = @better_than_the_alternatives_score
+			}
 		}
 		d_albany = {
 			capital = c_gowrie
@@ -4744,727 +5538,30 @@ e_britannia = {
 				name_list_norwegian = cn_katanes
 			}
 		}
-		d_meath = {
-			capital = c_dublin
-			color = { 49 249 72 }
-			c_dublin = {
-				color = { 55 250 85 }
-				b_dublin = {
-					color = { 55 250 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norse = cn_dyflinn
-						name_list_norwegian = cn_dyflinn
-						name_list_irish = cn_dubhlinn
-						name_list_welsh = cn_dulyn
-					}
-					province = 28
-				}
-				b_wicklow = {
-					color = { 55 250 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_cill_mhantain
-					}
-					province = 29
-				}
-				b_kildare = {
-					color = { 55 250 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_cill_dara
-					}
-					province = 30
-				}
-				b_trim = {
-					color = { 55 250 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_baile_atha_troim
-					}
-					province = 31
-				}
-				b_drogheda = {
-					color = { 55 250 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_droichead_atha
-					}
-					province = 32
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norse = cn_dyflinn
-					name_list_norwegian = cn_dyflinn
-					name_list_irish = cn_dubhlinn
-					name_list_welsh = cn_dulyn
-				}
-			}
-			c_athlone = {
-				color = { 40 230 65 }
-				b_athlone = {
-					color = { 40 230 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 34
-				}
-				b_birr = {
-					color = { 40 230 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 33
-				}
-				b_uisneach = {
-					color = { 40 230 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 36
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_ulster = {
-			capital = c_ulster
-			color = { 5 222 31 }
-			c_ulster = {
-				color = { 25 230 35 }
-				b_downpatrick = {
-					color = { 25 230 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_strangfjordr
-						name_list_swedish = cn_strangfjord
-						name_list_danish = cn_strangfjord
-						name_list_norse = cn_strangfjordr
-						name_list_irish = cn_dun_padraig
-					}
-					province = 15
-				}
-				b_slemish = {
-					color = { 25 230 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 13
-				}
-				b_carrickfergus = {
-					color = { 25 230 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_carraig_fhearghais
-					}
-					province = 14
-				}
-				b_bangor = {
-					color = { 25 230 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8741
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_oriel = {
-				color = { 30 180 45 }
-				b_dundalk = {
-					color = { 30 180 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_kerlingfrjordr
-						name_list_swedish = cn_kerlingfjord
-						name_list_danish = cn_kerlingfjord
-						name_list_norse = cn_kerlingfrjordr
-						name_list_irish = cn_dun_dealgan
-					}
-					province = 18
-				}
-				b_armagh = {
-					color = { 30 180 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_ard_mhacha
-					}
-					province = 17
-				}
-				b_ardee = {
-					color = { 30 180 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_baile_atha_fhirdhia
-					}
-					province = 19
-				}
-				b_clogher = {
-					color = { 30 180 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8742
-				}
-				b_dungannon = {
-					color = { 30 180 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8743
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_ailech = {
-				color = { 66 157 22 }
-				b_donegal = {
-					color = { 66 157 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_dun_na_ngall
-					}
-					province = 9
-				}
-				b_raphoe = {
-					color = { 66 157 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_rath_bhoth
-					}
-					province = 10
-				}
-				b_fahan = {
-					color = { 66 157 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_fathain
-					}
-					province = 11
-				}
-				b_derry = {
-					color = { 66 157 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_daire_coluimb_chille
-						name_list_norse = cn_ulfkelsfjordr
-						name_list_norwegian = cn_ulfkelsfjordr
-					}
-					province = 12
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norse = cn_ulfkelsfjordr
-					name_list_norwegian = cn_ulfkelsfjordr
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_connacht = {
-			capital = c_mayo
-			color = { 43 229 108 }
-			c_connacht = {
-				color = { 45 230 70 }
-				b_galway = {
-					color = { 45 230 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_dun_bhun_na_gaillimhe
-					}
-					province = 20
-				}
-				b_athenry = {
-					color = { 45 230 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 23
-				}
-				b_tuam = {
-					color = { 45 230 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8746
-				}
-				b_da_chainoc = {
-					color = { 45 230 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8747
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_irish = cn_ui_maine
-				}
-			}
-			c_mayo = {
-				color = { 15 190 70 }
-				b_cruachu = {
-					color = { 15 190 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8745
-				}
-				b_castlebar = {
-					color = { 15 190 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 21
-				}
-				b_sligo = {
-					color = { 15 190 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 22
-				}
-				b_killala = {
-					color = { 15 190 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8748
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_breifne = {
-				color = { 95 221 121 }
-				b_dromahair = {
-					color = { 95 221 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_droim_ath_thiar
-					}
-					province = 24
-				}
-				b_belcoo = {
-					color = { 95 221 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 25
-				}
-				b_longford = {
-					color = { 95 221 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_an_longphort
-					}
-					province = 26
-				}
-				b_cavan = {
-					color = { 95 221 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_an_cabhan
-					}
-					province = 27
-				}
-				b_adragh = {
-					color = { 95 221 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8744
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_leinster = {
-			capital = c_leinster
-			color = { 85 211 27 }
-			c_leinster = {
-				color = { 68 156 28 }
-				b_wexford = {
-					color = { 68 156 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_veisafjordr
-						name_list_swedish = cn_veisafjord
-						name_list_danish = cn_veisafjord
-						name_list_norse = cn_veisafjordr
-						name_list_irish = cn_loch_garman
-					}
-					province = 37
-				}
-				b_enniscorthy = {
-					color = { 68 156 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_inis_corthaidh
-					}
-					province = 38
-				}
-				b_ferns = {
-					color = { 68 156 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_fearna_mor_maedhog
-					}
-					province = 39
-				}
-				b_carlow = {
-					color = { 68 156 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_ceatharlach
-					}
-					province = 40
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_ossory = {
-				color = { 93 166 15 }
-				b_gowran = {
-					color = { 93 166 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_gabhran
-					}
-					province = 43
-				}
-				b_kilkenny = {
-					color = { 93 166 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_cill_chainnigh
-					}
-					province = 41
-				}
-				b_athy = {
-					color = { 93 166 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 42
-				}
-				b_carrick = {
-					color = { 93 166 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 44
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_munster = {
-			capital = c_thomond
-			color = { 16 157 12 }
-			c_thomond = {
-				color = { 3 128 0 }
-				b_limerick = {
-					color = { 3 128 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_hlymrek
-						name_list_danish = cn_lymrek
-						name_list_swedish = cn_lymrek
-						name_list_norse = cn_hlymrek
-						name_list_irish = cn_luimneach
-					}
-					province = 45
-				}
-				b_nenagh = {
-					color = { 3 128 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_aonach_urmhumhan
-					}
-					province = 47
-				}
-				b_roscrea = {
-					color = { 3 128 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_ros_cre
-					}
-					province = 48
-				}
-				b_kilmallock = {
-					color = { 3 128 0 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8750
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_ennis = {
-				color = { 32 115 30 }
-				b_ennis = {
-					color = { 32 115 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_inis
-					}
-					province = 46
-				}
-				b_kincora = {
-					color = { 32 115 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8749
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_ormond = {
-				color = { 0 80 20 }
-				b_waterford = {
-					color = { 0 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_vedrafjord
-						name_list_swedish = cn_vedrafjord
-						name_list_danish = cn_vedrafjord
-						name_list_norse = cn_vedrafjordr
-						name_list_irish = cn_port_lairge
-					}
-					province = 49
-				}
-				b_emly = {
-					color = { 0 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_imleach_iubhair
-					}
-					province = 50
-				}
-				b_clonmel = {
-					color = { 0 80 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_cluain_meala
-					}
-					province = 51
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_desmond = {
-				color = { 10 137 35 }
-				b_tralee = {
-					color = { 10 137 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 52
-				}
-				b_cork = {
-					color = { 10 137 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_irish = cn_corcaigh
-					}
-					province = 53
-				}
-				b_kinsale = {
-					color = { 10 137 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 54
-				}
-				b_baltimore = {
-					color = { 10 137 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 16
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_northern_isles = {
-			capital = c_orkney
-			color = { 195 75 75 }
-			c_orkney = {
-				color = { 195 75 75 }
-				b_kirkwall = {
-					color = { 195 75 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norwegian = cn_kirkuvag
-						name_list_danish = cn_kyrkovik
-						name_list_swedish = cn_kyrkovik
-						name_list_norse = cn_kirkuvag
-						name_list_pictish = cn_icluasctreh
-						name_list_welsh = cn_eglwystref
-						name_list_irish = cn_baile_na_h_eaglais
-					}
-					province = 8
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norse = cn_orkneyjar
-					name_list_norwegian = cn_orkneyjar
-				}
-			}
-			c_faereyar = {
-				color = { 200 70 70 }
-				b_torshavn = {
-					color = { 200 70 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norse = cn_torshavn
-						name_list_pictish = cn_pirth_taran
-						name_list_welsh = cn_porth_taran
-						name_list_irish = cn_port_turenn
-					}
-					province = 6
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_shetland = {
-				color = { 205 65 65 }
-				b_scalloway = {
-					color = { 205 65 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norse = cn_skalavagr
-						name_list_norwegian = cn_skalavagr
-						name_list_pictish = cn_bachuuon_maurt
-						name_list_welsh = cn_bachwyon_mawrty
-						name_list_irish = cn_batin_mortaigh
-					}
-					province = 7
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norse = cn_hjaltland
-					name_list_norwegian = cn_hjaltland
-				}
-			}
-			landless = no
-			definite_form = yes
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_norse = cn_nordreyjar
-			}
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
+	cultural_names = {
+		name_list_irish = cn_alba
+		name_list_gaelic = cn_alba
+		name_list_pictish = cn_pictland
 	}
+}
+k_england = {
+	capital = c_middlesex
+	color = { 202 26 26 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:english
+						culture = culture:anglo_saxon
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+}
 	landless = no
 	definite_form = no
 	ruler_uses_title_name = no
@@ -5489,24 +5586,7 @@ e_britannia = {
 		name_list_gaelic = cn_alba
 	}
 }
-k_england = {
-	capital = c_middlesex
-	color = { 202 26 26 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					OR = {
-						culture = culture:english
-						culture = culture:anglo_saxon
-					}
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-}
+
 k_wales = {
 	capital = c_cardiganshire
 	color = { 135 25 3 }
@@ -5540,98 +5620,9 @@ k_wales = {
 			}
 		}
 }
-k_scotland = {
-	capital = c_gowrie
-	color = { 230 140 0 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					OR = {
-						culture = culture:scottish
-						culture = culture:gaelic
-						culture = culture:pictish
-					}
-				}
-				add = @correct_culture_primary_score
-			}
-			if = {
-				limit = {
-					culture = culture:irish
-				}
-				add = @better_than_the_alternatives_score
-			}
-		}
-	cultural_names = {
-		name_list_irish = cn_alba
-		name_list_gaelic = cn_alba
-		name_list_pictish = cn_pictland
-	}
-}
-k_ireland = {
-	capital = c_dublin
-	color = { 6 127 2 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:irish
-				}
-				add = @correct_culture_primary_score
-			}
-			if = {
-				limit = {
-					culture = culture:gaelic
-				}
-				add = @better_than_the_alternatives_score
-			}
-		}
-	can_create = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				culture = { has_cultural_pillar = heritage_goidelic }
-			}
-		}
-}
-k_cornwall = {
-	capital = c_cornwall
-	color = { 204 153 10 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:cornish
-				}
-				add = @correct_culture_primary_score
-			}
-			if = {
-				limit = {
-					OR = {
-						culture = culture:welsh
-						culture = culture:cumbrian
-						culture = culture:breton
-					}
-				}
-				add = @better_than_the_alternatives_score
-			}
-		}
-	can_create = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				culture = { has_cultural_pillar = heritage_brythonic }
-			}
-		}
-}
+
+
+
 k_mann_the_isles = {
 	capital = c_isle_of_man
 	color = { 124 59 8 }
@@ -12755,6 +12746,247 @@ e_italy = {
 			definite_form = no
 			ruler_uses_title_name = no
 		}
+		
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+		ai_primary_priority = {
+			if = {
+				limit = {
+					OR = {
+						culture = culture:italian
+						culture = culture:norman
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+	k_switzerland = {
+	capital = c_bern
+	color = { 255 80 80 }
+	landless = no
+	definite_form = yes
+	ruler_uses_title_name = no
+	d_savoie = {
+			capital = c_savoie
+			color = { 101 8 34 }
+			c_savoie = {
+				color = { 81 8 14 }
+				b_moutiers = {
+					color = { 81 8 14 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2031
+				}
+				b_saint_michel_de_maurienne = {
+					color = { 81 8 14 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2029
+				}
+				b_chambery = {
+					color = { 81 8 14 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2455
+				}
+				b_belley = {
+					color = { 81 8 14 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2069
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_aosta = {
+				color = { 90 5 15 }
+				b_aosta = {
+					color = { 90 5 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2039
+				}
+				b_martigny = {
+					color = { 90 5 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2038
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_geneva = {
+				color = { 175 40 65 }
+				b_geneva = {
+					color = { 175 40 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2035
+				}
+				b_annecy = {
+					color = { 175 40 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2034
+				}
+				b_thonon_les_bains = {
+					color = { 175 40 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2036
+				}
+				b_faucigny = {
+					color = { 175 40 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8719
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_canavese = {
+				color = { 115 25 45 }
+				b_ivrea = {
+					color = { 115 25 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2040
+				}
+				b_pinerolo = {
+					color = { 115 25 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2042
+				}
+				b_canavese = {
+					color = { 115 25 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2456
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_transjurania = {
+			capital = c_bern
+			color = { 159 40 10 }
+			c_bern = {
+				color = { 139 30 10 }
+				b_bern = {
+					color = { 139 30 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2046
+				}
+				b_lausanne = {
+					color = { 139 30 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2037
+				}
+				b_thun = {
+					color = { 139 30 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2047
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_aargau = {
+				color = { 150 70 15 }
+				b_biel = {
+					color = { 150 70 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2049
+				}
+				b_lucerne = {
+					color = { 150 70 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2048
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_neuchatel = {
+				color = { 135 55 45 }
+				b_neuchatel = {
+					color = { 135 55 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2460
+				}
+				b_pontarlier = {
+					color = { 135 55 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2074
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+}
+k_italy = {
+	capital = c_lombardia
+	color = { 244 227 160 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:italian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				faith = { religion_tag = christianity_religion }
+			}
+		}
 		d_friuli = {
 			capital = c_aquileia
 			color = { 170 255 170 }
@@ -12907,7 +13139,1276 @@ e_italy = {
 				name_list_venetic = cn_d_venice_venetic
 			}
 		}
-		d_currezia = {
+		d_verona = {
+			capital = c_verona
+			color = { 145 240 205 }
+			c_verona = {
+				color = { 150 245 210 }
+				b_verona = {
+					color = { 150 245 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_venetic = cn_b_verona_venetic
+					}
+					province = 2501
+				}
+				b_lessinia = {
+					color = { 150 245 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2502
+				}
+				b_garda = {
+					color = { 150 245 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2496
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_venetic = cn_c_verona_venetic
+				}
+			}
+			c_treviso = {
+				color = { 160 225 210 }
+				b_treviso = {
+					color = { 160 225 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2505
+				}
+				b_ceneta = {
+					color = { 160 225 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2511
+				}
+				b_vicenza = {
+					color = { 160 225 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2500
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_padua = {
+				color = { 130 215 190 }
+				b_padua = {
+					color = { 130 215 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_venetic = cn_b_padua_venetic
+					}
+					province = 2503
+				}
+				b_lonigo = {
+					color = { 130 215 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2509
+				}
+				b_montagnana = {
+					color = { 130 215 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2666
+				}
+				b_este = {
+					color = { 130 215 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_venetic = cn_b_este_venetic
+					}
+					province = 8765
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_venetic = cn_c_padua_venetic
+				}
+			}
+			c_polesine = {
+				color = { 145 230 225 }
+				b_rovigo = {
+					color = { 145 230 225 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2525
+				}
+				b_adria = {
+					color = { 145 230 225 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2524
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_venetic = cn_d_verona_venetic
+			}
+		}
+		d_piedmonte = {
+			capital = c_monferrato
+			color = { 191 158 158 }
+			c_monferrato = {
+				color = { 195 160 160 }
+				b_asti = {
+					color = { 195 160 160 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2469
+				}
+				b_alba_di_monferrato = {
+					color = { 195 160 160 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2467
+				}
+				b_acqui = {
+					color = { 195 160 160 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2468
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_turin = {
+				color = { 195 115 135 }
+				b_turin = {
+					color = { 195 115 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2041
+				}
+				b_chieri = {
+					color = { 195 115 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2045
+				}
+				b_santhia = {
+					color = { 195 115 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8764
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_novara = {
+				color = { 195 140 130 }
+				b_novara = {
+					color = { 195 140 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2471
+				}
+				b_biella = {
+					color = { 195 140 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2473
+				}
+				b_vercelli = {
+					color = { 195 140 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2470
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_cuneo = {
+				color = { 195 130 145 }
+				b_cuneo = {
+					color = { 195 130 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2043
+				}
+				b_saluzzo = {
+					color = { 195 130 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2044
+				}
+				b_mondovi = {
+					color = { 195 130 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8763
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_lombardia = {
+			capital = c_lombardia
+			color = { 180 115 200 }
+			c_lombardia = {
+				color = { 185 120 205 }
+				b_milano = {
+					color = { 185 120 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2482
+				}
+				b_monza = {
+					color = { 185 120 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2481
+				}
+				b_gallarate = {
+					color = { 185 120 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2480
+				}
+				b_varese = {
+					color = { 185 120 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2479
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_brescia = {
+				color = { 170 150 190 }
+				b_brescia = {
+					color = { 170 150 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2494
+				}
+				b_bergamo = {
+					color = { 170 150 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2493
+				}
+				b_chiari = {
+					color = { 170 150 190 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8762
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_como = {
+				color = { 240 175 255 }
+				b_como = {
+					color = { 240 175 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2477
+				}
+				b_pombia = {
+					color = { 240 175 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2472
+				}
+				b_bellinzona = {
+					color = { 240 175 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2478
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_trent = {
+				color = { 250 150 220 }
+				b_trento = {
+					color = { 250 150 220 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2499
+				}
+				b_bolzano = {
+					color = { 250 150 220 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2498
+				}
+				b_val_camonica = {
+					color = { 250 150 220 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2495
+				}
+				b_tirano = {
+					color = { 250 150 220 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8761
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_pavia = {
+				color = { 200 155 255 }
+				b_pavia = {
+					color = { 200 155 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2475
+				}
+				b_lodi = {
+					color = { 200 155 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2476
+				}
+				b_vigevano = {
+					color = { 200 155 255 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2474
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_cremona = {
+				color = { 220 160 210 }
+				b_cremona = {
+					color = { 220 160 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2491
+				}
+				b_roncaglia = {
+					color = { 220 160 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2489
+				}
+				b_crema = {
+					color = { 220 160 210 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2492
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_parma = {
+				color = { 255 160 195 }
+				b_parma = {
+					color = { 255 160 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2532
+				}
+				b_florentiola = {
+					color = { 255 160 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2490
+				}
+				b_piacenza = {
+					color = { 255 160 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2488
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_tortona = {
+				color = { 170 105 195 }
+				b_tortona = {
+					color = { 170 105 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2483
+				}
+				b_voghera = {
+					color = { 170 105 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2487
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_genoa = {
+			capital = c_genoa
+			color = { 244 141 120 }
+			c_genoa = {
+				color = { 244 141 120 }
+				b_genoa = {
+					color = { 244 141 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2466
+				}
+				b_monaco = {
+					color = { 244 141 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2022
+				}
+				b_savona = {
+					color = { 244 141 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2465
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_luni = {
+				color = { 215 120 130 }
+				b_luni = {
+					color = { 215 120 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2531
+				}
+				b_chiavari = {
+					color = { 215 120 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2485
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_emilia = {
+			capital = c_modena
+			color = { 225 180 180 }
+			c_modena = {
+				color = { 230 185 185 }
+				b_modena = {
+					color = { 230 185 185 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2540
+				}
+				b_canossa = {
+					color = { 230 185 185 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2535
+				}
+				b_reggio_emilia = {
+					color = { 230 185 185 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2534
+				}
+				b_cento = {
+					color = { 230 185 185 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2541
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_mantua = {
+				color = { 215 175 205 }
+				b_mantua = {
+					color = { 215 175 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2497
+				}
+				b_guastalla = {
+					color = { 215 175 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2530
+				}
+				b_brescello = {
+					color = { 215 175 205 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2533
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_pisa = {
+			capital = c_pisa
+			color = { 180 186 30 }
+			c_pisa = {
+				color = { 180 186 30 }
+				b_pisa = {
+					color = { 180 186 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2536
+				}
+				b_livorno = {
+					color = { 180 186 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2557
+				}
+				b_piombino = {
+					color = { 180 186 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2561
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_toscana = {
+			capital = c_firenze
+			color = { 222 186 25 }
+			c_firenze = {
+				color = { 232 190 25 }
+				b_firenze = {
+					color = { 232 190 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2543
+				}
+				b_impruneta = {
+					color = { 232 190 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2559
+				}
+				b_empoli = {
+					color = { 232 190 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2563
+				}
+				b_volterra = {
+					color = { 232 190 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2558
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_lucca = {
+				color = { 235 210 65 }
+				b_lucca = {
+					color = { 235 210 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2537
+				}
+				b_pistorja = {
+					color = { 235 210 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2538
+				}
+				b_prato = {
+					color = { 235 210 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2545
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_arezzo = {
+				color = { 230 155 15 }
+				b_arezzo = {
+					color = { 230 155 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2554
+				}
+				b_vallombrosa = {
+					color = { 230 155 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2544
+				}
+				b_cortona = {
+					color = { 230 155 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2564
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_siena = {
+				color = { 205 175 25 }
+				b_siena = {
+					color = { 205 175 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2560
+				}
+				b_montalcino = {
+					color = { 205 175 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2567
+				}
+				b_chiusi = {
+					color = { 205 175 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2565
+				}
+				b_asciano = {
+					color = { 205 175 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8760
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_orbetello = {
+				color = { 250 210 5 }
+				b_orbetello = {
+					color = { 250 210 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2569
+				}
+				b_soana = {
+					color = { 250 210 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2570
+				}
+				b_grosseto = {
+					color = { 250 210 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2562
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+}
+k_romagna = {
+	capital = c_roma
+	color = { 215 141 152 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				faith = { religion_tag = christianity_religion }
+			}
+		}
+		d_romagna = {
+			capital = c_ravenna
+			color = { 244 180 130 }
+			c_ravenna = {
+				color = { 229 165 115 }
+				b_ravenna = {
+					color = { 229 165 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2546
+				}
+				b_imola = {
+					color = { 229 165 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2549
+				}
+				b_forli = {
+					color = { 229 165 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2548
+				}
+				b_rimini = {
+					color = { 229 165 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2547
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_bologna = {
+				color = { 209 145 95 }
+				b_bologna = {
+					color = { 209 145 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2542
+				}
+				b_cona = {
+					color = { 209 145 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2529
+				}
+				b_monte_sole = {
+					color = { 209 145 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2550
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_ferrara = {
+				color = { 219 125 85 }
+				b_ferrara = {
+					color = { 219 125 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2527
+				}
+				b_pomposa = {
+					color = { 219 125 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2526
+				}
+				b_comacchio = {
+					color = { 219 125 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2528
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_casentino = {
+				color = { 209 125 105 }
+				b_casentino = {
+					color = { 209 125 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2553
+				}
+				b_montefeltro = {
+					color = { 209 125 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2552
+				}
+				b_camaldoli = {
+					color = { 209 125 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2551
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_ancona = {
+			capital = c_ancona
+			color = { 240 240 190 }
+			c_ancona = {
+				color = { 245 245 195 }
+				b_ancona = {
+					color = { 245 245 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2594
+				}
+				b_cagli = {
+					color = { 245 245 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2583
+				}
+				b_gubbio = {
+					color = { 245 245 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2582
+				}
+				b_camerino = {
+					color = { 245 245 195 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2587
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_urbino = {
+				color = { 240 225 150 }
+				b_urbino = {
+					color = { 240 225 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2555
+				}
+				b_civitas_castelli = {
+					color = { 240 225 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2584
+				}
+				b_pesaro = {
+					color = { 240 225 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2556
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_fermo = {
+				color = { 210 210 175 }
+				b_fermo = {
+					color = { 210 210 175 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2598
+				}
+				b_ascoli_piceno = {
+					color = { 210 210 175 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2597
+				}
+				b_macerata = {
+					color = { 210 210 175 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2599
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_spoleto = {
+			capital = c_spoleto
+			color = { 217 182 153 }
+			c_spoleto = {
+				color = { 197 162 133 }
+				b_spoleto = {
+					color = { 197 162 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2585
+				}
+				b_assissi = {
+					color = { 197 162 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2581
+				}
+				b_terni = {
+					color = { 197 162 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2586
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_orvieto = {
+				color = { 197 172 163 }
+				b_orvieto = {
+					color = { 197 172 163 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2568
+				}
+				b_perugia = {
+					color = { 197 172 163 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2566
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_teramo = {
+				color = { 227 152 133 }
+				b_teramo = {
+					color = { 227 152 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2596
+				}
+				b_atri = {
+					color = { 227 152 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2595
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_lanciano = {
+				color = { 167 102 103 }
+				b_lanciano = {
+					color = { 167 102 103 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2604
+				}
+				b_cluieli = {
+					color = { 167 102 103 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2603
+				}
+				b_agnone = {
+					color = { 167 102 103 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8759
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_abruzzi = {
+				color = { 157 132 123 }
+				b_avezzano = {
+					color = { 157 132 123 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2600
+				}
+				b_rieti = {
+					color = { 157 132 123 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2588
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_latium = {
+			capital = c_roma
+			color = { 254 245 160 }
+			c_roma = {
+				color = { 242 233 156 }
+				b_roma = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2575
+				}
+				b_ostia = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2576
+				}
+				b_vaticano = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2577
+				}
+				b_palo = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2578
+				}
+				b_paterno = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2574
+				}
+				b_farfa = {
+					color = { 242 233 156 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2579
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_viterbo = {
+				color = { 212 203 116 }
+				b_viterbo = {
+					color = { 212 203 116 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2572
+				}
+				b_sutri = {
+					color = { 212 203 116 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2573
+				}
+				b_civitavecchia = {
+					color = { 212 203 116 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2571
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_tivoli = {
+				color = { 242 253 136 }
+				b_tivoli = {
+					color = { 242 253 136 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2589
+				}
+				b_velletri = {
+					color = { 242 253 136 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2590
+				}
+				b_segni = {
+					color = { 242 253 136 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2591
+				}
+				b_terracina = {
+					color = { 242 253 136 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 2592
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+	cultural_names = {
+		name_list_greek = cn_ravenna
+	}
+}
+k_austria = {
+	capital = c_vienna
+	color = { 240 240 240 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	d_currezia = {
 			capital = c_grisons
 			color = { 255 220 220 }
 			c_grisons = {
@@ -13942,1461 +15443,7 @@ e_italy = {
 			definite_form = no
 			ruler_uses_title_name = no
 		}
-		d_verona = {
-			capital = c_verona
-			color = { 145 240 205 }
-			c_verona = {
-				color = { 150 245 210 }
-				b_verona = {
-					color = { 150 245 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_venetic = cn_b_verona_venetic
-					}
-					province = 2501
-				}
-				b_lessinia = {
-					color = { 150 245 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2502
-				}
-				b_garda = {
-					color = { 150 245 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2496
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_venetic = cn_c_verona_venetic
-				}
-			}
-			c_treviso = {
-				color = { 160 225 210 }
-				b_treviso = {
-					color = { 160 225 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2505
-				}
-				b_ceneta = {
-					color = { 160 225 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2511
-				}
-				b_vicenza = {
-					color = { 160 225 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2500
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_padua = {
-				color = { 130 215 190 }
-				b_padua = {
-					color = { 130 215 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_venetic = cn_b_padua_venetic
-					}
-					province = 2503
-				}
-				b_lonigo = {
-					color = { 130 215 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2509
-				}
-				b_montagnana = {
-					color = { 130 215 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2666
-				}
-				b_este = {
-					color = { 130 215 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_venetic = cn_b_este_venetic
-					}
-					province = 8765
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_venetic = cn_c_padua_venetic
-				}
-			}
-			c_polesine = {
-				color = { 145 230 225 }
-				b_rovigo = {
-					color = { 145 230 225 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2525
-				}
-				b_adria = {
-					color = { 145 230 225 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2524
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_venetic = cn_d_verona_venetic
-			}
-		}
-		d_piedmonte = {
-			capital = c_monferrato
-			color = { 191 158 158 }
-			c_monferrato = {
-				color = { 195 160 160 }
-				b_asti = {
-					color = { 195 160 160 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2469
-				}
-				b_alba_di_monferrato = {
-					color = { 195 160 160 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2467
-				}
-				b_acqui = {
-					color = { 195 160 160 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2468
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_turin = {
-				color = { 195 115 135 }
-				b_turin = {
-					color = { 195 115 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2041
-				}
-				b_chieri = {
-					color = { 195 115 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2045
-				}
-				b_santhia = {
-					color = { 195 115 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8764
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_novara = {
-				color = { 195 140 130 }
-				b_novara = {
-					color = { 195 140 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2471
-				}
-				b_biella = {
-					color = { 195 140 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2473
-				}
-				b_vercelli = {
-					color = { 195 140 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2470
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_cuneo = {
-				color = { 195 130 145 }
-				b_cuneo = {
-					color = { 195 130 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2043
-				}
-				b_saluzzo = {
-					color = { 195 130 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2044
-				}
-				b_mondovi = {
-					color = { 195 130 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8763
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_lombardia = {
-			capital = c_lombardia
-			color = { 180 115 200 }
-			c_lombardia = {
-				color = { 185 120 205 }
-				b_milano = {
-					color = { 185 120 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2482
-				}
-				b_monza = {
-					color = { 185 120 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2481
-				}
-				b_gallarate = {
-					color = { 185 120 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2480
-				}
-				b_varese = {
-					color = { 185 120 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2479
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_brescia = {
-				color = { 170 150 190 }
-				b_brescia = {
-					color = { 170 150 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2494
-				}
-				b_bergamo = {
-					color = { 170 150 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2493
-				}
-				b_chiari = {
-					color = { 170 150 190 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8762
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_como = {
-				color = { 240 175 255 }
-				b_como = {
-					color = { 240 175 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2477
-				}
-				b_pombia = {
-					color = { 240 175 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2472
-				}
-				b_bellinzona = {
-					color = { 240 175 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2478
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_trent = {
-				color = { 250 150 220 }
-				b_trento = {
-					color = { 250 150 220 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2499
-				}
-				b_bolzano = {
-					color = { 250 150 220 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2498
-				}
-				b_val_camonica = {
-					color = { 250 150 220 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2495
-				}
-				b_tirano = {
-					color = { 250 150 220 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8761
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_pavia = {
-				color = { 200 155 255 }
-				b_pavia = {
-					color = { 200 155 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2475
-				}
-				b_lodi = {
-					color = { 200 155 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2476
-				}
-				b_vigevano = {
-					color = { 200 155 255 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2474
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_cremona = {
-				color = { 220 160 210 }
-				b_cremona = {
-					color = { 220 160 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2491
-				}
-				b_roncaglia = {
-					color = { 220 160 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2489
-				}
-				b_crema = {
-					color = { 220 160 210 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2492
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_parma = {
-				color = { 255 160 195 }
-				b_parma = {
-					color = { 255 160 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2532
-				}
-				b_florentiola = {
-					color = { 255 160 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2490
-				}
-				b_piacenza = {
-					color = { 255 160 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2488
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_tortona = {
-				color = { 170 105 195 }
-				b_tortona = {
-					color = { 170 105 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2483
-				}
-				b_voghera = {
-					color = { 170 105 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2487
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_genoa = {
-			capital = c_genoa
-			color = { 244 141 120 }
-			c_genoa = {
-				color = { 244 141 120 }
-				b_genoa = {
-					color = { 244 141 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2466
-				}
-				b_monaco = {
-					color = { 244 141 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2022
-				}
-				b_savona = {
-					color = { 244 141 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2465
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_luni = {
-				color = { 215 120 130 }
-				b_luni = {
-					color = { 215 120 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2531
-				}
-				b_chiavari = {
-					color = { 215 120 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2485
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_emilia = {
-			capital = c_modena
-			color = { 225 180 180 }
-			c_modena = {
-				color = { 230 185 185 }
-				b_modena = {
-					color = { 230 185 185 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2540
-				}
-				b_canossa = {
-					color = { 230 185 185 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2535
-				}
-				b_reggio_emilia = {
-					color = { 230 185 185 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2534
-				}
-				b_cento = {
-					color = { 230 185 185 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2541
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_mantua = {
-				color = { 215 175 205 }
-				b_mantua = {
-					color = { 215 175 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2497
-				}
-				b_guastalla = {
-					color = { 215 175 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2530
-				}
-				b_brescello = {
-					color = { 215 175 205 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2533
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_pisa = {
-			capital = c_pisa
-			color = { 180 186 30 }
-			c_pisa = {
-				color = { 180 186 30 }
-				b_pisa = {
-					color = { 180 186 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2536
-				}
-				b_livorno = {
-					color = { 180 186 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2557
-				}
-				b_piombino = {
-					color = { 180 186 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2561
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_toscana = {
-			capital = c_firenze
-			color = { 222 186 25 }
-			c_firenze = {
-				color = { 232 190 25 }
-				b_firenze = {
-					color = { 232 190 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2543
-				}
-				b_impruneta = {
-					color = { 232 190 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2559
-				}
-				b_empoli = {
-					color = { 232 190 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2563
-				}
-				b_volterra = {
-					color = { 232 190 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2558
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_lucca = {
-				color = { 235 210 65 }
-				b_lucca = {
-					color = { 235 210 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2537
-				}
-				b_pistorja = {
-					color = { 235 210 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2538
-				}
-				b_prato = {
-					color = { 235 210 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2545
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_arezzo = {
-				color = { 230 155 15 }
-				b_arezzo = {
-					color = { 230 155 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2554
-				}
-				b_vallombrosa = {
-					color = { 230 155 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2544
-				}
-				b_cortona = {
-					color = { 230 155 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2564
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_siena = {
-				color = { 205 175 25 }
-				b_siena = {
-					color = { 205 175 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2560
-				}
-				b_montalcino = {
-					color = { 205 175 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2567
-				}
-				b_chiusi = {
-					color = { 205 175 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2565
-				}
-				b_asciano = {
-					color = { 205 175 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8760
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_orbetello = {
-				color = { 250 210 5 }
-				b_orbetello = {
-					color = { 250 210 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2569
-				}
-				b_soana = {
-					color = { 250 210 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2570
-				}
-				b_grosseto = {
-					color = { 250 210 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2562
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_romagna = {
-			capital = c_ravenna
-			color = { 244 180 130 }
-			c_ravenna = {
-				color = { 229 165 115 }
-				b_ravenna = {
-					color = { 229 165 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2546
-				}
-				b_imola = {
-					color = { 229 165 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2549
-				}
-				b_forli = {
-					color = { 229 165 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2548
-				}
-				b_rimini = {
-					color = { 229 165 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2547
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_bologna = {
-				color = { 209 145 95 }
-				b_bologna = {
-					color = { 209 145 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2542
-				}
-				b_cona = {
-					color = { 209 145 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2529
-				}
-				b_monte_sole = {
-					color = { 209 145 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2550
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_ferrara = {
-				color = { 219 125 85 }
-				b_ferrara = {
-					color = { 219 125 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2527
-				}
-				b_pomposa = {
-					color = { 219 125 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2526
-				}
-				b_comacchio = {
-					color = { 219 125 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2528
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_casentino = {
-				color = { 209 125 105 }
-				b_casentino = {
-					color = { 209 125 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2553
-				}
-				b_montefeltro = {
-					color = { 209 125 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2552
-				}
-				b_camaldoli = {
-					color = { 209 125 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2551
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_ancona = {
-			capital = c_ancona
-			color = { 240 240 190 }
-			c_ancona = {
-				color = { 245 245 195 }
-				b_ancona = {
-					color = { 245 245 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2594
-				}
-				b_cagli = {
-					color = { 245 245 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2583
-				}
-				b_gubbio = {
-					color = { 245 245 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2582
-				}
-				b_camerino = {
-					color = { 245 245 195 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2587
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_urbino = {
-				color = { 240 225 150 }
-				b_urbino = {
-					color = { 240 225 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2555
-				}
-				b_civitas_castelli = {
-					color = { 240 225 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2584
-				}
-				b_pesaro = {
-					color = { 240 225 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2556
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_fermo = {
-				color = { 210 210 175 }
-				b_fermo = {
-					color = { 210 210 175 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2598
-				}
-				b_ascoli_piceno = {
-					color = { 210 210 175 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2597
-				}
-				b_macerata = {
-					color = { 210 210 175 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2599
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_spoleto = {
-			capital = c_spoleto
-			color = { 217 182 153 }
-			c_spoleto = {
-				color = { 197 162 133 }
-				b_spoleto = {
-					color = { 197 162 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2585
-				}
-				b_assissi = {
-					color = { 197 162 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2581
-				}
-				b_terni = {
-					color = { 197 162 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2586
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_orvieto = {
-				color = { 197 172 163 }
-				b_orvieto = {
-					color = { 197 172 163 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2568
-				}
-				b_perugia = {
-					color = { 197 172 163 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2566
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_teramo = {
-				color = { 227 152 133 }
-				b_teramo = {
-					color = { 227 152 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2596
-				}
-				b_atri = {
-					color = { 227 152 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2595
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_lanciano = {
-				color = { 167 102 103 }
-				b_lanciano = {
-					color = { 167 102 103 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2604
-				}
-				b_cluieli = {
-					color = { 167 102 103 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2603
-				}
-				b_agnone = {
-					color = { 167 102 103 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8759
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_abruzzi = {
-				color = { 157 132 123 }
-				b_avezzano = {
-					color = { 157 132 123 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2600
-				}
-				b_rieti = {
-					color = { 157 132 123 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2588
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_latium = {
-			capital = c_roma
-			color = { 254 245 160 }
-			c_roma = {
-				color = { 242 233 156 }
-				b_roma = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2575
-				}
-				b_ostia = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2576
-				}
-				b_vaticano = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2577
-				}
-				b_palo = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2578
-				}
-				b_paterno = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2574
-				}
-				b_farfa = {
-					color = { 242 233 156 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2579
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_viterbo = {
-				color = { 212 203 116 }
-				b_viterbo = {
-					color = { 212 203 116 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2572
-				}
-				b_sutri = {
-					color = { 212 203 116 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2573
-				}
-				b_civitavecchia = {
-					color = { 212 203 116 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2571
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_tivoli = {
-				color = { 242 253 136 }
-				b_tivoli = {
-					color = { 242 253 136 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2589
-				}
-				b_velletri = {
-					color = { 242 253 136 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2590
-				}
-				b_segni = {
-					color = { 242 253 136 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2591
-				}
-				b_terracina = {
-					color = { 242 253 136 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2592
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_savoie = {
-			capital = c_savoie
-			color = { 101 8 34 }
-			c_savoie = {
-				color = { 81 8 14 }
-				b_moutiers = {
-					color = { 81 8 14 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2031
-				}
-				b_saint_michel_de_maurienne = {
-					color = { 81 8 14 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2029
-				}
-				b_chambery = {
-					color = { 81 8 14 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2455
-				}
-				b_belley = {
-					color = { 81 8 14 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2069
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_aosta = {
-				color = { 90 5 15 }
-				b_aosta = {
-					color = { 90 5 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2039
-				}
-				b_martigny = {
-					color = { 90 5 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2038
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_geneva = {
-				color = { 175 40 65 }
-				b_geneva = {
-					color = { 175 40 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2035
-				}
-				b_annecy = {
-					color = { 175 40 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2034
-				}
-				b_thonon_les_bains = {
-					color = { 175 40 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2036
-				}
-				b_faucigny = {
-					color = { 175 40 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8719
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_canavese = {
-				color = { 115 25 45 }
-				b_ivrea = {
-					color = { 115 25 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2040
-				}
-				b_pinerolo = {
-					color = { 115 25 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2042
-				}
-				b_canavese = {
-					color = { 115 25 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2456
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_transjurania = {
-			capital = c_bern
-			color = { 159 40 10 }
-			c_bern = {
-				color = { 139 30 10 }
-				b_bern = {
-					color = { 139 30 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2046
-				}
-				b_lausanne = {
-					color = { 139 30 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2037
-				}
-				b_thun = {
-					color = { 139 30 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2047
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_aargau = {
-				color = { 150 70 15 }
-				b_biel = {
-					color = { 150 70 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2049
-				}
-				b_lucerne = {
-					color = { 150 70 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2048
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_neuchatel = {
-				color = { 135 55 45 }
-				b_neuchatel = {
-					color = { 135 55 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2460
-				}
-				b_pontarlier = {
-					color = { 135 55 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 2074
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-		ai_primary_priority = {
-			if = {
-				limit = {
-					OR = {
-						culture = culture:italian
-						culture = culture:norman
-					}
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-	}
+}
 	landless = no
 	definite_form = no
 	ruler_uses_title_name = no
@@ -15432,47 +15479,6 @@ k_naples = {
 	landless = no
 	definite_form = no
 	ruler_uses_title_name = no
-}
-k_italy = {
-	capital = c_lombardia
-	color = { 244 227 160 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:italian
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-	can_create = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				faith = { religion_tag = christianity_religion }
-			}
-		}
-}
-k_romagna = {
-	capital = c_roma
-	color = { 215 141 152 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	can_create = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				faith = { religion_tag = christianity_religion }
-			}
-		}
-	cultural_names = {
-		name_list_greek = cn_ravenna
-	}
 }
 e_scandinavia = {
 	capital = c_skane

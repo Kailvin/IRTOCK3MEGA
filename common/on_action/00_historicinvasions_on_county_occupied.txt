@@ -25,6 +25,7 @@ historicinvasions_on_county_occupied = {
 		OR = {
 			has_title = title:e_timurid
 			has_title = title:e_mongol_empire # base game checks for: any_owned_story = { story_type = story_mongol_invasion }
+			has_title = title:e_hunnic
 		}
 		# county has not been looted previously
 		NOT = { scope:county = { has_variable = county_looted_by_invader } }

@@ -6,7 +6,7 @@
 }
 5905={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5909={
@@ -14,7 +14,7 @@
 }
 5910={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5911={
@@ -28,12 +28,12 @@
 }
 5918={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5919={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5920={
@@ -52,7 +52,7 @@
 }
 5926={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5927={
@@ -77,7 +77,7 @@
 }
 5955={
 	culture = hebrew
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	100.1.1 = { special_building_slot = theater_of_bosra }
 }

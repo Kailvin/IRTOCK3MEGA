@@ -14,7 +14,7 @@
 }
 2035={
 	culture = rhaetio_roman
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2036={
@@ -120,7 +120,7 @@
 }
 2466={
 	culture = cisalpine
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 	special_building_slot = walls_of_genoa_01
 }
@@ -258,12 +258,12 @@
 }
 2505={
 	culture = cisalpine
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2506={
 	culture = italiote
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2507={
@@ -271,7 +271,7 @@
 }
 2508={
 	culture = cisalpine
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2509={
@@ -285,7 +285,7 @@
 }
 2512={
 	culture = cisalpine
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2513={
@@ -299,7 +299,7 @@
 }
 2516={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2517={
@@ -483,7 +483,7 @@
 }
 2572={
 	culture = italian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2573={
@@ -571,7 +571,7 @@
 }
 2598={
 	culture = italian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2599={
@@ -617,7 +617,7 @@
 }
 2610={
 	culture = italiote
-	faith = catholic
+	faith = nicene
 	holding = city_holding
 }
 2611={
@@ -819,7 +819,7 @@
 }
 2883={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2938={
@@ -983,7 +983,7 @@
 }
 3073={
 	culture = old_suebi
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3074={
@@ -1006,7 +1006,7 @@
 }
 3081={
 	culture = old_suebi
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3082={
@@ -1023,7 +1023,7 @@
 }
 3086={
 	culture = dacio_roman
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3087={
@@ -1031,7 +1031,7 @@
 }
 3088={
 	culture = bastarnian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3089={
@@ -1055,7 +1055,7 @@
 }
 3099={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3105={

@@ -6,7 +6,7 @@
 }
 6131={
 	culture = qahtanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6132={
@@ -17,7 +17,7 @@
 }
 6134={
 	culture = qahtanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6135={
@@ -39,7 +39,7 @@
 }
 6140={
 	culture = qahtanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6141={
@@ -50,7 +50,7 @@
 }
 6144={
 	culture = qahtanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6145={
@@ -67,6 +67,6 @@
 }
 6269={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }

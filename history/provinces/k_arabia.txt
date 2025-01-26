@@ -1,6 +1,6 @@
 5981={
 	culture = hebrew
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5982={
@@ -11,7 +11,7 @@
 }
 5984={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5986={
@@ -32,7 +32,7 @@
 }
 6168={
 	culture = macedonian
-	faith = orthodox
+	faith = nicene
 	holding = none
 }
 6169={

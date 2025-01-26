@@ -1,6 +1,6 @@
 2030={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2032={
@@ -11,7 +11,7 @@
 }
 2063={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2064={
@@ -19,7 +19,7 @@
 }
 2065={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2066={
@@ -50,6 +50,6 @@
 }
 8717={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }

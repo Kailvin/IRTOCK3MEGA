@@ -1,37 +1,37 @@
 470={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 471={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	303.1.1 = { special_building_slot = sofia_ohrid }
 }
 472={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 473={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 474={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 475={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 476={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	250.1.1 = { special_building_slot = patras_castle }
 }
@@ -43,122 +43,122 @@
 }
 479={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	terrain = mountain
 }
 480={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	terrain = mountain
 }
 481={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 482={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 483={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 484={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 485={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 486={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 487={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 488={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 489={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 490={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	303.1.1 = { special_building_slot = hagios_demetrios }
 }
 491={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 492={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 493={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 494={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 495={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 496={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	special_building_slot = hagia_sophia_01
 }
 497={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 499={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	395.1.1 = { culture = gothic religion = gothic_pagan }
 }
 500={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 501={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 507={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 508={
@@ -166,7 +166,7 @@
 }
 678={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 679={
@@ -177,17 +177,17 @@
 }
 705={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 706={
 	culture = phrygian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 742={
 	culture = phrygian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 743={
@@ -196,12 +196,12 @@
 }
 744={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 745={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 746={
@@ -218,7 +218,7 @@
 }
 750={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3520={
@@ -241,12 +241,12 @@
 }
 3617={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3618={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3619={
@@ -278,7 +278,7 @@
 }
 3628={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3629={
@@ -292,7 +292,7 @@
 }
 3632={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3633={
@@ -306,7 +306,7 @@
 }
 3636={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3637={
@@ -329,7 +329,7 @@
 }
 3643={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3644={
@@ -352,7 +352,7 @@
 }
 3650={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3651={
@@ -363,7 +363,7 @@
 }
 3653={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3654={
@@ -374,7 +374,7 @@
 }
 3656={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3657={
@@ -382,7 +382,7 @@
 }
 3658={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3659={
@@ -423,7 +423,7 @@
 }
 3678={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3679={
@@ -458,7 +458,7 @@
 }
 3689={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3690={
@@ -466,7 +466,7 @@
 }
 3691={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	395.1.1 = { culture = gothic }
 }
@@ -493,7 +493,7 @@
 }
 3702={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3703={
@@ -513,7 +513,7 @@
 }
 3708={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3709={
@@ -525,7 +525,7 @@
 }
 3711={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3712={
@@ -533,7 +533,7 @@
 }
 3713={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3714={
@@ -556,7 +556,7 @@
 }
 3720={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3721={
@@ -570,7 +570,7 @@
 }
 3724={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3725={
@@ -584,7 +584,7 @@
 }
 3728={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3729={
@@ -602,7 +602,7 @@
 }
 3733={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3734={
@@ -613,7 +613,7 @@
 }
 3736={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3737={
@@ -718,7 +718,7 @@
 }
 3771={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3772={
@@ -760,7 +760,7 @@
 }
 3784={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3785={
@@ -789,7 +789,7 @@
 }
 3793={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3794={
@@ -804,7 +804,7 @@
 }
 3797={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3798={
@@ -832,7 +832,7 @@
 }
 4875={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 4876={
@@ -854,7 +854,7 @@
 }
 5531={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5532={
@@ -871,7 +871,7 @@
 }
 5536={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5537={
@@ -882,7 +882,7 @@
 }
 5539={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5540={
@@ -905,7 +905,7 @@
 }
 5546={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5547={
@@ -913,7 +913,7 @@
 }
 5548={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5549={
@@ -927,7 +927,7 @@
 }
 5552={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5553={
@@ -956,7 +956,7 @@
 }
 5561={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5562={
@@ -991,7 +991,7 @@
 }
 5696={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5697={
@@ -1014,7 +1014,7 @@
 }
 5703={
 	culture = phrygian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5704={
@@ -1028,7 +1028,7 @@
 }
 5737={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5738={
@@ -1039,7 +1039,7 @@
 }
 5740={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5741={
@@ -1050,7 +1050,7 @@
 }
 5743={
 	culture = georgian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5906={
@@ -1067,7 +1067,7 @@
 }
 5915={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5917={
@@ -1078,12 +1078,12 @@
 }
 5929={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5930={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5931={
@@ -1094,12 +1094,12 @@
 }
 5933={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5934={
 	culture = syrian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	special_building_slot = citadel_of_aleppo_01
 }
@@ -1117,7 +1117,7 @@
 }
 5940={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5941={
@@ -1125,7 +1125,7 @@
 }
 5942={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5943={
@@ -1136,7 +1136,7 @@
 }
 5945={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	395.1.1 = { religion = harranian_pagan }
 }
@@ -1148,7 +1148,7 @@
 }
 5948={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5949={
@@ -1156,6 +1156,6 @@
 }
 5950={
 	culture = adnanite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }

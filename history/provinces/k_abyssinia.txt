@@ -3,7 +3,7 @@
 }
 1369={
 	culture = south_arabian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 8314={
@@ -99,7 +99,7 @@
 }
 8504={
 	culture = ethiopian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 8505={
@@ -116,12 +116,12 @@
 }
 8509={
 	culture = ethiopian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 8512={
 	culture = somali
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 8513={

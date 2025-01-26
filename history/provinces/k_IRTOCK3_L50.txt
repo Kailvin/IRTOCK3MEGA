@@ -17,7 +17,7 @@
 }
 4537={
 	culture = macedonian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 4538={
@@ -45,7 +45,7 @@
 }
 4545={
 	culture = macedonian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 4546={
@@ -65,7 +65,7 @@
 }
 4767={
 	culture = macedonian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 4768={
@@ -79,7 +79,7 @@
 }
 4771={
 	culture = macedonian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	100.1.1 = { special_building_slot = adur_gushnasp }
 }

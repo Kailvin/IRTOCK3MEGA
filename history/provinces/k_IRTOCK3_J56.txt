@@ -14,7 +14,7 @@
 }
 2414={
 	culture = irish
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2415={
@@ -22,7 +22,7 @@
 }
 2418={
 	culture = old_suebi
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2436={
@@ -69,7 +69,7 @@
 }
 2797={
 	culture = old_saxon
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2798={
@@ -86,7 +86,7 @@
 }
 2804={
 	culture = old_suebi
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2806={
@@ -94,7 +94,7 @@
 }
 2807={
 	culture = old_suebi
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2808={
@@ -226,7 +226,7 @@
 }
 2913={
 	culture = ripurian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2914={

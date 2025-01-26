@@ -1,6 +1,6 @@
 740={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 741={
@@ -8,12 +8,12 @@
 }
 753={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5565={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	303.1.1 = { special_building_slot = maiden_tower }
 }
@@ -28,7 +28,7 @@
 }
 5569={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5570={
@@ -45,7 +45,7 @@
 }
 5574={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 5575={

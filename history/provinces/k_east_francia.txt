@@ -3,7 +3,7 @@
 }
 2057={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2058={
@@ -14,7 +14,7 @@
 }
 2083={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 	100.1.1 = { special_building_slot = aula_palatina }
 }
@@ -26,7 +26,7 @@
 }
 2384={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2698={
@@ -40,7 +40,7 @@
 }
 2704={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2705={
@@ -48,17 +48,17 @@
 }
 2708={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2709={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2710={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2711={
@@ -78,7 +78,7 @@
 }
 2717={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2719={
@@ -89,7 +89,7 @@
 }
 2721={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2722={
@@ -106,7 +106,7 @@
 }
 2746={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2747={
@@ -114,7 +114,7 @@
 }
 2748={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2749={
@@ -125,7 +125,7 @@
 }
 2751={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2752={
@@ -142,7 +142,7 @@
 }
 2757={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2758={
@@ -150,7 +150,7 @@
 }
 2759={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2760={
@@ -164,7 +164,7 @@
 }
 2763={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2764={
@@ -181,7 +181,7 @@
 }
 2768={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2769={
@@ -203,7 +203,7 @@
 }
 2878={
 	culture = greek
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2879={

@@ -1,6 +1,6 @@
 498={
 	culture = greek
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	395.1.1 = { culture = gothic }
 }
@@ -9,7 +9,7 @@
 }
 510={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3693={

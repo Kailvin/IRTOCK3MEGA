@@ -1,6 +1,6 @@
 2518={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2519={
@@ -14,7 +14,7 @@
 }
 3092={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3095={
@@ -33,7 +33,7 @@
 }
 3100={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3101={
@@ -50,7 +50,7 @@
 }
 3109={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3110={
@@ -64,7 +64,7 @@
 }
 3117={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3118={
@@ -78,6 +78,6 @@
 }
 3121={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }

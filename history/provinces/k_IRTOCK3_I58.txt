@@ -67,7 +67,7 @@
 }
 5029={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	380.1.1 = { culture = herulian }
 }
@@ -108,7 +108,7 @@
 }
 5040={
 	culture = getian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	special_building_slot = hotin_fort_01
 }

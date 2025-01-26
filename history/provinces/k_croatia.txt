@@ -1,6 +1,6 @@
 458={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 459={
@@ -11,7 +11,7 @@
 }
 461={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 462={
@@ -22,17 +22,17 @@
 }
 464={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 465={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 466={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 467={
@@ -41,7 +41,7 @@
 }
 468={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 504={
@@ -49,7 +49,7 @@
 }
 2521={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 2523={
@@ -60,7 +60,7 @@
 }
 3501={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3502={
@@ -80,7 +80,7 @@
 }
 3507={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3508={
@@ -91,7 +91,7 @@
 }
 3510={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3511={
@@ -102,7 +102,7 @@
 }
 3513={
 	culture = kolochin
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 3514={
@@ -113,7 +113,7 @@
 }
 3516={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3517={
@@ -124,7 +124,7 @@
 }
 3519={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3521={
@@ -132,7 +132,7 @@
 }
 3522={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3523={
@@ -149,7 +149,7 @@
 }
 3527={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3528={
@@ -157,7 +157,7 @@
 }
 3529={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3530={
@@ -189,7 +189,7 @@
 }
 3539={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3540={
@@ -203,7 +203,7 @@
 }
 3543={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3544={
@@ -220,7 +220,7 @@
 }
 3548={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3549={
@@ -231,7 +231,7 @@
 }
 3551={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3552={
@@ -242,7 +242,7 @@
 }
 3555={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3556={
@@ -259,7 +259,7 @@
 }
 3560={
 	culture = kolochin
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3561={
@@ -283,7 +283,7 @@
 }
 3567={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }
 3568={
@@ -300,6 +300,6 @@
 }
 3610={
 	culture = illyrian
-	faith = catholic
+	faith = nicene
 	holding = castle_holding
 }

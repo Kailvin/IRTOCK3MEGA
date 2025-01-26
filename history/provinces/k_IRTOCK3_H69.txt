@@ -3,7 +3,7 @@
 }
 6240={
 	culture = himyarite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6241={
@@ -14,7 +14,7 @@
 }
 6243={
 	culture = himyarite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6244={
@@ -53,7 +53,7 @@
 }
 6276={
 	culture = south_arabian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6278={
@@ -64,7 +64,7 @@
 }
 6280={
 	culture = himyarite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6281={
@@ -81,13 +81,13 @@
 }
 6299={
 	culture = himyarite
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 	special_building_slot = marib_dam
 }
 6300={
 	culture = south_arabian
-	faith = orthodox
+	faith = nicene
 	holding = castle_holding
 }
 6301={

@@ -6,7 +6,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = norwegian
-	religion = catholic
+	faith = nicene
 	sexuality = heterosexual
 	trait = zealous
 	trait = greedy
@@ -28,7 +28,7 @@
 	learning = 6
 	prowess = 10
 	culture = "castilian"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_martial_4
@@ -49,7 +49,7 @@
 	name = "Nuno"
 	dynasty = erwigiana
 	culture = galician
-	religion = catholic
+	faith = nicene
 	trait = ambitious
 	trait = arrogant
 	trait = education_intrigue_3
@@ -64,7 +64,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	sexuality = asexual
 	trait = generous
 	trait = chaste
@@ -81,7 +81,7 @@
 	stewardship = 7
 	intrigue = 8
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	trait = education_stewardship_3
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
@@ -94,7 +94,7 @@
 	stewardship = 6
 	intrigue = 5
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	father = 120
 	sexuality = heterosexual
@@ -115,7 +115,7 @@
 	stewardship = 8
 	intrigue = 4
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	father = 120
 	trait = lustful
@@ -140,7 +140,7 @@
 	intrigue = 10
 	prowess = 10
 	culture = "norman"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = ambitious
@@ -179,7 +179,7 @@
 	name = "Siward"
 	dynasty = 744
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	trait = education_diplomacy_3
 	trait = ambitious
 	trait = brave
@@ -218,7 +218,7 @@
 	stewardship = 7
 	intrigue = 8
 	culture = "norman"
-	religion = "catholic"
+	faith = nicene
 	trait = vengeful
 	trait = education_martial_2
 	423.7.7 = { birth = yes }
@@ -232,7 +232,7 @@
 	stewardship = 6
 	intrigue = 2
 	culture = "norman"
-	religion = "catholic"
+	faith = nicene
 	trait = dull
 	trait = education_martial_1
 	trait = wrathful
@@ -244,7 +244,7 @@
 	name = "Philippe"
 	dynasty = 743
 	culture = french
-	religion = "catholic"
+	faith = nicene
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
 }
@@ -256,7 +256,7 @@
 	stewardship = 7
 	intrigue = 5
 	culture = french
-	religion = "catholic"
+	faith = nicene
 	trait = leper
 	trait = brave
 	trait = diligent
@@ -319,7 +319,7 @@
 	stewardship = 8
 	intrigue = 8
 	culture = "dutch"
-	religion = "catholic"
+	faith = nicene
 	trait = education_martial_2
 	trait = callous
 	trait = generous
@@ -335,7 +335,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = "czech"
-	religion = "catholic"
+	faith = nicene
 	trait = arbitrary
 	trait = lazy
 	trait = lifestyle_hunter
@@ -361,7 +361,7 @@
 	martial = 11
 	prowess = 10
 	culture = anglo_saxon
-	religion = "catholic"
+	faith = nicene
 	trait = education_martial_3
 	trait = ambitious
 	trait = vengeful
@@ -424,7 +424,7 @@ animation_test_dwarf_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -432,7 +432,7 @@ animation_test_dwarf_female={
 animation_test_dwarf_male={
 	name = "Elvira"
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -441,7 +441,7 @@ animation_test_fat_dwarf_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -449,7 +449,7 @@ animation_test_fat_dwarf_female={
 animation_test_fat_dwarf_male={
 	name = "Elvira"
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -458,7 +458,7 @@ animation_test_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -466,7 +466,7 @@ animation_test_female_child={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -474,7 +474,7 @@ animation_test_female_pregnant={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = pregnant
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -483,7 +483,7 @@ animation_test_hunchbacked_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = hunchbacked
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -491,7 +491,7 @@ animation_test_hunchbacked_female={
 animation_test_hunchbacked_male={
 	name = "Elvira"
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	trait = hunchbacked
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -499,14 +499,14 @@ animation_test_hunchbacked_male={
 animation_test_male={
 	name = "Elvira"
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
 animation_test_male_child={
 	name = "Elvira"
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -515,7 +515,7 @@ animation_test_muscular_female={
 	female = yes
 	prowess = 15
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -523,7 +523,7 @@ animation_test_muscular_male={
 	name = "Elvira"
 	prowess = 15
 	culture = "aragonese"
-	religion = "catholic"
+	faith = nicene
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -554,7 +554,7 @@ easteregg_alexander_oltner={
 	name = "Alexander"
 	health = 7
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -577,7 +577,7 @@ easteregg_alexia_belfort={
 	intrigue = 3
 	learning = 3
 	culture = french
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_diplomacy_4
@@ -638,7 +638,7 @@ easteregg_artur_kacprzak={
 	learning = 2
 	prowess = 3
 	culture = polish
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_martial_2
@@ -660,7 +660,7 @@ easteregg_bianca_savazzi={
 	learning = 9
 	prowess = 2
 	culture = roman
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_learning_2
@@ -682,7 +682,7 @@ easteregg_charna_frostwhisper={
 	learning = 14
 	prowess = 0
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_intrigue_3
@@ -705,7 +705,7 @@ easteregg_christian_daflos={
 	learning = 7
 	prowess = 4
 	culture = "greek"
-	religion = "orthodox"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -727,7 +727,7 @@ easteregg_debbie_lane={
 	learning = 7
 	prowess = 4
 	culture = norse
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_diplomacy_3
@@ -752,7 +752,7 @@ easteregg_emil_tisander={
 	learning = 8
 	prowess = 2
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_stewardship_3
@@ -774,7 +774,7 @@ easteregg_hanna_lohman={
 	learning = 4
 	prowess = 3
 	culture = norse
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_learning_3
@@ -836,7 +836,7 @@ easteregg_ismael_serrano={
 	learning = 8
 	prowess = 6
 	culture = "basque"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -850,7 +850,7 @@ easteregg_jakub_potapczyk={
 	name = "Jakub"
 	health = 7
 	culture = "polish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -871,7 +871,7 @@ easteregg_joacim_carlberg={
 	prowess = 15
 	health = 7
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_stewardship_2
 	trait = patient
@@ -907,7 +907,7 @@ easteregg_jonas_wickerstrom={
 	learning = 3
 	prowess = 8
 	culture = "swedish"
-	religion = "orthodox"
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_diplomacy_1
 	trait = arbitrary
@@ -997,7 +997,7 @@ easteregg_lysann_schlegel={
 	learning = 7
 	prowess = 5
 	culture = "saxon"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_stewardship_4
 	trait = diligent
@@ -1018,7 +1018,7 @@ easteregg_malin_jonsson={
 	learning = 0
 	prowess = 9
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_intrigue_3
 	trait = ambitious
@@ -1043,7 +1043,7 @@ easteregg_martin_anward={
 	prowess = 5
 	health = 7
 	culture = "swedish"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_4
@@ -1058,7 +1058,7 @@ easteregg_mathilda_bjarnehed={
 	name = Mathilda
 	female = yes
 	culture = swedish
-	religion = catholic
+	faith = nicene
 	trait = education_learning_3
 	trait = intellect_good_1
 	trait = administrator
@@ -1078,7 +1078,7 @@ easteregg_matthew_clohessy={
 	prowess = 7
 	health = 7
 	culture = "anglo_saxon"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1099,7 +1099,7 @@ easteregg_max_collin={
 	learning = 9
 	prowess = 3
 	culture = "anglo_saxon"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_learning_2
@@ -1121,7 +1121,7 @@ easteregg_max_weltz={
 	learning = 7
 	prowess = 4
 	culture = french
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_stewardship_3
@@ -1144,7 +1144,7 @@ easteregg_maximilian_olbers={
 	learning = 10
 	prowess = 6
 	culture = swedish
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_stewardship_3
 	trait = diligent
@@ -1187,7 +1187,7 @@ easteregg_nikolaos_kaltsogiannis={
 	learning = 4
 	prowess = 2
 	culture = "greek"
-	religion = "orthodox"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1239,7 +1239,7 @@ easteregg_paul_depre={
 	learning = 6
 	prowess = 0
 	culture = franconian
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = asexual
 	trait = education_diplomacy_3
@@ -1255,7 +1255,7 @@ easteregg_peter_johannesson={
 	name = "Peter"
 	female = no
 	culture = swedish
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_diplomacy_1
 	trait = cynical
@@ -1296,7 +1296,7 @@ easteregg_petter_vilberg={
 	learning = 12
 	prowess = 8
 	culture = norwegian
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_diplomacy_3
 	trait = diligent
@@ -1316,7 +1316,7 @@ easteregg_pontus_olofsson={
 	learning = 4
 	prowess = 5
 	culture = "norse"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1332,7 +1332,7 @@ easteregg_pontus_olofsson={
 easteregg_sean_hughes={
 	name = Sean
 	culture = saxon
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	trait = education_stewardship_3
 	trait = beauty_good_1
@@ -1356,7 +1356,7 @@ easteregg_steacy_mcilwham={
 	prowess = 2
 	health = 6
 	culture = scottish
-	religion = catholic
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1380,7 +1380,7 @@ easteregg_tamara_stokic={
 	prowess = 15
 	health = 4.85
 	culture = serbian
-	religion = orthodox
+	faith = nicene
 	trait = education_learning_2
 	trait = gluttonous
 	trait = compassionate
@@ -1400,7 +1400,7 @@ easteregg_tegan_harris={
 	learning = 8
 	prowess = 4
 	culture = "anglo_saxon"
-	religion = "catholic"
+	faith = nicene
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_intrigue_2
@@ -1534,7 +1534,7 @@ IRToCK3_head_of_faith_mazdayasna={
 IRToCK3_head_of_faith_orthodox={
 	name = Orentius
 	culture = illyrian
-	faith = orthodox
+	faith = nicene
 	trait = chaste
 	trait = celibate
 	trait = devoted

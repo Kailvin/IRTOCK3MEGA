@@ -55,14 +55,14 @@
 	culture = sitonian
 	religion = finnish_pagan
 	holding = tribal_holding
-	1066.1.1 = { culture = norse holding = estate_holding }
+	1066.1.1 = { culture = norse holding = castle_holding }
 	1085.1.1 = { religion = catholic }
 }
 361={
 	culture = sitonian
 	religion = finnish_pagan
 	holding = tribal_holding
-	1066.1.1 = { culture = norse holding = estate_holding }
+	1066.1.1 = { culture = norse holding = castle_holding }
 	1090.1.1 = { religion = catholic }
 }
 362={

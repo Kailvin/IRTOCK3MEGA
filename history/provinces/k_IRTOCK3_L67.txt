@@ -1,7 +1,7 @@
 1118={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	terrain = jungle
 }
 1196={
@@ -11,13 +11,13 @@
 1197={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	terrain = mountain
 }
 1216={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	terrain = hills
 }
 1217={
@@ -32,7 +32,7 @@
 	terrain = hills
 }
 7849={
-	holding = estate_holding
+	holding = castle_holding
 }
 7865={
 	holding = city_holding

@@ -1,17 +1,17 @@
 1126={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1127={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1133={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1264={
 	holding = none
@@ -33,7 +33,7 @@
 	holding = city_holding
 }
 3383={
-	holding = estate_holding
+	holding = castle_holding
 }
 3384={
 	holding = none

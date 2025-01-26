@@ -1,7 +1,7 @@
 2653={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2654={
 	holding = city_holding
@@ -13,7 +13,7 @@
 2656={
 	culture = nuragic
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2657={
 	holding = none
@@ -21,12 +21,12 @@
 2658={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2659={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2660={
 	holding = none
@@ -37,7 +37,7 @@
 2662={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2663={
 	holding = none

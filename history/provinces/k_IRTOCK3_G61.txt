@@ -4,7 +4,7 @@
 2417={
 	culture = norse
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2419={
 	holding = none
@@ -16,10 +16,10 @@
 2421={
 	culture = old_suebi
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2422={
-	holding = estate_holding
+	holding = castle_holding
 }
 2423={
 	holding = city_holding
@@ -30,7 +30,7 @@
 	holding = city_holding
 }
 2430={
-	holding = estate_holding
+	holding = castle_holding
 }
 2431={
 	holding = none
@@ -41,7 +41,7 @@
 2440={
 	culture = ripurian
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2441={
 	holding = none
@@ -58,7 +58,7 @@
 2446={
 	culture = old_suebi
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2451={
 	holding = city_holding
@@ -69,7 +69,7 @@
 2670={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2671={
 	holding = none
@@ -92,7 +92,7 @@
 2847={
 	culture = ripurian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2848={
 	holding = church_holding
@@ -103,5 +103,5 @@
 2850={
 	culture = ripurian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }

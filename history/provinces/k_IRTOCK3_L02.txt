@@ -4,7 +4,7 @@
 4418={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4419={
 	holding = none
@@ -18,7 +18,7 @@
 4422={
 	culture = hephthalite
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4423={
 	holding = none
@@ -41,7 +41,7 @@
 4429={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4430={
 	holding = city_holding
@@ -62,15 +62,15 @@
 	holding = none
 }
 4436={
-	holding = estate_holding
+	holding = castle_holding
 }
 4437={
-	holding = estate_holding
+	holding = castle_holding
 }
 4438={
 	culture = alan
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4439={
 	holding = none

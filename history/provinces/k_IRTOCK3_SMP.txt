@@ -12,10 +12,10 @@
 9143={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9144={
-	holding = estate_holding
+	holding = castle_holding
 }
 9145={
 	culture = lhomon
@@ -34,7 +34,7 @@
 9149={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9150={
 	culture = lhomon

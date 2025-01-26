@@ -17,15 +17,15 @@
 	holding = none
 }
 924={
-	holding = estate_holding
+	holding = castle_holding
 }
 1164={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1271={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }

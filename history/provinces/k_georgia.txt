@@ -1,15 +1,15 @@
 601={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 677={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5747={
-	holding = estate_holding
+	holding = castle_holding
 }
 5748={
 	holding = none

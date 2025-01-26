@@ -7,7 +7,7 @@
 5905={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5909={
 	holding = church_holding
@@ -15,13 +15,13 @@
 5910={
 	culture = syrian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5911={
 	holding = none
 }
 5912={
-	holding = estate_holding
+	holding = castle_holding
 }
 5916={
 	holding = city_holding
@@ -29,12 +29,12 @@
 5918={
 	culture = syrian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5919={
 	culture = syrian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5920={
 	holding = city_holding
@@ -45,7 +45,7 @@
 5924={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5925={
 	holding = none
@@ -53,7 +53,7 @@
 5926={
 	culture = adnanite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5927={
 	holding = city_holding
@@ -78,7 +78,7 @@
 5955={
 	culture = hebrew
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 	100.1.1 = { special_building_slot = theater_of_bosra }
 }
 5956={

@@ -1,7 +1,7 @@
 2030={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2032={
 	holding = none
@@ -12,7 +12,7 @@
 2063={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2064={
 	holding = none
@@ -20,7 +20,7 @@
 2065={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2066={
 	holding = city_holding
@@ -51,5 +51,5 @@
 8717={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }

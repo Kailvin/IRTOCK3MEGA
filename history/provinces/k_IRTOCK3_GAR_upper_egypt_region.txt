@@ -4,7 +4,7 @@
 6063={
 	culture = nuragic
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6064={
 	holding = none
@@ -12,7 +12,7 @@
 6067={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6068={
 	holding = none
@@ -23,13 +23,13 @@
 6070={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6071={
 	holding = city_holding
 }
 6072={
-	holding = estate_holding
+	holding = castle_holding
 }
 6073={
 	holding = city_holding
@@ -46,7 +46,7 @@
 6077={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6078={
 	holding = church_holding
@@ -60,7 +60,7 @@
 6081={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6082={
 	holding = church_holding
@@ -68,12 +68,12 @@
 6109={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6110={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6111={
 	holding = none
@@ -84,12 +84,12 @@
 6113={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6118={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6119={
 	holding = none
@@ -125,12 +125,12 @@
 6377={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6378={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6379={
 	holding = church_holding
@@ -138,7 +138,7 @@
 6380={
 	culture = south_arabian
 	faith = haymanot
-	holding = estate_holding
+	holding = castle_holding
 }
 6381={
 	holding = church_holding

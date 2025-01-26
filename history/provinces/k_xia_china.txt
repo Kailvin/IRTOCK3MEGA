@@ -18,7 +18,7 @@
 9537={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9538={
 	holding = none
@@ -41,7 +41,7 @@
 9544={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9545={
 	holding = church_holding
@@ -55,7 +55,7 @@
 11764={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 11890={
 	holding = church_holding
@@ -63,7 +63,7 @@
 11926={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 11927={
 	holding = church_holding
@@ -77,13 +77,13 @@
 11942={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 11944={
 	holding = none
 }
 11953={
-	holding = estate_holding
+	holding = castle_holding
 }
 11962={
 	holding = city_holding
@@ -91,18 +91,18 @@
 11964={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 11969={
 	holding = none
 }
 11977={
-	holding = estate_holding
+	holding = castle_holding
 }
 11978={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 11997={
 	holding = church_holding
@@ -125,7 +125,7 @@
 12069={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 12104={
 	holding = none
@@ -142,7 +142,7 @@
 12343={
 	culture = shatuo
 	religion = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 12405={
 	holding = none
@@ -167,12 +167,12 @@
 16006={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 16010={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 16013={
 	holding = church_holding
@@ -183,5 +183,5 @@
 16016={
 	culture = shatuo
 	religion = manichean
-	holding = estate_holding
+	holding = castle_holding
 }

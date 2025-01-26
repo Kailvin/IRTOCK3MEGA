@@ -9,7 +9,7 @@
 11901={
 	culture = kam
 	religion = moism
-	holding = estate_holding
+	holding = castle_holding
 }
 11917={
 	culture = hmong
@@ -42,7 +42,7 @@
 12050={
 	culture = kam
 	religion = moism
-	holding = estate_holding
+	holding = castle_holding
 }
 12053={
 	holding = none
@@ -61,7 +61,7 @@
 12078={
 	culture = tujia
 	religion = nuo
-	holding = estate_holding
+	holding = castle_holding
 }
 12082={
 	culture = hmong
@@ -91,7 +91,7 @@
 12132={
 	culture = hmong
 	religion = hmongism
-	holding = estate_holding
+	holding = castle_holding
 }
 12135={
 	holding = none
@@ -107,7 +107,7 @@
 12161={
 	culture = tujia
 	religion = nuo
-	holding = estate_holding
+	holding = castle_holding
 }
 12178={
 	culture = hmong
@@ -117,7 +117,7 @@
 12200={
 	culture = tujia
 	religion = nuo
-	holding = estate_holding
+	holding = castle_holding
 }
 12204={
 	holding = none
@@ -140,7 +140,7 @@
 12324={
 	culture = tujia
 	religion = nuo
-	holding = estate_holding
+	holding = castle_holding
 }
 12330={
 	holding = none

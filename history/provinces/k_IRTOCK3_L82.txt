@@ -1,5 +1,5 @@
 921={
-	holding = estate_holding
+	holding = castle_holding
 }
 922={
 	holding = none
@@ -16,42 +16,42 @@
 1155={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1160={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1165={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1230={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1249={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1270={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1272={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1277={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3991={
 	holding = none
@@ -81,7 +81,7 @@
 	holding = none
 }
 7933={
-	holding = estate_holding
+	holding = castle_holding
 }
 7934={
 	holding = none

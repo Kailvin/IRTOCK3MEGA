@@ -1,17 +1,17 @@
 1168={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1173={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1358={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3467={
 	holding = city_holding
@@ -21,7 +21,7 @@
 	special_building_slot = sankassa_01
 }
 3469={
-	holding = estate_holding
+	holding = castle_holding
 }
 3470={
 	holding = none

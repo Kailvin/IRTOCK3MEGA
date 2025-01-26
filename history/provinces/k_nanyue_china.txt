@@ -12,7 +12,7 @@
 11788={
 	culture = kam
 	religion = moism
-	holding = estate_holding
+	holding = castle_holding
 }
 11790={
 	holding = none
@@ -56,7 +56,7 @@
 12542={
 	culture = hlai
 	religion = moism
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = min religion = zhengyi }
 }
 12612={
@@ -71,7 +71,7 @@
 12640={
 	culture = han
 	religion = shendao
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = min }
 }
 12651={
@@ -98,13 +98,13 @@
 12684={
 	culture = han
 	religion = shendao
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = yue }
 }
 12692={
 	culture = han
 	religion = shendao
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = yue }
 }
 12694={
@@ -119,7 +119,7 @@
 12708={
 	culture = nong
 	religion = moism
-	holding = estate_holding
+	holding = castle_holding
 }
 12712={
 	culture = nong
@@ -148,7 +148,7 @@
 12731={
 	culture = han
 	religion = shendao
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = yue }
 }
 12737={

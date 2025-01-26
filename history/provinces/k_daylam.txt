@@ -4,7 +4,7 @@
 4029={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4030={
 	holding = none
@@ -15,7 +15,7 @@
 4032={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4033={
 	holding = city_holding

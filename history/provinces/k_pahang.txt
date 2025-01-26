@@ -1,12 +1,12 @@
 10252={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10253={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10254={
 	holding = none
@@ -17,7 +17,7 @@
 10256={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10257={
 	culture = seletar
@@ -27,7 +27,7 @@
 10258={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10259={
 	holding = none
@@ -35,7 +35,7 @@
 10260={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = sea_gold_mines_01
 }
 10261={
@@ -57,12 +57,12 @@
 10265={
 	culture = mon
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10266={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10267={
 	holding = none

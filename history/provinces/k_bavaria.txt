@@ -1,7 +1,7 @@
 2518={
 	culture = illyrian
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2519={
 	holding = city_holding
@@ -15,7 +15,7 @@
 3092={
 	culture = kolochin
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 3095={
 	holding = church_holding
@@ -23,7 +23,7 @@
 3096={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3097={
 	holding = city_holding
@@ -34,7 +34,7 @@
 3100={
 	culture = kolochin
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 3101={
 	holding = city_holding
@@ -51,7 +51,7 @@
 3109={
 	culture = kolochin
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 3110={
 	holding = none
@@ -65,7 +65,7 @@
 3117={
 	culture = kolochin
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 3118={
 	holding = none
@@ -79,5 +79,5 @@
 3121={
 	culture = kolochin
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }

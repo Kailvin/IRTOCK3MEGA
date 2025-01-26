@@ -1,7 +1,7 @@
 11830={
 	culture = han
 	religion = zhengyi
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = generic_university
 	1038.1.1 = { special_building = generic_university }
 }

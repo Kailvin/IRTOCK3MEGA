@@ -58,7 +58,7 @@
 10499={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10500={
 	culture = bidayuh
@@ -89,7 +89,7 @@
 10507={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10508={
 	culture = bidayuh
@@ -116,7 +116,7 @@
 10514={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10515={
 	holding = none

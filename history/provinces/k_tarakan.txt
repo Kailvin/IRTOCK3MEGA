@@ -72,7 +72,7 @@
 10471={
 	culture = malay
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10472={
 	holding = none
@@ -88,7 +88,7 @@
 10475={
 	culture = malay
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10476={
 	culture = kayan

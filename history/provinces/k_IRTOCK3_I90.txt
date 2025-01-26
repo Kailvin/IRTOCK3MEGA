@@ -10,7 +10,7 @@
 6197={
 	culture = nuragic
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6198={
 	holding = none
@@ -27,15 +27,15 @@
 6207={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6208={
-	holding = estate_holding
+	holding = castle_holding
 }
 6209={
 	culture = nuragic
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6210={
 	holding = none
@@ -46,7 +46,7 @@
 6212={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6213={
 	holding = none
@@ -60,7 +60,7 @@
 6218={
 	culture = adnanite
 	faith = rabbinism
-	holding = estate_holding
+	holding = castle_holding
 }
 6219={
 	holding = none
@@ -77,17 +77,17 @@
 6223={
 	culture = adnanite
 	faith = arabic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6224={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6225={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6226={
 	holding = none
@@ -99,22 +99,22 @@
 	holding = none
 }
 6234={
-	holding = estate_holding
+	holding = castle_holding
 }
 6235={
 	culture = himyarite
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6236={
 	holding = none
 }
 6237={
-	holding = estate_holding
+	holding = castle_holding
 }
 6238={
 	holding = city_holding
 }
 6239={
-	holding = estate_holding
+	holding = castle_holding
 }

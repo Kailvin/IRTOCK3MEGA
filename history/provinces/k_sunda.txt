@@ -1,7 +1,7 @@
 11001={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11003={
 	holding = none
@@ -9,7 +9,7 @@
 11004={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11005={
 	holding = none
@@ -32,12 +32,12 @@
 11024={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11026={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11029={
 	holding = none
@@ -45,7 +45,7 @@
 11037={
 	culture = sunda
 	religion = vaishnavism
-	holding = estate_holding
+	holding = castle_holding
 }
 11039={
 	holding = none
@@ -62,7 +62,7 @@
 11043={
 	culture = sunda
 	religion = vaishnavism
-	holding = estate_holding
+	holding = castle_holding
 }
 11044={
 	holding = none
@@ -73,7 +73,7 @@
 11072={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11073={
 	holding = none
@@ -81,7 +81,7 @@
 11074={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11075={
 	holding = none
@@ -92,7 +92,7 @@
 11077={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }
 11078={
 	holding = none
@@ -100,7 +100,7 @@
 11079={
 	culture = sunda
 	religion = vaishnavism
-	holding = estate_holding
+	holding = castle_holding
 }
 11080={
 	holding = none
@@ -114,5 +114,5 @@
 11083={
 	culture = sunda
 	religion = jatisunda
-	holding = estate_holding
+	holding = castle_holding
 }

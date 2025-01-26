@@ -1,15 +1,15 @@
 9990={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10003={
-	holding = estate_holding
+	holding = castle_holding
 }
 10012={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
+	holding = castle_holding
 	900.1.1 = { culture = khmer religion = shaivism }
 }
 10016={
@@ -19,7 +19,7 @@
 	holding = none
 }
 10018={
-	holding = estate_holding
+	holding = castle_holding
 }
 10019={
 	holding = none
@@ -40,12 +40,12 @@
 	holding = none
 }
 10025={
-	holding = estate_holding
+	holding = castle_holding
 }
 10026={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = bnam religion = chamic_shaivism }
 }
 10208={
@@ -69,7 +69,7 @@
 10213={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10214={
 	holding = none
@@ -80,33 +80,33 @@
 10216={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10217={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10218={
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10219={
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	950.1.1 = { holding = estate_holding }
+	950.1.1 = { holding = castle_holding }
 }
 10220={
 	culture = sambor
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 	900.1.1 = { culture = khmer }
 }
 10221={
-	holding = estate_holding
+	holding = castle_holding
 }
 10222={
 	holding = none
@@ -122,7 +122,7 @@
 	holding = tribal_holding
 }
 10225={
-	holding = estate_holding
+	holding = castle_holding
 }
 10226={
 	holding = church_holding
@@ -134,7 +134,7 @@
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10229={
 	holding = none
@@ -148,7 +148,7 @@
 10232={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10233={
 	holding = none
@@ -178,7 +178,7 @@
 	culture = sambor
 	religion = shaivism
 	holding = tribal_holding
-	1050.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	1050.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10240={
 	holding = none
@@ -189,12 +189,12 @@
 10242={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10243={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10277={
 	holding = none
@@ -214,8 +214,8 @@
 10293={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
-	1150.1.1 = { holding = estate_holding buildings = { castle_04 } special_building_slot = angkor_wat_01 special_building = angkor_wat_01 }
+	holding = castle_holding
+	1150.1.1 = { holding = castle_holding buildings = { castle_04 } special_building_slot = angkor_wat_01 special_building = angkor_wat_01 }
 }
 10294={
 	holding = none
@@ -250,7 +250,7 @@
 10618={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10619={
 	holding = church_holding
@@ -261,13 +261,13 @@
 10621={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
-	1000.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	holding = castle_holding
+	1000.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10622={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10625={
 	holding = none
@@ -281,7 +281,7 @@
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10628={
 	holding = city_holding
@@ -296,7 +296,7 @@
 	holding = none
 }
 10655={
-	holding = estate_holding
+	holding = castle_holding
 }
 10656={
 	holding = none
@@ -313,7 +313,7 @@
 10662={
 	culture = khmer
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10663={
 	holding = none
@@ -348,7 +348,7 @@
 10782={
 	culture = chong
 	religion = kuy_animism
-	holding = estate_holding
+	holding = castle_holding
 	900.1.1 = { religion = shaivism }
 }
 10784={
@@ -361,7 +361,7 @@
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 10788={
 	holding = none
@@ -379,7 +379,7 @@
 	culture = chong
 	religion = kuy_animism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 11449={
 	holding = none
@@ -397,7 +397,7 @@
 	culture = sambor
 	religion = shaivism
 	holding = tribal_holding
-	900.1.1 = { culture = khmer religion = shaivism holding = estate_holding }
+	900.1.1 = { culture = khmer religion = shaivism holding = castle_holding }
 }
 11454={
 	holding = none
@@ -409,7 +409,7 @@
 	holding = city_holding
 }
 11457={
-	holding = estate_holding
+	holding = castle_holding
 }
 11458={
 	holding = none
@@ -424,7 +424,7 @@
 11461={
 	culture = bnam
 	religion = chamic_shaivism
-	holding = estate_holding
+	holding = castle_holding
 	1000.1.1 = { culture = khmer religion = shaivism }
 }
 11462={

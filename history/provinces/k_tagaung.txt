@@ -41,7 +41,7 @@
 9873={
 	culture = kachin
 	religion = burmic
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = sea_gold_mines_01
 }
 9874={
@@ -52,7 +52,7 @@
 9875={
 	culture = kachin
 	religion = burmic
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = sea_salt_mines_01
 }
 9876={

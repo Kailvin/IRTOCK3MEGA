@@ -1,7 +1,7 @@
 6329={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	100.1.1 = { special_building_slot = TFE_royal_necropolis_of_ballana }
 }
 6330={
@@ -19,7 +19,7 @@
 6334={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6335={
 	holding = none
@@ -27,12 +27,12 @@
 6336={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6337={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6338={
 	holding = none
@@ -40,7 +40,7 @@
 6339={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6340={
 	holding = city_holding
@@ -57,7 +57,7 @@
 6344={
 	culture = meroitic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6345={
 	holding = none
@@ -65,7 +65,7 @@
 6346={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	370.1.1 = { culture = nubian religion = kushitism_pagan }
 }
 6347={
@@ -83,13 +83,13 @@
 6351={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	400.1.1 = { culture = nubian religion = kushitism_pagan }
 }
 6352={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	370.1.1 = { culture = nubian religion = kushitism_pagan }
 }
 6353={
@@ -104,7 +104,7 @@
 6356={
 	culture = nubian
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6357={
 	holding = none
@@ -124,12 +124,12 @@
 6362={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6363={
 	culture = nuragic
 	faith = kushitism_pagan
-	holding = estate_holding
+	holding = castle_holding
 	100.1.1 = { special_building_slot = pyramids_of_meroe }
 }
 6364={
@@ -144,7 +144,7 @@
 6367={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	370.1.1 = { culture = nubian religion = kushitism_pagan }
 }
 6368={
@@ -159,7 +159,7 @@
 6376={
 	culture = beja
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6385={
 	holding = city_holding
@@ -179,7 +179,7 @@
 6412={
 	culture = nuragic
 	faith = kushitism_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6413={
 	holding = none
@@ -202,20 +202,20 @@
 6436={
 	culture = ethiopian
 	faith = kushitism_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6437={
 	culture = nuragic
 	faith = kushitism_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6438={
 	culture = ethiopian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6439={
-	holding = estate_holding
+	holding = castle_holding
 }
 6440={
 	culture = beja

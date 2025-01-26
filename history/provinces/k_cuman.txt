@@ -12,7 +12,7 @@
 	religion = tengri_pagan
 	holding = tribal_holding
 	1000.1.2 = { culture = cuman }
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 5890={
 	holding = none
@@ -24,7 +24,7 @@
 	culture = bashkir
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kimek holding = estate_holding }
+	1337.1.1 = { culture = kimek holding = castle_holding }
 }
 5893={
 	holding = none
@@ -71,14 +71,14 @@
 	religion = magyar_pagan
 	holding = tribal_holding
 	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7035={
 	culture = mogyer
 	religion = magyar_pagan
 	holding = tribal_holding
 	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { culture = laktan religion = ulganism holding = estate_holding }
+	1337.1.1 = { culture = laktan religion = ulganism holding = castle_holding }
 }
 7036={
 	holding = none
@@ -91,7 +91,7 @@
 	religion = magyar_pagan
 	holding = tribal_holding
 	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7039={
 	holding = none
@@ -106,7 +106,7 @@
 	culture = cuman
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7058={
 	holding = none
@@ -116,7 +116,7 @@
 	religion = tengri_pagan
 	holding = tribal_holding
 	1000.1.2 = { culture = cuman }
-	1337.1.1 = { culture = kimek holding = estate_holding }
+	1337.1.1 = { culture = kimek holding = castle_holding }
 }
 7060={
 	holding = none
@@ -128,7 +128,7 @@
 	culture = laktan
 	religion = ulganism
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7063={
 	holding = none
@@ -160,7 +160,7 @@
 	culture = cuman
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kimek holding = estate_holding }
+	1337.1.1 = { culture = kimek holding = castle_holding }
 }
 7275={
 	holding = none
@@ -187,7 +187,7 @@
 	culture = cuman
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak religion = maturidi holding = estate_holding }
+	1337.1.1 = { culture = kipchak religion = maturidi holding = castle_holding }
 }
 7283={
 	holding = none

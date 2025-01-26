@@ -1,23 +1,23 @@
 1148={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1149={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1288={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = ujjayini_temple_city_01
 }
 1289={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3328={
 	holding = city_holding
@@ -26,7 +26,7 @@
 	holding = none
 }
 3330={
-	holding = estate_holding
+	holding = castle_holding
 }
 3331={
 	holding = none
@@ -47,5 +47,5 @@
 	holding = none
 }
 3337={
-	holding = estate_holding
+	holding = castle_holding
 }

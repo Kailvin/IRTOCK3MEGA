@@ -1,13 +1,13 @@
 2918={
 	culture = ripurian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 	361.1.1 = { special_building_slot = rammelsberg_mines_01 }
 }
 2919={
 	culture = ripurian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2920={
 	holding = church_holding
@@ -27,12 +27,12 @@
 3003={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3005={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3006={
 	holding = none

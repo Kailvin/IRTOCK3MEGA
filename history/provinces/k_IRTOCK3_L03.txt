@@ -1,12 +1,12 @@
 2906={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2916={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2917={
 	holding = none
@@ -17,7 +17,7 @@
 2932={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2933={
 	holding = none
@@ -28,12 +28,12 @@
 2935={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2936={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2980={
 	culture = old_suebi
@@ -52,7 +52,7 @@
 3012={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3013={
 	holding = none
@@ -78,30 +78,30 @@
 3020={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3021={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3023={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3027={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3028={
-	holding = estate_holding
+	holding = castle_holding
 }
 3030={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3032={
 	holding = none
@@ -121,7 +121,7 @@
 3039={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3136={
 	holding = none

@@ -1,12 +1,12 @@
 621={
 	culture = alan
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 624={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 625={
 	culture = macedonian
@@ -16,7 +16,7 @@
 627={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 631={
 	holding = none
@@ -24,7 +24,7 @@
 7065={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7066={
 	holding = none
@@ -41,10 +41,10 @@
 7070={
 	culture = alan
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7071={
-	holding = estate_holding
+	holding = castle_holding
 }
 7072={
 	holding = none

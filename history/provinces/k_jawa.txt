@@ -10,7 +10,7 @@
 10978={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10980={
 	holding = none
@@ -18,7 +18,7 @@
 10981={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10982={
 	holding = none
@@ -38,7 +38,7 @@
 10987={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10988={
 	holding = none
@@ -51,12 +51,12 @@
 10990={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10991={
 	culture = madura
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10992={
 	holding = none
@@ -64,17 +64,17 @@
 10993={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 10994={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10995={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 10996={
 	holding = none
@@ -96,12 +96,12 @@
 11002={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11006={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11008={
 	holding = none
@@ -112,12 +112,12 @@
 11010={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11012={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11013={
 	holding = none
@@ -125,7 +125,7 @@
 11014={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11015={
 	holding = none
@@ -136,22 +136,22 @@
 11018={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11020={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11021={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11023={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11025={
 	holding = none
@@ -159,7 +159,7 @@
 11027={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11028={
 	holding = none
@@ -170,12 +170,12 @@
 11031={
 	culture = madura
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11032={
 	culture = java
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }
 11033={
 	holding = none
@@ -189,12 +189,12 @@
 11036={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11038={
 	culture = java
 	religion = javanist
-	holding = estate_holding
+	holding = castle_holding
 }
 11070={
 	holding = none
@@ -205,5 +205,5 @@
 11418={
 	culture = madura
 	religion = shaivism
-	holding = estate_holding
+	holding = castle_holding
 }

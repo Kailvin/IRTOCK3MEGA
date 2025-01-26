@@ -1,7 +1,7 @@
 2017={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2018={
 	holding = church_holding
@@ -9,7 +9,7 @@
 2019={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2020={
 	holding = none
@@ -17,7 +17,7 @@
 2021={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2023={
 	holding = city_holding
@@ -47,7 +47,7 @@
 2061={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2062={
 	holding = none

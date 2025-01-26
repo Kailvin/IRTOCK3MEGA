@@ -6,7 +6,7 @@
 10440={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10441={
 	holding = none
@@ -63,7 +63,7 @@
 10455={
 	culture = malay
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10456={
 	holding = none
@@ -74,7 +74,7 @@
 10703={
 	culture = iban
 	religion = kaharingan
-	holding = estate_holding
+	holding = castle_holding
 }
 10730={
 	holding = none

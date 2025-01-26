@@ -7,7 +7,7 @@
 1445={
 	culture = tocharian
 	faith = tengri_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7972={
 	holding = city_holding
@@ -18,7 +18,7 @@
 7974={
 	culture = tocharian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 7975={
 	holding = city_holding

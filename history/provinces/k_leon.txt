@@ -7,7 +7,7 @@
 1795={
 	culture = scythian
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 1796={
 	holding = none
@@ -15,7 +15,7 @@
 1797={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1798={
 	holding = none
@@ -23,7 +23,7 @@
 1816={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	381.1.1 = { religion = priscillianism }
 }
 1817={
@@ -44,7 +44,7 @@
 1826={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	381.1.1 = { religion = priscillianism }
 }
 1827={
@@ -59,7 +59,7 @@
 1894={
 	culture = aestian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	381.1.1 = { religion = priscillianism }
 }
 1895={
@@ -74,13 +74,13 @@
 1912={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	381.1.1 = { religion = priscillianism }
 }
 1913={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	381.1.1 = { religion = priscillianism }
 }
 1914={

@@ -4,7 +4,7 @@
 8535={
 	culture = tuyuhun
 	religion = eastern_tengri
-	holding = estate_holding
+	holding = castle_holding
 }
 8537={
 	holding = church_holding
@@ -24,22 +24,22 @@
 9472={
 	culture = tuyuhun
 	religion = eastern_tengri
-	holding = estate_holding
+	holding = castle_holding
 }
 9474={
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = yumen_pass
 	special_building = yumen_pass
 }
 9475={
 	culture = tocharian
 	religion = lamaism
-	holding = estate_holding
+	holding = castle_holding
 }
 9476={
 	culture = han
 	religion = lamaism
-	holding = estate_holding
+	holding = castle_holding
 }
 9477={
 	holding = church_holding
@@ -50,7 +50,7 @@
 9479={
 	culture = tuyuhun
 	religion = eastern_tengri
-	holding = estate_holding
+	holding = castle_holding
 }
 9480={
 	holding = church_holding
@@ -76,7 +76,7 @@
 	holding = none
 }
 9488={
-	holding = estate_holding
+	holding = castle_holding
 }
 9489={
 	holding = none
@@ -87,15 +87,15 @@
 9493={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9494={
-	holding = estate_holding
+	holding = castle_holding
 }
 9495={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9496={
 	holding = church_holding
@@ -133,12 +133,12 @@
 9507={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9508={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9509={
 	holding = none
@@ -146,7 +146,7 @@
 9511={
 	culture = tuyuhun
 	religion = eastern_tengri
-	holding = estate_holding
+	holding = castle_holding
 }
 9512={
 	holding = none
@@ -154,7 +154,7 @@
 9513={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9514={
 	holding = church_holding
@@ -174,7 +174,7 @@
 9519={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9520={
 	holding = none
@@ -182,7 +182,7 @@
 9521={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9522={
 	holding = church_holding
@@ -193,17 +193,17 @@
 9524={
 	culture = tuyuhun
 	religion = eastern_tengri
-	holding = estate_holding
+	holding = castle_holding
 }
 9525={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9526={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 9527={
 	holding = none
@@ -226,7 +226,7 @@
 9549={
 	culture = tangut
 	religion = melieism
-	holding = estate_holding
+	holding = castle_holding
 }
 9620={
 	holding = none
@@ -235,7 +235,7 @@
 	holding = none
 }
 16020={
-	holding = estate_holding
+	holding = castle_holding
 }
 16022={
 	holding = none
@@ -243,7 +243,7 @@
 16113={
 	culture = han
 	religion = zenzong
-	holding = estate_holding
+	holding = castle_holding
 }
 16114={
 	holding = city_holding

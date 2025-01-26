@@ -17,7 +17,7 @@
 10376={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10377={
 	holding = none
@@ -30,7 +30,7 @@
 10379={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 	buildings = { castle_04 }
 	special_building_slot = generic_university
 	special_building = generic_university
@@ -123,12 +123,12 @@
 10715={
 	culture = lampung
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10716={
 	culture = lampung
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10717={
 	holding = none
@@ -152,7 +152,7 @@
 	holding = city_holding
 }
 10924={
-	holding = estate_holding
+	holding = castle_holding
 }
 10925={
 	holding = city_holding

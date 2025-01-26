@@ -1,7 +1,7 @@
 10334={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10335={
 	holding = none
@@ -17,7 +17,7 @@
 10338={
 	culture = malay
 	religion = malayic
-	holding = estate_holding
+	holding = castle_holding
 }
 10339={
 	holding = none
@@ -25,7 +25,7 @@
 10340={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10341={
 	holding = none
@@ -48,7 +48,7 @@
 10347={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10349={
 	holding = none
@@ -87,7 +87,7 @@
 10358={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = sea_gold_mines_01
 }
 10359={
@@ -105,19 +105,19 @@
 10368={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10369={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 	800.1.1 = { special_building_slot = candi_muaro_jambi_01 special_building = candi_muaro_jambi_01 }
 	1025.1.1 = { special_building = candi_muaro_jambi_02 }
 }
 10370={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10371={
 	holding = none
@@ -168,7 +168,7 @@
 10712={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10713={
 	holding = none
@@ -213,7 +213,7 @@
 10932={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10933={
 	holding = none
@@ -221,7 +221,7 @@
 10934={
 	culture = malay
 	religion = vajrayana
-	holding = estate_holding
+	holding = castle_holding
 }
 10935={
 	holding = none

@@ -10,7 +10,7 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7175={
 	holding = none
@@ -72,7 +72,7 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7289={
 	holding = none
@@ -81,7 +81,7 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7291={
 	holding = none
@@ -93,7 +93,7 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7294={
 	holding = none
@@ -114,7 +114,7 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7300={
 	holding = none
@@ -132,13 +132,13 @@
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7305={
 	culture = kipchak
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = estate_holding }
+	1337.1.1 = { holding = castle_holding }
 }
 7306={
 	holding = none
@@ -196,7 +196,7 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7323={
 	holding = none
@@ -205,7 +205,7 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7325={
 	holding = none
@@ -217,7 +217,7 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7328={
 	holding = none
@@ -235,13 +235,13 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7333={
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7334={
 	holding = none
@@ -259,7 +259,7 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7339={
 	holding = none
@@ -274,7 +274,7 @@
 	culture = karluk
 	religion = tengri_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = estate_holding }
+	1337.1.1 = { culture = kipchak holding = castle_holding }
 }
 7343={
 	holding = none
@@ -289,7 +289,7 @@
 	culture = kimek
 	religion = tengri_pagan
 	holding = tribal_holding
-	1050.1.2 = { culture = naiman religion = nestorian holding = estate_holding }
+	1050.1.2 = { culture = naiman religion = nestorian holding = castle_holding }
 	1337.1.1 = { culture = kipchak religion = tengri_pagan }
 }
 7347={

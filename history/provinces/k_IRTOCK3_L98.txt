@@ -1,16 +1,16 @@
 3272={
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = mahamevnaw_01
 }
 3273={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3275={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3281={
 	holding = none
@@ -21,12 +21,12 @@
 3283={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3284={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 3285={
 	holding = city_holding

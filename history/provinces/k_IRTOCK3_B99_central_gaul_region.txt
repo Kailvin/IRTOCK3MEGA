@@ -1,7 +1,7 @@
 2071={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2072={
 	holding = none
@@ -15,7 +15,7 @@
 2076={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2077={
 	holding = none
@@ -29,12 +29,12 @@
 2284={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2285={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2286={
 	holding = none
@@ -45,7 +45,7 @@
 2302={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2303={
 	holding = none
@@ -65,12 +65,12 @@
 2309={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2310={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2311={
 	holding = none
@@ -78,7 +78,7 @@
 2343={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2344={
 	holding = none
@@ -89,7 +89,7 @@
 2346={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2347={
 	holding = none
@@ -97,12 +97,12 @@
 2348={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2349={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2350={
 	holding = none
@@ -110,12 +110,12 @@
 2351={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2374={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2376={
 	holding = none
@@ -124,7 +124,7 @@
 	holding = none
 }
 2378={
-	holding = estate_holding
+	holding = castle_holding
 }
 2379={
 	holding = city_holding
@@ -132,7 +132,7 @@
 2380={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2381={
 	holding = none
@@ -155,7 +155,7 @@
 2458={
 	culture = greek
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2459={
 	holding = none

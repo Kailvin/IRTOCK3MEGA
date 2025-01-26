@@ -1,7 +1,7 @@
 2647={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2648={
 	holding = church_holding
@@ -12,7 +12,7 @@
 2650={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2651={
 	holding = none
@@ -20,5 +20,5 @@
 2652={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }

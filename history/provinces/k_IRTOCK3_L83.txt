@@ -1,12 +1,12 @@
 1209={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1211={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7902={
 	holding = none
@@ -15,7 +15,7 @@
 	holding = city_holding
 }
 7904={
-	holding = estate_holding
+	holding = castle_holding
 }
 7905={
 	holding = none

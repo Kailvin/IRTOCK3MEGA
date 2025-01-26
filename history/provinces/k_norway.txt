@@ -45,7 +45,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 240={
 	holding = none
@@ -54,7 +54,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 242={
 	holding = none
@@ -132,7 +132,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 266={
 	holding = none
@@ -144,7 +144,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 269={
 	holding = none
@@ -154,7 +154,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	997.1.1 = { holding = estate_holding }
+	997.1.1 = { holding = castle_holding }
 	1066.1.1 = { culture = norse religion = catholic buildings = { common_tradeport_01 hunting_grounds_01 barracks_01 } }
 }
 271={
@@ -215,7 +215,7 @@
 	culture = sami
 	religion = sami_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 292={
 	holding = none
@@ -250,7 +250,7 @@
 	culture = sami
 	religion = sami_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 435={
 	holding = none
@@ -268,7 +268,7 @@
 	culture = sami
 	religion = sami_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = estate_holding }
+	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 441={
 	holding = none

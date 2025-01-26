@@ -1,7 +1,7 @@
 1963={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1965={
 	holding = none
@@ -12,7 +12,7 @@
 1977={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1985={
 	holding = church_holding
@@ -23,7 +23,7 @@
 1987={
 	culture = scythian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	395.1.1 = { religion = basilidianism }
 }
 1988={
@@ -38,7 +38,7 @@
 1995={
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1999={
 	holding = church_holding

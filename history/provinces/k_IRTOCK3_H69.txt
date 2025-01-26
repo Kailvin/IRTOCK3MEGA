@@ -4,7 +4,7 @@
 6240={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6241={
 	holding = city_holding
@@ -15,12 +15,12 @@
 6243={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6244={
 	culture = himyarite
 	faith = arabic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6245={
 	holding = city_holding
@@ -28,16 +28,16 @@
 6246={
 	culture = himyarite
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6247={
 	holding = none
 }
 6270={
-	holding = estate_holding
+	holding = castle_holding
 }
 6271={
-	holding = estate_holding
+	holding = castle_holding
 }
 6272={
 	holding = city_holding
@@ -54,7 +54,7 @@
 6276={
 	culture = south_arabian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6278={
 	holding = city_holding
@@ -65,7 +65,7 @@
 6280={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6281={
 	holding = none
@@ -82,13 +82,13 @@
 6299={
 	culture = himyarite
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = marib_dam
 }
 6300={
 	culture = south_arabian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6301={
 	holding = none

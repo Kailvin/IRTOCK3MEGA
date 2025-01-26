@@ -1,18 +1,18 @@
 934={
 	culture = aestian
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5129={
 	culture = aestian
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5130={
 	holding = none
 }
 5131={
-	holding = estate_holding
+	holding = castle_holding
 }
 5132={
 	holding = none
@@ -23,7 +23,7 @@
 5134={
 	culture = aestian
 	faith = slavic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5135={
 	holding = none

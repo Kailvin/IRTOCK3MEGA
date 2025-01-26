@@ -4,7 +4,7 @@
 6030={
 	culture = nabatean
 	faith = nabataean_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6031={
 	holding = none
@@ -16,7 +16,7 @@
 6033={
 	culture = meroitic
 	faith = nabataean_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6034={
 	holding = none
@@ -33,15 +33,15 @@
 6038={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6039={
-	holding = estate_holding
+	holding = castle_holding
 }
 6040={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6041={
 	holding = church_holding
@@ -49,7 +49,7 @@
 6042={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6043={
 	holding = city_holding
@@ -63,7 +63,7 @@
 6046={
 	culture = aegyptian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 6047={
 	holding = church_holding
@@ -80,17 +80,17 @@
 6051={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6052={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6053={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = library_of_alexandria
 }
 6054={
@@ -105,7 +105,7 @@
 6057={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building = the_pyramids_01
 }
 6058={
@@ -117,7 +117,7 @@
 6060={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6061={
 	holding = city_holding
@@ -131,7 +131,7 @@
 6083={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6084={
 	holding = none
@@ -139,7 +139,7 @@
 6085={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6086={
 	holding = city_holding
@@ -150,12 +150,12 @@
 6088={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6089={
 	culture = garamantian
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6090={
 	holding = none
@@ -169,7 +169,7 @@
 6093={
 	culture = nuragic
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6094={
 	holding = none
@@ -183,7 +183,7 @@
 6097={
 	culture = garamantian
 	faith = egyptian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 6116={
 	holding = none

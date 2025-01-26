@@ -1,7 +1,7 @@
 5981={
 	culture = hebrew
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5982={
 	holding = church_holding
@@ -12,7 +12,7 @@
 5984={
 	culture = kolochin
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5986={
 	holding = none

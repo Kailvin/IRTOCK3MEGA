@@ -15,7 +15,7 @@
 2414={
 	culture = irish
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2415={
 	holding = city_holding
@@ -23,7 +23,7 @@
 2418={
 	culture = old_suebi
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2436={
 	holding = none
@@ -34,7 +34,7 @@
 2438={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2442={
 	holding = none
@@ -54,7 +54,7 @@
 2793={
 	culture = old_suebi
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2794={
 	holding = none
@@ -62,7 +62,7 @@
 2795={
 	culture = old_suebi
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2796={
 	holding = none
@@ -70,7 +70,7 @@
 2797={
 	culture = old_saxon
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2798={
 	holding = city_holding
@@ -87,7 +87,7 @@
 2804={
 	culture = old_suebi
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2806={
 	holding = none
@@ -95,7 +95,7 @@
 2807={
 	culture = old_suebi
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2808={
 	holding = none
@@ -103,7 +103,7 @@
 2809={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2810={
 	holding = church_holding
@@ -111,12 +111,12 @@
 2811={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2812={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2813={
 	holding = none
@@ -127,7 +127,7 @@
 2817={
 	culture = old_suebi
 	faith = gothic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2819={
 	holding = city_holding
@@ -155,7 +155,7 @@
 2844={
 	culture = old_suebi
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2845={
 	holding = none
@@ -163,7 +163,7 @@
 2846={
 	culture = ripurian
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2851={
 	holding = none
@@ -190,7 +190,7 @@
 2860={
 	culture = ripurian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2861={
 	holding = city_holding
@@ -210,7 +210,7 @@
 2898={
 	culture = ripurian
 	faith = saxon_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 2909={
 	holding = none
@@ -227,7 +227,7 @@
 2913={
 	culture = ripurian
 	faith = catholic
-	holding = estate_holding
+	holding = castle_holding
 }
 2914={
 	holding = none

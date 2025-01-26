@@ -10,7 +10,7 @@
 12291={
 	culture = shatuo
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	900.1.1 = { culture = khitan }
 	1150.1.1 = { culture = ongud }
 }

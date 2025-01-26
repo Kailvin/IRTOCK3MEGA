@@ -1,7 +1,7 @@
 4201={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4224={
 	holding = none
@@ -9,7 +9,7 @@
 4225={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = minarets_and_remains_of_jam_01
 }
 4226={
@@ -24,7 +24,7 @@
 4231={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4232={
 	holding = none
@@ -35,7 +35,7 @@
 4283={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4288={
 	holding = city_holding
@@ -43,7 +43,7 @@
 4289={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4290={
 	holding = none
@@ -61,7 +61,7 @@
 	holding = none
 }
 4295={
-	holding = estate_holding
+	holding = castle_holding
 }
 4296={
 	holding = church_holding
@@ -75,7 +75,7 @@
 4299={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4300={
 	holding = city_holding
@@ -86,7 +86,7 @@
 4343={
 	culture = macedonian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 4344={
 	holding = church_holding
@@ -106,7 +106,7 @@
 4465={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4466={
 	holding = none
@@ -123,18 +123,18 @@
 4484={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 4485={
 	holding = none
 }
 4486={
-	holding = estate_holding
+	holding = castle_holding
 }
 4489={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4490={
 	holding = none
@@ -163,15 +163,15 @@
 4499={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4500={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4501={
-	holding = estate_holding
+	holding = castle_holding
 }
 4502={
 	holding = none
@@ -182,7 +182,7 @@
 4504={
 	culture = hephthalite
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4505={
 	holding = none
@@ -193,16 +193,16 @@
 4507={
 	culture = macedonian
 	faith = manichean
-	holding = estate_holding
+	holding = castle_holding
 }
 4508={
-	holding = estate_holding
+	holding = castle_holding
 }
 4509={
 	holding = none
 }
 4514={
-	holding = estate_holding
+	holding = castle_holding
 }
 4515={
 	culture = hephthalite
@@ -210,5 +210,5 @@
 	holding = none
 }
 4516={
-	holding = estate_holding
+	holding = castle_holding
 }

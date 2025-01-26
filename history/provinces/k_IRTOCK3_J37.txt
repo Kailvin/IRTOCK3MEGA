@@ -20,7 +20,7 @@
 5260={
 	culture = alan
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5261={
 	holding = none
@@ -31,7 +31,7 @@
 5263={
 	culture = sarmatian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5264={
 	holding = church_holding
@@ -51,7 +51,7 @@
 5269={
 	culture = sarmatian
 	faith = central_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5270={
 	holding = none

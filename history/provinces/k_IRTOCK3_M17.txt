@@ -7,7 +7,7 @@
 9046={
 	culture = tocharian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9047={
 	holding = city_holding
@@ -21,7 +21,7 @@
 9050={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9087={
 	holding = none
@@ -35,22 +35,22 @@
 9090={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = kedarnath_temple_01
 }
 9091={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = badrinath_temple_01
 }
 9092={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9093={
-	holding = estate_holding
+	holding = castle_holding
 }
 9094={
 	holding = city_holding
@@ -58,13 +58,13 @@
 9095={
 	culture = greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9096={
-	holding = estate_holding
+	holding = castle_holding
 }
 9097={
-	holding = estate_holding
+	holding = castle_holding
 }
 9098={
 	holding = none

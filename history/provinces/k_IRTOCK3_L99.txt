@@ -1,12 +1,12 @@
 1122={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1207={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = amaravati_stupa_01
 	terrain = jungle
 }
@@ -15,13 +15,13 @@
 	terrain = jungle
 }
 7839={
-	holding = estate_holding
+	holding = castle_holding
 	terrain = jungle
 }
 7840={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7841={
 	holding = none
@@ -32,13 +32,13 @@
 	terrain = jungle
 }
 7843={
-	holding = estate_holding
+	holding = castle_holding
 }
 7844={
 	holding = none
 }
 7845={
-	holding = estate_holding
+	holding = castle_holding
 }
 7846={
 	holding = city_holding

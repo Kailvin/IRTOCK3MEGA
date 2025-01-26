@@ -1,5 +1,5 @@
 7094={
-	holding = estate_holding
+	holding = castle_holding
 }
 7095={
 	holding = city_holding
@@ -7,7 +7,7 @@
 7096={
 	culture = alan
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7098={
 	holding = city_holding
@@ -24,12 +24,12 @@
 7103={
 	culture = alan
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7104={
 	culture = alan
 	faith = scythian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7105={
 	holding = none

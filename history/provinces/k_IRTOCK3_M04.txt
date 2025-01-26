@@ -1,43 +1,43 @@
 1119={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = kailasanathar_temple_01
 }
 1199={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1204={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1219={
-	holding = estate_holding
+	holding = castle_holding
 	special_building_slot = venkateswara_temple_01
 	terrain = hills
 }
 7815={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7816={
-	holding = estate_holding
+	holding = castle_holding
 }
 7817={
-	holding = estate_holding
+	holding = castle_holding
 }
 7818={
 	holding = city_holding
 }
 7819={
-	holding = estate_holding
+	holding = castle_holding
 }
 7820={
-	holding = estate_holding
+	holding = castle_holding
 }
 7821={
 	holding = none
@@ -51,7 +51,7 @@
 7825={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 7826={
 	holding = none

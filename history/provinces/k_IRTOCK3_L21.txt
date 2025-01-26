@@ -1,7 +1,7 @@
 9550={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9551={
 	holding = none
@@ -15,18 +15,18 @@
 9554={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9555={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9556={
-	holding = estate_holding
+	holding = castle_holding
 }
 9557={
-	holding = estate_holding
+	holding = castle_holding
 }
 9558={
 	holding = city_holding
@@ -34,13 +34,13 @@
 9559={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9560={
 	holding = none
 }
 9561={
-	holding = estate_holding
+	holding = castle_holding
 }
 9562={
 	holding = none
@@ -48,7 +48,7 @@
 9563={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9564={
 	holding = none
@@ -56,25 +56,25 @@
 9565={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9568={
-	holding = estate_holding
+	holding = castle_holding
 }
 9569={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9570={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9571={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9572={
 	holding = none
@@ -82,12 +82,12 @@
 9573={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9574={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9575={
 	holding = none
@@ -95,7 +95,7 @@
 9588={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9589={
 	holding = none
@@ -103,7 +103,7 @@
 9590={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9591={
 	culture = bengali
@@ -113,7 +113,7 @@
 9592={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9593={
 	culture = bengali
@@ -123,7 +123,7 @@
 9595={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9622={
 	culture = palaung
@@ -136,23 +136,23 @@
 9624={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9625={
 	holding = none
 }
 9634={
-	holding = estate_holding
+	holding = castle_holding
 }
 9639={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9640={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9641={
 	holding = city_holding
@@ -160,12 +160,12 @@
 9643={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9644={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9645={
 	holding = none
@@ -173,17 +173,17 @@
 9646={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9647={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9658={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9832={
 	holding = church_holding
@@ -194,7 +194,7 @@
 9835={
 	culture = karen
 	religion = burmic
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = burmese religion = ari }
 }
 9838={
@@ -229,7 +229,7 @@
 10962={
 	culture = pyu
 	religion = ari
-	holding = estate_holding
+	holding = castle_holding
 	882.1.1 = { culture = burmese }
 	1223.1.1 = { religion = theravada }
 }
@@ -244,7 +244,7 @@
 10967={
 	culture = pyu
 	religion = theravada
-	holding = estate_holding
+	holding = castle_holding
 	873.1.1 = { culture = burmese }
 }
 10970={

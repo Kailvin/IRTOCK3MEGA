@@ -40,7 +40,7 @@
 	holding = tribal_holding
 	360.1.1 = { buildings = { market_villages_02 war_camps_02 } }
 	920.1.1 = { religion = sunni }
-	935.1.1 = { holding = estate_holding }
+	935.1.1 = { holding = castle_holding }
 	1066.1.1 = { buildings = { cereal_fields_01 hunting_grounds_01 } }
 	1150.1.1 = { culture = songhai }
 }

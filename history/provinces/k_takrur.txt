@@ -39,7 +39,7 @@
 	religion = west_african_roog_pagan
 	holding = tribal_holding
 	1035.1.1 = { religion = ashari }
-	1066.1.1 = { holding = estate_holding buildings = { cereal_fields_01 plantations_01 } }
+	1066.1.1 = { holding = castle_holding buildings = { cereal_fields_01 plantations_01 } }
 }
 6783={
 	holding = none

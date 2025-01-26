@@ -49,7 +49,7 @@
 13602={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = jurchen }
 }
 13603={
@@ -58,13 +58,13 @@
 13604={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = jurchen }
 }
 13605={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 13606={
 	holding = none
@@ -78,7 +78,7 @@
 13609={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = udege religion = abkaism }
 }
 13610={
@@ -87,7 +87,7 @@
 13611={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = udege religion = abkaism }
 }
 13616={
@@ -126,13 +126,13 @@
 13669={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = jurchen }
 }
 13681={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	756.1.1 = { buildings = { castle_02 curtain_walls_03 } special_building = generic_university }
 	1050.1.1 = { culture = jurchen }
 }
@@ -142,7 +142,7 @@
 13683={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = jurchen }
 }
 13702={
@@ -154,7 +154,7 @@
 13709={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 	1050.1.1 = { culture = jurchen }
 }
 13710={
@@ -204,12 +204,12 @@
 13909={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 13910={
 	culture = balhae
 	religion = muism
-	holding = estate_holding
+	holding = castle_holding
 }
 13924={
 	holding = none
@@ -232,7 +232,7 @@
 13952={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }
 13954={
 	holding = none
@@ -249,5 +249,5 @@
 13974={
 	culture = balhae
 	religion = mahayana
-	holding = estate_holding
+	holding = castle_holding
 }

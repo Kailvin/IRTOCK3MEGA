@@ -9,7 +9,7 @@
 12080={
 	culture = sichuan
 	religion = zhengyi
-	holding = estate_holding
+	holding = castle_holding
 }
 12081={
 	holding = none
@@ -29,7 +29,7 @@
 12141={
 	culture = sichuan
 	religion = zhengyi
-	holding = estate_holding
+	holding = castle_holding
 }
 12146={
 	holding = none
@@ -37,7 +37,7 @@
 12167={
 	culture = sichuan
 	religion = zhengyi
-	holding = estate_holding
+	holding = castle_holding
 }
 12177={
 	holding = none
@@ -48,7 +48,7 @@
 12185={
 	culture = sichuan
 	religion = zhengyi
-	holding = estate_holding
+	holding = castle_holding
 }
 12195={
 	culture = sichuan
@@ -261,7 +261,7 @@
 12567={
 	culture = sichuan
 	religion = shendao
-	holding = estate_holding
+	holding = castle_holding
 	900.1.1 = { culture = han }
 }
 12601={

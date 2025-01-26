@@ -1,15 +1,15 @@
 735={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 738={
-	holding = estate_holding
+	holding = castle_holding
 }
 739={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 751={
 	holding = none
@@ -17,7 +17,7 @@
 5581={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5582={
 	holding = none
@@ -28,7 +28,7 @@
 5584={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5585={
 	holding = none
@@ -48,7 +48,7 @@
 5590={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5591={
 	holding = none
@@ -62,13 +62,13 @@
 5594={
 	culture = phrygian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5595={
 	holding = none
 }
 5596={
-	holding = estate_holding
+	holding = castle_holding
 }
 5597={
 	holding = city_holding
@@ -76,7 +76,7 @@
 5598={
 	culture = phrygian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5599={
 	holding = none
@@ -90,7 +90,7 @@
 5602={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5603={
 	holding = city_holding
@@ -98,7 +98,7 @@
 5604={
 	culture = phrygian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5605={
 	holding = none
@@ -116,5 +116,5 @@
 	holding = city_holding
 }
 5613={
-	holding = estate_holding
+	holding = castle_holding
 }

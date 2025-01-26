@@ -1,7 +1,7 @@
 400={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 811={
 	holding = none
@@ -10,7 +10,7 @@
 	holding = none
 }
 813={
-	holding = estate_holding
+	holding = castle_holding
 }
 814={
 	holding = none
@@ -52,7 +52,7 @@
 826={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 827={
 	holding = city_holding
@@ -60,7 +60,7 @@
 828={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 829={
 	holding = none
@@ -78,7 +78,7 @@
 	holding = none
 }
 834={
-	holding = estate_holding
+	holding = castle_holding
 }
 835={
 	holding = none
@@ -98,7 +98,7 @@
 840={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 841={
 	holding = city_holding
@@ -107,7 +107,7 @@
 	holding = city_holding
 }
 843={
-	holding = estate_holding
+	holding = castle_holding
 }
 846={
 	holding = city_holding
@@ -116,7 +116,7 @@
 	holding = city_holding
 }
 848={
-	holding = estate_holding
+	holding = castle_holding
 }
 850={
 	holding = none
@@ -130,23 +130,23 @@
 853={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 854={
 	holding = none
 }
 861={
-	holding = estate_holding
+	holding = castle_holding
 }
 1131={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1151={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1153={
 	holding = none
@@ -154,12 +154,12 @@
 1177={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1236={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1240={
 	holding = city_holding
@@ -167,79 +167,79 @@
 1243={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1244={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1245={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1246={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1296={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1318={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1319={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1321={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1324={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1325={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1381={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1418={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 8722={
-	holding = estate_holding
+	holding = castle_holding
 }
 9114={
 	holding = none
 }
 9119={
-	holding = estate_holding
+	holding = castle_holding
 }
 9120={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9121={
-	holding = estate_holding
+	holding = castle_holding
 }
 9124={
 	holding = none
@@ -247,7 +247,7 @@
 9125={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9126={
 	holding = none
@@ -261,12 +261,12 @@
 9129={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9133={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9134={
 	holding = none
@@ -277,12 +277,12 @@
 9136={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9137={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9138={
 	holding = none
@@ -293,7 +293,7 @@
 9140={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9141={
 	holding = none
@@ -302,34 +302,34 @@
 	holding = none
 }
 9164={
-	holding = estate_holding
+	holding = castle_holding
 }
 9165={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9166={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9167={
-	holding = estate_holding
+	holding = castle_holding
 }
 9168={
 	holding = none
 }
 9173={
-	holding = estate_holding
+	holding = castle_holding
 }
 9174={
-	holding = estate_holding
+	holding = castle_holding
 }
 9175={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9176={
 	culture = lhomon
@@ -345,12 +345,12 @@
 9576={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9577={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9578={
 	holding = none
@@ -364,7 +364,7 @@
 9581={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9582={
 	holding = none
@@ -372,17 +372,17 @@
 9583={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9584={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9585={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9586={
 	holding = none
@@ -390,10 +390,10 @@
 9587={
 	culture = indo_greek
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 9657={
-	holding = estate_holding
+	holding = castle_holding
 }
 9865={
 	holding = none

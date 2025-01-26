@@ -4,7 +4,7 @@
 669={
 	culture = georgian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 673={
 	holding = city_holding
@@ -12,17 +12,17 @@
 674={
 	culture = georgian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 675={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 676={
 	culture = macedonian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 1013={
 	culture = georgian
@@ -32,12 +32,12 @@
 5304={
 	culture = macedonian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5341={
 	culture = georgian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5342={
 	holding = none
@@ -48,7 +48,7 @@
 5759={
 	culture = greek
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5760={
 	holding = none
@@ -69,7 +69,7 @@
 	holding = none
 }
 5766={
-	holding = estate_holding
+	holding = castle_holding
 }
 5767={
 	holding = none
@@ -77,7 +77,7 @@
 5768={
 	culture = macedonian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5769={
 	holding = city_holding
@@ -88,7 +88,7 @@
 5771={
 	culture = georgian
 	faith = iberian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5772={
 	holding = none
@@ -108,7 +108,7 @@
 5777={
 	culture = georgian
 	faith = caucasian_pagan
-	holding = estate_holding
+	holding = castle_holding
 }
 5778={
 	holding = none
@@ -117,7 +117,7 @@
 	holding = none
 }
 5788={
-	holding = estate_holding
+	holding = castle_holding
 }
 5789={
 	holding = none
@@ -125,7 +125,7 @@
 5790={
 	culture = macedonian
 	faith = orthodox
-	holding = estate_holding
+	holding = castle_holding
 }
 5791={
 	holding = none

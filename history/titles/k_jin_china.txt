@@ -5,77 +5,77 @@ d_hedong_china={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_taiyuan_china_holder liege = 0 }
 }
 c_taiyuan_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_chengtianjun_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_yizhou_hedong_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_lanzhou_hedong_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_shizhou_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_qinzhou_hedong_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 c_fenzhou_china={
-	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_taiyuan_china_holder change_development_level = 10 }
 }
 d_shengzhou_china={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_shengzhou_china_holder liege = 0 }
 }
 c_shengzhou_china={
-	423.7.6 = { holder = IRToCK3_c_shengzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_shengzhou_china_holder change_development_level = 10 }
 }
 c_hequ_china={
-	423.7.6 = { holder = IRToCK3_c_shengzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_shengzhou_china_holder change_development_level = 10 }
 }
 d_yunzhong_china={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_yunzhou_china_holder liege = 0 }
 }
 c_yunzhou_china={
-	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 10 }
 }
 c_shuozhou_china={
-	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 10 }
 }
 c_yuzhou_dai_china={
-	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 10 }
 }
 c_jingbianjun_china={
-	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 10 }
 }
 c_yingzhou_jin_china={
-	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_yunzhou_china_holder change_development_level = 10 }
 }
 d_yanmen_china={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_daizhou_china_holder liege = 0 }
 }
 c_daizhou_china={
-	423.7.6 = { holder = IRToCK3_c_daizhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_daizhou_china_holder change_development_level = 10 }
 }
 c_xinzhou_dai_china={
-	423.7.6 = { holder = IRToCK3_c_daizhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_daizhou_china_holder change_development_level = 10 }
 }
 d_hezhong_china={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_jiangzhou_china_holder liege = 0 }
 }
 c_jiangzhou_china={
-	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 10 }
 }
 c_xizhou_hezhong_china={
-	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 10 }
 }
 c_cizhou_hezhong_china={
-	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 10 }
 }
 c_puzhou_china={
-	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 10 }
 }
 c_jinzhou_hezhong_china={
-	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jiangzhou_china_holder change_development_level = 10 }
 }

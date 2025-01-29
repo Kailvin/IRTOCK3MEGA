@@ -1,5 +1,5 @@
 2017={
-	culture = greek
+	culture = galatian
 	faith = nicene
 	holding = castle_holding
 }
@@ -7,7 +7,7 @@
 	holding = church_holding
 }
 2019={
-	culture = greek
+	culture = galatian
 	faith = nicene
 	holding = castle_holding
 }
@@ -15,7 +15,7 @@
 	holding = none
 }
 2021={
-	culture = greek
+	culture = galatian
 	faith = nicene
 	holding = castle_holding
 }
@@ -45,7 +45,7 @@
 	holding = none
 }
 2061={
-	culture = greek
+	culture = galatian
 	faith = nicene
 	holding = castle_holding
 }

@@ -5,71 +5,71 @@ d_xining={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_xining_holder liege = 0 }
 }
 c_xining={
-	423.7.6 = { holder = IRToCK3_c_xining_holder liege = "d_xining" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_xining_holder liege = "d_xining" change_development_level = 5 }
 }
 c_datong={
-	423.7.6 = { holder = IRToCK3_c_xining_holder liege = "d_xining" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_xining_holder liege = "d_xining" change_development_level = 8 }
 }
 d_nagormo={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_nagormo_holder liege = 0 }
 }
 c_nagormo={
-	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 4 }
 }
 c_hohaseco={
-	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 6 }
 }
 c_lenghu={
-	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 3 }
 }
 c_mangnai={
-	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 5 }
 }
 c_kumkol={
-	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nagormo_holder liege = "d_nagormo" change_development_level = 6 }
 }
 d_amdo={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_amdo_holder liege = 0 }
 }
 c_amdo={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 4 }
 }
 c_nyainrong={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 4 }
 }
 c_yenshipin={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 6 }
 }
 c_dangla={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 5 }
 }
 c_aqenganggyai={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 7 }
 }
 c_chumarho={
-	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_amdo_holder liege = "d_amdo" change_development_level = 3 }
 }
 d_zadoi={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_zadoi_holder liege = 0 }
 }
 c_zadoi={
-	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 5 }
 }
 c_trandam={
-	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 4 }
 }
 c_zhidoi={
-	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_zadoi_holder liege = "d_zadoi" change_development_level = 6 }
 }
 d_qumarleb={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_qumarleb_holder government = tribal_government }
 }
 c_qumarleb={
-	423.7.6 = { holder = IRToCK3_c_qumarleb_holder change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_qumarleb_holder change_development_level = 4 }
 }
 c_chindu={
-	423.7.6 = { holder = IRToCK3_c_qumarleb_holder liege = "d_nangqen" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_qumarleb_holder liege = "d_nangqen" change_development_level = 3 }
 }
 c_ngoring={
-	423.7.6 = { holder = IRToCK3_c_qumarleb_holder liege = "d_nagormo" change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_qumarleb_holder liege = "d_nagormo" change_development_level = 3 }
 }

@@ -48,7 +48,7 @@ c_aunis={
 	423.7.6 = { change_development_level = 13 }
 }
 d_toulouse={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_gevaudan_holder liege = 0 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_gevaudan_holder liege = k_aquitaine change_development_level = 7 }
 }
 c_toulouse={
 	405.4.16 = { liege = 0 holder = imperator187369 }

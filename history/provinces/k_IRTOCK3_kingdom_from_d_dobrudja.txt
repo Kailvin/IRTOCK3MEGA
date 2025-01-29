@@ -2,7 +2,7 @@
 	culture = greek
 	faith = nicene
 	holding = castle_holding
-	395.1.1 = { culture = gothic }
+	395.1.1 = { culture = bosporan }
 }
 509={
 	holding = church_holding

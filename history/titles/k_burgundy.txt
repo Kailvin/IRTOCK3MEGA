@@ -2,14 +2,14 @@ k_burgundy={
 	423.7.6 = { liege = 0 }
 }
 d_dauphine={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_forez_holder liege = 0 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_forez_holder liege = e_IRTOCK3_B99 }
 }
 c_lyon={
 	405.4.16 = { liege = 0 holder = imperator187369 }
 	423.7.6 = { change_development_level = 10 }
 }
 c_forez={
-	423.7.6 = { holder = IRToCK3_c_forez_holder liege = 0 change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_forez_holder liege = 0 change_development_level = 5 }
 }
 c_viviers={
 	405.4.16 = { liege = 0 holder = imperator187369 }

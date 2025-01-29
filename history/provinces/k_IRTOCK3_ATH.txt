@@ -144,7 +144,7 @@
 	culture = kolochin
 	faith = nicene
 	holding = castle_holding
-	395.1.1 = { culture = gothic religion = gothic_pagan }
+	395.1.1 = { culture = bosporan }
 }
 500={
 	culture = kolochin
@@ -457,7 +457,7 @@
 	holding = city_holding
 }
 3689={
-	culture = kolochin
+	culture = bosporan
 	faith = nicene
 	holding = castle_holding
 }
@@ -468,7 +468,7 @@
 	culture = greek
 	faith = nicene
 	holding = castle_holding
-	395.1.1 = { culture = gothic }
+	395.1.1 = { culture = bosporan }
 }
 3692={
 	holding = city_holding

@@ -260,7 +260,7 @@
 	holding = church_holding
 }
 4855={
-	culture = adnanite
+	culture = bedouin
 	faith = kitebacilweism
 	holding = castle_holding
 }
@@ -333,7 +333,7 @@
 	holding = none
 }
 4883={
-	culture = adnanite
+	culture = bedouin
 	faith = karaism
 	holding = castle_holding
 }
@@ -341,12 +341,12 @@
 	holding = none
 }
 4885={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
 4886={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -357,7 +357,7 @@
 	holding = none
 }
 4889={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -449,12 +449,12 @@
 	holding = none
 }
 6000={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = none
 }
 6001={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }

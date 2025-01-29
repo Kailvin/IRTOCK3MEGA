@@ -1,13 +1,13 @@
 6282={
-	culture = south_arabian
-	faith = south_arabian_pagan
+	culture = bedouin
+	faith = bedouin_pagan
 	holding = tribal_holding
 }
 6283={
 	holding = church_holding
 }
 6284={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -30,7 +30,7 @@
 	holding = city_holding
 }
 6291={
-	culture = south_arabian
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -50,17 +50,17 @@
 	holding = none
 }
 6312={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
 6313={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
 6314={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }

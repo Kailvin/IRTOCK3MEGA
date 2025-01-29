@@ -1488,7 +1488,7 @@ IRToCK3_c_faereyar_hermit={
 }
 IRToCK3_head_of_faith_haymanot={
 	name = Abdul-Jaleel
-	culture = south_arabian
+	culture = bedouin
 	faith = haymanot
 	trait = chaste
 	trait = celibate
@@ -1497,7 +1497,7 @@ IRToCK3_head_of_faith_haymanot={
 }
 IRToCK3_head_of_faith_karaism={
 	name = Ashraf
-	culture = adnanite
+	culture = bedouin
 	faith = karaism
 	trait = chaste
 	trait = celibate

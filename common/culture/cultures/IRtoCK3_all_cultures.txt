@@ -15025,6 +15025,27 @@ ethnicities = {
 martial_custom = martial_custom_male_only
 ethos = ethos_communal
 }
+bosporan={
+	color=rgb { 26 130 166 }
+	parents={ greek kolochin }
+	heritage=heritage_baltic
+	language=language_greek
+	traditions={  tradition_ep3_indomitable_azatani tradition_forest_wardens tradition_ep3_roman_ceremonies tradition_xenophilic tradition_horse_breeder }
+	name_list=name_list_aestian
+	created = 297.1.5
+ethos = ethos_egalitarian
+martial_custom = martial_custom_male_only
+coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+building_gfx = { grecoroman_building_gfx western_building_gfx }
+clothing_gfx = { byzantine_clothing_gfx northern_clothing_gfx }
+unit_gfx = { northern_unit_gfx }
+ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+}
 pemis={
 	color=rgb { 89 73 47 }
 	parents={ german czech }

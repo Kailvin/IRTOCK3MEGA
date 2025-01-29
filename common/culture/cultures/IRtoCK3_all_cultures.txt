@@ -15022,7 +15022,7 @@ martial_custom = martial_custom_male_only
 ethos = ethos_communal
 }
 bosporan={
-	color=rgb { 26 130 166 }
+	color=rgb { 75 27 159 }
 	parents={ greek kolochin }
 	heritage=heritage_baltic
 	language=language_greek

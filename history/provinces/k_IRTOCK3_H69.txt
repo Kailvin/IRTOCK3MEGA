@@ -2,7 +2,7 @@
 	holding = city_holding
 }
 6240={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -13,12 +13,12 @@
 	holding = city_holding
 }
 6243={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
 6244={
-	culture = himyarite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -26,7 +26,7 @@
 	holding = city_holding
 }
 6246={
-	culture = himyarite
+	culture = bedouin
 	faith = egyptian_pagan
 	holding = castle_holding
 }
@@ -52,7 +52,7 @@
 	holding = city_holding
 }
 6276={
-	culture = south_arabian
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -63,7 +63,7 @@
 	holding = church_holding
 }
 6280={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -80,13 +80,13 @@
 	holding = church_holding
 }
 6299={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 	special_building_slot = marib_dam
 }
 6300={
-	culture = south_arabian
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }

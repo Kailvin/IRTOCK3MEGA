@@ -43,7 +43,7 @@
 	holding = city_holding
 }
 5924={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -51,7 +51,7 @@
 	holding = none
 }
 5926={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -62,7 +62,7 @@
 	holding = church_holding
 }
 5951={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = none
 }

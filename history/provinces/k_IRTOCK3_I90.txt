@@ -25,7 +25,7 @@
 	holding = none
 }
 6207={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -44,7 +44,7 @@
 	holding = none
 }
 6212={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -58,7 +58,7 @@
 	holding = none
 }
 6218={
-	culture = adnanite
+	culture = bedouin
 	faith = rabbinism
 	holding = castle_holding
 }
@@ -75,17 +75,17 @@
 	holding = none
 }
 6223={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
 6224={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
 6225={
-	culture = himyarite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -102,7 +102,7 @@
 	holding = castle_holding
 }
 6235={
-	culture = himyarite
+	culture = bedouin
 	faith = egyptian_pagan
 	holding = castle_holding
 }

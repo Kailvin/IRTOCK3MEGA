@@ -1,5 +1,5 @@
 6302={
-	culture = himyarite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = none
 }
@@ -13,7 +13,7 @@
 	holding = none
 }
 6306={
-	culture = south_arabian
+	culture = bedouin
 	faith = nicene
 	holding = city_holding
 }
@@ -24,7 +24,7 @@
 	holding = castle_holding
 }
 6309={
-	culture = south_arabian
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }

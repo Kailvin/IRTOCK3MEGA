@@ -5,122 +5,122 @@ d_isanapura={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_sambor_prei_kuk_holder liege = 0 }
 }
 c_sambor_prei_kuk={
-	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 7 }
 }
 c_prey_nokor={
-	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 8 }
 }
 c_kampong_kdei={
-	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambor_prei_kuk_holder change_development_level = 12 }
 }
 d_aninditapura={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_aninditapura_holder liege = 0 }
 }
 c_aninditapura={
-	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 7 }
 }
 c_lingapura={
-	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 8 }
 }
 c_samraong={
-	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 8 }
 }
 c_preah_vihear={
-	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_aninditapura_holder change_development_level = 7 }
 }
 d_battambang={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_bakan_holder liege = 0 }
 }
 c_bakan={
-	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 7 }
 }
 c_pailin={
-	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 6 }
 }
 c_neang={
-	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 8 }
 }
 c_chhmar={
-	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bakan_holder change_development_level = 8 }
 }
 d_dviradapura={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_dviradapura_holder liege = 0 }
 }
 c_dviradapura={
-	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 6 }
 }
 c_pursat={
-	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 6 }
 }
 c_aoral={
-	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_dviradapura_holder change_development_level = 8 }
 }
 d_vyadhapura={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_angkor_borei_holder liege = 0 }
 }
 c_angkor_borei={
-	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 7 }
 }
 c_prey_rodum={
-	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 7 }
 }
 c_chum_kiri={
-	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 8 }
 }
 c_tbong_khmum={
-	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 7 }
 }
 c_kiri_vong={
-	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_angkor_borei_holder change_development_level = 6 }
 }
 d_can_tho={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_can_tho_holder liege = 0 }
 }
 c_can_tho={
-	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 7 }
 }
 c_sap={
-	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 6 }
 }
 c_sadek={
-	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 8 }
 }
 c_prey_rusey={
-	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_can_tho_holder change_development_level = 7 }
 }
 d_ban_lung={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_mondul_kiri_holder liege = 0 }
 }
 c_mondul_kiri={
-	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 7 }
 }
 c_senmonorom={
-	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 8 }
 }
 c_ta_veang={
-	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mondul_kiri_holder change_development_level = 7 }
 }
 d_koh_kong={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_koh_kong_holder liege = 0 }
 }
 c_koh_kong={
-	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 7 }
 }
 c_khemara_phoumin={
-	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 8 }
 }
 c_ream={
-	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_koh_kong_holder change_development_level = 8 }
 }
 d_sambhupura={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_sambhupura_holder liege = 0 }
 }
 c_sambhupura={
-	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 7 }
 }
 c_phnom_preah_theat={
-	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 8 }
 }
 c_thala_borivat={
-	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sambhupura_holder change_development_level = 8 }
 }

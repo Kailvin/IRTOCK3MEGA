@@ -5,104 +5,104 @@ d_haripunjaya={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_haripunjaya_holder liege = 0 }
 }
 c_haripunjaya={
-	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 8 }
 }
 c_lampang={
-	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 7 }
 }
 c_phrae={
-	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haripunjaya_holder change_development_level = 10 }
 }
 d_sayaburi={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_sayaburi_holder liege = 0 }
 }
 c_sayaburi={
-	423.7.6 = { holder = IRToCK3_c_sayaburi_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sayaburi_holder change_development_level = 9 }
 }
 c_hong_sa={
-	423.7.6 = { holder = IRToCK3_c_sayaburi_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sayaburi_holder change_development_level = 10 }
 }
 d_tak={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_ban_tak_holder liege = 0 }
 }
 c_ban_tak={
-	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 8 }
 }
 c_chakangrao={
-	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 9 }
 }
 c_mae_ramat={
-	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 7 }
 }
 c_phra_bang={
-	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ban_tak_holder change_development_level = 8 }
 }
 d_sukhothai={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_sukhothai_holder liege = 0 }
 }
 c_sukhothai={
-	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 10 }
 }
 c_tha_lo={
-	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 10 }
 }
 c_phichai={
-	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 8 }
 }
 c_phitsanulok={
-	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sukhothai_holder change_development_level = 9 }
 }
 d_chiang_mai={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_chiang_mai_holder liege = 0 }
 }
 c_chiang_mai={
-	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 9 }
 }
 c_don={
-	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 8 }
 }
 c_phrao={
-	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 7 }
 }
 c_hot={
-	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 7 }
 }
 c_mae_la_noi={
-	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_mai_holder change_development_level = 9 }
 }
 d_chiang_saen={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_chiang_saen_holder liege = 0 }
 }
 c_chiang_saen={
-	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 8 }
 }
 c_phayao={
-	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 8 }
 }
 c_chiang_khong={
-	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_chiang_saen_holder change_development_level = 12 }
 }
 d_nan={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_nan_holder liege = 0 }
 }
 c_nan={
-	423.7.6 = { holder = IRToCK3_c_nan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nan_holder change_development_level = 8 }
 }
 c_wiang_si_sa_ket={
-	423.7.6 = { holder = IRToCK3_c_nan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nan_holder change_development_level = 8 }
 }
 d_phetchabun={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_phetchabun_holder liege = 0 }
 }
 c_phetchabun={
-	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 7 }
 }
 c_ken_thao={
-	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 9 }
 }
 c_dan_sai={
-	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 8 }
 }
 c_ban_yaeng={
-	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phetchabun_holder change_development_level = 7 }
 }

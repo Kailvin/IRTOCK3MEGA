@@ -5,13 +5,13 @@ d_son_tay={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_phu_hoa_holder liege = 0 }
 }
 c_phu_hoa={
-	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 7 }
 }
 c_van_chan={
-	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 8 }
 }
 c_yen_bai={
-	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_phu_hoa_holder change_development_level = 8 }
 }
 c_tam_dai={
 	300.1.1 = { change_development_level = 12 }
@@ -25,76 +25,76 @@ d_muong={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_ma_nam_holder liege = 0 }
 }
 c_ma_nam={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 12 }
 }
 c_yen_moc={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 8 }
 }
 c_da_bac={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 8 }
 }
 c_hoa_binh={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 9 }
 }
 c_sam_tay={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 10 }
 }
 c_muang_et={
-	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ma_nam_holder change_development_level = 8 }
 }
 d_nong={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_nong_holder liege = 0 }
 }
 c_nong={
-	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 8 }
 }
 c_bac_kan={
-	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 8 }
 }
 c_yen_lo={
-	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 9 }
 }
 c_cao_bang={
-	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 10 }
 }
 c_cingsae_si={
-	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_nong_holder change_development_level = 8 }
 }
 d_lo={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_tu_long_holder liege = 0 }
 }
 c_tu_long={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 8 }
 }
 c_vunsanh={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 8 }
 }
 c_tuyen_quang={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 7 }
 }
 c_lo={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 7 }
 }
 c_con_linh={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 7 }
 }
 c_bao_lac={
-	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tu_long_holder change_development_level = 8 }
 }
 d_lao_nhai={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_van_ban_holder government = tribal_government }
 }
 c_van_ban={
-	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 8 }
 }
 c_quynh_nhai={
-	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 8 }
 }
 c_muang_so={
-	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 7 }
 }
 c_thuy_vi={
-	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_van_ban_holder change_development_level = 8 }
 }
 d_cu_duc={
 	300.1.1 = { change_development_level = 8 }

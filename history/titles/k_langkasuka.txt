@@ -5,56 +5,56 @@ d_langkasuka={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_mardelong_holder liege = 0 }
 }
 c_mardelong={
-	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 5 }
 }
 c_singora={
-	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 6 }
 }
 c_narathiwat={
-	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_mardelong_holder change_development_level = 5 }
 }
 d_takola={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_takola_holder liege = 0 }
 }
 c_takola={
-	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 7 }
 }
 c_salang={
-	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 5 }
 }
 c_pantai_smor={
-	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_takola_holder change_development_level = 6 }
 }
 d_tambralinga={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_tambralinga_holder liege = 0 }
 }
 c_tambralinga={
-	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 8 }
 }
 c_wiang_sa={
-	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 5 }
 }
 c_chaiya={
-	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 6 }
 }
 c_tha_kham={
-	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 7 }
 }
 c_mokhlan={
-	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tambralinga_holder change_development_level = 5 }
 }
 d_kedah={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_kedah_holder liege = 0 }
 }
 c_kedah={
-	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 5 }
 }
 c_beruas={
-	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 5 }
 }
 c_terang={
-	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 6 }
 }
 c_setul={
-	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kedah_holder change_development_level = 7 }
 }

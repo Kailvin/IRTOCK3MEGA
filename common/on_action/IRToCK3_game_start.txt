@@ -32,5 +32,16 @@ irtock3_on_game_start_after_lobby = {
 		name = sevenhouses_dead
 		value = yes
 	}
+	every_ruler = {
+			limit = {
+				capital_county.title_province = { geographical_region = world_europe_west }
+				culture = culture:greek
+			}
+			set_culture = culture:galatian
+			every_courtier_or_guest = {
+                limit = { culture = culture:greek }
+                set_culture = culture:galatian
+            }
+		}
 	}
 }

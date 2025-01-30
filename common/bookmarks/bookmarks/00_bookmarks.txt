@@ -16,7 +16,7 @@
 		culture = sicilian
 		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 582 172 }
+		position = { 450 440 }
 		animation = personality_rational
 	}
 	character = {
@@ -31,7 +31,7 @@
 		culture = scythian
 		religion=iberian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 331 247 }
+		position = { 225 450 }
 		animation = personality_rational
 	}
 	character = {
@@ -46,7 +46,7 @@
 		culture = indo_greek
 		religion=indo_hellenism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1594 546 }
+		position = { 1100 650 }
 		animation = personality_rational
 	}
 	character = {
@@ -61,7 +61,7 @@
 		culture = macedonian
 		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1287 338 }
+		position = { 1000 338 }
 		animation = personality_rational
 	}
 	character = {
@@ -76,7 +76,7 @@
 		culture = irish
 		religion=insular_celtic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 340 -7 }
+		position = { 250 150 }
 		animation = personality_rational
 	}
 	character = {
@@ -91,7 +91,7 @@
 		culture = greek
 		religion=orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 774 204 }
+		position = { 625 204 }
 		animation = personality_rational
 	}
 	character = {
@@ -106,7 +106,7 @@
 		culture = nuragic
 		religion=egyptian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 711 480 }
+		position = { 625 640 }
 		animation = personality_rational
 	}
 	character = {
@@ -121,7 +121,7 @@
 		culture = greek
 		religion=catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 449 114 }
+		position = { 400 250 }
 		animation = personality_rational
 	}
 	character = {
@@ -136,7 +136,7 @@
 		culture = greek
 		religion=orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 781 266 }
+		position = { 700 425 }
 		animation = personality_rational
 	}
 	character = {
@@ -151,7 +151,7 @@
 		culture = norse
 		religion=norse_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 520 386 }
+		position = { 275 700 }
 		animation = personality_rational
 	}
 }

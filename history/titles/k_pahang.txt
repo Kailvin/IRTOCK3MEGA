@@ -5,41 +5,41 @@ d_ujong_tanah={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_ujong_tanah_holder liege = 0 }
 }
 c_ujong_tanah={
-	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 5 }
 }
 c_segamat={
-	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 6 }
 }
 c_temasik={
-	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 5 }
 }
 c_melaka={
-	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 7 }
 }
 c_klang={
-	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_ujong_tanah_holder change_development_level = 5 }
 }
 d_kelantan={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_kelantan_holder liege = 0 }
 }
 c_kelantan={
-	423.7.6 = { holder = IRToCK3_c_kelantan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kelantan_holder change_development_level = 5 }
 }
 c_terengganu={
-	423.7.6 = { holder = IRToCK3_c_kelantan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kelantan_holder change_development_level = 6 }
 }
 d_pahang={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_pekan_holder liege = 0 }
 }
 c_pekan={
-	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 5 }
 }
 c_temerloh={
-	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 6 }
 }
 c_jerantut={
-	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 5 }
 }
 c_raub={
-	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pekan_holder change_development_level = 5 }
 }

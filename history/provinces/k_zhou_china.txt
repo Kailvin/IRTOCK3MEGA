@@ -4,7 +4,7 @@
 12628={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12681={
 	holding = none
@@ -24,7 +24,7 @@
 12724={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12728={
 	holding = none
@@ -32,7 +32,7 @@
 12740={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12745={
 	holding = none
@@ -52,7 +52,7 @@
 12768={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12774={
 	holding = none
@@ -60,7 +60,7 @@
 12779={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12789={
 	holding = none
@@ -68,7 +68,7 @@
 12795={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12798={
 	holding = none
@@ -86,7 +86,7 @@
 12812={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12820={
 	holding = church_holding
@@ -115,7 +115,7 @@
 12839={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }
 12843={
 	holding = castle_holding
@@ -147,5 +147,5 @@
 12939={
 	culture = han
 	religion = zhengyi
-	holding = none
+	holding = castle_holding
 }

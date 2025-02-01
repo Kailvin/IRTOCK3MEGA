@@ -5633,6 +5633,47 @@ k_mann_the_isles = {
 e_germany = {
 	capital = c_nassau
 	color = { 190 200 190 }
+	k_lithuania = {
+	capital = c_kernave
+	color = { 90 10 0 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:lithuanian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+}
+	k_saxony = {
+	capital = c_dessau
+	color = { 120 25 25 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_central_germanic }
+				}
+				add = @better_than_the_alternatives_score
+			}
+		}
+	can_create = {
+			trigger_if = {
+				limit = {
+					is_ai = yes
+				}
+				OR = {
+					culture = culture:old_saxon
+					culture = culture:anglo_saxon
+				}
+			}
+		}
+	}
 	k_IRTOCK3_SCI = {
 	capital = c_stezycka
 	color = { 69 109 144 }
@@ -11796,32 +11837,7 @@ e_germany = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
 	}
 }
-k_saxony = {
-	capital = c_dessau
-	color = { 120 25 25 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = { has_cultural_pillar = heritage_central_germanic }
-				}
-				add = @better_than_the_alternatives_score
-			}
-		}
-	can_create = {
-			trigger_if = {
-				limit = {
-					is_ai = yes
-				}
-				OR = {
-					culture = culture:old_saxon
-					culture = culture:anglo_saxon
-				}
-			}
-		}
-}
+
 k_frisia = {
 	capital = c_holland
 	color = { 245 100 20 }
@@ -18628,21 +18644,6 @@ k_pomerania = {
 					is_ai = yes
 				}
 				culture = culture:pommeranian
-			}
-		}
-}
-k_lithuania = {
-	capital = c_kernave
-	color = { 90 10 0 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:lithuanian
-				}
-				add = @correct_culture_primary_score
 			}
 		}
 }

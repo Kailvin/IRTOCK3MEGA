@@ -5,20 +5,20 @@ d_bali_sea={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_bali_sea_holder liege = 0 }
 }
 c_bali_sea={
-	423.7.6 = { holder = IRToCK3_c_bali_sea_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bali_sea_holder change_development_level = 5 }
 }
 c_lombok={
-	423.7.6 = { holder = IRToCK3_c_bali_sea_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bali_sea_holder change_development_level = 5 }
 }
 d_bima={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_bima_holder liege = 0 }
 }
 c_bima={
-	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 7 }
 }
 c_dompo={
-	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 6 }
 }
 c_samawa={
-	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bima_holder change_development_level = 5 }
 }

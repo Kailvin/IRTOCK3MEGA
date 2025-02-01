@@ -5,62 +5,62 @@ d_palembang={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_palembang_holder liege = 0 }
 }
 c_palembang={
-	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 7 }
 }
 c_indralaya={
-	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 6 }
 }
 c_cengal={
-	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 7 }
 }
 c_banyuasin={
-	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_palembang_holder change_development_level = 6 }
 }
 d_bangka_belitung={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_bangka_holder government = tribal_government }
 }
 c_bangka={
-	423.7.6 = { holder = IRToCK3_c_bangka_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bangka_holder change_development_level = 6 }
 }
 c_belitung={
-	423.7.6 = { holder = IRToCK3_c_bangka_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_bangka_holder change_development_level = 5 }
 }
 d_bangkahulu={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_sungai_serut_holder liege = 0 }
 }
 c_sungai_serut={
-	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 6 }
 }
 c_selebar={
-	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 7 }
 }
 c_enggano={
-	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sungai_serut_holder change_development_level = 6 }
 }
 d_basemah={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_pagaralam_holder government = tribal_government }
 }
 c_pagaralam={
-	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 6 }
 }
 c_musi_rawas={
-	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 7 }
 }
 c_empat_lawang={
-	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 6 }
 }
 c_prabumulih={
-	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_pagaralam_holder change_development_level = 7 }
 }
 d_lampung={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_tulang_bawang_holder liege = 0 }
 }
 c_tulang_bawang={
-	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 7 }
 }
 c_sekampung={
-	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 7 }
 }
 c_sekala_brak={
-	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tulang_bawang_holder change_development_level = 6 }
 }

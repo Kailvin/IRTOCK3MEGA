@@ -1378,9 +1378,9 @@ civic_competence_gold_reserve = {
 
 # High development is GOOD
 civic_competence_development_breakpoint = 10
-civic_competence_development_breakpoint_after_450 = 20
-civic_competence_development_breakpoint_after_550 = 30
-civic_competence_development_breakpoint_after_650 = 40
+civic_competence_development_breakpoint_after_450 = 15
+civic_competence_development_breakpoint_after_550 = 20
+civic_competence_development_breakpoint_after_650 = 25
 civic_competence_development_point = 1
 civic_competence_development = {
 	value = 0

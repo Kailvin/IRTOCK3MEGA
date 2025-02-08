@@ -43,12 +43,51 @@ irtock3_on_game_start_after_lobby = {
             set_culture = culture:galatian
         }
 	}
-	every_province = {
+	every_county = {
 		limit = {
-			geographical_region = world_india
-			culture = faith:hellenic_pagan
+			title_province = { geographical_region = world_india }
+			faith = faith:hellenic_pagan
 		}
-		set_faith = faith:indo_hellenism
+		set_county_faith = faith:indo_hellenism
+
+	}
+	every_ruler = {
+		limit = {
+			OR = {
+				capital_county.title_province = { geographical_region = world_middle_east }
+				capital_county.title_province = { geographical_region = world_middle_east_persia }
+			}
+			faith = faith:hellenic_pagan
+		}
+		set_character_faith = faith:mithraic_mysteries
+		every_courtier_or_guest = {
+            limit = { faith = faith:hellenic_pagan }
+            set_character_faith = faith:mithraic_mysteries
+        }
+	}
+	every_county = {
+		limit = {
+			OR = {
+				title_province = { geographical_region = world_middle_east }
+				title_province = { geographical_region = world_middle_east_persia }
+			}
+			faith = faith:hellenic_pagan
+		}
+		set_county_faith = faith:mithraic_mysteries
+
+	}
+	every_county = {
+		limit = {
+			OR = {
+				title_province = { geographical_region =  world_africa_north_east }
+			}
+			faith = faith:kemetic_pagan
+		}
+		add_faith_minority_effect = {
+			FAITH = faith:chalcedonian
+			SIZE = large
+			COUNTY = THIS
+		}
 
 	}
 	}

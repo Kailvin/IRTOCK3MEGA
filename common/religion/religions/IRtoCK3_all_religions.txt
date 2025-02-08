@@ -11547,6 +11547,7 @@ reformed_icon = kushism_reformed
 			doctrine=tenet_esotericism
 			doctrine=tenet_religious_monumental_buildings
 			doctrine=tenet_ritual_celebrations
+			doctrine=tenet_ancestor_worship
 			doctrine=egyptian_cult_isis_doctrine
 icon = egyptian_pagan
 reformed_icon = egyptian_pagan_reformed

@@ -33,15 +33,23 @@ irtock3_on_game_start_after_lobby = {
 		value = yes
 	}
 	every_ruler = {
-			limit = {
-				capital_county.title_province = { geographical_region = world_europe_west }
-				culture = culture:greek
-			}
-			set_culture = culture:galatian
-			every_courtier_or_guest = {
-                limit = { culture = culture:greek }
-                set_culture = culture:galatian
-            }
+		limit = {
+			capital_county.title_province = { geographical_region = world_europe_west }
+			culture = culture:greek
 		}
+		set_culture = culture:galatian
+		every_courtier_or_guest = {
+            limit = { culture = culture:greek }
+            set_culture = culture:galatian
+        }
+	}
+	every_province = {
+		limit = {
+			geographical_region = world_india
+			culture = faith:hellenic_pagan
+		}
+		set_faith = faith:indo_hellenism
+
+	}
 	}
 }

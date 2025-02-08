@@ -799,13 +799,13 @@ ep3_laamp_chance_score_value = {
 		limit = {
 			culture = { has_cultural_parameter = much_more_likely_to_be_laamps }
 		}
-		add = 50
+		add = 10
 	}
 	if = {
 		limit = {
 			culture = { has_cultural_parameter = more_likely_to_be_laamps }
 		}
-		add = 25
+		add = 5
 	}
 	# Too much to lose
 	every_heir_title = {

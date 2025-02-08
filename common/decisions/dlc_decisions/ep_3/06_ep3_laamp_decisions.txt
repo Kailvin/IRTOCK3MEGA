@@ -163,14 +163,6 @@ become_landless_adventurer_decision = {
 	ai_will_do = {
 		base = -75
 		modifier = { add = ep3_laamp_chance_score_value }
-		modifier = { # If we don't have this, everyone will leave your realm constantly
-			add = -45
-			culture = { has_cultural_parameter = much_more_likely_to_be_laamps }
-		}
-		modifier = { # If we don't have this, everyone will leave your realm constantly
-			add = -20
-			culture = { has_cultural_parameter = more_likely_to_be_laamps }
-		}
 		modifier = {
 			factor = 0
 			OR = {

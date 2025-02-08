@@ -84,7 +84,7 @@ irtock3_on_game_start_after_lobby = {
 			faith = faith:egyptian_pagan
 		}
 		add_faith_minority_effect = {
-			FAITH = faith:chalcedonian
+			FAITH = faith:nicene
 			SIZE = large
 			COUNTY = THIS
 		}

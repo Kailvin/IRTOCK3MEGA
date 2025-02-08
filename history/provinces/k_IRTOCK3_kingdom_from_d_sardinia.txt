@@ -48,3 +48,24 @@
 2665={
 	holding = city_holding
 }
+2000={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+}
+2001={
+	holding = city_holding
+}
+2002={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+}
+2004={
+	holding = none
+}
+8735={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+}

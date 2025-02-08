@@ -90,5 +90,19 @@ irtock3_on_game_start_after_lobby = {
 		}
 
 	}
+	every_county = {
+		limit = {
+			OR = {
+				title_province = { geographical_region = world_europe }
+			}
+			faith = faith:hellenic_pagan
+		}
+		add_faith_minority_effect = {
+			FAITH = faith:nicene
+			SIZE = large
+			COUNTY = THIS
+		}
+
+	}
 	}
 }

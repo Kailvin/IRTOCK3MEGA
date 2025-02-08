@@ -26,6 +26,17 @@ rome = {
 	}
 }
 
+beziers = {
+	county = c_beziers
+	barony = b_agde
+
+	character_modifier = {
+		name = holy_site_rome_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+}
+
 cologne = {
 	county = c_cologne
 
@@ -238,8 +249,8 @@ ragusa = {
 	county = c_ragusa
 
 	character_modifier = {
-		name = holy_site_ragusa_effect_name
-		diplomacy = 1
+		name = holy_site_medina_effect_name
+		diplomacy_per_piety_level = 1
 	}
 }
 

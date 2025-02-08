@@ -843,7 +843,7 @@ d_laamp_RICE_margaret_of_beverley = {
 	no_automatic_claims = yes
 }
 k_papal_state = {
-	capital = c_roma
+	capital = c_beziers
 	color = { 255 249 198 }
 	landless = yes
 	definite_form = yes

@@ -5,35 +5,35 @@ d_burune={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_burune_holder government = feudal_government }
 }
 c_burune={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 6 }
 }
 c_pulo_tigah={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 7 }
 }
 c_long_seridan={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 5 }
 }
 c_belaga={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 6 }
 }
 c_miri={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 5 }
 }
 c_bintulu={
-	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_burune_holder change_development_level = 5 }
 }
 d_santubong={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_sarawak_holder liege = 0 }
 }
 c_sarawak={
-	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 6 }
 }
 c_kapit={
-	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 6 }
 }
 c_melanau={
-	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 7 }
 }
 c_simanggang={
-	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_sarawak_holder change_development_level = 5 }
 }

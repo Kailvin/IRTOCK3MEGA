@@ -23,8 +23,8 @@
 	discover_innovation = innovation_naval_carpentry
 	discover_innovation = innovation_officer_efficiency
 	discover_innovation = innovation_city_planning
-	discover_innovation = innovation_elephantry
-	discover_innovation = innovation_war_camels
+	
+	
 	add_innovation_progress = {
 		culture_innovation = innovation_barracks
 		progress = 50

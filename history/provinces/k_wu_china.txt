@@ -31,7 +31,7 @@
 12024={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = hakka }
 }
 12041={
@@ -46,13 +46,13 @@
 12074={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = hakka }
 }
 12077={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12084={
@@ -70,19 +70,19 @@
 12128={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12142={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12179={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12186={
@@ -103,7 +103,7 @@
 12249={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12251={
@@ -112,13 +112,13 @@
 12254={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = wu }
 }
 12280={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = wu }
 }
 12302={
@@ -136,7 +136,7 @@
 12331={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12340={
 	holding = church_holding
@@ -173,7 +173,7 @@
 12393={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = gan }
 }
 12404={
@@ -182,7 +182,7 @@
 12410={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = wu }
 }
 12413={
@@ -191,12 +191,12 @@
 12415={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12421={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	1050.1.1 = { culture = wu }
 }
 12422={
@@ -255,7 +255,7 @@
 12523={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12524={
 	holding = city_holding
@@ -264,12 +264,12 @@
 12531={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12534={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12539={
 	holding = church_holding
@@ -279,7 +279,7 @@
 12545={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 	937.1.1 = { holding = castle_holding buildings = { castle_04 } }
 }
 12550={
@@ -297,7 +297,7 @@
 12569={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12572={
 	holding = none
@@ -305,7 +305,7 @@
 12579={
 	culture = han
 	religion = shendao
-	holding = none
+	holding = castle_holding
 }
 12585={
 	holding = none

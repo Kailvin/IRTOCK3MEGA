@@ -5,47 +5,47 @@ d_tidung={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_tarakan_holder government = tribal_government }
 }
 c_tarakan={
-	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 7 }
 }
 c_tawau={
-	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 6 }
 }
 c_malinau={
-	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 6 }
 }
 c_koningau={
-	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_tarakan_holder change_development_level = 7 }
 }
 d_kayan={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_basap_holder government = tribal_government }
 }
 c_basap={
-	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 7 }
 }
 c_kelay={
-	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 7 }
 }
 c_naha_aya={
-	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 6 }
 }
 c_datadian={
-	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_basap_holder change_development_level = 5 }
 }
 d_kutai={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_samarenda_holder liege = 0 }
 }
 c_samarenda={
-	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 5 }
 }
 c_mahakam={
-	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 6 }
 }
 c_agung_baru={
-	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 7 }
 }
 c_muara_wahau={
-	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 6 }
 }
 c_sangata={
-	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_samarenda_holder change_development_level = 5 }
 }

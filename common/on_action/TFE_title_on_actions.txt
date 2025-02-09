@@ -453,53 +453,6 @@ TFE_on_title_gain = {
 		}
 		if = {
 			limit = {
-				scope:title = title:c_mecca
-				OR = {
-					any_liege_or_above = {
-						has_title = title:e_rashidun
-					}
-					has_title = title:e_rashidun
-				}
-				NOT = { exists = global_var:arab_unite }
-			}
-			set_global_variable = {
-				name = arab_unite
-				value = yes
-			}
-			every_ruler = {
-				limit = {
-					is_independent_ruler = yes
-					OR = {
-						has_faith = faith:arabic_pagan
-						culture = {
-							OR = {
-								THIS = culture:bedouin
-								any_parent_culture_or_above = {
-									THIS = culture:bedouin
-								}
-							}
-						}
-					}
-					NOT = {
-						has_faith = faith:united_islam
-					}
-				}
-				trigger_event = {
-					id = islam.0003
-					days = {10 15}
-				}
-			}
-			title:e_arabia = {
-				every_in_de_jure_hierarchy = {
-					limit = {
-						tier = tier_kingdom
-					}
-					set_de_jure_liege_title = title:e_rashidun
-				}
-			}
-		}
-		if = {
-			limit = {
 				scope:title = { is_holy_order = yes }
 				NOT = { has_trait = order_member }
 				has_government = holy_order_government

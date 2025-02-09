@@ -26,6 +26,7 @@ islam.0001 = {
 			trait = ambitious
 			trait = honest
 			trait = education_stewardship_3
+			trait = conqueror
 			save_scope_as = islam_prophet
 		}
 		scope:islam_prophet = {
@@ -34,6 +35,12 @@ islam.0001 = {
 				flag = immune_to_disease
 				years = 15
 			}
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 
 			add_character_flag = islam_prophet
 			set_global_variable = {
@@ -41,7 +48,7 @@ islam.0001 = {
 				value = THIS
 			}
 
-			add_gold = 5000
+			add_gold = 50000
 			add_prestige = 1000
 			add_piety = 50000
 
@@ -66,6 +73,7 @@ islam.0001 = {
 					}
 				}
 			}
+			
 
 			create_title_and_vassal_change = {
 				type = usurped
@@ -81,7 +89,7 @@ islam.0001 = {
 			}
 			title:d_medina = {
 				set_title_name = ALMEDINA
-			}
+			}			
 			resolve_title_and_vassal_change = scope:title_change
 
 			title:c_medina = {
@@ -102,14 +110,21 @@ islam.0001 = {
 
 			spawn_army = {
 				name = "Muslim Mujahideen"
-				levies = 15000
 				men_at_arms = {
-					type = light_horsemen
+					type = tawashi
 					stacks = 150
 				}
 				men_at_arms = {
-					type = light_footmen
+					type = accolade_maa_cameliers
+					stacks = 150
+				}
+				men_at_arms = {
+					type = mubarizun
 					stacks = 200
+				}
+				men_at_arms = {
+					type = mangonel
+					stacks = 50
 				}
 				location = capital_province
 				uses_supply = no
@@ -127,15 +142,56 @@ islam.0001 = {
 				}
 			}
 			resolve_title_and_vassal_change = scope:title_change
-			start_war = {
-				cb = county_conquest_cb 
-				target = title:c_mecca.holder
-				target_title = title:c_mecca
-			}
+			
 		}
 		title:e_rashidun = {
 			add_title_law = rashidun_elective_succession_law
 		}
+		every_ruler = {
+			limit = {
+				is_independent_ruler = yes
+				OR = {
+					culture = {
+						OR = {
+							THIS = culture:bedouin
+							any_parent_culture_or_above = {
+								THIS = culture:bedouin
+							}
+						}
+					}
+				}
+				NOT = {
+					has_faith = faith:united_islam
+				}
+			}
+			trigger_event = {
+				id = islam.0003
+				days = {10 15}
+			}
+		}
+		every_independent_ruler = {
+			limit = {
+				NOT = {
+					any_parent_culture_or_above = {
+						THIS = culture:bedouin
+					}
+				}
+				NOT = {
+					has_faith = faith:united_islam
+				}
+				any_realm_county = {
+					title_province = { empire = title:e_arabia }
+				}
+			}
+			title:e_rashidun.holder = {
+				start_war = {
+					cb = major_religious_war
+					target = PREV
+					target_title = title:e_arabia
+				}
+			}
+		}
+		
 		create_character = {
 			name = "AbuBakr"
 			gender = male
@@ -152,8 +208,10 @@ islam.0001 = {
 			trait = honest
 			trait = sahabi_trait
 			trait = education_diplomacy_4
+			trait = conqueror
 			save_scope_as = AbuBakr
 		}
+		
 		create_character = {
 			name = "Umar"
 			gender = male
@@ -170,6 +228,7 @@ islam.0001 = {
 			trait = sahabi_trait
 			trait = honest
 			trait = education_martial_4
+			trait = conqueror
 			save_scope_as = Umar
 		}
 		create_character = {
@@ -189,6 +248,7 @@ islam.0001 = {
 			trait = honest
 			trait = sahabi_trait
 			trait = education_stewardship_4
+			trait = conqueror
 			save_scope_as = Uthman
 		}
 		create_character = {
@@ -209,6 +269,7 @@ islam.0001 = {
 			trait = honest
 			trait = sahabi_trait
 			trait = education_learning_4
+			trait = conqueror
 			save_scope_as = Ali
 		}
 		create_character = {
@@ -233,6 +294,7 @@ islam.0001 = {
 			trait = desert_warrior
 			trait = open_terrain_expert
 			trait = sahabi_trait
+			trait = conqueror
 			save_scope_as = Khalid
 		}
 		scope:Ali = {
@@ -246,6 +308,12 @@ islam.0001 = {
 			add_piety = 5000
 			add_unpressed_claim = title:e_rashidun
 			add_character_flag = ali_flag
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 		}
 		scope:AbuBakr = {
 			add_character_flag = {
@@ -257,6 +325,12 @@ islam.0001 = {
 			add_prestige = 500
 			add_piety = 5000
 			add_unpressed_claim = title:e_rashidun
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 		}
 		scope:Umar = {
 			add_character_flag = {
@@ -268,6 +342,12 @@ islam.0001 = {
 			add_prestige = 1000
 			add_piety = 5000
 			add_unpressed_claim = title:e_rashidun
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 		}
 		scope:Khalid = {
 			add_character_flag = {
@@ -279,6 +359,12 @@ islam.0001 = {
 			add_prestige = 1000
 			add_piety = 5000
 			add_unpressed_claim = title:e_rashidun
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 		}
 		scope:Uthman = {
 			add_character_flag = {
@@ -290,6 +376,12 @@ islam.0001 = {
 			add_prestige = 1000
 			add_piety = 5000
 			add_unpressed_claim = title:e_rashidun
+			add_character_modifier = {
+				modifier = ai_extreme_conqueror_modifier
+			}
+			add_character_modifier = {
+				modifier = historicinvasions_plot_armor
+			}
 		}
 		
 	}
@@ -574,18 +666,27 @@ islam.0005 = {
 	scope = character
 	theme = martial
 	immediate = {
+		add_gold = 1000
 		spawn_army = {
 			name = "Muslim Mujahideen"
-			levies = 10000
 			men_at_arms = {
-				type = light_horsemen
-				stacks = 50
-			}
-			men_at_arms = {
-				type = light_footmen
-				stacks = 100
-			}
+					type = tawashi
+					stacks = 50
+				}
+				men_at_arms = {
+					type = accolade_maa_cameliers
+					stacks = 50
+				}
+				men_at_arms = {
+					type = mubarizun
+					stacks = 50
+				}
+				men_at_arms = {
+					type = mangonel
+					stacks = 10
+				}
 			location = capital_province
+			uses_supply = no
 		}
 	}
 	override_background = {

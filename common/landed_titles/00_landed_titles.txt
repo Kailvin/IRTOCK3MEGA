@@ -2,6 +2,26 @@
 @always_primary_score=1000
 @correct_culture_primary_score=100
 @better_than_the_alternatives_score=50
+
+e_rashidun = {
+	capital = c_medina
+	ruler_uses_title_name = yes
+    
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	color = { 40 160 40 }
+	always_follows_primary_heir = no
+	destroy_if_invalid_heir = no
+	no_automatic_claims = yes
+	can_be_named_after_dynasty = no
+}
+
 d_laamp_RICE_hiwi_al_balkhi = {
 	capital = c_balkh
 	color = { 100 100 100 }

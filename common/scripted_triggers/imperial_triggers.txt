@@ -63,39 +63,6 @@ ruler_can_use_legions_no_primary_title_tier = {
 	culture = { has_cultural_parameter = powerful_rulers_raise_legions }
 }
 
-access_to_italian_senate = {
-	global_var:italian_senate_dismantle = flag:no
-	OR = {
-		government_has_flag = government_is_imperial
-		government_has_flag = government_is_autocratic
-		government_has_flag = government_is_autocratic_ep3
-		government_has_flag = government_is_administrative
-		government_has_flag = government_is_imperial_cult
-		government_has_flag = government_is_roman
-	}
-	any_realm_county = {
-		THIS = title:c_roma
-	}
-	is_independent_ruler = yes
-}
-
-access_to_eastern_senate = {
-	global_var:eastern_senate_dismantle = flag:no
-	access_to_italian_senate = no
-	OR = {
-		government_has_flag = government_is_imperial
-		government_has_flag = government_is_autocratic
-		government_has_flag = government_is_autocratic_ep3
-		government_has_flag = government_is_administrative
-		government_has_flag = government_is_imperial_cult
-		government_has_flag = government_is_roman
-	}
-	any_realm_county = {
-		THIS = title:c_byzantion
-	}
-	is_independent_ruler = yes
-}
-
 tfe_imperial_competence_enabled = {
 	OR = {
 		has_game_rule = imperial_competence_enabled

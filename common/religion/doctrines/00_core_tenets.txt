@@ -1,6 +1,496 @@
 ﻿doctrine_core_tenets = {
 	group = "core_tenets"
 	number_of_picks = 3
+	
+	#########################
+	# TFE SPECIFIC TENETS 	#
+	#########################
+	
+	tenet_pure_priesthood = {
+		icon = core_tenet_pure_priesthood
+		piety_cost = {
+			if = {
+				limit = {
+					religion_tag = christianity_religion
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_pure_priesthood }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		# is_shown = {
+			# has_doctrine = abrahamic_hostility_doctrine
+		# }
+
+		can_pick = {
+			# You need a priesthood (obviously)
+			custom_description = {
+				text = requires_doctrine_theocracy_temporal_trigger
+				flag:doctrine_theocracy_temporal = { is_in_list = selected_doctrines }
+			}
+		}
+
+		parameters = {
+			# Sinful characters are disqualified from Priesthood
+			sinful_characters_no_priesthood_active = yes
+		}
+		
+		character_modifier = {
+			piety_level_impact_mult = 1
+		}
+	}
+	
+	tenet_sacred_witchcraft = {
+		icon = core_tenet_sacred_witchcraft
+		piety_cost = {
+			if = { # Costs more for monotheist faiths
+				limit = { has_doctrine = abrahamic_hostility_doctrine }
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_sacred_witchcraft }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		can_pick = {
+			# You can't make witchcraft a bad thing
+			custom_description = {
+				text = doctrine_witchcraft_accepted_trigger
+				flag:doctrine_witchcraft_accepted = { is_in_list = selected_doctrines }
+			}
+		}
+
+		# Find a way to make Witchcraft more easily accessible
+		# parameters = {
+			# # Sinful characters are disqualified from Priesthood
+			# sinful_characters_no_priesthood_active = yes
+		# }
+		
+		character_modifier = {
+			intrigue_per_piety_level = 1
+			learning_per_piety_level = 1
+		}
+		
+		traits = {
+			virtues = { witch = 2 }
+		}
+	}
+	
+	tenet_alexandrian_catechism_reformed = {
+		icon = core_tenet_alexandrian_catechism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_alexandrian_catechism_reformed }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			religion_tag = christianity_religion
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reopen_catechetical_school_alexandria
+			}
+		}
+
+		can_pick = {
+			custom_description = {
+				text = doctrine_pluralism_fundamentalist_trigger
+				NOT = { flag:doctrine_pluralism_fundamentalist = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		character_modifier = {
+			monthly_learning_lifestyle_xp_gain_mult = 0.3
+			learning_per_piety_level = 1
+		}
+		
+		traits = {
+			virtues = {
+				education_learning_3 = 1
+				education_learning_4 = 2
+			}
+		}
+	}
+	
+	tenet_hellenic_syncretism = {
+		icon = core_tenet_hellenic_syncretism
+		piety_cost = {
+			if = {
+				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_hellenic_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+
+		is_shown = {
+			NOT = { has_doctrine = special_doctrine_is_hellenic_faith }
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_other_syncretism_trigger
+				NOR = {
+					flag:tenet_eastern_syncretism = { is_in_list = selected_doctrines }
+					flag:tenet_christian_syncretism = { is_in_list = selected_doctrines }
+					flag:tenet_islamic_syncretism = { is_in_list = selected_doctrines }
+					flag:tenet_jewish_syncretism = { is_in_list = selected_doctrines }
+					flag:tenet_unreformed_syncretism = { is_in_list = selected_doctrines }
+				}
+			}
+			NOT = {
+				flag:tenet_astrology = { is_in_list = selected_doctrines }
+			}
+		}
+		parameters = {
+			hostility_override_special_doctrine_is_hellenic_faith = 1
+			hellenic_syncretic_actor_opinion_active = yes
+			opinion_of_hellenic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+			divine_the_stars_active = yes
+		}
+		traits = {
+			virtues = { just = 1 }
+			sins = { arbitrary = 1 }
+		}
+	}
+
+
+
+	tenet_cult_of_the_virgin_mary = {
+		icon = core_tenet_cult_of_the_virgin_mary
+
+		piety_cost = {
+			value = faith_tenet_cost_mid
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_cult_of_the_virgin_mary }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			#OR = {
+				religion_tag = christianity_religion
+			#	religion_tag = dualism_religion
+			#}
+		}
+
+		can_pick = {
+			always = yes
+		}
+		parameters = {
+			tfe_offer_mary_bread_decision_enabled = yes
+		}
+		character_modifier = {
+			#monthly_piety_gain_mult = 0.25
+			# piety_level_impact_mult = 0.25
+			enemy_hostile_scheme_phase_duration_add = medium_scheme_phase_duration_malus_value
+			scheme_discovery_chance_mult = 0.25
+		}
+		
+		# traits = {
+		# 	virtues = { chaste }
+		# 	sins = { lustful }
+		# }
+	}
+
+	tenet_religious_silence = {
+		icon = core_tenet_religious_silence
+
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = christianity_religion
+						religion_tag = dualism_religion
+						religion_tag = judaism_religion
+						religion_tag = islam_religion
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_religious_silence }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			always = yes
+		}
+
+		can_pick = {
+			always = yes
+		}
+		#parameters = {
+		#	TFE_offer_mary_bread_decision_enabled = yes
+		#}
+		character_modifier = {
+			enemy_hostile_scheme_success_chance_add = -10
+			intrigue_per_piety_level = 1
+		}
+		
+		traits = {
+			virtues = { patient }
+			sins = { impatient }
+		}
+	}
+
+	tenet_chaste_marriages = {
+		icon = core_tenet_chaste_marriages
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = christianity_religion
+						religion_tag = dualism_religion
+						religion_tag = buddhism_religion
+						religion_tag = jainism_religion
+					}
+				}
+				value = faith_tenet_cost_mid
+			}
+			else = {
+				value = faith_tenet_cost_high
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_chaste_marriages }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			always = yes
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_hedonistic_trigger
+				NOT = { flag:tenet_hedonistic = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_jovinianism_trigger
+				NOT = { flag:tenet_jovinianism = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		parameters = {
+			tfe_enables_adoption = yes
+		}
+		character_modifier = {
+			fertility = -0.9
+			monthly_piety = 1
+			spouse_opinion = 20
+		}
+		traits = {
+			virtues = { chaste celibate }
+			sins = { lustful }
+		}
+	}
+
+	tenet_religious_monumental_buildings = {
+		icon = core_tenet_religious_monumental_buildings
+		piety_cost = {
+			value = faith_tenet_cost_mid
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_religious_monumental_buildings }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			always = yes
+		}
+
+		can_pick = {
+			always = yes
+		}
+
+		#parameters = { # Maybe future tomb construction?
+		#	tfe_enables_adoption = yes
+		#}
+		character_modifier = {
+			build_gold_cost = -0.1
+			monthly_prestige_from_buildings_mult = 0.15
+			monthly_piety_from_buildings_mult = 0.15
+		}
+		traits = {
+			virtues = { diligent }
+			sins = { lazy }
+		}
+	}
+
+	tenet_jovinianism = {
+		icon = core_tenet_jovinianism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_jovinianism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			always = yes
+		}
+
+		can_pick = {
+			custom_description = {
+				text = incompatible_tenet_hedonistic_trigger
+				NOT = { flag:tenet_hedonistic = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_asceticism_trigger
+				NOT = { flag:tenet_asceticism = { is_in_list = selected_doctrines } }
+			}
+			custom_description = {
+				text = incompatible_tenet_chaste_marriages_trigger
+				NOT = { flag:tenet_chaste_marriages = { is_in_list = selected_doctrines } }
+			}
+		}
+
+		#parameters = { # Maybe future tomb construction?
+		#	tfe_enables_adoption = yes
+		#}
+		character_modifier = {
+			monthly_piety_gain_mult = 0.25
+			county_opinion_add = 10
+			stress_gain_mult = -0.1
+		}
+		traits = {
+			#virtues = { diligent }
+			sins = { celibate }
+		}
+	}
+
+
+	tenet_illyrian_cults = {
+		icon = core_tenet_illyrian_cults
+
+		piety_cost = {
+			value = faith_tenet_cost_low
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_illyrian_cults }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			#OR = {
+				religion_tag = balkan_religion
+			#	religion_tag = hellenism_religion
+			#}
+		}
+
+		parameters = {
+			tfe_enables_illyrian_pagan_decisions = yes
+		}
+
+		character_modifier = {			
+			sea_travel_danger = low_sea_danger_reduction
+			coastal_sea_travel_danger = low_sea_danger_reduction
+			hills_travel_danger = hills_low_danger_reduction
+			mountains_travel_danger = mountains_low_danger_reduction
+			desert_mountains_travel_danger = desert_mountains_low_danger_reduction
+			hills_development_growth_factor = 0.1
+			mountains_development_growth_factor = 0.1
+			desert_mountains_development_growth_factor = 0.1
+		}
+
+	}
+
+	# Taken from Africa Plus
+	wap_tenet_mune = {
+		icon = core_tenet_mune
+	    piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = idoism_religion
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = wap_tenet_mune }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+        is_shown = {
+			religion_tag = idoism_religion #faith = faith:munean_pagan
+		}
+		# can_pick = {
+		# 	custom_description = {
+		# 		text = incompatible_tenet_pentarchy_trigger
+		# 		NOT = { doctrine:tenet_pentarchy = { is_in_list = selected_doctrines } }
+		# 	}
+		# }
+
+		#parameters = {
+			#fervor_per_holy_site = 0.15
+			#pilgrimage_decision_active = yes
+			#wap_mune_decision_active = yes
+		#}
+		character_modifier = {
+			legitimacy_gain_mult = 0.1
+			monthly_county_control_change_factor = 0.15
+			zealot_opinion = 10
+			courtly_opinion = 10
+            #direct_vassal_opinion = 5
+		}
+		traits = {
+			virtues = { loyal }
+			sins = { disloyal }
+		}
+    }
 
 	############################
 	# Christian Faith Tenets	#

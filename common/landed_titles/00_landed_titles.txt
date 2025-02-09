@@ -5667,7 +5667,1354 @@ e_germany = {
 				add = @correct_culture_primary_score
 			}
 		}
-}
+	}
+	k_IRTOCK3_J49 = {
+		capital = c_lubelska
+		color = { 199 84 193 }
+		d_lesser_poland = {
+			capital = c_krakowska
+			color = { 137 6 20 }
+			c_krakowska = {
+				color = { 137 6 20 }
+				b_krakow = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 527
+				}
+				b_olsztyn = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 440
+				}
+				b_czestochowa = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 526
+				}
+				b_dabrowa_gorn = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4972
+				}
+				b_wislica = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4973
+				}
+				b_jedrzejow = {
+					color = { 137 6 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4974
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_sacz = {
+				color = { 117 6 2 }
+				b_sacz = {
+					color = { 117 6 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 532
+				}
+				b_pilzno = {
+					color = { 117 6 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4968
+				}
+				b_nowytarg = {
+					color = { 117 6 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4969
+				}
+				b_bochnia = {
+					color = { 117 6 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4970
+				}
+				b_wieliczka = {
+					color = { 117 6 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4971
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_sandomierska = {
+				color = { 147 16 2 }
+				b_sandomierz = {
+					color = { 147 16 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 531
+				}
+				b_opatow = {
+					color = { 147 16 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4961
+				}
+				b_kielce = {
+					color = { 147 16 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4962
+				}
+				b_olesnica_MPL = {
+					color = { 147 16 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4963
+				}
+				b_checiny = {
+					color = { 147 16 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4964
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_stezycka = {
+				color = { 127 40 32 }
+				b_stezyca = {
+					color = { 127 30 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4951
+				}
+				b_lukow = {
+					color = { 127 30 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4952
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_radomska = {
+				color = { 150 30 5 }
+				b_radom = {
+					color = { 150 30 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4953
+				}
+				b_opoczno = {
+					color = { 150 30 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4954
+				}
+				b_ilza = {
+					color = { 150 30 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4955
+				}
+				b_szydlowiec = {
+					color = { 150 30 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4956
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_lubelska = {
+				color = { 147 40 2 }
+				b_lublin = {
+					color = { 147 40 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4957
+				}
+				b_parczew = {
+					color = { 147 40 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4958
+				}
+				b_goraj = {
+					color = { 147 40 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4959
+				}
+				b_urzedow = {
+					color = { 147 40 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4960
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_tarnowska = {
+				color = { 167 60 22 }
+				b_tarnow = {
+					color = { 167 60 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4965
+				}
+				b_mielec = {
+					color = { 167 60 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4966
+				}
+				b_baranow = {
+					color = { 167 60 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4967
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
+	k_IRTOCK3_I52 = {
+		capital = c_legnica
+		color = { 149 204 109 }
+		d_upper_silesia = {
+			capital = c_opole
+			color = { 180 20 100 }
+			c_opole = {
+				color = { 180 20 100 }
+				b_opole = {
+					color = { 180 20 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_oppeln
+						name_list_saxon = cn_oppeln
+						name_list_swabian = cn_oppeln
+						name_list_bavarian = cn_oppeln
+					}
+					province = 3052
+				}
+				b_kreuzburg = {
+					color = { 180 20 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_kluczbork
+						name_list_czech = cn_kluczbork
+						name_list_polabian = cn_kluczbork
+						name_list_pommeranian = cn_kluczbork
+					}
+					province = 3053
+				}
+				b_strehlitz = {
+					color = { 180 20 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_strzelce
+						name_list_polabian = cn_strzelce
+						name_list_pommeranian = cn_strzelce
+					}
+					province = 3051
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_oppeln
+					name_list_saxon = cn_oppeln
+					name_list_swabian = cn_oppeln
+					name_list_bavarian = cn_oppeln
+				}
+			}
+			c_brzeg = {
+				color = { 169 35 75 }
+				b_brzeg = {
+					color = { 169 35 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_brieg
+						name_list_saxon = cn_brieg
+						name_list_swabian = cn_brieg
+						name_list_bavarian = cn_brieg
+					}
+					province = 3049
+				}
+				b_olawa = {
+					color = { 169 35 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_ohlau
+						name_list_saxon = cn_ohlau
+						name_list_swabian = cn_ohlau
+						name_list_bavarian = cn_ohlau
+					}
+					province = 3055
+				}
+				b_otmunchow = {
+					color = { 169 35 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_ottmachau
+						name_list_saxon = cn_ottmachau
+						name_list_swabian = cn_ottmachau
+						name_list_bavarian = cn_ottmachau
+					}
+					province = 3056
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_brieg
+					name_list_saxon = cn_brieg
+					name_list_swabian = cn_brieg
+					name_list_bavarian = cn_brieg
+				}
+			}
+			c_nysa = {
+				color = { 175 85 105 }
+				b_nysa = {
+					color = { 175 85 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_neisse
+						name_list_saxon = cn_neisse
+						name_list_swabian = cn_neisse
+						name_list_bavarian = cn_neisse
+					}
+					province = 3048
+				}
+				b_glogowek = {
+					color = { 175 85 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_oberglogau
+						name_list_saxon = cn_oberglogau
+						name_list_swabian = cn_oberglogau
+						name_list_bavarian = cn_oberglogau
+					}
+					province = 3050
+				}
+				b_frankenstein = {
+					color = { 175 85 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_zabkowice
+						name_list_polabian = cn_zabkowice
+						name_list_pommeranian = cn_zabkowice
+					}
+					province = 3046
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_neisse
+					name_list_saxon = cn_neisse
+					name_list_swabian = cn_neisse
+					name_list_bavarian = cn_neisse
+				}
+			}
+			c_cieszyn = {
+				color = { 190 20 75 }
+				b_cieszyn = {
+					color = { 190 20 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_teschen
+						name_list_saxon = cn_teschen
+						name_list_swabian = cn_teschen
+						name_list_bavarian = cn_teschen
+					}
+					province = 3040
+				}
+				b_bielsko = {
+					color = { 190 20 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_bielitz
+						name_list_saxon = cn_bielitz
+						name_list_swabian = cn_bielitz
+						name_list_bavarian = cn_bielitz
+					}
+					province = 3041
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_teschen
+					name_list_saxon = cn_teschen
+					name_list_swabian = cn_teschen
+					name_list_bavarian = cn_teschen
+				}
+			}
+			c_ratibor = {
+				color = { 190 35 75 }
+				b_ratibor = {
+					color = { 190 35 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_raciborz
+						name_list_polabian = cn_raciborz
+						name_list_pommeranian = cn_raciborz
+					}
+					province = 3042
+				}
+				b_rybnik = {
+					color = { 190 35 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_rybnick
+						name_list_saxon = cn_rybnick
+						name_list_swabian = cn_rybnick
+						name_list_bavarian = cn_rybnick
+					}
+					province = 3043
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_raciborz
+					name_list_polabian = cn_raciborz
+					name_list_pommeranian = cn_raciborz
+				}
+			}
+			c_bethen = {
+				color = { 190 5 70 }
+				b_bethen = {
+					color = { 190 5 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_bytom
+						name_list_czech = cn_bytom
+						name_list_polabian = cn_bytom
+						name_list_pommeranian = cn_bytom
+					}
+					province = 3044
+				}
+				b_lubliniec = {
+					color = { 190 5 70 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_lublinitz
+						name_list_saxon = cn_lublinitz
+						name_list_swabian = cn_lublinitz
+						name_list_bavarian = cn_lublinitz
+					}
+					province = 3054
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_bytom
+					name_list_czech = cn_bytom
+					name_list_polabian = cn_bytom
+					name_list_pommeranian = cn_bytom
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_lower_silesia = {
+			capital = c_breslau
+			color = { 230 60 20 }
+			c_breslau = {
+				color = { 218 37 15 }
+				b_breslau = {
+					color = { 218 37 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_wroclaw
+						name_list_polabian = cn_wroclaw
+						name_list_pommeranian = cn_wroclaw
+						name_list_czech = cn_vratislav
+					}
+					province = 3045
+				}
+				b_bardo = {
+					color = { 218 37 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_wartha
+						name_list_saxon = cn_wartha
+						name_list_swabian = cn_wartha
+						name_list_bavarian = cn_wartha
+					}
+					province = 3057
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_wroclaw
+					name_list_polabian = cn_wroclaw
+					name_list_pommeranian = cn_wroclaw
+					name_list_czech = cn_vratislav
+				}
+			}
+			c_miliez = {
+				color = { 225 105 40 }
+				b_miliez = {
+					color = { 225 105 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_militsch
+						name_list_saxon = cn_militsch
+						name_list_swabian = cn_militsch
+						name_list_bavarian = cn_militsch
+					}
+					province = 3061
+				}
+				b_olesnica = {
+					color = { 225 105 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_oels
+						name_list_saxon = cn_oels
+						name_list_swabian = cn_oels
+						name_list_bavarian = cn_oels
+					}
+					province = 3062
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_militsch
+					name_list_saxon = cn_militsch
+					name_list_swabian = cn_militsch
+					name_list_bavarian = cn_militsch
+				}
+			}
+			c_schweibus = {
+				color = { 235 45 5 }
+				b_schweibus = {
+					color = { 235 45 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_swiebodzin
+						name_list_czech = cn_swiebodzin
+						name_list_polabian = cn_swiebodzin
+						name_list_pommeranian = cn_swiebodzin
+					}
+					province = 3145
+				}
+				b_siedlischo = {
+					color = { 235 45 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_carolath
+						name_list_saxon = cn_carolath
+						name_list_swabian = cn_carolath
+						name_list_bavarian = cn_carolath
+					}
+					province = 3146
+				}
+				b_bytom = {
+					color = { 235 45 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_niederbeuthen
+						name_list_saxon = cn_niederbeuthen
+						name_list_swabian = cn_niederbeuthen
+						name_list_bavarian = cn_niederbeuthen
+					}
+					province = 3065
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_swiebodzin
+					name_list_czech = cn_swiebodzin
+					name_list_polabian = cn_swiebodzin
+					name_list_pommeranian = cn_swiebodzin
+				}
+			}
+			c_grunberg = {
+				color = { 210 85 30 }
+				b_grunberg = {
+					color = { 210 85 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_zielona_gora
+						name_list_polabian = cn_zielona_gora
+						name_list_pommeranian = cn_zielona_gora
+						name_list_czech = cn_zelena_hora
+					}
+					province = 3064
+				}
+				b_gubin = {
+					color = { 210 85 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_guben
+						name_list_saxon = cn_guben
+						name_list_swabian = cn_guben
+						name_list_bavarian = cn_guben
+					}
+					province = 3139
+				}
+				b_crossen = {
+					color = { 210 85 30 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_krosno
+						name_list_polabian = cn_krosno
+						name_list_pommeranian = cn_krosno
+						name_list_czech = cn_krosno
+					}
+					province = 3144
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_zielona_gora
+					name_list_polabian = cn_zielona_gora
+					name_list_pommeranian = cn_zielona_gora
+					name_list_czech = cn_zelena_hora
+				}
+			}
+			c_sprottau = {
+				color = { 240 115 75 }
+				b_sprottau = {
+					color = { 240 115 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_szprotawa
+						name_list_polabian = cn_szprotawa
+						name_list_pommeranian = cn_szprotawa
+					}
+					province = 3067
+				}
+				b_zagan = {
+					color = { 240 115 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_sagan
+						name_list_saxon = cn_sagan
+						name_list_swabian = cn_sagan
+						name_list_bavarian = cn_sagan
+					}
+					province = 3066
+				}
+				b_nowogrodziec = {
+					color = { 240 115 75 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_naumburg
+						name_list_saxon = cn_naumburg
+						name_list_swabian = cn_naumburg
+						name_list_bavarian = cn_naumburg
+					}
+					province = 3070
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_szprotawa
+					name_list_polabian = cn_szprotawa
+					name_list_pommeranian = cn_szprotawa
+				}
+			}
+			c_przemkow = {
+				color = { 195 75 60 }
+				b_przemkow = {
+					color = { 195 75 60 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_primkenau
+						name_list_saxon = cn_primkenau
+						name_list_swabian = cn_primkenau
+						name_list_bavarian = cn_primkenau
+					}
+					province = 3068
+				}
+				b_wlen = {
+					color = { 195 75 60 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_lahn
+						name_list_saxon = cn_lahn
+						name_list_swabian = cn_lahn
+						name_list_bavarian = cn_lahn
+					}
+					province = 3069
+				}
+				b_swiny = {
+					color = { 195 75 60 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_schweinhausburg
+						name_list_saxon = cn_schweinhausburg
+						name_list_swabian = cn_schweinhausburg
+						name_list_bavarian = cn_schweinhausburg
+					}
+					province = 3059
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_franconian = cn_primkenau
+					name_list_saxon = cn_primkenau
+					name_list_swabian = cn_primkenau
+					name_list_bavarian = cn_primkenau
+				}
+			}
+			c_legnica = {
+				color = { 225 80 40 }
+				b_legnica = {
+					color = { 225 80 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_czech = cn_lehnice
+						name_list_franconian = cn_liegnitz
+						name_list_saxon = cn_liegnitz
+						name_list_swabian = cn_liegnitz
+						name_list_bavarian = cn_liegnitz
+					}
+					province = 3058
+				}
+				b_glogow = {
+					color = { 225 80 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_czech = cn_hlohov
+						name_list_franconian = cn_glogau
+						name_list_saxon = cn_glogau
+						name_list_swabian = cn_glogau
+						name_list_bavarian = cn_glogau
+					}
+					province = 3063
+				}
+				b_sadowel = {
+					color = { 225 80 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_sandelswalde
+						name_list_saxon = cn_sandelswalde
+						name_list_swabian = cn_sandelswalde
+						name_list_bavarian = cn_sandelswalde
+					}
+					province = 3060
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_czech = cn_lehnice
+					name_list_franconian = cn_liegnitz
+					name_list_saxon = cn_liegnitz
+					name_list_swabian = cn_liegnitz
+					name_list_bavarian = cn_liegnitz
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_bohemia = {
+			capital = c_praha
+			color = { 195 110 11 }
+			c_praha = {
+				color = { 199 114 15 }
+				b_praha = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4125
+				}
+				b_vysehrad = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4126
+				}
+				b_beroun = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4127
+				}
+				b_melnik = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4128
+				}
+				b_slany = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4130
+				}
+				b_milevsko = {
+					color = { 199 114 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4158
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_litomerice = {
+				color = { 215 110 15 }
+				b_litomerice = {
+					color = { 215 110 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4129
+				}
+				b_bilina = {
+					color = { 215 110 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4131
+				}
+				b_decin = {
+					color = { 215 110 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4133
+				}
+				b_zitava = {
+					color = { 215 110 15 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4135
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_zatec = {
+				color = { 197 145 13 }
+				b_zatec = {
+					color = { 197 145 13 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4147
+				}
+				b_kadan = {
+					color = { 197 145 13 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4132
+				}
+				b_sedlec = {
+					color = { 197 145 13 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4141
+				}
+				b_loket = {
+					color = { 197 145 13 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4142
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_plzen = {
+				color = { 200 105 5 }
+				b_plzen = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4145
+				}
+				b_stribro = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4143
+				}
+				b_primda = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4144
+				}
+				b_domazlice = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4146
+				}
+				b_prachen = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4149
+				}
+				b_pisek = {
+					color = { 200 105 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4151
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_doudleby = {
+				color = { 140 90 5 }
+				b_doudleby = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4154
+				}
+				b_netolice = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4150
+				}
+				b_rozmberk = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4153
+				}
+				b_krumlov = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4152
+				}
+				b_chynov = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4156
+				}
+				b_bechyne = {
+					color = { 140 90 5 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4157
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_boleslav = {
+				color = { 195 65 10 }
+				b_boleslav = {
+					color = { 195 65 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4136
+				}
+				b_bezdez = {
+					color = { 195 65 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4134
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_hradec = {
+				color = { 201 118 11 }
+				b_hradec = {
+					color = { 201 118 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4138
+				}
+				b_dvur-chvojno = {
+					color = { 201 118 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4137
+				}
+				b_jaromer = {
+					color = { 201 118 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4139
+				}
+				b_kladzko = {
+					color = { 201 118 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_klodzko
+					}
+					province = 3047
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_caslav = {
+				color = { 210 165 40 }
+				b_caslav = {
+					color = { 210 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4161
+				}
+				b_vraclav = {
+					color = { 210 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4140
+				}
+				b_chrudim = {
+					color = { 210 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4160
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_moravia = {
+			capital = c_olomouc
+			color = { 177 111 25 }
+			c_olomouc = {
+				color = { 163 107 41 }
+				b_olomouc = {
+					color = { 163 107 41 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4165
+				}
+				b_unicov = {
+					color = { 163 107 41 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4181
+				}
+				b_kromeriz = {
+					color = { 163 107 41 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4148
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_opava = {
+				color = { 190 90 38 }
+				b_opava = {
+					color = { 190 90 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4184
+				}
+				b_hradec-nad-moravici = {
+					color = { 190 90 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4183
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_prerov = {
+				color = { 155 91 27 }
+				b_prerov = {
+					color = { 165 101 37 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4182
+				}
+				b_spytihnev = {
+					color = { 165 101 37 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4159
+				}
+				b_hodonin = {
+					color = { 165 101 37 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4170
+				}
+				b_veseli = {
+					color = { 165 101 37 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8999
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_brno = {
+				color = { 170 125 80 }
+				b_brno = {
+					color = { 170 125 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4168
+				}
+				b_ivancice = {
+					color = { 170 125 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4167
+				}
+				b_zdar = {
+					color = { 170 125 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4163
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_jihlava = {
+				color = { 168 114 35 }
+				b_jihlava = {
+					color = { 168 114 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4162
+				}
+				b_telcz = {
+					color = { 168 114 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4155
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_znojmo = {
+				color = { 160 118 40 }
+				b_znojmo = {
+					color = { 160 118 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4166
+				}
+				b_bitov = {
+					color = { 160 118 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4164
+				}
+				b_breclav = {
+					color = { 160 118 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 4169
+				}
+				b_mikulov = {
+					color = { 160 118 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 3080
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
 	k_saxony = {
 	capital = c_dessau
 	color = { 120 25 25 }
@@ -7409,1592 +8756,6 @@ e_germany = {
 			ruler_uses_title_name = no
 			cultural_names = {
 				name_list_polabian = cn_lusatia
-			}
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
-	k_IRTOCK3_I48 = {
-		capital = c_pinsk
-		color = { 7 144 185 }
-		d_lithuanians = {
-			capital = c_kernave
-			color = { 81 0 0 }
-			c_kernave = {
-				color = { 140 28 28 }
-				b_kernave = {
-					color = { 140 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 154
-				}
-				b_vilnius = {
-					color = { 140 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 155
-				}
-				b_vilkmerge = {
-					color = { 140 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 149
-				}
-				b_kreva = {
-					color = { 140 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 165
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_trakai = {
-				color = { 100 28 28 }
-				b_trakai = {
-					color = { 100 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 153
-				}
-				b_kaunas = {
-					color = { 100 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 130
-				}
-				b_merkine = {
-					color = { 100 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 160
-				}
-				b_aliten = {
-					color = { 100 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 162
-				}
-				b_valkininkai = {
-					color = { 100 28 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 159
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_yatvyagi = {
-				color = { 115 45 45 }
-				b_panemune = {
-					color = { 115 45 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 156
-				}
-				b_vilkaviskis = {
-					color = { 115 45 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 158
-				}
-				b_suvalkai = {
-					color = { 115 45 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 157
-				}
-				b_sejny = {
-					color = { 115 45 45 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 163
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_braslau = {
-				color = { 90 10 10 }
-				b_braslau = {
-					color = { 90 10 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 166
-				}
-				b_utena = {
-					color = { 90 10 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 151
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_samogitia = {
-			capital = c_raseiniai
-			color = { 150 70 70 }
-			c_raseiniai = {
-				color = { 166 81 81 }
-				b_raseiniai = {
-					color = { 166 81 81 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_raseinen
-						name_list_saxon = cn_raseinen
-						name_list_swabian = cn_raseinen
-						name_list_bavarian = cn_raseinen
-						name_list_swedish = cn_raseinen
-						name_list_norse = cn_raseinen
-						name_list_danish = cn_raseinen
-						name_list_norwegian = cn_raseinen
-					}
-					province = 124
-				}
-				b_jurbarkas = {
-					color = { 166 81 81 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_georgenburg
-						name_list_saxon = cn_georgenburg
-						name_list_swabian = cn_georgenburg
-						name_list_bavarian = cn_georgenburg
-						name_list_swedish = cn_georgsborg
-						name_list_norse = cn_georgsborg
-						name_list_danish = cn_georgsborg
-						name_list_norwegian = cn_georgsborg
-					}
-					province = 123
-				}
-				b_veliuona = {
-					color = { 166 81 81 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 129
-				}
-				b_kedainiai = {
-					color = { 166 81 81 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 131
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_scalovia = {
-				color = { 190 85 85 }
-				b_ragnit = {
-					color = { 190 85 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_pommeranian = cn_ragneta
-						name_list_polish = cn_ragneta
-						name_list_czech = cn_ragneta
-						name_list_russian = cn_ragneta
-						name_list_prussian = cn_ragnita
-						name_list_lithuanian = cn_ragaine
-						name_list_latgalian = cn_ragaine
-					}
-					province = 120
-				}
-				b_tilsit = {
-					color = { 190 85 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 119
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_memel = {
-				color = { 166 85 85 }
-				b_memel = {
-					color = { 166 85 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 118
-				}
-				b_taurage = {
-					color = { 166 85 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 125
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_palanga = {
-				color = { 150 95 95 }
-				b_palanga = {
-					color = { 150 95 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 115
-				}
-				b_medeniken = {
-					color = { 150 95 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 126
-				}
-				b_telsiai = {
-					color = { 150 95 95 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 128
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_siauliai = {
-				color = { 165 105 105 }
-				b_siauliai = {
-					color = { 165 105 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 127
-				}
-				b_upyte = {
-					color = { 165 105 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 132
-				}
-				b_birzai = {
-					color = { 165 105 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 152
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_volhynia = {
-			capital = c_volodymyr
-			color = { 65 150 145 }
-			c_volodymyr = {
-				color = { 65 150 145 }
-				b_volodymyr = {
-					color = { 65 150 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_wlodzimierz
-					}
-					province = 535
-				}
-				b_lutsk = {
-					color = { 65 150 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_luck
-					}
-					province = 5047
-				}
-				b_luboml = {
-					color = { 65 150 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5048
-				}
-				b_kovel = {
-					color = { 65 150 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_kowel
-					}
-					province = 5049
-				}
-				b_rozhyshche = {
-					color = { 65 150 145 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_rozyszcze
-					}
-					province = 5050
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_wlodzimierz
-				}
-			}
-			c_peresopnytsia = {
-				color = { 50 155 100 }
-				b_peresopnytsia = {
-					color = { 50 155 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_peresopnica
-					}
-					province = 5051
-				}
-				b_rivne = {
-					color = { 50 155 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_rowne
-					}
-					province = 5052
-				}
-				b_klevan = {
-					color = { 50 155 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_klewan
-					}
-					province = 5053
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_peresopnica
-				}
-			}
-			c_berestye = {
-				color = { 165 136 68 }
-				b_berestye = {
-					color = { 165 136 68 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_brzesc
-					}
-					province = 549
-				}
-				b_bielsk = {
-					color = { 165 136 68 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5054
-				}
-				b_kamyanyets = {
-					color = { 165 136 68 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_kamieniec
-					}
-					province = 5055
-				}
-				b_simiatychi = {
-					color = { 165 136 68 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_siemiatycze
-					}
-					province = 5056
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_brzesc
-				}
-			}
-			c_dorohychyn = {
-				color = { 120 161 150 }
-				b_dorohychyn = {
-					color = { 120 161 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_drohiczyn
-						name_list_lithuanian = cn_drohicinas
-					}
-					province = 5057
-				}
-				b_kobryn = {
-					color = { 120 161 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_kobryn
-						name_list_lithuanian = cn_kobrynas
-					}
-					province = 5058
-				}
-				b_blotkowo = {
-					color = { 120 161 150 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5059
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_drohiczyn
-					name_list_lithuanian = cn_drohicinas
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_polish = cn_wolyn
-			}
-		}
-		d_kiev = {
-			capital = c_kiev
-			color = { 52 120 69 }
-			c_kiev = {
-				color = { 53 105 66 }
-				b_kiev = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_norse = cn_konugardr_NORSE
-						name_list_swedish = cn_konugard_SWE
-						name_list_norwegian = cn_konugard_NORDAN
-						name_list_danish = cn_konugard_NORDAN
-						name_list_polish = cn_kijow
-						name_list_lithuanian = cn_kijevas
-					}
-					province = 547
-				}
-				b_vyshgorod = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5082
-				}
-				b_bilhorod = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5083
-				}
-				b_yuriev = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5084
-				}
-				b_kaniv = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5085
-				}
-				b_zdvyzhen = {
-					color = { 70 150 90 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5086
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_norse = cn_konugardr_NORSE
-					name_list_swedish = cn_konugard_SWE
-					name_list_norwegian = cn_konugard_NORDAN
-					name_list_danish = cn_konugard_NORDAN
-					name_list_polish = cn_kijow
-					name_list_lithuanian = cn_kijevas
-				}
-			}
-			c_zhytomyr = {
-				color = { 120 190 130 }
-				b_zhytomyr = {
-					color = { 120 190 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_zytomierz
-					}
-					province = 5087
-				}
-				b_mezhybozhe = {
-					color = { 120 190 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5088
-				}
-				b_rastovets = {
-					color = { 120 190 130 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5089
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_zytomierz
-				}
-			}
-			c_zvyahel = {
-				color = { 70 183 89 }
-				b_zvyahel = {
-					color = { 70 183 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_zytomierz
-					}
-					province = 5091
-				}
-				b_kolodiazhen = {
-					color = { 70 183 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5092
-				}
-				b_chortolisy = {
-					color = { 70 183 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5093
-				}
-				b_horodnytsia = {
-					color = { 70 183 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5094
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_zwiahel
-				}
-			}
-			c_chornobyl = {
-				color = { 52 156 80 }
-				b_chornobyl = {
-					color = { 52 156 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_czarnobyl
-					}
-					province = 5095
-				}
-				b_ivankiv = {
-					color = { 52 156 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5096
-				}
-				b_radynka = {
-					color = { 52 156 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5097
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_czarnobyl
-				}
-			}
-			c_ushytsia = {
-				color = { 163 201 106 }
-				b_ushytsia = {
-					color = { 163 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_uszyca
-						name_list_vlach = cn_usita
-					}
-					province = 5098
-				}
-				b_vinnytsia = {
-					color = { 163 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5099
-				}
-				b_yampil = {
-					color = { 163 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5100
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_uszyca
-					name_list_vlach = cn_usita
-				}
-			}
-			c_korsun = {
-				color = { 125 201 106 }
-				b_korsun = {
-					color = { 125 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_korsun
-					}
-					province = 544
-				}
-				b_malaia_skvirka = {
-					color = { 125 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5090
-				}
-				b_haisyn = {
-					color = { 125 201 106 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5101
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_korsun
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_norse = cn_konugardr_NORSE
-				name_list_swedish = cn_konugard_SWE
-				name_list_norwegian = cn_konugard_NORDAN
-				name_list_danish = cn_konugard_NORDAN
-				name_list_polish = cn_kijow
-				name_list_lithuanian = cn_kijevas
-			}
-		}
-		d_turov = {
-			capital = c_turov
-			color = { 129 163 28 }
-			c_turov = {
-				color = { 110 140 20 }
-				b_turov = {
-					color = { 110 140 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_turow
-						name_list_lithuanian = cn_turava
-					}
-					province = 552
-				}
-				b_sarny = {
-					color = { 110 140 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5102
-				}
-				b_selo = {
-					color = { 110 140 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5103
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_turow
-					name_list_lithuanian = cn_turava
-				}
-			}
-			c_korosten = {
-				color = { 96 125 11 }
-				b_korosten = {
-					color = { 96 125 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_korosten
-						name_list_lithuanian = cn_korostenis
-					}
-					province = 5104
-				}
-				b_ovruch = {
-					color = { 96 125 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_owrucz
-					}
-					province = 5105
-				}
-				b_mazyr = {
-					color = { 96 125 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5106
-				}
-				b_naroulia = {
-					color = { 96 125 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5107
-				}
-				b_lelchytsy = {
-					color = { 96 125 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5108
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_korosten
-					name_list_lithuanian = cn_korostenis
-				}
-			}
-			c_dubrovytsia = {
-				color = { 81 99 28 }
-				b_dubrovytsia = {
-					color = { 81 99 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_dabrowica
-						name_list_lithuanian = cn_dubrovicja
-					}
-					province = 5109
-				}
-				b_stepan = {
-					color = { 81 99 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5110
-				}
-				b_liubeshiv = {
-					color = { 81 99 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5111
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_dabrowica
-					name_list_lithuanian = cn_dubrovicja
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_polish = cn_turow
-				name_list_lithuanian = cn_turava
-			}
-		}
-		d_pereyaslavl = {
-			capital = c_pereyaslavl
-			color = { 37 143 71 }
-			c_pereyaslavl = {
-				color = { 22 115 52 }
-				b_pereyaslavl = {
-					color = { 22 115 52 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 555
-				}
-				b_boryspil = {
-					color = { 22 115 52 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5178
-				}
-				b_priluk = {
-					color = { 22 115 52 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5179
-				}
-				b_zolotonosha = {
-					color = { 22 115 52 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5180
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_hradyzk = {
-				color = { 50 102 67 }
-				b_hradyzk = {
-					color = { 50 102 67 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5181
-				}
-				b_akhtyr = {
-					color = { 50 102 67 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5182
-				}
-				b_myrhorod = {
-					color = { 50 102 67 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5183
-				}
-				b_poltava = {
-					color = { 50 102 67 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5184
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_romen = {
-				color = { 4 110 38 }
-				b_romen = {
-					color = { 4 110 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5185
-				}
-				b_lokhrytsia = {
-					color = { 4 110 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5186
-				}
-				b_nedryhailiv = {
-					color = { 4 110 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5187
-				}
-				b_sumy = {
-					color = { 4 110 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5188
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_voin = {
-				color = { 98 146 103 }
-				b_voin = {
-					color = { 98 146 103 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5189
-				}
-				b_lubny = {
-					color = { 98 146 103 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5190
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_chernigov = {
-			capital = c_chernigov
-			color = { 150 235 91 }
-			c_chernigov = {
-				color = { 121 189 74 }
-				b_chernigov = {
-					color = { 121 189 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 554
-				}
-				b_lyubech = {
-					color = { 121 189 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 553
-				}
-				b_gomel = {
-					color = { 121 189 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5200
-				}
-				b_unenezh = {
-					color = { 121 189 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5201
-				}
-				b_surazichi = {
-					color = { 121 189 74 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5202
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_starodub = {
-				color = { 106 156 72 }
-				b_starodub = {
-					color = { 106 156 72 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5203
-				}
-				b_trubetsk = {
-					color = { 106 156 72 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5204
-				}
-				b_debryansk = {
-					color = { 106 156 72 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 576
-				}
-				b_mglin = {
-					color = { 106 156 72 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5205
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_novgorod_seversky = {
-				color = { 108 135 2 }
-				b_novgorod_seversky = {
-					color = { 108 135 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 567
-				}
-				b_borzna = {
-					color = { 108 135 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5191
-				}
-				b_glukhov = {
-					color = { 108 135 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5192
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_putyvl = {
-				color = { 140 165 40 }
-				b_putyvl = {
-					color = { 140 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5193
-				}
-				b_vyr = {
-					color = { 140 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5194
-				}
-				b_konotop = {
-					color = { 140 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5195
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_kursk = {
-				color = { 130 180 55 }
-				b_kursk = {
-					color = { 130 180 55 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5196
-				}
-				b_rylsk = {
-					color = { 130 180 55 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5197
-				}
-				b_sudzha = {
-					color = { 130 180 55 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5198
-				}
-				b_oboyan = {
-					color = { 130 180 55 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5199
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_grodno = {
-			capital = c_grodno
-			color = { 160 205 190 }
-			c_grodno = {
-				color = { 114 156 142 }
-				b_grodno = {
-					color = { 114 156 142 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_russian = cn_hrodna
-						name_list_lithuanian = cn_gardinas
-					}
-					province = 161
-				}
-				b_lida = {
-					color = { 114 156 142 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_lyda
-					}
-					province = 164
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_russian = cn_hrodna
-					name_list_lithuanian = cn_gardinas
-				}
-			}
-			c_volkovysk = {
-				color = { 83 140 121 }
-				b_volkovysk = {
-					color = { 83 140 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_valkaviskas
-						name_list_polish = cn_wolkowysk
-					}
-					province = 5044
-				}
-				b_sokolka = {
-					color = { 83 140 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_sokulka
-						name_list_polish = cn_sokolka_PLN
-					}
-					province = 5043
-				}
-				b_bielastock = {
-					color = { 83 140 121 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_balstoge
-						name_list_polish = cn_bialystok
-					}
-					province = 5046
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_valkaviskas
-					name_list_polish = cn_wolkowysk
-				}
-			}
-			c_novogrudok = {
-				color = { 89 128 115 }
-				b_novogrudok = {
-					color = { 89 128 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_naugardukas
-						name_list_polish = cn_nowogrodek
-					}
-					province = 5136
-				}
-				b_slonim = {
-					color = { 89 128 115 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_slanimas
-						name_list_polish = cn_slonim_PLN
-					}
-					province = 5045
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_naugardukas
-					name_list_polish = cn_nowogrodek
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_russian = cn_hrodna
-				name_list_lithuanian = cn_gardinas
-			}
-		}
-		d_pinsk = {
-			capital = c_pinsk
-			color = { 200 185 170 }
-			c_pinsk = {
-				color = { 173 158 142 }
-				b_pinsk = {
-					color = { 173 158 142 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_pinskas
-						name_list_polish = cn_pinsk_PLN
-					}
-					province = 548
-				}
-				b_lahishyn = {
-					color = { 173 158 142 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5112
-				}
-				b_luninets = {
-					color = { 173 158 142 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_luniecas
-						name_list_polish = cn_luniniec
-					}
-					province = 5113
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_pinskas
-					name_list_polish = cn_pinsk_PLN
-				}
-			}
-			c_slutsk = {
-				color = { 181 157 132 }
-				b_slutsk = {
-					color = { 181 157 132 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_sluckas
-						name_list_polish = cn_sluck
-					}
-					province = 5114
-				}
-				b_zhytkavichy = {
-					color = { 181 157 132 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_zytkavicai
-						name_list_polish = cn_zydkowicze
-					}
-					province = 5115
-				}
-				b_mikashevichy = {
-					color = { 181 157 132 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_mikasevicai
-						name_list_polish = cn_mikaszewicze
-					}
-					province = 5116
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_sluckas
-					name_list_polish = cn_sluck
-				}
-			}
-			c_kletsk = {
-				color = { 161 148 135 }
-				b_kletsk = {
-					color = { 161 148 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_kleckas
-						name_list_polish = cn_kleck
-					}
-					province = 5117
-				}
-				b_baranovichi = {
-					color = { 161 148 135 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_baranoviciai
-						name_list_polish = cn_baranowicze
-					}
-					province = 5118
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_kleckas
-					name_list_polish = cn_kleck
-				}
-			}
-			c_babruysk = {
-				color = { 138 123 107 }
-				b_babruysk = {
-					color = { 138 123 107 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_babruiskas
-						name_list_polish = cn_bobrujsk
-					}
-					province = 5119
-				}
-				b_zhlobin = {
-					color = { 138 123 107 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_zlobinas
-						name_list_polish = cn_zlobin
-					}
-					province = 5120
-				}
-				b_kalinkavichy = {
-					color = { 138 123 107 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_kalinkavicai
-						name_list_polish = cn_kalinkowicze
-					}
-					province = 5121
-				}
-				b_rechytsa = {
-					color = { 138 123 107 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_recyca
-						name_list_polish = cn_reczyca
-					}
-					province = 5122
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_babruiskas
-					name_list_polish = cn_bobrujsk
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_lithuanian = cn_pinskas
-				name_list_polish = cn_pinsk_PLN
-			}
-		}
-		d_minsk = {
-			capital = c_minsk
-			color = { 160 205 150 }
-			c_minsk = {
-				color = { 122 158 114 }
-				b_minsk = {
-					color = { 122 158 114 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_minskas
-						name_list_polish = cn_minsk_PLN
-					}
-					province = 550
-				}
-				b_lahoysk = {
-					color = { 122 158 114 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_lahoiskas
-						name_list_polish = cn_lohojsk
-					}
-					province = 5123
-				}
-				b_zaslawye = {
-					color = { 122 158 114 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_zaslavlis
-						name_list_polish = cn_zaslaw
-					}
-					province = 5124
-				}
-				b_maladzyechna = {
-					color = { 122 158 114 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_maladecina
-						name_list_polish = cn_molodeczno
-					}
-					province = 5125
-				}
-				b_barysaw = {
-					color = { 122 158 114 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_barysavas
-						name_list_polish = cn_borysow
-					}
-					province = 5126
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_minskas
-					name_list_polish = cn_minsk_PLN
-				}
-			}
-			c_orsha = {
-				color = { 100 140 91 }
-				b_orsha = {
-					color = { 100 140 91 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_orsa_LIT
-						name_list_polish = cn_orsza
-					}
-					province = 5127
-				}
-				b_drutsk = {
-					color = { 100 140 91 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_lithuanian = cn_druckas
-						name_list_polish = cn_druck
-					}
-					province = 5128
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_lithuanian = cn_orsa_LIT
-					name_list_polish = cn_orsza
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			cultural_names = {
-				name_list_lithuanian = cn_minskas
-				name_list_polish = cn_minsk_PLN
 			}
 		}
 		landless = no
@@ -17535,6 +17296,1843 @@ k_denmark = {
 e_wendish_empire = {
 	capital = c_novgorod
 	color = { 130 10 0 }
+	k_IRTOCK3_K88 = {
+		capital = c_minsk
+		color = { 187 63 0 }
+		d_luki = {
+			capital = c_luki
+			color = { 137 174 120 }
+			c_luki = {
+				color = { 43 166 109 }
+				b_luki = {
+					color = { 43 166 109 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5161
+				}
+				b_kholm_NOV = {
+					color = { 43 166 109 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5162
+				}
+				b_seltsa_u_nishi = {
+					color = { 43 166 109 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5163
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_valdai = {
+				color = { 110 180 100 }
+				b_torzhok = {
+					color = { 140 170 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5164
+				}
+				b_klichen = {
+					color = { 140 170 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5165
+				}
+				b_valday = {
+					color = { 140 170 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5166
+				}
+				b_vyshny_volochyok = {
+					color = { 140 170 120 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5167
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_bezichi = {
+				color = { 153 204 153 }
+				b_bezichi = {
+					color = { 153 204 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5168
+				}
+				b_zhelezny_ustyug = {
+					color = { 153 204 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5169
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_smolensk = {
+			capital = c_smolensk
+			color = { 173 147 181 }
+			c_smolensk = {
+				color = { 146 124 153 }
+				b_smolensk = {
+					color = { 146 124 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 568
+				}
+				b_dorogobyzh = {
+					color = { 146 124 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5219
+				}
+				b_mstislavl = {
+					color = { 146 124 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 551
+				}
+				b_yelnya = {
+					color = { 146 124 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5220
+				}
+				b_vyazma = {
+					color = { 146 124 153 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 569
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_gnezdovo = {
+				color = { 157 143 161 }
+				b_gnezdovo = {
+					color = { 157 143 161 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5221
+				}
+				b_velizh = {
+					color = { 157 143 161 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5222
+				}
+				b_dukhovshchina = {
+					color = { 157 143 161 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5223
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_roslavl = {
+				color = { 126 99 133 }
+				b_roslavl = {
+					color = { 126 99 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 933
+				}
+				b_klimavichy = {
+					color = { 126 99 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5224
+				}
+				b_cherykaw = {
+					color = { 126 99 133 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5225
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_mozhaysk = {
+				color = { 101 89 105 }
+				b_mozhaysk = {
+					color = { 101 89 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 587
+				}
+				b_lotoshino = {
+					color = { 101 89 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5226
+				}
+				b_zubstov = {
+					color = { 101 89 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5227
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_toropets = {
+				color = { 163 125 176 }
+				b_toropets = {
+					color = { 163 125 176 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5170
+				}
+				b_andreapol = {
+					color = { 163 125 176 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5171
+				}
+				b_ozerski = {
+					color = { 163 125 176 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5172
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
+	k_IRTOCK3_I48 = {
+		capital = c_pinsk
+		color = { 7 144 185 }
+		d_lithuanians = {
+			capital = c_kernave
+			color = { 81 0 0 }
+			c_kernave = {
+				color = { 140 28 28 }
+				b_kernave = {
+					color = { 140 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 154
+				}
+				b_vilnius = {
+					color = { 140 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 155
+				}
+				b_vilkmerge = {
+					color = { 140 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 149
+				}
+				b_kreva = {
+					color = { 140 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 165
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_trakai = {
+				color = { 100 28 28 }
+				b_trakai = {
+					color = { 100 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 153
+				}
+				b_kaunas = {
+					color = { 100 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 130
+				}
+				b_merkine = {
+					color = { 100 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 160
+				}
+				b_aliten = {
+					color = { 100 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 162
+				}
+				b_valkininkai = {
+					color = { 100 28 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 159
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_yatvyagi = {
+				color = { 115 45 45 }
+				b_panemune = {
+					color = { 115 45 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 156
+				}
+				b_vilkaviskis = {
+					color = { 115 45 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 158
+				}
+				b_suvalkai = {
+					color = { 115 45 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 157
+				}
+				b_sejny = {
+					color = { 115 45 45 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 163
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_braslau = {
+				color = { 90 10 10 }
+				b_braslau = {
+					color = { 90 10 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 166
+				}
+				b_utena = {
+					color = { 90 10 10 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 151
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_samogitia = {
+			capital = c_raseiniai
+			color = { 150 70 70 }
+			c_raseiniai = {
+				color = { 166 81 81 }
+				b_raseiniai = {
+					color = { 166 81 81 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_raseinen
+						name_list_saxon = cn_raseinen
+						name_list_swabian = cn_raseinen
+						name_list_bavarian = cn_raseinen
+						name_list_swedish = cn_raseinen
+						name_list_norse = cn_raseinen
+						name_list_danish = cn_raseinen
+						name_list_norwegian = cn_raseinen
+					}
+					province = 124
+				}
+				b_jurbarkas = {
+					color = { 166 81 81 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_franconian = cn_georgenburg
+						name_list_saxon = cn_georgenburg
+						name_list_swabian = cn_georgenburg
+						name_list_bavarian = cn_georgenburg
+						name_list_swedish = cn_georgsborg
+						name_list_norse = cn_georgsborg
+						name_list_danish = cn_georgsborg
+						name_list_norwegian = cn_georgsborg
+					}
+					province = 123
+				}
+				b_veliuona = {
+					color = { 166 81 81 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 129
+				}
+				b_kedainiai = {
+					color = { 166 81 81 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 131
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_scalovia = {
+				color = { 190 85 85 }
+				b_ragnit = {
+					color = { 190 85 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_pommeranian = cn_ragneta
+						name_list_polish = cn_ragneta
+						name_list_czech = cn_ragneta
+						name_list_russian = cn_ragneta
+						name_list_prussian = cn_ragnita
+						name_list_lithuanian = cn_ragaine
+						name_list_latgalian = cn_ragaine
+					}
+					province = 120
+				}
+				b_tilsit = {
+					color = { 190 85 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 119
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_memel = {
+				color = { 166 85 85 }
+				b_memel = {
+					color = { 166 85 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 118
+				}
+				b_taurage = {
+					color = { 166 85 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 125
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_palanga = {
+				color = { 150 95 95 }
+				b_palanga = {
+					color = { 150 95 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 115
+				}
+				b_medeniken = {
+					color = { 150 95 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 126
+				}
+				b_telsiai = {
+					color = { 150 95 95 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 128
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_siauliai = {
+				color = { 165 105 105 }
+				b_siauliai = {
+					color = { 165 105 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 127
+				}
+				b_upyte = {
+					color = { 165 105 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 132
+				}
+				b_birzai = {
+					color = { 165 105 105 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 152
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_volhynia = {
+			capital = c_volodymyr
+			color = { 65 150 145 }
+			c_volodymyr = {
+				color = { 65 150 145 }
+				b_volodymyr = {
+					color = { 65 150 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_wlodzimierz
+					}
+					province = 535
+				}
+				b_lutsk = {
+					color = { 65 150 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_luck
+					}
+					province = 5047
+				}
+				b_luboml = {
+					color = { 65 150 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5048
+				}
+				b_kovel = {
+					color = { 65 150 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_kowel
+					}
+					province = 5049
+				}
+				b_rozhyshche = {
+					color = { 65 150 145 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_rozyszcze
+					}
+					province = 5050
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_wlodzimierz
+				}
+			}
+			c_peresopnytsia = {
+				color = { 50 155 100 }
+				b_peresopnytsia = {
+					color = { 50 155 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_peresopnica
+					}
+					province = 5051
+				}
+				b_rivne = {
+					color = { 50 155 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_rowne
+					}
+					province = 5052
+				}
+				b_klevan = {
+					color = { 50 155 100 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_klewan
+					}
+					province = 5053
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_peresopnica
+				}
+			}
+			c_berestye = {
+				color = { 165 136 68 }
+				b_berestye = {
+					color = { 165 136 68 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_brzesc
+					}
+					province = 549
+				}
+				b_bielsk = {
+					color = { 165 136 68 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5054
+				}
+				b_kamyanyets = {
+					color = { 165 136 68 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_kamieniec
+					}
+					province = 5055
+				}
+				b_simiatychi = {
+					color = { 165 136 68 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_siemiatycze
+					}
+					province = 5056
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_brzesc
+				}
+			}
+			c_dorohychyn = {
+				color = { 120 161 150 }
+				b_dorohychyn = {
+					color = { 120 161 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_drohiczyn
+						name_list_lithuanian = cn_drohicinas
+					}
+					province = 5057
+				}
+				b_kobryn = {
+					color = { 120 161 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_kobryn
+						name_list_lithuanian = cn_kobrynas
+					}
+					province = 5058
+				}
+				b_blotkowo = {
+					color = { 120 161 150 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5059
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_drohiczyn
+					name_list_lithuanian = cn_drohicinas
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_polish = cn_wolyn
+			}
+		}
+		d_kiev = {
+			capital = c_kiev
+			color = { 52 120 69 }
+			c_kiev = {
+				color = { 53 105 66 }
+				b_kiev = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_norse = cn_konugardr_NORSE
+						name_list_swedish = cn_konugard_SWE
+						name_list_norwegian = cn_konugard_NORDAN
+						name_list_danish = cn_konugard_NORDAN
+						name_list_polish = cn_kijow
+						name_list_lithuanian = cn_kijevas
+					}
+					province = 547
+				}
+				b_vyshgorod = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5082
+				}
+				b_bilhorod = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5083
+				}
+				b_yuriev = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5084
+				}
+				b_kaniv = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5085
+				}
+				b_zdvyzhen = {
+					color = { 70 150 90 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5086
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_norse = cn_konugardr_NORSE
+					name_list_swedish = cn_konugard_SWE
+					name_list_norwegian = cn_konugard_NORDAN
+					name_list_danish = cn_konugard_NORDAN
+					name_list_polish = cn_kijow
+					name_list_lithuanian = cn_kijevas
+				}
+			}
+			c_zhytomyr = {
+				color = { 120 190 130 }
+				b_zhytomyr = {
+					color = { 120 190 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_zytomierz
+					}
+					province = 5087
+				}
+				b_mezhybozhe = {
+					color = { 120 190 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5088
+				}
+				b_rastovets = {
+					color = { 120 190 130 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5089
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_zytomierz
+				}
+			}
+			c_zvyahel = {
+				color = { 70 183 89 }
+				b_zvyahel = {
+					color = { 70 183 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_zytomierz
+					}
+					province = 5091
+				}
+				b_kolodiazhen = {
+					color = { 70 183 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5092
+				}
+				b_chortolisy = {
+					color = { 70 183 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5093
+				}
+				b_horodnytsia = {
+					color = { 70 183 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5094
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_zwiahel
+				}
+			}
+			c_chornobyl = {
+				color = { 52 156 80 }
+				b_chornobyl = {
+					color = { 52 156 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_czarnobyl
+					}
+					province = 5095
+				}
+				b_ivankiv = {
+					color = { 52 156 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5096
+				}
+				b_radynka = {
+					color = { 52 156 80 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5097
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_czarnobyl
+				}
+			}
+			c_ushytsia = {
+				color = { 163 201 106 }
+				b_ushytsia = {
+					color = { 163 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_uszyca
+						name_list_vlach = cn_usita
+					}
+					province = 5098
+				}
+				b_vinnytsia = {
+					color = { 163 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5099
+				}
+				b_yampil = {
+					color = { 163 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5100
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_uszyca
+					name_list_vlach = cn_usita
+				}
+			}
+			c_korsun = {
+				color = { 125 201 106 }
+				b_korsun = {
+					color = { 125 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_korsun
+					}
+					province = 544
+				}
+				b_malaia_skvirka = {
+					color = { 125 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5090
+				}
+				b_haisyn = {
+					color = { 125 201 106 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5101
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_korsun
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_norse = cn_konugardr_NORSE
+				name_list_swedish = cn_konugard_SWE
+				name_list_norwegian = cn_konugard_NORDAN
+				name_list_danish = cn_konugard_NORDAN
+				name_list_polish = cn_kijow
+				name_list_lithuanian = cn_kijevas
+			}
+		}
+		d_turov = {
+			capital = c_turov
+			color = { 129 163 28 }
+			c_turov = {
+				color = { 110 140 20 }
+				b_turov = {
+					color = { 110 140 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_turow
+						name_list_lithuanian = cn_turava
+					}
+					province = 552
+				}
+				b_sarny = {
+					color = { 110 140 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5102
+				}
+				b_selo = {
+					color = { 110 140 20 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5103
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_turow
+					name_list_lithuanian = cn_turava
+				}
+			}
+			c_korosten = {
+				color = { 96 125 11 }
+				b_korosten = {
+					color = { 96 125 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_korosten
+						name_list_lithuanian = cn_korostenis
+					}
+					province = 5104
+				}
+				b_ovruch = {
+					color = { 96 125 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_owrucz
+					}
+					province = 5105
+				}
+				b_mazyr = {
+					color = { 96 125 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5106
+				}
+				b_naroulia = {
+					color = { 96 125 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5107
+				}
+				b_lelchytsy = {
+					color = { 96 125 11 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5108
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_korosten
+					name_list_lithuanian = cn_korostenis
+				}
+			}
+			c_dubrovytsia = {
+				color = { 81 99 28 }
+				b_dubrovytsia = {
+					color = { 81 99 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_polish = cn_dabrowica
+						name_list_lithuanian = cn_dubrovicja
+					}
+					province = 5109
+				}
+				b_stepan = {
+					color = { 81 99 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5110
+				}
+				b_liubeshiv = {
+					color = { 81 99 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5111
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_polish = cn_dabrowica
+					name_list_lithuanian = cn_dubrovicja
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_polish = cn_turow
+				name_list_lithuanian = cn_turava
+			}
+		}
+		d_pereyaslavl = {
+			capital = c_pereyaslavl
+			color = { 37 143 71 }
+			c_pereyaslavl = {
+				color = { 22 115 52 }
+				b_pereyaslavl = {
+					color = { 22 115 52 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 555
+				}
+				b_boryspil = {
+					color = { 22 115 52 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5178
+				}
+				b_priluk = {
+					color = { 22 115 52 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5179
+				}
+				b_zolotonosha = {
+					color = { 22 115 52 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5180
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_hradyzk = {
+				color = { 50 102 67 }
+				b_hradyzk = {
+					color = { 50 102 67 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5181
+				}
+				b_akhtyr = {
+					color = { 50 102 67 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5182
+				}
+				b_myrhorod = {
+					color = { 50 102 67 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5183
+				}
+				b_poltava = {
+					color = { 50 102 67 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5184
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_romen = {
+				color = { 4 110 38 }
+				b_romen = {
+					color = { 4 110 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5185
+				}
+				b_lokhrytsia = {
+					color = { 4 110 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5186
+				}
+				b_nedryhailiv = {
+					color = { 4 110 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5187
+				}
+				b_sumy = {
+					color = { 4 110 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5188
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_voin = {
+				color = { 98 146 103 }
+				b_voin = {
+					color = { 98 146 103 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5189
+				}
+				b_lubny = {
+					color = { 98 146 103 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5190
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_chernigov = {
+			capital = c_chernigov
+			color = { 150 235 91 }
+			c_chernigov = {
+				color = { 121 189 74 }
+				b_chernigov = {
+					color = { 121 189 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 554
+				}
+				b_lyubech = {
+					color = { 121 189 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 553
+				}
+				b_gomel = {
+					color = { 121 189 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5200
+				}
+				b_unenezh = {
+					color = { 121 189 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5201
+				}
+				b_surazichi = {
+					color = { 121 189 74 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5202
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_starodub = {
+				color = { 106 156 72 }
+				b_starodub = {
+					color = { 106 156 72 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5203
+				}
+				b_trubetsk = {
+					color = { 106 156 72 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5204
+				}
+				b_debryansk = {
+					color = { 106 156 72 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 576
+				}
+				b_mglin = {
+					color = { 106 156 72 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5205
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_novgorod_seversky = {
+				color = { 108 135 2 }
+				b_novgorod_seversky = {
+					color = { 108 135 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 567
+				}
+				b_borzna = {
+					color = { 108 135 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5191
+				}
+				b_glukhov = {
+					color = { 108 135 2 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5192
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_putyvl = {
+				color = { 140 165 40 }
+				b_putyvl = {
+					color = { 140 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5193
+				}
+				b_vyr = {
+					color = { 140 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5194
+				}
+				b_konotop = {
+					color = { 140 165 40 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5195
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_kursk = {
+				color = { 130 180 55 }
+				b_kursk = {
+					color = { 130 180 55 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5196
+				}
+				b_rylsk = {
+					color = { 130 180 55 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5197
+				}
+				b_sudzha = {
+					color = { 130 180 55 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5198
+				}
+				b_oboyan = {
+					color = { 130 180 55 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5199
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_grodno = {
+			capital = c_grodno
+			color = { 160 205 190 }
+			c_grodno = {
+				color = { 114 156 142 }
+				b_grodno = {
+					color = { 114 156 142 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_russian = cn_hrodna
+						name_list_lithuanian = cn_gardinas
+					}
+					province = 161
+				}
+				b_lida = {
+					color = { 114 156 142 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_lyda
+					}
+					province = 164
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_russian = cn_hrodna
+					name_list_lithuanian = cn_gardinas
+				}
+			}
+			c_volkovysk = {
+				color = { 83 140 121 }
+				b_volkovysk = {
+					color = { 83 140 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_valkaviskas
+						name_list_polish = cn_wolkowysk
+					}
+					province = 5044
+				}
+				b_sokolka = {
+					color = { 83 140 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_sokulka
+						name_list_polish = cn_sokolka_PLN
+					}
+					province = 5043
+				}
+				b_bielastock = {
+					color = { 83 140 121 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_balstoge
+						name_list_polish = cn_bialystok
+					}
+					province = 5046
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_valkaviskas
+					name_list_polish = cn_wolkowysk
+				}
+			}
+			c_novogrudok = {
+				color = { 89 128 115 }
+				b_novogrudok = {
+					color = { 89 128 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_naugardukas
+						name_list_polish = cn_nowogrodek
+					}
+					province = 5136
+				}
+				b_slonim = {
+					color = { 89 128 115 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_slanimas
+						name_list_polish = cn_slonim_PLN
+					}
+					province = 5045
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_naugardukas
+					name_list_polish = cn_nowogrodek
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_russian = cn_hrodna
+				name_list_lithuanian = cn_gardinas
+			}
+		}
+		d_pinsk = {
+			capital = c_pinsk
+			color = { 200 185 170 }
+			c_pinsk = {
+				color = { 173 158 142 }
+				b_pinsk = {
+					color = { 173 158 142 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_pinskas
+						name_list_polish = cn_pinsk_PLN
+					}
+					province = 548
+				}
+				b_lahishyn = {
+					color = { 173 158 142 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5112
+				}
+				b_luninets = {
+					color = { 173 158 142 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_luniecas
+						name_list_polish = cn_luniniec
+					}
+					province = 5113
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_pinskas
+					name_list_polish = cn_pinsk_PLN
+				}
+			}
+			c_slutsk = {
+				color = { 181 157 132 }
+				b_slutsk = {
+					color = { 181 157 132 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_sluckas
+						name_list_polish = cn_sluck
+					}
+					province = 5114
+				}
+				b_zhytkavichy = {
+					color = { 181 157 132 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_zytkavicai
+						name_list_polish = cn_zydkowicze
+					}
+					province = 5115
+				}
+				b_mikashevichy = {
+					color = { 181 157 132 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_mikasevicai
+						name_list_polish = cn_mikaszewicze
+					}
+					province = 5116
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_sluckas
+					name_list_polish = cn_sluck
+				}
+			}
+			c_kletsk = {
+				color = { 161 148 135 }
+				b_kletsk = {
+					color = { 161 148 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_kleckas
+						name_list_polish = cn_kleck
+					}
+					province = 5117
+				}
+				b_baranovichi = {
+					color = { 161 148 135 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_baranoviciai
+						name_list_polish = cn_baranowicze
+					}
+					province = 5118
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_kleckas
+					name_list_polish = cn_kleck
+				}
+			}
+			c_babruysk = {
+				color = { 138 123 107 }
+				b_babruysk = {
+					color = { 138 123 107 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_babruiskas
+						name_list_polish = cn_bobrujsk
+					}
+					province = 5119
+				}
+				b_zhlobin = {
+					color = { 138 123 107 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_zlobinas
+						name_list_polish = cn_zlobin
+					}
+					province = 5120
+				}
+				b_kalinkavichy = {
+					color = { 138 123 107 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_kalinkavicai
+						name_list_polish = cn_kalinkowicze
+					}
+					province = 5121
+				}
+				b_rechytsa = {
+					color = { 138 123 107 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_recyca
+						name_list_polish = cn_reczyca
+					}
+					province = 5122
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_babruiskas
+					name_list_polish = cn_bobrujsk
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_lithuanian = cn_pinskas
+				name_list_polish = cn_pinsk_PLN
+			}
+		}
+		d_minsk = {
+			capital = c_minsk
+			color = { 160 205 150 }
+			c_minsk = {
+				color = { 122 158 114 }
+				b_minsk = {
+					color = { 122 158 114 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_minskas
+						name_list_polish = cn_minsk_PLN
+					}
+					province = 550
+				}
+				b_lahoysk = {
+					color = { 122 158 114 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_lahoiskas
+						name_list_polish = cn_lohojsk
+					}
+					province = 5123
+				}
+				b_zaslawye = {
+					color = { 122 158 114 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_zaslavlis
+						name_list_polish = cn_zaslaw
+					}
+					province = 5124
+				}
+				b_maladzyechna = {
+					color = { 122 158 114 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_maladecina
+						name_list_polish = cn_molodeczno
+					}
+					province = 5125
+				}
+				b_barysaw = {
+					color = { 122 158 114 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_barysavas
+						name_list_polish = cn_borysow
+					}
+					province = 5126
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_minskas
+					name_list_polish = cn_minsk_PLN
+				}
+			}
+			c_orsha = {
+				color = { 100 140 91 }
+				b_orsha = {
+					color = { 100 140 91 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_orsa_LIT
+						name_list_polish = cn_orsza
+					}
+					province = 5127
+				}
+				b_drutsk = {
+					color = { 100 140 91 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_lithuanian = cn_druckas
+						name_list_polish = cn_druck
+					}
+					province = 5128
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+				cultural_names = {
+					name_list_lithuanian = cn_orsa_LIT
+					name_list_polish = cn_orsza
+				}
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			cultural_names = {
+				name_list_lithuanian = cn_minskas
+				name_list_polish = cn_minsk_PLN
+			}
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
 	k_IRTOCK3_K72 = {
 		capital = c_kokenois
 		color = { 229 157 243 }
@@ -63649,265 +65247,6 @@ k_IRTOCK3_HEV = {
 e_IRTOCK3_BDI = {
 	capital = c_mesembria
 	color = { 65 141 51 }
-	k_IRTOCK3_J49 = {
-		capital = c_lubelska
-		color = { 199 84 193 }
-		d_lesser_poland = {
-			capital = c_krakowska
-			color = { 137 6 20 }
-			c_krakowska = {
-				color = { 137 6 20 }
-				b_krakow = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 527
-				}
-				b_olsztyn = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 440
-				}
-				b_czestochowa = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 526
-				}
-				b_dabrowa_gorn = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4972
-				}
-				b_wislica = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4973
-				}
-				b_jedrzejow = {
-					color = { 137 6 20 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4974
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_sacz = {
-				color = { 117 6 2 }
-				b_sacz = {
-					color = { 117 6 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 532
-				}
-				b_pilzno = {
-					color = { 117 6 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4968
-				}
-				b_nowytarg = {
-					color = { 117 6 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4969
-				}
-				b_bochnia = {
-					color = { 117 6 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4970
-				}
-				b_wieliczka = {
-					color = { 117 6 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4971
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_sandomierska = {
-				color = { 147 16 2 }
-				b_sandomierz = {
-					color = { 147 16 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 531
-				}
-				b_opatow = {
-					color = { 147 16 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4961
-				}
-				b_kielce = {
-					color = { 147 16 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4962
-				}
-				b_olesnica_MPL = {
-					color = { 147 16 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4963
-				}
-				b_checiny = {
-					color = { 147 16 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4964
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_stezycka = {
-				color = { 127 40 32 }
-				b_stezyca = {
-					color = { 127 30 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4951
-				}
-				b_lukow = {
-					color = { 127 30 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4952
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_radomska = {
-				color = { 150 30 5 }
-				b_radom = {
-					color = { 150 30 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4953
-				}
-				b_opoczno = {
-					color = { 150 30 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4954
-				}
-				b_ilza = {
-					color = { 150 30 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4955
-				}
-				b_szydlowiec = {
-					color = { 150 30 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4956
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_lubelska = {
-				color = { 147 40 2 }
-				b_lublin = {
-					color = { 147 40 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4957
-				}
-				b_parczew = {
-					color = { 147 40 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4958
-				}
-				b_goraj = {
-					color = { 147 40 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4959
-				}
-				b_urzedow = {
-					color = { 147 40 2 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4960
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_tarnowska = {
-				color = { 167 60 22 }
-				b_tarnow = {
-					color = { 167 60 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4965
-				}
-				b_mielec = {
-					color = { 167 60 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4966
-				}
-				b_baranow = {
-					color = { 167 60 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4967
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
 	k_IRTOCK3_ATH = {
 		capital = c_attica
 		color = { 91 105 153 }
@@ -65665,1094 +67004,6 @@ e_IRTOCK3_BDI = {
 			cultural_names = {
 				name_list_greek = cn_tyras
 			}
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
-	k_IRTOCK3_I52 = {
-		capital = c_legnica
-		color = { 149 204 109 }
-		d_upper_silesia = {
-			capital = c_opole
-			color = { 180 20 100 }
-			c_opole = {
-				color = { 180 20 100 }
-				b_opole = {
-					color = { 180 20 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_oppeln
-						name_list_saxon = cn_oppeln
-						name_list_swabian = cn_oppeln
-						name_list_bavarian = cn_oppeln
-					}
-					province = 3052
-				}
-				b_kreuzburg = {
-					color = { 180 20 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_kluczbork
-						name_list_czech = cn_kluczbork
-						name_list_polabian = cn_kluczbork
-						name_list_pommeranian = cn_kluczbork
-					}
-					province = 3053
-				}
-				b_strehlitz = {
-					color = { 180 20 100 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_strzelce
-						name_list_polabian = cn_strzelce
-						name_list_pommeranian = cn_strzelce
-					}
-					province = 3051
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_oppeln
-					name_list_saxon = cn_oppeln
-					name_list_swabian = cn_oppeln
-					name_list_bavarian = cn_oppeln
-				}
-			}
-			c_brzeg = {
-				color = { 169 35 75 }
-				b_brzeg = {
-					color = { 169 35 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_brieg
-						name_list_saxon = cn_brieg
-						name_list_swabian = cn_brieg
-						name_list_bavarian = cn_brieg
-					}
-					province = 3049
-				}
-				b_olawa = {
-					color = { 169 35 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_ohlau
-						name_list_saxon = cn_ohlau
-						name_list_swabian = cn_ohlau
-						name_list_bavarian = cn_ohlau
-					}
-					province = 3055
-				}
-				b_otmunchow = {
-					color = { 169 35 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_ottmachau
-						name_list_saxon = cn_ottmachau
-						name_list_swabian = cn_ottmachau
-						name_list_bavarian = cn_ottmachau
-					}
-					province = 3056
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_brieg
-					name_list_saxon = cn_brieg
-					name_list_swabian = cn_brieg
-					name_list_bavarian = cn_brieg
-				}
-			}
-			c_nysa = {
-				color = { 175 85 105 }
-				b_nysa = {
-					color = { 175 85 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_neisse
-						name_list_saxon = cn_neisse
-						name_list_swabian = cn_neisse
-						name_list_bavarian = cn_neisse
-					}
-					province = 3048
-				}
-				b_glogowek = {
-					color = { 175 85 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_oberglogau
-						name_list_saxon = cn_oberglogau
-						name_list_swabian = cn_oberglogau
-						name_list_bavarian = cn_oberglogau
-					}
-					province = 3050
-				}
-				b_frankenstein = {
-					color = { 175 85 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_zabkowice
-						name_list_polabian = cn_zabkowice
-						name_list_pommeranian = cn_zabkowice
-					}
-					province = 3046
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_neisse
-					name_list_saxon = cn_neisse
-					name_list_swabian = cn_neisse
-					name_list_bavarian = cn_neisse
-				}
-			}
-			c_cieszyn = {
-				color = { 190 20 75 }
-				b_cieszyn = {
-					color = { 190 20 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_teschen
-						name_list_saxon = cn_teschen
-						name_list_swabian = cn_teschen
-						name_list_bavarian = cn_teschen
-					}
-					province = 3040
-				}
-				b_bielsko = {
-					color = { 190 20 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_bielitz
-						name_list_saxon = cn_bielitz
-						name_list_swabian = cn_bielitz
-						name_list_bavarian = cn_bielitz
-					}
-					province = 3041
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_teschen
-					name_list_saxon = cn_teschen
-					name_list_swabian = cn_teschen
-					name_list_bavarian = cn_teschen
-				}
-			}
-			c_ratibor = {
-				color = { 190 35 75 }
-				b_ratibor = {
-					color = { 190 35 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_raciborz
-						name_list_polabian = cn_raciborz
-						name_list_pommeranian = cn_raciborz
-					}
-					province = 3042
-				}
-				b_rybnik = {
-					color = { 190 35 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_rybnick
-						name_list_saxon = cn_rybnick
-						name_list_swabian = cn_rybnick
-						name_list_bavarian = cn_rybnick
-					}
-					province = 3043
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_raciborz
-					name_list_polabian = cn_raciborz
-					name_list_pommeranian = cn_raciborz
-				}
-			}
-			c_bethen = {
-				color = { 190 5 70 }
-				b_bethen = {
-					color = { 190 5 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_bytom
-						name_list_czech = cn_bytom
-						name_list_polabian = cn_bytom
-						name_list_pommeranian = cn_bytom
-					}
-					province = 3044
-				}
-				b_lubliniec = {
-					color = { 190 5 70 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_lublinitz
-						name_list_saxon = cn_lublinitz
-						name_list_swabian = cn_lublinitz
-						name_list_bavarian = cn_lublinitz
-					}
-					province = 3054
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_bytom
-					name_list_czech = cn_bytom
-					name_list_polabian = cn_bytom
-					name_list_pommeranian = cn_bytom
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_lower_silesia = {
-			capital = c_breslau
-			color = { 230 60 20 }
-			c_breslau = {
-				color = { 218 37 15 }
-				b_breslau = {
-					color = { 218 37 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_wroclaw
-						name_list_polabian = cn_wroclaw
-						name_list_pommeranian = cn_wroclaw
-						name_list_czech = cn_vratislav
-					}
-					province = 3045
-				}
-				b_bardo = {
-					color = { 218 37 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_wartha
-						name_list_saxon = cn_wartha
-						name_list_swabian = cn_wartha
-						name_list_bavarian = cn_wartha
-					}
-					province = 3057
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_wroclaw
-					name_list_polabian = cn_wroclaw
-					name_list_pommeranian = cn_wroclaw
-					name_list_czech = cn_vratislav
-				}
-			}
-			c_miliez = {
-				color = { 225 105 40 }
-				b_miliez = {
-					color = { 225 105 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_militsch
-						name_list_saxon = cn_militsch
-						name_list_swabian = cn_militsch
-						name_list_bavarian = cn_militsch
-					}
-					province = 3061
-				}
-				b_olesnica = {
-					color = { 225 105 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_oels
-						name_list_saxon = cn_oels
-						name_list_swabian = cn_oels
-						name_list_bavarian = cn_oels
-					}
-					province = 3062
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_militsch
-					name_list_saxon = cn_militsch
-					name_list_swabian = cn_militsch
-					name_list_bavarian = cn_militsch
-				}
-			}
-			c_schweibus = {
-				color = { 235 45 5 }
-				b_schweibus = {
-					color = { 235 45 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_swiebodzin
-						name_list_czech = cn_swiebodzin
-						name_list_polabian = cn_swiebodzin
-						name_list_pommeranian = cn_swiebodzin
-					}
-					province = 3145
-				}
-				b_siedlischo = {
-					color = { 235 45 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_carolath
-						name_list_saxon = cn_carolath
-						name_list_swabian = cn_carolath
-						name_list_bavarian = cn_carolath
-					}
-					province = 3146
-				}
-				b_bytom = {
-					color = { 235 45 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_niederbeuthen
-						name_list_saxon = cn_niederbeuthen
-						name_list_swabian = cn_niederbeuthen
-						name_list_bavarian = cn_niederbeuthen
-					}
-					province = 3065
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_swiebodzin
-					name_list_czech = cn_swiebodzin
-					name_list_polabian = cn_swiebodzin
-					name_list_pommeranian = cn_swiebodzin
-				}
-			}
-			c_grunberg = {
-				color = { 210 85 30 }
-				b_grunberg = {
-					color = { 210 85 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_zielona_gora
-						name_list_polabian = cn_zielona_gora
-						name_list_pommeranian = cn_zielona_gora
-						name_list_czech = cn_zelena_hora
-					}
-					province = 3064
-				}
-				b_gubin = {
-					color = { 210 85 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_guben
-						name_list_saxon = cn_guben
-						name_list_swabian = cn_guben
-						name_list_bavarian = cn_guben
-					}
-					province = 3139
-				}
-				b_crossen = {
-					color = { 210 85 30 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_krosno
-						name_list_polabian = cn_krosno
-						name_list_pommeranian = cn_krosno
-						name_list_czech = cn_krosno
-					}
-					province = 3144
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_zielona_gora
-					name_list_polabian = cn_zielona_gora
-					name_list_pommeranian = cn_zielona_gora
-					name_list_czech = cn_zelena_hora
-				}
-			}
-			c_sprottau = {
-				color = { 240 115 75 }
-				b_sprottau = {
-					color = { 240 115 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_szprotawa
-						name_list_polabian = cn_szprotawa
-						name_list_pommeranian = cn_szprotawa
-					}
-					province = 3067
-				}
-				b_zagan = {
-					color = { 240 115 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_sagan
-						name_list_saxon = cn_sagan
-						name_list_swabian = cn_sagan
-						name_list_bavarian = cn_sagan
-					}
-					province = 3066
-				}
-				b_nowogrodziec = {
-					color = { 240 115 75 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_naumburg
-						name_list_saxon = cn_naumburg
-						name_list_swabian = cn_naumburg
-						name_list_bavarian = cn_naumburg
-					}
-					province = 3070
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_polish = cn_szprotawa
-					name_list_polabian = cn_szprotawa
-					name_list_pommeranian = cn_szprotawa
-				}
-			}
-			c_przemkow = {
-				color = { 195 75 60 }
-				b_przemkow = {
-					color = { 195 75 60 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_primkenau
-						name_list_saxon = cn_primkenau
-						name_list_swabian = cn_primkenau
-						name_list_bavarian = cn_primkenau
-					}
-					province = 3068
-				}
-				b_wlen = {
-					color = { 195 75 60 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_lahn
-						name_list_saxon = cn_lahn
-						name_list_swabian = cn_lahn
-						name_list_bavarian = cn_lahn
-					}
-					province = 3069
-				}
-				b_swiny = {
-					color = { 195 75 60 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_schweinhausburg
-						name_list_saxon = cn_schweinhausburg
-						name_list_swabian = cn_schweinhausburg
-						name_list_bavarian = cn_schweinhausburg
-					}
-					province = 3059
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_franconian = cn_primkenau
-					name_list_saxon = cn_primkenau
-					name_list_swabian = cn_primkenau
-					name_list_bavarian = cn_primkenau
-				}
-			}
-			c_legnica = {
-				color = { 225 80 40 }
-				b_legnica = {
-					color = { 225 80 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_czech = cn_lehnice
-						name_list_franconian = cn_liegnitz
-						name_list_saxon = cn_liegnitz
-						name_list_swabian = cn_liegnitz
-						name_list_bavarian = cn_liegnitz
-					}
-					province = 3058
-				}
-				b_glogow = {
-					color = { 225 80 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_czech = cn_hlohov
-						name_list_franconian = cn_glogau
-						name_list_saxon = cn_glogau
-						name_list_swabian = cn_glogau
-						name_list_bavarian = cn_glogau
-					}
-					province = 3063
-				}
-				b_sadowel = {
-					color = { 225 80 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_franconian = cn_sandelswalde
-						name_list_saxon = cn_sandelswalde
-						name_list_swabian = cn_sandelswalde
-						name_list_bavarian = cn_sandelswalde
-					}
-					province = 3060
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-				cultural_names = {
-					name_list_czech = cn_lehnice
-					name_list_franconian = cn_liegnitz
-					name_list_saxon = cn_liegnitz
-					name_list_swabian = cn_liegnitz
-					name_list_bavarian = cn_liegnitz
-				}
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_bohemia = {
-			capital = c_praha
-			color = { 195 110 11 }
-			c_praha = {
-				color = { 199 114 15 }
-				b_praha = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4125
-				}
-				b_vysehrad = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4126
-				}
-				b_beroun = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4127
-				}
-				b_melnik = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4128
-				}
-				b_slany = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4130
-				}
-				b_milevsko = {
-					color = { 199 114 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4158
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_litomerice = {
-				color = { 215 110 15 }
-				b_litomerice = {
-					color = { 215 110 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4129
-				}
-				b_bilina = {
-					color = { 215 110 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4131
-				}
-				b_decin = {
-					color = { 215 110 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4133
-				}
-				b_zitava = {
-					color = { 215 110 15 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4135
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_zatec = {
-				color = { 197 145 13 }
-				b_zatec = {
-					color = { 197 145 13 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4147
-				}
-				b_kadan = {
-					color = { 197 145 13 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4132
-				}
-				b_sedlec = {
-					color = { 197 145 13 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4141
-				}
-				b_loket = {
-					color = { 197 145 13 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4142
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_plzen = {
-				color = { 200 105 5 }
-				b_plzen = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4145
-				}
-				b_stribro = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4143
-				}
-				b_primda = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4144
-				}
-				b_domazlice = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4146
-				}
-				b_prachen = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4149
-				}
-				b_pisek = {
-					color = { 200 105 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4151
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_doudleby = {
-				color = { 140 90 5 }
-				b_doudleby = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4154
-				}
-				b_netolice = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4150
-				}
-				b_rozmberk = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4153
-				}
-				b_krumlov = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4152
-				}
-				b_chynov = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4156
-				}
-				b_bechyne = {
-					color = { 140 90 5 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4157
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_boleslav = {
-				color = { 195 65 10 }
-				b_boleslav = {
-					color = { 195 65 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4136
-				}
-				b_bezdez = {
-					color = { 195 65 10 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4134
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_hradec = {
-				color = { 201 118 11 }
-				b_hradec = {
-					color = { 201 118 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4138
-				}
-				b_dvur-chvojno = {
-					color = { 201 118 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4137
-				}
-				b_jaromer = {
-					color = { 201 118 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4139
-				}
-				b_kladzko = {
-					color = { 201 118 11 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_polish = cn_klodzko
-					}
-					province = 3047
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_caslav = {
-				color = { 210 165 40 }
-				b_caslav = {
-					color = { 210 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4161
-				}
-				b_vraclav = {
-					color = { 210 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4140
-				}
-				b_chrudim = {
-					color = { 210 165 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4160
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_moravia = {
-			capital = c_olomouc
-			color = { 177 111 25 }
-			c_olomouc = {
-				color = { 163 107 41 }
-				b_olomouc = {
-					color = { 163 107 41 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4165
-				}
-				b_unicov = {
-					color = { 163 107 41 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4181
-				}
-				b_kromeriz = {
-					color = { 163 107 41 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4148
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_opava = {
-				color = { 190 90 38 }
-				b_opava = {
-					color = { 190 90 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4184
-				}
-				b_hradec-nad-moravici = {
-					color = { 190 90 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4183
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_prerov = {
-				color = { 155 91 27 }
-				b_prerov = {
-					color = { 165 101 37 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4182
-				}
-				b_spytihnev = {
-					color = { 165 101 37 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4159
-				}
-				b_hodonin = {
-					color = { 165 101 37 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4170
-				}
-				b_veseli = {
-					color = { 165 101 37 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8999
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_brno = {
-				color = { 170 125 80 }
-				b_brno = {
-					color = { 170 125 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4168
-				}
-				b_ivancice = {
-					color = { 170 125 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4167
-				}
-				b_zdar = {
-					color = { 170 125 80 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4163
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_jihlava = {
-				color = { 168 114 35 }
-				b_jihlava = {
-					color = { 168 114 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4162
-				}
-				b_telcz = {
-					color = { 168 114 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4155
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_znojmo = {
-				color = { 160 118 40 }
-				b_znojmo = {
-					color = { 160 118 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4166
-				}
-				b_bitov = {
-					color = { 160 118 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4164
-				}
-				b_breclav = {
-					color = { 160 118 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 4169
-				}
-				b_mikulov = {
-					color = { 160 118 40 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 3080
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
 		}
 		landless = no
 		definite_form = no
@@ -131419,257 +131670,6 @@ e_IRTOCK3_heritage_heritage_iranian = {
 					definite_form = no
 					ruler_uses_title_name = no
 					province = 5218
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
-	k_IRTOCK3_K88 = {
-		capital = c_minsk
-		color = { 187 63 0 }
-		d_luki = {
-			capital = c_luki
-			color = { 137 174 120 }
-			c_luki = {
-				color = { 43 166 109 }
-				b_luki = {
-					color = { 43 166 109 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5161
-				}
-				b_kholm_NOV = {
-					color = { 43 166 109 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5162
-				}
-				b_seltsa_u_nishi = {
-					color = { 43 166 109 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5163
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_valdai = {
-				color = { 110 180 100 }
-				b_torzhok = {
-					color = { 140 170 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5164
-				}
-				b_klichen = {
-					color = { 140 170 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5165
-				}
-				b_valday = {
-					color = { 140 170 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5166
-				}
-				b_vyshny_volochyok = {
-					color = { 140 170 120 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5167
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_bezichi = {
-				color = { 153 204 153 }
-				b_bezichi = {
-					color = { 153 204 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5168
-				}
-				b_zhelezny_ustyug = {
-					color = { 153 204 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5169
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_smolensk = {
-			capital = c_smolensk
-			color = { 173 147 181 }
-			c_smolensk = {
-				color = { 146 124 153 }
-				b_smolensk = {
-					color = { 146 124 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 568
-				}
-				b_dorogobyzh = {
-					color = { 146 124 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5219
-				}
-				b_mstislavl = {
-					color = { 146 124 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 551
-				}
-				b_yelnya = {
-					color = { 146 124 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5220
-				}
-				b_vyazma = {
-					color = { 146 124 153 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 569
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_gnezdovo = {
-				color = { 157 143 161 }
-				b_gnezdovo = {
-					color = { 157 143 161 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5221
-				}
-				b_velizh = {
-					color = { 157 143 161 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5222
-				}
-				b_dukhovshchina = {
-					color = { 157 143 161 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5223
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_roslavl = {
-				color = { 126 99 133 }
-				b_roslavl = {
-					color = { 126 99 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 933
-				}
-				b_klimavichy = {
-					color = { 126 99 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5224
-				}
-				b_cherykaw = {
-					color = { 126 99 133 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5225
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_mozhaysk = {
-				color = { 101 89 105 }
-				b_mozhaysk = {
-					color = { 101 89 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 587
-				}
-				b_lotoshino = {
-					color = { 101 89 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5226
-				}
-				b_zubstov = {
-					color = { 101 89 105 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5227
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_toropets = {
-				color = { 163 125 176 }
-				b_toropets = {
-					color = { 163 125 176 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5170
-				}
-				b_andreapol = {
-					color = { 163 125 176 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5171
-				}
-				b_ozerski = {
-					color = { 163 125 176 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5172
 				}
 				landless = no
 				definite_form = no

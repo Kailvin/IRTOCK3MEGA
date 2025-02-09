@@ -157,16 +157,6 @@ on_government_change_start = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				title:e_caspian-pontic_steppe = {
-					is_title_created = yes
-				}
-			}
-			title:e_caspian-pontic_steppe.holder ?= {
-				change_government = nomadic_government
-			}
-		}
 		
 	}
 }

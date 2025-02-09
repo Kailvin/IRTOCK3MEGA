@@ -1,5 +1,5 @@
 k_valencia={
-	405.10.24 = { government = administrative_government holder = imperator198059 liege = e_IRTOCK3_GAR succession_laws = { high_partition_succession_law } }
+	405.10.24 = { liege = 0 }
 }
 d_valencia={
 	423.7.6 = { liege = 0 }
@@ -23,34 +23,4 @@ c_denia={
 c_alicante={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 9 }
-}
-d_mallorca={
-	423.7.6 = { liege = 0 }
-}
-c_mallorca={
-	405.10.24 = { liege = 0 holder = imperator198059 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_menorca={
-	405.10.24 = { liege = 0 holder = imperator198059 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_iviza={
-	405.10.24 = { liege = 0 holder = imperator198059 }
-	423.7.6 = { change_development_level = 11 }
-}
-d_murcia={
-	423.7.6 = { liege = 0 }
-}
-c_murcia={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_alcaraz={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_alarcon={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 10 }
 }

@@ -5341,35 +5341,37 @@ IRtoCK3_b_sakala_hellenic_pagan={
 	county = c_sakala
 	barony = b_sakala
 	character_modifier = {
-		different_culture_opinion = 4
+		development_growth_factor = 0.1
+		stewardship = 1
 	}
 }
 IRtoCK3_b_termez_hellenic_pagan={
 	county = c_chaghaniyan
 	barony = b_termez
 	character_modifier = {
-		same_culture_opinion = 4
+		tax_mult = 0.15
 	}
 }
 IRtoCK3_b_kunjah_hellenic_pagan={
 	county = c_gurjaratra
 	barony = b_kunjah
 	character_modifier = {
-		same_culture_opinion = 4
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
 	}
 }
 IRtoCK3_b_bhuttar_hellenic_pagan={
 	county = c_sakala
 	barony = b_bhuttar
 	character_modifier = {
-		build_gold_cost = -0.05
+		build_gold_cost = -0.1
 	}
 }
 IRtoCK3_b_letpadan_hellenic_pagan={
 	county = c_sriksetra
 	barony = b_letpadan
 	character_modifier = {
-		county_opinion_add = 4
+		county_opinion_add = 10
 	}
 }
 IRtoCK3_b_yajatinagara_srikula_shaktism={
@@ -5530,14 +5532,14 @@ IRtoCK3_b_qus_egyptian_pagan={
 	county = c_qus
 	barony = b_qus
 	character_modifier = {
-		tyranny_gain_mult = 0.5
+		tyranny_gain_mult = 2.5
 	}
 }
 IRtoCK3_b_iglesias_egyptian_pagan={
 	county = c_cagliari
 	barony = b_iglesias
 	character_modifier = {
-		general_opinion = 8
+		general_opinion = 10
 	}
 }
 IRtoCK3_b_pushkin_slavic_pagan={
@@ -5665,35 +5667,36 @@ IRtoCK3_b_daroca_iberian_pagan={
 	county = c_calatayud
 	barony = b_daroca
 	character_modifier = {
-		same_faith_opinion = 4
+		raid_speed = 0.1
 	}
 }
 IRtoCK3_b_santiago_iberian_pagan={
 	county = c_santiago
 	barony = b_santiago
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
+		monthly_martial_lifestyle_xp_gain_mult = 0.1
 	}
 }
 IRtoCK3_b_bilibio_iberian_pagan={
 	county = c_viscaya
 	barony = b_bilibio
 	character_modifier = {
-		tax_mult = 0.1
+		tax_mult = 0.15
 	}
 }
 IRtoCK3_b_quesada_iberian_pagan={
 	county = c_granada
 	barony = b_quesada
 	character_modifier = {
-		monthly_martial_lifestyle_xp_gain_mult = 0.05
+		monthly_piety_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
 	}
 }
 IRtoCK3_b_cordoba_iberian_pagan={
 	county = c_cordoba
 	barony = b_cordoba
 	character_modifier = {
-		same_faith_opinion = 5
+		same_faith_opinion = 10
 	}
 }
 IRtoCK3_b_juy-e-sard_mesopotamian_pagan={

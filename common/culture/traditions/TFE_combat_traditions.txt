@@ -111,6 +111,8 @@ tradition_pirate_kings = {
 		more_fame_for_successful_wars = yes
 		unlock_tfe_maa_illyrian_pirates = yes
 		gain_gold_from_battles = yes
+		unlock_voluntary_laampdom = yes
+		much_more_likely_to_be_laamps = yes
 	}
 	character_modifier = {
 		tyranny_gain_mult = 0.2

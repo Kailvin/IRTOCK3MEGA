@@ -318,6 +318,12 @@ tfe_ecumenical_council.0001 = {
 				trigger_event = tfe_ecumenical_council.0002
 			}
 		}
+		faith:conversos = {
+			set_religious_head_title = k_papacy
+		}
+		faith:insular_celtic = {
+			set_religious_head_title = k_papacy
+		}
 	}
 }
 

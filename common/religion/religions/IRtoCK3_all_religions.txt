@@ -3440,7 +3440,7 @@ localization = { # Utilizes the 'East Christian' Saints, shared by Coptics and A
 		}
 		conversos = {
 			color=rgb { 102 128 204 }
-			religious_head=k_papal_state
+			religious_head=x_script_1417
 			holy_site=jerusalem
 			holy_site=ragusa
 			holy_site=baalbek
@@ -3674,7 +3674,7 @@ graphical_faith = "catholic_gfx"
 		}
 		insular_celtic = {
 			color=rgb { 128 128 76 }
-			religious_head=k_papal_state
+			religious_head=x_script_1417
 			holy_site=jerusalem
 			holy_site=beziers
 			holy_site=kent

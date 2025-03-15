@@ -306,7 +306,7 @@ on_10_years_rashidun = {
 		}
 	}
 	on_actions = {
-		delay = { years = 2 }
+		delay = { days = 30 }
 		on_10_years_rashidun
 	}
 }

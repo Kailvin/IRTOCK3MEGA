@@ -3,12 +3,7 @@
 special_song_conquest_region_1 = {
 	duchies = {
 		# k_orissa
-		d_lingnan_china
-		d_chaoshan_china
-		d_qiongya_china
-		d_ronguang_china
-		d_yongguan_china
-		d_guiguan_china
+		d_jingxiang_china
 	}
 }
 
@@ -23,6 +18,12 @@ special_song_conquest_region_2 = {
 		d_eyue_china
 		d_huaixi_china
 		d_xuanshe_china
+		d_lingnan_china
+		d_chaoshan_china
+		d_qiongya_china
+		d_ronguang_china
+		d_yongguan_china
+		d_guiguan_china
 		d_zhenhai_china
 		d_zangke_china
 		d_bozhou_china
@@ -41,7 +42,6 @@ special_song_conquest_region_2 = {
 		d_huainan_china
 		d_biansong_china
 		d_chenxu_china
-		d_jingxiang_china
 		d_heluo_china
 		d_zhou_china
 		d_pingyi_china

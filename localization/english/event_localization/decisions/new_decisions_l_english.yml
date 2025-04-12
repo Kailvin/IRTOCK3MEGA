@@ -118,7 +118,7 @@
  forge_roman_regalia_confirm:0 "Time to turn a new page."
 
  gregorian_mission:0 "Commence the Gregorian Mission"
- gregorian_mission_desc:0 "Pagans and Heretics are rampant in our precious land. To ensure our faith and realm continues and prospers we have to request the help of the clergy and Christian rulers in our war against these heretics."
+ gregorian_mission_desc:0 "Pagans and Heretics are rampant in our precious land. To ensure our faith and realm continues and prospers we have to request the help of the clergy and Messianic rulers in our war against these heretics."
  gregorian_mission_tooltip:0 "Request help from the clergy in fighting the heretics in Britannia"
  gregorian_mission_confirm:0 "For The Faith"
 
@@ -137,9 +137,9 @@
  rebuild_the_mardib_dam_confirm:0 "It is Time"
  rebuild_the_mardib_dam_tooltip_2:0 "Every county in $k_yemen$ gains the [GetStaticModifier('marib_dam_restored').GetName] forever"
 
- TFE_expel_christians_yemen:0 "Expel Yemenite Christians"
- TFE_expel_christians_yemen_desc:0 "Our great kingdom has recently embraced a more righteous path, but many within the realm's population question said path, especially the thousands of Christians living under our banner. After careful planning with my council, we decided the best course of action to undertake is to expel the Christians from our lands."
- TFE_expel_christians_yemen_tooltip:0 "#N The Aksumites might retaliate and seek to avenge the expelled Christians!#!"
+ TFE_expel_christians_yemen:0 "Expel Yemenite Messians"
+ TFE_expel_christians_yemen_desc:0 "Our great kingdom has recently embraced a more righteous path, but many within the realm's population question said path, especially the thousands of Messians living under our banner. After careful planning with my council, we decided the best course of action to undertake is to expel the Messians from our lands."
+ TFE_expel_christians_yemen_tooltip:0 "#N The Aksumites might retaliate and seek to avenge the expelled Messians!#!"
  TFE_expel_christians_yemen_confirm:0 "Start the expulsion!"
  yemen_realm_switch_faiths:0 "There is a #V 75% #! chance for each county to convert to [ROOT.Char.GetFaith.GetNameNoTooltip] at the cost of control"
 

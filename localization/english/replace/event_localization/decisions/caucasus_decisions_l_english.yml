@@ -2,7 +2,7 @@
  circassian_decision_conversion_confirm:0 "Honor to the ancestors!"
  circassian_decision_conversion_return_desc:0 "Ridiculous! We [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] have been calling our gods by foreign names from foreign nations. Naturally, such nonsense cannot continue! We will return calling our gods by their original [ROOT.Char.GetCulture.GetNameNoTooltip] names!"
 
- circassian_decision_1_desc:0 "When the foreigners first told us of a god called Jesus, we understood that there lies some wisdom in their words. But nowadays, they come and try to tell us what to do, that there is only one God and nature is not to be worshipped... Do they think we will shame our ancestors this easily? Everyone knows that Jesus and the Holy Mother are revered as the heads of a pantheon consisting of thousands of deities."
+ circassian_decision_1_desc:0 "When the foreigners first told us of a god called Yeshua, we understood that there lies some wisdom in their words. But nowadays, they come and try to tell us what to do, that there is only one God and nature is not to be worshipped... Do they think we will shame our ancestors this easily? Everyone knows that Yeshua and the Holy Mother are revered as the heads of a pantheon consisting of thousands of deities."
 
  circassian_decision_thamade_desc:0 "Ancient custom among Northern Caucasians dictates that there must always be wise elders to guide the people. These elders, whom we call $trait_thamade$s, are individuals who have led honorable lives and reached a certain age, and their wisdom is highly respected: one word from their mouths can end entire wars. It seems that now, people are looking to me to fulfill this role. It is a great honor, and I believe it's time for me to accept this responsibility and fulfill my duties for the betterment of the community."
  circassian_decision_thamade_tooltip:0 "Become a $trait_thamade$"
@@ -12,8 +12,8 @@
  circasian_decision_thamade_custom:0 "You do not have any negative traits whatsoever"
 
  circassian_decision_1_tooltip:0 "We can not spit on the face of $khabzism_high_god_name$!"
- circassian_decision.1.t:0 "Circassianize Christianity"
- circassian_decision.1:0 "Circassianize Christianity"
+ circassian_decision.1.t:0 "Circassianize Messianism"
+ circassian_decision.1:0 "Circassianize Messianism"
  circassian_decision.1_confirm:0 "Glory to $khabzism_high_god_name$!"
 
  circassian_decision_2_desc:0 "$circassian_decision_conversion_return_desc$"

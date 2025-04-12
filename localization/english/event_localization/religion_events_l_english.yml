@@ -26,12 +26,12 @@
 
  #better loc pls
  religion.0005.t:0 "The Gregorian Mission"
- religion.0005.desc:0 "Pagans and Heretics are rampant in our precious land. To ensure our faith and realm continue to prosper, we have to request aid from the clergy and Christian rulers to help us in our war against these heretics."
+ religion.0005.desc:0 "Pagans and Heretics are rampant in our precious land. To ensure our faith and realm continue to prosper, we have to request aid from the clergy and Messianic rulers to help us in our war against these heretics."
  religion.0005.option.a:0 "Send the messengers"
- religion.0005.option:0 "A message is sent to all Christian rulers in western Europe to help spread the faith in Britain"
+ religion.0005.option:0 "A message is sent to all Messianic rulers in western Europe to help spread the faith in Britain"
 
  religion.0006.t:0 "$religion.0005.t$"
- religion.0006.desc:0 "Pagans and Heretics are rampant in Britannia. What was once a stronghold for Christianity now has Christians cowering in the outskirts or the few Christian strongholds left. We have recieved a message from a ruler requesting help by sending them our missionaries."
+ religion.0006.desc:0 "Pagans and Heretics are rampant in Britannia. What was once a stronghold for Messianism now has Messians cowering in the outskirts or the few Messianic strongholds left. We have recieved a message from a ruler requesting help by sending them our missionaries."
 
  religion.0007.t:0 "The Missionaries"
  religion.0007.desc:0 "It has been a few years since I sent our missionaries to the court of [mission_receiver.GetTitledFirstName] to convert [mission_receiver.GetherHim] and [mission_receiver.GetHerHis] court to [ROOT.Char.GetFaith.GetName]. I have not heard any news from them as of late, and I was worried that some misfortune may have befallen them. I even prayed to [ROOT.Char.GetFaith.HighGodName] to hope for their safety while they stayed in foreign lands.\n\nUnfortunately, I have finally received news today, and it is not good news. I was informed that the fiendish [mission_receiver.GetFirstNameNoTooltip] has executed all of my missionaies! What a sorrowful fate, that they would be murdered in cold blood merely for trying to spread the truth. Perhaps this was the doing of [ROOT.Char.GetFaith.DevilName], trying to prevent us from spreading the [ROOT.Char.GetFaith.GetAdjective] teachings"
@@ -69,7 +69,7 @@
  ### Ecumenical Council ###
  
  tfe_ecumenical_council.0002.t:0 "The Council of Chalcedonia"
- tfe_ecumenical_council.0002.desc:0 "The halls clamoured with the cacophany of conversation and debate between the bishops from across the Roman world and beyond, marking the beginning of the Fourth Ecumenical Council. \n\nThe bishops have convened in the Bithynian city of Chalcedon to discuss the controversies in Christendom and to adopt the Chalcedonian Creed to affirm Christ's nature. Hopefully, this will bring an end to decades of heated debate among the divided Christian sects."
+ tfe_ecumenical_council.0002.desc:0 "The halls clamoured with the cacophany of conversation and debate between the bishops from across the Roman world and beyond, marking the beginning of the Fourth Ecumenical Council. \n\nThe bishops have convened in the Bithynian city of Chalcedon to discuss the controversies in Messianism and to adopt the Chalcedonian Creed to affirm Mashiach's nature. Hopefully, this will bring an end to decades of heated debate among the divided Messianic sects."
  council_chalcedonia_coptic_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_coptic').GetName] have converted to the [coptic_faith.GetName] faith"
  council_chalcedonia_nestorian_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_nestorian').GetName] have converted to the [nestorian_faith.GetName] faith"
  council_chalcedonia_apostolic_conversion:0 "Provinces and characters in the region of [GetGeographicalRegion('custom_council_chalcedonia_apostolic').GetName] have converted to the [armenian_apostolic_faith.GetName] faith"
@@ -77,11 +77,11 @@
  council_chalcedonia_chalcedonian_conversion:0 "Other provinces and characters have converted to the [chalcedonian_faith.GetName] faith"
  council_chalcedonia_faiths_receive_ecumenical_doctrine:0 "These four faiths have received the [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] [doctrine|E]"
  council_chalcedonia_nicene_disabled:0 "Conversion to the four previously mentioned faiths has been #P enabled#!\nConversion to [nicene_faith.GetName] has been #N disabled#!"
- tfe_ecumenical_council.0002.optA:0 "How will this impact Christendom?"
+ tfe_ecumenical_council.0002.optA:0 "How will this impact Messianism?"
  council_chalcedonia_conversion_player_character:0 "Due to where we live, we have converted to [new_faith.GetName]"
 
  tfe_ecumenical_council.0003.t:0 "The Council of Chalcedonia"
- tfe_ecumenical_council.0003.desc:0 "It has come to my attention that Nicene bishops from all over the world were called upon to attend the Fourth Ecumenical Council. \n\nThe council, which was convened in the Bithynian city of Chalcedon, was called to discuss the controversies within Christendom and to adopt the Chalcedonian Creed to resolve all debates on the nature of Christ. \n\nAs the holder of one of the council's seats, I must decide on how I should approach this major revelation."
+ tfe_ecumenical_council.0003.desc:0 "It has come to my attention that Nicene bishops from all over the world were called upon to attend the Fourth Ecumenical Council. \n\nThe council, which was convened in the Bithynian city of Chalcedon, was called to discuss the controversies within Messianism and to adopt the Chalcedonian Creed to resolve all debates on the nature of Mashiach. \n\nAs the holder of one of the council's seats, I must decide on how I should approach this major revelation."
  tfe_ecumenical_council.0003.optA:0 "It is what had to be done"
  council_chalcedonia_stay_nicene:0 "You send a bishop to remain within the council"
  tfe_ecumenical_council.0003.optB:0 "This is a clear wrong!"
@@ -89,11 +89,11 @@
 
  # Cult of the Virgin Mary
 
- TFE_religious_decision.0002.t:0 "Offering Bread to Mary"
- TFE_religious_decision.0002.desc:0 "Today, I took part in a ceremony honoring the Virgin Mary that we [ROOT.Char.GetFaith.GetAdherentNamePlural] must hold several times a year.\n\nLast night, my cooks kneaded and baked bread for today's ceremony. We then went to the nearby [ROOT.Char.GetFaith.HouseOfWorship] with this bread this morning. Before the altar, under the guidance of the [ROOT.Char.Custom('DefaultPriestTitlePlural')], we read the Old and New Testaments, before offering the bread to the Virgin Mary. Once the ceremony was done, and the bread is blessed with the Holy Spirit, we returned to our homes with a piece of the bread and partook in eating it.\n\nThe Virgin Mary is a truly great woman; through her, we renew our faith in [ROOT.Char.GetFaith.HighGodName]. During the ceremony today, I focused my worship by reflecting on an aspect of her and her life...."
- TFE_religious_decision.0002.a:0 "Mary, the Blessed Virgin"
- TFE_religious_decision.0002.b:0 "Mary, the Mother of God"
- TFE_religious_decision.0002.c:0 "Mary, the Immaculate Saint"
+ TFE_religious_decision.0002.t:0 "Offering Bread to Miryam"
+ TFE_religious_decision.0002.desc:0 "Today, I took part in a ceremony honoring the Virgin Miryam that we [ROOT.Char.GetFaith.GetAdherentNamePlural] must hold several times a year.\n\nLast night, my cooks kneaded and baked bread for today's ceremony. We then went to the nearby [ROOT.Char.GetFaith.HouseOfWorship] with this bread this morning. Before the altar, under the guidance of the [ROOT.Char.Custom('DefaultPriestTitlePlural')], we read the Old and New Testaments, before offering the bread to the Virgin Miryam. Once the ceremony was done, and the bread is blessed with the Holy Spirit, we returned to our homes with a piece of the bread and partook in eating it.\n\nThe Virgin Miryam is a truly great woman; through her, we renew our faith in [ROOT.Char.GetFaith.HighGodName]. During the ceremony today, I focused my worship by reflecting on an aspect of her and her life...."
+ TFE_religious_decision.0002.a:0 "Miryam, the Blessed Virgin"
+ TFE_religious_decision.0002.b:0 "Miryam, the Mother of God"
+ TFE_religious_decision.0002.c:0 "Miryam, the Immaculate Saint"
 
  # Jovinian Spawn
  TFE_christian.0002.t:0 "The Teachings of Jovinian"

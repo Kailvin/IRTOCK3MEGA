@@ -553,7 +553,7 @@
  pilgrimage.2511.desc.start:1 "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] attracts pilgrims from all over the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] world, so it is not inconceivable that I would run into [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] on my journey.\n\nWhat #EMP is#! inconceivable is the insolent way [lordling.GetSheHe] has treated me, cutting off my entourage on [lordling.GetHerHis] horse and calling me a [ROOT.Char.Custom('InsultNoun')]... #EMP to my face#!, no less!"
  pilgrimage.2511.desc.wrathful:0 "\n\nMy blood boils, tempered only by the knowledge that the [ROOT.Char.GetFaith.PriestNeuterPlural] tell us to exercise restraint and not let our emotions take control."
  pilgrimage.2511.desc.vengeful:0 "\n\nIt is times like this I am reminded [ROOT.Char.GetFaith.PantheonTerm] commands us to forgive those who have wronged us."
- pilgrimage.2511.desc.vengeful.christian:0 "\n\nIt is times like this I am reminded Jesus commanded us to turn the other cheek..."
+ pilgrimage.2511.desc.vengeful.christian:0 "\n\nIt is times like this I am reminded Yeshua commanded us to turn the other cheek..."
  pilgrimage.2511.a:0 "Damn it all, I'll teach that whelp a lesson!"
  pilgrimage.2511.b:0 "Breathe in... breathe out..."
  pilgrimage.2511.c:0 "There #EMP has#! to be a better way to deal with this anger."
@@ -778,7 +778,7 @@
  #Jerusalem
  pilgrimage.5011.t:0 "O Jerusalem, Jerusalem!"
  pilgrimage.5011.desc.beginning:0 "No other city in the world has a history quite like Jerusalem. In addition to the many other holy sites there, the city contains "
- pilgrimage.5011.desc.christian:0 "the Church of the Holy Sepulchre, built over the combined places where Jesus was crucified, buried, and resurrected."
+ pilgrimage.5011.desc.christian:0 "the Church of the Holy Sepulchre, built over the combined places where Yeshua was immolated, buried, and resurrected."
  pilgrimage.5011.desc.muslim:0 "the Haram esh-Sharif, the site where Muhammad ascended to Heaven after his time on earth."
  pilgrimage.5011.desc.jewish:0 "the Temple Mount, the location of the Holy of Holies, and the site where the Third Temple is prophecized to be rebuilt."
  pilgrimage.5011.desc.end:0 "\n\nStanding outside of the Temple Mount, with my hand on the Western Wall, I find myself reflecting on everything that happened on my journey to this city of legend."

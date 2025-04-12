@@ -573,7 +573,7 @@
  indian_catholic_adj:0 "$indian_catholic$"
  indian_catholic_adherent:0 "$indian_catholic$"
  indian_catholic_adherent_plural:0 "$indian_catholic$"
- indian_catholic_desc:0 "Claiming descent from the church of St. Thomas, the Christians of India are a broad, varied and adaptable group, with some identifying with Latin, Orthodox, Syriac or various other liturgical rites. They have historically been a small minority group along the Malabar coast."
+ indian_catholic_desc:0 "Claiming descent from the church of St. Toma, the Messians of India are a broad, varied and adaptable group, with some identifying with Latin, Orthodox, Syriac or various other liturgical rites. They have historically been a small minority group along the Malabar coast."
  indian_catholic_religious_head_title:0 "Pērāyar"
  indian_catholic_religious_head_title_name:0 "$indian_catholic_religious_head_title$"
  holy_site_kollam_name:0 "Kollam"
@@ -586,7 +586,7 @@
 
  orthodox: "Greek Orthodoxy" #Don't want the anachronistic 'Byzantine'. Even Eastern Orthodox wasn't used till more recently. Going with what it actually was called in this timeframe also keeps it consistent with other Orthodox churches such as the Bulgarian and Georgian churches. I'm sure I'll get some complaints still.
  orthodox_adj: "Greek Orthodox"
- orthodox_desc: "The Orthodox Church is the other main branch of Chalcedonian Christianity that up until 1054 was formally united with the Catholic Church, although the political division can be traced back to the crowning of Charlemagne as Roman Emperor by Pope Leo III in 800, which did not sit well with the Emperor in Constantinople. The nominal head of the Orthodox Church is the Ecumenical Patriarch of Constantinople, but he does not interfere in the affairs of other Patriarchs."
+ orthodox_desc: "The Orthodox Church is the other main branch of Chalcedonian Messianism that up until 1054 was formally united with the Catholic Church, although the political division can be traced back to the crowning of Charlemagne as Roman Emperor by Pope Leo III in 800, which did not sit well with the Emperor in Constantinople. The nominal head of the Orthodox Church is the Ecumenical Patriarch of Constantinople, but he does not interfere in the affairs of other Patriarchs."
 
  # show_gods_and_such
  FAITH_EXTENDED_DESCRIPTION_TITLE:0 "Deities"

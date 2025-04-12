@@ -80,7 +80,7 @@
  germanic_religion_adherent_plural:1 "Tuistics"
  germanic_religion_desc:1 "The native faith of Scandinavia and Germania, Germanic and Norse paganism revolves around reverence of gods known as the Æsir. Adherents are expected to live — and preferably die — in an honorable fashion."
  # Basque Paganism
- basque_pagan_desc:0 "The ancient native Basque faith has long incorporated other, more transient religions. Elements of Celtic paganism, Christianity, Hellenic paganism, and a heavy substrata of their own local myths and beliefs all swirl together into a syncretic blend."
+ basque_pagan_desc:0 "The ancient native Basque faith has long incorporated other, more transient religions. Elements of Celtic paganism, Messianism, Hellenic paganism, and a heavy substrata of their own local myths and beliefs all swirl together into a syncretic blend."
  # The vanilla name, "Era Zaharrak", literally means "Old Ways" in Basque. It doesn't feel appropriate for TFE given it's not really the "old ways" in TFE's timeframe since the faith still exists.
  # basque_pagan:0 "Euskal Erlijioa"
  # basque_pagan_adj:0 "Euskal"
@@ -325,12 +325,12 @@
  malabarism_desc:0 "Being officially recognised by the Persian Empire, the Jews of the East led by the Exilarch are a vital part of the Empire's population. The great academies of Sura and Pumbedita serve as centres of Jewish thought, and Jewish communities from Mesopotamia to Sakastan meld their practices with that of the nations they live among."
 
  nestorian:0 "Church of the East" # adj and adherent name are still Nestorian
- nestorian_desc:0 "The Official Church of the Persian Empire, the Church of the East or "Nestorianism" teaches that Jesus Christ has two natures, one divine and one human, a position which leads to disputes with the Churches of the West. Its missionaries have evangelized farther East than any other Church, finding adherents in lands as varied as Transoxiana, India, and China."
+ nestorian_desc:0 "The Official Church of the Persian Empire, the Church of the East or "Nestorianism" teaches that Yeshua Mashiach has two natures, one divine and one human, a position which leads to disputes with the Churches of the West. Its missionaries have evangelized farther East than any other Church, finding adherents in lands as varied as Transoxiana, India, and China."
 
  holy_site_baghdad_name:0 "Babylon"
  dynn_Zhangzhung:0 "Lig"
 
  building_type_dome_of_the_rock_01:0 "Temple in Jerusalem"
- building_type_dome_of_the_rock_01_desc:0 "The Church of the Holy Sepulchre was built by Constantine the Great and is considered to be the holiest site in the world for Christians. During the Umayyad Caliphate, the Dome of the Rock would be built in the center of the Temple Mount nearby, where the Temple of Solomon and the Jewish Second Temple stood. The temple's foundation stone is said to be the place where God created the world and the first human, Adam. Abrahamic pilgrims from all around the world flock to this site all year round."
+ building_type_dome_of_the_rock_01_desc:0 "The Church of the Holy Sepulchre was built by Constantine the Great and is considered to be the holiest site in the world for Messians. During the Umayyad Caliphate, the Dome of the Rock would be built in the center of the Temple Mount nearby, where the Temple of Solomon and the Jewish Second Temple stood. The temple's foundation stone is said to be the place where God created the world and the first human, Adam. Abrahamic pilgrims from all around the world flock to this site all year round."
  building_dome_of_the_rock_01:0 "Temple in Jerusalem"
  building_dome_of_the_rock_01_desc:0 "$building_type_dome_of_the_rock_01_desc$"

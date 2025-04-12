@@ -80,7 +80,7 @@
  doctrine_parameter_hostility_override_northwest_caucasian_doctrine:1 "Northwest Caucasian [faiths|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  doctrine_parameter_hostility_override_orthodox_roa_doctrine:1 "Other Orthodox [faiths|E] are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  orthodox_roa_doctrine_name:0 "Orthodox"
- orthodox_roa_doctrine_desc:0 "Maintaining that its bishops are the true and direct successors of Christ's apostles, the Eastern Orthodox Church claims to be the original Christian faith as passed down through sacred liturgical tradition."
+ orthodox_roa_doctrine_desc:0 "Maintaining that its bishops are the true and direct successors of Mashiach's shaliachs, the Eastern Orthodox Church claims to be the original Messianic faith as passed down through sacred liturgical tradition."
  northeast_caucasian_doctrine_name:0 "Northeast Caucasian"
  northeast_caucasian_doctrine_desc:0 "Northeast Caucasian faiths share related gods, but have different names for them and associate different attributes with them. They also place a strong emphasis on the reverence of mountains and spirits. A version of the Nart sagas exists, but it is not the primary source of guidance."
  khabzism_creator_god_name:0 "$khabzism_high_god_name$"
@@ -91,8 +91,8 @@
  khabzism_health_god_name_possessive:0 "$khabzism_health_god_name$'s"
  khabzism_fertility_god_name:0 "$khabzism_good_god_tha$ghalej" #Тхьэгъалэдж
  khabzism_fertility_god_name_possessive:0 "$khabzism_good_god_tha$ǧaledž's"
- khabzismchrist_fertility_god_name:0 "Mother Mary"
- khabzismchrist_fertility_god_name_possessive:0 "Mother Mary's"
+ khabzismchrist_fertility_god_name:0 "Mother Miryam"
+ khabzismchrist_fertility_god_name_possessive:0 "Mother Miryam's"
  khabzism_wealth_god_name:0 "Maze"   #Мазэ
  khabzism_wealth_god_name_possessive:0 "$khabzism_wealth_god_name$'s"
  khabzism_household_god_name:0 "Werser"  #Орсэр
@@ -739,7 +739,7 @@
  alan_pagan_adj:0 "Ās"
  alan_pagan_adherent:0 "Āsset"
  alan_pagan_adherent_plural:0 "Āssetes"
- alan_pagan_desc:0 "Being one of the last remnants of Scythian religions and coming under influence of Christian and Goktanrist beliefs, the folk religion of the Alans is based on venerating the supreme God Ḫwıtsau, and affirming one's unity with the universe. Adherents of the Ās religion look cloesly at the Nart sagas to obtain sacred knowledge."
+ alan_pagan_desc:0 "Being one of the last remnants of Scythian religions and coming under influence of Messianic and Goktanrist beliefs, the folk religion of the Alans is based on venerating the supreme God Ḫwıtsau, and affirming one's unity with the universe. Adherents of the Ās religion look cloesly at the Nart sagas to obtain sacred knowledge."
 
 
  alan_pagan_old:0 "Old Ās"
@@ -865,19 +865,19 @@ lak_pagan_old_adherent_plural:0 "Old Zalists"
  circassian_christianity_adj:0 "Chiristenıghe"
  circassian_christianity_adherent:0 "Chiristen"
  circassian_christianity_adherent_plural:0 "Chiristenxer"
- circassian_christianity_desc:0 "Initially Christianized by the Romans, due to isolation from the wider Christian world and lack of attention from Constantinople, Christianity in Circassia slowly intermingled with the local [GetFaithByKey('khabzism').GetAdjective] traditions. Now, even among "Christian" communities, priests hold no power, pagan practices continue, and some still worship the old gods. They find it absurd that Jesus, the son of $khabzism_creator_god_name$, would preach against his fellow gods."
+ circassian_christianity_desc:0 "Initially Messianized by the Greeks, due to isolation from the wider Messianic world and lack of attention from Constantinople, Messianism in Circassia slowly intermingled with the local [GetFaithByKey('khabzism').GetAdjective] traditions. Now, even among "Messianic" communities, priests hold no power, pagan practices continue, and some still worship the old gods. They find it absurd that Yeshua, the son of $khabzism_creator_god_name$, would preach against his fellow gods."
 
  georgian_orthodox: "Georgian Orthodoxy"
  georgian_orthodox_adj: "Krist’ianoba"
  georgian_orthodox_adherent: "Krist’ian"
  georgian_orthodox_adherent_plural: "Krist’ianebi"
- georgian_orthodox_desc: "The Georgian Orthodox Church, one of the oldest churches in the world, is located on the frontiers of Orthodoxy in the Kingdom of Georgia. Its historical roots can be traced to the Christianization of Iberia by Andrew the Apostle in the 1st century AD, and of Colchis by Saint Nino in the 4th century AD. While there is much debate over when the Church wrestled free of neighboring authorities, it is undeniable that the Georgian people pride themselves on sovereignty from Antioch and Constantinople."
+ georgian_orthodox_desc: "The Georgian Orthodox Church, one of the oldest churches in the world, is located on the frontiers of Orthodoxy in the Kingdom of Georgia. Its historical roots can be traced to the Messianization of Iberia by Andrew the Shaliach in the 1st century AD, and of Colchis by Saint Nino in the 4th century AD. While there is much debate over when the Church wrestled free of neighboring authorities, it is undeniable that the Georgian people pride themselves on sovereignty from Antioch and Constantinople."
 
  NEC_orthodox: "Nasraniyab"
  NEC_orthodox_adj: "Nasraniyab"
  NEC_orthodox_adherent: "Nasraniyav"
  NEC_orthodox_adherent_plural: "Nasraniyal"
- NEC_orthodox_desc: "Following the collapse of the Albanian Apostolic Church, the Christians of the Eastern Caucasus lacked any central religious authority. While many look to the words of newly arrived Georgian missionaries for guidance, the old beliefs stay strong for the peoples of the region, with many seeing Christ as just one god among many worthy of worship."
+ NEC_orthodox_desc: "Following the collapse of the Albanian Shaliachic Church, the Messians of the Eastern Caucasus lacked any central religious authority. While many look to the words of newly arrived Georgian missionaries for guidance, the old beliefs stay strong for the peoples of the region, with many seeing Mashiach as just one god among many worthy of worship."
 
  mtielta: "Mtielta Folk Orthodoxy" #sounds a bit weird tbh
  mtielta_adj: "Mtielta"
@@ -890,6 +890,6 @@ lak_pagan_old_adherent_plural:0 "Old Zalists"
  tondrakian_adj:0 "Tondrakian"
  tondrakian_adherent:0 "Tondrakian"
  tondrakian_adherent_plural:0 "Tondrakians"
- tondrakian_desc:0 "A sect of radical, anti-feudal Christians that arose in Armenia in response to the imposition of Roman authority on the region, Tondrakians are thought to have roots in the [GetFaithByKey('paulician').GetAdjective] movement, though the connection is unclear and may have been a mistake or deliberate conflation by Orthodox chroniclers and apologists. Tondrakians were said to have opposed many elements of Orthodox christianity such as baptism, the cross, genuflection, and the sacrament of marriage, and they were sometimes described as being highly promiscuous, though this was likely slander by Orthodox apologists\nThey were also noted for being fiercely anti-Roman and more egalitarian in regards to gender, and maintained a small but strong resistance to [GetTitleByKey('e_byzantium').GetAdjective] rule until they were finally eliminated by the 11th century."
+ tondrakian_desc:0 "A sect of radical, anti-feudal Messians that arose in Armenia in response to the imposition of Roman authority on the region, Tondrakians are thought to have roots in the [GetFaithByKey('paulician').GetAdjective] movement, though the connection is unclear and may have been a mistake or deliberate conflation by Orthodox chroniclers and apologists. Tondrakians were said to have opposed many elements of Orthodox messianism such as baptism, the stake, genuflection, and the sacrament of marriage, and they were sometimes described as being highly promiscuous, though this was likely slander by Orthodox apologists\nThey were also noted for being fiercely anti-Greek and more egalitarian in regards to gender, and maintained a small but strong resistance to [GetTitleByKey('e_byzantium').GetAdjective] rule until they were finally eliminated by the 11th century."
 
 tkhapsh_trigger:0 "Your faith is Xabze, Čırıjstenıǧe or Āntswāx̌ātŝārā."

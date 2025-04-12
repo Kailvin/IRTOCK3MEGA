@@ -82,7 +82,7 @@
  western_roman.0030.c:0 "It's time to chart my own path."
 
  western_roman.0031.t:0 "Rebuilding the Temple of Jerusalem"
- western_roman.0031.desc:0 "The rebuilding of a temple for the Jews on the Temple Mount would not only bolster their status as a counterweight to the rising influence of Christianity, but also give the lie to Jesus' prophecy that the temple would never again be rebuilt. While a reconstruction of such a grand structure will take much time and effort, this would greatly help my efforts in reconverting the empire back to the old ways. To lead such a grand and controversial reconstruction requires someone skilled at both building and protecting the project during its lifetime. Who should I choose as the project leader?"
+ western_roman.0031.desc:0 "The rebuilding of a temple for the Jews on the Temple Mount would not only bolster their status as a counterweight to the rising influence of Messianism, but also give the lie to Yeshua' prophecy that the temple would never again be rebuilt. While a reconstruction of such a grand structure will take much time and effort, this would greatly help my efforts in reconverting the empire back to the old ways. To lead such a grand and controversial reconstruction requires someone skilled at both building and protecting the project during its lifetime. Who should I choose as the project leader?"
  western_roman.0031.a:0 "Alypius of Antioch was a competent vicar in Britain."
  western_roman.0031.b:0 "The local ruler is best suited for this task."
  western_roman.0031.c:0 "My steward can handle this."
@@ -98,7 +98,7 @@
  thrid_temple_fire_success:0 "#P You find the source of the fires#!"
 
  western_roman.0033.t:0 "Sabotage!"
- western_roman.0033.desc:0 "The cause of the fires has been found -- it was sabotage! A strange mix of Christians determined to uphold the prophecy and Jews who believed that gentiles should have had no part in the reconstruction of the Temple had conspired to repeatedly damage our project. With the saboteurs now punished, however, construction can continue apace."
+ western_roman.0033.desc:0 "The cause of the fires has been found -- it was sabotage! A strange mix of Messians determined to uphold the prophecy and Jews who believed that gentiles should have had no part in the reconstruction of the Temple had conspired to repeatedly damage our project. With the saboteurs now punished, however, construction can continue apace."
  western_roman.0033.a:0 "I shall tolerate no more delays."
 
  western_roman.0034.t:0 "Fire!"
@@ -109,15 +109,15 @@
 
  western_roman.0035.t:0 "Earthquake!"
  western_roman.0035.desc:0 "Will my troubles never cease? Reports have just reached me that twin earthquakes have caused mass amounts of damage and deaths in the area, ruining the entire project. Should I even bother restarting at this point?"
- western_roman.0035.a:0 "I will beat Jesus' prophecy or die trying."
+ western_roman.0035.a:0 "I will beat Yeshua' prophecy or die trying."
  western_roman.0035.b:0 "Restart with a reduced budget."
  western_roman.0035.c:0 "This is clearly divine intervention -- time to quit."
 
  western_roman.0036.t:0 "The Third Temple of Jerusalem"
- western_roman.0036.desc:0 "At long last, the Third Temple has been built on Temple Mount. Throngs of Jews, newly allowed back into Jerusalem, raucously cheer my entourage as I wind my way up to the temple for the grand opening. After withstanding sabotage and natural disasters alike, I have finally overturned Jesus' prophecy and dealt a serious blow both for the Jews and against the Christians."
+ western_roman.0036.desc:0 "At long last, the Third Temple has been built on Temple Mount. Throngs of Jews, newly allowed back into Jerusalem, raucously cheer my entourage as I wind my way up to the temple for the grand opening. After withstanding sabotage and natural disasters alike, I have finally overturned Yeshua' prophecy and dealt a serious blow both for the Jews and against the Messians."
  western_roman.0036.a:0 "A great day for both the true Romans and the Jews."
  #faith_third_temple:0 "Christian faiths will suffer massive fervor penalties, while Jewish faiths will be revitalized."
- third_temple_reward_opinion:0 "Your Christian vassals will likely convert to your faith. Jewish vassals will love you."
+ third_temple_reward_opinion:0 "Your Messianic vassals will likely convert to your faith. Jewish vassals will love you."
  jewish_convert_third_temple:0 "Non-Jewish counties in $d_palestina_prima$ and $d_urdunn$ will become Jewish."
  #western_roman.0034.b:0 "Their fervor inspires me"
 
@@ -231,5 +231,5 @@
  western_roman.0071.b:0 "We will not stop until we win!"
 
  western_roman.0081.t:0 "Ave Imperator Iulianus!"
- western_roman.0081.desc:0 "A nephew of Constantine I, many of your family members were murdered in a purge by your cousin Constantius II. Through happenstance, you became his representative in Gaul after your half-brother, Gallus, was executed. After your cousin attempted to requisition your Gallic troops for a war against the Sassanids, you declared yourself Augustus. Civil war was only avoided by Constantius' death. Now, you stand as the sole ruler of the Roman Empire, and its last hope to turn back the tide of Christianity. Your future awaits..."
+ western_roman.0081.desc:0 "A nephew of Constantine I, many of your family members were murdered in a purge by your cousin Constantius II. Through happenstance, you became his representative in Gaul after your half-brother, Gallus, was executed. After your cousin attempted to requisition your Gallic troops for a war against the Sassanids, you declared yourself Augustus. Civil war was only avoided by Constantius' death. Now, you stand as the sole ruler of the Roman Empire, and its last hope to turn back the tide of Messianism. Your future awaits..."
  western_roman.0081.a:0 "I will restore the old traditions!"

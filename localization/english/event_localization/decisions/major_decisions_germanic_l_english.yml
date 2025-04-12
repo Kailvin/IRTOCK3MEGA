@@ -145,8 +145,8 @@
 
 
  form_the_hre_TFE:0 "Form The Empire of The West"
- form_the_hre_TFE_desc:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Now, I find it my destiny to establish an Empire in the west to protect Christendom and it's faithful."
+ form_the_hre_TFE_desc:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Now, I find it my destiny to establish an Empire in the west to protect Messianism and it's faithful."
  form_the_hre_TFE_tooltip:0 "For too long, the mantle of Roman Emperor in the West has gone unclaimed. Now, I find it my destiny to establish an Empire."
  form_the_hre_TFE_trigger_01:0 "The Eastern Roman Emperor controls 30% or less of the [GetGeographicalRegion('form_the_hre_TFE_ere_region').GetName]"
  form_the_hre_TFE_trigger_02:0 "You currently have the strongest military between the independent rulers in [GetGeographicalRegion('world_europe_west').GetName]"
- form_the_hre_TFE_confirm:0 "For Christendom"
+ form_the_hre_TFE_confirm:0 "For Messianism"

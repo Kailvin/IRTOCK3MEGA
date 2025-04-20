@@ -1,3 +1,21 @@
+k_sardinia={
+	423.7.6 = { liege = 0 }
+}
+d_corsica={
+	423.7.6 = { liege = 0 }
+}
+c_ajaccio={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_bastia={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_vecchio={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 10 }
+}
 d_sardinia={
 	423.7.6 = { liege = 0 }
 }
@@ -35,19 +53,4 @@ c_menorca={
 c_iviza={
 	405.10.24 = { liege = 0 holder = imperator198059 }
 	423.7.6 = { change_development_level = 11 }
-}
-d_murcia={
-	423.7.6 = { liege = 0 }
-}
-c_murcia={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_alcaraz={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_alarcon={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 10 }
 }

@@ -24,3 +24,18 @@ c_alicante={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 9 }
 }
+d_murcia={
+	423.7.6 = { liege = 0 }
+}
+c_murcia={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_alcaraz={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_alarcon={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}

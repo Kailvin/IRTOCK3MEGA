@@ -2754,7 +2754,7 @@ d_IRTOCK3_SA3_taurica_region={
 	417.10.6 = { liege = k_IRTOCK3_SA3 holder = imperator200669 government = nomadic_government succession_laws = { high_partition_succession_law } }
 }
 d_IRTOCK3_L33_lower_egypt_region={
-	416.10.6 = { liege = k_IRTOCK3_L33 holder = imperator200980 government = feudal_government succession_laws = { high_partition_succession_law } }
+	416.10.6 = { liege = k_IRTOCK3_GAR_lower_egypt_region holder = imperator200980 government = administrative_government succession_laws = { high_partition_succession_law } }
 }
 d_IRTOCK3_L33_arabia_region={
 	422.9.21 = { liege = k_IRTOCK3_L33 holder = imperator200981 government = feudal_government succession_laws = { high_partition_succession_law } }

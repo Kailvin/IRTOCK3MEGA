@@ -360,9 +360,6 @@
 		set_de_jure_liege_title = title:k_valencia
 		set_title_name = OROSPEDA
 	}
-	title:d_mallorca = {
-		set_de_jure_liege_title = title:k_valencia
-	}
 
 	title:d_aragon = {
 		set_de_jure_liege_title = title:k_aragon
@@ -471,11 +468,6 @@ dejure_shift_restore_hispania_effect = {
 	title:d_toledo = {
 		holder = {
 			destroy_title = title:d_toledo 
-		}
-	}
-	title:d_mallorca = {
-		holder = {
-			destroy_title = title:d_mallorca 
 		}
 	}
 	title:d_granada = {
@@ -695,9 +687,6 @@ dejure_shift_restore_hispania_effect = {
 		set_de_jure_liege_title = title:k_hispania
 	}
 	title:d_rif = {
-		set_de_jure_liege_title = title:k_hispania
-	}
-	title:d_mallorca = {
 		set_de_jure_liege_title = title:k_hispania
 	}
 

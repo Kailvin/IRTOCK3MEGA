@@ -1,6 +1,40 @@
 k_IRTOCK3_B99_central_gaul_region={
 	419.10.20 = { liege = e_IRTOCK3_B99 holder = imperator188608 government = feudal_government succession_laws = { high_partition_succession_law } }
 }
+d_bourbon={
+	423.7.6 = { liege = 0 }
+}
+c_bourbon={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_jaligny={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_bellac={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_la_marche={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_upper_burgundy={
+	423.7.6 = { liege = 0 }
+}
+c_besancon={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_bresse={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_dole={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 11 }
+}
 d_burgundy={
 	423.7.6 = { liege = 0 }
 }
@@ -35,38 +69,4 @@ c_nevers={
 c_langres={
 	419.10.20 = { liege = 0 holder = imperator188608 }
 	423.7.6 = { change_development_level = 10 }
-}
-d_bourbon={
-	423.7.6 = { liege = 0 }
-}
-c_bourbon={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_bellac={
-	422.10.15 = { liege = 0 holder = imperator198572 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_jaligny={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_la_marche={
-	422.10.15 = { liege = 0 holder = imperator198572 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_upper_burgundy={
-	423.7.6 = { liege = 0 }
-}
-c_besancon={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_bresse={
-	405.4.16 = { liege = 0 holder = imperator187369 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_dole={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 11 }
 }

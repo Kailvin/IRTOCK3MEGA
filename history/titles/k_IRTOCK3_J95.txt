@@ -13,20 +13,13 @@ c_atyrau={
 }
 c_sagiz={
 	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 0 }
-}
-b_kainar={
-	423.7.6 = { holder = imperator188800 }
-}
-c_manatau={
-	421.6.9 = { liege = 0 holder = imperator198534 }
 	423.7.6 = { change_development_level = 1 }
+}
+c_kainar={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { liege = k_IRTOCK3_K56 holder = imperator188800 change_development_level = 0 }
 }
 c_baisary={
 	397.10.11 = { liege = 0 holder = imperator196051 }
 	423.7.6 = { change_development_level = 2 }
-}
-c_basagha={
-	397.10.11 = { liege = 0 holder = imperator196051 }
-	423.7.6 = { liege = k_IRTOCK3_C12 holder = imperator182473 change_development_level = 0 }
 }

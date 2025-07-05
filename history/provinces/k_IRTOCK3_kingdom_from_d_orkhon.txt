@@ -1,0 +1,64 @@
+1457={
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
+	867.1.1 = { buildings = { longhouses_01 } }
+	1020.1.2 = { religion = nestorian }
+}
+1461={
+	holding = none
+}
+7517={
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
+	1050.1.2 = { culture = kerait }
+}
+7518={
+	holding = none
+}
+7519={
+	holding = none
+}
+7520={
+	holding = none
+}
+7521={
+	holding = none
+}
+7522={
+	holding = none
+}
+7523={
+	holding = none
+}
+7524={
+	holding = none
+}
+7525={
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
+	1050.1.2 = { culture = kerait }
+}
+7526={
+	holding = none
+}
+7527={
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
+	1050.1.2 = { culture = kerait }
+}
+7528={
+	holding = none
+}
+7529={
+	holding = none
+}
+7530={
+	holding = none
+}
+7531={
+	holding = none
+}

@@ -170,27 +170,3 @@
 	holding = tribal_holding
 	640.1.1 = { culture = sumpa }
 }
-9412={
-	holding = church_holding
-}
-9413={
-	culture = xiao_yuezhi
-	religion = rrmeaism
-	holding = castle_holding
-	400.1.1 = { culture = tuyuhun religion = tengri_pagan }
-	800.1.1 = { religion = lamaism }
-}
-9414={
-	holding = church_holding
-}
-9421={
-	culture = xiao_yuezhi
-	religion = rrmeaism
-	holding = castle_holding
-	400.1.1 = { culture = tuyuhun religion = tengri_pagan }
-	763.1.1 = { culture = bodpa religion = lamaism }
-	1104.1.1 = { culture = han religion = mahayana }
-}
-9422={
-	holding = city_holding
-}

@@ -3,22 +3,16 @@ k_IRTOCK3_M04={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_tondai_nadu={
+	361.1.1 = { change_development_level = 8 }
 	423.7.6 = { liege = 0 }
 }
 c_kanchipuram={
 	422.9.15 = { liege = 0 holder = imperator204890 }
 	423.7.6 = { change_development_level = 18 }
 }
-c_candragiri={
-	422.9.15 = { liege = 0 holder = imperator204765 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator195526 change_development_level = 17 }
-}
-b_melpadi={
-	423.7.6 = { holder = imperator195526 }
-}
 c_penugonda={
 	422.9.15 = { liege = 0 holder = imperator203990 }
-	423.7.6 = { change_development_level = 16 }
+	423.7.6 = { change_development_level = 17 }
 }
 c_nellore={
 	422.9.15 = { liege = 0 holder = imperator204765 }
@@ -27,4 +21,24 @@ c_nellore={
 c_renandu={
 	422.9.15 = { liege = 0 holder = imperator203990 }
 	423.7.6 = { change_development_level = 15 }
+}
+c_tiruvannamalai={
+	422.9.15 = { liege = 0 holder = imperator204890 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_kuvalala={
+	422.9.15 = { liege = 0 holder = imperator203965 }
+	423.7.6 = { change_development_level = 15 }
+}
+d_chola_nadu={
+	361.1.1 = { change_development_level = 8 }
+	423.7.6 = { liege = 0 }
+}
+c_cholamandalam={
+	422.9.15 = { liege = 0 holder = imperator204890 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_tagadur={
+	422.9.15 = { liege = 0 holder = imperator203965 }
+	423.7.6 = { change_development_level = 11 }
 }

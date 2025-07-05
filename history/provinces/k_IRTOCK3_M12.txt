@@ -1,21 +1,21 @@
 1148={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1149={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	special_building_slot = iron_pillar_of_dhar_01
 }
 1288={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = ujjayini_temple_city_01
 }
 1289={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }

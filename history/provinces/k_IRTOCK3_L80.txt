@@ -1,12 +1,54 @@
+1290={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1291={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1292={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
 1294={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1304={
-	culture = indo_greek
-	faith = hellenic_pagan
+	culture = gujarati
+	faith = vaishnavism
 	holding = castle_holding
+}
+3369={
+	holding = none
+}
+3370={
+	holding = none
+}
+3371={
+	holding = none
+}
+3372={
+	holding = none
+}
+3373={
+	holding = none
+}
+3374={
+	holding = city_holding
+}
+3375={
+	holding = city_holding
+}
+3376={
+	holding = city_holding
+}
+3377={
+	holding = city_holding
 }
 3385={
 	holding = none

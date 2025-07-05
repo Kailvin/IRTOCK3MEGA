@@ -3,6 +3,7 @@ k_IRTOCK3_L73={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_vodamayutja={
+	361.1.1 = { change_development_level = 7 }
 	423.7.6 = { liege = 0 }
 }
 c_vodamayutja={
@@ -10,10 +11,12 @@ c_vodamayutja={
 	423.7.6 = { change_development_level = 18 }
 }
 c_sambhal={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator204090 }
 	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 17 }
 }
 c_katehar={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205215 }
 	423.7.6 = { change_development_level = 16 }
 }

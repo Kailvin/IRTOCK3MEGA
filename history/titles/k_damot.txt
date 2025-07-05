@@ -13,35 +13,46 @@ c_berta={
 	423.7.6 = { holder = IRToCK3_c_damot_holder liege = 0 change_development_level = 0 }
 }
 c_wellega={
-	423.7.6 = { holder = IRToCK3_c_damot_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_damot_holder }
 }
 c_innarya={
-	423.7.6 = { holder = IRToCK3_c_damot_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_damot_holder change_development_level = 1 }
 }
 d_kaffa={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_kaffa_holder government = tribal_government }
 }
 c_kaffa={
-	423.7.6 = { holder = IRToCK3_c_kaffa_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_kaffa_holder }
 }
 c_welamo={
-	423.7.6 = { holder = IRToCK3_c_kaffa_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_kaffa_holder }
 }
 c_gamo={
-	423.7.6 = { holder = IRToCK3_c_kaffa_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 0 }
+	395.1.1 = { holder = aari_misc_02 }
 }
 d_sharka={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_sharka_holder government = tribal_government }
+	423.7.6 = { liege = 0 holder = IRToCK3_c_waj_holder government = tribal_government }
+}
+c_waj={
+	423.7.6 = { holder = IRToCK3_c_waj_holder liege = 0 change_development_level = 0 }
 }
 c_sharka={
-	423.7.6 = { holder = IRToCK3_c_sharka_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_waj_holder }
 }
 c_burji={
-	423.7.6 = { holder = IRToCK3_c_sharka_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 0 }
+	395.1.1 = { holder = aari_misc_02 }
 }
 c_dara={
-	423.7.6 = { holder = IRToCK3_c_sharka_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_waj_holder }
 }
 c_hadya={
-	423.7.6 = { holder = IRToCK3_c_sharka_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_waj_holder }
 }

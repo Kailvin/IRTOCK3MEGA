@@ -37,19 +37,20 @@ k_IRTOCK3_H23={
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
 d_lausitz={
+	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
+}
+c_cottbus={
+	422.9.14 = { liege = 0 holder = imperator203714 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_gorlitz={
+	422.9.14 = { liege = 0 holder = imperator203714 }
+	423.7.6 = { change_development_level = 3 }
 }
 c_juterbog={
 	419.7.1 = { liege = 0 holder = imperator195334 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_wittenberg={
-	410.4.13 = { liege = 0 holder = imperator199756 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_brene={
-	395.11.11 = { liege = 0 holder = imperator195692 }
-	423.7.6 = { liege = k_IRTOCK3_L03 holder = imperator195695 change_development_level = 2 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_spreewald={
 	422.9.14 = { liege = 0 holder = imperator203714 }

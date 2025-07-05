@@ -1,12 +1,14 @@
 k_croatia={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 d_dalmatia={
+	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 c_zadar={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 16 }
+	423.7.6 = { change_development_level = 17 }
 }
 c_knin={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -38,31 +40,12 @@ c_modrus={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 13 }
 }
-d_slavonia={
-	423.7.6 = { liege = 0 }
-}
-c_zagreb={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_zagorje={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_pozega={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_vukovar={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 14 }
-}
 d_bosna={
 	423.7.6 = { liege = 0 }
 }
 c_rama={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 16 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_donjikraji={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -89,11 +72,11 @@ c_usora={
 }
 c_vodica={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 13 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_vrbas={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 13 }
+	423.7.6 = { change_development_level = 14 }
 }
 d_usora={
 	423.7.6 = { liege = 0 }
@@ -115,9 +98,26 @@ c_pagania={
 	423.7.6 = { change_development_level = 12 }
 }
 d_ragusa={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 c_ragusa={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 18 }
+}
+d_slavonia={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_zagreb={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_zagorje={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_pozega={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
 }

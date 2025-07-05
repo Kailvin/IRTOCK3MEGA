@@ -1,13 +1,36 @@
+668={
+	culture = arran
+	faith = iberian_pagan
+	holding = castle_holding
+}
+669={
+	culture = arran
+	faith = iberian_pagan
+	holding = castle_holding
+}
 4000={
-	holding = church_holding
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4001={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
 }
+4002={
+	holding = church_holding
+}
+4003={
+	holding = city_holding
+}
 4004={
 	holding = none
+}
+4005={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4006={
 	holding = none
@@ -33,23 +56,6 @@
 }
 4050={
 	holding = none
-}
-4100={
-	holding = city_holding
-}
-4101={
-	holding = none
-}
-4102={
-	holding = none
-}
-4103={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4104={
-	holding = city_holding
 }
 4105={
 	holding = church_holding
@@ -100,12 +106,16 @@
 	holding = none
 }
 4261={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 4262={
 	holding = none
+}
+4313={
+	holding = none
+}
+4314={
+	holding = castle_holding
 }
 4318={
 	holding = castle_holding
@@ -166,6 +176,62 @@
 	faith = nicene
 	holding = castle_holding
 }
+4534={
+	culture = persian
+	faith = mazdayasna
+	holding = castle_holding
+}
+4535={
+	holding = none
+}
+4536={
+	holding = castle_holding
+}
+4537={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4538={
+	holding = none
+}
+4539={
+	holding = none
+}
+4540={
+	holding = none
+}
+4541={
+	holding = city_holding
+}
+4542={
+	holding = none
+}
+4543={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4544={
+	holding = castle_holding
+}
+4545={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4546={
+	holding = city_holding
+}
+4547={
+	holding = city_holding
+}
+4548={
+	holding = none
+}
+4549={
+	holding = none
+}
 4763={
 	holding = none
 }
@@ -174,6 +240,32 @@
 }
 4765={
 	holding = none
+}
+4766={
+	holding = none
+}
+4767={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4768={
+	holding = none
+}
+4769={
+	holding = castle_holding
+}
+4770={
+	holding = city_holding
+}
+4771={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+	100.1.1 = { special_building_slot = adur_gushnasp }
+}
+4772={
+	holding = city_holding
 }
 4781={
 	culture = macedonian
@@ -193,10 +285,53 @@
 	holding = none
 }
 4786={
-	holding = none
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4787={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+}
+5771={
+	holding = none
+}
+5772={
+	holding = none
+}
+5773={
+	holding = city_holding
+}
+5774={
+	holding = church_holding
+}
+5775={
+	holding = none
+}
+5776={
+	holding = none
+}
+5788={
+	holding = castle_holding
+}
+5789={
+	holding = none
+}
+5790={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+5791={
+	holding = none
+}
+5792={
+	holding = city_holding
+}
+5793={
+	holding = none
+}
+5794={
+	holding = none
 }

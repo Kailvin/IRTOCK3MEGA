@@ -1,57 +1,58 @@
 k_cuman={
 	423.7.6 = { liege = 0 }
 }
-d_kurgan={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_kurgan_holder government = tribal_government }
-}
-c_kurgan={
-	423.7.6 = { holder = IRToCK3_c_kurgan_holder change_development_level = 0 }
-}
-c_sabakyul={
-	423.7.6 = { holder = IRToCK3_c_kurgan_holder change_development_level = 0 }
-}
-d_kush-murun={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_petropavl_holder liege = 0 }
-}
-c_petropavl={
-	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
-}
-c_kush-murun={
-	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
-}
-c_vargashi={
-	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
-}
-c_karasu={
-	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
-}
 d_saryarka={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_teniz_holder government = tribal_government }
 }
 c_teniz={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_teniz_holder change_development_level = 0 }
 }
-c_eghiz_kara={
+c_qyzylteniz={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_teniz_holder change_development_level = 0 }
-}
-c_ulytau={
-	423.7.6 = { holder = IRToCK3_c_teniz_holder liege = 0 change_development_level = 0 }
 }
 c_kaska={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_teniz_holder change_development_level = 0 }
+}
+c_togotai={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
+	423.7.6 = { holder = IRToCK3_c_teniz_holder liege = 0 change_development_level = 0 }
+}
+d_qyzylsaryarka={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
+	423.7.6 = { holder = IRToCK3_c_eghiz_kara_holder government = tribal_government }
+}
+c_eghiz_kara={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
+	423.7.6 = { holder = IRToCK3_c_eghiz_kara_holder change_development_level = 0 }
+}
+c_ulytau={
+	361.1.1 = { holder = magyar_01 government = nomad_government }
+	423.7.6 = { holder = IRToCK3_c_eghiz_kara_holder liege = 0 change_development_level = 0 }
+}
+c_jilanjik={
+	100.1.1 = { government = herder_government }
+	423.7.6 = { holder = IRToCK3_c_eghiz_kara_holder liege = 0 change_development_level = 0 }
 }
 d_kazakh={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_astana_holder government = tribal_government }
 }
 c_astana={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_astana_holder change_development_level = 0 }
 }
-c_atbasar={
+c_astrakhanka={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_astana_holder change_development_level = 0 }
 }
 c_shchuchinsk={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_astana_holder change_development_level = 0 }
 }
 c_teke={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_astana_holder change_development_level = 0 }
 }

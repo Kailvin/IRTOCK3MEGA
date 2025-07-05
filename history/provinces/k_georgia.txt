@@ -1,3 +1,6 @@
+600={
+	holding = none
+}
 601={
 	culture = greek
 	faith = nicene
@@ -7,6 +10,25 @@
 	culture = greek
 	faith = nicene
 	holding = castle_holding
+}
+5696={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5697={
+	holding = church_holding
+}
+5744={
+	holding = none
+}
+5745={
+	holding = church_holding
+}
+5746={
+	culture = sarmatian
+	faith = nicene
+	holding = tribal_holding
 }
 5747={
 	holding = castle_holding
@@ -24,7 +46,7 @@
 	holding = none
 }
 5752={
-	culture = georgian
+	culture = colchian
 	faith = caucasian_pagan
 	holding = none
 }

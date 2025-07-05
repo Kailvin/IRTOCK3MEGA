@@ -35,6 +35,25 @@ k_IRTOCK3_I52={
 	412.10.7 = { holder = imperator190108 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_freistadt={
+	423.7.6 = { liege = 0 }
+}
+c_hohenau={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_freistadt={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_krems={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_waldkirchen={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 5 }
+}
 d_lesser_poland={
 	423.7.6 = { liege = 0 }
 }
@@ -53,10 +72,6 @@ c_sandomierska={
 	396.12.28 = { liege = 0 holder = imperator193439 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_stezycka={
-	416.7.11 = { liege = 0 holder = imperator192719 }
-	423.7.6 = { change_development_level = 4 }
-}
 c_radomska={
 	416.7.11 = { liege = 0 holder = imperator192719 }
 	423.7.6 = { change_development_level = 7 }
@@ -67,6 +82,77 @@ c_lubelska={
 }
 c_tarnowska={
 	412.10.11 = { liege = 0 holder = imperator192633 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_stezycka={
+	416.7.11 = { liege = 0 holder = imperator192719 }
+	423.7.6 = { change_development_level = 4 }
+}
+d_lower_silesia={
+	423.7.6 = { liege = 0 }
+}
+c_breslau={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator191527 change_development_level = 2 }
+}
+c_schweibus={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_grunberg={
+	422.9.14 = { liege = 0 holder = imperator203714 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_sprottau={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
+}
+c_przemkow={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
+}
+c_legnica={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_miliez={
+	417.4.25 = { liege = 0 holder = imperator199203 }
+	423.7.6 = { change_development_level = 3 }
+}
+d_bohemia={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+c_doudleby={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_plzen={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_praha={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_litomerice={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_zatec={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_boleslav={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_hradec={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_caslav={
+	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 4 }
 }
 d_upper_silesia={
@@ -99,74 +185,21 @@ c_bethen={
 	412.10.11 = { liege = 0 holder = imperator192633 }
 	423.7.6 = { change_development_level = 3 }
 }
-d_lower_silesia={
-	423.7.6 = { liege = 0 }
-}
-c_breslau={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator191527 change_development_level = 2 }
-}
-c_miliez={
-	417.4.25 = { liege = 0 holder = imperator199203 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_schweibus={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_grunberg={
-	422.9.14 = { liege = 0 holder = imperator203714 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_sprottau={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
-}
-c_przemkow={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
-}
-c_legnica={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { change_development_level = 3 }
-}
-d_bohemia={
-	423.7.6 = { liege = 0 }
-}
-c_praha={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_litomerice={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_zatec={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_plzen={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_doudleby={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_boleslav={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_hradec={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_caslav={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 4 }
-}
 d_moravia={
+	361.1.1 = { change_development_level = 1 }
 	423.7.6 = { liege = 0 }
+}
+c_jihlava={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_znojmo={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_brno={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
 }
 c_olomouc={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -179,16 +212,4 @@ c_opava={
 c_prerov={
 	412.10.11 = { liege = 0 holder = imperator192633 }
 	423.7.6 = { change_development_level = 4 }
-}
-c_brno={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 16 }
-}
-c_jihlava={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_znojmo={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 11 }
 }

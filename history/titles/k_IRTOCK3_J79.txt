@@ -7,12 +7,17 @@ k_IRTOCK3_J79={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_kohestan={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_tun_holder liege = 0 }
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_tun_holder liege = 0 }
 }
 c_qain={
 	391.7.14 = { liege = 0 holder = imperator184128 }
 	423.7.6 = { liege = k_IRTOCK3_J79 holder = imperator185799 change_development_level = 7 }
 }
 c_tun={
-	423.7.6 = { holder = IRToCK3_c_tun_holder liege = 0 change_development_level = 5 }
+	361.1.1 = { government = eranshar_government }
+	423.7.6 = { holder = IRToCK3_c_tun_holder liege = 0 change_development_level = 3 }
+}
+b_bejestan={
+	423.7.6 = { holder = imperator184643 }
 }

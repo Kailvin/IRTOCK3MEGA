@@ -1,14 +1,3 @@
-2802={
-	culture = old_suebi
-	faith = saxon_pagan
-	holding = city_holding
-}
-2803={
-	holding = castle_holding
-}
-2805={
-	holding = none
-}
 2893={
 	culture = old_suebi
 	faith = saxon_pagan
@@ -50,6 +39,9 @@
 	holding = none
 }
 2907={
+	holding = none
+}
+2914={
 	holding = none
 }
 2937={

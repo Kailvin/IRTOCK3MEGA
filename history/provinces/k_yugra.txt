@@ -10,7 +10,6 @@
 	culture = khanty
 	religion = siberian_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = laktan religion = tengri_pagan }
 }
 892={
 	culture = khanty
@@ -98,7 +97,6 @@
 	culture = khanty
 	religion = siberian_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = laktan religion = tengri_pagan }
 }
 5886={
 	holding = none

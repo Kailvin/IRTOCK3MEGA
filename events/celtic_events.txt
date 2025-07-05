@@ -179,7 +179,7 @@ celtic.0002 = {
 		#Zoroastrian characters get some chilled music.
 		if = {
 			limit = {
-				faith = { religion_tag = pagan_religion }
+				faith = { religion_tag = paganism_religion }
 			}
 			play_music_cue = "mx_cue_faith_conversion"
 		}

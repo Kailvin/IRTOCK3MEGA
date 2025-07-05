@@ -11,15 +11,7 @@
 625={
 	culture = macedonian
 	faith = scythian_pagan
-	holding = none
-}
-627={
-	culture = macedonian
-	faith = hellenic_pagan
 	holding = castle_holding
-}
-631={
-	holding = none
 }
 7065={
 	culture = macedonian
@@ -33,7 +25,9 @@
 	holding = none
 }
 7068={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7069={
 	holding = none
@@ -50,7 +44,9 @@
 	holding = none
 }
 7073={
-	holding = city_holding
+	culture = saka
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7074={
 	holding = city_holding
@@ -59,13 +55,19 @@
 	holding = none
 }
 7076={
-	holding = city_holding
+	culture = saka
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7077={
-	holding = city_holding
+	culture = saka
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7078={
-	holding = none
+	culture = saka
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7079={
 	holding = none
@@ -83,18 +85,6 @@
 	holding = none
 }
 7084={
-	holding = none
-}
-7085={
-	holding = church_holding
-}
-7086={
-	holding = city_holding
-}
-7087={
-	holding = none
-}
-7088={
 	holding = none
 }
 7093={

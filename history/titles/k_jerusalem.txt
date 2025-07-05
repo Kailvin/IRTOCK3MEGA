@@ -1,7 +1,9 @@
 k_jerusalem={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 d_oultrejourdain={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 c_kerak={
@@ -31,6 +33,7 @@ c_jaffa={
 	423.7.6 = { change_development_level = 10 }
 }
 d_urdunn={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 c_tiberias={

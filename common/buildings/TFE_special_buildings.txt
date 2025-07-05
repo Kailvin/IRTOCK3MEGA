@@ -2087,3 +2087,19 @@ TFE_royal_necropolis_of_ballana = {
 	flag = travel_point_of_interest_learning
 
 }
+
+#Saint Peter's Basilica
+MA_vatican = {
+	type_icon = "MA_vatican.dds"
+	asset = { type = pdxmesh name = vatican_mesh soundeffect = @bells3 }
+	cost_gold = main_building_tier_1_cost
+	construction_time = slow_construction_time
+	is_enabled = { required_religion = { RELIGION = christianity } }
+	county_holder_character_modifier = { monthly_piety = 2 holy_order_hire_cost_mult = -0.2 clergy_opinion = 10 }
+	character_modifier = { monthly_piety = 2 holy_order_hire_cost_mult = -0.2 clergy_opinion = 10 }
+	county_modifier = { development_growth_factor = 0.2 tax_mult = 0.2 }
+	province_modifier = { hostile_raid_time = 1 monthly_income = 4 }
+	ai_value = { base = 100 }
+	type = special
+	flag = travel_point_of_interest_religious
+}

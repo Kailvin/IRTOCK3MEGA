@@ -1,4 +1,5 @@
 k_bjarmaland={
+	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 d_biarmia={
@@ -16,8 +17,8 @@ c_povenets={
 c_pudozh={
 	423.7.6 = { holder = IRToCK3_c_kholmogory_holder change_development_level = 0 }
 }
-d_chudia={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_kargopol_holder government = tribal_government }
+d_vepsia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kargopol_holder liege = 0 }
 }
 c_kargopol={
 	423.7.6 = { holder = IRToCK3_c_kargopol_holder change_development_level = 0 }

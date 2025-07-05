@@ -20,8 +20,12 @@ k_IRTOCK3_J39={
 d_azov={
 	423.7.6 = { liege = 0 }
 }
+c_tmutarakan={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 7 }
+}
 c_khumar={
-	396.5.20 = { liege = 0 holder = imperator190935 }
+	396.5.20 = { liege = d_IRTOCK3_K11 holder = imperator190935 }
 	423.7.6 = { change_development_level = 6 }
 }
 c_azov={
@@ -31,18 +35,22 @@ c_azov={
 b_manych={
 	423.7.6 = { holder = imperator202757 }
 }
-d_tmutarakan={
+d_levedia={
 	423.7.6 = { liege = 0 }
 }
-c_tmutarakan={
-	408.12.12 = { liege = 0 holder = imperator193273 }
-	423.7.6 = { change_development_level = 6 }
+c_samar={
+	422.10.22 = { liege = 0 holder = imperator206173 }
+	423.7.6 = { change_development_level = 5 }
 }
-c_papagia={
-	396.5.20 = { liege = 0 holder = imperator190935 }
-	423.7.6 = { change_development_level = 6 }
+c_bakhmut={
+	421.8.29 = { liege = 0 holder = imperator198616 }
+	423.7.6 = { change_development_level = 3 }
 }
-d_levedia={
+c_lozova={
+	422.10.22 = { liege = 0 holder = imperator206173 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_red_levedia={
 	423.7.6 = { liege = 0 }
 }
 c_khortytsia={
@@ -56,30 +64,23 @@ c_oleshye={
 	408.12.12 = { liege = 0 holder = imperator193273 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_bakhmut={
-	421.8.29 = { liege = 0 holder = imperator198616 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_samar={
-	422.10.22 = { liege = 0 holder = imperator206173 }
-	423.7.6 = { change_development_level = 5 }
-}
 d_crimea={
 	20.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
 }
+c_chersonesus={
+	408.12.12 = { liege = 0 holder = imperator193273 }
+	423.7.6 = { change_development_level = 6 }
+}
 c_kerch={
 	408.12.12 = { liege = 0 holder = imperator193273 }
-	423.7.6 = { change_development_level = 7 }
+	423.7.6 = { change_development_level = 8 }
 }
 c_kalos_limen={
 	408.12.12 = { liege = 0 holder = imperator193273 }
 	423.7.6 = { change_development_level = 6 }
 }
-b_kalos_limen={
-	423.7.6 = { holder = imperator191982 }
-}
 c_perekop={
 	408.12.12 = { liege = 0 holder = imperator193273 }
-	423.7.6 = { change_development_level = 5 }
+	423.7.6 = { liege = k_IRTOCK3_J39 holder = imperator191982 change_development_level = 5 }
 }

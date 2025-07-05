@@ -53,6 +53,9 @@
 2304={
 	holding = none
 }
+2305={
+	holding = none
+}
 2306={
 	holding = city_holding
 }
@@ -108,9 +111,7 @@
 	holding = none
 }
 2351={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 2374={
 	culture = galatian
@@ -127,7 +128,9 @@
 	holding = castle_holding
 }
 2379={
-	holding = city_holding
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
 }
 2380={
 	culture = galatian

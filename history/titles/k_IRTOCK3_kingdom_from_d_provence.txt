@@ -3,17 +3,25 @@ d_provence={
 }
 c_venaissin={
 	405.4.16 = { liege = 0 holder = imperator187369 }
-	423.7.6 = { change_development_level = 12 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_arles={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_provence={
 	405.4.16 = { liege = 0 holder = imperator187369 }
 	423.7.6 = { change_development_level = 17 }
 }
-c_nice={
-	405.4.16 = { liege = 0 holder = imperator187369 }
-	423.7.6 = { change_development_level = 12 }
-}
 c_forcalquier={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_embrun={
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_nice={
 	405.4.16 = { liege = 0 holder = imperator187369 }
 	423.7.6 = { change_development_level = 12 }
 }

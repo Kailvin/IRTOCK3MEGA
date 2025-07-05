@@ -6,55 +6,83 @@ d_volga_bulgaria={
 }
 c_bolghar={
 	20.1.1 = { government = tribal_government }
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
 }
-c_ashli={
-	20.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 4 }
-}
 c_yar-calli={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
 }
 c_karabolam={
 	20.1.1 = { government = tribal_government }
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
 }
 c_samar_VB={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_bolghar_holder liege = 0 change_development_level = 0 }
 }
 d_kazan={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_kazan_holder government = tribal_government }
 }
 c_kazan={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
+}
+c_mamadych={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
 }
 c_yoshkar-ola={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
+}
+c_mari-turek={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
 }
 c_elabuga={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazan_holder liege = 0 change_development_level = 6 }
 }
 d_jalmat={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_jalmat_holder government = tribal_government }
 }
 c_jalmat={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
 }
 c_belebey={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+c_siun={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+}
+d_bugurslan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bugurslan_holder government = tribal_government }
 }
 c_bugurslan={
-	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bugurslan_holder liege = 0 change_development_level = 0 }
 }
 c_salavat={
-	423.7.6 = { holder = IRToCK3_c_jalmat_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bugurslan_holder liege = 0 change_development_level = 0 }
+}
+c_kumertau={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_bugurslan_holder liege = 0 change_development_level = 0 }
 }
 d_martyuba={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_martyuba_holder government = tribal_government }
 }
 c_martyuba={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_martyuba_holder liege = 0 change_development_level = 6 }
 }
 c_cykma={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_martyuba_holder liege = 0 change_development_level = 6 }
 }

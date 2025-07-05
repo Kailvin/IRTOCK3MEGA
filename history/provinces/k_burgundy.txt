@@ -1,13 +1,32 @@
 2030={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 2032={
 	holding = none
 }
 2033={
-	holding = city_holding
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
+}
+2037={
+	holding = none
+}
+2046={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2047={
+	holding = none
+}
+2048={
+	holding = none
+}
+2049={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 2063={
 	culture = galatian
@@ -31,19 +50,24 @@
 2070={
 	holding = none
 }
+2074={
+	holding = none
+}
+2296={
+	holding = none
+}
 2297={
 	culture = gaul
 	faith = druidism
-	holding = none
-}
-2298={
-	holding = none
+	holding = castle_holding
 }
 2301={
 	holding = none
 }
-2305={
-	holding = none
+2460={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3258={
 	holding = none

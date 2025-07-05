@@ -6,6 +6,62 @@ k_IRTOCK3_J56={
 	406.10.16 = { holder = imperator191303 government = feudal_government }
 	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
 }
+d_frisia={
+	423.7.6 = { liege = 0 }
+}
+c_dokkum={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_ostfriesland={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_frisia={
+	422.4.15 = { liege = 0 holder = imperator185019 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_thuringia={
+	423.7.6 = { liege = 0 }
+}
+c_gottingen={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_gleichenstein={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_schmalkalden={
+	407.4.5 = { liege = 0 holder = imperator198570 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_orlamunde={
+	395.11.11 = { liege = 0 holder = imperator195692 }
+	423.7.6 = { liege = k_IRTOCK3_L03 holder = imperator195695 change_development_level = 0 }
+}
+c_lobdaburg={
+	395.11.11 = { liege = 0 holder = imperator195692 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_holstein={
+	423.7.6 = { liege = 0 }
+}
+c_lubeck={
+	406.10.16 = { liege = 0 holder = imperator191303 }
+	423.7.6 = { change_development_level = 7 }
+}
+b_femera={
+	423.7.6 = { holder = imperator194787 }
+}
+c_ditmarschen={
+	406.10.16 = { liege = 0 holder = imperator191303 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_hamburg={
+	422.3.1 = { liege = 0 holder = imperator194779 }
+	423.7.6 = { change_development_level = 12 }
+}
 d_angria={
 	423.7.6 = { liege = 0 }
 }
@@ -19,89 +75,39 @@ b_bruchhausen={
 b_hoya={
 	423.7.6 = { holder = imperator199543 }
 }
-c_lippe={
-	376.12.4 = { liege = 0 holder = imperator187963 }
-	423.7.6 = { liege = k_IRTOCK3_G61 holder = imperator181585 change_development_level = 0 }
-}
 c_bremen={
 	409.4.1 = { liege = 0 holder = imperator194344 }
 	423.7.6 = { change_development_level = 11 }
+}
+c_oldenburg={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 11 }
+}
+b_oldenburg={
+	423.7.6 = { holder = imperator199537 }
 }
 c_wolpe={
 	411.1.1 = { liege = 0 holder = imperator189729 }
 	423.7.6 = { change_development_level = 1 }
 }
+c_stade={
+	409.4.1 = { liege = 0 holder = imperator194344 }
+	423.7.6 = { change_development_level = 10 }
+}
 c_hannover={
 	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { liege = k_IRTOCK3_J56 holder = imperator195066 change_development_level = 3 }
+	423.7.6 = { liege = k_IRTOCK3_J56 holder = imperator195066 change_development_level = 4 }
+}
+c_lippe={
+	376.12.4 = { liege = 0 holder = imperator187963 }
+	423.7.6 = { liege = k_IRTOCK3_G61 holder = imperator181585 change_development_level = 0 }
 }
 c_hildesheim={
 	411.1.1 = { liege = 0 holder = imperator189729 }
 	423.7.6 = { change_development_level = 0 }
 }
-c_oldenburg={
-	409.4.1 = { liege = 0 holder = imperator194344 }
-	423.7.6 = { change_development_level = 11 }
-}
-d_holstein={
-	423.7.6 = { liege = 0 }
-}
-c_lubeck={
-	406.10.16 = { liege = 0 holder = imperator191303 }
-	423.7.6 = { change_development_level = 7 }
-}
-b_femera={
-	423.7.6 = { holder = imperator194787 }
-}
-c_stade={
-	409.4.1 = { liege = 0 holder = imperator194344 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_ditmarschen={
-	406.10.16 = { liege = 0 holder = imperator191303 }
-	423.7.6 = { change_development_level = 12 }
-}
-d_frisia={
-	423.7.6 = { liege = 0 }
-}
-c_dokkum={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_ostfriesland={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 10 }
-}
-b_varel={
-	423.7.6 = { holder = imperator199537 }
-}
-c_frisia={
-	422.4.15 = { liege = 0 holder = imperator185019 }
-	423.7.6 = { change_development_level = 16 }
-}
-d_hesse={
-	423.7.6 = { liege = 0 }
-}
-c_kassel={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_fulda={
-	420.11.26 = { liege = 0 holder = imperator202781 }
-	423.7.6 = { change_development_level = 0 }
-}
-b_lauterbach={
-	423.7.6 = { holder = imperator193206 }
-}
-c_nassau={
-	386.6.1 = { liege = 0 holder = imperator193204 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_marburg={
-	386.6.1 = { liege = 0 holder = imperator193204 }
-	423.7.6 = { change_development_level = 4 }
-}
 d_nordmark={
+	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 c_mecklenburg={
@@ -123,4 +129,26 @@ c_rostock={
 c_werle={
 	415.4.23 = { liege = 0 holder = imperator189910 }
 	423.7.6 = { change_development_level = 11 }
+}
+d_hesse={
+	423.7.6 = { liege = 0 }
+}
+c_nassau={
+	386.6.1 = { liege = 0 holder = imperator193204 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_kassel={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_fulda={
+	420.11.26 = { liege = 0 holder = imperator202781 }
+	423.7.6 = { change_development_level = 0 }
+}
+b_lauterbach={
+	423.7.6 = { holder = imperator193206 }
+}
+c_marburg={
+	386.6.1 = { liege = 0 holder = imperator193204 }
+	423.7.6 = { change_development_level = 4 }
 }

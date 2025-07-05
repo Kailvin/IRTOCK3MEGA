@@ -1,7 +1,121 @@
-506={
+469={
 	culture = kolochin
 	faith = nicene
 	holding = castle_holding
+}
+502={
+	culture = illyrian
+	faith = nicene
+	holding = castle_holding
+}
+503={
+	holding = none
+}
+505={
+	culture = kolochin
+	faith = nicene
+	holding = castle_holding
+}
+506={
+	culture = kolochin
+	faith = arianism
+	holding = castle_holding
+}
+3571={
+	holding = none
+}
+3572={
+	culture = kolochin
+	faith = nicene
+	holding = castle_holding
+}
+3573={
+	holding = church_holding
+}
+3574={
+	holding = church_holding
+}
+3575={
+	culture = kolochin
+	faith = nicene
+	holding = castle_holding
+}
+3576={
+	holding = castle_holding
+}
+3577={
+	holding = city_holding
+}
+3578={
+	holding = city_holding
+}
+3579={
+	holding = none
+}
+3580={
+	holding = church_holding
+}
+3581={
+	holding = church_holding
+}
+3582={
+	holding = city_holding
+}
+3583={
+	culture = illyrian
+	faith = nicene
+	holding = castle_holding
+}
+3584={
+	holding = city_holding
+}
+3585={
+	holding = city_holding
+}
+3586={
+	holding = none
+}
+3587={
+	holding = church_holding
+}
+3588={
+	holding = city_holding
+}
+3589={
+	holding = none
+}
+3590={
+	holding = city_holding
+}
+3591={
+	holding = city_holding
+}
+3592={
+	holding = city_holding
+}
+3601={
+	holding = city_holding
+}
+3602={
+	holding = city_holding
+	50.1.1 = { special_building_slot = rudnik_mines_01 }
+}
+3603={
+	holding = none
+}
+3604={
+	culture = kolochin
+	faith = nicene
+	holding = castle_holding
+}
+3605={
+	holding = none
+}
+3606={
+	holding = castle_holding
+}
+3607={
+	holding = city_holding
 }
 3664={
 	culture = kolochin
@@ -26,4 +140,18 @@
 }
 3670={
 	holding = city_holding
+}
+3675={
+	holding = city_holding
+}
+3676={
+	holding = city_holding
+}
+3677={
+	holding = city_holding
+}
+3678={
+	culture = kolochin
+	faith = arianism
+	holding = castle_holding
 }

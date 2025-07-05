@@ -18,11 +18,11 @@ c_dar_al-said={
 }
 c_dar-al-rih={
 	362.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder liege = 0 change_development_level = 0 }
 }
 c_east_darfur={
 	362.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_el_fasher_holder change_development_level = 1 }
+	423.7.6 = { holder = IRToCK3_c_el_fasher_holder liege = 0 change_development_level = 0 }
 }
 d_west_darfur={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_ayn_farah_holder government = tribal_government }
@@ -65,20 +65,4 @@ c_fellata={
 c_ghazzal={
 	360.1.1 = { government = tribal_government }
 	423.7.6 = { change_development_level = 0 }
-}
-d_kordofan={
-	360.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kordofan_holder government = tribal_government }
-}
-c_kordofan={
-	360.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
-}
-c_west_kordofan={
-	360.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
-}
-c_south_kordofan={
-	360.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
 }

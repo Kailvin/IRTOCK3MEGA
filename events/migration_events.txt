@@ -161,24 +161,9 @@ scripted_trigger valid_migrator = {
 			capital_county.kingdom = title:k_daciae
 		}
 	}
-}
-
-scripted_trigger valid_nomadic_migrator = {
-	is_available_ai_adult = yes
-	is_alive = yes
-	is_independent_ruler = yes
-	is_landed = yes
-	is_in_an_activity = no
-	AND = {
-		culture = {
-			has_cultural_tradition = tradition_nomadic_migrations
-		}
-		government_has_flag = government_is_nomadic
+	trigger_else = {
+		always = no
 	}
-	NOT = {
-		has_character_flag = used_lifetime_migration
-	}
-	any_character_war = { using_cb = nomadic_migration_cb }
 }
 
 migration.0001 = {
@@ -524,7 +509,6 @@ scripted_trigger valid_adventurer_target_trigger = {
 			top_liege = {
 				any_character_war = {
 					using_cb = germanic_migration_cb
-					using_cb = nomadic_migration_cb
 				}
 			}
 			#Or which have already earnt a ceasefire with this particular adventurer. Or any of their liege

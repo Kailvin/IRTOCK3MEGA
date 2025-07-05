@@ -1,46 +1,81 @@
-668={
-	holding = church_holding
-}
-669={
-	culture = georgian
-	faith = iberian_pagan
-	holding = castle_holding
-}
 673={
 	holding = city_holding
 }
 674={
-	culture = georgian
+	culture = arran
 	faith = iberian_pagan
 	holding = castle_holding
 }
 675={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 676={
 	culture = macedonian
 	faith = iberian_pagan
 	holding = castle_holding
 }
+679={
+	holding = church_holding
+}
 1013={
-	culture = georgian
+	culture = kartvelian
 	faith = caucasian_pagan
-	holding = none
+	holding = castle_holding
 }
 5304={
+	holding = none
+}
+5305={
 	culture = macedonian
-	faith = iberian_pagan
+	faith = hellenic_pagan
 	holding = castle_holding
 }
-5341={
-	culture = georgian
-	faith = iberian_pagan
+5306={
+	holding = church_holding
+}
+5307={
+	holding = none
+}
+5308={
+	holding = none
+}
+5309={
+	culture = alan
+	faith = hellenic_pagan
 	holding = castle_holding
+}
+5310={
+	holding = none
+}
+5341={
+	holding = church_holding
 }
 5342={
 	holding = none
+}
+5343={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+5738={
+	holding = city_holding
+}
+5739={
+	holding = none
+}
+5740={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5742={
+	holding = none
+}
+5743={
+	culture = kartvelian
+	faith = nicene
+	holding = castle_holding
 }
 5758={
 	holding = none
@@ -64,6 +99,7 @@
 }
 5764={
 	holding = city_holding
+	303.1.1 = { special_building_slot = jvari_monastery }
 }
 5765={
 	holding = none
@@ -85,28 +121,8 @@
 5770={
 	holding = city_holding
 }
-5771={
-	culture = georgian
-	faith = iberian_pagan
-	holding = castle_holding
-}
-5772={
-	holding = none
-}
-5773={
-	holding = city_holding
-}
-5774={
-	holding = church_holding
-}
-5775={
-	holding = none
-}
-5776={
-	holding = none
-}
 5777={
-	culture = georgian
+	culture = arran
 	faith = caucasian_pagan
 	holding = castle_holding
 }
@@ -114,25 +130,5 @@
 	holding = none
 }
 5779={
-	holding = none
-}
-5788={
-	holding = castle_holding
-}
-5789={
-	holding = none
-}
-5790={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-5791={
-	holding = none
-}
-5792={
-	holding = city_holding
-}
-5793={
 	holding = none
 }

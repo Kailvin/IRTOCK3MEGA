@@ -1,0 +1,80 @@
+k_saryarka={
+	423.7.6 = { liege = 0 }
+}
+d_karkaraly={
+	423.7.6 = { liege = 0 }
+}
+c_karkaraly={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_uch_katyn={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_nurtay={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = berujiuli_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+d_tokumbay={
+	423.7.6 = { liege = 0 }
+}
+c_tokumbay={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_arkalyk={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_kulan_utmas={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+d_karabas={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_jasky_kart_holder government = tribal_government }
+}
+c_karabas={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_jasky_kart={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jasky_kart_holder change_development_level = 0 }
+}
+c_ku_jeku={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jasky_kart_holder change_development_level = 0 }
+}
+c_uliuty={
+	100.1.1 = { government = herder_government }
+	423.7.6 = { holder = IRToCK3_c_jasky_kart_holder change_development_level = 0 }
+}
+d_betpa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_betpa_holder government = tribal_government }
+}
+c_betpa={
+	100.1.1 = { government = herder_government }
+	423.7.6 = { holder = IRToCK3_c_betpa_holder liege = 0 change_development_level = 0 }
+}
+c_manaka={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = fuwenhun_2 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_targyl={
+	361.1.1 = { government = nomad_government }
+	395.1.1 = { holder = yueban_ruler_02 }
+	423.7.6 = { holder = IRToCK3_c_betpa_holder liege = 0 change_development_level = 0 }
+}
+c_bulat={
+	100.1.1 = { government = herder_government }
+	423.7.6 = { holder = IRToCK3_c_betpa_holder change_development_level = 0 }
+}

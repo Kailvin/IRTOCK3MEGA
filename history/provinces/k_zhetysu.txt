@@ -1,54 +1,201 @@
 1425={
-	culture = yagma
-	religion = vajrayana
-	holding = tribal_holding
+	holding = none
 }
-7127={
+1426={
+	holding = none
+}
+1427={
+	holding = none
+}
+7155={
+	holding = none
+}
+7156={
+	holding = none
+}
+7157={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = none
+}
+7158={
+	holding = city_holding
+}
+7159={
+	holding = none
+}
+7160={
+	holding = none
+}
+7161={
 	holding = castle_holding
 }
-7133={
+7162={
+	culture = scythian
+	faith = scythian_pagan
+	holding = tribal_holding
+}
+7163={
+	culture = scythian
+	faith = hellenic_pagan
 	holding = none
 }
-7140={
-	holding = church_holding
+7164={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = tribal_holding
 }
-7141={
+7165={
 	holding = none
 }
-7142={
+7166={
 	holding = none
-}
-7144={
-	holding = city_holding
-}
-7145={
-	holding = city_holding
-}
-7146={
-	holding = city_holding
 }
 7167={
 	holding = none
 }
+7168={
+	culture = scythian
+	faith = hellenic_pagan
+	holding = none
+}
 7169={
-	culture = turgesh
-	religion = tengri_pagan
-	holding = tribal_holding
-	900.1.1 = { culture = yagma religion = vajrayana }
+	holding = none
 }
 7170={
 	holding = none
 }
+7171={
+	holding = none
+}
+7172={
+	holding = none
+}
 7173={
-	culture = turgesh
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
 }
 7174={
 	holding = none
 }
-7199={
+7175={
 	holding = none
+}
+7176={
+	holding = none
+}
+7177={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7178={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7179={
+	holding = none
+}
+7180={
+	holding = none
+}
+7181={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7182={
+	holding = none
+}
+7183={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7184={
+	holding = none
+}
+7185={
+	culture = tiele
+	religion = tengri_pagan
+	holding = herder_holding
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7186={
+	holding = none
+}
+7187={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7188={
+	holding = none
+}
+7189={
+	holding = none
+}
+7190={
+	holding = none
+}
+7191={
+	holding = none
+}
+7192={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7193={
+	holding = none
+}
+7194={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7195={
+	holding = none
+}
+7196={
+	holding = none
+}
+7197={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1066.1.1 = { culture = mongol }
+	1134.1.1 = { culture = khitan religion = vajrayana }
+}
+7198={
+	holding = none
+}
+7199={
+	culture = wusun
+	religion = tengri_pagan
+	holding = tribal_holding
+	450.1.1 = { culture = tiele }
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
 }
 7200={
 	holding = none
@@ -57,12 +204,20 @@
 	holding = none
 }
 7202={
-	culture = yagma
-	religion = vajrayana
+	culture = wusun
+	religion = tengri_pagan
 	holding = tribal_holding
+	450.1.1 = { culture = tiele }
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
 }
 7203={
-	holding = none
+	culture = wusun
+	religion = tengri_pagan
+	holding = tribal_holding
+	450.1.1 = { culture = tiele }
+	934.1.1 = { religion = sunni }
+	1134.1.1 = { culture = khitan religion = vajrayana }
 }
 7204={
 	holding = none
@@ -70,83 +225,9 @@
 7205={
 	holding = none
 }
-7216={
-	holding = city_holding
-}
-13535={
+7206={
 	holding = none
 }
-13538={
-	culture = karluk
-	religion = tengri_pagan
-	holding = tribal_holding
-	900.1.1 = { religion = ashari }
-}
-13540={
-	holding = none
-}
-13543={
-	holding = none
-}
-13544={
-	holding = none
-}
-13547={
-	culture = sogdian
-	religion = khurmazta
-	holding = tribal_holding
-	900.1.1 = { culture = karluk religion = ashari }
-	1134.1.1 = { culture = qitai }
-}
-13558={
-	culture = chigil
-	religion = nestorian
-	holding = tribal_holding
-	1050.1.1 = { culture = yagma }
-}
-13644={
-	holding = none
-}
-13653={
-	holding = none
-}
-13719={
-	holding = none
-}
-13761={
-	holding = none
-}
-13793={
-	culture = turgesh
-	religion = tengri_pagan
-	holding = tribal_holding
-}
-13947={
-	holding = none
-}
-13948={
-	culture = karluk
-	religion = khurmazta
-	holding = tribal_holding
-}
-13957={
-	culture = chigil
-	religion = nestorian
-	holding = tribal_holding
-	1050.1.1 = { culture = yagma }
-}
-13960={
-	holding = none
-}
-13963={
-	holding = none
-}
-13964={
-	culture = karluk
-	religion = khurmazta
-	holding = tribal_holding
-	900.1.1 = { religion = ashari }
-}
-13967={
+7207={
 	holding = none
 }

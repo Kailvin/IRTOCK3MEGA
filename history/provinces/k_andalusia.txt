@@ -175,6 +175,7 @@
 	culture = non_indo_european_iberian
 	faith = iberian_pagan
 	holding = castle_holding
+	395.1.1 = { religion = nicene }
 }
 1992={
 	holding = none

@@ -1,0 +1,85 @@
+k_quadia={
+	423.7.6 = { liege = 0 }
+}
+d_nyitra={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_nyitra={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_gemer={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_orava={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_trenscen={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_lipto={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_zolyom={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_bars={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_esztergom={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_hont={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_poszony={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_ungvar={
+	423.7.6 = { liege = 0 }
+}
+c_ungvar={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_zemplen={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_borsod={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_saris={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_spis={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_abauj={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_transcarpathia={
+	423.7.6 = { liege = 0 }
+}
+c_marmaros={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_bereg={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}

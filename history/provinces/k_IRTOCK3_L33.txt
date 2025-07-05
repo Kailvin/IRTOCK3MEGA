@@ -8,7 +8,7 @@
 }
 5976={
 	culture = nabatean
-	faith = nicene
+	faith = valentinianism
 	holding = castle_holding
 }
 5977={
@@ -50,4 +50,18 @@
 }
 6193={
 	holding = none
+}
+6194={
+	holding = none
+}
+6195={
+	holding = city_holding
+}
+6196={
+	holding = church_holding
+}
+6197={
+	culture = nuragic
+	faith = nicene
+	holding = castle_holding
 }

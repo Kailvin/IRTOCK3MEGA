@@ -5,23 +5,47 @@ k_IRTOCK3_K43={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_khotan={
-	397.1.1 = { holder = 166645 liege = k_khotan }
-	423.7.6 = { holder = IRToCK3_c_jiliang_holder government = tribal_government }
+	423.7.6 = { liege = 0 }
 }
 c_khotan={
 	416.7.7 = { liege = 0 holder = imperator186408 }
+	423.7.6 = { change_development_level = 0 }
+}
+b_lafak={
+	423.7.6 = { holder = imperator189035 }
+}
+c_dondan_oilik={
+	416.7.7 = { liege = 0 holder = imperator186408 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_karghalik={
+	392.1.14 = { liege = 0 holder = imperator191227 }
 	423.7.6 = { change_development_level = 3 }
-}
-c_jiliang={
-	423.7.6 = { holder = IRToCK3_c_jiliang_holder liege = 0 change_development_level = 0 }
-}
-c_lafak={
-	423.7.6 = { holder = IRToCK3_c_jiliang_holder liege = 0 change_development_level = 0 }
-}
-c_taklamakan={
-	423.7.6 = { holder = IRToCK3_c_jiliang_holder change_development_level = 2 }
 }
 c_keriya={
 	416.7.7 = { liege = 0 holder = imperator186408 }
-	423.7.6 = { liege = k_IRTOCK3_K43 holder = imperator189035 change_development_level = 4 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_charkliq={
+	33.1.1 = { government = trade_city_state_government }
+	422.2.24 = { holder = shanshan_015 }
+}
+c_charkliq={
+	33.1.1 = { government = trade_city_state_government }
+	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
+	423.7.6 = { change_development_level = 6 }
+}
+c_dunhuang={
+	33.1.1 = { government = trade_city_state_government }
+	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
+	423.7.6 = { change_development_level = 5 }
+}
+c_luobupo={
+	33.1.1 = { government = trade_city_state_government }
+	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
+	423.7.6 = { change_development_level = 5 }
+}
+c_cherchen={
+	416.7.7 = { liege = 0 holder = imperator186408 }
+	423.7.6 = { change_development_level = 10 }
 }

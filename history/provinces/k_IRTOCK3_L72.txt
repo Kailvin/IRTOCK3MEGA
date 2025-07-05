@@ -1,16 +1,16 @@
 1365={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	special_building_slot = iron_pillar_of_delhi_01
 }
 1367={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = har_ki_pauri_temple_01
 }
 1368={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }

@@ -32,6 +32,14 @@
 5160={
 	holding = none
 }
+5168={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = tribal_holding
+}
+5169={
+	holding = none
+}
 5254={
 	holding = none
 }

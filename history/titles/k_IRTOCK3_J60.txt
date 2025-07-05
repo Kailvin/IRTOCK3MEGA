@@ -6,8 +6,39 @@ k_IRTOCK3_J60={
 	394.5.27 = { holder = imperator188370 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_mora={
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_sitti_holder liege = 0 }
+}
+c_awssa={
+	394.5.27 = { liege = 0 holder = imperator188370 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_sitti={
+	423.7.6 = { holder = IRToCK3_c_sitti_holder liege = 0 change_development_level = 0 }
+}
+d_danakil={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_tadjoura={
+	394.5.27 = { liege = 0 holder = imperator188370 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_danakil={
+	394.5.27 = { liege = 0 holder = imperator188370 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_edd={
+	394.5.27 = { liege = 0 holder = imperator188370 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_afar={
+	394.5.27 = { liege = 0 holder = imperator188370 }
+	423.7.6 = { change_development_level = 6 }
+}
 d_lasta={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_amhara_holder government = tribal_government }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_amhara_holder liege = 0 }
 }
 c_lasta={
 	394.5.27 = { liege = 0 holder = imperator188370 }
@@ -25,33 +56,10 @@ c_angot={
 	423.7.6 = { change_development_level = 2 }
 }
 c_amhara={
-	423.7.6 = { holder = IRToCK3_c_amhara_holder liege = 0 change_development_level = 0 }
-}
-d_mora={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_sitti_holder government = tribal_government }
-}
-c_awssa={
-	394.5.27 = { liege = 0 holder = imperator188370 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_sitti={
-	423.7.6 = { holder = IRToCK3_c_sitti_holder liege = 0 change_development_level = 0 }
-}
-d_danakil={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_danakil_holder government = tribal_government }
-}
-c_danakil={
-	423.7.6 = { holder = IRToCK3_c_danakil_holder liege = 0 change_development_level = 0 }
-}
-c_edd={
-	394.5.27 = { liege = 0 holder = imperator188370 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_afar={
-	394.5.27 = { liege = 0 holder = imperator188370 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { holder = IRToCK3_c_amhara_holder liege = d_lasta change_development_level = 0 }
 }
 d_zaila={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_zaila={
@@ -60,10 +68,6 @@ c_zaila={
 }
 b_abasa={
 	423.7.6 = { holder = imperator185506 }
-}
-c_tadjoura={
-	394.5.27 = { liege = 0 holder = imperator188370 }
-	423.7.6 = { change_development_level = 9 }
 }
 c_berbera={
 	362.9.6 = { liege = 0 holder = imperator186432 }

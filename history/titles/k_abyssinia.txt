@@ -1,5 +1,13 @@
 k_abyssinia={
-	421.8.26 = { government = administrative_government holder = imperator197857 liege = e_IRTOCK3_GAR succession_laws = { high_partition_succession_law } }
+	361.1.1 = { change_development_level = 4 }
+	421.8.26 = { government = administrative_government holder = imperator197857 liege = e_IRTOCK3_GAR succession_laws = { appointment_succession_law } }
+}
+d_socotra={
+	423.7.6 = { liege = 0 }
+}
+c_socotra={
+	421.8.26 = { liege = 0 holder = imperator197857 }
+	423.7.6 = { change_development_level = 6 }
 }
 d_hafun={
 	423.7.6 = { liege = 0 }
@@ -21,36 +29,30 @@ c_mudug={
 	423.7.6 = { liege = k_IRTOCK3_I35 holder = imperator190161 change_development_level = 6 }
 }
 d_gojjam={
+	361.1.1 = { change_development_level = 1 }
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_gojjam_holder liege = 0 }
 }
 c_gojjam={
+	342.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
 }
 c_gafat={
-	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
-}
-c_agaw_meder={
+	342.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_gojjam_holder liege = 0 change_development_level = 0 }
 }
 d_showa={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_showa_holder liege = 0 }
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gabal_holder liege = 0 }
+}
+c_gabal={
+	423.7.6 = { holder = IRToCK3_c_gabal_holder liege = 0 change_development_level = 0 }
 }
 c_showa={
-	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gabal_holder liege = 0 change_development_level = 0 }
 }
 c_fetegar={
-	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
-}
-c_waj={
-	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gabal_holder liege = 0 change_development_level = 0 }
 }
 c_ifat={
-	423.7.6 = { holder = IRToCK3_c_showa_holder liege = 0 change_development_level = 0 }
-}
-d_socotra={
-	423.7.6 = { liege = 0 }
-}
-c_socotra={
-	421.8.26 = { liege = 0 holder = imperator197857 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { holder = IRToCK3_c_gabal_holder liege = 0 change_development_level = 0 }
 }

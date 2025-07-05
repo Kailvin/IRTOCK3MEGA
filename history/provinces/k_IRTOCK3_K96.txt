@@ -29,7 +29,7 @@
 	culture = norse
 	faith = norse_pagan
 	holding = castle_holding
-	special_building_slot = lund_cathedral_01
+	303.1.1 = { special_building_slot = lund_cathedral_01 }
 }
 71={
 	holding = city_holding
@@ -330,11 +330,5 @@
 	holding = none
 }
 8734={
-	holding = none
-}
-8768={
-	holding = church_holding
-}
-8770={
 	holding = none
 }

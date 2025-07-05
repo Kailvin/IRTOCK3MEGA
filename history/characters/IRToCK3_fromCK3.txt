@@ -6,7 +6,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = norwegian
-	faith = nicene
+	religion = catholic
 	sexuality = heterosexual
 	trait = zealous
 	trait = greedy
@@ -28,7 +28,7 @@
 	learning = 6
 	prowess = 10
 	culture = "castilian"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_martial_4
@@ -49,7 +49,7 @@
 	name = "Nuno"
 	dynasty = erwigiana
 	culture = galician
-	faith = nicene
+	religion = catholic
 	trait = ambitious
 	trait = arrogant
 	trait = education_intrigue_3
@@ -64,7 +64,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	sexuality = asexual
 	trait = generous
 	trait = chaste
@@ -81,7 +81,7 @@
 	stewardship = 7
 	intrigue = 8
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	trait = education_stewardship_3
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
@@ -94,7 +94,7 @@
 	stewardship = 6
 	intrigue = 5
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	father = 120
 	sexuality = heterosexual
@@ -115,7 +115,7 @@
 	stewardship = 8
 	intrigue = 4
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	father = 120
 	trait = lustful
@@ -123,13 +123,6 @@
 	trait = education_intrigue_3
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
-}
-1250006={
-	name = "Rugila"
-	culture = "tiele"
-	religion = "tengri_pagan"
-	373.1.1 = { birth = yes }
-	428.1.1 = { death = yes }
 }
 140={
 	name = "William"
@@ -140,7 +133,7 @@
 	intrigue = 10
 	prowess = 10
 	culture = "norman"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = ambitious
@@ -179,36 +172,13 @@
 	name = "Siward"
 	dynasty = 744
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	trait = education_diplomacy_3
 	trait = ambitious
 	trait = brave
 	trait = diligent
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
-}
-161508={
-	name = "Kyril"
-	culture = "egyptian"
-	religion = "coptic"
-	376.1.1 = { birth = yes }
-	444.1.1 = { death = yes }
-}
-166257={
-	name = "Dadisho"
-	culture = "assyrian"
-	religion = "nicene"
-	trait = education_learning_3
-	388.1.1 = { birth = yes }
-	456.1.1 = { death = yes }
-}
-166645={
-	name = "Sambhava"
-	dynasty = 1040024
-	culture = "saka"
-	religion = "mahayana"
-	360.1.1 = { birth = yes }
-	436.1.1 = { death = yes }
 }
 172={
 	name = "William"
@@ -218,7 +188,7 @@
 	stewardship = 7
 	intrigue = 8
 	culture = "norman"
-	faith = nicene
+	religion = "catholic"
 	trait = vengeful
 	trait = education_martial_2
 	423.7.7 = { birth = yes }
@@ -232,7 +202,7 @@
 	stewardship = 6
 	intrigue = 2
 	culture = "norman"
-	faith = nicene
+	religion = "catholic"
 	trait = dull
 	trait = education_martial_1
 	trait = wrathful
@@ -240,11 +210,30 @@
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
 }
+200287={
+	name = "Theodoric"
+	dynasty = 99991000
+	culture = gothic
+	religion = arianism
+	379.1.1 = { birth = yes }
+	451.6.20 = { death = yes }
+}
+200289={
+	name = "Sigeric"
+	dynasty = 99920000
+	culture = "gothic"
+	religion = "arianism"
+	trait = vengeful
+	trait = stubborn
+	trait = disloyal
+	370.1.1 = { birth = yes }
+	415.8.22 = { death = yes }
+}
 214={
 	name = "Philippe"
 	dynasty = 743
 	culture = french
-	faith = nicene
+	religion = "catholic"
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
 }
@@ -256,7 +245,7 @@
 	stewardship = 7
 	intrigue = 5
 	culture = french
-	faith = nicene
+	religion = "catholic"
 	trait = leper
 	trait = brave
 	trait = diligent
@@ -319,7 +308,7 @@
 	stewardship = 8
 	intrigue = 8
 	culture = "dutch"
-	faith = nicene
+	religion = "catholic"
 	trait = education_martial_2
 	trait = callous
 	trait = generous
@@ -335,7 +324,7 @@
 	stewardship = 5
 	intrigue = 7
 	culture = "czech"
-	faith = nicene
+	religion = "catholic"
 	trait = arbitrary
 	trait = lazy
 	trait = lifestyle_hunter
@@ -361,7 +350,7 @@
 	martial = 11
 	prowess = 10
 	culture = anglo_saxon
-	faith = nicene
+	religion = "catholic"
 	trait = education_martial_3
 	trait = ambitious
 	trait = vengeful
@@ -370,6 +359,54 @@
 	trait = adventurer
 	423.7.7 = { birth = yes }
 	423.7.8 = { death = yes }
+}
+990002={
+	name = "Oktar"
+	dynasty = 99900000
+	culture = "hun"
+	religion = "tengri_pagan"
+	379.1.1 = { birth = yes }
+	430.1.1 = { death = yes }
+}
+993000={
+	name = "Letho"
+	dynasty = 99930000
+	culture = "langobard"
+	religion = "central_pagan"
+	365.1.1 = { birth = yes }
+	385.1.1 = { trait = one_eyed }
+	425.1.1 = { death = yes }
+}
+994002={
+	name = "Gislahar"
+	dynasty = 99940000
+	culture = "burgundian"
+	religion = "arianism"
+	380.1.1 = { birth = yes }
+	413.1.1 = { death = yes }
+}
+997001={
+	name = "Theodomar"
+	dynasty = 99970000
+	culture = "salian"
+	religion = "central_pagan"
+	375.1.1 = { birth = yes }
+	428.1.1 = { death = yes }
+}
+aari_misc_02={
+	name = "Kedafu"
+	culture = "aari"
+	religion = "south_omotic_pagan"
+	361.12.19 = { birth = yes }
+	445.7.9 = { death = yes }
+}
+agni_007={
+	name = "Jiushibeina"
+	dynasty = dynasty_agni_long
+	culture = "tocharian"
+	religion = "sarvastivada"
+	379.2.14 = { birth = yes }
+	448.3.5 = { death = yes }
 }
 andalusian_0003={
 	name = "Wallada"
@@ -424,7 +461,7 @@ animation_test_dwarf_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -432,7 +469,7 @@ animation_test_dwarf_female={
 animation_test_dwarf_male={
 	name = "Elvira"
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -441,7 +478,7 @@ animation_test_fat_dwarf_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -449,7 +486,7 @@ animation_test_fat_dwarf_female={
 animation_test_fat_dwarf_male={
 	name = "Elvira"
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = dwarf
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -458,7 +495,7 @@ animation_test_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -466,7 +503,7 @@ animation_test_female_child={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -474,7 +511,7 @@ animation_test_female_pregnant={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = pregnant
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -483,7 +520,7 @@ animation_test_hunchbacked_female={
 	name = "Elvira"
 	female = yes
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = hunchbacked
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -491,7 +528,7 @@ animation_test_hunchbacked_female={
 animation_test_hunchbacked_male={
 	name = "Elvira"
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	trait = hunchbacked
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
@@ -499,14 +536,14 @@ animation_test_hunchbacked_male={
 animation_test_male={
 	name = "Elvira"
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
 animation_test_male_child={
 	name = "Elvira"
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -515,7 +552,7 @@ animation_test_muscular_female={
 	female = yes
 	prowess = 15
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
 }
@@ -523,16 +560,9 @@ animation_test_muscular_male={
 	name = "Elvira"
 	prowess = 15
 	culture = "aragonese"
-	faith = nicene
+	religion = "catholic"
 	1.6.2 = { birth = yes }
 	2.1.1 = { death = yes }
-}
-armenian_000022={
-	name = "Sahak"
-	culture = "armenian"
-	religion = "armenian_apostolic"
-	373.1.1 = { birth = yes }
-	428.1.1 = { death = yes }
 }
 awkar_13={
 	name = Demba
@@ -550,11 +580,27 @@ awkar_18={
 	392.1.1 = { birth = yes }
 	460.1.1 = { death = yes }
 }
+berujiuli_2={
+	name = Irnek
+	dynasty = berujiuli_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	373.1.1 = { birth = yes }
+	459.1.1 = { death = yes }
+}
+dubo_2={
+	name = Yaman
+	dynasty = dubo_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	361.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
 easteregg_alexander_oltner={
 	name = "Alexander"
 	health = 7
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -577,7 +623,7 @@ easteregg_alexia_belfort={
 	intrigue = 3
 	learning = 3
 	culture = french
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_diplomacy_4
@@ -638,7 +684,7 @@ easteregg_artur_kacprzak={
 	learning = 2
 	prowess = 3
 	culture = polish
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_martial_2
@@ -660,7 +706,7 @@ easteregg_bianca_savazzi={
 	learning = 9
 	prowess = 2
 	culture = roman
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_learning_2
@@ -682,7 +728,7 @@ easteregg_charna_frostwhisper={
 	learning = 14
 	prowess = 0
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_intrigue_3
@@ -705,7 +751,7 @@ easteregg_christian_daflos={
 	learning = 7
 	prowess = 4
 	culture = "greek"
-	faith = nicene
+	religion = "orthodox"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -727,7 +773,7 @@ easteregg_debbie_lane={
 	learning = 7
 	prowess = 4
 	culture = norse
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_diplomacy_3
@@ -752,7 +798,7 @@ easteregg_emil_tisander={
 	learning = 8
 	prowess = 2
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_stewardship_3
@@ -774,7 +820,7 @@ easteregg_hanna_lohman={
 	learning = 4
 	prowess = 3
 	culture = norse
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_learning_3
@@ -836,7 +882,7 @@ easteregg_ismael_serrano={
 	learning = 8
 	prowess = 6
 	culture = "basque"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -850,7 +896,7 @@ easteregg_jakub_potapczyk={
 	name = "Jakub"
 	health = 7
 	culture = "polish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -871,7 +917,7 @@ easteregg_joacim_carlberg={
 	prowess = 15
 	health = 7
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	trait = education_stewardship_2
 	trait = patient
@@ -907,7 +953,7 @@ easteregg_jonas_wickerstrom={
 	learning = 3
 	prowess = 8
 	culture = "swedish"
-	faith = nicene
+	religion = "orthodox"
 	disallow_random_traits = yes
 	trait = education_diplomacy_1
 	trait = arbitrary
@@ -997,7 +1043,7 @@ easteregg_lysann_schlegel={
 	learning = 7
 	prowess = 5
 	culture = "saxon"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	trait = education_stewardship_4
 	trait = diligent
@@ -1018,7 +1064,7 @@ easteregg_malin_jonsson={
 	learning = 0
 	prowess = 9
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	trait = education_intrigue_3
 	trait = ambitious
@@ -1043,7 +1089,7 @@ easteregg_martin_anward={
 	prowess = 5
 	health = 7
 	culture = "swedish"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_4
@@ -1058,7 +1104,7 @@ easteregg_mathilda_bjarnehed={
 	name = Mathilda
 	female = yes
 	culture = swedish
-	faith = nicene
+	religion = catholic
 	trait = education_learning_3
 	trait = intellect_good_1
 	trait = administrator
@@ -1078,7 +1124,7 @@ easteregg_matthew_clohessy={
 	prowess = 7
 	health = 7
 	culture = "anglo_saxon"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1099,7 +1145,7 @@ easteregg_max_collin={
 	learning = 9
 	prowess = 3
 	culture = "anglo_saxon"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_learning_2
@@ -1121,7 +1167,7 @@ easteregg_max_weltz={
 	learning = 7
 	prowess = 4
 	culture = french
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_stewardship_3
@@ -1144,7 +1190,7 @@ easteregg_maximilian_olbers={
 	learning = 10
 	prowess = 6
 	culture = swedish
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	trait = education_stewardship_3
 	trait = diligent
@@ -1187,7 +1233,7 @@ easteregg_nikolaos_kaltsogiannis={
 	learning = 4
 	prowess = 2
 	culture = "greek"
-	faith = nicene
+	religion = "orthodox"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1239,7 +1285,7 @@ easteregg_paul_depre={
 	learning = 6
 	prowess = 0
 	culture = franconian
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = asexual
 	trait = education_diplomacy_3
@@ -1255,7 +1301,7 @@ easteregg_peter_johannesson={
 	name = "Peter"
 	female = no
 	culture = swedish
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	trait = education_diplomacy_1
 	trait = cynical
@@ -1296,7 +1342,7 @@ easteregg_petter_vilberg={
 	learning = 12
 	prowess = 8
 	culture = norwegian
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	trait = education_diplomacy_3
 	trait = diligent
@@ -1316,7 +1362,7 @@ easteregg_pontus_olofsson={
 	learning = 4
 	prowess = 5
 	culture = "norse"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1332,7 +1378,7 @@ easteregg_pontus_olofsson={
 easteregg_sean_hughes={
 	name = Sean
 	culture = saxon
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	trait = education_stewardship_3
 	trait = beauty_good_1
@@ -1356,7 +1402,7 @@ easteregg_steacy_mcilwham={
 	prowess = 2
 	health = 6
 	culture = scottish
-	faith = nicene
+	religion = catholic
 	disallow_random_traits = yes
 	sexuality = heterosexual
 	trait = education_diplomacy_3
@@ -1380,7 +1426,7 @@ easteregg_tamara_stokic={
 	prowess = 15
 	health = 4.85
 	culture = serbian
-	faith = nicene
+	religion = orthodox
 	trait = education_learning_2
 	trait = gluttonous
 	trait = compassionate
@@ -1400,7 +1446,7 @@ easteregg_tegan_harris={
 	learning = 8
 	prowess = 4
 	culture = "anglo_saxon"
-	faith = nicene
+	religion = "catholic"
 	disallow_random_traits = yes
 	sexuality = bisexual
 	trait = education_intrigue_2
@@ -1419,6 +1465,14 @@ edo_06={
 	religion = west_african_orisha_pagan
 	385.1.1 = { birth = yes }
 	432.1.1 = { death = yes }
+}
+enqu_2={
+	name = Kutrigur
+	dynasty = enqu_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	362.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
 }
 finland_02={
 	name = "Peko"
@@ -1476,6 +1530,80 @@ finland_23={
 	398.1.1 = { birth = yes }
 	450.1.1 = { death = yes }
 }
+fornjot_07={
+	name = "Heiti"
+	dynasty = fornjot_dynasty
+	culture = "sitonian"
+	religion = "finnish_pagan"
+	396.1.1 = { birth = yes }
+	445.1.1 = { death = yes }
+}
+fufuluo_01={
+	name = Inancha
+	dynasty = fufuluo_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	374.1.1 = { birth = yes }
+	441.1.1 = { death = yes }
+}
+fuwenhun_2={
+	name = Anzi
+	dynasty = fuwenhun_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	378.1.1 = { birth = yes }
+	455.1.1 = { death = yes }
+}
+gaetuli_20={
+	name = Hiba
+	dynasty = eastbavares
+	culture = gaetulian
+	religion = amazigh_pagan
+	380.1.1 = { birth = yes }
+	439.1.1 = { death = yes }
+}
+gepids_01={
+	name = "Gundogast"
+	culture = "gepid"
+	religion = "gothic_pagan"
+	332.1.23 = { birth = yes }
+	400.4.28 = { death = yes }
+}
+glazov_02={
+	name = "Inzhay"
+	culture = "udmurt"
+	religion = "udmurt_pagan"
+	372.12.16 = { birth = yes }
+	442.7.13 = { death = yes }
+}
+gregorid_05={
+	name = "Sahak"
+	dynasty = gregorids_dynasty
+	culture = "armenian"
+	religion = "nicene"
+	338.1.1 = { birth = yes }
+	428.1.1 = { death = yes }
+}
+gudala_02={
+	name = "Afalawas"
+	dynasty = gudala
+	culture = gaetulian
+	religion = "amazigh_pagan"
+	385.1.1 = { birth = yes }
+	440.1.1 = { death = yes }
+}
+halogaland_03={
+	name = "Gudlog"
+	dynasty = haloygering_dynasty
+	culture = "norse"
+	religion = "norse_pagan"
+	trait = arrogant
+	trait = sadistic
+	trait = callous
+	trait = viking
+	378.1.1 = { birth = yes }
+	430.1.1 = { death = yes }
+}
 IRToCK3_c_faereyar_hermit={
 	name = Canann
 	culture = irish
@@ -1485,6 +1613,15 @@ IRToCK3_c_faereyar_hermit={
 	trait = devoted
 	373.7.6 = { birth = yes }
 	423.7.6 = { effect = { set_variable = IRToCK3_eremite_flag } }
+}
+IRToCK3_head_of_faith_briton_pagan={
+	name = Orbogenos
+	culture = briton
+	faith = briton_pagan
+	trait = chaste
+	trait = celibate
+	trait = devoted
+	370.7.6 = { birth = yes }
 }
 IRToCK3_head_of_faith_haymanot={
 	name = Abdul-Jaleel
@@ -1504,17 +1641,8 @@ IRToCK3_head_of_faith_karaism={
 	trait = devoted
 	370.7.6 = { birth = yes }
 }
-IRToCK3_head_of_faith_khabzism={
-	name = Akhsar
-	culture = alan
-	faith = khabzism
-	trait = chaste
-	trait = celibate
-	trait = devoted
-	370.7.6 = { birth = yes }
-}
 IRToCK3_head_of_faith_manichean={
-	name = Kano
+	name = Kuber
 	culture = hun
 	faith = manichean
 	trait = chaste
@@ -1522,19 +1650,10 @@ IRToCK3_head_of_faith_manichean={
 	trait = devoted
 	370.7.6 = { birth = yes }
 }
-IRToCK3_head_of_faith_mazdayasna={
-	name = Shahram
-	culture = median
-	faith = mazdayasna
-	trait = chaste
-	trait = celibate
-	trait = devoted
-	370.7.6 = { birth = yes }
-}
 IRToCK3_head_of_faith_orthodox={
-	name = Orentius
-	culture = illyrian
-	faith = nicene
+	name = Antenor
+	culture = greek
+	faith = orthodox
 	trait = chaste
 	trait = celibate
 	trait = devoted
@@ -1549,6 +1668,185 @@ IRToCK3_head_of_faith_urartuism={
 	trait = devoted
 	370.7.6 = { birth = yes }
 }
+kan_04={
+	name = "Shuang"
+	dynasty = kan_dynasty
+	culture = "han"
+	religion = "mahayana"
+	377.1.9 = { birth = yes }
+	452.4.30 = { death = yes }
+}
+kargadan_02={
+	name = "Syrka"
+	culture = "udmurt"
+	religion = "udmurt_pagan"
+	377.12.14 = { birth = yes }
+	456.7.8 = { death = yes }
+}
+kolyn_02={
+	name = "Dondy"
+	culture = "udmurt"
+	religion = "udmurt_pagan"
+	379.1.3 = { birth = yes }
+	455.3.19 = { death = yes }
+}
+kucha_009={
+	name = "Zhen"
+	dynasty = 1040052
+	culture = "tocharian"
+	religion = "sarvastivada"
+	345.6.15 = { birth = yes }
+	437.10.17 = { death = yes }
+}
+lakhmid_07={
+	name = "al-Mundhir"
+	dynasty = lakhmid_dynasty
+	culture = "bedouin"
+	religion = "nestorian"
+	trait = architect
+	trait = education_martial_2
+	391.1.1 = { birth = yes }
+	462.1.1 = { death = yes }
+}
+magyar_01={
+	name = "Csaba"
+	dynasty = magyar_placeholder
+	culture = "mogyer"
+	religion = "magyar_pagan"
+	341.1.1 = { birth = yes }
+	400.1.1 = { death = yes }
+}
+mauri_19={
+	name = Aderbal
+	dynasty = baquates
+	culture = maurian
+	religion = amazigh_pagan
+	395.1.1 = { birth = yes }
+	445.1.1 = { death = yes }
+}
+mauri_24={
+	name = Agama
+	dynasty = westbavares
+	culture = gaetulian
+	religion = amazigh_pagan
+	395.1.1 = { birth = yes }
+	445.1.1 = { death = yes }
+}
+mazdayasna_priest_02={
+	name = "Farud"
+	learning = 10
+	culture = persian
+	religion = mazdayasna
+	trait = education_learning_4
+	trait = just
+	trait = stubborn
+	trait = temperate
+	trait = whole_of_body
+	389.1.1 = { birth = yes }
+	490.1.1 = { death = yes }
+}
+messufa_02={
+	name = "Misagenes"
+	dynasty = messufa
+	culture = gaetulian
+	religion = "amazigh_pagan"
+	388.1.1 = { birth = yes }
+	456.1.1 = { death = yes }
+}
+nording_01={
+	name = "Raum"
+	dynasty = fornjot_dynasty
+	culture = "norse"
+	religion = "norse_pagan"
+	392.1.1 = { birth = yes }
+	415.1.1 = { dynasty = rauming_dynasty }
+	443.1.1 = { death = yes }
+}
+nording_03={
+	name = "Thrand"
+	dynasty = fornjot_dynasty
+	culture = "norse"
+	religion = "norse_pagan"
+	391.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+old_marcomanni_01={
+	name = "Reirigus"
+	dynasty = marcomanni_dynasty
+	culture = "old_suebi"
+	religion = central_pagan
+	332.1.1 = { birth = yes }
+	390.1.1 = { religion = arianism }
+	400.1.1 = { death = yes }
+}
+palniki_02={
+	name = "Chichayka"
+	culture = "udmurt"
+	religion = "udmurt_pagan"
+	367.9.19 = { birth = yes }
+	426.3.24 = { death = yes }
+}
+qiang_09={
+	name = "Bai"
+	dynasty = qiang_02
+	culture = "qiang"
+	religion = "rrmeaism"
+	368.1.1 = { birth = yes }
+	416.1.1 = { culture = tuyuhun religion = tengri_pagan }
+	430.1.1 = { death = yes }
+}
+qiang_15={
+	name = "Khyungza"
+	female = yes
+	dynasty = 2003070
+	culture = "sumpa"
+	religion = "old_bon"
+	356.1.1 = { birth = yes }
+	433.1.1 = { death = yes }
+}
+quadi_04={
+	name = "Hermerich"
+	dynasty = quadi_dynasty
+	diplomacy = 12
+	martial = 12
+	stewardship = 12
+	intrigue = 5
+	learning = 7
+	culture = "old_suebi"
+	religion = "central_pagan"
+	trait = ambitious
+	trait = fickle
+	trait = humble
+	trait = education_martial_3
+	trait = logistician
+	362.1.1 = { birth = yes effect = {
+			add_character_flag = has_scripted_appearance
+		} }
+	441.1.1 = { death = yes }
+}
+rouran_02={
+	name = "Shuli"
+	culture = "rouran"
+	religion = "tengri_pagan"
+	375.9.1 = { birth = yes }
+	426.8.10 = { death = yes }
+}
+rugian_01={
+	name = "Cissa"
+	dynasty = 99993000
+	culture = "rugian"
+	religion = "gothic_pagan"
+	342.5.3 = { birth = yes }
+	420.1.1 = { religion = "arianism" }
+	425.1.1 = { death = yes }
+}
+sanhedrin_04={
+	name = "Gamaliel"
+	culture = "hebrew"
+	religion = "rabbinism"
+	360.1.1 = { birth = yes }
+	425.1.1 = { death = yes }
+}
 sapmi_22={
 	name = "Ruigi"
 	culture = "sami"
@@ -1556,21 +1854,142 @@ sapmi_22={
 	365.1.1 = { birth = yes }
 	431.1.1 = { death = yes }
 }
-shangqing_hof006={
-	name = "Han"
-	dynasty = d_shangqing_Ma
-	culture = han
-	religion = shangqing
-	356.1.1 = { birth = yes }
-	442.1.1 = { death = yes }
+shanshan_015={
+	name = "Bilong"
+	dynasty = dynasty_shanshan_rulers
+	culture = "tocharian"
+	religion = "mahayana"
+	trait = stubborn
+	trait = diligent
+	390.3.6 = { birth = yes }
+	460.1.2 = { death = yes }
 }
-tamna025={
-	name = "Gi"
-	dynasty = jejud001
-	culture = jeju
-	religion = mahayana
-	393.1.1 = { birth = yes }
+slavs_01={
+	name = BoZ_
+	dynasty = antes
+	culture = slavic
+	religion = slavic_pagan
+	disallow_random_traits = yes
+	trait = fickle
+	trait = zealous
+	trait = diligent
+	trait = education_martial_2
+	trait = cautious_leader
+	335.1.1 = { birth = yes }
+	383.1.1 = { death = yes }
+}
+tiele_03={
+	name = Chiluohou
+	dynasty = hulu
+	culture = tiele
+	religion = tengri_pagan
+	trait = deceitful
+	361.1.1 = { birth = yes }
+	430.1.1 = { death = yes }
+}
+tiele_07={
+	name = Itlar
+	dynasty = tongluo_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	369.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+tiele_09={
+	name = Blush
+	dynasty = fuluo_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	358.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+tiele_11={
+	name = Pulad
+	dynasty = siqit_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	360.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+tiele_13={
+	name = SirC_an
+	dynasty = huxae_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	373.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+tiele_16={
+	name = Sukhrab
+	dynasty = yenisei
+	culture = kirghiz
+	religion = tengri_pagan
+	399.1.1 = { birth = yes }
+	455.1.1 = { death = yes }
+}
+tiele_19={
+	name = Kozel
+	dynasty = bugut_dynasty
+	culture = tiele
+	religion = tengri_pagan
+	374.1.1 = { birth = yes }
 	453.1.1 = { death = yes }
+}
+tuareg_24={
+	name = "Xamida"
+	dynasty = imededeyen
+	culture = tuareg
+	religion = tuareg_pagan
+	389.1.1 = { birth = yes }
+	459.1.1 = { death = yes }
+}
+tuyuhun_05={
+	name = "Yicheng"
+	dynasty = qiang_01
+	culture = "tuyuhun"
+	religion = "tengri_pagan"
+	399.1.1 = { birth = yes }
+	465.1.1 = { death = yes }
+}
+uyghur_2={
+	name = Telek
+	dynasty = uyghur
+	culture = tiele
+	religion = tengri_pagan
+	371.1.1 = { birth = yes }
+	435.1.1 = { death = yes }
+}
+vandals_002={
+	name = "Guntharix"
+	dynasty = hasding
+	culture = "vandal"
+	religion = "arianism"
+	trait = ambitious
+	trait = wrathful
+	trait = brave
+	379.1.1 = { birth = yes }
+	428.1.1 = { death = yes }
+}
+varini_03={
+	name = "Berthachar"
+	dynasty = 99939002
+	culture = "varinian"
+	religion = "gothic_pagan"
+	395.1.1 = { birth = yes }
+	460.1.1 = { death = yes }
+}
+western_liang_004={
+	name = "Yao"
+	dynasty = dynasty_song_liang
+	culture = "han"
+	religion = "zhengyi"
+	trait = education_learning_3
+	trait = scholar
+	trait = just
+	trait = diligent
+	trait = temperate
+	361.6.9 = { birth = yes }
+	439.12.18 = { death = yes }
 }
 xianbei_023={
 	name = "Anzhou"
@@ -1598,11 +2017,38 @@ xiongnu_008={
 	368.4.28 = { birth = yes }
 	433.1.1 = { death = yes }
 }
-zhengyi_cm007={
-	name = "Hui"
-	dynasty = d_zhengyi_zhang
-	culture = han
-	religion = zhengyi
-	361.1.1 = { birth = yes }
-	435.1.1 = { death = yes }
+xionite_018={
+	name = "Varhran"
+	dynasty = dynasty_kidarite
+	culture = "xionite"
+	religion = "khurmazta"
+	369.11.12 = { birth = yes }
+	431.4.17 = { death = yes }
+}
+yidie_02={
+	name = Inancha
+	dynasty = yidie_dynasty
+	culture = tiele
+	religion = vajrayana
+	380.1.1 = { birth = yes }
+	430.1.1 = { death = yes }
+}
+yueban_ruler_02={
+	name = "Mengxun"
+	culture = "yueban"
+	religion = "tengri_pagan"
+	373.6.9 = { birth = yes }
+	428.1.1 = { death = yes }
+}
+yujiulu_077={
+	name = "Datan"
+	dynasty = dynasty_yujiulu
+	culture = "rouran"
+	religion = "tengri_pagan"
+	trait = education_martial_4
+	trait = brave
+	trait = callous
+	trait = calm
+	350.1.1 = { birth = yes }
+	429.1.1 = { death = yes }
 }

@@ -305,7 +305,7 @@ sow_dissent_ere_decision = {
 	desc = sow_dissent_ere_decision_desc
 	selection_tooltip = sow_dissent_ere_decision_tooltip
 
-	ai_goal = yes
+	ai_check_interval = 12
 
 	is_shown = {
 		game_start_date = 476.9.4
@@ -359,7 +359,7 @@ sow_dissent_ere_decision = {
 			}
 		}
 		save_scope_as = italy_holder_dissent
-		title:e_byzantium.holder= {
+		title:e_byzantium.holder = {
 			trigger_event = germanic_events.0010
 		}
 		add_to_global_variable_list = {
@@ -373,26 +373,29 @@ sow_dissent_ere_decision = {
 		
 		if = {
 			limit = {
-				title:e_byzantium.holder = {
-					is_permanent_tributary = {
-						SUZERAIN = title:e_byzantium.holder
-						TRIBUTARY = root
-					}
-				}
+				title:e_byzantium.holder = scope:italy_holder_dissent.suzerain
 			}
-			title:e_byzantium.holder = {
-				unset_tributary = {
-					TRIBUTARY = root
-					TRIBUTARY_BASE_TYPE = flag:permanent
-				}
+			scope:italy_holder_dissent = {
+				end_tributary = yes
 			}
-		}
-		
+		}	
 	}
 
 	ai_potential = {
 		always = yes
 	}
+	cost = {
+        gold = {
+            value = 0
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                add = 0
+            }
+            else = { add = 100 }
+        }
+    }
 	cost = {
 		gold = 100
 	}

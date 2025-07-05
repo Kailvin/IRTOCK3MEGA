@@ -185,6 +185,7 @@ struggle_north_indian_development_county_value = 5
 struggle_north_indian_development_req_value = 40
 struggle_north_indian_religion_county_value = 3
 
+#this is no longer active; maybe switch to migration_cb?
 TFE_NOMADIC_AI_SCORE_MULT = {
 	value = 1
 	if = {

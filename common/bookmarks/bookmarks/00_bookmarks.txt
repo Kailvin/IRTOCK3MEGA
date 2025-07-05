@@ -5,21 +5,6 @@
 	recommended = yes
 	weight = { value = 100 }
 	character = {
-		name = bm_converted_imperator190502
-		dynasty = dynn_irtock3_16778167
-		dynasty_splendor_level = 1
-		type = male
-		history_id = imperator190502
-		birth = 376.10.5
-		title = k_sicily
-		government = feudal_government
-		culture = sicilian
-		religion=hellenic_pagan
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 450 440 }
-		animation = personality_rational
-	}
-	character = {
 		name = bm_converted_imperator198687
 		dynasty = dynn_irtock3_2262
 		dynasty_splendor_level = 1
@@ -27,11 +12,11 @@
 		history_id = imperator198687
 		birth = 406.4.7
 		title = e_caspian-pontic_steppe
-		government = imperial_government
+		government = administrative_government
 		culture = scythian
 		religion=iberian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 225 450 }
+		position = { 190 570 }
 		animation = personality_rational
 	}
 	character = {
@@ -42,11 +27,26 @@
 		history_id = imperator188168
 		birth = 366.11.1
 		title = e_IRTOCK3_BAC
-		government = imperial_government
-		culture = indo_greek
-		religion=indo_hellenism
+		government = administrative_government
+		culture = indogreek
+		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1100 650 }
+		position = { 1343 769 }
+		animation = personality_rational
+	}
+	character = {
+		name = bm_converted_imperator190502
+		dynasty = dynn_irtock3_16778167
+		dynasty_splendor_level = 1
+		type = male
+		history_id = imperator190502
+		birth = 376.10.5
+		title = e_IRTOCK3_SYR
+		government = feudal_government
+		culture = roman
+		religion=hellenic_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 435 506 }
 		animation = personality_rational
 	}
 	character = {
@@ -61,7 +61,7 @@
 		culture = macedonian
 		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1000 338 }
+		position = { 1061 620 }
 		animation = personality_rational
 	}
 	character = {
@@ -72,11 +72,11 @@
 		history_id = imperator193903
 		birth = 389.1.24
 		title = k_IRTOCK3_MNA
-		government = imperial_government
+		government = administrative_government
 		culture = irish
 		religion=insular_celtic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 250 150 }
+		position = { 207 300 }
 		animation = personality_rational
 	}
 	character = {
@@ -87,11 +87,11 @@
 		history_id = imperator183693
 		birth = 349.9.25
 		title = e_IRTOCK3_BDI
-		government = imperial_government
-		culture = greek
-		religion=orthodox
+		government = administrative_government
+		culture = hellenic_greek
+		religion=arianism
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 625 204 }
+		position = { 622 529 }
 		animation = personality_rational
 	}
 	character = {
@@ -102,11 +102,11 @@
 		history_id = imperator186910
 		birth = 361.3.6
 		title = e_IRTOCK3_GAR
-		government = imperial_government
+		government = administrative_government
 		culture = nuragic
 		religion=egyptian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 625 640 }
+		position = { 567 783 }
 		animation = personality_rational
 	}
 	character = {
@@ -118,10 +118,10 @@
 		birth = 363.2.11
 		title = e_IRTOCK3_B99
 		government = feudal_government
-		culture = greek
-		religion=catholic
+		culture = hellenic_greek
+		religion=nicene
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 400 250 }
+		position = { 301 433 }
 		animation = personality_rational
 	}
 	character = {
@@ -132,11 +132,11 @@
 		history_id = imperator194255
 		birth = 390.7.19
 		title = k_IRTOCK3_ATH
-		government = imperial_government
-		culture = greek
-		religion=orthodox
+		government = administrative_government
+		culture = hellenic_greek
+		religion=nicene
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 700 425 }
+		position = { 626 598 }
 		animation = personality_rational
 	}
 	character = {
@@ -147,11 +147,11 @@
 		history_id = imperator185947
 		birth = 357.8.23
 		title = k_IRTOCK3_LEU
-		government = imperial_government
+		government = administrative_government
 		culture = norse
 		religion=norse_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 275 700 }
+		position = { 383 730 }
 		animation = personality_rational
 	}
 }

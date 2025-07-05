@@ -1,38 +1,49 @@
 8355={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = sidama
+	religion = sidama_pagan
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
+	1140.1.1 = { religion = sunni }
 }
 8356={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = sidama
+	religion = damot_pagan
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
+	1140.1.1 = { religion = sunni }
 }
 8357={
 	holding = none
+	1066.1.1 = { holding = church_holding }
 }
 8358={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = welayta
+	religion = welayta_pagan
+	holding = tribal_holding
 }
 8359={
 	holding = none
 }
 8360={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = aari
+	religion = south_omotic_pagan
+	holding = tribal_holding
 }
 8361={
 	holding = none
 }
 8362={
-	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	culture = welayta
+	religion = welayta_pagan
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
 }
 8363={
+	holding = none
+}
+8364={
+	culture = somali
+	faith = egyptian_pagan
 	holding = none
 }
 8365={
@@ -62,19 +73,22 @@
 	holding = none
 }
 8377={
-	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	culture = welayta
+	religion = welayta_pagan
+	holding = tribal_holding
 }
 8379={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = aari
+	religion = south_omotic_pagan
+	holding = tribal_holding
 }
 8380={
 	holding = none
 }
 8381={
+	holding = none
+}
+8385={
 	holding = none
 }
 8387={
@@ -84,6 +98,7 @@
 }
 8388={
 	holding = none
+	1066.1.1 = { holding = city_holding }
 }
 8389={
 	holding = none
@@ -93,14 +108,15 @@
 }
 8433={
 	holding = none
+	1066.1.1 = { holding = city_holding }
 }
 8434={
 	holding = none
 }
 8435={
-	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	culture = welayta
+	religion = welayta_pagan
+	holding = tribal_holding
 }
 8436={
 	holding = none
@@ -115,9 +131,9 @@
 	holding = none
 }
 8517={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = aari
+	religion = south_omotic_pagan
+	holding = tribal_holding
 }
 8518={
 	holding = none

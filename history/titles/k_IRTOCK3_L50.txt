@@ -2,32 +2,28 @@ k_IRTOCK3_L50={
 	421.7.3 = { holder = imperator203205 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_azerbaijan={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_talish_holder liege = 0 }
+d_greater_armenia={
+	423.7.6 = { liege = 0 }
 }
-c_tabriz={
-	421.7.3 = { liege = 0 holder = imperator203205 }
-	423.7.6 = { change_development_level = 10 }
+c_khachen={
+	373.8.26 = { liege = 0 holder = imperator185577 }
+	423.7.6 = { change_development_level = 6 }
 }
-b_dizmar={
-	423.7.6 = { holder = imperator194858 }
+b_gardman={
+	423.7.6 = { holder = imperator190806 }
 }
-c_talish={
-	423.7.6 = { holder = IRToCK3_c_talish_holder liege = 0 change_development_level = 3 }
-}
-c_ardabil={
-	409.1.7 = { liege = 0 holder = imperator196848 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_maragha={
-	409.1.7 = { liege = 0 holder = imperator196848 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_bailaqan={
-	409.1.7 = { liege = 0 holder = imperator196848 }
+c_hayk={
+	373.8.26 = { liege = 0 holder = imperator185577 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_urmiya={
-	412.7.18 = { liege = 0 holder = imperator200550 }
-	423.7.6 = { change_development_level = 10 }
+b_kumayri={
+	423.7.6 = { holder = imperator186170 }
+}
+c_suenik={
+	373.8.26 = { liege = 0 holder = imperator185577 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_dvin={
+	421.7.3 = { liege = 0 holder = imperator203205 }
+	423.7.6 = { change_development_level = 8 }
 }

@@ -1,20 +1,20 @@
 1179={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1190={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1192={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1193={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -22,12 +22,16 @@
 	holding = none
 }
 1362={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 1363={
 	holding = none
+}
+3411={
+	holding = none
+}
+3412={
+	holding = city_holding
 }
 3418={
 	holding = church_holding
@@ -39,15 +43,14 @@
 	holding = none
 }
 3421={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 3422={
+	culture = indogreek
+	faith = hellenic_pagan
 	holding = castle_holding
-}
-3423={
-	holding = none
 }
 3424={
 	holding = none
@@ -59,7 +62,7 @@
 	holding = city_holding
 }
 3427={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -82,9 +85,7 @@
 	holding = castle_holding
 }
 3434={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = city_holding
 }
 3435={
 	holding = none

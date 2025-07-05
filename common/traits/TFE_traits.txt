@@ -246,6 +246,9 @@ the_hun = {
 	light_cavalry_damage_mult = 1
 	heavy_cavalry_damage_mult = 1
 
+	herd_gain_mult = 1
+	herd_capacity_mult = 3
+
 	ai_boldness = 50
 	ai_energy = 50
 
@@ -286,6 +289,9 @@ heir_of_attila = {
 	archer_cavalry_damage_mult = 0.5
 	light_cavalry_damage_mult = 0.5
 	heavy_cavalry_damage_mult = 0.5
+
+	herd_gain_mult = 0.5
+	herd_capacity_mult = 1.5
 
 	ai_boldness = 50
 	ai_energy = 50

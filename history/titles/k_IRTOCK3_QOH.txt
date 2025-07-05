@@ -4,13 +4,14 @@ k_IRTOCK3_QOH={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_dahlaks={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_dahlak_holder liege = 0 }
 }
 c_dahlak={
-	423.7.6 = { holder = IRToCK3_c_dahlak_holder liege = 0 change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_dahlak_holder liege = d_dahlaks change_development_level = 8 }
 }
 c_massawa={
-	423.7.6 = { holder = IRToCK3_c_dahlak_holder liege = 0 change_development_level = 12 }
+	423.7.6 = { holder = IRToCK3_c_dahlak_holder liege = d_dahlaks change_development_level = 12 }
 }
 c_bur={
 	416.8.1 = { liege = 0 holder = imperator201743 }

@@ -17,31 +17,61 @@ on_game_start = {
 
 TFE_on_game_start = {
 	effect = {
+		set_global_variable = {
+			name = active_conquerors
+			value = 0
+		}
 		title:b_alexandria.title_province = {
 			add_province_modifier = library_construct
 		}
 		every_ruler = {
 			limit = {
-				culture = {
-					has_cultural_tradition = tradition_nomadic_migrations
-				}
-				has_government = tribal_government
+				government_has_flag = government_is_nomadic
 			}
-			change_government = nomadic_government
+			every_held_title = {
+				limit = {
+					tier = tier_county
+					holder = { government_has_flag = government_is_nomadic }
+					OR = {
+						title_province = { geographical_region = world_steppe_west }
+						title_province = { geographical_region = world_steppe_central }
+						title_province = { geographical_region = dlc_mpo_steppe_central_siberia_addon }
+						title_province = { geographical_region = world_steppe_east }
+						title_province = { geographical_region = dlc_mpo_steppe_east_buryatia_addon }
+					}
+					title_province = { has_holding_type = tribal_holding }
+				}
+				title_province = { set_holding_type = nomad_holding }
+			}
+			save_scope_as = check_dom
+			if = {
+				limit = {
+					domicile.domicile_location != capital_province
+				}
+				domicile = { move_domicile = scope:check_dom.capital_province }
+			}
+			if = {
+				limit = {
+					domicile.domicile_culture != scope:check_dom.culture
+				}
+				domicile = { set_domicile_culture = scope:check_dom.culture }
+			}
+			if = {
+				limit = {
+					domicile.domicile_faith != scope:check_dom.faith
+				}
+				domicile = { set_domicile_faith = scope:check_dom.faith }
+			}
 		}
 		every_ruler = {
 			limit = {
-				culture = {
-					has_cultural_tradition = tradition_migrations
+				OR = {
+					government_allows = administrative
+					AND = {
+						top_liege = { government_allows = administrative }
+						government = { government_has_flag = government_is_administrative }
+					}
 				}
-				has_government = nomadic_government
-			}
-			change_government = tribal_government
-		}
-		every_ruler = {
-			limit = {
-				government_allows = administrative
-				top_liege = { government_allows = administrative }
 				OR = {
 					is_house_head = yes
 					house.house_head = { is_landed = no }
@@ -68,17 +98,18 @@ TFE_on_game_start = {
 				add_trait = governor
 				set_variable = { name = init_gov_val value = 0 }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.age }
+				change_variable = { name = init_gov_val multiply = 0.5 }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.diplomacy }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.martial }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.stewardship }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.intrigue }
 				change_variable = { name = init_gov_val add = scope:temp_ruler.learning }
 				change_variable = { name = init_gov_val multiply = 0.5 }
-				add_trait_xp = {
-					trait = governor
-					value = scope:temp_ruler.var:init_gov_val
-				}
-				#increase_governance_effect = { VALUE = scope:temp_ruler.var:init_gov_val }
+				#add_trait_xp = {
+				#	trait = governor
+				#	value = scope:temp_ruler.var:init_gov_val
+				#}
+				increase_governance_effect = { VALUE = scope:temp_ruler.var:init_gov_val }
 			}
 			if = {
 				limit = { has_character_flag = not_indy }
@@ -195,6 +226,15 @@ TFE_on_game_start = {
 			remove_variable = block_conversion_till_decision_taken
 		}
 		
+		if = {
+			limit = {
+				game_start_date > 532.1.1
+			}
+			culture:angle = {
+				add_culture_tradition = tradition_hird
+				remove_variable = tradition_cooldown
+			}
+		}
 		
 		if = {
 			limit = {
@@ -317,13 +357,13 @@ TFE_on_game_start = {
 			save_scope_as = current_emperor
 			
 			
-			#new_official_imperial_faith_effect_skip_effects = { EMPIRE = scope:current_emperor.primary_title FAITH = scope:current_emperor.faith }
-			#title:e_roman_empire = {
-			#	set_variable = {
-			#		name = official_imperial_faith
-			#		value = faith:nicene
-			#	}
-			#}
+			new_official_imperial_faith_effect_skip_effects = { EMPIRE = scope:current_emperor.primary_title FAITH = scope:current_emperor.faith }
+			title:e_roman_empire = {
+				set_variable = {
+					name = official_imperial_faith
+					value = faith:nicene
+				}
+			}
 		}
 		
 		

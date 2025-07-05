@@ -1,122 +1,35 @@
-895={
-	culture = bashkir
-	religion = tengri_pagan
-	holding = tribal_holding
-	1337.1.1 = { culture = laktan }
-}
 1433={
 	holding = none
 }
 1435={
-	culture = kipchak
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
-	1000.1.2 = { culture = cuman }
-	1337.1.1 = { culture = kipchak holding = castle_holding }
-}
-5890={
-	holding = none
-}
-5891={
-	holding = none
-}
-5892={
-	culture = bashkir
-	religion = tengri_pagan
-	holding = tribal_holding
-	1337.1.1 = { culture = kimek holding = castle_holding }
-}
-5893={
-	holding = none
-}
-5894={
-	holding = none
-}
-5895={
-	holding = none
-}
-7018={
-	holding = none
-}
-7019={
-	holding = none
-}
-7020={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { culture = laktan religion = ulganism }
-}
-7021={
-	holding = none
-}
-7022={
-	holding = none
-}
-7023={
-	holding = none
-}
-7024={
-	holding = none
-}
-7025={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	1000.1.2 = { culture = bashkir }
-}
-7026={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { holding = castle_holding }
-}
-7035={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { culture = laktan religion = ulganism holding = castle_holding }
-}
-7036={
-	holding = none
-}
-7037={
-	holding = none
-}
-7038={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	1000.1.2 = { culture = bashkir }
-	1337.1.1 = { holding = castle_holding }
-}
-7039={
-	holding = none
+	450.1.1 = { culture = tiele religion = tengri_pagan }
 }
 7040={
-	holding = none
+	culture = khanty
+	religion = siberian_pagan
+	holding = tribal_holding
+	450.1.1 = { culture = tiele religion = tengri_pagan }
 }
 7041={
 	holding = none
 }
 7042={
-	culture = cuman
-	religion = tengri_pagan
+	culture = mogyer
+	religion = magyar_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak holding = castle_holding }
-}
-7058={
-	holding = none
+	450.1.1 = { culture = tiele religion = tengri_pagan }
+	632.1.1 = { culture = kimek }
+	768.1.1 = { culture = kipchak }
 }
 7059={
-	culture = kipchak
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
+	450.1.1 = { culture = tiele religion = tengri_pagan }
 	1000.1.2 = { culture = cuman }
-	1337.1.1 = { culture = kimek holding = castle_holding }
 }
 7060={
 	holding = none
@@ -125,10 +38,9 @@
 	holding = none
 }
 7062={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
-	1337.1.1 = { holding = castle_holding }
 }
 7063={
 	holding = none
@@ -136,13 +48,12 @@
 7064={
 	holding = none
 }
-7253={
-	holding = none
-}
 7269={
 	holding = none
 }
 7270={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 7271={
@@ -157,19 +68,28 @@
 	holding = none
 }
 7274={
-	culture = cuman
-	religion = tengri_pagan
+	culture = mogyer
+	religion = magyar_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kimek holding = castle_holding }
+	450.1.1 = { culture = tiele religion = tengri_pagan }
+	632.1.1 = { culture = kimek }
+	768.1.1 = { culture = kipchak }
 }
 7275={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 7276={
 	holding = none
 }
 7277={
-	holding = none
+	culture = mogyer
+	religion = magyar_pagan
+	holding = tribal_holding
+	450.1.1 = { culture = tiele religion = tengri_pagan }
+	632.1.1 = { culture = kimek }
+	768.1.1 = { culture = kipchak }
 }
 7278={
 	holding = none
@@ -184,10 +104,12 @@
 	holding = none
 }
 7282={
-	culture = cuman
-	religion = tengri_pagan
+	culture = mogyer
+	religion = magyar_pagan
 	holding = tribal_holding
-	1337.1.1 = { culture = kipchak religion = maturidi holding = castle_holding }
+	450.1.1 = { culture = tiele religion = tengri_pagan }
+	632.1.1 = { culture = kimek }
+	768.1.1 = { culture = kipchak }
 }
 7283={
 	holding = none
@@ -199,15 +121,6 @@
 	holding = none
 }
 7288={
-	holding = none
-}
-7356={
-	holding = none
-}
-7357={
-	holding = none
-}
-7358={
 	holding = none
 }
 7359={

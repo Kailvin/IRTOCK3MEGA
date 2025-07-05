@@ -1,3 +1,33 @@
+4788={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4789={
+	holding = none
+}
+4790={
+	holding = castle_holding
+}
+4794={
+	holding = none
+}
+4795={
+	holding = none
+}
+4796={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4797={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4798={
+	holding = none
+}
 4819={
 	holding = none
 }
@@ -14,8 +44,35 @@
 4822={
 	holding = none
 }
-4823={
+4824={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4825={
+	holding = city_holding
+}
+4827={
+	holding = none
+}
+4828={
 	holding = church_holding
+}
+4829={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4830={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+4831={
+	holding = none
+}
+4833={
+	holding = none
 }
 6005={
 	culture = macedonian

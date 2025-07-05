@@ -1,10 +1,49 @@
+678={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+705={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+	303.1.1 = { special_building_slot = sumela_monastery_01 }
+}
+706={
+	culture = phrygian
+	faith = nicene
+	holding = castle_holding
+}
+707={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+735={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+738={
+	holding = castle_holding
+}
+739={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
 740={
 	culture = greek
 	faith = nicene
 	holding = castle_holding
 }
 741={
-	holding = city_holding
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+751={
+	holding = none
 }
 753={
 	culture = greek
@@ -12,8 +51,6 @@
 	holding = castle_holding
 }
 5565={
-	culture = greek
-	faith = nicene
 	holding = castle_holding
 	303.1.1 = { special_building_slot = maiden_tower }
 }
@@ -64,11 +101,173 @@
 	holding = none
 }
 5580={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5581={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5582={
+	holding = none
+}
+5583={
 	holding = city_holding
+}
+5584={
+	holding = none
+}
+5585={
+	holding = none
+}
+5586={
+	holding = none
+}
+5587={
+	holding = none
+}
+5588={
+	holding = none
+}
+5589={
+	holding = none
+}
+5590={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5591={
+	holding = none
+}
+5592={
+	holding = none
+}
+5593={
+	holding = none
+}
+5594={
+	culture = phrygian
+	faith = nicene
+	holding = castle_holding
+}
+5595={
+	holding = none
+}
+5596={
+	holding = castle_holding
+}
+5597={
+	holding = city_holding
+}
+5598={
+	culture = phrygian
+	faith = nicene
+	holding = castle_holding
+}
+5599={
+	holding = none
+}
+5600={
+	holding = none
+}
+5601={
+	holding = city_holding
+}
+5602={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5603={
+	holding = city_holding
+}
+5604={
+	culture = phrygian
+	faith = nicene
+	holding = castle_holding
+}
+5605={
+	holding = none
+}
+5606={
+	holding = city_holding
+}
+5607={
+	holding = none
+}
+5608={
+	holding = city_holding
+}
+5609={
+	holding = city_holding
+}
+5613={
+	holding = castle_holding
 }
 5683={
 	holding = none
 }
 5684={
+	holding = none
+}
+5689={
+	holding = city_holding
+}
+5690={
+	holding = none
+}
+5691={
+	holding = none
+}
+5692={
+	holding = none
+}
+5693={
+	holding = none
+}
+5694={
+	holding = church_holding
+}
+5695={
+	holding = none
+}
+5698={
+	holding = none
+}
+5699={
+	holding = city_holding
+}
+5700={
+	holding = castle_holding
+}
+5701={
+	holding = city_holding
+}
+5702={
+	holding = none
+}
+5703={
+	culture = phrygian
+	faith = nicene
+	holding = castle_holding
+}
+5704={
+	holding = none
+}
+5705={
+	holding = none
+}
+5706={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5707={
+	holding = none
+}
+5708={
 	holding = none
 }

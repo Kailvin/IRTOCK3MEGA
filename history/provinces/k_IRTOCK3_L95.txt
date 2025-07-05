@@ -1,20 +1,20 @@
 1126={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 1127={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1133={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1264={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 	terrain = hills
 }
 3378={

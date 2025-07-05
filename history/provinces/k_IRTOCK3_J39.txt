@@ -2,22 +2,30 @@
 	culture = sarmatian
 	faith = hellenic_pagan
 	holding = castle_holding
+	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 557={
 	culture = hun
 	faith = hellenic_pagan
 	holding = castle_holding
+	390.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 558={
 	culture = greek
 	faith = hellenic_pagan
 	holding = castle_holding
+	390.1.1 = { culture = gothic religion = "arianism" }
 }
 559={
-	holding = city_holding
+	culture = greek
+	faith = hellenic_pagan
+	holding = castle_holding
+	370.1.1 = { culture = gothic religion = arianism }
 }
 560={
-	holding = none
+	culture = sarmatian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 561={
 	holding = city_holding
@@ -26,11 +34,13 @@
 	culture = alan
 	faith = hellenic_pagan
 	holding = castle_holding
+	391.1.1 = { culture = gothic religion = arianism }
 }
 564={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = tribal_holding
+	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 565={
 	holding = none
@@ -44,19 +54,22 @@
 	culture = sarmatian
 	faith = hellenic_pagan
 	holding = castle_holding
+	395.1.1 = { culture = hun religion = tengri_pagan }
 }
 599={
 	culture = sarmatian
 	faith = nicene
 	holding = tribal_holding
+	395.1.1 = { culture = hun religion = tengri_pagan }
 }
 5276={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 5277={
-	holding = none
+	culture = sarmatian
+	faith = hellenic_pagan
+	holding = castle_holding
+	370.1.1 = { culture = gothic religion = arianism }
 }
 5278={
 	holding = church_holding
@@ -80,12 +93,13 @@
 	holding = city_holding
 }
 5289={
-	culture = sarmatian
-	faith = nicene
-	holding = tribal_holding
+	holding = none
 }
 5320={
-	holding = city_holding
+	culture = hun
+	faith = hellenic_pagan
+	holding = castle_holding
+	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 5321={
 	holding = none
@@ -100,9 +114,7 @@
 	holding = none
 }
 5330={
-	culture = sarmatian
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 5331={
 	holding = none

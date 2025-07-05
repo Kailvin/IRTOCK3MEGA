@@ -4,9 +4,17 @@
 579={
 	holding = none
 }
+591={
+	holding = none
+}
 592={
 	culture = aestian
 	faith = central_pagan
+	holding = tribal_holding
+}
+593={
+	culture = alan
+	faith = scythian_pagan
 	holding = tribal_holding
 }
 594={
@@ -21,6 +29,7 @@
 	culture = roman
 	faith = nicene
 	holding = tribal_holding
+	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 602={
 	holding = none
@@ -39,19 +48,23 @@
 	holding = tribal_holding
 }
 606={
-	culture = sarmatian
-	faith = alan_pagan
-	holding = tribal_holding
+	holding = city_holding
 }
 607={
 	culture = alan
 	faith = scythian_pagan
 	holding = tribal_holding
 }
+614={
+	culture = aestian
+	faith = central_pagan
+	holding = none
+}
 616={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = tribal_holding
+	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5287={
 	culture = sarmatian
@@ -90,24 +103,23 @@
 	holding = church_holding
 }
 5299={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = tribal_holding
 }
 5300={
 	holding = city_holding
 }
 5301={
-	culture = alan
-	faith = khabzism
-	holding = tribal_holding
+	holding = none
 }
 5302={
 	holding = church_holding
 }
 5303={
-	holding = none
-}
-5310={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = tribal_holding
 }
 5311={
 	culture = aestian
@@ -127,18 +139,24 @@
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
+	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5325={
 	holding = none
 }
 5326={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = tribal_holding
 }
 5327={
 	holding = none
 }
 5328={
-	holding = none
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = tribal_holding
+	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 5329={
 	holding = none
@@ -156,7 +174,10 @@
 	holding = castle_holding
 }
 5349={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = tribal_holding
+	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5366={
 	culture = east_galindian
@@ -175,6 +196,37 @@
 5370={
 	holding = none
 }
+5374={
+	culture = mordvin
+	faith = scythian_pagan
+	holding = tribal_holding
+}
+5375={
+	holding = none
+}
+5376={
+	holding = none
+}
+5377={
+	culture = aestian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5378={
+	holding = none
+}
+5379={
+	holding = none
+}
+5380={
+	holding = none
+}
+5381={
+	holding = none
+}
+5382={
+	holding = none
+}
 5390={
 	culture = aestian
 	faith = central_pagan
@@ -189,11 +241,14 @@
 5410={
 	holding = none
 }
+5411={
+	holding = church_holding
+}
 5502={
 	holding = none
 }
 5503={
-	holding = city_holding
+	holding = none
 }
 5504={
 	culture = aestian

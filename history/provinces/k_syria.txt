@@ -1,13 +1,25 @@
-5903={
+756={
 	holding = none
 }
-5904={
-	holding = city_holding
-}
-5905={
+757={
 	culture = greek
 	faith = nicene
 	holding = castle_holding
+}
+5679={
+	holding = city_holding
+}
+5680={
+	holding = none
+}
+5681={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+	303.1.1 = { special_building_slot = saint_lazarus }
+}
+5682={
+	holding = church_holding
 }
 5909={
 	holding = church_holding
@@ -21,6 +33,14 @@
 	holding = none
 }
 5912={
+	holding = castle_holding
+}
+5914={
+	holding = city_holding
+}
+5915={
+	culture = syrian
+	faith = nicene
 	holding = castle_holding
 }
 5916={
@@ -39,51 +59,33 @@
 5920={
 	holding = city_holding
 }
-5923={
-	holding = city_holding
-}
-5924={
-	culture = bedouin
-	faith = arabic_pagan
-	holding = castle_holding
-}
-5925={
-	holding = none
-}
-5926={
-	culture = bedouin
+5930={
+	culture = syrian
 	faith = nicene
 	holding = castle_holding
 }
-5927={
+5931={
+	holding = none
+}
+5932={
 	holding = city_holding
 }
-5937={
-	holding = church_holding
-}
-5951={
-	culture = bedouin
-	faith = arabic_pagan
-	holding = none
-}
-5952={
-	holding = none
-}
-5953={
-	holding = none
-}
-5954={
-	holding = city_holding
-}
-5955={
-	culture = hebrew
+5933={
+	culture = syrian
 	faith = nicene
 	holding = castle_holding
-	100.1.1 = { special_building_slot = theater_of_bosra }
 }
-5956={
+5935={
 	holding = none
 }
-5957={
+5936={
+	holding = city_holding
+}
+5941={
 	holding = none
+}
+5942={
+	culture = bedouin
+	faith = nicene
+	holding = castle_holding
 }

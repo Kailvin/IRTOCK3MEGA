@@ -1,7 +1,39 @@
-4005={
+627={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+}
+631={
+	holding = none
+}
+4028={
+	holding = church_holding
+}
+4029={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4030={
+	holding = none
+	special_building_slot = great_wall_of_gorgan_01
+}
+4031={
+	holding = none
+}
+4032={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+4033={
+	holding = city_holding
+}
+4034={
+	holding = none
+}
+4035={
+	holding = city_holding
 }
 4036={
 	culture = macedonian
@@ -36,76 +68,24 @@
 	faith = hellenic_pagan
 	holding = castle_holding
 }
-4313={
-	holding = none
-}
-4314={
-	holding = castle_holding
-}
 4315={
 	holding = none
 }
 4316={
+	holding = none
+}
+4317={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
-}
-4317={
-	holding = none
-}
-4334={
-	holding = none
-}
-4335={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4336={
-	holding = castle_holding
-}
-4337={
-	holding = none
-}
-4338={
-	holding = city_holding
-}
-4339={
-	holding = castle_holding
-}
-4340={
-	holding = none
-}
-4341={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4347={
-	holding = none
-}
-4348={
-	holding = church_holding
-}
-4349={
-	holding = none
-}
-4350={
-	holding = none
-}
-4351={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4352={
-	holding = none
 }
 4415={
 	holding = city_holding
 }
 4524={
-	holding = none
+	culture = macedonian
+	faith = scythian_pagan
+	holding = castle_holding
 }
 4525={
 	holding = none
@@ -136,5 +116,23 @@
 	holding = none
 }
 4533={
+	culture = saka
+	faith = scythian_pagan
+	holding = castle_holding
+}
+7085={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7086={
+	holding = city_holding
+}
+7087={
 	holding = none
+}
+7088={
+	culture = macedonian
+	faith = scythian_pagan
+	holding = castle_holding
 }

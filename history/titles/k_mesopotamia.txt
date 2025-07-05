@@ -1,7 +1,9 @@
 k_mesopotamia={
+	361.1.1 = { change_development_level = 5 }
 	414.3.13 = { government = feudal_government holder = imperator200856 liege = e_IRTOCK3_PRN succession_laws = { high_partition_succession_law } }
 }
 d_wasit={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_wasit={
@@ -13,6 +15,7 @@ c_tib={
 	423.7.6 = { change_development_level = 9 }
 }
 d_basra={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_basra={
@@ -26,4 +29,32 @@ c_ubulla={
 c_rusafa={
 	414.3.13 = { liege = 0 holder = imperator200856 }
 	423.7.6 = { change_development_level = 7 }
+}
+d_baghdad={
+	361.1.1 = { change_development_level = 8 }
+	423.7.6 = { liege = 0 }
+}
+c_ctesiphon={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_baghdad={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_iskaf={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_anbar={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_karbala={
+	402.12.8 = { liege = 0 holder = imperator193159 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_badaraya={
+	414.3.13 = { liege = 0 holder = imperator200856 }
+	423.7.6 = { change_development_level = 10 }
 }

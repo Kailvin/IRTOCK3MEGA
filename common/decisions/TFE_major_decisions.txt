@@ -15,7 +15,7 @@ new_official_imperial_faith_decision = {
 	ai_check_interval = 36
 	
 	is_shown = {
-		always = no
+		NOT = { has_dlc_feature = roads_to_power }
 		is_landed_or_landless_administrative = yes
 		# Obviously only Emperors can declare their faith to be the official faith of the Empire
 		primary_title.tier >= tier_empire
@@ -29,6 +29,10 @@ new_official_imperial_faith_decision = {
 	}
 	
 	is_valid = {
+		custom_tooltip = {
+  		text = change_official_faith_localization
+ 		NOT = { has_character_flag = change_official_faith }
+		}
 		piety_level >= 3
 		
 		# Maybe make it more difficult if it's unreformed?
@@ -43,7 +47,7 @@ new_official_imperial_faith_decision = {
 	}
 	
 	cost = {
-		piety = 1000
+		piety = 4000
 	}
 	
 	effect = {
@@ -63,6 +67,92 @@ new_official_imperial_faith_decision = {
 			# # limit = { NOT = { this = root } }
 			# trigger_event = TFE_major_decisions.0002
 		# }
+		hidden_effect = {
+			add_character_flag = {
+				flag = change_official_faith
+				years = 20
+			}
+		}
+	}
+	
+	ai_potential = {
+		#always = yes
+	}
+	
+	ai_will_do = {
+		base = 100
+	}
+}
+
+new_official_imperial_faith_decision_ep3 = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_imperial_faith.dds"
+	}
+	decision_group_type = religious
+
+	desc = new_official_imperial_faith_decision_ep3_desc
+	
+	ai_check_interval = 36
+	
+	is_shown = {
+		faith ?= top_liege.primary_title.state_faith
+		has_dlc_feature = roads_to_power
+		is_landed_or_landless_administrative = yes
+		# Obviously only Emperors can declare their faith to be the official faith of the Empire
+		primary_title.tier >= tier_empire
+		OR = {
+			# Either the Empire has no official faith...
+			NOT = { exists = primary_title.var:official_imperial_faith }
+			# ... or you don't have it
+			NOT = { faith = primary_title.var:official_imperial_faith }
+		}
+	}
+	
+	is_valid = {
+		custom_tooltip = {
+  		text = change_official_faith_localization
+ 		NOT = { has_character_flag = change_official_faith }
+		}
+		piety_level >= 3
+		
+		# Maybe make it more difficult if it's unreformed?
+		custom_description = {
+			text = faith_is_reformed
+			subject = root
+			faith = { NOT = { has_doctrine_parameter = unreformed } }
+		}
+		culture = {
+			has_innovation = innovation_imperial_faith
+		}
+	}
+	
+	cost = {
+		piety = 4000
+	}
+	
+	effect = {
+		save_scope_as = emperor
+		faith = { save_scope_as = new_faith }
+		primary_title = { save_scope_as = empire }
+		if = {
+			limit = { exists = primary_title.var:official_imperial_faith }
+			primary_title.var:official_imperial_faith = { save_scope_as = old_faith }
+		}
+		
+		show_as_tooltip = { new_official_imperial_faith_effect_ep3 = yes }
+		
+		trigger_event = TFE_major_decisions_ep3.0001
+		
+		# every_player = {
+			# # limit = { NOT = { this = root } }
+			# trigger_event = TFE_major_decisions.0002
+		# }
+		hidden_effect = {
+			add_character_flag = {
+				flag = change_official_faith
+				years = 20
+			}
+		}
 	}
 	
 	ai_potential = {
@@ -76,204 +166,70 @@ new_official_imperial_faith_decision = {
 
 ### Reopen the Catechetical School of Alexandria
 # Swaps tenet_alexandrian_catechism for tenet_alexandrian_catechism_reformed
-
-#Restore the Palmyrene Empire
-restore_palmyrene_empire_decision = {
+reopen_catechetical_school_alexandria = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
 	}
-	decision_group_type = major
+	decision_group_type = religious
 
-	desc = restore_palmyrene_empire_desc
-	selection_tooltip = restore_palmyrene_empire_decision_tooltip
-
-	ai_check_interval = 120
-
+	desc = reopen_catechetical_school_alexandria_desc
+	
+	ai_check_interval = 36
+	
 	is_shown = {
-		is_ruler = yes
 		is_landed_or_landless_administrative = yes
-		OR = {
-			culture = {
-				any_parent_culture_or_above = {
-					THIS = culture:bedouin
-				}
-			}
-			culture = {
-				any_parent_culture_or_above = {
-					THIS = culture:aramean
-				}
-			}
-		}
-		OR = {
-			government_has_flag = government_is_autocratic
-			government_has_flag = government_is_autocratic_ep3
-			government_has_flag = government_is_imperial
-			government_has_flag = government_is_administrative
-		}
-		religion = religion:semitic_religion
-		any_realm_county = {
-			title_province = {geographical_region = custom_palmyrene_empire}
-		  }
-		NOT = {  #Can only do it once.
+		primary_title.tier >= tier_kingdom
+		
+		# Obviously your faith needs to have tenet_alexandrian_catechism
+		faith = { has_doctrine = tenet_alexandrian_catechism }
+		
+		NOT = {  #Can only do it once. Also used in the tenet selection, in case you wanna create a new faith with the tenet
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:restored_palmyrene_empire
+				target = flag:flag_reopen_catechetical_school_alexandria
 			}
 		}
-		has_game_rule = larp_enabled
-		highest_held_title_tier < tier_empire
 	}
-
+	
 	is_valid = {
-		highest_held_title_tier = tier_kingdom
-		prestige_level >= high_prestige_level
-		OR = {
-			is_independent_ruler = yes
-			AND = {
-				highest_held_title_tier = tier_kingdom
-				liege = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				has_realm_law = de_centeral_law_policy_4
-			}
-		}
-		trigger_if = {
-			limit = {
-				title:e_roman_empire = {
-					is_title_created = yes
-				}
-				title:e_roman_empire.holder = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				OR = {
-						has_game_rule = imperial_competence_enabled
-						AND = {
-							has_game_rule = imperial_competence_enabled_in_430
-							current_date >= 430.1.1
-						}
-					}
-			}
-			custom_description = {
-				text = roman_empire_low_competence
-				subject = title:e_roman_empire.holder
-				title:e_roman_empire.holder = {
-					OR = {
-						var:civic_comp < 500
-						var:diplo_comp < 500
-						var:mil_comp < 500
-					}
-				}
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				title:e_byzantium = {
-					is_title_created = yes
-				}
-				title:e_byzantium.holder = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				OR = {
-						has_game_rule = imperial_competence_enabled
-						AND = {
-							has_game_rule = imperial_competence_enabled_in_430
-							current_date >= 430.1.1
-						}
-					}
-			}
-			custom_description = {
-				text = roman_empire_low_competence
-				subject = title:e_byzantium.holder
-				title:e_byzantium.holder = {
-					OR = {
-						var:civic_comp < 500
-						var:diplo_comp < 500
-						var:mil_comp < 500
-					}
-				}
-			}
-		}
-
+		# piety_level >= 3
 		
-		completely_controls_region = custom_palmyrene_empire
-
+		# # Control all your holy sites
+		# num_realm_holy_sites_faithful_holders = {
+			# CHARACTER = root
+			# COUNT = 4
+		# }
+		
+		# title:b_alexandria = { title_province = { has_building = holy_site_cathedral_01 } }
 	}
-
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
+	
+	cost = {
+		piety = 1000
 	}
-
+	
 	effect = {
-		if = {
-			limit = {
-			has_dlc_feature = roads_to_power
-		}
-			change_government = administrative_government
-		}
-		else = {
-			change_government = imperial_government
-		}
-		create_title_and_vassal_change = {
-			type = created
-			save_scope_as = title_change
-			add_claim_on_loss = no
-		}
-		title:e_palmyrene = {
-			change_title_holder = {
-				holder = root
-				change = scope:title_change
-			}
-		}
-    	resolve_title_and_vassal_change = scope:title_change
+		show_as_tooltip = { reopen_catechetical_school_alexandria_effect = { MAIN_FAITH = root.faith } }
 		
-		trigger_event = {
-			id = province_events.0041
-			days = 2
-		}
-		add_prestige = 1500
+		trigger_event = TFE_major_decisions.0010
 		
 		hidden_effect = {
-			title:k_orientis = {
-				set_de_jure_liege_title = title:e_palmyrene
-			}
-			title:k_asiae = {
-				set_de_jure_liege_title = title:e_palmyrene
-			}
-			title:k_aegyptus = {
-				set_de_jure_liege_title = title:e_palmyrene
-			}
-
 			add_to_global_variable_list = {
 				name = unavailable_unique_decisions
-				target = flag:restored_palmyrene_empire
+				target = flag:flag_reopen_catechetical_school_alexandria
 			}
 		}
 	}
-
-	cost = {
-		gold = 1000
-	}
-
+	
 	ai_potential = {
 		always = yes
 	}
-
+	
 	ai_will_do = {
 		base = 100
 	}
 }
+
+
 
 
 
@@ -293,8 +249,8 @@ restore_the_mardib_dam = {
 	is_shown = {
 		is_landed_or_landless_administrative = yes
 		primary_title.tier >= tier_duchy
-		any_realm_province = {
-			has_building_or_higher = marib_dam
+		any_sub_realm_barony = {
+			title_province = { has_building = marib_dam }
 		}
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
@@ -307,8 +263,8 @@ restore_the_mardib_dam = {
 	is_valid = {
 		prestige_level >= 2
 		is_independent_ruler = yes
-		any_realm_province = {
-			has_building_or_higher = marib_dam
+		any_sub_realm_barony = {
+			title_province = { has_building = marib_dam }
 		}
 	}
 	
@@ -347,8 +303,8 @@ rebuild_the_mardib_dam = {
 	is_shown = {
 		is_landed_or_landless_administrative = yes
 		primary_title.tier >= tier_duchy
-		any_realm_province = {
-			has_building_or_higher = marib_dam
+		any_sub_realm_barony = {
+			title_province = { has_building = marib_dam }
 		}
 		NOT = {  #Can only do it once.
 			is_target_in_global_variable_list = {
@@ -365,8 +321,8 @@ rebuild_the_mardib_dam = {
 			learning >= 10
 		}
 		is_independent_ruler = yes
-		any_realm_province = {
-			has_building_or_higher = marib_dam
+		any_sub_realm_barony = {
+			title_province = { has_building = marib_dam }
 		}
 	}
 	

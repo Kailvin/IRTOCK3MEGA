@@ -10,7 +10,7 @@
 	holding = tribal_holding
 }
 9143={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -32,7 +32,7 @@
 	holding = none
 }
 9149={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -77,7 +77,7 @@
 9160={
 	culture = assamese
 	faith = donyipoloism
-	holding = none
+	holding = castle_holding
 }
 9161={
 	holding = none
@@ -272,7 +272,6 @@
 }
 9237={
 	holding = church_holding
-	special_building_slot = jokhang_monastery_01
 }
 9238={
 	culture = sumpa
@@ -379,7 +378,7 @@
 }
 9273={
 	culture = sumpa
-	faith = old_bon
+	faith = rrmeaism
 	holding = tribal_holding
 }
 9274={

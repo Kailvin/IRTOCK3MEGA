@@ -2,9 +2,10 @@
 	holding = none
 }
 8383={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = sidama
+	religion = sidama_pagan
+	holding = tribal_holding
+	1030.1.1 = { religion = ashari }
 }
 8417={
 	holding = none
@@ -27,14 +28,14 @@
 	holding = none
 }
 8451={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = oromo
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8452={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = sidama
+	religion = sidama_pagan
+	holding = tribal_holding
 }
 8453={
 	holding = none
@@ -46,14 +47,14 @@
 	holding = none
 }
 8480={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = oromo
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8481={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = oromo
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8482={
 	holding = none
@@ -74,9 +75,9 @@
 	holding = none
 }
 8488={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = oromo
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8489={
 	holding = none
@@ -86,8 +87,8 @@
 }
 8492={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8493={
 	holding = none

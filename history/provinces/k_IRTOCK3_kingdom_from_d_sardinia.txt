@@ -1,20 +1,3 @@
-
-2000={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-}
-2001={
-	holding = city_holding
-}
-2002={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-}
-2004={
-	holding = none
-}
 2653={
 	culture = nuragic
 	faith = egyptian_pagan
@@ -64,9 +47,4 @@
 }
 2665={
 	holding = city_holding
-}
-8735={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
 }

@@ -8,7 +8,10 @@ d_gangavadi={
 }
 c_srirangapatna={
 	422.9.15 = { liege = 0 holder = imperator203965 }
-	423.7.6 = { change_development_level = 15 }
+	423.7.6 = { change_development_level = 16 }
+}
+b_belapura={
+	423.7.6 = { holder = imperator192234 }
 }
 c_mahishaka={
 	422.9.15 = { liege = 0 holder = imperator203940 }

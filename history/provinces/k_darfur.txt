@@ -110,10 +110,9 @@
 	362.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6876={
-	culture = tora
-	religion = idoism_pagan
+	culture = meroitic
+	faith = egyptian_pagan
 	holding = none
-	532.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6877={
 	holding = none
@@ -122,28 +121,11 @@
 	holding = none
 }
 6879={
-	culture = tora
-	religion = idoism_pagan
-	holding = none
-	476.1.1 = { culture = daju religion = kushitism_pagan }
-}
-6880={
-	holding = none
-}
-6881={
-	culture = nuba
-	religion = dinka_pagan
-	holding = none
-}
-6882={
-	holding = none
-}
-6883={
 	culture = meroitic
 	faith = egyptian_pagan
 	holding = none
 }
-6884={
+6880={
 	holding = none
 }
 6885={
@@ -180,22 +162,5 @@
 	holding = none
 }
 6895={
-	holding = none
-}
-6897={
-	holding = none
-}
-6898={
-	culture = meroitic
-	faith = egyptian_pagan
-	holding = none
-}
-6899={
-	holding = none
-}
-6900={
-	holding = none
-}
-6901={
 	holding = none
 }

@@ -13,18 +13,8 @@
 	}
 	flag = government_is_feudal
 	flag = government_is_city_state
-	vassal_contract = { 
-		feudal_government_taxes
-		feudal_government_levies
-		religious_rights
-		fortification_rights
-		coinage_rights
-		
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights 
-	}
+	flag = government_is_settled
+	vassal_contract_group = feudal_vassal
 
 	character_modifier = {
 		domain_limit = -200
@@ -124,18 +114,8 @@ trade_city_state_government = {
 	flag = government_is_feudal
 	flag = government_is_city_state
 	flag = government_is_trade_city_state
-	vassal_contract = { 
-		feudal_government_taxes
-		feudal_government_levies
-		religious_rights
-		fortification_rights
-		coinage_rights
-
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights 
-	}
+	flag = government_is_settled
+	vassal_contract_group = feudal_vassal
 
 	character_modifier = {
 		domain_limit = -2
@@ -219,51 +199,6 @@ trade_city_state_government = {
 		
 }
 
-nomadic_government = {
-	primary_holding = tribal_holding
-	affected_by_development = no
-	government_rules = {
-		rulers_should_have_dynasty = yes
-		royal_court = yes
-		legitimacy = yes
-		#landless_playable = yes
-		#mercenary = yes
-	}
-
-	supply_limit_mult_for_others = -0.8
-	valid_holdings = { castle_holding trade_center_holding }
-	regiments_prestige_as_gold = yes
-	required_county_holdings = { tribal_holding city_holding church_holding }
-	flag = government_can_raid_rule
-
-	ai = {
-		use_legends = yes
-	}
-	flag = government_is_tribal
-	flag = government_is_nomadic
-	vassal_contract = { 
-		tribal_government_obligations
-		
-	}
-
-	character_modifier = {
-		development_growth_factor = -0.5
-		army_maintenance_mult = -0.8
-		title_creation_cost_mult = -0.5
-		ai_war_chance = 1.5
-
-		domain_tax_mult = -0.5
-        vassal_tax_mult = -0.25
-        men_at_arms_maintenance_per_dread_mult = -0.005
-        
-        additional_fort_level = -10
-        castle_holding_build_speed = 5
-        city_holding_build_speed = 5
-        trade_center_holding_build_speed = 5
-	}
-	color = { 255 204 51 }
-}
-
 eranshar_government = {
 	primary_holding = castle_holding
 	government_rules = {
@@ -282,19 +217,8 @@ eranshar_government = {
 	}
 	flag = government_is_feudal
 	flag = government_is_eranshar
-	vassal_contract = { 
-		eranshar_centralization
-		eranshar_special_contracts
-		eranshar_scutage
-		
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights 
-	}
+	flag = government_is_settled
+	vassal_contract_group = eranshar_vassal
 	color = { 53 183 219 }
 }
 
@@ -304,18 +228,19 @@ caliphate_government = {
 	valid_holdings = { castle_holding trade_center_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
 	government_rules = {
-		always_use_patronym = yes
 		dynasty_named_realms = yes
 		create_cadet_branches = yes
 		rulers_should_have_dynasty = yes
 		royal_court = yes
 		legitimacy = yes
 	}
+	always_use_patronym = yes
 	ai = {
 		use_legends = yes
 	}
 	flag = government_is_clan
 	flag = government_is_caliphate
+	flag = government_is_settled
 	fallback = 2
 	house_unity = clan_house_unity
 
@@ -325,17 +250,7 @@ caliphate_government = {
 		same_faith_opinion = 10
 	}
 
-	vassal_contract = { 
-		caliphate_centralization
-		fortification_rights
-		coinage_rights
-		religious_rights
-		succession_rights
-		war_declaration_rights
-		
-		council_rights
-		title_revocation_rights 
-	}
+	vassal_contract_group = caliphate_vassal
 
 	color = { 37 148 14 }
 }
@@ -347,33 +262,22 @@ muslim_government = {
 	valid_holdings = { castle_holding trade_center_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
 	government_rules = {
-		always_use_patronym = yes
 		dynasty_named_realms = yes
 		create_cadet_branches = yes
 		rulers_should_have_dynasty = yes
 		royal_court = yes
 		legitimacy = yes
 	}
+	always_use_patronym = yes
 	ai = {
 		use_legends = yes
 	}
 	flag = government_is_clan
 	flag = government_is_muslim
+	flag = government_is_settled
 	fallback = 2
 	house_unity = clan_house_unity
-	vassal_contract = { 
-		islamic_taxes
-		islamic_levies
-		dynastic_autonomy 
-		caliphate_zakah_rights
-		fortification_rights
-		religious_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights 
-	}
+	vassal_contract_group = islamic_vassal
 
 	color = { 111 231 27 }
 }
@@ -396,20 +300,8 @@ gupta_government = {
 	}
 	flag = government_is_feudal
 	flag = government_is_gupta
-	vassal_contract = { 
-		gupta_organization
-		eranshar_special_contracts
-		gupta_governance
-		gupta_nobility_scutage
-		
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights 
-	}
+	flag = government_is_settled
+	vassal_contract_group = gupta_vassal
 	color = { 300 155 0 }
 
 	opinion_of_liege = {
@@ -500,6 +392,7 @@ gana_sangha_government = {
 		rulers_should_have_dynasty = yes
 		royal_court = yes
 		legitimacy = yes
+		dynasty_named_realms = yes
 	}
 	ai = {
 		use_legends = yes
@@ -507,20 +400,12 @@ gana_sangha_government = {
 	valid_holdings = { tribal_holding castle_holding trade_center_holding }
 	required_county_holdings = { tribal_holding }
 	always_use_patronym = yes
-	dynasty_named_realms = yes
 	flag = government_is_tribal
 	flag = government_is_gana_sangha
 	flag = government_can_raid_rule
+	flag = government_is_settled
 
-	vassal_contract = {
-		clan_government_obligations
-		special_contract
-		gupta_nobility_scutage
-		religious_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights
-	}
+	vassal_contract_group = gana_sangha_vassal
 	
 	opinion_of_liege = {
 		scope:liege = {

@@ -4,7 +4,9 @@
 	holding = none
 }
 5475={
-	holding = none
+	culture = komi
+	religion = komi_pagan
+	holding = tribal_holding
 }
 5476={
 	holding = none
@@ -16,6 +18,8 @@
 	holding = none
 }
 5479={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 5480={
@@ -44,10 +48,9 @@
 	holding = none
 }
 5487={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = komi
+	religion = siberian_pagan
 	holding = tribal_holding
-	915.1.2 = { religion = ashari }
 }
 5488={
 	holding = none
@@ -56,10 +59,9 @@
 	holding = none
 }
 5490={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
-	915.1.2 = { religion = ashari }
 }
 5491={
 	holding = none
@@ -71,7 +73,9 @@
 	holding = none
 }
 5494={
-	holding = none
+	culture = komi
+	religion = komi_pagan
+	holding = tribal_holding
 }
 5495={
 	holding = none
@@ -80,14 +84,13 @@
 	holding = none
 }
 5497={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = komi
+	religion = komi_pagan
 	holding = tribal_holding
-	915.1.2 = { religion = ashari }
 }
 5519={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5520={
@@ -106,13 +109,13 @@
 	holding = none
 }
 5525={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5526={
-	culture = bashkir
-	religion = tengri_pagan
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5527={

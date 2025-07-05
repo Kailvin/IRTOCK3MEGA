@@ -11,41 +11,51 @@ c_laia={
 	423.7.6 = { holder = IRToCK3_c_tyumen_holder change_development_level = 0 }
 }
 c_tabary={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tyumen_holder change_development_level = 0 }
 }
 c_neramkary={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tyumen_holder change_development_level = 0 }
 }
 d_konda={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_tselym_dalyn_holder liege = 0 }
 }
 c_tselym_dalyn={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tselym_dalyn_holder change_development_level = 0 }
 }
 c_kharam-vosh={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tselym_dalyn_holder change_development_level = 0 }
 }
 c_kartauzh={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tselym_dalyn_holder change_development_level = 0 }
 }
 d_pelym={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_pelym_holder liege = 0 }
+	423.7.6 = { liege = 0 holder = IRToCK3_c_pelym_holder government = tribal_government }
 }
 c_pelym={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_pelym_holder change_development_level = 0 }
 }
 c_koshuki={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_pelym_holder change_development_level = 0 }
 }
 d_kazym={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_kazym_holder government = tribal_government }
 }
 c_kazym={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazym_holder change_development_level = 0 }
 }
 c_sosva={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazym_holder change_development_level = 0 }
 }
 c_koda={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_kazym_holder change_development_level = 0 }
 }

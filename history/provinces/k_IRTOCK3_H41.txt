@@ -1,0 +1,20 @@
+2022={
+	holding = church_holding
+}
+2465={
+	holding = none
+}
+2466={
+	culture = roman
+	faith = nicene
+	holding = castle_holding
+	special_building_slot = walls_of_genoa_01
+}
+2485={
+	holding = none
+}
+2531={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}

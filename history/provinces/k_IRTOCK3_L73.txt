@@ -1,15 +1,15 @@
 1168={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1173={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1358={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -18,7 +18,6 @@
 }
 3468={
 	holding = city_holding
-	special_building_slot = sankassa_01
 }
 3469={
 	holding = castle_holding

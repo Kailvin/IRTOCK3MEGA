@@ -1,32 +1,37 @@
 3272={
+	culture = indogreek
+	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = mahamevnaw_01
 }
 3273={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 3275={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
-3281={
+3278={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+3279={
 	holding = none
+}
+3281={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3282={
 	holding = none
 }
 3283={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 3284={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 3285={
 	holding = city_holding

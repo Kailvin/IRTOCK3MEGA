@@ -14,6 +14,13 @@ architect = {
 		parameter = architect_trait_prestige
 		monthly_prestige = 0.5
 	}
+
+	culture_modifier = {
+		parameter = stewardship_traits_give_out_cav_bonus
+		archer_cavalry_toughness_add = 4
+		heavy_cavalry_toughness_add = 4
+		light_cavalry_toughness_add = 4
+	}
 	
 	culture_modifier = {
 		parameter = bonuses_from_architect_trait
@@ -39,6 +46,7 @@ architect = {
 military_engineer = {
 	
 	category = commander
+	flag = commander_trait_flag
 	
 	siege_phase_time = -0.3
 	
@@ -62,6 +70,48 @@ military_engineer = {
 		holding_build_speed = -0.1
 		build_gold_cost = -0.05
 		holding_build_gold_cost = -0.05
+	}
+
+	track = {
+		33 = {
+			siege_phase_time = -0.1
+			culture_modifier = {
+				parameter = mountain_trait_bonuses
+				mountains_attrition_mult= -0.1
+				desert_mountains_attrition_mult = -0.1
+			}
+			culture_modifier = {
+				parameter = hill_trait_bonuses
+				hills_attrition_mult = -0.1
+			}
+		}
+		66 = {
+			advantage = 1
+			siege_phase_time = -0.1
+			culture_modifier = {
+				parameter = mountain_trait_bonuses
+				mountains_attrition_mult= -0.1
+				desert_mountains_attrition_mult = -0.1
+			}
+			culture_modifier = {
+				parameter = hill_trait_bonuses
+				hills_attrition_mult = -0.1
+			}
+		}
+		100 = {
+			advantage = 2
+			martial = 1
+			siege_phase_time = -0.1
+			culture_modifier = {
+				parameter = mountain_trait_bonuses
+				mountains_attrition_mult= -0.1
+				desert_mountains_attrition_mult = -0.1
+			}
+			culture_modifier = {
+				parameter = hill_trait_bonuses
+				hills_attrition_mult = -0.1
+			}
+		}
 	}
 
 	desc = {

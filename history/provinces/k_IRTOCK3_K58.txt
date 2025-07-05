@@ -24,7 +24,7 @@
 	holding = castle_holding
 }
 6155={
-	culture = indo_greek
+	culture = indogreek
 	faith = nicene
 	holding = tribal_holding
 }
@@ -48,8 +48,6 @@
 	holding = none
 }
 6161={
-	culture = bedouin
-	faith = manichean
 	holding = castle_holding
 }
 6162={
@@ -61,6 +59,8 @@
 	holding = tribal_holding
 }
 6164={
+	culture = macedonian
+	faith = nicene
 	holding = none
 }
 6165={

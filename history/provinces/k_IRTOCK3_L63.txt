@@ -15,7 +15,6 @@
 }
 872={
 	holding = city_holding
-	special_building_slot = generic_university
 }
 873={
 	holding = city_holding
@@ -30,22 +29,24 @@
 	holding = castle_holding
 }
 1152={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1154={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	300.1.1 = { special_building_slot = nalanda_university }
 }
 1251={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1276={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	300.1.1 = { special_building_slot = holy_site_mahabodhi_temple_01 }
 }

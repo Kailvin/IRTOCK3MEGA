@@ -1,5 +1,5 @@
 1143={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -10,7 +10,7 @@
 	holding = none
 }
 1265={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = jungle

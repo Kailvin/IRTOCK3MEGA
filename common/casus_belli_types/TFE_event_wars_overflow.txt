@@ -191,6 +191,7 @@ gothic_independence_war = {
 	}
 
 	on_defeat = {
+		scope:attacker = { destroy_title = title:k_ostrogoths }
 		scope:attacker = { show_pow_release_message_effect = yes }
 		scope:defender = {
 			add_dread = medium_dread_gain

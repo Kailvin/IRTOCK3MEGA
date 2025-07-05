@@ -1,5 +1,109 @@
 k_bavaria={
+	361.1.1 = { change_development_level = 4 }
 	422.9.15 = { government = feudal_government holder = imperator196563 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+}
+d_bavaria={
+	423.7.6 = { liege = 0 }
+}
+c_regensburg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_munchen={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_eschenlohe={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 8 }
+}
+c_rothenburg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_geisenhausen={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_frontenhausen={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_falkenstein={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_passau={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_savoie={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_savoie={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_aosta={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_geneva={
+	422.9.15 = { liege = 0 holder = imperator196563 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_canavese={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 11 }
+}
+d_salzburg={
+	360.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_salzburg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_berchtesgaden={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 7 }
+}
+c_hallstatt={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 7 }
+}
+c_linz={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_schaumberg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_augsburg={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_augsburg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_alpsee={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 7 }
+}
+c_kempten={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_ravensburg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_burgau={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
 }
 d_steyermark={
 	423.7.6 = { liege = 0 }
@@ -19,6 +123,59 @@ c_liebnitz={
 c_murzzuschlag={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 15 }
+}
+d_osterreich={
+	423.7.6 = { liege = 0 }
+}
+c_vienna={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_sankt_polten={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_amstetten={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_tyrol={
+	423.7.6 = { liege = 0 }
+}
+c_innsbruck={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 9 }
+}
+b_bozen={
+	423.7.6 = { holder = imperator182608 }
+}
+c_brixen={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_lienz={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 7 }
+}
+d_carinthia={
+	360.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_karnten={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_kammersberg={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_knittelfeld={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 7 }
+}
+c_villach={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
 }
 d_krain={
 	423.7.6 = { liege = 0 }

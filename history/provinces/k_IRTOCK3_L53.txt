@@ -1,7 +1,18 @@
-590={
-	culture = aestian
-	faith = central_pagan
+5353={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5354={
 	holding = none
+}
+5355={
+	holding = none
+}
+5356={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
 }
 5357={
 	culture = sarmatian
@@ -11,36 +22,15 @@
 5358={
 	holding = none
 }
-5359={
-	culture = aestian
-	faith = central_pagan
-	holding = none
-}
-5360={
-	holding = none
-}
-5361={
-	holding = none
-}
-5362={
-	holding = none
-}
-5363={
-	holding = none
-}
-5364={
-	holding = none
-}
-5365={
-	holding = none
-}
 5383={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
 }
 5384={
-	holding = none
+	culture = aestian
+	faith = scythian_pagan
+	holding = castle_holding
 }
 5385={
 	holding = none
@@ -49,5 +39,16 @@
 	holding = none
 }
 5387={
+	holding = none
+}
+5388={
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+}
+5389={
+	holding = none
+}
+5498={
 	holding = none
 }

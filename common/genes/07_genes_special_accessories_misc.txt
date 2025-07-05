@@ -23,21 +23,6 @@ accessory_genes = {
 				1 = m_legwear_sec_ep2_western_era4_war_nob_02
 				1 = m_legwear_sec_afr_common_01
 				1 = m_legwear_sec_pol_common_01
-
-				##
-				## Rajas of Asia
-				##
-				1 = male_legwear_tabi_01_high
-				1 = male_legwear_samurai_01_low
-				1 = male_legwear_samurai_02_low
-
-				1 = male_maxlatl_common
-				1 = male_maxlatl_low
-				1 = male_maxlatl_high
-				1 = male_legwear_egyptian_shendyt_common
-				1 = male_legwear_egyptian_shendyt_low
-				1 = male_legwear_egyptian_shendyt_high
-
 			}
 			female = {
 				1 = female_legwear_secular_western_common_01
@@ -50,19 +35,6 @@ accessory_genes = {
 				1 = f_legwear_sec_ep2_western_era4_war_nob_02
 				1 = f_legwear_sec_afr_common_01
 				1 = f_legwear_sec_pol_common_01
-
-				##
-				## Rajas of Asia
-				##
-				1 = female_legwear_tabi_01_high
-
-				1 = female_legwear_secular_indian_skirt_common_01
-				1 = female_legwear_secular_indian_skirt_common_02
-				1 = female_legwear_secular_indian_skirt_low_01
-				1 = female_legwear_secular_indian_skirt_low_02
-				1 = female_legwear_secular_indian_skirt_high_01
-				1 = female_legwear_secular_indian_skirt_high_02
-
 			}
 			boy = male
 			girl = female
@@ -239,126 +211,44 @@ accessory_genes = {
 			girl = female
 		}
 
-		#########################
-		###   Rajas of Asia   ###
-		#########################
-
-		japanese_tabi = {
-			index = 100
+		ccp4_sami_common_legwear = {
+			index = 15
 			male = {
-				1 = male_legwear_tabi_01_high
+				1 = m_legwear_sec_ccp4_sami_com_01
 			}
 			female = {
-				1 = female_legwear_tabi_01_high
+				1 = f_legwear_sec_ccp4_sami_com_01
 			}
 			boy = male
 			girl = female
 		}
 
-		japanese_war_legwear = {
-			index = 101
+		ccp4_khanty_common_legwear = {
+			index = 16
 			male = {
-				1 = male_legwear_secular_mena_war_nobility_01
+				1 = m_legwear_sec_ccp4_khanty_com_01
 			}
 			female = {
-				1 = female_legwear_secular_mena_war_nobility_01
+				1 = f_legwear_sec_ccp4_khanty_com_01
+			}
+			boy = male
+			girl = female
+		}	
+
+		gladiator_outfit_01_legwear = {
+			index = 17
+
+			male = {
+				1 = male_legwear_special_gladiator_outfit_01
+			}
+			female = {
+				0 = f_clothes_sec_byzantine_war_nob_01_lo
+				
 			}
 			boy = male
 			girl = female
 		}
 
-		roa_indian_common_legwear = {
-			index = 102
-			male = {
-				1 = empty
-			}
-			female = {
-				1 = female_legwear_secular_indian_skirt_common_01
-				1 = female_legwear_secular_indian_skirt_common_02
-			}
-		}
-
-		roa_indian_low_nobility_legwear = {
-			index = 103
-			male = {
-				1 = empty
-			}
-			female = {
-				1 = female_legwear_secular_indian_skirt_low_01
-				1 = female_legwear_secular_indian_skirt_low_02
-			}
-		}
-
-		roa_indian_high_nobility_legwear = {
-			index = 104
-			male = {
-				1 = empty
-			}
-			female = {
-				1 = female_legwear_secular_indian_skirt_high_01
-				1 = female_legwear_secular_indian_skirt_high_02
-			}
-		}
-
-		roa_maxlatl_common_legwear = {
-			index = 105
-			male = {
-				1 = male_maxlatl_common
-			}
-			female = {
-				1 = empty
-			}
-		}
-
-		roa_maxlatl_low_legwear = {
-			index = 106
-			male = {
-				1 = male_maxlatl_low
-			}
-			female = {
-				1 = empty
-			}
-		}
-
-		roa_maxlatl_high_legwear = {
-			index = 107
-			male = {
-				1 = male_maxlatl_high
-			}
-			female = {
-				1 = empty
-			}
-		}
-
-		roa_shendyt_common_legwear = {
-			index = 108
-			male = {
-				1 = male_legwear_egyptian_shendyt_common
-			}
-			female = {
-				1 = empty
-			}
-		}
-
-		roa_shendyt_low_legwear = {
-			index = 109
-			male = {
-				1 = male_legwear_egyptian_shendyt_low
-			}
-			female = {
-				1 = empty
-			}
-		}
-
-		roa_shendyt_high_legwear = {
-			index = 110
-			male = {
-				1 = male_legwear_egyptian_shendyt_high
-			}
-			female = {
-				1 = empty
-			}
-		}
 	}
 
 	special_legwear = {
@@ -676,6 +566,67 @@ accessory_genes = {
 				1 = female_furs_secular_fp1_nobility_02
 				1 = female_furs_secular_fp1_nobility_03
 			}
+		}
+
+		ccp4_sami_cloaks_com = {
+			index = 20
+			male = {
+				2 = empty
+				1 = m_cloaks_sec_ccp4_sami_com_01
+				1 = m_cloaks_sec_ccp4_sami_com_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+			}
+			boy = male
+			girl = female
+		}
+		ccp4_sami_cloaks_lo_nob = {
+			index = 21
+			male = {
+				3 = empty
+				1 = m_cloaks_sec_ccp4_sami_lo_nob_01
+				1 = m_cloaks_sec_ccp4_sami_lo_nob_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+				1 = f_cloaks_sec_ccp4_sami_lo_nob_01
+			}
+			boy = male
+			girl = female
+		}
+		ccp4_sami_cloaks_hi_nob = {
+			index = 22
+			male = {
+				3 = empty
+				1 = m_cloaks_sec_ccp4_sami_hi_nob_01
+				1 = m_cloaks_sec_ccp4_sami_hi_nob_01b
+			}
+			female = {
+				1 = f_cloaks_sec_ccp4_sami_com_01
+				1 = f_cloaks_sec_ccp4_sami_hi_nob_01
+			}
+			boy = male
+			girl = female
+		}
+
+		byzantine_imperial = {
+			index = 23
+			male = {
+				1 = male_byzantine_imperial_sagum_02
+			}
+			female = {
+				1 = female_cloaks_secular_western_royalty_01
+			}
+		}
+		sasanian_pauldrons = {
+			index = 24
+			male = {
+				1 = cloak_sasanian_war_male_01
+			}
+			female = {
+				1 = cloak_sasanian_war_female_01
+			}			
 		}
 	}
 
@@ -1198,6 +1149,61 @@ props_left = {
 		index = 55
 		male = {
 			1 = pol_marshal_sword_01_left
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	mediterranean_bow_01 = {
+		index = 56
+		male = {
+			1 = mediterranean_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	indian_bow_01 = {
+		index = 57
+		male = {
+			1 = indian_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	long_bow_01 = {
+		index = 58
+		male = {
+			1 = long_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	short_bow_01 = {
+		index = 59
+		male = {
+			1 = short_bow_a
+			1 = short_bow_b
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	african_bow_01 = {
+		index = 60
+		male = {
+			1 = african_bow
+		}
+		female = male
+		boy = male
+		girl = female
+	}
+	steppe_bow_01 = {
+		index = 61
+		male = {
+			1 = steppe_bow
 		}
 		female = male
 		boy = male
@@ -1962,30 +1968,85 @@ props_left = {
 			boy = male
 			girl = female
 		}
-
-		#####################
-		##  Rajas of Asia  ##
-		#####################
-
-		roa_igorot_axe = {
-			index = 100
+		skull_goblet_right = {
+			index = 81
 			male = {
-				1 = roa_igorot_axe_equipped_01
+				1 = skull_goblet
 			}
 			female = male
 			boy = male
 			girl = female
 		}
-		roa_javanese_kris = {
-			index = 101
+		ep1_indian_goblet_basic_01_a = {
+			index = 82
 			male = {
-				1 = roa_javanese_kris_equipped_01
+				1 = ep1_indian_goblet_basic_01_a_prop
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ep1_mediterranean_goblet_basic_01_a = {
+			index = 83
+			male = {
+				1 = ep1_mediterranean_goblet_basic_01_a_prop
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ep1_mena_goblet_basic_01_a = {
+			index = 84
+			male = {
+				1 = ep1_mena_goblet_basic_01_a_prop
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		ep1_western_goblet_basic_01_a = {
+			index = 85
+			male = {
+				1 = ep1_western_goblet_basic_01_a_prop
+			}
+			female = male
+			boy = male
+			girl = female
+		}
+		bp3_walking_stick_01_right = {
+			index = 86
+			male = {
+				1 = bp3_walking_stick_01_a_right
+				1 = bp3_walking_stick_01_b_right
 			}
 			female = male
 			boy = male
 			girl = female
 		}
 
+		#TFE
+		roman_sword = {
+			index = 87
+			male = {
+				1 = roman_spatha_pose
+			}
+			female = {
+				1 = roman_spatha_pose
+			}
+			boy = male
+			girl = female
+		}
+		roman_sword_2 = {
+			index = 88
+			male = {
+				1 = roman_spatha_pose_2
+			}
+			female = {
+				1 = roman_spatha_pose_2
+			}
+			boy = male
+			girl = female
+		}
 	}
 
 	#####################################
@@ -2263,6 +2324,37 @@ props_left = {
 				female = male
 				boy = male
 				girl = male
+			}
+			# CE2 aka MPO
+			mpo_sheep = {
+				index = 21
+				male = {
+					1 = mpo_sheep_female_01
+					1 = mpo_sheep_female_02
+					1 = mpo_sheep_male_01
+					1 = mpo_sheep_male_02
+				}
+				female = male
+				boy = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+				}
+				girl = boy
+			}
+			mpo_sheep_character_view = {
+				index = 22
+				male = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+					1 = mpo_sheep_male_01_character_view
+					1 = mpo_sheep_male_02_character_view
+				}
+				female = male
+				boy = {
+					1 = mpo_sheep_female_01_character_view
+					1 = mpo_sheep_female_02_character_view
+				}
+				girl = boy
 			}
 		}
 	}

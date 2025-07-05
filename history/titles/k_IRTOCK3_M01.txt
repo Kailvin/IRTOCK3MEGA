@@ -3,20 +3,41 @@ k_IRTOCK3_M01={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_pandya_nadu={
+	361.1.1 = { change_development_level = 10 }
 	423.7.6 = { liege = 0 }
 }
 c_madurai={
 	422.9.15 = { liege = 0 holder = imperator204815 }
 	423.7.6 = { change_development_level = 18 }
 }
+c_korkai={
+	422.9.15 = { liege = 0 holder = imperator204840 }
+	423.7.6 = { change_development_level = 18 }
+}
 b_kayal={
 	423.7.6 = { holder = imperator184476 }
+}
+d_chera_nadu={
+	361.1.1 = { change_development_level = 10 }
+	423.7.6 = { liege = 0 }
 }
 c_kongu={
 	422.9.15 = { liege = 0 holder = imperator204815 }
 	423.7.6 = { change_development_level = 17 }
 }
-c_uraiyur={
-	422.9.15 = { liege = 0 holder = imperator204840 }
-	423.7.6 = { change_development_level = 17 }
+c_kerala={
+	422.9.15 = { liege = 0 holder = imperator203915 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_alupa={
+	422.9.15 = { liege = 0 holder = imperator204015 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_venadu={
+	387.11.7 = { liege = 0 holder = imperator192749 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_maldives={
+	422.9.15 = { liege = 0 holder = imperator204040 }
+	423.7.6 = { change_development_level = 15 }
 }

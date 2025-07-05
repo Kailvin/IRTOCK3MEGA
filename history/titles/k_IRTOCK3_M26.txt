@@ -6,26 +6,31 @@ d_multan={
 	423.7.6 = { liege = 0 }
 }
 c_multan={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205440 }
 	423.7.6 = { change_development_level = 18 }
 }
 c_kafirkot={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205465 }
 	423.7.6 = { change_development_level = 16 }
 }
 c_uch={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205240 }
 	423.7.6 = { change_development_level = 16 }
 }
 c_karur={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205390 }
-	423.7.6 = { change_development_level = 15 }
+	423.7.6 = { change_development_level = 11 }
 }
 c_karor={
+	361.1.2 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205465 }
 	423.7.6 = { change_development_level = 16 }
 }
 c_kalat={
-	405.11.14 = { holder = imperator188168 }
+	405.11.14 = { liege = 0 holder = imperator189813 }
 	423.7.6 = { change_development_level = 7 }
 }

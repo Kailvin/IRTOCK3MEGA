@@ -24,6 +24,7 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
+	400.1.1 = { religion = nicene }
 }
 6071={
 	holding = city_holding
@@ -112,7 +113,7 @@
 6373={
 	culture = beja
 	faith = hellenic_pagan
-	holding = none
+	holding = castle_holding
 }
 6374={
 	holding = none
@@ -120,7 +121,7 @@
 6375={
 	culture = beja
 	faith = hellenic_pagan
-	holding = none
+	holding = castle_holding
 }
 6377={
 	culture = nuragic

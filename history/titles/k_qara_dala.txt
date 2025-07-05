@@ -1,0 +1,59 @@
+k_qara_dala={
+	423.7.6 = { liege = 0 }
+}
+d_atbasar={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_atbasar_holder government = tribal_government }
+}
+c_atbasar={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_atbasar_holder change_development_level = 0 }
+}
+c_jangyztau={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_atbasar_holder change_development_level = 0 }
+}
+c_kafa={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_atbasar_holder change_development_level = 0 }
+}
+d_kurgan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kurgan_holder liege = 0 }
+}
+c_kurgan={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kurgan_holder change_development_level = 0 }
+}
+c_sabakyul={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kurgan_holder change_development_level = 0 }
+}
+c_kostanay={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kurgan_holder change_development_level = 0 }
+}
+d_kush-murun={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kush-murun_holder liege = 0 }
+}
+c_kush-murun={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kush-murun_holder change_development_level = 0 }
+}
+c_abugan={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kush-murun_holder change_development_level = 0 }
+}
+c_karasu={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kush-murun_holder change_development_level = 0 }
+}
+d_tobol-ishim={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_petropavl_holder government = tribal_government }
+}
+c_petropavl={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
+}
+c_vargashi={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_petropavl_holder change_development_level = 0 }
+}

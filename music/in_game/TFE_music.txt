@@ -260,6 +260,10 @@ mx_cue_senate = {
 	music = "file:/music/TFE/TFE_Senate.ogg"
 	pause_factor = 25
 }
+TFE_General_Cue = {
+	music = "file:/music/TFE/TFE_General_Cue.ogg"
+	pause_factor = 25
+}
 
 #### COURT
 

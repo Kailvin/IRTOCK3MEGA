@@ -1,78 +1,46 @@
-1457={
-	culture = uigur
-	religion = manichean
-	holding = tribal_holding
-	900.1.1 = { culture = tongra }
-	1005.1.1 = { culture = kerait }
-}
-1461={
-	holding = none
-}
-7500={
-	holding = none
-}
-7517={
-	holding = none
-}
-7518={
-	holding = none
-}
-7519={
-	culture = uigur
+1450={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
+	1020.1.2 = { religion = nestorian }
 }
-7520={
-	holding = none
-}
-7521={
-	holding = none
-}
-7522={
-	culture = uigur
+1452={
+	culture = kirghiz
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
-	1005.1.1 = { culture = kerait }
 }
-7523={
+1453={
 	holding = none
 }
-7524={
-	holding = none
-}
-7525={
-	culture = uigur
+1454={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { religion = manichean }
-	1005.1.1 = { culture = kerait }
 }
-7526={
+1455={
 	holding = none
 }
-7527={
-	holding = none
+1456={
+	culture = rouran
+	religion = tengri_pagan
+	holding = herder_holding
+	1020.1.2 = { religion = nestorian }
 }
-7528={
-	holding = none
-}
-7529={
-	holding = none
-}
-7530={
-	culture = siqar
+1458={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = uigur }
-	1050.1.1 = { culture = dukha religion = ulganism }
 }
-7531={
-	holding = none
+1459={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+	1150.1.2 = { culture = oirat }
 }
 7532={
-	holding = none
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7533={
 	holding = none
@@ -84,78 +52,132 @@
 	holding = none
 }
 7536={
-	culture = merkit
-	religion = eastern_tengri
-	holding = tribal_holding
+	holding = none
 }
 7537={
-	culture = merkit
-	religion = eastern_tengri
+	holding = none
+}
+7538={
+	holding = none
+}
+7539={
+	culture = rouran
+	religion = tengri_pagan
 	holding = tribal_holding
+}
+7540={
+	holding = none
 }
 7541={
 	holding = none
 }
 7542={
-	holding = none
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7543={
-	holding = none
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7544={
 	holding = none
 }
 7545={
-	culture = uigur
-	religion = manichean
-	holding = tribal_holding
-	1000.1.1 = { culture = merkit }
+	holding = none
 }
 7546={
-	culture = dukha
-	religion = ulganism
-	holding = tribal_holding
+	holding = none
 }
 7547={
-	holding = none
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7548={
 	holding = none
 }
-7550={
+7549={
 	holding = none
 }
-7551={
-	culture = merkit
-	religion = eastern_tengri
+7550={
+	culture = rouran
+	religion = tengri_pagan
 	holding = tribal_holding
 }
+7551={
+	holding = none
+}
 7552={
-	culture = merkit
-	religion = eastern_tengri
-	holding = tribal_holding
+	holding = none
+}
+7553={
+	holding = none
 }
 7554={
 	holding = none
 }
+7555={
+	culture = xianbei
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7556={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
 7557={
 	holding = none
 }
-7568={
-	culture = qun
+7558={
+	holding = none
+}
+7559={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	1005.1.1 = { culture = kerait }
+	1020.1.2 = { religion = nestorian }
+}
+7560={
+	holding = none
+}
+7561={
+	holding = none
+}
+7562={
+	culture = rouran
+	religion = tengri_pagan
+	holding = herder_holding
+	1020.1.2 = { religion = nestorian }
+}
+7563={
+	holding = none
+}
+7564={
+	holding = none
+}
+7565={
+	holding = none
+}
+7566={
+	holding = none
+}
+7567={
+	holding = none
+}
+7568={
+	holding = none
 }
 7569={
-	culture = bayirku
-	religion = tengri_pagan
-	holding = tribal_holding
-	900.1.1 = { culture = qun }
-	1005.1.1 = { culture = kerait }
+	holding = none
 }
 7570={
-	holding = none
+	culture = rouran
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = { religion = nestorian }
 }
 7571={
 	holding = none
@@ -164,135 +186,446 @@
 	holding = none
 }
 7573={
-	holding = none
-}
-7575={
-	culture = uigur
+	culture = rouran
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = tongra }
-	1005.1.1 = { culture = kerait }
+	1020.1.2 = { religion = nestorian }
+}
+7574={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7575={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7576={
 	holding = none
+}
+7577={
+	holding = none
+}
+7578={
+	holding = none
+}
+7579={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7580={
 	holding = none
 }
 7581={
-	culture = uigur
-	religion = tengri_pagan
-	holding = tribal_holding
-	1005.1.1 = { culture = kerait }
+	holding = none
 }
 7582={
 	holding = none
 }
-7694={
+7583={
 	holding = none
 }
-7746={
-	culture = uigur
+7584={
+	holding = none
+}
+7585={
+	culture = tiele
+	religion = tengri_pagan
+	holding = herder_holding
+	500.1.1 = { culture = buryat }
+}
+7586={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = merkit religion = eastern_tengri }
+	500.1.1 = { culture = buryat }
 }
-7783={
+7587={
 	holding = none
 }
-11852={
-	holding = none
-}
-12022={
-	holding = none
-}
-12172={
-	holding = none
-}
-12191={
-	holding = none
-}
-12220={
-	holding = none
-}
-12264={
-	culture = tongra
+7588={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
+	500.1.1 = { culture = buryat }
 }
-12278={
+7589={
 	holding = none
 }
-12383={
-	culture = uigur
-	religion = manichean
-	holding = tribal_holding
-	900.1.1 = { culture = tongra religion = tengri_pagan }
-	1050.1.1 = { culture = balhae }
-	1150.1.1 = { culture = kerait }
-}
-12441={
+7590={
 	holding = none
 }
-12548={
+7591={
 	holding = none
 }
-12597={
-	holding = none
-}
-12636={
-	culture = tongra
+7592={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
+	1020.1.2 = { religion = nestorian }
 }
-12639={
-	holding = none
-}
-12711={
-	culture = tongra
+7593={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
+	1020.1.2 = { religion = nestorian }
 }
-12718={
+7594={
 	holding = none
 }
-12735={
+7595={
 	holding = none
 }
-12742={
-	holding = none
-}
-12785={
-	holding = none
-}
-12864={
-	holding = none
-}
-13202={
-	holding = none
-}
-13247={
-	holding = none
-}
-13430={
-	holding = none
-}
-13536={
-	holding = none
-}
-13537={
-	holding = none
-}
-13772={
-	holding = none
-}
-13969={
-	culture = qun
+7596={
+	culture = tiele
 	religion = tengri_pagan
 	holding = tribal_holding
-	900.1.1 = { culture = mongol religion = eastern_tengri }
-	1005.1.1 = { culture = kerait }
+}
+7597={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = { religion = nestorian }
+}
+7598={
+	holding = none
+}
+7599={
+	holding = none
+}
+7600={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7601={
+	holding = none
+}
+7602={
+	holding = none
+}
+7603={
+	holding = none
+}
+7604={
+	holding = none
+}
+7605={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7606={
+	holding = none
+}
+7607={
+	holding = none
+}
+7608={
+	holding = none
+}
+7609={
+	holding = none
+}
+7610={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = { religion = nestorian }
+}
+7611={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = { religion = nestorian }
+}
+7612={
+	holding = none
+}
+7613={
+	holding = none
+}
+7614={
+	holding = none
+}
+7615={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1020.1.2 = { religion = nestorian }
+}
+7616={
+	holding = none
+}
+7617={
+	holding = none
+}
+7618={
+	holding = none
+}
+7619={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1150.1.2 = { culture = oirat }
+}
+7620={
+	holding = none
+}
+7621={
+	holding = none
+}
+7622={
+	holding = none
+}
+7623={
+	holding = none
+}
+7624={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1150.1.2 = { culture = oirat }
+}
+7625={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7626={
+	holding = none
+}
+7627={
+	holding = none
+}
+7628={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7629={
+	holding = none
+}
+7630={
+	holding = none
+}
+7631={
+	holding = none
+}
+7632={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7633={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7634={
+	holding = none
+}
+7635={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7636={
+	holding = none
+}
+7637={
+	holding = none
+}
+7638={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7639={
+	culture = kirghiz
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7640={
+	holding = none
+}
+7641={
+	holding = none
+}
+7642={
+	holding = none
+}
+7643={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7644={
+	holding = none
+}
+7645={
+	holding = none
+}
+7646={
+	holding = none
+}
+7647={
+	holding = none
+}
+7648={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7649={
+	holding = none
+}
+7650={
+	holding = none
+}
+7651={
+	holding = none
+}
+7652={
+	holding = none
+}
+7653={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7654={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7655={
+	holding = none
+}
+7656={
+	holding = none
+}
+7657={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7658={
+	holding = none
+}
+7659={
+	holding = none
+}
+7660={
+	holding = none
+}
+7661={
+	holding = none
+}
+7662={
+	holding = none
+}
+7663={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7664={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7665={
+	holding = none
+}
+7666={
+	holding = none
+}
+7667={
+	holding = none
+}
+7668={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7669={
+	holding = none
+}
+7670={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7671={
+	holding = none
+}
+7672={
+	holding = none
+}
+7673={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7674={
+	holding = none
+}
+7675={
+	holding = none
+}
+7676={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7677={
+	holding = none
+}
+7678={
+	holding = none
+}
+7679={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7680={
+	holding = none
+}
+7681={
+	holding = none
+}
+7682={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1150.1.2 = { culture = oirat }
+}
+7683={
+	holding = none
+}
+7684={
+	holding = none
+}
+7685={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7686={
+	holding = none
+}
+7687={
+	holding = none
+}
+7688={
+	holding = none
+}
+7689={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
 }

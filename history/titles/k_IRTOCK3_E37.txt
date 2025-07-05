@@ -4,13 +4,14 @@ k_IRTOCK3_E37={
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
 d_hadramawt={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_ahqaf_holder government = tribal_government }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ahqaf_holder liege = 0 }
 }
 c_hadramawt={
 	420.6.1 = { liege = 0 holder = imperator202811 }
 	423.7.6 = { change_development_level = 1 }
 }
 c_ahqaf={
+	360.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_ahqaf_holder liege = 0 change_development_level = 0 }
 }
 c_kinda_sakun={

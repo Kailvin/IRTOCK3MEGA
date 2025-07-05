@@ -2,6 +2,7 @@
 	culture = alan
 	faith = scythian_pagan
 	holding = castle_holding
+	395.1.1 = { culture = bashkir }
 }
 897={
 	holding = none
@@ -24,14 +25,47 @@
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
+	395.1.1 = { culture = thyssagataen religion = "scythian_pagan" }
 }
 7218={
-	holding = none
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
+	395.1.1 = { culture = thyssagataen religion = "scythian_pagan" }
 }
 7219={
 	holding = city_holding
 }
 7220={
+	holding = none
+}
+7221={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+	395.1.1 = { culture = saragur }
+}
+7223={
+	holding = none
+}
+7224={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+	395.1.1 = { culture = saragur }
+}
+7225={
+	holding = none
+}
+7233={
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
+}
+7234={
+	holding = none
+}
+7235={
 	holding = none
 }
 7239={
@@ -68,6 +102,8 @@
 	holding = none
 }
 7248={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 7249={
@@ -82,6 +118,8 @@
 	holding = castle_holding
 }
 7252={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 7254={
@@ -110,7 +148,9 @@
 	holding = none
 }
 7261={
-	holding = city_holding
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7262={
 	holding = none
@@ -132,7 +172,9 @@
 	holding = castle_holding
 }
 7267={
-	holding = none
+	culture = alan
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7268={
 	holding = none

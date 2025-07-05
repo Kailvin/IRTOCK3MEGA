@@ -171,6 +171,165 @@ become_king_of_briton = {
 			id = briton.0001
 			days = 5
 		}
+		hidden_effect = {
+			title:k_england = {
+				set_de_jure_liege_title = title:e_britannia
+			}
+			title:c_cardiganshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_merioneth = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_caernarfonshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_anglesey = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+			title:c_denbighshire = {
+				set_de_jure_liege_title = title:d_gwynedd
+			}
+
+
+			title:c_maldwyn = {
+				set_de_jure_liege_title = title:d_powys
+			}
+			title:c_sir_faesyfed = {
+				set_de_jure_liege_title = title:d_powys
+			}
+			title:c_hereford = {
+				set_de_jure_liege_title = title:d_powys
+			}
+
+
+			title:c_carmarthenshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_pembrokeshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_glamorgan = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_monmouthshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+			title:c_brecknockshire = {
+				set_de_jure_liege_title = title:d_deheubarth
+			}
+
+			title:d_deheubarth = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_powys = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_gwynedd = {
+				set_de_jure_liege_title = title:k_england
+			}
+
+			title:c_lancashire = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_westmorland = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_cheshire = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+			title:c_derby = {
+				set_de_jure_liege_title = title:d_lancaster
+			}
+
+			title:c_norfolk = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+			title:c_suffolk = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+			title:c_cambridgeshire = {
+				set_de_jure_liege_title = title:d_norfolk
+			}
+
+			title:c_kent = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_surrey = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_surrey = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+			title:c_sussex = {
+				set_de_jure_liege_title = title:d_canterbury
+			}
+
+			title:c_hampton = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_isle_of_wight = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_dorset = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+			title:c_somerset = {
+				set_de_jure_liege_title = title:d_somerset
+			}
+
+			title:c_devon = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+			title:c_cornwall = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+			title:c_cornwall = {
+				set_de_jure_liege_title = title:d_cornwall
+			}
+
+			title:c_durham = {
+				set_de_jure_liege_title = title:d_northumberland
+			}
+			title:c_cumberland = {
+				set_de_jure_liege_title = title:d_northumberland
+			}
+			title:c_lincolnshire = {
+				set_de_jure_liege_title = title:d_york
+			}
+			title:c_nottinghamshire = {
+				set_de_jure_liege_title = title:d_hereford
+			}
+
+			title:d_york = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_northumberland = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_hereford = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_bedford = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_gloucester = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_lancaster = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_somerset = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_norfolk = {
+				set_de_jure_liege_title = title:k_england
+			}
+			title:d_canterbury = {
+				set_de_jure_liege_title = title:k_england
+			}
+		}
+		
 		create_title_and_vassal_change = {
 			type = created
 			save_scope_as = title_change
@@ -412,216 +571,7 @@ become_king_of_gaul_decision = {
 	}
 }
 
-#Proclaim the Gallic Empire
-become_emperor_of_gaul_decision = {
-	picture = {
-		reference = "gfx/interface/illustrations/decisions/fp1_decision_raise_runestone.dds"
-	}
-	decision_group_type = major
 
-	desc = become_emperor_of_gaul_decision_desc
-	selection_tooltip = become_emperor_of_gaul_decision_tooltip
-
-	ai_check_interval = 120
-
-	is_shown = {
-		is_ruler = yes
-		is_landed_or_landless_administrative = yes
-		OR = {
-			government_has_flag = government_is_autocratic
-			government_has_flag = government_is_autocratic_ep3
-			government_has_flag = government_is_imperial
-			government_has_flag = government_is_administrative
-		}
-		culture = { has_cultural_pillar = heritage_latin }
-		any_realm_county = {
-			title_province = {geographical_region = custom_gaul}
-		  }
-		NOT = {  #Can only do it once.
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:became_emperor_of_gaul
-			}
-		}
-		has_game_rule = larp_enabled
-		highest_held_title_tier < tier_empire
-	}
-
-	is_valid = {
-		highest_held_title_tier = tier_kingdom
-		prestige_level >= high_prestige_level
-		OR = {
-			is_independent_ruler = yes
-			AND = {
-				highest_held_title_tier = tier_kingdom
-				liege = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				has_realm_law = de_centeral_law_policy_4
-			}
-		}
-		trigger_if = {
-			limit = {
-				title:e_roman_empire = {
-					is_title_created = yes
-				}
-				title:e_roman_empire.holder = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				OR = {
-						has_game_rule = imperial_competence_enabled
-						AND = {
-							has_game_rule = imperial_competence_enabled_in_430
-							current_date >= 430.1.1
-						}
-					}
-			}
-			custom_description = {
-				text = roman_empire_low_competence
-				subject = title:e_roman_empire.holder
-				title:e_roman_empire.holder = {
-					OR = {
-						var:civic_comp < 500
-						var:diplo_comp < 500
-						var:mil_comp < 500
-					}
-				}
-			}
-		}
-		trigger_else_if = {
-			limit = {
-				title:e_western_roman_empire = {
-					is_title_created = yes
-				}
-				title:e_western_roman_empire.holder = {
-					OR = {
-						government_has_flag = government_is_imperial_cult
-						government_has_flag = government_is_imperial
-						government_has_flag = government_is_administrative
-					}
-				}
-				OR = {
-						has_game_rule = imperial_competence_enabled
-						AND = {
-							has_game_rule = imperial_competence_enabled_in_430
-							current_date >= 430.1.1
-						}
-					}
-			}
-			custom_description = {
-				text = roman_empire_low_competence
-				subject = title:e_western_roman_empire.holder
-				title:e_western_roman_empire.holder = {
-					OR = {
-						var:civic_comp < 500
-						var:diplo_comp < 500
-						var:mil_comp < 500
-					}
-				}
-			}
-		}
-		
-		completely_controls_region = custom_gaul
-		completely_controls_region = custom_roman_britannia
-
-	}
-
-	is_valid_showing_failures_only = {
-		is_imprisoned = no
-	}
-
-	effect = {
-		if = {
-			limit = {
-			has_dlc_feature = roads_to_power
-		}
-			change_government = administrative_government
-		}
-		else = {
-			change_government = imperial_government
-		}
-		create_title_and_vassal_change = {
-			type = created
-			save_scope_as = title_change
-			add_claim_on_loss = no
-		}
-		title:e_gaul = {
-			save_scope_as = title_e_gaul
-		}
-		title:e_gaul = {
-			change_title_holder = {
-				holder = root
-				change = scope:title_change
-			}
-			save_scope_as = title_e_gaul
-		}
-		resolve_title_and_vassal_change = scope:title_change
-		
-		trigger_event = {
-			id = province_events.0040
-			days = 2
-		}
-		add_prestige = 1500
-		
-		hidden_effect = {
-			title:k_gallia = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_septem_provinciae = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_britannia = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_england = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_wales = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_cornwall = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			
-			title:k_france = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_aquitaine = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_lotharingia = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			title:k_burgundy = {
-				set_de_jure_liege_title = title:e_gaul
-			}
-			add_to_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:became_emperor_of_gaul
-			}
-		}
-	}
-
-	cost = {
-		gold = 1000
-	}
-
-	ai_potential = {
-		always = yes
-	}
-
-	ai_will_do = {
-		base = 100
-	}
-}
 
 #Integrate Hispania (For the Gallic Empire)
 integrate_hispania_gallic_empire = {

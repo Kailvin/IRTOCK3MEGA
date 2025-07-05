@@ -9,11 +9,11 @@ c_palakka={
 	422.9.15 = { liege = 0 holder = imperator204765 }
 	423.7.6 = { change_development_level = 18 }
 }
-c_nallamala={
-	422.9.15 = { liege = 0 holder = imperator204440 }
-	423.7.6 = { change_development_level = 18 }
-}
 c_cumbum={
 	422.9.15 = { liege = 0 holder = imperator204865 }
 	423.7.6 = { change_development_level = 13 }
+}
+c_nallamala={
+	422.9.15 = { liege = 0 holder = imperator204440 }
+	423.7.6 = { change_development_level = 18 }
 }

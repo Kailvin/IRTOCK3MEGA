@@ -3237,7 +3237,7 @@ d_kiev={
 }
 
 
-d_otuken = { # Otuken
+d_orkhon = { # Otuken
 	pattern="pattern_solid.dds"
 	color1 = "yellow_light"		
 	color2 = "yellow_light"	

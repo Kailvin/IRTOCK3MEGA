@@ -62,7 +62,11 @@ purchase_land_interaction = {
 		scope:recipient = {
 			is_landed = yes
 			# Need to own the land/cannot directly buy a governorship (procure estate first)
-			NOT = { government_has_flag = government_is_administrative } 
+			NOR = { 
+				government_has_flag = government_is_administrative
+				government_has_flag = government_is_nomadic
+				government_has_flag = government_is_autocratic_ep3
+			} 
 		}
 		NOT = { scope:recipient = scope:actor }
 	}
@@ -1365,7 +1369,12 @@ negotiate_settlement_interaction = {
 		}
 		trigger_if = {
 			limit = {
-				scope:actor = { government_has_flag = government_is_administrative }
+				scope:actor = { 
+					OR = {
+					government_has_flag = government_is_administrative
+					government_has_flag = government_is_autocratic_ep3
+					}
+				}
 			}
 			scope:target.tier = tier_duchy
 		}
@@ -1536,6 +1545,9 @@ negotiate_settlement_interaction = {
 			is_at_war = yes
 			has_trait = craven
 			has_trait = generous
+		}
+		NOT = {
+			government_has_flag = government_is_nomadic
 		}
 	}
 
@@ -4490,6 +4502,7 @@ reinforce_soldiers_interaction = {
 		has_ep3_dlc_trigger = yes
 		scope:actor = {
 			government_allows = conditional_maa_refill
+			NOT = { government_has_flag = government_is_nomadic }
 		}
 		scope:recipient = scope:actor
 	}
@@ -5429,6 +5442,7 @@ refill_maa_interaction = {
 		has_ep3_dlc_trigger = yes
 		scope:actor = {
 			government_allows = conditional_maa_refill
+			NOT = { government_has_flag = government_is_nomadic }
 		}
 		scope:recipient = scope:actor
 	}

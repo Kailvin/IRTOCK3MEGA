@@ -172,11 +172,11 @@ d_westfalen={
 }
 c_osnabruck={
 	376.12.4 = { liege = 0 holder = imperator187963 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 0 }
 }
 c_tecklenburg={
 	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 8 }
+	423.7.6 = { change_development_level = 7 }
 }
 c_munster={
 	376.12.4 = { liege = 0 holder = imperator187963 }
@@ -204,4 +204,16 @@ c_oversticht={
 c_groningen={
 	411.1.1 = { liege = 0 holder = imperator189729 }
 	423.7.6 = { liege = k_IRTOCK3_J56 holder = imperator195365 change_development_level = 11 }
+}
+c_guelders={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_arnhem={
+	376.12.4 = { liege = 0 holder = imperator187963 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_zutphen={
+	376.12.4 = { liege = 0 holder = imperator187963 }
+	423.7.6 = { liege = k_IRTOCK3_G61 holder = imperator184307 change_development_level = 7 }
 }

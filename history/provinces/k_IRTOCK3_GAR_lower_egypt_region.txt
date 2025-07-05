@@ -17,6 +17,7 @@
 	culture = meroitic
 	faith = nabataean_pagan
 	holding = castle_holding
+	400.1.1 = { religion = nicene }
 }
 6034={
 	holding = none
@@ -34,6 +35,7 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
+	380.1.1 = { religion = nicene }
 }
 6039={
 	holding = castle_holding
@@ -81,6 +83,7 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
+	400.1.1 = { religion = nicene }
 }
 6052={
 	culture = nuragic
@@ -107,6 +110,7 @@
 	faith = egyptian_pagan
 	holding = castle_holding
 	special_building = the_pyramids_01
+	395.1.1 = { religion = arianism }
 }
 6058={
 	holding = none

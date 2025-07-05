@@ -1,8 +1,94 @@
+6346={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+	370.1.1 = { culture = nubian religion = kushitism_pagan }
+}
+6347={
+	holding = none
+}
+6348={
+	holding = city_holding
+}
+6349={
+	holding = none
+}
+6350={
+	holding = city_holding
+}
+6351={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+	400.1.1 = { culture = nubian religion = kushitism_pagan }
+}
+6352={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+	370.1.1 = { culture = nubian religion = kushitism_pagan }
+}
+6353={
+	holding = city_holding
+}
+6354={
+	holding = city_holding
+}
+6355={
+	holding = city_holding
+}
+6356={
+	culture = nubian
+	faith = egyptian_pagan
+	holding = castle_holding
+}
+6357={
+	holding = none
+}
+6358={
+	holding = none
+}
+6360={
+	holding = city_holding
+}
+6363={
+	culture = nuragic
+	faith = kushitism_pagan
+	holding = castle_holding
+	100.1.1 = { special_building_slot = pyramids_of_meroe }
+}
+6364={
+	holding = none
+}
+6365={
+	holding = city_holding
+}
+6366={
+	holding = none
+}
+6367={
+	culture = nuragic
+	faith = egyptian_pagan
+	holding = castle_holding
+	370.1.1 = { culture = nubian religion = kushitism_pagan }
+}
+6368={
+	holding = city_holding
+}
+6369={
+	holding = none
+}
+6370={
+	holding = none
+}
+6389={
+	holding = none
+}
 6390={
 	holding = none
 }
 6391={
-	holding = city_holding
+	holding = none
 }
 6392={
 	holding = city_holding
@@ -98,6 +184,58 @@
 	holding = none
 }
 6435={
+	holding = none
+}
+6436={
+	culture = ethiopian
+	faith = kushitism_pagan
+	holding = castle_holding
+}
+6445={
+	holding = none
+}
+6881={
+	culture = meroitic
+	faith = egyptian_pagan
+	holding = none
+}
+6882={
+	holding = none
+}
+6883={
+	culture = meroitic
+	faith = egyptian_pagan
+	holding = none
+}
+6884={
+	holding = none
+}
+6897={
+	holding = none
+}
+6898={
+	culture = meroitic
+	faith = egyptian_pagan
+	holding = none
+}
+6899={
+	holding = none
+}
+6900={
+	holding = none
+}
+6901={
+	holding = none
+}
+8314={
+	holding = none
+}
+8315={
+	holding = none
+}
+8371={
+	culture = ethiopian
+	faith = arabic_pagan
 	holding = none
 }
 8514={

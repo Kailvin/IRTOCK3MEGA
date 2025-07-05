@@ -1,5 +1,5 @@
 6232={
-	holding = city_holding
+	holding = none
 }
 6240={
 	culture = bedouin
@@ -19,7 +19,7 @@
 }
 6244={
 	culture = bedouin
-	faith = arabic_pagan
+	faith = egyptian_pagan
 	holding = castle_holding
 }
 6245={
@@ -68,6 +68,51 @@
 	holding = castle_holding
 }
 6281={
+	holding = none
+}
+6282={
+	culture = bedouin
+	faith = bedouin_pagan
+	holding = tribal_holding
+}
+6283={
+	holding = church_holding
+}
+6284={
+	holding = church_holding
+}
+6285={
+	holding = city_holding
+}
+6286={
+	culture = bedouin
+	faith = nicene
+	holding = castle_holding
+}
+6287={
+	holding = city_holding
+}
+6288={
+	holding = none
+}
+6289={
+	holding = none
+}
+6290={
+	holding = city_holding
+}
+6291={
+	culture = bedouin
+	faith = nicene
+	holding = castle_holding
+}
+6292={
+	holding = none
+}
+6294={
+	holding = city_holding
+}
+6295={
 	holding = none
 }
 6296={

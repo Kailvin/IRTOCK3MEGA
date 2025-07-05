@@ -1,3 +1,6 @@
+680={
+	holding = none
+}
 702={
 	culture = syrian
 	faith = kitebacilweism
@@ -7,11 +10,6 @@
 	holding = none
 }
 704={
-	culture = greek
-	faith = nicene
-	holding = castle_holding
-}
-707={
 	culture = greek
 	faith = nicene
 	holding = castle_holding
@@ -34,6 +32,7 @@
 	culture = syrian
 	faith = hellenic_pagan
 	holding = castle_holding
+	400.1.1 = { religion = nicene }
 }
 4778={
 	holding = none
@@ -46,17 +45,6 @@
 	faith = hellenic_pagan
 	holding = castle_holding
 }
-4788={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4789={
-	holding = none
-}
-4790={
-	holding = castle_holding
-}
 4791={
 	holding = castle_holding
 }
@@ -64,23 +52,6 @@
 	holding = none
 }
 4793={
-	holding = none
-}
-4794={
-	holding = none
-}
-4795={
-	holding = none
-}
-4796={
-	holding = city_holding
-}
-4797={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4798={
 	holding = none
 }
 4799={
@@ -150,40 +121,13 @@
 4817={
 	holding = church_holding
 }
-4824={
-	holding = castle_holding
-}
-4825={
-	holding = city_holding
+4823={
+	holding = church_holding
 }
 4826={
 	holding = none
 }
-4827={
-	holding = none
-}
-4828={
-	culture = macedonian
-	faith = manichean
-	holding = castle_holding
-}
-4829={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4830={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4831={
-	holding = none
-}
 4832={
-	holding = none
-}
-4833={
 	holding = none
 }
 4834={
@@ -229,7 +173,9 @@
 	holding = castle_holding
 }
 4846={
-	holding = none
+	culture = syrian
+	faith = kitebacilweism
+	holding = castle_holding
 }
 4847={
 	holding = none
@@ -249,12 +195,12 @@
 	holding = church_holding
 }
 4852={
-	holding = church_holding
+	culture = syrian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4853={
-	culture = syrian
-	faith = kitebacilweism
-	holding = castle_holding
+	holding = none
 }
 4854={
 	holding = church_holding
@@ -269,9 +215,6 @@
 }
 4857={
 	holding = none
-}
-4858={
-	holding = city_holding
 }
 4859={
 	culture = syrian
@@ -292,9 +235,6 @@
 4863={
 	holding = none
 }
-4864={
-	holding = castle_holding
-}
 4865={
 	holding = none
 }
@@ -313,6 +253,7 @@
 	culture = syrian
 	faith = nicene
 	holding = castle_holding
+	400.1.1 = { religion = nicene }
 }
 4871={
 	holding = city_holding
@@ -333,8 +274,6 @@
 	holding = none
 }
 4883={
-	culture = bedouin
-	faith = karaism
 	holding = castle_holding
 }
 4884={
@@ -361,37 +300,6 @@
 	faith = arabic_pagan
 	holding = castle_holding
 }
-4890={
-	holding = none
-}
-4891={
-	holding = none
-}
-4892={
-	holding = none
-}
-4893={
-	culture = syrian
-	faith = kitebacilweism
-	holding = castle_holding
-}
-4894={
-	culture = syrian
-	faith = kitebacilweism
-	holding = castle_holding
-}
-4899={
-	holding = city_holding
-}
-5706={
-	holding = none
-}
-5707={
-	holding = none
-}
-5708={
-	holding = none
-}
 5709={
 	holding = city_holding
 }
@@ -404,15 +312,42 @@
 5712={
 	holding = city_holding
 }
-5900={
-	culture = syrian
+5713={
+	holding = city_holding
+}
+5714={
+	holding = none
+}
+5715={
+	culture = macedonian
 	faith = nicene
 	holding = castle_holding
 }
-5901={
+5733={
 	holding = city_holding
 }
-5902={
+5734={
+	culture = macedonian
+	faith = nicene
+	holding = castle_holding
+}
+5735={
+	holding = castle_holding
+}
+5736={
+	holding = castle_holding
+}
+5737={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
+}
+5741={
+	holding = city_holding
+}
+5989={
+	culture = bedouin
+	faith = arabic_pagan
 	holding = none
 }
 5990={
@@ -468,4 +403,32 @@
 }
 6004={
 	holding = city_holding
+}
+6168={
+	culture = macedonian
+	faith = nicene
+	holding = none
+}
+6169={
+	holding = none
+}
+6170={
+	holding = none
+}
+6175={
+	holding = none
+}
+6176={
+	holding = none
+}
+6177={
+	holding = none
+}
+6178={
+	culture = bedouin
+	faith = arabic_pagan
+	holding = none
+}
+6180={
+	holding = none
 }

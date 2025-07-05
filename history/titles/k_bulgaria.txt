@@ -1,8 +1,53 @@
 k_bulgaria={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
+}
+d_macva={
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { liege = 0 }
+}
+c_branicevo={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_macva={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_beograd={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+d_duklja={
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { liege = 0 }
+}
+c_rashka={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_podrinje={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_duklja={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_pomorje={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_travunia={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
 }
 d_vidin={
 	423.7.6 = { liege = 0 }
+}
+c_vratsa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 14 }
 }
 c_vidin={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -10,8 +55,4 @@ c_vidin={
 }
 b_belogradchik={
 	423.7.6 = { holder = imperator184852 }
-}
-c_branicevo={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 11 }
 }

@@ -9,6 +9,222 @@
 # 0041 - 0050 Expand Roman Provinces
 ##################################################
 
+western_roman.0001 = { #Abandon Britannia Emperor
+	type = character_event
+	title = western_roman.0001.t
+	desc = western_roman.0001.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_abandon_britannia.dds" }
+	theme = martial
+
+	override_background = {
+		reference = ocean
+	}
+	
+	left_portrait = {
+		character = root
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = title:k_britannia.holder
+		animation = rage
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+	}
+
+	option = {
+		name = western_roman.0001.a
+		add_gold = abandon_britannia_gold_gained
+		
+		if = {
+			limit = { any_realm_province = { has_building = real_hadrians_wall_01 } }
+			custom_tooltip = western_roman.0001.a_hadrians_wall_crumbles
+		}
+		if = {
+			limit = { any_realm_province = { has_building = dolaucothi_gold_mines_01 } }
+			custom_tooltip = western_roman.0001.a_dolaucothi_gold_mines_crumbles
+		}
+		
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:k_britannia.holder = {
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			becomes_independent = { change = scope:change }
+			resolve_title_and_vassal_change = scope:change
+		}
+		#Break all duchies
+		title:k_britannia = {
+			reset_title_name = yes
+			holder.top_liege = { save_scope_as = emperor_destroy_titles }
+			reset_title_name = yes
+			every_in_de_jure_hierarchy = {
+				limit = {
+					is_title_created = yes
+					holder ?= {
+						top_liege = title:k_britannia.holder
+					}
+				}
+				reset_title_name = yes
+				scope:emperor_destroy_titles = { destroy_title = prev }
+			}
+			scope:emperor_destroy_titles = { destroy_title = prev }
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { exists = global_var:britannia_dejure_splity }
+				}
+				dejure_shift_britannia_effect = yes
+			}
+
+			random_list = {
+				30 = {
+					if = {
+						limit = {
+							title:k_saxony = {
+								is_title_created = yes
+							}
+						}
+						title:k_saxony.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:old_saxon
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+				10 = {
+					if = {
+						limit = {
+							title:k_frisia = {
+								is_title_created = yes
+							}
+						}
+						title:k_frisia.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:frisa
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+				10 = {
+					if = {
+						limit = {
+							title:k_jutland = {
+								is_title_created = yes
+							}
+						}
+						title:k_jutland.holder = {
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+					else = {
+						random_ruler = {
+							limit = {
+								culture = {
+									any_parent_culture_or_above = {
+										THIS = culture:angle
+									}
+								}
+							}
+							trigger_event = {
+								id = briton.0007
+								days = {30 50}
+							}
+						}
+					}
+				}
+			}
+			set_global_variable = {
+				name = britannia_dejure_splity
+				value = yes
+			}
+			
+
+		}
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				OR = {
+					government_has_flag = government_is_imperial
+					government_has_flag = government_is_administrative
+				}
+			}
+			trigger_event = {
+				id = western_roman.0002
+				days = 10
+			}
+		}
+	}
+}
+
+western_roman.0002 = { #Abandon Britannia - Vassals
+	type = character_event
+	title = western_roman.0001.t
+	desc = western_roman.0001.desc
+	override_icon = { reference = "gfx/interface/icons/event_types/special_abandon_britannia.dds" }
+	theme = martial
+
+	override_background = {
+		reference = ocean
+	}
+	
+	left_portrait = {
+		character = title:e_western_roman_empire.holder
+		animation = schadenfreude
+	}
+	right_portrait = {
+		character = title:k_britannia.holder
+		animation = rage
+	}
+
+	option = {
+		name = "This starts a new age for the Britons"
+	}
+}
 
 ##################################################
 # Restoring the Western Empire
@@ -746,8 +962,8 @@ western_roman.0030 = {
 	}
 	option = { # Become Tributary
 		name = western_roman.0030.b
-		make_tributary = {
-			TYPE = tributary_permanent
+		start_tributary_interaction_effect = {
+			#TYPE = tributary_permanent
 			SUZERAIN = title:e_byzantium.holder
 			TRIBUTARY = root
 		}
@@ -1707,27 +1923,33 @@ western_roman.0045 = {
 					limit = {
 						has_dlc_feature = roads_to_power
 					}
-						change_government = administrative_government
+					change_government = administrative_government
+					if = {
+						limit = { 
+							NOT = { any_held_title = { is_noble_family_title = yes } } 
+							highest_held_title_tier >= tier_duchy
+						}
+						if = {
+							limit = { is_house_head = no }
+							found_cadet_house_decision_effect = { CHARACTER = root }
+						}
+						create_noble_family_effect = yes
+						domicile ?= { set_up_domicile_estate_effect = yes }
 					}
-					else = {
-						change_government = imperial_government
+				}
+				else = {
+					change_government = imperial_government
 				} 
 			}
 		}
 
 		if = {
 			limit = {
-				is_permanent_tributary = {
-                    SUZERAIN = scope:emperor
-                    TRIBUTARY = scope:nepos
-                }
+				scope:emperor = scope:nepos.suzerain
 			}
 			scope:nepos = {
-                unset_tributary = {
-                    TRIBUTARY = scope:emperor
-                    TRIBUTARY_BASE_TYPE = flag:permanent
-        		}  
-            } 
+				end_tributary = yes
+			}
 		}
 
 		ai_chance = {
@@ -1776,10 +1998,22 @@ western_roman.0045 = {
 					limit = {
 						has_dlc_feature = roads_to_power
 					}
-						change_government = administrative_government
+					change_government = administrative_government
+					if = {
+						limit = { 
+							NOT = { any_held_title = { is_noble_family_title = yes } } 
+							highest_held_title_tier >= tier_duchy
+						}
+						if = {
+							limit = { is_house_head = no }
+							found_cadet_house_decision_effect = { CHARACTER = root }
+						}
+						create_noble_family_effect = yes
+						domicile ?= { set_up_domicile_estate_effect = yes }
 					}
-					else = {
-						change_government = imperial_government
+				}
+				else = {
+					change_government = imperial_government
 				}  
 			}
 		}
@@ -2064,6 +2298,7 @@ western_roman.0078 = {
 	}
 }
 
+#no longer in use (was for nomad migrations)
 western_roman.0079 = {
 	type = character_event
 	title = western_roman.0079.t
@@ -2090,7 +2325,7 @@ western_roman.0079 = {
 		custom_tooltip = western_roman.0079.migration_target
 		hidden_effect = {
 			start_war = {
-				cb = event_nomadic_migration_cb 
+				cb = event_germanic_migration_cb 
 				target = scope:migration_target.holder.top_liege
 				target_title = scope:migration_target.duchy
 			}

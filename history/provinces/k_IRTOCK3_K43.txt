@@ -3,8 +3,56 @@
 	faith = manichean
 	holding = castle_holding
 }
-9606={
+1441={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+1442={
+	culture = tocharian
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = uyghur }
+}
+1448={
+	culture = tocharian
+	religion = mahayana
+	holding = castle_holding
+}
+7997={
+	holding = none
+}
+7998={
+	holding = none
+}
+7999={
+	culture = tocharian
+	religion = sarvastivada
+	holding = castle_holding
+	848.1.1 = { culture = uyghur religion = mahayana }
+}
+9600={
+	holding = none
+}
+9601={
+	holding = castle_holding
+}
+9602={
 	holding = church_holding
+}
+9603={
+	holding = none
+}
+9604={
+	holding = none
+}
+9605={
+	holding = none
+}
+9606={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 9607={
 	holding = city_holding
@@ -15,8 +63,6 @@
 	holding = castle_holding
 }
 9609={
-	culture = sumpa
-	faith = old_bon
 	holding = none
 }
 9610={
@@ -32,27 +78,14 @@
 	holding = none
 }
 9614={
+	holding = none
+}
+9615={
+	holding = none
+}
+9616={
 	culture = scythian
-	faith = old_bon
-	holding = none
-}
-13526={
-	holding = none
-}
-13633={
-	holding = none
-}
-13662={
-	holding = none
-}
-13690={
-	holding = none
-}
-13725={
-	culture = saka
-	religion = mahayana
-	holding = none
-}
-13730={
-	holding = none
+	faith = khurmazta
+	holding = castle_holding
+	400.1.1 = { religion = mahayana }
 }

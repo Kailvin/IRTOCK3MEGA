@@ -7,11 +7,11 @@ d_dakhina_desa={
 }
 c_dakhina_desa={
 	422.9.15 = { liege = 0 holder = imperator204915 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_kandy={
-	422.9.15 = { liege = 0 holder = imperator204915 }
 	423.7.6 = { change_development_level = 16 }
+}
+c_kotte={
+	422.9.15 = { liege = 0 holder = imperator204915 }
+	423.7.6 = { change_development_level = 17 }
 }
 d_ruhunu={
 	423.7.6 = { liege = 0 }

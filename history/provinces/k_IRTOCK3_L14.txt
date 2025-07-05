@@ -8,6 +8,11 @@
 	faith = hellenic_pagan
 	holding = castle_holding
 }
+1424={
+	culture = alan
+	faith = hellenic_pagan
+	holding = castle_holding
+}
 1431={
 	culture = alan
 	faith = hellenic_pagan
@@ -26,7 +31,9 @@
 	holding = none
 }
 4384={
-	holding = city_holding
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4385={
 	holding = castle_holding
@@ -65,6 +72,7 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+	special_building_slot = ark_of_bukhara_01
 }
 4395={
 	holding = city_holding
@@ -116,6 +124,7 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+	100.1.1 = { special_building_slot = temples_of_panikant }
 }
 4410={
 	holding = city_holding
@@ -142,6 +151,9 @@
 }
 7126={
 	holding = none
+}
+7127={
+	holding = castle_holding
 }
 7128={
 	holding = city_holding
@@ -171,4 +183,50 @@
 }
 7139={
 	holding = castle_holding
+}
+7140={
+	holding = church_holding
+}
+7141={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+	400.1.1 = { culture = wusun }
+}
+7144={
+	holding = city_holding
+}
+7145={
+	holding = city_holding
+}
+7146={
+	holding = city_holding
+}
+7147={
+	holding = city_holding
+}
+7148={
+	holding = none
+}
+7149={
+	holding = none
+}
+7150={
+	holding = none
+}
+7151={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = none
+}
+7152={
+	holding = none
+}
+7153={
+	holding = city_holding
+}
+7154={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = tribal_holding
 }

@@ -159,6 +159,7 @@ anatolian = {
 		}
 	}
 }
+
 euxinian = {
 	name = euxinian
 	trigger = {
@@ -188,6 +189,7 @@ euxinian = {
 		}
 	}
 }
+
 hyperborean = {
 	name = hyperborean
 	trigger = {
@@ -211,3 +213,17 @@ hyperborean = {
 		}
 	}
 }
+
+coptic = {
+	trigger = {
+		religion = religion:christianity_religion
+		culture = culture:ancient_egyptian
+		any_sub_realm_county = {
+			AND = {
+				culture = culture:ancient_egyptian
+				religion = religion:christianity_religion
+			}
+		}
+	}
+}
+

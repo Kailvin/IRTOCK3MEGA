@@ -2,13 +2,17 @@
 	name = "dynn_Kamsarakan"
 	culture = "armenian"
 }
+shirakatsi_dynasty = {
+	name = "dynn_Shirakatsi"
+	culture = "armenian"
+}
 himyar_dynasty = {
 	name = "dynn_Himyar"
-	culture = "gaetuli"
+	culture = "gaetulian"
 }
 gaetuli_dynasty = {
 	name = "dynn_Gaetuli"
-	culture = "gaetuli"
+	culture = "gaetulian"
 }
 massilid_dynasty = {
 	name = "dynn_Massilid"
@@ -105,7 +109,11 @@ haraldrid_dynasty = {
 }
 gautid_dynasty = {
 	name = "dynn_gautid"
-	culture = gautish
+	culture = norse
+}
+acilius_dynasty = {
+	name = "dynn_Acilius"
+	culture = roman
 }
 valerius_dynasty = {
 	name = "dynn_Valerius"
@@ -131,6 +139,78 @@ aurelius_dynasty = {
 	name = "dynn_Aurelius"
 	culture = gallo_roman
 }
+gabinius_dynasty = {
+	name = "dynn_Gabinius"
+	culture = roman
+}
+castinus_dynasty = {
+	name = "dynn_Castinus"
+	culture = roman
+}
+tiburtius_dynasty = {
+	name = "dynn_Tiburtius"
+	culture = roman
+}
+vigilius_dynasty = {
+	name = "dynn_Vigilius"
+	culture = roman
+}
+caelius_dynasty = {
+	name = "dynn_Caelius"
+	culture = roman
+}
+iustus_dynasty = {
+	name = "dynn_Iustus"
+	culture = roman
+}
+ablabius_dynasty = {
+	name = "dynn_Ablabius"
+	culture = helleno_roman
+}
+procopius_dynasty = {
+	name = "dynn_Procopius"
+	culture = helleno_roman
+}
+eusebius_dynasty = {
+	name = "dynn_Eusebius"
+	culture = helleno_roman
+}
+claudius_dynasty = {
+	name = "dynn_Claudius"
+	culture = roman
+}
+bonosus_dynasty = {
+	name = "dynn_Bonosus"
+	culture = roman
+}
+catelinus_dynasty = {
+	name = "dynn_Catelinus"
+	culture = roman
+}
+illustrius_dynasty = {
+	name = "dynn_Illustrius"
+	culture = roman
+}
+italicianus_dynasty = {
+	name = "dynn_Italicianus"
+	culture = roman
+}
+taurus_dynasty = {
+	name = "dynn_Taurus"
+	culture = roman
+}
+sarmaticus_dynasty = {
+	name = "dynn_Sarmaticus"
+	culture = alan
+}
+claudius_mamertinus_dynasty = {
+	name = "dynn_Claudius"
+	culture = roman
+}
+dynasty_marcellinus_felix = {
+	name = "dynn_Marcellinus"
+	culture = roman
+}
 flavius_dynasty = {
 	name = "dynn_Flavius"
 	culture = roman
@@ -138,6 +218,66 @@ flavius_dynasty = {
 rufinus_dynasty = {
 	name = "dynn_Rufinus"
 	culture = gallo_roman
+}
+rusticus_dynasty = {
+	name = "dynn_Rusticus"
+	culture = gallo_roman
+}
+florentius_dynasty = {
+	name = "dynn_Florentius"
+	culture = gallo_roman
+}
+eucherius_dynasty = {
+	name = "dynn_Eucherius"
+	culture = gallo_roman
+}
+ennodius_dynasty = {
+	name = "dynn_Ennodius"
+	culture = gallo_roman
+}
+mummolus_dynasty = {
+	name = "dynn_Mummolus"
+	culture = gallo_roman
+}
+latinus_dynasty = {
+	name = "dynn_Latinus"
+	culture = gallo_roman
+}
+salvius_dynasty = {
+	name = "dynn_Salvius"
+	culture = gallo_roman
+}
+eligius_dynasty = {
+	name = "dynn_Eligius"
+	culture = gallo_roman
+}
+cresconius_dynasty = {
+	name = "dynn_Cresconius"
+	culture = afro_roman
+}
+asellus_dynasty = {
+	name = "dynn_Asellus"
+	culture = hispano_roman
+}
+herculis_dynasty = {
+	name = "dynn_Herculis"
+	culture = hispano_roman
+}
+cilaucius_dynasty = {
+	name = "dynn_Cilaucius"
+	culture = hispano_roman
+}
+astigitanus_dynasty = {
+	name = "dynn_Astigitanus"
+	culture = hispano_roman
+}
+burdunellus_dynasty = {
+	name = "dynn_Burdunellus"
+	culture = hispano_roman
+}
+hispalensis_dynasty = {
+	name = "dynn_Hispalensis"
+	culture = hispano_roman
 }
 lucillianus_dynasty = {
 	name = "dynn_Lucillianus"
@@ -215,6 +355,46 @@ barsymes_dynasty = {
 	name = "dynn_Barsymes"
 	culture = greek
 }
+thalassios_dynasty = {
+	name = "dynn_Thalassios"
+	culture = greek
+}
+philaidas_dynasty = {
+	name = "dynn_Philaidas"
+	culture = greek
+}
+theodoros_dynasty = {
+	name = "dynn_Theodoros"
+	culture = syrian
+}
+libanios_dynasty = {
+	name = "dynn_Libanios"
+	culture = syrian
+}
+kalliopios_dynasty = {
+	name = "dynn_Kalliopios"
+	culture = syrian
+}
+antiochensis_dynasty = {
+	name = "dynn_Antiochensis"
+	culture = syrian
+}
+baradaios_dynasty = {
+	name = "dynn_Baradaios"
+	culture = syrian
+}
+philoponos_dynasty = {
+	name = "dynn_Philoponos"
+	culture = aegyptian
+}
+strategios_dynasty = {
+	name = "dynn_Strategios"
+	culture = aegyptian
+}
+apion_dynasty = {
+	name = "dynn_Apion"
+	culture = aegyptian
+}
 kodissa_dynasty = {
 	name = "dynn_Kodissa"
 	culture = isaurian
@@ -275,6 +455,10 @@ cottistis_dynasty = {
 	name = "dynn_Cottistis"
 	culture = greek
 }
+caesarensis_dynasty = {
+	name = "dynn_Caesarensis"
+	culture = greek
+}
 troglita = {
 	name = "dynn_Troglita"
 	culture = greek
@@ -306,6 +490,10 @@ anniona_dynasty = {
 Leontios_dynasty = {
 	name = "dynn_Leontios"
 	culture = greek
+}
+dynasty_hipponensis = {
+	name = "dynn_Hipponensis"
+	culture = afro_roman
 }
 dynasty_Tanukhid = {
 	name = "dynn_Tanukhid"
@@ -737,11 +925,15 @@ chauci_dynasty = {
 }
 juthungi_dynasty = {
 	name = "dynn_Juthungi"
-	culture = alemannic
+	culture = alamannic
 }
 saxon_dynasty = {
 	name = "dynn_Saxon"
 	culture = old_saxon
+}
+wihtwara_dynasty = {
+	name = "dynn_Wihtwara"
+	culture = jute
 }
 chattauri_dynasty = {
 	name = "dynn_Chattauri"
@@ -760,16 +952,12 @@ dynasty_martinos = {
 	name = "dynn_Martinos"
 	culture = greek
 }
-ablabian = {
-	name = "dynn_Ablabian"
-	culture = greek
-}
 dynasty_Oligatos = {
 	name = "dynn_Oligatos"
 	culture = greek
 }
 99992000 = {
-	name = "dynn_Aspourgos"
+	name = "dynn_Tiberios_Ioulios"
 	culture = "greek"
 }
 dynasty_bosporan_01 = {
@@ -859,7 +1047,7 @@ maukhari_dynasty = {
 }
 99994000 = {
 	name = "dynn_Chnodomaring"
-	culture = "alammanic"
+	culture = alamannic
 }
 99995000 = {
 	name = "dynn_Alanid"
@@ -902,6 +1090,38 @@ maukhari_dynasty = {
 	name = "dynn_Willaching"
 	culture = "frankish"
 }
+99979902 = {
+	name = "dynn_Chamaring"
+	culture = "frankish"
+}
+99979903 = {
+	name = "dynn_Brunulfing"
+	culture = "frankish"
+}
+99979904 = {
+	name = "dynn_Landegiseling"
+	culture = "frankish"
+}
+99979905 = {
+	name = "dynn_Aeging"
+	culture = "frankish"
+}
+99979906 = {
+	name = "dynn_Boding"
+	culture = "frankish"
+}
+99940001 = {
+	name = "dynn_Betting"
+	culture = "burgundian"
+}
+99940002 = {
+	name = "dynn_Amaling"
+	culture = "burgundian"
+}
+99940003 = {
+	name = "dynn_Gunzing"
+	culture = "alamannic"
+}
 99910000 = {
 	name = "dynn_Gepanting"
 	culture = "hun"
@@ -935,6 +1155,18 @@ maukhari_dynasty = {
 	name = "dynn_Kevid"
 	culture = "hun"
 }
+99900005 = {
+	name = "dynn_Ermi"
+	culture = "bolghar"
+}
+99900006 = {
+	name = "dynn_Zabenderid"
+	culture = "hun"
+}
+99900007 = {
+	name = "dynn_Tarniakid"
+	culture = "hun"
+}
 99930000 = {
 	name = "dynn_Lething"
 	culture = "langobard"
@@ -949,6 +1181,10 @@ maukhari_dynasty = {
 }
 99930003 = {
 	name = "dynn_Hildebranding"
+	culture = "langobard"
+}
+99930004 = {
+	name = "dynn_Faroalding"
 	culture = "langobard"
 }
 1044045 = {
@@ -977,7 +1213,7 @@ maukhari_dynasty = {
 }
 99996000 = {
 	name = "dynn_Hermericing"
-	culture = "suebian"
+	culture = suebi
 }
 1044033 = {
 	name = "dynn_Agilulfing"
@@ -1075,14 +1311,11 @@ glycerius_dynasty = {
 	name = "dynn_Glycerius"
 	culture = "roman"
 }
-prokopios_dynasty = {
-	name = "dynn_Prokopios"
-	culture = "greek"
-}
 serpentius_dynasty = {
 	name = "dynn_Serpentius"
 	culture = "roman"
 }
+
 maiorianus_dynasty = {
 	name = "dynn_Maiorianus"
 	culture = "roman"
@@ -1091,8 +1324,20 @@ dynasty_Bassianus = {
 	name = "dynn_Bassianus"
 	culture = "roman"
 }
-iustus_dynasty = {
-	name = "dynn_Iustus"
+vettius_dynasty = {
+	name = "dynn_Vettius"
+	culture = "roman"
+}
+aconius_dynasty = {
+	name = "dynn_Aconius"
+	culture = "roman"
+}
+rufius_dynasty = {
+	name = "dynn_Rufius"
+	culture = "roman"
+}
+egnatius_dynasty = {
+	name = "dynn_Egnatius"
 	culture = "roman"
 }
 iulius_dynasty = {
@@ -1191,7 +1436,7 @@ Caesarius = {
 }
 900001 = {
 	name = "dynn_Fidach"
-	culture = "Romano-Gallic"
+	culture = gallo_roman
 }
 900002 = {
 	name = "dynn_Wodensing"
@@ -1488,12 +1733,12 @@ audumbara_dynasty = {
 	culture = "salian"
 }
 409 = {
-	name = "dynn_Chrysanta"
-	culture = "Romano-Gallic"
+	name = "dynn_Chrysanthus"
+	culture = "helleno_roman"
 }
 411 = {
 	name = "dynn_Paulinus"
-	culture = "Romano-Gallic"
+	culture = gallo_roman
 }
 5678 = {
 	name = "dynn_Aleman"
@@ -1781,10 +2026,6 @@ nichomichi = {
 	name = "dynn_Nichomichi"
 	culture = roman
 }
-vetti = {
-	name = "dynn_Vetti"
-	culture = roman
-}
 constantian = {
 	name = "dynn_Constantian"
 	culture = thracio_roman
@@ -1804,6 +2045,10 @@ sappos_dynasty = {
 superatios_dynasty = {
 	name = "dynn_Superatios"
 	culture = asturian
+}
+liebana_dynasty = {
+	name = "dynn_Liebana"
+	culture = cantabrian
 }
 nepos_dynasty = {
 	name = "dynn_Nepos"
@@ -2031,19 +2276,19 @@ siling = {
 ###ROMANO_BRITON
 dynasty_Martinus = {
 	name = "dynn_Martinus"
-	culture = "romano_briton"
+	culture = britano_roman
 }
 dynasty_Pacatianus = {
 	name = "dynn_Pacatianus"
-	culture = "romano_briton"
+	culture = britano_roman
 }
 riothamus_dynasty ={
 	name = "dynn_Riothamus"
-	culture = "romano_briton"
+	culture = britano_roman
 }
 constantinus_dynasty ={
 	name = "dynn_Constantinus_Britannicus"
-	culture = "romano_briton"
+	culture = britano_roman
 }
 ###AEGYPTIAN
 ptolemeos_dynasty = {
@@ -2051,7 +2296,7 @@ ptolemeos_dynasty = {
 	culture = "aegyptian"
 }
 dynasty_Tatianus = {
-	name = "dynn_Tatianus"
+	name = "dynn_Tatianos"
 	culture = "aegyptian"
 }
 dynasty_Palladius = {
@@ -2074,9 +2319,9 @@ dynasty_Metrodorus = {
 	name = "dynn_Metrodorus"
 	culture = "aegyptian"
 }
-dynasty_Philagrius = {
-	name = "dynn_Philagrius"
-	culture = "aegyptian"
+dynasty_Eparkhos = {
+	name = "dynn_Eparkhos"
+	culture = "cappadocian"
 }
 dynasty_Theodorus = {
 	name = "dynn_Theodorus"
@@ -2131,12 +2376,16 @@ dynasty_Sanctus = {
 	name = "dynn_Sanctus"
 	culture = gallo_roman
 }
+dynasty_aemilius = {
+	name = "dynn_Aemilius"
+	culture = gallo_roman
+}
 avitian = {
 	name = "dynn_Avitian"
 	culture = gallo_roman
 }
-apollinarian = {
-	name = "dynn_Apollinarian"
+apollinaris_dynasty = {
+	name = "dynn_Apollinaris"
 	culture = gallo_roman
 }
 arbori = {
@@ -2250,6 +2499,11 @@ dynn_marshalnsc = {
 	name = "dynn_marshalnsc"
 	culture = "han"
 	motto = dynn_marshalnsc_motto
+}
+
+dynn_an = {
+	name = "dynn_an"
+	culture = "thuringian"
 }
 
 # DUNHUANG REGION
@@ -2554,11 +2808,11 @@ dynasty_kunmi = {
 ### Yaziges
 limigantes_dynasty = {
 	name = "dynn_Limigantes"
-	culture = yaziges
+	culture = yazige
 }
 babay_dynasty = {
 	name = "dynn_Babayid"
-	culture = yaziges
+	culture = yazige
 }
 ## Roxolan
 agaragantes_dynasty = {
@@ -2805,7 +3059,7 @@ zaba = {
 
 dynasty_shuangmi = {
 	name = "dynn_Shuangmi"
-	culture = "Hephthalite"
+	culture = hephthalite
 }
 
 banuaws = {
@@ -3238,7 +3492,10 @@ isidoros_dynasty = {
 	name = "dynn_Isidoros"
 	culture = "aegyptian"
 }
-
+alexandreias_dynasty = {
+	name = "dynn_Alexandreias"
+	culture = "aegyptian"
+}
 neapolis_dynasty = {
 	name = "dynn_Neapolis"
 	culture = "syrian"
@@ -3302,7 +3559,7 @@ TFE_wirkak_dynasty = {
 
 TFE_dynasty_wahbel = {
 	name = "dynn_Wahbel"
-	culture = "nabataean"
+	culture = nabatean
 }
 
 TFE_dynasty_claudius_marius_victorius = {
@@ -3312,10 +3569,13 @@ TFE_dynasty_claudius_marius_victorius = {
 
 dynasty_obedianus = {
 	name = "dynn_Obedianus"
-	culture = "nabataean"
+	culture = nabatean
 }
 
 dynasty_isis_priests = {
 	name = "dynn_pilakh"
 	culture = "kemetic"
+}
+dynasty_myrddin={
+	motto=dynn_myrddin_motto
 }

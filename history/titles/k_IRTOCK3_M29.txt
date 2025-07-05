@@ -13,3 +13,7 @@ c_allai={
 	422.9.15 = { liege = 0 holder = imperator205515 }
 	423.7.6 = { change_development_level = 15 }
 }
+c_astore={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 14 }
+}

@@ -1,0 +1,178 @@
+1446={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	100.1.1 = { special_building_slot = astana_cemetary special_building = astana_cemetary }
+}
+7455={
+	holding = church_holding
+}
+7456={
+	holding = city_holding
+}
+7457={
+	holding = none
+}
+7458={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+}
+7469={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7470={
+	holding = none
+}
+7471={
+	holding = none
+}
+9487={
+	holding = city_holding
+}
+9489={
+	culture = xianbei
+	religion = mahayana
+	holding = tribal_holding
+	1032.1.1 = { culture = tangut religion = melieism }
+	1250.1.1 = { culture = mongol religion = tengri_pagan }
+}
+9490={
+	culture = xiao_yuezhi
+	religion = tengri_pagan
+	holding = tribal_holding
+	400.1.1 = { culture = xiongnu }
+	500.1.1 = { culture = tuyuhun }
+	894.1.1 = { culture = yughur religion = manichean }
+}
+9491={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+}
+9492={
+	holding = church_holding
+}
+9493={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+}
+9494={
+	holding = city_holding
+}
+9495={
+	holding = city_holding
+}
+9496={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+}
+9497={
+	holding = none
+}
+9498={
+	holding = church_holding
+}
+9499={
+	holding = church_holding
+}
+9500={
+	holding = city_holding
+}
+9501={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+}
+9502={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur religion = manichean }
+	1080.1.1 = { religion = mahayana }
+}
+9503={
+	holding = church_holding
+}
+9504={
+	holding = city_holding
+}
+9505={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur religion = manichean }
+	1050.1.1 = { culture = tangut religion = vajrayana }
+	1250.1.1 = { culture = mongol religion = tengri_pagan }
+}
+9506={
+	culture = xianbei
+	religion = tengri_pagan
+	holding = tribal_holding
+	1000.1.1 = { religion = vajrayana }
+	1032.1.1 = { holding = castle_holding }
+	1250.1.1 = { culture = mongol religion = tengri_pagan }
+}
+9507={
+	holding = none
+	1032.1.1 = { holding = church_holding }
+}
+9508={
+	holding = none
+}
+9510={
+	culture = xianbei
+	religion = tengri_pagan
+	holding = tribal_holding
+	700.1.1 = { religion = melieism }
+	1032.1.1 = { culture = tangut }
+	1250.1.1 = { culture = mongol religion = tengri_pagan }
+}
+9511={
+	culture = xiongnu
+	religion = tengri_pagan
+	holding = tribal_holding
+	500.1.1 = { culture = tuyuhun }
+	894.1.1 = { culture = yughur religion = lamaism }
+}
+9512={
+	holding = none
+}
+9513={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+	926.1.1 = { religion = vajrayana }
+}
+9514={
+	holding = city_holding
+}
+9515={
+	holding = church_holding
+}
+9548={
+	holding = none
+}
+9617={
+	holding = none
+}
+9618={
+	holding = none
+}
+9619={
+	holding = none
+}
+9620={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+}

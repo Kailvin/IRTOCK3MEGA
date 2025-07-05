@@ -1,5 +1,5 @@
 k_brittany={
-	392.8.20 = { government = feudal_government holder = imperator188449 liege = e_IRTOCK3_B99 succession_laws = { high_partition_succession_law } }
+	392.8.20 = { liege = e_IRTOCK3_B99 holder = imperator188449 government = feudal_government succession_laws = { high_partition_succession_law } }
 }
 d_brittany={
 	423.7.6 = { liege = 0 }
@@ -28,6 +28,29 @@ c_rennes={
 	392.8.20 = { liege = 0 holder = imperator188449 }
 	423.7.6 = { change_development_level = 10 }
 }
+d_orleans={
+	423.7.6 = { liege = 0 }
+}
+c_orleans={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_vendome={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_chartres={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_sancerre={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_montargis={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
 d_anjou={
 	423.7.6 = { liege = 0 }
 }
@@ -46,27 +69,4 @@ c_maine={
 c_sable={
 	392.8.20 = { liege = 0 holder = imperator188449 }
 	423.7.6 = { change_development_level = 13 }
-}
-d_orleans={
-	423.7.6 = { liege = 0 }
-}
-c_orleans={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_montargis={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_vendome={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_chartres={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_sancerre={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 12 }
 }

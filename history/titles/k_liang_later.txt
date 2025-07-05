@@ -1,0 +1,29 @@
+k_liang_later={
+	423.7.6 = { liege = 0 }
+}
+d_xia={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_xingqing_holder liege = 0 }
+}
+c_xingqing={
+	360.1.1 = { government = feudal_government }
+	386.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_xingqing_holder change_development_level = 5 }
+}
+c_shunzhou={
+	423.7.6 = { holder = IRToCK3_c_xingqing_holder change_development_level = 5 }
+}
+d_zhenfan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_zhenfan_holder liege = 0 }
+}
+c_zhenfan={
+	395.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 5 }
+}
+c_tenggeli={
+	395.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 5 }
+}
+c_alxa={
+	395.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 5 }
+}

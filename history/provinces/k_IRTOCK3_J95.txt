@@ -3,21 +3,7 @@
 	faith = scythian_pagan
 	holding = castle_holding
 }
-7221={
-	culture = alan
-	faith = scythian_pagan
-	holding = castle_holding
-}
 7222={
-	holding = none
-}
-7223={
-	holding = none
-}
-7224={
-	holding = city_holding
-}
-7225={
 	holding = none
 }
 7226={
@@ -35,23 +21,14 @@
 	holding = none
 }
 7230={
-	holding = city_holding
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = castle_holding
 }
 7231={
 	holding = none
 }
 7232={
-	holding = none
-}
-7233={
-	culture = alan
-	faith = scythian_pagan
-	holding = castle_holding
-}
-7234={
-	holding = none
-}
-7235={
 	holding = none
 }
 7236={

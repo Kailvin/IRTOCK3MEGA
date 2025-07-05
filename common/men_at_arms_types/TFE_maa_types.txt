@@ -56,7 +56,7 @@ war_dogs = {
 	buy_cost = { gold = 45 }
 	low_maintenance_cost = { gold = 0.15 }
 	high_maintenance_cost = { gold = 0.45 }
-	@provisions_cost_infantry_cheap = 3
+	provision_cost = @provisions_cost_infantry_cheap
 
 	fallback_in_hired_troops_if_unlocked = yes
 	allowed_in_hired_troops = no

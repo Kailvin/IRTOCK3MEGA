@@ -183,12 +183,12 @@
 	holding = none
 }
 1502={
+	holding = city_holding
+}
+1503={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-}
-1503={
-	holding = city_holding
 }
 1504={
 	holding = city_holding
@@ -197,12 +197,12 @@
 	holding = city_holding
 }
 1506={
+	holding = city_holding
+}
+1507={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-}
-1507={
-	holding = city_holding
 }
 1508={
 	holding = city_holding
@@ -523,7 +523,9 @@
 	holding = none
 }
 1598={
-	holding = none
+	culture = irish
+	faith = insular_celtic
+	holding = castle_holding
 }
 1599={
 	holding = none
@@ -551,9 +553,7 @@
 	holding = city_holding
 }
 1606={
-	culture = irish
-	faith = insular_celtic
-	holding = castle_holding
+	holding = none
 }
 1607={
 	holding = none
@@ -653,12 +653,12 @@
 	holding = none
 }
 1635={
+	holding = none
+}
+1636={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-}
-1636={
-	holding = none
 }
 1637={
 	culture = irish
@@ -799,12 +799,12 @@
 	holding = none
 }
 1673={
-	culture = irish
-	faith = insular_celtic
-	holding = castle_holding
+	culture = briton
+	religion = briton_pagan
+	holding = tribal_holding
 }
 1674={
-	holding = church_holding
+	holding = none
 }
 1675={
 	holding = none
@@ -1103,23 +1103,5 @@
 	holding = none
 }
 8750={
-	holding = none
-}
-8775={
-	holding = city_holding
-}
-8776={
-	holding = none
-}
-8777={
-	holding = none
-}
-8778={
-	holding = none
-}
-8779={
-	holding = none
-}
-8780={
 	holding = none
 }

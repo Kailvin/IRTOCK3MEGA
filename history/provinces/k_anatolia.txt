@@ -19,6 +19,7 @@
 }
 755={
 	holding = city_holding
+	100.1.1 = { special_building_slot = theater_of_aspendos }
 }
 758={
 	culture = greek
@@ -280,4 +281,15 @@
 }
 5678={
 	holding = none
+}
+5903={
+	holding = none
+}
+5904={
+	holding = city_holding
+}
+5905={
+	culture = greek
+	faith = nicene
+	holding = castle_holding
 }

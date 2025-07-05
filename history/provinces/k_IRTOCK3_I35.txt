@@ -6,11 +6,11 @@
 }
 8463={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = city_holding
 }
 8464={
-	holding = none
+	holding = church_holding
 }
 8465={
 	holding = none
@@ -25,8 +25,8 @@
 }
 8469={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = city_holding
 }
 8470={
 	culture = somali

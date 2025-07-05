@@ -5,17 +5,24 @@ k_IRTOCK3_L33={
 d_shammar={
 	423.7.6 = { liege = 0 }
 }
-c_tabuk={
-	422.9.21 = { liege = 0 holder = imperator200981 }
-	423.7.6 = { change_development_level = 2 }
-}
 c_al_aqabah={
 	422.9.21 = { liege = 0 holder = imperator200981 }
-	423.7.6 = { change_development_level = 7 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_wajh={
+	394.2.11 = { liege = 0 holder = imperator191374 }
+	423.7.6 = { change_development_level = 6 }
+}
+b_al-awnid={
+	423.7.6 = { holder = imperator186038 }
+}
+c_tabuk={
+	422.9.21 = { liege = 0 holder = imperator200981 }
+	423.7.6 = { change_development_level = 5 }
 }
 c_maan={
 	414.4.12 = { liege = 0 holder = imperator201001 }
-	423.7.6 = { change_development_level = 7 }
+	423.7.6 = { change_development_level = 6 }
 }
 c_tayma={
 	412.7.6 = { liege = 0 holder = imperator199418 }

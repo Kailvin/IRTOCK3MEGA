@@ -1,23 +1,24 @@
 1124={
+	culture = indogreek
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 1125={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1213={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = mayureshwar_temple_01
 	terrain = jungle
 }
 1220={
 	holding = castle_holding
 }
 1260={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -40,14 +41,12 @@
 	holding = castle_holding
 }
 7794={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 7795={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = city_holding
 }
 7880={
 	holding = none

@@ -11,15 +11,19 @@ d_mogadishu={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_mogadishu_holder government = tribal_government }
 }
 c_mogadishu={
-	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
+	359.1.1 = { government = city_state_government }
+	361.1.1 = { change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_mogadishu_holder }
 }
 c_hobyo={
 	420.11.28 = { liege = 0 holder = imperator194237 }
 	423.7.6 = { liege = k_IRTOCK3_I35 holder = imperator190161 change_development_level = 5 }
 }
 c_mareeg={
+	359.1.1 = { government = city_state_government }
 	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
 }
 c_hiraab={
-	423.7.6 = { holder = IRToCK3_c_mogadishu_holder liege = 0 change_development_level = 0 }
+	359.1.1 = { government = city_state_government }
+	423.7.6 = { holder = IRToCK3_c_mogadishu_holder change_development_level = 0 }
 }

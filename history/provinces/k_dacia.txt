@@ -2,31 +2,14 @@
 	holding = city_holding
 }
 515={
-	culture = kolochin
-	faith = nicene
 	holding = castle_holding
-}
-516={
-	culture = kolochin
-	faith = nicene
-	holding = castle_holding
-	100.1.1 = { special_building_slot = east_trajans_bridge }
-}
-3881={
-	holding = city_holding
-}
-4975={
-	holding = none
-}
-4976={
-	holding = none
 }
 4977={
 	holding = none
 }
 4978={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 4979={
@@ -37,7 +20,7 @@
 }
 4981={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 4982={
@@ -51,7 +34,7 @@
 }
 4985={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 4986={
@@ -65,13 +48,13 @@
 }
 4989={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4990={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
@@ -89,7 +72,7 @@
 }
 4995={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
@@ -98,7 +81,7 @@
 }
 4997={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
@@ -110,7 +93,7 @@
 }
 5000={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
@@ -122,7 +105,7 @@
 }
 5003={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
@@ -131,7 +114,7 @@
 }
 5005={
 	culture = kolochin
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 5006={
@@ -144,5 +127,8 @@
 	holding = none
 }
 5009={
-	holding = none
+	culture = kolochin
+	faith = arianism
+	holding = castle_holding
+	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }

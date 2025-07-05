@@ -1,30 +1,3 @@
-1={
-	holding = none
-}
-2={
-	culture = norse
-	religion = norse_pagan
-	holding = tribal_holding
-	1000.1.1 = { religion = catholic }
-}
-3={
-	culture = norse
-	religion = norse_pagan
-	holding = tribal_holding
-	1000.1.1 = { religion = catholic }
-}
-4={
-	culture = norse
-	religion = norse_pagan
-	holding = tribal_holding
-	1000.1.1 = { religion = catholic }
-}
-5={
-	culture = norse
-	religion = norse_pagan
-	holding = tribal_holding
-	1000.1.1 = { religion = catholic }
-}
 235={
 	holding = none
 }
@@ -271,22 +244,5 @@
 	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
 }
 441={
-	holding = none
-}
-8769={
-	holding = none
-}
-8771={
-	holding = none
-	1066.1.1 = { holding = church_holding }
-}
-8772={
-	holding = none
-}
-8773={
-	holding = none
-	1066.1.1 = { holding = church_holding }
-}
-8774={
 	holding = none
 }

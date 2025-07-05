@@ -1,0 +1,25 @@
+d_orkhon={
+	340.1.1 = { government = nomad_government }
+	361.1.1 = { change_development_level = 2 }
+	414.5.1 = { holder = yujiulu_077 }
+}
+c_karakorum={
+	351.1.1 = { government = nomad_government }
+	414.5.1 = { holder = yujiulu_077 liege = d_orkhon }
+	423.7.6 = { change_development_level = 2 }
+}
+c_karabalgasun={
+	351.1.1 = { government = nomad_government }
+	361.1.1 = { change_development_level = 3 }
+	414.5.1 = { holder = yujiulu_077 liege = d_orkhon }
+}
+c_mumo={
+	351.1.1 = { government = nomad_government }
+	414.5.1 = { holder = yujiulu_077 liege = d_orkhon }
+	423.7.6 = { change_development_level = 2 }
+}
+c_khanjargalant={
+	351.1.1 = { government = nomad_government }
+	414.5.1 = { holder = yujiulu_077 liege = d_orkhon }
+	423.7.6 = { change_development_level = 2 }
+}

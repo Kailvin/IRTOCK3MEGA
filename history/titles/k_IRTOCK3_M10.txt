@@ -3,13 +3,16 @@ k_IRTOCK3_M10={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_jangladesh={
+	361.1.1 = { change_development_level = 3 succession_laws = { gana_sangha_elective_succession_law } }
 	423.7.6 = { liege = 0 }
 }
 c_nagauda={
+	361.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205040 }
 	423.7.6 = { change_development_level = 18 }
 }
 c_vikramapura={
+	361.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205040 }
 	423.7.6 = { change_development_level = 16 }
 }
@@ -21,14 +24,17 @@ d_ajmer={
 	423.7.6 = { liege = 0 }
 }
 c_ajayameru={
+	361.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205040 }
 	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator200139 change_development_level = 16 }
 }
 c_ranthambore={
+	361.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205040 }
 	423.7.6 = { change_development_level = 16 }
 }
 c_vairata={
+	361.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
 	422.9.15 = { liege = 0 holder = imperator205040 }
 	423.7.6 = { change_development_level = 17 }
 }

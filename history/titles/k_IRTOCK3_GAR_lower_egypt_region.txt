@@ -1,7 +1,28 @@
 k_IRTOCK3_GAR_lower_egypt_region={
-	413.6.11 = { liege = e_IRTOCK3_GAR holder = imperator200124 government = administrative_government succession_laws = { high_partition_succession_law } }
+	413.6.11 = { liege = e_IRTOCK3_GAR holder = imperator200124 government = administrative_government succession_laws = { appointment_succession_law } }
+}
+d_al-wahat={
+	361.1.1 = { change_development_level = 6 }
+	423.7.6 = { liege = 0 }
+}
+c_bahriya={
+	413.6.11 = { liege = 0 holder = imperator200124 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_farafra={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_dakhla={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_kharga={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 7 }
 }
 d_alexandria={
+	361.1.1 = { change_development_level = 7 }
 	423.7.6 = { liege = 0 }
 }
 c_alexandria={
@@ -10,13 +31,30 @@ c_alexandria={
 }
 c_sullum={
 	406.12.6 = { liege = 0 holder = imperator193304 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_siwa={
 	406.12.6 = { liege = 0 holder = imperator193304 }
 	423.7.6 = { change_development_level = 4 }
 }
+d_cairo={
+	361.1.1 = { change_development_level = 7 }
+	423.7.6 = { liege = 0 }
+}
+c_cairo={
+	413.6.11 = { liege = 0 holder = imperator200124 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_giza={
+	413.6.11 = { liege = 0 holder = imperator200124 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_fayyum={
+	413.6.11 = { liege = 0 holder = imperator200124 }
+	423.7.6 = { change_development_level = 10 }
+}
 d_delta={
+	361.1.1 = { change_development_level = 8 }
 	423.7.6 = { liege = 0 }
 }
 c_damietta={
@@ -38,41 +76,8 @@ c_sharkiya={
 	413.6.11 = { liege = 0 holder = imperator200124 }
 	423.7.6 = { change_development_level = 10 }
 }
-d_cairo={
-	423.7.6 = { liege = 0 }
-}
-c_cairo={
-	413.6.11 = { liege = 0 holder = imperator200124 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_giza={
-	413.6.11 = { liege = 0 holder = imperator200124 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_fayyum={
-	413.6.11 = { liege = 0 holder = imperator200124 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_al-wahat={
-	423.7.6 = { liege = 0 }
-}
-c_bahriya={
-	413.6.11 = { liege = 0 holder = imperator200124 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_farafra={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_dakhla={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_kharga={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 7 }
-}
 d_sinai={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_farama={

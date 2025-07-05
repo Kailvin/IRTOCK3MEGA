@@ -1,21 +1,21 @@
 1118={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = city_holding
 	terrain = jungle
 }
 1196={
-	holding = city_holding
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 	terrain = mountain
 }
 1197={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = mountain
 }
 1216={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = hills
@@ -34,13 +34,20 @@
 7849={
 	holding = castle_holding
 }
+7863={
+	holding = none
+	terrain = mountain
+}
+7864={
+	holding = none
+	terrain = mountain
+}
 7865={
 	holding = city_holding
 	terrain = mountain
 }
 7866={
 	holding = none
-	special_building_slot = gammateshwara_statue_01
 	terrain = mountain
 }
 7867={

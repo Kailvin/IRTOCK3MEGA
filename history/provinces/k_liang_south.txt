@@ -1,0 +1,54 @@
+9516={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+}
+9517={
+	holding = city_holding
+}
+9521={
+	holding = city_holding
+}
+9522={
+	holding = church_holding
+}
+9523={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	900.1.1 = { culture = bodpa religion = lamaism }
+	1032.1.1 = { culture = tangut religion = vajrayana }
+	1250.1.1 = { culture = han religion = mahayana }
+}
+9524={
+	holding = church_holding
+}
+9525={
+	culture = xianbei
+	religion = mahayana
+	holding = castle_holding
+	1032.1.1 = { culture = tangut religion = vajrayana }
+	1250.1.1 = { culture = han religion = mahayana }
+}
+9526={
+	holding = city_holding
+}
+9527={
+	holding = city_holding
+}
+9528={
+	culture = xianbei
+	religion = mahayana
+	holding = castle_holding
+}
+9529={
+	holding = city_holding
+}
+9530={
+	holding = church_holding
+}
+9531={
+	culture = di
+	religion = mahayana
+	holding = castle_holding
+}

@@ -15,12 +15,12 @@
 	holding = castle_holding
 }
 1760={
-	culture = scythian
-	faith = iberian_pagan
 	holding = castle_holding
 }
 1761={
-	holding = none
+	culture = scythian
+	faith = iberian_pagan
+	holding = castle_holding
 }
 1762={
 	holding = none

@@ -6,12 +6,6 @@
 	faith = nicene
 	holding = castle_holding
 }
-8314={
-	holding = none
-}
-8315={
-	holding = none
-}
 8316={
 	holding = none
 }
@@ -57,22 +51,12 @@
 8353={
 	holding = none
 }
-8364={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
-}
 8366={
 	culture = ethiopian
 	faith = arabic_pagan
 	holding = none
 }
 8367={
-	holding = none
-}
-8371={
-	culture = ethiopian
-	faith = arabic_pagan
 	holding = none
 }
 8372={
@@ -83,10 +67,18 @@
 	faith = egyptian_pagan
 	holding = none
 }
-8385={
+8386={
 	holding = none
 }
-8386={
+8395={
+	culture = somali
+	faith = egyptian_pagan
+	holding = none
+}
+8396={
+	holding = none
+}
+8397={
 	holding = none
 }
 8431={

@@ -1,0 +1,134 @@
+k_IRTOCK3_D90={
+	-171.1.28 = { holder = imperator93456 government = feudal_government liege = e_IRTOCK3_SYR }
+	-166.1.28 = { holder = imperator93433 government = republic_government }
+	-161.1.28 = { holder = imperator93436 government = republic_government }
+	-156.1.28 = { holder = imperator93434 government = republic_government }
+	-154.1.28 = { holder = imperator93451 government = republic_government }
+	-152.1.28 = { holder = imperator93432 government = republic_government }
+	-150.1.28 = { holder = imperator93435 government = republic_government }
+	-148.1.28 = { holder = imperator93474 government = republic_government }
+	-146.1.28 = { holder = imperator93449 government = republic_government }
+	-144.1.28 = { holder = imperator93436 government = republic_government }
+	-142.1.28 = { holder = imperator93433 government = republic_government }
+	-140.1.28 = { holder = imperator93434 government = republic_government }
+	-138.1.28 = { holder = imperator93432 government = republic_government }
+	-136.1.28 = { holder = imperator93435 government = republic_government }
+	-134.1.28 = { holder = imperator93450 government = republic_government }
+	-132.1.28 = { holder = imperator93449 government = republic_government }
+	-130.1.28 = { holder = imperator93436 government = republic_government }
+	-128.1.28 = { holder = imperator93442 government = republic_government }
+	-126.1.28 = { holder = imperator93444 government = republic_government }
+	-124.1.28 = { holder = imperator93434 government = republic_government }
+	-122.1.28 = { holder = imperator98512 government = theocracy_government }
+	-120.1.28 = { holder = imperator102136 government = theocracy_government }
+	-118.1.28 = { holder = imperator98838 government = theocracy_government }
+	-116.1.28 = { holder = imperator96478 government = theocracy_government }
+	-114.1.28 = { holder = imperator94023 government = theocracy_government }
+	-112.1.28 = { holder = imperator98513 government = theocracy_government }
+	-110.1.28 = { holder = imperator107675 government = theocracy_government }
+	-108.1.28 = { holder = imperator106725 government = theocracy_government }
+	-106.1.28 = { holder = imperator102136 government = theocracy_government }
+	-104.1.28 = { holder = imperator101739 government = theocracy_government }
+	-102.1.28 = { holder = imperator96478 government = theocracy_government }
+	-100.1.28 = { holder = imperator108671 government = theocracy_government }
+	-98.1.28 = { holder = imperator109034 government = theocracy_government }
+	-96.1.28 = { holder = imperator99416 government = theocracy_government }
+	-94.1.28 = { holder = imperator106725 government = theocracy_government }
+	-92.1.28 = { holder = imperator102136 government = theocracy_government }
+	-90.1.28 = { holder = imperator101739 government = theocracy_government }
+	-89.11.20 = { holder = imperator96478 government = theocracy_government }
+	-87.11.20 = { holder = imperator102082 government = theocracy_government }
+	-85.11.20 = { holder = imperator109034 government = theocracy_government }
+	-83.11.20 = { holder = imperator99416 government = theocracy_government }
+	-81.11.20 = { holder = imperator106725 government = theocracy_government }
+	-79.10.24 = { holder = imperator103503 government = theocracy_government }
+	-77.10.24 = { holder = imperator112759 government = theocracy_government }
+	-75.10.24 = { holder = imperator102546 government = theocracy_government }
+	-73.10.24 = { holder = imperator102082 government = theocracy_government }
+	-71.10.24 = { holder = imperator104028 government = theocracy_government }
+	-69.10.24 = { holder = imperator109034 government = theocracy_government }
+	-67.10.24 = { holder = imperator110107 government = theocracy_government }
+	-65.10.24 = { holder = imperator103503 government = theocracy_government }
+	-63.10.24 = { holder = imperator112759 government = theocracy_government }
+	-61.10.24 = { holder = imperator114872 government = theocracy_government }
+	-59.10.24 = { holder = imperator106789 government = theocracy_government }
+	-57.10.24 = { holder = imperator107484 government = theocracy_government }
+	-55.10.24 = { holder = imperator112120 government = theocracy_government }
+	-53.10.24 = { holder = imperator110107 government = theocracy_government }
+	-51.10.24 = { holder = imperator118597 government = theocracy_government }
+	-49.10.24 = { holder = imperator119130 government = theocracy_government }
+	-47.10.24 = { holder = imperator108688 government = theocracy_government }
+	-45.10.24 = { holder = imperator114872 government = theocracy_government }
+	-43.10.24 = { holder = imperator112710 government = theocracy_government }
+	-41.10.24 = { holder = imperator115089 government = theocracy_government }
+	-39.10.24 = { holder = imperator112326 government = theocracy_government }
+	-37.10.24 = { holder = imperator118597 government = theocracy_government }
+	-35.10.24 = { holder = imperator110107 government = theocracy_government }
+	-33.10.24 = { holder = imperator112781 government = theocracy_government }
+	-31.10.24 = { holder = imperator113693 government = theocracy_government }
+	-29.10.24 = { holder = imperator112710 government = theocracy_government }
+	-27.10.24 = { holder = imperator114557 government = theocracy_government }
+	-25.10.24 = { holder = imperator115089 government = theocracy_government }
+	-23.10.24 = { holder = imperator118597 government = theocracy_government }
+	-21.10.24 = { holder = imperator114577 government = theocracy_government }
+	-19.10.24 = { holder = imperator120316 government = theocracy_government }
+	-17.10.24 = { holder = imperator113693 government = theocracy_government }
+	-15.10.24 = { holder = imperator121006 government = theocracy_government }
+	-13.10.24 = { holder = imperator119433 government = theocracy_government }
+	-11.10.24 = { holder = imperator115089 government = theocracy_government }
+	-9.10.24 = { holder = imperator119296 government = theocracy_government }
+	-7.10.24 = { holder = imperator126542 government = theocracy_government }
+	-5.10.24 = { holder = imperator120316 government = theocracy_government }
+	-3.10.24 = { holder = imperator124760 government = theocracy_government }
+	-1.10.24 = { holder = imperator121006 government = theocracy_government }
+	2.10.24 = { holder = imperator119433 government = theocracy_government }
+	4.10.24 = { holder = imperator122721 government = theocracy_government }
+	6.10.24 = { holder = imperator119296 government = theocracy_government }
+	8.10.24 = { holder = imperator126542 government = theocracy_government }
+	10.10.24 = { holder = imperator120316 government = theocracy_government }
+	12.10.24 = { holder = imperator124760 government = theocracy_government }
+	14.10.24 = { holder = imperator121006 government = theocracy_government }
+	14.11.24 = { holder = imperator123375 government = theocracy_government }
+	16.11.24 = { holder = imperator122721 government = theocracy_government }
+	18.11.24 = { holder = imperator122967 government = theocracy_government }
+	20.11.24 = { holder = imperator126542 government = theocracy_government }
+	22.11.24 = { holder = imperator125937 government = theocracy_government }
+	24.11.24 = { holder = imperator124760 government = theocracy_government }
+	26.11.24 = { holder = imperator131847 government = theocracy_government }
+	66.6.28 = { holder = imperator133612 government = theocracy_government }
+	97.2.25 = { holder = imperator133506 government = theocracy_government }
+	103.7.21 = { holder = imperator141499 government = theocracy_government }
+	148.9.20 = { holder = imperator140810 government = theocracy_government }
+	163.3.9 = { holder = imperator143005 government = theocracy_government }
+	179.4.26 = { holder = imperator150628 government = theocracy_government }
+	185.2.28 = { holder = imperator147949 government = theocracy_government }
+	220.10.18 = { holder = imperator153073 government = theocracy_government }
+	222.8.27 = { holder = imperator152914 government = theocracy_government }
+	249.3.23 = { holder = imperator158886 government = theocracy_government }
+	284.2.15 = { holder = imperator168239 government = theocracy_government }
+	317.9.30 = { holder = imperator168018 government = theocracy_government }
+	342.11.19 = { holder = imperator181218 government = theocracy_government }
+	349.6.19 = { holder = imperator176300 government = theocracy_government }
+	363.2.13 = { holder = imperator177462 government = theocracy_government }
+	389.9.13 = { holder = imperator177788 government = theocracy_government }
+	397.9.9 = { holder = imperator186176 government = theocracy_government }
+	405.4.27 = { holder = imperator183676 government = theocracy_government }
+	421.10.2 = { holder = imperator187354 government = theocracy_government }
+	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
+}
+d_cyrenaica={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_barqa={
+	421.10.2 = { liege = 0 holder = imperator187354 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_derna={
+	406.12.6 = { liege = 0 holder = imperator193304 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_tobruk={
+	406.12.6 = { liege = 0 holder = imperator193304 }
+	423.7.6 = { change_development_level = 2 }
+}

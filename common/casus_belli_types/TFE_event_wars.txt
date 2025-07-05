@@ -1741,8 +1741,8 @@ italian_gothic_invasion_cb = {
 				}
 			}
 			custom_tooltip = italian_invasion_trib_effect
-			make_tributary = {
-				TYPE = tributary_permanent
+			start_tributary_interaction_effect = {
+				#TYPE = tributary_permanent
 				TRIBUTARY = scope:attacker
 				SUZERAIN = title:e_byzantium.holder
 			}
@@ -5165,7 +5165,7 @@ gokturk_rouran_war = {
 		}
 
 		# FP1: note the victory for future memorialisation via stele (if applicable).
-		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes change_government = nomadic_government }
+		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes change_government = nomad_government }
 	}
 
 	on_defeat_desc = {

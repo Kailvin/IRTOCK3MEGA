@@ -3,6 +3,20 @@ k_IRTOCK3_K58={
 	379.2.1 = { holder = imperator191124 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_bahrain={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_samman_holder liege = 0 }
+}
+c_qatif={
+	379.2.1 = { liege = 0 holder = imperator191124 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_uwal={
+	399.10.1 = { liege = 0 holder = imperator196955 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_samman={
+	423.7.6 = { holder = IRToCK3_c_samman_holder liege = 0 change_development_level = 3 }
+}
 d_al-hasa={
 	423.7.6 = { liege = 0 }
 }
@@ -24,19 +38,4 @@ b_mashqar={
 c_yabrin={
 	423.4.20 = { liege = 0 holder = imperator186366 }
 	423.7.6 = { change_development_level = 10 }
-}
-d_bahrain={
-	423.7.6 = { liege = 0 }
-}
-c_qatif={
-	379.2.1 = { liege = 0 holder = imperator191124 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_uwal={
-	399.10.1 = { liege = 0 holder = imperator196955 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_samman={
-	422.10.8 = { liege = 0 holder = imperator195763 }
-	423.7.6 = { change_development_level = 3 }
 }

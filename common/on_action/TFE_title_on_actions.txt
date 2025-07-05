@@ -114,6 +114,58 @@ admin_autocratic_gov_changes_church_holdings = {
 	}
 }
 
+admin_autocratic_gov_changes_city_holding = {
+	effect = {
+		if = {
+			limit = {
+				scope:previous_holder ?= {
+					is_alive = yes
+					OR = {
+						has_government = administrative_government
+						has_government = autocratic_government_ep3
+					}
+				}
+				scope:title = {
+                    tier = tier_barony
+                    title_province = {
+                        has_holding_type = city_holding
+                    }
+                }
+				highest_held_title_tier = tier_barony
+			}
+			root = {
+				change_government = republic_government
+			}
+		}
+	}
+}
+
+admin_autocratic_gov_changes_castle_holding = {
+	effect = {
+		if = {
+			limit = {
+				scope:previous_holder ?= {
+					is_alive = yes
+					OR = {
+						has_government = administrative_government
+						has_government = autocratic_government_ep3
+					}
+				}
+				scope:title = {
+                    tier = tier_barony
+                    title_province = {
+                        has_holding_type = castle_holding
+                    }
+                }
+				highest_held_title_tier = tier_barony
+			}
+			root = {
+				change_government = feudal_government
+			}
+		}
+	}
+}
+
 admin_autocratic_gov_changes_tribal = {
 	effect = {
 		if = {
@@ -146,6 +198,8 @@ on_title_gain = {
 	on_actions = { admin_autocratic_gov_changes }
 	on_actions = { admin_autocratic_gov_changes_church_holdings }
 	on_actions = { admin_autocratic_gov_changes_tribal }
+	on_actions = { admin_autocratic_gov_changes_city_holding }
+	on_actions = { admin_autocratic_gov_changes_castle_holding }
 }
 
 TFE_on_title_gain = {
@@ -153,6 +207,30 @@ TFE_on_title_gain = {
 		tfe_title_event.0001
 	}
 	effect = {
+		#if = {
+		#	limit = {
+		#		scope:previous_holder.faith = root.faith
+		#		scope:title = { exists = var:removed_official_imperial_faith }
+		#	}
+		#	scope:title = {
+		#		set_variable = {
+		#			name = official_imperial_faith
+		#			value = root.faith
+		#		}
+		#	}
+		#	root.faith = { set_religious_head_title = scope:title }
+		#	scope:title.holder = { add_trait = immortal }
+		#}
+		#scope:title = { remove_variable = removed_official_imperial_faith }
+		if = {
+			limit = {
+				exists = scope:previous_holder
+				scope:previous_holder.faith = { religious_head_title = scope:title }
+				root = { NOT = { faith = scope:previous_holder.faith } }
+			}
+			scope:title = { remove_variable = official_imperial_faith }
+			scope:previous_holder.faith = { remove_religious_head_title = yes }
+		}
 		if = {
 			limit = {
 				scope:previous_holder ?= {
@@ -450,6 +528,53 @@ TFE_on_title_gain = {
 			}
 			add_character_modifier = statue_char_copper
 
+		}
+		if = {
+			limit = {
+				scope:title = title:c_mecca
+				OR = {
+					any_liege_or_above = {
+						has_title = title:e_rashidun
+					}
+					has_title = title:e_rashidun
+				}
+				NOT = { exists = global_var:arab_unite }
+			}
+			set_global_variable = {
+				name = arab_unite
+				value = yes
+			}
+			every_ruler = {
+				limit = {
+					is_independent_ruler = yes
+					OR = {
+						has_faith = faith:arabic_pagan
+						culture = {
+							OR = {
+								THIS = culture:bedouin
+								any_parent_culture_or_above = {
+									THIS = culture:bedouin
+								}
+							}
+						}
+					}
+					NOT = {
+						has_faith = faith:united_islam
+					}
+				}
+				trigger_event = {
+					id = islam.0003
+					days = {10 15}
+				}
+			}
+			title:e_arabia = {
+				every_in_de_jure_hierarchy = {
+					limit = {
+						tier = tier_kingdom
+					}
+					set_de_jure_liege_title = title:e_rashidun
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -935,6 +1060,18 @@ TFE_on_rank_up = {
 					has_dlc_feature = roads_to_power
 				}
 				change_government = administrative_government
+				if = {
+					limit = { 
+						NOT = { any_held_title = { is_noble_family_title = yes } } 
+							highest_held_title_tier >= tier_duchy
+						}
+					if = {
+						limit = { is_house_head = no }
+						found_cadet_house_decision_effect = { CHARACTER = root }
+					}
+					create_noble_family_effect = yes
+					domicile ?= { set_up_domicile_estate_effect = yes }
+				}
 			}
 			else = {
 			change_government = imperial_government
@@ -1011,17 +1148,13 @@ TFE_on_rank_down = {
 		if = {
 			limit = {
 				AND = {
-					OR = {
 					government_has_flag = government_is_imperial
-					government_has_flag = government_is_administrative
-					}
 					primary_title.tier = tier_county
 					is_independent_ruler = no
 					top_liege = {
 						OR = {
 							government_has_flag = government_is_imperial
 							government_has_flag = government_is_imperial_cult
-							government_has_flag = government_is_administrative
 						}
 					}
 				}

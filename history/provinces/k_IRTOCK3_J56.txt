@@ -14,7 +14,7 @@
 }
 2414={
 	culture = irish
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2415={
@@ -22,7 +22,7 @@
 }
 2418={
 	culture = old_suebi
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2436={
@@ -32,12 +32,18 @@
 	holding = none
 }
 2438={
-	culture = old_suebi
-	faith = central_pagan
-	holding = castle_holding
+	holding = city_holding
+}
+2441={
+	holding = none
 }
 2442={
 	holding = none
+}
+2445={
+	culture = old_suebi
+	faith = arianism
+	holding = castle_holding
 }
 2453={
 	holding = city_holding
@@ -84,17 +90,28 @@
 2801={
 	holding = city_holding
 }
+2802={
+	culture = old_suebi
+	faith = saxon_pagan
+	holding = city_holding
+}
+2803={
+	holding = castle_holding
+}
 2804={
 	culture = old_suebi
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
+}
+2805={
+	holding = none
 }
 2806={
 	holding = none
 }
 2807={
 	culture = old_suebi
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2808={
@@ -226,13 +243,27 @@
 }
 2913={
 	culture = ripurian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
-2914={
+2915={
 	holding = none
 }
-2915={
+2918={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+	361.1.1 = { special_building_slot = rammelsberg_mines_01 }
+}
+2919={
+	culture = ripurian
+	faith = central_pagan
+	holding = castle_holding
+}
+2920={
+	holding = church_holding
+}
+2921={
 	holding = none
 }
 2922={
@@ -242,6 +273,42 @@
 	holding = none
 }
 2924={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}
+2928={
+	holding = none
+}
+2999={
+	holding = none
+}
+3000={
+	holding = city_holding
+}
+3003={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3005={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = castle_holding
+}
+3006={
+	holding = none
+}
+3007={
+	holding = church_holding
+}
+3008={
+	holding = none
+}
+3009={
+	holding = none
+}
+3010={
 	culture = ripurian
 	faith = central_pagan
 	holding = tribal_holding

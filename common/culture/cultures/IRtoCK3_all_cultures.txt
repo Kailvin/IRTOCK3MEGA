@@ -461,15 +461,15 @@ greek={
 	language=language_greek
 	traditions={ tradition_republican_legacy tradition_ep3_palace_politics tradition_fp3_beacon_of_learning tradition_city_keepers tradition_maritime_mercantilism tradition_ep3_roman_ceremonies }
 	name_list=name_list_greek
-ethos = ethos_spiritual
-martial_custom = martial_custom_male_only
-coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-building_gfx = { grecoroman_building_gfx mediterranean_building_gfx }
-clothing_gfx = { byzantine_clothing_gfx }
-unit_gfx = { late_roman_unit_gfx }
-ethnicities = {
-		10 = mediterranean_byzantine
-	}
+	ethos = ethos_spiritual
+	martial_custom = martial_custom_male_only
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { grecoroman_building_gfx mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+	ethnicities = {
+			10 = mediterranean_byzantine
+		}
 }
 cappadocian={
 	color=rgb { 204 38 153 }

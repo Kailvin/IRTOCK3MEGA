@@ -191,7 +191,7 @@ fp2_struggle_ending_hold_de_jure_kingdom_trigger = {
 fp2_struggle_ending_percent_iberia_trigger = {
 	any_county_in_region = {
 		region = world_europe_west_britannia
-		percent <= 60
+		percent <= 0.6
 		holder.top_liege = root
 	}
 }

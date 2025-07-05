@@ -1,10 +1,22 @@
-3024={
+2980={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = tribal_holding
+}
+3032={
 	holding = none
 }
-3025={
-	culture = old_suebi
-	faith = central_pagan
-	holding = castle_holding
+3033={
+	holding = none
+}
+3034={
+	holding = church_holding
+}
+3035={
+	holding = church_holding
+}
+3136={
+	holding = none
 }
 3138={
 	holding = none
@@ -14,6 +26,9 @@
 	faith = gothic_pagan
 	holding = tribal_holding
 }
+3141={
+	holding = none
+}
 3143={
 	culture = old_suebi
 	faith = gothic_pagan
@@ -21,14 +36,6 @@
 }
 3159={
 	holding = none
-}
-3173={
-	culture = ripurian
-	faith = central_pagan
-	holding = tribal_holding
-}
-3174={
-	holding = city_holding
 }
 3175={
 	holding = none
@@ -40,4 +47,12 @@
 	culture = ripurian
 	faith = central_pagan
 	holding = city_holding
+}
+3181={
+	culture = old_suebi
+	faith = gothic_pagan
+	holding = tribal_holding
+}
+3182={
+	holding = none
 }

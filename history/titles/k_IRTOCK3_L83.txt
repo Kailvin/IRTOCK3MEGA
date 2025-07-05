@@ -13,3 +13,18 @@ c_pannagallu={
 	422.9.15 = { liege = 0 holder = imperator204540 }
 	423.7.6 = { change_development_level = 16 }
 }
+d_warangal={
+	423.7.6 = { liege = 0 }
+}
+c_orangallu={
+	422.9.15 = { liege = 0 holder = imperator204365 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_kambampet={
+	422.9.15 = { liege = 0 holder = imperator204440 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_balkonda={
+	422.9.15 = { liege = 0 holder = imperator204315 }
+	423.7.6 = { change_development_level = 17 }
+}

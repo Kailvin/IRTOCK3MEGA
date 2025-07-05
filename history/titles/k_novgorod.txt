@@ -1,15 +1,19 @@
 k_novgorod={
 	423.7.6 = { liege = 0 }
 }
-d_vepsia={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_beloozero_holder liege = 0 }
+d_chudia={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_beloozero_holder government = tribal_government }
 }
 c_beloozero={
 	423.7.6 = { holder = IRToCK3_c_beloozero_holder change_development_level = 6 }
 }
 c_tikhvin={
-	423.7.6 = { holder = IRToCK3_c_beloozero_holder liege = 0 change_development_level = 5 }
+	423.7.6 = { holder = IRToCK3_c_beloozero_holder liege = 0 change_development_level = 6 }
 }
 c_vyangi={
 	423.7.6 = { holder = IRToCK3_c_beloozero_holder change_development_level = 0 }
+}
+c_bezichi={
+	422.10.4 = { liege = 0 holder = imperator206138 }
+	423.7.6 = { liege = d_IRTOCK3_ALZ holder = imperator191058 change_development_level = 3 }
 }

@@ -5,7 +5,7 @@
 	holding = none
 }
 6131={
-	culture = qahtanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -16,9 +16,10 @@
 	holding = none
 }
 6134={
-	culture = qahtanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
+	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6135={
 	holding = none
@@ -27,7 +28,7 @@
 	holding = city_holding
 }
 6137={
-	culture = qahtanite
+	culture = bedouin
 	faith = manichean
 	holding = castle_holding
 }
@@ -38,9 +39,10 @@
 	holding = city_holding
 }
 6140={
-	culture = qahtanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
+	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6141={
 	holding = none
@@ -49,9 +51,10 @@
 	holding = castle_holding
 }
 6144={
-	culture = qahtanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
+	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6145={
 	holding = none

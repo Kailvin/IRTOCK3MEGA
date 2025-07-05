@@ -1,7 +1,7 @@
 1438={
-	culture = scythian
-	faith = khurmazta
-	holding = none
+	culture = tocharian
+	faith = tengri_pagan
+	holding = castle_holding
 }
 1439={
 	culture = tocharian
@@ -9,8 +9,6 @@
 	holding = castle_holding
 }
 7958={
-	culture = tocharian
-	faith = tengri_pagan
 	holding = castle_holding
 }
 7959={
@@ -32,31 +30,15 @@
 	holding = city_holding
 }
 7967={
-	holding = none
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 7968={
 	holding = none
 }
 7969={
-	culture = macedonian
+	culture = tocharian
 	faith = khurmazta
 	holding = castle_holding
-}
-7971={
-	holding = none
-}
-9615={
-	holding = none
-}
-9616={
-	holding = none
-}
-13525={
-	holding = none
-}
-13808={
-	culture = sogdian
-	religion = khurmazta
-	holding = none
-	1050.1.1 = { religion = ashari }
 }

@@ -3,6 +3,7 @@ k_IRTOCK3_L95={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_lata={
+	361.1.1 = { change_development_level = 13 }
 	423.7.6 = { liege = 0 }
 }
 c_vadodara={
@@ -15,5 +16,5 @@ c_navasarika={
 }
 c_daman={
 	422.9.15 = { liege = 0 holder = imperator204665 }
-	423.7.6 = { change_development_level = 15 }
+	423.7.6 = { change_development_level = 16 }
 }

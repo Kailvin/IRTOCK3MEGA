@@ -1,0 +1,132 @@
+k_italia_suburbicariae={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+d_benevento={
+	423.7.6 = { liege = 0 }
+}
+c_lanciano={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_benevento={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_foggia={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_apulia={
+	361.1.1 = { change_development_level = 8 }
+	423.7.6 = { liege = 0 }
+}
+c_apulia={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_bari={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_lecce={
+	422.5.29 = { liege = 0 holder = imperator193353 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_calabria={
+	423.7.6 = { liege = 0 }
+}
+c_salerno={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_camarda={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_reggio_calabria={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_cosenza={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_rossano={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 12 }
+}
+d_corsica={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_ajaccio={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_bastia={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_vecchio={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_ancona={
+	423.7.6 = { liege = 0 }
+}
+c_ancona={
+	422.9.15 = { liege = 0 holder = imperator205165 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_fermo={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_spoleto={
+	423.7.6 = { liege = 0 }
+}
+c_spoleto={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_teramo={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_gubbio={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_abruzzi={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_latium={
+	361.1.1 = { change_development_level = 10 }
+	423.7.6 = { liege = 0 }
+}
+c_roma={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_viterbo={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_orvieto={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_capua={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_napoli={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_tivoli={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 7 }
+}

@@ -1,37 +1,23 @@
 k_IRTOCK3_H96={
 	167.1.28 = { holder = imperator151076 government = feudal_government }
-	222.6.27 = { holder = imperator151079 government = autocratic_government }
-	240.5.17 = { holder = imperator155195 government = autocratic_government }
-	265.8.10 = { holder = imperator160297 government = autocratic_government }
-	292.9.8 = { holder = imperator166842 government = autocratic_government }
-	327.3.1 = { holder = imperator168252 government = autocratic_government }
+	222.6.27 = { holder = imperator151079 government = feudal_government }
+	240.5.17 = { holder = imperator155195 government = feudal_government }
+	265.8.10 = { holder = imperator160297 government = feudal_government }
+	292.9.8 = { holder = imperator166842 government = feudal_government }
+	327.3.1 = { holder = imperator168252 government = feudal_government }
 	338.2.22 = { liege = e_IRTOCK3_GAR }
-	343.6.13 = { holder = imperator176828 government = autocratic_government }
-	396.4.9 = { holder = imperator181557 government = autocratic_government }
-	420.2.6 = { holder = imperator187340 government = autocratic_government }
+	343.6.13 = { holder = imperator176828 government = feudal_government }
+	396.4.9 = { holder = imperator181557 government = feudal_government }
+	420.2.6 = { holder = imperator187340 government = feudal_government }
 	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
 }
-d_taizz={
-	423.7.6 = { liege = 0 }
-}
-c_taizz={
-	420.2.6 = { liege = 0 holder = imperator187340 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_mandab={
-	416.12.26 = { liege = 0 holder = imperator201630 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_dathina={
-	411.8.28 = { liege = 0 holder = imperator199920 }
-	423.7.6 = { change_development_level = 2 }
-}
 d_mahra={
+	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_mahra={
 	420.2.6 = { liege = 0 holder = imperator187340 }
-	423.7.6 = { liege = k_IRTOCK3_H96 holder = imperator185239 change_development_level = 2 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_al-asa={
 	420.2.6 = { liege = 0 holder = imperator187340 }

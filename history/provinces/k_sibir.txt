@@ -1,26 +1,26 @@
 898={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 1223={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 1306={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7000={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7001={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7002={
@@ -37,7 +37,7 @@
 }
 7006={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7007={
@@ -60,7 +60,7 @@
 }
 7013={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7014={
@@ -68,7 +68,7 @@
 }
 7015={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7016={
@@ -88,7 +88,7 @@
 }
 7030={
 	culture = khanty
-	religion = kuptyng
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7031={
@@ -107,8 +107,8 @@
 	holding = none
 }
 7044={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7045={
@@ -118,8 +118,8 @@
 	holding = none
 }
 7047={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7048={
@@ -138,8 +138,8 @@
 	holding = none
 }
 7053={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7054={

@@ -8,7 +8,7 @@
 }
 1022241={
 	name = dynn_Makhzumi
-	culture = ethiopian
+	culture = bedouin
 }
 1029100={
 	name = dynn_Sassanid
@@ -20,9 +20,9 @@
 	name = dynn_Gwent
 	culture = welsh
 }
-1040024={
-	name = dynn_Vijaya
-	culture = sogdian
+1040052={
+	name = dynn_Kuci
+	culture = tocharian
 }
 1041000={
 	name = dynn_Onggirat
@@ -43,6 +43,10 @@
 11100={
 	name = dynn_Borjigin
 	culture = mongol
+}
+2003070={
+	name = dynn_Sumpa
+	culture = sumpa
 }
 2004006={
 	prefix = dynnp_of
@@ -147,6 +151,39 @@
 	name = dynn_Becket
 	culture = english
 }
+99900000={
+	name = dynn_Uldinid
+	culture = hun
+}
+99920000={
+	name = dynn_Amaling
+	culture = gothic
+	motto = dynn_amaling_motto
+}
+99930000={
+	name = dynn_Lething
+	culture = langobard
+}
+99939002={
+	name = dynn_Warining
+	culture = varinian
+}
+99940000={
+	name = dynn_Gebiccing
+	culture = burgundian
+}
+99970000={
+	name = dynn_Saling
+	culture = salian
+}
+99991000={
+	name = dynn_Balthing
+	culture = visigothic
+}
+99993000={
+	name = dynn_Cissing
+	culture = rugian
+}
 abelard={
 	name = Abelard
 	culture = french
@@ -158,6 +195,11 @@ al_haytham={
 alighieri={
 	name = dynn_Alighieri
 	culture = italian
+}
+antes={
+	prefix = dynnp_z
+	name = dynn_Antes
+	culture = antean
 }
 aoudaghost={
 	name = dynn_aoudaghost
@@ -180,10 +222,18 @@ bacon={
 	name = dynn_Bacon
 	culture = english
 }
+baquates={
+	name = dynn_baquates
+	culture = maurian
+}
 ben_maimon={
 	prefix = dynnp_ben
 	name = dynn_Maimon
 	culture = andalusian
+}
+berujiuli_dynasty={
+	name = dynn_Berujiuli
+	culture = tiele
 }
 bessarion={
 	name = dynn_Bessarion
@@ -211,6 +261,10 @@ borgia={
 	name = dynn_Borgia
 	culture = italian
 }
+bugut_dynasty={
+	name = dynn_Bugut
+	culture = tiele
+}
 chaucer={
 	name = dynn_chaucer
 	culture = english
@@ -236,14 +290,6 @@ czarny={
 	name = dynn_Czarny
 	culture = polish
 }
-d_shangqing_Ma={
-	name = dynn_Ma
-	culture = han
-}
-d_zhengyi_zhang={
-	name = dynn_Zhang
-	culture = han
-}
 dargenteuil={
 	prefix = dynnp_d_
 	name = dynn_Argenteuil
@@ -264,13 +310,37 @@ de_villa_nova={
 	name = dynn_Villa_Nova
 	culture = catalan
 }
+dubo_dynasty={
+	name = dynn_Dubo
+	culture = tiele
+}
+dynasty_agni_long={
+	name = dynn_Long
+	culture = tocharian
+}
 dynasty_juqu_liang={
 	name = dynn_Juqu
 	culture = xiongnu
 }
+dynasty_kidarite={
+	name = dynn_Kidarite
+	culture = xionite
+}
+dynasty_shanshan_rulers={
+	name = dynn_Shanshan
+	culture = tocharian
+}
+dynasty_song_liang={
+	name = dynn_Song
+	culture = han
+}
 dynasty_tufa_liang={
 	name = dynn_Tufa
 	culture = xianbei
+}
+dynasty_yujiulu={
+	name = dynn_Yujiulu
+	culture = rouran
 }
 dynn_irtock3_100664292={
 	name = dynn_irtock3_100664292
@@ -318,7 +388,7 @@ dynn_irtock3_100665079={
 }
 dynn_irtock3_100665093={
 	name = dynn_irtock3_100665093
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_100665106={
 	name = dynn_irtock3_100665106
@@ -382,7 +452,7 @@ dynn_irtock3_117441573={
 }
 dynn_irtock3_117441651={
 	name = dynn_irtock3_117441651
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_117441697={
 	name = dynn_irtock3_117441697
@@ -398,7 +468,7 @@ dynn_irtock3_117441792={
 }
 dynn_irtock3_117441842={
 	name = dynn_irtock3_117441842
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_117441959={
 	name = dynn_irtock3_117441959
@@ -406,7 +476,7 @@ dynn_irtock3_117441959={
 }
 dynn_irtock3_117442017={
 	name = dynn_irtock3_117442017
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_117442031={
 	name = dynn_irtock3_117442031
@@ -490,7 +560,7 @@ dynn_irtock3_134219021={
 }
 dynn_irtock3_134219053={
 	name = dynn_irtock3_134219053
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_134219136={
 	name = dynn_irtock3_134219136
@@ -502,11 +572,11 @@ dynn_irtock3_134219216={
 }
 dynn_irtock3_134219265={
 	name = dynn_irtock3_134219265
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_134219266={
 	name = dynn_irtock3_134219266
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_134219301={
 	name = dynn_irtock3_134219301
@@ -514,7 +584,7 @@ dynn_irtock3_134219301={
 }
 dynn_irtock3_134219392={
 	name = dynn_irtock3_134219392
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_134219529={
 	name = dynn_irtock3_134219529
@@ -566,15 +636,15 @@ dynn_irtock3_150996272={
 }
 dynn_irtock3_150996313={
 	name = dynn_irtock3_150996313
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_150996443={
 	name = dynn_irtock3_150996443
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_150996456={
 	name = dynn_irtock3_150996456
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_150996529={
 	name = dynn_irtock3_150996529
@@ -682,7 +752,7 @@ dynn_irtock3_16778342={
 }
 dynn_irtock3_16778521={
 	name = dynn_irtock3_16778521
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16778540={
 	name = dynn_irtock3_16778540
@@ -706,7 +776,7 @@ dynn_irtock3_16778946={
 }
 dynn_irtock3_16778989={
 	name = dynn_irtock3_16778989
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_16779021={
 	name = dynn_irtock3_16779021
@@ -730,11 +800,11 @@ dynn_irtock3_16779044={
 }
 dynn_irtock3_16779053={
 	name = dynn_irtock3_16779053
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779055={
 	name = dynn_irtock3_16779055
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779067={
 	name = dynn_irtock3_16779067
@@ -762,15 +832,15 @@ dynn_irtock3_16779213={
 }
 dynn_irtock3_16779220={
 	name = dynn_irtock3_16779220
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779221={
 	name = dynn_irtock3_16779221
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779222={
 	name = dynn_irtock3_16779222
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779260={
 	name = dynn_irtock3_16779260
@@ -1046,11 +1116,11 @@ dynn_irtock3_16779532={
 }
 dynn_irtock3_16779534={
 	name = dynn_irtock3_16779534
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_16779536={
 	name = dynn_irtock3_16779536
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_16779537={
 	name = dynn_irtock3_16779537
@@ -1138,7 +1208,7 @@ dynn_irtock3_16779601={
 }
 dynn_irtock3_16779602={
 	name = dynn_irtock3_16779602
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779609={
 	name = dynn_irtock3_16779609
@@ -1302,503 +1372,503 @@ dynn_irtock3_16779672={
 }
 dynn_irtock3_16779674={
 	name = dynn_irtock3_16779674
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779676={
 	name = dynn_irtock3_16779676
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779678={
 	name = dynn_irtock3_16779678
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779680={
 	name = dynn_irtock3_16779680
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779682={
 	name = dynn_irtock3_16779682
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779684={
 	name = dynn_irtock3_16779684
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779686={
 	name = dynn_irtock3_16779686
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779687={
 	name = dynn_irtock3_16779687
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779690={
 	name = dynn_irtock3_16779690
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779691={
 	name = dynn_irtock3_16779691
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779695={
 	name = dynn_irtock3_16779695
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779696={
 	name = dynn_irtock3_16779696
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779699={
 	name = dynn_irtock3_16779699
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779700={
 	name = dynn_irtock3_16779700
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779702={
 	name = dynn_irtock3_16779702
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779704={
 	name = dynn_irtock3_16779704
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779706={
 	name = dynn_irtock3_16779706
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779707={
 	name = dynn_irtock3_16779707
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779710={
 	name = dynn_irtock3_16779710
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779712={
 	name = dynn_irtock3_16779712
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779715={
 	name = dynn_irtock3_16779715
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779716={
 	name = dynn_irtock3_16779716
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779718={
 	name = dynn_irtock3_16779718
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779719={
 	name = dynn_irtock3_16779719
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779722={
 	name = dynn_irtock3_16779722
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779724={
 	name = dynn_irtock3_16779724
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779727={
 	name = dynn_irtock3_16779727
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779728={
 	name = dynn_irtock3_16779728
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779730={
 	name = dynn_irtock3_16779730
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779732={
 	name = dynn_irtock3_16779732
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779735={
 	name = dynn_irtock3_16779735
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779736={
 	name = dynn_irtock3_16779736
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779738={
 	name = dynn_irtock3_16779738
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779739={
 	name = dynn_irtock3_16779739
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779742={
 	name = dynn_irtock3_16779742
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779743={
 	name = dynn_irtock3_16779743
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779747={
 	name = dynn_irtock3_16779747
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779748={
 	name = dynn_irtock3_16779748
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779751={
 	name = dynn_irtock3_16779751
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779752={
 	name = dynn_irtock3_16779752
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779754={
 	name = dynn_irtock3_16779754
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779756={
 	name = dynn_irtock3_16779756
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779758={
 	name = dynn_irtock3_16779758
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779759={
 	name = dynn_irtock3_16779759
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779762={
 	name = dynn_irtock3_16779762
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779763={
 	name = dynn_irtock3_16779763
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779767={
 	name = dynn_irtock3_16779767
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779768={
 	name = dynn_irtock3_16779768
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779770={
 	name = dynn_irtock3_16779770
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779772={
 	name = dynn_irtock3_16779772
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779775={
 	name = dynn_irtock3_16779775
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779776={
 	name = dynn_irtock3_16779776
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779778={
 	name = dynn_irtock3_16779778
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779779={
 	name = dynn_irtock3_16779779
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779782={
 	name = dynn_irtock3_16779782
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779783={
 	name = dynn_irtock3_16779783
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779786={
 	name = dynn_irtock3_16779786
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779787={
 	name = dynn_irtock3_16779787
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779791={
 	name = dynn_irtock3_16779791
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779792={
 	name = dynn_irtock3_16779792
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779795={
 	name = dynn_irtock3_16779795
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779796={
 	name = dynn_irtock3_16779796
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779798={
 	name = dynn_irtock3_16779798
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779800={
 	name = dynn_irtock3_16779800
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779802={
 	name = dynn_irtock3_16779802
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779804={
 	name = dynn_irtock3_16779804
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779806={
 	name = dynn_irtock3_16779806
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779807={
 	name = dynn_irtock3_16779807
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779810={
 	name = dynn_irtock3_16779810
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779811={
 	name = dynn_irtock3_16779811
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779815={
 	name = dynn_irtock3_16779815
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779816={
 	name = dynn_irtock3_16779816
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779819={
 	name = dynn_irtock3_16779819
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779820={
 	name = dynn_irtock3_16779820
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779822={
 	name = dynn_irtock3_16779822
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779824={
 	name = dynn_irtock3_16779824
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779826={
 	name = dynn_irtock3_16779826
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779828={
 	name = dynn_irtock3_16779828
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779830={
 	name = dynn_irtock3_16779830
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779831={
 	name = dynn_irtock3_16779831
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779834={
 	name = dynn_irtock3_16779834
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779835={
 	name = dynn_irtock3_16779835
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779838={
 	name = dynn_irtock3_16779838
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779840={
 	name = dynn_irtock3_16779840
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779842={
 	name = dynn_irtock3_16779842
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779844={
 	name = dynn_irtock3_16779844
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779847={
 	name = dynn_irtock3_16779847
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779848={
 	name = dynn_irtock3_16779848
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779850={
 	name = dynn_irtock3_16779850
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779852={
 	name = dynn_irtock3_16779852
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779854={
 	name = dynn_irtock3_16779854
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779855={
 	name = dynn_irtock3_16779855
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779858={
 	name = dynn_irtock3_16779858
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779859={
 	name = dynn_irtock3_16779859
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779864={
 	name = dynn_irtock3_16779864
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779865={
 	name = dynn_irtock3_16779865
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779867={
 	name = dynn_irtock3_16779867
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779869={
 	name = dynn_irtock3_16779869
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779872={
 	name = dynn_irtock3_16779872
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779873={
 	name = dynn_irtock3_16779873
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779875={
 	name = dynn_irtock3_16779875
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779876={
 	name = dynn_irtock3_16779876
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779879={
 	name = dynn_irtock3_16779879
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779881={
 	name = dynn_irtock3_16779881
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779883={
 	name = dynn_irtock3_16779883
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779884={
 	name = dynn_irtock3_16779884
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779888={
 	name = dynn_irtock3_16779888
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779889={
 	name = dynn_irtock3_16779889
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779892={
 	name = dynn_irtock3_16779892
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779893={
 	name = dynn_irtock3_16779893
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779895={
 	name = dynn_irtock3_16779895
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_16779896={
 	name = dynn_irtock3_16779896
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_16779897={
 	name = dynn_irtock3_16779897
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_16779899={
 	name = dynn_irtock3_16779899
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779901={
 	name = dynn_irtock3_16779901
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16779903={
 	name = dynn_irtock3_16779903
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779904={
 	name = dynn_irtock3_16779904
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779907={
 	name = dynn_irtock3_16779907
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779908={
 	name = dynn_irtock3_16779908
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779912={
 	name = dynn_irtock3_16779912
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779913={
 	name = dynn_irtock3_16779913
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779915={
 	name = dynn_irtock3_16779915
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779917={
 	name = dynn_irtock3_16779917
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779920={
 	name = dynn_irtock3_16779920
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779921={
 	name = dynn_irtock3_16779921
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779923={
 	name = dynn_irtock3_16779923
@@ -1810,299 +1880,299 @@ dynn_irtock3_16779924={
 }
 dynn_irtock3_16779927={
 	name = dynn_irtock3_16779927
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779928={
 	name = dynn_irtock3_16779928
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779932={
 	name = dynn_irtock3_16779932
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779933={
 	name = dynn_irtock3_16779933
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779936={
 	name = dynn_irtock3_16779936
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779937={
 	name = dynn_irtock3_16779937
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779940={
 	name = dynn_irtock3_16779940
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779941={
 	name = dynn_irtock3_16779941
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779943={
 	name = dynn_irtock3_16779943
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779945={
 	name = dynn_irtock3_16779945
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779948={
 	name = dynn_irtock3_16779948
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779949={
 	name = dynn_irtock3_16779949
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779951={
 	name = dynn_irtock3_16779951
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779953={
 	name = dynn_irtock3_16779953
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779954={
 	name = dynn_irtock3_16779954
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779955={
 	name = dynn_irtock3_16779955
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779956={
 	name = dynn_irtock3_16779956
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779957={
 	name = dynn_irtock3_16779957
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779958={
 	name = dynn_irtock3_16779958
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779959={
 	name = dynn_irtock3_16779959
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779960={
 	name = dynn_irtock3_16779960
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779961={
 	name = dynn_irtock3_16779961
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779962={
 	name = dynn_irtock3_16779962
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779963={
 	name = dynn_irtock3_16779963
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779964={
 	name = dynn_irtock3_16779964
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779965={
 	name = dynn_irtock3_16779965
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779966={
 	name = dynn_irtock3_16779966
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779967={
 	name = dynn_irtock3_16779967
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779968={
 	name = dynn_irtock3_16779968
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779969={
 	name = dynn_irtock3_16779969
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779970={
 	name = dynn_irtock3_16779970
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779971={
 	name = dynn_irtock3_16779971
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779972={
 	name = dynn_irtock3_16779972
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779973={
 	name = dynn_irtock3_16779973
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779974={
 	name = dynn_irtock3_16779974
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779975={
 	name = dynn_irtock3_16779975
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779976={
 	name = dynn_irtock3_16779976
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779977={
 	name = dynn_irtock3_16779977
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779978={
 	name = dynn_irtock3_16779978
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779979={
 	name = dynn_irtock3_16779979
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779980={
 	name = dynn_irtock3_16779980
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779981={
 	name = dynn_irtock3_16779981
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779982={
 	name = dynn_irtock3_16779982
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779983={
 	name = dynn_irtock3_16779983
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779984={
 	name = dynn_irtock3_16779984
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779985={
 	name = dynn_irtock3_16779985
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779986={
 	name = dynn_irtock3_16779986
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779987={
 	name = dynn_irtock3_16779987
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779988={
 	name = dynn_irtock3_16779988
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779989={
 	name = dynn_irtock3_16779989
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779990={
 	name = dynn_irtock3_16779990
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779991={
 	name = dynn_irtock3_16779991
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779992={
 	name = dynn_irtock3_16779992
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779993={
 	name = dynn_irtock3_16779993
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779994={
 	name = dynn_irtock3_16779994
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779995={
 	name = dynn_irtock3_16779995
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16779997={
 	name = dynn_irtock3_16779997
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780000={
 	name = dynn_irtock3_16780000
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780001={
 	name = dynn_irtock3_16780001
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780002={
 	name = dynn_irtock3_16780002
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780003={
 	name = dynn_irtock3_16780003
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780004={
 	name = dynn_irtock3_16780004
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780005={
 	name = dynn_irtock3_16780005
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780006={
 	name = dynn_irtock3_16780006
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780007={
 	name = dynn_irtock3_16780007
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780008={
 	name = dynn_irtock3_16780008
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780009={
 	name = dynn_irtock3_16780009
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780010={
 	name = dynn_irtock3_16780010
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780011={
 	name = dynn_irtock3_16780011
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16780012={
 	name = dynn_irtock3_16780012
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780013={
 	name = dynn_irtock3_16780013
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780014={
 	name = dynn_irtock3_16780014
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780015={
 	name = dynn_irtock3_16780015
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780016={
 	name = dynn_irtock3_16780016
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780017={
 	name = dynn_irtock3_16780017
@@ -2110,35 +2180,35 @@ dynn_irtock3_16780017={
 }
 dynn_irtock3_16780018={
 	name = dynn_irtock3_16780018
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780019={
 	name = dynn_irtock3_16780019
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780020={
 	name = dynn_irtock3_16780020
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780021={
 	name = dynn_irtock3_16780021
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780022={
 	name = dynn_irtock3_16780022
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780023={
 	name = dynn_irtock3_16780023
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780024={
 	name = dynn_irtock3_16780024
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_16780025={
 	name = dynn_irtock3_16780025
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_16780026={
 	name = dynn_irtock3_16780026
@@ -2206,7 +2276,7 @@ dynn_irtock3_184551397={
 }
 dynn_irtock3_1909={
 	name = dynn_irtock3_1909
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_201328110={
 	name = dynn_irtock3_201328110
@@ -2274,7 +2344,7 @@ dynn_irtock3_2313={
 }
 dynn_irtock3_234882063={
 	name = dynn_irtock3_234882063
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_234882390={
 	name = dynn_irtock3_234882390
@@ -2338,11 +2408,11 @@ dynn_irtock3_33555816={
 }
 dynn_irtock3_33555949={
 	name = dynn_irtock3_33555949
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_33555973={
 	name = dynn_irtock3_33555973
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_33556025={
 	name = dynn_irtock3_33556025
@@ -2354,7 +2424,7 @@ dynn_irtock3_33556036={
 }
 dynn_irtock3_33556039={
 	name = dynn_irtock3_33556039
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_33556043={
 	name = dynn_irtock3_33556043
@@ -2362,15 +2432,15 @@ dynn_irtock3_33556043={
 }
 dynn_irtock3_33556064={
 	name = dynn_irtock3_33556064
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_33556065={
 	name = dynn_irtock3_33556065
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_33556066={
 	name = dynn_irtock3_33556066
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_33556070={
 	name = dynn_irtock3_33556070
@@ -2446,7 +2516,7 @@ dynn_irtock3_33556425={
 }
 dynn_irtock3_33556427={
 	name = dynn_irtock3_33556427
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_33556447={
 	name = dynn_irtock3_33556447
@@ -2522,7 +2592,7 @@ dynn_irtock3_33556579={
 }
 dynn_irtock3_33556581={
 	name = dynn_irtock3_33556581
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_33556587={
 	name = dynn_irtock3_33556587
@@ -2790,7 +2860,7 @@ dynn_irtock3_33557248={
 }
 dynn_irtock3_50331656={
 	name = dynn_irtock3_50331656
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_50331703={
 	name = dynn_irtock3_50331703
@@ -2906,7 +2976,7 @@ dynn_irtock3_50333566={
 }
 dynn_irtock3_50333575={
 	name = dynn_irtock3_50333575
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_50333584={
 	name = dynn_irtock3_50333584
@@ -2930,7 +3000,7 @@ dynn_irtock3_50333668={
 }
 dynn_irtock3_50333670={
 	name = dynn_irtock3_50333670
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_50333671={
 	name = dynn_irtock3_50333671
@@ -2982,7 +3052,7 @@ dynn_irtock3_50333751={
 }
 dynn_irtock3_50333758={
 	name = dynn_irtock3_50333758
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_50333796={
 	name = dynn_irtock3_50333796
@@ -3010,7 +3080,7 @@ dynn_irtock3_50333813={
 }
 dynn_irtock3_50333815={
 	name = dynn_irtock3_50333815
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_50333822={
 	name = dynn_irtock3_50333822
@@ -3018,7 +3088,7 @@ dynn_irtock3_50333822={
 }
 dynn_irtock3_50333844={
 	name = dynn_irtock3_50333844
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_50333850={
 	name = dynn_irtock3_50333850
@@ -3182,11 +3252,11 @@ dynn_irtock3_67110505={
 }
 dynn_irtock3_67110513={
 	name = dynn_irtock3_67110513
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_67110641={
 	name = dynn_irtock3_67110641
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_67110644={
 	name = dynn_irtock3_67110644
@@ -3254,7 +3324,7 @@ dynn_irtock3_67110855={
 }
 dynn_irtock3_67110864={
 	name = dynn_irtock3_67110864
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_67110920={
 	name = dynn_irtock3_67110920
@@ -3266,7 +3336,7 @@ dynn_irtock3_67110921={
 }
 dynn_irtock3_67110937={
 	name = dynn_irtock3_67110937
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_67110938={
 	name = dynn_irtock3_67110938
@@ -3418,11 +3488,11 @@ dynn_irtock3_83888059={
 }
 dynn_irtock3_83888065={
 	name = dynn_irtock3_83888065
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_83888092={
 	name = dynn_irtock3_83888092
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_83888106={
 	name = dynn_irtock3_83888106
@@ -3494,11 +3564,11 @@ dynn_irtock3_83888453={
 }
 dynn_irtock3_from_imperator100388={
 	name = dynn_irtock3_from_imperator100388
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator100399={
 	name = dynn_irtock3_from_imperator100399
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator101444={
 	name = dynn_irtock3_from_imperator101444
@@ -3518,11 +3588,19 @@ dynn_irtock3_from_imperator103717={
 }
 dynn_irtock3_from_imperator103853={
 	name = dynn_irtock3_from_imperator103853
-	culture = greek
+	culture = hellenic_greek
+}
+dynn_irtock3_from_imperator107675={
+	name = dynn_irtock3_from_imperator107675
+	culture = aegyptian
 }
 dynn_irtock3_from_imperator108326={
 	name = dynn_irtock3_from_imperator108326
 	culture = irish
+}
+dynn_irtock3_from_imperator108671={
+	name = dynn_irtock3_from_imperator108671
+	culture = kemetic
 }
 dynn_irtock3_from_imperator111115={
 	name = dynn_irtock3_from_imperator111115
@@ -3534,7 +3612,7 @@ dynn_irtock3_from_imperator111379={
 }
 dynn_irtock3_from_imperator111386={
 	name = dynn_irtock3_from_imperator111386
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator111439={
 	name = dynn_irtock3_from_imperator111439
@@ -3554,15 +3632,19 @@ dynn_irtock3_from_imperator114616={
 }
 dynn_irtock3_from_imperator114727={
 	name = dynn_irtock3_from_imperator114727
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator117669={
 	name = dynn_irtock3_from_imperator117669
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator119003={
 	name = dynn_irtock3_from_imperator119003
-	culture = greek
+	culture = hellenic_greek
+}
+dynn_irtock3_from_imperator119130={
+	name = dynn_irtock3_from_imperator119130
+	culture = garamantian
 }
 dynn_irtock3_from_imperator119170={
 	name = dynn_irtock3_from_imperator119170
@@ -3578,7 +3660,7 @@ dynn_irtock3_from_imperator121095={
 }
 dynn_irtock3_from_imperator121115={
 	name = dynn_irtock3_from_imperator121115
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator121603={
 	name = dynn_irtock3_from_imperator121603
@@ -3594,15 +3676,15 @@ dynn_irtock3_from_imperator122803={
 }
 dynn_irtock3_from_imperator123380={
 	name = dynn_irtock3_from_imperator123380
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator123716={
 	name = dynn_irtock3_from_imperator123716
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator124751={
 	name = dynn_irtock3_from_imperator124751
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator126013={
 	name = dynn_irtock3_from_imperator126013
@@ -3610,7 +3692,7 @@ dynn_irtock3_from_imperator126013={
 }
 dynn_irtock3_from_imperator126532={
 	name = dynn_irtock3_from_imperator126532
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator126681={
 	name = dynn_irtock3_from_imperator126681
@@ -3650,11 +3732,11 @@ dynn_irtock3_from_imperator127916={
 }
 dynn_irtock3_from_imperator128263={
 	name = dynn_irtock3_from_imperator128263
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator128694={
 	name = dynn_irtock3_from_imperator128694
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator128872={
 	name = dynn_irtock3_from_imperator128872
@@ -3662,7 +3744,7 @@ dynn_irtock3_from_imperator128872={
 }
 dynn_irtock3_from_imperator129132={
 	name = dynn_irtock3_from_imperator129132
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator130088={
 	name = dynn_irtock3_from_imperator130088
@@ -3670,7 +3752,7 @@ dynn_irtock3_from_imperator130088={
 }
 dynn_irtock3_from_imperator130369={
 	name = dynn_irtock3_from_imperator130369
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator131501={
 	name = dynn_irtock3_from_imperator131501
@@ -3678,11 +3760,11 @@ dynn_irtock3_from_imperator131501={
 }
 dynn_irtock3_from_imperator131575={
 	name = dynn_irtock3_from_imperator131575
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator133763={
 	name = dynn_irtock3_from_imperator133763
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator134040={
 	name = dynn_irtock3_from_imperator134040
@@ -3690,7 +3772,7 @@ dynn_irtock3_from_imperator134040={
 }
 dynn_irtock3_from_imperator134088={
 	name = dynn_irtock3_from_imperator134088
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator135333={
 	name = dynn_irtock3_from_imperator135333
@@ -3714,7 +3796,7 @@ dynn_irtock3_from_imperator135421={
 }
 dynn_irtock3_from_imperator136209={
 	name = dynn_irtock3_from_imperator136209
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator136338={
 	name = dynn_irtock3_from_imperator136338
@@ -3722,11 +3804,11 @@ dynn_irtock3_from_imperator136338={
 }
 dynn_irtock3_from_imperator136712={
 	name = dynn_irtock3_from_imperator136712
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator136812={
 	name = dynn_irtock3_from_imperator136812
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator137381={
 	name = dynn_irtock3_from_imperator137381
@@ -3742,7 +3824,7 @@ dynn_irtock3_from_imperator138517={
 }
 dynn_irtock3_from_imperator138968={
 	name = dynn_irtock3_from_imperator138968
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator139150={
 	name = dynn_irtock3_from_imperator139150
@@ -3762,7 +3844,7 @@ dynn_irtock3_from_imperator139410={
 }
 dynn_irtock3_from_imperator139454={
 	name = dynn_irtock3_from_imperator139454
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator139597={
 	name = dynn_irtock3_from_imperator139597
@@ -3775,10 +3857,6 @@ dynn_irtock3_from_imperator139817={
 dynn_irtock3_from_imperator139844={
 	name = dynn_irtock3_from_imperator139844
 	culture = irish
-}
-dynn_irtock3_from_imperator139973={
-	name = dynn_irtock3_from_imperator139973
-	culture = italiote
 }
 dynn_irtock3_from_imperator139978={
 	name = dynn_irtock3_from_imperator139978
@@ -3794,19 +3872,11 @@ dynn_irtock3_from_imperator139999={
 }
 dynn_irtock3_from_imperator140021={
 	name = dynn_irtock3_from_imperator140021
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator140067={
 	name = dynn_irtock3_from_imperator140067
-	culture = greek
-}
-dynn_irtock3_from_imperator140201={
-	name = dynn_irtock3_from_imperator140201
-	culture = italiote
-}
-dynn_irtock3_from_imperator140509={
-	name = dynn_irtock3_from_imperator140509
-	culture = italiote
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator140677={
 	name = dynn_irtock3_from_imperator140677
@@ -3814,7 +3884,7 @@ dynn_irtock3_from_imperator140677={
 }
 dynn_irtock3_from_imperator140853={
 	name = dynn_irtock3_from_imperator140853
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator141644={
 	name = dynn_irtock3_from_imperator141644
@@ -3830,19 +3900,19 @@ dynn_irtock3_from_imperator142={
 }
 dynn_irtock3_from_imperator142537={
 	name = dynn_irtock3_from_imperator142537
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator143136={
 	name = dynn_irtock3_from_imperator143136
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator143620={
 	name = dynn_irtock3_from_imperator143620
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator144450={
 	name = dynn_irtock3_from_imperator144450
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator144570={
 	name = dynn_irtock3_from_imperator144570
@@ -3894,7 +3964,7 @@ dynn_irtock3_from_imperator145762={
 }
 dynn_irtock3_from_imperator145962={
 	name = dynn_irtock3_from_imperator145962
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator146045={
 	name = dynn_irtock3_from_imperator146045
@@ -3908,17 +3978,9 @@ dynn_irtock3_from_imperator146234={
 	name = dynn_irtock3_from_imperator146234
 	culture = irish
 }
-dynn_irtock3_from_imperator146235={
-	name = dynn_irtock3_from_imperator146235
-	culture = italiote
-}
-dynn_irtock3_from_imperator146476={
-	name = dynn_irtock3_from_imperator146476
-	culture = italiote
-}
 dynn_irtock3_from_imperator146974={
 	name = dynn_irtock3_from_imperator146974
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator146993={
 	name = dynn_irtock3_from_imperator146993
@@ -3930,7 +3992,7 @@ dynn_irtock3_from_imperator147171={
 }
 dynn_irtock3_from_imperator147682={
 	name = dynn_irtock3_from_imperator147682
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator147781={
 	name = dynn_irtock3_from_imperator147781
@@ -3938,7 +4000,7 @@ dynn_irtock3_from_imperator147781={
 }
 dynn_irtock3_from_imperator147794={
 	name = dynn_irtock3_from_imperator147794
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator147936={
 	name = dynn_irtock3_from_imperator147936
@@ -3952,9 +4014,13 @@ dynn_irtock3_from_imperator148569={
 	name = dynn_irtock3_from_imperator148569
 	culture = salian
 }
+dynn_irtock3_from_imperator149206={
+	name = dynn_irtock3_from_imperator149206
+	culture = messapic
+}
 dynn_irtock3_from_imperator149415={
 	name = dynn_irtock3_from_imperator149415
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator149934={
 	name = dynn_irtock3_from_imperator149934
@@ -4020,25 +4086,17 @@ dynn_irtock3_from_imperator155494={
 	name = dynn_irtock3_from_imperator155494
 	culture = old_suebi
 }
-dynn_irtock3_from_imperator155795={
-	name = dynn_irtock3_from_imperator155795
-	culture = italiote
-}
 dynn_irtock3_from_imperator156={
 	name = dynn_irtock3_from_imperator156
-	culture = greek
-}
-dynn_irtock3_from_imperator156272={
-	name = dynn_irtock3_from_imperator156272
-	culture = italiote
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator156392={
 	name = dynn_irtock3_from_imperator156392
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator156398={
 	name = dynn_irtock3_from_imperator156398
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator156471={
 	name = dynn_irtock3_from_imperator156471
@@ -4050,7 +4108,7 @@ dynn_irtock3_from_imperator156615={
 }
 dynn_irtock3_from_imperator156976={
 	name = dynn_irtock3_from_imperator156976
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator157402={
 	name = dynn_irtock3_from_imperator157402
@@ -4070,7 +4128,7 @@ dynn_irtock3_from_imperator158677={
 }
 dynn_irtock3_from_imperator159={
 	name = dynn_irtock3_from_imperator159
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator159991={
 	name = dynn_irtock3_from_imperator159991
@@ -4086,7 +4144,7 @@ dynn_irtock3_from_imperator160770={
 }
 dynn_irtock3_from_imperator160873={
 	name = dynn_irtock3_from_imperator160873
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator160972={
 	name = dynn_irtock3_from_imperator160972
@@ -4098,7 +4156,7 @@ dynn_irtock3_from_imperator161024={
 }
 dynn_irtock3_from_imperator161026={
 	name = dynn_irtock3_from_imperator161026
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator161324={
 	name = dynn_irtock3_from_imperator161324
@@ -4134,7 +4192,7 @@ dynn_irtock3_from_imperator164004={
 }
 dynn_irtock3_from_imperator164249={
 	name = dynn_irtock3_from_imperator164249
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator164596={
 	name = dynn_irtock3_from_imperator164596
@@ -4143,6 +4201,10 @@ dynn_irtock3_from_imperator164596={
 dynn_irtock3_from_imperator164742={
 	name = dynn_irtock3_from_imperator164742
 	culture = sarmatian
+}
+dynn_irtock3_from_imperator165609={
+	name = dynn_irtock3_from_imperator165609
+	culture = messapic
 }
 dynn_irtock3_from_imperator166041={
 	name = dynn_irtock3_from_imperator166041
@@ -4176,33 +4238,33 @@ dynn_irtock3_from_imperator169876={
 	name = dynn_irtock3_from_imperator169876
 	culture = salian
 }
-dynn_irtock3_from_imperator170237={
-	name = dynn_irtock3_from_imperator170237
-	culture = roman
-}
-dynn_irtock3_from_imperator170266={
-	name = dynn_irtock3_from_imperator170266
+dynn_irtock3_from_imperator170157={
+	name = dynn_irtock3_from_imperator170157
 	culture = roman
 }
 dynn_irtock3_from_imperator170339={
 	name = dynn_irtock3_from_imperator170339
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator170451={
 	name = dynn_irtock3_from_imperator170451
 	culture = east_galindian
 }
+dynn_irtock3_from_imperator170850={
+	name = dynn_irtock3_from_imperator170850
+	culture = roman
+}
 dynn_irtock3_from_imperator171482={
 	name = dynn_irtock3_from_imperator171482
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator171706={
 	name = dynn_irtock3_from_imperator171706
 	culture = irish
 }
-dynn_irtock3_from_imperator171859={
-	name = dynn_irtock3_from_imperator171859
-	culture = roman
+dynn_irtock3_from_imperator172857={
+	name = dynn_irtock3_from_imperator172857
+	culture = indogreek
 }
 dynn_irtock3_from_imperator172995={
 	name = dynn_irtock3_from_imperator172995
@@ -4210,19 +4272,19 @@ dynn_irtock3_from_imperator172995={
 }
 dynn_irtock3_from_imperator173010={
 	name = dynn_irtock3_from_imperator173010
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator173190={
 	name = dynn_irtock3_from_imperator173190
-	culture = greek
+	culture = hellenic_greek
+}
+dynn_irtock3_from_imperator174310={
+	name = dynn_irtock3_from_imperator174310
+	culture = messapic
 }
 dynn_irtock3_from_imperator174456={
 	name = dynn_irtock3_from_imperator174456
 	culture = qahtanite
-}
-dynn_irtock3_from_imperator174866={
-	name = dynn_irtock3_from_imperator174866
-	culture = roman
 }
 dynn_irtock3_from_imperator174934={
 	name = dynn_irtock3_from_imperator174934
@@ -4236,12 +4298,8 @@ dynn_irtock3_from_imperator175350={
 	name = dynn_irtock3_from_imperator175350
 	culture = old_suebi
 }
-dynn_irtock3_from_imperator175636={
-	name = dynn_irtock3_from_imperator175636
-	culture = roman
-}
-dynn_irtock3_from_imperator176582={
-	name = dynn_irtock3_from_imperator176582
+dynn_irtock3_from_imperator175418={
+	name = dynn_irtock3_from_imperator175418
 	culture = roman
 }
 dynn_irtock3_from_imperator176601={
@@ -4299,10 +4357,6 @@ dynn_irtock3_from_imperator178087={
 dynn_irtock3_from_imperator178527={
 	name = dynn_irtock3_from_imperator178527
 	culture = norse
-}
-dynn_irtock3_from_imperator178660={
-	name = dynn_irtock3_from_imperator178660
-	culture = roman
 }
 dynn_irtock3_from_imperator178734={
 	name = dynn_irtock3_from_imperator178734
@@ -4372,6 +4426,10 @@ dynn_irtock3_from_imperator181134={
 	name = dynn_irtock3_from_imperator181134
 	culture = macedonian
 }
+dynn_irtock3_from_imperator181218={
+	name = dynn_irtock3_from_imperator181218
+	culture = aegyptian
+}
 dynn_irtock3_from_imperator181632={
 	name = dynn_irtock3_from_imperator181632
 	culture = old_suebi
@@ -4424,6 +4482,10 @@ dynn_irtock3_from_imperator182697={
 	name = dynn_irtock3_from_imperator182697
 	culture = macedonian
 }
+dynn_irtock3_from_imperator182989={
+	name = dynn_irtock3_from_imperator182989
+	culture = hun
+}
 dynn_irtock3_from_imperator182993={
 	name = dynn_irtock3_from_imperator182993
 	culture = ripurian
@@ -4436,25 +4498,21 @@ dynn_irtock3_from_imperator183507={
 	name = dynn_irtock3_from_imperator183507
 	culture = alan
 }
-dynn_irtock3_from_imperator183534={
-	name = dynn_irtock3_from_imperator183534
-	culture = italiote
-}
 dynn_irtock3_from_imperator183629={
 	name = dynn_irtock3_from_imperator183629
 	culture = adnanite
 }
 dynn_irtock3_from_imperator183922={
 	name = dynn_irtock3_from_imperator183922
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator184077={
 	name = dynn_irtock3_from_imperator184077
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator184083={
 	name = dynn_irtock3_from_imperator184083
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator184181={
 	name = dynn_irtock3_from_imperator184181
@@ -4514,7 +4572,7 @@ dynn_irtock3_from_imperator186175={
 }
 dynn_irtock3_from_imperator186182={
 	name = dynn_irtock3_from_imperator186182
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator186190={
 	name = dynn_irtock3_from_imperator186190
@@ -4634,7 +4692,11 @@ dynn_irtock3_from_imperator187426={
 }
 dynn_irtock3_from_imperator187475={
 	name = dynn_irtock3_from_imperator187475
-	culture = indo_greek
+	culture = indogreek
+}
+dynn_irtock3_from_imperator187529={
+	name = dynn_irtock3_from_imperator187529
+	culture = alan
 }
 dynn_irtock3_from_imperator187554={
 	name = dynn_irtock3_from_imperator187554
@@ -4646,7 +4708,7 @@ dynn_irtock3_from_imperator187557={
 }
 dynn_irtock3_from_imperator187573={
 	name = dynn_irtock3_from_imperator187573
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator187587={
 	name = dynn_irtock3_from_imperator187587
@@ -4654,15 +4716,15 @@ dynn_irtock3_from_imperator187587={
 }
 dynn_irtock3_from_imperator187594={
 	name = dynn_irtock3_from_imperator187594
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator187599={
 	name = dynn_irtock3_from_imperator187599
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator187709={
 	name = dynn_irtock3_from_imperator187709
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator187725={
 	name = dynn_irtock3_from_imperator187725
@@ -4674,7 +4736,7 @@ dynn_irtock3_from_imperator187819={
 }
 dynn_irtock3_from_imperator187824={
 	name = dynn_irtock3_from_imperator187824
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator187857={
 	name = dynn_irtock3_from_imperator187857
@@ -4694,11 +4756,11 @@ dynn_irtock3_from_imperator187906={
 }
 dynn_irtock3_from_imperator187914={
 	name = dynn_irtock3_from_imperator187914
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator187938={
 	name = dynn_irtock3_from_imperator187938
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator187975={
 	name = dynn_irtock3_from_imperator187975
@@ -4722,7 +4784,7 @@ dynn_irtock3_from_imperator188022={
 }
 dynn_irtock3_from_imperator188045={
 	name = dynn_irtock3_from_imperator188045
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188047={
 	name = dynn_irtock3_from_imperator188047
@@ -4734,7 +4796,7 @@ dynn_irtock3_from_imperator188094={
 }
 dynn_irtock3_from_imperator188096={
 	name = dynn_irtock3_from_imperator188096
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator188103={
 	name = dynn_irtock3_from_imperator188103
@@ -4746,7 +4808,7 @@ dynn_irtock3_from_imperator188140={
 }
 dynn_irtock3_from_imperator188152={
 	name = dynn_irtock3_from_imperator188152
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188154={
 	name = dynn_irtock3_from_imperator188154
@@ -4766,7 +4828,7 @@ dynn_irtock3_from_imperator188263={
 }
 dynn_irtock3_from_imperator188266={
 	name = dynn_irtock3_from_imperator188266
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188281={
 	name = dynn_irtock3_from_imperator188281
@@ -4794,7 +4856,7 @@ dynn_irtock3_from_imperator188402={
 }
 dynn_irtock3_from_imperator188413={
 	name = dynn_irtock3_from_imperator188413
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator188417={
 	name = dynn_irtock3_from_imperator188417
@@ -4818,7 +4880,7 @@ dynn_irtock3_from_imperator188465={
 }
 dynn_irtock3_from_imperator188487={
 	name = dynn_irtock3_from_imperator188487
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188491={
 	name = dynn_irtock3_from_imperator188491
@@ -4834,7 +4896,7 @@ dynn_irtock3_from_imperator188593={
 }
 dynn_irtock3_from_imperator188606={
 	name = dynn_irtock3_from_imperator188606
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator188632={
 	name = dynn_irtock3_from_imperator188632
@@ -4862,11 +4924,11 @@ dynn_irtock3_from_imperator188686={
 }
 dynn_irtock3_from_imperator188706={
 	name = dynn_irtock3_from_imperator188706
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188719={
 	name = dynn_irtock3_from_imperator188719
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator188752={
 	name = dynn_irtock3_from_imperator188752
@@ -4934,7 +4996,7 @@ dynn_irtock3_from_imperator188927={
 }
 dynn_irtock3_from_imperator188937={
 	name = dynn_irtock3_from_imperator188937
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator188947={
 	name = dynn_irtock3_from_imperator188947
@@ -4946,7 +5008,7 @@ dynn_irtock3_from_imperator188959={
 }
 dynn_irtock3_from_imperator188995={
 	name = dynn_irtock3_from_imperator188995
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator188999={
 	name = dynn_irtock3_from_imperator188999
@@ -4974,7 +5036,7 @@ dynn_irtock3_from_imperator189017={
 }
 dynn_irtock3_from_imperator189025={
 	name = dynn_irtock3_from_imperator189025
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator189033={
 	name = dynn_irtock3_from_imperator189033
@@ -4982,7 +5044,7 @@ dynn_irtock3_from_imperator189033={
 }
 dynn_irtock3_from_imperator189034={
 	name = dynn_irtock3_from_imperator189034
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189044={
 	name = dynn_irtock3_from_imperator189044
@@ -4990,7 +5052,7 @@ dynn_irtock3_from_imperator189044={
 }
 dynn_irtock3_from_imperator189081={
 	name = dynn_irtock3_from_imperator189081
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator189082={
 	name = dynn_irtock3_from_imperator189082
@@ -5006,7 +5068,7 @@ dynn_irtock3_from_imperator189090={
 }
 dynn_irtock3_from_imperator189107={
 	name = dynn_irtock3_from_imperator189107
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189108={
 	name = dynn_irtock3_from_imperator189108
@@ -5018,11 +5080,11 @@ dynn_irtock3_from_imperator189126={
 }
 dynn_irtock3_from_imperator189132={
 	name = dynn_irtock3_from_imperator189132
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189133={
 	name = dynn_irtock3_from_imperator189133
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator189135={
 	name = dynn_irtock3_from_imperator189135
@@ -5030,7 +5092,7 @@ dynn_irtock3_from_imperator189135={
 }
 dynn_irtock3_from_imperator189137={
 	name = dynn_irtock3_from_imperator189137
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189159={
 	name = dynn_irtock3_from_imperator189159
@@ -5106,7 +5168,7 @@ dynn_irtock3_from_imperator189385={
 }
 dynn_irtock3_from_imperator189404={
 	name = dynn_irtock3_from_imperator189404
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator189406={
 	name = dynn_irtock3_from_imperator189406
@@ -5122,11 +5184,11 @@ dynn_irtock3_from_imperator189414={
 }
 dynn_irtock3_from_imperator189419={
 	name = dynn_irtock3_from_imperator189419
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189432={
 	name = dynn_irtock3_from_imperator189432
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator189445={
 	name = dynn_irtock3_from_imperator189445
@@ -5274,7 +5336,7 @@ dynn_irtock3_from_imperator189979={
 }
 dynn_irtock3_from_imperator189984={
 	name = dynn_irtock3_from_imperator189984
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator189988={
 	name = dynn_irtock3_from_imperator189988
@@ -5316,6 +5378,10 @@ dynn_irtock3_from_imperator190114={
 	name = dynn_irtock3_from_imperator190114
 	culture = irish
 }
+dynn_irtock3_from_imperator190127={
+	name = dynn_irtock3_from_imperator190127
+	culture = alan
+}
 dynn_irtock3_from_imperator190185={
 	name = dynn_irtock3_from_imperator190185
 	culture = roman
@@ -5346,7 +5412,7 @@ dynn_irtock3_from_imperator190254={
 }
 dynn_irtock3_from_imperator190257={
 	name = dynn_irtock3_from_imperator190257
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator190259={
 	name = dynn_irtock3_from_imperator190259
@@ -5366,7 +5432,7 @@ dynn_irtock3_from_imperator190294={
 }
 dynn_irtock3_from_imperator190304={
 	name = dynn_irtock3_from_imperator190304
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator190309={
 	name = dynn_irtock3_from_imperator190309
@@ -5430,7 +5496,7 @@ dynn_irtock3_from_imperator190469={
 }
 dynn_irtock3_from_imperator190483={
 	name = dynn_irtock3_from_imperator190483
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator190484={
 	name = dynn_irtock3_from_imperator190484
@@ -5582,7 +5648,7 @@ dynn_irtock3_from_imperator190825={
 }
 dynn_irtock3_from_imperator190846={
 	name = dynn_irtock3_from_imperator190846
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator190850={
 	name = dynn_irtock3_from_imperator190850
@@ -5594,7 +5660,7 @@ dynn_irtock3_from_imperator190853={
 }
 dynn_irtock3_from_imperator190856={
 	name = dynn_irtock3_from_imperator190856
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator190858={
 	name = dynn_irtock3_from_imperator190858
@@ -5610,7 +5676,7 @@ dynn_irtock3_from_imperator190879={
 }
 dynn_irtock3_from_imperator190883={
 	name = dynn_irtock3_from_imperator190883
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator190907={
 	name = dynn_irtock3_from_imperator190907
@@ -5638,7 +5704,7 @@ dynn_irtock3_from_imperator190941={
 }
 dynn_irtock3_from_imperator190949={
 	name = dynn_irtock3_from_imperator190949
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator190956={
 	name = dynn_irtock3_from_imperator190956
@@ -5654,7 +5720,7 @@ dynn_irtock3_from_imperator190965={
 }
 dynn_irtock3_from_imperator190969={
 	name = dynn_irtock3_from_imperator190969
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator190982={
 	name = dynn_irtock3_from_imperator190982
@@ -5662,7 +5728,7 @@ dynn_irtock3_from_imperator190982={
 }
 dynn_irtock3_from_imperator190987={
 	name = dynn_irtock3_from_imperator190987
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator190989={
 	name = dynn_irtock3_from_imperator190989
@@ -5746,7 +5812,7 @@ dynn_irtock3_from_imperator191163={
 }
 dynn_irtock3_from_imperator191176={
 	name = dynn_irtock3_from_imperator191176
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191179={
 	name = dynn_irtock3_from_imperator191179
@@ -5762,7 +5828,7 @@ dynn_irtock3_from_imperator191181={
 }
 dynn_irtock3_from_imperator191187={
 	name = dynn_irtock3_from_imperator191187
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191198={
 	name = dynn_irtock3_from_imperator191198
@@ -5794,7 +5860,7 @@ dynn_irtock3_from_imperator191223={
 }
 dynn_irtock3_from_imperator191235={
 	name = dynn_irtock3_from_imperator191235
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191239={
 	name = dynn_irtock3_from_imperator191239
@@ -5838,7 +5904,7 @@ dynn_irtock3_from_imperator191294={
 }
 dynn_irtock3_from_imperator191301={
 	name = dynn_irtock3_from_imperator191301
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator191308={
 	name = dynn_irtock3_from_imperator191308
@@ -5882,7 +5948,7 @@ dynn_irtock3_from_imperator191408={
 }
 dynn_irtock3_from_imperator191415={
 	name = dynn_irtock3_from_imperator191415
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191418={
 	name = dynn_irtock3_from_imperator191418
@@ -5902,7 +5968,7 @@ dynn_irtock3_from_imperator191441={
 }
 dynn_irtock3_from_imperator191445={
 	name = dynn_irtock3_from_imperator191445
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191446={
 	name = dynn_irtock3_from_imperator191446
@@ -5934,7 +6000,7 @@ dynn_irtock3_from_imperator191464={
 }
 dynn_irtock3_from_imperator191481={
 	name = dynn_irtock3_from_imperator191481
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator191486={
 	name = dynn_irtock3_from_imperator191486
@@ -5954,7 +6020,7 @@ dynn_irtock3_from_imperator191502={
 }
 dynn_irtock3_from_imperator191507={
 	name = dynn_irtock3_from_imperator191507
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator191517={
 	name = dynn_irtock3_from_imperator191517
@@ -5970,7 +6036,7 @@ dynn_irtock3_from_imperator191532={
 }
 dynn_irtock3_from_imperator191558={
 	name = dynn_irtock3_from_imperator191558
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191568={
 	name = dynn_irtock3_from_imperator191568
@@ -6022,7 +6088,7 @@ dynn_irtock3_from_imperator191660={
 }
 dynn_irtock3_from_imperator191661={
 	name = dynn_irtock3_from_imperator191661
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator191666={
 	name = dynn_irtock3_from_imperator191666
@@ -6070,7 +6136,7 @@ dynn_irtock3_from_imperator191720={
 }
 dynn_irtock3_from_imperator191721={
 	name = dynn_irtock3_from_imperator191721
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator191725={
 	name = dynn_irtock3_from_imperator191725
@@ -6078,7 +6144,7 @@ dynn_irtock3_from_imperator191725={
 }
 dynn_irtock3_from_imperator191752={
 	name = dynn_irtock3_from_imperator191752
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator191753={
 	name = dynn_irtock3_from_imperator191753
@@ -6210,11 +6276,11 @@ dynn_irtock3_from_imperator192037={
 }
 dynn_irtock3_from_imperator192040={
 	name = dynn_irtock3_from_imperator192040
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator192041={
 	name = dynn_irtock3_from_imperator192041
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator192044={
 	name = dynn_irtock3_from_imperator192044
@@ -6254,7 +6320,7 @@ dynn_irtock3_from_imperator192158={
 }
 dynn_irtock3_from_imperator192163={
 	name = dynn_irtock3_from_imperator192163
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator192166={
 	name = dynn_irtock3_from_imperator192166
@@ -6290,7 +6356,7 @@ dynn_irtock3_from_imperator192186={
 }
 dynn_irtock3_from_imperator192189={
 	name = dynn_irtock3_from_imperator192189
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator192190={
 	name = dynn_irtock3_from_imperator192190
@@ -6318,7 +6384,7 @@ dynn_irtock3_from_imperator192224={
 }
 dynn_irtock3_from_imperator192225={
 	name = dynn_irtock3_from_imperator192225
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator192226={
 	name = dynn_irtock3_from_imperator192226
@@ -6334,7 +6400,7 @@ dynn_irtock3_from_imperator192242={
 }
 dynn_irtock3_from_imperator192251={
 	name = dynn_irtock3_from_imperator192251
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator192252={
 	name = dynn_irtock3_from_imperator192252
@@ -6538,7 +6604,7 @@ dynn_irtock3_from_imperator192476={
 }
 dynn_irtock3_from_imperator192482={
 	name = dynn_irtock3_from_imperator192482
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator192483={
 	name = dynn_irtock3_from_imperator192483
@@ -6558,7 +6624,7 @@ dynn_irtock3_from_imperator192498={
 }
 dynn_irtock3_from_imperator192499={
 	name = dynn_irtock3_from_imperator192499
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator192503={
 	name = dynn_irtock3_from_imperator192503
@@ -6618,11 +6684,11 @@ dynn_irtock3_from_imperator192628={
 }
 dynn_irtock3_from_imperator192632={
 	name = dynn_irtock3_from_imperator192632
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator192644={
 	name = dynn_irtock3_from_imperator192644
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator192647={
 	name = dynn_irtock3_from_imperator192647
@@ -6726,7 +6792,7 @@ dynn_irtock3_from_imperator192875={
 }
 dynn_irtock3_from_imperator192876={
 	name = dynn_irtock3_from_imperator192876
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator192877={
 	name = dynn_irtock3_from_imperator192877
@@ -6750,7 +6816,7 @@ dynn_irtock3_from_imperator192885={
 }
 dynn_irtock3_from_imperator192886={
 	name = dynn_irtock3_from_imperator192886
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator192892={
 	name = dynn_irtock3_from_imperator192892
@@ -6842,7 +6908,7 @@ dynn_irtock3_from_imperator193078={
 }
 dynn_irtock3_from_imperator193100={
 	name = dynn_irtock3_from_imperator193100
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193106={
 	name = dynn_irtock3_from_imperator193106
@@ -6878,7 +6944,7 @@ dynn_irtock3_from_imperator193153={
 }
 dynn_irtock3_from_imperator193164={
 	name = dynn_irtock3_from_imperator193164
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193166={
 	name = dynn_irtock3_from_imperator193166
@@ -6918,11 +6984,11 @@ dynn_irtock3_from_imperator193203={
 }
 dynn_irtock3_from_imperator193229={
 	name = dynn_irtock3_from_imperator193229
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator193230={
 	name = dynn_irtock3_from_imperator193230
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193236={
 	name = dynn_irtock3_from_imperator193236
@@ -6986,7 +7052,7 @@ dynn_irtock3_from_imperator193330={
 }
 dynn_irtock3_from_imperator193332={
 	name = dynn_irtock3_from_imperator193332
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193347={
 	name = dynn_irtock3_from_imperator193347
@@ -6994,7 +7060,7 @@ dynn_irtock3_from_imperator193347={
 }
 dynn_irtock3_from_imperator193348={
 	name = dynn_irtock3_from_imperator193348
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193351={
 	name = dynn_irtock3_from_imperator193351
@@ -7022,11 +7088,11 @@ dynn_irtock3_from_imperator193371={
 }
 dynn_irtock3_from_imperator193377={
 	name = dynn_irtock3_from_imperator193377
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator193378={
 	name = dynn_irtock3_from_imperator193378
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator193379={
 	name = dynn_irtock3_from_imperator193379
@@ -7074,11 +7140,11 @@ dynn_irtock3_from_imperator193424={
 }
 dynn_irtock3_from_imperator193433={
 	name = dynn_irtock3_from_imperator193433
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193434={
 	name = dynn_irtock3_from_imperator193434
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193436={
 	name = dynn_irtock3_from_imperator193436
@@ -7198,7 +7264,7 @@ dynn_irtock3_from_imperator193609={
 }
 dynn_irtock3_from_imperator193610={
 	name = dynn_irtock3_from_imperator193610
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193612={
 	name = dynn_irtock3_from_imperator193612
@@ -7282,7 +7348,7 @@ dynn_irtock3_from_imperator193751={
 }
 dynn_irtock3_from_imperator193753={
 	name = dynn_irtock3_from_imperator193753
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193762={
 	name = dynn_irtock3_from_imperator193762
@@ -7290,7 +7356,7 @@ dynn_irtock3_from_imperator193762={
 }
 dynn_irtock3_from_imperator193770={
 	name = dynn_irtock3_from_imperator193770
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193774={
 	name = dynn_irtock3_from_imperator193774
@@ -7322,7 +7388,7 @@ dynn_irtock3_from_imperator193841={
 }
 dynn_irtock3_from_imperator193854={
 	name = dynn_irtock3_from_imperator193854
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator193857={
 	name = dynn_irtock3_from_imperator193857
@@ -7362,7 +7428,7 @@ dynn_irtock3_from_imperator193883={
 }
 dynn_irtock3_from_imperator193885={
 	name = dynn_irtock3_from_imperator193885
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193889={
 	name = dynn_irtock3_from_imperator193889
@@ -7402,11 +7468,11 @@ dynn_irtock3_from_imperator193937={
 }
 dynn_irtock3_from_imperator193944={
 	name = dynn_irtock3_from_imperator193944
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator193946={
 	name = dynn_irtock3_from_imperator193946
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator193954={
 	name = dynn_irtock3_from_imperator193954
@@ -7418,7 +7484,7 @@ dynn_irtock3_from_imperator193971={
 }
 dynn_irtock3_from_imperator193978={
 	name = dynn_irtock3_from_imperator193978
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator193989={
 	name = dynn_irtock3_from_imperator193989
@@ -7458,7 +7524,7 @@ dynn_irtock3_from_imperator194019={
 }
 dynn_irtock3_from_imperator194024={
 	name = dynn_irtock3_from_imperator194024
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator194027={
 	name = dynn_irtock3_from_imperator194027
@@ -7502,7 +7568,7 @@ dynn_irtock3_from_imperator194078={
 }
 dynn_irtock3_from_imperator194083={
 	name = dynn_irtock3_from_imperator194083
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator194084={
 	name = dynn_irtock3_from_imperator194084
@@ -7538,7 +7604,7 @@ dynn_irtock3_from_imperator194111={
 }
 dynn_irtock3_from_imperator194114={
 	name = dynn_irtock3_from_imperator194114
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator194117={
 	name = dynn_irtock3_from_imperator194117
@@ -7602,7 +7668,7 @@ dynn_irtock3_from_imperator194198={
 }
 dynn_irtock3_from_imperator194201={
 	name = dynn_irtock3_from_imperator194201
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator194209={
 	name = dynn_irtock3_from_imperator194209
@@ -7746,7 +7812,7 @@ dynn_irtock3_from_imperator194458={
 }
 dynn_irtock3_from_imperator194470={
 	name = dynn_irtock3_from_imperator194470
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator194473={
 	name = dynn_irtock3_from_imperator194473
@@ -7754,7 +7820,7 @@ dynn_irtock3_from_imperator194473={
 }
 dynn_irtock3_from_imperator194475={
 	name = dynn_irtock3_from_imperator194475
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator194485={
 	name = dynn_irtock3_from_imperator194485
@@ -7830,7 +7896,7 @@ dynn_irtock3_from_imperator194580={
 }
 dynn_irtock3_from_imperator194612={
 	name = dynn_irtock3_from_imperator194612
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator194629={
 	name = dynn_irtock3_from_imperator194629
@@ -7870,11 +7936,11 @@ dynn_irtock3_from_imperator194638={
 }
 dynn_irtock3_from_imperator194655={
 	name = dynn_irtock3_from_imperator194655
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator194658={
 	name = dynn_irtock3_from_imperator194658
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator194668={
 	name = dynn_irtock3_from_imperator194668
@@ -7986,15 +8052,15 @@ dynn_irtock3_from_imperator194844={
 }
 dynn_irtock3_from_imperator194857={
 	name = dynn_irtock3_from_imperator194857
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator194859={
 	name = dynn_irtock3_from_imperator194859
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator194860={
 	name = dynn_irtock3_from_imperator194860
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator194873={
 	name = dynn_irtock3_from_imperator194873
@@ -8138,7 +8204,7 @@ dynn_irtock3_from_imperator195080={
 }
 dynn_irtock3_from_imperator195095={
 	name = dynn_irtock3_from_imperator195095
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator195105={
 	name = dynn_irtock3_from_imperator195105
@@ -8150,11 +8216,11 @@ dynn_irtock3_from_imperator195106={
 }
 dynn_irtock3_from_imperator195114={
 	name = dynn_irtock3_from_imperator195114
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195118={
 	name = dynn_irtock3_from_imperator195118
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195130={
 	name = dynn_irtock3_from_imperator195130
@@ -8162,15 +8228,15 @@ dynn_irtock3_from_imperator195130={
 }
 dynn_irtock3_from_imperator195132={
 	name = dynn_irtock3_from_imperator195132
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator195133={
 	name = dynn_irtock3_from_imperator195133
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator195143={
 	name = dynn_irtock3_from_imperator195143
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195148={
 	name = dynn_irtock3_from_imperator195148
@@ -8230,7 +8296,7 @@ dynn_irtock3_from_imperator195215={
 }
 dynn_irtock3_from_imperator195219={
 	name = dynn_irtock3_from_imperator195219
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195226={
 	name = dynn_irtock3_from_imperator195226
@@ -8266,7 +8332,7 @@ dynn_irtock3_from_imperator195261={
 }
 dynn_irtock3_from_imperator195286={
 	name = dynn_irtock3_from_imperator195286
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator195292={
 	name = dynn_irtock3_from_imperator195292
@@ -8278,7 +8344,7 @@ dynn_irtock3_from_imperator195307={
 }
 dynn_irtock3_from_imperator195309={
 	name = dynn_irtock3_from_imperator195309
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195313={
 	name = dynn_irtock3_from_imperator195313
@@ -8314,7 +8380,7 @@ dynn_irtock3_from_imperator195360={
 }
 dynn_irtock3_from_imperator195371={
 	name = dynn_irtock3_from_imperator195371
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator195373={
 	name = dynn_irtock3_from_imperator195373
@@ -8350,11 +8416,11 @@ dynn_irtock3_from_imperator195412={
 }
 dynn_irtock3_from_imperator195415={
 	name = dynn_irtock3_from_imperator195415
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator195419={
 	name = dynn_irtock3_from_imperator195419
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195420={
 	name = dynn_irtock3_from_imperator195420
@@ -8378,7 +8444,7 @@ dynn_irtock3_from_imperator195438={
 }
 dynn_irtock3_from_imperator195440={
 	name = dynn_irtock3_from_imperator195440
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator195444={
 	name = dynn_irtock3_from_imperator195444
@@ -8418,7 +8484,7 @@ dynn_irtock3_from_imperator195489={
 }
 dynn_irtock3_from_imperator195491={
 	name = dynn_irtock3_from_imperator195491
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195492={
 	name = dynn_irtock3_from_imperator195492
@@ -8434,7 +8500,7 @@ dynn_irtock3_from_imperator195494={
 }
 dynn_irtock3_from_imperator195497={
 	name = dynn_irtock3_from_imperator195497
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator195510={
 	name = dynn_irtock3_from_imperator195510
@@ -8474,7 +8540,7 @@ dynn_irtock3_from_imperator195562={
 }
 dynn_irtock3_from_imperator195564={
 	name = dynn_irtock3_from_imperator195564
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195574={
 	name = dynn_irtock3_from_imperator195574
@@ -8506,7 +8572,7 @@ dynn_irtock3_from_imperator195611={
 }
 dynn_irtock3_from_imperator195622={
 	name = dynn_irtock3_from_imperator195622
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator195650={
 	name = dynn_irtock3_from_imperator195650
@@ -8530,7 +8596,7 @@ dynn_irtock3_from_imperator195674={
 }
 dynn_irtock3_from_imperator195675={
 	name = dynn_irtock3_from_imperator195675
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator195684={
 	name = dynn_irtock3_from_imperator195684
@@ -8618,7 +8684,7 @@ dynn_irtock3_from_imperator195758={
 }
 dynn_irtock3_from_imperator195759={
 	name = dynn_irtock3_from_imperator195759
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator195765={
 	name = dynn_irtock3_from_imperator195765
@@ -8666,7 +8732,7 @@ dynn_irtock3_from_imperator195778={
 }
 dynn_irtock3_from_imperator195804={
 	name = dynn_irtock3_from_imperator195804
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195811={
 	name = dynn_irtock3_from_imperator195811
@@ -8686,7 +8752,7 @@ dynn_irtock3_from_imperator195830={
 }
 dynn_irtock3_from_imperator195832={
 	name = dynn_irtock3_from_imperator195832
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator195838={
 	name = dynn_irtock3_from_imperator195838
@@ -8746,7 +8812,7 @@ dynn_irtock3_from_imperator195951={
 }
 dynn_irtock3_from_imperator195964={
 	name = dynn_irtock3_from_imperator195964
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator195969={
 	name = dynn_irtock3_from_imperator195969
@@ -8778,7 +8844,7 @@ dynn_irtock3_from_imperator195990={
 }
 dynn_irtock3_from_imperator196002={
 	name = dynn_irtock3_from_imperator196002
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator196008={
 	name = dynn_irtock3_from_imperator196008
@@ -8830,7 +8896,7 @@ dynn_irtock3_from_imperator196039={
 }
 dynn_irtock3_from_imperator196040={
 	name = dynn_irtock3_from_imperator196040
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator196041={
 	name = dynn_irtock3_from_imperator196041
@@ -8862,7 +8928,7 @@ dynn_irtock3_from_imperator196069={
 }
 dynn_irtock3_from_imperator196075={
 	name = dynn_irtock3_from_imperator196075
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator196080={
 	name = dynn_irtock3_from_imperator196080
@@ -9006,7 +9072,7 @@ dynn_irtock3_from_imperator196243={
 }
 dynn_irtock3_from_imperator196257={
 	name = dynn_irtock3_from_imperator196257
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator196263={
 	name = dynn_irtock3_from_imperator196263
@@ -9090,7 +9156,7 @@ dynn_irtock3_from_imperator196420={
 }
 dynn_irtock3_from_imperator196421={
 	name = dynn_irtock3_from_imperator196421
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator196422={
 	name = dynn_irtock3_from_imperator196422
@@ -9162,7 +9228,7 @@ dynn_irtock3_from_imperator196485={
 }
 dynn_irtock3_from_imperator196489={
 	name = dynn_irtock3_from_imperator196489
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator196498={
 	name = dynn_irtock3_from_imperator196498
@@ -9218,7 +9284,7 @@ dynn_irtock3_from_imperator196561={
 }
 dynn_irtock3_from_imperator196565={
 	name = dynn_irtock3_from_imperator196565
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator196567={
 	name = dynn_irtock3_from_imperator196567
@@ -9242,7 +9308,7 @@ dynn_irtock3_from_imperator196577={
 }
 dynn_irtock3_from_imperator196579={
 	name = dynn_irtock3_from_imperator196579
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator196583={
 	name = dynn_irtock3_from_imperator196583
@@ -9266,7 +9332,7 @@ dynn_irtock3_from_imperator196596={
 }
 dynn_irtock3_from_imperator196604={
 	name = dynn_irtock3_from_imperator196604
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator196605={
 	name = dynn_irtock3_from_imperator196605
@@ -9386,7 +9452,7 @@ dynn_irtock3_from_imperator196781={
 }
 dynn_irtock3_from_imperator196787={
 	name = dynn_irtock3_from_imperator196787
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator196791={
 	name = dynn_irtock3_from_imperator196791
@@ -9402,7 +9468,7 @@ dynn_irtock3_from_imperator196799={
 }
 dynn_irtock3_from_imperator196824={
 	name = dynn_irtock3_from_imperator196824
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator196828={
 	name = dynn_irtock3_from_imperator196828
@@ -9618,7 +9684,7 @@ dynn_irtock3_from_imperator197096={
 }
 dynn_irtock3_from_imperator197098={
 	name = dynn_irtock3_from_imperator197098
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator197103={
 	name = dynn_irtock3_from_imperator197103
@@ -9634,7 +9700,7 @@ dynn_irtock3_from_imperator197117={
 }
 dynn_irtock3_from_imperator197122={
 	name = dynn_irtock3_from_imperator197122
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator197123={
 	name = dynn_irtock3_from_imperator197123
@@ -9658,7 +9724,7 @@ dynn_irtock3_from_imperator197132={
 }
 dynn_irtock3_from_imperator197135={
 	name = dynn_irtock3_from_imperator197135
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator197143={
 	name = dynn_irtock3_from_imperator197143
@@ -9726,7 +9792,7 @@ dynn_irtock3_from_imperator197206={
 }
 dynn_irtock3_from_imperator197212={
 	name = dynn_irtock3_from_imperator197212
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197222={
 	name = dynn_irtock3_from_imperator197222
@@ -9736,13 +9802,13 @@ dynn_irtock3_from_imperator197223={
 	name = dynn_irtock3_from_imperator197223
 	culture = aestian
 }
-dynn_irtock3_from_imperator197229={
-	name = dynn_irtock3_from_imperator197229
+dynn_irtock3_from_imperator197229_0={
+	name = dynn_irtock3_from_imperator197229_0
 	culture = syrian
 }
 dynn_irtock3_from_imperator197231={
 	name = dynn_irtock3_from_imperator197231
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197237={
 	name = dynn_irtock3_from_imperator197237
@@ -9822,11 +9888,11 @@ dynn_irtock3_from_imperator197317={
 }
 dynn_irtock3_from_imperator197320={
 	name = dynn_irtock3_from_imperator197320
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator197321={
 	name = dynn_irtock3_from_imperator197321
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197322={
 	name = dynn_irtock3_from_imperator197322
@@ -9878,7 +9944,7 @@ dynn_irtock3_from_imperator197379={
 }
 dynn_irtock3_from_imperator197381={
 	name = dynn_irtock3_from_imperator197381
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator197397={
 	name = dynn_irtock3_from_imperator197397
@@ -9918,7 +9984,7 @@ dynn_irtock3_from_imperator197446={
 }
 dynn_irtock3_from_imperator197447={
 	name = dynn_irtock3_from_imperator197447
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator197457={
 	name = dynn_irtock3_from_imperator197457
@@ -9942,11 +10008,11 @@ dynn_irtock3_from_imperator197471={
 }
 dynn_irtock3_from_imperator197487={
 	name = dynn_irtock3_from_imperator197487
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197494={
 	name = dynn_irtock3_from_imperator197494
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197502={
 	name = dynn_irtock3_from_imperator197502
@@ -10062,7 +10128,7 @@ dynn_irtock3_from_imperator197693={
 }
 dynn_irtock3_from_imperator197695={
 	name = dynn_irtock3_from_imperator197695
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator197703={
 	name = dynn_irtock3_from_imperator197703
@@ -10082,7 +10148,7 @@ dynn_irtock3_from_imperator197709={
 }
 dynn_irtock3_from_imperator197722={
 	name = dynn_irtock3_from_imperator197722
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197728={
 	name = dynn_irtock3_from_imperator197728
@@ -10094,7 +10160,7 @@ dynn_irtock3_from_imperator197739={
 }
 dynn_irtock3_from_imperator197742={
 	name = dynn_irtock3_from_imperator197742
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator197752={
 	name = dynn_irtock3_from_imperator197752
@@ -10102,7 +10168,7 @@ dynn_irtock3_from_imperator197752={
 }
 dynn_irtock3_from_imperator197759={
 	name = dynn_irtock3_from_imperator197759
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator197760={
 	name = dynn_irtock3_from_imperator197760
@@ -10198,7 +10264,7 @@ dynn_irtock3_from_imperator197869={
 }
 dynn_irtock3_from_imperator197871={
 	name = dynn_irtock3_from_imperator197871
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197879={
 	name = dynn_irtock3_from_imperator197879
@@ -10230,7 +10296,7 @@ dynn_irtock3_from_imperator197890={
 }
 dynn_irtock3_from_imperator197896={
 	name = dynn_irtock3_from_imperator197896
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator197897={
 	name = dynn_irtock3_from_imperator197897
@@ -10238,7 +10304,7 @@ dynn_irtock3_from_imperator197897={
 }
 dynn_irtock3_from_imperator197902={
 	name = dynn_irtock3_from_imperator197902
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator197910={
 	name = dynn_irtock3_from_imperator197910
@@ -10286,7 +10352,7 @@ dynn_irtock3_from_imperator197966={
 }
 dynn_irtock3_from_imperator197982={
 	name = dynn_irtock3_from_imperator197982
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator197993={
 	name = dynn_irtock3_from_imperator197993
@@ -10326,7 +10392,7 @@ dynn_irtock3_from_imperator198008={
 }
 dynn_irtock3_from_imperator198010={
 	name = dynn_irtock3_from_imperator198010
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198018={
 	name = dynn_irtock3_from_imperator198018
@@ -10510,7 +10576,7 @@ dynn_irtock3_from_imperator198356={
 }
 dynn_irtock3_from_imperator198357={
 	name = dynn_irtock3_from_imperator198357
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator198359={
 	name = dynn_irtock3_from_imperator198359
@@ -10530,7 +10596,7 @@ dynn_irtock3_from_imperator198367={
 }
 dynn_irtock3_from_imperator198371={
 	name = dynn_irtock3_from_imperator198371
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator198377={
 	name = dynn_irtock3_from_imperator198377
@@ -10566,7 +10632,7 @@ dynn_irtock3_from_imperator198390={
 }
 dynn_irtock3_from_imperator198393={
 	name = dynn_irtock3_from_imperator198393
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198403={
 	name = dynn_irtock3_from_imperator198403
@@ -10586,7 +10652,7 @@ dynn_irtock3_from_imperator198419={
 }
 dynn_irtock3_from_imperator198426={
 	name = dynn_irtock3_from_imperator198426
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator198428={
 	name = dynn_irtock3_from_imperator198428
@@ -10626,7 +10692,7 @@ dynn_irtock3_from_imperator198460={
 }
 dynn_irtock3_from_imperator198466={
 	name = dynn_irtock3_from_imperator198466
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198479={
 	name = dynn_irtock3_from_imperator198479
@@ -10634,7 +10700,7 @@ dynn_irtock3_from_imperator198479={
 }
 dynn_irtock3_from_imperator198480={
 	name = dynn_irtock3_from_imperator198480
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198483={
 	name = dynn_irtock3_from_imperator198483
@@ -10706,7 +10772,7 @@ dynn_irtock3_from_imperator198533={
 }
 dynn_irtock3_from_imperator198535={
 	name = dynn_irtock3_from_imperator198535
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198538={
 	name = dynn_irtock3_from_imperator198538
@@ -10734,7 +10800,7 @@ dynn_irtock3_from_imperator198555={
 }
 dynn_irtock3_from_imperator198558={
 	name = dynn_irtock3_from_imperator198558
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198561={
 	name = dynn_irtock3_from_imperator198561
@@ -10762,7 +10828,7 @@ dynn_irtock3_from_imperator198576={
 }
 dynn_irtock3_from_imperator198616={
 	name = dynn_irtock3_from_imperator198616
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator198617={
 	name = dynn_irtock3_from_imperator198617
@@ -10794,7 +10860,7 @@ dynn_irtock3_from_imperator198633={
 }
 dynn_irtock3_from_imperator198636={
 	name = dynn_irtock3_from_imperator198636
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator198647={
 	name = dynn_irtock3_from_imperator198647
@@ -10814,7 +10880,7 @@ dynn_irtock3_from_imperator198683={
 }
 dynn_irtock3_from_imperator198685={
 	name = dynn_irtock3_from_imperator198685
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator198691={
 	name = dynn_irtock3_from_imperator198691
@@ -10894,7 +10960,7 @@ dynn_irtock3_from_imperator198793={
 }
 dynn_irtock3_from_imperator198794={
 	name = dynn_irtock3_from_imperator198794
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198799={
 	name = dynn_irtock3_from_imperator198799
@@ -11014,7 +11080,7 @@ dynn_irtock3_from_imperator198932={
 }
 dynn_irtock3_from_imperator198934={
 	name = dynn_irtock3_from_imperator198934
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198939={
 	name = dynn_irtock3_from_imperator198939
@@ -11030,7 +11096,7 @@ dynn_irtock3_from_imperator198942={
 }
 dynn_irtock3_from_imperator198958={
 	name = dynn_irtock3_from_imperator198958
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator198966={
 	name = dynn_irtock3_from_imperator198966
@@ -11050,11 +11116,11 @@ dynn_irtock3_from_imperator198973={
 }
 dynn_irtock3_from_imperator198975={
 	name = dynn_irtock3_from_imperator198975
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198977={
 	name = dynn_irtock3_from_imperator198977
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator198991={
 	name = dynn_irtock3_from_imperator198991
@@ -11062,7 +11128,7 @@ dynn_irtock3_from_imperator198991={
 }
 dynn_irtock3_from_imperator198993={
 	name = dynn_irtock3_from_imperator198993
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator198996={
 	name = dynn_irtock3_from_imperator198996
@@ -11098,7 +11164,7 @@ dynn_irtock3_from_imperator199040={
 }
 dynn_irtock3_from_imperator199044={
 	name = dynn_irtock3_from_imperator199044
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator199048={
 	name = dynn_irtock3_from_imperator199048
@@ -11190,7 +11256,7 @@ dynn_irtock3_from_imperator199127={
 }
 dynn_irtock3_from_imperator199147={
 	name = dynn_irtock3_from_imperator199147
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator199148={
 	name = dynn_irtock3_from_imperator199148
@@ -11198,7 +11264,7 @@ dynn_irtock3_from_imperator199148={
 }
 dynn_irtock3_from_imperator199155={
 	name = dynn_irtock3_from_imperator199155
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator199156={
 	name = dynn_irtock3_from_imperator199156
@@ -11214,11 +11280,11 @@ dynn_irtock3_from_imperator199164={
 }
 dynn_irtock3_from_imperator199165={
 	name = dynn_irtock3_from_imperator199165
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator199184={
 	name = dynn_irtock3_from_imperator199184
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator199187={
 	name = dynn_irtock3_from_imperator199187
@@ -11262,11 +11328,11 @@ dynn_irtock3_from_imperator199225={
 }
 dynn_irtock3_from_imperator199227={
 	name = dynn_irtock3_from_imperator199227
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199228={
 	name = dynn_irtock3_from_imperator199228
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199245={
 	name = dynn_irtock3_from_imperator199245
@@ -11322,7 +11388,7 @@ dynn_irtock3_from_imperator199353={
 }
 dynn_irtock3_from_imperator199354={
 	name = dynn_irtock3_from_imperator199354
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator199357={
 	name = dynn_irtock3_from_imperator199357
@@ -11354,7 +11420,7 @@ dynn_irtock3_from_imperator199387={
 }
 dynn_irtock3_from_imperator199388={
 	name = dynn_irtock3_from_imperator199388
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator199389={
 	name = dynn_irtock3_from_imperator199389
@@ -11454,7 +11520,7 @@ dynn_irtock3_from_imperator199470={
 }
 dynn_irtock3_from_imperator199510={
 	name = dynn_irtock3_from_imperator199510
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator199517={
 	name = dynn_irtock3_from_imperator199517
@@ -11470,7 +11536,7 @@ dynn_irtock3_from_imperator199532={
 }
 dynn_irtock3_from_imperator199545={
 	name = dynn_irtock3_from_imperator199545
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199546={
 	name = dynn_irtock3_from_imperator199546
@@ -11478,7 +11544,7 @@ dynn_irtock3_from_imperator199546={
 }
 dynn_irtock3_from_imperator199547={
 	name = dynn_irtock3_from_imperator199547
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199554={
 	name = dynn_irtock3_from_imperator199554
@@ -11538,11 +11604,11 @@ dynn_irtock3_from_imperator199637={
 }
 dynn_irtock3_from_imperator199642={
 	name = dynn_irtock3_from_imperator199642
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator199652={
 	name = dynn_irtock3_from_imperator199652
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199663={
 	name = dynn_irtock3_from_imperator199663
@@ -11590,7 +11656,7 @@ dynn_irtock3_from_imperator199681={
 }
 dynn_irtock3_from_imperator199682={
 	name = dynn_irtock3_from_imperator199682
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199695={
 	name = dynn_irtock3_from_imperator199695
@@ -11666,7 +11732,7 @@ dynn_irtock3_from_imperator199783={
 }
 dynn_irtock3_from_imperator199798={
 	name = dynn_irtock3_from_imperator199798
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator199800={
 	name = dynn_irtock3_from_imperator199800
@@ -11778,7 +11844,7 @@ dynn_irtock3_from_imperator199964={
 }
 dynn_irtock3_from_imperator199969={
 	name = dynn_irtock3_from_imperator199969
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator199996={
 	name = dynn_irtock3_from_imperator199996
@@ -11830,7 +11896,7 @@ dynn_irtock3_from_imperator200067={
 }
 dynn_irtock3_from_imperator200068={
 	name = dynn_irtock3_from_imperator200068
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator200069={
 	name = dynn_irtock3_from_imperator200069
@@ -11858,7 +11924,7 @@ dynn_irtock3_from_imperator200082={
 }
 dynn_irtock3_from_imperator200084={
 	name = dynn_irtock3_from_imperator200084
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator200087={
 	name = dynn_irtock3_from_imperator200087
@@ -11918,7 +11984,7 @@ dynn_irtock3_from_imperator200135={
 }
 dynn_irtock3_from_imperator200139={
 	name = dynn_irtock3_from_imperator200139
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator200144={
 	name = dynn_irtock3_from_imperator200144
@@ -12006,7 +12072,7 @@ dynn_irtock3_from_imperator200206={
 }
 dynn_irtock3_from_imperator200207={
 	name = dynn_irtock3_from_imperator200207
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator200222={
 	name = dynn_irtock3_from_imperator200222
@@ -12014,7 +12080,7 @@ dynn_irtock3_from_imperator200222={
 }
 dynn_irtock3_from_imperator200227={
 	name = dynn_irtock3_from_imperator200227
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator200228={
 	name = dynn_irtock3_from_imperator200228
@@ -12026,7 +12092,7 @@ dynn_irtock3_from_imperator200230={
 }
 dynn_irtock3_from_imperator200233={
 	name = dynn_irtock3_from_imperator200233
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator200234={
 	name = dynn_irtock3_from_imperator200234
@@ -12142,7 +12208,7 @@ dynn_irtock3_from_imperator200384={
 }
 dynn_irtock3_from_imperator200387={
 	name = dynn_irtock3_from_imperator200387
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator200388={
 	name = dynn_irtock3_from_imperator200388
@@ -12270,7 +12336,7 @@ dynn_irtock3_from_imperator200516={
 }
 dynn_irtock3_from_imperator200518={
 	name = dynn_irtock3_from_imperator200518
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator200519={
 	name = dynn_irtock3_from_imperator200519
@@ -12386,15 +12452,15 @@ dynn_irtock3_from_imperator200614={
 }
 dynn_irtock3_from_imperator200615={
 	name = dynn_irtock3_from_imperator200615
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator200618={
 	name = dynn_irtock3_from_imperator200618
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator200619={
 	name = dynn_irtock3_from_imperator200619
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator200625={
 	name = dynn_irtock3_from_imperator200625
@@ -12438,7 +12504,7 @@ dynn_irtock3_from_imperator200647={
 }
 dynn_irtock3_from_imperator200655={
 	name = dynn_irtock3_from_imperator200655
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator200658={
 	name = dynn_irtock3_from_imperator200658
@@ -12498,7 +12564,7 @@ dynn_irtock3_from_imperator200732={
 }
 dynn_irtock3_from_imperator200740={
 	name = dynn_irtock3_from_imperator200740
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator200742={
 	name = dynn_irtock3_from_imperator200742
@@ -12530,7 +12596,7 @@ dynn_irtock3_from_imperator200788={
 }
 dynn_irtock3_from_imperator200789={
 	name = dynn_irtock3_from_imperator200789
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator200795={
 	name = dynn_irtock3_from_imperator200795
@@ -12658,7 +12724,7 @@ dynn_irtock3_from_imperator200941={
 }
 dynn_irtock3_from_imperator200942={
 	name = dynn_irtock3_from_imperator200942
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator200952={
 	name = dynn_irtock3_from_imperator200952
@@ -12714,7 +12780,7 @@ dynn_irtock3_from_imperator200985={
 }
 dynn_irtock3_from_imperator201006={
 	name = dynn_irtock3_from_imperator201006
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201009={
 	name = dynn_irtock3_from_imperator201009
@@ -12882,15 +12948,15 @@ dynn_irtock3_from_imperator201236={
 }
 dynn_irtock3_from_imperator201241={
 	name = dynn_irtock3_from_imperator201241
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201243={
 	name = dynn_irtock3_from_imperator201243
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201244={
 	name = dynn_irtock3_from_imperator201244
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201278={
 	name = dynn_irtock3_from_imperator201278
@@ -12918,7 +12984,7 @@ dynn_irtock3_from_imperator201301={
 }
 dynn_irtock3_from_imperator201314={
 	name = dynn_irtock3_from_imperator201314
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201315={
 	name = dynn_irtock3_from_imperator201315
@@ -12946,11 +13012,11 @@ dynn_irtock3_from_imperator201333={
 }
 dynn_irtock3_from_imperator201336={
 	name = dynn_irtock3_from_imperator201336
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201340={
 	name = dynn_irtock3_from_imperator201340
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator201346={
 	name = dynn_irtock3_from_imperator201346
@@ -13190,7 +13256,7 @@ dynn_irtock3_from_imperator201682={
 }
 dynn_irtock3_from_imperator201685={
 	name = dynn_irtock3_from_imperator201685
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201691={
 	name = dynn_irtock3_from_imperator201691
@@ -13230,15 +13296,15 @@ dynn_irtock3_from_imperator201730={
 }
 dynn_irtock3_from_imperator201731={
 	name = dynn_irtock3_from_imperator201731
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator201740={
 	name = dynn_irtock3_from_imperator201740
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator201741={
 	name = dynn_irtock3_from_imperator201741
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator201742={
 	name = dynn_irtock3_from_imperator201742
@@ -13254,7 +13320,7 @@ dynn_irtock3_from_imperator201768={
 }
 dynn_irtock3_from_imperator201777={
 	name = dynn_irtock3_from_imperator201777
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator201784={
 	name = dynn_irtock3_from_imperator201784
@@ -13330,11 +13396,11 @@ dynn_irtock3_from_imperator201841={
 }
 dynn_irtock3_from_imperator201843={
 	name = dynn_irtock3_from_imperator201843
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator201849={
 	name = dynn_irtock3_from_imperator201849
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201851={
 	name = dynn_irtock3_from_imperator201851
@@ -13358,15 +13424,15 @@ dynn_irtock3_from_imperator201868={
 }
 dynn_irtock3_from_imperator201869={
 	name = dynn_irtock3_from_imperator201869
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201870={
 	name = dynn_irtock3_from_imperator201870
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201872={
 	name = dynn_irtock3_from_imperator201872
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator201899={
 	name = dynn_irtock3_from_imperator201899
@@ -13414,7 +13480,7 @@ dynn_irtock3_from_imperator201944={
 }
 dynn_irtock3_from_imperator201952={
 	name = dynn_irtock3_from_imperator201952
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator201964={
 	name = dynn_irtock3_from_imperator201964
@@ -13570,7 +13636,7 @@ dynn_irtock3_from_imperator202115={
 }
 dynn_irtock3_from_imperator202119={
 	name = dynn_irtock3_from_imperator202119
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202132={
 	name = dynn_irtock3_from_imperator202132
@@ -13606,11 +13672,11 @@ dynn_irtock3_from_imperator202174={
 }
 dynn_irtock3_from_imperator202203={
 	name = dynn_irtock3_from_imperator202203
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202205={
 	name = dynn_irtock3_from_imperator202205
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator202206={
 	name = dynn_irtock3_from_imperator202206
@@ -13626,7 +13692,7 @@ dynn_irtock3_from_imperator202216={
 }
 dynn_irtock3_from_imperator202218={
 	name = dynn_irtock3_from_imperator202218
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202220={
 	name = dynn_irtock3_from_imperator202220
@@ -13654,7 +13720,7 @@ dynn_irtock3_from_imperator202230={
 }
 dynn_irtock3_from_imperator202235={
 	name = dynn_irtock3_from_imperator202235
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202244={
 	name = dynn_irtock3_from_imperator202244
@@ -13690,7 +13756,7 @@ dynn_irtock3_from_imperator202260={
 }
 dynn_irtock3_from_imperator202283={
 	name = dynn_irtock3_from_imperator202283
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202288={
 	name = dynn_irtock3_from_imperator202288
@@ -13842,11 +13908,11 @@ dynn_irtock3_from_imperator202466={
 }
 dynn_irtock3_from_imperator202468={
 	name = dynn_irtock3_from_imperator202468
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator202470={
 	name = dynn_irtock3_from_imperator202470
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator202472={
 	name = dynn_irtock3_from_imperator202472
@@ -13878,7 +13944,7 @@ dynn_irtock3_from_imperator202487={
 }
 dynn_irtock3_from_imperator202497={
 	name = dynn_irtock3_from_imperator202497
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202506={
 	name = dynn_irtock3_from_imperator202506
@@ -13894,7 +13960,7 @@ dynn_irtock3_from_imperator202508={
 }
 dynn_irtock3_from_imperator202511={
 	name = dynn_irtock3_from_imperator202511
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202512={
 	name = dynn_irtock3_from_imperator202512
@@ -13954,7 +14020,7 @@ dynn_irtock3_from_imperator202593={
 }
 dynn_irtock3_from_imperator202594={
 	name = dynn_irtock3_from_imperator202594
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator202596={
 	name = dynn_irtock3_from_imperator202596
@@ -13966,7 +14032,7 @@ dynn_irtock3_from_imperator202604={
 }
 dynn_irtock3_from_imperator202607={
 	name = dynn_irtock3_from_imperator202607
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202612={
 	name = dynn_irtock3_from_imperator202612
@@ -13978,7 +14044,7 @@ dynn_irtock3_from_imperator202614={
 }
 dynn_irtock3_from_imperator202620={
 	name = dynn_irtock3_from_imperator202620
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202625={
 	name = dynn_irtock3_from_imperator202625
@@ -14002,7 +14068,7 @@ dynn_irtock3_from_imperator202633={
 }
 dynn_irtock3_from_imperator202635={
 	name = dynn_irtock3_from_imperator202635
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202644={
 	name = dynn_irtock3_from_imperator202644
@@ -14078,7 +14144,7 @@ dynn_irtock3_from_imperator202717={
 }
 dynn_irtock3_from_imperator202719={
 	name = dynn_irtock3_from_imperator202719
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator202724={
 	name = dynn_irtock3_from_imperator202724
@@ -14110,11 +14176,11 @@ dynn_irtock3_from_imperator202741={
 }
 dynn_irtock3_from_imperator202742={
 	name = dynn_irtock3_from_imperator202742
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator202749={
 	name = dynn_irtock3_from_imperator202749
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202752={
 	name = dynn_irtock3_from_imperator202752
@@ -14158,7 +14224,7 @@ dynn_irtock3_from_imperator202771={
 }
 dynn_irtock3_from_imperator202772={
 	name = dynn_irtock3_from_imperator202772
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202780={
 	name = dynn_irtock3_from_imperator202780
@@ -14206,7 +14272,7 @@ dynn_irtock3_from_imperator202884={
 }
 dynn_irtock3_from_imperator202893={
 	name = dynn_irtock3_from_imperator202893
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202894={
 	name = dynn_irtock3_from_imperator202894
@@ -14218,7 +14284,7 @@ dynn_irtock3_from_imperator202899={
 }
 dynn_irtock3_from_imperator202902={
 	name = dynn_irtock3_from_imperator202902
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator202905={
 	name = dynn_irtock3_from_imperator202905
@@ -14274,7 +14340,7 @@ dynn_irtock3_from_imperator202946={
 }
 dynn_irtock3_from_imperator202948={
 	name = dynn_irtock3_from_imperator202948
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator202949={
 	name = dynn_irtock3_from_imperator202949
@@ -14406,15 +14472,15 @@ dynn_irtock3_from_imperator203103={
 }
 dynn_irtock3_from_imperator203128={
 	name = dynn_irtock3_from_imperator203128
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator203131={
 	name = dynn_irtock3_from_imperator203131
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203132={
 	name = dynn_irtock3_from_imperator203132
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203142={
 	name = dynn_irtock3_from_imperator203142
@@ -14430,7 +14496,7 @@ dynn_irtock3_from_imperator203145={
 }
 dynn_irtock3_from_imperator203151={
 	name = dynn_irtock3_from_imperator203151
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203154={
 	name = dynn_irtock3_from_imperator203154
@@ -14450,11 +14516,11 @@ dynn_irtock3_from_imperator203161={
 }
 dynn_irtock3_from_imperator203163={
 	name = dynn_irtock3_from_imperator203163
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203165={
 	name = dynn_irtock3_from_imperator203165
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203175={
 	name = dynn_irtock3_from_imperator203175
@@ -14482,7 +14548,7 @@ dynn_irtock3_from_imperator203193={
 }
 dynn_irtock3_from_imperator203216={
 	name = dynn_irtock3_from_imperator203216
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203217={
 	name = dynn_irtock3_from_imperator203217
@@ -14522,7 +14588,7 @@ dynn_irtock3_from_imperator203260={
 }
 dynn_irtock3_from_imperator203271={
 	name = dynn_irtock3_from_imperator203271
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator203273={
 	name = dynn_irtock3_from_imperator203273
@@ -14658,7 +14724,7 @@ dynn_irtock3_from_imperator203439={
 }
 dynn_irtock3_from_imperator203471={
 	name = dynn_irtock3_from_imperator203471
-	culture = sicilian
+	culture = roman
 }
 dynn_irtock3_from_imperator203472={
 	name = dynn_irtock3_from_imperator203472
@@ -14754,11 +14820,11 @@ dynn_irtock3_from_imperator203546={
 }
 dynn_irtock3_from_imperator203548={
 	name = dynn_irtock3_from_imperator203548
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203549={
 	name = dynn_irtock3_from_imperator203549
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203625={
 	name = dynn_irtock3_from_imperator203625
@@ -14766,7 +14832,7 @@ dynn_irtock3_from_imperator203625={
 }
 dynn_irtock3_from_imperator203632={
 	name = dynn_irtock3_from_imperator203632
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator203633={
 	name = dynn_irtock3_from_imperator203633
@@ -14834,1959 +14900,1959 @@ dynn_irtock3_from_imperator203707={
 }
 dynn_irtock3_from_imperator203775={
 	name = dynn_irtock3_from_imperator203775
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203776={
 	name = dynn_irtock3_from_imperator203776
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203777={
 	name = dynn_irtock3_from_imperator203777
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203778={
 	name = dynn_irtock3_from_imperator203778
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203779={
 	name = dynn_irtock3_from_imperator203779
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203780={
 	name = dynn_irtock3_from_imperator203780
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203781={
 	name = dynn_irtock3_from_imperator203781
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203782={
 	name = dynn_irtock3_from_imperator203782
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203791={
 	name = dynn_irtock3_from_imperator203791
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203800={
 	name = dynn_irtock3_from_imperator203800
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203801={
 	name = dynn_irtock3_from_imperator203801
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203802={
 	name = dynn_irtock3_from_imperator203802
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203803={
 	name = dynn_irtock3_from_imperator203803
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203804={
 	name = dynn_irtock3_from_imperator203804
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203805={
 	name = dynn_irtock3_from_imperator203805
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203806={
 	name = dynn_irtock3_from_imperator203806
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203825={
 	name = dynn_irtock3_from_imperator203825
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203826={
 	name = dynn_irtock3_from_imperator203826
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203827={
 	name = dynn_irtock3_from_imperator203827
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203828={
 	name = dynn_irtock3_from_imperator203828
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203829={
 	name = dynn_irtock3_from_imperator203829
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203830={
 	name = dynn_irtock3_from_imperator203830
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203831={
 	name = dynn_irtock3_from_imperator203831
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203832={
 	name = dynn_irtock3_from_imperator203832
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203841={
 	name = dynn_irtock3_from_imperator203841
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203858={
 	name = dynn_irtock3_from_imperator203858
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203859={
 	name = dynn_irtock3_from_imperator203859
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203860={
 	name = dynn_irtock3_from_imperator203860
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203861={
 	name = dynn_irtock3_from_imperator203861
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203862={
 	name = dynn_irtock3_from_imperator203862
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203863={
 	name = dynn_irtock3_from_imperator203863
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203864={
 	name = dynn_irtock3_from_imperator203864
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203882={
 	name = dynn_irtock3_from_imperator203882
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203883={
 	name = dynn_irtock3_from_imperator203883
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203884={
 	name = dynn_irtock3_from_imperator203884
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203885={
 	name = dynn_irtock3_from_imperator203885
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203886={
 	name = dynn_irtock3_from_imperator203886
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203887={
 	name = dynn_irtock3_from_imperator203887
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203888={
 	name = dynn_irtock3_from_imperator203888
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203889={
 	name = dynn_irtock3_from_imperator203889
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203892={
 	name = dynn_irtock3_from_imperator203892
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203893={
 	name = dynn_irtock3_from_imperator203893
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203894={
 	name = dynn_irtock3_from_imperator203894
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203895={
 	name = dynn_irtock3_from_imperator203895
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203896={
 	name = dynn_irtock3_from_imperator203896
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203897={
 	name = dynn_irtock3_from_imperator203897
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203898={
 	name = dynn_irtock3_from_imperator203898
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203899={
 	name = dynn_irtock3_from_imperator203899
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203916={
 	name = dynn_irtock3_from_imperator203916
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203917={
 	name = dynn_irtock3_from_imperator203917
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203918={
 	name = dynn_irtock3_from_imperator203918
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203919={
 	name = dynn_irtock3_from_imperator203919
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203920={
 	name = dynn_irtock3_from_imperator203920
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203921={
 	name = dynn_irtock3_from_imperator203921
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203922={
 	name = dynn_irtock3_from_imperator203922
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203923={
 	name = dynn_irtock3_from_imperator203923
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203941={
 	name = dynn_irtock3_from_imperator203941
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203950={
 	name = dynn_irtock3_from_imperator203950
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203951={
 	name = dynn_irtock3_from_imperator203951
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203952={
 	name = dynn_irtock3_from_imperator203952
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203953={
 	name = dynn_irtock3_from_imperator203953
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203954={
 	name = dynn_irtock3_from_imperator203954
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203955={
 	name = dynn_irtock3_from_imperator203955
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203956={
 	name = dynn_irtock3_from_imperator203956
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203982={
 	name = dynn_irtock3_from_imperator203982
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203983={
 	name = dynn_irtock3_from_imperator203983
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203984={
 	name = dynn_irtock3_from_imperator203984
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203985={
 	name = dynn_irtock3_from_imperator203985
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203986={
 	name = dynn_irtock3_from_imperator203986
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203987={
 	name = dynn_irtock3_from_imperator203987
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203988={
 	name = dynn_irtock3_from_imperator203988
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator203989={
 	name = dynn_irtock3_from_imperator203989
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204000={
 	name = dynn_irtock3_from_imperator204000
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204001={
 	name = dynn_irtock3_from_imperator204001
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204002={
 	name = dynn_irtock3_from_imperator204002
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204003={
 	name = dynn_irtock3_from_imperator204003
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204004={
 	name = dynn_irtock3_from_imperator204004
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204005={
 	name = dynn_irtock3_from_imperator204005
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204006={
 	name = dynn_irtock3_from_imperator204006
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204007={
 	name = dynn_irtock3_from_imperator204007
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204017={
 	name = dynn_irtock3_from_imperator204017
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204018={
 	name = dynn_irtock3_from_imperator204018
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204019={
 	name = dynn_irtock3_from_imperator204019
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204020={
 	name = dynn_irtock3_from_imperator204020
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204021={
 	name = dynn_irtock3_from_imperator204021
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204022={
 	name = dynn_irtock3_from_imperator204022
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204023={
 	name = dynn_irtock3_from_imperator204023
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204024={
 	name = dynn_irtock3_from_imperator204024
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204041={
 	name = dynn_irtock3_from_imperator204041
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204058={
 	name = dynn_irtock3_from_imperator204058
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204059={
 	name = dynn_irtock3_from_imperator204059
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204060={
 	name = dynn_irtock3_from_imperator204060
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204061={
 	name = dynn_irtock3_from_imperator204061
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204062={
 	name = dynn_irtock3_from_imperator204062
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204063={
 	name = dynn_irtock3_from_imperator204063
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204064={
 	name = dynn_irtock3_from_imperator204064
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204066={
 	name = dynn_irtock3_from_imperator204066
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204075={
 	name = dynn_irtock3_from_imperator204075
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204076={
 	name = dynn_irtock3_from_imperator204076
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204077={
 	name = dynn_irtock3_from_imperator204077
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204078={
 	name = dynn_irtock3_from_imperator204078
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204079={
 	name = dynn_irtock3_from_imperator204079
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204080={
 	name = dynn_irtock3_from_imperator204080
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204081={
 	name = dynn_irtock3_from_imperator204081
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204092={
 	name = dynn_irtock3_from_imperator204092
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204093={
 	name = dynn_irtock3_from_imperator204093
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204094={
 	name = dynn_irtock3_from_imperator204094
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204095={
 	name = dynn_irtock3_from_imperator204095
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204096={
 	name = dynn_irtock3_from_imperator204096
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204097={
 	name = dynn_irtock3_from_imperator204097
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204098={
 	name = dynn_irtock3_from_imperator204098
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204099={
 	name = dynn_irtock3_from_imperator204099
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204124={
 	name = dynn_irtock3_from_imperator204124
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204125={
 	name = dynn_irtock3_from_imperator204125
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204126={
 	name = dynn_irtock3_from_imperator204126
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204127={
 	name = dynn_irtock3_from_imperator204127
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204128={
 	name = dynn_irtock3_from_imperator204128
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204129={
 	name = dynn_irtock3_from_imperator204129
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204130={
 	name = dynn_irtock3_from_imperator204130
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204131={
 	name = dynn_irtock3_from_imperator204131
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204142={
 	name = dynn_irtock3_from_imperator204142
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204143={
 	name = dynn_irtock3_from_imperator204143
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204144={
 	name = dynn_irtock3_from_imperator204144
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204145={
 	name = dynn_irtock3_from_imperator204145
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204146={
 	name = dynn_irtock3_from_imperator204146
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204147={
 	name = dynn_irtock3_from_imperator204147
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204148={
 	name = dynn_irtock3_from_imperator204148
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204149={
 	name = dynn_irtock3_from_imperator204149
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204166={
 	name = dynn_irtock3_from_imperator204166
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204183={
 	name = dynn_irtock3_from_imperator204183
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204184={
 	name = dynn_irtock3_from_imperator204184
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204185={
 	name = dynn_irtock3_from_imperator204185
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204186={
 	name = dynn_irtock3_from_imperator204186
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204187={
 	name = dynn_irtock3_from_imperator204187
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204188={
 	name = dynn_irtock3_from_imperator204188
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204189={
 	name = dynn_irtock3_from_imperator204189
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204191={
 	name = dynn_irtock3_from_imperator204191
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204208={
 	name = dynn_irtock3_from_imperator204208
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204209={
 	name = dynn_irtock3_from_imperator204209
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204210={
 	name = dynn_irtock3_from_imperator204210
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204211={
 	name = dynn_irtock3_from_imperator204211
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204212={
 	name = dynn_irtock3_from_imperator204212
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204213={
 	name = dynn_irtock3_from_imperator204213
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204214={
 	name = dynn_irtock3_from_imperator204214
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204217={
 	name = dynn_irtock3_from_imperator204217
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204218={
 	name = dynn_irtock3_from_imperator204218
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204219={
 	name = dynn_irtock3_from_imperator204219
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204220={
 	name = dynn_irtock3_from_imperator204220
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204221={
 	name = dynn_irtock3_from_imperator204221
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204222={
 	name = dynn_irtock3_from_imperator204222
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204223={
 	name = dynn_irtock3_from_imperator204223
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204224={
 	name = dynn_irtock3_from_imperator204224
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204242={
 	name = dynn_irtock3_from_imperator204242
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204243={
 	name = dynn_irtock3_from_imperator204243
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204244={
 	name = dynn_irtock3_from_imperator204244
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204245={
 	name = dynn_irtock3_from_imperator204245
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204246={
 	name = dynn_irtock3_from_imperator204246
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204247={
 	name = dynn_irtock3_from_imperator204247
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204248={
 	name = dynn_irtock3_from_imperator204248
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204249={
 	name = dynn_irtock3_from_imperator204249
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204275={
 	name = dynn_irtock3_from_imperator204275
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204276={
 	name = dynn_irtock3_from_imperator204276
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204277={
 	name = dynn_irtock3_from_imperator204277
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204278={
 	name = dynn_irtock3_from_imperator204278
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204279={
 	name = dynn_irtock3_from_imperator204279
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204280={
 	name = dynn_irtock3_from_imperator204280
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204281={
 	name = dynn_irtock3_from_imperator204281
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204282={
 	name = dynn_irtock3_from_imperator204282
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204291={
 	name = dynn_irtock3_from_imperator204291
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204308={
 	name = dynn_irtock3_from_imperator204308
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204309={
 	name = dynn_irtock3_from_imperator204309
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204310={
 	name = dynn_irtock3_from_imperator204310
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204311={
 	name = dynn_irtock3_from_imperator204311
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204312={
 	name = dynn_irtock3_from_imperator204312
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204313={
 	name = dynn_irtock3_from_imperator204313
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204314={
 	name = dynn_irtock3_from_imperator204314
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204316={
 	name = dynn_irtock3_from_imperator204316
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204333={
 	name = dynn_irtock3_from_imperator204333
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204334={
 	name = dynn_irtock3_from_imperator204334
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204335={
 	name = dynn_irtock3_from_imperator204335
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204336={
 	name = dynn_irtock3_from_imperator204336
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204337={
 	name = dynn_irtock3_from_imperator204337
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204338={
 	name = dynn_irtock3_from_imperator204338
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204339={
 	name = dynn_irtock3_from_imperator204339
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204342={
 	name = dynn_irtock3_from_imperator204342
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204343={
 	name = dynn_irtock3_from_imperator204343
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204344={
 	name = dynn_irtock3_from_imperator204344
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204345={
 	name = dynn_irtock3_from_imperator204345
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204346={
 	name = dynn_irtock3_from_imperator204346
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204347={
 	name = dynn_irtock3_from_imperator204347
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204348={
 	name = dynn_irtock3_from_imperator204348
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204349={
 	name = dynn_irtock3_from_imperator204349
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204366={
 	name = dynn_irtock3_from_imperator204366
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204375={
 	name = dynn_irtock3_from_imperator204375
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204376={
 	name = dynn_irtock3_from_imperator204376
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204377={
 	name = dynn_irtock3_from_imperator204377
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204378={
 	name = dynn_irtock3_from_imperator204378
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204379={
 	name = dynn_irtock3_from_imperator204379
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204380={
 	name = dynn_irtock3_from_imperator204380
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204381={
 	name = dynn_irtock3_from_imperator204381
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204391={
 	name = dynn_irtock3_from_imperator204391
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204392={
 	name = dynn_irtock3_from_imperator204392
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204393={
 	name = dynn_irtock3_from_imperator204393
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204394={
 	name = dynn_irtock3_from_imperator204394
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204395={
 	name = dynn_irtock3_from_imperator204395
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204396={
 	name = dynn_irtock3_from_imperator204396
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204397={
 	name = dynn_irtock3_from_imperator204397
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204398={
 	name = dynn_irtock3_from_imperator204398
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204432={
 	name = dynn_irtock3_from_imperator204432
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204433={
 	name = dynn_irtock3_from_imperator204433
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204434={
 	name = dynn_irtock3_from_imperator204434
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204435={
 	name = dynn_irtock3_from_imperator204435
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204436={
 	name = dynn_irtock3_from_imperator204436
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204437={
 	name = dynn_irtock3_from_imperator204437
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204438={
 	name = dynn_irtock3_from_imperator204438
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204439={
 	name = dynn_irtock3_from_imperator204439
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204457={
 	name = dynn_irtock3_from_imperator204457
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204458={
 	name = dynn_irtock3_from_imperator204458
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204459={
 	name = dynn_irtock3_from_imperator204459
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204460={
 	name = dynn_irtock3_from_imperator204460
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204461={
 	name = dynn_irtock3_from_imperator204461
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204462={
 	name = dynn_irtock3_from_imperator204462
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204463={
 	name = dynn_irtock3_from_imperator204463
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204464={
 	name = dynn_irtock3_from_imperator204464
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204482={
 	name = dynn_irtock3_from_imperator204482
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204483={
 	name = dynn_irtock3_from_imperator204483
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204484={
 	name = dynn_irtock3_from_imperator204484
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204485={
 	name = dynn_irtock3_from_imperator204485
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204486={
 	name = dynn_irtock3_from_imperator204486
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204487={
 	name = dynn_irtock3_from_imperator204487
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204488={
 	name = dynn_irtock3_from_imperator204488
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204489={
 	name = dynn_irtock3_from_imperator204489
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204491={
 	name = dynn_irtock3_from_imperator204491
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204492={
 	name = dynn_irtock3_from_imperator204492
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204493={
 	name = dynn_irtock3_from_imperator204493
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204494={
 	name = dynn_irtock3_from_imperator204494
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204495={
 	name = dynn_irtock3_from_imperator204495
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204496={
 	name = dynn_irtock3_from_imperator204496
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204497={
 	name = dynn_irtock3_from_imperator204497
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204498={
 	name = dynn_irtock3_from_imperator204498
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204516={
 	name = dynn_irtock3_from_imperator204516
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204517={
 	name = dynn_irtock3_from_imperator204517
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204518={
 	name = dynn_irtock3_from_imperator204518
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204519={
 	name = dynn_irtock3_from_imperator204519
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204520={
 	name = dynn_irtock3_from_imperator204520
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204521={
 	name = dynn_irtock3_from_imperator204521
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204522={
 	name = dynn_irtock3_from_imperator204522
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204523={
 	name = dynn_irtock3_from_imperator204523
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204549={
 	name = dynn_irtock3_from_imperator204549
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204550={
 	name = dynn_irtock3_from_imperator204550
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204551={
 	name = dynn_irtock3_from_imperator204551
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204552={
 	name = dynn_irtock3_from_imperator204552
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204553={
 	name = dynn_irtock3_from_imperator204553
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204554={
 	name = dynn_irtock3_from_imperator204554
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204555={
 	name = dynn_irtock3_from_imperator204555
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204556={
 	name = dynn_irtock3_from_imperator204556
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204566={
 	name = dynn_irtock3_from_imperator204566
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204575={
 	name = dynn_irtock3_from_imperator204575
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204576={
 	name = dynn_irtock3_from_imperator204576
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204577={
 	name = dynn_irtock3_from_imperator204577
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204578={
 	name = dynn_irtock3_from_imperator204578
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204579={
 	name = dynn_irtock3_from_imperator204579
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204580={
 	name = dynn_irtock3_from_imperator204580
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204581={
 	name = dynn_irtock3_from_imperator204581
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204607={
 	name = dynn_irtock3_from_imperator204607
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204608={
 	name = dynn_irtock3_from_imperator204608
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204609={
 	name = dynn_irtock3_from_imperator204609
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204610={
 	name = dynn_irtock3_from_imperator204610
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204611={
 	name = dynn_irtock3_from_imperator204611
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204612={
 	name = dynn_irtock3_from_imperator204612
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204613={
 	name = dynn_irtock3_from_imperator204613
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204614={
 	name = dynn_irtock3_from_imperator204614
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204616={
 	name = dynn_irtock3_from_imperator204616
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204633={
 	name = dynn_irtock3_from_imperator204633
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204634={
 	name = dynn_irtock3_from_imperator204634
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204635={
 	name = dynn_irtock3_from_imperator204635
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204636={
 	name = dynn_irtock3_from_imperator204636
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204637={
 	name = dynn_irtock3_from_imperator204637
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204638={
 	name = dynn_irtock3_from_imperator204638
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204639={
 	name = dynn_irtock3_from_imperator204639
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204641={
 	name = dynn_irtock3_from_imperator204641
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204642={
 	name = dynn_irtock3_from_imperator204642
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204643={
 	name = dynn_irtock3_from_imperator204643
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204644={
 	name = dynn_irtock3_from_imperator204644
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204645={
 	name = dynn_irtock3_from_imperator204645
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204646={
 	name = dynn_irtock3_from_imperator204646
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204647={
 	name = dynn_irtock3_from_imperator204647
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204648={
 	name = dynn_irtock3_from_imperator204648
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204667={
 	name = dynn_irtock3_from_imperator204667
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204668={
 	name = dynn_irtock3_from_imperator204668
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204669={
 	name = dynn_irtock3_from_imperator204669
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204670={
 	name = dynn_irtock3_from_imperator204670
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204671={
 	name = dynn_irtock3_from_imperator204671
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204672={
 	name = dynn_irtock3_from_imperator204672
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204673={
 	name = dynn_irtock3_from_imperator204673
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204674={
 	name = dynn_irtock3_from_imperator204674
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204699={
 	name = dynn_irtock3_from_imperator204699
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204700={
 	name = dynn_irtock3_from_imperator204700
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204701={
 	name = dynn_irtock3_from_imperator204701
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204702={
 	name = dynn_irtock3_from_imperator204702
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204703={
 	name = dynn_irtock3_from_imperator204703
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204704={
 	name = dynn_irtock3_from_imperator204704
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204705={
 	name = dynn_irtock3_from_imperator204705
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204706={
 	name = dynn_irtock3_from_imperator204706
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204716={
 	name = dynn_irtock3_from_imperator204716
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204725={
 	name = dynn_irtock3_from_imperator204725
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204726={
 	name = dynn_irtock3_from_imperator204726
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204727={
 	name = dynn_irtock3_from_imperator204727
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204728={
 	name = dynn_irtock3_from_imperator204728
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204729={
 	name = dynn_irtock3_from_imperator204729
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204730={
 	name = dynn_irtock3_from_imperator204730
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204731={
 	name = dynn_irtock3_from_imperator204731
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204741={
 	name = dynn_irtock3_from_imperator204741
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204758={
 	name = dynn_irtock3_from_imperator204758
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204759={
 	name = dynn_irtock3_from_imperator204759
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204760={
 	name = dynn_irtock3_from_imperator204760
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204761={
 	name = dynn_irtock3_from_imperator204761
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204762={
 	name = dynn_irtock3_from_imperator204762
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204763={
 	name = dynn_irtock3_from_imperator204763
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204764={
 	name = dynn_irtock3_from_imperator204764
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204782={
 	name = dynn_irtock3_from_imperator204782
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204783={
 	name = dynn_irtock3_from_imperator204783
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204784={
 	name = dynn_irtock3_from_imperator204784
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204785={
 	name = dynn_irtock3_from_imperator204785
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204786={
 	name = dynn_irtock3_from_imperator204786
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204787={
 	name = dynn_irtock3_from_imperator204787
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204788={
 	name = dynn_irtock3_from_imperator204788
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204789={
 	name = dynn_irtock3_from_imperator204789
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204799={
 	name = dynn_irtock3_from_imperator204799
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204800={
 	name = dynn_irtock3_from_imperator204800
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204801={
 	name = dynn_irtock3_from_imperator204801
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204802={
 	name = dynn_irtock3_from_imperator204802
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204803={
 	name = dynn_irtock3_from_imperator204803
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204804={
 	name = dynn_irtock3_from_imperator204804
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204805={
 	name = dynn_irtock3_from_imperator204805
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204806={
 	name = dynn_irtock3_from_imperator204806
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204816={
 	name = dynn_irtock3_from_imperator204816
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204825={
 	name = dynn_irtock3_from_imperator204825
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204826={
 	name = dynn_irtock3_from_imperator204826
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204827={
 	name = dynn_irtock3_from_imperator204827
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204828={
 	name = dynn_irtock3_from_imperator204828
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204829={
 	name = dynn_irtock3_from_imperator204829
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204830={
 	name = dynn_irtock3_from_imperator204830
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204831={
 	name = dynn_irtock3_from_imperator204831
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204841={
 	name = dynn_irtock3_from_imperator204841
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204842={
 	name = dynn_irtock3_from_imperator204842
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204843={
 	name = dynn_irtock3_from_imperator204843
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204844={
 	name = dynn_irtock3_from_imperator204844
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204845={
 	name = dynn_irtock3_from_imperator204845
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204846={
 	name = dynn_irtock3_from_imperator204846
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204847={
 	name = dynn_irtock3_from_imperator204847
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204848={
 	name = dynn_irtock3_from_imperator204848
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204874={
 	name = dynn_irtock3_from_imperator204874
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204875={
 	name = dynn_irtock3_from_imperator204875
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204876={
 	name = dynn_irtock3_from_imperator204876
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204877={
 	name = dynn_irtock3_from_imperator204877
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204878={
 	name = dynn_irtock3_from_imperator204878
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204879={
 	name = dynn_irtock3_from_imperator204879
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204880={
 	name = dynn_irtock3_from_imperator204880
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204881={
 	name = dynn_irtock3_from_imperator204881
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204907={
 	name = dynn_irtock3_from_imperator204907
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204908={
 	name = dynn_irtock3_from_imperator204908
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204909={
 	name = dynn_irtock3_from_imperator204909
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204910={
 	name = dynn_irtock3_from_imperator204910
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204911={
 	name = dynn_irtock3_from_imperator204911
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204912={
 	name = dynn_irtock3_from_imperator204912
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204913={
 	name = dynn_irtock3_from_imperator204913
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204914={
 	name = dynn_irtock3_from_imperator204914
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204916={
 	name = dynn_irtock3_from_imperator204916
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204933={
 	name = dynn_irtock3_from_imperator204933
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204934={
 	name = dynn_irtock3_from_imperator204934
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204935={
 	name = dynn_irtock3_from_imperator204935
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204936={
 	name = dynn_irtock3_from_imperator204936
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204937={
 	name = dynn_irtock3_from_imperator204937
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204938={
 	name = dynn_irtock3_from_imperator204938
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204939={
 	name = dynn_irtock3_from_imperator204939
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204941={
 	name = dynn_irtock3_from_imperator204941
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204942={
 	name = dynn_irtock3_from_imperator204942
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204943={
 	name = dynn_irtock3_from_imperator204943
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204944={
 	name = dynn_irtock3_from_imperator204944
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204945={
 	name = dynn_irtock3_from_imperator204945
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204946={
 	name = dynn_irtock3_from_imperator204946
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204947={
 	name = dynn_irtock3_from_imperator204947
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204948={
 	name = dynn_irtock3_from_imperator204948
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204966={
 	name = dynn_irtock3_from_imperator204966
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204975={
 	name = dynn_irtock3_from_imperator204975
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204976={
 	name = dynn_irtock3_from_imperator204976
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204977={
 	name = dynn_irtock3_from_imperator204977
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204978={
 	name = dynn_irtock3_from_imperator204978
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204979={
 	name = dynn_irtock3_from_imperator204979
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204980={
 	name = dynn_irtock3_from_imperator204980
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204981={
 	name = dynn_irtock3_from_imperator204981
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204992={
 	name = dynn_irtock3_from_imperator204992
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204993={
 	name = dynn_irtock3_from_imperator204993
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204994={
 	name = dynn_irtock3_from_imperator204994
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204995={
 	name = dynn_irtock3_from_imperator204995
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204996={
 	name = dynn_irtock3_from_imperator204996
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204997={
 	name = dynn_irtock3_from_imperator204997
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204998={
 	name = dynn_irtock3_from_imperator204998
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator204999={
 	name = dynn_irtock3_from_imperator204999
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205032={
 	name = dynn_irtock3_from_imperator205032
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205033={
 	name = dynn_irtock3_from_imperator205033
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205034={
 	name = dynn_irtock3_from_imperator205034
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205035={
 	name = dynn_irtock3_from_imperator205035
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205036={
 	name = dynn_irtock3_from_imperator205036
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205037={
 	name = dynn_irtock3_from_imperator205037
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205038={
 	name = dynn_irtock3_from_imperator205038
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205039={
 	name = dynn_irtock3_from_imperator205039
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205050={
 	name = dynn_irtock3_from_imperator205050
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205051={
 	name = dynn_irtock3_from_imperator205051
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205052={
 	name = dynn_irtock3_from_imperator205052
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205053={
 	name = dynn_irtock3_from_imperator205053
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205054={
 	name = dynn_irtock3_from_imperator205054
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205055={
 	name = dynn_irtock3_from_imperator205055
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205056={
 	name = dynn_irtock3_from_imperator205056
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205057={
 	name = dynn_irtock3_from_imperator205057
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205082={
 	name = dynn_irtock3_from_imperator205082
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205083={
 	name = dynn_irtock3_from_imperator205083
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205084={
 	name = dynn_irtock3_from_imperator205084
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205085={
 	name = dynn_irtock3_from_imperator205085
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205086={
 	name = dynn_irtock3_from_imperator205086
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205087={
 	name = dynn_irtock3_from_imperator205087
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205088={
 	name = dynn_irtock3_from_imperator205088
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205089={
 	name = dynn_irtock3_from_imperator205089
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205091={
 	name = dynn_irtock3_from_imperator205091
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205092={
 	name = dynn_irtock3_from_imperator205092
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205093={
 	name = dynn_irtock3_from_imperator205093
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205094={
 	name = dynn_irtock3_from_imperator205094
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205095={
 	name = dynn_irtock3_from_imperator205095
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205096={
 	name = dynn_irtock3_from_imperator205096
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205097={
 	name = dynn_irtock3_from_imperator205097
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205098={
 	name = dynn_irtock3_from_imperator205098
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205117={
 	name = dynn_irtock3_from_imperator205117
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205118={
 	name = dynn_irtock3_from_imperator205118
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205119={
 	name = dynn_irtock3_from_imperator205119
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205120={
 	name = dynn_irtock3_from_imperator205120
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205121={
 	name = dynn_irtock3_from_imperator205121
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205122={
 	name = dynn_irtock3_from_imperator205122
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205123={
 	name = dynn_irtock3_from_imperator205123
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205124={
 	name = dynn_irtock3_from_imperator205124
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205165={
 	name = dynn_irtock3_from_imperator205165
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator205175={
 	name = dynn_irtock3_from_imperator205175
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205176={
 	name = dynn_irtock3_from_imperator205176
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205177={
 	name = dynn_irtock3_from_imperator205177
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205178={
 	name = dynn_irtock3_from_imperator205178
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205179={
 	name = dynn_irtock3_from_imperator205179
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205180={
 	name = dynn_irtock3_from_imperator205180
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205181={
 	name = dynn_irtock3_from_imperator205181
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205182={
 	name = dynn_irtock3_from_imperator205182
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205191={
 	name = dynn_irtock3_from_imperator205191
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205208={
 	name = dynn_irtock3_from_imperator205208
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205209={
 	name = dynn_irtock3_from_imperator205209
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205210={
 	name = dynn_irtock3_from_imperator205210
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205211={
 	name = dynn_irtock3_from_imperator205211
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205212={
 	name = dynn_irtock3_from_imperator205212
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205213={
 	name = dynn_irtock3_from_imperator205213
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205214={
 	name = dynn_irtock3_from_imperator205214
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205232={
 	name = dynn_irtock3_from_imperator205232
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205233={
 	name = dynn_irtock3_from_imperator205233
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205234={
 	name = dynn_irtock3_from_imperator205234
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205235={
 	name = dynn_irtock3_from_imperator205235
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205236={
 	name = dynn_irtock3_from_imperator205236
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205237={
 	name = dynn_irtock3_from_imperator205237
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205238={
 	name = dynn_irtock3_from_imperator205238
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205239={
 	name = dynn_irtock3_from_imperator205239
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205241={
 	name = dynn_irtock3_from_imperator205241
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205242={
 	name = dynn_irtock3_from_imperator205242
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205243={
 	name = dynn_irtock3_from_imperator205243
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205244={
 	name = dynn_irtock3_from_imperator205244
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205245={
 	name = dynn_irtock3_from_imperator205245
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205246={
 	name = dynn_irtock3_from_imperator205246
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205247={
 	name = dynn_irtock3_from_imperator205247
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205248={
 	name = dynn_irtock3_from_imperator205248
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205275={
 	name = dynn_irtock3_from_imperator205275
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205276={
 	name = dynn_irtock3_from_imperator205276
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205277={
 	name = dynn_irtock3_from_imperator205277
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205278={
 	name = dynn_irtock3_from_imperator205278
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205279={
 	name = dynn_irtock3_from_imperator205279
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205280={
 	name = dynn_irtock3_from_imperator205280
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205281={
 	name = dynn_irtock3_from_imperator205281
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205282={
 	name = dynn_irtock3_from_imperator205282
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205292={
 	name = dynn_irtock3_from_imperator205292
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205293={
 	name = dynn_irtock3_from_imperator205293
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205294={
 	name = dynn_irtock3_from_imperator205294
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205295={
 	name = dynn_irtock3_from_imperator205295
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205296={
 	name = dynn_irtock3_from_imperator205296
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205297={
 	name = dynn_irtock3_from_imperator205297
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205298={
 	name = dynn_irtock3_from_imperator205298
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205299={
 	name = dynn_irtock3_from_imperator205299
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205316={
 	name = dynn_irtock3_from_imperator205316
@@ -16822,227 +16888,227 @@ dynn_irtock3_from_imperator205339={
 }
 dynn_irtock3_from_imperator205357={
 	name = dynn_irtock3_from_imperator205357
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205358={
 	name = dynn_irtock3_from_imperator205358
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205359={
 	name = dynn_irtock3_from_imperator205359
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205360={
 	name = dynn_irtock3_from_imperator205360
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205361={
 	name = dynn_irtock3_from_imperator205361
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205362={
 	name = dynn_irtock3_from_imperator205362
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205363={
 	name = dynn_irtock3_from_imperator205363
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205364={
 	name = dynn_irtock3_from_imperator205364
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205366={
 	name = dynn_irtock3_from_imperator205366
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205367={
 	name = dynn_irtock3_from_imperator205367
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205368={
 	name = dynn_irtock3_from_imperator205368
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205369={
 	name = dynn_irtock3_from_imperator205369
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205370={
 	name = dynn_irtock3_from_imperator205370
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205371={
 	name = dynn_irtock3_from_imperator205371
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205372={
 	name = dynn_irtock3_from_imperator205372
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205373={
 	name = dynn_irtock3_from_imperator205373
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205391={
 	name = dynn_irtock3_from_imperator205391
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205392={
 	name = dynn_irtock3_from_imperator205392
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205393={
 	name = dynn_irtock3_from_imperator205393
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205394={
 	name = dynn_irtock3_from_imperator205394
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205395={
 	name = dynn_irtock3_from_imperator205395
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205396={
 	name = dynn_irtock3_from_imperator205396
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205397={
 	name = dynn_irtock3_from_imperator205397
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205398={
 	name = dynn_irtock3_from_imperator205398
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205417={
 	name = dynn_irtock3_from_imperator205417
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205418={
 	name = dynn_irtock3_from_imperator205418
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205419={
 	name = dynn_irtock3_from_imperator205419
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205420={
 	name = dynn_irtock3_from_imperator205420
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205421={
 	name = dynn_irtock3_from_imperator205421
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205422={
 	name = dynn_irtock3_from_imperator205422
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205423={
 	name = dynn_irtock3_from_imperator205423
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205424={
 	name = dynn_irtock3_from_imperator205424
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205441={
 	name = dynn_irtock3_from_imperator205441
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205450={
 	name = dynn_irtock3_from_imperator205450
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205451={
 	name = dynn_irtock3_from_imperator205451
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205452={
 	name = dynn_irtock3_from_imperator205452
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205453={
 	name = dynn_irtock3_from_imperator205453
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205454={
 	name = dynn_irtock3_from_imperator205454
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205455={
 	name = dynn_irtock3_from_imperator205455
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205456={
 	name = dynn_irtock3_from_imperator205456
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205467={
 	name = dynn_irtock3_from_imperator205467
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205468={
 	name = dynn_irtock3_from_imperator205468
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205469={
 	name = dynn_irtock3_from_imperator205469
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205470={
 	name = dynn_irtock3_from_imperator205470
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205471={
 	name = dynn_irtock3_from_imperator205471
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205472={
 	name = dynn_irtock3_from_imperator205472
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205473={
 	name = dynn_irtock3_from_imperator205473
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205474={
 	name = dynn_irtock3_from_imperator205474
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205500={
 	name = dynn_irtock3_from_imperator205500
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205501={
 	name = dynn_irtock3_from_imperator205501
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205502={
 	name = dynn_irtock3_from_imperator205502
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205503={
 	name = dynn_irtock3_from_imperator205503
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205504={
 	name = dynn_irtock3_from_imperator205504
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205505={
 	name = dynn_irtock3_from_imperator205505
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205506={
 	name = dynn_irtock3_from_imperator205506
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205507={
 	name = dynn_irtock3_from_imperator205507
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator205519={
 	name = dynn_irtock3_from_imperator205519
@@ -17050,11 +17116,11 @@ dynn_irtock3_from_imperator205519={
 }
 dynn_irtock3_from_imperator205528={
 	name = dynn_irtock3_from_imperator205528
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205530={
 	name = dynn_irtock3_from_imperator205530
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator205531={
 	name = dynn_irtock3_from_imperator205531
@@ -17250,11 +17316,11 @@ dynn_irtock3_from_imperator206499={
 }
 dynn_irtock3_from_imperator206531={
 	name = dynn_irtock3_from_imperator206531
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator206532={
 	name = dynn_irtock3_from_imperator206532
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator206536={
 	name = dynn_irtock3_from_imperator206536
@@ -17302,11 +17368,11 @@ dynn_irtock3_from_imperator206565={
 }
 dynn_irtock3_from_imperator206591={
 	name = dynn_irtock3_from_imperator206591
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator206592={
 	name = dynn_irtock3_from_imperator206592
-	culture = cisalpine
+	culture = roman
 }
 dynn_irtock3_from_imperator206593={
 	name = dynn_irtock3_from_imperator206593
@@ -17338,15 +17404,15 @@ dynn_irtock3_from_imperator206645={
 }
 dynn_irtock3_from_imperator206661={
 	name = dynn_irtock3_from_imperator206661
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206662={
 	name = dynn_irtock3_from_imperator206662
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206664={
 	name = dynn_irtock3_from_imperator206664
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206665={
 	name = dynn_irtock3_from_imperator206665
@@ -17366,11 +17432,11 @@ dynn_irtock3_from_imperator206691={
 }
 dynn_irtock3_from_imperator206694={
 	name = dynn_irtock3_from_imperator206694
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206697={
 	name = dynn_irtock3_from_imperator206697
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206700={
 	name = dynn_irtock3_from_imperator206700
@@ -17406,7 +17472,7 @@ dynn_irtock3_from_imperator206707={
 }
 dynn_irtock3_from_imperator206724={
 	name = dynn_irtock3_from_imperator206724
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206728={
 	name = dynn_irtock3_from_imperator206728
@@ -17458,7 +17524,7 @@ dynn_irtock3_from_imperator206813={
 }
 dynn_irtock3_from_imperator206815={
 	name = dynn_irtock3_from_imperator206815
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator206816={
 	name = dynn_irtock3_from_imperator206816
@@ -17466,7 +17532,7 @@ dynn_irtock3_from_imperator206816={
 }
 dynn_irtock3_from_imperator206818={
 	name = dynn_irtock3_from_imperator206818
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206819={
 	name = dynn_irtock3_from_imperator206819
@@ -17486,11 +17552,11 @@ dynn_irtock3_from_imperator206822={
 }
 dynn_irtock3_from_imperator206823={
 	name = dynn_irtock3_from_imperator206823
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206824={
 	name = dynn_irtock3_from_imperator206824
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206826={
 	name = dynn_irtock3_from_imperator206826
@@ -17510,27 +17576,27 @@ dynn_irtock3_from_imperator206829={
 }
 dynn_irtock3_from_imperator206831={
 	name = dynn_irtock3_from_imperator206831
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator206832={
 	name = dynn_irtock3_from_imperator206832
-	culture = georgian
+	culture = arran
 }
 dynn_irtock3_from_imperator206833={
 	name = dynn_irtock3_from_imperator206833
-	culture = yemenite
+	culture = hebrew
 }
 dynn_irtock3_from_imperator206834={
 	name = dynn_irtock3_from_imperator206834
-	culture = yemenite
+	culture = hebrew
 }
 dynn_irtock3_from_imperator206836={
 	name = dynn_irtock3_from_imperator206836
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206840={
 	name = dynn_irtock3_from_imperator206840
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206843={
 	name = dynn_irtock3_from_imperator206843
@@ -17562,23 +17628,23 @@ dynn_irtock3_from_imperator206873={
 }
 dynn_irtock3_from_imperator206875={
 	name = dynn_irtock3_from_imperator206875
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206877={
 	name = dynn_irtock3_from_imperator206877
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206879={
 	name = dynn_irtock3_from_imperator206879
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206880={
 	name = dynn_irtock3_from_imperator206880
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206881={
 	name = dynn_irtock3_from_imperator206881
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206891={
 	name = dynn_irtock3_from_imperator206891
@@ -17586,19 +17652,19 @@ dynn_irtock3_from_imperator206891={
 }
 dynn_irtock3_from_imperator206892={
 	name = dynn_irtock3_from_imperator206892
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206893={
 	name = dynn_irtock3_from_imperator206893
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206894={
 	name = dynn_irtock3_from_imperator206894
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206895={
 	name = dynn_irtock3_from_imperator206895
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206899={
 	name = dynn_irtock3_from_imperator206899
@@ -17618,7 +17684,7 @@ dynn_irtock3_from_imperator206902={
 }
 dynn_irtock3_from_imperator206903={
 	name = dynn_irtock3_from_imperator206903
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206904={
 	name = dynn_irtock3_from_imperator206904
@@ -17626,7 +17692,7 @@ dynn_irtock3_from_imperator206904={
 }
 dynn_irtock3_from_imperator206905={
 	name = dynn_irtock3_from_imperator206905
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator206906={
 	name = dynn_irtock3_from_imperator206906
@@ -17642,7 +17708,7 @@ dynn_irtock3_from_imperator206908={
 }
 dynn_irtock3_from_imperator206931={
 	name = dynn_irtock3_from_imperator206931
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206938={
 	name = dynn_irtock3_from_imperator206938
@@ -17666,7 +17732,7 @@ dynn_irtock3_from_imperator206954={
 }
 dynn_irtock3_from_imperator206956={
 	name = dynn_irtock3_from_imperator206956
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206958={
 	name = dynn_irtock3_from_imperator206958
@@ -17674,7 +17740,7 @@ dynn_irtock3_from_imperator206958={
 }
 dynn_irtock3_from_imperator206959={
 	name = dynn_irtock3_from_imperator206959
-	culture = italian
+	culture = roman
 }
 dynn_irtock3_from_imperator206960={
 	name = dynn_irtock3_from_imperator206960
@@ -17698,11 +17764,11 @@ dynn_irtock3_from_imperator206988={
 }
 dynn_irtock3_from_imperator206990={
 	name = dynn_irtock3_from_imperator206990
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206991={
 	name = dynn_irtock3_from_imperator206991
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator206994={
 	name = dynn_irtock3_from_imperator206994
@@ -17730,7 +17796,7 @@ dynn_irtock3_from_imperator207022={
 }
 dynn_irtock3_from_imperator207028={
 	name = dynn_irtock3_from_imperator207028
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator207029={
 	name = dynn_irtock3_from_imperator207029
@@ -17742,7 +17808,7 @@ dynn_irtock3_from_imperator207030={
 }
 dynn_irtock3_from_imperator207032={
 	name = dynn_irtock3_from_imperator207032
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator207034={
 	name = dynn_irtock3_from_imperator207034
@@ -17782,7 +17848,7 @@ dynn_irtock3_from_imperator207079={
 }
 dynn_irtock3_from_imperator207085={
 	name = dynn_irtock3_from_imperator207085
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator207086={
 	name = dynn_irtock3_from_imperator207086
@@ -17822,11 +17888,11 @@ dynn_irtock3_from_imperator207115={
 }
 dynn_irtock3_from_imperator207119={
 	name = dynn_irtock3_from_imperator207119
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator207125={
 	name = dynn_irtock3_from_imperator207125
-	culture = indo_greek
+	culture = indogreek
 }
 dynn_irtock3_from_imperator207127={
 	name = dynn_irtock3_from_imperator207127
@@ -17898,7 +17964,7 @@ dynn_irtock3_from_imperator207210={
 }
 dynn_irtock3_from_imperator218={
 	name = dynn_irtock3_from_imperator218
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator27935={
 	name = dynn_irtock3_from_imperator27935
@@ -17922,7 +17988,7 @@ dynn_irtock3_from_imperator32995={
 }
 dynn_irtock3_from_imperator391={
 	name = dynn_irtock3_from_imperator391
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator47557={
 	name = dynn_irtock3_from_imperator47557
@@ -17934,7 +18000,7 @@ dynn_irtock3_from_imperator515={
 }
 dynn_irtock3_from_imperator539={
 	name = dynn_irtock3_from_imperator539
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator62256={
 	name = dynn_irtock3_from_imperator62256
@@ -17942,7 +18008,7 @@ dynn_irtock3_from_imperator62256={
 }
 dynn_irtock3_from_imperator63379={
 	name = dynn_irtock3_from_imperator63379
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator64633={
 	name = dynn_irtock3_from_imperator64633
@@ -17954,7 +18020,7 @@ dynn_irtock3_from_imperator70564={
 }
 dynn_irtock3_from_imperator71068={
 	name = dynn_irtock3_from_imperator71068
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator71249={
 	name = dynn_irtock3_from_imperator71249
@@ -18014,7 +18080,7 @@ dynn_irtock3_from_imperator84218={
 }
 dynn_irtock3_from_imperator85127={
 	name = dynn_irtock3_from_imperator85127
-	culture = greek
+	culture = hellenic_greek
 }
 dynn_irtock3_from_imperator87046={
 	name = dynn_irtock3_from_imperator87046
@@ -18042,7 +18108,11 @@ dynn_irtock3_from_imperator90984={
 }
 dynn_irtock3_from_imperator92552={
 	name = dynn_irtock3_from_imperator92552
-	culture = greek
+	culture = hellenic_greek
+}
+dynn_irtock3_from_imperator93474={
+	name = dynn_irtock3_from_imperator93474
+	culture = aegyptian
 }
 dynn_irtock3_from_imperator93622={
 	name = dynn_irtock3_from_imperator93622
@@ -18060,6 +18130,14 @@ dynn_irtock3_from_imperator97915={
 	name = dynn_irtock3_from_imperator97915
 	culture = scythian
 }
+dynn_irtock3_from_imperator98511={
+	name = dynn_irtock3_from_imperator98511
+	culture = aegyptian
+}
+dynn_irtock3_from_imperator98838={
+	name = dynn_irtock3_from_imperator98838
+	culture = aegyptian
+}
 dynn_irtock3_from_imperator99712={
 	name = dynn_irtock3_from_imperator99712
 	culture = kolochin
@@ -18067,6 +18145,10 @@ dynn_irtock3_from_imperator99712={
 dynn_Ogiso={
 	name = dynn_Ogiso
 	culture = edo
+}
+eastbavares={
+	name = dynn_eastbavares
+	culture = gaetulian
 }
 easteregg_de_belfort={
 	prefix = dynnp_de
@@ -18077,6 +18159,10 @@ easteregg_de_belfort={
 eckhart={
 	name = dynn_Eckhart
 	culture = franconian
+}
+enqu_dynasty={
+	name = dynn_Enqu
+	culture = tiele
 }
 erwigiana={
 	name = dynn_Erwigiana
@@ -18095,6 +18181,22 @@ flor={
 	prefix = dynnp_de
 	name = Flor
 	culture = catalan
+}
+fornjot_dynasty={
+	name = dynn_Fornjot
+	culture = sitonian
+}
+fufuluo_dynasty={
+	name = dynn_Fufuluo
+	culture = tiele
+}
+fuluo_dynasty={
+	name = dynn_Fuluo
+	culture = tiele
+}
+fuwenhun_dynasty={
+	name = dynn_Fuwenhun
+	culture = tiele
 }
 gabirol={
 	prefix = dynnpat_pre_ibn
@@ -18118,21 +18220,49 @@ gosh={
 	name = dynn_Gosh
 	culture = armenian
 }
+gregorids_dynasty={
+	name = dynn_Gregorids
+	culture = armenian
+}
+gudala={
+	name = dynn_Gudala
+	culture = gaetulian
+}
 halevi={
 	name = dynn_Halevi
 	culture = andalusian
+}
+haloygering_dynasty={
+	name = dynn_Haloygering
+	culture = norse
+}
+hasding={
+	name = dynn_Hasding
+	culture = vandal
 }
 holobolos={
 	name = dynn_Holobolos
 	culture = greek
 }
+hulu={
+	name = dynn_Hulu
+	culture = tiele
+}
+huxae_dynasty={
+	name = dynn_Huxae
+	culture = tiele
+}
+imededeyen={
+	name = dynn_imededeyen
+	culture = tuareg
+}
 jamshid={
 	name = dynn_Jamshid
 	culture = persian
 }
-jejud001={
-	name = dynn_Go
-	culture = jeju
+kan_dynasty={
+	name = dynn_Kan
+	culture = han
 }
 khalduni={
 	name = dynn_khalduni
@@ -18146,14 +18276,30 @@ kydones={
 	name = dynn_Kydones
 	culture = greek
 }
+lakhmid_dynasty={
+	name = dynn_Lakhmid
+	culture = bedouin
+}
 lekapenos={
 	name = dynn_Lekapenos
 	culture = greek
+}
+magyar_placeholder={
+	name = dynn_ZA_polya
+	culture = mogyer
+}
+marcomanni_dynasty={
+	name = dynn_Marcomanni
+	culture = old_suebi
 }
 medici={
 	prefix = dynnp_de
 	name = dynn_Medici
 	culture = italian
+}
+messufa={
+	name = dynn_Messufa
+	culture = gaetulian
 }
 metochites={
 	name = dynn_Metochites
@@ -18228,9 +18374,25 @@ psellos={
 	name = dynn_Psellos
 	culture = greek
 }
+qiang_01={
+	name = dynn_Rrma
+	culture = qiang
+}
+qiang_02={
+	name = dynn_diexi
+	culture = qiang
+}
+quadi_dynasty={
+	name = dynn_Quadi
+	culture = old_suebi
+}
 rabban={
 	name = dynn_Rabban
 	culture = tamil
+}
+rauming_dynasty={
+	name = dynn_Rauming
+	culture = norse
 }
 rode={
 	name = dynn_Rode
@@ -18256,6 +18418,10 @@ shaprut={
 sina={
 	name = dynn_Sina
 	culture = persian
+}
+siqit_dynasty={
+	name = dynn_Siqit
+	culture = tiele
 }
 skallagrimsson={
 	name = dynn_Skallagrimsson
@@ -18286,6 +18452,10 @@ tondaiman={
 	name = dynn_Tondaiman
 	culture = tamil
 }
+tongluo_dynasty={
+	name = dynn_Tongulo
+	culture = tiele
+}
 tudela={
 	prefix = dynnp_of
 	name = dynn_Tudela
@@ -18294,6 +18464,10 @@ tudela={
 tzetzes={
 	name = dynn_Tzetzes
 	culture = greek
+}
+uyghur={
+	name = dynn_Uyghur
+	culture = tiele
 }
 vanity_markovic={
 	name = dynn_markovic
@@ -18318,9 +18492,21 @@ wallace={
 	name = dynn_Wallace
 	culture = scottish
 }
+westbavares={
+	name = dynn_westbavares
+	culture = maurian
+}
 wycliffe={
 	name = dynn_Wycliffe
 	culture = english
+}
+yenisei={
+	name = dynn_yenisei
+	culture = tiele
+}
+yidie_dynasty={
+	name = dynn_Yidie
+	culture = tiele
 }
 yitzchaki={
 	name = dynn_Yitzchaki

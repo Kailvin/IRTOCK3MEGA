@@ -1,5 +1,7 @@
 608={
-	holding = none
+	culture = sarmatian
+	faith = scythian_pagan
+	holding = tribal_holding
 }
 617={
 	culture = alan

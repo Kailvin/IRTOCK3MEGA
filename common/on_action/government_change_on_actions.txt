@@ -17,12 +17,6 @@ on_government_change_start = {
 				}
 			}
 			title:e_byzantium.holder ?= {
-				if = {
-					limit = {
-						has_dlc_feature = roads_to_power
-					}
-					change_government = administrative_government
-				}
 				every_vassal_or_below = {
 					limit = {
 						OR = {
@@ -32,14 +26,26 @@ on_government_change_start = {
 					}
 					if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier > tier_county
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 					}
 					else_if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier > tier_county
 						}
 						change_government = imperial_government
 					}
@@ -61,7 +67,6 @@ on_government_change_start = {
 				}
 			}
 			title:e_persia.holder ?= {
-				change_government = eranshar_government
 				every_vassal_or_below = {
 					limit = {
 						has_government = feudal_government
@@ -78,12 +83,6 @@ on_government_change_start = {
 				}
 			}
 			title:e_western_roman_empire.holder ?= {
-				if = {
-					limit = {
-						has_dlc_feature = roads_to_power
-					}
-					change_government = administrative_government
-				}
 				every_vassal_or_below = {
 					limit = {
 						OR = {
@@ -94,14 +93,26 @@ on_government_change_start = {
 					}
 					if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier > tier_county
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 					}
 					else_if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier > tier_county
 						}
 						change_government = imperial_government
 					}
@@ -121,12 +132,6 @@ on_government_change_start = {
 				}
 			}
 			title:e_roman_empire.holder ?= {
-				if = {
-					limit = {
-						has_dlc_feature = roads_to_power
-					}
-					change_government = administrative_government
-				}
 				every_vassal_or_below = {
 					limit = {
 						OR = {
@@ -137,14 +142,26 @@ on_government_change_start = {
 					}
 					if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier >= tier_duchy
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 					}
 					else_if = {
 						limit = {
-							highest_held_title_tier >= tier_barony
+							highest_held_title_tier >= tier_duchy
 						}
 						change_government = imperial_government
 					}
@@ -155,6 +172,16 @@ on_government_change_start = {
 						change_government = roman_government
 					}
 				}
+			}
+		}
+		if = {
+			limit = {
+				title:e_caspian-pontic_steppe = {
+					is_title_created = yes
+				}
+			}
+			title:e_caspian-pontic_steppe.holder ?= {
+				change_government = nomad_government
 			}
 		}
 		
@@ -221,6 +248,18 @@ on_roman_government_start = {
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 						random_held_title = {
 							limit = {
 								AND = {
@@ -345,6 +384,18 @@ on_roman_government_start = {
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 						random_held_title = {
 							limit = {
 								AND = {
@@ -469,6 +520,18 @@ on_roman_government_start = {
 							has_dlc_feature = roads_to_power
 						}
 						change_government = administrative_government
+						if = {
+							limit = { 
+								NOT = { any_held_title = { is_noble_family_title = yes } } 
+								highest_held_title_tier >= tier_duchy
+							}
+							if = {
+								limit = { is_house_head = no }
+								found_cadet_house_decision_effect = { CHARACTER = root }
+							}
+							create_noble_family_effect = yes
+							domicile ?= { set_up_domicile_estate_effect = yes }
+						}
 						random_held_title = {
 							limit = {
 								AND = {

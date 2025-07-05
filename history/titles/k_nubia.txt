@@ -1,13 +1,44 @@
 k_nubia={
 	361.1.1 = { change_development_level = 4 }
-	413.5.31 = { government = administrative_government holder = imperator200116 liege = e_IRTOCK3_GAR succession_laws = { high_partition_succession_law } }
+	413.5.31 = { government = administrative_government holder = imperator200116 liege = e_IRTOCK3_GAR succession_laws = { appointment_succession_law } }
+}
+d_kush={
+	423.7.6 = { liege = 0 }
+}
+c_meroe={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_shamir={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_abu_hammad={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_kurgus={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_atbara={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_abwab={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 6 }
 }
 d_alwa={
 	423.7.6 = { liege = 0 }
 }
+c_wolqayt={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 5 }
+}
 c_alodia={
 	413.5.31 = { liege = 0 holder = imperator200116 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 4 }
 }
 c_naga={
 	413.5.31 = { liege = 0 holder = imperator200116 }
@@ -26,7 +57,11 @@ c_ushara={
 	423.7.6 = { change_development_level = 6 }
 }
 d_sennar={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_fazughli_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_agaw_meder_holder liege = 0 }
+}
+c_agaw_meder={
+	342.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_agaw_meder_holder liege = 0 change_development_level = 0 }
 }
 c_sennar={
 	413.5.31 = { liege = 0 holder = imperator200116 }
@@ -34,7 +69,7 @@ c_sennar={
 }
 c_fazughli={
 	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_fazughli_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_agaw_meder_holder liege = 0 change_development_level = 0 }
 }
 c_tagali={
 	413.5.31 = { liege = 0 holder = imperator200116 }
@@ -42,5 +77,20 @@ c_tagali={
 }
 c_gumuz={
 	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_fazughli_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_agaw_meder_holder liege = 0 change_development_level = 0 }
+}
+d_kordofan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kordofan_holder liege = 0 }
+}
+c_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
+}
+c_west_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
+}
+c_south_kordofan={
+	360.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kordofan_holder liege = d_kordofan change_development_level = 0 }
 }

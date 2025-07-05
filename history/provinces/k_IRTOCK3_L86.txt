@@ -1,16 +1,7 @@
 1123={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-}
-1144={
-	holding = none
-}
-1157={
-	holding = castle_holding
-}
-1208={
-	holding = none
 }
 1221={
 	holding = none
@@ -19,38 +10,8 @@
 	holding = none
 	terrain = jungle
 }
-1255={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-1256={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-1257={
-	holding = none
-}
 1415={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-7906={
-	holding = city_holding
-}
-7907={
-	holding = city_holding
-}
-7908={
-	holding = none
-}
-7909={
-	holding = city_holding
-}
-7910={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -58,9 +19,8 @@
 	holding = none
 }
 7912={
-	culture = indo_greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
+	300.1.1 = { special_building_slot = kollur_mines_01 }
 }
 7916={
 	holding = castle_holding

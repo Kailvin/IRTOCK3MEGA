@@ -297,6 +297,7 @@ north_indian_struggle.1000 = {
 							geographical_region = world_africa_east
 							geographical_region = world_steppe_tarim
 							geographical_region = world_steppe_east
+							geographical_region = world_steppe_central
 						}
 					}					
 				}
@@ -482,6 +483,7 @@ north_indian_struggle.1002 = {
 							geographical_region = world_africa_east
 							geographical_region = world_steppe_tarim
 							geographical_region = world_steppe_east
+							geographical_region = world_steppe_central
 						}
 					}					
 				}
@@ -671,6 +673,7 @@ north_indian_struggle.1004 = {
 							geographical_region = world_africa_east
 							geographical_region = world_steppe_tarim
 							geographical_region = world_steppe_east
+							geographical_region = world_steppe_central
 						}
 					}					
 				}

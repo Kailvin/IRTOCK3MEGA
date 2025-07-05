@@ -62,60 +62,7 @@
 6345={
 	holding = none
 }
-6346={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-	370.1.1 = { culture = nubian religion = kushitism_pagan }
-}
-6347={
-	holding = none
-}
-6348={
-	holding = city_holding
-}
-6349={
-	holding = none
-}
-6350={
-	holding = city_holding
-}
-6351={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-	400.1.1 = { culture = nubian religion = kushitism_pagan }
-}
-6352={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-	370.1.1 = { culture = nubian religion = kushitism_pagan }
-}
-6353={
-	holding = city_holding
-}
-6354={
-	holding = city_holding
-}
-6355={
-	holding = city_holding
-}
-6356={
-	culture = nubian
-	faith = egyptian_pagan
-	holding = castle_holding
-}
-6357={
-	holding = none
-}
-6358={
-	holding = none
-}
 6359={
-	holding = city_holding
-}
-6360={
 	holding = city_holding
 }
 6361={
@@ -125,36 +72,6 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
-}
-6363={
-	culture = nuragic
-	faith = kushitism_pagan
-	holding = castle_holding
-	100.1.1 = { special_building_slot = pyramids_of_meroe }
-}
-6364={
-	holding = none
-}
-6365={
-	holding = city_holding
-}
-6366={
-	holding = none
-}
-6367={
-	culture = nuragic
-	faith = egyptian_pagan
-	holding = castle_holding
-	370.1.1 = { culture = nubian religion = kushitism_pagan }
-}
-6368={
-	holding = city_holding
-}
-6369={
-	holding = none
-}
-6370={
-	holding = none
 }
 6376={
 	culture = beja
@@ -169,9 +86,6 @@
 }
 6387={
 	holding = city_holding
-}
-6389={
-	holding = none
 }
 6411={
 	holding = city_holding
@@ -190,7 +104,7 @@
 6415={
 	culture = meroitic
 	faith = arabic_pagan
-	holding = none
+	holding = castle_holding
 	370.1.1 = { culture = nubian religion = kushitism_pagan }
 }
 6427={
@@ -198,11 +112,6 @@
 }
 6428={
 	holding = none
-}
-6436={
-	culture = ethiopian
-	faith = kushitism_pagan
-	holding = castle_holding
 }
 6437={
 	culture = nuragic
@@ -220,7 +129,7 @@
 6440={
 	culture = beja
 	faith = egyptian_pagan
-	holding = none
+	holding = castle_holding
 }
 6442={
 	holding = church_holding
@@ -229,9 +138,6 @@
 	holding = city_holding
 }
 6444={
-	holding = none
-}
-6445={
 	holding = none
 }
 6896={

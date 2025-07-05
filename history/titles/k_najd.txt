@@ -1,0 +1,39 @@
+k_najd={
+	423.7.6 = { liege = 0 }
+}
+d_amman={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+c_maab={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_hauran={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_balqa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_jilat={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 0 }
+}
+d_yamama={
+	361.1.1 = { change_development_level = -1 }
+	423.7.6 = { liege = 0 }
+}
+c_yamama={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_al-arid={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { liege = d_IRTOCK3_AX3 holder = imperator193580 change_development_level = 1 }
+}
+c_falaj={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { liege = d_IRTOCK3_AX3 holder = imperator193574 change_development_level = 5 }
+}

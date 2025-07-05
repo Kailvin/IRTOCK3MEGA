@@ -1,6 +1,3 @@
-2079={
-	holding = none
-}
 2080={
 	holding = none
 }
@@ -13,6 +10,11 @@
 	holding = castle_holding
 }
 2084={
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
+}
+2085={
 	culture = galatian
 	faith = nicene
 	holding = castle_holding
@@ -40,9 +42,7 @@
 	holding = castle_holding
 }
 2092={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 2093={
 	holding = none
@@ -80,9 +80,6 @@
 2102={
 	holding = castle_holding
 }
-2103={
-	holding = castle_holding
-}
 2104={
 	culture = galatian
 	faith = nicene
@@ -118,6 +115,7 @@
 	culture = galatian
 	faith = nicene
 	holding = castle_holding
+	361.1.1 = { culture = gallo_roman religion = celto_hellenic_syncretism }
 }
 2113={
 	holding = none
@@ -134,9 +132,7 @@
 	holding = none
 }
 2117={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 2118={
 	culture = galatian
@@ -172,7 +168,9 @@
 	holding = castle_holding
 }
 2127={
-	holding = none
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
 }
 2128={
 	holding = none
@@ -428,9 +426,7 @@
 	holding = castle_holding
 }
 2388={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 2389={
 	holding = none
@@ -451,7 +447,9 @@
 	holding = castle_holding
 }
 2393={
-	holding = none
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
 }
 2394={
 	holding = none
@@ -507,49 +505,16 @@
 2409={
 	holding = church_holding
 }
-2425={
-	holding = church_holding
-}
-2426={
-	holding = none
-}
-2427={
-	holding = church_holding
-}
-2428={
-	culture = old_suebi
-	faith = central_pagan
-	holding = castle_holding
-}
-2429={
-	culture = salian
-	faith = central_pagan
-	holding = castle_holding
-}
-2432={
-	holding = none
-}
 2433={
 	culture = ripurian
 	faith = central_pagan
 	holding = tribal_holding
-}
-2434={
-	holding = none
-}
-2435={
-	holding = none
 }
 2448={
 	holding = none
 }
 2449={
 	holding = none
-}
-2450={
-	culture = galatian
-	faith = nicene
-	holding = castle_holding
 }
 2673={
 	culture = ripurian

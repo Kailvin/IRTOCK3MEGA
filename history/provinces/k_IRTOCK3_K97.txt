@@ -10,7 +10,6 @@
 	culture = macedonian
 	faith = manichean
 	holding = castle_holding
-	special_building_slot = minarets_and_remains_of_jam_01
 }
 4226={
 	holding = none
@@ -97,22 +96,77 @@
 4346={
 	holding = city_holding
 }
-4463={
+4353={
+	holding = church_holding
+}
+4354={
+	holding = castle_holding
+}
+4355={
+	culture = hephthalite
+	faith = tengri_pagan
+	holding = castle_holding
+}
+4356={
 	holding = city_holding
+}
+4357={
+	culture = macedonian
+	faith = manichean
+	holding = castle_holding
+}
+4358={
+	holding = none
+}
+4359={
+	holding = church_holding
+}
+4360={
+	holding = church_holding
+}
+4361={
+	holding = none
+}
+4362={
+	culture = hephthalite
+	faith = tengri_pagan
+	holding = castle_holding
+}
+4363={
+	culture = hephthalite
+	faith = khurmazta
+	holding = castle_holding
+}
+4364={
+	holding = none
+}
+4365={
+	holding = none
+}
+4366={
+	culture = saka
+	faith = tengri_pagan
+	holding = none
+}
+4367={
+	holding = none
+}
+4463={
+	holding = none
 }
 4464={
 	holding = none
 }
 4465={
-	culture = macedonian
-	faith = hellenic_pagan
+	culture = afghan
+	faith = mazdayasna
 	holding = castle_holding
 }
 4466={
 	holding = none
 }
 4467={
-	holding = none
+	holding = castle_holding
 }
 4482={
 	holding = none
@@ -211,4 +265,10 @@
 }
 4516={
 	holding = castle_holding
+}
+7964={
+	holding = none
+}
+7965={
+	holding = none
 }

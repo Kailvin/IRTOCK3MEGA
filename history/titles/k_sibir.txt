@@ -5,47 +5,59 @@ d_sibir={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_sibir_holder government = tribal_government }
 }
 c_sibir={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
 }
 c_tobol={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
 }
 c_belogorje={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
 }
 c_bardak={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_sibir_holder change_development_level = 0 }
 }
 d_ishim={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_ishim_holder government = tribal_government }
 }
 c_ishim={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_ishim_holder change_development_level = 0 }
 }
 c_dolgujar={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_ishim_holder change_development_level = 0 }
 }
 d_tara={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_tara_holder liege = 0 }
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tara_holder government = tribal_government }
 }
 c_tara={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
 }
 c_kazanskoye={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
 }
 c_petropavolsk={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_tara_holder change_development_level = 0 }
 }
 d_lanikaz={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_omsk_holder liege = 0 }
 }
 c_omsk={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
 }
 c_kainsk={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
 }
 c_pavlodar={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_omsk_holder change_development_level = 0 }
 }

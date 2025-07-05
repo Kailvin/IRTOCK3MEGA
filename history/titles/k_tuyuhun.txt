@@ -1,0 +1,51 @@
+k_tuyuhun={
+	417.1.1 = { holder = 247355 }
+}
+d_tuyuhun={
+	417.1.1 = { holder = 247355 }
+}
+c_fuqi={
+	361.1.1 = { change_development_level = 3 }
+	417.1.1 = { holder = 247355 liege = "d_tuyuhun" }
+}
+c_gerqen={
+	417.1.1 = { holder = 247355 liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}
+c_xigortang={
+	417.1.1 = { holder = 247355 liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}
+c_derlenka={
+	284.1.1 = { government = tribal_government }
+	395.1.1 = { government = tribal_government }
+	410.1.1 = { holder = tuyuhun_05 }
+	417.1.1 = { liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}
+c_ulam={
+	284.1.1 = { government = tribal_government }
+	395.1.1 = { government = tribal_government }
+	410.1.1 = { holder = tuyuhun_05 }
+	417.1.1 = { liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}
+c_tuulain={
+	284.1.1 = { government = tribal_government }
+	395.1.1 = { government = tribal_government }
+	410.1.1 = { holder = tuyuhun_05 }
+	417.1.1 = { liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}
+d_xining={
+	284.1.1 = { government = tribal_government }
+	417.1.1 = { holder = 247355 }
+}
+c_xining={
+	417.1.1 = { holder = 247355 liege = "d_xining" }
+	423.7.6 = { change_development_level = 1 }
+}
+c_datong={
+	417.1.1 = { holder = 247355 liege = "d_tuyuhun" }
+	423.7.6 = { change_development_level = 1 }
+}

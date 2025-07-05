@@ -150,6 +150,7 @@ restore_bosporus_effect = {
 		title:c_oleshye = { set_de_jure_liege_title = title:d_crimea }
 		title:c_khortytsia = { set_de_jure_liege_title = title:d_crimea }
 		title:c_tana = { set_de_jure_liege_title = title:d_azov }
+		title:c_kuzeytorg = { set_de_jure_liege_title = title:d_azov }
 		title:c_zichia = { set_de_jure_liege_title = title:d_azov }
 	}
 
@@ -211,13 +212,9 @@ reunite_black_huns_effect = {
 				government_has_flag = government_is_nomadic
 			}
 		}
-		change_government = nomadic_government
+		change_government = nomad_government
 	}
 	
-	if = {
-		limit = { has_realm_law = nomadic_authority_0 }
-		remove_realm_law = nomadic_authority_0
-	}
 	if = {
 		limit = { has_realm_law = nomadic_authority_1 }
 		remove_realm_law = nomadic_authority_1
@@ -226,7 +223,15 @@ reunite_black_huns_effect = {
 		limit = { has_realm_law = nomadic_authority_2 }
 		remove_realm_law = nomadic_authority_2
 	}
-	add_realm_law_skip_effects = nomadic_authority_3
+	if = {
+		limit = { has_realm_law = nomadic_authority_3 }
+		remove_realm_law = nomadic_authority_3
+	}
+	if = {
+		limit = { has_realm_law = nomadic_authority_4 }
+		remove_realm_law = nomadic_authority_4
+	}
+	add_realm_law_skip_effects = nomadic_authority_5
 
 	assert_if = {
 		limit = { NOT = { exists = title:e_hunnic_empire } }

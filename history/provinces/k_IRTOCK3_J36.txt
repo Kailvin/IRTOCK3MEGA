@@ -1,0 +1,36 @@
+542={
+	holding = city_holding
+}
+543={
+	holding = city_holding
+}
+5267={
+	holding = none
+}
+5268={
+	culture = hun
+	faith = manichean
+	holding = city_holding
+	395.1.1 = { religion = arianism }
+}
+5269={
+	culture = sarmatian
+	faith = gothic_pagan
+	holding = castle_holding
+	395.1.1 = { religion = arianism }
+}
+5270={
+	holding = none
+}
+5271={
+	holding = none
+}
+5272={
+	culture = sarmatian
+	faith = gothic_pagan
+	holding = castle_holding
+	395.1.1 = { religion = arianism }
+}
+5273={
+	holding = city_holding
+}

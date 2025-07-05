@@ -1,6 +1,6 @@
 458={
 	culture = illyrian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 459={
@@ -11,7 +11,7 @@
 }
 461={
 	culture = illyrian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 462={
@@ -29,11 +29,13 @@
 	culture = kolochin
 	faith = nicene
 	holding = castle_holding
+	390.1.1 = { religion = jovinian }
 }
 466={
 	culture = illyrian
 	faith = nicene
 	holding = castle_holding
+	395.1.1 = { religion = nicene }
 }
 467={
 	holding = church_holding
@@ -142,13 +144,13 @@
 	holding = city_holding
 }
 3525={
-	holding = church_holding
+	holding = city_holding
 }
 3526={
 	holding = city_holding
 }
 3527={
-	culture = kolochin
+	culture = illyrian
 	faith = nicene
 	holding = castle_holding
 }
@@ -157,7 +159,7 @@
 }
 3529={
 	culture = illyrian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 3530={
@@ -222,6 +224,7 @@
 	culture = illyrian
 	faith = nicene
 	holding = castle_holding
+	390.1.1 = { religion = jovinian }
 }
 3549={
 	holding = church_holding
@@ -233,6 +236,7 @@
 	culture = kolochin
 	faith = nicene
 	holding = castle_holding
+	395.1.1 = { religion = nicene }
 }
 3552={
 	holding = city_holding
@@ -244,6 +248,7 @@
 	culture = illyrian
 	faith = nicene
 	holding = castle_holding
+	390.1.1 = { religion = jovinian }
 }
 3556={
 	holding = church_holding
@@ -291,15 +296,4 @@
 }
 3569={
 	holding = church_holding
-}
-3608={
-	holding = none
-}
-3609={
-	holding = city_holding
-}
-3610={
-	culture = illyrian
-	faith = nicene
-	holding = castle_holding
 }

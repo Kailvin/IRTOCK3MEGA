@@ -8,9 +8,6 @@
 	faith = scythian_pagan
 	holding = none
 }
-591={
-	holding = none
-}
 609={
 	culture = sarmatian
 	faith = scythian_pagan
@@ -29,11 +26,6 @@
 613={
 	holding = none
 }
-614={
-	culture = aestian
-	faith = central_pagan
-	holding = none
-}
 5393={
 	holding = none
 }
@@ -44,6 +36,8 @@
 	holding = none
 }
 5396={
+	culture = aestian
+	faith = central_pagan
 	holding = none
 }
 5397={
@@ -53,6 +47,8 @@
 	holding = none
 }
 5399={
+	culture = aestian
+	faith = central_pagan
 	holding = none
 }
 5400={
@@ -89,9 +85,6 @@
 5409={
 	holding = none
 }
-5411={
-	holding = church_holding
-}
 5412={
 	culture = sarmatian
 	faith = scythian_pagan
@@ -121,6 +114,8 @@
 	holding = none
 }
 5420={
+	culture = sarmatian
+	faith = scythian_pagan
 	holding = none
 }
 5421={
@@ -163,6 +158,8 @@
 	holding = none
 }
 5432={
+	culture = alan
+	faith = scythian_pagan
 	holding = none
 }
 5433={

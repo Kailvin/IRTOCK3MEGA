@@ -1,10 +1,16 @@
 903={
 	holding = city_holding
 }
+1423={
+	culture = tocharian
+	faith = tengri_pagan
+	holding = castle_holding
+}
 4418={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+	400.1.1 = { culture = sogdian }
 }
 4419={
 	holding = none
@@ -50,7 +56,9 @@
 	holding = church_holding
 }
 4432={
-	holding = city_holding
+	culture = alan
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4433={
 	holding = none
@@ -74,4 +82,10 @@
 }
 4439={
 	holding = none
+}
+7216={
+	holding = city_holding
+}
+7217={
+	holding = city_holding
 }

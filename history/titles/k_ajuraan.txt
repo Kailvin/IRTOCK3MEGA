@@ -1,21 +1,27 @@
 k_ajuraan={
+	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 d_west_ajuraan={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_jubba_holder government = tribal_government }
+	423.7.6 = { liege = 0 holder = IRToCK3_c_baydhabo_holder government = tribal_government }
 }
 c_jubba={
-	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 4 }
 }
 c_baydhabo={
-	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+	359.1.1 = { government = city_state_government }
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { holder = IRToCK3_c_baydhabo_holder }
 }
 c_qalaafe={
-	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_baydhabo_holder liege = 0 change_development_level = 0 }
 }
 c_jilib={
-	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+	359.1.1 = { government = city_state_government }
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { holder = IRToCK3_c_baydhabo_holder }
 }
 c_luuq={
-	423.7.6 = { holder = IRToCK3_c_jubba_holder liege = 0 change_development_level = 0 }
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { holder = IRToCK3_c_baydhabo_holder }
 }

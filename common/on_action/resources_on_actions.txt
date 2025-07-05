@@ -5650,6 +5650,14 @@ on_resource_start = {
 				
 				}
 			}
+			title:c_kalif = {
+				add_county_modifier = {
+				modifier = cotton_resources_modifier
+				}
+				title_province = {
+				
+				}
+			}
 			title:c_west-tokharestan = {
 				add_county_modifier = {
 				modifier = cotton_resources_modifier
@@ -5979,6 +5987,14 @@ on_resource_start = {
 				
 				}
 			}
+			title:c_lower_dniepr = {
+				add_county_modifier = {
+				modifier = wine_resources_modifier
+				}
+				title_province = {
+				
+				}
+			}
 			title:c_amstetten = {
 				add_county_modifier = {
 				modifier = wine_resources_modifier
@@ -6052,6 +6068,14 @@ on_resource_start = {
 				
 				}
 			}
+			title:c_besinada = {
+				add_county_modifier = {
+				modifier = iron_resources_modifier
+				}
+				title_province = {
+				
+				}
+			}
 			title:c_sacz = {
 				add_county_modifier = {
 				modifier = iron_resources_modifier
@@ -6086,6 +6110,14 @@ on_resource_start = {
 			}
 			##WOOL
 			title:c_samiran = {
+				add_county_modifier = {
+				modifier = wool_resources_modifier
+				}
+				title_province = {
+				
+				}
+			}
+			title:c_anket = {
 				add_county_modifier = {
 				modifier = wool_resources_modifier
 				}
@@ -6184,6 +6216,14 @@ on_resource_start = {
 				}
 			}
 			title:c_qoshagyl = {
+				add_county_modifier = {
+				modifier = salt_resources_modifier
+				}
+				title_province = {
+				
+				}
+			}
+			title:c_tengiz = {
 				add_county_modifier = {
 				modifier = salt_resources_modifier
 				}

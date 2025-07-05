@@ -2,77 +2,100 @@ k_gyalrong={
 	423.7.6 = { liege = 0 }
 }
 d_gyalrong={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_barkam_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_barkam_holder liege = 0 }
 }
 c_barkam={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 c_ngawa={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 6 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 c_maowun={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 4 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 c_sungqu={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 c_zoige={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 3 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 c_quqen={
-	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_barkam_holder change_development_level = 0 }
 }
 d_chakla={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_chakla_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_chakla_holder liege = 0 }
 }
 c_chakla={
-	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 4 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 0 }
 }
 c_lhagang={
-	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 0 }
 }
 c_dawu={
-	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 3 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 0 }
 }
 c_sertar={
-	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 4 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chakla_holder change_development_level = 0 }
 }
 d_golog={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_maqen_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_maqen_holder liege = 0 }
 }
 c_maqen={
-	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 7 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 0 }
 }
 c_madoi={
-	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_qumarleb" change_development_level = 4 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_qumarleb" change_development_level = 0 }
 }
 c_baima={
-	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 3 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_maqen_holder liege = "d_golog" change_development_level = 0 }
 }
 d_malho={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_rebgong_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_rebgong_holder liege = 0 }
 }
 c_rebgong={
-	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_xining" change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	417.1.1 = { liege = "k_tuyuhun" }
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder change_development_level = 0 }
 }
 c_mangra={
-	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 7 }
+	361.1.1 = { government = tribal_government }
+	417.1.1 = { liege = "k_tuyuhun" }
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 0 }
 }
 c_zekog={
-	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	417.1.1 = { liege = "k_tuyuhun" }
+	423.7.6 = { holder = IRToCK3_c_rebgong_holder liege = "d_malho" change_development_level = 0 }
 }
 d_gainlho={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_jone_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_jone_holder liege = 0 }
 }
 c_jone={
-	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 0 }
 }
 c_sangqu={
-	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 7 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 0 }
 }
 c_tewo={
-	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 3 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_gainlho" change_development_level = 0 }
 }
 c_maqu={
-	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_malho" change_development_level = 5 }
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_jone_holder liege = "d_malho" change_development_level = 0 }
 }

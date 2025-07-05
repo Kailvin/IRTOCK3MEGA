@@ -90,6 +90,10 @@
 	culture = galatian
 	faith = nicene
 	holding = castle_holding
+	395.1.1 = { religion = nicene }
+}
+2151={
+	holding = none
 }
 2193={
 	culture = galatian
@@ -202,7 +206,7 @@
 2223={
 	culture = galatian
 	faith = hellenic_pagan
-	holding = none
+	holding = castle_holding
 }
 2224={
 	holding = none
@@ -327,6 +331,7 @@
 	culture = galatian
 	faith = nicene
 	holding = castle_holding
+	395.1.1 = { religion = nicene }
 }
 2258={
 	holding = none
@@ -392,7 +397,7 @@
 2295={
 	holding = none
 }
-2296={
+2298={
 	holding = none
 }
 2299={

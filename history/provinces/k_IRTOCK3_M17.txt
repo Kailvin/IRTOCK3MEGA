@@ -19,7 +19,7 @@
 	holding = none
 }
 9050={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -33,19 +33,17 @@
 	holding = city_holding
 }
 9090={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = kedarnath_temple_01
 }
 9091={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = badrinath_temple_01
 }
 9092={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -56,9 +54,9 @@
 	holding = city_holding
 }
 9095={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	culture = nepali
+	faith = old_bon
+	holding = none
 }
 9096={
 	holding = castle_holding

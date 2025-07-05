@@ -6,28 +6,41 @@ k_IRTOCK3_K50={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_transcaspiana={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_ustyurt_holder liege = 0 }
+	423.7.6 = { liege = 0 }
 }
 c_mangyshlak={
 	415.11.1 = { liege = 0 holder = imperator201522 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 2 }
 }
-c_garabogazkol={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { change_development_level = 8 }
+c_buzachi={
+	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 2 }
 }
-c_ustyurt={
-	423.7.6 = { holder = IRToCK3_c_ustyurt_holder liege = 0 change_development_level = 0 }
+c_qaraustyurt={
+	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_qyzylustyurt={
+	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 0 }
 }
 d_jemba={
 	423.7.6 = { liege = 0 }
 }
 c_qoshagyl={
 	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_tengiz={
+	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 3 }
 }
 c_akkityk={
 	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_namastau={
+	423.2.20 = { liege = 0 holder = imperator199909 }
 	423.7.6 = { change_development_level = 2 }
 }
 b_kashkarata={
@@ -35,5 +48,9 @@ b_kashkarata={
 }
 c_kos-buwak={
 	423.2.20 = { liege = 0 holder = imperator199909 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_churuk={
+	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 3 }
 }

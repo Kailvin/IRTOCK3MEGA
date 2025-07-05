@@ -1,0 +1,61 @@
+k_IRTOCK3_H42={
+	73.12.29 = { holder = imperator139657 government = feudal_government liege = e_IRTOCK3_SYR }
+	119.12.3 = { holder = imperator139644 government = theocracy_government }
+	124.3.21 = { holder = imperator139643 government = theocracy_government }
+	135.10.20 = { holder = imperator142418 government = theocracy_government }
+	153.1.5 = { holder = imperator140386 government = theocracy_government }
+	159.12.19 = { holder = imperator146125 government = theocracy_government }
+	184.3.23 = { holder = imperator149415 government = theocracy_government }
+	206.2.8 = { holder = imperator154751 government = theocracy_government }
+	235.12.31 = { holder = imperator151861 government = theocracy_government }
+	247.1.24 = { holder = imperator153940 government = theocracy_government }
+	256.6.11 = { holder = imperator161994 government = theocracy_government }
+	289.11.25 = { holder = imperator163807 government = feudal_government }
+	301.7.4 = { holder = imperator172512 government = feudal_government }
+	370.3.29 = { holder = imperator188313 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_verona={
+	361.1.1 = { change_development_level = 7 }
+	423.7.6 = { liege = 0 }
+}
+c_verona={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 9 }
+}
+c_treviso={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { liege = k_IRTOCK3_H42 holder = imperator182998 change_development_level = 5 }
+}
+c_padua={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_polesine={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 14 }
+}
+d_friuli={
+	361.1.1 = { change_development_level = 6 }
+	423.7.6 = { liege = 0 }
+}
+c_aquileia={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_friuli={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_gorz={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_venezia={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_veneto={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { liege = k_IRTOCK3_H42 holder = imperator182998 change_development_level = 6 }
+}

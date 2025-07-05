@@ -1,17 +1,17 @@
 8455={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = oromo
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8457={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8458={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8459={
 	holding = none
@@ -26,8 +26,9 @@
 }
 8473={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = tribal_holding
+	1030.1.1 = { religion = waaqism_pagan }
 }
 8476={
 	holding = none

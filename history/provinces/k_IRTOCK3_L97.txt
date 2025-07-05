@@ -1,16 +1,16 @@
 1140={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = mountain
 }
 1146={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1198={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = hills
@@ -19,32 +19,30 @@
 	holding = none
 }
 1203={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1206={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1212={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1218={
 	holding = city_holding
-	special_building_slot = alampur_jogulamba_temple_01
 }
 1258={
 	holding = castle_holding
 }
 1416={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = mahalakshmi_temple_01
 	terrain = mountain
 }
 7868={
@@ -72,7 +70,7 @@
 	terrain = mountain
 }
 7874={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = mountain
@@ -92,14 +90,13 @@
 	holding = castle_holding
 }
 7879={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 	terrain = mountain
 }
 7881={
 	holding = castle_holding
-	special_building_slot = vithoba_temple_01
 }
 7882={
 	holding = none

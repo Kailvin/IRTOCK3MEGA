@@ -2,19 +2,20 @@
 	culture = old_suebi
 	faith = central_pagan
 	holding = castle_holding
-	special_building_slot = sharada_peeth_01
 }
 3445={
 	holding = none
+	special_building_slot = martand_surya_temple_01
 }
 3446={
 	holding = none
+	100.1.1 = { special_building_slot = sharada_peeth }
 }
 7947={
 	holding = castle_holding
 }
 7948={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -23,4 +24,12 @@
 }
 7950={
 	holding = city_holding
+}
+9024={
+	culture = tocharian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+9025={
+	holding = castle_holding
 }

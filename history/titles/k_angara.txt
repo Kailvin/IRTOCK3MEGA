@@ -1,0 +1,76 @@
+k_angara={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+d_yenisei_kan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_krasnoyarsk_holder liege = 0 }
+}
+c_krasnoyarsk={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_krasnoyarsk_holder change_development_level = 0 }
+}
+c_mana={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_krasnoyarsk_holder change_development_level = 0 }
+}
+c_shishina={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_krasnoyarsk_holder change_development_level = 0 }
+}
+c_kansk={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_krasnoyarsk_holder change_development_level = 0 }
+}
+c_tagul={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_krasnoyarsk_holder change_development_level = 0 }
+}
+d_chuna_valley={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_chuna_holder government = tribal_government }
+}
+c_chuna={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chuna_holder change_development_level = 0 }
+}
+c_bratsk={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chuna_holder change_development_level = 0 }
+}
+c_tulun={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_chuna_holder change_development_level = 0 }
+}
+d_lena={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_lena_holder government = tribal_government }
+}
+c_lena={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_lena_holder change_development_level = 0 }
+}
+c_ilga={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_lena_holder change_development_level = 0 }
+}
+c_gatsuurgazar={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_lena_holder change_development_level = 0 }
+}
+d_angara={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kitoi_holder government = tribal_government }
+}
+c_kitoi={
+	361.1.1 = { government = nomad_government }
+	423.7.6 = { holder = IRToCK3_c_kitoi_holder change_development_level = 0 }
+}
+c_kymyl_tey={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kitoi_holder change_development_level = 0 }
+}
+c_okangara={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kitoi_holder change_development_level = 0 }
+}
+c_kada={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_kitoi_holder change_development_level = 0 }
+}

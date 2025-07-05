@@ -1,3 +1,27 @@
+2050={
+	holding = none
+}
+2051={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2052={
+	holding = none
+}
+2053={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2054={
+	holding = city_holding
+}
+2055={
+	culture = rhaetio_roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
 2056={
 	holding = castle_holding
 }
@@ -12,21 +36,38 @@
 2078={
 	holding = none
 }
+2079={
+	holding = none
+}
 2083={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 	100.1.1 = { special_building_slot = aula_palatina }
-}
-2085={
-	holding = castle_holding
 }
 2192={
 	holding = none
 }
 2384={
 	culture = galatian
-	faith = nicene
+	faith = arianism
+	holding = castle_holding
+}
+2461={
+	holding = none
+}
+2692={
+	holding = city_holding
+}
+2693={
+	holding = city_holding
+}
+2694={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2695={
 	holding = castle_holding
 }
 2698={
@@ -35,30 +76,36 @@
 2700={
 	holding = none
 }
+2701={
+	holding = none
+}
 2703={
 	holding = none
 }
 2704={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2705={
 	holding = city_holding
 }
+2707={
+	holding = none
+}
 2708={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2709={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2710={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2711={
@@ -78,7 +125,7 @@
 }
 2717={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2719={
@@ -89,7 +136,7 @@
 }
 2721={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2722={
@@ -98,15 +145,81 @@
 2723={
 	holding = none
 }
+2724={
+	holding = none
+}
 2725={
 	holding = none
 }
 2726={
 	holding = castle_holding
 }
+2727={
+	holding = none
+}
+2728={
+	holding = none
+}
+2729={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2730={
+	holding = none
+}
+2731={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2732={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2733={
+	holding = none
+}
+2735={
+	holding = none
+}
+2736={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2737={
+	holding = castle_holding
+}
+2738={
+	holding = none
+}
+2739={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2741={
+	holding = castle_holding
+}
+2742={
+	holding = castle_holding
+}
+2743={
+	holding = none
+}
+2744={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2745={
+	holding = castle_holding
+}
 2746={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2747={
@@ -114,7 +227,7 @@
 }
 2748={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2749={
@@ -125,7 +238,7 @@
 }
 2751={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2752={
@@ -142,7 +255,7 @@
 }
 2757={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2758={
@@ -150,7 +263,7 @@
 }
 2759={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2760={
@@ -164,7 +277,7 @@
 }
 2763={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2764={
@@ -181,7 +294,7 @@
 }
 2768={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2769={
@@ -193,6 +306,9 @@
 2771={
 	holding = none
 }
+2772={
+	holding = city_holding
+}
 2773={
 	culture = rhaetio_roman
 	faith = hellenic_pagan
@@ -201,15 +317,134 @@
 2774={
 	holding = castle_holding
 }
+2788={
+	holding = none
+}
+2789={
+	holding = none
+}
+2854={
+	holding = city_holding
+}
+2855={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}
+2856={
+	holding = none
+}
+2862={
+	culture = old_suebi
+	faith = central_pagan
+	holding = tribal_holding
+}
+2863={
+	holding = city_holding
+}
+2864={
+	holding = none
+}
+2866={
+	holding = city_holding
+}
+2868={
+	holding = castle_holding
+}
+2869={
+	holding = castle_holding
+}
+2870={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}
+2871={
+	holding = city_holding
+}
+2872={
+	holding = city_holding
+}
+2873={
+	holding = city_holding
+}
+2874={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}
+2875={
+	culture = old_suebi
+	faith = central_pagan
+	holding = city_holding
+}
+2876={
+	holding = city_holding
+}
+2877={
+	culture = old_suebi
+	faith = central_pagan
+	holding = city_holding
+}
 2878={
 	culture = galatian
-	faith = nicene
+	faith = arianism
 	holding = castle_holding
 }
 2879={
 	holding = none
 }
+2880={
+	holding = none
+}
 2882={
+	holding = none
+}
+2883={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2885={
+	holding = none
+}
+2886={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2887={
+	holding = city_holding
+}
+2888={
+	holding = none
+}
+2889={
+	culture = galatian
+	faith = arianism
+	holding = castle_holding
+}
+2890={
+	holding = castle_holding
+}
+2891={
+	holding = castle_holding
+}
+2892={
+	holding = none
+}
+2925={
+	holding = none
+}
+2926={
+	holding = city_holding
+}
+2927={
+	culture = ripurian
+	faith = central_pagan
+	holding = tribal_holding
+}
+2965={
 	holding = none
 }
 2966={
@@ -242,9 +477,23 @@
 2991={
 	holding = none
 }
+2992={
+	holding = city_holding
+}
 2993={
 	holding = city_holding
 }
 2994={
+	holding = none
+}
+2995={
+	holding = none
+}
+2998={
+	culture = ripurian
+	faith = central_pagan
+	holding = city_holding
+}
+3107={
 	holding = none
 }

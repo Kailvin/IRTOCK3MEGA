@@ -1,26 +1,37 @@
+1115={
+	holding = city_holding
+}
 1119={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = kailasanathar_temple_01
+}
+1120={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
 }
 1199={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1204={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 1219={
 	holding = castle_holding
-	special_building_slot = venkateswara_temple_01
+	terrain = hills
+}
+7807={
+	holding = none
 	terrain = hills
 }
 7815={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -48,9 +59,10 @@
 7823={
 	holding = city_holding
 }
+7824={
+	holding = city_holding
+}
 7825={
-	culture = indo_greek
-	faith = hellenic_pagan
 	holding = castle_holding
 }
 7826={
@@ -58,4 +70,51 @@
 }
 7827={
 	holding = none
+	special_building_slot = mamallapuram_temples
+}
+7828={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+7829={
+	holding = none
+	terrain = hills
+}
+7830={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+	terrain = hills
+}
+7831={
+	holding = castle_holding
+	terrain = hills
+}
+7832={
+	holding = castle_holding
+	terrain = hills
+}
+7833={
+	holding = none
+	terrain = hills
+}
+7834={
+	holding = none
+	terrain = hills
+}
+7835={
+	holding = none
+}
+7836={
+	holding = none
+}
+7837={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7838={
+	holding = castle_holding
 }

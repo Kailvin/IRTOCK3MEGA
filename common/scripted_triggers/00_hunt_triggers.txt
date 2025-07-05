@@ -14,16 +14,10 @@ can_hunt_trigger = {
 			culture = { has_cultural_parameter = cannot_hunt }
 		}
 	}
-	custom_tooltip = {
-		text = hunt_faith_cannot_hunt_parameter_tt
-		NOT = {
-			faith = { has_doctrine_parameter = cannot_hunt }
-		}
-	}
 }
 
 # Deer/Antelope
-hunt_animal_deer_antelope_trigger = {
+hunt_animal_deer_antelope_trigger = {	
 	OR = {
 		hunt_animal_deer_trigger = yes
 		hunt_animal_antelope_trigger = yes
@@ -69,7 +63,7 @@ hunt_animal_gazelle_trigger = {
 hunt_animal_roe_trigger = {
 	OR = {
 		AND = {
-			geographical_region = world_europe
+			geographical_region = world_europe			
 			trigger_if = {
 				limit = {
 					exists = empire
@@ -86,10 +80,6 @@ hunt_animal_roe_trigger = {
 		geographical_region = world_india
 		geographical_region = world_burma
 		geographical_region = world_tibet
-		# Siberian Doe
-		geographical_region = world_steppe
-		geographical_region = world_northern_china
-		geographical_region = world_korea
 	}
 }
 
@@ -97,13 +87,6 @@ hunt_animal_roe_trigger = {
 hunt_animal_bison_trigger = {
 	geographical_region = hunt_animal_bison_region
 	hunt_animal_tropical_terrain_trigger = no
-	hunt_animal_big_available_trigger = yes
-}
-
-# Gaurs
-hunt_animal_gaur_trigger = {
-	geographical_region = hunt_animal_gaur_region
-	hunt_animal_tropical_terrain_trigger = yes
 	hunt_animal_big_available_trigger = yes
 }
 
@@ -129,7 +112,7 @@ hunt_animal_temperate_terrain_trigger = {
 		# Flat
 		terrain = plains
 		terrain = farmlands
-		terrain = steppe
+		terrain = steppe		
 		terrain = wetlands
 		# Wooded
 		terrain = forest
@@ -157,12 +140,7 @@ hunt_animal_tropical_terrain_trigger = {
 # Wolf
 hunt_animal_wolf_trigger = {
 	NAND = {
-		OR = {
-			geographical_region = world_africa_west
-			# no grey wolves distribution
-			geographical_region = world_southeast_asia
-			geographical_region = world_southern_china
-		}
+		geographical_region = world_africa_west
 		OR = {
 			terrain = hills
 			terrain = forest
@@ -189,13 +167,11 @@ hunt_animal_lynx_trigger = {
 		geographical_region = world_steppe_east
 		geographical_region = world_steppe_west
 		geographical_region = world_tibet
-
-		geographical_region = world_china
 	}
 }
 
 # Boar
-hunt_animal_boar_trigger = {
+hunt_animal_boar_trigger = { 
 	geographical_region = hunt_animal_boar_region
 	hunt_animal_big_available_trigger = yes
 }
@@ -292,13 +268,6 @@ hunt_animal_tiger_trigger = {
 		geographical_region = world_india
 		geographical_region = world_burma
 		geographical_region = world_middle_east_persia
-
-		geographical_region = world_china
-		geographical_region = world_korea
-		geographical_region = world_manchuria
-		geographical_region = world_mainland_southeast_asia
-		geographical_region = world_sumatra
-		geographical_region = world_java
 	}
 	OR = {
 		terrain = jungle
@@ -321,10 +290,9 @@ hunt_animal_leopard_trigger = {
 		geographical_region = world_middle_east
 		geographical_region = world_india
 		geographical_region = world_burma
-
-		geographical_region = world_china
-		geographical_region = world_mainland_southeast_asia
-		geographical_region = world_java
+		geographical_region = world_steppe_east
+		geographical_region = world_tibet
+		geographical_region = world_asia_minor
 	}
 	NOR = {
 		terrain = farmlands
@@ -371,14 +339,6 @@ hunt_animal_big_available_trigger = {
 					
 					duchy = title:d_mallorca # Not native
 					duchy = title:d_socotra # Not native
-					# Pacific isles: Micronesia
-					duchy = title:d_palau # Not native
-					duchy = title:d_guahan # Not native
-					duchy = title:d_yap # Not native
-					duchy = title:d_micronesia # Not native
-					# Pacific isles: Panua
-					duchy = title:d_raki # Not native
-					duchy = title:d_tanoq # Not native
 				}
 			}
 		}
@@ -401,7 +361,7 @@ hunt_animal_small_available_trigger = {
 			}
 			trigger_if = {
 				limit = { exists = duchy }
-				NOT = { duchy = title:d_canarias } # Not native
+				NOT = { duchy = title:d_canarias } # Not native 
 			}
 		}
 	}
@@ -423,7 +383,6 @@ hunt_activity_large_game_trigger = {
 		$VAR$ ?= flag:reindeer
 		$VAR$ ?= flag:saiga
 		$VAR$ ?= flag:bison
-		$VAR$ ?= flag:gaur
 		$VAR$ ?= flag:aurochs
 		$VAR$ ?= flag:boar
 		$VAR$ ?= flag:bear
@@ -470,7 +429,6 @@ hunt_activity_herd_game_trigger = {
 	OR = {
 		hunt_activity_deer_antelope_game_trigger = { VAR = $VAR$ }
 		$VAR$ ?= flag:bison
-		$VAR$ ?= flag:gaur
 		$VAR$ ?= flag:aurochs
 	}
 }
@@ -517,22 +475,20 @@ hunt_activity_ground_bird_trigger = {
 hunt_activity_recent_hunt_sighting_trigger = {
 	OR = {
 		exists = var:recent_sighting
-		exists = var:animal_type
+		exists = var:animal_type		
 		has_county_modifier = hunt_sighting_standard_modifier
 		has_county_modifier = hunt_sighting_dangerous_modifier
 		has_county_modifier = hunt_sighting_legendary_modifier
-		has_county_modifier = hunt_sighting_falconry_modifier
-	}
+		has_county_modifier = hunt_sighting_falconry_modifier		
+	}	
 }
 
 hunt_sighting_event_trigger = {
 	is_available_adult = yes
+	is_landless_adventurer = no
 	NOT = { has_character_flag = recent_hunt_sighting }
 	trigger_if = {
-		limit = {
-			is_landed = no
-			is_landless_adventurer = no
-		}
+		limit = { is_landed = no }
 		NOT = { domicile.domicile_location ?= province:496 }
 	}
 	OR = {
@@ -638,7 +594,6 @@ hunt_hide_big_trigger = {
 		$VARIABLE$ ?= flag:hart
 		$VARIABLE$ ?= flag:elk
 		$VARIABLE$ ?= flag:bison
-		$VARIABLE$ ?= flag:gaur
 		$VARIABLE$ ?= flag:aurochs
 		$VARIABLE$ ?= flag:lion
 		$VARIABLE$ ?= flag:tiger
@@ -745,7 +700,8 @@ hunt_murder_scheme_target_trigger = {
 		scheme_owner = root
 		any_scheme_agent_character = { this = root }
 	}
-	scheme_progress > 3
+	save_temporary_scope_as = scheme
+	scheme_progress > scheme_progress_33
 }
 
 hunt_murder_intent_target_trigger = {
@@ -817,7 +773,7 @@ hunt_potential_murder_risk_trigger = {
 			}
 		}
 		# Heir
-		AND = {
+		AND = {			
 			this = root.player_heir
 			NOT = {
 				has_any_good_relationship_with_character_trigger = { CHARACTER = root.player_heir }
@@ -910,7 +866,7 @@ hunt_pertinent_friendly_trigger = {
 				has_activity_intent = befriend_attendee_intent
 				has_activity_intent = woo_attendee_intent
 			}
-			intent_target = scope:pertinent
+			intent_target = scope:pertinent 
 		}
 		has_relation_friend = scope:pertinent
 		has_relation_lover = scope:pertinent
@@ -948,7 +904,6 @@ hunt_animal_type_herbivore_trigger = {
 		hunt_activity_deer_antelope_game_trigger = { VAR = $VAR$ }
 		$VAR$ ?= flag:aurochs
 		$VAR$ ?= flag:bison
-		$VAR$ ?= flag:gaur
 		$VAR$ ?= flag:boar
 		$VAR$ ?= flag:hare
 	}
@@ -958,7 +913,6 @@ hunt_animal_type_dangerous_trigger = {
 	OR = {
 		$VAR$ ?= flag:boar
 		$VAR$ ?= flag:bison
-		$VAR$ ?= flag:gaur
 		$VAR$ ?= flag:aurochs
 		$VAR$ ?= flag:wolf
 		$VAR$ ?= flag:hyena
@@ -1019,7 +973,6 @@ hunt_killed_by_animal_trigger = {
 		death_reason = death_antelope
 		death_reason = death_gazelle
 		death_reason = death_bison
-		death_reason = death_gaur
 		death_reason = death_aurochs
 		death_reason = death_wolf
 		death_reason = death_hyena
@@ -1085,5 +1038,37 @@ hunt_snowy_forest_trigger = {
 	OR = {
 		has_province_modifier = winter_normal_modifier
 		has_province_modifier = winter_harsh_modifier
+	}
+}
+
+hunt_ongoing_sighting_trigger = {
+	OR = {
+		has_county_modifier = hunt_sighting_standard_modifier
+		has_county_modifier = hunt_sighting_dangerous_modifier
+		has_county_modifier = hunt_sighting_legendary_modifier	
+	}
+	exists = var:animal_type
+	var:sighting_owner ?= root
+	any_neighboring_county = {
+		trigger_if = {
+			limit = {
+				root = { is_landed = yes }
+			}
+			holder.top_liege = root.top_liege
+		}
+		hunt_activity_recent_hunt_sighting_trigger = no
+	}
+}
+
+hunt_is_nerge_type = {
+	has_activity_option = {
+		category = special_type
+		option = hunt_type_nerge
+	}
+}
+
+activity_is_nerge_type = {
+	scope:activity ?= {
+		hunt_is_nerge_type = yes
 	}
 }

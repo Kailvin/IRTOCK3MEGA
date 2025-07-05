@@ -1,15 +1,17 @@
 k_burgundy={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 d_dauphine={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_forez_holder liege = e_IRTOCK3_B99 }
+	423.7.6 = { liege = 0 }
 }
 c_lyon={
 	405.4.16 = { liege = 0 holder = imperator187369 }
 	423.7.6 = { change_development_level = 10 }
 }
 c_forez={
-	423.7.6 = { holder = IRToCK3_c_forez_holder liege = 0 change_development_level = 5 }
+	405.4.16 = { liege = 0 holder = imperator187369 }
+	423.7.6 = { change_development_level = 0 }
 }
 c_viviers={
 	405.4.16 = { liege = 0 holder = imperator187369 }
@@ -22,4 +24,19 @@ c_viennois={
 c_valentinois={
 	405.4.16 = { liege = 0 holder = imperator187369 }
 	423.7.6 = { change_development_level = 12 }
+}
+d_transjurania={
+	423.7.6 = { liege = 0 }
+}
+c_aargau={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 9 }
+}
+c_neuchatel={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator182608 change_development_level = 9 }
+}
+c_bern={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
 }

@@ -1,7 +1,20 @@
 k_IRTOCK3_GAR_upper_egypt_region={
-	383.11.30 = { liege = e_IRTOCK3_GAR holder = imperator192141 government = administrative_government succession_laws = { high_partition_succession_law } }
+	383.11.30 = { liege = e_IRTOCK3_GAR holder = imperator192141 government = administrative_government succession_laws = { appointment_succession_law } }
+}
+d_eastern_desert={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_qusayr={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_jabal_quzlum={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 7 }
 }
 d_al-said={
+	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 c_qus={
@@ -24,34 +37,6 @@ c_aswan={
 	394.1.26 = { liege = 0 holder = imperator194390 }
 	423.7.6 = { change_development_level = 9 }
 }
-d_eastern_desert={
-	423.7.6 = { liege = 0 }
-}
-c_qusayr={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_jabal_quzlum={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_naqis={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_naqis_holder liege = 0 }
-}
-c_aydhab={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_allaqi={
-	394.1.26 = { liege = 0 holder = imperator194390 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_naqis={
-	423.7.6 = { holder = IRToCK3_c_naqis_holder liege = 0 change_development_level = 0 }
-}
-c_wadi_amur={
-	423.7.6 = { holder = IRToCK3_c_naqis_holder liege = 0 change_development_level = 5 }
-}
 d_bazin={
 	423.7.6 = { liege = 0 }
 }
@@ -66,4 +51,23 @@ c_suakin={
 c_badi={
 	422.4.1 = { liege = 0 holder = imperator203521 }
 	423.7.6 = { change_development_level = 8 }
+}
+d_naqis={
+	423.7.6 = { liege = 0 }
+}
+c_aydhab={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_allaqi={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_naqis={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_wadi_amur={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 5 }
 }

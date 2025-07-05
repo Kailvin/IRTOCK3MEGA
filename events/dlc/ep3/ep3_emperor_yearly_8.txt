@@ -1532,12 +1532,12 @@ ep3_emperor_yearly.8040 = {
 	}
 }
 
-# Norse raiders
+# Norse raiders # TFE have Goth and Huns as Raiders
 
 scripted_trigger ep3_emperor_yearly_8050_culture_trigger = {
 	OR = {
-		this = culture:norse
-		any_parent_culture_or_above = { this = culture:norse }
+		has_cultural_pillar = heritage_east_germanic
+		has_cultural_pillar = heritage_turkic
 	}
 	culture_number_of_counties > 0
 }
@@ -1683,7 +1683,7 @@ ep3_emperor_yearly.8050 = {
 		}
 		# Create raider
 		create_character = {
-			template = fp1_trade_partner_warrior
+			template = ep3_sea_raider_template
 			dynasty = none
 			location = scope:sea_province
 			culture = scope:raider_culture

@@ -1,26 +1,26 @@
 1132={
-	culture = laktan
-	religion = ulganism
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
-	1227.1.1 = { culture = mongol religion = eastern_tengri }
+	1227.1.1 = { culture = mongol religion = tengri_pagan }
 }
 1205={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 1329={
 	holding = none
 }
 1463={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
-	1227.1.1 = { culture = mongol religion = eastern_tengri }
+	1227.1.1 = { culture = mongol religion = tengri_pagan }
 }
 7360={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7361={
@@ -30,8 +30,8 @@
 	holding = none
 }
 7363={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7364={
@@ -44,13 +44,13 @@
 	holding = none
 }
 7367={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7368={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7369={
@@ -66,16 +66,16 @@
 	holding = none
 }
 7373={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7374={
 	holding = none
 }
 7375={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7376={
@@ -85,8 +85,8 @@
 	holding = none
 }
 7378={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7379={
@@ -96,8 +96,8 @@
 	holding = none
 }
 7381={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7382={
@@ -113,8 +113,8 @@
 	holding = none
 }
 7386={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7387={
@@ -130,16 +130,16 @@
 	holding = none
 }
 7391={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7392={
 	holding = none
 }
 7393={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7394={
@@ -152,8 +152,8 @@
 	holding = none
 }
 7397={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7398={
@@ -163,8 +163,8 @@
 	holding = none
 }
 7400={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7401={
@@ -180,13 +180,13 @@
 	holding = none
 }
 7405={
-	culture = laktan
-	religion = ulganism
-	holding = tribal_holding
+	culture = tiele
+	religion = tengri_pagan
+	holding = herder_holding
 }
 7406={
-	culture = laktan
-	religion = ulganism
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7407={
@@ -202,8 +202,11 @@
 	holding = none
 }
 7411={
-	culture = az
-	religion = ulganism
+	holding = none
+}
+7412={
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7413={
@@ -219,18 +222,27 @@
 	holding = none
 }
 7417={
-	culture = az
-	religion = ulganism
+	holding = none
+}
+7418={
+	holding = none
+}
+7419={
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
+7420={
+	holding = none
+}
 7421={
-	culture = laktan
-	religion = ulganism
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7422={
-	culture = laktan
-	religion = ulganism
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7423={
@@ -243,13 +255,13 @@
 	holding = none
 }
 7426={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7427={
-	culture = laktan
-	religion = ulganism
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7428={
@@ -265,8 +277,8 @@
 	holding = none
 }
 7432={
-	culture = solqumyt
-	religion = kuptyng
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7433={
@@ -278,12 +290,20 @@
 7435={
 	holding = none
 }
+7436={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+}
+7437={
+	holding = none
+}
 7438={
 	holding = none
 }
 7439={
-	culture = solqumyt
-	religion = kuptyng
+	culture = tiele
+	religion = tengri_pagan
 	holding = tribal_holding
 }
 7440={
@@ -294,6 +314,11 @@
 }
 7442={
 	holding = none
+}
+7443={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 7444={
 	holding = none
@@ -308,13 +333,13 @@
 	holding = none
 }
 7448={
-	culture = solqumyt
-	religion = kuptyng
+	culture = khanty
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7449={
-	culture = solqumyt
-	religion = kuptyng
+	culture = yeniseian
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 7450={
@@ -323,9 +348,15 @@
 7451={
 	holding = none
 }
-8706={
+7514={
+	culture = tiele
+	religion = tengri_pagan
+	holding = tribal_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
+}
+7515={
 	holding = none
 }
-13776={
+7516={
 	holding = none
 }

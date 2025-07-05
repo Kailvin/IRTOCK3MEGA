@@ -1,0 +1,30 @@
+k_ramannadesa={
+	361.1.1 = { change_development_level = 4 }
+	423.7.6 = { liege = 0 }
+}
+d_thaton={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_thaton_holder liege = 0 }
+}
+c_thaton={
+	340.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_sittaung={
+	340.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+d_pegu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_pegu_holder liege = 0 }
+}
+c_pegu={
+	340.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+c_dagon={
+	340.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}
+c_kusumi={
+	340.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_pegu_holder liege = 0 change_development_level = 0 }
+}

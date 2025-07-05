@@ -1,0 +1,28 @@
+k_liang_south={
+	423.7.6 = { liege = 0 }
+}
+d_liangzhou={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_fanhe_holder liege = 0 }
+}
+c_liangzhou={
+	301.1.1 = { government = feudal_government }
+	356.1.1 = { liege = 0 }
+	361.1.1 = { change_development_level = 8 }
+	414.1.1 = { holder = xianbei_023 }
+}
+c_fanhe={
+	395.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_fanhe_holder change_development_level = 5 }
+}
+c_dajing={
+	401.7.1 = { holder = xiongnu_008 }
+	423.7.6 = { liege = d_liangzhou change_development_level = 5 }
+}
+c_baiyin={
+	350.1.1 = { government = feudal_government }
+	423.7.6 = { holder = IRToCK3_c_fanhe_holder change_development_level = 5 }
+}
+c_yongdeng={
+	414.1.1 = { liege = 0 }
+	423.7.6 = { holder = IRToCK3_c_fanhe_holder liege = d_liangzhou change_development_level = 5 }
+}

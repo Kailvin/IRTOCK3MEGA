@@ -1003,18 +1003,7 @@ elector_voting_strength_hunnic_elective_modifier = {
 		add = prowess
 		is_adult = yes
 	}
-	modifier = { #Being a good general.
-		desc = tooltip_hunnic_vote_strength_elector_marshal
-		add = prowess
-		add = martial
-		divide = 2
-		round = yes
-		OR = {
-			is_knight_of = scope:holder
-			has_council_position = councillor_marshal
-			is_diarch_of_target = scope:holder
-		}
-	}
+	
 	#The Electors: General modifiers.
 	modifier = { #Prestigious people hold more sway.
 		desc = tooltip_imperial_vote_strength_elector_prestige

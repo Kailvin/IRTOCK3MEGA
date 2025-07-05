@@ -847,7 +847,13 @@ convert_to_administrative_decision = {
 
 	effect = {
 		save_scope_as = actor
-		convert_to_administrative_from_feudalism_effect = yes
+		TFE_convert_to_administrative_from_feudalism_effect = yes
+		if = {
+			limit = {
+				is_independent_ruler = yes
+			}
+			add_legitimacy_effect = { LEGITIMACY = admin_convert_legitimacy_value } #One Time Legitimacy Boost
+		}
 		trigger_event = ep3_decisions_event.4060 #Also sends information event to human vassals
 		#Letter event for the vassals
 		hidden_effect = {
@@ -894,6 +900,7 @@ convert_to_administrative_decision = {
 			OR = {
 				primary_title = title:e_byzantium
 				primary_title = title:e_roman_empire
+				primary_title = title:e_western_roman_empire # IRToCK3: Made it so the WRE is more likely to take decision too
 			}
 			add = 100
 		}
@@ -964,6 +971,7 @@ convert_to_administrative_decision = {
 					OR = {
 						this = culture:han
 						this = culture:greek
+						this = culture:roman # IRToCK3: Added roman as possible ancestor culture
 					}
 				}
 			}
@@ -1120,10 +1128,7 @@ renounce_governorship_decision = {
 		}
 		custom_tooltip = { # The Emperor is your liege
 			text = admin_confirmation_liege_tt
-			OR = {
-				top_liege ?= { highest_held_title_tier = tier_empire }
-				top_liege ?= { highest_held_title_tier = tier_kingdom }
-			}
+			top_liege ?= { highest_held_title_tier >= tier_kingdom }
 			liege ?= top_liege
 		}
 	}
@@ -1214,7 +1219,10 @@ change_imperial_aspirations_decision = {
 	is_shown = {
 		has_ep3_dlc_trigger = yes
 		is_playable_character = yes
+		OR = {
 		government_has_flag = government_is_administrative
+		government_has_flag = government_is_autocratic_ep3
+		}
 		liege ?= {
 			has_realm_law = acclamation_succession_law
 		}
@@ -1223,7 +1231,10 @@ change_imperial_aspirations_decision = {
 	is_valid = {
 		custom_tooltip = {
 			text = has_admin_government
+			OR = {
 			government_has_flag = government_is_administrative
+			government_has_flag = government_is_autocratic_ep3
+			}
 		}
 		trigger_if = { # Unavailable if you are the top liege - Unless you have either modifier, so you may remove it.
 			limit = {
@@ -1237,10 +1248,7 @@ change_imperial_aspirations_decision = {
 		trigger_else = {
 			custom_tooltip = { # The Emperor is your liege
 				text = admin_confirmation_liege_tt
-				OR = {
-					top_liege ?= { highest_held_title_tier = tier_empire }
-					top_liege ?= { highest_held_title_tier = tier_kingdom }
-				}
+				top_liege ?= { highest_held_title_tier >= tier_kingdom }
 				liege ?= top_liege
 				liege != root
 			}

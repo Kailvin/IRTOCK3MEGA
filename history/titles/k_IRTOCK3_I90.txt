@@ -18,13 +18,6 @@ c_medina={
 	394.2.11 = { liege = 0 holder = imperator191374 }
 	423.7.6 = { change_development_level = 4 }
 }
-c_wajh={
-	394.2.11 = { liege = 0 holder = imperator191374 }
-	423.7.6 = { change_development_level = 6 }
-}
-b_al-awnid={
-	423.7.6 = { holder = imperator186038 }
-}
 c_khaybar={
 	394.2.11 = { liege = 0 holder = imperator191374 }
 	423.7.6 = { change_development_level = 1 }

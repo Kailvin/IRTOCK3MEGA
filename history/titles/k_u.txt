@@ -14,5 +14,5 @@ c_garkung={
 	423.7.6 = { holder = IRToCK3_c_cozhelhoma_holder liege = 0 change_development_level = 0 }
 }
 c_sewa={
-	423.7.6 = { holder = IRToCK3_c_cozhelhoma_holder liege = 0 change_development_level = 0 }
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_cozhelhoma_holder liege = 0 }
 }

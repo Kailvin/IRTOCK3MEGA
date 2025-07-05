@@ -32,13 +32,17 @@
 	holding = city_holding
 }
 2027={
-	holding = none
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
 }
 2028={
 	holding = none
 }
 2059={
-	holding = none
+	culture = galatian
+	faith = nicene
+	holding = castle_holding
 	100.1.1 = { special_building_slot = arles_cryptoporticus }
 }
 2060={

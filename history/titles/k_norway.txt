@@ -3,96 +3,112 @@ k_norway={
 	423.7.6 = { liege = 0 }
 }
 d_agder={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_nedenes_holder government = tribal_government }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nedenes_holder liege = 0 }
 }
 c_nedenes={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_nedenes_holder liege = 0 change_development_level = 5 }
 }
 c_agdeside={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_nedenes_holder liege = 0 change_development_level = 3 }
 }
 d_vestlandi={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_rogalandi_holder liege = 0 }
 }
 c_rogalandi={
+	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_rogalandi_holder liege = 0 change_development_level = 3 }
 }
 c_hordalandi={
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 	423.7.6 = { holder = IRToCK3_c_rogalandi_holder liege = 0 change_development_level = 0 }
 }
 c_sogn={
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 	423.7.6 = { holder = IRToCK3_c_rogalandi_holder liege = 0 change_development_level = 0 }
 }
 d_trandalog={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_trandheim_holder government = tribal_government }
+	423.7.6 = { liege = 0 }
 }
 c_trandheim={
 	21.1.1 = { change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_trandheim_holder }
+	347.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_03 }
 }
 c_norwegian_more={
 	21.1.1 = { change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_trandheim_holder }
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 }
 c_firdafylki={
 	21.1.1 = { change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_trandheim_holder }
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 }
 d_dalir={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_hedmork_holder liege = 0 }
 }
 c_hedmork={
+	359.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 	423.7.6 = { holder = IRToCK3_c_hedmork_holder liege = 0 change_development_level = 0 }
 }
 c_gudbrandsdalir={
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
 	423.7.6 = { holder = IRToCK3_c_hedmork_holder liege = 0 change_development_level = 0 }
 }
 c_eystridalir={
-	423.7.6 = { holder = IRToCK3_c_hedmork_holder change_development_level = 0 }
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_01 }
+	423.7.6 = { change_development_level = 0 }
 }
 c_gauldala={
-	423.7.6 = { holder = IRToCK3_c_hedmork_holder change_development_level = 2 }
+	361.1.1 = { government = tribal_government }
+	415.1.1 = { holder = nording_03 }
+	423.7.6 = { change_development_level = 2 }
 }
 d_halogaland={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_vastvag_holder liege = 0 }
+	160.1.1 = { government = tribal_government }
+	395.1.1 = { holder = halogaland_03 }
 }
 c_vastvag={
-	423.7.6 = { holder = IRToCK3_c_vastvag_holder change_development_level = 2 }
+	160.1.1 = { government = tribal_government }
+	395.1.1 = { holder = halogaland_03 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_bothin={
-	423.7.6 = { holder = IRToCK3_c_vastvag_holder change_development_level = 2 }
+	160.1.1 = { government = tribal_government }
+	395.1.1 = { holder = halogaland_03 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_namdalfylki={
-	423.7.6 = { holder = IRToCK3_c_vastvag_holder change_development_level = 2 }
-}
-d_iceland={
-	21.1.1 = { change_development_level = 0 }
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_vestisland_holder liege = 0 }
-}
-c_vestisland={
-	423.7.6 = { holder = IRToCK3_c_vestisland_holder change_development_level = 0 }
-}
-c_nordrland={
-	423.7.6 = { holder = IRToCK3_c_vestisland_holder change_development_level = 0 }
-}
-c_austisland={
-	423.7.6 = { holder = IRToCK3_c_vestisland_holder change_development_level = 0 }
-}
-c_sudurland={
-	423.7.6 = { holder = IRToCK3_c_vestisland_holder change_development_level = 0 }
+	347.1.1 = { government = tribal_government }
+	410.1.1 = { holder = halogaland_03 }
+	423.7.6 = { change_development_level = 2 }
 }
 d_jamtland={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_jamtfir_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_harjadalen_holder liege = 0 }
 }
 c_jamtfir={
-	423.7.6 = { holder = IRToCK3_c_jamtfir_holder change_development_level = 2 }
+	361.1.1 = { government = tribal_government }
+	395.1.1 = { holder = sapmi_22 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_morarna={
-	423.7.6 = { holder = IRToCK3_c_jamtfir_holder change_development_level = 2 }
+	361.1.1 = { government = tribal_government }
+	395.1.1 = { holder = sapmi_22 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_helgum={
-	423.7.6 = { holder = IRToCK3_c_jamtfir_holder change_development_level = 2 }
+	361.1.1 = { government = tribal_government }
+	395.1.1 = { holder = sapmi_22 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_harjadalen={
-	423.7.6 = { holder = IRToCK3_c_jamtfir_holder change_development_level = 2 }
+	280.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_harjadalen_holder change_development_level = 2 }
 }

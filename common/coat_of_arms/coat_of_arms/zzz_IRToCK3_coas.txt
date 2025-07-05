@@ -4,54 +4,6 @@
 @smLysY=0.26
 @smCross=0.22
 @smErmine=0.27
-e_celestia_china={
-	pattern="pattern_solid.dds"
-	color1=white
-	color2=black
-	colored_emblem={
-		color1=rgb { 41 140 135 }
-		color2=yellow
-		texture="ce_circle.dds"
-		instance={
-			position={ 0.500000 0.450000 }
-			scale={ 0.800000 0.800000 }
-			depth=1.010000
-		}
-	}
-	colored_emblem={
-		color1=red
-		color2=white
-		texture="ce_h_tamaru.dds"
-		instance={
-			position={ 0.500000 0.450000 }
-			scale={ 0.910000 0.910000 }
-			depth=2.010000
-		}
-	}
-	colored_emblem={
-		color1=yellow_light
-		color2=yellow
-		color3=orange
-		texture="ce_circle.dds"
-		instance={
-			position={ 0.590000 0.450000 }
-			scale={ 0.470000 0.470000 }
-			rotation=22
-		}
-	}
-	colored_emblem={
-		color1=red
-		color2=yellow_light
-		color3=yellow_light
-		texture="ce_dayak_04.dds"
-		instance={
-			position={ 0.500000 0.450000 }
-			scale={ 0.930000 0.930000 }
-			depth=3.010000
-		}
-	}
-}
-
 e_IRTOCK3_BAC={
 	pattern = "pattern_solid.tga"
 	color1 = "indus_color"
@@ -88,7 +40,27 @@ k_IRTOCK3_COM={
         instance = { scale = { 1.10 1.10 }  position = { 0.50 0.47 } }
     }
 }
-k_IRTOCK3_TBC={
+e_IRTOCK3_SYR={
+	pattern = "pattern_solid.tga"
+	color1 = "magna_graecia_color"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_border_meander_02.tga"
+		color1 = "offwhite"
+		color2 = "magna_graecia_color"
+		instance = { rotation = 90 }
+		instance = { rotation = 270 }
+	}
+
+	colored_emblem = {
+		texture = "ce_magna_graecia.dds"
+		color1 = "offwhite"
+		color2= "magna_graecia_color"
+		instance = { scale = { 1 1 }  }
+	}
+}
+d_IRTOCK3_TBC={
 	pattern="pattern_vertical_split_02.tga"
 	color1=navy_blue
 	color2=ck2_blue
@@ -161,7 +133,7 @@ e_IRTOCK3_PRN={
 		instance = { scale = { 0.6 0.6 }  }
 	}
 }
-k_IRTOCK3_SCI={
+d_IRTOCK3_SCI={
 	pattern="pattern_checkers_2x2_reversed.tga"
 	color1=ck2_blue
 	color2=ck2_green
@@ -200,7 +172,7 @@ k_IRTOCK3_MNA={
 		color1 = rgb { 243 174 9 }
 	}
 }
-k_IRTOCK3_VND={
+d_IRTOCK3_VND={
 	pattern="pattern_diagonal_split_01.tga"
 	color1=ck2_green
 	color2=roman_red
@@ -216,7 +188,7 @@ k_IRTOCK3_VND={
 	}
 
 }
-k_IRTOCK3_HEV={
+d_IRTOCK3_HEV={
 	pattern="pattern_diagonal_line_fat_04.tga"
 	color1=roman_red
 	color2=navy_blue
@@ -240,7 +212,7 @@ e_IRTOCK3_BDI={
 		color2 = "light_gold"
 	}
 }
-k_IRTOCK3_ALZ={
+d_IRTOCK3_ALZ={
 	pattern="pattern_solid.tga"
 	color1=maurya_brown
 	color2=ck2_green
@@ -311,7 +283,7 @@ e_IRTOCK3_GAR={
 		}
 	}
 }
-k_IRTOCK3_AX3={
+d_IRTOCK3_AX3={
 	pattern="pattern_vertical_split_01.tga"
 	color1=roman_red
 	color2=bone_white
@@ -424,7 +396,7 @@ k_IRTOCK3_C12={
 	}
 
 }
-k_IRTOCK3_D29={
+d_IRTOCK3_D29={
 	pattern="pattern_solid.tga"
 	color1=ck2_green
 	color2=roman_gold
@@ -485,7 +457,7 @@ k_IRTOCK3_E37={
 	}
 
 }
-k_IRTOCK3_E61={
+d_IRTOCK3_E61={
 	pattern="pattern_checkers_2x2.tga"
 	color1=purple
 	color2=bone_white
@@ -507,7 +479,7 @@ k_IRTOCK3_E61={
 	}
 
 }
-k_IRTOCK3_F38={
+d_IRTOCK3_F38={
 	pattern="pattern_solid.tga"
 	color1=navy_blue
 	color2=bone_white
@@ -577,7 +549,7 @@ d_IRTOCK3_G50={
 	}
 
 }
-k_IRTOCK3_G52={
+k_IRTOCK3_G52_0={
 	pattern="pattern_horizontal_split_02.tga"
 	color1=roman_red
 	color2=purple
@@ -859,7 +831,7 @@ k_IRTOCK3_I48={
 	}
 
 }
-k_IRTOCK3_I49={
+d_IRTOCK3_I49={
 	pattern="pattern_diagonal_line_fat_02.tga"
 	color1=roman_red
 	color2=maurya_brown
@@ -941,32 +913,6 @@ k_IRTOCK3_J05={
 	}
 
 }
-k_IRTOCK3_J37={
-	pattern="pattern_solid.tga"
-	color1=ck2_blue
-	color2=roman_gold
-	color3=purple
-	colored_emblem={
-		color1=roman_gold
-		color2=purple
-		texture="ce_owl_03.dds"
-		instance={
-			scale={ 0.750000 0.750000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=bone_white
-		color2=maurya_brown
-		texture="ce_border_simple_01.tga"
-		instance={
-			rotation=180
-		}
-
-	}
-
-}
 k_IRTOCK3_J39={
 	pattern="pattern_solid.tga"
 	color1=ck2_blue
@@ -997,7 +943,7 @@ k_IRTOCK3_J39={
 	}
 
 }
-k_IRTOCK3_J40={
+d_IRTOCK3_J40={
 	pattern="pattern_vertical_split_01.tga"
 	color1=purple
 	color2=roman_gold
@@ -1070,7 +1016,7 @@ k_IRTOCK3_J60={
 	}
 
 }
-k_IRTOCK3_J65={
+d_IRTOCK3_J65={
 	pattern="pattern_frankish_02.dds"
 	color1=ck2_blue
 	color2=bone_white
@@ -1100,7 +1046,7 @@ d_IRTOCK3_J66={
 	}
 
 }
-k_IRTOCK3_J74={
+d_IRTOCK3_J74={
 	pattern="pattern_horizontal_split_02.tga"
 	color1=purple
 	color2=navy_blue
@@ -1185,7 +1131,7 @@ k_IRTOCK3_J95={
 	}
 
 }
-k_IRTOCK3_J97={
+d_IRTOCK3_J97={
 	pattern="pattern_solid.tga"
 	color1=roman_red
 	colored_emblem={
@@ -1327,7 +1273,7 @@ k_IRTOCK3_K09={
 	}
 
 }
-k_IRTOCK3_K11={
+d_IRTOCK3_K11={
 	pattern="pattern_horizontal_split_02.tga"
 	color1=purple
 	color2=navy_blue
@@ -1696,7 +1642,7 @@ k_IRTOCK3_K51={
 	}
 
 }
-k_IRTOCK3_K53={
+d_IRTOCK3_K53={
 	pattern="pattern_vertical_split_02.tga"
 	color1=roman_gold
 	color2=roman_gold
@@ -1715,6 +1661,22 @@ k_IRTOCK3_K53={
 		instance={
 			position={ 0.750000 0.500000 }
 			scale={ 0.500000 0.500000 }
+		}
+
+	}
+
+}
+d_IRTOCK3_K54={
+	pattern="pattern_diagonal_line_fat_02.tga"
+	color1=ck2_green
+	color2=bone_white
+	color3=navy_blue
+	colored_emblem={
+		color1=maurya_brown
+		color2=bone_white
+		texture="ce_spiral_03.dds"
+		instance={
+			scale={ 0.330000 0.330000 }
 		}
 
 	}
@@ -2195,45 +2157,6 @@ k_IRTOCK3_L41={
 	}
 
 }
-k_IRTOCK3_L48={
-	pattern="pattern_solid.tga"
-	color1=roman_red
-	color2=roman_gold
-	color3=navy_blue
-	colored_emblem={
-		color1=bone_white
-		color2=navy_blue
-		texture="ce_elephant_01.dds"
-		instance={
-			scale={ 0.750000 0.750000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=roman_gold
-		color2=ck2_blue
-		texture="ce_border_stars_04.dds"
-		instance={
-			scale={ -1.000000 1.000000 }
-			rotation=90
-		}
-
-		instance={
-			scale={ -1.000000 1.000000 }
-			rotation=270
-		}
-
-		instance={
-		}
-
-		instance={
-			rotation=180
-		}
-
-	}
-
-}
 d_IRTOCK3_L49={
 	pattern="pattern_solid.tga"
 	color1=ck2_green
@@ -2518,7 +2441,7 @@ k_IRTOCK3_M23={
 	}
 
 }
-k_IRTOCK3_M30={
+d_IRTOCK3_M30={
 	pattern="pattern_solid.tga"
 	color1=ck2_blue
 	color2=bone_white
@@ -2733,6 +2656,18 @@ k_IRTOCK3_LEU={
 	}
 
 }
+k_IRTOCK3_D90={
+	pattern="pattern_solid.tga"
+	color1=ck2_blue
+	color2=bone_white
+	color3=pitch_black
+	colored_emblem={
+		color1=bone_white
+		color2=ck2_blue
+		texture="ce_pottery_01.dds"
+	}
+
+}
 d_IRTOCK3_F66={
 	pattern="pattern_solid.tga"
 	color1=roman_red
@@ -2755,7 +2690,7 @@ d_IRTOCK3_F66={
 	}
 
 }
-d_IRTOCK3_G17={
+k_IRTOCK3_G17={
 	pattern="pattern_horizontal_split_01.tga"
 	color1=roman_gold
 	color2=purple
@@ -2782,7 +2717,7 @@ d_IRTOCK3_G17={
 	}
 
 }
-d_IRTOCK3_H41={
+k_IRTOCK3_H41={
 	pattern="pattern_solid.tga"
 	color1=roman_red
 	color2=roman_gold
@@ -2804,7 +2739,7 @@ d_IRTOCK3_H41={
 	}
 
 }
-d_IRTOCK3_H42={
+k_IRTOCK3_H42={
 	pattern="pattern_solid.tga"
 	color1=ck2_green
 	color2=bone_white
@@ -2860,31 +2795,17 @@ d_IRTOCK3_H43={
 	}
 
 }
-d_IRTOCK3_H45={
-	pattern="pattern_solid.tga"
+d_IRTOCK3_H68={
+	pattern="pattern_checkers_2x2.tga"
 	color1=ck2_green
-	color2=bone_white
-	color3=ck2_blue
+	color2=pitch_black
+	color3=bone_white
 	colored_emblem={
 		color1=roman_gold
-		color2=ck2_green
-		texture="ce_pottery_01.dds"
+		color2=purple
+		texture="ce_wheel_03.dds"
 		instance={
-			scale={ 0.750000 0.750000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=bone_white
-		color2=navy_blue
-		texture="ce_border_meander_02.tga"
-		instance={
-			rotation=90
-		}
-
-		instance={
-			rotation=270
+			scale={ -1.000000 1.000000 }
 		}
 
 	}
@@ -2949,7 +2870,7 @@ k_IRTOCK3_H96={
 	}
 
 }
-k_IRTOCK3_I00={
+d_IRTOCK3_I00={
 	pattern="pattern_solid.tga"
 	color1=maurya_brown
 	color2=roman_gold
@@ -3127,7 +3048,62 @@ k_IRTOCK3_I96={
 	}
 
 }
-d_IRTOCK3_J51={
+k_IRTOCK3_J36={
+	pattern="pattern_horizontal_split_02.tga"
+	color1=roman_red
+	color2=ck2_green
+	color3=bone_white
+	colored_emblem={
+		color1=roman_gold
+		color2=ck2_green
+		texture="ce_snake_01.dds"
+		instance={
+			scale={ -1.000000 1.000000 }
+		}
+
+	}
+
+}
+k_IRTOCK3_J48={
+	pattern="pattern_solid.tga"
+	color1=roman_red
+	color2=roman_gold
+	color3=roman_red
+	colored_emblem={
+		color1=bone_white
+		color2=ck2_blue
+		texture="ce_cattle_lucania.dds"
+		instance={
+			scale={ 0.750000 0.750000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=roman_gold
+		color2=ck2_blue
+		texture="ce_border_meander_03.tga"
+		instance={
+			scale={ -1.000000 1.000000 }
+			rotation=90
+		}
+
+		instance={
+			scale={ -1.000000 1.000000 }
+			rotation=270
+		}
+
+		instance={
+		}
+
+		instance={
+			rotation=180
+		}
+
+	}
+
+}
+k_IRTOCK3_J51={
 	pattern="pattern_solid.tga"
 	color1=maurya_brown
 	color2=roman_gold
@@ -3239,23 +3215,7 @@ k_IRTOCK3_K35={
 	}
 
 }
-k_IRTOCK3_K47={
-	pattern="pattern_diagonal_line_fat_01.tga"
-	color1=navy_blue
-	color2=bone_white
-	color3=ck2_green
-	colored_emblem={
-		color1=maurya_brown
-		color2=bone_white
-		texture="ce_hellenic_5.dds"
-		instance={
-			scale={ 0.330000 0.330000 }
-		}
-
-	}
-
-}
-d_IRTOCK3_K62={
+k_IRTOCK3_K62={
 	pattern="pattern_solid.tga"
 	color1=roman_red
 	color2=bone_white
@@ -3425,35 +3385,6 @@ k_IRTOCK3_L33={
 		color1=bone_white
 		color2=maurya_brown
 		texture="ce_border_south_arabian_01.dds"
-		instance={
-		}
-
-		instance={
-			rotation=180
-		}
-
-	}
-
-}
-k_IRTOCK3_L42={
-	pattern="pattern_solid.tga"
-	color1=roman_red
-	color2=bone_white
-	color3=purple
-	colored_emblem={
-		color1=bone_white
-		color2=pitch_black
-		texture="ce_elephant_01.dds"
-		instance={
-			scale={ -0.750000 0.750000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=bone_white
-		color2=ck2_blue
-		texture="ce_border_simple_02.tga"
 		instance={
 		}
 
@@ -4334,22 +4265,6 @@ k_IRTOCK3_L92={
 	}
 
 }
-k_IRTOCK3_L93={
-	pattern="pattern_checkers_2x2_reversed.tga"
-	color1=roman_red
-	color2=purple
-	color3=bone_white
-	colored_emblem={
-		color1=roman_gold
-		color2=maurya_brown
-		texture="ce_prow_demetrias.dds"
-		instance={
-			scale={ -1.000000 1.000000 }
-		}
-
-	}
-
-}
 k_IRTOCK3_L94={
 	pattern="pattern_vertical_split_02.tga"
 	color1=purple
@@ -4448,35 +4363,6 @@ k_IRTOCK3_L99={
 		color1=bone_white
 		color2=purple
 		texture="ce_border_simple_square_double.dds"
-	}
-
-}
-k_IRTOCK3_M00={
-	pattern="pattern_solid.tga"
-	color1=ck2_green
-	color2=roman_gold
-	color3=ck2_blue
-	colored_emblem={
-		color1=bone_white
-		color2=ck2_green
-		texture="ce_hellenic_2.dds"
-		instance={
-			scale={ 0.750000 0.750000 }
-		}
-
-	}
-
-	colored_emblem={
-		color1=roman_gold
-		color2=ck2_blue
-		texture="ce_border_meander_05.dds"
-		instance={
-		}
-
-		instance={
-			rotation=180
-		}
-
 	}
 
 }
@@ -5186,8 +5072,7 @@ d_IRTOCK3_M31={
 	}
 
 }
-dynn_irtock3_33556579=k_IRTOCK3_J37
-dynn_irtock3_16779993=k_IRTOCK3_M00
+dynn_irtock3_100664292=k_IRTOCK3_D90
 dynn_irtock3_16780021=k_IRTOCK3_M26
 dynn_irtock3_16779444=k_IRTOCK3_K43
 dynn_irtock3_16779595=k_IRTOCK3_L23
@@ -5210,14 +5095,14 @@ dynn_irtock3_16779994=k_IRTOCK3_M01
 dynn_irtock3_16780024=k_IRTOCK3_M29
 dynn_irtock3_150996313=k_IRTOCK3_ATH
 dynn_irtock3_100665544=k_IRTOCK3_K51
-dynn_irtock3_67110717=k_IRTOCK3_J97
+dynn_irtock3_67110717=d_IRTOCK3_J97
 dynn_irtock3_16779997=k_IRTOCK3_M03
 dynn_irtock3_167773989=k_IRTOCK3_SA3
 dynn_irtock3_16780009=k_IRTOCK3_M13
 dynn_irtock3_16780013=k_IRTOCK3_M18
 dynn_irtock3_16779222=k_IRTOCK3_J05
 dynn_irtock3_16779506=k_IRTOCK3_K72
-dynn_irtock3_184550581=k_IRTOCK3_HEV
+dynn_irtock3_184550581=d_IRTOCK3_HEV
 dynn_irtock3_16779983=k_IRTOCK3_L90
 dynn_irtock3_16779995=k_IRTOCK3_M02
 dynn_irtock3_50332969=k_IRTOCK3_I90
@@ -5231,12 +5116,12 @@ dynn_irtock3_50333738=d_IRTOCK3_G50
 dynn_irtock3_16780017=k_IRTOCK3_M22
 dynn_irtock3_16780008=k_IRTOCK3_M12
 dynn_irtock3_16780012=k_IRTOCK3_M17
-dynn_irtock3_from_imperator199756=k_IRTOCK3_K53
+dynn_irtock3_from_imperator193353=d_IRTOCK3_H68
+dynn_irtock3_from_imperator199756=d_IRTOCK3_K53
 dynn_irtock3_16779980=k_IRTOCK3_L87
 dynn_irtock3_16780010=k_IRTOCK3_M14
 dynn_irtock3_16779361=k_IRTOCK3_K16
-dynn_irtock3_from_imperator198570=k_IRTOCK3_J65
-dynn_irtock3_16779986=k_IRTOCK3_L93
+dynn_irtock3_from_imperator198570=d_IRTOCK3_J65
 dynn_irtock3_33556637=k_IRTOCK3_K40
 dynn_irtock3_16780016=k_IRTOCK3_M21
 dynn_irtock3_2277=k_IRTOCK3_LEU
@@ -5249,9 +5134,9 @@ dynn_irtock3_33556766=k_IRTOCK3_L14
 dynn_irtock3_16780014=k_IRTOCK3_M19
 dynn_irtock3_100665364=d_IRTOCK3_L06
 dynn_irtock3_33556815=d_IRTOCK3_L30
-dynn_irtock3_117442031=k_IRTOCK3_J74
+dynn_irtock3_117442031=d_IRTOCK3_J74
 dynn_irtock3_16779354=k_IRTOCK3_K12
-dynn_irtock3_117441651=d_IRTOCK3_H42
+dynn_irtock3_117441651=k_IRTOCK3_H42
 dynn_irtock3_16779972=k_IRTOCK3_L79
 dynn_irtock3_16779987=k_IRTOCK3_L94
 dynn_irtock3_16780003=k_IRTOCK3_M07
@@ -5269,11 +5154,10 @@ dynn_irtock3_16780007=k_IRTOCK3_M11
 dynn_irtock3_16779357=k_IRTOCK3_K15
 dynn_irtock3_16779971=k_IRTOCK3_L78
 dynn_irtock3_16779989=k_IRTOCK3_L96
-dynn_irtock3_50333796=d_IRTOCK3_H45
 dynn_irtock3_16780000=k_IRTOCK3_M04
 dynn_irtock3_100665467=k_IRTOCK3_L17
 dynn_irtock3_16779977=k_IRTOCK3_L84
-dynn_irtock3_83887763=k_IRTOCK3_J40
+dynn_irtock3_83887763=d_IRTOCK3_J40
 dynn_irtock3_16779988=k_IRTOCK3_L95
 dynn_irtock3_16780006=k_IRTOCK3_M10
 dynn_irtock3_16778944=k_IRTOCK3_G61
@@ -5290,16 +5174,18 @@ dynn_irtock3_16779962=k_IRTOCK3_L69
 dynn_irtock3_16779974=k_IRTOCK3_L81
 dynn_irtock3_83887626=k_IRTOCK3_J98
 dynn_irtock3_16780005=k_IRTOCK3_M09
-dynn_irtock3_16779053=k_IRTOCK3_I00
+dynn_irtock3_16779053=d_IRTOCK3_I00
 dynn_irtock3_50333671=k_IRTOCK3_J60
-dynn_irtock3_16779198=k_IRTOCK3_ALZ
+dynn_irtock3_16779198=d_IRTOCK3_ALZ
 dynn_irtock3_16779960=k_IRTOCK3_L67
 dynn_irtock3_33556768=k_IRTOCK3_K79
 dynn_irtock3_33556622=k_IRTOCK3_K35
 dynn_irtock3_16779414=k_IRTOCK3_K36
+dynn_irtock3_117442362=k_IRTOCK3_J36
 dynn_irtock3_16779966=k_IRTOCK3_L73
 dynn_irtock3_16779978=k_IRTOCK3_L85
 dynn_irtock3_2262=e_caspian-pontic_steppe
+dynn_irtock3_50333670=k_IRTOCK3_J48
 dynn_irtock3_218105039=k_IRTOCK3_K58
 dynn_irtock3_83888335=d_IRTOCK3_J61
 dynn_irtock3_16779565=d_IRTOCK3_L15
@@ -5309,47 +5195,48 @@ dynn_irtock3_50333798=k_IRTOCK3_H23
 dynn_irtock3_16779672=k_IRTOCK3_L59
 dynn_irtock3_16779967=k_IRTOCK3_L74
 dynn_irtock3_16779979=k_IRTOCK3_L86
-dynn_irtock3_201328201=d_IRTOCK3_J51
+dynn_irtock3_201328201=k_IRTOCK3_J51
 dynn_irtock3_50333707=k_IRTOCK3_K56
 dynn_irtock3_33556787=k_IRTOCK3_K69
-dynn_irtock3_from_imperator189238=d_IRTOCK3_K62
+dynn_irtock3_from_imperator189238=k_IRTOCK3_K62
 dynn_irtock3_16779965=k_IRTOCK3_L72
 dynn_irtock3_50333539=k_IRTOCK3_J84
 dynn_irtock3_16779408=k_IRTOCK3_K34
 dynn_irtock3_16779560=k_IRTOCK3_L11
-dynn_irtock3_33556526=k_IRTOCK3_K11
+dynn_irtock3_33556526=d_IRTOCK3_K11
 dynn_irtock3_16779964=k_IRTOCK3_L71
 dynn_irtock3_16777277=d_IRTOCK3_M31
 dynn_irtock3_16779956=k_IRTOCK3_L63
 dynn_irtock3_16779968=k_IRTOCK3_L75
-dynn_irtock3_218104693=k_IRTOCK3_VND
+dynn_irtock3_218104693=d_IRTOCK3_VND
 dynn_irtock3_100665221=k_IRTOCK3_K77
 dynn_irtock3_50333844=k_IRTOCK3_K37
 dynn_irtock3_33556783=k_IRTOCK3_K09
 dynn_irtock3_134219562=k_IRTOCK3_L33
-dynn_irtock3_16778167=k_sicily
+dynn_irtock3_16778167=e_IRTOCK3_SYR
 dynn_irtock3_16779957=k_IRTOCK3_L64
 dynn_irtock3_16779969=k_IRTOCK3_L76
 dynn_irtock3_33556025=d_IRTOCK3_H44
 dynn_irtock3_50333474=k_IRTOCK3_J49
-dynn_irtock3_16779664=k_IRTOCK3_E61
+dynn_irtock3_16779664=d_IRTOCK3_E61
 dynn_irtock3_16779955=k_IRTOCK3_L62
 dynn_irtock3_117441573=k_IRTOCK3_I96
 dynn_irtock3_16780049=k_IRTOCK3_CAR
 dynn_irtock3_16779650=d_IRTOCK3_L54
-dynn_irtock3_150997144=k_IRTOCK3_TBC
+dynn_irtock3_150997144=d_IRTOCK3_TBC
 dynn_irtock3_16779954=k_IRTOCK3_L61
 dynn_irtock3_33556823=d_IRTOCK3_L49
 dynn_irtock3_117441959=k_IRTOCK3_I44
 dynn_irtock3_67110830=d_IRTOCK3_D60
 dynn_irtock3_16779958=k_IRTOCK3_L65
-dynn_irtock3_117442575=k_IRTOCK3_AX3
-dynn_irtock3_16779327=k_IRTOCK3_F38
-dynn_irtock3_67110833=k_IRTOCK3_SCI
+dynn_irtock3_117442575=d_IRTOCK3_AX3
+dynn_irtock3_16779327=d_IRTOCK3_F38
+dynn_irtock3_67110833=d_IRTOCK3_SCI
 dynn_irtock3_67110920=k_IRTOCK3_K02
 dynn_irtock3_33557006=k_IRTOCK3_M37
 dynn_irtock3_1909=e_IRTOCK3_B99
 dynn_irtock3_50333668=k_IRTOCK3_I48
+dynn_irtock3_16779539=d_IRTOCK3_K54
 dynn_irtock3_16779652=k_IRTOCK3_K20
 dynn_irtock3_16779668=k_IRTOCK3_L58
 dynn_irtock3_16779959=k_IRTOCK3_L66
@@ -5369,27 +5256,24 @@ dynn_irtock3_16779528=k_IRTOCK3_COM
 dynn_irtock3_16779643=d_IRTOCK3_L51
 dynn_irtock3_50334155=k_IRTOCK3_M39
 dynn_irtock3_50333947=k_IRTOCK3_K96
-dynn_irtock3_33556665=k_IRTOCK3_K47
 dynn_irtock3_33556739=k_IRTOCK3_L03
-dynn_irtock3_50334046=k_IRTOCK3_I49
-dynn_irtock3_83888446=k_IRTOCK3_L48
-dynn_irtock3_16779530=k_IRTOCK3_G52
+dynn_irtock3_50334046=d_IRTOCK3_I49
+dynn_irtock3_16779530=k_IRTOCK3_G52_0
 dynn_irtock3_134219392=k_IRTOCK3_L60
 dynn_irtock3_from_imperator203694=d_IRTOCK3_L57
 dynn_irtock3_16778616=e_IRTOCK3_BAC
 dynn_irtock3_33556043=k_IRTOCK3_H96
 dynn_irtock3_50333936=k_IRTOCK3_K66
-dynn_irtock3_50333743=k_IRTOCK3_D29
+dynn_irtock3_50333743=d_IRTOCK3_D29
 dynn_irtock3_50334032=d_IRTOCK3_L29
 dynn_irtock3_from_imperator200862=d_IRTOCK3_J66
 dynn_irtock3_33556614=d_IRTOCK3_K33
-dynn_irtock3_from_imperator206138=k_IRTOCK3_M30
+dynn_irtock3_from_imperator206138=d_IRTOCK3_M30
 dynn_irtock3_100665432=k_IRTOCK3_K97
 dynn_irtock3_184551397=k_IRTOCK3_J79
 dynn_irtock3_33556389=k_IRTOCK3_I58
-dynn_irtock3_134219265=d_IRTOCK3_H41
-dynn_irtock3_16779631=k_IRTOCK3_L42
-dynn_irtock3_50332717=d_IRTOCK3_G17
+dynn_irtock3_134219265=k_IRTOCK3_H41
+dynn_irtock3_50332717=k_IRTOCK3_G17
 dynn_irtock3_16779300=k_IRTOCK3_K04
 dynn_irtock3_16779522=d_IRTOCK3_K76
 dynn_irtock3_50333813=k_IRTOCK3_I35

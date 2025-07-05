@@ -2,6 +2,7 @@
 	culture = greek
 	faith = hellenic_pagan
 	holding = castle_holding
+	100.1.1 = { special_building_slot = sacred_rocks_of_hunza }
 }
 7951={
 	holding = none
@@ -40,7 +41,7 @@
 	holding = none
 }
 9005={
-	holding = none
+	holding = city_holding
 }
 9006={
 	culture = zhangzhung
@@ -62,13 +63,13 @@
 	holding = city_holding
 }
 9011={
-	holding = city_holding
+	holding = castle_holding
 }
 9012={
 	holding = none
 }
 9013={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -87,7 +88,7 @@
 	holding = none
 }
 9018={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -108,14 +109,6 @@
 9023={
 	holding = church_holding
 }
-9024={
-	culture = tocharian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-9025={
-	holding = castle_holding
-}
 9026={
 	culture = tocharian
 	faith = hellenic_pagan
@@ -130,7 +123,7 @@
 	holding = castle_holding
 }
 9029={
-	holding = church_holding
+	holding = castle_holding
 }
 9030={
 	culture = zhangzhung
@@ -145,7 +138,7 @@
 }
 9033={
 	culture = sumpa
-	faith = old_bon
+	faith = rrmeaism
 	holding = none
 }
 9034={
@@ -175,7 +168,7 @@
 }
 9041={
 	culture = sumpa
-	faith = old_bon
+	faith = rrmeaism
 	holding = none
 }
 9042={
@@ -291,9 +284,9 @@
 	holding = church_holding
 }
 9079={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	culture = nepali
+	faith = old_bon
+	holding = none
 }
 9080={
 	holding = none
@@ -308,15 +301,15 @@
 	holding = church_holding
 }
 9099={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	culture = nepali
+	faith = old_bon
+	holding = none
 }
 9100={
 	holding = none
 }
 9101={
-	culture = greek
+	culture = kirati
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -327,9 +320,9 @@
 	holding = none
 }
 9104={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
+	culture = nepali
+	faith = old_bon
+	holding = none
 }
 9105={
 	holding = none
@@ -341,21 +334,20 @@
 	holding = castle_holding
 }
 9108={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 9109={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = maya_devi_temple_01
 }
 9110={
 	holding = none
 }
 9111={
-	culture = indo_greek
+	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }

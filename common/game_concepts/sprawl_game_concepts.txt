@@ -1,5 +1,0 @@
-﻿architecture = {
-	texture = "gfx/interface/icons/icon_culture.dds"
-	parent = culture_pillar
-	alias = { architectures architectural }
-}

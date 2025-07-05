@@ -58,6 +58,86 @@ k_IRTOCK3_SMP={
 	420.5.20 = { holder = imperator187586 government = tribal_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
 }
+d_nagchu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_baingoin_holder liege = 0 }
+}
+c_nagchu={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_baingoin={
+	423.7.6 = { holder = IRToCK3_c_baingoin_holder liege = "d_nagchu" change_development_level = 0 }
+}
+c_lhari={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
+d_sagya={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_nyalam_holder liege = 0 }
+}
+c_sagya={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_nyalam={
+	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = "d_sagya" change_development_level = 1 }
+}
+c_gyirong={
+	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = 0 change_development_level = 1 }
+}
+c_kyakyaru={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
+}
+d_lhoyul={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_itanagar_holder liege = 0 }
+}
+c_itanagar={
+	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_itanagar_holder liege = 0 change_development_level = 7 }
+}
+c_along={
+	422.4.29 = { liege = 0 holder = imperator203587 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_mainling={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_pemako={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 4 }
+}
+d_bumthang={
+	423.7.6 = { liege = 0 }
+}
+c_bumthang={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_kurmaed={
+	422.9.21 = { liege = 0 holder = imperator203565 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_trongsa={
+	422.4.29 = { liege = 0 holder = imperator203587 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 14 }
+}
+d_ngamring={
+	423.7.6 = { liege = 0 }
+}
+c_kagar={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator184940 change_development_level = 5 }
+}
+c_caze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
+}
+c_xaitongmoin={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 5 }
+}
 d_yarlung={
 	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
@@ -106,20 +186,6 @@ c_damxung={
 	420.5.20 = { liege = 0 holder = imperator187586 }
 	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator180797 change_development_level = 6 }
 }
-d_nagchu={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_baingoin_holder liege = 0 }
-}
-c_nagchu={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_baingoin={
-	423.7.6 = { holder = IRToCK3_c_baingoin_holder liege = "d_nagchu" change_development_level = 0 }
-}
-c_lhari={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 5 }
-}
 d_xigaze={
 	423.7.6 = { liege = 0 }
 }
@@ -134,64 +200,6 @@ c_gyangze={
 c_kangmar={
 	420.5.20 = { liege = 0 holder = imperator187586 }
 	423.7.6 = { change_development_level = 5 }
-}
-d_sagya={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_nyalam_holder liege = 0 }
-}
-c_sagya={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_nyalam={
-	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = "d_sagya" change_development_level = 1 }
-}
-c_gyirong={
-	423.7.6 = { holder = IRToCK3_c_nyalam_holder liege = 0 change_development_level = 1 }
-}
-c_kyakyaru={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
-}
-d_ngamring={
-	423.7.6 = { liege = 0 }
-}
-c_kagar={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator184940 change_development_level = 5 }
-}
-c_caze={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 6 }
-}
-c_xaitongmoin={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 5 }
-}
-d_nyingchi={
-	423.7.6 = { liege = 0 }
-}
-c_nyingchi={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_gongbo={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 6 }
-}
-d_bumthang={
-	423.7.6 = { liege = 0 }
-}
-c_bumthang={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_kurmaed={
-	422.9.21 = { liege = 0 holder = imperator203565 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_trongsa={
-	422.4.29 = { liege = 0 holder = imperator203587 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 14 }
 }
 d_monyul={
 	423.7.6 = { liege = 0 }
@@ -208,20 +216,14 @@ c_lhunze={
 	420.5.20 = { liege = 0 holder = imperator187586 }
 	423.7.6 = { change_development_level = 6 }
 }
-d_lhoyul={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_itanagar_holder liege = 0 }
+d_nyingchi={
+	423.7.6 = { liege = 0 }
 }
-c_itanagar={
-	423.7.6 = { holder = IRToCK3_c_itanagar_holder liege = 0 change_development_level = 7 }
-}
-c_along={
-	423.7.6 = { holder = IRToCK3_c_itanagar_holder liege = 0 change_development_level = 4 }
-}
-c_mainling={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_pemako={
+c_nyingchi={
 	420.5.20 = { liege = 0 holder = imperator187586 }
 	423.7.6 = { change_development_level = 4 }
+}
+c_gongbo={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { change_development_level = 6 }
 }

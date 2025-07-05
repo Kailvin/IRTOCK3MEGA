@@ -292,6 +292,7 @@ character_view_bg = {
 
 	##########################################
 	# ACTIVITIES
+	
 	####
 	# tournament, eastern
 	####
@@ -819,16 +820,7 @@ character_view_bg = {
 	}
 
 	####
-	# feast, byzantine
-	texture = {
-		reference = "event_scenes/ep3_feast_byzantine.dds"
-
-		trigger = {
-			involved_activity ?= { has_activity_type = activity_feast }
-			location ?= involved_activity.activity_location
-			involved_activity.activity_location.culture = { has_building_gfx = byzantine_building_gfx }
-		}
-	}
+	
 
 	environment = {
 		reference = "environment_ep3_byzantine_feast"
@@ -957,7 +949,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# feast, indian
 	####
@@ -1015,7 +1007,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# feast, mena
 	####
@@ -1093,7 +1085,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# feast, steppe
 	####
@@ -1151,7 +1143,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# feast, sub-saharan
 	####
@@ -1209,7 +1201,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# feast, western
 	####
@@ -1315,7 +1307,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# Generic hunt
 	####
@@ -1418,7 +1410,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# pilgrimage, Mecca
 	####
@@ -1475,7 +1467,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# pilgrimage, tribal generic holy site
 	####
@@ -1484,7 +1476,7 @@ character_view_bg = {
 
 		trigger = {
 			involved_activity ?= { has_activity_type = activity_pilgrimage }
-			involved_activity.activity_location.province_owner ?= {
+			involved_activity.activity_location.province_owner ?= { 
 				government_has_flag = government_is_tribal
 			}
 			location ?= involved_activity.activity_location
@@ -1496,7 +1488,7 @@ character_view_bg = {
 
 		trigger = {
 			involved_activity ?= { has_activity_type = activity_pilgrimage }
-			involved_activity.activity_location.province_owner ?= {
+			involved_activity.activity_location.province_owner ?= { 
 				government_has_flag = government_is_tribal
 			}
 			location ?= involved_activity.activity_location
@@ -1512,7 +1504,7 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						involved_activity ?= { has_activity_type = activity_pilgrimage }
-						involved_activity.activity_location.province_owner ?= {
+						involved_activity.activity_location.province_owner ?= { 
 							government_has_flag = government_is_tribal
 						}
 						location ?= involved_activity.activity_location
@@ -1522,7 +1514,7 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						involved_activity ?= { has_activity_type = activity_pilgrimage }
-						involved_activity.activity_location.province_owner ?= {
+						involved_activity.activity_location.province_owner ?= { 
 							government_has_flag = government_is_tribal
 						}
 						location ?= involved_activity.activity_location
@@ -1532,7 +1524,7 @@ character_view_bg = {
 					liege.diarch ?= this
 					liege ?= {
 						involved_activity ?= { has_activity_type = activity_pilgrimage }
-						involved_activity.activity_location.province_owner ?= {
+						involved_activity.activity_location.province_owner ?= { 
 							government_has_flag = government_is_tribal
 						}
 						location ?= involved_activity.activity_location
@@ -1542,7 +1534,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# pilgrimage, MENA generic holy site
 	####
@@ -1599,7 +1591,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# pilgrimage, Indian generic holy site
 	####
@@ -1669,7 +1661,7 @@ character_view_bg = {
 			location ?= involved_activity.activity_location
 		}
 	}
-
+	
 	####
 	# pilgrimage, Western generic holy site
 	####
@@ -1848,11 +1840,13 @@ character_view_bg = {
 
 	# environment = {
 	# 	reference = "environment_cw_west"
+
 	# 	trigger = {
 	# 		exists = primary_title
 	# 		primary_title.tier >= tier_empire
 	# 		has_graphical_western_region_trigger = yes
 	# 		is_character_window_main_character = yes
+
 	# 	}
 	# }
 
@@ -1888,7 +1882,7 @@ character_view_bg = {
 	# 		is_character_window_main_character = no
 	# 	}
 	# }
-
+	
 	environment = {
 		reference = "environment_ep3_byzantine_throne_room_spouse"
 
@@ -2087,11 +2081,10 @@ character_view_bg = {
 			}
 		}
 	}
-
 	###
 	# other unlanded house head	
 	#
-
+	
 	texture = {
 		reference = "event_scenes/bp2_indian_garden.dds"
 
@@ -2129,7 +2122,7 @@ character_view_bg = {
 			}
 		}
 	}
-
+	
 	texture = {
 		reference = "event_scenes/bp2_courtyard.dds"
 
@@ -2179,7 +2172,7 @@ character_view_bg = {
 			}
 		}
 	}
-
+	
 	texture = {
 		reference = "event_scenes/bp1_garden_mena_day.dds"
 
@@ -2246,7 +2239,6 @@ character_view_bg = {
 	# 	}
 	# }
 
-	##########################################
 
 	####
 	# sea, norse
@@ -2390,7 +2382,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# sea
 	####
@@ -2500,7 +2492,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	####
 	# ep2_hunt_snowy_forest
 	####
@@ -2645,7 +2637,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#forest_pine
 	#####
@@ -2755,7 +2747,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#forest
 	#####
@@ -2865,7 +2857,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#ep2_travel_bridge
 	#####
@@ -3006,7 +2998,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#jungle
 	#####
@@ -3116,7 +3108,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#wetlands
 	#####
@@ -3226,7 +3218,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#drylands
 	#####
@@ -3336,7 +3328,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#hills, unsettled
 	#####
@@ -3566,7 +3558,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#plains, unsettled
 	#####
@@ -3681,7 +3673,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#plains, settled
 	#####
@@ -3911,7 +3903,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#steppe, settled
 	#####
@@ -4026,7 +4018,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#mountains, unsettled
 	#####
@@ -4141,7 +4133,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#mountains, settled
 	#####
@@ -4256,7 +4248,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#Desert, unsettled
 	#####
@@ -4371,7 +4363,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#Desert, settled
 	#####
@@ -4486,7 +4478,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#Farmland, unsettled
 	#####
@@ -4601,7 +4593,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	#####
 	#Farmland, settled
 	#####
@@ -4709,6 +4701,458 @@ character_view_bg = {
 						location = {
 							terrain = farmlands
 							exists = province_owner
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	#####
+	#Landless Adventurers from the steppe
+	texture = {
+		reference = "event_scenes/mpo_camp_steppe.dds"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_scholars
+				liege ?= { has_realm_law = camp_purpose_scholars }
+			}
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_genericcamp"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_scholars
+				liege ?= { has_realm_law = camp_purpose_scholars }
+			}
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_genericcamp"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_scholars
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_scholars
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_scholars
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	
+	texture = {
+		reference = "event_scenes/mpo_tent_interior_mongol.dds"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_legitimists
+				liege ?= { has_realm_law = camp_purpose_legitimists }
+			}
+			NOR = {
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_mpo_tent_interior_mongol"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_legitimists
+				liege ?= { has_realm_law = camp_purpose_legitimists }
+			}
+			NOR = {
+				is_travelling = yes
+				exists = involved_activity
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mpo_tent_interior_mongol"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_legitimists
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_legitimists
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						has_realm_law = camp_purpose_legitimists
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	
+	texture = {
+		reference = "event_scenes/mpo_camp_steppe.dds"
+
+		trigger = {
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				AND = {
+					government_has_flag = government_is_landless_adventurer
+					OR = {
+						has_realm_law = camp_purpose_mercenaries
+						liege ?= { has_realm_law = camp_purpose_mercenaries }
+					}
+				}
+				primary_title ?= { is_mercenary_company = yes }
+				employer.primary_title ?= { is_mercenary_company = yes }
+			}
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_genericcamp"
+
+		trigger = {
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				AND = {
+					government_has_flag = government_is_landless_adventurer
+					OR = {
+						has_realm_law = camp_purpose_mercenaries
+						liege ?= { has_realm_law = camp_purpose_mercenaries }
+					}
+				}
+				primary_title ?= { is_mercenary_company = yes }
+				employer.primary_title ?= { is_mercenary_company = yes }
+			}
+			NOR = {
+				is_travelling = yes
+				exists = involved_activity
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_genericcamp"
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							AND = {
+								government_has_flag = government_is_landless_adventurer
+								OR = {
+									has_realm_law = camp_purpose_mercenaries
+									liege ?= { has_realm_law = camp_purpose_mercenaries }
+								}
+							}
+							primary_title ?= { is_mercenary_company = yes }
+							employer.primary_title ?= { is_mercenary_company = yes }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							AND = {
+								government_has_flag = government_is_landless_adventurer
+								OR = {
+									has_realm_law = camp_purpose_mercenaries
+									liege ?= { has_realm_law = camp_purpose_mercenaries }
+								}
+							}
+							primary_title ?= { is_mercenary_company = yes }
+							employer.primary_title ?= { is_mercenary_company = yes }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							AND = {
+								government_has_flag = government_is_landless_adventurer
+								OR = {
+									has_realm_law = camp_purpose_mercenaries
+									liege ?= { has_realm_law = camp_purpose_mercenaries }
+								}
+							}
+							primary_title ?= { is_mercenary_company = yes }
+							employer.primary_title ?= { is_mercenary_company = yes }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	
+	texture = {
+		reference = "event_scenes/mpo_campfire_steppe.dds"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_brigands
+				liege ?= { has_realm_law = camp_purpose_brigands }
+			}
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_bp1_bonfire"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			OR = {
+				has_realm_law = camp_purpose_brigands
+				liege ?= { has_realm_law = camp_purpose_brigands }
+			}
+			NOR = {
+				is_travelling = yes
+				exists = involved_activity
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_bp1_bonfire"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							has_realm_law = camp_purpose_brigands
+							liege ?= { has_realm_law = camp_purpose_brigands }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							has_realm_law = camp_purpose_brigands
+							liege ?= { has_realm_law = camp_purpose_brigands }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						OR = {
+							has_realm_law = camp_purpose_brigands
+							liege ?= { has_realm_law = camp_purpose_brigands }
+						}
+						NOR = {
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+	
+	texture = {
+		reference = "event_scenes/mpo_hunt_steppe.dds"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+		}
+	}
+
+	environment = {
+		reference = "environment_event_farms"
+
+		trigger = {
+			government_has_flag = government_is_landless_adventurer
+			culture = { has_graphical_steppe_culture_group_trigger = yes }
+			NOR = {
+				is_imprisoned = yes
+				is_travelling = yes
+				exists = involved_activity
+			}
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_farms"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
+						}
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						government_has_flag = government_is_landless_adventurer
+						culture = { has_graphical_steppe_culture_group_trigger = yes }
+						NOR = {
+							is_imprisoned = yes
+							is_travelling = yes
+							exists = involved_activity
 						}
 					}
 				}
@@ -5236,7 +5680,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	# Wandering coastal
 	texture = {
 		reference = "character_view/docks.dds"
@@ -5382,7 +5826,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	# Wandering europe
 	texture = {
 		reference = "character_view/crossroads_inn.dds"
@@ -5473,7 +5917,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	# Wandering mena
 	texture = {
 		reference = "character_view/courtyard_mena.dds"
@@ -5579,7 +6023,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	# Wandering india
 	texture = {
 		reference = "character_view/courtyard_indian.dds"
@@ -5670,7 +6114,7 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	# Wandering fallback
 	texture = {
 		reference = "character_view/bonfire.dds"
@@ -5744,7 +6188,7 @@ character_view_bg = {
 
 	##########################################
 	# TEMPLES
-
+	
 	texture = { # Zoroastrian
 		reference = "event_scenes/fp3_temple.dds"
 
@@ -6060,7 +6504,7 @@ character_view_bg = {
 
 	##########################################
 	# PHYSICIANS
-
+	
 	texture = { # Tribal
 		reference = "event_scenes/fp4_physician_tribal.dds"
 
@@ -6393,7 +6837,10 @@ character_view_bg = {
 			OR = {
 				AND = { # Governor
 					is_landed = yes
+					OR = {
 					government_has_flag = government_is_administrative
+					government_has_flag = government_is_autocratic_ep3
+					}
 					exists = liege
 					liege = {
 						OR = {
@@ -6414,7 +6861,10 @@ character_view_bg = {
 				AND = { # Spouse
 					primary_spouse ?= {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = liege
 						liege = {
 							OR = {
@@ -6437,7 +6887,10 @@ character_view_bg = {
 					any_close_family_member = {
 						location = prev.location
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6467,7 +6920,10 @@ character_view_bg = {
 			OR = {
 				AND = {
 					is_landed = yes
+					OR = {
 					government_has_flag = government_is_administrative
+					government_has_flag = government_is_autocratic_ep3
+					}
 					exists = liege
 					liege = {
 						OR = {
@@ -6488,7 +6944,10 @@ character_view_bg = {
 				AND = { # Spouse
 					primary_spouse ?= {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = liege
 						liege = {
 							OR = {
@@ -6511,7 +6970,10 @@ character_view_bg = {
 					any_close_family_member = {
 						location = prev.location
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6542,7 +7004,10 @@ character_view_bg = {
 			OR = {
 				AND = {
 					is_landed = yes
+					OR = {
 					government_has_flag = government_is_administrative
+					government_has_flag = government_is_autocratic_ep3
+					}
 					exists = liege
 					liege = {
 						OR = {
@@ -6564,7 +7029,10 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = liege
 						liege = {
 							OR = {
@@ -6587,7 +7055,10 @@ character_view_bg = {
 					exists = betrothed
 					betrothed = {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = liege
 						liege = {
 							OR = {
@@ -6610,7 +7081,10 @@ character_view_bg = {
 					liege.diarch ?= this
 					liege = {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						OR = {
 							primary_title = title:e_byzantium
 							primary_title = title:e_roman_empire 
@@ -6630,7 +7104,10 @@ character_view_bg = {
 					any_close_family_member = {
 						location = prev.location
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6661,7 +7138,10 @@ character_view_bg = {
 			OR = {
 				AND = { # Lower Noble
 					is_landed = yes
+					OR = {
 					government_has_flag = government_is_administrative
+					government_has_flag = government_is_autocratic_ep3
+					}
 					exists = top_liege
 					top_liege = {
 						OR = {
@@ -6682,7 +7162,10 @@ character_view_bg = {
 				AND = { # Primary Spouse
 					primary_spouse ?= {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6705,7 +7188,10 @@ character_view_bg = {
 					any_close_family_member = {
 						location = prev.location
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6733,7 +7219,10 @@ character_view_bg = {
 
 		trigger = {
 			is_landed = yes
-			government_has_flag = government_is_administrative
+			OR = {
+				government_has_flag = government_is_administrative
+				government_has_flag = government_is_autocratic_ep3
+				}
 			exists = liege
 			top_liege = {
 				OR = {
@@ -6763,7 +7252,10 @@ character_view_bg = {
 					exists = primary_spouse
 					primary_spouse = {
 						is_landed = yes
+						OR = {
 						government_has_flag = government_is_administrative
+						government_has_flag = government_is_autocratic_ep3
+						}
 						exists = top_liege
 						top_liege = {
 							OR = {
@@ -6828,96 +7320,8 @@ character_view_bg = {
 		}
 	}
 
-	# Chinese Throneroom
-	texture = {
-		reference = "character_view/throneroom_china.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title = title:e_celestia_china
-			# has_graphical_china_region_trigger = yes
-		}
-	}
-
 	##########################################
-
-	# Chinese, regular
-	texture = {
-		reference = "character_view/china.dds"
-
-		trigger = {
-			OR = {
-				AND = {
-					culture = { has_cultural_parameter = heritage_family_east_asian }
-					has_government = administrative_government
-				}
-				has_government = chinese_government
-				has_graphical_china_region_trigger = yes
-				culture = {
-					OR = {
-						has_cultural_pillar = heritage_korean
-						any_parent_culture_or_above = {
-							has_cultural_pillar = heritage_korean
-						}
-					}
-				}
-			}
-		}
-	}
-
-	##########################################
-
-	# Tibetan Throneroom
-	texture = {
-		reference = "character_view/dharma_tibet_throneroom.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			has_graphical_tibet_region_trigger = yes
-		}
-	}
-
-	##########################################
-
-	# Tibetan, regular
-	texture = {
-		reference = "character_view/india.dds"
-
-		trigger = {
-			has_graphical_tibet_region_trigger = yes
-		}
-	}
-
-	##########################################
-
-	# Tribal India
-	texture = {
-		reference = "character_view/dharma_tribal_throneroom.dds"
-
-		trigger = {
-			has_government = tribal_government
-			OR = {
-				has_graphical_india_region_trigger = yes
-				has_graphical_burma_region_trigger = yes
-				has_graphical_tibet_region_trigger = yes
-			}
-		}
-	}
-
-	##########################################
-
-	# Japan
-	texture = {
-		reference = "character_view/yamato.dds"
-
-		trigger = {
-			has_graphical_japan_region_trigger = yes
-		}
-	}
-
-	##########################################
-
+	
 	# 'Feudal'/High-tier Norse, or non-Tribals in Scandinavia
 	texture = { # FP1 Norse
 		reference = "character_view/fp1_throneroom_nontribal.dds"
@@ -7102,9 +7506,9 @@ character_view_bg = {
 			is_character_window_main_character = no
 		}
 	}
-
+	
 	##########################################
-
+	
 	# Tribal Norse
 	texture = { # FP1 Norse
 		reference = "character_view/fp1_throneroom_tribal.dds"
@@ -7725,11 +8129,7 @@ character_view_bg = {
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			OR = {
-				has_graphical_india_region_trigger = yes
-				has_graphical_burma_region_trigger = yes
-				has_graphical_sea_region_trigger = yes
-			}
+			has_graphical_india_region_trigger = yes
 		}
 	}
 
@@ -7739,11 +8139,7 @@ character_view_bg = {
 		trigger = {
 			exists = primary_title
 			primary_title.tier >= tier_empire
-			OR = {
-				has_graphical_india_region_trigger = yes
-				has_graphical_burma_region_trigger = yes
-				has_graphical_sea_region_trigger = yes
-			}
+			has_graphical_india_region_trigger = yes
 			is_character_window_main_character = yes
 		}
 	}
@@ -7758,11 +8154,7 @@ character_view_bg = {
 					primary_spouse = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						OR = {
-							has_graphical_india_region_trigger = yes
-							has_graphical_burma_region_trigger = yes
-							has_graphical_sea_region_trigger = yes
-						}
+						has_graphical_india_region_trigger = yes
 					}
 				}
 				AND = {
@@ -7770,11 +8162,7 @@ character_view_bg = {
 					betrothed = {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						OR = {
-							has_graphical_india_region_trigger = yes
-							has_graphical_burma_region_trigger = yes
-							has_graphical_sea_region_trigger = yes
-						}
+						has_graphical_india_region_trigger = yes
 					}
 				}
 				AND = {
@@ -7782,11 +8170,7 @@ character_view_bg = {
 					liege ?= {
 						exists = primary_title
 						primary_title.tier >= tier_empire
-						OR = {
-							has_graphical_india_region_trigger = yes
-							has_graphical_burma_region_trigger = yes
-							has_graphical_sea_region_trigger = yes
-						}
+						has_graphical_india_region_trigger = yes
 					}
 				}
 			}
@@ -7803,21 +8187,9 @@ character_view_bg = {
 		trigger = {
 			trigger_if = {
 				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { 
-					OR = {
-						has_graphical_india_region_trigger = yes
-						has_graphical_burma_region_trigger = yes
-						has_graphical_sea_region_trigger = yes
-					} 
-				}
+				imprisoner = { has_graphical_india_region_trigger = yes }
 			}
-			trigger_else = {
-				OR = {
-					has_graphical_india_region_trigger = yes
-					has_graphical_burma_region_trigger = yes
-					has_graphical_sea_region_trigger = yes
-				} 
-			}
+			trigger_else = { has_graphical_india_region_trigger = yes }
 		}
 	}
 
@@ -7827,24 +8199,10 @@ character_view_bg = {
 		trigger = {
 			trigger_if = {
 				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { 
-					OR = {
-						has_graphical_india_region_trigger = yes
-						has_graphical_burma_region_trigger = yes
-						has_graphical_sea_region_trigger = yes
-					}
-				}
+				imprisoner = { has_graphical_india_region_trigger = yes }
 			}
 			trigger_else = { has_graphical_india_region_trigger = yes }
 			is_character_window_main_character = yes
-		}
-		trigger = {
-			is_character_window_main_character = yes
-			OR = {
-				has_graphical_india_region_trigger = yes
-				has_graphical_burma_region_trigger = yes
-				has_graphical_sea_region_trigger = yes
-			}
 		}
 	}
 
@@ -7872,23 +8230,12 @@ character_view_bg = {
 					liege ?= {
 						trigger_if = {
 							limit = { is_in_prison_type = house_arrest }
-							imprisoner = {
-								OR = {
-									has_graphical_india_region_trigger = yes
-									has_graphical_burma_region_trigger = yes
-									has_graphical_sea_region_trigger = yes 
-								}
-							}
+							imprisoner = { has_graphical_india_region_trigger = yes }
 						}
-						trigger_else = { 
-							OR = {
-							has_graphical_india_region_trigger = yes
-							has_graphical_burma_region_trigger = yes
-							has_graphical_sea_region_trigger = yes
-							}
-						}
+						trigger_else = { has_graphical_india_region_trigger = yes }
 					}
 				}
+			}
 			is_character_window_main_character = no
 		}
 	}
@@ -8025,6 +8372,7 @@ character_view_bg = {
 }
 
 character_location_exterior = {
+
 	texture = {
 		reference = "event_scenes/bp1_plains.dds"
 
@@ -8273,10 +8621,7 @@ character_location_exterior = {
 			government_has_flag = government_is_tribal
 			exists = capital_province
 			capital_province = {
-				OR = {
-					geographical_region = world_tibet
-					geographical_region = world_china
-				}
+				geographical_region = world_tibet
 			}
 		}
 	}
@@ -8324,19 +8669,13 @@ character_location_exterior = {
 				has_graphical_india_region_trigger = yes
 				has_graphical_mena_region_trigger = yes
 				has_graphical_mediterranean_region_trigger = yes
-				has_graphical_burma_region_trigger = yes
-				has_graphical_sea_region_trigger = yes
 			}
 		}
-	}
-
-	texture = {
-		reference = "event_scenes/market_east.dds"
 	}
 }
 
 ### Religious interior - Character Scope
-character_religion_interior = {
+character_religion_interior = { 
 
 	####
 	# hagia sophia
@@ -8372,7 +8711,7 @@ character_religion_interior = {
 
 	# FP3
 
-	texture = {
+	texture = { 
 		trigger = { religion = religion:zoroastrianism_religion }
 		reference = "event_scenes/fp3_temple.dds"
 	}
@@ -8446,7 +8785,7 @@ character_religion_interior = {
 
 	# texture = {
 	# 	reference = "gfx/interface/skins/norse/illustrations/council/bg_council_chaplain.dds"
-
+		
 	# 	trigger = {
 	# 		AND = {
 	# 			religion = religion:pagan
@@ -8469,11 +8808,11 @@ character_religion_interior = {
 }
 
 ### Religious interior - Faith Scope
-religion_interior = {
+religion_interior = { 
 
 	# FP3
 
-	texture = {
+	texture = { 
 		trigger = { religion = religion:zoroastrianism_religion }
 		reference = "event_scenes/fp3_temple.dds"
 	}
@@ -8541,183 +8880,6 @@ religion_interior = {
 		reference = "environment_event_fp1_tribal_temple"
 	}
 
-	######################################
-	## Insert here some chinese background image
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			this = faith:ganaptism
-		}
-		reference = "interior/dharma_temple_ganesha.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			this = faith:ganaptism
-		}
-		reference = "environment_event_dharma_temple_ganesha"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				this = faith:srikula_shaktism
-				this = faith:kalikula_shaktism
-			}
-		}
-		reference = "interior/dharma_temple_shakti.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				this = faith:srikula_shaktism
-				this = faith:kalikula_shaktism
-			}
-		}
-		reference = "environment_event_dharma_temple_shakti"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				religion = religion:bon_religion
-				this = faith:lamaism
-			}
-		}
-		reference = "interior/dharma_temple_tibet.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				religion = religion:bon_religion
-				this = faith:lamaism
-			}
-		}
-		reference = "environment_event_dharma_temple_tibetan"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				religion = religion:tani_religion
-				religion = religion:mundhum_religion
-				religion = religion:bathouism_religion
-				religion = religion:peristani_religion
-				religion = religion:khasi_religion
-				religion = religion:sanamahism_religion
-				religion = religion:qiangic_religion
-				this = faith:sarnaism
-				this = faith:koyapunem
-			}
-		}
-		reference = "interior/dharma_temple_tribal.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			OR = {
-				religion = religion:tani_religion
-				religion = religion:mundhum_religion
-				religion = religion:bathouism_religion
-				religion = religion:peristani_religion
-				religion = religion:khasi_religion
-				religion = religion:sanamahism_religion
-				religion = religion:qiangic_religion
-				this = faith:sarnaism
-				this = faith:koyapunem
-			}
-		}
-		reference = "environment_event_dharma_temple_tribal"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			this = faith:krishnaism
-		}
-		reference = "interior/dharma_temple_krishna.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			this = faith:krishnaism
-		}
-		reference = "environment_event_dharma_temple_krishna"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			this = faith:vaishnavism
-		}
-		reference = "interior/dharma_temple_vishnu.dds"
-	}
-	environment = {# Dharma Indian Temple
-		trigger = {
-			this = faith:vaishnavism
-		}
-		reference = "environment_event_dharma_temple_vishnu"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			religion = religion:buddhism_religion
-		}
-		reference = "interior/dharma_temple_buddhism.dds"
-	}
-
-	environment = {# Dharma Indian Temple
-		trigger = {
-			religion = religion:buddhism_religion
-		}
-		reference = "environment_event_dharma_temple_buddhism"
-	}
-
-	texture = {# Dharma Indian Temple
-		trigger = {
-			religion = { is_in_family = rf_eastern }
-		}
-		reference = "event_scenes/dharma_temple_interior.dds"
-	}
-
-	environment = {# Dharma Indian Temple
-		trigger = {
-			religion = { is_in_family = rf_eastern }
-		}
-		reference = "environment_event_dharma_temple_general"
-	}
-
-	texture = { # FP1
-		trigger = { religion = religion:germanic_religion }
-		reference = "event_scenes/fp1_tribal_temple.dds"
-	}
-
-	environment = { # FP1
-		trigger = { religion = religion:germanic_religion }
-		reference = "environment_event_fp1_tribal_temple"
-	}
-
-	texture = {
-		trigger = { religion = religion:christianity_religion }
-		reference = "event_scenes/church.dds"
-	}
-
-	environment = {
-		trigger = { religion = religion:christianity_religion }
-		reference = "environment_event_church"
-	}
-
-	texture = {
-		trigger = {
-			religion = religion:islam_religion
-		}
-
-		reference = "event_scenes/mosque.dds"
-	}
-
-	environment = {
-		reference = "environment_event_mosque"
-
-		trigger = {
-			religion = religion:islam_religion
-		}
-	}
-
 	# Fallback
 
 	texture = { reference = "event_scenes/temple.dds" }
@@ -8730,7 +8892,7 @@ religion_interior = {
 
 	# texture = {
 	# 	reference = "gfx/interface/skins/norse/illustrations/council/bg_council_chaplain.dds"
-
+		
 	# 	trigger = {
 	# 		AND = {
 	# 			religion = religion:pagan
@@ -8754,31 +8916,12 @@ religion_interior = {
 
 ### Religious holding image
 religion_holding = {
-
-	texture = {
-		trigger = {
-			OR = {
-				religion = religion:bon_religion
-				this = faith:lamaism
-			}
-		}
-		reference = "holding_types/temple_tibet.dds"
-	}
-
-	texture = {
-		trigger = {
-			OR = {
-				religion = religion:hinduism_religion
-				religion = religion:buddhism_religion
-				religion = religion:jainism_religion
-			}
-		}
-		reference = "holding_types/temple_india.dds"
-	}
-
 	texture = {
 		trigger = {
 			religion = religion:christianity_religion
+			NOT = {
+				faith = faith:nestorian
+			}
 		}
 		reference = "holding_types/temple_christian.dds"
 	}
@@ -9409,7 +9552,7 @@ character_private = {
 
 	# Mediterranean, landed
 	texture = {
-		reference = "event_scenes/fp2_garden.dds"
+		reference = "event_scenes/ep3_relaxing_room.dds"
 
 		trigger = {
 			is_landed = yes
@@ -9424,15 +9567,6 @@ character_private = {
 		trigger = {
 			is_landed = no
 			domicile ?= { is_domicile_type = estate }
-			has_graphical_mediterranean_region_trigger = yes
-		}
-	}
-
-	# Mediterranean
-	texture = {
-		reference = "event_scenes/study.dds"
-
-		trigger = {
 			has_graphical_mediterranean_region_trigger = yes
 		}
 	}

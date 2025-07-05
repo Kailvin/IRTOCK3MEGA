@@ -1,5 +1,5 @@
 k_IRTOCK3_MNA={
-	-304.10.1 = { holder = imperator23055 government = nomadic_government }
+	-304.10.1 = { holder = imperator23055 government = nomad_government }
 	-253.1.23 = { holder = imperator23046 government = tribal_government }
 	-244.6.7 = { holder = imperator23079 government = tribal_government }
 	-239.6.7 = { holder = imperator23053 government = republic_government }
@@ -96,7 +96,236 @@ k_IRTOCK3_MNA={
 	363.4.7 = { holder = imperator179684 government = administrative_government }
 	394.2.3 = { holder = imperator188018 government = administrative_government }
 	417.5.21 = { holder = imperator193903 government = administrative_government }
-	423.7.6 = { succession_laws = { male_preference_law acclamation_succession_law } }
+	423.7.6 = { effect = 	{
+		if = {
+			limit = {
+				exists = holder
+				holder = { has_government = administrative_government }
+			}
+			set_state_faith = faith:insular_celtic
+		}
+	} succession_laws = { male_preference_law acclamation_succession_law } }
+}
+d_cornwall={
+	423.7.6 = { liege = 0 }
+}
+c_devon={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_cornwall={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 14 }
+}
+d_ulster={
+	423.7.6 = { liege = 0 }
+}
+c_ulster={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_oriel={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_ailech={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_gloucester={
+	423.7.6 = { liege = 0 }
+}
+c_hereford={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_berkshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_gloucestershire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_wiltshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_oxfordshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 14 }
+}
+d_york={
+	423.7.6 = { liege = 0 }
+}
+c_lincolnshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_north_riding={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_east_riding={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_west_riding={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_leinster={
+	423.7.6 = { liege = 0 }
+}
+c_leinster={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_ossory={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_powys={
+	423.7.6 = { liege = 0 }
+}
+c_maldwyn={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_sir_faesyfed={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_meath={
+	423.7.6 = { liege = 0 }
+}
+c_dublin={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_athlone={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_western_isles={
+	423.7.6 = { liege = 0 }
+}
+c_inner_hebrides={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_outer_hebrides={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_argyll={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_northern_isles={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_shetland_holder liege = 0 }
+}
+c_orkney={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_faereyar={
+	361.1.1 = { government = tribal_government liege = 0 }
+	423.7.6 = { holder = IRToCK3_c_faereyar_hermit government = eremitic_government change_development_level = 0 }
+}
+c_shetland={
+	361.1.1 = { government = tribal_government liege = 0 }
+	423.7.6 = { holder = IRToCK3_c_shetland_holder liege = 0 change_development_level = 0 }
+}
+d_the_isles={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+c_isle_of_man={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_moray={
+	361.1.1 = { change_development_level = 0 }
+	423.7.6 = { liege = 0 }
+}
+c_moray={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ross={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_buchan={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_sutherland={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_caithness={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_inverness={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_gwynedd={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_anglesey_holder liege = 0 }
+}
+c_cardiganshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_merioneth={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_caernarfonshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_anglesey={
+	200.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_anglesey_holder change_development_level = 2 }
+}
+c_denbighshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_hereford={
+	423.7.6 = { liege = 0 }
+}
+c_worcestershire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_shropshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_warwickshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_leicestershire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_nottinghamshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_staffordshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_northamptonshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 13 }
 }
 d_bedford={
 	423.7.6 = { liege = 0 }
@@ -121,127 +350,9 @@ c_buckinghamshire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 17 }
 }
-d_northumberland={
-	423.7.6 = { liege = 0 }
-}
-c_northumberland={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_durham={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_cumberland={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { liege = k_IRTOCK3_MNA holder = imperator188242 change_development_level = 8 }
-}
-d_lancaster={
-	423.7.6 = { liege = 0 }
-}
-c_lancashire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_westmorland={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_cheshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_derby={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 4 }
-}
-d_york={
-	423.7.6 = { liege = 0 }
-}
-c_north_riding={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_east_riding={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_west_riding={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_lincolnshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_norfolk={
-	423.7.6 = { liege = 0 }
-}
-c_norfolk={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_suffolk={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_cambridgeshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 13 }
-}
-d_hereford={
-	423.7.6 = { liege = 0 }
-}
-c_warwickshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_leicestershire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_nottinghamshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_staffordshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_worcestershire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
-}
 c_huntingdonshire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 13 }
-}
-c_northamptonshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_shropshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_gloucester={
-	423.7.6 = { liege = 0 }
-}
-c_gloucestershire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_wiltshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_oxfordshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_berkshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 16 }
 }
 d_canterbury={
 	423.7.6 = { liege = 0 }
@@ -258,71 +369,22 @@ c_sussex={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 18 }
 }
-d_somerset={
+d_lancaster={
 	423.7.6 = { liege = 0 }
 }
-c_hampton={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_isle_of_wight={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_dorset={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_somerset={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 16 }
-}
-d_cornwall={
-	423.7.6 = { liege = 0 }
-}
-c_devon={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_cornwall={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 14 }
-}
-d_gwynedd={
-	423.7.6 = { liege = 0 }
-}
-c_cardiganshire={
+c_cheshire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 8 }
 }
-c_merioneth={
+c_derby={
 	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { change_development_level = 4 }
 }
-c_caernarfonshire={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_anglesey={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_denbighshire={
+c_lancashire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 8 }
 }
-d_powys={
-	423.7.6 = { liege = 0 }
-}
-c_maldwyn={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_sir_faesyfed={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_hereford={
+c_westmorland={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 7 }
 }
@@ -348,6 +410,97 @@ c_monmouthshire={
 c_brecknockshire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 7 }
+}
+d_munster={
+	423.7.6 = { liege = 0 }
+}
+c_thomond={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_ennis={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_ormond={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_desmond={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_northumberland={
+	423.7.6 = { liege = 0 }
+}
+c_durham={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_cumberland={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_northumberland={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_galloway={
+	423.7.6 = { liege = 0 }
+}
+c_lennox={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_galloway={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_carrick={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_ayrshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_annandale={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 8 }
+}
+d_norfolk={
+	423.7.6 = { liege = 0 }
+}
+c_norfolk={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_suffolk={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_cambridgeshire={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 13 }
+}
+d_somerset={
+	423.7.6 = { liege = 0 }
+}
+c_hampton={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_isle_of_wight={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_dorset={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_somerset={
+	417.5.21 = { liege = 0 holder = imperator193903 }
+	423.7.6 = { change_development_level = 16 }
 }
 d_albany={
 	423.7.6 = { liege = 0 }
@@ -379,50 +532,20 @@ c_mearns={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 14 }
 }
-d_the_isles={
+d_connacht={
 	423.7.6 = { liege = 0 }
 }
-c_isle_of_man={
+c_mayo={
 	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
+	423.7.6 = { change_development_level = 9 }
 }
-d_galloway={
-	423.7.6 = { liege = 0 }
-}
-c_lennox={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_galloway={
+c_connacht={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_carrick={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_ayrshire={
+c_breifne={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 7 }
-}
-c_annandale={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
-}
-d_western_isles={
-	423.7.6 = { liege = 0 }
-}
-c_inner_hebrides={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_outer_hebrides={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_argyll={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
 }
 d_lothian={
 	423.7.6 = { liege = 0 }
@@ -446,115 +569,4 @@ c_linlithgowshire={
 c_lanarkshire={
 	417.5.21 = { liege = 0 holder = imperator193903 }
 	423.7.6 = { change_development_level = 7 }
-}
-d_moray={
-	423.7.6 = { liege = 0 }
-}
-c_moray={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_ross={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_buchan={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_sutherland={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_caithness={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_inverness={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_meath={
-	423.7.6 = { liege = 0 }
-}
-c_dublin={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_athlone={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_ulster={
-	423.7.6 = { liege = 0 }
-}
-c_ulster={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_oriel={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_ailech={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_connacht={
-	423.7.6 = { liege = 0 }
-}
-c_connacht={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_mayo={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_breifne={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_leinster={
-	423.7.6 = { liege = 0 }
-}
-c_leinster={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_ossory={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_munster={
-	423.7.6 = { liege = 0 }
-}
-c_thomond={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_ennis={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_ormond={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_desmond={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_northern_isles={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_shetland_holder liege = 0 }
-}
-c_orkney={
-	417.5.21 = { liege = 0 holder = imperator193903 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_faereyar={
-	423.7.6 = { holder = IRToCK3_c_faereyar_hermit government = eremitic_government change_development_level = 0 }
-}
-c_shetland={
-	423.7.6 = { holder = IRToCK3_c_shetland_holder liege = 0 change_development_level = 0 }
 }

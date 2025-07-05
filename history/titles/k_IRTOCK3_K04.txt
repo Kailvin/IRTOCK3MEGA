@@ -21,6 +21,10 @@ c_raimskoe={
 	416.8.15 = { liege = 0 holder = imperator198235 }
 	423.7.6 = { change_development_level = 3 }
 }
+c_kara-mugai={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 3 }
+}
 c_ak-dzulpas={
 	423.2.20 = { liege = 0 holder = imperator199909 }
 	423.7.6 = { change_development_level = 3 }
@@ -39,31 +43,14 @@ c_jend={
 	416.8.15 = { liege = 0 holder = imperator198235 }
 	423.7.6 = { change_development_level = 6 }
 }
+b_azez-kul={
+	423.7.6 = { holder = imperator185748 }
+}
 c_sighnaq={
-	416.8.15 = { liege = 0 holder = imperator198235 }
+	416.8.15 = { holder = imperator198235 liege = 0 }
 	423.7.6 = { change_development_level = 6 }
 }
 c_uzgend_KARA={
-	416.8.15 = { liege = 0 holder = imperator198235 }
+	416.8.15 = { holder = imperator198235 liege = 0 }
 	423.7.6 = { change_development_level = 7 }
-}
-d_betpaqdala={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_jambyl_holder liege = 0 }
-}
-c_sarysu={
-	416.8.15 = { liege = 0 holder = imperator198235 }
-	423.7.6 = { change_development_level = 6 }
-}
-b_qinfajun_TEMP={
-	423.7.6 = { holder = imperator185748 }
-}
-c_zhuan_tobe={
-	416.8.15 = { liege = 0 holder = imperator198235 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_jambyl={
-	423.7.6 = { holder = IRToCK3_c_jambyl_holder liege = 0 change_development_level = 0 }
-}
-c_muyunkum={
-	423.7.6 = { holder = IRToCK3_c_jambyl_holder change_development_level = 5 }
 }

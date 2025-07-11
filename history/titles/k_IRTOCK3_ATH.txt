@@ -446,7 +446,7 @@ c_dorostorum={
 }
 c_aytos={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator199439 change_development_level = 17 }
+	423.7.6 = { change_development_level = 17 }
 }
 d_aegean_islands={
 	423.7.6 = { liege = 0 }

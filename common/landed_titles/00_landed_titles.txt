@@ -102,6 +102,18 @@ k_fashion = {
 	can_be_named_after_dynasty = no
 	can_use_nomadic_naming = no
 }
+d_iberic_pagan = {
+	capital = c_cordoba
+	color = { 232 181 209 }
+	landless = no
+	definite_form = yes
+	ruler_uses_title_name = no
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+}
 d_iconoclast = {
 	capital = c_byzantion
 	color = { 153 50 125 }
@@ -15294,34 +15306,6 @@ k_livonia = {
 		name_list_prussian = cn_latvia
 		name_list_lithuanian = cn_latvia
 		name_list_latgalian = cn_latvia
-	}
-}
-k_lithuania = {
-	capital = c_kernave
-	color = { 90 10 0 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
-	ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:lithuanian
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-	cultural_names = {
-		name_list_roman = cn_aestuia
-		name_list_afro_roman = cn_aestuia
-		name_list_britano_roman = cn_aestuia
-		name_list_caledo_roman = cn_aestuia
-		name_list_dacio_roman = cn_aestuia
-		name_list_gallo_roman = cn_aestuia
-		name_list_hiberno_roman = cn_aestuia
-		name_list_hispano_roman = cn_aestuia
-		name_list_illyro_roman = cn_aestuia
-		name_list_thracio_roman = cn_aestuia
-		name_list_greek = cn_aestuia
 	}
 }
 d_sudovia = {
@@ -70153,6 +70137,34 @@ e_IRTOCK3_from_c_karabalgasun = {
 e_IRTOCK3_from_c_sebezh = {
 	capital = c_sebezh
 	color = { 102 240 102 }
+	k_lithuania = {
+	capital = c_kernave
+	color = { 90 10 0 }
+	landless = no
+	definite_form = no
+	ruler_uses_title_name = no
+	ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:lithuanian
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	cultural_names = {
+		name_list_roman = cn_aestuia
+		name_list_afro_roman = cn_aestuia
+		name_list_britano_roman = cn_aestuia
+		name_list_caledo_roman = cn_aestuia
+		name_list_dacio_roman = cn_aestuia
+		name_list_gallo_roman = cn_aestuia
+		name_list_hiberno_roman = cn_aestuia
+		name_list_hispano_roman = cn_aestuia
+		name_list_illyro_roman = cn_aestuia
+		name_list_thracio_roman = cn_aestuia
+		name_list_greek = cn_aestuia
+	}
+}
 	k_IRTOCK3_I48 = {
 		capital = c_zakroczymska
 		color = { 7 144 185 }

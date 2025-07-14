@@ -1,0 +1,27 @@
+﻿# '00000_' at the beginning of the file causes its triggers to be replaced by triggers with the same name that are located in files starting with 'zzzzz_'
+	# Let's say there's mods A, B and C, loaded in that order. They all define the same scripted effect somewhere. A and C define it in generic_scripted_effects.txt, B defines it in zzz_seffect.txt
+	# The mods are applied in order. A's generic_scripted_effects.txt is loaded, B's zzz_seffect.txt is loaded besides it, then C's generic_scripted_effects.txt overrides A's version because it is later in the load order. But when the game is actually started, every entity is loaded from all the known files, and then first the version from (C's) generic_scripted_effects.txt is loaded, but then B's definition in zzz_seffect.txt is loaded after, and overrides it.
+	# So in the end B wins, for that scripted effect.
+	# -KeizerHarm, Sunset Invasion Guy
+	# Sorting order doesn't seem to strictly adhere to the ASCII alphabet
+# these values exist to be overwritten by other mods to enable compatibility checks and prevent error.log entries
+
+# so, in summary:
+	# '00000_': effects that are supposed to be easily overwritten (no-triggers of other mods)
+	# 'zzzzz_': effects that are supposed to take priority at all costs (yes-trigger of your own mod)
+
+is_moregermankingdoms_active = { always = no } # 2777214684
+is_nodissolutionfactions_active = { always = no } # 2925333444
+is_historicinvasions-rajasofasia_active = { always = no }
+
+is_RICE_loaded = { always = no } # 2273832430
+roa_is_active = { always = no }
+ME_is_loaded = { always = no }
+
+### Historic Invasions - Addons
+
+historicinvasions_set_destroy_on_succession_var_addon_trigger = { always = no }
+
+historicinvasions_invasion_war_valid_to_start_addon_trigger = { always = no }
+
+borjigin_play_as_yuan_title_trigger = { primary_title = title:e_mongolia } # Addon: includes trigger for e_celestia_china

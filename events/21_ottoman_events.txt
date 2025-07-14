@@ -1,0 +1,149 @@
+﻿namespace = ottoman_invasion
+
+### Spawn invader with the associated story...
+ottoman_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_ottoman # update compatibility - new titles in old saves return false
+		# only trigger the uprising if every county in the start region is not only controlled by a player, to prevent the script from removing player held demesne. player-ai-vassals are fine though.
+		any_county_in_region = {
+			region = special_ottoman_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "ottoman story has failed to trigger, because a player directly controls all counties within the starting region; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "ottoman story owner has appeared"
+		debug_log_date = yes
+		
+		spawn_ottoman_invader_effect = {
+			INVADER_DYNN = ottoman
+		}
+		scope:invader = {
+			create_story = story_ottoman_invasion
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+ottoman_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_ottoman_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+ottoman_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = ottoman
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = duchy
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+ottoman_invasion.1001 = { # only players see this
+	type = character_event
+	title = ottoman_invasion.1001.t
+	desc = ottoman_invasion.1001.desc
+	
+	theme = hi_theme_mountains
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	immediate = {
+		character:1000230100 = { save_scope_as = oghuz_oghuz }
+		if = {
+			limit = { scope:oghuz_oghuz.dynasty = { any_dynasty_member = { has_trait = suleiman_seljuk_trait } } }
+			scope:oghuz_oghuz.dynasty = {
+				random_dynasty_member = {
+					limit = { has_trait = suleiman_seljuk_trait }
+					save_scope_as = suleiman_seljuk
+				}
+			}
+		}
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = ottoman_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = ottoman_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+##### decisions
+# reclaim constantinople
+ottoman_invasion.1201 = {
+	type = letter_event
+	opening = ottoman_invasion.1201.t
+	sender = scope:emperor_ottoman
+	desc = ottoman_invasion.1201.desc_vassal
+	
+	trigger = {
+
+	}
+
+	immediate = { 
+		title:e_ottoman.holder = {
+			save_scope_as = emperor_ottoman
+		}	
+	}
+
+	option = { 
+		name = ottoman_invasion.1201.a
+		scope:emperor_latin = {
+			add_opinion = {
+				modifier = grateful_opinion
+ 				target = root
+				opinion = 30
+			}
+		} 
+	}
+
+	option = {
+		name = ottoman_invasion.1201.b
+		scope:emperor_latin = {
+			add_opinion = {
+				modifier = angry_opinion
+ 				target = root
+				opinion = -30
+			}
+		}
+	}
+}

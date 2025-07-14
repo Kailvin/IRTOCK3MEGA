@@ -1,0 +1,8 @@
+﻿l_russian:
+ form_first_bulgarian_empire_decision:0 "Form the Empire of $e_bulgaria$"
+ form_first_bulgarian_empire_decision_confirm:0 "To glory!"
+ form_first_bulgarian_empire_decision_desc:0 "The Romans ought to acknowledge us as the true rulers of these lands!"
+ form_first_bulgarian_empire_decision_tooltip:0 "You become a mighty [emperor|E]."
+ form_first_bulgarian_empire_decision_story_started:0 "Balgarsko invasion story has started (random, 910 AD+)"
+ form_first_bulgarian_empire_decision_mindate:0 "The current year is greater than 910 AD."
+ form_first_bulgarian_empire_decision.culture_trigger:0 "Your [culture|E] is descendant from $bulgarian$"

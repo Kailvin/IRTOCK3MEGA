@@ -1,0 +1,296 @@
+﻿hi_restore_hre_decision = { # unmodded counterpart: restore_holy_roman_empire_decision
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 24
+
+	desc = restore_holy_roman_empire_decision_desc
+	selection_tooltip = restore_holy_roman_empire_decision_tooltip
+	confirm_text = restore_holy_roman_empire_decision_confirm
+
+	is_shown = {
+		is_landed = yes
+		exists = dynasty
+		NOT = { has_game_rule = never_ludolfinger_invasion }
+		# titles
+		title:e_hre = { is_title_created = no }
+		title:e_hre = { is_titular = yes } # unlike the base game decision
+		NOT = { has_global_variable = flag_restored_roman_empire } # Not if Rome already exists (prevent Rome from restoring HRE)
+		NOR = { #It doesn't make sense for these competing empires.
+			has_title = title:e_byzantium
+			has_title = title:e_roman_empire
+			has_title = title:e_mongol_empire
+		}
+		# faith
+		AND = {
+			exists = faith.religious_head
+			NOT = { this = faith.religious_head }	#Nice try, Mr. Pope.
+			faith = {
+				religion_tag = christianity_religion
+				has_doctrine_parameter = spiritual_head_of_faith	#Gotta be invested with the authority by someone other than yourself.
+			}
+		}
+		OR = {	#Government conditions.
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_clan
+		}
+
+		# only show within relevant region
+		OR = {
+			capital_province = { geographical_region = world_europe_west_germania }
+			capital_province = { geographical_region = world_europe_south_italy }
+			capital_province = { geographical_region = world_europe_west_francia }
+		}
+
+		NOT = { # only once, unlike the base game decision
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:hi_restore_hre_decision
+			}
+		}
+	}
+
+	is_valid = {	
+		trigger_if = {
+			limit = { exists = character:90107 } # can Ludwig be alive?
+			custom_tooltip = {
+				text = hi_restore_hre_decision_not_ludwig
+				NOT = { ROOT = character:90107 } # not Ludwig II "the German"
+			}
+		}
+		is_independent_ruler = yes
+		trigger_if = {
+			limit = { is_ai = no }
+			prestige_level >= 3
+			piety_level >= 2
+		}
+
+		# territorial requirements; control x% of the region
+		# doubled to make localization more pretty
+		custom_tooltip = {
+			text = hi_restore_hre_decision.region_requirement
+			any_county_in_region = {
+				region = special_ludolfinger_conquest_region_core
+				percent >= 0.8 # 176 counties total, 80% = 140,8 counties
+	
+				holder.top_liege = root
+			}
+		}
+		any_county_in_region = {
+			region = special_ludolfinger_conquest_region_core
+			percent >= 0.8 # 176 counties total, 80% = 140,8 counties
+
+			holder.top_liege = root
+		}
+		OR = {
+			has_title = title:k_east_francia
+			has_title = title:k_bavaria
+			has_title = title:k_italy
+			has_title = title:k_lotharingia
+			any_vassal = { has_title = title:k_east_francia }
+			any_vassal = { has_title = title:k_bavaria }
+			any_vassal = { has_title = title:k_italy }
+			any_vassal = { has_title = title:k_lotharingia }
+		}
+
+		trigger_if = {
+			limit = {
+				OR = {
+					OR = {
+						has_title = title:k_burgundy
+						any_vassal = { has_title = title:k_burgundy }
+						completely_controls = title:k_burgundy
+					}
+					OR = {
+						has_title = title:k_bohemia
+						any_vassal = { has_title = title:k_bohemia }
+						completely_controls = title:k_bohemia
+					}
+					OR = {
+						has_title = title:k_sorbia
+						any_vassal = { has_title = title:k_sorbia }
+						completely_controls = title:k_sorbia
+					}
+					OR = {
+						has_title = title:k_pomerania
+						any_vassal = { has_title = title:k_pomerania }
+						completely_controls = title:k_pomerania
+					}
+				}
+			}
+			OR = {
+				custom_tooltip = {
+					text = hi_restore_hre_decision.optional_titles_shift_tt
+					always = no
+				}
+				OR = {
+					has_title = title:k_burgundy
+					any_vassal = { has_title = title:k_burgundy }
+					completely_controls = title:k_burgundy
+				}
+				OR = {
+					has_title = title:k_bohemia
+					any_vassal = { has_title = title:k_bohemia }
+					completely_controls = title:k_bohemia
+				}
+				OR = {
+					has_title = title:k_sorbia
+					any_vassal = { has_title = title:k_sorbia }
+					completely_controls = title:k_sorbia
+				}
+				OR = {
+					has_title = title:k_pomerania
+					any_vassal = { has_title = title:k_pomerania }
+					completely_controls = title:k_pomerania
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = hi_restore_hre_decision.optional_titles_tt
+				always = yes
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = { # you ain't holy if you're excommunicated
+		NOR = {
+			has_trait = excommunicated
+			is_at_war_with = faith.religious_head
+			custom_tooltip = {
+				text = titles_contested_in_war
+				any_held_title = { is_contested = yes }
+			}
+		}
+	}
+
+	effect = {
+		hi_restore_hre_decision_effect = yes
+		gain_heroic_legend_seed_tooltip_effect = yes
+	}
+
+	cost = { # only players pay a cost
+		gold = {
+			value = 0
+			if = {
+				limit = { is_ai = no }
+				add = 500
+			}
+		}
+		piety = {
+			value = 0
+			if = {
+				limit = { is_ai = no }
+				add = 200
+			}
+		}
+	}
+
+	ai_potential = { primary_title.tier >= tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}
+
+hi_expand_hre_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	desc = hi_expand_hre_decision_desc
+	selection_tooltip = hi_expand_hre_decision_tooltip
+
+	is_shown = {
+		exists = title:e_hre
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		has_title = title:e_hre
+		OR = {
+			has_game_rule = enable_bookmark_de_jure_changes
+			AND = {
+				has_game_rule = default_ludolfinger_invasion
+				game_start_date < 962.2.2
+			}
+		}
+		# there are valid titles left to integrate
+		NAND = {
+			title:k_burgundy.de_jure_liege = title:e_hre
+			title:k_italy.de_jure_liege = title:e_hre
+			title:k_pomerania.de_jure_liege = title:e_hre
+			title:k_bohemia.de_jure_liege = title:e_hre
+			title:k_sorbia.de_jure_liege = title:e_hre
+		}
+	}
+
+	is_valid = {
+		has_title = title:e_hre
+		OR = {
+			trigger_if = {
+				limit = { NOT = { title:k_burgundy.de_jure_liege = title:e_hre } }
+				completely_controls = title:k_burgundy
+			}
+			trigger_if = {
+				limit = { NOT = { title:k_italy.de_jure_liege = title:e_hre } }
+				completely_controls = title:k_italy
+			}
+			trigger_if = {
+				limit = { NOT = { title:k_pomerania.de_jure_liege = title:e_hre } }
+				completely_controls = title:k_pomerania
+			}
+			trigger_if = {
+				limit = { NOT = { title:k_bohemia.de_jure_liege = title:e_hre } }
+				completely_controls = title:k_bohemia
+			}
+			trigger_if = {
+				limit = { NOT = { title:k_sorbia.de_jure_liege = title:e_hre } }
+				completely_controls = title:k_sorbia
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	cooldown = { years = 50 }
+
+	cost = { # lower cost for AI
+		gold = {
+			value = 50
+			if = {
+				limit = { is_ai = no }
+				add = 100
+			}
+		}
+		prestige = {
+			value = 100
+			if = {
+				limit = { is_ai = no }
+				add = 150
+			}
+		}
+		piety = {
+			value = 25
+			if = {
+				limit = { is_ai = no }
+				add = 25
+			}
+		}
+	}
+
+	effect = { hi_expand_hre_decision_effect = yes }
+
+	ai_potential = {
+		primary_title.tier = tier_empire
+		has_primary_title = title:e_hre
+	}
+
+	ai_will_do = { base = 100 }
+}

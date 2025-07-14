@@ -23,6 +23,31 @@ e_IRTOCK3_BAC={
 		instance = { rotation = 180 }
 	}
 }
+d_iberic_pagan={
+	pattern="pattern_solid.tga"
+	color1=purple
+	color2=persia_color
+	colored_emblem={
+		color1=black
+		color2=red
+		texture="ce_bull_head_02.dds"
+		instance={
+			scale={ 1.000000 0.850000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_suomenusko_sun_02.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
 k_IRTOCK3_COM={
 	pattern = "pattern_solid.tga"
     color1 = "ck2_white"
@@ -39,6 +64,16 @@ k_IRTOCK3_COM={
         color1 = "persia_color"
         instance = { scale = { 1.10 1.10 }  position = { 0.50 0.47 } }
     }
+}
+e_IRTOCK3_heritage_heritage_chinese={
+	pattern = "pattern_circle_02.dds"
+	color1 = "red"
+	color2 = "ck2_blue"
+	colored_emblem = {
+		color1=white
+		texture="ce_chinese_clerical_script_liang.dds"
+		instance = { position = { 0.5 0.48 } scale = { 0.8 0.8 }  }
+	}
 }
 e_IRTOCK3_SYR={
 	pattern = "pattern_solid.tga"

@@ -1,0 +1,8 @@
+﻿l_russian:
+ sangama_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip] of the $e_sangama$"
+ sangama_invasion.1001.desc:0 "According to ancient sources, [invader.GetShortUINameNoTooltip] and [invader.GetHerHis] brother Bukka served as commanders in the $d_warangal$ army until their capture by the $e_delhi$ Sultanate. They allegedly converted to Sunni Islam for the duration of their captivity.\n\nServing as vassals under the Hoysala Empire, the [invader.GetDynasty.GetNameNoTooltip]s declared their independence after the emperor Veera Ballala III died. [invader.GetFirstNamePossessiveNoTooltip] initial conquests were based around the Tungabhadra River, where [invader.GetSheHe] and Bukka founded the city of $b_vijayanagara$.\n\n[invader.GetFirstNamePossessiveNoTooltip] successful reign would earn [invader.GetHerHim] the nicknames '#TOOLTIP:sangama_invasion.1001.desc.tta Karnataka Vidya Vilas#!', '#TOOLTIP:sangama_invasion.1001.desc.ttb Bhashege Tappuva Rayara Ganda#!' and '#TOOLTIP:sangama_invasion.1001.desc.ttc Arirayavibhada#!'.\n\nThe $e_sangama$ would serve as a strong bulwark against the powerful $e_delhi$ Sultanate to the north. While the [invader.GetDynasty.GetNameNoTooltip] dynasty would see their end in 1485, the established empire would last until its collapse in 1646."
+ sangama_invasion.1001.a:0 "Another ambitious upstart?!"
+ sangama_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."
+ sangama_invasion.1001.desc.tta:0 "Master of great Knowledge and Skills"
+ sangama_invasion.1001.desc.ttb:0 "Punisher of those Feudatories who don't keep their Promise"
+ sangama_invasion.1001.desc.ttc:0 "fire to enemy Kings"

@@ -1,0 +1,227 @@
+﻿### Chola Empire Character Templates [ID, history ID]
+# timestamp: 1316
+
+# Gediminas Gediminid INVADER (1275 - 1341)
+gediminas_gediminid_character_template = {
+	name = gediminas_gediminid_character_template_name
+	age = 41
+	gender = male
+	dynasty = generate
+
+	faith = faith:baltic_pagan
+	culture = culture:lithuanian
+
+	trait = education_martial_4
+
+	trait = intellect_good_2
+	trait = shrewd
+
+	trait = cynical
+	trait = ambitious
+	trait = fickle
+
+	trait = winter_soldier
+	trait = forest_fighter
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Vida, spouse (? - ?)
+vida_character_template = {
+	name = vida_character_template_name
+	age = { 30 40 }
+	gender = female
+	dynasty = none
+
+	faith = faith:baltic_pagan
+	culture = culture:latgalian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+### Children
+
+# Gelb m 1294 Orthodox
+gelb_gediminid_character_template = {
+	name = gelb_gediminid_character_template_name
+	age = 22
+	gender = male
+	dynasty = inherit
+
+	faith = faith:orthodox
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Algirdas m 1296 Orthodox
+algirdas_gediminid_character_template = {
+	name = algirdas_gediminid_character_template_name
+	age = 20
+	gender = male
+	dynasty = inherit
+
+	faith = faith:orthodox
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Kestutis m 1297 Baltic
+kestutis_gediminid_character_template = {
+	name = kestutis_gediminid_character_template_name
+	age = 19
+	gender = male
+	dynasty = inherit
+
+	faith = faith:baltic_pagan
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Elzbieta w 1300 Catholic
+elzbieta_gediminid_character_template = {
+	name = elzbieta_gediminid_character_template_name
+	age = 16
+	gender = female
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Karijotas m 1302 Baltic
+karijotas_gediminid_character_template = {
+	name = karijotas_gediminid_character_template_name
+	age = 14
+	gender = male
+	dynasty = inherit
+
+	faith = faith:baltic_pagan
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Dimitriy m 1303 Orthodox
+dimitriy_gediminid_character_template = {
+	name = dimitriy_gediminid_character_template_name
+	age = 13
+	gender = male
+	dynasty = inherit
+
+	faith = faith:orthodox
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Maria w 1305 Orthodox
+maria_gediminid_character_template = {
+	name = maria_gediminid_character_template_name
+	age = 11
+	gender = female
+	dynasty = inherit
+
+	faith = faith:orthodox
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Aldona w 1309 Catholic
+aldona_gediminid_character_template = {
+	name = aldona_gediminid_character_template_name
+	age = 7
+	gender = female
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Mantvydas m 1314 Baltic
+mantvydas_gediminid_character_template = {
+	name = mantvydas_gediminid_character_template_name
+	age = 2
+	gender = male
+	dynasty = inherit
+
+	faith = faith:baltic_pagan
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Jaunutis m 1315 Baltic
+jaunutis_gediminid_character_template = {
+	name = jaunutis_gediminid_character_template_name
+	age = 1
+	gender = male
+	dynasty = inherit
+
+	faith = faith:baltic_pagan
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Gaudimante w 1316 Catholic
+gaudimante_gediminid_character_template = {
+	name = gaudimante_gediminid_character_template_name
+	age = 0
+	gender = female
+	dynasty = inherit
+
+	faith = faith:catholic
+	culture = culture:lithuanian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Anastasia w 1317 Orthodox

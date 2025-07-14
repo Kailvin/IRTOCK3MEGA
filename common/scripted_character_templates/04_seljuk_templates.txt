@@ -1,0 +1,419 @@
+﻿### Seljuk Character Templates [ID, history ID]
+# large birth date differences between Paradox and other sources; using Paradox' values anyway to make things consistent
+# timestamp: 1035
+
+# üchoq inaltiginid (860 - 910, 50) [9361, 1000230102], alive in 867
+
+# tengiz inaltiginid (893 - 945, 52 = 142) [10670, 1000230120]
+tengiz_inaltiginid_character_template = {
+	name = tengiz_inaltiginid_character_template_name
+	age = 142
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = { # dies after his son Seljuk creates his own cadet branch; results in an error and no cadet branch being created otherwise
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# qiniq qiniq (921 - 983, 62 = 114) [11909, 1000230132]
+qiniq_qiniq_character_template = {
+	name = qiniq_qiniq_character_template_name
+	age = 114
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		create_cadet_branch = yes
+		set_interesting_traits_and_modifiers_effect = yes
+		father = { death = natural }
+		death = natural
+	}
+}
+
+# duqaq qiniq (935 - 983, 48 = 100) [12449, 1000230147]
+duqaq_qiniq_character_template = {
+	name = duqaq_qiniq_character_template_name
+	age = 100
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = { # dies after his son Seljuk creates his own cadet branch; results in an error and no cadet branch being created otherwise
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# seljuk seljuk (960 - 1021, 61 = 75) [13579, 3030]
+seljuk_seljuk_character_template = {
+	name = seljuk_seljuk_character_template_name
+	age = 75
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		create_cadet_branch = yes
+		set_interesting_traits_and_modifiers_effect = yes
+		father = { death = natural }
+		death = natural
+	}
+}
+
+## generation A
+
+# Mikail (990 - 1039) [15071, 3034], 4 children, 2 dead in 1035
+mikail_seljuk_character_template = {
+	name = mikail_seljuk_character_template_name
+	age = 45
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	martial = { 18 23 }
+	diplomacy = { 9 14 }
+	stewardship = { 8 11 }
+	intrigue = { 8 13 }
+	learning = { 6 9 }
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Musa (994 - ?)
+musa_seljuk_character_template = {
+	name = musa_seljuk_character_template_name
+	age = 41
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Yunus (989 - 1033)
+yunus_seljuk_character_template = {
+	name = yunus_seljuk_character_template_name
+	age = 46
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Arslan (985 - 1037)
+arslan_seljuk_character_template = {
+	name = arslan_seljuk_character_template_name
+	age = 50
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+## generation B
+
+# Chagri-Beg (1006 - 1060) [16052, 3036], 11 children, 6 born before 1035
+chagri-beg_seljuk_character_template = {
+	name = chagri-beg_seljuk_character_template_name
+	age = 29
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	martial = { 18 23 }
+	diplomacy = { 9 14 }
+	stewardship = { 8 11 }
+	intrigue = { 8 13 }
+	learning = { 6 9 }
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Tughril INVADER (1010 - 1063) [16037, 3038], 0 children
+tughril_seljuk_character_template = {
+	name = tughril_seljuk_character_template_name
+	age = 25
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	martial = { 18 23 }
+	diplomacy = { 9 14 }
+	stewardship = { 8 11 }
+	intrigue = { 8 13 }
+	learning = { 6 9 }
+
+	random_traits_list = {
+		count = 1
+		patient = {}
+		humble = {}
+		cynical = {}
+		greedy = {}
+		wrathful = {}
+		lustful = {}
+		gregarious = {}
+	}
+
+	trait = diligent
+	trait = ambitious
+	trait = education_martial_4
+
+	trait = intellect_good_2
+
+	trait = military_engineer
+	trait = open_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Altun Jan, Tughril's spouse (? - 1060), 1 child
+altun_jan_character_template = {
+	name = altun_jan_character_template_name
+	age = { 21 24 } # unknown
+	gender = female
+	dynasty = none
+	faith = faith:maturidi
+	culture = culture:khwarezmian # south of Aral Sea
+
+	martial = { 11 15 }
+	diplomacy = { 14 17 }
+	stewardship = { 11 13 }
+	intrigue = { 7 9 }
+	learning = { 18 22 }
+
+	trait = zealous
+	trait = just
+	trait = generous
+	trait = education_learning_4
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Qutalmish (1002 - 1063) [3033], grandfather of first sultan of Rûm
+qutalmish_seljuk_character_template = {
+	name = qutalmish_seljuk_character_template_name
+	age = 33
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Rasultegin (1025 - ?)
+rasultegin_seljuk_character_template = {
+	name = rasultegin_seljuk_character_template_name
+	age = 10
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+## generation C
+
+# Qawurd (1022 - ?) [17200, 3041]
+qawurd_seljuk_character_template = {
+	name = qawurd_seljuk_character_template_name
+	age = 13
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Uthman (1025 - ?) [17425, 93122]
+uthman_seljuk_character_template = {
+	name = uthman_seljuk_character_template_name
+	age = 10
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Suleyman (1027 - ?) [17560, 93130]; NOT the one who founded Rûm
+suleyman_seljuk_character_template = {
+	name = suleyman_seljuk_character_template_name
+	age = 8
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Ilyas (1028 - ?) [17632, 93123]
+ilyas_seljuk_character_template = {
+	name = ilyas_seljuk_character_template_name
+	age = 7
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Yaquti (1028 - ?) [17633, 93160]
+yaquti_seljuk_character_template = {
+	name = yaquti_seljuk_character_template_name
+	age = 7
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Suleiman (1039 - 1086) [18877, 3046]; RÛM
+suleiman_seljuk_character_template = {
+	name = suleiman_seljuk_character_template_name
+	age = 0
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	random_traits = yes
+	after_creation = {
+		#add_character_flag = seljuk_first_rum_sultan
+		add_trait = suleiman_seljuk_trait
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# emperor in 1066
+# Alp Arslan (1029 - 1072) [17680, 3040]
+alp_arslan_seljuk_character_template = {
+	name = alp_arslan_seljuk_character_template_name
+	age = 6
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:turkish # oghuz
+
+	martial = { 11 15 }
+
+	trait = just
+	trait = diligent
+	trait = brave
+	trait = calm
+
+	trait = organizer
+
+	trait = strong
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+### unrelated to Seljuk, but remained independent between ERE and Rûm
+roussel_bailleul_character_template = {
+	name = roussel_bailleul_character_template_name
+	age = 49 # 1077
+	gender = male
+
+	faith = faith:catholic
+	culture = culture:norman
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Rouben Roubenid [hist. ID: 232561]
+# father: 159266
+# dynasty root exists from 900 onward [159268]
+# offshoot from Siwnik dynasty (root [159987]), year 280+
+rouben_roubenid_character_template = {
+	name = rouben_roubenid_character_template_name
+	age = 57
+	gender = male
+
+	faith = faith:armenian_apostolic
+	culture = culture:armenian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

@@ -1,0 +1,318 @@
+﻿recruit_mamluk_commander_decision_effect = {
+	# track uses
+	if = {
+		limit = {
+			NOT = { primary_title = { has_variable = mamluk_recruitment_var } }
+		}
+		primary_title = {
+			set_variable = {
+				name = mamluk_recruitment_var
+				value = 0
+			}
+		}
+	}
+	custom_tooltip = {
+		text = mamluk_inflence_increases_tt
+		primary_title = {
+			change_variable = {
+				name = mamluk_recruitment_var
+				add = 1
+			}
+		}
+	}
+	if = {
+		limit = { has_active_diarchy = yes }
+		change_diarchy_swing = 5 # positive value = good for regent
+	}
+
+	# spawn commander
+	create_character = {
+		template = mamluk_commander_character_template
+		gender_female_chance = root_soldier_female_chance
+		dynasty = none
+		employer = root
+		faith = root.faith
+		after_creation = {
+			add_opinion = {
+				modifier = loyal_servant
+				target = root
+			}
+		}
+	}
+}
+
+recruit_mamluk_regiment_decision_effect = {
+	# track uses
+	if = {
+		limit = {
+			NOT = { primary_title = { has_variable = mamluk_recruitment_var } }
+		}
+		primary_title = {
+			set_variable = {
+				name = mamluk_recruitment_var
+				value = 0
+			}
+		}
+	}
+	custom_tooltip = {
+		text = mamluk_inflence_increases_tt
+		primary_title = {
+			change_variable = {
+				name = mamluk_recruitment_var
+				add = 1
+			}
+		}
+	}
+	if = {
+		limit = { has_active_diarchy = yes }
+		change_diarchy_swing = 5 # positive value = good for regent
+	}
+
+	# spawn regiment
+	spawn_army = {
+		uses_supply = no
+		inheritable = no
+		name = mamluk_regiment
+		men_at_arms = {
+			type = camel_rider
+			stacks = 3
+		}
+		location = capital_province
+	}
+}
+
+# not in use
+mamluks_seize_diarchy_effect = {
+	try_start_diarchy = regency
+	change_diarchy_swing = 100
+}
+
+# give a suitable land to usurper
+give_mamluk_land_effect = {
+	set_local_variable = {
+		name = mamluk_max_start_counties_var
+		value = 0
+	}
+	while = {
+		limit = {
+			local_var:mamluk_max_start_counties_var < 5
+		}
+		scope:mamluk_coup_title = {
+			random_de_jure_county = { # requires the title to be present on the de jure map
+				limit = {
+					holder.top_liege = scope:old_emperor
+					holder = { is_ai = yes }
+					NOT = { is_in_list = mamluk_de_facto_starting_counties_list }
+				}
+				county = { add_to_temporary_list = mamluk_de_facto_starting_counties_list }
+			}
+		}
+		change_local_variable = {
+			name = mamluk_max_start_counties_var
+			add = 1
+		}
+	}
+	create_title_and_vassal_change = {
+		type = conquest
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	every_in_list = {
+		list = mamluk_de_facto_starting_counties_list
+		change_title_holder = {
+			holder = scope:mamluk_usurper
+			change = scope:title_change
+		}
+		set_county_faith = scope:mamluk_usurper.faith
+	}
+	resolve_title_and_vassal_change = scope:title_change
+}
+
+mamluks_seize_power_effect = {
+	# apply new succession law
+	$COUP_TITLE$ = {
+		save_scope_as = mamluk_coup_title # for localization purposes
+		set_variable = { # before applying the title law, otherwise it won't be valid
+			name = had_mamluk_coup_var
+			value = yes
+		}
+		add_title_law = historicinvasions_mamluk_elective_law # law pass effects are not applied for some reason
+		set_can_be_named_after_dynasty = no
+	}
+
+	# note down old emperor
+	$COUP_TITLE$.holder = { save_scope_as = old_emperor }
+
+	# spawn in mamluk usurper
+	if = {
+		limit = { has_game_rule = inversed_gender_equality }
+		create_character = {
+			template = mamluk_commander_character_template
+			faith = scope:old_emperor.faith
+			gender = female
+			dynasty = generate
+			employer = scope:old_emperor
+			save_scope_as = mamluk_usurper
+		}
+	}
+	else_if = {
+		limit = { has_game_rule = full_gender_equality }
+		create_character = {
+			template = mamluk_commander_character_template
+			faith = scope:old_emperor.faith
+			gender_female_chance = 50
+			dynasty = generate
+			employer = scope:old_emperor
+			save_scope_as = mamluk_usurper
+		}
+	}
+	else = {
+		create_character = {
+			template = mamluk_commander_character_template
+			faith = scope:old_emperor.faith
+			gender = male
+			dynasty = generate
+			employer = scope:old_emperor
+			save_scope_as = mamluk_usurper
+		}
+	}
+	scope:mamluk_usurper = {
+		add_character_flag = is_first_invader_flag
+		disease_immunity_long_effect = yes
+		add_character_modifier = first_mamluk_modifier
+		add_character_modifier = {
+			modifier = historicinvasions_plot_armor
+			years = 5
+		}
+		dynasty = {
+			add_dynasty_prestige_level = 1
+			add_dynasty_prestige = 1500
+
+			mamluk_add_dynasty_perks_effect = yes
+		}
+		if = { # should be handled by on_dynasty_created, but doesn't seem to work
+			limit = { has_trait = bastard }
+			remove_trait = bastard
+			add_trait = bastard_founder
+		}
+	}
+
+	# hand out counties
+	give_mamluk_land_effect = yes
+	scope:mamluk_usurper = { apply_invader_government_type_effect = { INVADER_CHAR = scope:mamluk_usurper } }
+
+	# destroy every other held title by old emperor
+	scope:old_emperor = {
+		every_held_title = {
+			limit = {
+				NOT = { this = scope:mamluk_coup_title }
+				tier >= tier_kingdom
+			}
+			scope:old_emperor = {
+				destroy_title = prev
+				add_pressed_claim = prev
+			}
+		}
+	}
+
+	# note down old vassals
+	$COUP_TITLE$.holder = {
+		every_vassal = {
+			limit = { highest_held_title_tier >= tier_county }
+			add_to_list = old_emperor_vassals_list
+		}
+		add_to_list = old_emperor_vassals_list
+	}
+
+	# usurp the empire
+	create_title_and_vassal_change = {
+		type = usurped
+		save_scope_as = title_change
+		add_claim_on_loss = no # so they are not back on the throne immediately after
+	}
+	$COUP_TITLE$ = {
+		change_title_holder = {
+			holder = scope:mamluk_usurper
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	# transfer old vassals
+	every_in_list = {
+		list = old_emperor_vassals_list
+		limit = {
+			highest_held_title_tier < scope:mamluk_usurper.primary_title.tier
+			NOT = { top_liege = scope:mamluk_usurper }
+		}
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		change_liege = {
+			liege = scope:mamluk_usurper
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+
+	# get rid of previous emperor
+	scope:old_emperor = {
+		random_list = {
+			1 = { death = { killer = scope:mamluk_usurper death_reason = death_duel } }
+			1 = { death = { killer = scope:mamluk_usurper death_reason = death_execution } }
+			1 = { death = { killer = scope:mamluk_usurper death_reason = death_murder } }
+			1 = { death = { killer = scope:mamluk_usurper death_reason = death_skull_cracked_open } }
+		}
+	}
+
+	# spawn family
+	scope:mamluk_usurper = {
+		trigger_event = game_rule.1001 # family
+		add_dread = high_dread
+		add_gold = 1500
+	}
+
+	# player notification event
+	every_player = {
+		trigger_event = mamluk_invasion.1001
+	}
+
+	# title name changes
+	if = {
+		limit = { $COUP_TITLE$ = title:e_arabia }
+		$COUP_TITLE$ = {
+			#set_title_name = e_mamluk
+			#set_coa = e_mamluk
+			#set_definitive_form = yes
+			set_capital_county = title:c_cairo
+			if = {
+				limit = { exists = title:e_mamluk }
+				set_color_from_title = title:e_mamluk
+			}
+			else = {
+				set_color_from_title = title:c_kazanskaya
+			}
+		}
+	}
+	else_if = {
+		limit = { $COUP_TITLE$ = title:e_rajastan }
+		$COUP_TITLE$ = {
+			#set_title_name = e_delhi
+			set_coa = e_delhi
+			#set_title_prefix = e_delhi_article # doesn't do what it suggests it does. doesn't refer to articles such as "the" but instead prefixes as "Romano" for the Roman Empire
+			#set_definitive_form = yes
+			set_capital_county = title:c_delhi
+			if = {
+				limit = { exists = title:e_delhi }
+				set_color_from_title = title:e_delhi
+			}
+			else = {
+				set_color_from_title = title:c_kanyakubja
+			}
+		}
+	}
+}
+
+mamluk_add_dynasty_perks_effect = {}

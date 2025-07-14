@@ -172,6 +172,17 @@ k_IRTOCK3_MNA={
 		color1 = rgb { 243 174 9 }
 	}
 }
+k_IRTOCK3_kingdom_from_d_dobrudja={
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 100 16 255 }
+	color2 = rgb { 100 16 255 }
+
+	colored_emblem = {
+		texture = "ce_budini_tarandus.dds"
+		color1 = rgb { 61 138 255 }
+		color2 = "light_gold"
+	}
+}
 d_IRTOCK3_VND={
 	pattern="pattern_diagonal_split_01.tga"
 	color1=ck2_green

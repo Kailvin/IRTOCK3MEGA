@@ -147,8 +147,12 @@ tradition_ep3_audacious_cadets = {
 	is_shown = {
 		OR = {
 			this = culture:norman
+			this = culture:indogreek
 			any_parent_culture_or_above = {
 				this = culture:norman
+			}
+			any_parent_culture_or_above = {
+				this = culture:indogreek
 			}
 		}
 		# DLC check.

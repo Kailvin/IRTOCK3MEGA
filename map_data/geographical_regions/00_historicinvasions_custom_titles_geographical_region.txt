@@ -1,0 +1,86 @@
+﻿### Asia Minor
+# Eretnid
+special_eretnid_kingdom_region = {
+	duchies = {
+		d_charsianon
+		d_sebasteia
+		d_mesopotamia
+	}
+}
+
+# Candar
+special_candar_kingdom_region = {
+	duchies = {
+		d_paphlagonia
+		d_armeniac
+	}
+}
+
+# Karaman
+special_karaman_kingdom_region = {
+	duchies = {
+		d_anatolia
+		d_cappadocia
+		d_cilicia
+	}
+}
+
+# Tekke
+special_tekke_kingdom_region = {
+	duchies = {
+		d_cibyrrhaeot
+	}
+}
+
+# Saruhan
+special_saruhan_kingdom_region = {
+	duchies = {
+		d_ephese
+		d_thracesia
+	}
+}
+
+# Ottoman
+special_ottoman_kingdom_region = {
+	duchies = {
+		d_optimatoi
+		d_opsikion
+		d_bucellaria
+	}
+}
+
+### Persia
+# Black Sheep Türkomans
+special_qara_qoyunlu_kingdom_region = {
+	duchies = {
+		d_euphrates
+		d_kurdistan
+		d_diyarrabia
+	}
+}
+
+# White Sheep Türkomans
+special_aq_qoyunlu_kingdom_region = {
+	duchies = {
+		d_mesopotamia
+		d_edessa
+		d_diyarbakr
+	}
+}
+
+# Azerbaijan
+special_azerbaijan_kingdom_region = {
+	duchies = {
+		d_shirvan
+		d_azerbaijan
+	}
+}
+
+# Kurdistan
+special_kurdistan_kingdom_region = {
+	duchies = {
+		d_kurdistan
+		d_kermanshah
+		d_samarra
+	}
+}

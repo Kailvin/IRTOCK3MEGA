@@ -1,0 +1,20 @@
+﻿# Qarghuyid conquest regions
+
+special_qarghuyid_conquest_region_1 = {
+	duchies = {
+		# k_syria
+		d_edessa d_antioch d_aleppo d_homs d_palmyra d_lebanon d_damascus
+	}
+}
+
+special_qarghuyid_conquest_region_start = {
+	regions = {
+		special_qarghuyid_conquest_region_1
+	}
+}
+
+special_qarghuyid_conquest_region_total = {
+	regions = {
+		special_qarghuyid_conquest_region_1
+	}
+}

@@ -1,0 +1,329 @@
+﻿namespace = vlaanderen_invasion
+
+### Spawn invader with the associated story...
+vlaanderen_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_byzantium
+		exists = title:e_byzantium.holder
+		exists = title:e_vlaanderen # update compatibility - new titles in old saves return false
+		exists = title:e_nikaea
+		exists = title:k_cappadocia
+	}
+
+	on_trigger_fail = {
+		debug_log = "vlaanderen story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "vlaanderen story owner has appeared"
+		debug_log_date = yes
+		
+		spawn_vlaanderen_invader_effect = {
+			INVADER_DYNN = vlaanderen
+		}
+		scope:invader = {
+			create_story = story_vlaanderen_invasion
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+vlaanderen_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_vlaanderen_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+vlaanderen_invasion.0200 = {
+	hidden = yes
+	orphan = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+vlaanderen_invasion.1001 = { # only players see this
+	type = character_event
+	title = vlaanderen_invasion.1001.t
+	desc = vlaanderen_invasion.1001.desc
+	
+	theme = hi_theme_alley_day
+
+	left_portrait = {
+		character = scope:latin_emperor
+		animation = happiness
+	}
+	right_portrait = {
+		character = scope:nikaea_emperor
+		animation = disbelief
+	}
+
+	immediate = {
+		title:e_vlaanderen.holder = { save_scope_as = latin_emperor }
+		title:e_nikaea.holder = { save_scope_as = nikaea_emperor }
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = vlaanderen_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = vlaanderen_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:latin_emperor = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:latin_emperor
+	}
+
+	option = { # play as the newly spawned invader
+		name = vlaanderen_invasion.1001.c
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:nikaea_emperor = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:nikaea_emperor
+	}
+}
+
+# pope calls for crusade or reinforcements
+vlaanderen_invasion.1101 = { # only players see this
+	type = character_event
+	title = vlaanderen_invasion.1101.t
+	desc = vlaanderen_invasion.1101.desc
+	
+	theme = faith
+
+	left_portrait = {
+		character = scope:pope
+		animation = happiness
+	}
+
+	immediate = {
+		#play_music_cue = mx_cue_epic_sacral_moment
+		play_music_cue = mx_cue_general_crusade_event_2
+
+		faith:catholic.religious_head = { save_scope_as = pope }
+	}
+	
+	option = { name = vlaanderen_invasion.1101.a }
+}
+
+# venice offers to supply ships
+vlaanderen_invasion.1102 = { # only players see this
+	type = character_event
+	title = vlaanderen_invasion.1102.t
+	desc = vlaanderen_invasion.1102.desc
+	
+	theme = hi_theme_docks
+
+	left_portrait = {
+		character = scope:doge
+		animation = happiness
+	}
+
+	immediate = {
+		play_music_cue = mx_cue_sacredrite
+		title:c_venezia.holder = {
+			save_scope_as = doge
+			if = {
+				limit = {
+					is_ai = yes
+					NOT = { has_trait = blind }
+				}
+				hidden_effect = { add_trait = blind }
+			}
+		}
+	}
+	
+	option = { name = vlaanderen_invasion.1102.a }
+}
+
+# crusaders depart from venice
+vlaanderen_invasion.1103 = { # only players see this
+	type = character_event
+	title = vlaanderen_invasion.1103.t
+	desc = vlaanderen_invasion.1103.desc
+	
+	theme = hi_theme_docks
+
+	left_portrait = {
+		character = scope:doge
+		animation = happiness
+	}
+
+	immediate = {
+		title:c_venezia.holder = { save_scope_as = doge }
+	}
+	
+	option = { name = vlaanderen_invasion.1103.a }
+}
+
+# crusaders begin looting, pope threatens excommunication
+vlaanderen_invasion.1104 = { # only players see this
+	type = letter_event
+	opening = vlaanderen_invasion.1104.opening
+	desc = vlaanderen_invasion.1104.desc
+
+	sender = scope:random_vassal
+
+	immediate = {
+		random_vassal = { save_scope_as = random_vassal }
+		if = { # player has no vassals
+			limit = { NOT = { exists = scope:random_vassal } }
+			random_neighboring_and_across_water_top_liege_realm_owner = { save_scope_as = random_vassal }
+		}
+		faith:catholic.religious_head = { save_scope_as = pope }
+	}
+	
+	option = { name = vlaanderen_invasion.1104.a }
+
+	option = {
+		name = vlaanderen_invasion.1104.b
+		add_internal_flag = special
+		trigger = {
+			faith = faith:catholic
+			exists = scope:fourth_crusade_war
+			NOR = {
+				this = title:e_vlaanderen.holder
+				is_vassal_or_below_of = title:e_vlaanderen.holder
+				this = title:e_byzantium.holder
+				is_vassal_or_below_of = title:e_byzantium.holder
+				is_allied_to = title:e_byzantium.holder
+				has_truce = title:e_byzantium.holder
+			}
+		}
+		stress_impact = {
+			greedy = minor_stress_loss
+		}
+		scope:fourth_crusade_war = { add_attacker = root }
+		ai_chance = { base = 0 }
+	}
+}
+
+# constantinople burns
+vlaanderen_invasion.1105 = { # only players see this
+	type = character_event
+	title = vlaanderen_invasion.1105.t
+	desc = vlaanderen_invasion.1105.desc
+	
+	theme = hi_theme_battlefield
+
+	left_portrait = {
+		character = scope:latin_emperor
+		animation = personality_greedy
+	}
+
+	immediate = {
+		#play_music_cue = mx_cue_touching_moment
+		play_music_cue = mx_cue_ck3_vocal_maintheme
+		#play_music_cue = mx_cue_succession_instrumental
+
+		title:e_vlaanderen.holder = { save_scope_as = latin_emperor }
+	}
+	
+	option = { name = vlaanderen_invasion.1105.a }
+}
+
+##### decisions
+
+# latin
+vlaanderen_invasion.1201 = {
+	type = letter_event
+	opening = vlaanderen_invasion.1201.t
+	sender = scope:emperor_latin
+	desc = vlaanderen_invasion.1201.desc_vassal
+	
+	trigger = {
+
+	}
+
+	immediate = { 
+		title:e_vlaanderen.holder = {
+			save_scope_as = emperor_latin
+		}	
+	}
+
+	option = { 
+		name = vlaanderen_invasion.1201.a
+		scope:emperor_latin = {
+			add_opinion = {
+				modifier = grateful_opinion
+ 				target = root
+				opinion = 30
+			}
+		} 
+	}
+
+	option = {
+		name = vlaanderen_invasion.1201.b
+		scope:emperor_latin = {
+			add_opinion = {
+				modifier = angry_opinion
+ 				target = root
+				opinion = -30
+			}
+		}
+	}
+}
+
+# greek
+vlaanderen_invasion.1202 = {
+	type = letter_event
+	opening = vlaanderen_invasion.1202.t
+	sender = scope:emperor_nikaea
+	desc = vlaanderen_invasion.1202.desc_vassal
+	
+	trigger = {
+
+	}
+
+	immediate = { 
+		title:e_nikaea.holder = {
+			save_scope_as = emperor_nikaea
+		}	
+	}
+
+	option = { 
+		name = vlaanderen_invasion.1202.a
+		scope:emperor_nikaea = {
+			add_opinion = {
+				modifier = grateful_opinion
+ 				target = root
+				opinion = 30
+			}
+		} 
+	}
+
+	option = {
+		name = vlaanderen_invasion.1202.b
+		scope:emperor_nikaea = {
+			add_opinion = {
+				modifier = angry_opinion
+ 				target = root
+				opinion = -30
+			}
+		}
+	}
+}

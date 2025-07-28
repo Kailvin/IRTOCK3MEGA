@@ -1,0 +1,1611 @@
+﻿historicinvasions_debug_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_debug_decision_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	sort_order = 10
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		NOT = { # only once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:historicinvasions_debug_decision
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			always = yes
+
+			capital_county.empire = primary_title
+
+			primary_title = {
+				is_landless_type_title = yes
+			}
+			
+			AND = {
+				completely_controls_region = special_yelu_conquest_region_total
+				completely_controls_region = special_jochid_conquest_region_white_horde
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		#is_available_adult_or_is_commanding = yes
+	}
+
+	effect = {
+		add_to_global_variable_list = { # you may only enact the decision once
+			name = unavailable_unique_decisions
+			target = flag:historicinvasions_debug_decision
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_enable_debug_decisions = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_green.dds"
+	}
+	desc = historicinvasions_enable_debug_decisions_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+	sort_order = 5
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+
+		OR = {
+			NOT = { exists = global_var:historicinvasions_debug_decisions }
+			global_var:historicinvasions_debug_decisions = 0
+		}
+	}
+
+	is_valid = {
+		always = yes
+		trigger_if = {
+			limit = { NOT = { exists = title:e_timurid } } # this title ought to be present in every save game started with this mod
+			custom_tooltip = {
+				text = historicinvasions_not_save_game_compatible
+				#always = no
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { exists = global_var:historicinvasions_debug_decisions }
+			change_global_variable = {
+				name = historicinvasions_debug_decisions
+				add = 1
+			}
+		}
+		else = {
+			set_global_variable = {
+				name = historicinvasions_debug_decisions
+				value = 1
+			}
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_disable_debug_decisions = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_red.dds"
+	}
+	desc = historicinvasions_disable_debug_decisions_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+	sort_order = 5
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = {
+		change_global_variable = {
+			name = historicinvasions_debug_decisions
+			subtract = 1
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_timurid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_timurid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = timurid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_fatimid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_fatimid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = fatimid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ghaznavid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_ghaznavid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ghaznavid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_seljuk_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_seljuk
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = seljuk_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_seljuk_rum_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_rum
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = seljuk_invasion.0011 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ziyarid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_ziyarid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ziyarid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ayyubid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_ayyubid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ayyubid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_balgarsko_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_bulgaria
+		#exists = title:k_balgarsko
+		#exists = title:e_balgarsko
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = balgarsko_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_almoravid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_almoravid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = almoravid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_almohad_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_almohad
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = almohad_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ghurid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_ghurid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ghurid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ludolfinger_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		#exists = title:k_ludolfinger
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ludolfinger_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_hauteville_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_hauteville
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = hauteville_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_jannabid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_jannabid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = jannabid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_vlaanderen_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_vlaanderen
+		exists = title:e_nikaea
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = vlaanderen_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_bassenheim_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_bassenheim
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = bassenheim_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_balk_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_balk
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = balk_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_terteroba_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_terteroba
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = terteroba_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_rurikid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_rurikid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = { exists = character:40605 }
+			character:40605 = { # Rurik
+				OR = {
+					is_alive = no
+					OR = {
+						is_landed = no
+						highest_held_title_tier = tier_barony
+					}
+				}
+			}
+		}
+		trigger_else = { always = yes }
+	}
+
+	effect = { trigger_event = rurikid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_chola_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_chola
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = chola_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_anushtiginid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_anushtiginid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = anushtiginid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_yelu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_yelu
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = yelu_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_ottoman_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_ottoman
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = ottoman_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_keita_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_keita
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = keita_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_al-qays_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_al-qays
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = al-qays_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_knytling_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_knytling
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = knytling_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_gediminid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_gediminid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = gediminid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_yngling_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_yngling
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = yngling_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_sabbah_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_sabbah
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = sabbah_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_jabalid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_jabalid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = jabalid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_qarghuyid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_qarghuyid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = qarghuyid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_vivar_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_vivar
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = vivar_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_normandie_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_england
+		exists = title:k_normandie
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = {
+		title:k_england = { is_title_created = yes }
+	}
+
+	effect = { trigger_event = normandie_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_piast_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_piast
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = piast_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_sangama_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_sangama
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = sangama_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_mamluk_arabia_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_arabia
+		#exists = title:e_mamluk
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = {
+		custom_tooltip = {
+			text = historicinvasions_debug_mamluk_arabia_decision_arabia_created_tt
+			title:e_arabia = {
+				is_title_created = yes
+				is_titular = no
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = {
+			on_action = historicinvasions_debug_mamluk_arabia_decision_on_action
+		}
+	}
+
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_mamluk_rajastan_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_rajastan
+		#exists = title:e_delhi
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = {
+		custom_tooltip = {
+			text = historicinvasions_debug_mamluk_rajastan_decision_rajastan_created_tt
+			title:e_rajastan = {
+				is_title_created = yes
+				is_titular = no
+			}
+		}
+	}
+
+	effect = {
+		trigger_event = {
+			on_action = historicinvasions_debug_mamluk_rajastan_decision_on_action
+		}
+	}
+
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_bearn_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_bearn
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = bearn_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_eldiguzid_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_eldiguzid
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = eldiguzid_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_borjigin_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_mongol_empire
+		exists = title:e_blue_horde
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = borjigin_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_qara_qoyunlu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_qara_qoyunlu
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = qara_qoyunlu_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_aq_qoyunlu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_aq_qoyunlu
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = aq_qoyunlu_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_attila_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_attila
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = attila_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_argead_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_argead
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = argead_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_maurya_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_maurya
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = maurya_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_song_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_song
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = song_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_zunbil_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:k_zunbil
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { trigger_event = zunbil_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_komnenos_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_byzantium
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = {
+		title:e_byzantium = { is_title_created = yes }
+	}
+
+	effect = { trigger_event = komnenos_invasion.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_turkish_migrations_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	#effect = { trigger_event = { on_action = turkish_migrations_periodic_on_action } }
+	effect = { trigger_event = turkish_migrations.0001 }
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_force_spawn_turkish_nomad_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = { hidden_effect = { turkish_migration_effect = { MIGRATION_REGION = special_turkish_migration_region } } } # hidden to prevent error.log spam
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_mongol_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:e_mongol_empire
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = {
+		trigger_event = mongol_invasion.0001
+		set_global_variable = { # set base game variable
+			name = mongols_have_appeared
+			value = yes
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_started
+			target = flag:borjigin_story_started
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_ended
+			target = flag:borjigin_story_ended
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_almohad_base_game_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+		exists = title:d_masmudi
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = {
+		trigger_event = almohad.0001
+		set_global_variable = { # set base game variable
+			name = spawned_almohads
+			value = yes
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_started
+			target = flag:almohad_story_started
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_ended
+			target = flag:almohad_story_ended
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}
+
+historicinvasions_debug_seljuk_base_game_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/historicinvasions_pink.dds"
+	}
+	desc = historicinvasions_generic_debug_invasion_desc
+	selection_tooltip = historicinvasions_debug_tooltip
+	confirm_text = historicinvasions_confirm
+	decision_group_type = historicinvasions_debug_decisions
+	should_create_alert = { always = no }
+
+	is_shown = {
+		debug_only = yes
+		is_ai = no
+
+		exists = global_var:historicinvasions_debug_decisions
+		global_var:historicinvasions_debug_decisions = 1
+	}
+
+	is_valid = { always = yes }
+
+	effect = {
+		trigger_event = fp3_story_cycle_seljuks_invasion_events.0001
+		set_global_variable = { # set base game variable
+			name = seljuk_invasion_happened
+			value = yes
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_started
+			target = flag:seljuk_story_started
+		}
+		add_to_global_variable_list = { # set modded variable
+			name = historicinvasions_story_ended
+			target = flag:seljuk_story_ended
+		}
+	}
+	ai_check_interval = 0
+	ai_potential = { always = no }
+}

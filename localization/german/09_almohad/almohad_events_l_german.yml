@@ -1,0 +1,9 @@
+﻿l_german:
+ almohad_invasion.1001.t:0 "Rise of the [invader.GetFaith.GetAdherentNameNoTooltip]"
+ almohad_invasion.1001.desc:0 "The religious movement known as the [invader.GetFaith.GetAdherentNameNoTooltip] have sallied forth from their headquarters, intent on \"reclaiming the Maghreb from the disbelievers\", by force if necessary!\n\nTheir leader, [invader.GetTitledFirstName] was once turned away from numerous places of learning for being too insistent in [invader.GetHerHis] dogmatic practices. However, [invader.GetSheHe] has now found a strong core of followers and declared [invader.GetHerselfHimself] nothing less than the Madhi!"
+ almohad_invasion.1001.a:0 "When has a fringe religious group ever caused trouble for anyone?"
+ almohad_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."
+
+ almohad_invasion.1002.t:0 "[invader.GetFaith.GetAdherentNameNoTooltip] interfere in the struggle"
+ almohad_invasion.1002.desc:0 "After the recent conquests by [invader.GetTitledFirstName] into $e_spain$, the [invader.GetFaith.GetAdherentNameNoTooltip] believers have undoubtedly become involved in the struggle for $e_spain$. Only time will tell the wider consequences of this."
+ almohad_invasion.1002.a:0 "I see."

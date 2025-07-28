@@ -1,0 +1,175 @@
+﻿### eldiguzid templates [Historical ID]
+# timestamp: 1136
+
+# Eldiguz INVADER (? - 11175, ?)
+eldiguz_eldiguzid_character_template = {
+	name = eldiguz_eldiguzid_character_template_name
+	age = { 38 42 }
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:kipchak
+	
+	# Education
+	trait = education_martial_4
+
+	# Personality Traits
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# Other Traits
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# spouse Momine
+
+# Muhammad, son
+muhammad_eldiguzid_character_template = {
+	name = muhammad_eldiguzid_character_template_name
+	age = { 18 21 }
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:kipchak
+
+	# Education
+	trait = education_martial_4
+
+	# Personality Traits
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# Other Traits
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Qizil, son
+qizil_eldiguzid_character_template = {
+	name = qizil_eldiguzid_character_template_name
+	age = { 18 21 }
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:kipchak
+
+	# Education
+	trait = education_martial_4
+
+	# Personality Traits
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# Other Traits
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

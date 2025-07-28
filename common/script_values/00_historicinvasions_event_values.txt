@@ -1,0 +1,125 @@
+﻿historicinvasions_swear_fealty_truce_value = { # years
+	value = 5
+}
+historicinvasions_story_maintenance_value = { # days; ~ 1,5 years
+	value = 550
+}
+historicinvasions_succession_weirdness_value = { # days; ~ 0,5 years
+	value = 180
+}
+
+# roughly: 10% back down
+historicinvasions_ai_subjugation_accept_value = {
+	value = 100
+
+	### Tier
+	if = {
+		limit = { highest_held_title_tier >= tier_empire }
+		multiply = 0
+	}
+	else_if = {
+		limit = { highest_held_title_tier = tier_kingdom }
+		multiply = 0.1
+	}
+	else_if = {
+		limit = { highest_held_title_tier = tier_duchy }
+		add = 150
+	}
+	else = {
+		add = 2000
+	}
+
+	### Realm Size
+	if = { # Hungary
+		limit = { realm_size >= 55 }
+		multiply = 0
+	}
+	else_if = { # Poland
+		limit = { realm_size >= 45 }
+		multiply = 0.25
+	}
+	else_if = { # Poland
+		limit = { realm_size >= 35 }
+		multiply = 0.75
+	}
+	else = {
+		multiply = 1
+	}
+
+	### Traits
+	if = {
+		limit = {
+			OR = {
+				has_trait = arrogant
+				has_trait = brave
+				has_trait = ambitious
+			}
+		}
+		multiply = 0.3
+	}
+	if = {
+		limit = {
+			OR = {
+				has_trait = craven
+			}
+		}
+		multiply = 4
+	}
+
+	### Culture
+	if = {
+		limit = { culture = scope:story.story_owner.culture }
+		multiply = 2
+	}
+
+	### Dynasty
+	if = {
+		limit = { dynasty = scope:story.story_owner.dynasty }
+		multiply = 6
+	}
+
+	### Faith Hostility
+	# from 02_religion_valies.txt
+		# faith_fully_accepted_level = 0
+		# faith_astray_level = 1
+		# faith_hostile_level = 2
+		# faith_evil_level = 3
+	if = {
+		limit = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:story.story_owner.faith
+					value >= 3
+				}
+			}
+		}
+		multiply = 0
+	}
+	else_if = {
+		limit = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:story.story_owner.faith
+					value >= 2
+				}
+			}
+		}
+		multiply = 0.25
+	}
+	else_if = {
+		limit = {
+			faith = {
+				faith_hostility_level = {
+					target = scope:story.story_owner.faith
+					value >= 1
+				}
+			}
+		}
+		multiply = 0.75
+	}
+	else = { multiply = 1.1 }
+}
+
+historicinvasions_ai_subjugation_refuse_value = {
+	value = 1000
+}

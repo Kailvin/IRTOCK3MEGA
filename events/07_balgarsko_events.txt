@@ -1,0 +1,65 @@
+﻿namespace = balgarsko_invasion
+
+### Spawn invader with the associated story...
+balgarsko_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_bulgaria # update compatibility - new titles in old saves return false
+		title:k_bulgaria = { is_title_created = yes }
+		title:k_bulgaria.holder = { is_independent_ruler = yes }
+		title:k_bulgaria.holder.age > 17
+		title:k_bulgaria.holder.age <= 50
+	}
+
+	on_trigger_fail = {
+		debug_log = "balgarsko story / bulgaria story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		if = {
+			limit = { title:e_bulgaria = { is_title_created = no } }
+			debug_log = "balgarsko story / bulgaria story owner has appeared"
+			debug_log_date = yes
+			
+			title:k_bulgaria.holder = {
+				create_story = story_balgarsko_invasion
+			}
+
+			trigger_event = {
+				id = balgarsko_invasion.0100 # spawn troops
+				days = 1
+			}
+		}
+		else = {
+			debug_log = "balgarsko story canceled; e_bulgaria has already been united"
+			debug_log_date = yes
+			add_to_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:balgarsko_story_started
+			}
+			add_to_global_variable_list = {
+				name = historicinvasions_story_ended
+				target = flag:balgarsko_story_ended
+			}
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+balgarsko_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_balgarsko_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+balgarsko_invasion.0200 = {
+	hidden = yes
+	orphan = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {}
+}

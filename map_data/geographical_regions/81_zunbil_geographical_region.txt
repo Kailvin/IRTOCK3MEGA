@@ -1,0 +1,50 @@
+﻿### Zunbil Conquest Regions
+
+special_zunbil_conquest_region_1 = {
+	duchies = {
+		# k_kabulistan
+		d_zabulistan
+		d_kabul # holy site
+
+		# k_makran
+		d_sistan # holy site
+
+		# k_khorasan
+		d_ghur
+	}
+}
+
+special_zunbil_conquest_region_2 = {
+	duchies = {
+		# k_khorasan
+		d_herat
+		d_nishapur # holy site
+		d_kohestan
+		d_merv
+
+		# k_punjab
+		d_gandhara
+		d_multan # holy site
+		d_bhakkar
+
+		### RICE
+		# k_khorasan
+		d_balkh
+		# k_transoxiana
+		d_khuttal
+		d_badakhshan
+	}
+}
+
+special_zunbil_conquest_region_start = {
+	regions = {
+		special_zunbil_conquest_region_1
+	}
+}
+
+special_zunbil_conquest_region_total = {
+	regions = {
+		special_zunbil_conquest_region_1
+		special_zunbil_conquest_region_2
+	}
+}

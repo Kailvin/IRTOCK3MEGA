@@ -1,0 +1,84 @@
+﻿### Song Character Templates [ID, history ID]
+# timestamp: 1279
+
+# Lizong, grandfather (1205 - 1264)
+lizong_song_character_template = {
+	name = lizong_song_character_template_name
+	age = 74
+	gender = male
+
+	faith = faith:zhengyi
+	culture = culture:han
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Duzong, father (1240 - 1274)
+duzong_song_character_template = {
+	name = duzong_song_character_template_name
+	age = 39
+	gender = male
+
+	faith = faith:zhengyi
+	culture = culture:han
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Duanzong (1268 - 1278)
+duanzong_song_character_template = {
+	name = duanzong_song_character_template_name
+	age = 11
+	gender = male
+
+	faith = faith:zhengyi
+	culture = culture:han
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Gongdi (1271 - 1323)
+gongdi_song_character_template = {
+	name = gongdi_song_character_template_name
+	age = 8
+	gender = male
+
+	faith = faith:zhengyi
+	culture = culture:han
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Bing Song INVADER (1272 - 1279)
+bing_song_character_template = {
+	name = bing_song_character_template_name
+	age = 7
+	gender = male
+
+	faith = faith:zhengyi
+	culture = culture:han
+
+	trait = shrewd
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

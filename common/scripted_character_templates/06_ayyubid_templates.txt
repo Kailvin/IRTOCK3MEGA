@@ -1,0 +1,207 @@
+﻿### Ayyubid Character Templates [ID, history ID], Rawadi "Rawdâdiya" clan (branch of tribe Hadhânî "al-Hadâniya")
+# timestamp: 1171
+
+#? Bilal Hadhabanid (820 - 886) [159169], dynasty root
+
+#? Hisên Rawwadid (850 - 900) [159148]
+
+#? Mihemed Rawwadid (890 - 955)
+
+#? Hisên Rawwadid (920 - 988)
+
+#? Mamlan Rawwadid (950 - 1000)
+
+#? Mihemed Rawwadid (999 - 1021)
+
+#? Hisên Rawwadid (1020 - 1055)
+
+# Marwan ibn al-Hadâniya (1049? - ?) [159156]
+marwan_ayyubid_character_template = {
+	name = marwan_ayyubid_character_template_name
+	age = { 115 125 }
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Shadhi ibn Marwan al-Rawadiyya ibn al-Hadâniya, GRANDFATHER (~1085 - 1155)
+shadhi_ayyubid_character_template = {
+	name = shadhi_ayyubid_character_template_name
+	age = { 83 87 }
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	random_traits = no
+	after_creation = { # dies in script after the cadet branch is created
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# Shirkuh UNCLE (? - 1169)
+shirkuh_ayyubid_character_template = {
+	name = shirkuh_ayyubid_character_template_name
+	age = { 55 70 }
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Ayyub (Nad̲j̲m al-Dīn Aiyūb bin al-ʿādil, Atabeg al-Ajdakan, Emir of Maiyāfāriḳīn) FATHER (~1110 - 09.08.1173)
+ayyub_ayyubid_character_template = {
+	name = ayyub_ayyubid_character_template_name
+	age = { 60 65 }
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	diplomacy = { 13 16 }
+	martial = { 17 21 }
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+		eccentric = {}
+	}
+
+	# education
+	random_traits_list = {
+		count = 1
+		education_diplomacy_4 = { weight = { base = 12 } }
+		education_martial_4 = { weight = { base = 12 } }
+	}
+
+	random_traits = no
+	after_creation = {
+		give_nickname = nick_hi_ad-din
+		add_perk = stalwart_leader_perk
+		give_random_commander_trait_effect = yes
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Yusuf Saladin INVADER (1137 - 1193) [], 1 son by 1171
+saladin_ayyubid_character_template = {
+	name = saladin_ayyubid_character_template_name
+	age = 34
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	diplomacy = { 13 16 }
+	martial = { 17 21 }
+	stewardship = { 9 12 }
+	intrigue = { 11 15 }
+	learning = { 8 11 }
+
+	trait = ambitious
+	trait = brave
+	trait = just
+	trait = zealous
+	trait = education_martial_4
+
+	trait = lifestyle_blademaster
+	trait = intellect_good_2
+	trait = holy_warrior
+	trait = military_engineer
+	trait = open_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		give_nickname = nick_hi_salah_ad-din
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Asimat INVADER (? - 1186) []
+asimat_seljuk_character_template = {
+	name = asimat_seljuk_character_template_name
+	age = { 27 32 }
+	gender = female
+	#dynasty_house = house:house_seljuk
+	dynasty = generate #todo
+
+	faith = faith:ashari
+	culture = culture:turkish # oghuz
+
+	diplomacy = { 12 17 }
+	martial = { 5 8 }
+	stewardship = { 10 14 }
+	intrigue = { 8 12 }
+	learning = { 18 23 }
+
+	trait = generous
+	trait = zealous
+	trait = forgiving
+	trait = temperate
+	trait = education_learning_4
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Al-Afdal, son (1170 - 1225) []
+al-afdal_ayyubid_character_template = {
+	name = al-afdal_ayyubid_character_template_name
+	age = 1
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:kurdish
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

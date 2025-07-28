@@ -1,0 +1,23 @@
+﻿l_russian:
+ fatimid_invasion.1001.t:0 "Rise of the Shia"
+ fatimid_invasion.1001.desc.intro:0 "The schism of Islam was triggered in its early days and has by now turned into an open rebellion that questions the legitimacy of the Abbasid $islam_religious_head_title$. The Shia have gathered enough strength to openly state their allegiance to [invader.GetFirstName], which has opened the gates for more proud zealots to join their ranks."
+ fatimid_invasion.1001.desc.conversion:0 "\n\nRumors tell that [GetGlobalVariable('persia_convert_var').Char.GetName], a strong ruler within [GetGeographicalRegion('special_fatimid_persia_region').GetName], has already embraced [invader.GetFaith.GetName]."
+ fatimid_invasion.1001.desc.converted:0 "\n\nThe consequences of the schism can already be felt: the new denomination has already gained a foothold within [GetGeographicalRegion('special_fatimid_persia_region').GetName]."
+ fatimid_invasion.1001.desc.outro:0 "\n\nA storm is gathering in Africa, one that the Sunni $islam_religious_head_title$ can't afford to ignore..."
+ fatimid_invasion.1001.a:0 "And so, the infighting begins."
+ fatimid_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."
+ fatimid_invasion.1001.c:0 "@hi_ismaili_icon! [invader.GetSheHe|U] is right! I shall become a devout [invader.GetFaith.GetAdherentNameNoTooltip]."
+
+ fatimid_invasion.1006.t:0 "Cairo Awaits"
+ fatimid_invasion.1006.desc:0 "My dear $islam_religious_head_title$,\n\nthe rulers of $k_egypt$ are weak and vulnerable. We ought to seize this opportunity to seize the land around the Nile and move ever close to the holy cities: Mecca and Medina.\n\nWe could leave northern Africa behind and move our court to $k_egypt$ permanently!\n\n\n#x Note: If you control 70% of [GetGeographicalRegion('special_fatimid_conquest_region_4').GetName] upon finishing a Historic Invasion war, your court will automatically move to $k_egypt$, you leave behind all vassals outside of $k_egypt$ and become a [king|El].#!"
+ fatimid_invasion.1006.a:0 "Prepare the army!"
+ fatimid_invasion.1006.a.tt:0 "By declaring a Historic Invasion for Egypt, you will move your court to egypt, become a king and leave behind all your former vassals."
+
+ fatimid_invasion.1007.opening:0 "My dear servant,"
+ fatimid_invasion.1007.desc:0 "as your new ruler, I expect you to follow the true faith from here on out.\n\nI eagerly await your reply."
+ fatimid_invasion.1007.a:0 "Yes, of course I will."
+ fatimid_invasion.1007.b:0 "No! Never!"
+
+ fatimid_invasion.1010.t:0 "$c_mecca$ and $c_medina$"
+ fatimid_invasion.1010.desc:0 "I've decided to grant the two holies cities of $c_mecca$ and $c_medina$ as well as their surrounding counties to [hashimid_receiver.GetFirstNameRegnal], who will rule over and protect them in my name."
+ fatimid_invasion.1010.a:0 "May they stay safe and sound."

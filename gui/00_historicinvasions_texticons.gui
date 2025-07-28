@@ -1,0 +1,89 @@
+﻿texticon = {
+	icon = historicinvasions_icon
+	iconsize = {
+		texture = "gfx/interface/icons/historicinvasions_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = historicinvasions_compatibility_icon
+	iconsize = {
+		texture = "gfx/interface/icons/other/historicinvasions_compatibility_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_mazdayasna_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_mazdayasna_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_rabbinism_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_rabbinism_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_taoism_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_taoism_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_nadjat_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_nadjat_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_yazidism_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_yazidism_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_zurvanism_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_zurvanism_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = hi_iconoclasm_icon
+	iconsize = {
+		texture = "gfx/interface/icons/faith/hi_iconoclasm_texticon.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

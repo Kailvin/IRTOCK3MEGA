@@ -1,0 +1,220 @@
+﻿### Almohad Character Templates [ID, history ID]
+# timestamp: 1152
+
+### previous ancestors
+### 867 start
+
+# Muhammad I (810 - 865, 55) [6310, extra_ghurids_1]
+
+# suri (890 - 940, 50)
+suri_ghurid_character_template = {
+	name = suri_ghurid_character_template_name
+	age = 212
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# muhammad (930 - 980, 50)
+muhammad_i_ghurid_character_template = {
+	name = muhammad_i_ghurid_character_template_name
+	age = 172
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# muhammad (960 - 1011, 51)
+muhammad_ii_ghurid_character_template = {
+	name = muhammad_ii_ghurid_character_template_name
+	age = 141
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# shith (982 - 1029, 47)
+shith_ghurid_character_template = {
+	name = shith_ghurid_character_template_name
+	age = 123
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# abbas (999 - 1059, 60)
+abbas_ghurid_character_template = {
+	name = abbas_ghurid_character_template_name
+	age = 93
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# muhammad (1020 - 1080, 60) [17002, 93137]
+muhammad_iii_ghurid_character_template = {
+	name = muhammad_iii_ghurid_character_template_name
+	age = 72 # 60
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# hasan (1050 - 1100, 50) [20404, 93138]
+hasan_ghurid_character_template = {
+	name = hasan_ghurid_character_template_name
+	age = 52 # 50
+	gender = male
+
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+### living characters
+
+# Ala ad-Din Husayn Ghurid INVADER (? - 1161) [?, ?]
+husayn_ghurid_character_template = {
+	name = husayn_ghurid_character_template_name
+	age = { 30 40 }
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+
+	diplomacy = { 8 11 }
+	martial = { 14 19 }
+	stewardship = { 8 12 }
+	intrigue = { 11 14 }
+	learning = { 6 9 }
+
+	trait = education_martial_4
+
+	trait = reckless
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Sayf al-Din Muhammad Ghurid (1113? - 1163), son
+sayf_ghurid_character_template = {
+	name = sayf_ghurid_character_template_name
+	age = { 17 20 }
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Izz al-Din Husayn Ghurid (1070? - 1146), father (son of Hasan)
+izz_ghurid_character_template = {
+	name = izz_ghurid_character_template_name
+	age = { 70 80 }
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Baha al-Din Sam I Ghurid (? - 1149), brother
+baha_ghurid_character_template = {
+	name = baha_ghurid_character_template_name
+	age = { 30 40 }
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Ghiyath al-Din Muhammad Ghurid (1140 - 1203)
+ghiyath_ghurid_character_template = {
+	name = ghiyath_ghurid_character_template_name
+	age = 12
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Mu'izz al-Din Muhammad Ghurid (1149 - 1206)
+muizz_ghurid_character_template = {
+	name = muizz_ghurid_character_template_name
+	age = 3
+	gender = male
+	
+	faith = faith:maturidi
+	culture = culture:tajik
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

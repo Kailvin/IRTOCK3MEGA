@@ -1,0 +1,227 @@
+﻿surrender_to_invader_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+
+	desc = surrender_to_invader_decision_desc
+	selection_tooltip = surrender_to_invader_decision_tooltip
+	decision_group_type = major
+	should_create_alert = { always = yes }
+
+	ai_check_interval = 0
+
+	is_shown = {
+		is_ai = no
+		any_character_war = {
+			OR = {
+				using_cb = historicinvasions_invasion_war
+				using_cb = historicinvasions_landless_invasion_war
+			}
+			primary_attacker = { has_character_modifier = historicinvasions_plot_armor }
+			primary_defender = root
+		}
+	}
+
+	is_valid = {
+		is_at_war = yes
+		any_character_war = {
+			OR = {
+				custom_tooltip = {
+					text = surrender_to_invader_decision_historicinvasions_invasion_war_tt
+					using_cb = historicinvasions_invasion_war
+				}
+				custom_tooltip = {
+					text = surrender_to_invader_decision_historicinvasions_landless_invasion_war_tt
+					using_cb = historicinvasions_landless_invasion_war
+				}
+			}
+			custom_tooltip = {
+				text = surrender_to_invader_decision_primary_attacker_tt
+				primary_attacker = { has_character_modifier = historicinvasions_plot_armor }
+			}
+			custom_tooltip = {
+				text = surrender_to_invader_decision_primary_defender_tt
+				primary_defender = root
+			}
+			custom_tooltip = {
+				text = surrender_to_invader_decision_war_score_tt
+				attacker_war_score >= 25
+				attacker_war_score < 100
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		NOT = { has_character_modifier = historicinvasions_plot_armor }
+	}
+
+	cost = {}
+
+	# similar to hi_apply_subjugation_demand_effect
+	effect = {
+		# prestige penalty
+		add_prestige_level = -1
+		add_prestige = {
+			value = prestige
+			multiply = -0.5
+			max = -250 # without a maximum of at least 0, this would generate prestige if negative
+		}
+		# end invasion
+		random_character_war = {
+			limit = {
+				OR = {
+					using_cb = historicinvasions_invasion_war
+					using_cb = historicinvasions_landless_invasion_war
+				}
+				primary_attacker = { has_character_modifier = historicinvasions_plot_armor }
+				primary_defender = root
+			}
+			primary_attacker = { save_scope_as = invader }
+			end_war = white_peace
+		}
+		# HoF destruction warning
+		if = {
+			limit = {
+				any_held_title = {
+					is_head_of_faith = yes
+					tier >= scope:invader.primary_title.tier
+				}
+			}
+			custom_tooltip = surrender_to_invader_decision_hof_destruction_tt
+		}
+
+		### defender > attacker
+		if = {
+			limit = {
+				primary_title.tier > scope:invader.primary_title.tier
+			}
+			# destroy any vassal titles preventing vassalization
+			every_vassal_or_below = {
+				limit = { highest_held_title_tier >= scope:invader.primary_title.tier }
+				every_held_title = {
+					limit = {
+						tier >= scope:invader.primary_title.tier
+						is_head_of_faith = no
+					}
+					holder = {
+						destroy_title = prev
+						add_pressed_claim = prev
+					}
+				}
+			}
+			# build a list of every direct vassal
+			every_vassal = {
+				limit = { highest_held_title_tier > tier_barony }
+				add_to_list = demand_recipient_vassals_list
+			}
+			# HoF vassal becomes independent if they can't be vassalized
+			create_title_and_vassal_change = {
+				type = independency
+				save_scope_as = hof_independency_change
+				add_claim_on_loss = no
+			}
+			every_in_list = {
+				list = demand_recipient_vassals_list
+				limit = {
+					any_held_title = {
+						tier >= scope:invader.primary_title.tier # otherwise we could've just vassalized them
+						is_head_of_faith = yes
+					}
+				}
+				becomes_independent = { change = scope:hof_independency_change }
+				remove_from_list = demand_recipient_vassals_list
+			}
+			resolve_title_and_vassal_change = scope:hof_independency_change
+			# transfer vassals
+			custom_tooltip = {
+				text = surrender_to_invader_decision_vassal_transfer
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = demand_recipient_vassal_change
+					add_claim_on_loss = no
+				}
+				every_in_list = {
+					list = demand_recipient_vassals_list
+					change_liege = {
+						liege = scope:invader
+						change = scope:demand_recipient_vassal_change
+					}
+				}
+				resolve_title_and_vassal_change = scope:demand_recipient_vassal_change
+			}
+			# destroy every held title that is of a higher tier than that of the invader
+			every_held_title = { # includes head of faith titles; players are warned of this
+				limit = {
+					tier >= scope:invader.primary_title.tier
+				}
+				holder = {
+					destroy_title = prev
+					add_pressed_claim = prev
+				}
+			}
+		}
+
+		### defender = attacker
+		else_if = {
+			limit = {
+				primary_title.tier = scope:invader.primary_title.tier
+			}
+			# build a list of all direct vassals
+			every_vassal = {
+				limit = { highest_held_title_tier > tier_barony }
+				add_to_list = demand_recipient_vassals_list
+			}
+			# transfer vassals
+			custom_tooltip = {
+				text = surrender_to_invader_decision_vassal_transfer
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = demand_recipient_vassal_change
+					add_claim_on_loss = no
+				}
+				every_in_list = {
+					list = demand_recipient_vassals_list
+					change_liege = {
+						liege = scope:invader
+						change = scope:demand_recipient_vassal_change
+					}
+				}
+				resolve_title_and_vassal_change = scope:demand_recipient_vassal_change
+			}
+			# destroy every held title that is of an equal tier than that of the invader
+			every_held_title = { # includes head of faith titles; players are warned of this
+				limit = {
+					tier = scope:invader.primary_title.tier
+				}
+				root = {
+					destroy_title = prev
+					add_pressed_claim = prev
+				}
+			}
+		}
+
+		### defender < attacker
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = vassalization_change
+			add_claim_on_loss = no
+		}
+		change_liege = {
+			liege = scope:invader
+			change = scope:vassalization_change
+		}
+		resolve_title_and_vassal_change = scope:vassalization_change
+
+		# truce
+		add_truce_both_ways = {
+			character = scope:invader
+			override = yes
+			years = historicinvasions_swear_fealty_truce_value
+			name = TRUCE_SWEAR_FEALTY
+		}
+	}
+
+	ai_potential = { always = no }
+
+	ai_will_do = { base = 0 }
+}

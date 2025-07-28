@@ -1,0 +1,60 @@
+﻿turkish_beylik_decision_common_triggers = {
+	# culture
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_turkic
+			# custom_tooltip = {
+			# 	text = parent_culture_heritage_turkic_tt
+			# 	any_parent_culture_or_above = { has_cultural_pillar = heritage_turkic }
+			# }
+			has_cultural_pillar = language_turkic
+			# custom_tooltip = {
+			# 	text = parent_culture_language_turkic_tt
+			# 	any_parent_culture_or_above = { has_cultural_pillar = language_turkic }
+			# }
+		}
+	}
+
+	# capital location
+	#capital_province = { geographical_region = world_asia_minor }
+
+	# AI can't deal with inheritance, prevent them from balkanizing themselves
+	trigger_if = { # player
+		limit = { is_ai = no }
+		highest_held_title_tier >= tier_duchy
+	}
+	trigger_else = { # AI
+		highest_held_title_tier = tier_duchy
+	}
+}
+
+kurdish_kingdom_decision_trigger = {
+	# culture
+	OR = {
+		culture = culture:kurdish
+		custom_tooltip = {
+			text = parent_culture_kurdish_tt
+			culture = { any_parent_culture_or_above = { this = culture:kurdish } }
+		}
+	}
+
+	# AI can't deal with inheritance, prevent them from balkanizing themselves
+	trigger_if = { # player
+		limit = { is_ai = no }
+		highest_held_title_tier >= tier_duchy
+	}
+	trigger_else = { # AI
+		highest_held_title_tier = tier_duchy
+	}
+}
+
+custom_kingdom_decision_independence_trigger = {
+	# liege check
+	OR = {
+		is_independent_ruler = yes # is not vassal
+		AND = {
+			is_independent_ruler = no
+			liege = { highest_held_title_tier > tier_kingdom }
+		}
+	}
+}

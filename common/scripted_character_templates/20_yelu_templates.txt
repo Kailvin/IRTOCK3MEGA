@@ -1,0 +1,79 @@
+﻿### Yelü Character Templates [ID, history ID]
+# timestamp: 1124
+
+# INVADER Dézōng Yelü (1094 - 1143, 49)
+dezong_yelu_character_template = {
+	name = dezong_yelu_character_template_name
+	age = 30
+	gender = male
+
+	faith = faith:vajrayana
+	culture = culture:khitan
+
+	trait = education_martial_4
+
+	random_traits_list = {
+		count = { 0 1 }
+		diplomat = {}
+		strategist = {}
+		architect = {}
+		schemer = {}
+		scholar = {}
+		whole_of_body = {}
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+	}
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Tabuyan, spouse and cousin
+tabuyan_yelu_character_template = {
+	name = tabuyan_yelu_character_template_name
+	age = { 20 30 }
+	gender = female
+
+	faith = faith:vajrayana
+	culture = culture:khitan
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Renzong, son (1134 - 1163, 28)
+renzong_yelu_character_template = {
+	name = renzong_yelu_character_template_name
+	age = { 3 5 }
+	gender = male
+
+	faith = faith:vajrayana
+	culture = culture:khitan
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Pusuwan, daughter (? - 1177)
+pusuwan_yelu_character_template = {
+	name = pusuwan_yelu_character_template_name
+	age = { 0 2 }
+	gender = female
+
+	faith = faith:vajrayana
+	culture = culture:khitan
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

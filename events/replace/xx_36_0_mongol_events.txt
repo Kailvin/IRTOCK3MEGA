@@ -1,0 +1,87 @@
+﻿# namespace = mongol_invasion
+
+### edited base game event ###
+# base game file: "story_cycle_mongol_invasion_events.txt"; this file needs to be loaded after the base game file
+
+# mongol_invasion.0001 = {
+# 	scope = none
+# 	hidden = yes
+
+# 	trigger = {
+# 		has_global_variable = mongols_have_appeared
+# 		NOT = {
+# 			is_target_in_global_variable_list = {
+# 				name = historicinvasions_story_started
+# 				target = flag:borjigin_story_started
+# 			}
+# 		}
+# 	}
+
+# 	immediate = {
+# 		debug_log = "removed global variable 'mongols_have_appeared'"
+# 		remove_global_variable = mongols_have_appeared
+# 	}
+# }
+
+#^# normally (=base game) spawns Temujin, aka Genghis Khan, with the associated story
+# I can't edit the base game on_action which triggers the Mongols without copying over the entire thing. The on_action triggers the below event and sets the global variable 'mongols_have_appeared'
+# The base game invasion could be prevented from triggering by setting said global variable 'mongols_have_appeared' on game start, but other mods might check for that variable
+# So instead, for as long as my modded variable doesn't exist, the event will instead immediately remove the global variable again
+# My modded event will set both the base game global variable and my own modded one, the former will prevent the base game on_action from triggering
+# Utilizes vanilla game rule
+
+# Already ongoing save games where the Mongol invasion has already happened:
+# base game on_action: can't trigger due to var mongols_have_appeared being set
+# modded on_action: can't trigger due to var mongols_have_appeared being set
+# invaders: also check for var mongols_have_appeared
+
+##### flowchart
+#### var mongols_have_appeared exists
+# nothing happens, since both on_actions check for var mongols_have_appeared
+#### var mongols_have_appeared doesn't exist
+### base game on_action has a chance to trigger
+## base game on_action is not triggered
+# nothing happens
+## base game on_action is triggered
+# var mongols_have_appeared is set
+# event mongol_invasion.0001 is triggered within X to Y days
+# edited event removes var mongols_have_appeared just set by on_action, unless the modded var is set
+
+#### flag borjigin_story_started is set
+# nothing happens, since modded on_action checks for flag borjigin_story_started
+#### flag borjigin_story_started is not set
+### modded on_action has a chance to trigger
+## modded on_action is not triggered
+# nothing happens
+## modded on_action is triggered
+# depending on game rule settings, either the modded invasion or the base game invasion is triggered within X to Y days via borjigin_invasion.0001 or .0002
+# modded: event also checks for both var mongols_have_appeared & flag borjigin_story_started before triggering
+# modded: var mongols_have_appeared & flag borjigin_story_started are set at the beginning of the story, since the invader can fail to spawn under certain conditions
+# base game: var mongols_have_appeared & flag borjigin_story_started are set just as the modded on_action triggers
+
+##### what happens if both on_actions trigger in the same year? time line:
+# |										< 1 >								|											< 2 >
+# var mongols_have_appeared set (+)		borjigin_invasion.0001				var mongols_have_appeared removed (-)		borjigin_invasion.0001
+# (base game on_action)														(edited mongol_invasion.0001)
+# (checks for var -)					(checks for var - & flag -)			(checks for var + & flag -)					(checks for var - & flag -)
+#
+#
+# var mongols_have_appeared set (+) & flag borjigin_story_started is set (+)
+# (modded on_action, IF base game invasion)
+# (checks for var - & flag -)
+
+#### modded invasion
+### < 1 >
+# event fails to trigger, since var mongols_have_appeared is set
+# since the base game on_action immediately sets var mongols_have_appeared, it's possible that the modded on_action will fail to trigger borjigin_invasion.0001 at all, depending on which one is checked first
+### < 2 >
+# event can successfully trigger
+
+#### base game invasion
+### < 1 >, < 2 >
+# similar to the base game on_action, the modded on_action (if it triggers at all), will set var and flag immediately
+# var mongols_have_appeared won't be removed by mongol_invasion.0001 since flag borjigin_story_started is always set; delayed events check for their triggers twice!
+
+
+##### so why is this here? I was tired and needed to check whether the Mongol invasion REALLY couldn't potentially trigger twice if var mongols_have_appeared is set and removed in a weird order
+# but no, it can't

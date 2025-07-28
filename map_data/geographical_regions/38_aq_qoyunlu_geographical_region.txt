@@ -1,0 +1,37 @@
+﻿### Aq Qoyunlu Conquest Regions
+
+special_aq_qoyunlu_conquest_region_1 = {
+	duchies = {
+		# k_jazira
+		d_diyarbakr d_diyarmudar d_diyarrabia d_euphrates d_kurdistan
+	}
+}
+
+special_aq_qoyunlu_conquest_region_2 = {
+	duchies = {
+		# k_daylam
+		d_daylam d_azerbaijan d_shirvan d_tabaristan #d_gurgan
+
+		# k_mesopotamia
+		d_samarra d_baghdad d_kufa d_wasit d_basra
+
+		# k_armenia
+		d_mesopotamia d_vaspurakan d_greater_armenia
+
+		# k_persia
+		d_rayy d_hamadan d_kermanshah d_kirman d_isfahan d_khuzestan d_yazd d_fars d_hormuz
+	}
+}
+
+special_aq_qoyunlu_conquest_region_start = {
+	regions = {
+		special_aq_qoyunlu_conquest_region_1
+	}
+}
+
+special_aq_qoyunlu_conquest_region_total = {
+	regions = {
+		special_aq_qoyunlu_conquest_region_1
+		special_aq_qoyunlu_conquest_region_2
+	}
+}

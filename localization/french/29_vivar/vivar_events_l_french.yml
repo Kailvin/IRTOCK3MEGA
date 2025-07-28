@@ -1,6 +1,0 @@
-﻿l_french:
- vivar_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
- vivar_invasion.1001.desc:0 "[invader.GetShortUINameNoTooltip], a $castilian$ knight, has successfully meneuvered the complicated political landscape of the struggling $e_spain$.\n\nFighting both $christianity_religion_adherent_plural$ and $islam_religion_adherent_plural$, [invader.GetFirstNameNoTooltip] became known and respected by both sides of the conflict. This would earn [invader.GetHerHim] the $arab$ nickname 'al-sīd' (the lord) as well as the $castilian$ nickname 'El Campeador' (the valiant).\n\nHis influence reached its climax when [invader.GetSheHe] conquered [invader.GetCapitalLocation.GetName] in southern $e_spain$."
- vivar_invasion.1001.desc.real_rodrigo:0 "\n\n#weak Author's note since I receive this question regularly: Yes, this is indeed a spawned in copy of El Cid, not the actual [real_rodrigo.GetName] who exists at game start in 1066. This is because doing so would cause thousands of errors being logged due to 'fp2_el_cid_events.txt' hopelessly tring to send a landed character to the character pool."
- vivar_invasion.1001.a:0 "[invader.GetHerHis|U] realm will surely crumble."
- vivar_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

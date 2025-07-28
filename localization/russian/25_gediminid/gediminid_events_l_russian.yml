@@ -1,5 +1,0 @@
-﻿l_russian:
- gediminid_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] of $e_gediminid$"
- gediminid_invasion.1001.desc:0 "The Baltics have long been on the sideline of history. With the $k_bassenheim$ invading $d_prussia$ and the $k_balk$ pursuing their goals up in the north, most Baltic tribes have fallen under Germanic control.\n\nWill $e_gediminid$ prevail against those threats and establish a realm of its own?"
- gediminid_invasion.1001.a:0 "Will [invader.GetSheHe] prevail against the $e_teutonic_state$?"
- gediminid_invasion.1001.b:0 "@warning_icon! I wish I was ruling in [invader.GetHerHis] stead..."

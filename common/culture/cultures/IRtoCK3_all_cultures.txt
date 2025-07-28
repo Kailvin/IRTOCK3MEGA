@@ -869,12 +869,7 @@ han={
 	color=rgb { 211 44 44 }
 	heritage=heritage_chinese
 	language=language_chinese
-	traditions={ tradition_concubines 
-		tradition_family_entrepreneurship
-		tradition_mystical_ancestors
-		tradition_court_eunuchs
-		tradition_philosopher_culture
-		tradition_ce1_ritual_washing }
+	traditions={ tradition_concubines tradition_court_eunuchs tradition_confucian_philosophy tradition_agrarian }
 	name_list=name_list_han
 ethos = ethos_courtly
 martial_custom = martial_custom_male_only

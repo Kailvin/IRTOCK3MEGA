@@ -1,5 +1,0 @@
-﻿l_french:
- ludolfinger_invasion.1001.t:0 "An ambitious Dream"
- ludolfinger_invasion.1001.desc:0 "[invader.GetTitledFirstName] was elected [invader.Custom('GetQueenKing')] of $k_east_francia$ by its dukes. With their support, [invader.GetSheHe] seeks to unite the splintered $frankish$ kingdoms into a new $e_hre$."
- ludolfinger_invasion.1001.a:0 "His dream won't come true."
- ludolfinger_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

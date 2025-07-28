@@ -1,7 +1,0 @@
-﻿l_french:
- anushtiginid_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
- anushtiginid_invasion.1001.desc:0 "Just like many $heritage_turkic_name$ tribes, the [invader.GetHouse.GetNameNoTooltip]s claim to be descendants of the legendary [invader.GetDynasty.GetName] Khan through the $hi_dynn_oghuz_house_begdili$ tribe.\n\nAfter the $hi_dynn_oghuz_house_seljuk$ conquest of the region, the $khwarezmian_collective_noun$ served under the $turkish$ empire as capable slave commanders. After the decline of the $hi_dynn_oghuz_house_seljuk$s, they were swiftly forced to pay tribute to $e_yelu$, which they unsucessfully tried to contest.\n\nBut now, even their influence over the region is vaning. Can [invader.GetShortUINameNoTooltip] use this opportunity to expand [invader.GetHerHis] $khwarezmian$ territory? Though a threat is looming in the high Mongolian Plateau..."
- anushtiginid_invasion.1001.a:0 "And so another warlord rises."
- anushtiginid_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."
-
- anushtiginid_persia_war.tt:0 "#r Losing this [war] will cause your [empire] to shatter!#!"

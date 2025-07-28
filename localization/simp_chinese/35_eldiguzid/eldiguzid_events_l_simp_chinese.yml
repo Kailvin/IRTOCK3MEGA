@@ -1,5 +1,0 @@
-﻿l_simp_chinese:
- eldiguzid_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip]"
- eldiguzid_invasion.1001.desc:0 "After the previous ruler of the $hi_dynn_oghuz_house_seljuk$ Empire was murdered by $nizari_adherent$ assassins, [invader.GetShortUINameNoTooltip] was appointed atabeg by its new ruler. Over the years, [invader.GetHerHis] dynasty would grow to be one of the most powerful and influential vassals of the $hi_dynn_oghuz_house_seljuk$ Empire until its fall.\n\n[invader.GetFirstNameNoTooltip] would play an important role in keeping the kingdom of $k_georgia$ in check."
- eldiguzid_invasion.1001.a:0 "This will surely destabilize that region further."
- eldiguzid_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

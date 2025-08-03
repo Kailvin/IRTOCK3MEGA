@@ -98,6 +98,93 @@ c_ghat={
 	418.8.29 = { liege = 0 holder = imperator199856 }
 	423.7.6 = { change_development_level = 6 }
 }
+d_tadmekka={
+	423.7.6 = { liege = 0 }
+}
+c_tadmekka={
+	409.1.1 = { holder = tuareg_24 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_tessalit={
+	409.1.1 = { holder = tuareg_24 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_djanet={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 0 }
+}
+d_tripolitania={
+	361.1.1 = { change_development_level = 6 }
+	423.7.6 = { liege = 0 }
+}
+c_tripolitana={
+	418.8.29 = { liege = 0 holder = imperator199856 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_djerba={
+	408.1.7 = { liege = 0 holder = imperator182018 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_syrte={
+	406.12.6 = { liege = 0 holder = imperator193304 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_labda={
+	418.8.29 = { liege = 0 holder = imperator199856 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_touat={
+	361.1.1 = { change_development_level = 3 }
+	423.7.6 = { liege = 0 }
+}
+c_touat={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_tamentit={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 6 }
+}
+d_taghaza={
+	423.7.6 = { liege = 0 }
+}
+c_taghaza={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_saoura={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 7 }
+}
+d_kawar={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_bilma_holder government = tribal_government }
+}
+c_bilma={
+	423.7.6 = { holder = IRToCK3_c_bilma_holder change_development_level = 0 }
+}
+c_dirku={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_djado={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 3 }
+}
+d_tunis={
+	423.7.6 = { liege = 0 }
+}
+c_tunis={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_satfura={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_medjerda={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 14 }
+}
 d_mzab={
 	423.7.6 = { liege = 0 }
 }
@@ -141,86 +228,6 @@ c_mahdiya={
 	402.7.23 = { liege = 0 holder = imperator185947 }
 	423.7.6 = { change_development_level = 13 }
 }
-d_tadmekka={
-	423.7.6 = { liege = 0 }
-}
-c_tadmekka={
-	409.1.1 = { holder = tuareg_24 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_tessalit={
-	409.1.1 = { holder = tuareg_24 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_djanet={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 0 }
-}
-d_bejaia={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
-}
-c_ashir={
-	395.5.19 = { liege = 0 holder = imperator184156 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_algier={
-	404.1.23 = { liege = 0 holder = imperator193930 }
-	423.7.6 = { change_development_level = 8 }
-}
-b_tadallis={
-	423.7.6 = { holder = imperator187589 }
-}
-c_bejaia={
-	395.5.19 = { liege = 0 holder = imperator184156 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_satif={
-	395.5.19 = { liege = 0 holder = imperator184156 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_hodna={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 15 }
-}
-d_taghaza={
-	423.7.6 = { liege = 0 }
-}
-c_taghaza={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_saoura={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 7 }
-}
-d_touat={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-c_touat={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_tamentit={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 6 }
-}
-d_tunis={
-	423.7.6 = { liege = 0 }
-}
-c_tunis={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_satfura={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_medjerda={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 14 }
-}
 d_kroumerie={
 	361.1.1 = { change_development_level = 7 }
 	423.7.6 = { liege = 0 }
@@ -249,37 +256,30 @@ c_annaba={
 	395.5.19 = { liege = 0 holder = imperator184156 }
 	423.7.6 = { change_development_level = 16 }
 }
-d_kawar={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_bilma_holder government = tribal_government }
-}
-c_bilma={
-	423.7.6 = { holder = IRToCK3_c_bilma_holder change_development_level = 0 }
-}
-c_dirku={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_djado={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 3 }
-}
-d_tripolitania={
+d_bejaia={
 	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
-c_tripolitana={
-	418.8.29 = { liege = 0 holder = imperator199856 }
-	423.7.6 = { change_development_level = 11 }
+c_ashir={
+	395.5.19 = { liege = 0 holder = imperator184156 }
+	423.7.6 = { change_development_level = 12 }
 }
-c_djerba={
-	408.1.7 = { liege = 0 holder = imperator182018 }
-	423.7.6 = { change_development_level = 16 }
-}
-c_syrte={
-	406.12.6 = { liege = 0 holder = imperator193304 }
+c_algier={
+	404.1.23 = { liege = 0 holder = imperator193930 }
 	423.7.6 = { change_development_level = 8 }
 }
-c_labda={
-	418.8.29 = { liege = 0 holder = imperator199856 }
-	423.7.6 = { change_development_level = 10 }
+b_tadallis={
+	423.7.6 = { holder = imperator187589 }
+}
+c_bejaia={
+	395.5.19 = { liege = 0 holder = imperator184156 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_satif={
+	395.5.19 = { liege = 0 holder = imperator184156 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_hodna={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 15 }
 }

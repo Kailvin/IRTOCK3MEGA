@@ -1,0 +1,52 @@
+﻿l_english:
+ 
+ # 361 Landless Titles
+ d_nf_TFE_valentinianus: "$dynn_Valentinianus$ Family"
+ d_nf_TFE_valentinianus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_iovianus: "$dynn_Iovianus$ Family"
+ d_nf_TFE_iovianus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_vettius: "$dynn_Vettius$ Family"
+ d_nf_TFE_vettius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_memmius: "$dynn_Memmius$ Family"
+ d_nf_TFE_memmius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_ablabius: "$dynn_Ablabius$ Family"
+ d_nf_TFE_ablabius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ # 395 Landless Titles
+ d_nf_TFE_gabinius: "$dynn_Gabinius$ Family"
+ d_nf_TFE_gabinius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_rufinus: "$dynn_Rufinus$ Family"
+ d_nf_TFE_rufinus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_philippus: "$dynn_flaviusprefect$ Family"
+ d_nf_TFE_philippus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_gaudentius: "$dynn_aetius$ Family"
+ d_nf_TFE_gaudentius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_constantius: "$dynn_Constantius$ Family"
+ d_nf_TFE_constantius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_valerius: "$dynn_Valerius$ Family"
+ d_nf_TFE_valerius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_symmachus: "$dynn_Symmachi$ Family"
+ d_nf_TFE_symmachus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ # 476 Landless Titles
+ d_nf_TFE_iustinianus: "$dynn_justinianline$ Family"
+ d_nf_TFE_iustinianus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_pompeius: "$dynn_Pompeius$ Family"
+ d_nf_TFE_pompeius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_sabinianus: "$dynn_Sabinianus$ Family"
+ d_nf_TFE_sabinianus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_theodosius: "$dynn_Theodosian$ Family"
+ d_nf_TFE_theodosius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_areobindus: "$dynn_Areobindus$ Family"
+ d_nf_TFE_areobindus_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ d_nf_TFE_procopius: "$dynn_Procopius$ Family"
+ d_nf_TFE_procopius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ # 532 Landless Titles
+ d_nf_TFE_anicius: "$dynn_Anicii$ Family"
+ d_nf_TFE_anicius_article: "$DEFAULT_TITLE_NAME_ARTICLE$"
+ 
+ # 632 Landless Titles
+
+
+

@@ -14,28 +14,6 @@ k_IRTOCK3_SA3={
 	409.3.25 = { holder = imperator187405 government = nomad_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
 }
-d_alania={
-	423.7.6 = { liege = 0 }
-}
-c_maghas={
-	417.10.6 = { liege = 0 holder = imperator200669 }
-	423.7.6 = { change_development_level = 3 }
-}
-b_etzeri={
-	423.7.6 = { holder = imperator184323 }
-}
-c_cabardinia={
-	420.9.10 = { liege = 0 holder = imperator192789 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_besinada={
-	417.10.6 = { liege = 0 holder = imperator200669 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_zichia={
-	396.5.20 = { liege = d_IRTOCK3_K11 holder = imperator190935 }
-	423.7.6 = { change_development_level = 7 }
-}
 d_pecheneg={
 	423.7.6 = { liege = 0 }
 }
@@ -138,4 +116,26 @@ c_tana={
 c_kuzeytorg={
 	421.8.29 = { liege = 0 holder = imperator198616 }
 	423.7.6 = { change_development_level = 1 }
+}
+d_alania={
+	423.7.6 = { liege = 0 }
+}
+c_maghas={
+	417.10.6 = { liege = 0 holder = imperator200669 }
+	423.7.6 = { change_development_level = 3 }
+}
+b_etzeri={
+	423.7.6 = { holder = imperator184323 }
+}
+c_cabardinia={
+	420.9.10 = { liege = 0 holder = imperator192789 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_besinada={
+	417.10.6 = { liege = 0 holder = imperator200669 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_zichia={
+	396.5.20 = { liege = d_IRTOCK3_K11 holder = imperator190935 }
+	423.7.6 = { change_development_level = 7 }
 }

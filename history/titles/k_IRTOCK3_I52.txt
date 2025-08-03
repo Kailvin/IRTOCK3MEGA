@@ -35,24 +35,36 @@ k_IRTOCK3_I52={
 	412.10.7 = { holder = imperator190108 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_freistadt={
+d_lower_silesia={
 	423.7.6 = { liege = 0 }
 }
-c_hohenau={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_freistadt={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_krems={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_waldkirchen={
+c_breslau={
 	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { change_development_level = 5 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator191527 change_development_level = 2 }
+}
+c_schweibus={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_grunberg={
+	422.9.14 = { liege = 0 holder = imperator203714 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_sprottau={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
+}
+c_przemkow={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
+}
+c_legnica={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_miliez={
+	417.4.25 = { liege = 0 holder = imperator199203 }
+	423.7.6 = { change_development_level = 3 }
 }
 d_lesser_poland={
 	423.7.6 = { liege = 0 }
@@ -87,37 +99,6 @@ c_tarnowska={
 c_stezycka={
 	416.7.11 = { liege = 0 holder = imperator192719 }
 	423.7.6 = { change_development_level = 4 }
-}
-d_lower_silesia={
-	423.7.6 = { liege = 0 }
-}
-c_breslau={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator191527 change_development_level = 2 }
-}
-c_schweibus={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_grunberg={
-	422.9.14 = { liege = 0 holder = imperator203714 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_sprottau={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
-}
-c_przemkow={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator200204 change_development_level = 4 }
-}
-c_legnica={
-	412.10.7 = { liege = 0 holder = imperator190108 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_miliez={
-	417.4.25 = { liege = 0 holder = imperator199203 }
-	423.7.6 = { change_development_level = 3 }
 }
 d_bohemia={
 	361.1.1 = { change_development_level = 1 }
@@ -212,4 +193,23 @@ c_opava={
 c_prerov={
 	412.10.11 = { liege = 0 holder = imperator192633 }
 	423.7.6 = { change_development_level = 4 }
+}
+d_freistadt={
+	423.7.6 = { liege = 0 }
+}
+c_hohenau={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_freistadt={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_krems={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_waldkirchen={
+	412.10.7 = { liege = 0 holder = imperator190108 }
+	423.7.6 = { change_development_level = 5 }
 }

@@ -2,6 +2,36 @@ k_IRTOCK3_K88={
 	388.3.13 = { holder = imperator193638 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_voronezh={
+	423.7.6 = { liege = 0 }
+}
+c_voronezh={
+	421.11.14 = { liege = 0 holder = imperator203336 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_karatayak={
+	421.10.8 = { liege = d_IRTOCK3_J40 holder = imperator194285 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_oskol={
+	422.2.14 = { liege = 0 holder = imperator187488 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_khursa={
+	407.3.4 = { liege = 0 holder = imperator196072 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_novosil={
+	423.7.6 = { liege = 0 }
+}
+c_novosil={
+	407.3.4 = { liege = 0 holder = imperator196072 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_odoyev={
+	421.11.14 = { liege = 0 holder = imperator203336 }
+	423.7.6 = { change_development_level = 2 }
+}
 d_novgorod={
 	423.7.6 = { liege = 0 }
 }
@@ -22,17 +52,6 @@ c_luki={
 }
 c_valdai={
 	422.10.4 = { liege = 0 holder = imperator206138 }
-	423.7.6 = { change_development_level = 2 }
-}
-d_novosil={
-	423.7.6 = { liege = 0 }
-}
-c_novosil={
-	407.3.4 = { liege = 0 holder = imperator196072 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_odoyev={
-	421.11.14 = { liege = 0 holder = imperator203336 }
 	423.7.6 = { change_development_level = 2 }
 }
 d_smolensk={
@@ -57,23 +76,4 @@ c_mozhaysk={
 c_toropets={
 	421.11.14 = { holder = imperator203336 liege = 0 }
 	423.7.6 = { change_development_level = 2 }
-}
-d_voronezh={
-	423.7.6 = { liege = 0 }
-}
-c_voronezh={
-	421.11.14 = { liege = 0 holder = imperator203336 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_karatayak={
-	421.10.8 = { liege = d_IRTOCK3_J40 holder = imperator194285 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_oskol={
-	422.2.14 = { liege = 0 holder = imperator187488 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_khursa={
-	407.3.4 = { liege = 0 holder = imperator196072 }
-	423.7.6 = { change_development_level = 1 }
 }

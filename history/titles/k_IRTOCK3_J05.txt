@@ -6,23 +6,57 @@ k_IRTOCK3_J05={
 	392.1.14 = { holder = imperator191227 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_baltiyul={
-	423.7.6 = { liege = 0 }
+d_ngari={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gomoco_holder liege = 0 }
 }
-c_skardu={
+c_tsaparang={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 14 }
+	423.7.6 = { change_development_level = 11 }
 }
-c_shigar={
+b_tholing={
+	423.7.6 = { holder = imperator187622 }
+}
+c_kyunglung={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator195122 change_development_level = 2 }
+	423.7.6 = { change_development_level = 12 }
 }
-c_khaplu={
+c_gar={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator195122 change_development_level = 2 }
+	423.7.6 = { change_development_level = 10 }
 }
-b_haldi={
-	423.7.6 = { holder = imperator195122 }
+c_gegyai={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_gerze={
+	420.5.20 = { liege = 0 holder = imperator187586 }
+	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 1 }
+}
+c_gomoco={
+	423.7.6 = { holder = IRToCK3_c_gomoco_holder liege = 0 change_development_level = 0 }
+}
+d_rutog={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_memar_holder liege = 0 }
+}
+c_rutog={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_memar={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_memar_holder liege = 0 }
+}
+d_aksai_chin={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_thaldat_holder liege = 0 }
+}
+c_khurnak={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_thaldat={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_thaldat_holder liege = 0 }
+}
+c_sumdo={
+	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_thaldat_holder liege = 0 }
 }
 d_ladakh={
 	423.7.6 = { liege = 0 }
@@ -38,6 +72,21 @@ c_demchok={
 c_diskit={
 	392.1.14 = { liege = 0 holder = imperator191227 }
 	423.7.6 = { change_development_level = 7 }
+}
+d_zanskar={
+	423.7.6 = { liege = 0 }
+}
+c_padum={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_darcha={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator184034 change_development_level = 11 }
+}
+c_purig={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { change_development_level = 11 }
 }
 d_purang={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_manthang_holder liege = 0 }
@@ -92,48 +141,6 @@ c_kaski={
 	422.9.15 = { liege = 0 holder = imperator203815 }
 	423.7.6 = { change_development_level = 9 }
 }
-d_aksai_chin={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_thaldat_holder liege = 0 }
-}
-c_khurnak={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_thaldat={
-	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_thaldat_holder liege = 0 }
-}
-c_sumdo={
-	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_thaldat_holder liege = 0 }
-}
-d_ngari={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_gomoco_holder liege = 0 }
-}
-c_tsaparang={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 11 }
-}
-b_tholing={
-	423.7.6 = { holder = imperator187622 }
-}
-c_kyunglung={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_gar={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_gegyai={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_gerze={
-	420.5.20 = { liege = 0 holder = imperator187586 }
-	423.7.6 = { liege = k_IRTOCK3_SMP holder = imperator186547 change_development_level = 1 }
-}
-c_gomoco={
-	423.7.6 = { holder = IRToCK3_c_gomoco_holder liege = 0 change_development_level = 0 }
-}
 d_pamir={
 	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_golaghmuli_holder liege = 0 }
@@ -152,28 +159,21 @@ c_golaghmuli={
 	422.6.17 = { liege = "k_kidaria" }
 	423.7.6 = { holder = IRToCK3_c_golaghmuli_holder liege = 0 change_development_level = 7 }
 }
-d_rutog={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_memar_holder liege = 0 }
-}
-c_rutog={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_memar={
-	423.7.6 = { change_development_level = 0 holder = IRToCK3_c_memar_holder liege = 0 }
-}
-d_zanskar={
+d_baltiyul={
 	423.7.6 = { liege = 0 }
 }
-c_padum={
+c_skardu={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 11 }
+	423.7.6 = { change_development_level = 14 }
 }
-c_darcha={
+c_shigar={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator184034 change_development_level = 11 }
+	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator195122 change_development_level = 2 }
 }
-c_purig={
+c_khaplu={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 11 }
+	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator195122 change_development_level = 2 }
+}
+b_haldi={
+	423.7.6 = { holder = imperator195122 }
 }

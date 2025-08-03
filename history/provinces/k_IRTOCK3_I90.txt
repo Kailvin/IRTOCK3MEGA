@@ -12,7 +12,7 @@
 	100.1.1 = { special_building_slot = hegra }
 }
 6207={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -31,7 +31,7 @@
 	holding = none
 }
 6212={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -45,7 +45,7 @@
 	holding = none
 }
 6218={
-	culture = bedouin
+	culture = adnanite
 	faith = rabbinism
 	holding = castle_holding
 }
@@ -62,17 +62,17 @@
 	holding = none
 }
 6223={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = castle_holding
 }
 6224={
-	culture = bedouin
+	culture = himyarite
 	faith = nicene
 	holding = castle_holding
 }
 6225={
-	culture = bedouin
+	culture = himyarite
 	faith = nicene
 	holding = castle_holding
 }
@@ -89,7 +89,7 @@
 	holding = castle_holding
 }
 6235={
-	culture = bedouin
+	culture = himyarite
 	faith = egyptian_pagan
 	holding = castle_holding
 }

@@ -1,5 +1,5 @@
 5974={
-	culture = bedouin
+	culture = adnanite
 	faith = nabataean_pagan
 	holding = castle_holding
 }
@@ -30,7 +30,7 @@
 	holding = none
 }
 6188={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -44,7 +44,7 @@
 	holding = none
 }
 6192={
-	culture = bedouin
+	culture = himyarite
 	faith = rabbinism
 	holding = castle_holding
 }

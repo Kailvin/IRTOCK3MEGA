@@ -6,44 +6,6 @@ k_IRTOCK3_J56={
 	406.10.16 = { holder = imperator191303 government = feudal_government }
 	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
 }
-d_frisia={
-	423.7.6 = { liege = 0 }
-}
-c_dokkum={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_ostfriesland={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_frisia={
-	422.4.15 = { liege = 0 holder = imperator185019 }
-	423.7.6 = { change_development_level = 16 }
-}
-d_thuringia={
-	423.7.6 = { liege = 0 }
-}
-c_gottingen={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_gleichenstein={
-	411.1.1 = { liege = 0 holder = imperator189729 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_schmalkalden={
-	407.4.5 = { liege = 0 holder = imperator198570 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_orlamunde={
-	395.11.11 = { liege = 0 holder = imperator195692 }
-	423.7.6 = { liege = k_IRTOCK3_L03 holder = imperator195695 change_development_level = 0 }
-}
-c_lobdaburg={
-	395.11.11 = { liege = 0 holder = imperator195692 }
-	423.7.6 = { change_development_level = 1 }
-}
 d_holstein={
 	423.7.6 = { liege = 0 }
 }
@@ -130,6 +92,21 @@ c_werle={
 	415.4.23 = { liege = 0 holder = imperator189910 }
 	423.7.6 = { change_development_level = 11 }
 }
+d_frisia={
+	423.7.6 = { liege = 0 }
+}
+c_dokkum={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_ostfriesland={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_frisia={
+	422.4.15 = { liege = 0 holder = imperator185019 }
+	423.7.6 = { change_development_level = 16 }
+}
 d_hesse={
 	423.7.6 = { liege = 0 }
 }
@@ -151,4 +128,27 @@ b_lauterbach={
 c_marburg={
 	386.6.1 = { liege = 0 holder = imperator193204 }
 	423.7.6 = { change_development_level = 4 }
+}
+d_thuringia={
+	423.7.6 = { liege = 0 }
+}
+c_gottingen={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_gleichenstein={
+	411.1.1 = { liege = 0 holder = imperator189729 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_schmalkalden={
+	407.4.5 = { liege = 0 holder = imperator198570 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_orlamunde={
+	395.11.11 = { liege = 0 holder = imperator195692 }
+	423.7.6 = { liege = k_IRTOCK3_L03 holder = imperator195695 change_development_level = 0 }
+}
+c_lobdaburg={
+	395.11.11 = { liege = 0 holder = imperator195692 }
+	423.7.6 = { change_development_level = 1 }
 }

@@ -276,16 +276,7 @@ k_hansa={
 	423.7.6 = { liege = 0 }
 }
 e_britannia={
-	417.5.21 = { holder = imperator193903 government = administrative_government }
-	423.7.6 = { effect = 	{
-		if = {
-			limit = {
-				exists = holder
-				holder = { has_government = administrative_government }
-			}
-			set_state_faith = faith:insular_celtic
-		}
-	} succession_laws = { male_preference_law acclamation_succession_law } }
+	423.7.6 = { liege = 0 }
 }
 k_mann_the_isles={
 	423.7.6 = { liege = 0 }

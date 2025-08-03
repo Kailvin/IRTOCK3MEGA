@@ -6,6 +6,40 @@ k_IRTOCK3_K56={
 	421.6.9 = { holder = imperator198534 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_mugodzhar_hills={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kosh_kurbay_holder liege = 0 }
+}
+c_mugodzhar_hills={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_jitikul={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { liege = k_IRTOCK3_K56 holder = imperator188065 change_development_level = 1 }
+}
+c_kosh_kurbay={
+	100.1.1 = { government = herder_government }
+	423.7.6 = { holder = IRToCK3_c_kosh_kurbay_holder liege = 0 change_development_level = 0 }
+}
+c_kos_uba={
+	397.10.11 = { liege = 0 holder = imperator196051 }
+	423.7.6 = { change_development_level = 3 }
+}
+d_kokturgay={
+	423.7.6 = { liege = 0 }
+}
+c_jilali={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_achu={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_ulu_jitanjik={
+	421.6.9 = { liege = 0 holder = imperator198534 }
+	423.7.6 = { change_development_level = 1 }
+}
 d_aqtobe={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_atamansku_holder liege = 0 }
 }
@@ -32,24 +66,20 @@ c_kbumak={
 	361.1.1 = { government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_atamansku_holder liege = 0 change_development_level = 0 }
 }
-d_mugodzhar_hills={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_kosh_kurbay_holder liege = 0 }
+d_manatau={
+	423.7.6 = { liege = 0 }
 }
-c_mugodzhar_hills={
+c_manatau={
 	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 1 }
 }
-c_jitikul={
+c_jaksybai={
 	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { liege = k_IRTOCK3_K56 holder = imperator188065 change_development_level = 1 }
+	423.7.6 = { change_development_level = 1 }
 }
-c_kosh_kurbay={
-	100.1.1 = { government = herder_government }
-	423.7.6 = { holder = IRToCK3_c_kosh_kurbay_holder liege = 0 change_development_level = 0 }
-}
-c_kos_uba={
+c_basagha={
 	397.10.11 = { liege = 0 holder = imperator196051 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { liege = k_IRTOCK3_C12 holder = imperator182473 change_development_level = 0 }
 }
 d_turgay={
 	423.7.6 = { liege = 0 }
@@ -69,34 +99,4 @@ c_tumar={
 c_murun_tomis={
 	421.6.9 = { liege = 0 holder = imperator198534 }
 	423.7.6 = { change_development_level = 2 }
-}
-d_kokturgay={
-	423.7.6 = { liege = 0 }
-}
-c_jilali={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_achu={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_ulu_jitanjik={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 1 }
-}
-d_manatau={
-	423.7.6 = { liege = 0 }
-}
-c_manatau={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_jaksybai={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_basagha={
-	397.10.11 = { liege = 0 holder = imperator196051 }
-	423.7.6 = { liege = k_IRTOCK3_C12 holder = imperator182473 change_development_level = 0 }
 }

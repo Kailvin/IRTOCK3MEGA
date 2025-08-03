@@ -1,0 +1,316 @@
+﻿hybrid_culture_ai_frequency = {
+	categories = {
+		TFE
+	}
+	default = none_hybrid_culture_ai_frequency
+	#dlc = "The Royal Court"
+
+	default_hybrid_culture_ai_frequency = {
+
+	}
+
+	less_common_hybrid_culture_ai_frequency = {
+
+	}
+
+	none_hybrid_culture_ai_frequency = {
+
+	}
+}
+
+divergent_culture_ai_frequency = {
+	categories = {
+		TFE
+	}
+	default = none_divergent_culture_ai_frequency
+	#dlc = "The Royal Court"
+
+	default_divergent_culture_ai_frequency = {
+
+	}
+
+	less_common_divergent_culture_ai_frequency = {
+
+	}
+
+	none_divergent_culture_ai_frequency = {
+
+	}
+
+	relaxed_divergent_culture_ai_frequency = {
+
+	}
+}
+
+imperial_competence = {
+	categories = {
+		TFE
+	}
+	default = imperial_competence_enabled
+
+	imperial_competence_enabled = {
+
+	}
+
+	imperial_competence_enabled_in_430 = {
+
+	}
+
+	imperial_competence_disabled = {
+
+	}
+}
+
+imperial_competence_partial_collapse = {
+	categories = {
+		TFE
+	}
+	default = imperial_competence_partial_collapse_enabled
+
+	imperial_competence_partial_collapse_enabled = {
+
+	}
+
+	imperial_competence_partial_collapse_disabled = {
+
+	}
+}
+
+imperial_competence_collapse = {
+	categories = {
+		TFE
+	}
+	default = imperial_competence_collapse_enabled
+
+	imperial_competence_collapse_enabled = {
+
+	}
+
+	imperial_competence_collapse_disabled = {
+
+	}
+}
+
+tfe_migrations = {
+	categories = {
+		TFE
+	}
+	default = tfe_migrations_frequent
+	tfe_migrations_very_rare = {}
+	tfe_migrations_rare = {}
+	tfe_migrations_occasional = {}
+	tfe_migrations_frequent = {}
+	tfe_migrations_very_frequent = {}
+	tfe_migrations_apocalyptic = {}
+	tfe_migrations_off = {}
+}
+tfe_historical_migrations = {
+	categories = {
+		TFE
+	}
+	default = tfe_historical_migrations_strict
+	tfe_historical_migrations_relaxed = {}
+	tfe_historical_migrations_default = {}
+	tfe_historical_migrations_strict = {}
+}
+migration_strength = {
+	categories = {
+		TFE
+	}
+	default = migration_strength_default
+	migration_strength_weaker = {}
+	migration_strength_default = {}
+	migration_strength_stronger = {}
+	migration_strength_much_stronger = {}
+	migration_strength_apocalyptic = {}
+}
+
+imperial_internal_wars = {
+	categories = {
+		TFE
+	}
+	default = imperial_war_disabled
+
+	imperial_war_enabled = {
+
+	}
+
+	imperial_war_disabled = {
+
+	}
+}
+
+larp = {
+	categories = {
+		TFE
+	}
+	default = larp_enabled 
+	larp_disabled = {}
+	larp_enabled = {}
+}
+
+fictional_larp = {
+	categories = {
+		TFE
+	}
+	default = fictional_larp_enabled 
+	fictional_larp_disabled = {}
+	fictional_larp_enabled = {}
+}
+
+dead_cultures = {
+	categories = {
+		TFE
+	}
+	default = dead_cultures_disabled 
+	dead_cultures_disabled = {}
+	dead_cultures_enabled = {}
+}
+
+historicity_extra_admin_player_wherever = {
+	
+	categories = { historicity game_modes }
+	
+	default = historicity_extra_admin_player_wherever_gameplay_not_administrative
+
+	historicity_extra_admin_player_wherever_gameplay_not_administrative = {}
+}
+
+sami_nomad_region = {
+	
+	categories = {
+		historicity
+	}
+	
+	default = sami_nomad_region_off
+
+	sami_nomad_region_off = {
+
+	}
+}
+
+arabia_nomad_region = {
+	
+	categories = {
+		historicity
+	}
+	
+	default = arabia_nomad_region_off
+
+	arabia_nomad_region_off = {
+
+	}
+}
+
+sahel_nomad_region = {
+	
+	categories = {
+		historicity
+	}
+	
+	default = sahel_nomad_region_off
+
+	sahel_nomad_region_off = {
+
+	}
+}
+
+horn_of_africa_nomad_region = {
+	
+	categories = {
+		historicity
+	}
+	
+	default = horn_of_africa_nomad_region_off
+
+	horn_of_africa_nomad_region_off = {
+
+	}
+}
+
+historicity_extra_admin_egypt = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_egypt_gameplay_not_administrative
+
+	historicity_extra_admin_egypt_gameplay_not_administrative = {}
+}
+
+historicity_extra_admin_arabia = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_arabia_gameplay_not_administrative
+
+	historicity_extra_admin_arabia_gameplay_not_administrative = {}
+
+}
+
+historicity_extra_admin_ghana = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_ghana_gameplay_not_administrative
+
+	historicity_extra_admin_ghana_gameplay_not_administrative = {}
+}
+
+historicity_extra_admin_kabulistan = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_kabulistan_gameplay_not_administrative
+
+	historicity_extra_admin_kabulistan_gameplay_not_administrative = {}
+}
+
+historicity_extra_admin_persia = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_persia_gameplay_not_administrative
+
+	historicity_extra_admin_persia_gameplay_not_administrative = {}
+
+}
+
+historicity_extra_admin_maghreb = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_maghreb_gameplay_not_administrative
+
+	historicity_extra_admin_maghreb_gameplay_not_administrative = {}
+
+}
+
+historicity_extra_admin_tamilakam = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_tamilakam_gameplay_not_administrative
+
+	historicity_extra_admin_tamilakam_gameplay_not_administrative = {}
+}
+
+historicity_extra_admin_carolingians = {
+	
+	categories = { historicity }
+	
+	default = historicity_extra_admin_carolingians_gameplay_not_administrative
+
+	historicity_extra_admin_carolingians_gameplay_not_administrative = {}
+}
+
+advantage_damage_effect = {
+	categories = { tweaks }
+	
+	default = advantage_damage_effect_2
+	
+	advantage_damage_effect_1 = { flag = advantage_damage_effect_1 }
+	advantage_damage_effect_2 = { flag = advantage_damage_effect_2 }
+	advantage_damage_effect_5 = { flag = advantage_damage_effect_5 }
+	advantage_damage_effect_7 = { flag = advantage_damage_effect_7 }
+	advantage_damage_effect_10 = { flag = advantage_damage_effect_10 }
+}

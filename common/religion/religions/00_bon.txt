@@ -4,12 +4,13 @@
 	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes
-
+	
 	#Main Group
 	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_missionary_encouraged
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -35,8 +36,8 @@
 	doctrine = doctrine_pilgrimage_encouraged
 
 	#Funeral tradition
-	doctrine = doctrine_funeral_sky_burial
-
+	doctrine = doctrine_funeral_stoic # Ancient Tibetans were buried in tombs, sky burials and cremations are a later, post-Imperial thing
+	
 	traits = {
 		virtues = {
 			compassionate
@@ -83,7 +84,7 @@
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
-
+		
 		#FertilityGod
 		FertilityGodName = bon_fertility_god_name
 		FertilityGodNamePossessive = bon_fertility_god_name_possessive
@@ -226,6 +227,7 @@
 		bon = {
 			color = { 10 235 255 }
 			icon = bon
+			religious_head = d_yungdrung_bon
 
 			holy_site = khotan
 			holy_site = balkh
@@ -233,10 +235,13 @@
 			holy_site = purang
 			holy_site = gilgit
 
-			doctrine = tenet_esotericism
+			doctrine = tenet_cthonic_redoubts
 			doctrine = tenet_monasticism
-			doctrine = tenet_inner_journey
+			doctrine = tenet_eastern_syncretism
+
+			doctrine = doctrine_funeral_sky_burial
 		}
+
 		old_bon = {
 			color = { 0.03 0.45 0.42 }
 			icon = spirit_bon
@@ -247,47 +252,12 @@
 			holy_site = lhasa
 			holy_site = purang
 			holy_site = gilgit
-
-			doctrine = tenet_ritual_celebrations
-			# Gruesome Festivals, else Human Sacrifice.
-			doctrine_selection_pair = {
-				requires_dlc_flag = the_northern_lords
-				doctrine = tenet_gruesome_festivals
-				fallback_doctrine = tenet_human_sacrifice
-			}
+			
+			doctrine = tenet_human_sacrifice
+			doctrine = tenet_cthonic_redoubts
 			doctrine = tenet_esotericism
 
 			doctrine = unreformed_faith_doctrine
-		}
-		dongba = { # Faith of Nakhi people
-			color = { 0.39 0.15 0.65 }
-			icon = dongba
-			reformed_icon = dongba
-
-			holy_site = sagya
-			holy_site = lhasa
-			holy_site = namtso
-			holy_site = ngawa
-			holy_site = purang
-			holy_site = maowun
-			holy_site = chakla
-			holy_site = lugu_lake
-			holy_site = er_hai_lake
-			holy_site = gyaitang
-
-			doctrine = tenet_ancestor_worship
-			doctrine = tenet_sanctity_of_nature
-			doctrine = tenet_adorcism
-
-			doctrine = doctrine_adultery_men_accepted
-			doctrine = doctrine_adultery_women_accepted
-
-			doctrine = unreformed_faith_doctrine
-
-			localization = {
-				PriestFemale = dongba_priest
-				PriestFemalePlural = dongba_priest_plural
-			}
 		}
 	}
 }

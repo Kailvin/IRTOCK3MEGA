@@ -1,0 +1,342 @@
+﻿
+@never_primary_score = -1000
+
+# ADMIN TITLES
+
+
+############################################################
+# 
+# 361 ADMIN TITLES
+# 
+############################################################
+
+
+# Valentinius
+d_nf_TFE_valentinianus = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+# Iovianus
+d_nf_TFE_iovianus = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# Vettius
+d_nf_TFE_vettius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# Procopius
+d_nf_TFE_procopius = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# Memmius
+d_nf_TFE_memmius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# Gabinius
+d_nf_TFE_gabinius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+# Rufinus
+d_nf_TFE_rufinus = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_ablabius = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_valerius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+
+
+############################################################
+# 
+# 395 ADMIN TITLES
+# 
+############################################################
+
+d_nf_TFE_gaudentius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_constantius = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_philippus = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+d_nf_TFE_symmachus = {
+	color = { 100 100 100 }
+	capital = c_roma
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+
+############################################################
+# 
+# 476 ADMIN TITLES
+# 
+############################################################
+
+d_nf_TFE_iustinianus = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_pompeius = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_sabinianus = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_theodosius = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_nf_TFE_areobindus = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+############################################################
+# 
+# 532 ADMIN TITLES
+# 
+############################################################
+
+
+d_nf_TFE_anicius = {
+	color = { 100 100 100 }
+	capital = c_byzantion
+
+	definite_form = yes
+	landless = yes
+	ruler_uses_title_name = no
+	always_follows_primary_heir = yes
+	no_automatic_claims = yes
+	noble_family = yes
+	destroy_if_invalid_heir = yes
+
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+
+
+############################################################
+# 
+# 632 ADMIN TITLES
+# 
+############################################################
+
+
+

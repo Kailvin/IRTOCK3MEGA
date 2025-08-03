@@ -2,27 +2,24 @@ k_IRTOCK3_L21={
 	408.4.13 = { holder = imperator199253 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_tagaung={
-	423.7.6 = { liege = 0 }
+d_sriksetra={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_hinthada_holder government = tribal_government }
 }
-c_takon={
+c_sriksetra={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 14 }
+	423.7.6 = { change_development_level = 0 }
 }
-c_madaya={
+c_magwe={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 16 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 17 }
 }
-b_singu={
-	423.7.6 = { holder = imperator187947 }
+c_hinthada={
+	361.1.1 = { government = city_state_government }
+	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 6 }
 }
-c_hanlan={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_kale={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 9 }
+c_toungoo={
+	361.1.1 = { government = city_state_government }
+	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 0 }
 }
 d_pagan={
 	423.7.6 = { liege = 0 }
@@ -54,22 +51,25 @@ c_yamethin={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 14 }
 }
-d_sriksetra={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_hinthada_holder government = tribal_government }
+d_tagaung={
+	423.7.6 = { liege = 0 }
 }
-c_sriksetra={
+c_takon={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 0 }
+	423.7.6 = { change_development_level = 14 }
 }
-c_magwe={
+c_madaya={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 17 }
+	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 16 }
 }
-c_hinthada={
-	361.1.1 = { government = city_state_government }
-	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 6 }
+b_singu={
+	423.7.6 = { holder = imperator187947 }
 }
-c_toungoo={
-	361.1.1 = { government = city_state_government }
-	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 0 }
+c_hanlan={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_kale={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 9 }
 }

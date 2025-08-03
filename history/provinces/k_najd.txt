@@ -47,7 +47,7 @@
 	holding = none
 }
 6250={
-	culture = bedouin
+	culture = adnanite
 	faith = manichean
 	holding = tribal_holding
 }
@@ -58,12 +58,12 @@
 	holding = city_holding
 }
 6253={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = tribal_holding
 }
 6254={
-	culture = bedouin
+	culture = adnanite
 	faith = manichean
 	holding = tribal_holding
 	395.1.1 = { religion = nicene }

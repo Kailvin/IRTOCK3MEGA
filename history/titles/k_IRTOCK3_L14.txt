@@ -27,28 +27,17 @@ c_taraz={
 c_cherik={
 	423.7.6 = { holder = IRToCK3_c_cherik_holder liege = 0 change_development_level = 0 }
 }
-d_chah={
-	361.1.1 = { change_development_level = 3 }
+d_osrushana={
+	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
-c_chah={
+c_oshrusana={
 	399.8.16 = { liege = 0 holder = imperator196919 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { change_development_level = 4 }
 }
-b_chimkent={
-	423.7.6 = { holder = imperator196903 }
-}
-c_otrar={
-	397.8.1 = { liege = 0 holder = imperator196338 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_shavgar={
-	397.8.1 = { liege = 0 holder = imperator196338 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_sutkend={
-	416.8.15 = { holder = imperator198235 liege = 0 }
-	423.7.6 = { change_development_level = 3 }
+c_zarafshan={
+	399.8.16 = { liege = 0 holder = imperator196919 }
+	423.7.6 = { change_development_level = 2 }
 }
 d_soghd={
 	361.1.1 = { change_development_level = 5 }
@@ -82,15 +71,26 @@ c_samarkand={
 	399.8.16 = { liege = 0 holder = imperator196919 }
 	423.7.6 = { change_development_level = 6 }
 }
-d_osrushana={
-	361.1.1 = { change_development_level = 4 }
+d_chah={
+	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
-c_oshrusana={
+c_chah={
 	399.8.16 = { liege = 0 holder = imperator196919 }
-	423.7.6 = { change_development_level = 4 }
+	423.7.6 = { change_development_level = 6 }
 }
-c_zarafshan={
-	399.8.16 = { liege = 0 holder = imperator196919 }
-	423.7.6 = { change_development_level = 2 }
+b_chimkent={
+	423.7.6 = { holder = imperator196903 }
+}
+c_otrar={
+	397.8.1 = { liege = 0 holder = imperator196338 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_shavgar={
+	397.8.1 = { liege = 0 holder = imperator196338 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_sutkend={
+	416.8.15 = { holder = imperator198235 liege = 0 }
+	423.7.6 = { change_development_level = 3 }
 }

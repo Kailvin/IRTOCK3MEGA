@@ -28,6 +28,25 @@ c_rennes={
 	392.8.20 = { liege = 0 holder = imperator188449 }
 	423.7.6 = { change_development_level = 10 }
 }
+d_anjou={
+	423.7.6 = { liege = 0 }
+}
+c_anjou={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_saumur={
+	422.10.15 = { liege = 0 holder = imperator198572 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_maine={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_sable={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
 d_orleans={
 	423.7.6 = { liege = 0 }
 }
@@ -50,23 +69,4 @@ c_sancerre={
 c_montargis={
 	419.10.20 = { liege = 0 holder = imperator188608 }
 	423.7.6 = { change_development_level = 12 }
-}
-d_anjou={
-	423.7.6 = { liege = 0 }
-}
-c_anjou={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_saumur={
-	422.10.15 = { liege = 0 holder = imperator198572 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_maine={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_sable={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 13 }
 }

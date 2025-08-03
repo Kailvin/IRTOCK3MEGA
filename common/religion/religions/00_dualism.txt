@@ -359,6 +359,9 @@
 
 			doctrine = doctrine_pluralism_fundamentalist
 
+			# Following discussion with Vakiadia: the origins of the Mandaeans are a bit uncertain from an academic pov and it's not entirely certain when they became a closed group or even a distinct group. But maybe making them communal (or whatever the in between doctrine is) might be a good compromise for now
+			doctrine = doctrine_missionary_allowed
+
 			localization = { # Gods mostly shared with Dualism/Sabianism
 				#HighGodName
 				HighGodName = mandeaism_high_god_name
@@ -473,7 +476,7 @@
 			doctrine = tenet_esotericism
 			doctrine = tenet_literalism
 
-			localization = { # Gods mostly shared with Dualism/Mandeaism
+			localization = { # Gods mostly shared with Dualism/mandeaism
 				#HighGodName
 				HighGodNameAlternate = mandeaism_high_god_alternate
 				HighGodNameAlternatePossessive = mandeaism_high_god_alternate_possessive

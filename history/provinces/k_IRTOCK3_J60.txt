@@ -74,7 +74,7 @@
 	holding = none
 }
 8339={
-	culture = bedouin
+	culture = south_arabian
 	faith = nicene
 	holding = castle_holding
 }
@@ -85,7 +85,7 @@
 	holding = city_holding
 }
 8342={
-	culture = bedouin
+	culture = south_arabian
 	faith = nicene
 	holding = castle_holding
 }
@@ -129,7 +129,7 @@
 	holding = city_holding
 }
 8404={
-	culture = bedouin
+	culture = south_arabian
 	faith = haymanot
 	holding = castle_holding
 }

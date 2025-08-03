@@ -23,7 +23,7 @@ semitic_religion = {
 	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
-	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_kinslaying_close_kin_crime
@@ -35,11 +35,13 @@ semitic_religion = {
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
 	doctrine = doctrine_funeral_stoic
-	
+
 	traits = {
 		virtues = { just content humble education_learning_3 education_learning_4 }
 		sins = { arbitrary callous arrogant }
@@ -201,6 +203,7 @@ semitic_religion = {
 		DeathDeityNamePossessive = semitic_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = semitic_witchgodname
 		WitchGodNamePossessive = semitic_witchgodname_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -379,6 +382,7 @@ semitic_religion = {
 				DeathDeityNamePossessive = harranian_death_deity_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = harranian_witchgodname
 				WitchGodNamePossessive = harranian_witchgodname_possessive
 				WitchGodHerHis = CHARACTER_HERHIS_HER
@@ -633,6 +637,7 @@ semitic_religion = {
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_armed_pilgrimages
 
+						
 			localization = {
 				HighGodName = arabic_pagan_high_god_name
 				HighGodName2 = arabic_pagan_high_god_name
@@ -1089,8 +1094,8 @@ semitic_religion = {
 				HighGodNameSheHe = CHARACTER_SHEHE_HE
 				HighGodHerselfHimself = CHARACTER_HIMSELF
 				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = south_mesopotamian_pagan_high_god_name_alternate
-				HighGodNameAlternatePossessive = south_mesopotamian_pagan_high_god_name_alternate_possessive
+				HighGodNameAlternate = south_mesopotamian_pagan_high_god_name
+				HighGodNameAlternatePossessive = south_mesopotamian_pagan_high_god_name_possessive
 
 				#Creator
 				CreatorName = south_mesopotamian_pagan_creator_god_name
@@ -1226,6 +1231,7 @@ semitic_religion = {
 				DeathDeityNamePossessive = south_mesopotamian_pagan_high_god_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				WitchGodName = south_mesopotamian_pagan_health_god_name
 				WitchGodNamePossessive = south_mesopotamian_pagan_health_god_name_possessive
 				WitchGodHerHis = CHARACTER_HERHIS_HIS

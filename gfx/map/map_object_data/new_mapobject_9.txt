@@ -1,0 +1,11 @@
+﻿object={
+	name="new_mapobject_9"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="building_mediterranean_temple_pagan_02_a_mesh"
+	count=2
+	transform="1469.591309 0.000000 2269.432129 0.000000 0.453418 0.000000 0.891298 1.000000 1.000000 1.000000
+2674.485352 0.000000 1296.411133 0.000000 0.945840 0.000000 0.324632 1.000000 1.000000 1.000000
+"}

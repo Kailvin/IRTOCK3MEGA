@@ -1,0 +1,18 @@
+﻿object={
+	name="new_mapobject_6"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="wonder_greek_academy_mesh"
+	count=0
+"}
+object={
+	name="new_mapobject_6_variant_1"
+	render_pass=Map
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="building_layer"
+	pdxmesh="wonder_greek_academy_mesh"
+	count=0
+"}

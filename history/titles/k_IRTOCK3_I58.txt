@@ -40,25 +40,6 @@ c_stoenesti={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 10 }
 }
-d_halych={
-	423.7.6 = { liege = 0 }
-}
-c_halych={
-	401.3.5 = { liege = 0 holder = imperator185133 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_lviv={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_terebovl={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_zaslavl={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 10 }
-}
 d_bukovina={
 	423.7.6 = { liege = 0 }
 }
@@ -80,4 +61,23 @@ c_dorohoi={
 c_hotin={
 	401.3.5 = { liege = 0 holder = imperator185133 }
 	423.7.6 = { change_development_level = 3 }
+}
+d_halych={
+	423.7.6 = { liege = 0 }
+}
+c_halych={
+	401.3.5 = { liege = 0 holder = imperator185133 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_lviv={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_terebovl={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_zaslavl={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 10 }
 }

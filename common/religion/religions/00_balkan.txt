@@ -220,7 +220,7 @@
 			holy_site = olympus
 			holy_site = barlad
 			holy_site = olvia
-			holy_site = panticapaeum
+			holy_site = mount_tomor
 			holy_site = pest
 
 			# holy_site = paderborn
@@ -257,7 +257,7 @@
 			holy_site = ragusa
 			holy_site = risinium
 			holy_site = rome
-			holy_site = pest
+			holy_site = mount_tomor
 
 			# Proposed tenets:
 			doctrine = tenet_illyrian_cults # Cult of the Sun and Cult of the Serpent

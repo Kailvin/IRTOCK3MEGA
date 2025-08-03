@@ -1,7 +1,6 @@
 ﻿mundhum_religion = {
-	family = rf_eastern
-	graphical_faith = dharmic_gfx
-	doctrine = eastern_hostility_doctrine
+	family = rf_pagan
+	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes
 
@@ -10,6 +9,7 @@
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_missionary_allowed
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -36,7 +36,7 @@
 
 	#Funeral tradition
 	doctrine = doctrine_funeral_stoic
-
+	
 	traits = {
 		virtues = { temperate content honest forgiving }
 		sins = { greedy wrathful ambitious }
@@ -76,7 +76,7 @@
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
-
+		
 		#FertilityGod
 		FertilityGodName = mundhumism_fertility_god_name
 		FertilityGodNamePossessive = mundhumism_fertility_god_name_possessive
@@ -228,37 +228,37 @@
 			color = { 128 46 87 }
 			icon = kiratism
 			reformed_icon = kiratism_reformed
-
-			holy_site = darjeeling
-			holy_site = ilam
-			holy_site = paro
-			holy_site = khotang
+			
 			holy_site = kathmandu
-
+			holy_site = ilam
+			holy_site = garwhal
+			holy_site = jumla
+			holy_site = varanasi
+			
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_reincarnation
-			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_eastern_syncretism
 			doctrine = tenet_ancestor_worship
 		}
-
+		
 		yumaism = {
 			color = { 0.8 0.3 0.3 }
 			icon = yumaism
 			reformed_icon = yumaism_reformed
-
-			holy_site = darjeeling
-			holy_site = ilam
-			holy_site = paro
-			holy_site = khotang
+			
 			holy_site = kathmandu
-
+			holy_site = ilam
+			holy_site = garwhal
+			holy_site = jumla
+			holy_site = varanasi
+			
 			doctrine = unreformed_faith_doctrine
-
+			
 			doctrine = doctrine_gender_equal
 
+			doctrine = tenet_eastern_syncretism
 			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_sacred_childbirth
 			doctrine = tenet_ancestor_worship
 
 			localization = {
@@ -268,14 +268,14 @@
 				HighGodNameSheHe = CHARACTER_SHEHE_SHE
 				HighGodHerselfHimself = CHARACTER_SHEHE_SHE
 				HighGodHerHis = CHARACTER_HERHIS_HER
-
+				
 				#Creator
 				CreatorName = yumaism_creator_god_name
 				CreatorNamePossessive = yumaism_creator_god_name_possessive
 				CreatorSheHe = CHARACTER_SHEHE_SHE
 				CreatorHerHis = CHARACTER_HERHIS_HER
 				CreatorHerHim = CHARACTER_HERHIM_HER
-
+				
 				#WealthGod
 				WealthGodName = yumaism_wealth_god_name
 				WealthGodNamePossessive = yumaism_wealth_god_name_possessive

@@ -31,6 +31,80 @@ k_IRTOCK3_CAR={
 	423.7.4 = { liege = e_IRTOCK3_GAR }
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
+d_rif={
+	423.7.6 = { liege = 0 }
+}
+c_tangiers={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_ceuta={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_melilla={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_fes={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_muluya={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_taza={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_meknes={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_gharb={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 16 }
+}
+d_sous={
+	423.7.6 = { liege = 0 }
+}
+c_sous={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_agadir={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_ifni={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_draa={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 2 }
+}
+d_tafilalt={
+	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+c_figuig={
+	402.7.23 = { liege = 0 holder = imperator185947 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_sijilmasa={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_tudgha={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_ziz={
+	423.5.25 = { liege = 0 holder = imperator207026 }
+	423.7.6 = { change_development_level = 7 }
+}
 d_tlemcen={
 	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
@@ -89,78 +163,4 @@ c_asfi={
 c_tinmallal={
 	423.5.25 = { liege = 0 holder = imperator207026 }
 	423.7.6 = { change_development_level = 15 }
-}
-d_sous={
-	423.7.6 = { liege = 0 }
-}
-c_sous={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_agadir={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_ifni={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_draa={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 2 }
-}
-d_rif={
-	423.7.6 = { liege = 0 }
-}
-c_tangiers={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_ceuta={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_melilla={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_fes={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_muluya={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_taza={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_meknes={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_gharb={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 16 }
-}
-d_tafilalt={
-	361.1.1 = { change_development_level = 1 }
-	423.7.6 = { liege = 0 }
-}
-c_figuig={
-	402.7.23 = { liege = 0 holder = imperator185947 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_sijilmasa={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_tudgha={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 14 }
-}
-c_ziz={
-	423.5.25 = { liege = 0 holder = imperator207026 }
-	423.7.6 = { change_development_level = 7 }
 }

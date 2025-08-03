@@ -2,13 +2,6 @@ k_abyssinia={
 	361.1.1 = { change_development_level = 4 }
 	421.8.26 = { government = administrative_government holder = imperator197857 liege = e_IRTOCK3_GAR succession_laws = { appointment_succession_law } }
 }
-d_socotra={
-	423.7.6 = { liege = 0 }
-}
-c_socotra={
-	421.8.26 = { liege = 0 holder = imperator197857 }
-	423.7.6 = { change_development_level = 6 }
-}
 d_hafun={
 	423.7.6 = { liege = 0 }
 }
@@ -27,6 +20,13 @@ c_nugaal={
 c_mudug={
 	420.11.28 = { liege = 0 holder = imperator194237 }
 	423.7.6 = { liege = k_IRTOCK3_I35 holder = imperator190161 change_development_level = 6 }
+}
+d_socotra={
+	423.7.6 = { liege = 0 }
+}
+c_socotra={
+	421.8.26 = { liege = 0 holder = imperator197857 }
+	423.7.6 = { change_development_level = 6 }
 }
 d_gojjam={
 	361.1.1 = { change_development_level = 1 }

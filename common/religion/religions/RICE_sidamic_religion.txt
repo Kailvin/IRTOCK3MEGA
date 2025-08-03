@@ -38,6 +38,7 @@ sidamic_religion = {
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
+	#Funeral tradition
 	doctrine = doctrine_funeral_bewailment
 
 	traits = {
@@ -62,18 +63,18 @@ sidamic_religion = {
 		HighGodName = sidama_high_god_name
 		HighGodName2 = sidama_high_god_name_2
 		HighGodNamePossessive = sidama_high_god_name_possessive
-		HighGodNameSheHe = paganism_devil_shehe
-		HighGodHerselfHimself = paganism_devil_herselfhimself
-		HighGodHerHis = paganism_devil_herhis
-		HighGodNameAlternate = sidama_high_god_name_alternate
-		HighGodNameAlternatePossessive = sidama_high_god_name_alternate_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = sidama_high_god_name
+		HighGodNameAlternatePossessive = sidama_high_god_name_possessive
 
 		#Creator
 		CreatorName = sidama_creator_god_name
 		CreatorNamePossessive = sidama_creator_god_name_possessive
-		CreatorSheHe = CHARACTER_SHEHE_IT
-		CreatorHerHis = CHARACTER_HERHIS_ITS
-		CreatorHerHim = CHARACTER_HERHIM_IT
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
 		HealthGodName = sidama_health_god_name
@@ -201,9 +202,10 @@ sidamic_religion = {
 		DeathDeityNamePossessive = sidama_high_god_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
 		WitchGodName = waaqism_night_god_name
 		WitchGodNamePossessive = waaqism_night_god_name_possessive
-		WitchGodHerHis = CHARACTER_HERHIS_THEY
+		WitchGodHerHis = CHARACTER_HERHIS_THEIR
 		WitchGodSheHe = CHARACTER_SHEHE_THEIR
 		WitchGodHerHim = CHARACTER_HERHIM_THEM
 		WitchGodMistressMaster = master
@@ -236,7 +238,7 @@ sidamic_religion = {
 			# tenet_sanctity_of_nature # Sacred trees but useless for East African region
 		}
 
-		# Worship of Däsk, attested in Ethiopian sources
+		# Worship of Däsk/Dask, attested in Ethiopian sources
 		damot_pagan = {
 			color = { 52 58 128 } # 88 108 152
 			icon = damot_pagan
@@ -266,7 +268,7 @@ sidamic_religion = {
 		        HighGodNamePossessive = damot_high_god_name_possessive
 		        HighGodNameSheHe = CHARACTER_SHEHE_HE
 		        HighGodHerselfHimself = CHARACTER_HIMSELF
-		        HighGodHerHis = CHARACTER_HERHIM_HIM
+		        HighGodHerHis = CHARACTER_HERHIM_HIS
 		        HighGodNameAlternate = damot_high_god_name
 		        HighGodNameAlternatePossessive = damot_high_god_name_possessive
 
@@ -398,6 +400,7 @@ sidamic_religion = {
 				DeathDeityNamePossessive = fandaanano_high_god_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
 				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 				DevilName = fandaanano_trickster_god_name
 				DevilNamePossessive = fandaanano_trickster_god_name_possessive
 				DevilSheHe = CHARACTER_SHEHE_THEY

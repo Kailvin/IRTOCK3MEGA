@@ -2,6 +2,17 @@ k_IRTOCK3_M17={
 	422.9.15 = { holder = imperator205215 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_kinnaur={
+	423.7.6 = { liege = 0 }
+}
+c_kamru={
+	422.9.15 = { liege = 0 holder = imperator205215 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_dhankar={
+	392.1.14 = { liege = 0 holder = imperator191227 }
+	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator184034 change_development_level = 14 }
+}
 d_kurmanchal={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_doti_holder liege = 0 }
 }
@@ -20,15 +31,4 @@ c_kali_kumaon={
 c_doti={
 	350.1.1 = { government = feudal_government }
 	423.7.6 = { holder = IRToCK3_c_doti_holder liege = 0 change_development_level = 4 }
-}
-d_kinnaur={
-	423.7.6 = { liege = 0 }
-}
-c_kamru={
-	422.9.15 = { liege = 0 holder = imperator205215 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_dhankar={
-	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { liege = k_IRTOCK3_J05 holder = imperator184034 change_development_level = 14 }
 }

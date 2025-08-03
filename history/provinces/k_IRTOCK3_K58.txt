@@ -1,5 +1,5 @@
 6148={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = tribal_holding
 }
@@ -19,7 +19,7 @@
 	holding = none
 }
 6154={
-	culture = bedouin
+	culture = adnanite
 	faith = nicene
 	holding = castle_holding
 }
@@ -29,7 +29,7 @@
 	holding = tribal_holding
 }
 6156={
-	culture = bedouin
+	culture = adnanite
 	faith = manichean
 	holding = castle_holding
 }
@@ -37,7 +37,7 @@
 	holding = none
 }
 6158={
-	culture = bedouin
+	culture = adnanite
 	faith = rabbinism
 	holding = castle_holding
 }
@@ -54,7 +54,7 @@
 	holding = church_holding
 }
 6163={
-	culture = bedouin
+	culture = adnanite
 	faith = arabic_pagan
 	holding = tribal_holding
 }

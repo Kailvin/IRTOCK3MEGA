@@ -10,6 +10,7 @@
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_missionary_not_allowed
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -31,6 +32,8 @@
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
+	#Hellenic syncretism
+	doctrine = special_doctrine_is_hellenic_faith
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
@@ -77,7 +80,7 @@
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
-
+		
 		#FertilityGod
 		FertilityGodName = hellenism_fertility_god_name
 		FertilityGodNamePossessive = hellenism_fertility_god_name_possessive
@@ -207,46 +210,92 @@
 		WitchGodMistressMaster = mistress
 		WitchGodMotherFather = mother
 
-
+		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
 
 	faiths = {
 		hellenic_pagan = {
-			color = { 0.6 0.1 0.1 }
+			color = { 0.6 0.1 0.6 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
+			reformed_icon = hellenic
+
+			doctrine = doctrine_imperial_head
+			doctrine = doctrine_theocracy_lay_clergy
+			# religious_head = e_roman_empire
+
+			holy_site = cephalonia
+			holy_site = athens
+			holy_site = naxos
+			holy_site = olympus
+
+			doctrine = tenet_astrology
+			doctrine = tenet_communal_identity
+			doctrine = tenet_adaptive
+			doctrine = special_faith_has_hellenic_heritage
+		}
+
+		roman_pagan = {
+			color = { 0.9 0.1 0.1 }
+			icon = roman_pagan
+			reformed_icon = roman_pagan
+
+			doctrine = doctrine_imperial_head
+			doctrine = doctrine_theocracy_lay_clergy
+			# religious_head = e_roman_empire
+			holy_site = alexandria
+			holy_site = rome
+			holy_site = carthage
+			holy_site = ephesos 
+
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_literalism
+			doctrine = tenet_esotericism
+			doctrine = special_faith_has_hellenic_heritage
+		}
+		
+		hypsistarian_pagan = {
+			color = { 188 152 52 }
+			icon = hypsistarian_pagan
+			reformed_icon = hypsistarian_pagan
+
+			doctrine = doctrine_imperial_head
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_missionary_allowed
+			# religious_head = e_roman_empire
+			holy_site = panticapaeum
+			holy_site = athens
+			holy_site = jerusalem
+			holy_site = olympus
+			holy_site = oenoanda
+
+			doctrine = tenet_adaptive
+			doctrine = tenet_jewish_syncretism
+			doctrine = tenet_ritual_celebrations
+			doctrine = special_faith_has_hellenic_heritage
+			doctrine = doctrine_missionary_allowed
+		}
+		
+		sol_invictus = {
+			color = { 194 164 68 }
+			icon = sol_invictus
+			reformed_icon = sol_invictus_reformed
+			
+			doctrine = doctrine_imperial_head
+			doctrine = doctrine_theocracy_lay_clergy
 
 			holy_site = rome
 			holy_site = athens
+			holy_site = sparta
 			holy_site = alexandria
 			holy_site = carthage
-			holy_site = olympus
+			doctrine = doctrine_missionary_encouraged
 
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
-			doctrine = tenet_esotericism
-		}
-		indo_hellenism = {
-			color = { 0.8 0.36 0.14 }
-			icon = indo_hellenic
-			reformed_icon = indo_hellenic_reformed
-
-			holy_site = athens
-			holy_site = olympus
-			#holy_site = multan
-			holy_site = katas_raj
-			holy_site = nok_kundi
-			holy_site = balkh
-
-			doctrine = unreformed_faith_doctrine
-			doctrine = tenet_eastern_syncretism
-
-			doctrine = tenet_adaptive
-			doctrine = tenet_ritual_hospitality
 			doctrine = tenet_esotericism
 		}
 	}

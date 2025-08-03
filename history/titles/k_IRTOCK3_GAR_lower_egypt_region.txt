@@ -1,25 +1,21 @@
 k_IRTOCK3_GAR_lower_egypt_region={
 	413.6.11 = { liege = e_IRTOCK3_GAR holder = imperator200124 government = administrative_government succession_laws = { appointment_succession_law } }
 }
-d_al-wahat={
+d_sinai={
 	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
-c_bahriya={
+c_farama={
 	413.6.11 = { liege = 0 holder = imperator200124 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_farafra={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_dakhla={
-	383.11.30 = { liege = 0 holder = imperator192141 }
 	423.7.6 = { change_development_level = 8 }
 }
-c_kharga={
-	383.11.30 = { liege = 0 holder = imperator192141 }
-	423.7.6 = { change_development_level = 7 }
+c_sinai={
+	416.10.6 = { liege = 0 holder = imperator200980 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_firaun={
+	416.10.6 = { liege = 0 holder = imperator200980 }
+	423.7.6 = { change_development_level = 5 }
 }
 d_alexandria={
 	361.1.1 = { change_development_level = 7 }
@@ -76,19 +72,23 @@ c_sharkiya={
 	413.6.11 = { liege = 0 holder = imperator200124 }
 	423.7.6 = { change_development_level = 10 }
 }
-d_sinai={
+d_al-wahat={
 	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
-c_farama={
+c_bahriya={
 	413.6.11 = { liege = 0 holder = imperator200124 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_farafra={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_dakhla={
+	383.11.30 = { liege = 0 holder = imperator192141 }
 	423.7.6 = { change_development_level = 8 }
 }
-c_sinai={
-	416.10.6 = { liege = 0 holder = imperator200980 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_firaun={
-	416.10.6 = { liege = 0 holder = imperator200980 }
-	423.7.6 = { change_development_level = 5 }
+c_kharga={
+	383.11.30 = { liege = 0 holder = imperator192141 }
+	423.7.6 = { change_development_level = 7 }
 }

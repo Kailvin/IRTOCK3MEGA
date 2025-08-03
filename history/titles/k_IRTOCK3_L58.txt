@@ -45,7 +45,7 @@ c_kartli={
 }
 c_klarjeti={
 	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 14 }
+	423.7.6 = { liege = k_IRTOCK3_ATH holder = imperator184425 change_development_level = 14 }
 }
 b_tmogvi={
 	423.7.6 = { holder = imperator184425 }

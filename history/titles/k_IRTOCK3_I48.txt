@@ -33,69 +33,88 @@ k_IRTOCK3_I48={
 	411.9.12 = { holder = imperator184944 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_kiev={
+d_grodno={
 	423.7.6 = { liege = 0 }
 }
-c_kiev={
-	399.9.22 = { liege = 0 holder = imperator186393 }
+c_grodno={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_volkovysk={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_novogrudok={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_masuria={
+	423.7.6 = { liege = 0 }
+}
+c_torun={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_osterode={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+}
+c_bartenstein={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_allenstein={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+}
+c_angerburg={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 11 }
+}
+d_volhynia={
+	423.7.6 = { liege = 0 }
+}
+c_volodymyr={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 11 }
+}
+b_kovel={
+	423.7.6 = { holder = imperator190437 }
+}
+c_peresopnytsia={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_berestye={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_dorohychyn={
+	416.7.11 = { liege = 0 holder = imperator192719 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_mazovia={
+	423.7.6 = { liege = 0 }
+}
+c_czerska={
+	416.7.11 = { liege = 0 holder = imperator192719 }
+	423.7.6 = { liege = d_IRTOCK3_SCI holder = imperator190209 change_development_level = 7 }
+}
+c_gostyninska={
+	416.7.11 = { liege = 0 holder = imperator192719 }
 	423.7.6 = { change_development_level = 6 }
 }
-c_zhytomyr={
-	399.9.22 = { liege = 0 holder = imperator186393 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_zvyahel={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_chornobyl={
-	399.10.5 = { liege = 0 holder = imperator197033 }
-	423.7.6 = { liege = d_IRTOCK3_L15 holder = imperator197028 change_development_level = 3 }
-}
-c_ushytsia={
-	399.9.22 = { liege = 0 holder = imperator186393 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_korsun={
-	399.9.22 = { liege = 0 holder = imperator186393 }
-	423.7.6 = { change_development_level = 9 }
-}
-d_samogitia={
-	423.7.6 = { liege = 0 }
-}
-c_raseiniai={
+c_plocka={
 	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 9 }
+	423.7.6 = { change_development_level = 12 }
 }
-c_palanga={
+c_lomzynska={
 	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+	423.7.6 = { change_development_level = 12 }
 }
-b_telsiai={
-	423.7.6 = { holder = imperator183772 }
-}
-c_siauliai={
+c_zakroczymska={
 	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_memel={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
-}
-c_scalovia={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator189967 change_development_level = 9 }
-}
-d_minsk={
-	423.7.6 = { liege = 0 }
-}
-c_minsk={
-	381.1.16 = { liege = 0 holder = imperator191717 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_orsha={
-	388.3.13 = { liege = 0 holder = imperator193638 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 14 }
 }
 d_prussia={
 	423.7.6 = { liege = 0 }
@@ -115,25 +134,6 @@ c_natangia={
 c_konigsberg={
 	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator189967 change_development_level = 10 }
-}
-d_pinsk={
-	423.7.6 = { liege = 0 }
-}
-c_pinsk={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_slutsk={
-	381.1.16 = { liege = 0 holder = imperator191717 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_kletsk={
-	381.1.16 = { holder = imperator191717 liege = 0 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_babruysk={
-	388.3.13 = { liege = 0 holder = imperator193638 }
-	423.7.6 = { change_development_level = 4 }
 }
 d_wielkopolska={
 	423.7.6 = { liege = 0 }
@@ -162,29 +162,6 @@ c_lubusz={
 	419.4.9 = { liege = 0 holder = imperator191894 }
 	423.7.6 = { change_development_level = 8 }
 }
-d_pomerelia={
-	361.1.1 = { change_development_level = 0 }
-	423.7.6 = { liege = 0 }
-}
-c_danzig={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_slupsk={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_miastko={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_berent={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 12 }
-}
-b_berent={
-	423.7.6 = { holder = imperator190423 }
-}
 d_pommerania={
 	423.7.6 = { liege = 0 }
 }
@@ -212,64 +189,141 @@ c_landsberg={
 	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { change_development_level = 11 }
 }
-d_turov={
+d_pomerelia={
+	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
-c_turov={
-	381.1.16 = { liege = 0 holder = imperator191717 }
+c_danzig={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_slupsk={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_miastko={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_berent={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 12 }
+}
+b_berent={
+	423.7.6 = { holder = imperator190423 }
+}
+d_chernigov={
+	423.7.6 = { liege = 0 }
+}
+c_chernigov={
+	399.10.5 = { liege = 0 holder = imperator197033 }
 	423.7.6 = { change_development_level = 5 }
 }
-b_selo={
-	423.7.6 = { holder = imperator191731 }
-}
-c_korosten={
-	381.1.16 = { liege = 0 holder = imperator191717 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_dubrovytsia={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 9 }
-}
-d_lithuanians={
-	423.7.6 = { liege = 0 }
-}
-c_kernave={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_braslau={
-	411.9.12 = { liege = 0 holder = imperator184944 }
+c_starodub={
+	390.3.31 = { liege = 0 holder = imperator190686 }
 	423.7.6 = { change_development_level = 4 }
 }
-c_trakai={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 9 }
+c_novgorod_seversky={
+	390.3.31 = { liege = 0 holder = imperator190686 }
+	423.7.6 = { change_development_level = 6 }
 }
-c_yatvyagi={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 10 }
+b_glukhov={
+	423.7.6 = { holder = imperator183592 }
 }
-d_volhynia={
+c_putyvl={
+	390.3.31 = { liege = 0 holder = imperator190686 }
+	423.7.6 = { change_development_level = 7 }
+}
+b_konotop={
+	423.7.6 = { holder = imperator185697 }
+}
+c_kursk={
+	419.7.3 = { liege = 0 holder = imperator191509 }
+	423.7.6 = { change_development_level = 2 }
+}
+d_pinsk={
 	423.7.6 = { liege = 0 }
 }
-c_volodymyr={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 11 }
-}
-b_kovel={
-	423.7.6 = { holder = imperator190437 }
-}
-c_peresopnytsia={
-	421.3.19 = { liege = 0 holder = imperator201346 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_berestye={
+c_pinsk={
 	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { change_development_level = 10 }
 }
-c_dorohychyn={
-	416.7.11 = { liege = 0 holder = imperator192719 }
+c_slutsk={
+	381.1.16 = { liege = 0 holder = imperator191717 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_kletsk={
+	381.1.16 = { holder = imperator191717 liege = 0 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_babruysk={
+	388.3.13 = { liege = 0 holder = imperator193638 }
+	423.7.6 = { change_development_level = 4 }
+}
+d_kiev={
+	423.7.6 = { liege = 0 }
+}
+c_kiev={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_zhytomyr={
+	399.9.22 = { liege = 0 holder = imperator186393 }
 	423.7.6 = { change_development_level = 9 }
+}
+c_zvyahel={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_chornobyl={
+	399.10.5 = { liege = 0 holder = imperator197033 }
+	423.7.6 = { liege = d_IRTOCK3_L15 holder = imperator197028 change_development_level = 3 }
+}
+c_ushytsia={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_korsun={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 9 }
+}
+d_latgalians={
+	423.7.6 = { liege = 0 }
+}
+c_talava={
+	419.11.20 = { liege = 0 holder = imperator190181 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_kokenois={
+	406.3.23 = { liege = 0 holder = imperator191349 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_jersika={
+	406.3.23 = { liege = 0 holder = imperator191349 }
+	423.7.6 = { liege = k_IRTOCK3_K72 holder = imperator191317 change_development_level = 2 }
+}
+c_aluksne={
+	406.3.23 = { liege = 0 holder = imperator191349 }
+	423.7.6 = { change_development_level = 1 }
+}
+d_pereyaslavl={
+	423.7.6 = { liege = 0 }
+}
+c_pereyaslavl={
+	399.10.5 = { liege = 0 holder = imperator197033 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_hradyzk={
+	422.12.16 = { liege = 0 holder = imperator206464 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_romen={
+	383.1.26 = { liege = 0 holder = imperator183916 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_voin={
+	422.12.16 = { liege = 0 holder = imperator206464 }
+	423.7.6 = { change_development_level = 6 }
 }
 d_ostmark={
 	361.1.1 = { change_development_level = 0 }
@@ -305,106 +359,50 @@ c_prenzlau={
 b_eberswalde={
 	423.7.6 = { holder = imperator195323 }
 }
-d_latgalians={
+d_lithuanians={
 	423.7.6 = { liege = 0 }
 }
-c_talava={
-	419.11.20 = { liege = 0 holder = imperator190181 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_kokenois={
-	406.3.23 = { liege = 0 holder = imperator191349 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_jersika={
-	406.3.23 = { liege = 0 holder = imperator191349 }
-	423.7.6 = { liege = k_IRTOCK3_K72 holder = imperator191317 change_development_level = 2 }
-}
-c_aluksne={
-	406.3.23 = { liege = 0 holder = imperator191349 }
-	423.7.6 = { change_development_level = 1 }
-}
-d_chernigov={
-	423.7.6 = { liege = 0 }
-}
-c_chernigov={
-	399.10.5 = { liege = 0 holder = imperator197033 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_starodub={
-	390.3.31 = { liege = 0 holder = imperator190686 }
-	423.7.6 = { change_development_level = 4 }
-}
-c_novgorod_seversky={
-	390.3.31 = { liege = 0 holder = imperator190686 }
-	423.7.6 = { change_development_level = 6 }
-}
-b_glukhov={
-	423.7.6 = { holder = imperator183592 }
-}
-c_putyvl={
-	390.3.31 = { liege = 0 holder = imperator190686 }
-	423.7.6 = { change_development_level = 7 }
-}
-b_konotop={
-	423.7.6 = { holder = imperator185697 }
-}
-c_kursk={
-	419.7.3 = { liege = 0 holder = imperator191509 }
-	423.7.6 = { change_development_level = 2 }
-}
-d_grodno={
-	423.7.6 = { liege = 0 }
-}
-c_grodno={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_volkovysk={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_novogrudok={
+c_kernave={
 	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { change_development_level = 10 }
 }
-d_yedisan={
-	423.7.6 = { liege = 0 }
-}
-c_cherkassy={
-	399.9.22 = { liege = 0 holder = imperator186393 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_ladyzyn={
-	407.4.24 = { liege = 0 holder = imperator192335 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_uman={
-	399.9.22 = { liege = 0 holder = imperator186393 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_dnipro={
-	421.5.21 = { liege = 0 holder = imperator189238 }
-	423.7.6 = { change_development_level = 8 }
-}
-d_pereyaslavl={
-	423.7.6 = { liege = 0 }
-}
-c_pereyaslavl={
-	399.10.5 = { liege = 0 holder = imperator197033 }
-	423.7.6 = { change_development_level = 6 }
-}
-c_hradyzk={
-	422.12.16 = { liege = 0 holder = imperator206464 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_romen={
-	383.1.26 = { liege = 0 holder = imperator183916 }
+c_braslau={
+	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { change_development_level = 4 }
 }
-c_voin={
-	422.12.16 = { liege = 0 holder = imperator206464 }
-	423.7.6 = { change_development_level = 6 }
+c_trakai={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_yatvyagi={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 10 }
+}
+d_samogitia={
+	423.7.6 = { liege = 0 }
+}
+c_raseiniai={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_palanga={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+}
+b_telsiai={
+	423.7.6 = { holder = imperator183772 }
+}
+c_siauliai={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_memel={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+}
+c_scalovia={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator189967 change_development_level = 9 }
 }
 d_courland={
 	423.7.6 = { liege = 0 }
@@ -425,49 +423,51 @@ c_selpils={
 	411.9.12 = { liege = 0 holder = imperator184944 }
 	423.7.6 = { change_development_level = 5 }
 }
-d_mazovia={
+d_turov={
 	423.7.6 = { liege = 0 }
 }
-c_czerska={
-	416.7.11 = { liege = 0 holder = imperator192719 }
-	423.7.6 = { liege = d_IRTOCK3_SCI holder = imperator190209 change_development_level = 7 }
+c_turov={
+	381.1.16 = { liege = 0 holder = imperator191717 }
+	423.7.6 = { change_development_level = 5 }
 }
-c_gostyninska={
-	416.7.11 = { liege = 0 holder = imperator192719 }
-	423.7.6 = { change_development_level = 6 }
+b_selo={
+	423.7.6 = { holder = imperator191731 }
 }
-c_plocka={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 12 }
+c_korosten={
+	381.1.16 = { liege = 0 holder = imperator191717 }
+	423.7.6 = { change_development_level = 3 }
 }
-c_lomzynska={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 12 }
+c_dubrovytsia={
+	421.3.19 = { liege = 0 holder = imperator201346 }
+	423.7.6 = { change_development_level = 9 }
 }
-c_zakroczymska={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 14 }
-}
-d_masuria={
+d_minsk={
 	423.7.6 = { liege = 0 }
 }
-c_torun={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 13 }
+c_minsk={
+	381.1.16 = { liege = 0 holder = imperator191717 }
+	423.7.6 = { change_development_level = 4 }
 }
-c_osterode={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+c_orsha={
+	388.3.13 = { liege = 0 holder = imperator193638 }
+	423.7.6 = { change_development_level = 3 }
 }
-c_bartenstein={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 12 }
+d_yedisan={
+	423.7.6 = { liege = 0 }
 }
-c_allenstein={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 11 }
+c_cherkassy={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 10 }
 }
-c_angerburg={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { change_development_level = 11 }
+c_ladyzyn={
+	407.4.24 = { liege = 0 holder = imperator192335 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_uman={
+	399.9.22 = { liege = 0 holder = imperator186393 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_dnipro={
+	421.5.21 = { liege = 0 holder = imperator189238 }
+	423.7.6 = { change_development_level = 8 }
 }

@@ -1,6 +1,29 @@
 k_IRTOCK3_GAR_lower_nubia_region={
 	394.1.26 = { liege = e_IRTOCK3_GAR holder = imperator194390 government = administrative_government succession_laws = { appointment_succession_law } }
 }
+d_baqlin={
+	423.7.6 = { liege = 0 }
+}
+c_baqlin={
+	394.1.26 = { liege = 0 holder = imperator194390 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_djarin={
+	410.11.10 = { liege = 0 holder = imperator186910 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_qataa={
+	416.8.1 = { liege = 0 holder = imperator201743 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_kassala={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_showak={
+	413.5.31 = { liege = 0 holder = imperator200116 }
+	423.7.6 = { change_development_level = 8 }
+}
 d_makuria={
 	423.7.6 = { liege = 0 }
 }
@@ -38,27 +61,4 @@ c_qurta={
 c_kalabsha={
 	394.1.26 = { liege = 0 holder = imperator194390 }
 	423.7.6 = { change_development_level = 10 }
-}
-d_baqlin={
-	423.7.6 = { liege = 0 }
-}
-c_baqlin={
-	394.1.26 = { liege = 0 holder = imperator194390 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_djarin={
-	410.11.10 = { liege = 0 holder = imperator186910 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_qataa={
-	416.8.1 = { liege = 0 holder = imperator201743 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_kassala={
-	413.5.31 = { liege = 0 holder = imperator200116 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_showak={
-	413.5.31 = { liege = 0 holder = imperator200116 }
-	423.7.6 = { change_development_level = 8 }
 }

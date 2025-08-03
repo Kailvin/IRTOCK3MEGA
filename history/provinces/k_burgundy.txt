@@ -5,7 +5,7 @@
 	holding = none
 }
 2033={
-	culture = galatian
+	culture = greek
 	faith = nicene
 	holding = castle_holding
 }
@@ -29,7 +29,7 @@
 	holding = castle_holding
 }
 2063={
-	culture = galatian
+	culture = greek
 	faith = nicene
 	holding = castle_holding
 }
@@ -37,7 +37,7 @@
 	holding = none
 }
 2065={
-	culture = galatian
+	culture = greek
 	faith = nicene
 	holding = castle_holding
 }
@@ -73,7 +73,7 @@
 	holding = none
 }
 8717={
-	culture = galatian
+	culture = greek
 	faith = nicene
 	holding = castle_holding
 }

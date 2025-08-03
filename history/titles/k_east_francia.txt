@@ -154,6 +154,22 @@ c_hohenburg={
 	412.10.7 = { liege = 0 holder = imperator190108 }
 	423.7.6 = { change_development_level = 3 }
 }
+d_alsace={
+	361.1.1 = { change_development_level = 5 }
+	423.7.6 = { liege = 0 }
+}
+c_sundgau={
+	419.10.20 = { liege = 0 holder = imperator188608 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_strassburg={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_colmar={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 14 }
+}
 d_upper_lorraine={
 	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
@@ -181,20 +197,4 @@ c_puttlingen={
 c_neufchateau={
 	420.2.7 = { liege = 0 holder = imperator199044 }
 	423.7.6 = { change_development_level = 12 }
-}
-d_alsace={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
-}
-c_sundgau={
-	419.10.20 = { liege = 0 holder = imperator188608 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_strassburg={
-	420.2.7 = { liege = 0 holder = imperator199044 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_colmar={
-	420.2.7 = { liege = 0 holder = imperator199044 }
-	423.7.6 = { change_development_level = 14 }
 }

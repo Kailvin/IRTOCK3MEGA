@@ -110,6 +110,38 @@ c_sayn={
 	386.6.1 = { liege = 0 holder = imperator193204 }
 	423.7.6 = { liege = d_IRTOCK3_TBC holder = imperator193220 change_development_level = 6 }
 }
+d_normandy={
+	361.1.1 = { change_development_level = 2 }
+	423.7.6 = { liege = 0 }
+}
+c_rouen={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_evreux={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_bayeux={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_avranches={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_alencon={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_lisieux={
+	392.8.20 = { liege = 0 holder = imperator188449 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_eu={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 13 }
+}
 d_valois={
 	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
@@ -139,21 +171,6 @@ c_beaumont={
 	423.7.6 = { change_development_level = 11 }
 }
 c_clermont={
-	405.4.23 = { liege = 0 holder = imperator193850 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_bar={
-	423.7.6 = { liege = 0 }
-}
-c_bar={
-	405.4.23 = { liege = 0 holder = imperator193850 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_briey={
-	405.4.23 = { liege = 0 holder = imperator193850 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_vaucouleurs={
 	405.4.23 = { liege = 0 holder = imperator193850 }
 	423.7.6 = { change_development_level = 10 }
 }
@@ -189,6 +206,21 @@ c_sens={
 	419.10.20 = { liege = 0 holder = imperator188608 }
 	423.7.6 = { change_development_level = 11 }
 }
+d_bar={
+	423.7.6 = { liege = 0 }
+}
+c_bar={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_briey={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_vaucouleurs={
+	405.4.23 = { liege = 0 holder = imperator193850 }
+	423.7.6 = { change_development_level = 10 }
+}
 d_holland={
 	423.7.6 = { liege = 0 }
 }
@@ -203,36 +235,4 @@ c_westfriesland={
 c_zeeland={
 	405.4.23 = { liege = 0 holder = imperator193850 }
 	423.7.6 = { change_development_level = 9 }
-}
-d_normandy={
-	361.1.1 = { change_development_level = 2 }
-	423.7.6 = { liege = 0 }
-}
-c_rouen={
-	405.4.23 = { liege = 0 holder = imperator193850 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_evreux={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_bayeux={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_avranches={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 13 }
-}
-c_alencon={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_lisieux={
-	392.8.20 = { liege = 0 holder = imperator188449 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_eu={
-	405.4.23 = { liege = 0 holder = imperator193850 }
-	423.7.6 = { change_development_level = 13 }
 }

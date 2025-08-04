@@ -1,0 +1,199 @@
+﻿# Story for Zunbil dynasty
+# originally made by Petter Vilberg
+# adjusted by me
+
+story_zunbil_invasion = {
+	on_setup = {
+		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
+			INVADER_DYNN = zunbil # for story start global variable
+			INVADER_TITLE = title:k_zunbil # title the invader spawns with
+		}
+		story_owner = {
+			zunbil_maintenance_effect = {
+				INVADER_DYNN = zunbil
+				INVADER_CHAR = scope:story.story_owner
+				INVADER_TITLE = scope:story.var:invader_title_var
+				LANDLESS_YES_NO = no
+				STARTING_TIER = duchy
+			}
+			trigger_event = {
+				id = zunbil_invasion.0200
+				months = 1
+			}
+		}
+	}
+
+	on_end = {
+		invader_story_on_end_effect = { INVADER_DYNN = zunbil }
+		title:k_zunbil = { set_variable = set_destroy_on_gain_same_tier_var }
+	}
+
+	on_owner_death = {
+		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
+		random = {
+			chance = 0
+			modifier = {
+				add = 100
+				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			set_variable = {
+				name = end_of_invasion_story
+				value = yes
+			}
+		}
+		invader_story_on_death_effect = { INVADER_DYNN = zunbil }
+	}
+
+	# maintenance
+	effect_group = {
+		days = historicinvasions_story_maintenance_value
+
+		trigger = { always = yes }
+
+		# make sure they have money on hand
+		triggered_effect = {
+			trigger = { story_owner = { gold < 0 } }
+			effect = { story_owner = { add_gold = 250 } }
+		}
+
+		# end the story prematurely, because their conquests have been completed
+		triggered_effect = {
+			trigger = {
+				story_owner = { completely_controls_region = special_zunbil_conquest_region_total }
+			}
+			effect = {
+				debug_log = "ending zunbil story because the conquest goal has been completed"
+				end_story = yes
+			}
+		}
+
+		# end the story prematurely, because the invader has lost their #th offensive war
+		triggered_effect = {
+			trigger = {
+				NOT = { has_game_rule = historicinvasions_invasion_ends_after_defeat_disabled }
+			}
+			effect = {
+				historicinvasions_invasion_ends_after_defeat_effect = yes
+			}
+		}
+	}
+
+	#Start a new war if none is ongoing
+	effect_group = {
+		days = { 140 280 }
+
+		trigger = { story_owner = { is_ai = yes } }
+
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = { has_character_flag = invasion_ends_after_player_win }
+				}
+				effect = {
+					debug_log = "ending zunbil story because a player was able to defend against the invader"
+					end_story = yes
+				}
+			}
+			triggered_effect = {
+				trigger = { story_owner = { should_invader_declare_war_trigger = { INVADER_TITLE = scope:story.var:invader_title_var } } }
+				effect = {
+					story_owner = {
+						war_target_evaluation_and_declaration_effect = {
+							INVADER_DYNN = zunbil
+							INVADER_CHAR = scope:story.story_owner
+							INVADER_REGION = total
+							INVADER_TARGET_TITLE_TIER = kingdom
+							INVADER_RANGE = neighboring
+							INVADER_LIEGE_RESTRICTIONS = ""
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Story handling in case of succession weirdness
+	effect_group = {
+		days = historicinvasions_succession_weirdness_value
+
+		trigger = { NOT = { story_owner = { has_title = scope:story.var:invader_title_var } } }
+
+		# either transfer story ownership or end story if the title is not created
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				hi_check_for_valid_story_owner_effect = {
+					INVADER_TITLE = scope:story.var:invader_title_var
+					STORY_COUNTER_INCREASE = 0
+				}
+			}
+		}
+	}
+
+	# convert holy sites and perhaps some other counties
+	effect_group = {
+		months = { 9 12 }
+
+		trigger = {
+			story_owner = {
+				religion = faith:zun_pagan.religion # includes reformed version
+				realm_size < 50
+			}
+		}
+
+		# holy sites
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					any_sub_realm_barony = {
+						is_holy_site_of = scope:story.story_owner.faith
+						NOT = { faith = scope:story.story_owner.faith }
+						count > 0
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					random_sub_realm_barony = {
+						limit = {
+							is_holy_site_of = scope:story.story_owner.faith
+							NOT = { faith = scope:story.story_owner.faith }
+						}
+						county = { set_county_faith = scope:story.story_owner.faith }
+					}
+				}
+			}
+		}
+
+		# other counties
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					any_sub_realm_county = {
+						NOT = { faith = scope:story.story_owner.faith }
+						count > 0
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					random_sub_realm_county = {
+						limit = {
+							NOT = { faith = scope:story.story_owner.faith }
+						}
+						random = {
+							chance = {
+								value = 100
+								subtract = development_level
+								subtract = development_level
+								max = 100
+								min = 0
+							}
+							set_county_faith = scope:story.story_owner.faith
+						}
+					}
+				}
+			}
+		}
+	}
+}

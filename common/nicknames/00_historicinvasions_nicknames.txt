@@ -1,0 +1,54 @@
+﻿nick_hi_the_lame = {
+	is_prefix = no
+	is_bad = yes
+}
+
+nick_hi_al-mahdi = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_restorer = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_ghazi = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_ad-din = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_salah_ad-din = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_hun = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_rashid_al-din = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_al-halabi = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_el_cid = {
+	is_prefix = no
+	is_bad = no
+}
+
+nick_hi_el_campeador = {
+	is_prefix = no
+	is_bad = no
+}

@@ -1893,6 +1893,36 @@ language_greek = {
 	color = greek
 }
 
+language_hellenic_greek = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_greek
+		}
+	}
+	parameters = {
+		language_group_hellenic = yes
+		language_family_indo_european = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_greek }
+			multiply = 10
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_group_hellenic }
+			multiply = 5
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_indo_european }
+			multiply = 2.5
+		}
+	}
+	
+	color = {100 0 85}
+}
+
 language_scythian = {
 	type = language
 	is_shown = {

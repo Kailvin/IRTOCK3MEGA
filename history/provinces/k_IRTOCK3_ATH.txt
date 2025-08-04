@@ -139,7 +139,7 @@
 	culture = kolochin
 	faith = arianism
 	holding = castle_holding
-	395.1.1 = { culture = gothic religion = gothic_pagan }
+	395.1.1 = { culture = bosporan }
 }
 500={
 	culture = kolochin
@@ -158,7 +158,7 @@
 	culture = kolochin
 	faith = arianism
 	holding = castle_holding
-	395.1.1 = { culture = gothic }
+	395.1.1 = { culture = bosporan }
 }
 742={
 	culture = phrygian
@@ -399,10 +399,10 @@
 	holding = city_holding
 }
 3691={
-	culture = greek
+	culture = bosporan
 	faith = nicene
 	holding = castle_holding
-	395.1.1 = { culture = gothic }
+	395.1.1 = { culture = bosporan }
 }
 3692={
 	holding = city_holding
@@ -770,7 +770,7 @@
 	holding = castle_holding
 }
 4876={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -951,7 +951,7 @@
 	holding = city_holding
 }
 5924={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -959,7 +959,7 @@
 	holding = none
 }
 5926={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -990,7 +990,7 @@
 	holding = city_holding
 }
 5940={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
@@ -1001,7 +1001,7 @@
 	holding = none
 }
 5945={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 	395.1.1 = { religion = harranian_pagan }
@@ -1013,7 +1013,7 @@
 	holding = none
 }
 5948={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 	395.1.1 = { religion = nicene }
@@ -1022,12 +1022,12 @@
 	holding = none
 }
 5950={
-	culture = adnanite
+	culture = bedouin
 	faith = nicene
 	holding = castle_holding
 }
 5951={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }

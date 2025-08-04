@@ -1063,10 +1063,10 @@ civic_competence_gold_reserve = {
 }
 
 # High development is GOOD
-civic_competence_development_breakpoint = 6
-civic_competence_development_breakpoint_after_450 = 10
-civic_competence_development_breakpoint_after_550 = 15
-civic_competence_development_breakpoint_after_650 = 20
+civic_competence_development_breakpoint = 10
+civic_competence_development_breakpoint_after_450 = 20
+civic_competence_development_breakpoint_after_550 = 35
+civic_competence_development_breakpoint_after_650 = 50
 civic_competence_development_point = 1
 civic_competence_development = {
 	value = 0
@@ -1093,77 +1093,19 @@ civic_competence_development = {
 				add = development_level
 				if = {
 					limit = {
-						OR = {
-							AND = {
-								current_date <= 430.1.1
-								game_start_date = 361.11.17
-							}
-							AND = {
-								current_date <= 450.1.1
-								game_start_date = 395.1.17
-							}
-
-							AND = {
-								current_date <= 520.1.1
-								game_start_date = 476.9.4
-							}
-
-							AND = {
-								current_date <= 576.1.1
-								game_start_date = 532.2.1
-							}
-						}
+						current_date <= 450
 					}
 					subtract = civic_competence_development_breakpoint
 				}
 				else_if = {
 					limit = {
-						OR = {
-							AND = {
-								current_date <= 530
-								game_start_date = 361.11.17
-							}
-
-							AND = {
-								current_date <= 550
-								game_start_date = 395.1.17
-							}
-
-							AND = {
-								current_date <= 630
-								game_start_date = 476.9.4
-							}
-
-							AND = {
-								current_date <= 690.1.1
-								game_start_date = 532.2.1
-							}
-						}
+						current_date <= 550
 					}
 					subtract = civic_competence_development_breakpoint_after_450
 				}
 				else_if = {
 					limit = {
-						OR = {
-							AND = {
-								current_date <= 630
-								game_start_date = 361.11.17
-							}
-							AND = {
-								current_date <= 650
-								game_start_date = 395.1.17
-							}
-
-							AND = {
-								current_date <= 730
-								game_start_date = 476.9.4
-							}
-
-							AND = {
-								current_date <= 790.1.1
-								game_start_date = 532.2.1
-							}
-						}
+						current_date <= 650
 					}
 					subtract = civic_competence_development_breakpoint_after_550
 				}

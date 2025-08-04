@@ -1,0 +1,520 @@
+﻿
+# al-Wusha al-Dallala, a prominent Jewish businesswoman in the late 11th/early 12th centuries
+d_laamp_RICE_al_wuhsha_al_dallala = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_egyptian_jewish_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1111.2.22 = {
+		holder = 0
+	}
+}
+
+# Bartholomew Leslie
+d_laamp_RICE_bartholomew_leslie = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_north_atlantic_scottish_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1111.2.22 = {
+		holder = 0
+	}
+}
+
+# Chakrapani Datta
+d_laamp_RICE_chakrapani_datta = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_magadha_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1114.3.24 = {
+		holder = 0
+	}
+}
+
+# Ibn Nabhan
+d_laamp_RICE_ibn_nabhan = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_harran_031
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1118.5.20 = {
+		holder = 0
+	}
+}
+
+# Nasir Khusraw
+d_laamp_RICE_nasir_khusraw = {
+	1066.6.1 = {
+		liege = 0
+		holder = persian_scholars_3
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Longibardopoulos
+d_laamp_RICE_longibardopoulos = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_sicily_latin_005
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# al-Kashgari
+d_laamp_RICE_al_kashgari = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_kashgar_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Tzachas
+d_laamp_RICE_tzachas = {
+	1066.6.1 = {
+		liege = 0
+		holder = 34262
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Japhheth ibn Bundar
+d_laamp_RICE_japheth = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_red_sea_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Ibn al-Qatta' al-Siqilli
+d_laamp_RICE_ibn_al_qatta_al_siqilli = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_sicily_arabic_006
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Solomon Ibn Gabirol
+d_laamp_RICE_solomon_ibn_gabirol = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_granada_008
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1070.1.1 = {
+		holder = 0
+	}
+}
+
+# Andreas, Archbishop of Bari
+d_laamp_RICE_andreas_archbishop_of_bari = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_sicily_jewish_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1070.1.1 = {
+		holder = 0
+	}
+}
+
+# Geoffrey Burel, commander in the People's Crusade of 1096
+d_laamp_RICE_geoffrey_burel = {
+	1066.6.1 = {
+		liege = 0
+		holder = normandy_004
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1070.1.1 = {
+		holder = 0
+	}
+}
+
+# Symeon Seth, Byzantine scholar
+d_laamp_RICE_symeon_seth = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_rhodes_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1110.11.10 = {
+		holder = 0
+	}
+}
+
+# Audun of the West Fjords, Icelandic traveler from Norse sagas
+d_laamp_RICE_audun_of_the_west_fjords = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_north_atlantic_016
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1101.2.3 = {
+		holder = 0
+	}
+}
+
+# Yūsuf Balasaguni, Central Turkish poet, philosopher, and statesman
+d_laamp_RICE_yusuf_balasaguni = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_tarim_basin_misc_005
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1077.3.13 = {
+		holder = 0
+	}
+}
+
+# Khu tsha zla 'od / Khutsa Dawo, one of the first major Bon Tertons
+d_laamp_RICE_khutsa_dawo = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_bon_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1091.11.11 = {
+		holder = 0
+	}
+}
+
+# Chen Pingshan
+# Chinese Manichean leader
+d_laamp_RICE_chen_pingshan = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_chinese_manichean_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1108.8.8 = {
+		holder = 0
+	}
+}
+
+# Shingqo Sheli Tutung
+# Uyghur Scholar and translator from Beshbalik
+d_laamp_RICE_shingqo = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_uyghur_misc_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1123.4.5 = {
+		holder = 0
+	}
+}
+
+# Zhao Weiyi
+# Chinese entertainer of the Liao Dynasty
+d_laamp_RICE_zhao_weiyi = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_tarim_basin_misc_006
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.8.2 = {
+		holder = 0
+	}
+}
+
+
+##############################################################
+# 
+# FICTITIOUS LANDLESS TO REPRESENT IRL GROUPS
+# 
+##############################################################
+
+# Fictitious Malay in 1066
+d_laamp_RICE_malay_1066 = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_indian_ocean_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Fictitious Swahili in 1066
+d_laamp_RICE_swahili_1066 = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_indian_ocean_005
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+# Fictitious Wangara in 1066
+d_laamp_RICE_wangara_1066 = {
+	1066.6.1 = {
+		liege = 0
+		holder = RICE_wangara_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1066.9.15 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1066.9.15 }
+		}
+	}
+	1075.1.1 = {
+		holder = 0
+	}
+}
+
+
+
+

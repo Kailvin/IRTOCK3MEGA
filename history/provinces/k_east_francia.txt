@@ -26,7 +26,7 @@
 	holding = castle_holding
 }
 2057={
-	culture = greek
+	culture = galatian
 	faith = nicene
 	holding = castle_holding
 }
@@ -40,7 +40,7 @@
 	holding = none
 }
 2083={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 	100.1.1 = { special_building_slot = aula_palatina }
@@ -49,7 +49,7 @@
 	holding = none
 }
 2384={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -63,7 +63,7 @@
 	holding = city_holding
 }
 2694={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -83,7 +83,7 @@
 	holding = none
 }
 2704={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -94,17 +94,17 @@
 	holding = none
 }
 2708={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
 2709={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
 2710={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -124,7 +124,7 @@
 	holding = castle_holding
 }
 2717={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -135,7 +135,7 @@
 	holding = none
 }
 2721={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -161,7 +161,7 @@
 	holding = none
 }
 2729={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -169,12 +169,12 @@
 	holding = none
 }
 2731={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
 2732={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -185,7 +185,7 @@
 	holding = none
 }
 2736={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -196,7 +196,7 @@
 	holding = none
 }
 2739={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -210,7 +210,7 @@
 	holding = none
 }
 2744={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -218,7 +218,7 @@
 	holding = castle_holding
 }
 2746={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -226,7 +226,7 @@
 	holding = castle_holding
 }
 2748={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -237,7 +237,7 @@
 	holding = none
 }
 2751={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -254,7 +254,7 @@
 	holding = none
 }
 2757={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -262,7 +262,7 @@
 	holding = castle_holding
 }
 2759={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -276,7 +276,7 @@
 	holding = none
 }
 2763={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -293,7 +293,7 @@
 	holding = castle_holding
 }
 2768={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -387,7 +387,7 @@
 	holding = city_holding
 }
 2878={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -401,7 +401,7 @@
 	holding = none
 }
 2883={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -409,7 +409,7 @@
 	holding = none
 }
 2886={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }
@@ -420,7 +420,7 @@
 	holding = none
 }
 2889={
-	culture = greek
+	culture = galatian
 	faith = arianism
 	holding = castle_holding
 }

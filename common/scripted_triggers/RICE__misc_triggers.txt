@@ -1,0 +1,347 @@
+﻿# GENERAL
+is_RICE_loaded = {
+    always = yes
+}
+RICE_basic_is_available_adult_trigger = {
+	basic_is_valid_for_yearly_events_trigger = yes
+	is_adult = yes
+}
+
+RICE_basic_is_available_adult_courtier_even_if_sick_trigger = { # Basically the above, without the landed title requirement
+	is_alive = yes
+	is_imprisoned = no
+	is_in_army = no
+	custom_description = {
+		text = ALREADY_IN_ACTIVITY
+		NOR = {
+			exists = involved_activity
+			has_variable = homage_liege_scope
+			has_character_flag = meditation_character_flag
+			has_character_flag = petition_liege_character_flag
+			has_character_flag = holding_court_character_flag
+			is_being_visited_on_tour_strict = yes
+		}
+	}
+	is_busy_in_events_unlocalised = no
+	NOT = { has_trait = incapable }
+	is_adult = yes
+}
+
+RICE_is_available_adult_even_if_sick_trigger = { # Without smallpox/bubonic plague requirement
+	is_alive = yes
+	custom_description = {
+		text = ALREADY_IN_ACTIVITY
+		NOR = {
+			exists = involved_activity
+			has_variable = homage_liege_scope
+			has_character_flag = meditation_character_flag
+			has_character_flag = petition_liege_character_flag
+			has_character_flag = holding_court_character_flag
+			is_being_visited_on_tour_strict = yes
+		}
+	}
+	is_in_army = no
+	is_imprisoned = no
+	#has_contagious_deadly_disease_trigger = no
+	NOT = { has_trait = incapable }
+	custom_description = {
+		text = ALREADY_PLANNING_ACTIVITY
+		NOT = { has_character_flag = planning_an_activity }
+	}
+}
+
+RICE_is_greater_sinosphere_culture_trigger = {
+    OR = {
+        culture = { has_cultural_pillar = heritage_chinese }
+        culture = { has_cultural_pillar = heritage_mongolic }
+        culture = { has_cultural_pillar = heritage_tocharian }
+        culture = { has_cultural_pillar = heritage_qiangic }
+        culture = { has_cultural_pillar = heritage_yamato }
+        culture = { has_cultural_pillar = heritage_korean }
+        culture = { has_cultural_pillar = heritage_loloish }
+        culture = { has_cultural_pillar = heritage_vietic }
+        culture = culture:sogdian
+        culture = culture:saka
+        culture = culture:uyghur
+        culture = culture:yughur
+        culture = culture:uriankhai
+        culture = culture:shatuo
+        culture = {
+            any_parent_culture_or_above = {
+                OR = {
+                    this = culture:sogdian
+                    this = culture:saka
+                    this = culture:uyghur
+                    this = culture:yughur
+                    this = culture:uriankhai
+                    this = culture:shatuo
+                }
+            }
+        }
+    }
+}
+
+RICE_is_near_eastern_culture_trigger = {
+    OR = {
+        culture_has_mena_heritage_pillar_trigger = yes
+        culture = { has_cultural_pillar = heritage_byzantine }
+        culture = { has_cultural_pillar = heritage_caucasian }
+        culture = { has_cultural_pillar = heritage_iranian }
+        culture = { has_cultural_pillar = heritage_elamite }
+    }
+}
+
+RICE_is_greater_mena_culture_trigger = {
+    OR = {
+        culture_has_mena_heritage_pillar_trigger = yes
+        culture_has_east_african_heritage_pillar_trigger = yes
+        culture = { has_cultural_pillar = heritage_iranian }
+        culture = { has_cultural_pillar = heritage_bantu }
+        culture = { has_cultural_pillar = heritage_elamite }
+        culture = culture:malagasy
+        culture = {
+            any_parent_culture_or_above = {
+				this = culture:malagasy
+			}
+        }
+    }
+}
+
+RICE_culture_has_sea_heritage_pillar_trigger = {
+	OR = {
+		RICE_culture_has_mainland_sea_heritage_pillar_trigger = yes
+		RICE_culture_has_island_sea_heritage_pillar_trigger = yes
+	}
+}
+
+RICE_culture_has_mainland_sea_heritage_pillar_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_qiangic
+			has_cultural_pillar = heritage_burman
+			has_cultural_pillar = heritage_khmer
+			has_cultural_pillar = heritage_loloish
+			has_cultural_pillar = heritage_tai
+			has_cultural_pillar = heritage_vietic
+		}
+	}
+}
+
+RICE_culture_has_island_sea_heritage_pillar_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_chamic
+			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sulawesi
+			AND = {
+				has_cultural_pillar = heritage_malayic
+				NOR = {
+					this = culture:malagasy
+					any_parent_culture_or_above = {
+						this = culture:malagasy
+					}
+				}
+			}
+		}
+	}
+}
+
+RICE_culture_has_american_heritage_pillar_trigger = {
+	OR = {
+		RICE_culture_has_arctic_heritage_pillar_trigger = yes
+		RICE_culture_has_woodland_heritage_pillar_trigger = yes
+	}
+}
+
+RICE_culture_has_arctic_heritage_pillar_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_inuit
+			has_cultural_pillar = heritage_paleo_inuit
+		}
+	}
+}
+
+RICE_culture_has_woodland_heritage_pillar_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_algonquian
+			has_cultural_pillar = heritage_iroquoian
+		}
+	}
+}
+RICE_silk_road_east_asian_culture = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_chinese }
+        culture = { has_cultural_pillar = heritage_yamato }
+        culture = { has_cultural_pillar = heritage_korean }
+        culture = { has_cultural_pillar = heritage_loloish }
+        culture = { has_cultural_pillar = heritage_vietic }
+		culture = culture:khitan
+	}
+}
+
+RICE_silk_road_steppe_culture = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_mongolic }
+		culture = { has_cultural_pillar = heritage_turkic }		
+	}
+	NOT = { culture = culture:khitan }
+}
+
+RICE_silk_road_middle_eastern_culture = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_iranian }
+		culture = { has_cultural_pillar = heritage_tocharian }
+		culture = { has_cultural_pillar = heritage_arabic }	
+		culture = { has_cultural_pillar = heritage_syriac }	
+	}
+}
+
+RICE_silk_road_himalayan_culture = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_qiangic }
+		culture = { has_cultural_pillar = heritage_tibetan }
+	}
+}
+
+RICE_silk_road_indian_culture = {
+	OR = {
+		culture = { has_cultural_pillar = heritage_indo_aryan }
+		culture = { has_cultural_pillar = heritage_dravidian }
+	}
+}
+
+RICE_activity_participant_trigger = {
+	is_ai = yes
+	NOT = { this = root }
+	is_alive = yes
+	is_imprisoned = no
+	is_incapable = no
+}
+
+# RICE_activity_potential_guest_trigger = {
+# 	NOT = {	this = scope:activity.activity_owner }
+# 	RICE_activity_participant_trigger = yes
+# 	NOT = { is_in_list = potential_guests }
+# }
+
+
+RICE_hot_springs_baronies_trigger = {	
+	OR = {
+		barony = title:b_siwa			# Fountain of the Sun			Siwa Flavor Pack
+		barony = title:b_aachen			# Aachen hot springs			Aachen Flavor Pack
+		barony = title:b_wakhan			# Bibi Fatima hot springs		Pamir Flavor Pack
+		barony = title:b_rajagrha		# Rajgir hot springs			Magadha Flavor Pack
+		barony = title:b_air			# Tafadek hot springs			Tuareg Flavor Pack
+		barony = title:b_napoli			# Thermal Baths of Baia			Sicily Flavor Pack
+		barony = title:b_mytilene		# Hot springs of Thermi			Lesbos Flavor Pack
+	}
+}
+
+RICE_local_pilgrimage_baronies_trigger = {	
+	OR = {
+		barony = title:b_kharga			# Temple of Hibis								Siwa Flavor Pack
+		barony = title:b_samos			# Patmos pilgrimage								Chios Flavor Pack
+		barony = title:b_quimper		# Tro Breizh									Breton Flavor Pack
+		barony = title:b_aachen			# Aachen pilgrimage								Aachen Flavor Pack
+		barony = title:b_jerm			# Nasir Khusraw pilgrimage						Pamir Flavor Pack
+		barony = title:b_cottingham		# Beverley Pilgrimage							Yorkshire Flavor Pack
+		barony = title:b_aswan			# Pray at Phliae/Elephantine/Kalabsha			Upper Egypt Flavor Pack
+		barony = title:b_tustar			# Tomb of Daniel								Khuzestan Flavor Pack
+		barony = title:b_avranches		# Mont-Saint-Michel								Normandy Flavor Pack
+		barony = title:b_jenne-jeno		# Tomb of Djenepo								Bozo Flavor Pack
+	}
+}
+
+# RICE_local_pilgrimage_available_trigger = {
+# 	OR = {
+# 		# Patmos Pilgrimage
+# 		AND = {
+# 			religion = religion:christianity_religion
+# 			has_global_variable = RICE_chios_patmos_pilgrimage_available
+# 			OR = {
+# 				custom_description = {
+# 					text = "RICE_chios_near_chios_req"
+# 					OR = {
+# 						title:c_chios = {
+# 							squared_distance = {
+# 								target = root.capital_province
+# 								value <= squared_distance_small
+# 							}
+# 						}
+# 						capital_county = title:c_rhodos
+# 						capital_county = title:c_caria
+# 						capital_county = title:c_chandax
+# 						capital_county = title:c_chania			
+# 					}
+# 				}
+# 				has_title = title:c_chios
+# 			}
+# 		}
+# 		# Aachen Pilgrimage
+# 		AND = {
+# 			religion = religion:christianity_religion
+# 			OR = {
+# 				title:c_aachen = {
+# 					squared_distance = {
+# 						target = root.capital_province
+# 						value <= squared_distance_small
+# 					}
+# 				}
+# 				AND = {
+# 					is_target_in_global_variable_list = {
+# 						name = unavailable_unique_decisions
+# 						target = flag:RICE_aachen_charlemagne_remains_transferred
+# 					}
+# 					capital_province = {
+# 						OR = {
+# 							geographical_region = world_europe_west_francia
+# 							geographical_region = world_europe_west_germania
+# 						}
+# 					}			
+# 				}
+# 			}
+# 		}
+# 		# Tomb of Daniel
+# 		AND = {
+# 			OR = {
+# 				religion = religion:islam_religion
+# 				religion = religion:christianity_religion
+# 				religion = religion:judaism_religion
+# 				faith = {
+# 					OR = {
+# 						has_doctrine = tenet_islamic_syncretism
+# 						has_doctrine = tenet_jewish_syncretism
+# 						has_doctrine = tenet_christian_syncretism
+# 					}
+# 				}
+# 			}
+# 			OR = {
+# 				custom_description = {
+# 					text = RICE_tomb_of_daniel_pilgrimage_distance_req	
+# 					is_target_in_global_variable_list = {
+# 						name = unavailable_unique_decisions
+# 						target = flag:RICE_khuzestan_daniel_reburied
+# 					}
+# 					title:c_tustar = {
+# 						squared_distance = {
+# 							target = root.capital_province
+# 							value <= squared_distance_medium
+# 						}
+# 					}
+# 				}
+# 				custom_description = {
+# 					text = RICE_khuzestan_geographical_req
+# 					any_held_title = {
+# 						tier = tier_county
+# 						duchy = title:d_khuzestan
+# 					}
+# 				}
+# 			}
+# 		}
+# 	}
+# }
+
+
+

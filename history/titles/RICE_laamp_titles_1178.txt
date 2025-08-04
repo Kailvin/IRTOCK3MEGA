@@ -1,0 +1,431 @@
+﻿
+# Michael Scot
+d_laamp_RICE_michael_scot = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_north_atlantic_scottish_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1234.5.6 = {
+		holder = 0
+	}
+}
+
+# Oranmiyan
+d_laamp_RICE_oranmiyan = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_niger_delta_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Hafsa bint al-Hajj al-Rukuniyya
+d_laamp_RICE_hafsa = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_granada_006
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Trapelicino
+d_laamp_RICE_trapelicino = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_sicily_latin_009
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Hugo of Hildesheim
+d_laamp_RICE_hugo_von_hildesheim = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_polabian_misc_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Guglielmo Grasso, Genoese merchant, pirate, and admiral
+d_laamp_RICE_guglielmo_grasso = { 
+	1178.1.1 = {
+		liege = 0
+		holder = 211532
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Margaret of Beverley, female pilgrim and crusader
+d_laamp_RICE_margaret_of_beverley = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_yorkshire_misc_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Ali al-Harawi, Muslim traveler, Sufi mystic, and poet
+d_laamp_RICE_ali_al_harawi = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_afghan_misc_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1215.3.17 = {
+		holder = 0
+	}
+}
+
+# Bappa Beary, legendary Muslim merchant from Kerala who was helped by the Hindu goddess Durga
+d_laamp_RICE_bappa_beary = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_sri_lanka_indian_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1201.6.13 = {
+		holder = 0
+	}
+}
+
+# Abd al-Latif al-Baghdadi
+d_laamp_RICE_abd_al_latif_al_baghdadi = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_harran_misc_005
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1231.11.9 = {
+		holder = 0
+	}
+}
+
+# Abu Ishaq Ibrahim al-Kanemi
+# Andalusian poet originally from Kanem
+d_laamp_RICE_al_kanemi = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_andalusia_misc_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1212.12.12 = {
+		holder = 0
+	}
+}
+
+# Nyangrel Nyima Özer, the first Terton King
+d_laamp_RICE_nyangrel = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_buddhist_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1192.3.17 = {
+		holder = 0
+	}
+}
+
+# Tatatunga
+# Uyghur scribe who loyally served the Naimans and then Genghis Khan, inventor of the Mongol script
+d_laamp_RICE_tatatunga = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_tatatunga_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1234.5.6 = {
+		holder = 0
+	}
+}
+
+# Li Shichang
+# Chinese official of the Kara-Khitan; originally Admin, will be changed back to Admin with All Under Heaven once PI adds in a special Khitan admin gov't
+d_nf_RICE_li_shichang = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_tarim_basin_misc_001
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1234.5.6 = {
+		holder = 0
+	}
+}
+
+
+
+
+# Mahmud Yalavach / Mahmud Tai
+# Official of the Kara-Khitan; originally Admin, will be changed back to Admin with All Under Heaven once PI adds in a special Khitan admin gov't
+d_nf_RICE_mahmud_yalavach = {
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_tarim_basin_misc_002
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+}
+
+
+
+# Mansur ibn Mahmud al-Uzgandi, court doctor and Muslim judge and military commander
+# Official of the Kara-Khitan; originally Admin, will be changed back to Admin with All Under Heaven once PI adds in a special Khitan admin gov't
+d_nf_RICE_al_uzgandi = {
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_tarim_basin_misc_003
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+}
+
+
+##############################################################
+# 
+# FICTITIOUS LANDLESS TO REPRESENT IRL GROUPS
+# 
+##############################################################
+
+# Fictitious Malay in 1178
+d_laamp_RICE_malay_1178 = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_indian_ocean_003
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Fictitious Swahili in 1178
+d_laamp_RICE_swahili_1178 = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_indian_ocean_006
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+# Fictitious Wangara in 1178
+d_laamp_RICE_wangara_1178 = { 
+	1178.1.1 = {
+		liege = 0
+		holder = RICE_wangara_003
+		government = landless_adventurer_government
+		succession_laws = { landless_adventurer_succession_law }
+		effect = {
+			create_landless_adventurer_title_history_effect = yes
+			set_variable = { name = adventurer_creation_reason value = flag:historical }
+		}
+	}
+	1178.10.1 = {
+		effect = {
+			destroy_landless_title_no_dlc_effect = { DATE = 1178.10.1 }
+		}
+	}
+	1225.5.25 = {
+		holder = 0
+	}
+}
+
+

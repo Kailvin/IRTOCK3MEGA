@@ -1,0 +1,34 @@
+﻿##############################################
+# 
+# Partial adaptation of *some* cultures from the Rajas of Asia mod.
+# Not all cultures have been adapted to reduce potential compatibility issues and save time.
+# 
+##############################################
+
+khmer = {
+	color = { 207 87 23 }
+
+	ethos = ethos_courtly
+	heritage = heritage_khmer
+	language = language_khmer
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	name_list = name_list_khmer
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_angkorian_architecture
+		tradition_warrior_caste
+		tradition_hereditary_hierarchy
+		tradition_religion_blending
+	}
+
+	ethnicities = {
+		10 = asian
+	}
+}

@@ -2888,36 +2888,38 @@ IRtoCK3_b_lhasa_old_bon={
 	county = c_lhasa
 	barony = b_lhasa
 	character_modifier = {
-		tax_mult = 0.1
+		cultural_head_fascination_mult = 0.15
 	}
 }
 IRtoCK3_b_potala_old_bon={
 	county = c_lhasa
 	barony = b_potala
 	character_modifier = {
-		tax_mult = 0.1
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_lhunzhub_old_bon={
 	county = c_lhunzhub
 	barony = b_lhunzhub
 	character_modifier = {
-		tax_mult = 0.1
+		tax_mult = 0.3
 	}
 }
 IRtoCK3_b_medog_old_bon={
 	county = c_pemako
 	barony = b_medog
 	character_modifier = {
-		
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_xungba_old_bon={
 	county = c_gegyai
 	barony = b_xungba
 	character_modifier = {
-		additional_fort_level = 0.5
-		build_gold_cost = 0.05
+		additional_fort_level = 1
+		build_gold_cost = -0.05
 	}
 }
 IRtoCK3_b_karghalik_mahayana={
@@ -3007,21 +3009,22 @@ IRtoCK3_b_sakala_hellenic_pagan={
 	county = c_sakala
 	barony = b_sakala
 	character_modifier = {
-		different_culture_opinion = 4
+		cultural_head_fascination_mult = 0.1
 	}
 }
 IRtoCK3_b_termez_hellenic_pagan={
 	county = c_chaghaniyan
 	barony = b_termez
 	character_modifier = {
-		same_culture_opinion = 4
+		same_culture_opinion = 10
 	}
 }
 IRtoCK3_b_kunjah_hellenic_pagan={
 	county = c_gurjaratra
 	barony = b_kunjah
 	character_modifier = {
-		same_culture_opinion = 4
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_bhuttar_hellenic_pagan={
@@ -3161,7 +3164,8 @@ IRtoCK3_b_wadi_el-milk_kushitism_pagan={
 	county = c_wadi_el-milk
 	barony = b_wadi_el-milk
 	character_modifier = {
-		
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_cagliari_egyptian_pagan={
@@ -3176,6 +3180,7 @@ IRtoCK3_b_oristano_egyptian_pagan={
 	barony = b_oristano
 	character_modifier = {
 		tyranny_loss_mult = 2.5
+		tyranny_gain_mult = 0.5
 	}
 }
 IRtoCK3_b_samannud_egyptian_pagan={
@@ -3189,14 +3194,15 @@ IRtoCK3_b_qus_egyptian_pagan={
 	county = c_qus
 	barony = b_qus
 	character_modifier = {
-		tyranny_gain_mult = 0.5
+		knight_effectiveness_mult = 0.25
+		supply_duration = 0.15
 	}
 }
 IRtoCK3_b_iglesias_egyptian_pagan={
 	county = c_cagliari
 	barony = b_iglesias
 	character_modifier = {
-		general_opinion = 8
+		general_opinion = 10
 	}
 }
 IRtoCK3_b_pushkin_slavic_pagan={
@@ -3217,7 +3223,8 @@ IRtoCK3_b_tighina_slavic_pagan={
 	county = c_cetatea_alba
 	barony = b_tighina
 	character_modifier = {
-		tyranny_loss_mult = 2.5
+		stewardship = 2
+		development_growth_factor = 0.1
 	}
 }
 IRtoCK3_b_alistegunde_slavic_pagan={
@@ -3246,14 +3253,15 @@ IRtoCK3_b_akhtyr_tengri_pagan={
 	county = c_hradyzk
 	barony = b_akhtyr
 	character_modifier = {
-		cultural_head_fascination_mult = 0.075
+		cultural_head_fascination_mult = 0.1
 	}
 }
 IRtoCK3_b_cernauti_tengri_pagan={
 	county = c_hotin
 	barony = b_cernauti
 	character_modifier = {
-		
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_chally-kala_tengri_pagan={

@@ -3,7 +3,7 @@
 }
 2031={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2034={
@@ -22,13 +22,13 @@
 }
 2039={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
 2040={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -67,12 +67,12 @@
 }
 2777={
 	culture = greek
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2778={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2779={
@@ -86,13 +86,13 @@
 }
 2782={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
 2783={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2784={
@@ -103,7 +103,7 @@
 }
 2786={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2787={
@@ -126,7 +126,7 @@
 }
 2942={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2943={
@@ -134,7 +134,7 @@
 }
 2945={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2946={
@@ -148,12 +148,12 @@
 }
 2949={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2950={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	special_building_slot = schwaz_mines_01
 	390.1.1 = { religion = jovinian }
@@ -172,18 +172,18 @@
 }
 2955={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	395.1.1 = { religion = nicene }
 }
 2956={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2957={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2958={
@@ -191,12 +191,12 @@
 }
 2959={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2960={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2961={
@@ -210,7 +210,7 @@
 }
 2964={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2970={
@@ -218,7 +218,7 @@
 }
 2971={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2972={
@@ -229,7 +229,7 @@
 }
 2975={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2976={
@@ -237,7 +237,7 @@
 }
 2977={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2978={
@@ -274,7 +274,7 @@
 }
 3089={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3091={
@@ -288,7 +288,7 @@
 }
 3093={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3094={
@@ -329,7 +329,7 @@
 }
 3105={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3106={
@@ -402,7 +402,7 @@
 }
 3128={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3129={
@@ -413,7 +413,7 @@
 }
 3131={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3132={
@@ -424,12 +424,12 @@
 }
 3134={
 	culture = ripurian
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3135={
 	culture = rhaetio_roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 3137={

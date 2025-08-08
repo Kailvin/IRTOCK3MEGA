@@ -14,7 +14,7 @@ k_IRTOCK3_J36={
 	362.3.22 = { holder = imperator182989 government = theocracy_government }
 	403.3.28 = { holder = imperator180057 government = theocracy_government }
 	405.8.10 = { holder = imperator188710 government = theocracy_government }
-	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
+	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } liege = 0 }
 }
 d_kizilyedisan={
 	423.7.6 = { liege = 0 }

@@ -11,7 +11,7 @@ c_sriksetra={
 }
 c_magwe={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 17 }
+	423.7.6 = { change_development_level = 17 }
 }
 c_hinthada={
 	361.1.1 = { government = city_state_government }
@@ -38,11 +38,11 @@ c_kyaukse={
 }
 c_minbu={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator182846 change_development_level = 7 }
+	423.7.6 = { change_development_level = 7 }
 }
 c_sagaing={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator182846 change_development_level = 18 }
+	423.7.6 = { change_development_level = 18 }
 }
 b_halin={
 	423.7.6 = { holder = imperator182846 }
@@ -60,7 +60,7 @@ c_takon={
 }
 c_madaya={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator187947 change_development_level = 16 }
+	423.7.6 = { change_development_level = 16 }
 }
 b_singu={
 	423.7.6 = { holder = imperator187947 }

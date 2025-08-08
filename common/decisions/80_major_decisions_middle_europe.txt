@@ -396,6 +396,7 @@ empower_sicilian_parliament_decision = {
 		NOT = { has_realm_law = crown_authority_0 }
 		OR = {
 			has_title = title:k_sicily
+			has_title = title:e_IRTOCK3_SYR
 			has_title = title:k_naples
 			has_title = title:k_trinacria
 		}

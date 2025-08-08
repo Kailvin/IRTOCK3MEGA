@@ -1907,7 +1907,7 @@ language_hellenic_greek = {
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_greek }
+			limit = { has_cultural_pillar = language_hellenic_greek }
 			multiply = 10
 		}
 		else_if = {

@@ -149,7 +149,7 @@ c_khotang={
 }
 d_para_lauhitya={
 	361.1.1 = { change_development_level = 2 }
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_manipur_holder liege = 0 }
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_manipur_holder liege = e_IRTOCK3_BAC }
 }
 c_goalpara={
 	422.9.21 = { liege = 0 holder = imperator203565 }

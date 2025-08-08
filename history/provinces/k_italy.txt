@@ -1,12 +1,12 @@
 2041={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
 2043={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2044={
@@ -23,7 +23,7 @@
 }
 2469={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2470={
@@ -31,7 +31,7 @@
 }
 2471={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -46,7 +46,7 @@
 }
 2475={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2476={
@@ -54,7 +54,7 @@
 }
 2477={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -72,12 +72,12 @@
 }
 2482={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2483={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2487={
@@ -85,7 +85,7 @@
 }
 2488={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2489={
@@ -96,7 +96,7 @@
 }
 2491={
 	culture = ripurian
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -108,7 +108,7 @@
 }
 2494={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2495={
@@ -116,7 +116,7 @@
 }
 2497={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -125,7 +125,7 @@
 }
 2499={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2526={
@@ -133,7 +133,7 @@
 }
 2527={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2528={
@@ -159,13 +159,13 @@
 }
 2536={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	395.1.1 = { religion = nicene }
 }
 2537={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	395.1.1 = { religion = nicene }
 }
@@ -177,17 +177,17 @@
 }
 2541={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2542={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2543={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2544={
@@ -198,7 +198,7 @@
 }
 2546={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	303.1.1 = { special_building_slot = apollinare_nuovo }
 }
@@ -222,17 +222,17 @@
 }
 2553={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2554={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2555={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2556={
@@ -249,7 +249,7 @@
 }
 2560={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2561={
@@ -272,7 +272,7 @@
 }
 2569={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2570={

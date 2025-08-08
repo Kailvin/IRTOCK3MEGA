@@ -18,8 +18,12 @@ tradition_ep3_indomitable_azatani = {
 	is_shown = {
 		OR = {
 			this = culture:armenian
+			this = culture:bosporan
 			any_parent_culture_or_above = {
 				this = culture:armenian
+			}
+			any_parent_culture_or_above = {
+				this = culture:bosporan
 			}
 		}
 		# DLC check.

@@ -3,7 +3,7 @@
 }
 2568={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -23,7 +23,7 @@
 }
 2575={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	special_building_slot = the_colosseum_01
 }
@@ -44,7 +44,7 @@
 }
 2582={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2583={
@@ -52,7 +52,7 @@
 }
 2585={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	390.1.1 = { religion = jovinian }
 }
@@ -67,7 +67,7 @@
 }
 2589={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2590={
@@ -84,7 +84,7 @@
 }
 2594={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = city_holding
 }
 2595={
@@ -92,7 +92,7 @@
 }
 2596={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2597={
@@ -108,7 +108,7 @@
 }
 2600={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2602={
@@ -119,7 +119,7 @@
 }
 2604={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2605={
@@ -127,7 +127,7 @@
 }
 2606={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2607={
@@ -135,18 +135,18 @@
 }
 2608={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 	100.1.1 = { special_building_slot = secret_harbor_avernus }
 }
 2609={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2610={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2611={
@@ -154,7 +154,7 @@
 }
 2612={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2613={
@@ -177,7 +177,7 @@
 }
 2619={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2620={
@@ -193,7 +193,7 @@
 }
 2623={
 	culture = italiote
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2624={
@@ -208,17 +208,17 @@
 }
 2627={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2628={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2629={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2630={
@@ -226,7 +226,7 @@
 }
 2631={
 	culture = roman
-	faith = hellenic_pagan
+	faith = roman_pagan
 	holding = castle_holding
 }
 2632={

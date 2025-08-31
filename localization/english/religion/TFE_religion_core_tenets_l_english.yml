@@ -39,8 +39,8 @@
  doctrine_parameter_hostility_override_tenet_hellenic_syncretism:3 "Non-Greco-Roman [faiths|E] with the $tenet_hellenic_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_hostile_tooltippable$"
 
  # Cult of the Virgin Mary
- tenet_cult_of_the_virgin_mary_name:0 "Cult of the Virgin Mary"
- tenet_cult_of_the_virgin_mary_desc:0 "The Virgin Mary, mother of Jesus, is the holiest of saints and should be treated as such. Intense veneration of her is the surest path to worship and understand God."
+ tenet_cult_of_the_virgin_mary_name:0 "Cult of the Virgin Miryam"
+ tenet_cult_of_the_virgin_mary_desc:0 "The Virgin Miryam, mother of Yeshua, is the holiest of saints and should be treated as such. Intense veneration of her is the surest path to worship and understand God."
  doctrine_parameter_tfe_offer_mary_bread_decision_enabled:0 "Enables the [decision|E] to $TFE_offer_bread_to_the_virgin_mary$"
 
  # Religious Silence

@@ -2,11 +2,11 @@
 
 # Restore Zoroastrian High Priesthood, by Flavio Verna
  celtic.0001.t:0 "The Return of the Myrdidin"
- celtic.0001.desc:0 "After the Roman conquest of our land, the Druids were persecuted and killed by the accursed legions of a corrupt, decadent, and power-hungry empire. Today, we are free of their religious oppression and attempts at converting our lands to the teachings of Jupiter, Christ, or whatever false deity they blindly follow! The time to bring back the head of the Druids, the Myrdidin, is finally now."
+ celtic.0001.desc:0 "After the Roman conquest of our land, the Druids were persecuted and killed by the accursed legions of a corrupt, decadent, and power-hungry empire. Today, we are free of their religious oppression and attempts at converting our lands to the teachings of Jupiter, Mashiach, or whatever false deity they blindly follow! The time to bring back the head of the Druids, the Myrdidin, is finally now."
  celtic.0001.a:0 "The muses will sing of the return of the Myrdidin!"
  celtic_druids_restored:0 "The Myrdidin returns"
- celtic.0002.desc.christian:0 "The accursed followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough land and influence to re-establish a blasphemous priesthood under the protection of [scoped_ruler.GetTitledFirstName].\n\nIf not soon stopped, these demon-worshiping pagans might turn the tide of Christian expansion in Albion, polluting the mind of their unaware subjects with lies and perversions."
- celtic.0002.desc.others:0 "The strange, grove-worshiping followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough of their ancestral Britannian territories to re-establish a functional Priesthood.\n\nIf not stopped soon, they might turn the tide of Christian expansion and restore Albion under the protection of their old gods."
+ celtic.0002.desc.christian:0 "The accursed followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough land and influence to re-establish a blasphemous priesthood under the protection of [scoped_ruler.GetTitledFirstName].\n\nIf not soon stopped, these demon-worshiping pagans might turn the tide of Messianic expansion in Albion, polluting the mind of their unaware subjects with lies and perversions."
+ celtic.0002.desc.others:0 "The strange, grove-worshiping followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough of their ancestral Britannian territories to re-establish a functional Priesthood.\n\nIf not stopped soon, they might turn the tide of Messianic expansion and restore Albion under the protection of their old gods."
  celtic.0002.a:0 "Glory to [scoped_ruler.GetFaith.HighGodName]!"
  celtic.0002.b:0 "Their demons will not shield them from the might of [ROOT.Char.GetFaith.HighGodName]!"
  celtic.0002.c:0 "...Grove-worshiping?"

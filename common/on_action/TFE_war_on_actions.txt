@@ -68,53 +68,6 @@ TFE_on_war_won_attacker = {
 				}
 			}
 		}
-		#senate shiz
-		if = {
-			limit = {
-				global_var:italy_senate_tasks = flag:conquer
-				global_var:italy_senate_conquer = scope:defender
-				OR = {
-					scope:attacker = {
-						access_to_italian_senate = yes
-					}
-					scope:attacker = {
-						any_liege_or_above = {
-							access_to_italian_senate = yes
-						}
-					}
-				}
-			}
-			scope:attacker = {
-				trigger_event = senate.0003
-			}
-			set_global_variable = {
-				name = italy_senate_tasks
-				value = flag:none
-			}
-		}
-		if = {
-			limit = {
-				global_var:eastern_senate_tasks = flag:conquer
-				global_var:eastern_senate_conquer = scope:defender
-				OR = {
-					scope:attacker = {
-						access_to_eastern_senate = yes
-					}
-					scope:attacker = {
-						any_liege_or_above = {
-							access_to_eastern_senate = yes
-						}
-					}
-				}
-			}
-			scope:attacker = {
-				trigger_event = senate.0003
-			}
-			set_global_variable = {
-				name = eastern_senate_tasks
-				value = flag:none
-			}
-		}
 		if = {
 			limit = {
 				scope:defender = {

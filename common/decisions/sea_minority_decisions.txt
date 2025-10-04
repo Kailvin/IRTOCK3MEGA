@@ -81,3 +81,195 @@ expel_religious_minority_decision = {
 		always = no
 	}
 }
+
+set_minority_religion_law_accept = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = religious_minority_status_1
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}
+
+set_minority_religion_law_tolerate = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = religious_minority_status_2
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}
+
+set_minority_religion_law_oppress = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = religious_minority_status_3
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}
+
+set_minority_culture_law_accept = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = cultural_minority_status_1
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}
+
+set_minority_culture_law_tolerate = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = cultural_minority_status_2
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}
+
+set_minority_culture_law_oppress = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_expel.dds"
+	}
+	desc = expel_cultural_minority_decision_desc
+
+	ai_check_interval = 36
+
+	is_shown = {
+		is_ai = no
+		is_independent_ruler = yes
+		is_landed = yes
+		custom_description = {
+			subject = root
+			text = "has_minority_law_cooldown"
+			NOT = { has_variable = minority_law_cooldown }
+		}
+	}
+
+	effect = {
+		add_title_law = cultural_minority_status_3
+		set_variable = {
+			name = minority_law_cooldown
+			years = @minority_law_cooldown_years
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+}

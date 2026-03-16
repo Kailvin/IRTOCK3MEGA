@@ -1,81 +1,81 @@
 k_goguryeo={
-	423.7.6 = { liege = 0 }
+	423.7.6 = {IRToCK3_c_seogyeong_holder  liege = 0 }
 }
 d_bukgye={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_seogyeong_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_seogyeong_holder liege = 0 }
 }
 d_gaeseong={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_gaeseong_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_gaeseong_holder liege = k_goguryeo }
 }
 d_gwangju={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_gwangju_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_gwangju_holder liege = k_goguryeo }
 }
 d_gyoju={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_gyoju_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_gyoju_holder liege = k_goguryeo }
 }
 d_haeju={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_haeju_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_haeju_holder liege = k_goguryeo }
 }
 d_yukju={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_jangjeong_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_jangjeong_holder liege = k_goguryeo }
 }
 c_chunju={
-	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 8 }
 }
 c_dangseong={
-	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 8 }
 }
 c_dongju={
-	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 8 }
 }
 c_gaeseong={
-	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 8 }
 }
 c_gokju={
-	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 8 }
 }
 c_gwangju={
-	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 8 }
 }
 c_gwiju={
-	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 8 }
 }
 c_gyoju={
-	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 8 }
 }
 c_haeju={
-	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 8 }
 }
 c_hwangju={
-	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 8 }
 }
 c_inje={
-	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gyoju_holder change_development_level = 8 }
 }
 c_jangjeong={
-	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 8 }
 }
 c_pungju={
-	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_haeju_holder change_development_level = 8 }
 }
 c_pyeongju={
-	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gaeseong_holder change_development_level = 8 }
 }
 c_seogyeong={
-	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 8 }
 }
 c_seongju={
-	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 8 }
 }
 c_taeju={
-	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 8 }
 }
 c_uiju={
-	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_jangjeong_holder change_development_level = 8 }
 }
 c_yangju={
-	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_gwangju_holder change_development_level = 8 }
 }
 c_yeongwon={
-	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_seogyeong_holder change_development_level = 8 }
 }

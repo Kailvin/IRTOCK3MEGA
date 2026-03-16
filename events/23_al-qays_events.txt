@@ -1,0 +1,95 @@
+﻿namespace = al-qays_invasion
+
+### Spawn invader with the associated story...
+al-qays_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:d_al-qays # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_al-qays_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "zanj story has failed to trigger, because a player directly controls all counties within the starting region; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "zanj story owner has appeared"
+		debug_log_date = yes
+		
+		spawn_al-qays_invader_effect = {
+			INVADER_DYNN = al-qays
+		}
+		scope:invader = {
+			create_story = story_al-qays_invasion
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+al-qays_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_zanj_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+al-qays_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = al-qays
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = duchy
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+al-qays_invasion.1001 = { # only players see this
+	type = character_event
+	title = al-qays_invasion.1001.t
+	desc = al-qays_invasion.1001.desc
+	
+	theme = hi_theme_farmlands
+	
+	left_portrait = {
+		character = scope:invader
+		animation = personality_zealous
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = al-qays_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = al-qays_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		custom_tooltip = invader_title_destroyed_on_succession_tt
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}

@@ -1,0 +1,284 @@
+﻿# Story for Terteroba dynasty
+# originally made by Petter Vilberg
+# adjusted by me
+
+story_terteroba_invasion = {
+	on_setup = {
+		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
+			INVADER_DYNN = terteroba # for story start global variable
+			INVADER_TITLE = title:e_terteroba # title the invader spawns with
+		}
+		story_owner = {
+			terteroba_maintenance_effect = {
+				INVADER_DYNN = terteroba
+				INVADER_CHAR = scope:story.story_owner
+				INVADER_TITLE = scope:story.var:invader_title_var
+				LANDLESS_YES_NO = no
+				STARTING_TIER = duchy
+			}
+			trigger_event = {
+				id = terteroba_invasion.0200
+				months = 1
+			}
+		}
+		# rename empire title according to leading culture
+		terteroba_empire_title_rename_effect = yes
+		# culture stuff
+		culture:cuman = {
+			change_cultural_acceptance = {
+				target = culture:kipchak
+				value = medium_positive_culture_acceptance # miniscule = 2%, low = 5%, medium = 10%
+				desc = cultural_acceptance_gain_event
+			}
+		}
+	}
+
+	on_end = {
+		invader_story_on_end_effect = { INVADER_DYNN = terteroba }
+		
+		destroy_titular_invader_title_effect = yes
+	}
+
+	on_owner_death = {
+		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
+		random = {
+			chance = 0
+			modifier = {
+				add = 0
+				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			modifier = {
+				add = 10
+				var:story_owner_counter >= 2
+			}
+			modifier = {
+				add = 25
+				var:story_owner_counter >= 3
+			}
+			modifier = {
+				add = 65
+				var:story_owner_counter >= 4
+			}
+			set_variable = {
+				name = end_of_invasion_story
+				value = yes
+			}
+		}
+		invader_story_on_death_effect = { INVADER_DYNN = terteroba }
+	}
+
+	# maintenance
+	effect_group = {
+		days = historicinvasions_story_maintenance_value
+
+		trigger = { always = yes }
+
+		# make sure they have money on hand
+		triggered_effect = {
+			trigger = { story_owner = { gold < 0 } }
+			effect = { story_owner = { add_gold = 200 } }
+		}
+
+		# end the story prematurely, because their conquests have been completed
+		triggered_effect = {
+			trigger = {
+				story_owner = { completely_controls_region = special_terteroba_conquest_region_total }
+			}
+			effect = {
+				debug_log = "ending terteroba story because the conquest goal has been completed"
+				end_story = yes
+			}
+		}
+
+		# end the story prematurely, because the invader has lost their #th offensive war
+		triggered_effect = {
+			trigger = {
+				NOT = { has_game_rule = historicinvasions_invasion_ends_after_defeat_disabled }
+			}
+			effect = {
+				historicinvasions_invasion_ends_after_defeat_effect = yes
+			}
+		}
+	}
+
+	#Start a new war if none is ongoing
+	effect_group = {
+		days = { 180 365 }
+		#chance = 100
+
+		trigger = { story_owner = { is_ai = yes } }
+
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = { has_character_flag = invasion_ends_after_player_win }
+				}
+				effect = {
+					debug_log = "ending terteroba story because a player was able to defend against the invader"
+					end_story = yes
+				}
+			}
+			triggered_effect = {
+				trigger = { story_owner = { should_invader_declare_war_trigger = { INVADER_TITLE = scope:story.var:invader_title_var } } }
+				effect = {
+					story_owner = {
+						war_target_evaluation_and_declaration_effect = {
+							INVADER_DYNN = terteroba
+							INVADER_CHAR = scope:story.story_owner
+							INVADER_REGION = total
+							INVADER_TARGET_TITLE_TIER = kingdom
+							INVADER_RANGE = neighboring
+							INVADER_LIEGE_RESTRICTIONS = ""
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Story handling in case of succession weirdness
+	effect_group = {
+		days = historicinvasions_succession_weirdness_value
+
+		trigger = { NOT = { story_owner = { has_title = scope:story.var:invader_title_var } } }
+
+		# either transfer story ownership or end story if the title is not created
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				hi_check_for_valid_story_owner_effect = {
+					INVADER_TITLE = scope:story.var:invader_title_var
+					STORY_COUNTER_INCREASE = 0
+				}
+			}
+		}
+	}
+
+	# gradual de jure updates
+	# Tartaria: 79 counties
+	# Tartaria without two rightmost kingdoms: 47 = 59,49%; 47 * 20% = 9,4 counties (empire obscurity)
+	effect_group = {
+		days = 240
+		trigger = {
+			story_owner = { realm_size > 30 }
+		}
+		# Tartaria
+		triggered_effect = {
+			trigger = {
+				title:e_tartaria = {
+					is_titular = no
+					any_in_de_jure_hierarchy = {
+						filter = { tier = tier_county }
+						continue = { tier > tier_county }
+						OR = {
+							holder = scope:story.story_owner
+							holder = { target_is_liege_or_above = scope:story.story_owner }
+						}
+						percent >= 0.4
+					}
+				}
+			}
+			effect = {
+				title:e_tartaria = {
+					every_in_de_jure_hierarchy = {
+						limit = {
+							tier = tier_kingdom
+							NOR = {
+								this = title:k_zhetysu
+								this = title:k_dzungaria
+							}
+						}
+						set_de_jure_liege_title = scope:story.var:invader_title_var
+					}
+				}
+				if = {
+					limit = {
+						title:e_tartaria = {
+							is_title_created = yes
+							is_titular = yes
+						}
+					}
+					title:e_tartaria.holder = { destroy_title = title:e_tartaria }
+				}
+			}
+		}
+
+		# clean-up Tartaria
+		triggered_effect = {
+			trigger = {
+				title:e_tartaria = {
+					is_title_created = no
+					is_titular = no
+				}
+				title:e_tartaria = { any_in_de_jure_hierarchy = { tier = tier_kingdom count <= 2 } }
+			}
+			effect = {
+				title:e_tartaria = {
+					every_in_de_jure_hierarchy = {
+						limit = { tier = tier_kingdom }
+						set_de_jure_liege_title = title:e_turan
+					}
+				}
+			}
+		}
+
+		# Khazaria
+		# k_caucasus: 12, k_caspian_steppe: 6, k_pontic_steppe: 17; e_caspian-pontic_steppe: 35; 12+6 = 51,42% minimum for two kingdoms
+		triggered_effect = {
+			trigger = {
+				title:e_caspian-pontic_steppe = {
+					is_titular = no
+					any_in_de_jure_hierarchy = {
+						filter = { tier = tier_county }
+						continue = { tier > tier_county }
+						OR = {
+							holder = scope:story.story_owner
+							holder = { target_is_liege_or_above = scope:story.story_owner }
+						}
+						percent >= 0.5
+					}
+				}
+			}
+			effect = {
+				title:e_caspian-pontic_steppe = {
+					every_in_de_jure_hierarchy = {
+						limit = {
+							tier = tier_kingdom
+						}
+						set_de_jure_liege_title = scope:story.var:invader_title_var
+					}
+				}
+				if = {
+					limit = {
+						title:e_caspian-pontic_steppe = {
+							is_title_created = yes
+							is_titular = yes
+						}
+					}
+					title:e_caspian-pontic_steppe.holder = { destroy_title = title:e_caspian-pontic_steppe }
+				}
+			}
+		}
+
+		# gradual
+		triggered_effect = {
+			trigger = {
+				scope:story.var:invader_title_var = {
+					any_in_de_jure_hierarchy = { 
+						tier = tier_kingdom
+						count >= 5
+					}
+				}
+			}
+			effect = {
+				historicinvasions_de_jure_change = {
+					INVADER_DYNN = terteroba
+					INVADER_CHAR = scope:story.story_owner
+					INVADER_TITLE = scope:story.var:invader_title_var
+					INVADER_TARGET_TITLE_TIER = kingdom
+					DE_JURE_PERCENT = 0.7
+				}
+			}
+		}
+	}
+}

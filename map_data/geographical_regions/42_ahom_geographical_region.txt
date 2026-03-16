@@ -1,0 +1,20 @@
+﻿# ahom conquest regions
+
+special_ahom_conquest_region_1 = {
+	duchies = {
+		# k_kamarupa
+		d_kamarupanagara d_para_lauhitya d_sutiya
+	}
+}
+
+special_ahom_conquest_region_start = {
+	regions = {
+		special_ahom_conquest_region_1
+	}
+}
+
+special_ahom_conquest_region_total = {
+	regions = {
+		special_ahom_conquest_region_1
+	}
+}

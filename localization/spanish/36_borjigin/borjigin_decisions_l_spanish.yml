@@ -1,0 +1,6 @@
+﻿l_spanish:
+ jochid_restore_golden_horde_decision:0 "Restore the $e_golden_horde$"
+ jochid_restore_golden_horde_decision_confirm:0 "To Glory!"
+ jochid_restore_golden_horde_decision_desc:0 "The $e_mongol_empire$ was not blessed with unity and long term stability in all of its regions. After the death of the Great Khan, the realm split into many individual successor states, including the $e_golden_horde$. The trend would however continue and the $e_golden_horde$ itself would be split into $e_blue_horde$ in the east and $e_white_horde$ in the west.\nWe ought to reverse that trend and reunite the realm of $jochi_borjigin_character_template_name$."
+ jochid_restore_golden_horde_decision_tooltip:0 "Restore the now splintered $e_golden_horde$."
+ golden_horde_when_more_than_x_counties_within:0 "The [GetTitleByKey('e_golden_horde').GetName] will become [de_jure|E] [liege|E] of all [kingdoms|E] with at least #bold 75%#! of [counties|E] within the specified [region|E]:"

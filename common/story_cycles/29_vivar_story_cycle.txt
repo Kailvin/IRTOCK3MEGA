@@ -1,0 +1,137 @@
+﻿# Story for the vivar Invasion
+# originally made by Petter Vilberg
+# adjusted by me
+
+story_vivar_invasion = {
+	on_setup = {
+		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
+			INVADER_DYNN = vivar # for story start global variable
+			INVADER_TITLE = title:d_vivar # title the invader spawns with
+		}
+		story_owner = {
+			apply_invader_modifiers_effect = {
+				INVADER_DYNN = vivar
+			}
+			form_the_invader_title_effect = {
+				INVADER_DYNN = vivar
+				INVADER_CHAR = scope:story.story_owner
+				INVADER_TITLE = scope:story.var:invader_title_var
+				LANDLESS_YES_NO = yes
+			}
+			unlanded_war_target_evaluation_and_declaration_effect = {
+				INVADER_DYNN = vivar
+				INVADER_REGION = start
+				EVERY_RANDOM = random # declare on just one ruler / title (random) or on a large area (every)?
+				INVADER_TARGET_TITLE_TIER = county # currently only to choose target lieges
+				INVADER_TITLE_TARGETS = "target_title = scope:random_start_invasion_target_title"
+				INVADER_LIEGE_RESTRICTIONS = ""
+			}
+		}
+	}
+
+	on_end = {
+		invader_story_on_end_effect = { INVADER_DYNN = vivar }
+		
+		# clean up: landless-type title is reverted and title is destroyed if ruler is still landless
+		if = {
+			limit = { scope:story.var:invader_title_var = { is_landless_type_title = yes } }
+			scope:story.var:invader_title_var = { set_landless_title = no }
+			if = {
+				limit = {
+					scope:story.var:invader_title_var = { is_title_created = yes }
+					scope:story.var:invader_title_var.holder = { is_landless_ruler = yes } # holds any title, but no on-map land
+				}
+				scope:story.var:invader_title_var.holder = { destroy_title = scope:story.var:invader_title_var }
+			}
+		}
+	}
+
+	on_owner_death = {
+		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
+		random = {
+			chance = 0
+			modifier = {
+				add = 100
+				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			modifier = {
+				add = 100
+				scope:story.var:invader_title_var = { is_landless_type_title = yes }
+				scope:story.var:invader_title_var.holder = {
+					is_landless_ruler = yes # holds any title, but no on-map land
+					is_at_war = no # perhaps the initial landess war is still ongoing
+				}
+			}
+			set_variable = {
+				name = end_of_invasion_story
+				value = yes
+			}
+		}
+		invader_story_on_death_effect = { INVADER_DYNN = vivar }
+	}
+
+	# maintenance
+	effect_group = {
+		days = historicinvasions_story_maintenance_value
+
+		trigger = { always = yes }
+
+		# end the story prematurely, because the invader has lost their #th offensive war
+		triggered_effect = {
+			trigger = {
+				NOT = { has_game_rule = historicinvasions_invasion_ends_after_defeat_disabled }
+			}
+			effect = {
+				historicinvasions_invasion_ends_after_defeat_effect = yes
+			}
+		}
+	}
+
+	# Story handling in case of succession weirdness
+	effect_group = {
+		days = historicinvasions_succession_weirdness_value
+
+		trigger = { NOT = { story_owner = { has_title = scope:story.var:invader_title_var } } }
+
+		# either transfer story ownership or end story if the title is not created
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				hi_check_for_valid_story_owner_effect = {
+					INVADER_TITLE = scope:story.var:invader_title_var
+					STORY_COUNTER_INCREASE = 0
+				}
+			}
+		}
+	}
+
+	# notification event & family spawning
+	effect_group = {
+		days = 120
+		trigger = {
+			always = yes
+		}
+		triggered_effect = {
+			trigger = {
+				scope:story.var:invader_title_var = { is_landless_type_title = yes }
+				scope:story.var:invader_title_var.holder = { is_landless_ruler = no }
+			}
+			effect = {
+				scope:story.var:invader_title_var = { set_landless_title = no }
+				story_owner = {
+					spawn_vivar_family_effect = {
+						INVADER_CHAR = scope:story.story_owner
+					}
+					spawn_invader_servants_effect = {
+						INVADER_CHAR = scope:story.story_owner
+					}
+					save_scope_as = invader
+				}
+				every_player = {
+					trigger_event = vivar_invasion.1001 # Notification: Start of invasion
+				}
+				end_story = yes
+			}
+		}
+	}
+}

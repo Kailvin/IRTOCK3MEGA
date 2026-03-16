@@ -1,0 +1,143 @@
+﻿namespace = yngling_invasion
+
+### Spawn invader with the associated story...
+yngling_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:d_yngling # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_yngling_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "yngling story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		if = {
+			limit = { title:k_norway = { is_title_created = no } }
+			debug_log = "yngling story owner has appeared"
+			debug_log_date = yes
+			# Norway isn't united yet
+			character:168323 = { save_scope_as = halfdan }
+			scope:halfdan.dynasty = {
+				# pick an already existing dynasty member
+				ordered_dynasty_member = {
+					limit = {
+						is_landed = yes
+						highest_held_title_tier > tier_barony
+						capital_county = { title_province = { geographical_region = special_yngling_conquest_region_total } }
+						is_independent_ruler = yes
+						is_adult = yes
+						is_healthy = yes
+						is_imprisoned = no
+						historicinvasions_player_may_become_invader_trigger = yes
+						historicinvasions_common_existing_character_restrictions_trigger = yes
+					}
+					alternative_limit = {
+						is_landed = yes
+						highest_held_title_tier > tier_barony
+						capital_county = { title_province = { geographical_region = special_yngling_conquest_region_total } }
+						is_adult = yes
+						is_healthy = yes
+						is_imprisoned = no
+						historicinvasions_player_may_become_invader_trigger = yes
+						historicinvasions_common_existing_character_restrictions_trigger = yes
+					}
+					order_by = realm_size
+					save_scope_as = invader
+				}
+			}
+
+			# only spawns a new character if scope:invader is not set
+			spawn_yngling_invader_effect = {
+				INVADER_DYNN = yngling
+			}
+
+			# start story
+			scope:invader = {
+				create_story = story_yngling_invasion
+			}
+		}
+		else = {
+			debug_log = "yngling story canceled; Norway has already been united"
+			debug_log_date = yes
+			add_to_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:yngling_story_started
+			}
+			add_to_global_variable_list = {
+				name = historicinvasions_story_ended
+				target = flag:yngling_story_ended
+			}
+		}
+	}
+}
+
+# Event for handling army spawning
+yngling_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_yngling_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+yngling_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = yngling
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = duchy
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+yngling_invasion.1001 = { # only players see this
+	type = character_event
+	title = yngling_invasion.1001.t
+	desc = yngling_invasion.1001.desc
+	
+	theme = hi_theme_docks
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = yngling_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = yngling_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		custom_tooltip = invader_title_destroyed_on_succession_tt
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}

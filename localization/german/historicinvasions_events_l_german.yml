@@ -1,0 +1,59 @@
+﻿l_german:
+ historicinvasions_event.1000.opening:0 "To my former enemy,"
+ historicinvasions_event.1000.desc:0 "you've fought valiantly on the battlefield. Despite winning the war and thus being entitled to usurp every county you hold, I have decided to reward you with the [player_compensation_title.GetName].\n\nMay your reign be long and prosperous."
+ historicinvasions_event.1000.a:0 "I graciously accept this gift."
+ historicinvasions_event.1000.a.tt:0 "Despite losing every held title to the invader, a [game_over|E] was prevented.\nYou received a temporary [duchy|E] title as well as some event troops."
+ historicinvasions_event.1000.b:0 "I'd rather lose it all than serve you!"
+
+
+ historicinvasions_event.2001.opening:0 "My destined servant,"
+ historicinvasions_event.2001.desc:0 "As the true ruler of [next_invasion_target_title.GetBaseNameNoTierNoTooltip], it is inevitable that you #italic will#! bow to me. Let it be in a honest oath of fealty, rather than with a blade against your neck.\n\n#f Targeted title: [next_invasion_target_title.GetName]#!"
+ historicinvasions_event.2001.a.higher:0 "My vassals and I will bow to our rightful [invader.GetTitleAsNameNoTooltip]."
+ historicinvasions_event.2001.a.equal:0 "I entrust my feeble realm to you, honored [invader.GetTitleAsNameNoTooltip]."
+ historicinvasions_event.2001.a.lower:0 "I submit with honor, my [invader.GetTitleAsNameNoTooltip]."
+ historicinvasions_event.2001.a.higher_tt:0 "You become a [vassal|E] of [invader.GetShortUIName]. Any held [title|E] of an equal or higher [title_tier|E] to [invader.GetPrimaryTitle.GetRankConcept] will be #n destroyed#!. All of your direct [vassals|E] will be transferred over to [invader.GetFirstNameRegnal]."
+ historicinvasions_event.2001.a.equal_tt:0 "You become a [vassal|E] of [invader.GetShortUIName]. Any held [title|E] of an equal [title_tier|E] to [invader.GetPrimaryTitle.GetRankConcept] will be #n destroyed#!. All of your [vassals|E] will be transferred over to [invader.GetFirstNameRegnal]."
+ historicinvasions_event.2001.a.lower_tt:0 "You become a [vassal|E] of [invader.GetShortUIName]."
+ historicinvasions_event.2001.b:0 "You pose no threat to me!"
+ historicinvasions_event.2001.b.tt:0 "[invader.GetShortUIName|U] declares war on you for every [county|E] within the [next_invasion_target_title.GetName]. It may also include [counties|E] of incomplete [next_invasion_target_title.GetRankConcept]s [invader.GetShortUIName|U] already controls."
+ historicinvasions_event.2001.d:0 "@tengri_icon! An insulting demand! Execute [invader.GetHerHis] envoys!"
+ historicinvasions_event.2001.d.tt:0 "This action may have dire consequences..."
+ borjigin_revenge_executed_mongol_envoys:0 "As you have executed the envoys of [attacker.GetNameNoTooltip], [attacker.GetSheHe] will avenge their death by #n executing your court and razing your provinces#!."
+ historicinvasions_event.2001.e:0 "Could we negotiate a temporary truce?"
+
+ historicinvasions_event.2002.opening:0 "Honored Ruler,"
+ historicinvasions_event.2002.desc:0 "I submit to your rightful and benevolent grace. I will stand with you against any who defy you."
+ historicinvasions_event.2002.a:0 "A wise choice, my servant."
+
+ historicinvasions_event.2003.opening:0 "You [invader.Custom('InsultAdjective')] shadow of a [invader.GetTitleAsNameNoTooltip],"
+ historicinvasions_event.2003.desc:0 "You dare think you can threaten me into submission? Let us meet on the battlefield!"
+ historicinvasions_event.2003.a:0 "War and death it is, then."
+
+
+ historicinvasions_event.2101.desc:0 "You have been a good friend to me thus far. It is time we make your devotion official, as you swear fealty me."
+ historicinvasions_event.2101.a:0 "Of course, my liege."
+ historicinvasions_event.2101.b:0 "You think I am in service to you? Ridiculous!"
+ historicinvasions_event.2101.b.tt:0 "@warning_icon! [invader.GetShortUIName] breaks [invader.GetHerHis] [alliance|E] with you and may go to war instead!\nFuture [alliances|E] will no longer protect you from the wrath of any [historicinvasions_invader|E] for the next couple of years."
+
+ historicinvasions_event.2103.desc:0 "You truly believe yourself to be my better? You are not even my equal! It is clear that the friendship I graciously offered you has been nothing more than throwing pearls before swine."
+ historicinvasions_event.2103.a:0 "Oh, you will regret your words and deeds..."
+ historicinvasions_event.2103.b:0 "Just you wait..."
+
+
+
+ historicinvasions_event.4000.t:0 "A Realm for the $kurdish_collective_noun$"
+ historicinvasions_event.4000.desc:0 "The conquest of Persia by the Rashidun Caliphate begun in 642 and concluded in 651 - just a mere nine years later. Up to that point, [GetFaithByKey('zurvanism').GetReligion.GetName] played an important role in Iranian philosophy and literature. Due to Islamic preachings and the introduction of the Jizya tax on nonbelievers, the old faiths of the region would slowly but steadily be forgotten.\n\nNow that us $kurdish_collective_noun$ have established a kingdom of our own, the subject of our true faith has been brought up again:\nOn one hand, there are calls to revert to the old days prior to the Islamic conquest by reintroducing [GetFaithByKey('zurvanism').GetReligion.GetName] in the form of [GetFaithByKey('zurvanism').GetName].\nA second vocal group of local preachers calls for a return to an ancient, pre-$zoroastrianism_religion_adj$ [GetFaithByKey('yazidi').GetReligion.GetName] faith, namely [GetFaithByKey('yazidi').GetName].\n\nThough there are no voices advocating an outright ban of Islamic teachings - perhaps a sudden change of faith would be an overreaction. Perhaps mutual tolerance in the form of an $tenet_islamic_syncretism_name$ would suit us best."
+ historicinvasions_event.4000.a:0 "We will not change our current ways."
+ historicinvasions_event.4000.b:0 "@hi_yazidism_icon! The local preachers have a point."
+ historicinvasions_event.4000.c:0 "@hi_zurvanism_icon! Let us return to our $zoroastrianism_religion_adj$ traditions."
+
+ historicinvasions_event.9500.t:0 "[historicinvasions_mod]: in-built compatibility"
+ historicinvasions_event.9500.a:0 "I see."
+ historicinvasions_event.9500.desc:0 "To ensure that certain mod features of [historicinvasions_mod|E] do not clash with features added by other mods, the following compatibility changes will be applied to your game for as long as those mods are in your active playset, regardless of your chosen game rules:\n"
+ historicinvasions_event.9500.desc.moregermankingdoms:0 "\n$EFFECT_LIST_BULLET$#high More German Kingdoms:#! The decision to shatter $k_east_francia$ into several smaller kingdoms is delayed until after $otto_ludolfinger_character_template_name$ $hi_dynn_ludolfinger$ finishes their invasion."
+ historicinvasions_event.9500.desc.nodissolutionfactions:0 "\n$EFFECT_LIST_BULLET$#high No Dissolution Factions:#! The $hi_dynn_oghuz_house_anushtiginid$ Empire will shatter $e_persia_article$$e_persia$ if the former wins a [historicinvasions_invasion_war|E] war against them."
+ historicinvasions_event.9500.desc.rice:0 "\n$EFFECT_LIST_BULLET$#high Regional Immersion and Cultural Enrichment:#! $norse$ settlers can only be invited to $d_normandy$ via the decision added by #italic RICE#!."
+ historicinvasions_event.9500.desc.gamerulegadget:0 "\n$EFFECT_LIST_BULLET$#high Gamerule Gadget:#! Enable or disable invasions in already ongoing save games."
+ historicinvasions_event.9500.desc.rajasofasia:0 ""
+ historicinvasions_event.9500.desc.rajasofasia.addon:0 "\n$EFFECT_LIST_BULLET$#high Rajas of Asia:#! You're running [historicinvasions_mod|E] along with RoA, but are #italic not#! running the available compatibility addon found on the Steam workshop. This may lead to some issues."
+ historicinvasions_event.9500.desc.muslimenhancements:0 "\n$EFFECT_LIST_BULLET$#high Muslim Enhancements:#! If the game was started in 1066, only the Seljuk invasion of Asia Minor added by #italic Muslim Enhancements#! will occur."

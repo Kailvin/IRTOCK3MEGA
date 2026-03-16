@@ -1,0 +1,10 @@
+﻿l_french:
+ liao_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
+ liao_invasion.1001.desc:0 "After the consolidation of the [invader.GetCulture.GetNameNoTooltip] tribes, [invader.GetShortUINameNoTooltip] eventually became their leader and proclaimed a dynastic state on Chinese bureaucratic principles.\n\nWill this new realm lead its people to riches and prosperity? Or will they instead perish in fruitless conflicts?"
+ liao_invasion.1001.a:0 "It will surely blow over."
+ liao_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."
+
+ liao_invasion.3001.t:0 "The Question of Faith"
+ liao_invasion.3001.desc:0 "It's not been long since my rise to power. My advisors have suggested that I convert to a more organized faith in order to appease my newly acquired subjects."
+ liao_invasion.3001.a:0 "Yes, I shall convert."
+ liao_invasion.3001.b:0 "No, I'll adhere to the old ways."

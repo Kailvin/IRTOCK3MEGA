@@ -1,0 +1,328 @@
+﻿# timestamp: 1293
+
+# dynasty founder
+ranggah_rajasa_character_template = {
+	name = ranggah_rajasa_character_template_name
+	age = 280
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# dynasty founder spouse 1
+ken_umang_character_template = {
+	name = ken_umang_character_template_name
+	age = 270
+	gender = female
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# dynasty founder spouse 2
+ken_dedes_character_template = {
+	name = ken_dedes_character_template_name
+	age = 275
+	gender = female
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# former spouse of spouse 2. father of Bhatara Anusapati
+tunggul_ametung_character_template = {
+	name = tunggul_ametung_character_template_name
+	age = 275
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		#death = natural
+	}
+}
+
+# son with spouse 1
+panji_tohjaya_rajasa_character_template = {
+	name = panji_tohjaya_rajasa_character_template_name
+	age = 210
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+### invader branch
+# son with spouse 2 (? - ?)
+mahisa_wong_teleng_rajasa_character_template = {
+	name = mahisa_wong_teleng_rajasa_character_template_name
+	age = 215
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# (? - ?)
+bhatara_narasinghamurti_rajasa_character_template = {
+	name = bhatara_narasinghamurti_rajasa_character_template_name
+	age = 145
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# (? - ?)
+dyah_lembu_tal_rajasa_character_template = {
+	name = dyah_lembu_tal_rajasa_character_template_name
+	age = 75
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+### spouse branch
+# (? - 1248)
+bhatara_anusapati_rajasa_character_template = {
+	name = bhatara_anusapati_rajasa_character_template_name
+	age = 210
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# (? - 1268)
+jayawisnuwardhana_rajasa_character_template = {
+	name = jayawisnuwardhana_rajasa_character_template_name
+	age = 140
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# father of spouse (? - 1292)
+kertanagara_rajasa_character_template = {
+	name = kertanagara_rajasa_character_template_name
+	age = 80
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+### invader
+# INVADER (? - 1309)
+kertarajasa_jayawardhana_rajasa_character_template = {
+	name = kertarajasa_jayawardhana_rajasa_character_template_name
+	age = { 35 40 }
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	# education
+	trait = education_martial_4
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		give_random_commander_trait_effect = yes
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# spouse 1 (1276 - 1350)
+gayatri_rajapatni_rajasa_character_template = {
+	name = gayatri_rajapatni_rajasa_character_template_name
+	age = { 35 40 }
+	gender = female
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# spouse 2 (? - ?)
+indreswari_mauli_character_template = {
+	name = indreswari_mauli_character_template_name
+	age = { 35 40 }
+	gender = female
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# son, spouse 2 (? - 1328)
+jayanegara_rajasa_character_template = {
+	name = jayanegara_rajasa_character_template_name
+	age = { 16 20 }
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# daughter, spouse 1 (? - 1350)
+dyah_tya_rajasa_chracter_template = {
+	name = dyah_tya_rajasa_chracter_template_name
+	age = { 16 20 }
+	gender = female
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# spouse daughter
+cakradhara_character_template = {
+	name = cakradhara_character_template_name
+	age = { 16 20 }
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# daughter son
+hayam_wuruk_rajasa_character_template = {
+	name = hayam_wuruk_rajasa_character_template
+	age = 0
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:javanese
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

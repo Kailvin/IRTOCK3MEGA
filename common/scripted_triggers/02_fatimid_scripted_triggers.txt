@@ -1,0 +1,56 @@
+﻿# historicinvasions_migration_ducal_processing_trigger = {
+# 	#We're currently processing dukes.
+# 	highest_held_title_tier = tier_duchy
+# 	#Doesn't hold a valid duchy-tier title in MIGRATION_TARGET.
+# 	NOT = {
+# 		any_held_title = {
+# 			title_capital_county.title_province = { geographical_region = $MIGRATION_REGION$ }
+# 			tier = tier_duchy
+# 		}
+# 	}
+# }
+
+# historicinvasions_migration_count_processing_trigger = {
+# 	#Doesn't hold a valid county-tier title in MIGRATION_TARGET.
+# 	NOT = {
+# 		any_held_title = {
+# 			tier = tier_county
+# 			title_province = { geographical_region = $MIGRATION_REGION$ }
+# 		}
+# 	}
+# }
+
+# historicinvasions_migration_sub_vassal_liege_pairing_trigger = {
+# 	tier = tier_county
+# 	#Liege should be a suitable duke within MIGRATION_TARGET.
+# 	holder = scope:receiving_vassal.liege
+# 	#Double-check that the duke can afford to give a title away.
+# 	scope:receiving_vassal.liege = {
+# 		any_held_title = {
+# 			count >= 2
+# 			tier = tier_county
+# 			title_province = { geographical_region = $MIGRATION_REGION$ }
+# 		}
+# 	}
+# }
+
+# historicinvasions_migration_direct_vassal_requirements_trigger = {
+# 	tier = tier_county
+# 	holder = $MIGRATION_LEADER$
+# }
+
+historicinvasions_migration_county_is_within_MIGRATION_REGION_trigger = {
+	tier = tier_county
+	title_province = { geographical_region = $MIGRATION_REGION$ }
+}
+
+historicinvasions_migration_misplaced_count_suitable_liege_trigger = {
+	historicinvasions_migration_county_is_within_MIGRATION_REGION_trigger = { MIGRATION_REGION = $MIGRATION_REGION$ }
+	duchy = {
+		exists = holder
+		holder = {
+			NOT = { this = $MIGRATION_LEADER$ }
+			liege = $MIGRATION_LEADER$
+		}
+	}
+}

@@ -1,0 +1,129 @@
+﻿elector_voting_pattern_opinion_mamluk_elective_modifier = {
+	# skill rating - general
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_skill_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		add = {
+			add = scope:candidate.sum_of_all_skills_value
+			multiply = 0.7
+			# subtract = 28 # poor skill * 4
+			# if = {
+			# 	limit = { scope:candidate = { average_of_all_skills >= 25 } }
+			# 	multiply = 1.2
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { average_of_all_skills >= excellent_skill_level } } # 16
+			# 	multiply = 1.1
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { average_of_all_skills >= average_skill_level } } # 11
+			# 	multiply = 1.0
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { average_of_all_skills >= poor_skill_level } } # 7
+			# 	multiply = 0.8
+			# }
+			if = {
+				limit = { scope:candidate = { average_of_all_skills < poor_skill_level } } # 7
+				subtract = 50
+			}
+			max = 100 # avg. of ~26
+		}
+	}
+	# skill rating - prowess
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_prowess_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		add = {
+			add = scope:candidate.prowess
+			multiply = 0.5
+			# if = {
+			# 	limit = { scope:candidate = { prowess >= 25 } }
+			# 	multiply = 1.2
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { prowess >= excellent_skill_level } }
+			# 	multiply = 1.1
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { prowess >= average_skill_level } }
+			# 	multiply = 1.0
+			# }
+			# else_if = {
+			# 	limit = { scope:candidate = { prowess >= poor_skill_level } } # 7
+			# 	multiply = 0.8
+			# }
+			if = {
+				limit = { scope:candidate = { prowess < poor_skill_level } }
+				subtract = 25
+			}
+			max = 100
+		}
+	}
+	# professions - council
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_council_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		#is_councillor = yes # is_normal_councillor ?
+		scope:candidate = { is_councillor = yes }
+		add = 10
+	}
+	# professions - minor court positions
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_minor_court_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		scope:candidate = { has_any_court_position = yes }
+		add = 5
+	}
+	# realm - powerful vassal
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_powerful_vassal_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		scope:candidate = { is_powerful_vassal_of = scope:holder }
+		add = 20
+	}
+	# professions - knight
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_knight_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		scope:candidate = { is_knight = yes }
+		add = 10
+	}
+	# mamluk trait
+	modifier = {
+		desc = tooltip_mamluk_elector_vote_mamluk_trait_rating
+		NOT = { this = scope:candidate } # do not judge yourself
+		scope:candidate = { has_trait = mamluk_commander }
+		add = 35
+	}
+
+	### cancel out other modifiers ###
+	#Claims
+	modifier = {
+		add = -30
+		desc = tooltip_feudal_elector_vote_strong_claimant
+		NOT = { this = scope:candidate }
+		scope:candidate = { has_strong_claim_on = scope:title }
+	}
+	modifier = {
+		add = -15
+		desc = tooltip_feudal_elector_vote_weak_claimant
+		NOT = { this = scope:candidate }
+		scope:candidate = { has_weak_claim_on = scope:title }
+	}
+	# Political Circumstances
+	modifier = {
+		add = {
+			if = {
+				limit = {
+					scope:holder = { has_diarchy_parameter = diarchy_type_is_temporary_regency }
+				}
+				subtract = 20
+			}
+			else = { subtract = 40 }
+		}
+		desc = tooltip_feudal_elector_vote_regent_already_governs
+		NOT = { this = scope:candidate }
+		scope:candidate = { is_diarch_of_target = scope:holder }
+	}
+}

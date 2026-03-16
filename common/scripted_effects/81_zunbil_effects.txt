@@ -1,0 +1,292 @@
+﻿# spawn invader, before story
+spawn_zunbil_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+
+	# father
+	character:188700 = { save_scope_as = barhatakin_zunbil } # dynasty root
+	character:188701 = { save_scope_as = rutbil_zunbil } # frist Zunbil ruler
+	character:188716 = { save_scope_as = zere_zunbil }
+
+	if = {
+		limit = { NOT = { exists = scope:invader } }
+		# INVADER
+		create_character = {
+			age = 30
+			gender = male
+
+			template = new_commander_character
+			dynasty = inherit
+			father = scope:zere_zunbil
+			location = scope:invader_spawn_location
+			save_scope_as = invader
+			after_creation = {
+				add_character_flag = spawned_$INVADER_DYNN$
+			}
+		}
+	}
+	else = {
+		scope:invader = {
+			set_character_faith_with_conversion = faith:zun_pagan
+			every_child = {
+				limit = {
+					is_ai = yes
+					OR = {
+						is_ruler = no
+						top_liege = scope:invader
+					}
+				}
+				set_character_faith_with_conversion = faith:zun_pagan
+				every_child = {
+					limit = {
+						is_ai = yes
+						OR = {
+							is_ruler = no
+							top_liege = scope:invader
+						}
+					}
+					set_character_faith_with_conversion = faith:zun_pagan
+				}
+			}
+
+			# ensure heirs are of the correct faith
+			if = {
+				limit = {
+					matrilinear_marriage = yes
+					primary_spouse = { is_ai = yes }
+				}
+				primary_spouse = { set_character_faith_with_conversion = faith:zun_pagan }
+			}
+		}
+	}
+
+	scope:invader = {
+		add_gold = 750
+		add_prestige = 500
+		add_piety = 1750
+
+		### add perks here so an existing invader gains their benefit as well
+		# learning
+		add_perk = faithful_perk
+		add_perk = zealous_proselytizer_perk
+		add_perk = religious_icon_perk
+		add_perk = prophet_perk
+		# martial
+		add_perk = stalwart_leader_perk
+		
+		dynasty = {
+			add_dynasty_prestige_level = 1
+			add_dynasty_prestige = 1000
+			
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+		house = {}
+	}
+
+	every_player = {
+		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+	}
+}
+
+zunbil_add_dynasty_perks_effect = {
+	add_dynasty_perk = erudition_legacy_1
+	add_dynasty_perk = erudition_legacy_2
+}
+
+zunbil_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	if = {
+		limit = { $INVADER_CHAR$ = { has_character_flag = spawned_$INVADER_DYNN$ } }
+		give_invader_land_effect = {
+			INVADER_DYNN = $INVADER_DYNN$
+			INVADER_CHAR = $INVADER_CHAR$
+			STARTING_TIER = $STARTING_TIER$
+		}
+	}
+	spawn_$INVADER_DYNN$_family_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_zunbil_family_effect = {
+	if = {
+		limit = { $INVADER_CHAR$ = { age >= 16 } }
+		# spouse
+		create_character = {
+			age = { 17 24 }
+			template = hi_random_spouse_character_template
+			dynasty = none
+			gender = female
+			employer = $INVADER_CHAR$
+			faith = $INVADER_CHAR$.faith
+			culture = $INVADER_CHAR$.culture
+			save_scope_as = invader_spouse # marriage is down below
+			after_creation = {
+				disease_immunity_short_effect = yes
+				marry = $INVADER_CHAR$
+			}
+		}
+		# three concubines
+		create_character = {
+			age = { 17 24 }
+			template = hi_random_spouse_character_template
+			dynasty = none
+			gender = female
+			employer = $INVADER_CHAR$
+			faith = $INVADER_CHAR$.faith
+			culture = $INVADER_CHAR$.culture
+			save_scope_as = concubine_1
+			after_creation = {
+				disease_immunity_short_effect = yes
+				if = {
+					limit = {
+						NOT = { has_trait = lustful }
+						number_of_personality_traits < 4
+					}
+					add_trait = lustful
+				}
+			}
+		}
+		create_character = {
+			age = { 17 24 }
+			template = hi_random_spouse_character_template
+			dynasty = none
+			gender = female
+			employer = $INVADER_CHAR$
+			faith = $INVADER_CHAR$.faith
+			culture = $INVADER_CHAR$.culture
+			save_scope_as = concubine_2
+			after_creation = {
+				disease_immunity_short_effect = yes
+				if = {
+					limit = {
+						NOT = { has_trait = lustful }
+						number_of_personality_traits < 4
+					}
+					add_trait = lustful
+				}
+			}
+		}
+		create_character = {
+			age = { 17 24 }
+			template = hi_random_spouse_character_template
+			dynasty = none
+			gender = female
+			employer = $INVADER_CHAR$
+			faith = $INVADER_CHAR$.faith
+			culture = $INVADER_CHAR$.culture
+			save_scope_as = concubine_3
+			after_creation = {
+				disease_immunity_short_effect = yes
+				if = {
+					limit = {
+						NOT = { has_trait = lustful }
+						number_of_personality_traits < 4
+					}
+					add_trait = lustful
+				}
+			}
+		}
+		$INVADER_CHAR$ = {
+			make_concubine = scope:concubine_1
+			make_concubine = scope:concubine_2
+			make_concubine = scope:concubine_3
+		}
+
+		# children
+		if = {
+			limit = { $INVADER_CHAR$ = { age >= 24 } }
+			create_character = {
+				template = hi_random_child_character_template
+				gender = female
+				mother = $INVADER_CHAR$.primary_spouse
+				father = $INVADER_CHAR$
+				dynasty = inherit
+				employer = $INVADER_CHAR$
+				after_creation = { disease_immunity_long_effect = yes }
+			}
+			create_character = {
+				template = hi_random_child_character_template
+				gender = male
+				mother = $INVADER_CHAR$.primary_spouse
+				father = $INVADER_CHAR$
+				dynasty = inherit
+				employer = $INVADER_CHAR$
+				after_creation = { disease_immunity_long_effect = yes }
+			}
+		}
+	}
+	else = {
+		create_character = {
+			age = { 6 14 }
+			template = hi_random_spouse_character_template
+			dynasty = none
+			gender = female
+			employer = $INVADER_CHAR$
+			faith = $INVADER_CHAR$.faith
+			culture = $INVADER_CHAR$.culture
+			save_scope_as = invader_spouse # marriage is down below
+			after_creation = {
+				disease_immunity_short_effect = yes
+				create_betrothal = $INVADER_CHAR$
+				if = {
+					limit = {
+						NOT = { has_trait = lustful }
+						number_of_personality_traits < 4
+					}
+					add_trait = lustful
+				}
+			}
+		}
+	}
+}
+
+# Make sure invader has troops
+spawn_zunbil_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_zunbil_army_effect = yes
+	}
+	spawn_zunbil_army_effect = yes
+}
+spawn_zunbil_army_effect = {
+	spawn_army = {
+		name = zunbil_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = no
+		
+		levies = 250
+		men_at_arms = {
+			type = ayyar
+			stacks = 5
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = camel_rider
+			stacks = 4
+		}
+		# siege
+		men_at_arms = {
+			type = onager
+			stacks = 3
+		}
+	}
+}

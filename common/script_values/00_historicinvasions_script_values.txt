@@ -1,0 +1,22 @@
+﻿### doesn't take arguments as of base game  version 1.6.1.2
+
+# female chance for spawned knights, etc.
+historicinvasions_soldier_female_chance = {
+	if = {
+		limit = {
+			NOT = { dummy_female = { can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:story.story_owner } } }
+			dummy_male = { can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:story.story_owner } }
+		}
+		add =  0
+	}
+	else_if = {
+		limit = {
+			dummy_female = { can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:story.story_owner } }
+			NOT = { dummy_male = { can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:story.story_owner } } }
+		}
+		add =  100
+	}
+	else = {
+	 	add = 50
+	}
+}

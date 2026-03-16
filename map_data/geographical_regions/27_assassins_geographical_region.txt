@@ -1,0 +1,54 @@
+﻿# assassins conquest regions
+
+### Persia, Sabbah
+
+special_sabbah_conquest_region_1 = {
+	duchies = {
+		# k_khorasan
+		d_nishapur d_kohestan #d_merv d_ghur d_herat d_balkh d_nasa 
+		# k_daylam
+		d_daylam d_tabaristan d_gurgan #d_azerbaijan d_shirvan
+		# k_persia
+		d_hormuz d_fars d_kirman d_yazd d_khuzestan d_isfahan d_rayy d_hamadan d_kermanshah
+	}
+}
+
+special_sabbah_conquest_region_start = {
+	regions = {
+		special_sabbah_conquest_region_1
+	}
+}
+
+special_sabbah_conquest_region_total = {
+	regions = {
+		special_sabbah_conquest_region_1
+	}
+}
+
+### Syria, Jabalid
+
+special_jabalid_conquest_region_1 = {
+	duchies = {
+		# k_jazira
+		#d_euphrates
+		#d_diyarrabia
+		d_diyarbakr
+		#d_diyarmudar
+		#d_kurdistan
+
+		# k_syria
+		d_edessa d_antioch d_aleppo d_homs d_palmyra d_lebanon d_damascus
+	}
+}
+
+special_jabalid_conquest_region_start = {
+	regions = {
+		special_jabalid_conquest_region_1
+	}
+}
+
+special_jabalid_conquest_region_total = {
+	regions = {
+		special_jabalid_conquest_region_1
+	}
+}

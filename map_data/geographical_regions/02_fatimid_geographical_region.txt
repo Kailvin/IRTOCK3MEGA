@@ -1,0 +1,147 @@
+﻿#####################
+# Special Regions
+#####################
+
+### Fatimid Conquest regions
+
+special_fatimid_conquest_region_1 = { # 909
+	duchies = {
+		# k_africa
+		d_tunis d_kairouan d_gabes d_tripolitania d_kroumerie
+
+		# k_tahert
+		d_bejaia d_zab d_alger d_tahert
+	}
+}
+
+special_fatimid_conquest_region_2 = { # 916
+	duchies = {
+		# k_africa
+		d_jerid
+
+		# k_tahert
+		d_mzab
+
+		# k_sicily
+		d_sicily
+	}
+}
+
+special_fatimid_conquest_region_3 = { # 932, subjugation of Idrisids
+	duchies = {
+		# k_tahert
+		d_tlemcen
+
+		# k_maghreb
+		d_rif d_fes d_marrakesh d_tafilalt d_sous
+
+		# k_africa
+		d_syrte
+	}
+}
+
+special_fatimid_conquest_region_4 = { # 970, conquest of Egypt. 972: court is moved to Egypt (Cairo), Africa is handed to Zirids
+	duchies = {
+		# k_egypt
+		d_cyrenaica d_alexandria d_delta d_cairo d_al-wahat d_al-said d_sinai
+	}
+}
+
+special_fatimid_conquest_region_5 = { # 978
+	duchies = {
+		# k_arabia
+		d_shammar d_medina d_mecca
+		#d_amman
+
+		# k_jerusalem
+		d_oultrejourdain d_palestine d_urdunn
+
+		# k_syria
+		d_lebanon d_damascus
+	}
+}
+
+special_fatimid_conquest_region_start = {
+	duchies = {
+		d_tunis
+		d_kairouan
+		d_kroumerie
+		d_bejaia
+		d_zab
+		d_gabes
+	}
+}
+
+special_fatimid_conquest_region_total_north_africa = {
+	regions = {
+		special_fatimid_conquest_region_1
+		special_fatimid_conquest_region_2
+		special_fatimid_conquest_region_3
+	}
+}
+
+special_fatimid_conquest_region_total_arabia = {
+	regions = {
+		special_fatimid_conquest_region_4
+		special_fatimid_conquest_region_5
+	}
+}
+
+special_fatimid_conquest_region_total = {
+	regions = {
+		special_fatimid_conquest_region_total_north_africa
+		special_fatimid_conquest_region_total_arabia
+	}
+}
+
+# 984, loss of Idrisids (k_maghreb)
+# 1016, loss of Zirids (k_tahert)
+# 1047, gains d_sanaa d_taizz (k_yemen)
+# 1051, loss of k_africa
+# ~1060, loss of d_sicily
+# gradual losses against Seljuks
+# 1171, replaced by Ayyubids
+
+# for conversions in Persia
+special_fatimid_persia_region = {
+	duchies = {
+		# k_khorasan
+		d_nasa
+		d_nishapur
+		d_merv
+		d_herat
+		d_kohestan
+		d_balkh
+		d_ghur
+
+		# k_persia
+		d_rayy
+		d_hamadan
+		d_kermanshah
+		d_kirman
+		d_isfahan
+		d_khuzestan
+		d_yazd
+		d_fars
+		d_hormuz
+
+		# k_daylam
+		d_gurgan
+		d_tabaristan
+		d_daylam
+		d_azerbaijan
+		d_shirvan
+
+		# k_makran
+		d_sistan
+		d_jabal_kufs
+		d_makran
+	}
+}
+
+special_fatimid_hejaz_region = {
+	duchies = {
+		d_mecca
+		d_medina
+	}
+}

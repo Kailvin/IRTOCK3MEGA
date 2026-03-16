@@ -1,0 +1,51 @@
+﻿k_teutonic_order = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	# cross
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_barrulets_2.dds"
+		color1 = "black"
+		instance = { scale = { 1 0.6 } }
+	}
+	colored_emblem = {
+		texture = "ce_barrulets_2.dds"
+		color1 = "black"
+		instance = { rotation = 90 scale = { 0.6 1 } }
+	}
+	# middle
+	colored_emblem = {
+		texture = "ce_shield_01.dds"
+		color1 = "black"
+		instance = { scale = { 0.4 0.4 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_01.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "black"
+		color2 = "red"
+		instance = { scale = { 0.4 0.4 } }
+	}
+}
+k_livonian_order = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_sword_simple.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.6 } rotation = 180 scale = { 0.75 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_cross_patty.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.175 } scale = { 0.3 0.3 } }
+	}
+}

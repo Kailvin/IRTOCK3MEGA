@@ -1,0 +1,91 @@
+﻿namespace = mamluk_invasion
+
+# marshal_task.0301
+# Mamluk commander is recruited
+mamluk_invasion.0150 = {
+	type = character_event
+	title = mamluk_invasion.0150.t
+	desc = mamluk_invasion.0150.desc
+
+	theme = martial
+	left_portrait = {
+		character = scope:new_mamluk_commander
+		animation = ecstasy
+	}
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_rational
+	}
+
+	trigger = { is_ai = no }
+
+	immediate = { cp:councillor_marshal = { save_scope_as = marshal } }
+
+	option = {
+		name = mamluk_invasion.0150.a
+		ai_chance = { base = 100 }
+	}
+}
+
+# Mamluk regiment is recruited
+mamluk_invasion.0151 = {
+	type = character_event
+	title = mamluk_invasion.0151.t
+	desc = mamluk_invasion.0151.desc
+
+	theme = martial
+	right_portrait = {
+		character = cp:councillor_marshal
+		animation = personality_rational
+	}
+
+	trigger = { is_ai = no }
+
+	immediate = { cp:councillor_marshal = { save_scope_as = marshal } }
+
+	option = {
+		name = mamluk_invasion.0151.a
+		ai_chance = { base = 100 }
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The Mamluk coup has been successful! Would you like to play as them?
+mamluk_invasion.1001 = { # only players see this
+	type = character_event
+	title = mamluk_invasion.1001.t
+	desc = mamluk_invasion.1001.desc
+	
+	theme = hi_theme_desert
+
+	left_portrait = {
+		character = scope:mamluk_usurper
+		animation = personality_bold
+	}
+
+	right_portrait = {
+		character = scope:old_emperor
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = mamluk_invasion.1001.a }
+
+	option = { # play as the new Mamluk government
+		name = mamluk_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:mamluk_usurper = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:mamluk_usurper
+	}
+}

@@ -1,0 +1,71 @@
+﻿### Wanggiyan / Jin Conquest Regions
+
+special_wanggiyan_conquest_region_1 = {
+	duchies = {
+		# k_luzhen
+		d_BAL_yeojintang d_BAL_dongpyeong d_BAL_cheolli d_BAL_hoewon d_BAL_anwon
+
+		# k_balhae
+		d_BAL_buyeo d_BAL_amnok_jangryeong d_BAL_moe_su d_BAL_parhae d_BAL_southern_balhae
+	
+		# k_amur
+		d_eman_bureya d_eman_amar d_eman_boli d_eman_samagero d_eman_sikhotebei d_eman_nivkhia
+	}
+}
+
+special_wanggiyan_conquest_region_2 = {
+	duchies = {
+		# k_khitan
+		d_LIAO_shangjing d_LIAO_dongjing d_LIAO_linhuang
+
+		# k_raole
+		d_yanyun_yuyi d_LIAO_zhongjing d_liaoxi
+
+		# k_daibei
+		d_xinan d_yunshuo d_sanggan
+
+		# k_youji
+		d_youzhou d_yideng d_yingmo
+	}
+}
+
+special_wanggiyan_conquest_region_3 = {
+	duchies = {
+		# k_qingxu
+		d_ziqing d_yanhai d_xusi d_yuncao
+
+		# k_hebei
+		d_cangjing d_weibo d_chengde d_xingming d_heyang
+
+		# k_hedong
+		d_yanmen d_hedong d_zelu d_hezhong
+
+		# k_henan
+		d_biansong d_chenxu d_zhenghua d_dongji d_shanguo
+
+		# k_guannei
+		d_yongxing d_fufang d_binning d_jingyuan d_fengxiang d_qincheng d_xingfeng #d_jinshang
+	}
+}
+
+special_wanggiyan_conquest_region_start = {
+	regions = {
+		special_wanggiyan_conquest_region_1
+	}
+}
+
+special_wanggiyan_conquest_region_total = {
+	regions = {
+		special_wanggiyan_conquest_region_1
+		special_wanggiyan_conquest_region_2
+		special_wanggiyan_conquest_region_3
+	}
+}
+
+special_wanggiyan_conquest_region_de_jure = {
+	regions = {
+		special_wanggiyan_conquest_region_1
+		special_wanggiyan_conquest_region_2
+		special_wanggiyan_conquest_region_3
+	}
+}

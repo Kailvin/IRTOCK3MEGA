@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ ghaznavid_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
+ ghaznavid_invasion.1001.desc:0 "The region between Persia and India is a troubled one. Ever since the Sassanid Empire fell, the Iranian Plateau has been in a state of chaos, with local ruler struggling over the hegemony of the trade-rich region.\n\nOnce a slave, [invader.GetFirstName] has now taken up arms and is rallying his followers. Locals tell of a rapidly expanding empire and fear that [invader.GetSheHe] will topple all other rulers in the region."
+ ghaznavid_invasion.1001.a:0 "A troubled region."
+ ghaznavid_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

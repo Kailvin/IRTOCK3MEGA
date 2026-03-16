@@ -1,0 +1,5 @@
+﻿l_french:
+ yelu_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
+ yelu_invasion.1001.desc:0 "The [invader.GetHouse.GetNameNoTooltip] have fled their homeland of Manchuria after the Chinese Jin dynasty has begun conquering the region.\n\n[invader.GetFirstNameNoTooltip] is an eighth generation descendant of Emperor Taizu of Liao. Will that help [invader.GetHerHim] to build a new empire in central Asia?"
+ yelu_invasion.1001.a:0 "Another conqueror from the steppe?"
+ yelu_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

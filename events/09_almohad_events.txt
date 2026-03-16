@@ -1,0 +1,112 @@
+﻿namespace = almohad_invasion
+
+### Spawn invader with the associated story...
+almohad_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_almohad # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_almohad_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "almohad story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "almohad story owner has appeared"
+		debug_log_date = yes
+		
+		spawn_almohad_invader_effect = {
+			INVADER_DYNN = almohad
+		}
+		scope:invader = {
+			create_story = story_almohad_invasion_mod
+		}
+	}
+}
+
+# Event for handling new army spawning on succession
+almohad_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_almohad_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+almohad_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = almohad
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = 1
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+almohad_invasion.1001 = { # only players see this
+	type = character_event
+	title = almohad_invasion.1001.t
+	desc = almohad_invasion.1001.desc
+	
+	theme = hi_theme_mountains
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_zealous
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = almohad_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = almohad_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}
+
+### Almohads are now involved in the struggle for Iberia
+almohad_invasion.1002 = { # only players see this
+	type = character_event
+	title = almohad_invasion.1002.t
+	desc = almohad_invasion.1002.desc
+	
+	theme = hi_theme_mountains
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_zealous
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = almohad_invasion.1002.a }
+}

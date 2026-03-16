@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ rajasa_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
+ rajasa_invasion.1001.desc:0 "In the aftermath of the $mongol$ expansion, ripples of their influence made their way over to southeast Asia. A few years prior, Kublai Khan demanded tribute from Kertanegara. Not only was his demand declined, but one of his messenger's ears was cut off. In an act of revenge, Kublai Khan landed a military force in eastern Java - but he was too late, as Kertanegara had already passed away.\n\nInstead, [invader.GetShortUINameNoTooltip] negotiated a temporary alliance to subjugate one of the stronger realms on the island of Java.\n\nThis alliance was not meant to last, as [invader.GetFirstNameNoTooltip] turned on the $mongol$ force when the time was right, which sent them fleeing back to mainland Asia.\n\nWill [invader.GetFirstNameNoTooltip] be able to fill the new power vacuum?"
+ rajasa_invasion.1001.a:0 "I have my doubts."
+ rajasa_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

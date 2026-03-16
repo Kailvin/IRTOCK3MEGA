@@ -1,0 +1,161 @@
+﻿### 867 alive: Hussayn [7259, 33920]
+
+# INVADER
+abdullah_fatimid_character_template = { # ID: 9810, history-ID: 32900
+	name = abdullah_fatimid_character_template_name
+	age = 39 # in 909, born ~870
+	gender = male
+
+	learning = 21
+
+	faith = faith:ismaili
+	culture = culture:egyptian
+
+	trait = zealous
+	trait = temperate
+	trait = humble
+
+	trait = education_martial_4
+	trait = sayyid
+
+	trait = military_engineer
+	trait = open_terrain_expert
+
+	random_traits = no
+	after_creation = {
+		give_nickname = nick_hi_al-mahdi
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+al-qaim_fatimid_character_template = { # ID: 10659, history-ID: 32901
+	name = al-qaim_fatimid_character_template_name
+	age = 15 # in 909, born ~893
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:egyptian
+
+	trait = sayyid
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+al-qaim_fatimid_spouse_character_template = { # can't find anything about her online
+	age = { 13 16 }
+	gender = female
+	dynasty = none
+
+	faith = faith:ismaili
+	culture = culture:egyptian
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+### post-migration rulers
+
+hi_post_migration_local_warlord_template = {
+	age = { 20 40 }
+	random_traits = yes
+	culture = scope:seceding_duchy.title_capital_county.title_province.culture
+	faith = scope:seceding_duchy.title_capital_county.title_province.faith
+	gender_female_chance = {
+		if = {
+			limit = { scope:seceding_duchy.title_capital_county.title_province.faith = { has_doctrine = doctrine_gender_male_dominated } }
+			add = 0
+		}
+		else_if = {
+			limit = { scope:seceding_duchy.title_capital_county.title_province.faith = { has_doctrine = doctrine_gender_female_dominated } }
+			add = 100
+		}
+		else = {
+			add = 50
+		}
+	}
+	martial = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+hi_post_migration_minor_warlord_template = {
+	age = { 20 40 }
+	random_traits = yes
+	culture = scope:seceding_county.title_capital_county.title_province.culture
+	faith = scope:seceding_county.title_capital_county.title_province.faith
+	gender_female_chance = {
+		if = {
+			limit = { scope:seceding_county.title_capital_county.title_province.faith = { has_doctrine = doctrine_gender_male_dominated } }
+			add = 0
+		}
+		else_if = {
+			limit = { scope:seceding_county.title_capital_county.title_province.faith = { has_doctrine = doctrine_gender_female_dominated } }
+			add = 100
+		}
+		else = {
+			add = 50
+		}
+	}
+	martial = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+hashimid_mecca_character_template = {
+	age = { 24 32 }
+	
+	gender_female_chance = {
+		if = {
+			limit = { faith:zayidi = { has_doctrine = doctrine_gender_male_dominated } }
+			add = 0
+		}
+		else_if = {
+			limit = { faith:zayidi = { has_doctrine = doctrine_gender_female_dominated } }
+			add = 100
+		}
+		else = {
+			add = 50
+		}
+	}
+
+	faith = faith:zayidi
+	culture = culture:bedouin
+
+	random_traits_list = {
+		education_diplomacy_3 = { weight = { base = 20 } }
+		education_diplomacy_4 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 10 } }
+		education_stewardship_3 = { weight = { base = 20 } }
+		education_stewardship_4 = { weight = { base = 10 } }
+		education_learning_3 = { weight = { base = 35 } }
+		education_learning_4 = { weight = { base = 25 } }
+	}
+
+	trait = temperate
+	trait = just
+	trait = generous
+
+	trait = theologian
+
+	trait = sayyid
+
+	random_traits = no
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

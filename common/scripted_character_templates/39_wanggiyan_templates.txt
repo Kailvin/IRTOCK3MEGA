@@ -1,0 +1,507 @@
+﻿# timestamp: 1115
+
+# 896 - 949
+hanpu_wanggiyan_character_template = {
+	name = hanpu_wanggiyan_character_template_name
+	age = 219 # 1115 - 896
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# 921 - 974
+wulu_wanggiyan_character_template = {
+	name = wulu_wanggiyan_character_template_name
+	age = 194 # 1115 - 921
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# 946 - 999
+bahai_wanggiyan_character_template = {
+	name = bahai_wanggiyan_character_template_name
+	age = 169
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# 971 - 1024
+suike_wanggiyan_character_template = {
+	name = suike_wanggiyan_character_template_name
+	age = 144
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# 996 - 1049
+shilu_wanggiyan_character_template = {
+	name = shilu_wanggiyan_character_template_name
+	age = 119
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# GRANDFATHER 1021 - 1074, ruler in 1066
+wugunai_wanggiyan_character_template = {
+	name = wugunai_wanggiyan_character_template_name
+	age = 94
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	martial = { 15 20 }
+
+	trait = education_martial_4
+
+	trait = lustful
+	trait = gluttonous
+
+	trait = lifestyle_reveler
+
+	random_traits = yes
+	after_creation = {
+		give_random_commander_trait_effect = yes
+		give_random_commander_trait_effect = yes
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+
+### GEN A
+# 1042 - 1094
+polashu_wanggiyan_character_template = {
+	name = polashu_wanggiyan_character_template_name
+	age = 73
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# 1053 - 1103
+yingge_wanggiyan_character_template = {
+	name = yingge_wanggiyan_character_template_name
+	age = 62
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# ? - 1121
+hezhe_wanggiyan_character_template = {
+	name = hezhe_wanggiyan_character_template_name
+	age = { 45 55 }
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# FATHER 1039 - 1092
+helibo_wanggiyan_character_template = {
+	name = helibo_wanggiyan_character_template_name
+	age = 76
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+
+### GEN B
+## hezhe
+# ? - ?
+sagai_wanggiyan_character_template = {
+	name = sagai_wanggiyan_character_template_name
+	age = { 50 60 }
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+## helibo
+# 1061 - 1113
+wuyashu_wanggiyan_character_template = {
+	name = wuyashu_wanggiyan_character_template_name
+	age = 54
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# INVADER 1068 - 1123
+aguda_wanggiyan_character_template = {
+	name = aguda_wanggiyan_character_template_name
+	age = 47
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	# education
+	trait = education_martial_4
+
+	# personality
+	trait = brave
+	trait = stubborn
+	trait = ambitious
+
+	# other
+	trait = shrewd
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = flexible_truces_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# 1075 - 1135
+wuqimai_wanggiyan_character_template = {
+	name = wuqimai_wanggiyan_character_template_name
+	age = 40
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	# education
+	random_traits_list = {
+		education_diplomacy_3 = { weight = { base = 20 } }
+		education_diplomacy_4 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 10 } }
+		education_stewardship_3 = { weight = { base = 20 } }
+		education_stewardship_4 = { weight = { base = 10 } }
+		education_intrigue_3 = { weight = { base = 20 } }
+		education_intrigue_4 = { weight = { base = 10 } }
+		education_learning_3 = { weight = { base = 20 } }
+		education_learning_4 = { weight = { base = 10 } }
+	}
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+
+### GEN C
+## aguda
+# ? - 1124
+zongjun_wanggiyan_character_template = {
+	name = zongjun_wanggiyan_character_template_name
+	age = { 25 35 }
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	# education
+	random_traits_list = {
+		education_diplomacy_3 = { weight = { base = 20 } }
+		education_diplomacy_4 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 10 } }
+		education_stewardship_3 = { weight = { base = 20 } }
+		education_stewardship_4 = { weight = { base = 10 } }
+		education_intrigue_3 = { weight = { base = 20 } }
+		education_intrigue_4 = { weight = { base = 10 } }
+		education_learning_3 = { weight = { base = 20 } }
+		education_learning_4 = { weight = { base = 10 } }
+	}
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# ? - 1141
+zonggan_wanggiyan_character_template = {
+	name = zonggan_wanggiyan_character_template_name
+	age = { 25 35 }
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	# education
+	random_traits_list = {
+		education_diplomacy_3 = { weight = { base = 20 } }
+		education_diplomacy_4 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 10 } }
+		education_stewardship_3 = { weight = { base = 20 } }
+		education_stewardship_4 = { weight = { base = 10 } }
+		education_intrigue_3 = { weight = { base = 20 } }
+		education_intrigue_4 = { weight = { base = 10 } }
+		education_learning_3 = { weight = { base = 20 } }
+		education_learning_4 = { weight = { base = 10 } }
+	}
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}
+
+# 1096 - 1135
+zongfu_wanggiyan_character_template = {
+	name = zongfu_wanggiyan_character_template_name
+	age = 19
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:jurchen
+
+	# education
+	random_traits_list = {
+		education_diplomacy_3 = { weight = { base = 20 } }
+		education_diplomacy_4 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 10 } }
+		education_stewardship_3 = { weight = { base = 20 } }
+		education_stewardship_4 = { weight = { base = 10 } }
+		education_intrigue_3 = { weight = { base = 20 } }
+		education_intrigue_4 = { weight = { base = 10 } }
+		education_learning_3 = { weight = { base = 20 } }
+		education_learning_4 = { weight = { base = 10 } }
+	}
+
+	# personality
+	random_traits_list = {
+		count = { 3 4 }
+		brave = {}
+		calm = {}
+		wrathful = {}
+		chaste = {}
+		lustful = {}
+		ambitious = {}
+		diligent = {}
+		fickle = {}
+		stubborn = {}
+		forgiving = {}
+		vengeful = {}
+		generous = {}
+		greedy = {}
+		gregarious = {}
+		honest = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		just = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		temperate = {}
+		trusting = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		compassionate = {}
+		callous = {}
+		sadistic = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}

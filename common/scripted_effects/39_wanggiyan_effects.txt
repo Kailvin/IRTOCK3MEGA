@@ -1,0 +1,270 @@
+﻿# spawn invader, before story
+spawn_wanggiyan_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+
+	# scope:hanpu = dynasty root
+	if = {
+		limit = { NOT = { exists = scope:invader } }
+		# create ancestors
+		if = {
+			limit = { game_start_date = 867.1.1 }
+			# create dynasty root
+			create_character = {
+				template = hanpu_wanggiyan_character_template
+				dynasty = generate
+				location = scope:invader_spawn_location
+				save_scope_as = hanpu_wanggiyan
+			}
+			# other dynasty members
+			create_character = {
+				template = wulu_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:hanpu_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = wulu_wanggiyan
+			}
+			create_character = {
+				template = bahai_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:wulu_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = bahai_wanggiyan
+			}
+			create_character = {
+				template = suike_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:bahai_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = suike_wanggiyan
+			}
+			create_character = {
+				template = shilu_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:suike_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = shilu_wanggiyan
+			}
+			create_character = { # grandfather
+				template = wugunai_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:shilu_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = wugunai_wanggiyan
+			}
+			### GEN A
+			create_character = {
+				template = polashu_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:wugunai_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = polashu_wanggiyan
+			}
+			create_character = {
+				template = yingge_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:wugunai_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = yingge_wanggiyan
+			}
+			create_character = {
+				template = hezhe_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:wugunai_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = hezhe_wanggiyan
+			}
+			create_character = { # FATHER
+				template = helibo_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:wugunai_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = helibo_wanggiyan
+			}
+			### GEN B
+			## hezhe
+			create_character = { # dead
+				template = sagai_wanggiyan_character_template
+				dynasty = inherit
+				father = scope:hezhe_wanggiyan
+				location = scope:invader_spawn_location
+				save_scope_as = sagai_wanggiyan
+			}
+		}
+		else_if = {
+			limit = { game_start_date = 936.1.1 }
+			character:jurchen_wanyan_1 = { save_scope_as = hanpu_wanggiyan }
+		}
+		else_if = {
+			limit = { game_start_date = 1066.9.15 }
+			character:jurchen_wanyan_7 = { save_scope_as = helibo_wanggiyan }
+		}
+		# INVADER
+		create_character = {
+			template = aguda_wanggiyan_character_template
+			dynasty = inherit
+			father = scope:helibo_wanggiyan
+			location = scope:invader_spawn_location
+			save_scope_as = invader
+			after_creation = {
+				add_character_flag = spawned_$INVADER_DYNN$
+				dynasty = {
+					set_dynasty_name = hi_dynn_wanggiyan
+					set_coa = title:e_wanggiyan
+				}
+				house = {
+					set_house_name = hi_dynn_wanggiyan
+					set_coa = title:e_wanggiyan
+				}
+			}
+		}
+	}
+
+	scope:invader = {
+		add_gold = 2000
+		add_prestige = 2000
+		add_piety = 150
+		
+		dynasty = {
+			add_dynasty_prestige_level = 3
+			add_dynasty_prestige = 2500
+			
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+	}
+
+	every_player = {
+		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+	}
+}
+
+wanggiyan_add_dynasty_perks_effect = {
+	add_dynasty_perk = warfare_legacy_1
+}
+
+wanggiyan_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	if = {
+		limit = { $INVADER_CHAR$ = { has_character_flag = spawned_$INVADER_DYNN$ } }
+		give_invader_land_effect = {
+			INVADER_DYNN = $INVADER_DYNN$
+			INVADER_CHAR = $INVADER_CHAR$
+			STARTING_TIER = $STARTING_TIER$
+		}
+	}
+	spawn_$INVADER_DYNN$_family_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_wanggiyan_family_effect = {
+	if = {
+		limit = { $INVADER_CHAR$ = { has_character_flag = spawned_wanggiyan } }
+		### GEN B
+		## helibo; siblings
+		create_character = { # dead
+			template = wuyashu_wanggiyan_character_template
+			dynasty = inherit
+			father = $INVADER_CHAR$.father
+			employer = $INVADER_CHAR$
+			save_scope_as = wuyashu_wanggiyan
+		}
+		create_character = {
+			template = wuqimai_wanggiyan_character_template
+			dynasty = inherit
+			father = $INVADER_CHAR$.father
+			employer = $INVADER_CHAR$
+			save_scope_as = wuqimai_wanggiyan
+			after_creation = {
+				disease_immunity_long_effect = yes
+			}
+		}
+		### GEN C
+		## children of aguda
+		create_character = {
+			template = zongjun_wanggiyan_character_template
+			dynasty = inherit
+			father = $INVADER_CHAR$
+			employer = $INVADER_CHAR$
+			save_scope_as = zongjun_wanggiyan
+			after_creation = {
+				disease_immunity_long_effect = yes
+			}
+		}
+		create_character = {
+			template = zonggan_wanggiyan_character_template
+			dynasty = inherit
+			father = $INVADER_CHAR$
+			employer = $INVADER_CHAR$
+			save_scope_as = zonggan_wanggiyan
+			after_creation = {
+				disease_immunity_long_effect = yes
+			}
+		}
+		create_character = {
+			template = zongfu_wanggiyan_character_template
+			dynasty = inherit
+			father = $INVADER_CHAR$
+			employer = $INVADER_CHAR$
+			save_scope_as = zongfu_wanggiyan
+			after_creation = {
+				disease_immunity_long_effect = yes
+			}
+		}
+	}
+	else = {
+		$INVADER_CHAR$ = { trigger_event = game_rule.1001 }
+	}
+}
+
+# Make sure invader has troops
+spawn_wanggiyan_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_wanggiyan_army_effect = yes
+	}
+	spawn_wanggiyan_army_effect = yes
+	spawn_wanggiyan_army_effect = yes
+	spawn_wanggiyan_army_effect = yes
+}
+spawn_wanggiyan_army_effect = {
+	spawn_army = {
+		name = wanggiyan_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = no
+		
+		levies = 250
+		men_at_arms = {
+			type = armored_footmen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 7
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 5
+		}
+		# siege
+		men_at_arms = {
+			type = trebuchet
+			stacks = 7
+		}
+	}
+}

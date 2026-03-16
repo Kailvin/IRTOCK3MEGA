@@ -1,0 +1,49 @@
+﻿# Keita (Mali) conquest regions
+
+special_keita_conquest_region_1 = {
+	duchies = {
+		# k_mali
+		d_manding d_bambuk d_futa_jalon d_loma
+	}
+}
+
+special_keita_conquest_region_2 = {
+	duchies = {
+		# k_songhay
+		d_kawkaw d_timbuktu d_dendi
+
+		# k_gurma
+		d_lower_gurma d_upper_gurma d_yatenga
+
+		# k_ghana
+		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
+
+		# k_takrur
+		d_takrur d_silla d_djolof
+
+		# k_jenne
+		d_jenne d_bobo
+
+		# k_kaabu
+		d_kaabu d_wuli d_kasa
+	}
+}
+
+special_keita_conquest_region_start = {
+	regions = {
+		special_keita_conquest_region_1
+	}
+}
+
+special_keita_conquest_region_de_jure = {
+	regions = {
+		special_historicinvasions_mali_region
+	}
+}
+
+special_keita_conquest_region_total = {
+	regions = {
+		special_keita_conquest_region_1
+		special_keita_conquest_region_2
+	}
+}

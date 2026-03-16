@@ -1,0 +1,42 @@
+﻿### indus Conquest Regions
+
+special_indus_conquest_region_1 = {
+	duchies = {
+		d_navarra
+		d_viscaya
+		d_aragon
+	}
+}
+
+special_indus_conquest_region_2 = {
+	duchies = {
+		d_barcelona
+		d_cantabria
+		d_armagnac
+		d_languedoc
+	}
+}
+
+special_indus_conquest_region_3 = {
+	duchies = {
+	d_castilla
+	d_leon
+	d_asturias
+	d_toulouse
+	}
+}
+
+
+special_indus_conquest_region_start = {
+	regions = {
+		special_indus_conquest_region_1
+	}
+}
+
+special_indus_conquest_region_total = {
+	regions = {
+		special_indus_conquest_region_1
+		special_indus_conquest_region_2
+		special_indus_conquest_region_3
+	}
+}

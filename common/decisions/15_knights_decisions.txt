@@ -1,0 +1,695 @@
+﻿knights_enlarge_teutonic_order_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	desc = knights_enlarge_teutonic_order_decision_desc
+	selection_tooltip = knights_enlarge_teutonic_order_decision_tooltip
+
+	is_shown = {
+		exists = title:k_bassenheim
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		has_title = title:k_bassenheim
+		# either the story ended or their invasion was disabled
+		OR = {
+			AND = {
+				has_game_rule = default_knights_invasion
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_started
+					target = flag:bassenheim_story_started
+				}
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_ended
+					target = flag:bassenheim_story_ended
+				}
+			}
+			has_game_rule = never_knights_invasion
+		}
+		# there are valid titles left to integrate
+		NAND = {
+			title:d_prussia.de_jure_liege = title:k_bassenheim
+			title:d_masuria.de_jure_liege = title:k_bassenheim
+			title:d_pomerelia.de_jure_liege = title:k_bassenheim
+		}
+	}
+
+	is_valid = {
+		has_title = title:k_bassenheim
+		OR = {
+			trigger_if = {
+				limit = { NOT = { title:d_prussia.de_jure_liege = title:k_bassenheim } }
+				completely_controls = title:d_prussia
+			}
+			trigger_if = {
+				limit = { NOT = { title:d_masuria.de_jure_liege = title:k_bassenheim } }
+				completely_controls = title:d_masuria
+			}
+			trigger_if = {
+				limit = { NOT = { title:d_pomerelia.de_jure_liege = title:k_bassenheim } }
+				completely_controls = title:d_pomerelia
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	cooldown = { years = 10 }
+
+	cost = { # lower cost for AI
+		gold = {
+			value = 50
+			if = {
+				limit = { is_ai = no }
+				add = 100
+			}
+		}
+		prestige = {
+			value = 100
+			if = {
+				limit = { is_ai = no }
+				add = 150
+			}
+		}
+		piety = {
+			value = 25
+			if = {
+				limit = { is_ai = no }
+				add = 25
+			}
+		}
+	}
+
+	effect = { knights_enlarge_teutonic_order_decision_effect = yes }
+
+	ai_potential = { primary_title.tier = tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}
+
+knights_enlarge_livonian_order_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	desc = knights_enlarge_livonian_order_decision_desc
+	selection_tooltip = knights_enlarge_livonian_order_decision_tooltip
+
+	is_shown = {
+		exists = title:k_balk
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		has_title = title:k_balk
+		# either the story ended or their invasion was disabled
+		OR = {
+			AND = {
+				has_game_rule = default_knights_invasion
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_started
+					target = flag:balk_story_started
+				}
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_ended
+					target = flag:balk_story_ended
+				}
+			}
+			has_game_rule = never_knights_invasion
+		}
+		# there are valid titles left to integrate
+		NAND = {
+			title:d_courland.de_jure_liege = title:k_balk
+			title:d_latgalians.de_jure_liege = title:k_balk
+			title:d_livonia.de_jure_liege = title:k_balk
+			title:d_esthonia.de_jure_liege = title:k_balk
+		}
+	}
+
+	is_valid = {
+		has_title = title:k_balk
+		OR = {
+			trigger_if = {
+				limit = { NOT = { title:d_courland.de_jure_liege = title:k_balk } }
+				completely_controls = title:d_courland
+			}
+			trigger_if = {
+				limit = { NOT = { title:d_latgalians.de_jure_liege = title:k_balk } }
+				completely_controls = title:d_latgalians
+			}
+			trigger_if = {
+				limit = { NOT = { title:d_livonia.de_jure_liege = title:k_balk } }
+				completely_controls = title:d_livonia
+			}
+			trigger_if = {
+				limit = { NOT = { title:d_esthonia.de_jure_liege = title:k_balk } }
+				completely_controls = title:d_esthonia
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	cooldown = { years = 10 }
+
+	cost = { # lower cost for AI
+		gold = {
+			value = 50
+			if = {
+				limit = { is_ai = no }
+				add = 100
+			}
+		}
+		prestige = {
+			value = 100
+			if = {
+				limit = { is_ai = no }
+				add = 150
+			}
+		}
+		piety = {
+			value = 25
+			if = {
+				limit = { is_ai = no }
+				add = 25
+			}
+		}
+	}
+
+	effect = { knights_enlarge_livonian_order_decision_effect = yes }
+
+	ai_potential = { primary_title.tier = tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}
+
+knights_form_missing_order_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	desc = knights_form_missing_order_decision_desc
+	selection_tooltip = knights_form_missing_order_decision_tooltip
+
+	is_shown = {
+		exists = title:k_balk
+		exists = title:k_bassenheim
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		# either the story ended or their invasion was disabled
+		OR = {
+			AND = {
+				has_game_rule = default_knights_invasion
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_started
+					target = flag:balk_story_started
+				}
+				is_target_in_global_variable_list = {
+					name = historicinvasions_story_ended
+					target = flag:balk_story_ended
+				}
+			}
+			has_game_rule = never_knights_invasion
+		}
+		# has one order title and the other order doesn't have de jure land
+		OR = {
+			AND = {
+				has_title = title:k_balk
+				title:k_bassenheim = { is_titular = yes }
+			}
+			AND = {
+				has_title = title:k_bassenheim
+				title:k_balk = { is_titular = yes }
+			}
+		}
+	}
+
+	is_valid = {
+		OR = {
+			# livonian order
+			trigger_if = {
+				limit = { has_title = title:k_balk }
+				has_primary_title = title:k_balk
+				custom_tooltip = {
+					text = teutonic_order_not_created_tt
+					title:k_bassenheim = { is_title_created = no }
+				}
+				OR = {
+					has_title = title:d_prussia
+					completely_controls = title:d_prussia
+				}
+				OR = {
+					has_title = title:d_masuria
+					completely_controls = title:d_masuria
+				}
+				OR = {
+					has_title = title:d_pomerelia
+					completely_controls = title:d_pomerelia
+				}
+			}
+
+			# teutonic order
+			trigger_else_if = {
+				limit = { has_title = title:k_bassenheim }
+				has_primary_title = title:k_bassenheim
+				custom_tooltip = {
+					text = livonian_order_not_created_tt
+					title:k_balk = { is_title_created = no }
+				}
+				OR = {
+					has_title = title:d_courland
+					completely_controls = title:d_courland
+				}
+				OR = {
+					has_title = title:d_latgalians
+					completely_controls = title:d_latgalians
+				}
+				OR = {
+					has_title = title:d_livonia
+					completely_controls = title:d_livonia
+				}
+				OR = {
+					has_title = title:d_esthonia
+					completely_controls = title:d_esthonia
+				}
+			}
+
+			# otherwise, block decision as fallback
+			trigger_else = { always = no }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	cost = { # lower cost for AI
+		gold = {
+			value = 50
+			if = {
+				limit = { is_ai = no }
+				add = 100
+			}
+		}
+		prestige = {
+			value = 100
+			if = {
+				limit = { is_ai = no }
+				add = 150
+			}
+		}
+		piety = {
+			value = 25
+			if = {
+				limit = { is_ai = no }
+				add = 25
+			}
+		}
+	}
+
+	effect = {
+		### titles
+		# livonian order founds teutonic order
+		if = {
+			limit = { has_primary_title = title:k_balk }
+			# grant title
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = title_change
+				add_claim_on_loss = no
+			}
+			title:k_bassenheim = {
+				change_title_holder = {
+					holder = root
+					change = scope:title_change
+				}
+			}
+			resolve_title_and_vassal_change = scope:title_change
+			# de jure changes
+			title:d_prussia = { add_to_temporary_list = found_teutonic_order_list }
+			title:d_masuria = { add_to_temporary_list = found_teutonic_order_list }
+			title:d_pomerelia = { add_to_temporary_list = found_teutonic_order_list }
+			every_in_list = {
+				list = found_teutonic_order_list
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_duchy }
+					set_de_jure_liege_title = title:k_bassenheim
+				}
+			}
+			#title:k_bassenheim = { add_title_law = historicinvasions_knights_same_faith_only_law }
+		}
+		# teutonic order founds livonian order
+		else_if = {
+			limit = { has_primary_title = title:k_bassenheim }
+			# grant title
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = title_change
+				add_claim_on_loss = no
+			}
+			title:k_balk = {
+				change_title_holder = {
+					holder = root
+					change = scope:title_change
+				}
+			}
+			resolve_title_and_vassal_change = scope:title_change
+			# de jure changes
+			title:d_courland = { add_to_temporary_list = found_livonian_order_list }
+			title:d_latgalians = { add_to_temporary_list = found_livonian_order_list }
+			title:d_livonia = { add_to_temporary_list = found_livonian_order_list }
+			title:d_esthonia = { add_to_temporary_list = found_livonian_order_list }
+			every_in_list = {
+				list = found_livonian_order_list
+				every_in_de_jure_hierarchy = {
+					limit = { tier = tier_duchy }
+					set_de_jure_liege_title = title:k_balk
+				}
+			}
+			#title:k_balk = { add_title_law = historicinvasions_knights_same_faith_only_law }
+		}
+
+		### other effects
+		add_piety = 500
+	}
+
+	ai_potential = { primary_title.tier = tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}
+
+hi_form_teutonic_state_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	}
+	decision_group_type = major
+
+	ai_check_interval = 60
+
+	desc = hi_form_teutonic_state_decision_desc
+	selection_tooltip = hi_form_teutonic_state_decision_tooltip
+
+	is_shown = {
+		exists = title:k_balk
+		exists = title:k_bassenheim
+		exists = title:e_teutonic_state
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		OR = {
+			has_title = title:k_balk # livonian order
+			has_title = title:k_bassenheim # teutonic order
+		}
+		title:k_balk = { is_titular = no }
+		title:k_bassenheim = { is_titular = no }
+		title:e_teutonic_state = { is_titular = yes }
+		NOT = { # only once
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:hi_form_teutonic_state_decision
+			}
+		}
+	}
+
+	is_valid = {
+		piety_level >= 4
+		has_title = title:k_bassenheim
+		AND = {
+			completely_controls = title:k_bassenheim
+			completely_controls = title:d_prussia
+			completely_controls = title:d_masuria
+			completely_controls = title:d_pomerelia
+		}
+		has_title = title:k_balk
+		AND = {
+			completely_controls = title:k_balk
+			completely_controls = title:d_courland
+			completely_controls = title:d_latgalians
+			completely_controls = title:d_livonia
+			completely_controls = title:d_esthonia
+		}
+		NOT = { has_character_modifier = historicinvasions_plot_armor }
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available = yes
+		is_at_war = no
+	}
+
+	cost = { # lower cost for AI
+		gold = {
+			value = 100
+			if = {
+				limit = { is_ai = no }
+				add = 900
+			}
+		}
+		prestige = {
+			value = 200
+			if = {
+				limit = { is_ai = no }
+				add = 1800
+			}
+		}
+		piety = {
+			value = 50
+			if = {
+				limit = { is_ai = no }
+				add = 450
+			}
+		}
+	}
+
+	effect = {
+		# de jure changes
+		title:k_balk = { set_de_jure_liege_title = title:e_teutonic_state }
+		title:k_bassenheim = { set_de_jure_liege_title = title:e_teutonic_state }
+
+		# hand out title
+		create_title_and_vassal_change = {
+			type = returned
+			save_scope_as = title_change
+			add_claim_on_loss = no
+		}
+		title:e_teutonic_state = {
+			change_title_holder = {
+				holder = root
+				change = scope:title_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:title_change
+		hidden_effect = { set_primary_title_to = title:e_teutonic_state }
+
+		# county buffs
+		capital_county = {
+			add_county_modifier = {
+				modifier = historicinvasions_county_tier_two_modifier
+				years = 25
+			}
+		}
+
+		# culture
+		every_culture_global = {
+			limit = { has_cultural_pillar = heritage_baltic }
+			change_cultural_acceptance = {
+				target = root.culture
+				value = medium_positive_culture_acceptance # miniscule = 2%, low = 5%, medium = 10%
+				desc = cultural_acceptance_gain_event
+			}
+		}
+
+		# clean up empire map mode
+		if = {
+			limit = {
+				title:k_pomerania.de_jure_liege = title:e_wendish_empire
+				#title:k_pomerania.de_jure_liege = { any_in_de_jure_hierarchy = { tier = tier_kingdom count = 2 } }
+			}
+			title:k_pomerania = { set_de_jure_liege_title = title:d_east_franconia.de_jure_liege.de_jure_liege }
+		}
+		if = {
+			limit = {
+				title:k_lithuania.de_jure_liege = title:e_wendish_empire
+				#title:k_lithuania.de_jure_liege = { any_in_de_jure_hierarchy = { tier = tier_kingdom count = 2 } }
+			}
+			title:k_lithuania = { set_de_jure_liege_title = title:d_mazovia.de_jure_liege.de_jure_liege }
+		}
+
+		### other effects
+		add_piety = 1000
+		# legend
+		gain_heroic_legend_seed_tooltip_effect = yes
+		hidden_effect = { legend_seed_new_title_effect = yes }
+
+		# you may only enact the decision once
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:hi_form_teutonic_state_decision
+		}
+	}
+
+	ai_potential = { primary_title.tier = tier_kingdom }
+
+	ai_will_do = { base = 100 }
+}
+
+# historicinvasions_found_teutonic_order_decision = {
+# 	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+# 	decision_group_type = major
+
+# 	ai_check_interval = 60
+
+# 	is_shown = {
+# 		exists = title:k_bassenheim
+# 		NOR = {
+# 			has_game_rule = never_knights_invasion
+# 			title:k_bassenheim = { is_title_created = yes }
+# 			title:k_bassenheim = { is_titular = no }
+# 		}
+# 		debug_only = yes
+# 		is_ai = no
+# 	}
+
+# 	is_valid = {
+# 		title:k_papal_state.holder = root.faith.religious_head
+# 		completely_controls = title:c_dobrzynska
+# 		title:c_dobrzynska = {
+# 			is_contested = no
+# 			OR = {
+# 				holder = { is_ai = yes }
+# 				holder = root
+# 			}
+# 			NOT = { this = holder.capital_county }
+# 		}
+# 	}
+
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available = yes
+# 		is_at_war = no
+# 	}
+
+# 	# widget = {
+# 	# 	controller = create_holy_order
+# 	# 	barony_valid = {
+# 	# 		trigger_if = {
+# 	# 			limit = { exists = this }
+# 	# 			county = {
+# 	# 				OR = {
+# 	# 					holder = { is_ai = yes }
+# 	# 					holder = { this = root }
+# 	# 				}
+# 	# 				#NOT = { this = holder.capital_county }
+# 	# 			}
+# 	# 		}
+# 	# 		trigger_else = {
+# 	# 			custom_description = {
+# 	# 				text = "has_holy_order_barony_selected"
+# 	# 				always = no
+# 	# 			}
+# 	# 		}
+# 	# 	}
+# 	# }
+
+# 	cost = { # lower cost for AI
+# 	}
+
+# 	effect = {}
+
+# 	ai_potential = { primary_title.tier >= tier_duchy }
+
+# 	ai_will_do = { base = 100 }
+# }
+
+# historicinvasions_sponsor_northern_crusades_decision = {
+# 	picture = { reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds" }
+# 	decision_group_type = major
+
+# 	ai_check_interval = 60
+
+# 	is_shown = {
+# 		exists = title:k_bassenheim
+# 		title:k_bassenheim = { is_title_created = yes }
+# 		debug_only = yes
+# 		is_ai = no
+# 	}
+
+# 	is_valid = {
+# 		title:k_bassenheim = {
+# 			is_title_created = yes
+# 		}
+# 		NOT = { this = title:k_bassenheim.holder } # don't donate to yourself
+# 	}
+
+# 	is_valid_showing_failures_only = {
+# 		is_imprisoned = no
+# 		is_available = yes
+# 		is_at_war = no
+# 	}
+
+# 	cooldown = {
+# 		years = 10
+# 	}
+
+# 	cost = {
+# 		gold = 250
+# 	}
+
+# 	effect = {
+# 		save_scope_as = sponsor
+# 		title:k_bassenheim.holder = {
+# 			add_legitimacy_effect = { LEGITIMACY = 5 }
+# 			spawn_army = {
+# 				name = hi_sponsored_army_name
+# 				location = primary_title.title_capital_county.title_province
+# 				uses_supply = yes
+# 				inheritable = yes
+				
+# 				levies = 200
+# 				men_at_arms = {
+# 					type = armored_footmen
+# 					stacks = 3
+# 				}
+# 			}
+# 		}
+
+# 		# other effects
+# 		add_piety = 100
+# 		add_opinion = {
+# 			target = title:k_bassenheim.holder
+# 			modifier = pleased_opinion
+# 			opinion = 15
+# 		}
+# 		add_opinion = {
+# 			target = scope:sponsor.faith.religious_head
+# 			modifier = pleased_opinion
+# 			opinion = 15
+# 		}
+
+# 		# message window
+# 	}
+
+# 	ai_potential = { primary_title.tier >= tier_duchy }
+
+# 	ai_will_do = { base = 100 }
+# }

@@ -1,0 +1,100 @@
+﻿### Chola Empire Character Templates [ID, history ID]
+# timestamp: 920
+
+# Irâcâcekara, ROOT (740 - 801) [189400]
+
+# Atitta, father (850 - 907) [189032]; alive in 867
+
+# Rajkumari Tribhuvana Rashtrakuta, mother (857 - 933, 76) [74419] (c: kannada)
+
+# INVADER Parântaka (880 - 955, 75) [189033]
+parantaka_chola_character_template = {
+	name = parantaka_chola_character_template_name
+	age = 40
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:tamil
+
+	trait = education_martial_4
+
+	random_traits_list = {
+		count = { 0 1 }
+		diplomat = {}
+		strategist = {}
+		architect = {}
+		schemer = {}
+		scholar = {}
+		whole_of_body = {}
+		fecund = {}
+		intellect_good_1 = {}
+		physique_good_1 = {}
+		beauty_good_1 = {}
+	}
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Kantarâtitta, son (900 - 956, 56) [189034]
+kantaratitta_chola_character_template = {
+	name = kantaratitta_chola_character_template_name
+	age = 20
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:tamil
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Uttama, grandson (920 - 985, 65) [198035]
+uttama_chola_character_template = {
+	name = uttama_chola_character_template_name
+	age = 1
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:tamil
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Ariñcaya, son (901 - 957, 56) [189036]
+arincaya_chola_character_template = {
+	name = arincaya_chola_character_template_name
+	age = 19
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:tamil
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# Cuntara, grandson (920 - 970, 50) [189037]
+cuntara_chola_character_template = {
+	name = cuntara_chola_character_template_name
+	age = 1
+	gender = male
+
+	faith = faith:shaivism
+	culture = culture:tamil
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

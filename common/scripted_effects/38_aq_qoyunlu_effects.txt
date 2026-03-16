@@ -1,0 +1,467 @@
+﻿# spawn invader, before story
+spawn_aq_qoyunlu_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+
+	# legendary ancestry
+	character:1000230100 = { save_scope_as = oghuz_oghuz }
+	if = { # create none
+		limit = {
+			exists = character:1000230121
+		}
+		character:1000230102 = { save_scope_as = uchoq_oghuz }
+		character:1000230118 = { save_scope_as = gok_oghuz }
+		character:1000230121 = { save_scope_as = bayandur_oghuz }
+	}
+	else_if = { # create 1
+		limit = {
+			exists = character:1000230118
+		}
+		character:1000230102 = { save_scope_as = uchoq_oghuz }
+		character:1000230118 = { save_scope_as = gok_oghuz }
+
+		create_character = {
+			template = bayandur_oghuz_character_template
+			dynasty = inherit
+			father = scope:gok_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = bayandur_oghuz
+			after_creation = {
+				house = {
+					if = {
+						limit = {
+							NOT = { # prevent the main house from being changed
+								this = scope:bayandur_oghuz.father.house
+							}
+						}
+						set_house_name = hi_dynn_oghuz_house_bayandur
+						set_coa = dynasty_oghuz_house_bayandur_coa
+					}
+				}
+			}
+		}
+	}
+	else_if = { # create 2
+		limit = {
+			exists = character:1000230102
+		}
+		character:1000230102 = { save_scope_as = uchoq_oghuz }
+
+		create_character = {
+			template = gok_oghuz_character_template
+			dynasty = inherit
+			father = scope:uchoq_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = gok_oghuz
+			after_creation = {}
+		}
+		create_character = {
+			template = bayandur_oghuz_character_template
+			dynasty = inherit
+			father = scope:gok_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = bayandur_oghuz
+			after_creation = {
+				house = {
+					if = {
+						limit = {
+							NOT = { # prevent the main house from being changed
+								this = scope:bayandur_oghuz.father.house
+							}
+						}
+						set_house_name = hi_dynn_oghuz_house_bayandur
+						set_coa = dynasty_oghuz_house_bayandur_coa
+					}
+				}
+			}
+		}
+	}
+	else = { # create 3
+		create_character = {
+			template = uchoq_oghuz_character_template
+			dynasty = inherit
+			father = scope:oghuz_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = uchoq_oghuz
+			after_creation = {}
+		}
+		create_character = {
+			template = gok_oghuz_character_template
+			dynasty = inherit
+			father = scope:uchoq_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = gok_oghuz
+			after_creation = {}
+		}
+		create_character = {
+			template = bayandur_oghuz_character_template
+			dynasty = inherit
+			father = scope:gok_oghuz
+			location = scope:invader_spawn_location
+			save_scope_as = bayandur_oghuz
+			after_creation = {
+				house = {
+					if = {
+						limit = {
+							NOT = { # prevent the main house from being changed
+								this = scope:bayandur_oghuz.father.house
+							}
+						}
+						set_house_name = hi_dynn_oghuz_house_bayandur
+						set_coa = dynasty_oghuz_house_bayandur_coa
+					}
+				}
+			}
+		}
+	}
+
+	# filler
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 500
+		dynasty = inherit
+		father = scope:bayandur_oghuz
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_01
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 450
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_01
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_02
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 400
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_02
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_03
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 350
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_03
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_04
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 300
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_04
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_05
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 250
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_05
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_06
+		after_creation = { death = natural }
+	}
+	create_character = {
+		template = aq_qoyunlu_filler_character_template
+		age = 200
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_06
+		location = scope:invader_spawn_location
+		save_scope_as = aq_qoyunlu_filler_07
+		#after_creation = { death = natural } # is killed after the first real ancestor has created their cadet branch
+	}
+
+	# anestors
+	create_character = {
+		template = uthman_aq_qoyunlu_character_template
+		dynasty = inherit
+		father = scope:aq_qoyunlu_filler_07
+		location = scope:invader_spawn_location
+		save_scope_as = uthman_aq_qoyunlu
+		after_creation = {
+			house = {
+				if = {
+					limit = {
+						NOT = { # prevent the main house from being changed
+							this = scope:uthman_aq_qoyunlu.father.house
+						}
+					}
+					set_house_name = hi_dynn_oghuz_house_aq_qoyunlu
+					set_coa = title:e_aq_qoyunlu
+				}
+			}
+		}
+	}
+	create_character = {
+		template = ali_aq_qoyunlu_character_template
+		dynasty = inherit
+		father = scope:uthman_aq_qoyunlu
+		location = scope:invader_spawn_location
+		save_scope_as = ali_aq_qoyunlu
+		after_creation = {}
+	}
+
+	# INVADER Uzun Hasan
+	create_character = {
+		template = hasan_aq_qoyunlu_character_template
+		dynasty = inherit
+		father = scope:ali_aq_qoyunlu
+		location = scope:invader_spawn_location
+		save_scope_as = invader
+		after_creation = {}
+	}
+
+	scope:invader = {
+		add_gold = 5000
+		add_prestige = 2500
+		add_piety = 150
+		
+		dynasty = {
+			add_dynasty_prestige = 250
+			
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+		house = {
+			set_house_name = hi_dynn_oghuz_house_aq_qoyunlu
+			set_coa = title:e_aq_qoyunlu
+		}
+	}
+
+	every_player = {
+		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+	}
+}
+
+aq_qoyunlu_add_dynasty_perks_effect = {
+}
+
+aq_qoyunlu_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	give_invader_land_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		STARTING_TIER = $STARTING_TIER$
+	}
+	spawn_$INVADER_DYNN$_family_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_aq_qoyunlu_family_effect = {
+	# spouse
+	create_character = {
+		age = { 35 45 }
+		template = hi_random_spouse_character_template
+		dynasty = generate
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		culture = $INVADER_CHAR$.culture
+		save_scope_as = shah_seljuk_spouse
+		after_creation = {
+			marry = $INVADER_CHAR$
+			disease_immunity_short_effect = yes
+		}
+	}
+	create_character = {
+		age = { 35 45 }
+		template = hi_random_spouse_character_template
+		dynasty = none
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		culture = $INVADER_CHAR$.culture
+		save_scope_as = jan_spouse
+		after_creation = {
+			marry = $INVADER_CHAR$
+			disease_immunity_short_effect = yes
+		}
+	}
+	create_character = {
+		age = { 35 45 }
+		template = hi_random_spouse_character_template
+		dynasty = none
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = $INVADER_CHAR$.faith
+		culture = $INVADER_CHAR$.culture
+		save_scope_as = tarjil_spouse
+		after_creation = {
+			marry = $INVADER_CHAR$
+			disease_immunity_short_effect = yes
+		}
+	}
+	create_character = {
+		age = { 35 45 }
+		template = hi_random_spouse_character_template
+		dynasty = generate
+		gender = female
+		employer = $INVADER_CHAR$
+		faith = faith:orthodox
+		culture = culture:greek
+		save_scope_as = theodora_komnene_spouse
+		after_creation = {
+			marry = $INVADER_CHAR$
+			disease_immunity_short_effect = yes
+		}
+	}
+
+	### children
+	create_character = {
+		template = ughurlu_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:jan_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = ughurlu_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = mirza_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:shah_seljuk_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = mirza_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = yaqub_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:shah_seljuk_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = yaqub_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = maqsud_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:theodora_komnene_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = maqsud_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = yusuf_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:shah_seljuk_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = yusuf_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = masih_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:theodora_komnene_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = masih_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = zegnel_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:tarjil_spouse
+		father = $INVADER_CHAR$
+		save_scope_as = zegnel_aq_qoyunlu
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = halima_aq_qoyunlu_character_template
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:tarjil_spouse
+		father = $INVADER_CHAR$
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = hi_random_child_character_template
+		gender = female
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:theodora_komnene_spouse
+		father = $INVADER_CHAR$
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+	create_character = {
+		template = hi_random_child_character_template
+		gender = female
+		dynasty = inherit
+		employer = $INVADER_CHAR$
+		mother = scope:theodora_komnene_spouse
+		father = $INVADER_CHAR$
+		after_creation = { disease_immunity_short_effect = yes }
+	}
+}
+
+# Make sure invader has troops
+spawn_aq_qoyunlu_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_aq_qoyunlu_army_effect = yes
+		spawn_aq_qoyunlu_army_effect = yes
+
+	}
+	spawn_aq_qoyunlu_army_effect = yes
+	spawn_aq_qoyunlu_army_effect = yes
+	spawn_aq_qoyunlu_army_effect = yes
+	spawn_aq_qoyunlu_army_effect = yes
+	if = {
+		limit = { game_start_date < 1000.1.1 }
+		spawn_aq_qoyunlu_army_effect = yes
+	}
+}
+spawn_aq_qoyunlu_army_effect = {
+	spawn_army = {
+		name = aq_qoyunlu_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = no
+
+		levies = 250
+		men_at_arms = {
+			type = horse_archers
+			stacks = 22
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 16
+		}
+		men_at_arms = {
+			type = armored_horsemen
+			stacks = 8
+		}
+		# siege
+		men_at_arms = {
+			type = bombard
+			stacks = 16
+		}
+	}
+}

@@ -1,0 +1,47 @@
+﻿# hauteville conquest regions
+
+special_hauteville_conquest_region_1 = {
+	duchies = {
+		# k_sicily
+		d_apulia
+	}
+}
+
+special_hauteville_conquest_region_2 = {
+	duchies = {
+		# k_sicily
+		d_calabria
+		d_salerno
+		d_benevento
+	}
+}
+
+special_hauteville_conquest_region_3 = {
+	duchies = {
+		# k_sicily
+		d_sicily
+	}
+}
+
+special_hauteville_conquest_region_start = {
+	regions = {
+		special_hauteville_conquest_region_1
+		special_hauteville_conquest_region_2
+		special_hauteville_conquest_region_3
+	}
+}
+
+special_hauteville_conquest_region_total = {
+	regions = {
+		special_hauteville_conquest_region_1
+		special_hauteville_conquest_region_2
+		special_hauteville_conquest_region_3
+	}
+}
+
+special_hauteville_decision_region_neustria = {
+	duchies = {
+		# k_france
+		d_normandy
+	}
+}

@@ -1,0 +1,5 @@
+﻿l_russian:
+ ahom_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
+ ahom_invasion.1001.desc:0 "Originally from the region of $k_shan$, [invader.GetShortUINameNoTooltip] and [invader.GetHerHis] court have been traveling for thirteen years through Myitkyina, Mogaung and the upper Irrawaddy river valley. After arriving at the Nangyang lake, [invader.GetSheHe] consolidated [invader.GetHerHis] traveling forces and prepared to subjugate the surrounding rulers. During the sieges, [invader.GetSheHe] made sure to screen various mountain passes.\n\n[invader.GetFirstNameNoTooltip]'s intent was not to conquer land and displace the local population but to integrate his traveling people into their new home. [invader.GetSheHe|U] would go on and open up more and more areas for settlement, thus increasing the prosperity of the region."
+ ahom_invasion.1001.a:0 "They'll die trying."
+ ahom_invasion.1001.b:0 "@warning_icon! A life far from home...?"

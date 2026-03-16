@@ -1,0 +1,113 @@
+﻿namespace = jochid_invasion
+
+# Event for handling army spawning
+jochid_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_jochid_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+jochid_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = jochid
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### the Golden Horde has splintered
+jochid_invasion.1002 = { # only players see this
+	type = character_event
+	title = jochid_invasion.1002.t
+	desc = {
+		desc = jochid_invasion.1002.desc.intro
+		triggered_desc = {
+			trigger = {
+				exists = scope:blue_horde_heir
+				scope:blue_horde_heir = { has_title = title:e_blue_horde }
+			}
+			desc = jochid_invasion.1002.desc.blue_horde
+		}
+		triggered_desc = {
+			trigger = {
+				exists = scope:white_horde_heir
+				scope:white_horde_heir = { has_title = title:e_white_horde }
+			}
+			desc = jochid_invasion.1002.desc.white_horde
+		}
+		desc = jochid_invasion.1002.desc.outro
+	}
+	
+	theme = hi_theme_steppe
+
+	left_portrait = {
+		character = scope:blue_horde_heir
+		animation = war_over_tie
+	}
+	right_portrait = {
+		character = scope:white_horde_heir
+		animation = marshal
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = jochid_invasion.1002.a }
+
+	option = { # play as blue horde
+		name = jochid_invasion.1002.b
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:blue_horde_heir = {
+				is_ruler = yes
+				is_landed = yes
+				primary_title = title:e_blue_horde
+			}
+		}
+		add_internal_flag = dangerous
+		scope:blue_horde_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:blue_horde_heir
+	}
+
+	option = { # play as white horde
+		name = jochid_invasion.1002.c
+		trigger = {
+			hi_play_as_invader_event_option_trigger = yes
+			scope:white_horde_heir = {
+				is_ruler = yes
+				is_landed = yes
+				primary_title = title:e_white_horde
+			}
+		}
+		add_internal_flag = dangerous
+		scope:white_horde_heir = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:white_horde_heir
+	}
+}
+
+##### certain areas have been conquered or counties looted

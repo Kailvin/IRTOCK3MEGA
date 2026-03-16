@@ -1,0 +1,173 @@
+﻿namespace = normandie_invasion
+
+### Spawn invader with the associated story...
+normandie_invasion.0001 = { #todo
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:k_england
+		exists = title:k_normandie # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_normandie_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+		title:k_england = { is_title_created = yes }
+	}
+
+	on_trigger_fail = {
+		debug_log = "normandie story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "normandie story owner has appeared"
+		debug_log_date = yes
+
+		# if possible, make the existing Norman duke of Normandy invade England
+		title:d_normandy = {
+			if = {
+				limit = {
+					is_title_created = yes
+					holder = {
+						culture = culture:norman
+						OR = {
+							is_independent_ruler = yes
+							top_liege = { highest_held_title_tier < tier_empire }
+						}
+						highest_held_title_tier = tier_duchy
+						sub_realm_size <= 12
+					}
+				}
+				holder = { save_scope_as = potential_invader }
+			}
+		}
+
+		# offer picked ruler the option to turn down invasion offer
+		if = {
+			limit = { exists = scope:potential_invader }
+			scope:potential_invader = {
+				trigger_event = normandie_invasion.0005
+			}
+		}
+		else = {
+			spawn_normandie_invader_effect = {
+				INVADER_DYNN = normandie
+			}
+			scope:invader = {
+				create_story = story_normandie_invasion
+			}
+		}
+	}
+}
+
+# would you like to become an invader?
+normandie_invasion.0005 = {
+	type = character_event
+	title = normandie_invasion.0005.t
+	desc = normandie_invasion.0005.desc
+
+	theme = hi_theme_docks
+
+	left_portrait = {
+		character = scope:potential_invader
+		animation = personality_bold
+	}
+
+	trigger = {}
+
+	immediate = {}
+
+	after = {
+		# due to a unset scope; clear_save_scope is broken
+		hidden_effect = {
+			spawn_normandie_invader_effect = {
+				INVADER_DYNN = normandie
+			}
+			scope:invader = {
+				create_story = story_normandie_invasion
+			}
+		}
+	}
+
+	option = { # accept; start invasion
+		name = normandie_invasion.0005.a
+		add_internal_flag = special
+
+		save_scope_as = invader
+
+		custom_tooltip = {
+			text = normandie_invasion.0005.a.tt
+		}
+
+		ai_chance = { base = 100 }
+	}
+
+	option = { # decline; someone else invades
+		name = normandie_invasion.0005.b
+
+		custom_tooltip = {
+			text = normandie_invasion.0005.b.tt
+		}
+
+		ai_chance = { base = 0 }
+	}
+}
+
+# Event for handling new army spawning on succession
+normandie_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_normandie_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+normandie_invasion.0200 = {
+	hidden = yes
+	orphan = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+normandie_invasion.1001 = { # only players see this
+	type = character_event
+	title = normandie_invasion.1001.t
+	desc = normandie_invasion.1001.desc
+	
+	theme = hi_theme_docks
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+
+	immediate = {
+		character:242 = { save_scope_as = hrolfr_normandie }
+	}
+	
+	option = { name = normandie_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = normandie_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}

@@ -1,0 +1,85 @@
+﻿historicinvasions_action_assassins_heir_of_wrong_faith = {
+	type = alert
+	icon = generic_reactive_advice
+	is_dangerous = yes
+
+	check_create_action = {
+		if = {
+			limit = {
+				OR = {
+					has_title = title:k_sabbah
+					has_title = title:k_jabalid
+				}
+				exists = player_heir
+				NOT = { player_heir.faith = faith:nizari }
+			}
+			try_create_important_action = {
+				important_action_type = historicinvasions_action_assassins_heir_of_wrong_faith
+				actor = root
+				recipient = primary_heir
+			}
+		}
+	}
+	
+	effect = {
+		scope:recipient = {
+			open_view_data = {
+				view = character
+			}
+		}
+	}
+}
+
+historicinvasions_action_title_destroyed_on_succession = {
+	type = alert
+	icon = generic_reactive_advice
+	is_dangerous = yes
+
+	check_create_action = {
+		if = {
+			limit = {
+				primary_title = { has_variable = set_destroy_on_succession_var }
+			}
+			try_create_important_action = {
+				important_action_type = historicinvasions_action_title_destroyed_on_succession
+				landed_title = root.primary_title
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		scope:landed_title = {
+			open_view_data = {
+				view = title_view_window
+			}
+		}
+	}
+}
+
+historicinvasions_action_title_destroyed_on_gain_same_tier = {
+	type = alert
+	icon = generic_reactive_advice
+	is_dangerous = yes
+
+	check_create_action = {
+		if = {
+			limit = {
+				primary_title = { has_variable = set_destroy_on_gain_same_tier_var }
+			}
+			try_create_important_action = {
+				important_action_type = historicinvasions_action_title_destroyed_on_gain_same_tier
+				landed_title = root.primary_title
+				actor = root
+			}
+		}
+	}
+
+	effect = {
+		scope:landed_title = {
+			open_view_data = {
+				view = title_view_window
+			}
+		}
+	}
+}

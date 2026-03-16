@@ -1,0 +1,57 @@
+﻿### Rajasa Conquest Regions
+
+special_rajasa_conquest_region_1 = {
+	duchies = {
+		# k_yavakadvipa
+		d_JAV_mataram d_JAV_taruma d_IDO_bali
+	}
+}
+
+special_rajasa_conquest_region_2 = {
+	duchies = {
+		# k_kalayadvipa
+		d_SUM_palembang d_SUM_jambi d_SUM_minangkabau d_SUM_riau d_SUM_aceh d_nias #d_handumans
+		
+		# k_hujung_medini
+		d_MAL_langkasuka d_MAL_pahang
+	}
+}
+
+special_rajasa_conquest_region_3 = {
+	duchies = {
+		# k_tanjungnagara
+		d_BOR_tanjungpura d_BOR_barune d_BOR_santubong d_BOR_nan_sarunai d_BOR_kutai
+	}
+}
+
+special_rajasa_conquest_region_4 = {
+	duchies = {
+		# k_sulawesi
+		d_SuMa_luwu d_SuMa_konawe d_SuMa_minahasa d_SuMa_tompotika
+
+		# k_maluku
+		d_IDO_lesser_sunda d_IDO_timor #d_papua d_SuMa_maluku d_SuMa_halmahera
+	}
+}
+
+special_rajasa_conquest_region_start = {
+	regions = {
+		special_rajasa_conquest_region_1
+	}
+}
+
+special_rajasa_conquest_region_total = {
+	regions = {
+		special_rajasa_conquest_region_1
+		special_rajasa_conquest_region_2
+		special_rajasa_conquest_region_3
+		special_rajasa_conquest_region_4
+	}
+}
+
+special_rajasa_conquest_region_de_jure = {
+	regions = {
+		special_rajasa_conquest_region_1
+		special_rajasa_conquest_region_2
+	}
+}

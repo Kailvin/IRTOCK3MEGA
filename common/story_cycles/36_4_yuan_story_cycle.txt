@@ -1,0 +1,238 @@
+﻿### YUAN
+story_yuan_invasion = {
+	on_setup = {
+		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
+			INVADER_DYNN = yuan # for story start global variable
+			INVADER_TITLE = scope:story.story_owner.primary_title # title the invader spawns with
+		}
+		story_owner = {
+			yuan_maintenance_effect = {
+				INVADER_DYNN = yuan
+				INVADER_CHAR = scope:story.story_owner
+				INVADER_TITLE = scope:story.var:invader_title_var
+				LANDLESS_YES_NO = no
+			}
+			trigger_event = {
+				id = yuan_invasion.0200
+				months = 1
+			}
+		}
+		scope:story.var:invader_title_var.title_capital_county = {
+			add_county_modifier = {
+				modifier = historicinvasions_county_tier_two_modifier
+				years = 125
+			}
+		}
+	}
+
+	on_end = {
+		invader_story_on_end_effect = { INVADER_DYNN = yuan }
+	}
+
+	on_owner_death = {
+		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
+		random = {
+			chance = 0
+			modifier = {
+				add = 10
+				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			modifier = {
+				add = 80
+				var:story_owner_counter >= 2
+			}
+			modifier = {
+				add = 10
+				var:story_owner_counter >= 3
+			}
+			set_variable = {
+				name = end_of_invasion_story
+				value = yes
+			}
+		}
+		invader_story_on_death_effect = { INVADER_DYNN = yuan }
+	}
+
+	# maintenance
+	effect_group = {
+		days = historicinvasions_story_maintenance_value
+
+		trigger = { always = yes }
+
+		# make sure they have money on hand
+		triggered_effect = {
+			trigger = { story_owner = { gold < 0 } }
+			effect = { story_owner = { add_gold = 500 } }
+		}
+
+		# end the story prematurely, because their conquests have been completed
+		triggered_effect = {
+			trigger = {
+				story_owner = { completely_controls_region = special_yuan_conquest_region_total }
+			}
+			effect = {
+				debug_log = "ending yuan story because the conquest goal has been achieved"
+				end_story = yes
+			}
+		}
+
+		# end the story prematurely, because the invader has lost their #th offensive war
+		triggered_effect = {
+			trigger = {
+				NOT = { has_game_rule = historicinvasions_invasion_ends_after_defeat_disabled }
+			}
+			effect = {
+				historicinvasions_invasion_ends_after_defeat_effect = yes
+			}
+		}
+	}
+
+	#Start a new war if none is ongoing
+	effect_group = {
+		days = { 200 400 }
+
+		trigger = {
+			story_owner = {
+				is_ai = yes
+			}
+		}
+
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = { has_character_flag = invasion_ends_after_player_win }
+				}
+				effect = {
+					debug_log = "ending yuan story because a player was able to defend against the invader"
+					end_story = yes
+				}
+			}
+
+			### war declaration
+			triggered_effect = {
+				trigger = { story_owner = { should_invader_declare_war_trigger = { INVADER_TITLE = scope:story.var:invader_title_var } } }
+				effect = {
+					story_owner = {
+						war_target_evaluation_and_declaration_effect = {
+							INVADER_DYNN = yuan
+							INVADER_CHAR = scope:story.story_owner
+							INVADER_REGION = total
+							INVADER_TARGET_TITLE_TIER = kingdom
+							INVADER_RANGE = neighboring
+							INVADER_LIEGE_RESTRICTIONS = ""
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# Story handling in case of succession weirdness
+	effect_group = {
+		days = historicinvasions_succession_weirdness_value
+
+		trigger = { NOT = { story_owner = { has_title = scope:story.var:invader_title_var } } }
+
+		# either transfer story ownership or end story if the title is not created
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				hi_check_for_valid_story_owner_effect = {
+					INVADER_TITLE = scope:story.var:invader_title_var
+					STORY_COUNTER_INCREASE = 0
+				}
+			}
+		}
+	}
+
+	# turn Mongolia into China
+	effect_group = {
+		days = historicinvasions_story_maintenance_value
+		trigger = {
+			NOT = { scope:story.var:invader_title_var = title:e_zhongyuan }
+		}
+		triggered_effect = {
+			trigger = {
+				scope:story.var:invader_title_var = title:e_mongolia
+			}
+			effect = {
+				if = {
+					limit = {
+						title:e_zhongyuan = {
+							is_title_created = no
+							any_in_de_jure_hierarchy = {
+								filter = { tier = tier_county }
+								continue = { tier > tier_county }
+								OR = {
+									holder = scope:story.story_owner
+									holder = { target_is_liege_or_above = scope:story.story_owner }
+								}
+								percent > 0.3
+							}
+						}
+					}
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = title_change
+					}
+					title:e_zhongyuan = {
+						change_title_holder = {
+							holder = scope:story.story_owner
+							change = scope:title_change
+						}
+					}
+					resolve_title_and_vassal_change = scope:title_change
+					scope:story.story_owner = {
+						set_primary_title_to = title:e_zhongyuan
+						destroy_title = title:e_mongolia
+					}
+				}
+				else_if = {
+					limit = {
+						title:e_zhongyuan = {
+							is_title_created = yes
+							any_in_de_jure_hierarchy = {
+								filter = { tier = tier_county }
+								continue = { tier > tier_county }
+								OR = {
+									holder = scope:story.story_owner
+									holder = { target_is_liege_or_above = scope:story.story_owner }
+								}
+								percent > 0.5
+							}
+						}
+					}
+					create_title_and_vassal_change = {
+						type = usurped
+						save_scope_as = title_change
+						add_claim_on_loss = yes
+					}
+					title:e_zhongyuan = {
+						change_title_holder = {
+							holder = scope:story.story_owner
+							change = scope:title_change
+						}
+					}
+					resolve_title_and_vassal_change = scope:title_change
+					scope:story.story_owner = {
+						set_primary_title_to = title:e_zhongyuan
+						destroy_title = title:e_mongolia
+					}
+				}
+				# make sure the story doesn't run into problems
+				set_variable = {
+					name = invader_title_var
+					value = scope:story.story_owner.primary_title # either China or Mongolia
+				}
+				# government
+				story_owner = {
+					if = {
+						limit = { primary_title = title:e_zhongyuan }
+						title:e_zhongyuan = { set_title_name = e_yuan }
+						change_government = feudal_government
+					}
+				}
+			}
+		}
+	}
+}

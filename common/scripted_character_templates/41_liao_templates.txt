@@ -1,0 +1,59 @@
+﻿# timestamp: 916 [Hist ID]
+
+# mother (? - 933)
+yanmujin_xiao_character_template = {
+	name = yanmujin_xiao_character_template_name
+	age = { 70 80 }
+	gender = female
+
+	faith = faith:tengri_pagan
+	culture = culture:khitan
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# father (? - ?) [liao004]
+saladi_liao_character_template = {
+	name = saladi_liao_character_template_name
+	age = { 80 90 }
+	gender = male
+
+	faith = faith:tengri_pagan
+	culture = culture:khitan
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# INVADER (872 - 926) [194325]
+abaoji_liao_character_template = {
+	name = abaoji_liao_character_template_name
+	age = 44
+	gender = male
+
+	faith = faith:mahayana
+	culture = culture:khitan
+
+	# education
+	trait = education_martial_4
+
+	# personality
+
+	# other
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		add_perk = flexible_truces_perk
+		add_perk = peacemaker_perk
+		set_interesting_traits_and_modifiers_effect = yes
+		give_random_commander_trait_effect = yes
+	}
+}

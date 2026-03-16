@@ -1,0 +1,116 @@
+﻿### jabalid templates [Historical ID]
+# timestamp: 1162
+
+# Muhammad, GRANDFATHER
+muhammad_jabalid_character_template = {
+	name = muhammad_jabalid_character_template_name
+	age = 120
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:bedouin
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Sulayman, FATHER
+sulayman_jabalid_character_template = {
+	name = sulayman_jabalid_character_template_name
+	age = 80
+	gender = male
+
+	faith = faith:ismaili
+	culture = culture:bedouin
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# Sinan 'Rashid al-Din' ??, 'Man of the Mountain' = 'Sheikh al-Jabal', INVADER (1131/1135 - 1193, 58) [-]
+sinan_jabalid_character_template = {
+	name = sinan_jabalid_character_template_name
+	age = { 26 28 }
+	gender = male
+
+	faith = faith:nizari
+	culture = culture:bedouin # basra
+
+	# Skills
+	diplomacy = { 5 10 }
+	martial = { 5 10 }
+	stewardship = { 5 10 }
+	intrigue = { 15 17 }
+	learning = { 10 12 }
+
+	# Education
+	trait = education_intrigue_4
+
+	# Personality Traits
+	random_traits_list = {
+		count = 3
+		brave = {}
+		calm = {}
+		wrathful = {}
+		ambitious = {}
+		fickle = {}
+		vengeful = {}
+		deceitful = {}
+		arbitrary = {}
+		patient = {}
+		paranoid = {}
+		cynical = {}
+		callous = {}
+		sadistic = {}
+	}
+	#trait = hashishiyah
+
+	# Other Traits
+	random_traits_list = {
+		count = 1
+		shrewd = {}
+		lifestyle_herbalist = {}
+		lifestyle_gardener = {}
+		lifestyle_physician = {}
+		loyal = {}
+		disloyal = {}
+	}
+	random_traits_list = {
+		count = 1
+		schemer = {}
+		torturer = {}
+	}
+	random_traits_list = {
+		count = 1
+		scholar = {}
+		theologian = {}
+	}
+
+	# Warfare traits
+	random_traits_list = {
+		count = 2
+		unyielding_defender = {}
+		cautious_leader = {}
+		rough_terrain_expert = {}
+	}
+
+	random_traits = no
+	after_creation = {
+		give_nickname = nick_hi_rashid_al-din
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}
+
+# al-Hasan, SON
+
+### other
+# generic_assassin_template is within sabbah file
+
+#altair_character_template = {}

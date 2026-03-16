@@ -1,0 +1,58 @@
+﻿### Liao Conquest Regions
+
+special_liao_conquest_region_1 = {
+	duchies = {
+		# k_khitan
+		d_LIAO_shangjing d_LIAO_dongjing d_LIAO_linhuang
+
+		# k_raole
+		d_yanyun_yuyi d_LIAO_zhongjing d_liaoxi
+	}
+}
+
+special_liao_conquest_region_2 = {
+	duchies = {
+		# k_shiwei
+		d_SW_lingxiguo d_SW_qingxingan d_SW_puyudao d_SW_ruzheguo d_SW_sushenguo d_SW_dashiweiguo d_SW_heicheziguo
+
+		# k_gobi
+		d_em_tataria d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi
+
+		# k_otuken
+		d_orkhon d_ogrash d_selenga_valley d_EM_onon d_EM_yujuelu d_EM_wajiezi
+
+		# k_naimania
+		d_ovorkhangai d_arkhangai d_khovsgol d_gobi_altai d_ubsunur_hollow d_zavkhan d_khovd
+
+		# k_tuva
+		d_togina d_tannu_ola d_western_sayan d_katu_yaryk
+	}
+}
+
+special_liao_conquest_region_3 = {
+	duchies = {
+		# k_balhae
+		d_BAL_buyeo d_BAL_amnok_jangryeong d_BAL_moe_su d_BAL_parhae d_BAL_southern_balhae
+	}
+}
+
+special_liao_conquest_region_start = {
+	regions = {
+		special_liao_conquest_region_1
+	}
+}
+
+special_liao_conquest_region_total = {
+	regions = {
+		special_liao_conquest_region_1
+		special_liao_conquest_region_2
+		special_liao_conquest_region_3
+	}
+}
+
+special_liao_conquest_region_de_jure = {
+	regions = {
+		special_liao_conquest_region_1
+		special_liao_conquest_region_2
+	}
+}

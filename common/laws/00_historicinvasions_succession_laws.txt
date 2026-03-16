@@ -1,0 +1,53 @@
+﻿# ROOT = ruler
+
+historicinvasions_title_succession_laws = {
+	### MAMLUKS
+	historicinvasions_mamluk_elective_law = {
+		can_have = {
+			OR = {
+				government_has_flag = government_is_feudal
+				government_has_flag = government_is_clan
+			}
+			highest_held_title_tier = tier_empire
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			tier = tier_empire
+			has_variable = had_mamluk_coup_var
+			can_title_have_law_general_trigger = yes
+		}	
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		revoke_cost = {
+			prestige = {
+				value = 0
+				add = change_mamluk_succession_law_prestige_cost
+				add = change_mamluk_succession_law_prestige_cost
+			}
+		}
+		can_remove_from_title = {
+			holder = { prestige_level >= 4 }
+		}
+		on_pass = {
+			scope:title = { set_can_be_named_after_dynasty = no }
+		}
+		on_revoke = {
+			scope:title = { set_can_be_named_after_dynasty = yes }
+		}
+		title_allegiance_opinion = 10
+		flag = elective_succession_law
+		succession = {
+			order_of_succession = election
+			election_type = historicinvasions_mamluk_elective
+		}
+		modifier = {
+			vassal_limit = 15
+			powerful_vassal_opinion = 3
+			councillor_opinion = 3
+			minority_opinion = 10
+		}
+	}
+}

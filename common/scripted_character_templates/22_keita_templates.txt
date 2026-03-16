@@ -1,0 +1,88 @@
+﻿### Keita / Mali Character Templates
+# timestamp: 1230
+
+# father (? - 1218)
+maghan_keita_character_template = {
+	name = maghan_keita_character_template_name
+	age = { 30 40 }
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:malinke
+
+	trait = beauty_good_3
+
+	random_traits = yes
+	after_creation = {
+		give_nickname = nick_the_handsome
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# mother "ugly" (? - ?)
+maghan_keita_spouse_character_template = {
+	age = { 30 40 }
+	gender = female
+	dynasty = none
+
+	faith = faith:ashari
+	culture = culture:malinke
+
+	trait = beauty_bad_3
+	trait = hunchbacked
+
+	random_traits = yes
+	after_creation = {
+		set_interesting_traits_and_modifiers_effect = yes
+		death = natural
+	}
+}
+
+# INVADER (1217 - 1255, 38)
+sundiata_keita_character_template = {
+	name = sundiata_keita_character_template_name
+	age = 23
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:malinke
+
+	trait = ambitious
+	trait = greedy # more income!
+	random_traits_list = {
+		count = 2
+		humble = {}
+		compassionate = {}
+		forgiving = {}
+		patient = {}
+		wrathful = {}
+		brave = {}
+		diligent = {}
+		stubborn = {}
+		gregarious = {}
+	}
+
+	trait = education_martial_4
+
+	random_traits_list = {
+		beauty_good_1 = {}
+		beauty_good_2 = {}
+		beauty_good_3 = {}
+	}
+
+	random_traits_list = {
+		physique_good_1 = {}
+		physique_good_2 = {}
+		physique_good_3 = {}
+	}
+
+	trait = rough_terrain_expert
+	trait = desert_warrior
+
+	random_traits = no
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

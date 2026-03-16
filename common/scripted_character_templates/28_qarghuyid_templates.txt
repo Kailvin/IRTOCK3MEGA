@@ -1,0 +1,24 @@
+﻿### Qarghuyid templates [Historical ID]
+# timestamp: 968
+
+# Qarghuyah 'al-Halabi' Qarghuyid (? - ?, ?) [-]
+
+qarghuyah_qarghuyid_character_template = {
+	name = qarghuyah_qarghuyid_character_template_name
+	age = { 20 40 } # just a guess
+	gender = male
+
+	faith = faith:ashari
+	culture = culture:levantine
+
+	trait = education_martial_4
+	
+	trait = shrewd
+
+	random_traits = yes
+	after_creation = {
+		add_perk = stalwart_leader_perk
+		give_nickname = nick_hi_al-halabi
+		set_interesting_traits_and_modifiers_effect = yes
+	}
+}

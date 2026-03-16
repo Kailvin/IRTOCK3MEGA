@@ -1,0 +1,77 @@
+﻿# teutonic state conquest regions
+
+special_bassenheim_conquest_region_1 = {
+	duchies = {
+		# k_lithuania
+		d_prussia
+		d_masuria
+	}
+	counties = {
+		# d_pomerelia
+		c_danzig
+		c_berent
+	}
+}
+
+special_balk_conquest_region_1 = {
+	duchies = {
+		# k_lithuania
+		d_courland
+		d_latgalians
+
+		# k_estonia
+		d_livonia
+		d_esthonia
+	}
+}
+
+special_bassenheim_conquest_region_start = {
+	# duchies = {
+	# 	# k_lithuania
+	# 	d_prussia
+	# }
+	regions = {
+		special_bassenheim_conquest_region_1
+	}
+}
+
+special_balk_conquest_region_start = {
+	# duchies = {
+	# 	# k_lithuania
+	# 	d_livonia
+	# }
+	regions = {
+		special_balk_conquest_region_1
+	}
+}
+
+special_bassenheim_conquest_region_total = {
+	regions = {
+		special_bassenheim_conquest_region_1
+	}
+}
+
+special_balk_conquest_region_total = {
+	regions = {
+		special_balk_conquest_region_1
+	}
+}
+
+special_bassenheim_conquest_region_de_jure = {
+	regions = {
+		special_bassenheim_conquest_region_1
+	}
+}
+
+special_balk_conquest_region_de_jure = {
+	regions = {
+		special_balk_conquest_region_1
+	}
+}
+
+special_knights_conquest_region_total = {
+	regions = {
+		special_bassenheim_conquest_region_1
+		special_balk_conquest_region_1
+	}
+}

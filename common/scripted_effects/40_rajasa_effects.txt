@@ -1,0 +1,286 @@
+﻿# spawn invader, before story
+spawn_rajasa_invader_effect = {
+	random_county_in_region = {
+		region = special_$INVADER_DYNN$_conquest_region_start
+		title_province = { save_scope_as = invader_spawn_location }
+	}
+
+	### ANCESTORS
+	create_character = { # spouse 1
+		template = ken_umang_character_template
+		dynasty = none
+		location = scope:invader_spawn_location
+		save_scope_as = ken_umang
+	}
+	create_character = { # spouse 2
+		template = ken_dedes_character_template
+		dynasty = none
+		location = scope:invader_spawn_location
+		save_scope_as = ken_dedes
+	}
+	create_character = { # dynasty root
+		template = ranggah_rajasa_character_template
+		dynasty = generate
+		location = scope:invader_spawn_location
+		save_scope_as = ranggah_rajasa
+	}
+	create_character = { # former spouse of spouse 2
+		template = tunggul_ametung_character_template
+		dynasty = generate
+		location = scope:invader_spawn_location
+		save_scope_as = tunggul_ametung
+		after_creation = {
+			dynasty = { set_dynasty_name = hi_dynn_ametung }
+			house = { set_house_name = hi_dynn_ametung }
+		}
+	}
+	scope:tunggul_ametung = {
+		#marry = scope:ken_dedes # causes them to marry twice?
+		death = natural
+	}
+	scope:ranggah_rajasa = {
+		#marry = scope:ken_umang # causes them to marry twice?
+		#marry = scope:ken_dedes # produces an error
+		death = natural
+	}
+	scope:ken_umang = { death = natural }
+	scope:ken_dedes = { death = natural }
+
+	create_character = { # dynasty root & spouse 1
+		template = panji_tohjaya_rajasa_character_template
+		dynasty = inherit
+		mother = scope:ken_umang
+		father = scope:ranggah_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = panji_tohjaya
+	}
+	create_character = { # dynasty root & spouse 2
+		template = mahisa_wong_teleng_rajasa_character_template
+		dynasty = inherit
+		mother = scope:ken_dedes
+		father = scope:ranggah_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = mahisa_wong_teleng_rajasa
+	}
+
+	create_character = { # spouse 2 & her former spouse
+		template = bhatara_anusapati_rajasa_character_template
+		#dynasty_house = scope:ranggah_rajasa.house # does weird things to the dynasty tree
+		dynasty = inherit
+		mother = scope:ken_dedes
+		father = scope:tunggul_ametung
+		location = scope:invader_spawn_location
+		save_scope_as = bhatara_anusapati_rajasa
+	}
+
+	## invader branch
+	create_character = {
+		template = bhatara_narasinghamurti_rajasa_character_template
+		dynasty = inherit
+		father = scope:mahisa_wong_teleng_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = bhatara_narasinghamurti_rajasa
+	}
+	create_character = {
+		template = dyah_lembu_tal_rajasa_character_template
+		dynasty = inherit
+		father = scope:bhatara_narasinghamurti_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = dyah_lembu_tal_rajasa
+	}
+
+	## invader spouse branch
+	create_character = {
+		template = jayawisnuwardhana_rajasa_character_template
+		dynasty = inherit
+		father = scope:bhatara_anusapati_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = jayawisnuwardhana_rajasa
+	}
+	create_character = {
+		template = kertanagara_rajasa_character_template
+		dynasty = inherit
+		father = scope:jayawisnuwardhana_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = kertanagara_rajasa
+	}
+
+	# INVADER
+	create_character = {
+		template = kertarajasa_jayawardhana_rajasa_character_template
+		dynasty = inherit
+		father = scope:dyah_lembu_tal_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = invader
+	}
+	# spouse 1
+	create_character = {
+		template = gayatri_rajapatni_rajasa_character_template
+		dynasty = inherit
+		father = scope:kertanagara_rajasa
+		location = scope:invader_spawn_location
+		save_scope_as = gayatri_rajapatni_rajasa
+		after_creation = {
+			marry = scope:invader
+			disease_immunity_long_effect = yes
+		}
+	}
+
+	scope:invader = {
+		add_gold = 2000
+		add_prestige = 2000
+		add_piety = 150
+		
+		dynasty = {
+			set_dynasty_name = hi_dynn_rajasa
+			set_coa = title:e_rajasa
+
+			add_dynasty_prestige_level = 2
+			add_dynasty_prestige = 1500
+	
+			$INVADER_DYNN$_add_dynasty_perks_effect = yes
+		}
+		house = {
+			set_house_name = hi_dynn_rajasa
+			set_coa = title:e_rajasa
+		}
+	}
+
+	every_player = {
+		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+	}
+}
+
+rajasa_add_dynasty_perks_effect = {
+	add_dynasty_perk = warfare_legacy_1
+}
+
+rajasa_maintenance_effect = {
+	apply_invader_modifiers_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+	}
+	give_invader_land_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		STARTING_TIER = $STARTING_TIER$
+	}
+	spawn_$INVADER_DYNN$_family_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	spawn_invader_servants_effect = {
+		INVADER_CHAR = $INVADER_CHAR$
+	}
+	form_the_invader_title_effect = {
+		INVADER_DYNN = $INVADER_DYNN$
+		INVADER_CHAR = $INVADER_CHAR$
+		INVADER_TITLE = $INVADER_TITLE$
+		LANDLESS_YES_NO = $LANDLESS_YES_NO$
+	}
+}
+
+### populating the life of the invader character
+spawn_rajasa_family_effect = {
+	# daughter with spouse 1
+	create_character = {
+		template = dyah_tya_rajasa_chracter_template
+		dynasty = inherit
+		mother = $INVADER_CHAR$.primary_spouse
+		father = $INVADER_CHAR$
+		employer = $INVADER_CHAR$
+		save_scope_as = dyah_tya_rajasa
+		after_creation = { disease_immunity_long_effect = yes }
+	}
+
+	# spouse for daughter
+	create_character = {
+		template = cakradhara_character_template
+		dynasty = none
+		employer = $INVADER_CHAR$
+		save_scope_as = cakradhara
+		after_creation = {
+			marry_matrilineal = scope:dyah_tya_rajasa
+			disease_immunity_long_effect = yes
+		}
+	}
+
+	# son of daughter
+	create_character = {
+		template = hayam_wuruk_rajasa_character_template
+		dynasty = inherit
+		mother = scope:dyah_tya_rajasa
+		father = scope:cakradhara
+		employer = $INVADER_CHAR$
+		save_scope_as = hayam_wuruk_rajasa
+		after_creation = { disease_immunity_long_effect = yes }
+	}
+
+	# spouse 2
+	create_character = {
+		template = indreswari_mauli_character_template
+		dynasty = generate
+		employer = $INVADER_CHAR$
+		save_scope_as = indreswari_mauli
+		after_creation = {
+			dynasty = { set_dynasty_name = hi_dynn_mauli }
+			house = { set_house_name = hi_dynn_mauli }
+			marry = $INVADER_CHAR$
+			disease_immunity_long_effect = yes
+		}
+	}
+
+	# son with spouse 2
+	create_character = {
+		template = jayanegara_rajasa_character_template
+		dynasty = inherit
+		mother = scope:indreswari_mauli
+		father = $INVADER_CHAR$
+		employer = $INVADER_CHAR$
+		save_scope_as = jayanegara_rajasa
+		after_creation = { disease_immunity_long_effect = yes }
+	}
+}
+
+# Make sure invader has troops
+spawn_rajasa_troops_effect = {
+	if = {
+		limit = { has_character_flag = is_first_invader_flag }
+		spawn_rajasa_army_effect = yes
+	}
+	spawn_rajasa_army_effect = yes
+	spawn_rajasa_army_effect = yes
+	if = {
+		limit = { game_start_date < 1000.1.1 }
+		spawn_rajasa_army_effect = yes
+	}
+}
+spawn_rajasa_army_effect = {
+	spawn_army = {
+		name = rajasa_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = no
+		
+		levies = 250
+		men_at_arms = {
+			type = armored_footmen
+			stacks = 10
+		}
+		men_at_arms = {
+			type = bowmen
+			stacks = 5
+		}
+		men_at_arms = {
+			type = light_horsemen
+			stacks = 3
+		}
+		men_at_arms = {
+			type = light_footmen
+			stacks = 7
+		}
+		# siege
+		men_at_arms = {
+			type = trebuchet
+			stacks = 9
+		}
+	}
+}

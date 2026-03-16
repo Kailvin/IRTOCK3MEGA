@@ -1,0 +1,171 @@
+﻿historicinvasions_is_character_playable_trigger = {
+	highest_held_title_tier >= tier_county
+	NOR = {
+		government_has_flag = government_is_republic
+		government_has_flag = government_is_theocracy
+		government_has_flag = government_is_holy_order
+		government_has_flag = government_is_mercenary
+	}
+}
+
+historicinvasions_player_may_become_invader_trigger = {
+	trigger_if = {
+		limit = { has_game_rule = historicinvasions_players_may_become_invaders_disabled }
+		is_ai = yes
+	}
+	trigger_else = {
+		always = yes
+	}
+}
+
+historicinvasions_common_existing_character_restrictions_trigger = {
+	always = yes
+	#NOT = { has_trait = conqueror }
+}
+
+hi_can_story_switch_to_local_title_trigger = {
+	scope:story = {
+		# make sure that the switch has NOT occurred yet
+		var:invader_title_var = title:$INVADER_TITLE$
+		# make sure we are looking at the correct character
+		story_owner = {
+			has_title = title:$INVADER_TITLE$
+			NOT = { has_title = title:$LOCAL_TITLE$ }
+		}
+		# make sure that the local title still exists on the de jure map
+		title:$LOCAL_TITLE$ = { is_titular = no }
+		# make sure that the invader holds a certain % of the local empire so it doesn't immediately get dissolved
+		trigger_if = { # event "game_rule.4", "weak_empire" trigger
+			limit = {
+				has_game_rule = on_empire_obscurity_requirement
+				title:$INVADER_TITLE$.tier = tier_empire
+				title:$LOCAL_TITLE$.tier = tier_empire
+			}
+			title:$LOCAL_TITLE$ = {
+				any_in_de_jure_hierarchy = {
+					filter = {
+						tier = tier_county
+					}
+					continue = {
+						tier > tier_county
+					}
+					holder.top_liege = scope:story.story_owner
+					percent >= 0.25 # base game checks for 20%, but let's leave some room for error
+				}
+			}
+		}
+		# don't destroy contested invader titles
+		title:$INVADER_TITLE$ = { is_contested = no }
+		
+		### option 1a: usurp from AI
+		trigger_if = {
+			limit = {
+				title:$LOCAL_TITLE$ = { is_title_created = yes }
+				title:$LOCAL_TITLE$.holder = { is_ai = yes }
+			}
+			title:$LOCAL_TITLE$ = {
+				is_contested = no
+				holder = { is_at_war = no }
+				OR = { # either the invader is bigger or they control more than half of the de jure title
+					holder = { realm_size < scope:story.story_owner.realm_size }
+					any_in_de_jure_hierarchy = {
+						filter = {
+							tier = tier_county
+						}
+						continue = {
+							tier > tier_county
+						}
+						holder.top_liege = scope:story.story_owner
+						percent > 0.4
+					}
+				}
+			}
+		}
+		### option 1b: usurp from player
+		trigger_else_if = {
+			limit = {
+				title:$LOCAL_TITLE$ = { is_title_created = yes }
+				title:$LOCAL_TITLE$.holder = { is_ai = no }
+			}
+			title:$LOCAL_TITLE$ = {
+				is_contested = no
+				holder = { is_at_war = no }
+				any_in_de_jure_hierarchy = {
+					filter = {
+						tier = tier_county
+					}
+					continue = {
+						tier > tier_county
+					}
+					holder.top_liege = scope:story.story_owner
+					percent > 0.8
+				}
+			}
+		}
+		### option 2: create
+		trigger_else = {
+			title:$LOCAL_TITLE$ = {
+				# iberian struggle is still active
+				trigger_if = {
+					limit = {
+						exists = struggle:iberian_struggle
+					}
+					NOT = { this = title:e_spain }
+				}
+				# persian struggle is still active
+				trigger_if = {
+					limit = {
+						exists = struggle:persian_struggle
+					}
+					NOT = { this = title:e_persia }
+				}
+			}
+		}
+	}
+}
+
+# always show the notification event if the player just became an invader
+hi_show_invader_notification_event_trigger = {
+	OR = {
+		NOT = { has_game_rule = historicinvasions_notification_disabled }
+		this = scope:invader
+	}
+}
+
+# if the player just became an invader, hide the event option to switch over to the new invader
+hi_play_as_invader_event_option_trigger = {
+	has_game_rule = historicinvasions_notification_enabled
+	scope:invader = { historicinvasions_is_character_playable_trigger = yes }
+	NOT = { this = scope:invader }
+}
+
+### was removed in base game version 1.12.*
+# is_rightful_liege_of_trigger = {
+#     OR = {
+#         # Most vassals only consider their liege to be Rightful if their liege possesses their primary title's immediate De Jure liege title.
+#         $LIEGE$ = {
+#             any_held_title = {
+#                 save_temporary_scope_as = this_title
+#                     $VASSAL$.primary_title = {
+#                         target_is_de_jure_liege_or_above = scope:this_title
+#                     }
+#             }
+#         }
+#         # There is a bonus exception for Duke-tier vassals of Emperors, however — as long as their primary Duchy title belongs inside of their liege's Empire title, they still consider their liege to be Rightful.
+#         trigger_if = {
+#             limit = {
+#                 $LIEGE$.highest_held_title_tier = tier_empire
+#                 $VASSAL$.highest_held_title_tier = tier_duchy 
+#             }
+#             $LIEGE$ = {
+#                 any_held_title = {
+#                     tier = tier_empire
+#                     save_temporary_scope_as = this_title
+#                     $VASSAL$.primary_title = {
+#                         target_is_de_jure_liege_or_above = scope:this_title
+#                     }
+#                 }
+#             }
+#         }
+#     }
+# }

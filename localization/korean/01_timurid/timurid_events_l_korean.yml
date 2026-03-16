@@ -1,0 +1,17 @@
+﻿l_korean:
+ timurid_invasion.1001.t:0 "Rise of [invader.GetFirstNameNoTooltip]"
+ timurid_invasion.1001.desc:0 "The invasion by the $e_mongol_empire$ caused much turmoil and turned the local political landscape upside down. Old ruling dynasties have been replaced by the likes of the $e_golden_horde$, $e_ilkhanate$ or $e_chagatai$.\n\nYoung [invader.GetShortUINameNoTooltip] was was born near the city of Kesh south of $c_samarkand$. [invader.GetHerHis|U] story began in the western part of $e_chagatai$, where [invader.GetSheHe] was employed as a renowned commander by the Khan. It is not known for certain where [invader.GetFirstNameNoTooltip] sustained his injuries, but two hits by an arrow - one in [invader.GetHerHis] foot and one in [invader.GetHerHis] right hand - left [invader.GetHerHim] disabled for life and earned [invader.GetHerHim] the nickname 'the Lame'.\n\nBy now, [invader.GetFirstNameNoTooltip] has reduced the power base of the ruling elite in $e_chagatai$, instead effectively ruling in their name.\nBut [invader.GetSheHe] is looking for more..."
+ timurid_invasion.1001.a:0 "Rivaling the $e_mongol_empire$? [invader.GetSheHe|U] isn't even Khan!"
+ timurid_invasion.1001.b:0 "@warning_icon! I wish I was in [invader.GetHerHis] place..."
+ timurid_invasion.1001.timur_tt:0 "Any [county|E] occupied by the $karluks$ will lose a large portion of its [development|E]"
+
+ timurid_invasion.1003.t:0 "The House of Wisdom Burns"
+ timurid_invasion.1003.desc:0 "Baghdad's great institution of learning and knowledge, the House of Wisdom, has fallen victim to fire and destruction during the $karluk$ siege of the city.\n\nOnly ruins have been left behind, as if to signal the worth of old knowledge in the new world of the $karluks$."
+ timurid_invasion.1003.a:0 "So much, lost..."
+ timurid_invasion.1003.b:0 "It's only heathens getting what they deserve!"
+ timurid_invasion.1003.c:0 "The $karluks$ will destroy the world if we don't stop them!"
+
+ timurid_invasion.1004.t:0 "Collapse of the Empire"
+ timurid_invasion.1004.desc:0 "With the passing of [old_timurid_emperor.GetTitledFirstName], several successors have claimed the position as Great Khan. With none of them recognizing the others, we are finally seeing the end of the timurids as a unified empire.\n\nThey may not be weak, but they no longer stand united behind a single "universal ruler"."
+ timurid_invasion.1004.a:0 "The empire will rise again one day..."
+ timurid_invasion.1004.b:0 "Thank you for your mercy, [ROOT.Char.GetFaith.HighGodName]!"

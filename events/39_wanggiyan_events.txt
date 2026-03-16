@@ -1,0 +1,130 @@
+﻿namespace = wanggiyan_invasion
+
+### Spawn invader with the associated story...
+wanggiyan_invasion.0001 = {
+	scope = none
+	hidden = yes
+	
+	trigger = {
+		exists = title:e_wanggiyan # update compatibility - new titles in old saves return false
+		any_county_in_region = {
+			region = special_wanggiyan_conquest_region_start
+			count > 0
+			holder = { is_ai = yes }
+		}
+	}
+
+	on_trigger_fail = {
+		debug_log = "wanggiyan story has failed to trigger; trying again next year"
+		debug_log_date = yes
+	}
+
+	immediate = {
+		debug_log = "wanggiyan story owner has appeared"
+		debug_log_date = yes
+		
+		character:jurchen_wanyan_1 ?= { save_scope_as = hanpu_wanggiyan } # historic ID; doesn't exist in 867
+
+		scope:hanpu_wanggiyan.dynasty ?= {
+			# pick an already existing dynasty member
+			ordered_dynasty_member = {
+				limit = {
+					is_landed = yes
+					highest_held_title_tier > tier_barony
+					OR = {
+						capital_county = { title_province = { geographical_region = special_wanggiyan_conquest_region_total } }
+						capital_county = { title_province = { geographical_region = world_asia_north_east } }
+					}
+					is_independent_ruler = yes
+					is_adult = yes
+					is_healthy = yes
+					is_imprisoned = no
+				}
+				alternative_limit = {
+					is_landed = yes
+					highest_held_title_tier > tier_barony
+					OR = {
+						capital_county = { title_province = { geographical_region = special_wanggiyan_conquest_region_total } }
+						capital_county = { title_province = { geographical_region = world_asia_north_east } }
+					}
+					is_adult = yes
+					is_healthy = yes
+					is_imprisoned = no
+				}
+				order_by = realm_size
+				save_scope_as = invader
+			}
+		}
+		
+		# only spawns a new character if scope:invader is not set
+		spawn_wanggiyan_invader_effect = {
+			INVADER_DYNN = wanggiyan
+		}
+
+		# start story
+		scope:invader = {
+			create_story = story_wanggiyan_invasion
+		}
+	}
+}
+
+# Event for handling army spawning
+wanggiyan_invasion.0100 = {
+	hidden = yes
+	immediate = {
+		spawn_wanggiyan_troops_effect = yes
+	}
+}
+
+# Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
+wanggiyan_invasion.0200 = {
+	hidden = yes
+	trigger = { is_ai = yes } # don't force a player into a war
+	immediate = {
+		war_target_evaluation_and_declaration_effect = {
+			INVADER_DYNN = wanggiyan
+			INVADER_CHAR = scope:story.story_owner
+			INVADER_REGION = total
+			INVADER_TARGET_TITLE_TIER = kingdom
+			INVADER_RANGE = neighboring
+			INVADER_LIEGE_RESTRICTIONS = ""
+		}
+	}
+}
+
+##################
+# Notification Events
+# 1000-1999
+##################
+
+### The invader has appeared! Would you like to play as them?
+wanggiyan_invasion.1001 = { # only players see this
+	type = character_event
+	title = wanggiyan_invasion.1001.t
+	desc = wanggiyan_invasion.1001.desc
+	
+	theme = hi_theme_steppe
+
+	left_portrait = {
+		character = scope:invader
+		animation = personality_bold
+	}
+
+	trigger = { hi_show_invader_notification_event_trigger = yes }
+	
+	option = { name = wanggiyan_invasion.1001.a }
+
+	option = { # play as the newly spawned invader
+		name = wanggiyan_invasion.1001.b
+		trigger = { hi_play_as_invader_event_option_trigger = yes }
+		add_internal_flag = dangerous
+		scope:invader = {
+			set_variable = {
+				name = historicinvasions_previous_ruler_var
+				value = root
+				months = 1
+			}
+		}
+		set_player_character = scope:invader
+	}
+}

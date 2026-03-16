@@ -1,80 +1,63 @@
 k_mali={
 	423.7.6 = { liege = 0 }
 }
-d_manding={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_niani_holder liege = 0 }
-}
-c_niani={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_niani_holder }
-}
-c_dakajalan={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_niani_holder }
-}
-c_kankan={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
-}
-c_sibi_mali={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_niani_holder }
-}
-c_tabon={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_niani_holder }
-}
-c_bure={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_niani_holder }
-}
 d_bambuk={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_bambuk_holder government = tribal_government }
-}
-c_bambuk={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_bambuk_holder }
-}
-c_gangaran={
-	361.1.1 = { government = tribal_government change_development_level = 2 }
-	423.7.6 = { holder = IRToCK3_c_bambuk_holder }
-}
-c_konko={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
-}
-c_bundu={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
 }
 d_futa_jalon={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_futa_jalon_holder government = tribal_government }
 }
-c_futa_jalon={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
-}
-c_timbi={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
-}
-c_kokoli={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
-}
 d_loma={
-	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_kuranko_holder liege = 0 }
 }
-c_kuranko={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 2 }
+d_manding={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_niani_holder liege = 0 }
+}
+c_bambuk={
+	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
+}
+c_bundu={
+	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
+}
+c_bure={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
+}
+c_dakajalan={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
+}
+c_futa_jalon={
+	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
+}
+c_gangaran={
+	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
+}
+c_kankan={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
 }
 c_kisi={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 0 }
+}
+c_kokoli={
+	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
+}
+c_konko={
+	423.7.6 = { holder = IRToCK3_c_bambuk_holder change_development_level = 0 }
+}
+c_kuranko={
+	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 0 }
+}
+c_niani={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
+}
+c_sibi_mali={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
 }
 c_solimana={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 2 }
+	423.7.6 = { holder = IRToCK3_c_kuranko_holder change_development_level = 0 }
+}
+c_tabon={
+	423.7.6 = { holder = IRToCK3_c_niani_holder change_development_level = 0 }
+}
+c_timbi={
+	423.7.6 = { holder = IRToCK3_c_futa_jalon_holder change_development_level = 0 }
 }

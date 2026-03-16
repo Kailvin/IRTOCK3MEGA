@@ -1,6 +1,6 @@
 4007={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4008={
@@ -24,9 +24,7 @@
 	holding = castle_holding
 }
 4014={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
+	holding = none
 }
 4015={
 	holding = none
@@ -35,7 +33,9 @@
 	holding = none
 }
 4017={
-	holding = city_holding
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 4018={
 	holding = none

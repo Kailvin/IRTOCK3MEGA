@@ -1,0 +1,54 @@
+k_daibei={
+	423.7.6 = { liege = 0 }
+}
+d_sanggan={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yongxing_holder liege = 0 }
+}
+d_xinan={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lxj_yunneizhou_holder liege = 0 }
+}
+d_yunshuo={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_datong_2_holder liege = 0 }
+}
+c_datong_2={
+	423.7.6 = { holder = IRToCK3_c_datong_2_holder change_development_level = 0 }
+}
+c_fuzhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_yunneizhou_holder change_development_level = 0 }
+}
+c_hongzhou_2={
+	423.7.6 = { holder = IRToCK3_c_datong_2_holder change_development_level = 0 }
+}
+c_huaian={
+	423.7.6 = { holder = IRToCK3_c_yongxing_holder change_development_level = 0 }
+}
+c_jiushijiuquan={
+	423.7.6 = { holder = IRToCK3_c_yongxing_holder change_development_level = 0 }
+}
+c_linzhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_yunneizhou_holder change_development_level = 0 }
+}
+c_lxj_yunneizhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_yunneizhou_holder change_development_level = 0 }
+}
+c_qingshan={
+	423.7.6 = { holder = IRToCK3_c_lxj_yunneizhou_holder change_development_level = 0 }
+}
+c_rouyuan={
+	423.7.6 = { holder = IRToCK3_c_yongxing_holder change_development_level = 0 }
+}
+c_shengzhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_yunneizhou_holder change_development_level = 0 }
+}
+c_shuozhou={
+	423.7.6 = { holder = IRToCK3_c_datong_2_holder change_development_level = 0 }
+}
+c_yingzhou_5={
+	423.7.6 = { holder = IRToCK3_c_datong_2_holder change_development_level = 0 }
+}
+c_yongxing={
+	423.7.6 = { holder = IRToCK3_c_yongxing_holder change_development_level = 0 }
+}
+c_yuzhou={
+	423.7.6 = { holder = IRToCK3_c_datong_2_holder change_development_level = 0 }
+}

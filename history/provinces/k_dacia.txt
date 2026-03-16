@@ -2,14 +2,30 @@
 	holding = city_holding
 }
 515={
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
+}
+516={
+	culture = urslavic
+	faith = orthodox
+	holding = castle_holding
+}
+3881={
+	holding = city_holding
+}
+4975={
+	holding = none
+}
+4976={
+	holding = none
 }
 4977={
 	holding = none
 }
 4978={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 4979={
@@ -19,8 +35,8 @@
 	holding = none
 }
 4981={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 4982={
@@ -33,8 +49,8 @@
 	holding = none
 }
 4985={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 4986={
@@ -47,16 +63,14 @@
 	holding = none
 }
 4989={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4990={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4991={
 	holding = church_holding
@@ -71,19 +85,17 @@
 	holding = none
 }
 4995={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4996={
 	holding = city_holding
 }
 4997={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	395.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 4998={
 	holding = none
@@ -92,10 +104,9 @@
 	holding = none
 }
 5000={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 5001={
 	holding = none
@@ -104,17 +115,16 @@
 	holding = church_holding
 }
 5003={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	376.1.1 = { culture = alan religion = "scythian_pagan" }
 }
 5004={
 	holding = church_holding
 }
 5005={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 5006={
@@ -127,8 +137,5 @@
 	holding = none
 }
 5009={
-	culture = kolochin
-	faith = arianism
-	holding = castle_holding
-	395.1.1 = { culture = alan religion = "scythian_pagan" }
+	holding = none
 }

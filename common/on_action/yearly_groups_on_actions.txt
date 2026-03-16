@@ -84,12 +84,8 @@ fp2_yearly_events = {
 	trigger = {
 		has_fp2_dlc_trigger = yes
 		
-		any_realm_county = { # Most events are geographical in nature
-			any_county_province = { geographical_region = world_europe_west_iberia }
-		}
-
-		game_start_date >= 700.1.1
-
+		# Most events are geographical in nature
+		capital_province ?= { geographical_region = world_europe_west_iberia }
 	}
 	weight_multiplier = {
 		base = 1
@@ -134,12 +130,12 @@ fp2_yearly_events = {
 		160 = fp2_yearly.8004	# The Toledo School of Translation
 		160 = fp2_yearly.8005	# Under the Stone Pine
 		160 = fp2_yearly.8006	# Saqaliba Settlers 
-		#180 = fp2_struggle.1002	# Xenophilic Advancment
-		#160 = fp2_struggle.1050	# Dreams of Destruction
-		#150 = fp2_struggle.2000	# Disorderly Market
-		#140 = fp2_struggle.2008	# Misdeeds of the Councillor
-		#350 = fp2_struggle.2013	# The Secret to Freedom
-		#130 = fp2_struggle.2015	# Letter on the Back
+		180 = fp2_struggle.1002	# Xenophilic Advancment
+		160 = fp2_struggle.1050	# Dreams of Destruction
+		150 = fp2_struggle.2000	# Disorderly Market
+		140 = fp2_struggle.2008	# Misdeeds of the Councillor
+		350 = fp2_struggle.2013	# The Secret to Freedom
+		130 = fp2_struggle.2015	# Letter on the Back
 		180 = fp2_yearly.2025	# Suffering from Success
 		150 = fp2_yearly.4001	# You fancy a little siesta
 		150 = fp2_yearly.4002	# A county is increasingly religiously intertwined
@@ -150,10 +146,10 @@ fp2_yearly_events = {
 		150 = fp2_yearly.4010 	# Finding a Verraco
 		300 = fp2_yearly.3000 	# Neighboring Muslims are growing rice, adopt the practice yourself?
 		100 = bell_special_yearly.1000 # The bell of Huesca yearly 
-		#150 = fp2_yearly.9000 	# Thriving Jewish Community
-		#150 = fp2_yearly.9001 	# Suspect Conversos of secretly praciticing Judaism
-		#150 = fp2_yearly.9002 	# Jewish people come fleeing persecution from a nearby realm
-		#150 = fp2_yearly.9005 	# Toledan Nights
+		150 = fp2_yearly.9000 	# Thriving Jewish Community
+		150 = fp2_yearly.9001 	# Suspect Conversos of secretly praciticing Judaism
+		150 = fp2_yearly.9002 	# Jewish people come fleeing persecution from a nearby realm
+		150 = fp2_yearly.9005 	# Toledan Nights
 		50 = fp2_yearly.9006 	# Local bishop mad his church faces the wrong way
 	}
 	
@@ -171,29 +167,29 @@ bp1_yearly_events = {
 	trigger = {
 		has_dlc_feature = friends_and_foes
 		OR = {
-			num_of_relation_friend >= 1
-			num_of_relation_rival >= 1
-			num_of_relation_best_friend >= 1
-			num_of_relation_nemesis >= 1
+			any_relation = { type = friend }
+			any_relation = { type = rival }
+			any_relation = { type = best_friend }
+			any_relation = { type = nemesis }
 		}
 	}
 	weight_multiplier = {
 		base = 1
 		modifier = { # Increase frequency the more you fit the conditions
 			add = 0.25
-			num_of_relation_friend >= 1
+			any_relation = { type = friend }
 		}
 		modifier = { # Increase frequency the more you fit the conditions
 			add = 0.25
-			num_of_relation_rival >= 1
+			any_relation = { type = rival }
 		}
 		modifier = { # Increase frequency the more you fit the conditions
 			add = 0.25
-			num_of_relation_best_friend >= 1
+			any_relation = { type = best_friend }
 		}
 		modifier = { # Increase frequency the more you fit the conditions
 			add = 0.25
-			num_of_relation_nemesis >= 1
+			any_relation = { type = nemesis }
 		}
 	}
 
@@ -208,7 +204,7 @@ bp1_yearly_events = {
 		500 = bp1_yearly.1030 # A rival visits you on your dying bed
 		500 = bp1_yearly.1031 # You visit a rival on their dying bed
 		100 = bp1_yearly.1040 # You make a new friend at the bathhouse
-		100 = bp1_yearly.1050 # You make a new rival at the bathhouse
+		50 = bp1_yearly.1050 # You make a new rival at the bathhouse
 		100 = bp1_yearly.1060 # React to a superstitious friend
 		150 = bp1_yearly.1061 # Make someone superstitious - hidden
 		100 = bp1_yearly.1070 # Rival is superstitious - take advantage?
@@ -298,7 +294,6 @@ bp1_yearly_events = {
 		100 = bp1_yearly.9047 # Lover wants you to wear their hair
 		100 = bp1_yearly.9048 # Nemesis wants to end your rivalry by wrestling
 		100 = bp1_yearly.9050 # You and a friend share war stories
-		100 = bp1_yearly.0100 # You are caught in a storm and a rival's property is the only shelter
 		20 = bp1_yearly.7100 # Excreta incident, gain Nemesis
 
 		# Family Feud
@@ -316,9 +311,8 @@ fp3_yearly_events = {
 	trigger = {
 		has_fp3_dlc_trigger = yes
 		
-		any_realm_county = { # Most events are geographical in nature
-			any_county_province = { geographical_region = world_persian_empire }
-		}
+		# Most events are geographical in nature
+		capital_province = { geographical_region = world_persian_empire }
 	}
 	weight_multiplier = {
 		base = 1

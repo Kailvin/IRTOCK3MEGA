@@ -1,0 +1,54 @@
+476={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+477={
+	holding = none
+}
+478={
+	holding = city_holding
+}
+481={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3732={
+	holding = none
+}
+3733={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3734={
+	holding = city_holding
+}
+3735={
+	holding = church_holding
+}
+3736={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+	special_building_slot = despot_palace
+}
+3737={
+	holding = city_holding
+}
+3738={
+	holding = none
+}
+3798={
+	holding = castle_holding
+}
+3799={
+	holding = city_holding
+}
+3800={
+	holding = city_holding
+}
+3801={
+	holding = city_holding
+}

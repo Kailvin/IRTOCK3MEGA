@@ -1,0 +1,48 @@
+k_tuva={
+	423.7.6 = { liege = 0 }
+}
+d_katu_yaryk={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_katu_yaryk_holder government = tribal_government }
+}
+d_tannu_ola={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_eastern_tannu_holder liege = 0 }
+}
+d_togina={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_arzhan_holder liege = 0 }
+}
+d_western_sayan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_stoyanka_holder government = tribal_government }
+}
+c_arzhan={
+	423.7.6 = { holder = IRToCK3_c_arzhan_holder change_development_level = 0 }
+}
+c_azas={
+	423.7.6 = { holder = IRToCK3_c_arzhan_holder change_development_level = 0 }
+}
+c_central_tannu={
+	423.7.6 = { holder = IRToCK3_c_eastern_tannu_holder change_development_level = 0 }
+}
+c_eastern_tannu={
+	423.7.6 = { holder = IRToCK3_c_eastern_tannu_holder change_development_level = 0 }
+}
+c_kantegir={
+	423.7.6 = { holder = IRToCK3_c_stoyanka_holder change_development_level = 0 }
+}
+c_kara_khol={
+	423.7.6 = { holder = IRToCK3_c_katu_yaryk_holder change_development_level = 0 }
+}
+c_katu_yaryk={
+	423.7.6 = { holder = IRToCK3_c_katu_yaryk_holder change_development_level = 0 }
+}
+c_sayanchu={
+	423.7.6 = { holder = IRToCK3_c_stoyanka_holder change_development_level = 0 }
+}
+c_stoyanka={
+	423.7.6 = { holder = IRToCK3_c_stoyanka_holder change_development_level = 0 }
+}
+c_tapsa={
+	423.7.6 = { holder = IRToCK3_c_arzhan_holder change_development_level = 0 }
+}
+c_western_tannu={
+	423.7.6 = { holder = IRToCK3_c_eastern_tannu_holder change_development_level = 0 }
+}

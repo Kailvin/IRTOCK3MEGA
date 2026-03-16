@@ -1,34 +1,42 @@
 8455={
-	culture = oromo
+	culture = welayta
 	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8457={
-	culture = somali
-	religion = waaqism_pagan
-	holding = tribal_holding
+	holding = none
 }
 8458={
 	culture = somali
 	religion = waaqism_pagan
 	holding = tribal_holding
+	1003.1.1 = { holding = castle_holding }
 }
 8459={
-	holding = none
-}
-8460={
-	holding = none
-}
-8468={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
-}
-8473={
 	culture = somali
 	religion = waaqism_pagan
 	holding = tribal_holding
-	1030.1.1 = { religion = waaqism_pagan }
+	1030.1.1 = { religion = ashari }
+}
+8460={
+	holding = none
+	1064.1.1 = { holding = city_holding }
+}
+8461={
+	culture = somali
+	religion = waaqism_pagan
+	holding = tribal_holding
+	1030.1.1 = { religion = ashari }
+	1059.1.1 = { holding = castle_holding }
+}
+8468={
+	culture = somali
+	religion = waaqism_pagan
+	holding = tribal_holding
+	1030.1.1 = { religion = ashari }
+}
+8473={
+	holding = none
 }
 8476={
 	holding = none

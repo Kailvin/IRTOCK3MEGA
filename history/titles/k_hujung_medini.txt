@@ -1,0 +1,42 @@
+k_hujung_medini={
+	423.7.6 = { liege = 0 }
+}
+d_MAL_langkasuka={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_MAL_patani_holder liege = 0 }
+}
+d_MAL_pahang={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_MAL_pahang_holder government = tribal_government }
+}
+c_MAL_gangganegara={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_MAL_gelanggi={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_MAL_johor={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_MAL_kedah={
+	423.7.6 = { holder = IRToCK3_c_MAL_patani_holder change_development_level = 0 }
+}
+c_MAL_kelantan={
+	423.7.6 = { holder = IRToCK3_c_MAL_patani_holder change_development_level = 0 }
+}
+c_MAL_pahang={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_MAL_patani={
+	423.7.6 = { holder = IRToCK3_c_MAL_patani_holder change_development_level = 0 }
+}
+c_MAL_semantan={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_riau={
+	423.7.6 = { holder = IRToCK3_c_MAL_pahang_holder change_development_level = 0 }
+}
+c_THAI_takua_pa={
+	423.7.6 = { holder = IRToCK3_c_MAL_patani_holder change_development_level = 0 }
+}
+c_THAI_tambralinga={
+	423.7.6 = { holder = IRToCK3_c_MAL_patani_holder change_development_level = 0 }
+}

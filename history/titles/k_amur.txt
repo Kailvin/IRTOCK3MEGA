@@ -1,0 +1,87 @@
+k_amur={
+	423.7.6 = { liege = 0 }
+}
+d_eman_amar={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_eman_murkonno_holder government = tribal_government }
+}
+d_eman_boli={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_eman_boli_holder liege = 0 }
+}
+d_eman_bureya={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_eman_turma_holder government = tribal_government }
+}
+d_eman_nivkhia={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_eman_nurgan_holder government = tribal_government }
+}
+d_eman_samagero={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_eman_tudali_holder government = tribal_government }
+}
+d_eman_sikhotebei={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_eman_yerenhe_holder government = tribal_government }
+}
+c_eman_amgun={
+	423.7.6 = { holder = IRToCK3_c_eman_nurgan_holder change_development_level = 0 }
+}
+c_eman_beihean={
+	423.7.6 = { holder = IRToCK3_c_eman_yerenhe_holder change_development_level = 0 }
+}
+c_eman_birija={
+	423.7.6 = { holder = IRToCK3_c_eman_turma_holder change_development_level = 0 }
+}
+c_eman_boli={
+	423.7.6 = { holder = IRToCK3_c_eman_boli_holder change_development_level = 0 }
+}
+c_eman_choripi={
+	423.7.6 = { holder = IRToCK3_c_eman_boli_holder change_development_level = 0 }
+}
+c_eman_heishuiyang={
+	423.7.6 = { holder = IRToCK3_c_eman_yerenhe_holder change_development_level = 0 }
+}
+c_eman_kerin={
+	423.7.6 = { holder = IRToCK3_c_eman_tudali_holder change_development_level = 0 }
+}
+c_eman_khadul={
+	423.7.6 = { holder = IRToCK3_c_eman_tudali_holder change_development_level = 0 }
+}
+c_eman_mohean={
+	423.7.6 = { holder = IRToCK3_c_eman_boli_holder change_development_level = 0 }
+}
+c_eman_molihewen={
+	423.7.6 = { holder = IRToCK3_c_eman_boli_holder change_development_level = 0 }
+}
+c_eman_murkonno={
+	423.7.6 = { holder = IRToCK3_c_eman_murkonno_holder change_development_level = 0 }
+}
+c_eman_nimen={
+	423.7.6 = { holder = IRToCK3_c_eman_murkonno_holder change_development_level = 0 }
+}
+c_eman_nurgan={
+	423.7.6 = { holder = IRToCK3_c_eman_nurgan_holder change_development_level = 0 }
+}
+c_eman_tudali={
+	423.7.6 = { holder = IRToCK3_c_eman_tudali_holder change_development_level = 0 }
+}
+c_eman_tugur={
+	423.7.6 = { holder = IRToCK3_c_eman_nurgan_holder change_development_level = 0 }
+}
+c_eman_turma={
+	423.7.6 = { holder = IRToCK3_c_eman_turma_holder change_development_level = 0 }
+}
+c_eman_urehokto={
+	423.7.6 = { holder = IRToCK3_c_eman_turma_holder change_development_level = 0 }
+}
+c_eman_urmi={
+	423.7.6 = { holder = IRToCK3_c_eman_murkonno_holder change_development_level = 0 }
+}
+c_eman_vanda={
+	423.7.6 = { holder = IRToCK3_c_eman_murkonno_holder change_development_level = 0 }
+}
+c_eman_wuguihai={
+	423.7.6 = { holder = IRToCK3_c_eman_yerenhe_holder change_development_level = 0 }
+}
+c_eman_yam_alin={
+	423.7.6 = { holder = IRToCK3_c_eman_tudali_holder change_development_level = 0 }
+}
+c_eman_yerenhe={
+	423.7.6 = { holder = IRToCK3_c_eman_yerenhe_holder change_development_level = 0 }
+}

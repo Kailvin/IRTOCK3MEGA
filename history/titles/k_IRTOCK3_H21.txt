@@ -172,22 +172,19 @@ k_IRTOCK3_H21={
 d_jylland={
 	423.7.6 = { liege = 0 }
 }
+c_aalborg={
+	422.12.3 = { liege = 0 holder = imperator191897 }
+	423.7.6 = { change_development_level = 11 }
+}
 c_aarhus={
 	422.12.3 = { liege = 0 holder = imperator191897 }
 	423.7.6 = { change_development_level = 11 }
 }
-b_jelling={
-	423.7.6 = { holder = imperator195760 }
-}
-c_viborg={
-	422.12.3 = { liege = 0 holder = imperator191897 }
-	423.7.6 = { liege = k_IRTOCK3_H21 holder = imperator185457 change_development_level = 11 }
-}
 c_ringkobing={
 	422.12.3 = { liege = 0 holder = imperator191897 }
-	423.7.6 = { liege = k_IRTOCK3_H21 holder = imperator187516 change_development_level = 10 }
+	423.7.6 = { change_development_level = 10 }
 }
-c_aalborg={
+c_viborg={
 	422.12.3 = { liege = 0 holder = imperator191897 }
 	423.7.6 = { change_development_level = 11 }
 }

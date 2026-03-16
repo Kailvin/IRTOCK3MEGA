@@ -1,32 +1,29 @@
-756={
+5903={
 	holding = none
 }
-757={
-	culture = greek
-	faith = nicene
-	holding = castle_holding
-}
-5679={
+5904={
 	holding = city_holding
 }
-5680={
+5905={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+5906={
+	holding = city_holding
+}
+5907={
 	holding = none
 }
-5681={
-	culture = greek
-	faith = nicene
-	holding = castle_holding
-	303.1.1 = { special_building_slot = saint_lazarus }
-}
-5682={
-	holding = church_holding
+5908={
+	holding = none
 }
 5909={
 	holding = church_holding
 }
 5910={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5911={
@@ -39,29 +36,59 @@
 	holding = city_holding
 }
 5915={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5916={
 	holding = city_holding
 }
+5917={
+	holding = none
+}
 5918={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5919={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5920={
 	holding = city_holding
 }
+5923={
+	holding = city_holding
+}
+5924={
+	culture = adnanite
+	faith = arabic_pagan
+	holding = castle_holding
+}
+5925={
+	holding = none
+}
+5926={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
+5927={
+	holding = city_holding
+}
+5928={
+	holding = city_holding
+}
+5929={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
 5930={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5931={
@@ -71,8 +98,13 @@
 	holding = city_holding
 }
 5933={
-	culture = syrian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
+	holding = castle_holding
+}
+5934={
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 5935={
@@ -81,11 +113,77 @@
 5936={
 	holding = city_holding
 }
+5937={
+	holding = church_holding
+}
+5938={
+	holding = city_holding
+}
+5939={
+	holding = city_holding
+}
+5940={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
 5941={
 	holding = none
 }
 5942={
 	culture = adnanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
+}
+5944={
+	holding = none
+}
+5945={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
+5946={
+	holding = none
+}
+5947={
+	holding = none
+}
+5948={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
+5949={
+	holding = none
+}
+5950={
+	culture = adnanite
+	faith = orthodox
+	holding = castle_holding
+}
+5951={
+	culture = adnanite
+	faith = arabic_pagan
+	holding = castle_holding
+}
+5952={
+	holding = none
+}
+5953={
+	holding = none
+}
+5954={
+	holding = city_holding
+}
+5955={
+	culture = hebrew
+	faith = valentinianism
+	holding = castle_holding
+}
+5956={
+	holding = none
+}
+5957={
+	holding = none
 }

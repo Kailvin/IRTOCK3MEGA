@@ -1,31 +1,29 @@
 k_navarra={
-	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 d_navarra={
 	423.7.6 = { liege = 0 }
 }
-c_navarra={
+d_viscaya={
+	423.7.6 = { liege = 0 }
+}
+c_ipuskoa={
 	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 10 }
+	423.7.6 = { change_development_level = 14 }
 }
 c_najera={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 5 }
 }
+c_navarra={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 10 }
+}
 c_tudela={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 9 }
 }
-d_viscaya={
-	361.1.1 = { change_development_level = 2 }
-	423.7.6 = { liege = 0 }
-}
 c_viscaya={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 13 }
-}
-c_ipuskoa={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 14 }
 }

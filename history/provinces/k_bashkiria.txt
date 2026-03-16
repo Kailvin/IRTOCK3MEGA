@@ -4,9 +4,13 @@
 	holding = none
 }
 5475={
-	culture = komi
-	religion = komi_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	915.1.2 = { religion = ashari }
+	1063.1.2 = { holding = herder_holding }
+	1178.1.1 = { holding = nomad_holding }
+	1240.1.2 = { culture = mongol }
 }
 5476={
 	holding = none
@@ -48,9 +52,15 @@
 	holding = none
 }
 5487={
-	culture = komi
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	865.1.2 = { holding = herder_holding }
+	902.1.2 = { holding = nomad_holding }
+	915.1.2 = { religion = ashari }
+	1166.1.1 = { holding = herder_holding }
+	1236.1.2 = { holding = nomad_holding }
+	1240.1.2 = { culture = mongol }
 }
 5488={
 	holding = none
@@ -59,9 +69,12 @@
 	holding = none
 }
 5490={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	915.1.2 = { religion = ashari }
+	1166.1.1 = { holding = herder_holding }
+	1240.1.2 = { culture = mongol }
 }
 5491={
 	holding = none
@@ -73,9 +86,12 @@
 	holding = none
 }
 5494={
-	culture = komi
-	religion = komi_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	915.1.2 = { religion = ashari }
+	1166.1.1 = { holding = herder_holding }
+	1240.1.2 = { culture = mongol }
 }
 5495={
 	holding = none
@@ -84,14 +100,18 @@
 	holding = none
 }
 5497={
-	culture = komi
-	religion = komi_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	915.1.2 = { religion = ashari }
+	1166.1.1 = { holding = herder_holding }
+	1240.1.2 = { culture = mongol }
 }
 5519={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	1240.1.2 = { culture = mongol }
 }
 5520={
 	holding = none
@@ -109,14 +129,19 @@
 	holding = none
 }
 5525={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = nomad_holding
+	853.1.2 = { holding = herder_holding }
+	1066.1.1 = { holding = nomad_holding }
+	1240.1.2 = { culture = mongol }
 }
 5526={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = bashkir
+	religion = tengri_pagan
+	holding = herder_holding
+	1066.1.1 = { holding = nomad_holding }
+	1240.1.2 = { culture = mongol }
 }
 5527={
 	holding = none

@@ -1,0 +1,30 @@
+k_hitakami={
+	423.7.6 = { liege = 0 }
+}
+d_hitakami={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_korehari_holder liege = 0 }
+}
+d_nushiro={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_nushiro_holder liege = 0 }
+}
+c_isawa={
+	423.7.6 = { holder = IRToCK3_c_korehari_holder change_development_level = 0 }
+}
+c_iwaki={
+	423.7.6 = { holder = IRToCK3_c_korehari_holder change_development_level = 0 }
+}
+c_iwase={
+	423.7.6 = { holder = IRToCK3_c_korehari_holder change_development_level = 0 }
+}
+c_korehari={
+	423.7.6 = { holder = IRToCK3_c_korehari_holder change_development_level = 0 }
+}
+c_nushiro={
+	423.7.6 = { holder = IRToCK3_c_nushiro_holder change_development_level = 0 }
+}
+c_tokisara={
+	423.7.6 = { holder = IRToCK3_c_nushiro_holder change_development_level = 0 }
+}
+c_tsugaru={
+	423.7.6 = { holder = IRToCK3_c_korehari_holder change_development_level = 0 }
+}

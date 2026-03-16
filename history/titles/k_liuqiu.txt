@@ -1,0 +1,15 @@
+k_liuqiu={
+	423.7.6 = { liege = 0 }
+}
+d_liuqiu={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_hoanya_holder government = tribal_government }
+}
+c_amis={
+	423.7.6 = { holder = IRToCK3_c_hoanya_holder change_development_level = 0 }
+}
+c_hoanya={
+	423.7.6 = { holder = IRToCK3_c_hoanya_holder change_development_level = 0 }
+}
+c_siraya={
+	423.7.6 = { holder = IRToCK3_c_hoanya_holder change_development_level = 0 }
+}

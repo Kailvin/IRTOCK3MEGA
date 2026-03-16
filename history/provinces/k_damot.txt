@@ -1,16 +1,16 @@
 8355={
-	culture = sidama
-	religion = sidama_pagan
+	culture = ethiopian
+	religion = waaqism_pagan
 	holding = tribal_holding
 	1066.1.1 = { holding = castle_holding }
-	1140.1.1 = { religion = sunni }
+	1140.1.1 = { religion = ashari }
 }
 8356={
-	culture = sidama
-	religion = damot_pagan
+	culture = ethiopian
+	religion = waaqism_pagan
 	holding = tribal_holding
 	1066.1.1 = { holding = castle_holding }
-	1140.1.1 = { religion = sunni }
+	1140.1.1 = { religion = ashari }
 }
 8357={
 	holding = none
@@ -18,15 +18,15 @@
 }
 8358={
 	culture = welayta
-	religion = welayta_pagan
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8359={
 	holding = none
 }
 8360={
-	culture = aari
-	religion = south_omotic_pagan
+	culture = welayta
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8361={
@@ -34,16 +34,11 @@
 }
 8362={
 	culture = welayta
-	religion = welayta_pagan
+	religion = waaqism_pagan
 	holding = tribal_holding
 	1066.1.1 = { holding = castle_holding }
 }
 8363={
-	holding = none
-}
-8364={
-	culture = somali
-	faith = egyptian_pagan
 	holding = none
 }
 8365={
@@ -68,18 +63,18 @@
 	holding = none
 }
 8376={
-	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	culture = welayta
+	religion = waaqism_pagan
+	holding = tribal_holding
 }
 8377={
 	culture = welayta
-	religion = welayta_pagan
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8379={
-	culture = aari
-	religion = south_omotic_pagan
+	culture = welayta
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8380={
@@ -88,13 +83,11 @@
 8381={
 	holding = none
 }
-8385={
-	holding = none
-}
 8387={
-	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	culture = welayta
+	religion = waaqism_pagan
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
 }
 8388={
 	holding = none
@@ -115,7 +108,7 @@
 }
 8435={
 	culture = welayta
-	religion = welayta_pagan
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8436={
@@ -131,8 +124,8 @@
 	holding = none
 }
 8517={
-	culture = aari
-	religion = south_omotic_pagan
+	culture = welayta
+	religion = waaqism_pagan
 	holding = tribal_holding
 }
 8518={

@@ -1,61 +1,48 @@
 k_hausaland={
-	361.1.1 = { change_development_level = 1 }
 	423.7.6 = { liege = 0 }
-}
-d_kano={
-	361.1.1 = { change_development_level = 1 }
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_kano_holder liege = 0 }
-}
-c_kano={
-	361.1.1 = { government = tribal_government change_development_level = 4 }
-	423.7.6 = { holder = IRToCK3_c_kano_holder }
-}
-c_daura={
-	361.1.1 = { government = tribal_government change_development_level = 3 }
-	423.7.6 = { holder = IRToCK3_c_kano_holder }
-}
-c_rano={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kano_holder change_development_level = 1 }
-}
-d_katsina={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_katsina_holder government = tribal_government }
-}
-c_katsina={
-	361.1.1 = { government = tribal_government change_development_level = 3 }
-	423.7.6 = { holder = IRToCK3_c_katsina_holder }
-}
-c_zaria={
-	361.1.1 = { government = tribal_government change_development_level = 3 }
-	423.7.6 = { holder = IRToCK3_c_katsina_holder }
-}
-c_kaduna={
-	361.1.1 = { government = tribal_government change_development_level = 1 }
-	423.7.6 = { holder = IRToCK3_c_katsina_holder }
-}
-d_kebbi={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_kebbi_holder government = tribal_government }
-}
-c_kebbi={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kebbi_holder change_development_level = 1 }
-}
-c_sokoto={
-	361.1.1 = { government = tribal_government change_development_level = 1 }
-	423.7.6 = { holder = IRToCK3_c_kebbi_holder }
-}
-c_yauri={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_kebbi_holder change_development_level = 1 }
 }
 d_gobir={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_gobir_holder government = tribal_government }
 }
+d_kano={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kano_holder liege = 0 }
+}
+d_katsina={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_katsina_holder government = tribal_government }
+}
+d_kebbi={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_kebbi_holder government = tribal_government }
+}
+c_daura={
+	423.7.6 = { holder = IRToCK3_c_kano_holder change_development_level = 0 }
+}
 c_gobir={
-	361.1.1 = { government = tribal_government change_development_level = 0 }
-	423.7.6 = { holder = IRToCK3_c_gobir_holder }
+	423.7.6 = { holder = IRToCK3_c_gobir_holder change_development_level = 0 }
+}
+c_kaduna={
+	423.7.6 = { holder = IRToCK3_c_katsina_holder change_development_level = 0 }
+}
+c_kano={
+	423.7.6 = { holder = IRToCK3_c_kano_holder change_development_level = 0 }
+}
+c_katsina={
+	423.7.6 = { holder = IRToCK3_c_katsina_holder change_development_level = 0 }
+}
+c_kebbi={
+	423.7.6 = { holder = IRToCK3_c_kebbi_holder change_development_level = 0 }
+}
+c_rano={
+	423.7.6 = { holder = IRToCK3_c_kano_holder change_development_level = 0 }
+}
+c_sokoto={
+	423.7.6 = { holder = IRToCK3_c_kebbi_holder change_development_level = 0 }
 }
 c_tahoua={
-	361.1.1 = { government = tribal_government change_development_level = 0 }
-	423.7.6 = { holder = IRToCK3_c_gobir_holder }
+	423.7.6 = { holder = IRToCK3_c_gobir_holder change_development_level = 0 }
+}
+c_yauri={
+	423.7.6 = { holder = IRToCK3_c_kebbi_holder change_development_level = 0 }
+}
+c_zaria={
+	423.7.6 = { holder = IRToCK3_c_katsina_holder change_development_level = 0 }
 }

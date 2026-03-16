@@ -1,0 +1,27 @@
+k_champa={
+	423.7.6 = { liege = 0 }
+}
+d_indrapura={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_indrapura_holder liege = 0 }
+}
+d_vijaya={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_vijaya_holder liege = 0 }
+}
+c_indrapura={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 0 }
+}
+c_kauthara={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 0 }
+}
+c_ma_linh={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 0 }
+}
+c_panduranga={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 0 }
+}
+c_simhapura={
+	423.7.6 = { holder = IRToCK3_c_indrapura_holder change_development_level = 0 }
+}
+c_vijaya={
+	423.7.6 = { holder = IRToCK3_c_vijaya_holder change_development_level = 0 }
+}

@@ -7,13 +7,13 @@ k_IRTOCK3_J49={
 d_cherven_cities={
 	423.7.6 = { liege = 0 }
 }
-c_cherven={
-	396.12.28 = { liege = 0 holder = imperator193439 }
-	423.7.6 = { change_development_level = 11 }
-}
 c_belz={
 	421.3.19 = { liege = 0 holder = imperator201346 }
 	423.7.6 = { change_development_level = 9 }
+}
+c_cherven={
+	396.12.28 = { liege = 0 holder = imperator193439 }
+	423.7.6 = { change_development_level = 11 }
 }
 c_peremyshl={
 	401.3.5 = { liege = 0 holder = imperator185133 }

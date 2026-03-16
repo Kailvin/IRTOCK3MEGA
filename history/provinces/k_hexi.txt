@@ -1,0 +1,256 @@
+9415={
+	holding = church_holding
+}
+9416={
+	holding = church_holding
+}
+9417={
+	holding = city_holding
+}
+9418={
+	culture = han
+	religion = mahayana
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = lamaism }
+	1140.1.1 = { religion = avatamsaka }
+}
+9419={
+	culture = tuyuhun
+	religion = tengri_pagan
+	holding = castle_holding
+	700.1.1 = { culture = turkish religion = maturidi }
+}
+9420={
+	holding = church_holding
+}
+9473={
+	holding = castle_holding
+}
+9474={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	1066.1.1 = { buildings = { outposts_02 watchtowers_01 } }
+}
+9475={
+	holding = church_holding
+}
+9476={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	special_building_slot = generic_university
+	900.1.1 = { special_building = generic_university }
+	1000.1.1 = { culture = yughur }
+	1050.1.1 = { culture = tangut }
+	1150.1.1 = { culture = tangut }
+}
+9477={
+	holding = church_holding
+}
+9478={
+	holding = church_holding
+}
+9479={
+	culture = tuyuhun
+	religion = avatamsaka
+	holding = castle_holding
+	950.1.1 = { culture = yughur religion = sukhavati }
+}
+9480={
+	holding = church_holding
+}
+9481={
+	culture = sogdian
+	religion = mantrayana
+	holding = city_holding
+	1038.1.1 = { culture = yughur }
+}
+9482={
+	holding = castle_holding
+}
+9483={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+}
+9484={
+	holding = church_holding
+}
+9485={
+	holding = castle_holding
+}
+9486={
+	culture = sogdian
+	religion = mantrayana
+	holding = city_holding
+	1000.1.1 = { culture = yughur }
+	1038.1.1 = { religion = sukhavati }
+}
+9487={
+	culture = han
+	religion = sukhavati
+	holding = city_holding
+}
+9488={
+	holding = city_holding
+}
+9490={
+	culture = tuyuhun
+	religion = tengri_pagan
+	holding = tribal_holding
+	894.1.1 = { culture = yughur religion = manichean }
+	1038.1.1 = { religion = lamaism }
+}
+9491={
+	holding = castle_holding
+}
+9492={
+	holding = church_holding
+}
+9493={
+	holding = castle_holding
+}
+9494={
+	culture = tocharian
+	religion = sukhavati
+	holding = city_holding
+	894.1.1 = { culture = yughur }
+}
+9495={
+	holding = city_holding
+}
+9496={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+}
+9497={
+	holding = none
+}
+9498={
+	holding = church_holding
+}
+9499={
+	holding = church_holding
+}
+9500={
+	culture = han
+	religion = sukhavati
+	holding = city_holding
+	894.1.1 = { culture = yughur }
+	1038.1.1 = { religion = avatamsaka }
+}
+9501={
+	holding = castle_holding
+}
+9502={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	894.1.1 = { culture = yughur religion = manichean }
+	1038.1.1 = { religion = avatamsaka }
+	1080.1.1 = { religion = avatamsaka }
+}
+9503={
+	holding = church_holding
+}
+9511={
+	culture = tuyuhun
+	religion = tengri_pagan
+	holding = tribal_holding
+	894.1.1 = { culture = yughur religion = lamaism }
+}
+9512={
+	holding = none
+}
+9513={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	894.1.1 = { culture = yughur }
+	926.1.1 = { religion = vajrayana }
+	1038.1.1 = { religion = avatamsaka }
+}
+9514={
+	holding = city_holding
+}
+9515={
+	holding = church_holding
+}
+9516={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	1000.1.1 = { culture = yughur }
+	1038.1.1 = { religion = sukhavati }
+}
+9517={
+	holding = city_holding
+}
+9521={
+	culture = han
+	religion = sukhavati
+	holding = city_holding
+	900.1.1 = { culture = bodpa religion = lamaism }
+	1032.1.1 = { culture = tangut religion = avatamsaka }
+	1250.1.1 = { culture = han religion = avatamsaka }
+}
+9522={
+	holding = church_holding
+}
+9523={
+	holding = city_holding
+}
+9524={
+	holding = church_holding
+}
+9525={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+	1032.1.1 = { culture = tangut }
+	1250.1.1 = { culture = han }
+}
+9526={
+	holding = city_holding
+}
+9527={
+	holding = city_holding
+}
+9528={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+}
+9529={
+	holding = city_holding
+}
+9530={
+	holding = church_holding
+}
+9531={
+	culture = han
+	religion = avatamsaka
+	holding = castle_holding
+}
+12360={
+	holding = city_holding
+}
+12365={
+	holding = church_holding
+}
+12366={
+	holding = city_holding
+}
+12367={
+	culture = han
+	religion = yogacara
+	holding = castle_holding
+}
+12368={
+	culture = han
+	religion = yogacara
+	holding = castle_holding
+}

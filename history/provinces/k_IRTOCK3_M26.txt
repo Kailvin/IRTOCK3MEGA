@@ -35,6 +35,12 @@
 3410={
 	holding = none
 }
+3411={
+	holding = none
+}
+3412={
+	holding = city_holding
+}
 3413={
 	holding = none
 }
@@ -48,9 +54,6 @@
 	holding = none
 }
 3417={
-	holding = none
-}
-3423={
 	holding = none
 }
 4517={

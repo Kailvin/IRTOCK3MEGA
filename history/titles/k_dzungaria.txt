@@ -1,95 +1,90 @@
 k_dzungaria={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
-}
-d_beshbalik={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_beshbalik_holder liege = 0 }
-}
-c_beshbalik={
-	361.1.1 = { government = nomad_government change_development_level = 3 }
-	423.7.6 = { holder = IRToCK3_c_beshbalik_holder }
-}
-c_jimsar={
-	361.1.1 = { government = nomad_government change_development_level = 3 }
-	423.7.6 = { holder = IRToCK3_c_beshbalik_holder }
-}
-c_yangjibaliq={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
-}
-c_bugur={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
-}
-d_altay={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_altay_holder liege = 0 }
-}
-c_altay={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
-}
-c_burqin={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
-}
-c_qinggil={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
-}
-c_tengerge={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
 }
 d_akaltay={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_agairik_holder liege = 0 }
 }
-c_agairik={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
+d_altay={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_altay_holder liege = 0 }
 }
-c_narym_DZU={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
-}
-c_torangy_kul={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
+d_beshbalik={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_beshbalik_holder government = feudal_government }
 }
 d_gurbantunggut={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_hoboksar_holder liege = 0 }
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_hoboksar_holder liege = 0 }
+}
+d_kara_khoja={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_kara_khoja_holder liege = 0 }
+}
+d_naiman_gobi={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_balgun_holder liege = 0 }
+}
+c_agairik={
+	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
+}
+c_altay={
+	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
+}
+c_balgun={
+	423.7.6 = { holder = IRToCK3_c_balgun_holder change_development_level = 0 }
+}
+c_barkul={
+	423.7.6 = { holder = IRToCK3_c_kara_khoja_holder change_development_level = 0 }
+}
+c_beshbalik={
+	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
+}
+c_boro_burgasu={
+	423.7.6 = { holder = IRToCK3_c_balgun_holder change_development_level = 0 }
+}
+c_bugur={
+	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
+}
+c_burgasutai={
+	423.7.6 = { holder = IRToCK3_c_kara_khoja_holder change_development_level = 0 }
+}
+c_burqin={
+	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
+}
+c_chamil={
+	423.7.6 = { holder = IRToCK3_c_kara_khoja_holder change_development_level = 0 }
 }
 c_hoboksar={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
-}
-c_kaerji={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
-}
-c_ulan_chuzir={
-	361.1.1 = { government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
 }
 c_jie_DZU={
-	361.1.1 = { government = nomad_government }
 	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
 }
-d_naiman_gobi={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_kara_asirgan_holder liege = 0 }
-}
-c_balgun={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { change_development_level = 0 }
+c_jimsar={
+	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
 }
 c_kabtag={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_balgun_holder change_development_level = 0 }
+}
+c_kaerji={
+	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
 }
 c_kara_asirgan={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_kara_asirgan_holder change_development_level = 0 }
+	423.7.6 = { holder = IRToCK3_c_balgun_holder change_development_level = 0 }
 }
-c_boro_burgasu={
-	361.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_kara_asirgan_holder change_development_level = 0 }
+c_kara_khoja={
+	423.7.6 = { holder = IRToCK3_c_kara_khoja_holder change_development_level = 0 }
+}
+c_narym_DZU={
+	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
+}
+c_qinggil={
+	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
+}
+c_tengerge={
+	423.7.6 = { holder = IRToCK3_c_altay_holder change_development_level = 0 }
+}
+c_torangy_kul={
+	423.7.6 = { holder = IRToCK3_c_agairik_holder change_development_level = 0 }
+}
+c_ulan_chuzir={
+	423.7.6 = { holder = IRToCK3_c_hoboksar_holder change_development_level = 0 }
+}
+c_yangjibaliq={
+	423.7.6 = { holder = IRToCK3_c_beshbalik_holder change_development_level = 0 }
 }

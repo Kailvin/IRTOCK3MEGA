@@ -1,4 +1,8 @@
-﻿house_abelard={
+﻿house_abbasid={
+	name = dynn_Abbasid
+	dynasty = 7296
+}
+house_abelard={
 	name = Abelard
 	dynasty = abelard
 }
@@ -126,6 +130,102 @@ house_flor={
 	name = Flor
 	dynasty = flor
 }
+house_fujiwara_ashikaga={
+	name = dynn_Fujiwara_Ashikaga
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_hamuro={
+	name = dynn_Fujiwara_Hamuro
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_hizume={
+	name = dynn_Fujiwara_Hizume
+	dynasty = japanese_fujiwara_oshu
+}
+house_fujiwara_kajuji={
+	name = dynn_Fujiwara_KajU_ji
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_kasannoin={
+	name = dynn_Fujiwara_Kasannoin
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_koichijo={
+	name = dynn_Fujiwara_KoichijO_
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_kujo={
+	name = dynn_Fujiwara_KujO_
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_kyo_ke={
+	name = dynn_Fujiwara_KyO__ke
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_manatsu={
+	name = dynn_Fujiwara_Manatsu
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_matsudono={
+	name = dynn_Fujiwara_Matsudono
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_mikohida={
+	name = dynn_Fujiwara_Mikohida
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_nakamikado={
+	name = dynn_Fujiwara_Nakamikado
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_nan_ke={
+	name = dynn_Fujiwara_Nan_ke
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_oinomikado={
+	name = dynn_Fujiwara_O_inomikado
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_ononomiya={
+	name = dynn_Fujiwara_Ononomiya
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_rokujo={
+	name = dynn_Fujiwara_RokujO_
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_sesonji={
+	name = dynn_Fujiwara_Sesonji
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_shijo={
+	name = dynn_Fujiwara_ShijO_
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_shiki_ke={
+	name = dynn_Fujiwara_Shiki_ke
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_takaie={
+	name = dynn_Fujiwara_Takaie
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_uona={
+	name = dynn_Fujiwara_Uona
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_yamakage={
+	name = dynn_Fujiwara_Yamakage
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_yoshikado={
+	name = dynn_Fujiwara_Yoshikado
+	dynasty = japanese_fujiwara
+}
+house_fujiwara_yoshiyo={
+	name = dynn_Fujiwara_Yoshiyo
+	dynasty = japanese_fujiwara
+}
 house_gabirol={
 	name = dynn_Gabirol
 	dynasty = gabirol
@@ -150,9 +250,57 @@ house_harmaytan={
 	name = dynn_Harmaytan
 	dynasty = persian_avicenna
 }
-house_hashmid={
-	name = dynn_hashmid
-	dynasty = 658742
+house_hchar_chu={
+	name = dynn_Chu
+	dynasty = hchar_chu
+}
+house_hchar_fan={
+	name = dynn_Fan_8303
+	dynasty = hchar_fan
+}
+house_hchar_jeong={
+	name = dynn_Jeong_912D
+	dynasty = hchar_jeong
+}
+house_hchar_li={
+	name = dynn_Li_674E
+	dynasty = hchar_li
+}
+house_hchar_mibu={
+	name = dynn_Mibu
+	dynasty = hchar_mibu
+}
+house_hchar_nguyen={
+	name = dynn_Nguyen_962E
+	dynasty = hchar_nguyen
+}
+house_hchar_pham={
+	name = dynn_Pham_8303
+	dynasty = hchar_pham
+}
+house_hchar_qiu={
+	name = dynn_Qiu
+	dynasty = hchar_fan
+}
+house_hchar_sakata={
+	name = dynn_Sakata
+	dynasty = hchar_sakata
+}
+house_hchar_takezaki={
+	name = dynn_Takezaki
+	dynasty = hchar_takezaki
+}
+house_hchar_wen={
+	name = dynn_Wen_6587
+	dynasty = hchar_wen
+}
+house_hchar_yi={
+	name = dynn_I_674E
+	dynasty = hchar_yi
+}
+house_hchar_yue={
+	name = dynn_Yue_5CB3
+	dynasty = hchar_yue
 }
 house_holobolos={
 	name = dynn_Holobolos
@@ -187,6 +335,62 @@ house_metochites={
 	name = dynn_Metochites
 	dynasty = metochites
 }
+house_minamoto_hitachi={
+	name = dynn_Minamoto_Hitachi
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_ishikawa={
+	name = dynn_Minamoto_Ishikawa
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_kai={
+	name = dynn_Minamoto_Kai
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_kawachi={
+	name = dynn_Minamoto_Kawachi
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_kiso={
+	name = dynn_Minamoto_Kiso
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_kozuke={
+	name = dynn_Minamoto_KO_zuke
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_mino={
+	name = dynn_Minamoto_Mino
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_oshu_ishikawa={
+	name = dynn_Minamoto_O_shU__Ishikawa
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_settsu={
+	name = dynn_Minamoto_Settsu
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_shinano={
+	name = dynn_Minamoto_Shinano
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_toki={
+	name = dynn_Minamoto_Toki
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_watanabe={
+	name = dynn_Minamoto_Watanabe
+	dynasty = japanese_minamoto_saga
+}
+house_minamoto_yamamoto={
+	name = dynn_Minamoto_Yamamoto
+	dynasty = japanese_minamoto_seiwa
+}
+house_minamoto_yamato={
+	name = dynn_Minamoto_Yamato
+	dynasty = japanese_minamoto_seiwa
+}
 house_monmouth={
 	prefix = dynnp_of
 	name = cn_monmouth
@@ -199,6 +403,10 @@ house_moschopoulos={
 house_nahman={
 	name = dynn_Nahman
 	dynasty = nahman
+}
+house_nakatomi_onakatomi={
+	name = dynn_O_nakatomi
+	dynasty = japanese_nakatomi
 }
 house_of_lincoln={
 	prefix = dynnp_of
@@ -214,6 +422,10 @@ house_olkhunut={
 	name = dynn_Olkhunut
 	dynasty = 101946
 }
+house_omiwa_usuki={
+	name = dynn_Usuki
+	dynasty = japanese_omiwa
+}
 house_onggirat={
 	name = dynn_Onggirat
 	dynasty = 1041000
@@ -225,6 +437,10 @@ house_ormstunga={
 house_pachymeres={
 	name = dynn_Pachymeres
 	dynasty = pachymeres
+}
+house_penh={
+	name = dynn_Penh
+	dynasty = penh
 }
 house_petrarca={
 	name = dynn_Petrarca
@@ -291,6 +507,62 @@ house_sturluson={
 	name = dynn_Sturluson
 	dynasty = sturluson
 }
+house_tachibana_tokai={
+	name = dynn_Tachibana_Tokai
+	dynasty = japanese_tachibana
+}
+house_taira_boso={
+	name = dynn_Taira_BO_sO_
+	dynasty = japanese_taira_kanmu
+}
+house_taira_chiba={
+	name = dynn_Taira_Chiba
+	dynasty = japanese_taira_kanmu
+}
+house_taira_chichibu={
+	name = dynn_Taira_Chichibu
+	dynasty = japanese_taira_kanmu
+}
+house_taira_echigo={
+	name = dynn_Taira_Echigo
+	dynasty = japanese_taira_kanmu
+}
+house_taira_hitachi={
+	name = dynn_Taira_Hitachi
+	dynasty = japanese_taira_kanmu
+}
+house_taira_iwaki={
+	name = dynn_Taira_Iwaki
+	dynasty = japanese_taira_kanmu
+}
+house_taira_kawagoe={
+	name = dynn_Taira_Kawagoe
+	dynasty = japanese_taira_kanmu
+}
+house_taira_kazusa={
+	name = dynn_Taira_Kazusa
+	dynasty = japanese_taira_kanmu
+}
+house_taira_miura={
+	name = dynn_Taira_Miura
+	dynasty = japanese_taira_kanmu
+}
+house_taira_oba={
+	name = dynn_Taira_O_ba
+	dynasty = japanese_taira_kanmu
+}
+house_taira_satsuma={
+	name = dynn_Taira_Satsuma
+	dynasty = japanese_taira_kanmu
+}
+house_taira_shibuya={
+	name = dynn_Taira_Shibuya
+	dynasty = japanese_taira_kanmu
+}
+house_taira_takamune={
+	name = dynn_Taira_Takamune
+	dynasty = japanese_taira_kanmu
+}
 house_tarchaneiotes={
 	name = dynn_Tarchaneiotes
 	dynasty = tarchaneiotes
@@ -318,10 +590,6 @@ house_tusi={
 house_tzetzes={
 	name = dynn_Tzetzes
 	dynasty = tzetzes
-}
-house_umayyad={
-	name = dynn_Umayyad
-	dynasty = 597
 }
 house_uriankhai={
 	name = dynn_Uriankhai

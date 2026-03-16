@@ -1,5 +1,5 @@
 88={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = castle_holding
 }
@@ -13,7 +13,7 @@
 	holding = none
 }
 92={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = castle_holding
 }
@@ -21,7 +21,7 @@
 	holding = church_holding
 }
 94={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = tribal_holding
 }
@@ -35,43 +35,10 @@
 	holding = none
 }
 98={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = tribal_holding
 }
-99={
-	culture = aestian
-	faith = slavic_pagan
-	holding = castle_holding
-}
-100={
-	holding = none
-}
-101={
-	culture = aestian
-	faith = scythian_pagan
-	holding = castle_holding
-}
-108={
-	holding = castle_holding
-}
-143={
-	holding = none
-}
-144={
-	holding = castle_holding
-}
-145={
-	culture = aestian
-	faith = slavic_pagan
-	holding = castle_holding
-}
 146={
-	holding = none
-}
-147={
-	holding = church_holding
-}
-148={
 	holding = none
 }

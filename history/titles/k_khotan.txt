@@ -1,0 +1,42 @@
+k_khotan={
+	423.7.6 = { liege = 0 }
+}
+d_charkliq={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_charkliq_holder liege = 0 }
+}
+d_karashar={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_karashar_holder liege = 0 }
+}
+d_loulan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_loulan_holder government = feudal_government }
+}
+c_charkliq={
+	423.7.6 = { holder = IRToCK3_c_charkliq_holder change_development_level = 12 }
+}
+c_dafang={
+	423.7.6 = { holder = IRToCK3_c_loulan_holder change_development_level = 2 }
+}
+c_dunhuang={
+	423.7.6 = { holder = IRToCK3_c_charkliq_holder change_development_level = 2 }
+}
+c_karashar={
+	423.7.6 = { holder = IRToCK3_c_karashar_holder change_development_level = 2 }
+}
+c_kucha={
+	423.7.6 = { holder = IRToCK3_c_karashar_holder change_development_level = 8 }
+}
+c_kumtag={
+	423.7.6 = { holder = IRToCK3_c_loulan_holder change_development_level = 2 }
+}
+c_loulan={
+	423.7.6 = { holder = IRToCK3_c_loulan_holder change_development_level = 2 }
+}
+c_luntai={
+	423.7.6 = { holder = IRToCK3_c_karashar_holder change_development_level = 2 }
+}
+c_luobupo={
+	423.7.6 = { holder = IRToCK3_c_charkliq_holder change_development_level = 2 }
+}
+c_toksun={
+	423.7.6 = { holder = IRToCK3_c_karashar_holder change_development_level = 2 }
+}

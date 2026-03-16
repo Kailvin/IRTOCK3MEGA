@@ -1,125 +1,232 @@
-469={
-	culture = kolochin
-	faith = nicene
+471={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-502={
-	culture = illyrian
-	faith = nicene
+493={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-503={
-	holding = none
+494={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
 }
-505={
-	culture = kolochin
-	faith = nicene
+498={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+499={
+	culture = urslavic
+	faith = orthodox
+	holding = castle_holding
+}
+500={
+	culture = urslavic
+	faith = orthodox
+	holding = castle_holding
+}
+501={
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 506={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
-3571={
-	holding = none
-}
-3572={
-	culture = kolochin
-	faith = nicene
+507={
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
-3573={
+508={
+	holding = city_holding
+}
+509={
 	holding = church_holding
 }
-3574={
+510={
+	culture = urslavic
+	faith = orthodox
+	holding = castle_holding
+}
+3614={
+	holding = city_holding
+}
+3615={
+	holding = city_holding
+}
+3616={
+	holding = none
+}
+3617={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3618={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3619={
+	holding = city_holding
+}
+3620={
+	holding = city_holding
+}
+3621={
+	holding = none
+}
+3622={
+	holding = city_holding
+}
+3623={
+	holding = none
+}
+3624={
+	holding = city_holding
+}
+3625={
+	holding = none
+}
+3626={
+	holding = city_holding
+}
+3627={
+	holding = city_holding
+}
+3628={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3629={
+	holding = city_holding
+}
+3630={
+	holding = none
+}
+3631={
+	holding = city_holding
+}
+3632={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3633={
+	holding = none
+}
+3634={
+	holding = none
+}
+3635={
+	holding = none
+}
+3636={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3637={
+	holding = city_holding
+}
+3638={
+	holding = none
+}
+3639={
+	holding = none
+}
+3640={
+	holding = none
+}
+3641={
+	holding = castle_holding
+}
+3642={
+	holding = none
+}
+3643={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3644={
+	holding = none
+}
+3645={
+	holding = none
+}
+3646={
+	holding = none
+}
+3647={
+	holding = none
+}
+3648={
+	holding = none
+}
+3649={
+	holding = city_holding
+}
+3650={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3651={
+	holding = city_holding
+}
+3652={
+	holding = city_holding
+}
+3653={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3654={
+	holding = none
+}
+3655={
 	holding = church_holding
 }
-3575={
-	culture = kolochin
-	faith = nicene
+3656={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-3576={
+3657={
+	holding = none
+}
+3658={
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
-3577={
-	holding = city_holding
-}
-3578={
-	holding = city_holding
-}
-3579={
+3659={
 	holding = none
 }
-3580={
-	holding = church_holding
-}
-3581={
-	holding = church_holding
-}
-3582={
+3660={
 	holding = city_holding
 }
-3583={
-	culture = illyrian
-	faith = nicene
-	holding = castle_holding
-}
-3584={
-	holding = city_holding
-}
-3585={
-	holding = city_holding
-}
-3586={
+3661={
 	holding = none
 }
-3587={
-	holding = church_holding
-}
-3588={
-	holding = city_holding
-}
-3589={
+3662={
 	holding = none
 }
-3590={
-	holding = city_holding
-}
-3591={
-	holding = city_holding
-}
-3592={
-	holding = city_holding
-}
-3601={
-	holding = city_holding
-}
-3602={
-	holding = city_holding
-	50.1.1 = { special_building_slot = rudnik_mines_01 }
-}
-3603={
+3663={
 	holding = none
-}
-3604={
-	culture = kolochin
-	faith = nicene
-	holding = castle_holding
-}
-3605={
-	holding = none
-}
-3606={
-	holding = castle_holding
-}
-3607={
-	holding = city_holding
 }
 3664={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 3665={
@@ -130,7 +237,6 @@
 }
 3667={
 	holding = none
-	100.1.1 = { special_building_slot = west_trajans_bridge }
 }
 3668={
 	holding = castle_holding
@@ -140,6 +246,18 @@
 }
 3670={
 	holding = city_holding
+}
+3671={
+	holding = city_holding
+}
+3672={
+	holding = church_holding
+}
+3673={
+	holding = none
+}
+3674={
+	holding = church_holding
 }
 3675={
 	holding = city_holding
@@ -151,7 +269,65 @@
 	holding = city_holding
 }
 3678={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
+}
+3679={
+	holding = none
+}
+3680={
+	holding = castle_holding
+}
+3681={
+	holding = city_holding
+}
+3682={
+	holding = city_holding
+}
+3683={
+	holding = city_holding
+}
+3684={
+	holding = none
+}
+3685={
+	holding = none
+}
+3686={
+	holding = none
+}
+3687={
+	holding = none
+}
+3688={
+	holding = city_holding
+}
+3689={
+	culture = urslavic
+	faith = orthodox
+	holding = castle_holding
+}
+3690={
+	holding = city_holding
+}
+3691={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3692={
+	holding = city_holding
+}
+3693={
+	holding = city_holding
+}
+3694={
+	holding = castle_holding
+}
+3695={
+	holding = city_holding
+}
+5010={
+	holding = none
 }

@@ -2,74 +2,100 @@ k_IRTOCK3_L21={
 	408.4.13 = { holder = imperator199253 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_sriksetra={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_hinthada_holder government = tribal_government }
-}
-c_sriksetra={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_magwe={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 17 }
-}
-c_hinthada={
-	361.1.1 = { government = city_state_government }
-	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 6 }
-}
-c_toungoo={
-	361.1.1 = { government = city_state_government }
-	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 0 }
+d_mongnai={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mongnai_holder government = tribal_government }
 }
 d_pagan={
 	423.7.6 = { liege = 0 }
 }
-c_pagan={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 16 }
+d_sriksetra={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_hinthada_holder government = tribal_government }
+}
+d_tagaung={
+	423.7.6 = { liege = 0 }
+}
+d_tengchong={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_putao_holder liege = 0 }
 }
 c_ava={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 15 }
 }
-c_kyaukse={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 15 }
-}
-c_minbu={
+c_hanlan={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_sagaing={
-	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 18 }
+c_hinthada={
+	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 6 }
 }
-b_halin={
-	423.7.6 = { holder = imperator182846 }
-}
-c_yamethin={
+c_hsenwi={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 14 }
 }
-d_tagaung={
-	423.7.6 = { liege = 0 }
-}
-c_takon={
+c_kale={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 14 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_kyaukse={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_madaya={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 16 }
 }
-b_singu={
-	423.7.6 = { holder = imperator187947 }
+c_magwe={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 17 }
 }
-c_hanlan={
+c_minbu={
 	408.4.13 = { liege = 0 holder = imperator199253 }
 	423.7.6 = { change_development_level = 7 }
 }
-c_kale={
+c_momauk={
 	408.4.13 = { liege = 0 holder = imperator199253 }
-	423.7.6 = { change_development_level = 9 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_mongnai={
+	423.7.6 = { holder = IRToCK3_c_mongnai_holder change_development_level = 0 }
+}
+c_monyin={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_myitkyina={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_nandian={
+	423.7.6 = { holder = IRToCK3_c_putao_holder change_development_level = 0 }
+}
+c_nyaungshwe={
+	423.7.6 = { holder = IRToCK3_c_mongnai_holder change_development_level = 0 }
+}
+c_pagan={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_putao={
+	423.7.6 = { holder = IRToCK3_c_putao_holder change_development_level = 0 }
+}
+c_sagaing={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_sriksetra={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_takon={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_toungoo={
+	423.7.6 = { holder = IRToCK3_c_hinthada_holder liege = 0 change_development_level = 0 }
+}
+c_yamethin={
+	408.4.13 = { liege = 0 holder = imperator199253 }
+	423.7.6 = { change_development_level = 14 }
 }

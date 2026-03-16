@@ -3,19 +3,15 @@ k_IRTOCK3_L67={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_gangavadi={
-	361.1.1 = { change_development_level = 8 }
 	423.7.6 = { liege = 0 }
-}
-c_srirangapatna={
-	422.9.15 = { liege = 0 holder = imperator203965 }
-	423.7.6 = { change_development_level = 16 }
-}
-b_belapura={
-	423.7.6 = { holder = imperator192234 }
 }
 c_mahishaka={
 	422.9.15 = { liege = 0 holder = imperator203940 }
 	423.7.6 = { change_development_level = 16 }
+}
+c_srirangapatna={
+	422.9.15 = { liege = 0 holder = imperator203965 }
+	423.7.6 = { change_development_level = 18 }
 }
 c_talakad={
 	422.9.15 = { liege = 0 holder = imperator203965 }

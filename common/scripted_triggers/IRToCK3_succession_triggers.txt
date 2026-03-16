@@ -1,11 +1,11 @@
 ﻿historical_succession_access_single_heir_succession_law_trigger={
 	OR={
+		has_title=title:h_hellenistic_empire
 		has_title=title:k_bosporan_kingdom
 		has_title=title:e_persia
 		has_title=title:k_egypt
 		has_title=title:k_IRTOCK3_COM
 		has_title=title:e_IRTOCK3_SYR
-		has_title=title:e_IRTOCK3_PRN
 		has_title=title:k_IRTOCK3_QOH
 		has_title=title:e_IRTOCK3_B99
 		has_title=title:k_IRTOCK3_C12

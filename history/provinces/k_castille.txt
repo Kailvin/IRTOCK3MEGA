@@ -27,7 +27,6 @@
 	culture = scythian
 	faith = iberian_pagan
 	holding = castle_holding
-	395.1.1 = { religion = priscillianism }
 }
 1898={
 	holding = none
@@ -53,7 +52,6 @@
 	culture = scythian
 	faith = iberian_pagan
 	holding = castle_holding
-	381.1.1 = { religion = priscillianism }
 }
 1907={
 	holding = none
@@ -68,7 +66,6 @@
 	culture = scythian
 	faith = iberian_pagan
 	holding = castle_holding
-	395.1.1 = { religion = priscillianism }
 }
 1922={
 	holding = none
@@ -77,8 +74,6 @@
 	culture = scythian
 	faith = iberian_pagan
 	holding = castle_holding
-	special_building_slot = alcazar_of_segovia_01
-	395.1.1 = { religion = priscillianism }
 }
 1925={
 	holding = city_holding

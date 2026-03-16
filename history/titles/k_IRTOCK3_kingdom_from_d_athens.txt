@@ -1,0 +1,15 @@
+d_athens={
+	423.7.6 = { liege = 0 }
+}
+c_attica={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_boeotia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_euboea={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}

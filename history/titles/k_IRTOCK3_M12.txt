@@ -3,23 +3,21 @@ k_IRTOCK3_M12={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_dadhipadra={
-	361.1.1 = { change_development_level = 10 }
 	423.7.6 = { liege = 0 }
-}
-c_ujjayini={
-	422.9.15 = { liege = 0 holder = imperator205090 }
-	423.7.6 = { change_development_level = 18 }
 }
 c_dadhipadra={
 	422.9.15 = { liege = 0 holder = imperator204965 }
 	423.7.6 = { change_development_level = 16 }
 }
+c_dasapura={
+	422.9.15 = { liege = 0 holder = imperator204965 }
+	423.7.6 = { change_development_level = 17 }
+}
 c_dhara={
 	422.9.15 = { liege = 0 holder = imperator205090 }
 	423.7.6 = { change_development_level = 18 }
 }
-c_dasapura={
-	358.1.1 = { succession_laws = { gana_sangha_elective_succession_law } }
-	422.9.15 = { liege = 0 holder = imperator204965 }
-	423.7.6 = { change_development_level = 17 }
+c_ujjayini={
+	422.9.15 = { liege = 0 holder = imperator205090 }
+	423.7.6 = { change_development_level = 18 }
 }

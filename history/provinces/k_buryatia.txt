@@ -2,9 +2,9 @@
 	holding = none
 }
 7690={
-	culture = xianbei
+	culture = mongol
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7691={
 	holding = none
@@ -16,9 +16,9 @@
 	holding = none
 }
 7694={
-	culture = rouran
+	culture = mongol
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7695={
 	holding = none
@@ -33,14 +33,14 @@
 	holding = none
 }
 7699={
-	culture = xianbei
+	culture = buryat
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7700={
-	culture = xianbei
+	culture = buryat
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7701={
 	holding = none
@@ -52,10 +52,9 @@
 	holding = none
 }
 7704={
-	culture = yeniseian
-	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = evenk }
+	culture = buryat
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7705={
 	holding = none
@@ -64,16 +63,14 @@
 	holding = none
 }
 7707={
-	culture = yeniseian
-	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = evenk }
+	culture = buryat
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7708={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = evenk }
+	holding = nomad_holding
 }
 7709={
 	holding = none
@@ -91,15 +88,18 @@
 	holding = none
 }
 7714={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = evenk }
+	holding = nomad_holding
+	865.6.19 = { holding = herder_holding }
+	889.8.20 = { holding = nomad_holding }
 }
 7715={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1063.3.12 = { holding = herder_holding }
+	1095.1.26 = { holding = nomad_holding }
 }
 7716={
 	holding = none
@@ -111,21 +111,25 @@
 	holding = none
 }
 7719={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	857.5.10 = { holding = herder_holding }
+	892.4.25 = { holding = nomad_holding }
 }
 7720={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = kurykan religion = tengri_pagan }
+	holding = nomad_holding
+	1158.12.6 = { holding = herder_holding }
+	1179.1.2 = { holding = nomad_holding }
 }
 7721={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = kurykan religion = tengri_pagan }
+	holding = nomad_holding
+	857.5.10 = { holding = herder_holding }
+	892.4.25 = { holding = nomad_holding }
 }
 7722={
 	holding = none
@@ -143,10 +147,13 @@
 	holding = none
 }
 7727={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = kurykan religion = tengri_pagan }
+	holding = nomad_holding
+	864.1.18 = { holding = herder_holding }
+	891.9.13 = { holding = nomad_holding }
+	1159.1.27 = { holding = herder_holding }
+	1190.1.13 = { holding = nomad_holding }
 }
 7728={
 	holding = none
@@ -164,17 +171,18 @@
 	holding = none
 }
 7778={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = kurykan religion = tengri_pagan }
+	holding = nomad_holding
+	865.1.14 = { holding = herder_holding }
+	891.3.26 = { holding = nomad_holding }
 }
 7779={
 	holding = none
 }
 7780={
-	culture = yeniseian
+	culture = buryat
 	religion = siberian_pagan
-	holding = tribal_holding
-	532.1.1 = { culture = kurykan religion = tengri_pagan }
+	holding = nomad_holding
+	1178.1.1 = { religion = tengri_pagan }
 }

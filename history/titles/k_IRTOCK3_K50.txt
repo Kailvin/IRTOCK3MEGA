@@ -8,49 +8,46 @@ k_IRTOCK3_K50={
 d_jemba={
 	423.7.6 = { liege = 0 }
 }
-c_qoshagyl={
-	415.11.1 = { liege = 0 holder = imperator201522 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_tengiz={
-	415.11.1 = { liege = 0 holder = imperator201522 }
-	423.7.6 = { change_development_level = 3 }
+d_transcaspiana={
+	423.7.6 = { liege = 0 }
 }
 c_akkityk={
 	421.6.9 = { liege = 0 holder = imperator198534 }
 	423.7.6 = { change_development_level = 1 }
 }
-c_namastau={
-	423.2.20 = { liege = 0 holder = imperator199909 }
-	423.7.6 = { change_development_level = 2 }
-}
-b_kashkarata={
-	423.7.6 = { holder = imperator190757 }
-}
-c_kos-buwak={
-	423.2.20 = { liege = 0 holder = imperator199909 }
+c_buzachi={
+	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 2 }
 }
 c_churuk={
 	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 3 }
 }
-d_transcaspiana={
-	423.7.6 = { liege = 0 }
+c_kos-buwak={
+	423.2.20 = { liege = 0 holder = imperator199909 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_mangyshlak={
 	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 2 }
 }
-c_buzachi={
-	415.11.1 = { liege = 0 holder = imperator201522 }
+c_namastau={
+	423.2.20 = { liege = 0 holder = imperator199909 }
 	423.7.6 = { change_development_level = 2 }
 }
 c_qaraustyurt={
 	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 1 }
 }
+c_qoshagyl={
+	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 2 }
+}
 c_qyzylustyurt={
 	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 0 }
+}
+c_tengiz={
+	415.11.1 = { liege = 0 holder = imperator201522 }
+	423.7.6 = { change_development_level = 3 }
 }

@@ -1,9 +1,15 @@
 k_georgia={
-	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 d_abkhazia={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_svaneti_holder liege = 0 }
+}
+d_tao-klarjeti={
+	423.7.6 = { liege = 0 }
+}
+c_abkhazia={
+	419.9.3 = { liege = 0 holder = imperator189677 }
+	423.7.6 = { change_development_level = 4 }
 }
 c_acampse={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -13,9 +19,13 @@ c_guria={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 14 }
 }
-c_abkhazia={
-	419.9.3 = { liege = 0 holder = imperator189677 }
-	423.7.6 = { change_development_level = 4 }
+c_kartli={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_klarjeti={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_odishi={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -23,4 +33,8 @@ c_odishi={
 }
 c_svaneti={
 	423.7.6 = { holder = IRToCK3_c_svaneti_holder liege = 0 change_development_level = 4 }
+}
+c_tao={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 13 }
 }

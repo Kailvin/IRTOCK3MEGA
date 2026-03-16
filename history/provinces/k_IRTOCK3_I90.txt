@@ -1,3 +1,17 @@
+6194={
+	holding = none
+}
+6195={
+	holding = city_holding
+}
+6196={
+	holding = church_holding
+}
+6197={
+	culture = nuragic
+	faith = orthodox
+	holding = castle_holding
+}
 6198={
 	holding = none
 }
@@ -9,7 +23,6 @@
 }
 6201={
 	holding = none
-	100.1.1 = { special_building_slot = hegra }
 }
 6207={
 	culture = adnanite
@@ -21,7 +34,7 @@
 }
 6209={
 	culture = nuragic
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 6210={
@@ -67,13 +80,13 @@
 	holding = castle_holding
 }
 6224={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6225={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6226={
@@ -89,7 +102,7 @@
 	holding = castle_holding
 }
 6235={
-	culture = himyarite
+	culture = qahtanite
 	faith = egyptian_pagan
 	holding = castle_holding
 }

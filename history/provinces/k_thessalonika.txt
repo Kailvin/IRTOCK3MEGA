@@ -1,61 +1,238 @@
-494={
-	culture = greek
-	faith = nicene
+483={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-3618={
-	culture = greek
-	faith = nicene
+484={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-3619={
-	holding = city_holding
-}
-3620={
-	holding = city_holding
-}
-3621={
-	holding = none
-}
-3622={
-	holding = city_holding
-}
-3626={
-	holding = city_holding
-}
-3627={
-	holding = city_holding
-}
-3628={
-	culture = greek
-	faith = nicene
+486={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-3629={
-	holding = city_holding
-}
-3630={
-	holding = none
-}
-3631={
-	holding = city_holding
-}
-3632={
-	culture = greek
-	faith = nicene
+487={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
-3633={
+488={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+489={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+490={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+491={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+492={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+495={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+496={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+497={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+744={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3554={
+	holding = city_holding
+}
+3570={
+	holding = city_holding
+}
+3740={
+	holding = castle_holding
+}
+3741={
+	holding = city_holding
+}
+3742={
 	holding = none
 }
-3634={
+3748={
+	holding = city_holding
+}
+3749={
+	holding = city_holding
+}
+3750={
+	holding = city_holding
+}
+3751={
+	holding = city_holding
+}
+3752={
+	holding = city_holding
+}
+3753={
 	holding = none
 }
-3635={
+3754={
+	holding = castle_holding
+}
+3755={
+	holding = city_holding
+}
+3756={
+	holding = church_holding
+}
+3757={
+	holding = city_holding
+}
+3758={
 	holding = none
 }
-3636={
-	culture = greek
-	faith = nicene
+3759={
+	holding = none
+}
+3760={
+	holding = city_holding
+}
+3761={
+	holding = city_holding
+}
+3762={
+	holding = none
+}
+3763={
+	holding = city_holding
+}
+3764={
+	holding = city_holding
+}
+3765={
+	holding = city_holding
+}
+3766={
+	holding = city_holding
+}
+3767={
+	holding = city_holding
+}
+3768={
+	holding = none
+}
+3769={
+	holding = city_holding
+}
+3770={
+	holding = city_holding
+}
+3771={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3772={
+	holding = city_holding
+}
+3773={
+	holding = city_holding
+}
+3774={
+	holding = city_holding
+}
+3775={
+	holding = none
+}
+3776={
+	holding = city_holding
+}
+3777={
+	holding = city_holding
+}
+3778={
+	holding = city_holding
+}
+3779={
+	holding = none
+}
+3780={
+	holding = none
+}
+3781={
+	holding = city_holding
+}
+3782={
+	holding = church_holding
+}
+3783={
+	holding = city_holding
+}
+3784={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3785={
+	holding = city_holding
+}
+3786={
+	holding = castle_holding
+}
+3787={
+	holding = none
+}
+3788={
+	holding = castle_holding
+}
+3789={
+	holding = city_holding
+}
+3790={
+	holding = none
+}
+3791={
+	holding = none
+}
+3792={
+	holding = church_holding
+}
+3793={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+3794={
+	holding = church_holding
+}
+3795={
+	holding = city_holding
+}
+3796={
+	holding = city_holding
+}
+3797={
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }

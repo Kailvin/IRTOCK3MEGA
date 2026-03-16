@@ -2,22 +2,58 @@
 	holding = none
 }
 601={
-	culture = greek
-	faith = nicene
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
 677={
-	culture = greek
-	faith = nicene
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
+679={
+	holding = church_holding
+}
+680={
+	holding = none
+}
 5696={
-	culture = greek
-	faith = nicene
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
 5697={
 	holding = church_holding
+}
+5736={
+	holding = castle_holding
+}
+5737={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+5738={
+	holding = city_holding
+}
+5739={
+	holding = none
+}
+5740={
+	culture = hellenic_greek
+	faith = orthodox
+	holding = castle_holding
+}
+5741={
+	holding = city_holding
+}
+5742={
+	holding = none
+}
+5743={
+	culture = georgian
+	faith = orthodox
+	holding = castle_holding
 }
 5744={
 	holding = none
@@ -27,7 +63,7 @@
 }
 5746={
 	culture = sarmatian
-	faith = nicene
+	faith = orthodox
 	holding = tribal_holding
 }
 5747={
@@ -46,7 +82,7 @@
 	holding = none
 }
 5752={
-	culture = colchian
+	culture = georgian
 	faith = caucasian_pagan
 	holding = none
 }

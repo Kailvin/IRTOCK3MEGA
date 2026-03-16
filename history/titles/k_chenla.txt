@@ -1,0 +1,33 @@
+k_chenla={
+	423.7.6 = { liege = 0 }
+}
+d_mukdahan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_canasha_holder liege = 0 }
+}
+d_phonsavan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_sanasomboon_holder liege = 0 }
+}
+c_canasha={
+	423.7.6 = { holder = IRToCK3_c_canasha_holder change_development_level = 0 }
+}
+c_ku_kaeo={
+	423.7.6 = { holder = IRToCK3_c_canasha_holder change_development_level = 0 }
+}
+c_muang_fa_daet={
+	423.7.6 = { holder = IRToCK3_c_canasha_holder change_development_level = 0 }
+}
+c_mukdahan={
+	423.7.6 = { holder = IRToCK3_c_canasha_holder change_development_level = 0 }
+}
+c_salo_tai={
+	423.7.6 = { holder = IRToCK3_c_sanasomboon_holder change_development_level = 0 }
+}
+c_sanasomboon={
+	423.7.6 = { holder = IRToCK3_c_sanasomboon_holder change_development_level = 0 }
+}
+c_ubon_ratchathani={
+	423.7.6 = { holder = IRToCK3_c_canasha_holder change_development_level = 0 }
+}
+c_vien_chan={
+	423.7.6 = { holder = IRToCK3_c_sanasomboon_holder change_development_level = 0 }
+}

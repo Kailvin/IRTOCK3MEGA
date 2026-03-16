@@ -1,0 +1,78 @@
+k_dvaravati={
+	423.7.6 = { liege = 0 }
+}
+d_haripunjaya={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_hlaingbwe_holder liege = 0 }
+}
+d_lop_buri={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_lop_buri_holder liege = 0 }
+}
+d_muang_sua={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_luang_prabang_holder government = tribal_government }
+}
+d_sipsongpanna={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_chiang_rung_holder liege = 0 }
+}
+d_sukhothai={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_chakangrao_holder government = tribal_government }
+}
+d_tun_sun={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_THAI_phetchaburi_holder government = tribal_government }
+}
+c_chakangrao={
+	423.7.6 = { holder = IRToCK3_c_chakangrao_holder change_development_level = 0 }
+}
+c_chiang_khaeng={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_chiang_rung={
+	423.7.6 = { holder = IRToCK3_c_chiang_rung_holder change_development_level = 0 }
+}
+c_haripunjaya={
+	423.7.6 = { holder = IRToCK3_c_hlaingbwe_holder change_development_level = 0 }
+}
+c_hlaingbwe={
+	423.7.6 = { holder = IRToCK3_c_hlaingbwe_holder change_development_level = 0 }
+}
+c_khu_bua={
+	423.7.6 = { holder = IRToCK3_c_lop_buri_holder change_development_level = 0 }
+}
+c_lampang={
+	423.7.6 = { holder = IRToCK3_c_chakangrao_holder change_development_level = 0 }
+}
+c_lop_buri={
+	423.7.6 = { holder = IRToCK3_c_lop_buri_holder change_development_level = 0 }
+}
+c_luang_prabang={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_mae_hong_son={
+	423.7.6 = { holder = IRToCK3_c_hlaingbwe_holder change_development_level = 0 }
+}
+c_moeng_long={
+	423.7.6 = { holder = IRToCK3_c_chiang_rung_holder change_development_level = 0 }
+}
+c_nakhon_pathom={
+	423.7.6 = { holder = IRToCK3_c_lop_buri_holder change_development_level = 0 }
+}
+c_nan_asia={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_ngoenyang={
+	423.7.6 = { holder = IRToCK3_c_luang_prabang_holder change_development_level = 0 }
+}
+c_phetchabun={
+	423.7.6 = { holder = IRToCK3_c_chakangrao_holder change_development_level = 0 }
+}
+c_sukhothai={
+	423.7.6 = { holder = IRToCK3_c_chakangrao_holder change_development_level = 0 }
+}
+c_THAI_phetchaburi={
+	423.7.6 = { holder = IRToCK3_c_THAI_phetchaburi_holder change_development_level = 0 }
+}
+c_THAI_tenasserim={
+	423.7.6 = { holder = IRToCK3_c_THAI_phetchaburi_holder change_development_level = 0 }
+}
+c_thanbyuzayat={
+	423.7.6 = { holder = IRToCK3_c_THAI_phetchaburi_holder change_development_level = 0 }
+}

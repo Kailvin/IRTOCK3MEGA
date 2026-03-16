@@ -5,6 +5,21 @@ k_IRTOCK3_L53={
 d_saran={
 	423.7.6 = { liege = 0 }
 }
+d_tambov={
+	423.7.6 = { liege = 0 }
+}
+c_durovka={
+	421.12.7 = { liege = 0 holder = imperator203411 }
+	423.7.6 = { change_development_level = 2 }
+}
+c_kozlov={
+	403.8.1 = { liege = 0 holder = imperator189502 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_matya={
+	421.12.7 = { liege = 0 holder = imperator203411 }
+	423.7.6 = { change_development_level = 1 }
+}
 c_saran={
 	421.12.7 = { liege = 0 holder = imperator203411 }
 	423.7.6 = { change_development_level = 2 }
@@ -13,22 +28,7 @@ c_serdosk={
 	421.12.7 = { liege = 0 holder = imperator203411 }
 	423.7.6 = { change_development_level = 1 }
 }
-c_kozlov={
-	403.8.1 = { liege = 0 holder = imperator189502 }
-	423.7.6 = { change_development_level = 0 }
-}
-d_tambov={
-	423.7.6 = { liege = 0 }
-}
 c_tambov={
 	421.12.7 = { liege = 0 holder = imperator203411 }
-	423.7.6 = { liege = k_IRTOCK3_L53 holder = imperator203387 change_development_level = 0 }
-}
-c_matya={
-	421.12.7 = { liege = 0 holder = imperator203411 }
-	423.7.6 = { change_development_level = 1 }
-}
-c_durovka={
-	421.12.7 = { liege = 0 holder = imperator203411 }
-	423.7.6 = { change_development_level = 2 }
+	423.7.6 = { change_development_level = 0 }
 }

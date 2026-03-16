@@ -16,7 +16,12 @@ k_IRTOCK3_H42={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_friuli={
-	361.1.1 = { change_development_level = 6 }
+	423.7.6 = { liege = 0 }
+}
+d_venice={
+	423.7.6 = { liege = 0 }
+}
+d_verona={
 	423.7.6 = { liege = 0 }
 }
 c_aquileia={
@@ -25,31 +30,11 @@ c_aquileia={
 }
 c_friuli={
 	370.3.29 = { liege = 0 holder = imperator188313 }
-	423.7.6 = { change_development_level = 5 }
+	423.7.6 = { change_development_level = 7 }
 }
 c_gorz={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 6 }
-}
-c_venezia={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_veneto={
-	370.3.29 = { liege = 0 holder = imperator188313 }
-	423.7.6 = { liege = k_IRTOCK3_H42 holder = imperator182998 change_development_level = 6 }
-}
-d_verona={
-	361.1.1 = { change_development_level = 7 }
-	423.7.6 = { liege = 0 }
-}
-c_verona={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 9 }
-}
-c_treviso={
-	370.3.29 = { liege = 0 holder = imperator188313 }
-	423.7.6 = { liege = k_IRTOCK3_H42 holder = imperator182998 change_development_level = 5 }
 }
 c_padua={
 	412.10.21 = { liege = 0 holder = imperator190502 }
@@ -57,5 +42,21 @@ c_padua={
 }
 c_polesine={
 	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { liege = e_IRTOCK3_SYR holder = imperator189580 change_development_level = 14 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_treviso={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_veneto={
+	370.3.29 = { liege = 0 holder = imperator188313 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_venezia={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_verona={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 9 }
 }

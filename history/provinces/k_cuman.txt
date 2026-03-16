@@ -2,34 +2,32 @@
 	holding = none
 }
 1435={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	1032.1.1 = { holding = herder_holding }
+	1169.1.1 = { holding = nomad_holding }
 }
 7040={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	1032.1.1 = { holding = herder_holding }
+	1169.1.1 = { holding = nomad_holding }
 }
 7041={
 	holding = none
 }
 7042={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
-	632.1.1 = { culture = kimek }
-	768.1.1 = { culture = kipchak }
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7059={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
-	1000.1.2 = { culture = cuman }
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
+	1032.1.1 = { holding = herder_holding }
 }
 7060={
 	holding = none
@@ -38,9 +36,11 @@
 	holding = none
 }
 7062={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = laktan
+	religion = tengri_pagan
+	holding = nomad_holding
+	1042.8.13 = { holding = herder_holding }
+	1097.1.14 = { holding = nomad_holding }
 }
 7063={
 	holding = none
@@ -68,12 +68,9 @@
 	holding = none
 }
 7274={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
-	632.1.1 = { culture = kimek }
-	768.1.1 = { culture = kipchak }
+	culture = kimek
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7275={
 	culture = alan
@@ -84,12 +81,10 @@
 	holding = none
 }
 7277={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
-	632.1.1 = { culture = kimek }
-	768.1.1 = { culture = kipchak }
+	culture = cuman
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = { culture = kimek }
 }
 7278={
 	holding = none
@@ -104,12 +99,11 @@
 	holding = none
 }
 7282={
-	culture = mogyer
-	religion = magyar_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele religion = tengri_pagan }
-	632.1.1 = { culture = kimek }
-	768.1.1 = { culture = kipchak }
+	culture = cuman
+	religion = tengri_pagan
+	holding = nomad_holding
+	1000.1.2 = { culture = kimek }
+	1199.6.23 = { holding = herder_holding }
 }
 7283={
 	holding = none

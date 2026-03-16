@@ -1,76 +1,89 @@
 k_khorasan={
-	361.1.1 = { change_development_level = 3 }
-	413.3.18 = { government = feudal_government holder = imperator195076 liege = e_IRTOCK3_PRN succession_laws = { high_partition_succession_law } }
+	413.3.18 = { government = feudal_government holder = imperator195076 liege = h_hellenistic_empire succession_laws = { high_partition_succession_law } }
 }
-d_uzboy={
-	361.1.1 = { change_development_level = 2 }
+d_balkh={
 	423.7.6 = { liege = 0 }
-}
-c_kurtysh={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_sarykamysh={
-	408.1.30 = { liege = 0 holder = imperator185444 }
-	423.7.6 = { change_development_level = 6 }
-}
-b_kugunek={
-	423.7.6 = { holder = imperator187025 }
-}
-c_uzboy={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { change_development_level = 5 }
-}
-c_nebit_dag={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator188017 change_development_level = 6 }
-}
-d_gurgan={
-	423.7.6 = { liege = 0 }
-}
-c_baduspan={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator182879 change_development_level = 10 }
-}
-c_mazandaran={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator188017 change_development_level = 13 }
-}
-b_sariya={
-	423.7.6 = { holder = imperator188017 }
-}
-c_gurgan={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { change_development_level = 10 }
-}
-c_dihistan={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { liege = e_IRTOCK3_PRN holder = imperator182879 change_development_level = 6 }
-}
-d_nasa={
-	361.1.1 = { change_development_level = 1 }
-	423.7.6 = { liege = 0 }
-}
-c_abivard={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { liege = k_khorasan holder = imperator194245 change_development_level = 9 }
-}
-c_farava={
-	413.3.18 = { liege = 0 holder = imperator195076 }
-	423.7.6 = { change_development_level = 9 }
 }
 d_garabogazkol={
 	423.7.6 = { liege = 0 }
 }
-c_garabogazkol={
+d_gurgan={
+	423.7.6 = { liege = 0 }
+}
+d_nasa={
+	423.7.6 = { liege = 0 }
+}
+d_tabaristan={
+	423.7.6 = { liege = 0 }
+}
+d_uzboy={
+	423.7.6 = { liege = 0 }
+}
+c_abivard={
 	413.3.18 = { liege = 0 holder = imperator195076 }
 	423.7.6 = { change_development_level = 9 }
+}
+c_baduspan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_balkh={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 14 }
 }
 c_bekdas={
 	415.11.1 = { liege = 0 holder = imperator201522 }
 	423.7.6 = { change_development_level = 6 }
 }
+c_dihistan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_east-tokharestan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_farava={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_garabogazkol={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 9 }
+}
+c_gurgan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_kurtysh={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_mazandaran={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_nebit_dag={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 6 }
+}
 c_oglamych={
 	413.3.18 = { liege = 0 holder = imperator195076 }
 	423.7.6 = { change_development_level = 7 }
+}
+c_ruyan={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_sarykamysh={
+	408.1.30 = { liege = 0 holder = imperator185444 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_uzboy={
+	413.3.18 = { liege = 0 holder = imperator195076 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_west-tokharestan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 12 }
 }

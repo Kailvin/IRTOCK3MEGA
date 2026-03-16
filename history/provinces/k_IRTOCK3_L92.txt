@@ -1,6 +1,4 @@
 1124={
-	culture = indogreek
-	faith = hellenic_pagan
 	holding = castle_holding
 }
 1125={
@@ -46,7 +44,9 @@
 	holding = castle_holding
 }
 7795={
-	holding = city_holding
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 7880={
 	holding = none

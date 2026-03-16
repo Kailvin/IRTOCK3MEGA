@@ -1,10 +1,34 @@
 k_jerusalem={
-	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 d_oultrejourdain={
-	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
+}
+d_palestine={
+	423.7.6 = { liege = 0 }
+}
+d_urdunn={
+	423.7.6 = { liege = 0 }
+}
+c_acre={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 11 }
+}
+c_ghazza={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 7 }
+}
+c_irbid={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_jaffa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_jerusalem={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 7 }
 }
 c_kerak={
 	389.10.30 = { liege = 0 holder = imperator183693 }
@@ -14,37 +38,7 @@ c_negev={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 5 }
 }
-b_baidha-petra={
-	423.7.6 = { holder = imperator200977 }
-}
-d_palestine={
-	423.7.6 = { liege = 0 }
-}
-c_jerusalem={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_ghazza={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_jaffa={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 10 }
-}
-d_urdunn={
-	361.1.1 = { change_development_level = 4 }
-	423.7.6 = { liege = 0 }
-}
 c_tiberias={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 3 }
-}
-c_acre={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 11 }
-}
-c_irbid={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 10 }
 }

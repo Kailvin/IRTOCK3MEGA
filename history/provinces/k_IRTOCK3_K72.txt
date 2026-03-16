@@ -5,7 +5,7 @@
 	holding = none
 }
 169={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = none
 }
@@ -13,12 +13,12 @@
 	holding = none
 }
 934={
-	culture = aestian
+	culture = prussian
 	faith = scythian_pagan
 	holding = castle_holding
 }
 5129={
-	culture = aestian
+	culture = prussian
 	faith = scythian_pagan
 	holding = castle_holding
 }
@@ -35,15 +35,46 @@
 	holding = none
 }
 5134={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = castle_holding
 }
 5135={
 	holding = none
 }
+5137={
+	culture = prussian
+	faith = slavic_pagan
+	holding = tribal_holding
+}
+5138={
+	holding = none
+}
+5139={
+	holding = none
+}
+5140={
+	holding = church_holding
+}
+5141={
+	holding = none
+}
+5142={
+	holding = church_holding
+}
+5143={
+	culture = prussian
+	faith = slavic_pagan
+	holding = tribal_holding
+}
+5144={
+	holding = none
+}
+5145={
+	holding = none
+}
 5146={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = castle_holding
 }
@@ -57,7 +88,7 @@
 	holding = none
 }
 5150={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = castle_holding
 }
@@ -66,4 +97,7 @@
 }
 5152={
 	holding = none
+}
+5177={
+	holding = castle_holding
 }

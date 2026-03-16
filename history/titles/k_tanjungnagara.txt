@@ -1,0 +1,89 @@
+k_tanjungnagara={
+	423.7.6 = { liege = 0 }
+}
+d_BOR_barune={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_BOR_brunei_holder government = tribal_government }
+}
+d_BOR_kutai={
+	375.1.1 = { holder = dayak_segara_01 government = wanua_government }
+	400.1.1 = { holder = dayak_segara_02 }
+	423.7.6 = { holder = IRToCK3_c_BOR_berau_holder government = tribal_government }
+}
+d_BOR_nan_sarunai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BOR_banjar_holder liege = 0 }
+}
+d_BOR_santubong={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_BOR_santubong_holder government = tribal_government }
+}
+d_BOR_tanjungpura={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BOR_sambas_holder liege = 0 }
+}
+c_BOR_banjar={
+	423.7.6 = { holder = IRToCK3_c_BOR_banjar_holder change_development_level = 0 }
+}
+c_BOR_berau={
+	423.7.6 = { holder = IRToCK3_c_BOR_berau_holder change_development_level = 0 }
+}
+c_BOR_brunei={
+	423.7.6 = { holder = IRToCK3_c_BOR_brunei_holder change_development_level = 0 }
+}
+c_BOR_iban={
+	423.7.6 = { holder = IRToCK3_c_BOR_santubong_holder change_development_level = 0 }
+}
+c_BOR_kudat={
+	423.7.6 = { holder = IRToCK3_c_BOR_brunei_holder change_development_level = 0 }
+}
+c_BOR_kutai_jauh={
+	375.1.1 = { holder = dayak_segara_01 government = mandala_government liege = d_BOR_kutai }
+	400.1.1 = { holder = dayak_segara_02 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_BOR_kutai_utara={
+	375.1.1 = { holder = dayak_segara_01 government = mandala_government liege = d_BOR_kutai }
+	400.1.1 = { holder = dayak_segara_02 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_BOR_lahad_datu={
+	423.7.6 = { holder = IRToCK3_c_BOR_brunei_holder change_development_level = 0 }
+}
+c_BOR_martapura={
+	375.1.1 = { holder = dayak_segara_01 liege = d_BOR_kutai }
+	400.1.1 = { holder = dayak_segara_02 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_BOR_menjelutung={
+	423.7.6 = { holder = IRToCK3_c_BOR_brunei_holder change_development_level = 0 }
+}
+c_BOR_nabawan={
+	423.7.6 = { holder = IRToCK3_c_BOR_brunei_holder change_development_level = 0 }
+}
+c_BOR_rajang={
+	423.7.6 = { holder = IRToCK3_c_BOR_santubong_holder change_development_level = 0 }
+}
+c_BOR_sambas={
+	423.7.6 = { holder = IRToCK3_c_BOR_sambas_holder change_development_level = 0 }
+}
+c_BOR_sampit={
+	423.7.6 = { holder = IRToCK3_c_BOR_banjar_holder change_development_level = 0 }
+}
+c_BOR_santubong={
+	423.7.6 = { holder = IRToCK3_c_BOR_santubong_holder change_development_level = 0 }
+}
+c_BOR_sintang={
+	423.7.6 = { holder = IRToCK3_c_BOR_sambas_holder change_development_level = 0 }
+}
+c_BOR_sukadana={
+	423.7.6 = { holder = IRToCK3_c_BOR_sambas_holder change_development_level = 0 }
+}
+c_BOR_tabalung={
+	423.7.6 = { holder = IRToCK3_c_BOR_banjar_holder change_development_level = 0 }
+}
+c_BOR_taiao={
+	423.7.6 = { holder = IRToCK3_c_BOR_banjar_holder change_development_level = 0 }
+}
+c_BOR_tanah_taman={
+	423.7.6 = { holder = IRToCK3_c_BOR_santubong_holder change_development_level = 0 }
+}
+c_BOR_waringin={
+	423.7.6 = { holder = IRToCK3_c_BOR_sambas_holder change_development_level = 0 }
+}

@@ -1,38 +1,93 @@
 k_xia={
-	320.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
-d_wuluhai={
-	320.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_wuluhai_holder government = tribal_government }
+d_juyan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tongcheng_holder liege = 0 }
 }
-c_wuluhai={
-	423.7.6 = { holder = IRToCK3_c_wuluhai_holder change_development_level = 5 }
+d_langshan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_langshan_holder liege = 0 }
 }
-c_wuda={
-	320.1.1 = { government = nomad_government }
-	423.7.6 = { holder = IRToCK3_c_wuluhai_holder change_development_level = 5 }
+d_shuofang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lingzhou_holder liege = 0 }
 }
-d_shanzhou={
-	423.7.6 = { government = feudal_government holder = IRToCK3_c_shanzhou_holder liege = 0 }
+d_tiande={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_tiande_holder liege = 0 }
 }
-c_shanzhou={
-	301.1.1 = { government = feudal_government }
-	360.1.1 = { government = tribal_government liege = 0 }
-	414.1.1 = { liege = 0 }
-	423.7.6 = { holder = IRToCK3_c_shanzhou_holder liege = "d_shanzhou" change_development_level = 5 }
+d_xiasui={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_xiazhou_holder liege = 0 }
 }
-c_kuozhou={
-	423.7.6 = { holder = IRToCK3_c_shanzhou_holder liege = "d_shanzhou" change_development_level = 0 }
+d_xiutu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_zhenfan_holder liege = 0 }
 }
-d_aksay={
-	423.7.6 = { government = tribal_government holder = IRToCK3_c_aksay_holder liege = 0 }
+c_alxa={
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 0 }
 }
-c_aksay={
-	350.1.1 = { government = feudal_government }
-	423.7.6 = { holder = IRToCK3_c_aksay_holder liege = d_guiyi change_development_level = 5 }
+c_heihe={
+	423.7.6 = { holder = IRToCK3_c_tongcheng_holder change_development_level = 0 }
 }
-c_haltang={
-	350.1.1 = { government = feudal_government }
-	423.7.6 = { holder = IRToCK3_c_aksay_holder liege = d_guiyi change_development_level = 5 }
+c_hequ={
+	423.7.6 = { holder = IRToCK3_c_langshan_holder change_development_level = 0 }
+}
+c_huaiyuan={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_huizhou={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_keyimen={
+	423.7.6 = { holder = IRToCK3_c_langshan_holder change_development_level = 0 }
+}
+c_langshan={
+	423.7.6 = { holder = IRToCK3_c_langshan_holder change_development_level = 0 }
+}
+c_lingzhou={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_lxj_fengzhou={
+	423.7.6 = { holder = IRToCK3_c_tiande_holder change_development_level = 0 }
+}
+c_mazongshan={
+	423.7.6 = { holder = IRToCK3_c_tongcheng_holder change_development_level = 0 }
+}
+c_quye={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_suizhou={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_tengger={
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 0 }
+}
+c_tiande={
+	423.7.6 = { holder = IRToCK3_c_tiande_holder change_development_level = 0 }
+}
+c_tongcheng={
+	423.7.6 = { holder = IRToCK3_c_tongcheng_holder change_development_level = 0 }
+}
+c_weizhou_3={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_wentugaole={
+	423.7.6 = { holder = IRToCK3_c_tongcheng_holder change_development_level = 0 }
+}
+c_wulan={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_wuyuan={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_xiazhou={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_xiongzhou={
+	423.7.6 = { holder = IRToCK3_c_lingzhou_holder change_development_level = 0 }
+}
+c_yinzhou={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_youzhou_2={
+	423.7.6 = { holder = IRToCK3_c_xiazhou_holder change_development_level = 0 }
+}
+c_zhenfan={
+	423.7.6 = { holder = IRToCK3_c_zhenfan_holder change_development_level = 0 }
 }

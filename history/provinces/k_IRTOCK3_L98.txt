@@ -1,37 +1,31 @@
 3272={
-	culture = indogreek
-	faith = hellenic_pagan
 	holding = castle_holding
 }
 3273={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3275={
 	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
-3278={
-	culture = indogreek
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-3279={
-	holding = none
-}
 3281={
-	culture = indogreek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 3282={
 	holding = none
 }
 3283={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3284={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3285={
 	holding = city_holding

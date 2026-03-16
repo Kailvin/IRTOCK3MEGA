@@ -1,0 +1,54 @@
+k_raole={
+	423.7.6 = { liege = 0 }
+}
+d_LIAO_zhongjing={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_LIAO_dading_holder liege = 0 }
+}
+d_liaoxi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_LIAO_chaoyang_holder liege = 0 }
+}
+d_yanyun_yuyi={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lxj_huanzhou_holder liege = 0 }
+}
+c_LIAO_chaoyang={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_LIAO_dading={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}
+c_liao_fengzhou={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}
+c_LIAO_jinzhou={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_LIAO_liaozhou={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_LIAO_xianzhou={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_lnj_liaoxi={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_lnj_liaoxibei={
+	423.7.6 = { holder = IRToCK3_c_LIAO_chaoyang_holder change_development_level = 0 }
+}
+c_lxj_huanzhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_huanzhou_holder change_development_level = 0 }
+}
+c_lxj_yangchengzhou={
+	423.7.6 = { holder = IRToCK3_c_lxj_huanzhou_holder change_development_level = 0 }
+}
+c_lxj_yuyidong={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}
+c_lzj_chengde={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}
+c_lzj_chengdexi={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}
+c_woye={
+	423.7.6 = { holder = IRToCK3_c_LIAO_dading_holder change_development_level = 0 }
+}

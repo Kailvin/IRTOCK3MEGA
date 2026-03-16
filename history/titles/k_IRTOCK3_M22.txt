@@ -3,20 +3,15 @@ k_IRTOCK3_M22={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_sauvira={
-	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 c_debul={
 	422.9.15 = { liege = 0 holder = imperator205340 }
 	423.7.6 = { change_development_level = 16 }
 }
-c_sonda={
-	422.9.15 = { liege = 0 holder = imperator205340 }
-	423.7.6 = { change_development_level = 15 }
-}
 c_mansura={
 	422.9.15 = { liege = 0 holder = imperator205315 }
-	423.7.6 = { liege = e_IRTOCK3_BAC holder = imperator184077 change_development_level = 16 }
+	423.7.6 = { change_development_level = 16 }
 }
 c_ranikot={
 	422.9.15 = { liege = 0 holder = imperator205315 }
@@ -25,4 +20,8 @@ c_ranikot={
 c_siwistan={
 	422.9.15 = { liege = 0 holder = imperator205315 }
 	423.7.6 = { change_development_level = 17 }
+}
+c_sonda={
+	422.9.15 = { liege = 0 holder = imperator205340 }
+	423.7.6 = { change_development_level = 15 }
 }

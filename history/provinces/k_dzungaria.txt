@@ -1,30 +1,56 @@
+1446={
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
+	1066.1.1 = { buildings = { orchards_01 camel_farms_01 } }
+}
 1449={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }
 1451={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
-	10.1.1 = { special_building_slot = kuektanar_iron_mines_01 }
-	400.1.1 = { special_building = kuektanar_iron_mines_01 }
+	holding = castle_holding
+	864.1.1 = { holding = herder_holding }
+	1050.1.2 = { culture = naiman religion = nestorian }
+	1066.1.1 = { holding = nomad_holding }
+}
+7455={
+	holding = city_holding
+}
+7456={
+	holding = city_holding
+}
+7457={
+	holding = none
+}
+7458={
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }
 7459={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }
 7460={
 	holding = none
 }
 7461={
-	holding = none
+	holding = city_holding
 }
 7462={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }
 7463={
 	holding = none
@@ -33,9 +59,10 @@
 	holding = none
 }
 7465={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }
 7466={
 	holding = none
@@ -44,6 +71,17 @@
 	holding = none
 }
 7468={
+	holding = none
+}
+7469={
+	culture = uyghur
+	religion = vajrayana
+	holding = castle_holding
+}
+7470={
+	holding = none
+}
+7471={
 	holding = none
 }
 7472={
@@ -62,14 +100,18 @@
 	holding = none
 }
 7477={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	864.1.1 = { holding = herder_holding }
+	1050.1.2 = { culture = naiman religion = nestorian }
+	1066.1.1 = { holding = nomad_holding }
 }
 7478={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7479={
 	holding = none
@@ -78,17 +120,22 @@
 	holding = none
 }
 7481={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	867.1.1 = { holding = herder_holding }
+	946.3.7 = { holding = nomad_holding }
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7482={
 	holding = none
 }
 7483={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = nomad_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
+	1066.1.2 = { holding = herder_holding }
 }
 7484={
 	holding = none
@@ -97,9 +144,10 @@
 	holding = none
 }
 7486={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = nomad_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7487={
 	holding = none
@@ -108,9 +156,11 @@
 	holding = none
 }
 7489={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = nomad_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
+	1066.1.2 = { holding = herder_holding }
 }
 7490={
 	holding = none
@@ -119,9 +169,9 @@
 	holding = none
 }
 7492={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = castle_holding
 }
 7493={
 	holding = none
@@ -130,14 +180,14 @@
 	holding = none
 }
 7495={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = castle_holding
 }
 7496={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = castle_holding
 }
 7497={
 	holding = none
@@ -146,9 +196,9 @@
 	holding = none
 }
 7499={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
+	culture = uyghur
+	religion = vajrayana
+	holding = castle_holding
 }
 7500={
 	holding = none
@@ -157,25 +207,28 @@
 	holding = none
 }
 7502={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7503={
 	holding = none
 }
 7504={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7505={
 	holding = none
 }
 7506={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
 }
 7507={
 	holding = none
@@ -184,13 +237,30 @@
 	holding = none
 }
 7509={
-	culture = tiele
+	culture = kirghiz
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = castle_holding
+	1050.1.2 = { culture = naiman religion = nestorian }
+	1157.9.3 = { holding = herder_holding }
 }
 7510={
 	holding = none
 }
 7511={
 	holding = none
+}
+9617={
+	holding = castle_holding
+}
+9618={
+	holding = none
+}
+9619={
+	holding = none
+}
+9620={
+	culture = uyghur
+	religion = manichean
+	holding = castle_holding
+	954.2.22 = { religion = vajrayana }
 }

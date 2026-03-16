@@ -1,13 +1,12 @@
-8461={
-	holding = city_holding
-}
 8462={
 	holding = none
+	1066.1.1 = { holding = city_holding }
 }
 8463={
 	culture = somali
-	religion = waaqism_pagan
-	holding = city_holding
+	faith = waaqism_pagan
+	holding = castle_holding
+	1066.1.1 = { buildings = { common_tradeport_01 cereal_fields_01 } }
 }
 8464={
 	holding = church_holding
@@ -17,7 +16,7 @@
 }
 8466={
 	culture = somali
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 8467={
@@ -26,12 +25,14 @@
 8469={
 	culture = somali
 	religion = waaqism_pagan
-	holding = city_holding
+	holding = castle_holding
+	1030.1.1 = { religion = ashari }
 }
 8470={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	religion = waaqism_pagan
+	holding = tribal_holding
+	1030.1.1 = { religion = ashari }
 }
 8471={
 	holding = none

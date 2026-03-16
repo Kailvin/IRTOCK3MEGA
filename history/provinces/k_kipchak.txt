@@ -8,17 +8,19 @@
 	holding = none
 }
 7322={
-	culture = tiele
+	culture = kipchak
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1000.1.1 = { culture = kimek }
 }
 7323={
 	holding = none
 }
 7324={
-	culture = tiele
+	culture = kipchak
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1000.1.1 = { culture = kimek }
 }
 7325={
 	holding = none
@@ -27,9 +29,10 @@
 	holding = none
 }
 7327={
-	culture = tiele
+	culture = kipchak
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1000.1.1 = { culture = kimek }
 }
 7328={
 	holding = none
@@ -38,27 +41,29 @@
 	holding = none
 }
 7330={
-	culture = tiele
+	culture = kipchak
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1000.1.1 = { culture = kimek }
 }
 7331={
 	holding = none
 }
 7332={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1066.1.1 = { holding = herder_holding }
 }
 7333={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7334={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7335={
 	holding = none
@@ -70,30 +75,32 @@
 	holding = none
 }
 7338={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7339={
 	holding = none
 }
 7340={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7341={
 	holding = none
 }
 7342={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 }
 7343={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1057.1.1 = { holding = herder_holding }
+	1166.1.1 = { holding = nomad_holding }
 }
 7344={
 	holding = none
@@ -102,9 +109,9 @@
 	holding = none
 }
 7346={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
 	1050.1.2 = { culture = naiman religion = nestorian holding = castle_holding }
 }
 7347={
@@ -114,9 +121,9 @@
 	holding = none
 }
 7349={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = herder_holding
+	holding = nomad_holding
 	1050.1.2 = { culture = naiman religion = nestorian holding = castle_holding }
 }
 7350={
@@ -126,7 +133,8 @@
 	holding = none
 }
 7355={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
+	holding = nomad_holding
+	1166.1.1 = { holding = herder_holding }
 }

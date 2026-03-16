@@ -17,5 +17,5 @@ c_kozelsk={
 }
 c_sevsk={
 	401.10.25 = { liege = 0 holder = imperator186695 }
-	423.7.6 = { liege = k_IRTOCK3_K15 holder = imperator185756 change_development_level = 2 }
+	423.7.6 = { change_development_level = 2 }
 }

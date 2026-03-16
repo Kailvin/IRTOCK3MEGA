@@ -2,10 +2,10 @@
 	holding = none
 }
 6613={
-	culture = soninke
+	culture = bozo
 	religion = west_african_bidu_pagan
 	holding = none
-	960.1.1 = { religion = west_african_bidu_pagan }
+	960.1.1 = { religion = ibadi }
 	1083.1.1 = { religion = ashari }
 }
 6614={
@@ -49,9 +49,9 @@
 	culture = soninke
 	religion = west_african_bidu_pagan
 	holding = tribal_holding
-	960.1.1 = { culture = soninke religion = west_african_bidu_pagan }
+	960.1.1 = { culture = butr religion = ibadi }
 	1050.1.1 = { religion = ashari }
-	1066.1.1 = { holding = castle_holding buildings = { orchards_01 plantations_01 pastures_01 } }
+	1066.1.1 = { holding = castle_holding buildings = { orchards_01 plantations_01 } }
 }
 6626={
 	holding = none
@@ -129,7 +129,7 @@
 	culture = soninke
 	religion = west_african_bidu_pagan
 	holding = none
-	960.1.1 = { culture = soninke religion = ashari }
+	960.1.1 = { culture = butr religion = ashari }
 }
 6761={
 	holding = none
@@ -141,14 +141,14 @@
 	culture = soninke
 	religion = west_african_bidu_pagan
 	holding = none
-	960.1.1 = { culture = soninke religion = ashari }
+	960.1.1 = { culture = butr religion = ashari }
 }
 6764={
 	culture = soninke
 	religion = west_african_bidu_pagan
 	holding = tribal_holding
 	867.1.1 = { buildings = { market_villages_01 } }
-	895.1.1 = { culture = soninke }
+	895.1.1 = { culture = butr }
 	960.1.1 = { religion = ashari }
 	1066.1.1 = { holding = castle_holding }
 }
@@ -159,10 +159,10 @@
 	holding = none
 }
 6767={
-	culture = pulaar
+	culture = soninke
 	religion = west_african_bidu_pagan
 	holding = none
-	960.1.1 = { culture = soninke religion = ashari }
+	960.1.1 = { culture = butr religion = ashari }
 }
 6768={
 	holding = none

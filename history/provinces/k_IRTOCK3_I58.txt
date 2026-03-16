@@ -1,14 +1,12 @@
 511={
-	culture = kolochin
+	culture = urslavic
 	faith = slavic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = herulian }
 }
 513={
 	culture = getian
 	faith = slavic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = herulian }
 }
 536={
 	culture = getian
@@ -16,7 +14,7 @@
 	holding = castle_holding
 }
 541={
-	culture = hun
+	culture = hunnic
 	faith = tengri_pagan
 	holding = castle_holding
 }
@@ -26,10 +24,9 @@
 	holding = castle_holding
 }
 546={
-	culture = hun
+	culture = hunnic
 	faith = scythian_pagan
 	holding = castle_holding
-	400.1.1 = { culture = sclavenian }
 }
 5019={
 	culture = scythian
@@ -41,7 +38,7 @@
 }
 5021={
 	culture = sarmatian
-	faith = gothic_pagan
+	faith = germanic_pagan
 	holding = castle_holding
 }
 5022={
@@ -66,10 +63,9 @@
 	holding = castle_holding
 }
 5029={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
-	380.1.1 = { culture = herulian }
 }
 5030={
 	holding = city_holding
@@ -78,7 +74,6 @@
 	culture = getian
 	faith = slavic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = herulian }
 }
 5032={
 	holding = city_holding
@@ -108,7 +103,7 @@
 }
 5040={
 	culture = getian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 	special_building_slot = hotin_fort_01
 }
@@ -128,10 +123,9 @@
 	holding = city_holding
 }
 5063={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
-	400.1.1 = { culture = sclavenian }
 }
 5064={
 	holding = city_holding
@@ -152,10 +146,9 @@
 	holding = none
 }
 5070={
-	culture = hun
+	culture = hunnic
 	faith = tengri_pagan
 	holding = castle_holding
-	400.1.1 = { culture = sclavenian }
 }
 5071={
 	holding = none

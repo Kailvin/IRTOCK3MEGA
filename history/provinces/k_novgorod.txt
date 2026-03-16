@@ -10,11 +10,9 @@
 	holding = none
 }
 5156={
-	culture = chudic
+	culture = vepsian
 	religion = finnish_pagan
 	holding = tribal_holding
-	650.1.1 = { culture = vepsian }
-	1050.1.1 = { culture = russian }
 }
 5157={
 	holding = none
@@ -23,21 +21,12 @@
 	holding = none
 }
 5159={
-	culture = chudic
+	culture = vepsian
 	religion = finnish_pagan
 	holding = tribal_holding
-	650.1.1 = { culture = vepsian }
 	1150.1.1 = { religion = orthodox }
 }
 5160={
-	holding = none
-}
-5168={
-	culture = sarmatian
-	faith = scythian_pagan
-	holding = tribal_holding
-}
-5169={
 	holding = none
 }
 5254={

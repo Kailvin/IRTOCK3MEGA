@@ -3,17 +3,17 @@
 }
 886={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 888={
-	culture = udmurt
-	religion = udmurt_pagan
+	culture = komi
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 889={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5434={
@@ -27,7 +27,7 @@
 }
 5437={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5438={
@@ -41,7 +41,7 @@
 }
 5441={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5442={
@@ -55,7 +55,7 @@
 }
 5445={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5446={
@@ -69,7 +69,7 @@
 }
 5449={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5450={
@@ -89,7 +89,7 @@
 }
 5455={
 	culture = komi
-	religion = komi_pagan
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5456={
@@ -108,16 +108,16 @@
 	holding = none
 }
 5461={
-	culture = udmurt
-	religion = udmurt_pagan
+	culture = komi
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5462={
 	holding = none
 }
 5463={
-	culture = udmurt
-	religion = udmurt_pagan
+	culture = komi
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5464={
@@ -127,8 +127,8 @@
 	holding = none
 }
 5466={
-	culture = udmurt
-	religion = udmurt_pagan
+	culture = komi
+	religion = siberian_pagan
 	holding = tribal_holding
 }
 5467={

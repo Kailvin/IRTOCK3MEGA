@@ -20,12 +20,12 @@
 }
 6154={
 	culture = adnanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 6155={
 	culture = indogreek
-	faith = nicene
+	faith = orthodox
 	holding = tribal_holding
 }
 6156={
@@ -48,6 +48,8 @@
 	holding = none
 }
 6161={
+	culture = adnanite
+	faith = manichean
 	holding = castle_holding
 }
 6162={
@@ -59,8 +61,6 @@
 	holding = tribal_holding
 }
 6164={
-	culture = macedonian
-	faith = nicene
 	holding = none
 }
 6165={

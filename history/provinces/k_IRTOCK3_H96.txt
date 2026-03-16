@@ -1,22 +1,67 @@
+6282={
+	culture = qahtanite
+	faith = arabic_pagan
+	holding = tribal_holding
+}
+6283={
+	holding = church_holding
+}
+6284={
+	culture = qahtanite
+	faith = orthodox
+	holding = castle_holding
+}
+6285={
+	holding = city_holding
+}
+6286={
+	holding = none
+}
+6287={
+	holding = city_holding
+}
+6288={
+	holding = none
+}
+6289={
+	holding = none
+}
+6290={
+	holding = city_holding
+}
+6291={
+	culture = qahtanite
+	faith = orthodox
+	holding = castle_holding
+}
+6292={
+	holding = none
+}
 6293={
 	holding = city_holding
+}
+6294={
+	holding = city_holding
+}
+6295={
+	holding = none
 }
 6311={
 	holding = none
 }
 6312={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6313={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6314={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6315={

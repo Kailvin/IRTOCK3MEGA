@@ -1,0 +1,93 @@
+k_naimania={
+	423.7.6 = { liege = 0 }
+}
+d_arkhangai={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_tarvagatai_holder government = tribal_government }
+}
+d_gobi_altai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tseel_holder liege = 0 }
+}
+d_khovd={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_harhiraa_holder government = tribal_government }
+}
+d_khovsgol={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_darkhad_valley_holder liege = 0 }
+}
+d_ovorkhangai={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_tovkhon_holder liege = 0 }
+}
+d_ubsunur_hollow={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_uvs_nuur_holder government = tribal_government }
+}
+d_zavkhan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_uliastai_holder government = tribal_government }
+}
+c_bombogor={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_darkhad_valley={
+	423.7.6 = { holder = IRToCK3_c_darkhad_valley_holder change_development_level = 0 }
+}
+c_gobi_gurvan_saikhan={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_harhiraa={
+	423.7.6 = { holder = IRToCK3_c_harhiraa_holder change_development_level = 0 }
+}
+c_ikh_bogd={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_khar_us={
+	423.7.6 = { holder = IRToCK3_c_uliastai_holder change_development_level = 0 }
+}
+c_khasagt_khairkhan={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_oigon={
+	423.7.6 = { holder = IRToCK3_c_tarvagatai_holder change_development_level = 0 }
+}
+c_ongi={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_sharga={
+	423.7.6 = { holder = IRToCK3_c_tseel_holder change_development_level = 0 }
+}
+c_tarvagatai={
+	423.7.6 = { holder = IRToCK3_c_tarvagatai_holder change_development_level = 0 }
+}
+c_telmen={
+	423.7.6 = { holder = IRToCK3_c_tarvagatai_holder change_development_level = 0 }
+}
+c_tesiin_gol={
+	423.7.6 = { holder = IRToCK3_c_uvs_nuur_holder change_development_level = 0 }
+}
+c_tomorbulag={
+	423.7.6 = { holder = IRToCK3_c_darkhad_valley_holder change_development_level = 0 }
+}
+c_tovkhon={
+	423.7.6 = { holder = IRToCK3_c_tovkhon_holder change_development_level = 0 }
+}
+c_tsambagarau={
+	423.7.6 = { holder = IRToCK3_c_harhiraa_holder change_development_level = 0 }
+}
+c_tseel={
+	423.7.6 = { holder = IRToCK3_c_tseel_holder change_development_level = 0 }
+}
+c_ulaangom={
+	423.7.6 = { holder = IRToCK3_c_uvs_nuur_holder change_development_level = 0 }
+}
+c_ulantaiga={
+	423.7.6 = { holder = IRToCK3_c_darkhad_valley_holder change_development_level = 0 }
+}
+c_uliastai={
+	423.7.6 = { holder = IRToCK3_c_uliastai_holder change_development_level = 0 }
+}
+c_urgamal={
+	423.7.6 = { holder = IRToCK3_c_uliastai_holder change_development_level = 0 }
+}
+c_uvs_nuur={
+	423.7.6 = { holder = IRToCK3_c_uvs_nuur_holder change_development_level = 0 }
+}
+c_zarman={
+	423.7.6 = { holder = IRToCK3_c_tseel_holder change_development_level = 0 }
+}

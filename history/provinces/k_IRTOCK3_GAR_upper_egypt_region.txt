@@ -3,7 +3,7 @@
 }
 6063={
 	culture = nuragic
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 6064={
@@ -24,7 +24,6 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
-	400.1.1 = { religion = nicene }
 }
 6071={
 	holding = city_holding
@@ -86,6 +85,7 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
+	special_building_slot = allaq_mines_01
 }
 6118={
 	culture = nuragic
@@ -137,7 +137,7 @@
 	holding = church_holding
 }
 6380={
-	culture = south_arabian
+	culture = qahtanite
 	faith = haymanot
 	holding = castle_holding
 }

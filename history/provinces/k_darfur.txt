@@ -3,7 +3,7 @@
 }
 6846={
 	culture = sao
-	religion = munean_pagan
+	religion = west_african_bori_pagan
 	holding = none
 }
 6847={
@@ -17,7 +17,7 @@
 }
 6850={
 	culture = zaghawa
-	religion = idoism_pagan
+	religion = west_african_bori_pagan
 	holding = none
 }
 6851={
@@ -25,17 +25,16 @@
 }
 6852={
 	culture = zaghawa
-	religion = idoism_pagan
+	religion = west_african_bori_pagan
 	holding = none
 }
 6853={
 	holding = none
 }
 6854={
-	culture = sao
-	religion = munean_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = none
-	768.1.1 = { culture = zaghawa religion = idoism_pagan }
 }
 6855={
 	holding = none
@@ -44,10 +43,9 @@
 	holding = none
 }
 6860={
-	culture = sao
-	religion = munean_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = none
-	476.1.1 = { culture = zaghawa religion = idoism_pagan }
 }
 6861={
 	holding = none
@@ -57,18 +55,17 @@
 }
 6863={
 	culture = zaghawa
-	religion = idoism_pagan
+	religion = west_african_bori_pagan
 	holding = none
-	1150.1.1 = { religion = sunni }
+	1150.1.1 = { religion = ashari }
 }
 6864={
 	holding = none
 }
 6865={
-	culture = tora
-	religion = idoism_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
-	476.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6866={
 	holding = none
@@ -80,19 +77,17 @@
 	holding = none
 }
 6869={
-	culture = tora
-	religion = idoism_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
-	362.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6870={
 	holding = none
 }
 6871={
-	culture = tora
-	religion = idoism_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
-	532.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6872={
 	holding = none
@@ -104,14 +99,14 @@
 	holding = none
 }
 6875={
-	culture = tora
-	religion = idoism_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
-	362.1.1 = { culture = daju religion = kushitism_pagan }
+	1150.1.1 = { religion = ashari }
 }
 6876={
-	culture = meroitic
-	faith = egyptian_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
 }
 6877={
@@ -121,11 +116,27 @@
 	holding = none
 }
 6879={
-	culture = meroitic
-	faith = egyptian_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
 }
 6880={
+	holding = none
+}
+6881={
+	culture = daju
+	religion = kushitism_pagan
+	holding = none
+}
+6882={
+	holding = none
+}
+6883={
+	culture = nubian
+	faith = egyptian_pagan
+	holding = none
+}
+6884={
 	holding = none
 }
 6885={
@@ -147,10 +158,9 @@
 	holding = none
 }
 6891={
-	culture = tora
-	religion = idoism_pagan
+	culture = daju
+	religion = kushitism_pagan
 	holding = none
-	532.1.1 = { culture = daju religion = kushitism_pagan }
 }
 6892={
 	holding = none
@@ -162,5 +172,22 @@
 	holding = none
 }
 6895={
+	holding = none
+}
+6897={
+	holding = none
+}
+6898={
+	culture = daju
+	religion = kushitism_pagan
+	holding = none
+}
+6899={
+	holding = none
+}
+6900={
+	holding = none
+}
+6901={
 	holding = none
 }

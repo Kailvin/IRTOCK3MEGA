@@ -1,0 +1,66 @@
+k_khakassia={
+	423.7.6 = { liege = 0 }
+}
+d_blue_khakassia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kizir_holder liege = 0 }
+}
+d_eastern_sayan={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_karauda_holder government = tribal_government }
+}
+d_kargassia={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_burugu_aallar_holder liege = 0 }
+}
+d_khakass_hollow={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_abakan_holder liege = 0 }
+}
+d_shoria={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kuzbas_holder liege = 0 }
+}
+c_abakan={
+	423.7.6 = { holder = IRToCK3_c_abakan_holder change_development_level = 0 }
+}
+c_anja={
+	423.7.6 = { holder = IRToCK3_c_kizir_holder change_development_level = 0 }
+}
+c_burugu_aallar={
+	423.7.6 = { holder = IRToCK3_c_burugu_aallar_holder change_development_level = 0 }
+}
+c_chagdy_aallar={
+	423.7.6 = { holder = IRToCK3_c_burugu_aallar_holder change_development_level = 0 }
+}
+c_jerjul={
+	423.7.6 = { holder = IRToCK3_c_abakan_holder change_development_level = 0 }
+}
+c_julym={
+	423.7.6 = { holder = IRToCK3_c_abakan_holder change_development_level = 0 }
+}
+c_karauda={
+	423.7.6 = { holder = IRToCK3_c_karauda_holder change_development_level = 0 }
+}
+c_kizir={
+	423.7.6 = { holder = IRToCK3_c_kizir_holder change_development_level = 0 }
+}
+c_kropot={
+	423.7.6 = { holder = IRToCK3_c_karauda_holder change_development_level = 0 }
+}
+c_kuzbas={
+	423.7.6 = { holder = IRToCK3_c_kuzbas_holder change_development_level = 0 }
+}
+c_kyzylkul={
+	423.7.6 = { holder = IRToCK3_c_kizir_holder change_development_level = 0 }
+}
+c_monkh_saridag={
+	423.7.6 = { holder = IRToCK3_c_karauda_holder change_development_level = 0 }
+}
+c_shityy={
+	423.7.6 = { holder = IRToCK3_c_karauda_holder change_development_level = 0 }
+}
+c_shor={
+	423.7.6 = { holder = IRToCK3_c_kuzbas_holder change_development_level = 0 }
+}
+c_songuu_aallar={
+	423.7.6 = { holder = IRToCK3_c_burugu_aallar_holder change_development_level = 0 }
+}
+c_uul_chors={
+	423.7.6 = { holder = IRToCK3_c_kuzbas_holder change_development_level = 0 }
+}

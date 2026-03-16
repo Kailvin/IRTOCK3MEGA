@@ -1,0 +1,22 @@
+k_hellas={
+	423.7.6 = { liege = 0 }
+}
+d_achaia={
+	423.7.6 = { liege = 0 }
+}
+c_achaia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_korinthos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_laconia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_messenia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 12 }
+}

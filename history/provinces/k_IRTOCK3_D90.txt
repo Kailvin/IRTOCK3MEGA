@@ -1,14 +1,7 @@
-4550={
-	holding = none
-}
-4551={
-	holding = none
-}
 6098={
-	culture = garamantian
+	culture = butr
 	faith = egyptian_pagan
 	holding = castle_holding
-	395.1.1 = { religion = nicene }
 }
 6099={
 	culture = nuragic
@@ -28,11 +21,19 @@
 	holding = none
 }
 6104={
-	culture = aegyptian
-	faith = roman_pagan
+	culture = hellenic_greek
+	faith = hellenic_pagan
 	holding = city_holding
 }
 6105={
+	holding = none
+}
+6106={
+	culture = norse
+	faith = germanic_pagan
+	holding = castle_holding
+}
+6107={
 	holding = none
 }
 6108={

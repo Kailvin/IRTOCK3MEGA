@@ -1,0 +1,99 @@
+k_yamato={
+	423.7.6 = { liege = 0 }
+}
+d_east_sanindo={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_tanba_holder liege = 0 }
+}
+d_east_sanyodo={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_harima_holder liege = 0 }
+}
+d_kinai={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yamashiro_holder liege = 0 }
+}
+d_nankaido={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_iyo_holder liege = 0 }
+}
+d_west_sanindo={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_izumo_holder liege = 0 }
+}
+d_west_sanyodo={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_aki_holder liege = 0 }
+}
+c_aki={
+	423.7.6 = { holder = IRToCK3_c_aki_holder change_development_level = 0 }
+}
+c_awa={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_awaji={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_bingo={
+	423.7.6 = { holder = IRToCK3_c_aki_holder change_development_level = 0 }
+}
+c_bitchu={
+	423.7.6 = { holder = IRToCK3_c_harima_holder change_development_level = 0 }
+}
+c_bizen={
+	423.7.6 = { holder = IRToCK3_c_harima_holder change_development_level = 0 }
+}
+c_harima={
+	423.7.6 = { holder = IRToCK3_c_harima_holder change_development_level = 0 }
+}
+c_hoki={
+	423.7.6 = { holder = IRToCK3_c_izumo_holder change_development_level = 0 }
+}
+c_inaba={
+	423.7.6 = { holder = IRToCK3_c_tanba_holder change_development_level = 0 }
+}
+c_iwami={
+	423.7.6 = { holder = IRToCK3_c_izumo_holder change_development_level = 0 }
+}
+c_iyo={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_izumo={
+	423.7.6 = { holder = IRToCK3_c_izumo_holder change_development_level = 0 }
+}
+c_kawachi={
+	423.7.6 = { holder = IRToCK3_c_yamashiro_holder change_development_level = 0 }
+}
+c_kii={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_mimasaka={
+	423.7.6 = { holder = IRToCK3_c_harima_holder change_development_level = 0 }
+}
+c_nagato={
+	423.7.6 = { holder = IRToCK3_c_aki_holder change_development_level = 0 }
+}
+c_oki={
+	423.7.6 = { holder = IRToCK3_c_izumo_holder change_development_level = 0 }
+}
+c_sanuki={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_settsu={
+	423.7.6 = { holder = IRToCK3_c_yamashiro_holder change_development_level = 0 }
+}
+c_suo={
+	423.7.6 = { holder = IRToCK3_c_aki_holder change_development_level = 0 }
+}
+c_tajima={
+	423.7.6 = { holder = IRToCK3_c_tanba_holder change_development_level = 0 }
+}
+c_tanba={
+	423.7.6 = { holder = IRToCK3_c_tanba_holder change_development_level = 0 }
+}
+c_tango={
+	423.7.6 = { holder = IRToCK3_c_tanba_holder change_development_level = 0 }
+}
+c_tosa={
+	423.7.6 = { holder = IRToCK3_c_iyo_holder change_development_level = 0 }
+}
+c_yamashiro={
+	423.7.6 = { holder = IRToCK3_c_yamashiro_holder change_development_level = 0 }
+}
+c_yamato={
+	423.7.6 = { holder = IRToCK3_c_yamashiro_holder change_development_level = 0 }
+}

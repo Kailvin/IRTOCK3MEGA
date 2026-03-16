@@ -107,9 +107,9 @@
 	holding = none
 }
 7044={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = laktan
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7045={
 	holding = none
@@ -118,9 +118,9 @@
 	holding = none
 }
 7047={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = laktan
+	religion = tengri_pagan
+	holding = nomad_holding
 }
 7048={
 	holding = none
@@ -138,9 +138,12 @@
 	holding = none
 }
 7053={
-	culture = khanty
-	religion = siberian_pagan
-	holding = tribal_holding
+	culture = laktan
+	religion = tengri_pagan
+	holding = herder_holding
+	823.1.2 = { holding = nomad_holding }
+	844.1.22 = { holding = herder_holding }
+	883.6.12 = { holding = nomad_holding }
 }
 7054={
 	holding = none

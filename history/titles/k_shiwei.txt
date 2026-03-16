@@ -1,0 +1,111 @@
+k_shiwei={
+	423.7.6 = { liege = 0 }
+}
+d_SW_dashiweiguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_pibeihe_holder liege = 0 }
+}
+d_SW_heicheziguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_zhongcheziguo_holder liege = 0 }
+}
+d_SW_lingxiguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_lingxiguo_holder liege = 0 }
+}
+d_SW_puyudao={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_puyuzhou_holder liege = 0 }
+}
+d_SW_qingxingan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_huangtouguo_holder liege = 0 }
+}
+d_SW_ruzheguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_jiqin_hari_holder liege = 0 }
+}
+d_SW_sushenguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SW_suihua_holder liege = 0 }
+}
+c_SW_damoguo={
+	423.7.6 = { holder = IRToCK3_c_SW_puyuzhou_holder change_development_level = 0 }
+}
+c_SW_dongcheziguo={
+	423.7.6 = { holder = IRToCK3_c_SW_zhongcheziguo_holder change_development_level = 0 }
+}
+c_SW_dongruzhe={
+	423.7.6 = { holder = IRToCK3_c_SW_jiqin_hari_holder change_development_level = 0 }
+}
+c_SW_ergunia={
+	423.7.6 = { holder = IRToCK3_c_SW_pibeihe_holder change_development_level = 0 }
+}
+c_SW_fancao={
+	423.7.6 = { holder = IRToCK3_c_SW_suihua_holder change_development_level = 0 }
+}
+c_SW_gonghejiang={
+	423.7.6 = { holder = IRToCK3_c_SW_suihua_holder change_development_level = 0 }
+}
+c_SW_hailar={
+	423.7.6 = { holder = IRToCK3_c_SW_pibeihe_holder change_development_level = 0 }
+}
+c_SW_heiergun={
+	423.7.6 = { holder = IRToCK3_c_SW_pibeihe_holder change_development_level = 0 }
+}
+c_SW_heiheguo={
+	423.7.6 = { holder = IRToCK3_c_SW_lingxiguo_holder change_development_level = 0 }
+}
+c_SW_heilonghean={
+	423.7.6 = { holder = IRToCK3_c_SW_puyuzhou_holder change_development_level = 0 }
+}
+c_SW_heilonglin={
+	423.7.6 = { holder = IRToCK3_c_SW_suihua_holder change_development_level = 0 }
+}
+c_SW_hongxingan={
+	423.7.6 = { holder = IRToCK3_c_SW_zhongcheziguo_holder change_development_level = 0 }
+}
+c_SW_huangtouguo={
+	423.7.6 = { holder = IRToCK3_c_SW_huangtouguo_holder change_development_level = 0 }
+}
+c_SW_hulunbuir={
+	423.7.6 = { holder = IRToCK3_c_SW_zhongcheziguo_holder change_development_level = 0 }
+}
+c_SW_jiqin_hari={
+	423.7.6 = { holder = IRToCK3_c_SW_jiqin_hari_holder change_development_level = 0 }
+}
+c_SW_lingxiguo={
+	423.7.6 = { holder = IRToCK3_c_SW_lingxiguo_holder change_development_level = 0 }
+}
+c_SW_luotuoguo={
+	423.7.6 = { holder = IRToCK3_c_SW_huangtouguo_holder change_development_level = 0 }
+}
+c_SW_lupingyuan={
+	423.7.6 = { holder = IRToCK3_c_SW_suihua_holder change_development_level = 0 }
+}
+c_SW_mengwuo={
+	423.7.6 = { holder = IRToCK3_c_SW_pibeihe_holder change_development_level = 0 }
+}
+c_SW_nabeiguo={
+	423.7.6 = { holder = IRToCK3_c_SW_huangtouguo_holder change_development_level = 0 }
+}
+c_SW_pibeihe={
+	423.7.6 = { holder = IRToCK3_c_SW_pibeihe_holder change_development_level = 0 }
+}
+c_SW_powoguo={
+	423.7.6 = { holder = IRToCK3_c_SW_lingxiguo_holder change_development_level = 0 }
+}
+c_SW_puyuzhou={
+	423.7.6 = { holder = IRToCK3_c_SW_puyuzhou_holder change_development_level = 0 }
+}
+c_SW_ruzhejiang={
+	423.7.6 = { holder = IRToCK3_c_SW_jiqin_hari_holder change_development_level = 0 }
+}
+c_SW_shanbeiguo={
+	423.7.6 = { holder = IRToCK3_c_SW_puyuzhou_holder change_development_level = 0 }
+}
+c_SW_suihua={
+	423.7.6 = { holder = IRToCK3_c_SW_suihua_holder change_development_level = 0 }
+}
+c_SW_xinghuangtou={
+	423.7.6 = { holder = IRToCK3_c_SW_huangtouguo_holder change_development_level = 0 }
+}
+c_SW_xingnabei={
+	423.7.6 = { holder = IRToCK3_c_SW_huangtouguo_holder change_development_level = 0 }
+}
+c_SW_zhongcheziguo={
+	423.7.6 = { holder = IRToCK3_c_SW_zhongcheziguo_holder change_development_level = 0 }
+}

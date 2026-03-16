@@ -8,6 +8,10 @@ k_IRTOCK3_K69={
 d_kuyavia={
 	423.7.6 = { liege = 0 }
 }
+c_dobrzynska={
+	411.9.12 = { liege = 0 holder = imperator184944 }
+	423.7.6 = { change_development_level = 9 }
+}
 c_kujawy={
 	417.4.25 = { liege = 0 holder = imperator199203 }
 	423.7.6 = { change_development_level = 10 }
@@ -20,14 +24,7 @@ c_sieradzka={
 	404.1.1 = { liege = 0 holder = imperator198070 }
 	423.7.6 = { change_development_level = 8 }
 }
-b_piotrkow={
-	423.7.6 = { holder = imperator198071 }
-}
 c_wielunska={
 	412.10.11 = { liege = 0 holder = imperator192633 }
-	423.7.6 = { liege = k_IRTOCK3_I52 holder = imperator191527 change_development_level = 6 }
-}
-c_dobrzynska={
-	411.9.12 = { liege = 0 holder = imperator184944 }
-	423.7.6 = { liege = k_IRTOCK3_I48 holder = imperator183772 change_development_level = 9 }
+	423.7.6 = { change_development_level = 6 }
 }

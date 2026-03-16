@@ -4,7 +4,7 @@
 6718={
 	culture = sorko
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 6914={
 	holding = none
@@ -15,7 +15,7 @@
 6916={
 	culture = sorko
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 6917={
 	holding = none
@@ -26,7 +26,7 @@
 6919={
 	culture = gur
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 6920={
 	holding = none
@@ -37,7 +37,7 @@
 6922={
 	culture = yoruba
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 6924={
 	holding = none
@@ -57,7 +57,7 @@
 6939={
 	culture = gur
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 8033={
 	holding = none
@@ -65,7 +65,7 @@
 8034={
 	culture = ewe
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 8039={
 	holding = none
@@ -73,7 +73,7 @@
 8042={
 	culture = ewe
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 8043={
 	holding = none
@@ -87,7 +87,7 @@
 8046={
 	culture = ewe
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 8047={
 	holding = none
@@ -95,7 +95,7 @@
 8048={
 	culture = yoruba
 	religion = west_african_orisha_pagan
-	holding = tribal_holding
+	holding = none
 }
 8049={
 	holding = none

@@ -56,67 +56,19 @@ ancestral_glory = {
 				}
 				desc = legend_king_arthur
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:6392
-			# 	}
-			# 	desc = legend_carolingian
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:82233
-			# 	}
-			# 	desc = legend_the_wheelwright
-			# }
-			
-			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:40605
-			# 	}
-			# 	desc = legend_sons_of_rurik
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:107590
-			# 	}
-			# 	desc = legend_el_cid
-			# }
-			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:168345
-			# 	}
-			# 	desc = legend_premysl
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:303250
-			# 	}
-			# 	desc = legend_borjigin
-			# }
 			
 			
 			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:180637
-			# 	}
-			# 	desc = legend_yazdagird_iii
-			# }
 			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:188637
-			# 	}
-			# 	desc = legend_saman_khudah
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:163109
-			# 	}
-			# 	desc = legend_ragnarr
-			# }
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			# Dynamic
 			triggered_desc = {
 				trigger = {
@@ -161,71 +113,26 @@ ancestral_glory = {
 				}
 				desc = legend_king_arthur_desc
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:6392
-			# 	}
-			# 	desc = legend_carolingian_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:82233
-			# 	}
-			# 	desc = legend_the_wheelwright_desc
-			# }
-			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:40605
-			# 	}
-			# 	desc = legend_sons_of_rurik_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:107590
-			# 	}
-			# 	desc = legend_el_cid_desc
-			# }
-			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:168345
-			# 	}
-			# 	desc = legend_premysl_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:303250
-			# 	}
-			# 	desc = legend_borjigin_desc
-			# }
 			
 			
 			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:180637
-			# 	}
-			# 	desc = legend_yazdagird_iii_desc
-			# }
 			
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:188637
-			# 	}
-			# 	desc = legend_saman_khudah_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:163109
-			# 	}
-			# 	desc = legend_ragnarr_desc
-			# }
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			random_valid = {
 				desc = legend_chronicle_ancestral_glory_desc
 			}
 		}
 	}
+
+	portrait_animation = personality_honorable
 
 	properties = {
 		ancestor = character
@@ -257,60 +164,6 @@ ancestral_glory_not_in_history = { #This should only be used for seeds
 				}
 				desc = legend_afrasiyab
 			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:cleopatra
-				}
-				desc = TFE_legend_cleopatra
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:ashina_she_wolf
-				}
-				desc = TFE_legend_ashina_she_wolf
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:kayanid
-				}
-				desc = TFE_legend_kayanid
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:arminius
-				}
-				desc = TFE_legend_arminius
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:teuta
-				}
-				desc = TFE_legend_teuta
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:dido
-				}
-				desc = TFE_legend_dido
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:mithridates
-				}
-				desc = TFE_legend_mithridates
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:tomyris
-				}
-				desc = TFE_legend_tomyris
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:modu_chanyu
-				}
-				desc = TFE_legend_modu_chanyu
-			}
 			random_valid = {
 				desc = legend_history
 				desc = legend_chronicles
@@ -338,60 +191,6 @@ ancestral_glory_not_in_history = { #This should only be used for seeds
 					scope:ancestor_flag = flag:afrasiyab
 				}
 				desc = legend_afrasiyab_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:cleopatra
-				}
-				desc = TFE_legend_cleopatra_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:ashina_she_wolf
-				}
-				desc = TFE_legend_ashina_she_wolf_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:kayanid
-				}
-				desc = TFE_legend_kayanid_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:arminius
-				}
-				desc = TFE_legend_arminius_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:teuta
-				}
-				desc = TFE_legend_teuta_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:dido
-				}
-				desc = TFE_legend_dido_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:mithridates
-				}
-				desc = TFE_legend_mithridates_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:tomyris
-				}
-				desc = TFE_legend_tomyris_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:modu_chanyu
-				}
-				desc = TFE_legend_modu_chanyu_desc
 			}
 			desc = legend_chronicle_ancestral_glory_nohistory_desc
 		}
@@ -424,14 +223,14 @@ ancient_people = {
 				}
 				desc = legend_sons_of_david
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:gothic
-			# 		scope:title = title:e_spain
-			# 		scope:original_region = geographical_region:world_steppe_west
-			# 	}
-			# 	desc = legend_gothic_kings
-			# }
+			triggered_desc = {
+				trigger = {
+					scope:culture = culture:gothic
+					scope:title = title:e_spain
+					scope:original_region = geographical_region:world_steppe_west
+				}
+				desc = legend_gothic_kings
+			}
 			triggered_desc = {
 				trigger = {
 					scope:culture = culture:trojan
@@ -472,28 +271,20 @@ ancient_people = {
 				}
 				desc = legend_kings_of_semien
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:roman
-			# 		scope:original_region = geographical_region:custom_roman_full_borders
-			# 	}
-			# 	desc = legend_roman_heritage
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:hunnic
-			# 		scope:title = title:e_caspian-pontic_steppe
-			# 		scope:original_region = geographical_region:world_steppe_west
-			# 	}
-			# 	desc = legend_hunnic_heritage
-			# }
 			triggered_desc = {
 				trigger = {
-					scope:culture = culture:lydian
-					scope:title = title:k_nikaea
-					scope:original_region = geographical_region:world_asia_minor
+					scope:culture = culture:roman
+					scope:original_region = geographical_region:custom_roman_full_borders
 				}
-				desc = TFE_legend_lydians
+				desc = legend_roman_heritage
+			}
+			triggered_desc = {
+				trigger = {
+					scope:culture = culture:hunnic
+					scope:title = title:e_caspian-pontic_steppe
+					scope:original_region = geographical_region:world_steppe_west
+				}
+				desc = legend_hunnic_heritage
 			}
 			desc = legend_ancient_people_name
 		}
@@ -508,14 +299,14 @@ ancient_people = {
 				}
 				desc = legend_sons_of_david_desc
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:gothic
-			# 		scope:title = title:e_spain
-			# 		scope:original_region = geographical_region:world_steppe_west
-			# 	}
-			# 	desc = legend_gothic_kings_desc
-			# }
+			triggered_desc = {
+				trigger = {
+					scope:culture = culture:gothic
+					scope:title = title:e_spain
+					scope:original_region = geographical_region:world_steppe_west
+				}
+				desc = legend_gothic_kings_desc
+			}
 			triggered_desc = {
 				trigger = {
 					scope:culture = culture:trojan
@@ -556,36 +347,20 @@ ancient_people = {
 				}
 				desc = legend_kings_of_semien_desc
 			}
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:roman
-			# 		scope:original_region = geographical_region:custom_roman_full_borders
-			# 	}
-			# 	desc = legend_roman_heritage_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:culture = culture:hunnic
-			# 		scope:title = title:e_caspian-pontic_steppe
-			# 		scope:original_region = geographical_region:world_steppe_west
-			# 	}
-			# 	desc = legend_hunnic_heritage_desc
-			# }
 			triggered_desc = {
 				trigger = {
-					scope:culture = culture:lydian
-					scope:title = title:k_nikaea
-					scope:original_region = geographical_region:world_asia_minor
+					scope:culture = culture:roman
+					scope:original_region = geographical_region:custom_roman_full_borders
 				}
-				desc = TFE_legend_lydians_desc
+				desc = legend_roman_heritage_desc
 			}
 			triggered_desc = {
 				trigger = {
-					scope:culture = culture:rhaetian
-					scope:title = title:d_currezia
-					scope:original_region = geographical_region:TFE_region_rhaetia
+					scope:culture = culture:hunnic
+					scope:title = title:e_caspian-pontic_steppe
+					scope:original_region = geographical_region:world_steppe_west
 				}
-				desc = TFE_legend_rhaetians_desc
+				desc = legend_hunnic_heritage_desc
 			}
 			desc = legend_ancient_people_desc
 		}
@@ -611,24 +386,9 @@ ancient_people = {
 saintly_deed = {
 	name = {
 		first_valid = {
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:7627
-			# 	}
-			# 	desc = legend_alfred_of_wessex
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:168130
-			# 	}
-			# 	desc = legend_william_gellones
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:99
-			# 	}
-			# 	desc = legend_edward_the_martyr
-			# }
+			
+			
+			
 			triggered_desc = {
 				trigger = {
 					scope:ancestor = {
@@ -646,24 +406,9 @@ saintly_deed = {
 	}
 	description = {
 		first_valid = {
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:7627
-			# 	}
-			# 	desc = legend_alfred_of_wessex_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:168130
-			# 	}
-			# 	desc = legend_william_gellones_desc
-			# }
-			# triggered_desc = {
-			# 	trigger = {
-			# 		scope:ancestor = character:99
-			# 	}
-			# 	desc = legend_edward_the_martyr_desc
-			# }
+			
+			
+			
 			triggered_desc = {
 				trigger = {
 					scope:ancestor = {
@@ -779,7 +524,7 @@ saintly_life = {
 	}
 
 	portrait_animation = prayer
-	
+
 	properties = {
 		religion = religion
 	}
@@ -810,17 +555,11 @@ saintly_descent = {
 			}
 			triggered_desc = {
 				trigger = {
-					scope:ancestor_flag = flag:ashoka
-				}
-				desc = TFE_legend_ashoka
-			}
-			triggered_desc = {
-				trigger = {
 					scope:ancestor_flag = flag:magi
 				}
 				desc = legend_magi
 			}
-			desc = legend_saintly_descent_name	
+			desc = legend_saintly_descent_name		
 		}
 	}
 	description = {
@@ -842,12 +581,6 @@ saintly_descent = {
 					scope:ancestor_flag = flag:magi
 				}
 				desc = legend_magi_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:ancestor_flag = flag:ashoka
-				}
-				desc = TFE_legend_ashoka_desc
 			}
 			desc = legend_saintly_descent_desc
 		}
@@ -997,7 +730,17 @@ new_title = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					scope:title = title:e_roman_empire
+					scope:title = title:h_roman_empire
+				}
+				desc = legend_of_rome_name
+			}
+			triggered_desc = {
+				trigger = {
+					# IRToCK3: Added WRE hegemony title
+					OR = {
+						scope:title = title:h_eastern_roman_empire
+						scope:title = title:h_western_roman_empire
+					}
 				}
 				desc = legend_of_rome_name
 			}
@@ -1046,7 +789,17 @@ new_title = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					scope:title = title:e_roman_empire
+					scope:title = title:h_roman_empire
+				}
+				desc = legend_of_rome_desc
+			}
+			triggered_desc = {
+				trigger = {
+					# IRToCK3: Added WRE hegemony title
+					OR = {
+						scope:title = title:h_eastern_roman_empire
+						scope:title = title:h_western_roman_empire
+					}
 				}
 				desc = legend_of_rome_desc
 			}
@@ -1483,36 +1236,6 @@ struggle_conclusion = {
 				}
 				desc = persian_ender_name
 			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:eastern_iranian_struggle
-				}
-				desc = eastern_iranian_struggle_ender_name
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:north_indian_struggle
-				}
-				desc = north_indian_struggle_ender_name
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:roman_persian_struggle
-				}
-				desc = roman_persian_struggle_ender_name
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:italian_struggle
-				}
-				desc = italian_struggle_ender_name
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:britannia_struggle
-				}
-				desc = britannia_struggle_ender_name
-			}
 			desc = struggle_conclusion_name
 		}
 	}
@@ -1523,36 +1246,6 @@ struggle_conclusion = {
 					scope:struggle = flag:iberian_struggle
 				}
 				desc = iberian_ender_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:eastern_iranian_struggle
-				}
-				desc = eastern_iranian_struggle_ender_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:north_indian_struggle
-				}
-				desc = north_indian_struggle_ender_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:roman_persian_struggle
-				}
-				desc = roman_persian_struggle_ender_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:italian_struggle
-				}
-				desc = italian_struggle_ender_desc
-			}
-			triggered_desc = {
-				trigger = {
-					scope:struggle = flag:britannia_struggle
-				}
-				desc = britannia_struggle_ender_desc
 			}
 			desc = struggle_conclusion_desc
 		}

@@ -2,39 +2,11 @@
 	culture = macedonian
 	faith = manichean
 	holding = castle_holding
+	special_building_slot = hetian_mines_01
 }
 1441={
 	culture = macedonian
 	faith = hellenic_pagan
-	holding = castle_holding
-}
-1442={
-	culture = tocharian
-	religion = mahayana
-	holding = castle_holding
-	900.1.1 = { culture = uyghur }
-}
-1448={
-	culture = tocharian
-	religion = mahayana
-	holding = castle_holding
-}
-7997={
-	holding = none
-}
-7998={
-	holding = none
-}
-7999={
-	culture = tocharian
-	religion = sarvastivada
-	holding = castle_holding
-	848.1.1 = { culture = uyghur religion = mahayana }
-}
-9600={
-	holding = none
-}
-9601={
 	holding = castle_holding
 }
 9602={
@@ -87,5 +59,4 @@
 	culture = scythian
 	faith = khurmazta
 	holding = castle_holding
-	400.1.1 = { religion = mahayana }
 }

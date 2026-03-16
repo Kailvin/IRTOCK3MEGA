@@ -1,22 +1,5 @@
 d_sicily={
-	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
-}
-c_palermo={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_trapani={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { change_development_level = 12 }
-}
-c_messina={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { change_development_level = 7 }
-}
-c_siracusa={
-	412.10.21 = { liege = 0 holder = imperator190502 }
-	423.7.6 = { change_development_level = 14 }
 }
 c_agrigento={
 	412.10.21 = { liege = 0 holder = imperator190502 }
@@ -25,4 +8,16 @@ c_agrigento={
 c_malta={
 	412.10.21 = { liege = 0 holder = imperator190502 }
 	423.7.6 = { change_development_level = 8 }
+}
+c_messina={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_palermo={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_siracusa={
+	412.10.21 = { liege = 0 holder = imperator190502 }
+	423.7.6 = { change_development_level = 14 }
 }

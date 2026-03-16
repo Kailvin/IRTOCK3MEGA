@@ -3,16 +3,15 @@ k_IRTOCK3_M06={
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_mathura={
-	361.1.1 = { change_development_level = 9 }
 	423.7.6 = { liege = 0 }
-}
-c_mathura={
-	422.9.15 = { liege = 0 holder = imperator204940 }
-	423.7.6 = { change_development_level = 14 }
 }
 c_kol={
 	422.9.15 = { liege = 0 holder = imperator204090 }
 	423.7.6 = { change_development_level = 17 }
+}
+c_mathura={
+	422.9.15 = { liege = 0 holder = imperator204940 }
+	423.7.6 = { change_development_level = 14 }
 }
 c_sripatha={
 	422.9.15 = { liege = 0 holder = imperator204940 }

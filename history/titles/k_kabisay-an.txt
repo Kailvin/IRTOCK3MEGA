@@ -1,0 +1,54 @@
+k_kabisay-an={
+	423.7.6 = { liege = 0 }
+}
+d_PHI_butuan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_PHI_butuan_holder liege = 0 }
+}
+d_PHI_maguindanao={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_PHI_lanao_holder government = tribal_government }
+}
+d_PHI_visayas={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_PHI_panay_holder government = tribal_government }
+}
+c_PHI_bool_and_cebu={
+	423.7.6 = { holder = IRToCK3_c_PHI_panay_holder change_development_level = 0 }
+}
+c_PHI_buglas={
+	423.7.6 = { holder = IRToCK3_c_PHI_panay_holder change_development_level = 0 }
+}
+c_PHI_butuan={
+	423.7.6 = { holder = IRToCK3_c_PHI_butuan_holder change_development_level = 0 }
+}
+c_PHI_calagan={
+	423.7.6 = { holder = IRToCK3_c_PHI_butuan_holder change_development_level = 0 }
+}
+c_PHI_cotabato={
+	423.7.6 = { holder = IRToCK3_c_PHI_lanao_holder change_development_level = 0 }
+}
+c_PHI_lanao={
+	423.7.6 = { holder = IRToCK3_c_PHI_lanao_holder change_development_level = 0 }
+}
+c_PHI_maguindanao={
+	423.7.6 = { holder = IRToCK3_c_PHI_lanao_holder change_development_level = 0 }
+}
+c_PHI_mandaya={
+	423.7.6 = { holder = IRToCK3_c_PHI_butuan_holder change_development_level = 0 }
+}
+c_PHI_panay={
+	423.7.6 = { holder = IRToCK3_c_PHI_panay_holder change_development_level = 0 }
+}
+c_PHI_samar={
+	423.7.6 = { holder = IRToCK3_c_PHI_panay_holder change_development_level = 0 }
+}
+c_PHI_sarangani={
+	423.7.6 = { holder = IRToCK3_c_PHI_butuan_holder change_development_level = 0 }
+}
+c_PHI_sulu={
+	423.7.6 = { holder = IRToCK3_c_PHI_lanao_holder change_development_level = 0 }
+}
+c_PHI_tandaya={
+	423.7.6 = { holder = IRToCK3_c_PHI_panay_holder change_development_level = 0 }
+}
+c_PHI_zamboanga={
+	423.7.6 = { holder = IRToCK3_c_PHI_lanao_holder change_development_level = 0 }
+}

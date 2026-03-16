@@ -1,0 +1,66 @@
+k_maluku={
+	423.7.6 = { liege = 0 }
+}
+d_IDO_lesser_sunda={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_IDO_galiyao_holder government = tribal_government }
+}
+d_IDO_timor={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_IDO_sonba_i_holder government = tribal_government }
+}
+d_papua={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_sran_holder government = tribal_government }
+}
+d_SuMa_halmahera={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SuMa_ternate_holder government = tribal_government }
+}
+d_SuMa_maluku={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SuMa_seram_holder government = tribal_government }
+}
+c_aru={
+	423.7.6 = { holder = IRToCK3_c_sran_holder change_development_level = 0 }
+}
+c_IDO_barat_daya={
+	423.7.6 = { holder = IRToCK3_c_IDO_sonba_i_holder change_development_level = 0 }
+}
+c_IDO_galiyao={
+	423.7.6 = { holder = IRToCK3_c_IDO_galiyao_holder change_development_level = 0 }
+}
+c_IDO_humba={
+	423.7.6 = { holder = IRToCK3_c_IDO_galiyao_holder change_development_level = 0 }
+}
+c_IDO_nusa_nipa={
+	423.7.6 = { holder = IRToCK3_c_IDO_galiyao_holder change_development_level = 0 }
+}
+c_IDO_sonba_i={
+	423.7.6 = { holder = IRToCK3_c_IDO_sonba_i_holder change_development_level = 0 }
+}
+c_IDO_wehale={
+	423.7.6 = { holder = IRToCK3_c_IDO_sonba_i_holder change_development_level = 0 }
+}
+c_kepala_burung={
+	423.7.6 = { holder = IRToCK3_c_sran_holder change_development_level = 0 }
+}
+c_papua_selatan={
+	423.7.6 = { holder = IRToCK3_c_sran_holder change_development_level = 0 }
+}
+c_sran={
+	423.7.6 = { holder = IRToCK3_c_sran_holder change_development_level = 0 }
+}
+c_SuMa_bacan={
+	423.7.6 = { holder = IRToCK3_c_SuMa_ternate_holder change_development_level = 0 }
+}
+c_SuMa_buru-sula={
+	423.7.6 = { holder = IRToCK3_c_SuMa_seram_holder change_development_level = 0 }
+}
+c_SuMa_raja_ampat={
+	423.7.6 = { holder = IRToCK3_c_SuMa_seram_holder change_development_level = 0 }
+}
+c_SuMa_seram={
+	423.7.6 = { holder = IRToCK3_c_SuMa_seram_holder change_development_level = 0 }
+}
+c_SuMa_ternate={
+	423.7.6 = { holder = IRToCK3_c_SuMa_ternate_holder change_development_level = 0 }
+}
+c_SuMa_tidore={
+	423.7.6 = { holder = IRToCK3_c_SuMa_ternate_holder change_development_level = 0 }
+}

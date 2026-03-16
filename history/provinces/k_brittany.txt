@@ -1,28 +1,30 @@
+2151={
+	holding = none
+}
 2152={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2153={
 	holding = none
 }
 2154={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2155={
 	holding = none
 }
 2156={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
-	395.1.1 = { culture = briton religion = briton_pagan }
 }
 2157={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2158={
@@ -38,8 +40,8 @@
 	holding = city_holding
 }
 2162={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2163={
@@ -49,8 +51,8 @@
 	holding = city_holding
 }
 2165={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2166={
@@ -60,8 +62,8 @@
 	holding = none
 }
 2261={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2262={
@@ -71,8 +73,8 @@
 	holding = none
 }
 2264={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2265={
@@ -82,8 +84,8 @@
 	holding = church_holding
 }
 2267={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2268={
@@ -93,8 +95,8 @@
 	holding = city_holding
 }
 2270={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2271={
@@ -107,16 +109,16 @@
 	holding = none
 }
 2283={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2313={
 	holding = none
 }
 2314={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2315={
@@ -141,18 +143,18 @@
 	holding = none
 }
 2331={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2338={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2339={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2340={

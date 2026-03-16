@@ -5,6 +5,21 @@
 	recommended = yes
 	weight = { value = 100 }
 	character = {
+		name = bm_converted_imperator200628
+		dynasty = dynn_irtock3_2247
+		dynasty_splendor_level = 1
+		type = boy
+		history_id = imperator200628
+		birth = 412.11.6
+		title = h_hellenistic_empire
+		government = feudal_government
+		culture = macedonian
+		religion=hellenic_pagan
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		position = { 1067 484 }
+		animation = personality_rational
+	}
+	character = {
 		name = bm_converted_imperator198687
 		dynasty = dynn_irtock3_2262
 		dynasty_splendor_level = 1
@@ -16,7 +31,7 @@
 		culture = scythian
 		religion=iberian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 190 570 }
+		position = { 190 435 }
 		animation = personality_rational
 	}
 	character = {
@@ -31,7 +46,7 @@
 		culture = indogreek
 		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1343 769 }
+		position = { 1340 635 }
 		animation = personality_rational
 	}
 	character = {
@@ -46,22 +61,7 @@
 		culture = roman
 		religion=hellenic_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 435 506 }
-		animation = personality_rational
-	}
-	character = {
-		name = bm_converted_imperator200628
-		dynasty = dynn_irtock3_2247
-		dynasty_splendor_level = 1
-		type = boy
-		history_id = imperator200628
-		birth = 412.11.6
-		title = e_IRTOCK3_PRN
-		government = feudal_government
-		culture = macedonian
-		religion=hellenic_pagan
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 1061 620 }
+		position = { 432 371 }
 		animation = personality_rational
 	}
 	character = {
@@ -76,7 +76,7 @@
 		culture = irish
 		religion=insular_celtic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 207 300 }
+		position = { 207 164 }
 		animation = personality_rational
 	}
 	character = {
@@ -86,12 +86,12 @@
 		type = female
 		history_id = imperator183693
 		birth = 349.9.25
-		title = e_IRTOCK3_BDI
+		title = h_IRTOCK3_BDI
 		government = administrative_government
 		culture = hellenic_greek
-		religion=arianism
+		religion=orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 622 529 }
+		position = { 622 395 }
 		animation = personality_rational
 	}
 	character = {
@@ -106,7 +106,7 @@
 		culture = nuragic
 		religion=egyptian_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 567 783 }
+		position = { 579 645 }
 		animation = personality_rational
 	}
 	character = {
@@ -119,9 +119,9 @@
 		title = e_IRTOCK3_B99
 		government = feudal_government
 		culture = hellenic_greek
-		religion=nicene
+		religion=catholic
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 301 433 }
+		position = { 302 298 }
 		animation = personality_rational
 	}
 	character = {
@@ -131,12 +131,12 @@
 		type = male
 		history_id = imperator194255
 		birth = 390.7.19
-		title = k_IRTOCK3_ATH
+		title = e_IRTOCK3_ATH
 		government = administrative_government
 		culture = hellenic_greek
-		religion=nicene
+		religion=orthodox
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 626 598 }
+		position = { 610 463 }
 		animation = personality_rational
 	}
 	character = {
@@ -151,7 +151,7 @@
 		culture = norse
 		religion=norse_pagan
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		position = { 383 730 }
+		position = { 397 571 }
 		animation = personality_rational
 	}
 }

@@ -12,27 +12,9 @@ c_aral_karakum={
 }
 c_chalkar={
 	404.3.1 = { liege = 0 holder = imperator198132 }
-	423.7.6 = { liege = k_IRTOCK3_K09 holder = imperator198148 change_development_level = 4 }
-}
-d_barsuki={
-	423.7.6 = { liege = 0 }
+	423.7.6 = { change_development_level = 4 }
 }
 c_terekli={
 	404.3.1 = { liege = 0 holder = imperator198132 }
 	423.7.6 = { change_development_level = 3 }
-}
-c_airyuk={
-	421.6.9 = { liege = 0 holder = imperator198534 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_barsuki={
-	423.2.20 = { liege = 0 holder = imperator199909 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_jamantau={
-	392.7.1 = { liege = 0 holder = imperator194884 }
-	423.7.6 = { change_development_level = 8 }
-}
-b_emba={
-	423.7.6 = { holder = imperator193234 }
 }

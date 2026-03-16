@@ -1,0 +1,57 @@
+k_sulawesi={
+	423.7.6 = { liege = 0 }
+}
+d_SuMa_konawe={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SuMa_konawe_holder liege = 0 }
+}
+d_SuMa_luwu={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SuMa_luwu_holder liege = 0 }
+}
+d_SuMa_minahasa={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SuMa_gorontalo_holder government = tribal_government }
+}
+d_SuMa_tompotika={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SuMa_banggai_holder government = tribal_government }
+}
+c_SuMa_ajatappareng={
+	423.7.6 = { holder = IRToCK3_c_SuMa_luwu_holder change_development_level = 0 }
+}
+c_SuMa_banawa={
+	423.7.6 = { holder = IRToCK3_c_SuMa_gorontalo_holder change_development_level = 0 }
+}
+c_SuMa_banggai={
+	423.7.6 = { holder = IRToCK3_c_SuMa_banggai_holder change_development_level = 0 }
+}
+c_SuMa_banggai_utara={
+	423.7.6 = { holder = IRToCK3_c_SuMa_banggai_holder change_development_level = 0 }
+}
+c_SuMa_butun={
+	423.7.6 = { holder = IRToCK3_c_SuMa_konawe_holder change_development_level = 0 }
+}
+c_SuMa_gorontalo={
+	423.7.6 = { holder = IRToCK3_c_SuMa_gorontalo_holder change_development_level = 0 }
+}
+c_SuMa_konawe={
+	423.7.6 = { holder = IRToCK3_c_SuMa_konawe_holder change_development_level = 0 }
+}
+c_SuMa_luwu={
+	423.7.6 = { holder = IRToCK3_c_SuMa_luwu_holder change_development_level = 0 }
+}
+c_SuMa_mori={
+	423.7.6 = { holder = IRToCK3_c_SuMa_banggai_holder change_development_level = 0 }
+}
+c_SuMa_moronene={
+	423.7.6 = { holder = IRToCK3_c_SuMa_konawe_holder change_development_level = 0 }
+}
+c_SuMa_sampaga={
+	423.7.6 = { holder = IRToCK3_c_SuMa_luwu_holder change_development_level = 0 }
+}
+c_SuMa_siang={
+	423.7.6 = { holder = IRToCK3_c_SuMa_luwu_holder change_development_level = 0 }
+}
+c_SuMa_tamboeko={
+	423.7.6 = { holder = IRToCK3_c_SuMa_konawe_holder change_development_level = 0 }
+}
+c_SuMa_wenang={
+	423.7.6 = { holder = IRToCK3_c_SuMa_gorontalo_holder change_development_level = 0 }
+}

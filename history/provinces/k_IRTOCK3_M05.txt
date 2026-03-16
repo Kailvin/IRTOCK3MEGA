@@ -16,18 +16,24 @@
 	holding = castle_holding
 }
 3271={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3274={
 	holding = city_holding
 }
 3276={
-	culture = indogreek
-	faith = hellenic_pagan
 	holding = castle_holding
 }
 3277={
 	holding = castle_holding
+}
+3278={
+	holding = none
+}
+3279={
+	holding = none
 }
 3280={
 	culture = indogreek

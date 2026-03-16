@@ -157,10 +157,6 @@ head_determination_herd={
 }
 heritage_akan={
 	type=heritage
-	parameters={
-		heritage_group_west_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_akan
@@ -170,10 +166,6 @@ heritage_akan={
 }
 heritage_arabic={
 	type=heritage
-	parameters={
-		heritage_group_arabian = yes
-		heritage_family_middle_eastern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_arabic
@@ -181,38 +173,35 @@ heritage_arabic={
 	}
 	audio_parameter = mena
 }
+heritage_austronesian={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_austronesian
+		}
+	}
+	audio_parameter = european
+}
 heritage_baltic={
 	type=heritage
-	parameters={
-		heritage_group_balto_slavic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_baltic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_balto_finnic={
 	type=heritage
-	parameters={
-		heritage_group_finnic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_balto_finnic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_berber={
 	type=heritage
-	parameters={
-		heritage_group_north_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_berber
@@ -222,10 +211,6 @@ heritage_berber={
 }
 heritage_brythonic={
 	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_brythonic
@@ -235,36 +220,24 @@ heritage_brythonic={
 }
 heritage_burman={
 	type=heritage
-	parameters={
-		heritage_group_burmese = yes
-		heritage_family_south_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_burman
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = sea
 }
 heritage_byzantine={
 	type=heritage
-	parameters={
-		heritage_group_byzantine = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_byzantine
 		}
 	}
-	audio_parameter = european
+	audio_parameter = byzantine
 }
 heritage_central_african={
 	type=heritage
-	parameters={
-		heritage_group_central_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_central_african
@@ -274,10 +247,6 @@ heritage_central_african={
 }
 heritage_central_germanic={
 	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_central_germanic
@@ -287,36 +256,60 @@ heritage_central_germanic={
 }
 heritage_chinese={
 	type=heritage
-	parameters={
-		heritage_group_chinese = yes
-		heritage_family_east_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_chinese
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = sea
+}
+heritage_korean={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_korean
+		}
+	}
+	audio_parameter = sea
+}
+heritage_buyeo={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_buyeo
+		}
+	}
+	audio_parameter = sea
+}
+heritage_tai={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tai
+		}
+	}
+	audio_parameter = sea
+}
+heritage_hmongic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hmongic
+		}
+	}
+	audio_parameter = sea
 }
 heritage_dravidian={
 	type=heritage
-	parameters={
-		heritage_group_dravidian = yes
-		heritage_family_south_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_dravidian
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = indian
 }
 heritage_east_african={
 	type=heritage
-	parameters={
-		heritage_group_east_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_east_african
@@ -326,23 +319,15 @@ heritage_east_african={
 }
 heritage_east_slavic={
 	type=heritage
-	parameters={
-		heritage_group_balto_slavic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_east_slavic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_frankish={
 	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_frankish
@@ -352,23 +337,15 @@ heritage_frankish={
 }
 heritage_goidelic={
 	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_goidelic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_iberian={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_iberian
@@ -378,49 +355,39 @@ heritage_iberian={
 }
 heritage_indo_aryan={
 	type=heritage
-	parameters={
-		heritage_group_indo_aryan = yes
-		heritage_family_south_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_indo_aryan
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = indian
 }
 heritage_iranian={
 	type=heritage
-	parameters={
-		heritage_group_iranian = yes
-		heritage_family_persian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_iranian
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = indian
 }
 heritage_israelite={
 	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
 	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_israelite
+		OR = {
+			heritage_is_shown_trigger = {
+				HERITAGE = heritage_israelite
+			}
+			AND = { # Let Beta Israelis be Beta Israeli
+				scope:character.culture = { has_cultural_pillar = heritage_east_african }
+				scope:character.religion = religion:judaism_religion
+			}
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = byzantine
 }
 heritage_latin={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_latin
@@ -430,36 +397,24 @@ heritage_latin={
 }
 heritage_magyar={
 	type=heritage
-	parameters={
-		heritage_group_ugric = yes
-		heritage_family_steppe = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_magyar
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_mongolic={
 	type=heritage
-	parameters={
-		heritage_group_mongolic = yes
-		heritage_family_steppe = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_mongolic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = sea
 }
 heritage_north_germanic={
 	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_north_germanic
@@ -469,23 +424,15 @@ heritage_north_germanic={
 }
 heritage_qiangic={
 	type=heritage
-	parameters={
-		heritage_group_tibetan = yes
-		heritage_family_east_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_qiangic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = sea
 }
 heritage_sahelian={
 	type=heritage
-	parameters={
-		heritage_group_west_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_sahelian
@@ -495,10 +442,6 @@ heritage_sahelian={
 }
 heritage_senegambian={
 	type=heritage
-	parameters={
-		heritage_group_west_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_senegambian
@@ -508,10 +451,6 @@ heritage_senegambian={
 }
 heritage_somalian={
 	type=heritage
-	parameters={
-		heritage_group_east_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_somalian
@@ -519,25 +458,8 @@ heritage_somalian={
 	}
 	audio_parameter = mena
 }
-heritage_south_slavic={
-	type=heritage
-	parameters={
-		heritage_group_balto_slavic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_south_slavic
-		}
-	}
-	audio_parameter = mena
-}
 heritage_bantu={
 	type=heritage
-	parameters={
-		heritage_group_east_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_bantu
@@ -545,64 +467,53 @@ heritage_bantu={
 	}
 	audio_parameter = mena
 }
+heritage_south_slavic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_south_slavic
+		}
+	}
+	audio_parameter = european
+}
 heritage_tibetan={
 	type=heritage
-	parameters={
-		heritage_group_tibetan = yes
-		heritage_family_east_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_tibetan
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = sea
 }
 heritage_turkic={
 	type=heritage
-	parameters={
-		heritage_group_turkic = yes
-		heritage_family_steppe = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_turkic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = byzantine
 }
 heritage_ugro_permian={
 	type=heritage
-	parameters={
-		heritage_group_ugric = yes
-		heritage_family_steppe = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_ugro_permian
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_volga_finnic={
 	type=heritage
-	parameters={
-		heritage_group_finnic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_volga_finnic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_west_african={
 	type=heritage
-	parameters={
-		heritage_group_west_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_west_african
@@ -612,10 +523,6 @@ heritage_west_african={
 }
 heritage_west_germanic={
 	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_west_germanic
@@ -625,23 +532,15 @@ heritage_west_germanic={
 }
 heritage_west_slavic={
 	type=heritage
-	parameters={
-		heritage_group_balto_slavic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_west_slavic
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_yoruba={
 	type=heritage
-	parameters={
-		heritage_group_west_african = yes
-		heritage_family_african = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_yoruba
@@ -651,23 +550,15 @@ heritage_yoruba={
 }
 heritage_tocharian={
 	type=heritage
-	parameters={
-		heritage_group_iranian = yes
-		heritage_family_persian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_tocharian
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = indian
 }
 heritage_vlach={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_vlach
@@ -677,42 +568,39 @@ heritage_vlach={
 }
 heritage_caucasian={
 	type=heritage
-	parameters={
-		heritage_group_byzantine = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_caucasian
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = european
 }
 heritage_syriac={
 	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_syriac
 		}
 	}
-	audio_parameter = mena
+	audio_parameter = byzantine
 }
-heritage_albanian={
+heritage_gothic={
 	type=heritage
-	parameters={
-		heritage_group_balkan = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_albanian
+			HERITAGE = heritage_gothic
 		}
 	}
 	audio_parameter = european
+}
+heritage_egyptian={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_egyptian
+		}
+	}
+	audio_parameter = mena
 }
 heritage_hunnic={
 	type=heritage
@@ -723,13 +611,81 @@ heritage_hunnic={
 	}
 	audio_parameter = european
 }
+heritage_ancient_greek={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ancient_greek
+		}
+	}
+	audio_parameter = european
+}
+heritage_albanian={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_albanian
+		}
+	}
+	audio_parameter = european
+}
+heritage_tungusic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_tungusic
+		}
+	}
+	audio_parameter = sea
+}
+heritage_nivkh={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_nivkh
+		}
+	}
+	audio_parameter = sea
+}
+heritage_japonic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_japonic
+		}
+	}
+	audio_parameter = sea
+}
+heritage_ainuic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_ainuic
+		}
+	}
+	audio_parameter = sea
+}
+heritage_mon_khmer={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_mon_khmer
+		}
+	}
+	audio_parameter = european
+}
+heritage_viet={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_viet
+		}
+	}
+	audio_parameter = sea
+}
 language_anglic={
 	type=language
 	color=rgb { 204 51 51 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_anglic
@@ -741,23 +697,11 @@ language_anglic={
 			limit = { has_cultural_pillar = language_anglic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_arabic={
 	type=language
 	color=rgb { 26 191 26 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_arabic
@@ -768,14 +712,6 @@ language_arabic={
 		if = {
 			limit = { has_cultural_pillar = language_arabic }
 			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
 		}
 		if = {
 			limit = {
@@ -790,10 +726,6 @@ language_arabic={
 language_aramaic={
 	type=language
 	color=rgb { 209 212 135 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_aramaic
@@ -805,23 +737,59 @@ language_aramaic={
 			limit = { has_cultural_pillar = language_aramaic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
+	}
+}
+language_asli={
+	type=language
+	color=rgb { 153 204 51 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_asli
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_asli }
+			multiply = 10
+		}
+	}
+}
+language_austronesian={
+	type=language
+	color=rgb { 230 64 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_austronesian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_austronesian }
+			multiply = 10
+		}
+	}
+}
+language_papuan={
+	type=language
+	color=rgb { 217 115 26 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_papuan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_papuan }
+			multiply = 10
 		}
 	}
 }
 language_baltic={
 	type=language
 	color=rgb { 143 140 51 }
-	parameters={
-		language_group_baltic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_baltic
@@ -833,23 +801,11 @@ language_baltic={
 			limit = { has_cultural_pillar = language_baltic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_baltic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_basque={
 	type=language
 	color=rgb { 140 107 10 }
-	parameters={
-		language_group_basque = yes
-		language_family_basque = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_basque
@@ -861,23 +817,11 @@ language_basque={
 			limit = { has_cultural_pillar = language_basque }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_basque }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_basque }
-			multiply = 2.5
-		}
 	}
 }
 language_berber={
 	type=language
 	color=rgb { 161 67 0 }
-	parameters={
-		language_group_berber = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_berber
@@ -889,23 +833,11 @@ language_berber={
 			limit = { has_cultural_pillar = language_berber }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_berber }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
 	}
 }
 language_brythonic={
 	type=language
 	color=rgb { 82 73 183 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_brythonic
@@ -917,23 +849,11 @@ language_brythonic={
 			limit = { has_cultural_pillar = language_brythonic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_burmese={
 	type=language
 	color=rgb { 89 153 115 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_burmese
@@ -945,23 +865,11 @@ language_burmese={
 			limit = { has_cultural_pillar = language_burmese }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
 	}
 }
 language_central_germanic={
 	type=language
 	color=rgb { 217 217 140 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_central_germanic
@@ -973,23 +881,11 @@ language_central_germanic={
 			limit = { has_cultural_pillar = language_central_germanic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_chadic={
 	type=language
 	color=rgb { 178 0 32 }
-	parameters={
-		language_group_chadic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_chadic
@@ -1001,23 +897,11 @@ language_chadic={
 			limit = { has_cultural_pillar = language_chadic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_chadic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
 	}
 }
 language_chinese={
 	type=language
 	color=rgb { 211 44 44 }
-	parameters={
-		language_group_sinitic = yes
-		language_family_sino_tibetan = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_chinese
@@ -1029,60 +913,27 @@ language_chinese={
 			limit = { has_cultural_pillar = language_chinese }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_sinitic }
-			multiply = 5
+	}
+}
+language_korean={
+	type=language
+	color=rgb { 26 76 178 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_korean
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
+	}
+	ai_will_do = {
+		value = 10
 		if = {
-			limit = {
-				OR = {
-					culture = culture:xiongnu
-					culture = culture:xianbei
-					culture = culture:khitan
-					culture = {
-						any_parent_culture_or_above = {
-							OR = {
-								this = culture:xiongnu
-								this = culture:xianbei
-								this = culture:khitan
-							}
-						}
-					}
-				}				
-			}
-			multiply = 2.5
-		}
-		if = {
-			limit = {
-				scope:character = {
-					religion = religion:taoism_religion
-				}			
-			}
-			multiply = 2.5
-		}
-		if = {
-			limit = {
-				scope:character = {
-					capital_province = {
-						geographical_region = custom_liang
-					}
-				}			
-			}
-			multiply = 5
+			limit = { has_cultural_pillar = language_korean }
+			multiply = 10
 		}
 	}
 }
 language_cushitic={
 	type=language
 	color=rgb { 15 39 76 }
-	parameters={
-		language_group_cushitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_cushitic
@@ -1093,14 +944,6 @@ language_cushitic={
 		if = {
 			limit = { has_cultural_pillar = language_cushitic }
 			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_cushitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
 		}
 	}
 }
@@ -1123,10 +966,6 @@ language_sabaki={
 language_dutch={
 	type=language
 	color=rgb { 204 150 102 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_dutch
@@ -1138,23 +977,11 @@ language_dutch={
 			limit = { has_cultural_pillar = language_dutch }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_east_slavic={
 	type=language
 	color=rgb { 51 102 26 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_east_slavic
@@ -1166,23 +993,11 @@ language_east_slavic={
 			limit = { has_cultural_pillar = language_east_slavic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_ethiopic={
 	type=language
 	color=rgb { 178 162 17 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_ethiopic
@@ -1194,23 +1009,11 @@ language_ethiopic={
 			limit = { has_cultural_pillar = language_ethiopic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
 	}
 }
 language_finnic={
 	type=language
 	color=rgb { 26 153 153 }
-	parameters={
-		language_group_balto_finnic = yes
-		language_family_uralic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_finnic
@@ -1222,23 +1025,11 @@ language_finnic={
 			limit = { has_cultural_pillar = language_finnic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_balto_finnic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
 	}
 }
 language_frankish={
 	type=language
 	color=rgb { 76 76 128 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_frankish
@@ -1250,23 +1041,11 @@ language_frankish={
 			limit = { has_cultural_pillar = language_frankish }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_french={
 	type=language
 	color=rgb { 26 26 153 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_french
@@ -1278,16 +1057,8 @@ language_french={
 			limit = { has_cultural_pillar = language_french }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 		if = {
-			limit = { culture = culture:english }
+			limit = { this = culture:english }
 			multiply = 2
 		}
 	}
@@ -1295,10 +1066,6 @@ language_french={
 language_goidelic={
 	type=language
 	color=rgb { 14 145 145 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_goidelic
@@ -1310,23 +1077,11 @@ language_goidelic={
 			limit = { has_cultural_pillar = language_goidelic }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_gur={
 	type=language
 	color=rgb { 17 62 178 }
-	parameters={
-		language_group_savannas = yes
-		language_family_atlantic_congo = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_gur
@@ -1338,23 +1093,11 @@ language_gur={
 			limit = { has_cultural_pillar = language_gur }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_savannas }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_atlantic_congo }
-			multiply = 2.5
-		}
 	}
 }
 language_high_german={
 	type=language
 	color=rgb { 178 178 178 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_high_german
@@ -1366,23 +1109,11 @@ language_high_german={
 			limit = { has_cultural_pillar = language_high_german }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_iberian={
 	type=language
 	color=rgb { 242 209 23 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_iberian
@@ -1394,14 +1125,6 @@ language_iberian={
 			limit = { has_cultural_pillar = language_iberian }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 		if = {
 			limit = { has_cultural_pillar = language_basque } # Basque nobility spoke a much more latin-ised version of Basque
 			multiply = 2
@@ -1411,10 +1134,6 @@ language_iberian={
 language_sauraseni={
 	type=language
 	color=rgb { 255 0 0 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_sauraseni
@@ -1426,23 +1145,11 @@ language_sauraseni={
 			limit = { has_cultural_pillar = language_sauraseni }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_marathi={
 	type=language
 	color=rgb { 204 51 0 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_marathi
@@ -1454,23 +1161,11 @@ language_marathi={
 			limit = { has_cultural_pillar = language_marathi }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_magadhan={
 	type=language
 	color=rgb { 115 0 0 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_magadhan
@@ -1482,23 +1177,11 @@ language_magadhan={
 			limit = { has_cultural_pillar = language_magadhan }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_pahari={
 	type=language
 	color=rgb { 166 64 26 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_pahari
@@ -1510,23 +1193,11 @@ language_pahari={
 			limit = { has_cultural_pillar = language_pahari }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_rajasthani={
 	type=language
 	color=rgb { 153 0 0 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_rajasthani
@@ -1538,23 +1209,11 @@ language_rajasthani={
 			limit = { has_cultural_pillar = language_rajasthani }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_vrachada={
 	type=language
 	color=rgb { 204 76 51 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_vrachada
@@ -1566,23 +1225,11 @@ language_vrachada={
 			limit = { has_cultural_pillar = language_vrachada }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_sinhalese={
 	type=language
 	color=rgb { 255 76 76 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_sinhalese
@@ -1594,23 +1241,11 @@ language_sinhalese={
 			limit = { has_cultural_pillar = language_sinhalese }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_kashmiri={
 	type=language
 	color=rgb { 153 102 76 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_kashmiri
@@ -1622,23 +1257,11 @@ language_kashmiri={
 			limit = { has_cultural_pillar = language_kashmiri }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
 	}
 }
 language_tamil={
 	type=language
 	color=rgb { 255 178 51 }
-	parameters={
-		language_group_tamil_kannada = yes
-		language_family_dravidian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_tamil
@@ -1650,23 +1273,11 @@ language_tamil={
 			limit = { has_cultural_pillar = language_tamil }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tamil_kannada }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
 	}
 }
 language_telugu={
 	type=language
 	color=rgb { 204 204 0 }
-	parameters={
-		language_group_telugu = yes
-		language_family_dravidian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_telugu
@@ -1678,23 +1289,11 @@ language_telugu={
 			limit = { has_cultural_pillar = language_telugu }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_telugu }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
 	}
 }
 language_kannada={
 	type=language
 	color=rgb { 204 153 0 }
-	parameters={
-		language_group_tamil_kannada = yes
-		language_family_dravidian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_kannada
@@ -1705,1097 +1304,6 @@ language_kannada={
 		if = {
 			limit = { has_cultural_pillar = language_kannada }
 			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tamil_kannada }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
-	}
-}
-language_iranian={
-	type=language
-	color=rgb { 52 180 170 }
-	parameters={
-		language_group_iranian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_iranian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_iranian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_iranian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-		if = {
-			limit = {
-				scope:character = {
-					OR = {
-						religion = religion:islam_religion
-						religion = religion:zoroastrianism_religion
-					}
-				}
-			}
-			multiply = 2
-		}
-	}
-}
-language_israelite={
-	type=language
-	color=rgb { 153 76 153 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_israelite
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_israelite }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-		if = {
-			limit = {
-				scope:character = {
-					religion = religion:judaism_religion
-				}
-			}
-			multiply = 2
-		}
-	}
-}
-language_latin={
-	type=language
-	color=rgb { 204 26 26 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_latin
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_latin }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_kru={
-	type=language
-	color=rgb { 178 24 8 }
-	parameters={
-		language_group_kru = yes
-		language_family_kru = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kru
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kru }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kru }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_kru }
-			multiply = 2.5
-		}
-	}
-}
-language_kwa={
-	type=language
-	color=rgb { 224 66 44 }
-	parameters={
-		language_group_kwa = yes
-		language_family_atlantic_congo = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kwa
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kwa }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kwa }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_atlantic_congo }
-			multiply = 2.5
-		}
-	}
-}
-language_magyar={
-	type=language
-	color=rgb { 128 153 76 }
-	parameters={
-		language_group_ugric = yes
-		language_family_uralic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_magyar
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_magyar }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_ugric }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
-	}
-}
-language_manding={
-	type=language
-	color=rgb { 45 49 147 }
-	parameters={
-		language_group_western_mande = yes
-		language_family_mande = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_manding
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_manding }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_western_mande }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_mande }
-			multiply = 2.5
-		}
-	}
-}
-language_mongolic={
-	type=language
-	color=rgb { 102 102 255 }
-	parameters={
-		language_group_mongolic = yes
-		language_family_mongolic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mongolic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mongolic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_mongolic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_mongolic }
-			multiply = 2.5
-		}
-	}
-}
-language_norse={
-	type=language
-	color=rgb { 76 140 204 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_norse
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_norse }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_oghur={
-	type=language
-	color=rgb { 178 115 26 }
-	parameters={
-		language_group_oghur = yes
-		language_family_turkic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_oghur
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_oghur }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_oghur }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_turkic }
-			multiply = 2.5
-		}
-	}
-}
-language_omotic={
-	type=language
-	color=rgb { 110 112 39 }
-	parameters={
-		language_group_omotic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_omotic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_omotic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_omotic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_qiangic={
-	type=language
-	color=rgb { 204 51 51 }
-	parameters={
-		language_group_qiangic = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_qiangic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_qiangic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_qiangic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_sami={
-	type=language
-	color=rgb { 102 191 217 }
-	parameters={
-		language_group_sami = yes
-		language_family_uralic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sami
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sami }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_sami }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
-	}
-}
-language_saxon={
-	type=language
-	color=rgb { 50 50 50 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_saxon
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_saxon }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_senegambian={
-	type=language
-	color=rgb { 107 110 64 }
-	parameters={
-		language_group_senegambian = yes
-		language_family_atlantic_congo = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_senegambian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_senegambian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_senegambian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_atlantic_congo }
-			multiply = 2.5
-		}
-	}
-}
-language_soninke={
-	type=language
-	color=rgb { 178 160 0 }
-	parameters={
-		language_group_western_mande = yes
-		language_family_mande = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_soninke
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_soninke }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_western_mande }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_mande }
-			multiply = 2.5
-		}
-	}
-}
-language_south_slavic={
-	type=language
-	color=rgb { 76 26 26 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_south_slavic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_south_slavic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_slavonic={
-	type=language
-	color=rgb { 178 128 128 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_slavonic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_slavonic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_sudanic={
-	type=language
-	color=rgb { 178 133 17 }
-	parameters={
-		language_group_sudanic = yes
-		language_family_nilo_saharan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sudanic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sudanic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_sudanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_nilo_saharan }
-			multiply = 2.5
-		}
-	}
-}
-language_tibetan={
-	type=language
-	color=rgb { 255 51 0 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tibetan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tibetan }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_tubu={
-	type=language
-	color=rgb { 161 64 16 }
-	parameters={
-		language_group_tubu = yes
-		language_family_nilo_saharan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tubu
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tubu }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tubu }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_nilo_saharan }
-			multiply = 2.5
-		}
-	}
-}
-language_turkic={
-	type=language
-	color=rgb { 255 155 25 }
-	parameters={
-		language_group_shaz_turkic = yes
-		language_family_turkic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_turkic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_turkic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_shaz_turkic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_turkic }
-			multiply = 2.5
-		}
-	}
-}
-language_ugro_permian={
-	type=language
-	color=rgb { 128 191 64 }
-	parameters={
-		language_group_permic = yes
-		language_family_uralic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ugro_permian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ugro_permian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_permic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
-	}
-}
-language_volga_finnic={
-	type=language
-	color=rgb { 115 89 204 }
-	parameters={
-		language_group_permic = yes
-		language_family_uralic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_volga_finnic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_volga_finnic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_permic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
-	}
-}
-language_yoruba={
-	type=language
-	color=rgb { 53 178 141 }
-	parameters={
-		language_group_volta = yes
-		language_family_atlantic_congo = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yoruba
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yoruba }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_volta }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_atlantic_congo }
-			multiply = 2.5
-		}
-	}
-}
-language_armenian={
-	type=language
-	color=rgb { 178 19 8 }
-	parameters={
-		language_group_armenian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_armenian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_armenian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_armenian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_greek={
-	type=language
-	color=rgb { 204 76 204 }
-	parameters={
-		language_group_hellenic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_greek
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_greek }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_hellenic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_scythian={
-	type=language
-	color=rgb { 153 0 76 }
-	parameters={
-		language_group_iranian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_scythian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_scythian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_iranian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_georgian={
-	type=language
-	color=rgb { 224 55 44 }
-	parameters={
-		language_group_kartvelian = yes
-		language_family_kartvelian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_georgian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_georgian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kartvelian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_kartvelian }
-			multiply = 2.5
-		}
-	}
-}
-language_occitano_romance={
-	type=language
-	color=rgb { 26 178 204 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_occitano_romance
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_occitano_romance }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_lechitic={
-	type=language
-	color=rgb { 76 153 153 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_lechitic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_lechitic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_czech_slovak={
-	type=language
-	color=rgb { 51 204 128 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_czech_slovak
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_czech_slovak }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_tocharian={
-	type=language
-	color=rgb { 191 115 242 }
-	parameters={
-		language_group_tocharian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tocharian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tocharian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tocharian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_tungusic={
-	type=language
-	color=rgb { 122 114 92 }
-	parameters={
-		language_group_tungusic = yes
-		language_family_tungusic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_tungusic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_tungusic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tungusic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_tungusic }
-			multiply = 2.5
-		}
-	}
-}
-language_sardinian={
-	type=language
-	color=rgb { 230 230 76 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sardinian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sardinian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_wallachian={
-	type=language
-	color=rgb { 153 76 204 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_wallachian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_wallachian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_italian={
-	type=language
-	color=rgb { 242 242 191 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_italian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_italian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_romance }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_ayneha={
-	type=language
-	color=rgb { 178 51 102 }
-	parameters={
-		language_group_ayneha = yes
-		language_family_nilo_saharan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ayneha
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ayneha }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_ayneha }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_nilo_saharan }
-			multiply = 2.5
 		}
 	}
 }
@@ -2815,13 +1323,748 @@ language_north_dravidian={
 		}
 	}
 }
+language_iranian={
+	type=language
+	color=rgb { 204 204 102 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_iranian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_iranian }
+			multiply = 10
+		}
+		if = {
+			limit = {
+				scope:character = {
+					OR = {
+						religion = religion:islam_religion
+						religion = religion:zoroastrianism_religion
+					}
+				}
+			}
+			multiply = 2
+		}
+	}
+}
+language_israelite={
+	type=language
+	color=rgb { 153 76 153 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_israelite
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_israelite }
+			multiply = 10
+		}
+		if = {
+			limit = {
+				scope:character = {
+					religion = religion:judaism_religion
+				}
+			}
+			multiply = 2
+		}
+	}
+}
+language_latin={
+	type=language
+	color=rgb { 242 242 191 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_latin
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_latin }
+			multiply = 10
+		}
+	}
+}
+language_kru={
+	type=language
+	color=rgb { 178 24 8 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kru
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kru }
+			multiply = 10
+		}
+	}
+}
+language_kwa={
+	type=language
+	color=rgb { 224 66 44 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kwa
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kwa }
+			multiply = 10
+		}
+	}
+}
+language_magyar={
+	type=language
+	color=rgb { 128 153 76 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_magyar
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_magyar }
+			multiply = 10
+		}
+	}
+}
+language_manding={
+	type=language
+	color=rgb { 45 49 147 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_manding
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_manding }
+			multiply = 10
+		}
+	}
+}
+language_mongolic={
+	type=language
+	color=rgb { 102 102 255 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mongolic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mongolic }
+			multiply = 10
+		}
+	}
+}
+language_norse={
+	type=language
+	color=rgb { 76 140 204 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_norse
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_norse }
+			multiply = 10
+		}
+	}
+}
+language_oghur={
+	type=language
+	color=rgb { 178 115 26 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_oghur
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_oghur }
+			multiply = 10
+		}
+	}
+}
+language_omotic={
+	type=language
+	color=rgb { 110 112 39 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_omotic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_omotic }
+			multiply = 10
+		}
+	}
+}
+language_qiangic={
+	type=language
+	color=rgb { 204 51 51 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_qiangic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_qiangic }
+			multiply = 10
+		}
+	}
+}
+language_sami={
+	type=language
+	color=rgb { 102 191 217 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sami
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sami }
+			multiply = 10
+		}
+	}
+}
+language_saxon={
+	type=language
+	color=rgb { 50 50 50 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_saxon
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_saxon }
+			multiply = 10
+		}
+	}
+}
+language_senegambian={
+	type=language
+	color=rgb { 107 110 64 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_senegambian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_senegambian }
+			multiply = 10
+		}
+	}
+}
+language_soninke={
+	type=language
+	color=rgb { 178 160 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_soninke
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_soninke }
+			multiply = 10
+		}
+	}
+}
+language_south_slavic={
+	type=language
+	color=rgb { 76 26 26 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_south_slavic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_south_slavic }
+			multiply = 10
+		}
+	}
+}
+language_slavonic={
+	type=language
+	color=rgb { 178 128 128 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_slavonic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_slavonic }
+			multiply = 10
+		}
+	}
+}
+language_sudanic={
+	type=language
+	color=rgb { 178 133 17 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sudanic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sudanic }
+			multiply = 10
+		}
+	}
+}
+language_tibetan={
+	type=language
+	color=rgb { 255 51 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tibetan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tibetan }
+			multiply = 10
+		}
+	}
+}
+language_tubu={
+	type=language
+	color=rgb { 161 64 16 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tubu
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tubu }
+			multiply = 10
+		}
+	}
+}
+language_turkic={
+	type=language
+	color=rgb { 255 155 25 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_turkic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_turkic }
+			multiply = 10
+		}
+	}
+}
+language_ugro_permian={
+	type=language
+	color=rgb { 128 191 64 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ugro_permian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ugro_permian }
+			multiply = 10
+		}
+	}
+}
+language_volga_finnic={
+	type=language
+	color=rgb { 115 89 204 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_volga_finnic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_volga_finnic }
+			multiply = 10
+		}
+	}
+}
+language_yoruba={
+	type=language
+	color=rgb { 53 178 141 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_yoruba
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_yoruba }
+			multiply = 10
+		}
+	}
+}
+language_armenian={
+	type=language
+	color=rgb { 178 19 8 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_armenian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_armenian }
+			multiply = 10
+		}
+	}
+}
+language_greek={
+	type=language
+	color=rgb { 204 76 204 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_greek
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_greek }
+			multiply = 10
+		}
+	}
+}
+language_scythian={
+	type=language
+	color=rgb { 153 153 26 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_scythian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_scythian }
+			multiply = 10
+		}
+	}
+}
+language_georgian={
+	type=language
+	color=rgb { 224 55 44 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_georgian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_georgian }
+			multiply = 10
+		}
+	}
+}
+language_occitano_romance={
+	type=language
+	color=rgb { 26 178 204 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_occitano_romance
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_occitano_romance }
+			multiply = 10
+		}
+	}
+}
+language_lechitic={
+	type=language
+	color=rgb { 76 153 153 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lechitic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lechitic }
+			multiply = 10
+		}
+	}
+}
+language_czech_slovak={
+	type=language
+	color=rgb { 51 204 128 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_czech_slovak
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_czech_slovak }
+			multiply = 10
+		}
+	}
+}
+language_tocharian={
+	type=language
+	color=rgb { 73 122 70 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tocharian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tocharian }
+			multiply = 10
+		}
+	}
+}
+language_sardinian={
+	type=language
+	color=rgb { 230 230 76 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sardinian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sardinian }
+			multiply = 10
+		}
+	}
+}
+language_wallachian={
+	type=language
+	color=rgb { 153 76 204 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_wallachian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_wallachian }
+			multiply = 10
+		}
+	}
+}
+language_italian={
+	type=language
+	color=rgb { 242 242 191 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_italian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_italian }
+			multiply = 10
+		}
+	}
+}
+language_ayneha={
+	type=language
+	color=rgb { 178 51 102 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ayneha
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ayneha }
+			multiply = 10
+		}
+	}
+}
+language_khitan={
+	type=language
+	color=rgb { 0 0 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_khitan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_khitan }
+			multiply = 10
+		}
+	}
+}
+language_tungusic={
+	type=language
+	color=rgb { 0 0 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tungusic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tungusic }
+			multiply = 10
+		}
+	}
+}
+language_nivkh={
+	type=language
+	color=rgb { 0 0 0 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nivkh
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nivkh }
+			multiply = 10
+		}
+	}
+}
+language_egyptian={
+	type=language
+	color=rgb { 230 217 43 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_egyptian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_egyptian }
+			multiply = 10
+		}
+	}
+}
+language_hunnic={
+	type=language
+	color=rgb { 76 54 33 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hunnic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hunnic }
+			multiply = 10
+		}
+	}
+}
+language_tai={
+	type=language
+	color=rgb { 255 76 76 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tai
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tai }
+			multiply = 10
+		}
+	}
+}
+language_hmongic={
+	type=language
+	color=rgb { 255 76 76 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hmongic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hmongic }
+			multiply = 10
+		}
+	}
+}
+language_ancient_greek={
+	type=language
+	color=rgb { 212 140 242 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ancient_greek
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ancient_greek }
+			multiply = 10
+		}
+	}
+}
 language_albanian={
 	type=language
 	color=rgb { 204 191 212 }
-	parameters={
-		language_group_illyrian = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_albanian
@@ -2833,13 +2076,85 @@ language_albanian={
 			limit = { has_cultural_pillar = language_albanian }
 			multiply = 10
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_illyrian }
-			multiply = 5
+	}
+}
+language_japonic={
+	type=language
+	color=rgb { 255 100 255 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_japonic
 		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_japonic }
+			multiply = 10
+		}
+	}
+}
+language_ainu={
+	type=language
+	color=rgb { 70 45 20 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ainu
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ainu }
+			multiply = 10
+		}
+	}
+}
+language_vietnamese={
+	type=language
+	color=rgb { 21 107 145 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vietnamese
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vietnamese }
+			multiply = 10
+		}
+	}
+}
+language_chamic={
+	type=language
+	color=rgb { 104 63 176 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_chamic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_chamic }
+			multiply = 10
+		}
+	}
+}
+language_mon_khmer={
+	type=language
+	color=rgb { 41 69 238 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mon_khmer
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mon_khmer }
+			multiply = 10
 		}
 	}
 }
@@ -3018,1744 +2333,8 @@ martial_custom_female_only={
 		}
 	}
 }
-heritage_celtic={
-	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_celtic
-		}
-	}
-	audio_parameter = european
-}
-heritage_pictish={
-	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_pictish
-		}
-	}
-	audio_parameter = european
-}
-heritage_celtiberian={
-	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_celtiberian
-		}
-	}
-	audio_parameter = european
-}
-heritage_east_germanic={
-	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_east_germanic
-		}
-	}
-	audio_parameter = european
-}
-heritage_hellenistic={
-	type=heritage
-	parameters={
-		heritage_group_byzantine = yes
-		heritage_family_mediterranean = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_hellenistic
-		}
-	}
-	audio_parameter = european
-}
-heritage_kemetic={
-	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_kemetic
-		}
-	}
-	audio_parameter = mena
-}
-heritage_sarmatian={
-	type=heritage
-	parameters={
-		heritage_group_iranian = yes
-		heritage_family_persian = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_sarmatian
-		}
-	}
-	audio_parameter = mena
-}
-heritage_slavic={
-	type=heritage
-	parameters={
-		heritage_group_balto_slavic = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_slavic
-		}
-	}
-	audio_parameter = european
-}
-heritage_daco_thracian={
-	type=heritage
-	parameters={
-		heritage_group_balkan = yes
-		heritage_family_northern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_daco_thracian
-		}
-	}
-	audio_parameter = european
-}
-heritage_yeniseian={
-	type=heritage
-	parameters={
-		heritage_group_paleo_siberian = yes
-		heritage_family_american = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_yeniseian
-		}
-	}
-	audio_parameter = mena
-}
-heritage_levantine={
-	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_levantine
-		}
-	}
-	audio_parameter = mena
-}
-heritage_elamite={
-	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_elamite
-		}
-	}
-	audio_parameter = mena
-}
-heritage_kherwal={
-	type=heritage
-	parameters={
-		heritage_group_burmese = yes
-		heritage_family_south_asian = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_kherwal
-		}
-	}
-	audio_parameter = mena
-}
-heritage_south_semitic={
-	type=heritage
-	parameters={
-		heritage_group_arabian = yes
-		heritage_family_middle_eastern = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_south_semitic
-		}
-	}
-	audio_parameter = mena
-}
-heritage_gaulish={
-	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_gaulish
-		}
-	}
-	audio_parameter = european
-}
-heritage_siberian={
-	type=heritage
-	parameters={
-		heritage_group_paleo_siberian = yes
-		heritage_family_steppe = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_siberian
-		}
-	}
-	audio_parameter = mena
-}
-language_pyu={
-	type=language
-	color=rgb { 156 50 103 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_pyu
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_pyu }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_noric={
-	type=language
-	color=rgb { 76 153 23 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_noric
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_noric }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_pictish={
-	type=language
-	color=rgb { 0 95 183 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_pictish
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_pictish }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_kartvelian={
-	type=language
-	color=rgb { 153 76 178 }
-	parameters={
-		language_group_kartvelian = yes
-		language_family_kartvelian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kartvelian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kartvelian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kartvelian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_kartvelian }
-			multiply = 2.5
-		}
-	}
-}
-language_lezgic={
-	type=language
-	color=rgb { 153 76 178 }
-	parameters={
-		language_group_lezgic = yes
-		language_family_lezgic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_lezgic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_lezgic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_lezgic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_lezgic }
-			multiply = 2.5
-		}
-	}
-}
-language_abazgi={
-	type=language
-	color=rgb { 115 0 0 }
-	parameters={
-		language_group_abazgi = yes
-		language_family_pontic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_abazgi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_abazgi }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_abazgi }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_pontic }
-			multiply = 2.5
-		}
-	}
-}
-language_mon={
-	type=language
-	color=rgb { 89 153 26 }
-	parameters={
-		language_group_mon_khmer = yes
-		language_family_austroasiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_mon
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_mon }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_mon_khmer }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_austroasiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_celtiberian={
-	type=language
-	color=rgb { 89 178 26 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_celtiberian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_celtiberian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_gothic={
-	type=language
-	color=rgb { 255 38 0 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_gothic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_gothic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_vandalic={
-	type=language
-	color=rgb { 255 102 51 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_vandalic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_vandalic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_alemannic={
-	type=language
-	color=rgb { 173 173 173 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_alemannic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_alemannic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_kemetic={
-	type=language
-	color=rgb { 191 217 76 }
-	parameters={
-		language_group_egyptian = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kemetic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kemetic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_egyptian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_west_germanic={
-	type=language
-	color=rgb { 102 0 0 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_west_germanic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_west_germanic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_proto_slavic={
-	type=language
-	color=rgb { 97 178 171 }
-	parameters={
-		language_group_slavic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_proto_slavic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_proto_slavic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_slavic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_celtic={
-	type=language
-	color=rgb { 102 204 31 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_celtic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_celtic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_celtic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_sayhadic={
-	type=language
-	color=rgb { 147 124 93 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_sayhadic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_sayhadic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_south_arabian={
-	type=language
-	color=rgb { 147 124 93 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_south_arabian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_south_arabian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_etruscan={
-	type=language
-	color=rgb { 26 191 51 }
-	parameters={
-		language_group_etruscan = yes
-		language_family_tyrsenian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_etruscan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_etruscan }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_etruscan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_tyrsenian }
-			multiply = 2.5
-		}
-	}
-}
-language_east_baltic={
-	type=language
-	color=rgb { 102 102 26 }
-	parameters={
-		language_group_baltic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_east_baltic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_east_baltic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_baltic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_west_baltic={
-	type=language
-	color=rgb { 143 140 102 }
-	parameters={
-		language_group_baltic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_west_baltic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_west_baltic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_baltic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_dnieper_baltic={
-	type=language
-	color=rgb { 143 140 102 }
-	parameters={
-		language_group_baltic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_dnieper_baltic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_dnieper_baltic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_baltic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_ingvaeonic={
-	type=language
-	color=rgb { 204 76 76 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_ingvaeonic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_ingvaeonic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_istvaeonic={
-	type=language
-	color=rgb { 51 51 128 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_istvaeonic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_istvaeonic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_irminonic={
-	type=language
-	color=rgb { 89 89 89 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_irminonic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_irminonic }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_suebi={
-	type=language
-	color=rgb { 204 178 102 }
-	parameters={
-		language_group_germanic = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_suebi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_suebi }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_germanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_phrygian={
-	type=language
-	color=rgb { 76 140 204 }
-	parameters={
-		language_group_phrygian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_phrygian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_phrygian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_phrygian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_luwian={
-	type=language
-	color=rgb { 140 107 10 }
-	parameters={
-		language_group_anatolian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_luwian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_luwian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_anatolian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_yeniseian={
-	type=language
-	color=rgb { 214 232 237 }
-	parameters={
-		language_group_yeniseian = yes
-		language_family_dene_yeniseian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_yeniseian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_yeniseian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_yeniseian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dene_yeniseian }
-			multiply = 2.5
-		}
-	}
-}
-language_dacian={
-	type=language
-	color=rgb { 143 40 0 }
-	parameters={
-		language_group_dacian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_dacian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_dacian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_dacian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_thracian={
-	type=language
-	color=rgb { 108 20 50 }
-	parameters={
-		language_group_daco_thracian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_thracian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_thracian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_daco_thracian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_illyrian={
-	type=language
-	color=rgb { 102 51 51 }
-	parameters={
-		language_group_illyrian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_illyrian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_illyrian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_illyrian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_hebrew={
-	type=language
-	color=rgb { 26 178 255 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_arabic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_hebrew }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-		if = {
-			limit = {
-				scope:character = {
-					religion = religion:judaism_religion
-				}
-			}
-			multiply = 2
-		}
-	}
-}
-language_phoenician={
-	type=language
-	color=rgb { 38 46 158 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_arabic
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_phoenician }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_semitic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_afro_asiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_estonian={
-	type=language
-	color=rgb { 76 178 178 }
-	parameters={
-		language_group_balto_finnic = yes
-		language_family_uralic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_estonian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_estonian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_balto_finnic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_uralic }
-			multiply = 2.5
-		}
-	}
-}
-language_circassian={
-	type=language
-	color=rgb { 51 128 26 }
-	parameters={
-		language_group_abazgi = yes
-		language_family_pontic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_circassian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_circassian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_abazgi }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_pontic }
-			multiply = 2.5
-		}
-	}
-}
-language_meitei={
-	type=language
-	color=rgb { 255 51 0 }
-	parameters={
-		language_group_kukish = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_meitei
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_meitei }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kukish }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_elamite={
-	type=language
-	color=rgb { 127 137 70 }
-	parameters={
-		language_group_elamite = yes
-		language_family_elamite = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_elamite
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_elamite }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_elamite }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_elamite }
-			multiply = 2.5
-		}
-	}
-}
-language_colchidian={
-	type=language
-	color=rgb { 108 20 50 }
-	parameters={
-		language_group_kartvelian = yes
-		language_family_kartvelian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_colchidian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_colchidian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_kartvelian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_kartvelian }
-			multiply = 2.5
-		}
-	}
-}
-language_svan={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_svan = yes
-		language_family_kartvelian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_svan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_svan }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_svan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_kartvelian }
-			multiply = 2.5
-		}
-	}
-}
-language_gondi={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_gondi_kuvi = yes
-		language_family_dravidian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_gondi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_gondi }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_gondi_kuvi }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
-	}
-}
-language_kuvi={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_gondi_kuvi = yes
-		language_family_dravidian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kuvi
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kuvi }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_gondi_kuvi }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
-	}
-}
-language_kherwal={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_munda = yes
-		language_family_austroasiatic = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kherwal
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kherwal }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_munda }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_austroasiatic }
-			multiply = 2.5
-		}
-	}
-}
-language_gandhari={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_gandhari
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_gandhari }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_maler={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_north_dravidian = yes
-		language_family_dravidian = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_maler
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_maler }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_north_dravidian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_dravidian }
-			multiply = 2.5
-		}
-	}
-}
-language_newari={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_newari
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_newari }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_kachari={
-	type=language
-	color=rgb { 150 20 50 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kachari
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kachari }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_roma={
-	type=language
-	color=rgb { 51 127 51 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_roma
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_roma }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_nuristani={
-	type=language
-	color=rgb { 214 71 3 }
-	parameters={
-		language_group_indo_aryan = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_nuristani
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_nuristani }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_indo_aryan }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_burusho={
-	type=language
-	color=rgb { 99 48 23 }
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_burusho
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_burusho }
-			multiply = 10
-		}
-	}
-}
-language_kordofanian={
-	type=language
-	color=rgb { 96 55 48 }
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kordofanian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kordofanian }
-			multiply = 10
-		}
-	}
-}
-language_dinka={
-	type=language
-	color=rgb { 108 39 25 }
-	parameters={
-		language_group_sudanic = yes
-		language_family_nilo_saharan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_dinka
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_dinka }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_sudanic }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_nilo_saharan }
-			multiply = 2.5
-		}
-	}
-}
-language_lydian={
-	type=language
-	color=rgb { 166 64 191 }
-	parameters={
-		language_group_anatolian = yes
-		language_family_indo_european = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_lydian
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_lydian }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_anatolian }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_indo_european }
-			multiply = 2.5
-		}
-	}
-}
-language_west_himalayan={
-	type=language
-	color=rgb { 255 102 0 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_west_himalayan
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_west_himalayan }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_kirati={
-	type=language
-	color=rgb { 235 90 30 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_kirati
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_kirati }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
-language_monpa={
-	type=language
-	color=rgb { 215 60 10 }
-	parameters={
-		language_group_tibeto_burman = yes
-		language_family_sino_tibetan = yes
-	}
-	is_shown = {
-		language_is_shown_trigger = {
-			LANGUAGE = language_monpa
-		}
-	}
-	ai_will_do = {
-		value = 10
-		if = {
-			limit = { has_cultural_pillar = language_monpa }
-			multiply = 10
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_group_tibeto_burman }
-			multiply = 5
-		}
-		else_if = {
-			limit = { has_cultural_parameter = language_family_sino_tibetan }
-			multiply = 2.5
-		}
-	}
-}
 heritage_venetic={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_venetic
@@ -4766,10 +2345,6 @@ heritage_venetic={
 language_venetic={
 	type=language
 	color=rgb { 193 117 241 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_venetic
@@ -4781,22 +2356,10 @@ language_venetic={
 					limit = { has_cultural_pillar = language_venetic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 heritage_nuragic={
 	type=heritage
-	parameters={
-		heritage_group_nuragic = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_nuragic
@@ -4806,10 +2369,6 @@ heritage_nuragic={
 }
 heritage_anatolian={
 	type=heritage
-	parameters={
-		heritage_group_balko_anatolian = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_anatolian
@@ -4817,12 +2376,26 @@ heritage_anatolian={
 	}
 	audio_parameter = european
 }
+heritage_gaulish={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_gaulish
+		}
+	}
+	audio_parameter = european
+}
+heritage_iberian_celtic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_iberian_celtic
+		}
+	}
+	audio_parameter = european
+}
 heritage_punic={
 	type=heritage
-	parameters={
-		heritage_group_levantine = yes
-		heritage_family_middle_eastern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_punic
@@ -4832,10 +2405,6 @@ heritage_punic={
 }
 heritage_romano_british={
 	type=heritage
-	parameters={
-		heritage_group_celtic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_romano_british
@@ -4845,10 +2414,6 @@ heritage_romano_british={
 }
 heritage_romano_germanic={
 	type=heritage
-	parameters={
-		heritage_group_germanic = yes
-		heritage_family_northern = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_romano_germanic
@@ -4856,12 +2421,26 @@ heritage_romano_germanic={
 	}
 	audio_parameter = european
 }
+heritage_east_germanic={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_germanic
+		}
+	}
+	audio_parameter = european
+}
+heritage_thracian={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_thracian
+		}
+	}
+	audio_parameter = european
+}
 heritage_tyrrhenian={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_tyrrhenian
@@ -4869,25 +2448,8 @@ heritage_tyrrhenian={
 	}
 	audio_parameter = european
 }
-heritage_tai={
-	type=heritage
-	parameters={
-		heritage_group_burmese = yes
-		heritage_family_south_asian = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_tai
-		}
-	}
-	audio_parameter = european
-}
 heritage_palaungic={
 	type=heritage
-	parameters={
-		heritage_group_burmese = yes
-		heritage_family_south_asian = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_palaungic
@@ -4895,25 +2457,8 @@ heritage_palaungic={
 	}
 	audio_parameter = european
 }
-heritage_mon_khmer={
-	type=heritage
-	parameters={
-		heritage_group_austroasiatic = yes
-		heritage_family_east_asian = yes
-	}
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_mon_khmer
-		}
-	}
-	audio_parameter = european
-}
 heritage_italic={
 	type=heritage
-	parameters={
-		heritage_group_latin = yes
-		heritage_family_mediterranean = yes
-	}
 	is_shown = {
 		heritage_is_shown_trigger = {
 			HERITAGE = heritage_italic
@@ -4921,13 +2466,52 @@ heritage_italic={
 	}
 	audio_parameter = european
 }
+heritage_loloish={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_loloish
+		}
+	}
+	audio_parameter = sea
+}
+heritage_baiyue={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_baiyue
+		}
+	}
+	audio_parameter = sea
+}
+heritage_dongyi={
+	type=heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_dongyi
+		}
+	}
+	audio_parameter = sea
+}
+language_gothic={
+	type=language
+	color=rgb { 12 9 3 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gothic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gothic }
+			multiply = 10
+		}
+	}
+}
 language_nuragic={
 	type=language
 	color=rgb { 121 127 95 }
-	parameters={
-		language_group_nuragic = yes
-		language_family_paleo_sardinian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_nuragic
@@ -4939,23 +2523,43 @@ language_nuragic={
 					limit = { has_cultural_pillar = language_nuragic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_nuragic }
-					multiply = 5
+			}
+}
+language_luwian={
+	type=language
+	color=rgb { 134 229 126 }
+	is_shown = {
+		language_is_shown_trigger = {
+		LANGUAGE = language_luwian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_luwian }
+					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_paleo_sardinian }
-					multiply = 2.5
+			}
+}
+language_lydian={
+	type=language
+	color=rgb { 149 101 186 }
+	is_shown = {
+		language_is_shown_trigger = {
+		LANGUAGE = language_lydian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_lydian }
+					multiply = 10
 				}
 			}
 }
 language_hittite={
 	type=language
 	color=rgb { 42 76 59 }
-	parameters={
-		language_group_anatolian = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 		LANGUAGE = language_hittite
@@ -4967,23 +2571,27 @@ language_hittite={
 					limit = { has_cultural_pillar = language_hittite }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_anatolian }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
+			}
+}
+language_phrygian={
+	type=language
+	color=rgb { 246 223 15 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_phrygian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_phrygian }
+					multiply = 10
 				}
 			}
 }
 language_babylonian={
 	type=language
 	color=rgb { 172 166 196 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_babylonian
@@ -4995,23 +2603,11 @@ language_babylonian={
 					limit = { has_cultural_pillar = language_babylonian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_semitic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_afro_asiatic }
-					multiply = 2.5
-				}
 			}
 }
 language_eblaite={
 	type=language
 	color=rgb { 12 77 199 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_eblaite
@@ -5023,23 +2619,11 @@ language_eblaite={
 					limit = { has_cultural_pillar = language_eblaite }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_semitic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_afro_asiatic }
-					multiply = 2.5
-				}
 			}
 }
 language_gaulish={
 	type=language
 	color=rgb { 44 102 30 }
-	parameters={
-		language_group_celtic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_gaulish
@@ -5051,23 +2635,11 @@ language_gaulish={
 					limit = { has_cultural_pillar = language_gaulish }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_celtic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 language_oscan={
 	type=language
 	color=rgb { 117 131 50 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_oscan
@@ -5079,79 +2651,43 @@ language_oscan={
 					limit = { has_cultural_pillar = language_oscan }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 language_samnite={
 	type=language
 	color=rgb { 117 131 150 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_samnite
 		}
 	}
 	ai_will_do = {
-				value = 10
-				if = {
-					limit = { has_cultural_pillar = language_samnite }
-					multiply = 10
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
-			}
+        		value = 10
+        		if = {
+        			limit = { has_cultural_pillar = language_samnite }
+        			multiply = 10
+        		}
+        	}
 }
 language_ligustic={
 	type=language
 	color=rgb { 211 208 124 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_ligustic
 		}
 	}
 	ai_will_do = {
-				value = 10
+        		value = 10
 				if = {
 					limit = { has_cultural_pillar = language_ligustic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
-			}
+        	}
 }
 language_messapic={
 	type=language
 	color=rgb { 5 52 113 }
-	parameters={
-		language_group_illyrian = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_messapic
@@ -5163,23 +2699,11 @@ language_messapic={
 					limit = { has_cultural_pillar = language_messapic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_illyrian }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 language_sardonian={
 	type=language
 	color=rgb { 29 16 31 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_sardonian
@@ -5191,23 +2715,11 @@ language_sardonian={
 					limit = { has_cultural_pillar = language_sardonian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 language_siculian={
 	type=language
 	color=rgb { 226 216 174 }
-	parameters={
-		language_group_italic = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_siculian
@@ -5219,51 +2731,27 @@ language_siculian={
 					limit = { has_cultural_pillar = language_siculian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_italic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
-language_hunnic={
+language_punic={
 	type=language
-	color=rgb { 254 204 50 }
-	parameters={
-		language_group_oghur = yes
-		language_family_turkic = yes
-	}
+	color=rgb { 74 174 85 }
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_hunnic
+			LANGUAGE = language_punic
 		}
 	}
 	ai_will_do = {
 				value = 10
 				if = {
-					limit = { has_cultural_pillar = language_oghur }
+					limit = { has_cultural_pillar = language_punic }
 					multiply = 10
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_oghur }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_turkic }
-					multiply = 2.5
 				}
 			}
 }
 language_breathanach={
 	type=language
 	color=rgb { 127 143 104 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_breathanach
@@ -5275,23 +2763,11 @@ language_breathanach={
 					limit = { has_cultural_pillar = language_breathanach }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_romance }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
 language_laessin={
 	type=language
 	color=rgb { 166 160 148 }
-	parameters={
-		language_group_romance = yes
-		language_family_indo_european = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_laessin
@@ -5303,51 +2779,75 @@ language_laessin={
 					limit = { has_cultural_pillar = language_laessin }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_romance }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_indo_european }
-					multiply = 2.5
-				}
 			}
 }
-language_tai={
+language_thracian={
 	type=language
-	color=rgb { 255 157 0 }
-	parameters={
-		language_group_tai = yes
-		language_family_kra_dai = yes
-	}
+	color=rgb { 5 162 25 }
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_tai
+			LANGUAGE = language_thracian
 		}
 	}
 	ai_will_do = {
 				value = 10
 				if = {
-					limit = { has_cultural_pillar = language_tai }
+					limit = { has_cultural_pillar = language_thracian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_tai }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_kra_dai }
-					multiply = 2.5
+			}
+}
+language_dacian={
+	type=language
+	color=rgb { 255 127 127 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dacian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_dacian }
+					multiply = 10
 				}
 			}
+}
+language_etruscan={
+	type=language
+	color=rgb { 48 30 180 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_etruscan
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_etruscan }
+					multiply = 10
+				}
+			}
+}
+language_elamite={
+	type=language
+	color=rgb { 127 137 70 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_elamite
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_elamite }
+			multiply = 10
+		}
+	}
 }
 language_palaungic={
 	type=language
 	color=rgb { 217 189 104 }
-	parameters={
-		language_group_mon_khmer = yes
-		language_family_austroasiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_palaungic
@@ -5359,23 +2859,11 @@ language_palaungic={
 					limit = { has_cultural_pillar = language_palaungic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_mon_khmer }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_austroasiatic }
-					multiply = 2.5
-				}
 			}
 }
 language_chong={
 	type=language
 	color=rgb { 217 189 104 }
-	parameters={
-		language_group_mon_khmer = yes
-		language_family_austroasiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_chong
@@ -5384,26 +2872,14 @@ language_chong={
 	ai_will_do = {
 				value = 10
 				if = {
-					limit = { has_cultural_pillar = language_palaungic }
+					limit = { has_cultural_pillar = language_chong }
 					multiply = 10
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_mon_khmer }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_austroasiatic }
-					multiply = 2.5
 				}
 			}
 }
 language_alasiyan={
 	type=language
 	color=rgb { 201 110 0 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_alasiyan
@@ -5415,23 +2891,11 @@ language_alasiyan={
 					limit = { has_cultural_pillar = language_alasiyan }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_semitic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_afro_asiatic }
-					multiply = 2.5
-				}
 			}
 }
 language_ugaritic={
 	type=language
 	color=rgb { 130 143 120 }
-	parameters={
-		language_group_semitic = yes
-		language_family_afro_asiatic = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_ugaritic
@@ -5443,23 +2907,11 @@ language_ugaritic={
 					limit = { has_cultural_pillar = language_ugaritic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_semitic }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_afro_asiatic }
-					multiply = 2.5
-				}
 			}
 }
 language_sumerian={
 	type=language
 	color=rgb { 45 13 0 }
-	parameters={
-		language_group_sumerian = yes
-		language_family_sumerian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_sumerian
@@ -5471,23 +2923,11 @@ language_sumerian={
 					limit = { has_cultural_pillar = language_sumerian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_sumerian }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_sumerian }
-					multiply = 2.5
-				}
 			}
 }
 language_hurrian={
 	type=language
 	color=rgb { 89 92 209 }
-	parameters={
-		language_group_hurrian = yes
-		language_family_hurro_urartian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_hurrian
@@ -5499,23 +2939,11 @@ language_hurrian={
 					limit = { has_cultural_pillar = language_hurrian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_hurrian }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_hurro_urartian }
-					multiply = 2.5
-				}
 			}
 }
 language_gutian={
 	type=language
 	color=rgb { 140 9 33 }
-	parameters={
-		language_group_gutian = yes
-		language_family_gutian = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_gutian
@@ -5527,23 +2955,11 @@ language_gutian={
 					limit = { has_cultural_pillar = language_gutian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_gutian }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_gutian }
-					multiply = 2.5
-				}
 			}
 }
 language_minoan={
 	type=language
 	color=rgb { 12 12 10 }
-	parameters={
-		language_group_pre_greek = yes
-		language_family_pre_greek = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_minoan
@@ -5555,23 +2971,11 @@ language_minoan={
 					limit = { has_cultural_pillar = language_minoan }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_pre_greek }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_pre_greek }
-					multiply = 2.5
-				}
 			}
 }
 language_cycladic={
 	type=language
 	color=rgb { 102 102 102 }
-	parameters={
-		language_group_pre_greek = yes
-		language_family_pre_greek = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_cycladic
@@ -5583,23 +2987,11 @@ language_cycladic={
 					limit = { has_cultural_pillar = language_cycladic }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_pre_greek }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_pre_greek }
-					multiply = 2.5
-				}
 			}
 }
 language_pelasgian={
 	type=language
 	color=rgb { 204 146 61 }
-	parameters={
-		language_group_pre_greek = yes
-		language_family_pre_greek = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_pelasgian
@@ -5611,23 +3003,11 @@ language_pelasgian={
 					limit = { has_cultural_pillar = language_pelasgian }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_pre_greek }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_pre_greek }
-					multiply = 2.5
-				}
 			}
 }
 language_hatti={
 	type=language
 	color=rgb { 200 200 200 }
-	parameters={
-		language_group_hatti = yes
-		language_family_hatti = yes
-	}
 	is_shown = {
 		language_is_shown_trigger = {
 			LANGUAGE = language_hatti
@@ -5639,13 +3019,165 @@ language_hatti={
 					limit = { has_cultural_pillar = language_hatti }
 					multiply = 10
 				}
-				else_if = {
-					limit = { has_cultural_parameter = language_group_hatti }
-					multiply = 5
-				}
-				else_if = {
-					limit = { has_cultural_parameter = language_family_hatti }
-					multiply = 2.5
+			}
+}
+language_anatolian={
+	type=language
+	color=rgb { 85 148 124 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_anatolian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_anatolian }
+					multiply = 10
 				}
 			}
+}
+language_illyrian={
+	type=language
+	color=rgb { 246 223 15 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_illyrian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_illyrian }
+					multiply = 10
+				}
+			}
+}
+language_burusho={
+	type=language
+	color=rgb { 99 48 23 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_burusho
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_burusho }
+					multiply = 10
+				}
+			}
+}
+language_kordofanian={
+	type=language
+	color=rgb { 96 55 48 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kordofanian
+		}
+	}
+	ai_will_do = {
+				value = 10
+				if = {
+					limit = { has_cultural_pillar = language_kordofanian }
+					multiply = 10
+				}
+			}
+}
+language_bashu={
+	type=language
+	color=rgb { 107 153 126 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bashu
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bashu }
+			multiply = 10
+		}
+	}
+}
+language_tujian={
+	type=language
+	color=rgb { 141 186 119 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_tujian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_tujian }
+			multiply = 10
+		}
+	}
+}
+language_bai={
+	type=language
+	color=rgb { 230 102 26 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bai
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bai }
+			multiply = 10
+		}
+	}
+}
+language_baiyue={
+	type=language
+	color=rgb { 13 59 128 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_baiyue
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_baiyue }
+			multiply = 10
+		}
+	}
+}
+language_dongyi={
+	type=language
+	color=rgb { 193 230 46 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dongyi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dongyi }
+			multiply = 10
+		}
+	}
+}
+language_yi={
+	type=language
+	color=rgb { 230 230 230 }
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_yi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_yi }
+			multiply = 10
+		}
+	}
 }

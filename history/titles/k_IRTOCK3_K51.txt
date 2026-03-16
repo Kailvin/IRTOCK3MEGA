@@ -15,11 +15,11 @@ c_saqsin={
 	423.3.9 = { liege = 0 holder = imperator200360 }
 	423.7.6 = { change_development_level = 1 }
 }
-c_uzen={
-	409.3.25 = { liege = 0 holder = imperator187405 }
-	423.7.6 = { change_development_level = 1 }
-}
 c_ukek={
 	409.3.25 = { liege = 0 holder = imperator187405 }
 	423.7.6 = { change_development_level = 0 }
+}
+c_uzen={
+	409.3.25 = { liege = 0 holder = imperator187405 }
+	423.7.6 = { change_development_level = 1 }
 }

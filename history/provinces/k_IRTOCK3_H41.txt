@@ -6,7 +6,7 @@
 }
 2466={
 	culture = roman
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 	special_building_slot = walls_of_genoa_01
 }
@@ -15,6 +15,6 @@
 }
 2531={
 	culture = roman
-	faith = roman_pagan
+	faith = hellenic_pagan
 	holding = castle_holding
 }

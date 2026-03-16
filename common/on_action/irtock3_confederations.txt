@@ -92,6 +92,17 @@ irtock3_confederation_setup = {
 
 
 		## Beginning of new confederation/league setup
+		title:k_IRTOCK3_G42.holder = {
+			add_to_list = irtock3_confederation_members
+		}
+		title:k_IRTOCK3_L03.holder = {
+			add_to_list = irtock3_confederation_members
+		}
+		irtock3_confederation_setup_effect = yes
+		## End of this confederation/league setup
+
+
+		## Beginning of new confederation/league setup
 		title:k_IRTOCK3_K69.holder = {
 			add_to_list = irtock3_confederation_members
 		}

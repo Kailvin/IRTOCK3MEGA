@@ -10,7 +10,6 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
-	400.1.1 = { culture = sogdian }
 }
 4419={
 	holding = none
@@ -22,7 +21,7 @@
 	holding = none
 }
 4422={
-	culture = hephthalite
+	culture = hunnic
 	faith = hellenic_pagan
 	holding = castle_holding
 }

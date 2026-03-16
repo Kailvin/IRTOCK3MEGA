@@ -72,11 +72,10 @@
 	holding = none
 }
 7173={
-	culture = tiele
-	religion = tengri_pagan
-	holding = tribal_holding
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	culture = karluk
+	religion = manichean
+	holding = nomad_holding
+	1178.1.1 = { religion = maturidi holding = herder_holding }
 }
 7174={
 	holding = none
@@ -88,18 +87,16 @@
 	holding = none
 }
 7177={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	1000.1.1 = { culture = kimek }
+	1178.1.1 = { holding = herder_holding }
 }
 7178={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
 }
 7179={
 	holding = none
@@ -108,41 +105,42 @@
 	holding = none
 }
 7181={
-	culture = tiele
+	culture = kimek
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	1066.1.1 = { culture = karluk }
+	1178.1.1 = { culture = kimek }
 }
 7182={
 	holding = none
 }
 7183={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	860.1.1 = { holding = herder_holding }
+	1066.1.1 = { religion = manichean holding = nomad_holding }
+	1178.1.1 = { religion = tengri_pagan holding = herder_holding }
 }
 7184={
 	holding = none
 }
 7185={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = herder_holding
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	1066.1.1 = { religion = maturidi }
+	1178.1.1 = { culture = karluk religion = tengri_pagan }
 }
 7186={
 	holding = none
 }
 7187={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = herder_holding
+	1066.1.1 = { holding = nomad_holding }
+	1178.1.1 = { culture = khitan religion = mahayana }
 }
 7188={
 	holding = none
@@ -157,21 +155,20 @@
 	holding = none
 }
 7192={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	1178.1.1 = { culture = khitan religion = mahayana }
 }
 7193={
 	holding = none
 }
 7194={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	1000.1.1 = { religion = maturidi }
+	1178.1.1 = { culture = khitan religion = mahayana }
 }
 7195={
 	holding = none
@@ -180,22 +177,23 @@
 	holding = none
 }
 7197={
-	culture = tiele
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	1066.1.1 = { culture = mongol }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = herder_holding
+	1000.1.1 = { religion = maturidi }
+	1178.1.1 = { culture = khitan religion = mahayana holding = nomad_holding }
 }
 7198={
 	holding = none
 }
 7199={
-	culture = wusun
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele }
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	867.1.1 = { holding = herder_holding }
+	934.1.1 = { religion = maturidi }
+	940.1.1 = { holding = nomad_holding }
+	1178.1.1 = { culture = khitan religion = mahayana }
 }
 7200={
 	holding = none
@@ -204,20 +202,20 @@
 	holding = none
 }
 7202={
-	culture = wusun
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele }
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	934.1.1 = { religion = maturidi }
+	1178.1.1 = { holding = herder_holding }
 }
 7203={
-	culture = wusun
+	culture = karluk
 	religion = tengri_pagan
-	holding = tribal_holding
-	450.1.1 = { culture = tiele }
-	934.1.1 = { religion = sunni }
-	1134.1.1 = { culture = khitan religion = vajrayana }
+	holding = nomad_holding
+	934.1.1 = { religion = maturidi }
+	1059.1.1 = { holding = herder_holding }
+	1095.1.1 = { holding = nomad_holding }
+	1178.1.1 = { culture = khitan religion = mahayana }
 }
 7204={
 	holding = none

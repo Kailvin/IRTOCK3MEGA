@@ -1,0 +1,66 @@
+k_qingxu={
+	423.7.6 = { liege = 0 }
+}
+d_xusi={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_xuzhou_1_holder liege = 0 }
+}
+d_yanhai={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yanzhou_holder liege = 0 }
+}
+d_yuncao={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yunzhou_holder liege = 0 }
+}
+d_ziqing={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_qingzhou_holder liege = 0 }
+}
+c_caozhou={
+	423.7.6 = { holder = IRToCK3_c_yunzhou_holder change_development_level = 0 }
+}
+c_dengzhou={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_holder change_development_level = 0 }
+}
+c_haizhou={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_holder change_development_level = 0 }
+}
+c_huaiyang={
+	423.7.6 = { holder = IRToCK3_c_xuzhou_1_holder change_development_level = 0 }
+}
+c_laizhou={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_holder change_development_level = 0 }
+}
+c_langya={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_holder change_development_level = 0 }
+}
+c_mizhou={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_holder change_development_level = 0 }
+}
+c_puzhou_2={
+	423.7.6 = { holder = IRToCK3_c_yunzhou_holder change_development_level = 0 }
+}
+c_qingzhou={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_holder change_development_level = 0 }
+}
+c_qizhou={
+	423.7.6 = { holder = IRToCK3_c_yunzhou_holder change_development_level = 0 }
+}
+c_sizhou_2={
+	423.7.6 = { holder = IRToCK3_c_xuzhou_1_holder change_development_level = 0 }
+}
+c_suzhou={
+	423.7.6 = { holder = IRToCK3_c_xuzhou_1_holder change_development_level = 0 }
+}
+c_weizhou_4={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_holder change_development_level = 0 }
+}
+c_xuzhou_1={
+	423.7.6 = { holder = IRToCK3_c_xuzhou_1_holder change_development_level = 0 }
+}
+c_yanzhou={
+	423.7.6 = { holder = IRToCK3_c_yanzhou_holder change_development_level = 0 }
+}
+c_yunzhou={
+	423.7.6 = { holder = IRToCK3_c_yunzhou_holder change_development_level = 0 }
+}
+c_zichuan={
+	423.7.6 = { holder = IRToCK3_c_qingzhou_holder change_development_level = 0 }
+}

@@ -1,0 +1,56 @@
+k_epirus={
+	423.7.6 = { liege = 0 }
+}
+d_cephalonia={
+	423.7.6 = { liege = 0 }
+}
+d_dyrrachion={
+	423.7.6 = { liege = 0 }
+}
+d_epirus={
+	423.7.6 = { liege = 0 }
+}
+c_aetolia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 12 }
+}
+c_antipatreia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 13 }
+}
+c_arbanon={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_avlonas={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_buthrotum={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_cephalonia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_debar={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_dyrrachion={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_epeiros={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_metzovo={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_nicopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}

@@ -5,39 +5,31 @@
 	holding = none
 }
 527={
-	culture = bastarnian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 531={
-	culture = bastarnian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 532={
-	culture = bastarnian
-	faith = gothic_pagan
-	holding = castle_holding
-}
-2968={
-	holding = city_holding
-}
-2969={
-	culture = old_suebi
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3040={
-	culture = bastarnian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3041={
 	holding = church_holding
 }
 3042={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3043={
@@ -49,7 +41,7 @@
 	holding = castle_holding
 }
 3045={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -60,13 +52,13 @@
 	holding = castle_holding
 }
 3048={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 3049={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 3050={
@@ -76,8 +68,8 @@
 	holding = city_holding
 }
 3052={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3053={
@@ -96,7 +88,7 @@
 	holding = none
 }
 3058={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -107,8 +99,8 @@
 	holding = city_holding
 }
 3061={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3062={
@@ -118,8 +110,8 @@
 	holding = city_holding
 }
 3064={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 3065={
@@ -129,12 +121,12 @@
 	holding = city_holding
 }
 3067={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 3068={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -144,55 +136,7 @@
 3070={
 	holding = city_holding
 }
-3072={
-	holding = city_holding
-}
-3073={
-	culture = old_suebi
-	faith = arianism
-	holding = castle_holding
-}
-3074={
-	holding = none
-}
-3075={
-	holding = none
-}
-3076={
-	holding = castle_holding
-}
-3077={
-	holding = none
-}
-3078={
-	holding = none
-}
-3079={
-	holding = none
-}
 3080={
-	holding = none
-}
-3081={
-	culture = old_suebi
-	faith = arianism
-	holding = castle_holding
-}
-3082={
-	holding = none
-}
-3084={
-	holding = church_holding
-}
-3085={
-	holding = castle_holding
-}
-3088={
-	culture = bastarnian
-	faith = arianism
-	holding = castle_holding
-}
-3090={
 	holding = none
 }
 3139={
@@ -202,18 +146,17 @@
 	holding = castle_holding
 }
 3145={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3146={
 	holding = none
 }
 4125={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
-	395.1.1 = { religion = arianism }
 }
 4126={
 	holding = none
@@ -225,8 +168,8 @@
 	holding = none
 }
 4129={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4130={
@@ -248,15 +191,15 @@
 	holding = none
 }
 4136={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4137={
 	holding = castle_holding
 }
 4138={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -279,18 +222,17 @@
 	holding = none
 }
 4145={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4146={
 	holding = castle_holding
 }
 4147={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
-	395.1.1 = { religion = arianism }
 }
 4148={
 	holding = none
@@ -311,8 +253,8 @@
 	holding = castle_holding
 }
 4154={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 4155={
@@ -334,13 +276,13 @@
 	holding = none
 }
 4161={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4162={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 4163={
@@ -350,21 +292,21 @@
 	holding = castle_holding
 }
 4165={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 4166={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 4167={
 	holding = castle_holding
 }
 4168={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 4169={
@@ -377,29 +319,29 @@
 	holding = castle_holding
 }
 4182={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4183={
 	holding = none
 }
 4184={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 4951={
-	culture = scirian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 4952={
 	holding = none
 }
 4953={
-	culture = scirian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 4954={
@@ -412,11 +354,9 @@
 	holding = none
 }
 4957={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = slavic religion = slavic_pagan }
-	400.1.1 = { culture = slavic religion = slavic_pagan }
 }
 4958={
 	holding = castle_holding
@@ -440,8 +380,8 @@
 	holding = none
 }
 4965={
-	culture = bastarnian
-	faith = gothic_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4966={

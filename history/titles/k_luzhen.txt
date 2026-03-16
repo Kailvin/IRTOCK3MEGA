@@ -1,0 +1,72 @@
+k_luzhen={
+	423.7.6 = { liege = 0 }
+}
+d_BAL_anwon={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BAL_ningzhou_holder liege = 0 }
+}
+d_BAL_cheolli={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BAL_delizhen_holder liege = 0 }
+}
+d_BAL_dongpyeong={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BAL_dongpyeong_yizhou_holder liege = 0 }
+}
+d_BAL_hoewon={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_BAL_dazhou_holder liege = 0 }
+}
+d_BAL_yeojintang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_BAL_solbin_holder liege = 0 }
+}
+c_BAL_anbyeon={
+	423.7.6 = { holder = IRToCK3_c_BAL_solbin_holder change_development_level = 0 }
+}
+c_BAL_central_hoewon={
+	423.7.6 = { holder = IRToCK3_c_BAL_dazhou_holder change_development_level = 0 }
+}
+c_BAL_dazhou={
+	423.7.6 = { holder = IRToCK3_c_BAL_dazhou_holder change_development_level = 0 }
+}
+c_BAL_delizhen={
+	423.7.6 = { holder = IRToCK3_c_BAL_delizhen_holder change_development_level = 0 }
+}
+c_BAL_dongpyeong_yizhou={
+	423.7.6 = { holder = IRToCK3_c_BAL_dongpyeong_yizhou_holder change_development_level = 0 }
+}
+c_BAL_east_hoewon={
+	423.7.6 = { holder = IRToCK3_c_BAL_dazhou_holder change_development_level = 0 }
+}
+c_BAL_heuksu_anwon={
+	423.7.6 = { holder = IRToCK3_c_BAL_ningzhou_holder change_development_level = 0 }
+}
+c_BAL_huligai={
+	423.7.6 = { holder = IRToCK3_c_BAL_delizhen_holder change_development_level = 0 }
+}
+c_BAL_ilanshan={
+	423.7.6 = { holder = IRToCK3_c_BAL_dazhou_holder change_development_level = 0 }
+}
+c_BAL_jeongni={
+	423.7.6 = { holder = IRToCK3_c_BAL_solbin_holder change_development_level = 0 }
+}
+c_BAL_jixi={
+	423.7.6 = { holder = IRToCK3_c_BAL_dongpyeong_yizhou_holder change_development_level = 0 }
+}
+c_BAL_ningzhou={
+	423.7.6 = { holder = IRToCK3_c_BAL_ningzhou_holder change_development_level = 0 }
+}
+c_BAL_north_anbyeon={
+	423.7.6 = { holder = IRToCK3_c_BAL_solbin_holder change_development_level = 0 }
+}
+c_BAL_north_anwon={
+	423.7.6 = { holder = IRToCK3_c_BAL_ningzhou_holder change_development_level = 0 }
+}
+c_BAL_solbin={
+	423.7.6 = { holder = IRToCK3_c_BAL_solbin_holder change_development_level = 0 }
+}
+c_BAL_south_hoewon={
+	423.7.6 = { holder = IRToCK3_c_BAL_dazhou_holder change_development_level = 0 }
+}
+c_BAL_supin={
+	423.7.6 = { holder = IRToCK3_c_BAL_ningzhou_holder change_development_level = 0 }
+}
+c_BAL_west_cheolli={
+	423.7.6 = { holder = IRToCK3_c_BAL_delizhen_holder change_development_level = 0 }
+}

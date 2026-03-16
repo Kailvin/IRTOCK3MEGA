@@ -1,6 +1,6 @@
 5974={
 	culture = adnanite
-	faith = nabataean_pagan
+	faith = arabic_pagan
 	holding = castle_holding
 }
 5975={
@@ -44,24 +44,10 @@
 	holding = none
 }
 6192={
-	culture = himyarite
+	culture = qahtanite
 	faith = rabbinism
 	holding = castle_holding
 }
 6193={
 	holding = none
-}
-6194={
-	holding = none
-}
-6195={
-	holding = city_holding
-}
-6196={
-	holding = church_holding
-}
-6197={
-	culture = nuragic
-	faith = nicene
-	holding = castle_holding
 }

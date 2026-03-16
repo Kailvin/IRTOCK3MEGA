@@ -11,33 +11,27 @@ k_IRTOCK3_I47={
 d_oman={
 	423.7.6 = { liege = 0 }
 }
-c_nizwa={
+c_az-dhahira={
 	421.6.19 = { liege = 0 holder = imperator189846 }
-	423.7.6 = { change_development_level = 8 }
-}
-b_bahla={
-	423.7.6 = { holder = imperator184407 }
-}
-c_julfar={
-	421.6.19 = { liege = 0 holder = imperator189846 }
-	423.7.6 = { change_development_level = 10 }
+	423.7.6 = { change_development_level = 12 }
 }
 c_batina={
 	421.6.19 = { liege = 0 holder = imperator189846 }
 	423.7.6 = { change_development_level = 12 }
 }
-c_az-dhahira={
+c_duqm={
+	422.9.14 = { liege = 0 holder = imperator203764 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_julfar={
 	421.6.19 = { liege = 0 holder = imperator189846 }
-	423.7.6 = { change_development_level = 12 }
+	423.7.6 = { change_development_level = 10 }
 }
 c_muscat={
 	421.6.19 = { liege = 0 holder = imperator189846 }
-	423.7.6 = { liege = k_IRTOCK3_I47 holder = imperator187779 change_development_level = 11 }
+	423.7.6 = { change_development_level = 11 }
 }
-b_matrah={
-	423.7.6 = { holder = imperator188984 }
-}
-c_duqm={
-	422.9.14 = { liege = 0 holder = imperator203764 }
+c_nizwa={
+	421.6.19 = { liege = 0 holder = imperator189846 }
 	423.7.6 = { change_development_level = 8 }
 }

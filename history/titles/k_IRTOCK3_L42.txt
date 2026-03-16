@@ -1,0 +1,26 @@
+k_IRTOCK3_L42={
+	418.9.12 = { holder = imperator202363 government = feudal_government liege = h_hellenistic_empire }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+d_badakhshan={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_karran_holder liege = 0 }
+}
+c_badakhshan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 6 }
+}
+c_karran={
+	423.7.6 = { holder = IRToCK3_c_karran_holder liege = 0 change_development_level = 0 }
+}
+c_munjan={
+	390.11.17 = { liege = 0 holder = imperator194420 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_shughnan={
+	418.9.12 = { liege = 0 holder = imperator202363 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_wakhan={
+	418.9.12 = { liege = 0 holder = imperator202363 }
+	423.7.6 = { change_development_level = 7 }
+}

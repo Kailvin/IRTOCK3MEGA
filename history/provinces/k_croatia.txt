@@ -1,6 +1,6 @@
 458={
-	culture = illyrian
-	faith = arianism
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 459={
@@ -10,8 +10,8 @@
 	holding = castle_holding
 }
 461={
-	culture = illyrian
-	faith = arianism
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 462={
@@ -21,37 +21,34 @@
 	holding = city_holding
 }
 464={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 465={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
-	390.1.1 = { religion = jovinian }
 }
 466={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
-	395.1.1 = { religion = nicene }
 }
 467={
 	holding = church_holding
-	special_building_slot = palace_diocletian
 }
 468={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 504={
 	holding = castle_holding
 }
 2521={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 2523={
@@ -61,8 +58,8 @@
 	holding = none
 }
 3501={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3502={
@@ -81,8 +78,8 @@
 	holding = city_holding
 }
 3507={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3508={
@@ -92,8 +89,8 @@
 	holding = city_holding
 }
 3510={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 3511={
@@ -103,8 +100,8 @@
 	holding = none
 }
 3513={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 3514={
@@ -114,8 +111,8 @@
 	holding = none
 }
 3516={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3517={
@@ -125,16 +122,16 @@
 	holding = castle_holding
 }
 3519={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3521={
 	holding = city_holding
 }
 3522={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 3523={
@@ -150,16 +147,16 @@
 	holding = city_holding
 }
 3527={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3528={
 	holding = none
 }
 3529={
-	culture = illyrian
-	faith = arianism
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3530={
@@ -190,8 +187,8 @@
 	holding = none
 }
 3539={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3540={
@@ -204,8 +201,8 @@
 	holding = city_holding
 }
 3543={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3544={
@@ -221,10 +218,9 @@
 	holding = city_holding
 }
 3548={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
-	390.1.1 = { religion = jovinian }
 }
 3549={
 	holding = church_holding
@@ -233,10 +229,9 @@
 	holding = church_holding
 }
 3551={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
-	395.1.1 = { religion = nicene }
 }
 3552={
 	holding = city_holding
@@ -245,10 +240,9 @@
 	holding = none
 }
 3555={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
-	390.1.1 = { religion = jovinian }
 }
 3556={
 	holding = church_holding
@@ -263,8 +257,8 @@
 	holding = city_holding
 }
 3560={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 3561={
@@ -284,11 +278,10 @@
 }
 3566={
 	holding = city_holding
-	50.1.1 = { special_building_slot = srebrenica_mines_01 }
 }
 3567={
-	culture = illyrian
-	faith = nicene
+	culture = dalmatian
+	faith = catholic
 	holding = castle_holding
 }
 3568={
@@ -296,4 +289,15 @@
 }
 3569={
 	holding = church_holding
+}
+3608={
+	holding = none
+}
+3609={
+	holding = city_holding
+}
+3610={
+	culture = dalmatian
+	faith = catholic
+	holding = castle_holding
 }

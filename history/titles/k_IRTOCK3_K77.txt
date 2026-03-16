@@ -5,34 +5,19 @@ k_IRTOCK3_K77={
 d_esthonia={
 	423.7.6 = { liege = 0 }
 }
-c_reval={
-	423.5.8 = { liege = 0 holder = imperator206882 }
-	423.7.6 = { change_development_level = 0 }
-}
 c_narva={
 	423.5.8 = { liege = 0 holder = imperator206882 }
 	423.7.6 = { change_development_level = 0 }
 }
 c_osel={
 	382.10.1 = { liege = 0 holder = imperator192073 }
-	423.7.6 = { liege = k_IRTOCK3_K77 holder = imperator192083 change_development_level = 0 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_reval={
+	423.5.8 = { liege = 0 holder = imperator206882 }
+	423.7.6 = { change_development_level = 0 }
 }
 c_wiek={
 	382.10.1 = { liege = 0 holder = imperator192073 }
-	423.7.6 = { liege = k_IRTOCK3_K77 holder = imperator192092 change_development_level = 0 }
-}
-d_livonia={
-	423.7.6 = { liege = 0 }
-}
-c_vidzeme={
-	419.11.20 = { liege = 0 holder = imperator190181 }
 	423.7.6 = { change_development_level = 0 }
-}
-c_livs={
-	382.10.1 = { liege = 0 holder = imperator192073 }
-	423.7.6 = { change_development_level = 0 }
-}
-c_dorpat={
-	403.12.1 = { liege = 0 holder = imperator198033 }
-	423.7.6 = { change_development_level = 1 }
 }

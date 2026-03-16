@@ -1,28 +1,86 @@
 k_thessalonika={
-	20.1.1 = { change_development_level = 6 }
-	389.10.30 = { liege = 0 holder = imperator183693 }
-}
-d_adrianopolis={
-	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
-c_kran={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 16 }
+d_aegean_islands={
+	423.7.6 = { liege = 0 }
 }
-c_zherkovo={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 16 }
+d_strymon={
+	423.7.6 = { liege = 0 }
 }
-c_beroe={
-	389.10.30 = { liege = 0 holder = imperator183693 }
-	423.7.6 = { change_development_level = 12 }
+d_thessalonika={
+	423.7.6 = { liege = 0 }
 }
-c_burgas={
+d_thessaly={
+	423.7.6 = { liege = 0 }
+}
+d_thrace={
+	423.7.6 = { liege = 0 }
+}
+c_abydos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_brysis={
 	389.10.30 = { liege = 0 holder = imperator183693 }
 	423.7.6 = { change_development_level = 15 }
 }
-c_adrianopolis={
-	389.10.30 = { liege = 0 holder = imperator183693 }
+c_byzantion={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_chalkidike={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_chios={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_demetrias={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_kalliopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 18 }
+}
+c_lesbos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_mosynopolis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_naxos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 14 }
+}
+c_neopatras={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_rhodos={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_serres={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_thessalia={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_thessaliotis={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_thessalonika={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_veria={
+	417.1.6 = { liege = 0 holder = imperator194255 }
 	423.7.6 = { change_development_level = 16 }
 }

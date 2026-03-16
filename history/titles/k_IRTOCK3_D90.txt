@@ -117,12 +117,15 @@ k_IRTOCK3_D90={
 	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
 }
 d_cyrenaica={
-	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
+}
+c_awjila={
+	418.8.29 = { liege = 0 holder = imperator199856 }
+	423.7.6 = { change_development_level = 8 }
 }
 c_barqa={
 	421.10.2 = { liege = 0 holder = imperator187354 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { change_development_level = 5 }
 }
 c_derna={
 	406.12.6 = { liege = 0 holder = imperator193304 }

@@ -1,60 +1,90 @@
-670={
+4002={
+	holding = church_holding
+}
+4003={
+	holding = city_holding
+}
+4534={
+	culture = persian
+	faith = afridunism
+	holding = castle_holding
+}
+4535={
 	holding = none
 }
-671={
+4536={
+	holding = castle_holding
+}
+4537={
+	culture = macedonian
+	faith = orthodox
+	holding = castle_holding
+}
+4538={
+	holding = none
+}
+4539={
+	holding = none
+}
+4540={
+	holding = none
+}
+4541={
+	holding = city_holding
+}
+4542={
+	holding = none
+}
+4543={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
 }
-672={
+4544={
+	holding = castle_holding
+}
+4545={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
-681={
-	culture = sarmatian
-	faith = nicene
-	holding = castle_holding
-}
-5725={
+4546={
 	holding = city_holding
 }
-5726={
-	holding = none
-}
-5727={
+4547={
 	holding = city_holding
 }
-5728={
-	holding = none
-	304.1.1 = { special_building_slot = etchmiadzin_cathedral }
-}
-5729={
+4548={
 	holding = none
 }
-5780={
+4549={
 	holding = none
 }
-5781={
-	holding = city_holding
+4766={
+	holding = none
 }
-5782={
-	holding = city_holding
-}
-5783={
+4767={
 	culture = macedonian
-	faith = hellenic_pagan
+	faith = orthodox
 	holding = castle_holding
 }
-5784={
+4768={
 	holding = none
 }
-5785={
+4769={
 	holding = castle_holding
 }
-5786={
+4770={
 	holding = city_holding
 }
-5787={
+4771={
+	culture = macedonian
+	faith = orthodox
+	holding = castle_holding
+}
+4772={
+	holding = city_holding
+}
+5794={
 	holding = none
 }

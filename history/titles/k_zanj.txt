@@ -1,0 +1,57 @@
+k_zanj={
+	423.7.6 = { liege = 0 }
+}
+d_bonde_la_ufa={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_kirinyaga_holder liege = 0 }
+}
+d_mombasa={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_mombasa_holder liege = 0 }
+}
+d_pate={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_pate_holder liege = 0 }
+}
+d_zanzibar={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_pemba_holder liege = 0 }
+}
+c_ewaso_ngiro={
+	423.7.6 = { holder = IRToCK3_c_pate_holder change_development_level = 0 }
+}
+c_kilimanjaro={
+	423.7.6 = { holder = IRToCK3_c_kirinyaga_holder change_development_level = 0 }
+}
+c_kirinyaga={
+	423.7.6 = { holder = IRToCK3_c_kirinyaga_holder change_development_level = 0 }
+}
+c_lamu={
+	423.7.6 = { holder = IRToCK3_c_pate_holder change_development_level = 0 }
+}
+c_malindi={
+	423.7.6 = { holder = IRToCK3_c_mombasa_holder change_development_level = 0 }
+}
+c_mombasa={
+	423.7.6 = { holder = IRToCK3_c_mombasa_holder change_development_level = 0 }
+}
+c_mrima={
+	423.7.6 = { holder = IRToCK3_c_pemba_holder change_development_level = 0 }
+}
+c_mto_galana={
+	423.7.6 = { holder = IRToCK3_c_kirinyaga_holder change_development_level = 0 }
+}
+c_mto_tana={
+	423.7.6 = { holder = IRToCK3_c_kirinyaga_holder change_development_level = 0 }
+}
+c_pate={
+	423.7.6 = { holder = IRToCK3_c_pate_holder change_development_level = 0 }
+}
+c_pemba={
+	423.7.6 = { holder = IRToCK3_c_pemba_holder change_development_level = 0 }
+}
+c_tanga={
+	423.7.6 = { holder = IRToCK3_c_pemba_holder change_development_level = 0 }
+}
+c_taveta={
+	423.7.6 = { holder = IRToCK3_c_kirinyaga_holder change_development_level = 0 }
+}
+c_zanzibar={
+	423.7.6 = { holder = IRToCK3_c_pemba_holder change_development_level = 0 }
+}

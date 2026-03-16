@@ -18,10 +18,6 @@
 7911={
 	holding = none
 }
-7912={
-	holding = none
-	300.1.1 = { special_building_slot = kollur_mines_01 }
-}
 7916={
 	holding = castle_holding
 }

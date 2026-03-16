@@ -2,20 +2,23 @@ k_IRTOCK3_L88={
 	422.9.15 = { holder = imperator204490 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_tosali={
-	361.1.1 = { change_development_level = 8 }
+d_kalinga={
 	423.7.6 = { liege = 0 }
+}
+d_tosali={
+	423.7.6 = { liege = 0 }
+}
+c_kalinganagar={
+	422.9.15 = { liege = 0 holder = imperator204490 }
+	423.7.6 = { change_development_level = 17 }
 }
 c_kataka={
 	422.9.15 = { liege = 0 holder = imperator204490 }
 	423.7.6 = { change_development_level = 18 }
 }
-c_viraja={
+c_khijjingakota={
 	422.9.15 = { liege = 0 holder = imperator204415 }
-	423.7.6 = { change_development_level = 16 }
-}
-b_ratnagiri={
-	423.7.6 = { holder = imperator190615 }
+	423.7.6 = { change_development_level = 15 }
 }
 c_khinjali_mandala={
 	422.9.15 = { liege = 0 holder = imperator204490 }
@@ -25,23 +28,16 @@ c_kodalaka_mandala={
 	422.9.15 = { liege = 0 holder = imperator204465 }
 	423.7.6 = { change_development_level = 15 }
 }
-c_khijjingakota={
-	422.9.15 = { liege = 0 holder = imperator204415 }
-	423.7.6 = { change_development_level = 15 }
-}
-d_kalinga={
-	423.7.6 = { liege = 0 }
-}
-c_kalinganagar={
-	422.9.15 = { liege = 0 holder = imperator204490 }
-	423.7.6 = { change_development_level = 17 }
-}
 c_puri={
 	422.9.15 = { liege = 0 holder = imperator204490 }
 	423.7.6 = { change_development_level = 17 }
 }
 c_swetaka_mandala={
 	422.9.15 = { liege = 0 holder = imperator204490 }
+	423.7.6 = { change_development_level = 17 }
+}
+c_viraja={
+	422.9.15 = { liege = 0 holder = imperator204415 }
 	423.7.6 = { change_development_level = 17 }
 }
 c_vizagipatam={

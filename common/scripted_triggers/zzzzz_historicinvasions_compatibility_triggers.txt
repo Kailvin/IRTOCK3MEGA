@@ -1,8 +1,0 @@
-﻿# let's other mods check whether this mod is currently enabled
-# to prevent errors in your mod when checking whether my trigger returns "yes", create a file that starts with '00000_' and add is_historicinvasions_active = { always = no }
-
-# so, in summary:
-	# '00000_': effects that are supposed to be easily overwritten
-	# 'zzzzz_': effects that are supposed to take priority at all costs
-
-is_historicinvasions_active = { always = yes }

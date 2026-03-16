@@ -1,0 +1,42 @@
+k_viet={
+	423.7.6 = { liege = 0 }
+}
+d_hai_dong={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_hai_dong_holder liege = 0 }
+}
+d_lam_tay={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_lam_tay_holder liege = 0 }
+}
+d_nghe_an={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_nghe_an_holder liege = 0 }
+}
+d_thang_long={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_thang_long_holder government = feudal_government }
+}
+c_binh_nguyen={
+	423.7.6 = { holder = IRToCK3_c_hai_dong_holder change_development_level = 0 }
+}
+c_hai_dong={
+	423.7.6 = { holder = IRToCK3_c_hai_dong_holder change_development_level = 0 }
+}
+c_lam_tay={
+	423.7.6 = { holder = IRToCK3_c_lam_tay_holder change_development_level = 0 }
+}
+c_long_hung={
+	423.7.6 = { holder = IRToCK3_c_thang_long_holder change_development_level = 0 }
+}
+c_nam_dinh={
+	423.7.6 = { holder = IRToCK3_c_nghe_an_holder change_development_level = 0 }
+}
+c_nghe_an={
+	423.7.6 = { holder = IRToCK3_c_nghe_an_holder change_development_level = 0 }
+}
+c_quoc_oai={
+	423.7.6 = { holder = IRToCK3_c_lam_tay_holder change_development_level = 0 }
+}
+c_sam_nuea={
+	423.7.6 = { holder = IRToCK3_c_nghe_an_holder change_development_level = 0 }
+}
+c_thang_long={
+	423.7.6 = { holder = IRToCK3_c_thang_long_holder change_development_level = 0 }
+}

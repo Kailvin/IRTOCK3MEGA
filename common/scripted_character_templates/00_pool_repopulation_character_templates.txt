@@ -87,7 +87,7 @@ pool_repopulate_prowess = {
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 10
@@ -226,7 +226,7 @@ pool_repopulate_diplomacy = {
 		compassionate = {}
 		fickle = {}
 		forgiving = {}
-		poet = {}
+		lifestyle_poet = {}
 		tourney_participant = {}
 		lifestyle_traveler = {}
 	}
@@ -258,7 +258,7 @@ pool_repopulate_diplomacy = {
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 15
@@ -360,7 +360,7 @@ pool_repopulate_martial = {
 					add_trait = berserker
 				}
 				5 = {
-					add_trait = poet
+					add_trait = lifestyle_poet
 				}
 			}
 		}
@@ -372,12 +372,12 @@ pool_repopulate_martial = {
 					has_cultural_parameter = poet_trait_more_common
 				}
 				NOT = {
-					has_trait = poet
+					has_trait = lifestyle_poet
 				}
 			}
 			random = {
 				chance = 10
-				add_trait = poet
+				add_trait = lifestyle_poet
 			}
 		}
 		if = {
@@ -520,7 +520,7 @@ pool_repopulate_stewardship = {
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 10
@@ -596,7 +596,7 @@ pool_repopulate_intrigue = {
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 10
@@ -684,22 +684,10 @@ pool_repopulate_learning = {
 				}
 			}
 		}
-
-		if = {
-			limit = {
-				culture ?= {
-					has_cultural_parameter = clergy_only_brahmin
-				}
-			}
-			remove_trait = vaishya
-			remove_trait = shudra
-			remove_trait = kshatriya	
-			add_trait = brahmin
-		}
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 10
@@ -853,7 +841,7 @@ pool_repopulate_spouse = {
 		random = {
 			chance = 1
 			
-			add_trait = poet
+			add_trait = lifestyle_poet
 			
 			modifier = {
 				add = 10
@@ -878,78 +866,62 @@ pool_repopulate_local_flavor = {
 	faith = root.faith
 	
 	random_culture = {
-		# TFE stuff
-		# Gauls can spawn before 415
-		culture:gaul = {
-			trigger = {
-				root.faith.religion = religion:druidism_religion
-				root.capital_province = {
-					geographical_region = custom_gaul
-				}
-				current_date < 415.1.1
-			}
-		}
-		culture:punic = {
-			trigger = {
-				OR = {
-					root.capital_county = {
-						kingdom = title:k_africa
-					}
-					root.capital_county = {
-						kingdom = title:k_africae
-					}
-				}
-				current_date < 490.1.1
-			}
-		}
-		culture:hebrew = {
+		culture:ashkenazi = {
 			trigger = {
 				NOT = {
 					root.faith = { religion = { is_in_family = rf_pagan } }
 				}
 				root.capital_province = {
 					OR = {
-						geographical_region = world_middle_east
-						geographical_region = world_middle_east_persia
-						geographical_region = world_africa_north
-						geographical_region = world_europe_west_iberia
-						geographical_region = world_india_deccan
 						geographical_region = world_europe
 						geographical_region = world_asia_minor
+					}
+					NOT = {
+						geographical_region = world_europe_west_iberia
 					}
 				}
 			}
 		}
-		culture:abhira = {
+		root.culture = {
+			trigger = {
+				root.faith = { religion = { is_in_family = rf_pagan } }
+			}
+		}
+		culture:sephardi = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = world_europe_west_iberia
+				}
+			}
+		}
+		culture:radhanite = {
+			trigger = {
+				root.capital_province = {
+					OR = {
+						geographical_region = world_steppe
+						geographical_region = world_india
+					}
+				}
+			}
+		}
+		culture:kochinim = {
 			trigger = {
 				root.capital_province = {
 					geographical_region = world_india
 				}
 			}
 		}
-		culture:yaudheya = {
+		culture:bavlim = {
 			trigger = {
 				root.capital_province = {
-					geographical_region = world_india_rajastan
+					OR = {
+						geographical_region = world_middle_east
+						geographical_region = world_middle_east_persia
+						geographical_region = world_africa_north
+					}
 				}
 			}
 		}
-		culture:arjunayana = {
-			trigger = {
-				root.capital_province = {
-					geographical_region = world_india_rajastan
-				}
-			}
-		}
-		culture:bharatiya = {
-			trigger = {
-				root.capital_province = {
-					geographical_region = world_india_rajastan
-				}
-			}
-		}
-
-		# Vanilla stuff - altered for TFE
 		culture:kurdish = {
 			trigger = {
 				root.capital_province = {
@@ -957,7 +929,21 @@ pool_repopulate_local_flavor = {
 				}
 			}
 		}
-		culture:saurashtri = { #TFE instead of GUJARATI
+		culture:rajput = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = world_india
+				}
+			}
+		}
+		culture:hindustani = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = world_india_rajastan
+				}
+			}
+		}
+		culture:gujarati = {
 			trigger = {
 				root.capital_province = {
 					geographical_region = world_india_rajastan
@@ -977,7 +963,10 @@ pool_repopulate_local_flavor = {
 		culture:tamil = {
 			trigger = {
 				root.capital_province = {
-					geographical_region = world_india_deccan
+					OR = {
+						geographical_region = world_india_deccan
+						geographical_region = world_asia_southeast_islands
+					}
 				}
 			}
 		}
@@ -1005,10 +994,13 @@ pool_repopulate_local_flavor = {
 				}
 			}
 		}
-		culture:pyu = { #TFE instead of Burmese
+		culture:burmese = {
 			trigger = {
 				root.capital_province = {
-					geographical_region = world_burma
+					OR = {
+						geographical_region = world_india_bengal
+						geographical_region = world_burma
+					}
 				}
 			}
 		}
@@ -1017,7 +1009,6 @@ pool_repopulate_local_flavor = {
 				root.capital_province = {
 					geographical_region = world_africa
 				}
-				current_date > 768.1.1
 			}
 		}
 		culture:zaghawa = {
@@ -1032,7 +1023,6 @@ pool_repopulate_local_flavor = {
 				root.capital_province = {
 					geographical_region = world_steppe_west
 				}
-				current_date > 768.1.1
 			}
 		}
 		culture:assyrian = {
@@ -1052,6 +1042,7 @@ pool_repopulate_local_flavor = {
 						geographical_region = world_steppe_east
 						geographical_region = world_steppe_tarim
 						geographical_region = world_tibet
+						geographical_region = world_asia_north_east
 					}
 				}
 			}
@@ -1064,6 +1055,10 @@ pool_repopulate_local_flavor = {
 						geographical_region = world_steppe_tarim
 						geographical_region = world_tibet
 						geographical_region = world_burma
+						geographical_region = world_asia_north_east
+						geographical_region = world_asia_china
+						geographical_region = world_asia_korea
+						geographical_region = world_asia_southeast_mainland
 					}
 				}
 			}
@@ -1097,6 +1092,40 @@ pool_repopulate_local_flavor = {
 						}
 					}
 				}
+			}
+		}
+		culture:swahili = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = dlc_tgp_swahili_coast_region
+				}
+			}
+		}
+		culture:yemeni = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = dlc_tgp_swahili_coast_region
+					county.holder = {
+						NOT = { government_has_flag = government_is_tribal }
+						faith = { religion_tag = islam_religion }
+					}
+				}
+			}
+		}
+		culture:persian = {
+			trigger = {
+				root.capital_province = {
+					geographical_region = dlc_tgp_swahili_coast_region
+					county.holder = {
+						NOT = { government_has_flag = government_is_tribal }
+						faith = { religion_tag = islam_religion }
+					}
+				}
+			}
+		}
+		culture:japanese = {
+			trigger = {
+				root.capital_province = { geographical_region = world_asia_japan }
 			}
 		}
 		culture:khanty = {
@@ -1167,14 +1196,6 @@ pool_repopulate_local_flavor = {
 		}
 		if = {
 			limit = {
-				NOT = {
-					exists = culture
-				}
-			}
-			set_culture = root.culture
-		}
-		if = {
-			limit = {
 				culture = { has_cultural_pillar = heritage_israelite }
 			}
 			add_character_flag = ai_will_not_convert
@@ -1233,15 +1254,15 @@ pool_repopulate_local_flavor = {
 		else_if = {
 			limit = {
 				OR = {
-					culture = culture:arjunayana
+					culture = culture:rajput
 					culture = culture:marathi
-					culture = culture:abhira
+					culture = culture:gujarati
 					culture = culture:tamil
 					culture = culture:telugu
-					culture = culture:kaushali
+					culture = culture:hindustani
 					culture = culture:kannada
 					culture = culture:bengali
-					culture = culture:pyu
+					culture = culture:burmese
 				}
 			}
 			random_list = {
@@ -1254,28 +1275,19 @@ pool_repopulate_local_flavor = {
 				20 = {
 					set_character_faith = faith:yapaniya
 				}
-				# 35 = {
-				# 	trigger = {
-				# 		culture = culture:abhira
-				# 	}
-				# 	set_character_faith = faith:zurvanism
-				# }
+				35 = {
+					trigger = {
+						culture = culture:gujarati
+					}
+					set_character_faith = faith:zurvanism
+				}
 				100 = {
 					trigger = {
 						culture = culture:burmese
 					}
 					set_character_faith = faith:ari
 				}
-				5 = {
-					trigger = {
-						faith:nestorian = {
-							NOT = {
-								has_doctrine = unavailable_doctrine
-							}
-						}
-					}
-					set_character_faith = faith:nestorian
-				}
+				
 				25 = {
 					trigger = {
 						OR = {
@@ -1288,88 +1300,21 @@ pool_repopulate_local_flavor = {
 				}
 			}
 		}
-		else_if = {
-			limit = {
-				OR = {
-					culture = culture:butr
-					culture = culture:zaghawa
-				}
-				faith:ibadi = {
-					NOT = {
-						has_doctrine = unavailable_doctrine
-					}
-				}
-				faith:sufri = {
-					NOT = {
-						has_doctrine = unavailable_doctrine
-					}
-				}
-			}
-			random_list = {
-				10 = {
-					set_character_faith = faith:ibadi
-				}
-				10 = {
-					set_character_faith = faith:sufri
-				}
-			}
-		}
+		
 		else_if = {
 			limit = {
 				culture = culture:kurdish
-				faith:yazidi = {
-					NOT = {
-						has_doctrine = unavailable_doctrine
-					}
-				}
 			}
 			set_character_faith = faith:yazidi
-			if = {
-				limit = { current_date > 476.1.1 }
-				set_character_faith = faith:nestorian
-			}
-			else = { set_character_faith = faith:nicene }
 		}
-		else_if = {
-			limit = {
-				OR = {
-					culture = culture:bolghar
-					culture = culture:somali
-				}
-				faith:sunni = {
-					NOT = {
-						has_doctrine = unavailable_doctrine
-					}
-				}
-			}
-			set_character_faith = faith:sunni
-			if = {
-				limit = {
-					root.capital_county.faith = {
-						religion_tag = islam_religion
-					}
-				}
-				set_character_faith = root.capital_county.faith
-			}
-			else = { set_character_faith = faith:chalcedonian }
-		}
+		
 		else_if = {
 			limit = {
 				culture = culture:khazar
 			}
 			set_character_faith = faith:kabarism
 		}
-		else_if = {
-			limit = {
-				culture = culture:assyrian
-				faith:nestorian = {
-					NOT = {
-						has_doctrine = unavailable_doctrine
-					}
-				}
-			}
-			set_character_faith = faith:nestorian
-		}
+		
 		else_if = {
 			limit = {
 				culture = culture:khitan
@@ -1407,6 +1352,44 @@ pool_repopulate_local_flavor = {
 					set_character_faith = faith:zhengyi
 				}
 			}
+			random = {
+				chance = 5
+				modifier = {
+					root.capital_province = {
+						geographical_region = world_asia_china
+					}
+					add = 10
+				}
+				add_trait = confucian_education
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_male = yes
+								root.capital_province.province_owner = {
+									OR = {
+										has_realm_law = male_only_law
+										has_realm_law = male_preference_law
+										has_realm_law = equal_law
+									}
+								}
+							}
+							AND = {
+								is_female = yes
+								root.capital_province.province_owner = {
+									OR = {
+										has_realm_law = female_only_law
+										has_realm_law = female_preference_law
+										has_realm_law = equal_law
+									}
+								}
+							}
+						}
+					}
+					change_merit = { fixed_range = { min = 1000 max = 5000 } }
+					assign_completed_exams_based_on_merit_effect = yes
+				}
+			}
 		}
 		else_if = {
 			limit = {
@@ -1414,13 +1397,6 @@ pool_repopulate_local_flavor = {
 			}
 			random_list = {
 				10 = {
-					trigger = {						
-						faith:bon = {
-							NOT = {
-								has_doctrine = unavailable_doctrine
-							}
-						}
-					}
 					set_character_faith = faith:bon
 				}
 				10 = {
@@ -1476,7 +1452,7 @@ pool_repopulate_local_flavor = {
 					add_trait = giant
 				}
 				10 = {
-					add_trait = poet
+					add_trait = lifestyle_poet
 				}
 				450 = {
 					trigger = {
@@ -1503,48 +1479,6 @@ pool_repopulate_local_flavor = {
 					}
 					add_trait = berserker
 				}
-			}
-		}
-		else_if = {
-			limit = {
-				OR = {
-					culture = culture:gaul
-					culture = culture:gallo_roman
-				}
-			}
-			random_list = {
-				10 = {
-					set_character_faith = faith:celto_hellenic_syncretism
-				}
-				10 = {
-					trigger = {											
-						faith:chalcedonian = {
-							NOT = {
-								has_doctrine = unavailable_doctrine
-							}
-						}
-					}
-					set_character_faith = faith:chalcedonian
-				}
-				5 = {
-					trigger = {											
-						faith:nicene = {
-							NOT = {
-								has_doctrine = unavailable_doctrine
-							}
-						}
-					}
-					set_character_faith = faith:nicene
-				}
-			}
-		}
-		else_if = {
-			limit = {
-				culture = culture:punic
-			}
-			random = {
-				chance = 8
-				set_character_faith = faith:carthage_pagan
 			}
 		}
 		
@@ -1729,6 +1663,11 @@ pool_repopulate_local_flavor = {
 			TRACK = hunter
 			LEVEL_1 = yes
 			LEVEL_3 = no
+		}
+		add_random_tiered_trait_xp_effect = {
+			TRAIT = confucian_education
+			LEVEL_1 = yes
+			LEVEL_3 = yes
 		}
 	}
 }

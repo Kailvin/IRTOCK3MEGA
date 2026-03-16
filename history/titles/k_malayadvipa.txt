@@ -1,0 +1,102 @@
+k_malayadvipa={
+	423.7.6 = { liege = 0 }
+}
+d_handumans={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_andamans_holder government = tribal_government }
+}
+d_nias={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_nias_holder government = tribal_government }
+}
+d_SUM_aceh={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SUM_lambri_holder government = tribal_government }
+}
+d_SUM_jambi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SUM_jambi_holder liege = 0 }
+}
+d_SUM_minangkabau={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_SUM_minangkabau_holder government = tribal_government }
+}
+d_SUM_palembang={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_SUM_palembang_holder liege = 0 }
+}
+d_SUM_riau={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_SUM_muara_takus_holder liege = 0 }
+}
+c_andamans={
+	423.7.6 = { holder = IRToCK3_c_andamans_holder change_development_level = 0 }
+}
+c_mentawai={
+	423.7.6 = { holder = IRToCK3_c_nias_holder change_development_level = 0 }
+}
+c_nakkavaram={
+	423.7.6 = { holder = IRToCK3_c_andamans_holder change_development_level = 0 }
+}
+c_nias={
+	423.7.6 = { holder = IRToCK3_c_nias_holder change_development_level = 0 }
+}
+c_SUM_bangka-belitung={
+	423.7.6 = { holder = IRToCK3_c_SUM_palembang_holder change_development_level = 0 }
+}
+c_SUM_barus={
+	423.7.6 = { holder = IRToCK3_c_SUM_lambri_holder change_development_level = 0 }
+}
+c_SUM_bengkulu={
+	423.7.6 = { holder = IRToCK3_c_SUM_minangkabau_holder change_development_level = 0 }
+}
+c_SUM_dharmasraya={
+	423.7.6 = { holder = IRToCK3_c_SUM_jambi_holder change_development_level = 0 }
+}
+c_SUM_east_sumatra={
+	423.7.6 = { holder = IRToCK3_c_SUM_palembang_holder change_development_level = 0 }
+}
+c_SUM_indragiri={
+	423.7.6 = { holder = IRToCK3_c_SUM_jambi_holder change_development_level = 0 }
+}
+c_SUM_jambi={
+	423.7.6 = { holder = IRToCK3_c_SUM_jambi_holder change_development_level = 0 }
+}
+c_SUM_kampar={
+	423.7.6 = { holder = IRToCK3_c_SUM_muara_takus_holder change_development_level = 0 }
+}
+c_SUM_karang_brahi={
+	423.7.6 = { holder = IRToCK3_c_SUM_jambi_holder change_development_level = 0 }
+}
+c_SUM_lambri={
+	423.7.6 = { holder = IRToCK3_c_SUM_lambri_holder change_development_level = 0 }
+}
+c_SUM_lampung={
+	423.7.6 = { holder = IRToCK3_c_SUM_palembang_holder change_development_level = 0 }
+}
+c_SUM_lingga={
+	423.7.6 = { holder = IRToCK3_c_SUM_jambi_holder change_development_level = 0 }
+}
+c_SUM_meranti={
+	423.7.6 = { holder = IRToCK3_c_SUM_muara_takus_holder change_development_level = 0 }
+}
+c_SUM_minangkabau={
+	423.7.6 = { holder = IRToCK3_c_SUM_minangkabau_holder change_development_level = 0 }
+}
+c_SUM_muara_takus={
+	423.7.6 = { holder = IRToCK3_c_SUM_muara_takus_holder change_development_level = 0 }
+}
+c_SUM_palembang={
+	423.7.6 = { holder = IRToCK3_c_SUM_palembang_holder change_development_level = 0 }
+}
+c_SUM_panai={
+	423.7.6 = { holder = IRToCK3_c_SUM_lambri_holder change_development_level = 0 }
+}
+c_SUM_pasemah={
+	423.7.6 = { holder = IRToCK3_c_SUM_palembang_holder change_development_level = 0 }
+}
+c_SUM_pekanbaru={
+	423.7.6 = { holder = IRToCK3_c_SUM_muara_takus_holder change_development_level = 0 }
+}
+c_SUM_perlak={
+	423.7.6 = { holder = IRToCK3_c_SUM_lambri_holder change_development_level = 0 }
+}
+c_SUM_riak_nan_berbedur={
+	423.7.6 = { holder = IRToCK3_c_SUM_minangkabau_holder change_development_level = 0 }
+}
+c_SUM_rokan={
+	423.7.6 = { holder = IRToCK3_c_SUM_muara_takus_holder change_development_level = 0 }
+}

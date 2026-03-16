@@ -1,0 +1,14 @@
+k_krete={
+	423.7.6 = { liege = 0 }
+}
+d_krete={
+	423.7.6 = { liege = 0 }
+}
+c_chandax={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_chania={
+	417.1.6 = { liege = 0 holder = imperator194255 }
+	423.7.6 = { change_development_level = 11 }
+}

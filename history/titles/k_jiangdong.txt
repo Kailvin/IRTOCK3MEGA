@@ -1,0 +1,33 @@
+k_jiangdong={
+	423.7.6 = { liege = 0 }
+}
+d_jiangdong={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_jiangning_holder liege = 0 }
+}
+d_xuanshe={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_xuanzhou_holder liege = 0 }
+}
+c_changzhou={
+	423.7.6 = { holder = IRToCK3_c_jiangning_holder change_development_level = 0 }
+}
+c_chizhou={
+	423.7.6 = { holder = IRToCK3_c_xuanzhou_holder change_development_level = 0 }
+}
+c_guangde={
+	423.7.6 = { holder = IRToCK3_c_xuanzhou_holder change_development_level = 0 }
+}
+c_jiangning={
+	423.7.6 = { holder = IRToCK3_c_jiangning_holder change_development_level = 0 }
+}
+c_runzhou={
+	423.7.6 = { holder = IRToCK3_c_jiangning_holder change_development_level = 0 }
+}
+c_shezhou={
+	423.7.6 = { holder = IRToCK3_c_xuanzhou_holder change_development_level = 0 }
+}
+c_suzhou_2={
+	423.7.6 = { holder = IRToCK3_c_jiangning_holder change_development_level = 0 }
+}
+c_xuanzhou={
+	423.7.6 = { holder = IRToCK3_c_xuanzhou_holder change_development_level = 0 }
+}

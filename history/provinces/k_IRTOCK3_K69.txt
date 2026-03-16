@@ -1,11 +1,11 @@
 528={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4918={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4919={
@@ -18,16 +18,16 @@
 	holding = none
 }
 4922={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4923={
 	holding = none
 }
 4924={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 4925={
@@ -49,7 +49,7 @@
 	holding = city_holding
 }
 4931={
-	culture = old_suebi
+	culture = suebi
 	faith = hellenic_pagan
 	holding = castle_holding
 }

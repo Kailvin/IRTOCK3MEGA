@@ -5,8 +5,10 @@
 		rulers_should_have_dynasty = no
 		council = yes
 		court_generate_spouses = no
-		royal_court = no
+		affected_by_development = no
 	}
+	
+	royal_court = none
 
 	primary_holding = church_holding
 	valid_holdings = { church_holding }
@@ -14,7 +16,6 @@
 	preferred_religions = { christianity_religion }
 	court_generate_commanders = no
 	supply_limit_mult_for_others = 0
-	affected_by_development = no
 
 	can_get_government = {
 		OR = {
@@ -23,6 +24,13 @@
 		}
 		current_date <= 900.1.1
 		OR = {
+			
+			AND = { # Capital in Iceland
+				exists = title:d_iceland
+				capital_county = {
+					target_is_de_jure_liege_or_above = title:d_iceland
+				}
+			}
 			
 			AND = {  # Capital in Faroe Islands
 				exists = title:c_faereyar

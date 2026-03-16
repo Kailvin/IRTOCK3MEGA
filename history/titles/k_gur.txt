@@ -4,41 +4,33 @@ k_gur={
 d_dagomba={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_dagomba_holder government = tribal_government }
 }
-c_dagomba={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
-}
-c_gonja={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
-}
-c_daboya={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
+d_mamprusi={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_mamprusi_holder government = tribal_government }
 }
 d_wagadugu={
 	423.7.6 = { liege = 0 holder = IRToCK3_c_wagadugu_holder government = tribal_government }
 }
-c_wagadugu={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_wagadugu_holder change_development_level = 0 }
+c_daboya={
+	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
 }
-c_po={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_wagadugu_holder change_development_level = 0 }
+c_dagomba={
+	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
 }
-d_mamprusi={
-	423.7.6 = { liege = 0 holder = IRToCK3_c_mamprusi_holder government = tribal_government }
-}
-c_mamprusi={
-	361.1.1 = { government = tribal_government }
-	423.7.6 = { holder = IRToCK3_c_mamprusi_holder change_development_level = 0 }
+c_gonja={
+	423.7.6 = { holder = IRToCK3_c_dagomba_holder change_development_level = 0 }
 }
 c_kuisugu={
-	361.1.1 = { government = tribal_government }
+	423.7.6 = { holder = IRToCK3_c_mamprusi_holder change_development_level = 0 }
+}
+c_mamprusi={
 	423.7.6 = { holder = IRToCK3_c_mamprusi_holder change_development_level = 0 }
 }
 c_pendjari={
-	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_mamprusi_holder change_development_level = 0 }
+}
+c_po={
+	423.7.6 = { holder = IRToCK3_c_wagadugu_holder change_development_level = 0 }
+}
+c_wagadugu={
+	423.7.6 = { holder = IRToCK3_c_wagadugu_holder change_development_level = 0 }
 }

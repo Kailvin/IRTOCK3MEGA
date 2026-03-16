@@ -318,7 +318,7 @@ bookmark.1068 = {
 			title:d_meissen.holder = root
 		}
 		title:e_hre.holder ?= {
-			NOT = { this = root }
+			this != root
 		}
 		is_vassal_of = title:e_hre.holder
 	}
@@ -616,7 +616,7 @@ bookmark.1071 = {
 		gold >= 100
 		is_at_war = no
 		title:e_byzantium.holder ?= {
-			NOT = { this = root }
+			this != root
 		}
 	}
 	
@@ -624,7 +624,7 @@ bookmark.1071 = {
 		if = {
 			limit = {
 				title:e_byzantium.holder ?= {
-					NOT = { this = root }
+					this != root
 				}
 			}
 			trigger_event = {
@@ -1095,6 +1095,9 @@ bookmark.1072 = {
 		}
 	}
 }
+
+
+
 
 
 

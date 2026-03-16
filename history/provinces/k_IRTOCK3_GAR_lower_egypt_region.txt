@@ -3,7 +3,7 @@
 }
 6030={
 	culture = nabatean
-	faith = nabataean_pagan
+	faith = arabic_pagan
 	holding = castle_holding
 }
 6031={
@@ -11,13 +11,11 @@
 }
 6032={
 	holding = church_holding
-	303.1.1 = { special_building_slot = saint_catherine }
 }
 6033={
-	culture = meroitic
-	faith = nabataean_pagan
+	culture = nubian
+	faith = arabic_pagan
 	holding = castle_holding
-	400.1.1 = { religion = nicene }
 }
 6034={
 	holding = none
@@ -35,7 +33,6 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
-	380.1.1 = { religion = nicene }
 }
 6039={
 	holding = castle_holding
@@ -63,8 +60,8 @@
 	holding = none
 }
 6046={
-	culture = aegyptian
-	faith = nicene
+	culture = hellenic_greek
+	faith = orthodox
 	holding = castle_holding
 }
 6047={
@@ -83,7 +80,6 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
-	400.1.1 = { religion = nicene }
 }
 6052={
 	culture = nuragic
@@ -94,7 +90,6 @@
 	culture = nuragic
 	faith = egyptian_pagan
 	holding = castle_holding
-	special_building_slot = library_of_alexandria
 }
 6054={
 	holding = city_holding
@@ -110,7 +105,6 @@
 	faith = egyptian_pagan
 	holding = castle_holding
 	special_building = the_pyramids_01
-	395.1.1 = { religion = arianism }
 }
 6058={
 	holding = none
@@ -157,7 +151,7 @@
 	holding = castle_holding
 }
 6089={
-	culture = garamantian
+	culture = butr
 	faith = egyptian_pagan
 	holding = castle_holding
 }
@@ -185,7 +179,7 @@
 	holding = none
 }
 6097={
-	culture = garamantian
+	culture = butr
 	faith = egyptian_pagan
 	holding = castle_holding
 }

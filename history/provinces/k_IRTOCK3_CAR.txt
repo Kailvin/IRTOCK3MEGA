@@ -1,13 +1,13 @@
-4652={
+4645={
 	holding = none
 }
-4653={
+4646={
+	holding = none
+}
+4647={
 	culture = norse
 	faith = germanic_pagan
-	holding = city_holding
-}
-4654={
-	holding = none
+	holding = castle_holding
 }
 4655={
 	culture = norse
@@ -70,7 +70,7 @@
 }
 4672={
 	culture = norse
-	faith = nicene
+	faith = catholic
 	holding = city_holding
 }
 4673={
@@ -108,12 +108,12 @@
 }
 4682={
 	culture = non_indo_european_iberian
-	faith = nicene
+	faith = catholic
 	holding = city_holding
 }
 4683={
 	culture = non_indo_european_iberian
-	faith = nicene
+	faith = catholic
 	holding = city_holding
 }
 4684={
@@ -164,6 +164,8 @@
 	holding = none
 }
 4699={
+	culture = norse
+	faith = germanic_pagan
 	holding = city_holding
 }
 4700={
@@ -179,7 +181,7 @@
 }
 4703={
 	culture = norse
-	faith = nicene
+	faith = catholic
 	holding = city_holding
 }
 4704={
@@ -200,6 +202,8 @@
 	holding = city_holding
 }
 4709={
+	culture = norse
+	faith = germanic_pagan
 	holding = city_holding
 }
 4710={
@@ -312,6 +316,9 @@
 	faith = germanic_pagan
 	holding = city_holding
 }
+4740={
+	holding = none
+}
 4741={
 	holding = none
 }
@@ -319,9 +326,7 @@
 	holding = none
 }
 4743={
-	culture = norse
-	faith = germanic_pagan
-	holding = city_holding
+	holding = church_holding
 }
 4744={
 	holding = none
@@ -332,9 +337,7 @@
 	holding = city_holding
 }
 4746={
-	culture = norse
-	faith = germanic_pagan
-	holding = city_holding
+	holding = none
 }
 4747={
 	holding = none
@@ -347,6 +350,12 @@
 	faith = germanic_pagan
 	holding = castle_holding
 }
+4750={
+	holding = none
+}
+4751={
+	holding = none
+}
 4755={
 	holding = none
 }
@@ -357,5 +366,11 @@
 	holding = none
 }
 4758={
+	holding = none
+}
+4759={
+	holding = none
+}
+4762={
 	holding = none
 }

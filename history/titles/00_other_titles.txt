@@ -1,10 +1,65 @@
-e_rashidun={
+d_cult_of_humban={
+	1.1.1 = { government = theocracy_government }
+}
+h_western_roman_empire={
 	423.7.6 = { liege = 0 }
 }
-e_gaul={
+e_western_roman_empire={
 	423.7.6 = { liege = 0 }
 }
-e_palmyrene={
+e_roman_empire={
+	423.7.6 = { liege = 0 }
+}
+k_rome={
+	423.7.6 = { liege = 0 }
+}
+d_rome={
+	423.7.6 = { liege = 0 succession_laws = { city_succession_law } }
+}
+h_hellenistic_empire={
+	-304.10.1 = { holder = imperator22023 government = nomad_government }
+	-245.12.14 = { holder = imperator22069 government = nomad_government }
+	-231.8.29 = { holder = imperator66008 government = feudal_government }
+	-203.9.18 = { holder = imperator74067 government = feudal_government }
+	-158.11.28 = { holder = imperator81075 government = feudal_government }
+	-156.1.11 = { holder = imperator96989 government = feudal_government }
+	-101.12.15 = { holder = imperator108563 government = feudal_government }
+	-40.10.2 = { holder = imperator111940 government = administrative_government }
+	-39.3.31 = { holder = imperator118505 government = administrative_government }
+	-33.6.6 = { holder = imperator121078 government = administrative_government }
+	-23.9.13 = { holder = imperator121372 government = administrative_government }
+	-2.10.8 = { holder = imperator122053 government = administrative_government }
+	7.11.14 = { holder = imperator127522 government = administrative_government }
+	43.11.23 = { holder = imperator131515 government = administrative_government }
+	58.7.14 = { holder = imperator135785 government = administrative_government }
+	118.3.6 = { holder = imperator138785 government = administrative_government }
+	144.4.6 = { holder = imperator144076 government = administrative_government }
+	188.5.20 = { holder = imperator148847 government = administrative_government }
+	226.4.18 = { holder = imperator149807 government = administrative_government }
+	233.1.16 = { holder = imperator154051 government = administrative_government }
+	255.2.24 = { holder = imperator157900 government = administrative_government }
+	267.10.18 = { holder = imperator163441 government = administrative_government }
+	277.8.29 = { holder = imperator167284 government = administrative_government }
+	279.11.5 = { holder = imperator167906 government = administrative_government }
+	309.5.11 = { holder = imperator170728 government = administrative_government }
+	356.4.29 = { holder = imperator177495 government = administrative_government }
+	390.6.22 = { holder = imperator193916 government = feudal_government }
+	415.10.5 = { holder = imperator200628 government = feudal_government }
+	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
+}
+e_greek_heritage_empire={
+	423.7.6 = { liege = 0 }
+}
+h_roman_empire={
+	423.7.6 = { liege = 0 }
+}
+h_eastern_roman_empire={
+	423.7.6 = { liege = 0 }
+}
+h_dar_al_islam={
+	423.7.6 = { liege = 0 }
+}
+h_india={
 	423.7.6 = { liege = 0 }
 }
 k_papal_state={
@@ -12,11 +67,17 @@ k_papal_state={
 	422.9.4 = { holder = 7774 }
 }
 k_orthodox={
-	423.7.6 = { holder = IRToCK3_head_of_faith_orthodox }
+	405.11.11 = { holder = 145055 }
+}
+d_patriarchate_in_the_east={
+	421.1.1 = { holder_ignore_head_of_faith_requirement = 166257 }
+}
+d_coptic_papacy={
+	412.1.1 = { holder = 161508 }
 }
 d_apostolic_church={
-	288.1.1 = { government = theocracy_government }
-	386.1.1 = { holder_ignore_head_of_faith_requirement = gregorid_05 }
+	353.1.1 = { holder = 0 }
+	386.1.1 = { holder = armenian_000022 }
 }
 d_manichean={
 	423.7.6 = { holder = IRToCK3_head_of_faith_manichean }
@@ -25,6 +86,9 @@ k_danelaw={
 	423.7.6 = { liege = 0 }
 }
 k_daneland={
+	423.7.6 = { liege = 0 }
+}
+k_mediterranean_sea={
 	423.7.6 = { liege = 0 }
 }
 d_sunni={
@@ -36,13 +100,18 @@ d_shiite={
 d_imami={
 	423.7.6 = { liege = 0 }
 }
+d_ismaili={
+	423.7.6 = { liege = 0 }
+}
 d_nizari={
+	1.1.1 = { succession_laws = { temporal_head_of_faith_succession_law } }
 	423.7.6 = { liege = 0 }
 }
 d_zayidi={
 	423.7.6 = { liege = 0 }
 }
 d_masmudi={
+	1.1.1 = { succession_laws = { temporal_head_of_faith_succession_law } }
 	423.7.6 = { liege = 0 }
 }
 d_muwalladi={
@@ -60,7 +129,7 @@ e_ilkhanate={
 e_chagatai={
 	423.7.6 = { liege = 0 }
 }
-e_black_horde={
+e_red_horde={
 	423.7.6 = { liege = 0 }
 }
 e_white_horde={
@@ -73,6 +142,15 @@ e_togskol_khanate={
 	423.7.6 = { liege = 0 }
 }
 e_baruun_khanate={
+	423.7.6 = { liege = 0 }
+}
+e_great_yuan={
+	423.7.6 = { liege = 0 }
+}
+e_blue_horde={
+	423.7.6 = { liege = 0 }
+}
+e_omnod_dalai_khanate={
 	423.7.6 = { liege = 0 }
 }
 e_uyghur_khanate={
@@ -90,6 +168,9 @@ e_great_liao={
 e_kara_khitai={
 	423.7.6 = { liege = 0 }
 }
+e_jin={
+	423.7.6 = { liege = 0 }
+}
 e_timurids={
 	423.7.6 = { liege = 0 }
 }
@@ -105,21 +186,14 @@ d_karaism={
 d_haymanot={
 	423.7.6 = { holder = IRToCK3_head_of_faith_haymanot }
 }
+d_malabarism={
+	1.1.1 = { succession_laws = { temporal_head_of_faith_succession_law } }
+}
 d_mazdayasna={
-	361.1.1 = { government = theocracy_government }
-	415.1.1 = { holder = mazdayasna_priest_02 }
+	423.7.6 = { holder = IRToCK3_head_of_faith_mazdayasna }
 }
 d_urartuism={
 	423.7.6 = { holder = IRToCK3_head_of_faith_urartuism }
-}
-k_poland_slav={
-	423.7.6 = { liege = 0 }
-}
-k_croatia_slav={
-	423.7.6 = { liege = 0 }
-}
-k_bohemia_slav={
-	423.7.6 = { liege = 0 }
 }
 k_guiyi={
 	423.7.6 = { liege = 0 }
@@ -130,7 +204,13 @@ k_switzerland={
 k_austria={
 	423.7.6 = { liege = 0 }
 }
+k_visigoths={
+	423.7.6 = { liege = 0 }
+}
 e_outremer={
+	423.7.6 = { liege = 0 }
+}
+k_toledo={
 	423.7.6 = { liege = 0 }
 }
 d_knights_templar={
@@ -208,47 +288,31 @@ d_zun_warriors={
 e_latin_empire={
 	423.7.6 = { liege = 0 }
 }
-e_slavia={
+e_beth_nahrain={
 	423.7.6 = { liege = 0 }
 }
-e_beth_nahrain={
+e_slavia={
 	423.7.6 = { liege = 0 }
 }
 e_armenia={
 	423.7.6 = { liege = 0 }
 }
-e_indo_scythia={
+e_viet={
+	423.7.6 = { liege = 0 }
+}
+e_majapahit={
+	423.7.6 = { liege = 0 }
+}
+e_ruucuu={
 	423.7.6 = { liege = 0 }
 }
 e_north_sea={
 	423.7.6 = { liege = 0 }
 }
-k_cantabria={
-	423.7.6 = { liege = 0 }
-}
 k_pechenegs={
 	423.7.6 = { liege = 0 }
 }
-k_goths={
-	405.1.1 = { government = tribal_government }
-	406.8.23 = { holder = 0 }
-}
 d_zaragoza={
-	423.7.6 = { liege = 0 }
-}
-d_east_cantabria={
-	423.7.6 = { liege = 0 }
-}
-d_caledonia={
-	423.7.6 = { liege = 0 }
-}
-d_hibernia_superior={
-	423.7.6 = { liege = 0 }
-}
-d_hibernia_inferior={
-	423.7.6 = { liege = 0 }
-}
-d_south_cantabria={
 	423.7.6 = { liege = 0 }
 }
 d_erzerum={
@@ -276,154 +340,54 @@ k_hansa={
 	423.7.6 = { liege = 0 }
 }
 e_britannia={
-	417.5.21 = { holder = imperator193903 government = administrative_government }
-	423.7.6 = { effect = 	{
-		if = {
-			limit = {
-				exists = holder
-				holder = { has_government = administrative_government }
-			}
-			set_state_faith = faith:insular_celtic
-		}
-	} succession_laws = { male_preference_law acclamation_succession_law } }
-}
-k_mann_the_isles={
-	423.7.6 = { liege = 0 }
-}
-k_old_north={
 	423.7.6 = { liege = 0 }
 }
 k_england={
 	423.7.6 = { liege = 0 }
 }
 k_wales={
-	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
 }
 k_scotland={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 k_ireland={
-	361.1.1 = { change_development_level = 1 }
 	423.7.6 = { liege = 0 }
 }
 k_cornwall={
 	423.7.6 = { liege = 0 }
 }
-k_wessex={
-	423.7.6 = { liege = 0 }
-}
-k_kent={
-	423.7.6 = { liege = 0 }
-}
-k_east_anglia={
-	423.7.6 = { liege = 0 }
-}
-k_northumbria={
-	423.7.6 = { liege = 0 }
-}
-k_mercia={
-	423.7.6 = { liege = 0 }
-}
-k_essex={
-	423.7.6 = { liege = 0 }
-}
-k_pretania={
-	423.7.6 = { liege = 0 }
-}
-e_britannia_2={
-	423.7.6 = { liege = 0 }
-}
-e_france_2={
+k_mann_the_isles={
 	423.7.6 = { liege = 0 }
 }
 e_germany={
 	423.7.6 = { liege = 0 }
 }
-k_pomerania={
-	423.7.6 = { liege = 0 }
-}
 k_saxony={
-	330.1.1 = { succession_laws = { saxon_elective_succession_law male_only_law } }
-	423.7.6 = { liege = 0 }
-}
-k_cheruscia={
-	423.7.6 = { liege = 0 }
-}
-d_bructeria={
-	361.1.1 = { change_development_level = 0 }
-	423.7.6 = { liege = 0 }
-}
-k_vandalia={
 	423.7.6 = { liege = 0 }
 }
 k_frisia={
-	361.1.1 = { change_development_level = -1 }
 	423.7.6 = { liege = 0 }
 }
-k_bohemia={
+e_illyria={
 	423.7.6 = { liege = 0 }
 }
-e_roman_empire={
+e_macedonia={
+	423.7.6 = { liege = 0 }
+}
+e_anatolia={
+	423.7.6 = { liege = 0 }
+}
+e_oriens={
+	423.7.6 = { liege = 0 }
+}
+e_aegyptus={
+	423.7.6 = { liege = 0 }
+}
+e_africa={
 	423.7.6 = { liege = 0 }
 }
 e_byzantium={
-	20.1.1 = { change_development_level = 6 }
-	286.4.1 = { succession_laws = { imperial_elective_succession_law } }
-	423.7.6 = { liege = 0 }
-}
-k_daciae={
-	423.7.6 = { liege = 0 }
-}
-k_illyricum={
-	423.7.6 = { liege = 0 }
-}
-k_aegyptus={
-	423.7.6 = { liege = 0 }
-}
-d_tobruk={
-	361.1.1 = { change_development_level = 4 }
-	423.7.6 = { liege = 0 }
-}
-k_asiae={
-	423.7.6 = { liege = 0 }
-}
-d_hellespontus={
-	423.7.6 = { liege = 0 }
-}
-d_caria={
-	423.7.6 = { liege = 0 }
-}
-d_lycia={
-	423.7.6 = { liege = 0 }
-}
-d_phyrgia_pacatiana={
-	423.7.6 = { liege = 0 }
-}
-d_phyrgia_salutaris={
-	423.7.6 = { liege = 0 }
-}
-d_pisidia={
-	423.7.6 = { liege = 0 }
-}
-k_orientis={
-	423.7.6 = { liege = 0 }
-}
-d_palestina_prima={
-	423.7.6 = { liege = 0 }
-}
-d_salutaris={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
-}
-d_isauria={
-	423.7.6 = { liege = 0 }
-}
-d_cilicia_secunda={
-	423.7.6 = { liege = 0 }
-}
-k_macedoniae={
 	423.7.6 = { liege = 0 }
 }
 k_saruhan={
@@ -462,32 +426,13 @@ k_aydin={
 k_candar={
 	423.7.6 = { liege = 0 }
 }
-k_macedon={
+k_bosnia={
 	423.7.6 = { liege = 0 }
 }
-d_macedonia_salutaris={
+k_armenia={
 	423.7.6 = { liege = 0 }
 }
-k_epirus={
-	423.7.6 = { liege = 0 }
-}
-k_hellas={
-	423.7.6 = { liege = 0 }
-}
-k_krete={
-	423.7.6 = { liege = 0 }
-}
-k_cyprus={
-	423.7.6 = { liege = 0 }
-}
-d_galatia_salutaris={
-	423.7.6 = { liege = 0 }
-}
-d_honorias={
-	423.7.6 = { liege = 0 }
-}
-k_pontus={
-	20.1.1 = { change_development_level = 6 }
+k_venice={
 	423.7.6 = { liege = 0 }
 }
 k_armenian_principality={
@@ -499,10 +444,6 @@ k_old_armenia={
 e_italy={
 	423.7.6 = { liege = 0 }
 }
-k_sicily={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
 k_genoa={
 	423.7.6 = { liege = 0 }
 }
@@ -512,58 +453,52 @@ k_pisa={
 k_naples={
 	423.7.6 = { liege = 0 }
 }
-k_venice={
-	361.1.1 = { change_development_level = 0 }
-	423.7.6 = { liege = 0 }
-}
-d_venice={
-	423.7.6 = { liege = 0 }
-}
-d_capua={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
-}
-d_salerno={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
-}
 e_scandinavia={
 	423.7.6 = { liege = 0 }
 }
 k_denmark={
-	21.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
 }
 e_wendish_empire={
 	423.7.6 = { liege = 0 }
 }
-k_moravia={
-	423.7.6 = { liege = 0 }
-}
-k_winideheim={
-	423.7.6 = { liege = 0 }
-}
-k_prussia={
-	423.7.6 = { liege = 0 }
-}
-k_livonia={
-	361.1.1 = { change_development_level = 0 }
+k_pomerania={
 	423.7.6 = { liege = 0 }
 }
 k_lithuania={
-	400.1.1 = { change_development_level = 1 }
 	423.7.6 = { liege = 0 }
 }
-d_sudovia={
+k_esthonia={
 	423.7.6 = { liege = 0 }
 }
-k_white_rus={
+k_livonia={
+	423.7.6 = { liege = 0 }
+}
+e_west_slavia={
+	423.7.6 = { liege = 0 }
+}
+k_moravia={
+	423.7.6 = { liege = 0 }
+}
+k_poland={
+	423.7.6 = { liege = 0 }
+}
+k_bohemia={
+	423.7.6 = { liege = 0 }
+}
+k_galicia-volhynia={
+	423.7.6 = { liege = 0 }
+}
+k_sorbia={
+	423.7.6 = { liege = 0 }
+}
+e_russia={
 	423.7.6 = { liege = 0 }
 }
 k_ruthenia={
 	423.7.6 = { liege = 0 }
 }
-e_russia={
+k_white_rus={
 	423.7.6 = { liege = 0 }
 }
 e_caspian-pontic_steppe={
@@ -616,18 +551,16 @@ e_caspian-pontic_steppe={
 	} succession_laws = { male_preference_law acclamation_succession_law } }
 }
 k_pontic_steppe={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 k_caucasus={
 	423.7.6 = { liege = 0 }
 }
 k_caspian_steppe={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 k_magyar={
-	350.1.1 = { holder = magyar_01 government = nomad_government }
+	423.7.6 = { liege = 0 }
 }
 e_volga-ural={
 	423.7.6 = { liege = 0 }
@@ -636,23 +569,9 @@ e_siberia={
 	423.7.6 = { liege = 0 }
 }
 e_mongolia={
-	278.1.1 = { government = nomad_government }
-	351.1.1 = { holder = 0 }
-	405.1.1 = { government = nomad_government }
-	414.5.1 = { holder = yujiulu_077 }
-}
-k_tuva={
-	423.7.6 = { liege = 0 }
-}
-k_khakassia={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 e_tartaria={
-	423.7.6 = { liege = 0 }
-}
-k_kimek={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 e_turan={
@@ -667,56 +586,22 @@ k_syr_darya={
 k_transoxiana={
 	423.7.6 = { liege = 0 }
 }
-e_western_regions={
-	423.7.6 = { liege = 0 }
-}
-k_khotan={
-	20.1.1 = { change_development_level = 4 }
-	300.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
-}
 e_bactria={
 	423.7.6 = { liege = 0 }
 }
-e_caucasia={
-	423.7.6 = { liege = 0 }
-}
 e_persia={
-	224.1.1 = { succession_laws = { mahestan_elective_succession_law } }
 	423.7.6 = { liege = 0 succession_laws = { male_only_law single_heir_succession_law } }
 }
-d_tao-klarjeti={
-	423.7.6 = { liege = 0 }
-}
-k_armenia={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_pars={
-	423.7.6 = { liege = 0 }
-}
-k_adurbadagan={
-	423.7.6 = { liege = 0 }
-}
 k_daylam={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-d_tabaristan={
 	423.7.6 = { liege = 0 }
 }
 k_makran={
-	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
-d_exilarchate={
+k_kabulistan={
 	423.7.6 = { liege = 0 }
 }
 k_jazira={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_sistan={
 	423.7.6 = { liege = 0 }
 }
 e_carpathia={
@@ -731,45 +616,23 @@ e_france={
 k_france={
 	423.7.6 = { liege = 0 }
 }
-d_armagnac={
-	423.7.6 = { liege = 0 }
-}
 e_spain={
-	423.7.6 = { liege = 0 }
-}
-k_tarraconensis={
-	423.7.6 = { liege = 0 }
-}
-k_carthaginensis={
 	423.7.6 = { liege = 0 }
 }
 k_asturias={
 	423.7.6 = { liege = 0 }
 }
-k_maghreb={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-d_zab={
-	423.7.6 = { liege = 0 }
-}
 e_maghreb={
 	423.7.6 = { liege = 0 }
 }
-k_africa={
-	361.1.1 = { change_development_level = 4 }
-	377.1.21 = { succession_laws = { appointment_succession_law } }
-	423.7.6 = { liege = 0 }
-}
-k_garamantes={
-	395.1.1 = { change_development_level = 1 }
-	423.7.6 = { liege = 0 }
-}
-k_anbiya={
-	361.1.1 = { change_development_level = 2 }
+k_canarias={
 	423.7.6 = { liege = 0 }
 }
 k_tahert={
+	423.7.6 = { liege = 0 }
+}
+k_africa={
+	377.1.21 = { succession_laws = { appointment_succession_law } }
 	423.7.6 = { liege = 0 }
 }
 e_arabia={
@@ -778,59 +641,19 @@ e_arabia={
 k_israel={
 	423.7.6 = { liege = 0 }
 }
-d_sanhedrin={
-	400.1.1 = { holder = sanhedrin_04 }
-}
-k_nabatea={
-	423.7.6 = { liege = 0 }
-}
-d_hauran={
-	423.7.6 = { liege = 0 }
-}
-k_arabia={
-	361.1.1 = { change_development_level = 2 }
-	423.7.6 = { liege = 0 }
-}
-k_gerrha={
-	423.7.6 = { liege = 0 }
-}
-k_muscat={
-	423.7.6 = { liege = 0 }
-}
-d_abudhabi={
-	423.7.6 = { liege = 0 }
-}
 k_yemen={
-	361.1.1 = { change_development_level = 1 }
-	423.7.6 = { liege = 0 }
-}
-k_oman={
-	423.7.6 = { liege = 0 }
-}
-e_egypt={
-	423.7.6 = { liege = 0 }
-}
-k_cyrenaica={
 	423.7.6 = { liege = 0 }
 }
 k_egypt={
-	361.1.1 = { change_development_level = 7 }
 	423.7.6 = { liege = 0 succession_laws = { equal_law single_heir_succession_law } }
-}
-d_damascus={
-	423.7.6 = { liege = 0 }
 }
 e_abyssinia={
 	423.7.6 = { liege = 0 }
 }
-e_nubia={
-	423.7.6 = { liege = 0 }
-}
 k_blemmyia={
-	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
 }
-e_ajuraan={
+e_azania={
 	423.7.6 = { liege = 0 }
 }
 e_kanem_bornu={
@@ -842,69 +665,55 @@ e_mali={
 e_guinea={
 	423.7.6 = { liege = 0 }
 }
-e_india={
+e_hindustan={
 	423.7.6 = { liege = 0 }
 }
-e_hindustan={
+e_rajastan={
+	423.7.6 = { liege = 0 }
+}
+k_sindh={
+	423.7.6 = { liege = 0 }
+}
+k_punjab={
+	423.7.6 = { liege = 0 }
+}
+k_delhi={
+	423.7.6 = { liege = 0 }
+}
+k_gujarat={
+	423.7.6 = { liege = 0 }
+}
+k_rajputana={
+	423.7.6 = { liege = 0 }
+}
+k_malwa={
+	423.7.6 = { liege = 0 }
+}
+k_kosala={
+	423.7.6 = { liege = 0 }
+}
+k_himalaya={
+	423.7.6 = { liege = 0 }
+}
+k_kashmir={
 	423.7.6 = { liege = 0 }
 }
 e_bengal={
 	423.7.6 = { liege = 0 }
 }
-k_sindh={
-	361.1.1 = { change_development_level = 5 }
+k_bengal={
 	423.7.6 = { liege = 0 }
 }
 k_kamarupa={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_punjab={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
-}
-k_delhi={
-	361.1.1 = { change_development_level = 4 }
-	423.7.6 = { liege = 0 }
-}
-k_gujarat={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_rajputana={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
-}
-k_malwa={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
-}
-k_kosala={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_himalaya={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-k_kashmir={
-	361.1.1 = { change_development_level = 8 }
-	423.7.6 = { liege = 0 }
-}
-k_bengal={
-	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_bihar={
-	351.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_gondwana={
-	361.1.1 = { change_development_level = 1 }
 	423.7.6 = { liege = 0 }
 }
 k_orissa={
-	361.1.1 = { change_development_level = 6 }
 	423.7.6 = { liege = 0 }
 }
 e_deccan={
@@ -914,49 +723,42 @@ k_bene_israel={
 	423.7.6 = { liege = 0 }
 }
 k_maharastra={
-	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_karnata={
-	351.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 k_tamilakam={
-	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_andhra={
-	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_telingana={
-	361.1.1 = { change_development_level = 5 }
 	423.7.6 = { liege = 0 }
 }
 k_lanka={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
-}
-e_airavati={
-	423.7.6 = { liege = 0 }
-}
-k_pagan={
-	361.1.1 = { change_development_level = 4 }
 	423.7.6 = { liege = 0 }
 }
 e_tibet={
 	423.7.6 = { liege = 0 }
 }
 k_guge={
-	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 k_maryul={
-	361.1.1 = { change_development_level = 2 }
 	423.7.6 = { liege = 0 }
 }
 k_lhomon={
-	361.1.1 = { change_development_level = 1 }
+	423.7.6 = { liege = 0 }
+}
+e_andong={
+	423.7.6 = { liege = 0 }
+}
+e_amur={
+	423.7.6 = { liege = 0 }
+}
+e_srivijaya={
 	423.7.6 = { liege = 0 }
 }
 k_adiukru={
@@ -965,567 +767,3724 @@ k_adiukru={
 k_toro={
 	423.7.6 = { liege = 0 }
 }
-k_quadi={
-	394.1.1 = { holder = quadi_04 }
-	401.1.1 = { holder = 0 }
+k_winideheim={
+	423.7.6 = { liege = 0 }
+}
+e_japan={
+	423.7.6 = { liege = 0 }
+}
+c_nf_yamato={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_ashikaga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_hamuro={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_hidesato={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_hizume={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_jimyoin={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_kajuji={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_kanin={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_kazanin={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_koichijo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_kujo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_kyo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_manatsu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_matsudono={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_michitsuna={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_mikohida={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_nakamikado={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_nakamura={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_namba={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_nan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_oinomikado={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_ononomiya={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_oshu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_rokujo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_yoshikado={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_saionji={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_saito={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_sanjo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_sesonji={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_shijo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_shiki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_takaie={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_tokudaiji={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_uona={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_utsunomiya={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_yamakage={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fujiwara_yoshiyo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_daigo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_hiraga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_hitachi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_inoue={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_ishikawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_kai={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_kawachi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_kazan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_kiso={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_koga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_koko={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_kozuke={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_mino={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_mitsumasa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_mizukui={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_montoku={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_murakami={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_murakami_shinano={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_ninmyo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_oshu_ishikawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_saga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_sanjo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_sasaki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_seiwa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_settsu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_shimotsuke={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_shinano={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_toki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_watanabe={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_uda={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_yamamoto={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_yamato={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_yoda={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minamoto_yozei={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_boso={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_chiba={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_chichibu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_echigo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_hara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_hatakeyama={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_hitachi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_hojo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_iwaki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kajiwara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kamakura={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kaneko={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kanmu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kawagoe={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_kazusa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_miura={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_murayama={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_nakamura={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_noyo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_oba={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_satsuma={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_shibuya={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_takamune={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taira_wada={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ki_hosomi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ki_miyatsuko={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ki_oi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_abe={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_abe_oshu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_abe_noto={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_abiru={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_abo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_adachi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ariwara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_funya={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_harada={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_harusumi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hatano={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hozumi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ikeda={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_irie={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ito={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ito_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kamachi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kawazu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kibi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kikkawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kikuchi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kimiko={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kimotsuki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kono={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kusakabe={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kiyohara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kiyohara_hirozumi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kiyohara_masato={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kiyotaki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_koremune={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kudara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kudo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_matsura={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mihara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_minabuchi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_miyako={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mononobe_isonokami={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_naga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nagamine={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nakahara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nakahara_kiso={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nakatomi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ochi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_oe={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_omiwa_usuki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_okawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_okasuga={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_omiwa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_onakatomi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ono={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_oono={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_osada={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_otsuki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ouchi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_saeki_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_saeki_sanyo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sakanoue={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sato={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_senoo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shigeno={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shimada={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_soga_ishikawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sugano={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sugawara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_suzuki={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tachibana={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tachibana_tokai={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tagawa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_taguchi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_takashina={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tatara={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tomo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_usa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wake={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yokoyama={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yoshimichi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yoshimine={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yuasa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_park_juksan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_park_milyang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_park_pyeongsan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_park_silla={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bok_myeoncheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chae_pyeonggang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheok_goksan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_dongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_gyeongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_haeju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_jiksan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_suwon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_choe_ubong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_eonyang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_gangneung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_gimhae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_gwangsan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_gyeongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_ulleong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gim_yeonggwang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_go_jeju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gwak_cheongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gwon_andong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gyeong_cheongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gyeon_gaeunhyeon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_daeheung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_heo_gongam={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hong_namyang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yi_gyeongwon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yi_jeonju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yi_jeongseon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yi_suju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_im_jangheung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jeong_dongrae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jeong_haeju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sin_pyeongsan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jo_hoengcheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_min_hwangryeo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mun_gangneung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mun_nampyeong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_goryeo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_seohae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yeom_paju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yang_wonju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yang_anak={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yun_papyeong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yu_pyeongsan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_seo_icheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tak={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_song={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gang_sincheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gang_geumcheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gang_jinju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_go_balhae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wi_balhae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yeol_balhae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_o_balhae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_geom_nakrang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dae={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_dureung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wu_mokcheon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_nan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_yeon={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_baek={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_ye={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_mun={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_mok={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mohe_baishan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_dongseong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mohe_boduo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_seop={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mohe_sumo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_balhae_yang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_o_naju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_ryu_jeongju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_ryu_yeomju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_hwangbo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_myeong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_jang_andong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_yu_chungju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_bak_seungju={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_yang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_du={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_duan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_gao={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_dong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_li={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_nanzhao_meng={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_dali={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dam={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_do={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ly={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_viet_ly_two={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_than={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_le_phongchau={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ha_thuongoai={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_to={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tran={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ngo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khuc={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dinh={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zeng_66FE_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_zhang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_cao={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_kang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_yan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_murong={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_suo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guiyi_li={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_ngwemi={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_mozang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_liang={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_yeli={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_zhuli={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_bailan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_mikemote={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_weimu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_ezangquhuai={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_jyekundo={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_tangwu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xia_asha={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yelu={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liao_khitan_admin_fic_he_4f55={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liao_khitan_admin_fic_shen_6c88={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liao_khitan_admin_fic_qian_94b1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liao_xiao={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_zhao_8d75={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_sun_5b59={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_li_674e={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_zhou_5468={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_wu_5434={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_zheng_90d1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_wang_738b={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_feng_4e30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_chen_9648={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_chu_695a={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_wei_97e6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_jiang_848b={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_shi_65bd={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_zhang_5f20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_kong_5b54={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_cao_66f9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_yan_95f2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_hua_534e={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_jin_91d1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_wei_536b={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_qi_9f4a={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_xie_8c22={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_yun_4e91={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_khitan_admin_fic_su_82cf={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jin_wanyan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_tangkuo_5510_62d8_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_yila_79fb_524b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_pucha_84b2_5bdf_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_wanyan_5b8b_738b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_zhange_7c98_5272_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_tudan={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_qian_94b1_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_jin_91d1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_yun_4e91={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_feng_4e30_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_tian_7530={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_feng_51af={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_ruan_962e={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_zhao_8d75_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_hu_80e1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_lu_5442_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_kong_5b54={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_wu_5434_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_qi_9f4a={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_jiang_59dc={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_min_95f5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_you_5e7d_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_lu_5415={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_qin_79e6_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_wang_738b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_xu_5f90_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_peng_5f6d={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_shi_77f3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_wei_97e6_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_chen_9648_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_zhou_5468_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_admin_fic_bai_767d={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_andong_jurchen_pucha_84b2_5bdf={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zhao_8d75_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_sun_5b59_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_li_674e_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zhou_5468_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zheng_90d1_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_feng_4e30_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_chu_695a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wei_97e6_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_jiang_848b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_shen_6c88_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_han_97e9_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_yang_6768_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zhu_6731_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_you_5e7d_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xu_5f90_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_he_4f55_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_shi_65bd={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zhang_5f20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_cao_66f9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_yan_95f2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_hua_534e={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wei_536b={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_tao_9676={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xie_8c22={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zou_90b9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_yu_5b87={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_shui_6c34={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_dou_6597={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_su_82cf={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_pan_6f58={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ge_845b={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xi_5e2d={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_fan_8303={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_lang_90ce={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wei_9b4f={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_chang_5e38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ma_9a6c={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_miao_82d7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_fang_65b9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_yu_4fde={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ren_4efb={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_yuan_8881={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_liu_5218={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_tang_5510={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_fei_8d39={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_liang_6881={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_hao_90dd={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_gong_9f9a={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wen_6587={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_deng_9093={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zuo_5de6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_cui_5d14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_lu_8def={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_dong_8463={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_du_675c={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_lan_84dd={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xi_595a={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ji_7eaa={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xu_8bb8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_gao_9ad8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_xia_590f={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_cai_8521={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ding_4e01={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_qian_94b1_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_sun_5b59_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_li_674e_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wu_5434_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zheng_90d1_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wang_738b_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_chen_9648_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_chu_695a_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_jiang_848b_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_he_4f55_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_lu_5442_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_wu_5434_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_zhang_5F20_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_cao_66F9_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_ma_9A6C_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_jiang_59DC_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_tang_5510_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jurchen_admin_fic_liu_5218_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hesujia_548C_901F_5609_fic_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_baek_daeheung={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_korean_jo_hanyang={
+	423.7.6 = { change_development_level = 0 }
+}
+h_china={
+	423.7.6 = { liege = 0 }
+}
+e_zhongyuan={
+	423.7.6 = { liege = 0 }
+}
+e_yongliang={
+	423.7.6 = { liege = 0 }
+}
+e_jingyang={
+	423.7.6 = { liege = 0 }
+}
+e_liangyi={
+	423.7.6 = { liege = 0 }
+}
+e_lingnan={
+	423.7.6 = { liege = 0 }
+}
+e_suvarnabhumi={
+	423.7.6 = { liege = 0 }
+}
+k_siam={
+	423.7.6 = { liege = 0 }
+}
+e_brunei={
+	423.7.6 = { liege = 0 }
+}
+k_brunei={
+	423.7.6 = { liege = 0 }
+}
+e_kambuja={
+	423.7.6 = { liege = 0 }
+}
+c_nf_an_5b89_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bai_6822_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bai_767d_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bai_767d_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bao_5305_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bao_9b91_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bao_9b91_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bi_7562_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bi_7562_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bian_908a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bian_908a_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bian_908a_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_bo_767d_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cai_8521_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66f9_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66f9_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66f9_17={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66f9_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66f9_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chang_5e38_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chang_5e38_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chao_5de2_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chao_6641_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_104={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_116={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_17={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_31={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_35={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_36={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_40={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_42={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_51={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_53={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_65={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_71={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_83={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_chen_9673_86={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_17={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cheng_7a0b_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_17={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_29={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_35={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_49={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_55={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_58={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5d14_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dai_6234_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dai_6234_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dai_6234_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dai_6234_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dai_6234_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_deng_9127_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_di_72c4_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_diao_5201_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ding_4e01_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ding_4e01_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_dong_8463_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_du_675c_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_duan_6bb5_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_6a0a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fan_8303_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_623f_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_27={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fang_65b9_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fei_8cbb_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fei_8cbb_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_feng_99ae_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_feng_99ae_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_feng_99ae_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5085_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5085_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5085_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5085_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5bcc_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_7b26_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_35={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_40={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gao_9ad8_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ge_845b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gegan_7d07_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_geng_803f_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gong_9f94_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gong_9f94_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gong_9f94_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gu_9867_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gu_9867_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_gu_9867_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guan_7ba1_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_16={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_19={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_34={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ed_43={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_22={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_25={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97d3_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hao_90dd_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4f55_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4f55_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4f55_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4f55_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4f55_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hei_9ed1_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hong_6d2a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hong_6d2a_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_22={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_23={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_27={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80e1_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hua_83ef_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_19={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_23={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_29={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_32={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_33={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9ec3_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huangfu_7687_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huangfu_7687_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huo_970d_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ji_5b63_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jia_5bb6_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jia_8cc8_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jia_8cc8_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jia_8cc8_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jia_8cc8_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jian_8e47_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_59dc_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_59dc_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_6c5f_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_6c5f_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_6c5f_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_8523_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_8523_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_8523_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_8523_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jin_91d1_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jing_834a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kong_5b54_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kong_5b54_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kong_5b54_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kong_5b54_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lang_90ce_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_leng_51b7_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_53b2_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_101={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_105={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_111={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_120={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_121={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_125={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_127={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_129={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_133={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_155={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_157={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_159={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_16={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_163={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_176={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_177={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_180={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_197={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_199={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_201={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_he_4F55_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_213={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_23={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_27={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_279={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_29={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_31={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_35={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_39={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_44={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_45={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_46={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_47={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_48={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_51={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_57={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_58={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_61={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_72={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_76={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_78={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_84={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_87={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_91={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_94={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674e_98={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liang_6881_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liang_6881_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liang_6881_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liang_6881_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_16={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lin_6797_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ling_9675_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_100={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_114={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_116={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_16={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_19={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_22={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_25={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_33={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_42={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_45={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_59={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_62={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_72={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_75={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_79={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_5289_93={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_67f3_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_67f3_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_liu_7559_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lou_5a41_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lou_6a13_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lou_6a13_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_101={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_103={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_107={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_109={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_114={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5442_115={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_76e7_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_76e7_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_76e7_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_76e7_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_76e7_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_9678_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_9678_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_9678_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_9678_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_7f85_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_7f85_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_7f85_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_7f85_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_7f85_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_99f1_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_99f1_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_luo_99f1_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ma_99ac_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ma_99ac_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mao_6bdb_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_mao_6bdb_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_meng_5b5f_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_meng_5b5f_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_miao_82d7_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_miao_82d7_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_miao_82d7_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ni_502a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ouyang_6b50_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pan_6f58_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pan_6f58_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pan_6f58_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pan_6f58_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pan_6f58_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_17={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_pei_88f4_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_peng_5f6d_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qi_621a_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qi_7941_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qian_9322_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qian_9322_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qian_9322_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qian_9322_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qingyang_9752_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qiu_4ec7_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ren_4efb_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ren_4efb_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ren_4efb_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ren_4efb_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_ruan_962e_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_rui_82ae_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sang_6851_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shan_55ae_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shang_5c1a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shangguan_4e0a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shao_90b5_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shao_90b5_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shao_90b5_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_she_6298_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shen_6c88_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shen_6c88_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shen_6c88_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shen_6c88_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_53f2_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_53f2_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_53f2_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_53f2_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_65bd_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_6642_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shi_77f3_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shiqi_4f8d_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shu_675f_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_shu_8212_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sikong_53f8_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sima_53f8_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sima_53f8_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_song_5b8b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_song_5b8b_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_song_5b8b_25={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_8607_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_8607_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_8607_15={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_8607_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_8607_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_20={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_36={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_42={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5b6b_56={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tan_6a80_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tan_8b5a_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tang_5510_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tang_5510_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tang_5510_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tang_6e6f_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tang_6e6f_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_tao_9676_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_teng_6ed5_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_teng_6ed5_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_teng_6ed5_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_6c6a_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_6c6a_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_6c6a_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_106={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_11={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_118={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_119={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738b_123={
+	423.7.6 = { change_development_level = 0 }
 }
-k_marcomanni={
-	361.1.1 = { holder = old_marcomanni_01 }
+c_nf_wang_738b_126={
+	423.7.6 = { change_development_level = 0 }
 }
-k_vandals={
-	418.1.1 = { holder = vandals_002 }
+c_nf_wang_738b_129={
+	423.7.6 = { change_development_level = 0 }
 }
-d_silingi_vandals={
-	200.1.1 = { government = tribal_government }
-	417.1.1 = { holder = 0 }
+c_nf_wang_738b_136={
+	423.7.6 = { change_development_level = 0 }
 }
-d_hasdingi_vandals={
-	350.1.1 = { government = tribal_government }
-	406.1.1 = { holder = vandals_002 }
-	418.1.1 = { holder = 0 }
+c_nf_wang_738b_139={
+	423.7.6 = { change_development_level = 0 }
 }
-k_franks={
-	362.1.1 = { government = tribal_government }
-	415.1.1 = { holder = 997001 }
+c_nf_wang_738b_14={
+	423.7.6 = { change_development_level = 0 }
 }
-k_gepids={
-	350.1.1 = { holder = gepids_01 government = tribal_government }
+c_nf_wang_738b_140={
+	423.7.6 = { change_development_level = 0 }
 }
-k_visigoths={
-	395.1.17 = { government = tribal_government succession_laws = { gothic_elective_succession_law } }
-	415.8.15 = { holder = 200289 }
-	418.1.1 = { holder = 200287 }
+c_nf_wang_738b_150={
+	423.7.6 = { change_development_level = 0 }
 }
-d_visigoths={
-	200.1.1 = { government = tribal_government }
-	415.8.15 = { holder = 200289 }
+c_nf_wang_738b_152={
+	423.7.6 = { change_development_level = 0 }
 }
-d_ostrogoths={
-	351.1.1 = { government = tribal_government }
-	377.6.1 = { government = tribal_government }
-	405.1.1 = { holder = 0 }
+c_nf_wang_738b_157={
+	423.7.6 = { change_development_level = 0 }
 }
-d_burgundians={
-	360.1.1 = { government = tribal_government }
-	411.1.1 = { holder = 994002 }
+c_nf_wang_738b_16={
+	423.7.6 = { change_development_level = 0 }
 }
-d_lombards={
-	281.1.1 = { government = tribal_government }
-	380.1.1 = { holder = 993000 }
+c_nf_wang_738b_179={
+	423.7.6 = { change_development_level = 0 }
 }
-k_suebi={
-	400.1.1 = { government = tribal_government liege = 0 }
-	406.1.1 = { holder = quadi_04 }
+c_nf_wang_738b_19={
+	423.7.6 = { change_development_level = 0 }
 }
-k_antes={
-	335.1.1 = { holder = slavs_01 government = tribal_government }
+c_nf_wang_738b_207={
+	423.7.6 = { change_development_level = 0 }
 }
-d_rugians={
-	368.1.1 = { holder = rugian_01 }
+c_nf_wang_738b_214={
+	423.7.6 = { change_development_level = 0 }
 }
-k_varini={
-	361.1.1 = { government = tribal_government }
-	409.1.1 = { holder = varini_03 }
+c_nf_wang_738b_22={
+	423.7.6 = { change_development_level = 0 }
 }
-e_hunnic_empire={
-	350.1.1 = { government = nomad_government succession_laws = { hunnic_elective_succession_law } }
-	412.1.1 = { holder = 990002 }
+c_nf_wang_738b_223={
+	423.7.6 = { change_development_level = 0 }
 }
-k_noricum={
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_25={
+	423.7.6 = { change_development_level = 0 }
 }
-e_western_roman_empire={
-	286.4.1 = { succession_laws = { imperial_elective_succession_law } }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_250={
+	423.7.6 = { change_development_level = 0 }
 }
-k_britannia={
-	411.9.18 = { holder = 0 }
+c_nf_wang_738b_34={
+	423.7.6 = { change_development_level = 0 }
 }
-k_hispania={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_35={
+	423.7.6 = { change_development_level = 0 }
 }
-d_fes={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_37={
+	423.7.6 = { change_development_level = 0 }
 }
-k_septem_provinciae={
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_41={
+	423.7.6 = { change_development_level = 0 }
 }
-k_gallia={
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_5={
+	423.7.6 = { change_development_level = 0 }
 }
-d_germania_prima={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_50={
+	423.7.6 = { change_development_level = 0 }
 }
-d_lugdunensis_prima={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_51={
+	423.7.6 = { change_development_level = 0 }
 }
-d_lugdunensis_senonia={
-	361.1.1 = { change_development_level = 4 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_53={
+	423.7.6 = { change_development_level = 0 }
 }
-d_lugdunensis_tertia={
-	361.1.1 = { change_development_level = 4 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_59={
+	423.7.6 = { change_development_level = 0 }
 }
-k_pannonia={
-	394.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_6={
+	423.7.6 = { change_development_level = 0 }
 }
-d_pannonia_valeria={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_66={
+	423.7.6 = { change_development_level = 0 }
 }
-k_italia_annonariae={
-	286.4.1 = { succession_laws = { imperial_elective_succession_law } }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_68={
+	423.7.6 = { change_development_level = 0 }
 }
-k_sardinia={
-	361.1.1 = { change_development_level = 2 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_70={
+	423.7.6 = { change_development_level = 0 }
 }
-k_romagna={
-	361.1.1 = { change_development_level = 5 }
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_81={
+	423.7.6 = { change_development_level = 0 }
 }
-k_britannia_2={
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_93={
+	423.7.6 = { change_development_level = 0 }
 }
-k_gaull={
-	423.7.6 = { liege = 0 }
+c_nf_wang_738b_96={
+	423.7.6 = { change_development_level = 0 }
 }
-k_myrdidin={
-	423.7.6 = { holder = IRToCK3_head_of_faith_briton_pagan }
+c_nf_wang_738b_98={
+	423.7.6 = { change_development_level = 0 }
 }
-k_yuehban={
-	361.1.1 = { government = nomad_government }
-	395.1.1 = { holder = yueban_ruler_02 }
+c_nf_wei_5371_2={
+	423.7.6 = { change_development_level = 0 }
 }
-k_kidaria={
-	422.6.17 = { holder = xionite_018 }
+c_nf_wei_885b_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_perosi={
-	385.1.1 = { government = tribal_government }
+c_nf_wei_885b_5={
+	423.7.6 = { change_development_level = 0 }
 }
-d_bavares={
-	340.1.1 = { government = tribal_government }
-	415.1.1 = { holder = mauri_24 }
+c_nf_wei_97cb_11={
+	423.7.6 = { change_development_level = 0 }
 }
-d_eastbavares={
-	330.1.1 = { government = tribal_government }
-	405.1.1 = { holder = gaetuli_20 }
+c_nf_wei_97cb_13={
+	423.7.6 = { change_development_level = 0 }
 }
-d_baquates={
-	340.1.1 = { government = tribal_government }
-	415.1.1 = { holder = mauri_19 }
+c_nf_wei_97cb_2={
+	423.7.6 = { change_development_level = 0 }
 }
-k_lakhmid={
-	328.1.1 = { government = tribal_government }
-	418.1.1 = { holder = lakhmid_07 }
+c_nf_wei_97cb_4={
+	423.7.6 = { change_development_level = 0 }
 }
-e_red_sea={
-	423.7.6 = { liege = 0 }
+c_nf_wei_97cb_7={
+	423.7.6 = { change_development_level = 0 }
 }
-e_assyria={
-	423.7.6 = { liege = 0 }
+c_nf_wei_9b4f_2={
+	423.7.6 = { change_development_level = 0 }
 }
-e_illyria_pirate={
-	423.7.6 = { liege = 0 }
+c_nf_wei_9b4f_4={
+	423.7.6 = { change_development_level = 0 }
 }
-e_west_slavia={
-	423.7.6 = { liege = 0 }
+c_nf_wei_9b4f_6={
+	423.7.6 = { change_development_level = 0 }
 }
-k_poland={
-	423.7.6 = { liege = 0 }
+c_nf_wei_9b4f_9={
+	423.7.6 = { change_development_level = 0 }
 }
-k_galicia-volhynia={
-	361.1.1 = { change_development_level = 0 }
-	423.7.6 = { liege = 0 }
+c_nf_wen_6587_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_lechia={
-	423.7.6 = { liege = 0 }
+c_nf_wen_6eab_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_worms={
-	423.7.6 = { liege = 0 }
+c_nf_weng_7fc1_3={
+	423.7.6 = { change_development_level = 0 }
 }
-k_liang_east={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_1={
+	423.7.6 = { change_development_level = 0 }
 }
-e_hephthalite={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_13={
+	423.7.6 = { change_development_level = 0 }
 }
-k_nezak_hun={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_15={
+	423.7.6 = { change_development_level = 0 }
 }
-k_alchon_hun={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_19={
+	423.7.6 = { change_development_level = 0 }
 }
-k_tanukhids={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_21={
+	423.7.6 = { change_development_level = 0 }
 }
-e_plc={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_22={
+	423.7.6 = { change_development_level = 0 }
 }
-e_yugoslavia={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_26={
+	423.7.6 = { change_development_level = 0 }
 }
-k_serbia={
-	361.1.1 = { change_development_level = 3 }
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_28={
+	423.7.6 = { change_development_level = 0 }
 }
-d_rashka={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_29={
+	423.7.6 = { change_development_level = 0 }
 }
-k_bosnia={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_3={
+	423.7.6 = { change_development_level = 0 }
 }
-e_fennia={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_36={
+	423.7.6 = { change_development_level = 0 }
 }
-d_vainola={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_37={
+	423.7.6 = { change_development_level = 0 }
 }
-k_esthonia={
-	361.1.1 = { change_development_level = 0 }
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_46={
+	423.7.6 = { change_development_level = 0 }
 }
-d_luki={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_50={
+	423.7.6 = { change_development_level = 0 }
 }
-e_ugria={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_51={
+	423.7.6 = { change_development_level = 0 }
 }
-e_carthage={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_6={
+	423.7.6 = { change_development_level = 0 }
 }
-k_africae={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_62={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tahert={
-	395.5.19 = { liege = k_IRTOCK3_LEU holder = imperator184156 government = administrative_government succession_laws = { appointment_succession_law } }
+c_nf_wu_5433_67={
+	423.7.6 = { change_development_level = 0 }
 }
-d_alger={
-	361.1.1 = { change_development_level = 6 }
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_7={
+	423.7.6 = { change_development_level = 0 }
 }
-d_gabes={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5433_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_jerid={
-	423.7.6 = { liege = 0 }
+c_nf_wu_5deb_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_syrte={
-	423.7.6 = { liege = 0 }
+c_nf_wu_6b66_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_plock={
-	423.7.6 = { liege = 0 }
+c_nf_xi_5e2d_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_soissons={
-	423.7.6 = { liege = 0 }
+c_nf_xiang_5411_2={
+	423.7.6 = { change_development_level = 0 }
 }
-k_france_2={
-	423.7.6 = { liege = 0 }
+c_nf_xiang_5411_6={
+	423.7.6 = { change_development_level = 0 }
 }
-k_wusun={
-	423.7.6 = { liege = 0 }
+c_nf_xiao_856d_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_mediterranean_sea={
-	423.7.6 = { liege = 0 }
+c_nf_xiao_856d_10={
+	423.7.6 = { change_development_level = 0 }
 }
-k_toledo={
-	423.7.6 = { liege = 0 }
+c_nf_xiao_856d_11={
+	423.7.6 = { change_development_level = 0 }
 }
-e_kushan={
-	423.7.6 = { liege = 0 }
+c_nf_xiao_856d_14={
+	423.7.6 = { change_development_level = 0 }
 }
-k_bosporus={
-	423.7.6 = { liege = 0 }
+c_nf_xiao_856d_3={
+	423.7.6 = { change_development_level = 0 }
 }
-k_germania={
-	423.7.6 = { liege = 0 }
+c_nf_xie_8b1d_2={
+	423.7.6 = { change_development_level = 0 }
 }
-k_roman_dacia={
-	423.7.6 = { liege = 0 }
+c_nf_xie_8b1d_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_venedia={
-	423.7.6 = { liege = 0 }
+c_nf_xie_8b1d_4={
+	423.7.6 = { change_development_level = 0 }
 }
-k_slavs={
-	423.7.6 = { liege = 0 }
+c_nf_xie_8b1d_9={
+	423.7.6 = { change_development_level = 0 }
 }
-d_bug={
-	423.7.6 = { liege = 0 }
+c_nf_xin_8f9b_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_san={
-	423.7.6 = { liege = 0 }
+c_nf_xing_90a2_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_alpes_maritimae={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_12={
+	423.7.6 = { change_development_level = 0 }
 }
-d_metz={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_15={
+	423.7.6 = { change_development_level = 0 }
 }
-k_frankish_rheims={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_17={
+	423.7.6 = { change_development_level = 0 }
 }
-k_frankish_soissons={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_24={
+	423.7.6 = { change_development_level = 0 }
 }
-k_frankish_paris={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_26={
+	423.7.6 = { change_development_level = 0 }
 }
-k_frankish_orleans={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_32={
+	423.7.6 = { change_development_level = 0 }
 }
-k_mauro_roman_kingdom={
-	423.7.6 = { liege = 0 }
+c_nf_xu_5f90_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_target={
-	423.7.6 = { liege = 0 }
+c_nf_xu_8a31_10={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_target_tributary={
-	423.7.6 = { liege = 0 }
+c_nf_xu_8a31_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_target_suzerain={
-	423.7.6 = { liege = 0 }
+c_nf_xu_8a31_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_tributary_suzerain={
-	423.7.6 = { liege = 0 }
+c_nf_xu_8a31_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_tributary={
-	423.7.6 = { liege = 0 }
+c_nf_xuan_5ba3_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_suzerain={
-	423.7.6 = { liege = 0 }
+c_nf_xuan_5ba3_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_tributary_map_base={
-	423.7.6 = { liege = 0 }
+c_nf_xue_859b_19={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_valentinianus={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	375.11.17 = { holder = 0 }
+c_nf_xue_859b_5={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_iovianus={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	364.2.17 = { holder = 0 }
+c_nf_xue_859b_6={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_vettius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	388.1.3 = { holder = 0 }
+c_nf_xue_859b_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_procopius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
+c_nf_yan_664f_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_memmius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	373.1.1 = { holder = 0 }
+c_nf_yan_664f_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_gabinius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	409.1.1 = { holder = 0 }
+c_nf_yan_95bb_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_rufinus={
-	395.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	421.9.2 = { holder = 0 }
+c_nf_yan_95bb_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_ablabius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
+c_nf_yan_95bb_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_valerius={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	408.1.1 = { holder = 0 }
+c_nf_yang_694a_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_gaudentius={
-	395.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
+c_nf_yang_694a_12={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_constantius={
-	395.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	421.9.2 = { holder = 0 }
+c_nf_yang_694a_13={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_philippus={
-	361.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
+c_nf_yang_694a_24={
+	423.7.6 = { change_development_level = 0 }
 }
-d_nf_TFE_symmachus={
-	395.1.1 = { government = administrative_government succession_laws = { noble_family_succession_law } }
-	402.1.1 = { holder = 0 }
+c_nf_yang_694a_26={
+	423.7.6 = { change_development_level = 0 }
 }
-k_merv_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_27={
+	423.7.6 = { change_development_level = 0 }
 }
-k_ghur_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_30={
+	423.7.6 = { change_development_level = 0 }
 }
-k_herat_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_33={
+	423.7.6 = { change_development_level = 0 }
 }
-k_balkh_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_37={
+	423.7.6 = { change_development_level = 0 }
 }
-k_nasa_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_4={
+	423.7.6 = { change_development_level = 0 }
 }
-k_kohestan_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_43={
+	423.7.6 = { change_development_level = 0 }
 }
-k_badakhshan_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_55={
+	423.7.6 = { change_development_level = 0 }
 }
-k_khuttal_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_56={
+	423.7.6 = { change_development_level = 0 }
 }
-k_osrushana_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_6={
+	423.7.6 = { change_development_level = 0 }
 }
-k_ferghana_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_63={
+	423.7.6 = { change_development_level = 0 }
 }
-k_uzboy_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yang_694a_66={
+	423.7.6 = { change_development_level = 0 }
 }
-k_zabulistan_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yao_59da_13={
+	423.7.6 = { change_development_level = 0 }
 }
-k_syr_darya_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yao_59da_5={
+	423.7.6 = { change_development_level = 0 }
 }
-k_muyunkum_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yao_59da_9={
+	423.7.6 = { change_development_level = 0 }
 }
-k_talas_alatau_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yao_8981_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_sistan_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_ye_8449_13={
+	423.7.6 = { change_development_level = 0 }
 }
-k_aral_il_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yi_6613_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_transcaspiana_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yin_5c39_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_jemba_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_yin_6bb7_1={
+	423.7.6 = { change_development_level = 0 }
 }
-k_pamir_struggle={
-	423.7.6 = { liege = 0 }
+c_nf_you_5c24_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_nanaidhat_merchant={
-	361.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	409.4.3 = { holder = 0 }
+c_nf_you_6e38_7={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_charietto={
-	361.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	365.4.21 = { holder = 0 }
+c_nf_yu_4e8e_4={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_wahbel={
-	361.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	393.1.26 = { holder = 0 }
+c_nf_yu_4f59_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_moses_the_black_361={
-	361.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	370.1.1 = { holder = 0 }
+c_nf_yu_4fde_4={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_egeria={
-	395.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	420.4.27 = { holder = 0 }
+c_nf_yu_55bb_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_olympiodorus={
-	395.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	420.4.27 = { holder = 0 }
+c_nf_yu_5ebe_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_claudius_marius_victorius={
-	395.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	420.4.27 = { holder = 0 }
+c_nf_yu_865e_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_laamp_TFE_fravitta={
-	395.1.1 = { government = landless_adventurer_government liege = 0 succession_laws = { landless_adventurer_succession_law } }
-	404.1.1 = { holder = 0 }
+c_nf_yu_865e_4={
+	423.7.6 = { change_development_level = 0 }
 }
-d_belisarius_expedition={
-	100.1.1 = { holder = 0 }
+c_nf_yuan_5143_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_cult_of_humban={
-	1.1.1 = { government = theocracy_government }
+c_nf_yuan_5143_6={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_base={
-	423.7.6 = { liege = 0 }
+c_nf_yuan_8881_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_post={
-	423.7.6 = { liege = 0 }
+c_nf_yuan_8881_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_market={
-	423.7.6 = { liege = 0 }
+c_nf_yuan_8881_6={
+	423.7.6 = { change_development_level = 0 }
 }
-d_trade={
-	423.7.6 = { liege = 0 }
+c_nf_zeng_66fe_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_cloth={
-	423.7.6 = { liege = 0 }
+c_nf_zeng_66fe_10={
+	423.7.6 = { change_development_level = 0 }
 }
-d_fur={
-	423.7.6 = { liege = 0 }
+c_nf_zeng_66fe_5={
+	423.7.6 = { change_development_level = 0 }
 }
-d_copper={
-	423.7.6 = { liege = 0 }
+c_nf_zeng_66fe_8={
+	423.7.6 = { change_development_level = 0 }
 }
-d_iron={
-	423.7.6 = { liege = 0 }
+c_nf_zhai_7fdf_3={
+	423.7.6 = { change_development_level = 0 }
 }
-d_salt={
-	423.7.6 = { liege = 0 }
+c_nf_zhan_8a79_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_wine={
-	423.7.6 = { liege = 0 }
+c_nf_zhan_8a79_7={
+	423.7.6 = { change_development_level = 0 }
 }
-d_wool={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_1={
+	423.7.6 = { change_development_level = 0 }
 }
-d_leather={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_107={
+	423.7.6 = { change_development_level = 0 }
 }
-d_stone={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_120={
+	423.7.6 = { change_development_level = 0 }
 }
-d_wood={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_138={
+	423.7.6 = { change_development_level = 0 }
 }
-d_marble={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_141={
+	423.7.6 = { change_development_level = 0 }
 }
-d_glass={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_146={
+	423.7.6 = { change_development_level = 0 }
 }
-d_dyes={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_150={
+	423.7.6 = { change_development_level = 0 }
 }
-d_silk={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_165={
+	423.7.6 = { change_development_level = 0 }
 }
-d_cotton={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_177={
+	423.7.6 = { change_development_level = 0 }
 }
-d_amber={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_19={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_base_color={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_2={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_color_majority={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_20={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_color_majority_shared_hof={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_22={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_color_large_minority={
-	423.7.6 = { liege = 0 }
+c_nf_zhang_5f35_24={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_32={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_33={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_34={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_45={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_48={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_56={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_58={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_62={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_67={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_71={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_83={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_84={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_88={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_89={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_92={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_95={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5f35_99={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_7ae0_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_101={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_114={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_119={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_122={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_130={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_146={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_152={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_16={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_164={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_165={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_168={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_170={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_185={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_19={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_3={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_31={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_32={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_34={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_36={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_41={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_43={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_5={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_52={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_55={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_58={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_63={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_65={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_74={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_76={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_82={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_84={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_85={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_89={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_92={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_96={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8d99_99={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674E_zhuye={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_25={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_37={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_52={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_67={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_73={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912d_74={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhi_652f_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_18={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_19={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_21={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_23={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_35={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_36={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_6={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_10={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_12={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_14={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_23={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_26={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_27={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_38={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_8={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_6731_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_795d_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhu_7afa_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhuge_8af8_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zong_5b97_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zou_9112_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zu_7956_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zuo_5de6_2={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9EC4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_su_82CF={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_5362={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_qin_79E6_4={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5F35_201={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_han_97D3_42={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xie_8C22_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_lu_8DEF_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_xu_5F90_52={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yang_694A_89={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cao_66F9_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_cui_5D14_85={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_jiang_848B_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738B_296={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_hu_80E1_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_guo_90ED_39={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_sun_5B6B_75={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_fu_5085_9={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_huang_9EC3_28={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhao_8D99_156={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738B_121={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_new_noble_dynasty={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhou_5468_27={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674E_999={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zheng_912D_117={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_wang_738B_130={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_li_674E_30={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_linghu_4EE4_1={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_zhang_5F35_13={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_kong_5B54_7={
+	423.7.6 = { change_development_level = 0 }
+}
+c_nf_yu_4E8E_11={
+	423.7.6 = { change_development_level = 0 }
 }
-d_map_color_small_minority={
+e_goryeo={
 	423.7.6 = { liege = 0 }
 }
-d_siro_map_base={
+e_nusantara={
 	423.7.6 = { liege = 0 }
 }
 e_IRTOCK3_BAC={
@@ -1611,37 +4570,6 @@ d_IRTOCK3_TBC={
 	-170.3.8 = { holder = imperator93622 government = nomad_government }
 	386.6.1 = { holder = imperator193204 government = nomad_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
-}
-e_IRTOCK3_PRN={
-	-304.10.1 = { holder = imperator22023 government = nomad_government }
-	-245.12.14 = { holder = imperator22069 government = nomad_government }
-	-231.8.29 = { holder = imperator66008 government = feudal_government }
-	-203.9.18 = { holder = imperator74067 government = feudal_government }
-	-158.11.28 = { holder = imperator81075 government = feudal_government }
-	-156.1.11 = { holder = imperator96989 government = feudal_government }
-	-101.12.15 = { holder = imperator108563 government = feudal_government }
-	-40.10.2 = { holder = imperator111940 government = administrative_government }
-	-39.3.31 = { holder = imperator118505 government = administrative_government }
-	-33.6.6 = { holder = imperator121078 government = administrative_government }
-	-23.9.13 = { holder = imperator121372 government = administrative_government }
-	-2.10.8 = { holder = imperator122053 government = administrative_government }
-	7.11.14 = { holder = imperator127522 government = administrative_government }
-	43.11.23 = { holder = imperator131515 government = administrative_government }
-	58.7.14 = { holder = imperator135785 government = administrative_government }
-	118.3.6 = { holder = imperator138785 government = administrative_government }
-	144.4.6 = { holder = imperator144076 government = administrative_government }
-	188.5.20 = { holder = imperator148847 government = administrative_government }
-	226.4.18 = { holder = imperator149807 government = administrative_government }
-	233.1.16 = { holder = imperator154051 government = administrative_government }
-	255.2.24 = { holder = imperator157900 government = administrative_government }
-	267.10.18 = { holder = imperator163441 government = administrative_government }
-	277.8.29 = { holder = imperator167284 government = administrative_government }
-	279.11.5 = { holder = imperator167906 government = administrative_government }
-	309.5.11 = { holder = imperator170728 government = administrative_government }
-	356.4.29 = { holder = imperator177495 government = administrative_government }
-	390.6.22 = { holder = imperator193916 government = feudal_government }
-	415.10.5 = { holder = imperator200628 government = feudal_government }
-	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
 }
 d_IRTOCK3_SCI={
 	-304.10.1 = { holder = imperator22655 government = nomad_government }
@@ -1747,7 +4675,7 @@ d_IRTOCK3_HEV={
 	419.4.9 = { holder = imperator191894 government = nomad_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
 }
-e_IRTOCK3_BDI={
+h_IRTOCK3_BDI={
 	-304.10.1 = { holder = imperator27952 government = nomad_government }
 	-247.5.22 = { holder = imperator27992 government = nomad_government }
 	-239.5.12 = { holder = imperator48087 government = nomad_government }
@@ -1785,7 +4713,7 @@ e_IRTOCK3_BDI={
 				exists = holder
 				holder = { has_government = administrative_government }
 			}
-			set_state_faith = faith:arianism
+			set_state_faith = faith:orthodox
 		}
 	} succession_laws = { equal_law acclamation_succession_law } }
 }
@@ -1863,101 +4791,101 @@ d_IRTOCK3_AX3={
 }
 e_IRTOCK3_B99={
 	-239.3.1 = { holder = imperator70564 }
-	-237.9.27 = { holder = imperator49776 government = city_state_government }
-	-229.6.23 = { holder = imperator63379 government = city_state_government }
-	-224.6.23 = { holder = imperator59864 government = city_state_government }
-	-219.6.23 = { holder = imperator45829 government = city_state_government }
-	-216.9.20 = { holder = imperator53506 government = city_state_government }
-	-211.9.20 = { holder = imperator49776 government = city_state_government }
-	-206.9.20 = { holder = imperator71068 government = city_state_government }
-	-201.9.20 = { holder = imperator70306 government = city_state_government }
-	-196.9.20 = { holder = imperator59864 government = city_state_government }
-	-192.4.15 = { holder = imperator63891 government = city_state_government }
-	-187.4.15 = { holder = imperator75328 government = city_state_government }
-	-182.4.15 = { holder = imperator77865 government = city_state_government }
-	-177.4.15 = { holder = imperator70306 government = city_state_government }
-	-172.4.15 = { holder = imperator73554 government = city_state_government }
-	-167.4.15 = { holder = imperator75328 government = city_state_government }
-	-162.4.15 = { holder = imperator79457 government = city_state_government }
-	-157.4.15 = { holder = imperator75988 government = city_state_government }
-	-154.9.29 = { holder = imperator77417 government = city_state_government }
-	-149.9.29 = { holder = imperator95646 government = city_state_government }
-	-144.9.29 = { holder = imperator79457 government = city_state_government }
-	-139.9.29 = { holder = imperator81443 government = city_state_government }
-	-134.9.29 = { holder = imperator95985 government = city_state_government }
-	-129.9.29 = { holder = imperator86355 government = city_state_government }
-	-124.9.29 = { holder = imperator95643 government = city_state_government }
-	-119.9.29 = { holder = imperator101752 government = city_state_government }
-	-114.9.29 = { holder = imperator98646 government = city_state_government }
-	-109.9.29 = { holder = imperator103853 government = city_state_government }
-	-104.9.29 = { holder = imperator95643 government = city_state_government }
-	-99.9.29 = { holder = imperator101752 government = city_state_government }
-	-94.9.29 = { holder = imperator98646 government = city_state_government }
-	-89.9.29 = { holder = imperator103853 government = city_state_government }
-	-84.9.29 = { holder = imperator106816 government = city_state_government }
-	-79.9.29 = { holder = imperator105971 government = city_state_government }
-	-74.9.29 = { holder = imperator108712 government = city_state_government }
-	-69.9.29 = { holder = imperator109608 government = city_state_government }
-	-65.4.19 = { holder = imperator104064 government = city_state_government }
-	-60.1.29 = { holder = imperator105971 government = city_state_government }
-	-55.1.29 = { holder = imperator108712 government = city_state_government }
-	-50.1.29 = { holder = imperator107489 government = city_state_government }
-	-45.1.29 = { holder = imperator108070 government = city_state_government }
-	-40.1.29 = { holder = imperator110913 government = city_state_government }
-	-35.1.29 = { holder = imperator117669 government = city_state_government }
-	-33.8.13 = { holder = imperator121115 government = city_state_government }
-	-28.8.13 = { holder = imperator114347 government = city_state_government }
-	-23.8.13 = { holder = imperator119494 government = city_state_government }
-	-18.8.13 = { holder = imperator119941 government = city_state_government }
-	-13.8.13 = { holder = imperator121392 government = city_state_government }
-	-8.8.13 = { holder = imperator114347 government = city_state_government }
-	-3.8.13 = { holder = imperator122267 government = city_state_government }
-	3.8.13 = { holder = imperator119941 government = city_state_government }
-	8.8.13 = { holder = imperator121392 government = city_state_government }
-	13.8.13 = { holder = imperator126532 government = city_state_government }
-	18.8.13 = { holder = imperator122267 government = city_state_government }
-	23.8.13 = { holder = imperator122481 government = city_state_government }
-	28.8.13 = { holder = imperator125101 government = city_state_government }
-	33.8.13 = { holder = imperator125023 government = city_state_government }
-	38.8.13 = { holder = imperator126865 government = city_state_government }
-	43.8.13 = { holder = imperator131575 government = city_state_government }
-	48.8.13 = { holder = imperator130589 government = city_state_government }
-	53.8.13 = { holder = imperator129653 government = city_state_government }
-	58.8.13 = { holder = imperator132316 government = city_state_government }
-	63.8.13 = { holder = imperator129602 government = city_state_government }
-	68.8.13 = { holder = imperator130589 government = city_state_government }
-	73.8.13 = { holder = imperator129653 government = city_state_government }
-	78.8.13 = { holder = imperator132316 government = city_state_government }
-	83.8.13 = { holder = imperator135968 government = city_state_government }
-	88.8.13 = { holder = imperator135769 government = city_state_government }
-	93.8.13 = { holder = imperator134068 government = city_state_government }
-	98.8.13 = { holder = imperator134974 government = city_state_government }
-	103.8.13 = { holder = imperator135968 government = city_state_government }
-	108.8.13 = { holder = imperator139402 government = city_state_government }
-	113.8.13 = { holder = imperator138968 government = city_state_government }
-	118.8.13 = { holder = imperator137179 government = city_state_government }
-	122.9.20 = { holder = imperator140067 government = city_state_government }
-	127.1.10 = { holder = imperator139402 government = city_state_government }
-	132.1.10 = { holder = imperator142541 government = city_state_government }
-	137.1.10 = { holder = imperator143136 government = city_state_government }
-	142.1.10 = { holder = imperator143012 government = city_state_government }
-	144.7.10 = { holder = imperator144450 government = city_state_government }
-	146.7.10 = { holder = imperator145962 government = city_state_government }
-	148.7.10 = { holder = imperator142541 government = city_state_government }
-	150.7.10 = { holder = imperator143230 government = city_state_government }
-	152.7.10 = { holder = imperator144759 government = city_state_government }
-	154.7.10 = { holder = imperator146974 government = city_state_government }
-	159.7.10 = { holder = imperator143012 government = city_state_government }
-	164.7.10 = { holder = imperator143230 government = city_state_government }
-	169.7.10 = { holder = imperator144759 government = city_state_government }
-	174.7.10 = { holder = imperator145031 government = city_state_government }
-	179.7.10 = { holder = imperator149804 government = city_state_government }
-	184.7.10 = { holder = imperator145415 government = city_state_government }
-	189.7.10 = { holder = imperator147794 government = city_state_government }
-	194.7.10 = { holder = imperator147669 government = city_state_government }
-	199.7.10 = { holder = imperator156115 government = city_state_government }
-	204.7.10 = { holder = imperator151112 government = city_state_government }
-	209.7.10 = { holder = imperator149988 government = city_state_government }
+	-237.9.27 = { holder = imperator49776 government = republic_government }
+	-229.6.23 = { holder = imperator63379 government = republic_government }
+	-224.6.23 = { holder = imperator59864 government = republic_government }
+	-219.6.23 = { holder = imperator45829 government = republic_government }
+	-216.9.20 = { holder = imperator53506 government = republic_government }
+	-211.9.20 = { holder = imperator49776 government = republic_government }
+	-206.9.20 = { holder = imperator71068 government = republic_government }
+	-201.9.20 = { holder = imperator70306 government = republic_government }
+	-196.9.20 = { holder = imperator59864 government = republic_government }
+	-192.4.15 = { holder = imperator63891 government = republic_government }
+	-187.4.15 = { holder = imperator75328 government = republic_government }
+	-182.4.15 = { holder = imperator77865 government = republic_government }
+	-177.4.15 = { holder = imperator70306 government = republic_government }
+	-172.4.15 = { holder = imperator73554 government = republic_government }
+	-167.4.15 = { holder = imperator75328 government = republic_government }
+	-162.4.15 = { holder = imperator79457 government = republic_government }
+	-157.4.15 = { holder = imperator75988 government = republic_government }
+	-154.9.29 = { holder = imperator77417 government = republic_government }
+	-149.9.29 = { holder = imperator95646 government = republic_government }
+	-144.9.29 = { holder = imperator79457 government = republic_government }
+	-139.9.29 = { holder = imperator81443 government = republic_government }
+	-134.9.29 = { holder = imperator95985 government = republic_government }
+	-129.9.29 = { holder = imperator86355 government = republic_government }
+	-124.9.29 = { holder = imperator95643 government = republic_government }
+	-119.9.29 = { holder = imperator101752 government = republic_government }
+	-114.9.29 = { holder = imperator98646 government = republic_government }
+	-109.9.29 = { holder = imperator103853 government = republic_government }
+	-104.9.29 = { holder = imperator95643 government = republic_government }
+	-99.9.29 = { holder = imperator101752 government = republic_government }
+	-94.9.29 = { holder = imperator98646 government = republic_government }
+	-89.9.29 = { holder = imperator103853 government = republic_government }
+	-84.9.29 = { holder = imperator106816 government = republic_government }
+	-79.9.29 = { holder = imperator105971 government = republic_government }
+	-74.9.29 = { holder = imperator108712 government = republic_government }
+	-69.9.29 = { holder = imperator109608 government = republic_government }
+	-65.4.19 = { holder = imperator104064 government = republic_government }
+	-60.1.29 = { holder = imperator105971 government = republic_government }
+	-55.1.29 = { holder = imperator108712 government = republic_government }
+	-50.1.29 = { holder = imperator107489 government = republic_government }
+	-45.1.29 = { holder = imperator108070 government = republic_government }
+	-40.1.29 = { holder = imperator110913 government = republic_government }
+	-35.1.29 = { holder = imperator117669 government = republic_government }
+	-33.8.13 = { holder = imperator121115 government = republic_government }
+	-28.8.13 = { holder = imperator114347 government = republic_government }
+	-23.8.13 = { holder = imperator119494 government = republic_government }
+	-18.8.13 = { holder = imperator119941 government = republic_government }
+	-13.8.13 = { holder = imperator121392 government = republic_government }
+	-8.8.13 = { holder = imperator114347 government = republic_government }
+	-3.8.13 = { holder = imperator122267 government = republic_government }
+	3.8.13 = { holder = imperator119941 government = republic_government }
+	8.8.13 = { holder = imperator121392 government = republic_government }
+	13.8.13 = { holder = imperator126532 government = republic_government }
+	18.8.13 = { holder = imperator122267 government = republic_government }
+	23.8.13 = { holder = imperator122481 government = republic_government }
+	28.8.13 = { holder = imperator125101 government = republic_government }
+	33.8.13 = { holder = imperator125023 government = republic_government }
+	38.8.13 = { holder = imperator126865 government = republic_government }
+	43.8.13 = { holder = imperator131575 government = republic_government }
+	48.8.13 = { holder = imperator130589 government = republic_government }
+	53.8.13 = { holder = imperator129653 government = republic_government }
+	58.8.13 = { holder = imperator132316 government = republic_government }
+	63.8.13 = { holder = imperator129602 government = republic_government }
+	68.8.13 = { holder = imperator130589 government = republic_government }
+	73.8.13 = { holder = imperator129653 government = republic_government }
+	78.8.13 = { holder = imperator132316 government = republic_government }
+	83.8.13 = { holder = imperator135968 government = republic_government }
+	88.8.13 = { holder = imperator135769 government = republic_government }
+	93.8.13 = { holder = imperator134068 government = republic_government }
+	98.8.13 = { holder = imperator134974 government = republic_government }
+	103.8.13 = { holder = imperator135968 government = republic_government }
+	108.8.13 = { holder = imperator139402 government = republic_government }
+	113.8.13 = { holder = imperator138968 government = republic_government }
+	118.8.13 = { holder = imperator137179 government = republic_government }
+	122.9.20 = { holder = imperator140067 government = republic_government }
+	127.1.10 = { holder = imperator139402 government = republic_government }
+	132.1.10 = { holder = imperator142541 government = republic_government }
+	137.1.10 = { holder = imperator143136 government = republic_government }
+	142.1.10 = { holder = imperator143012 government = republic_government }
+	144.7.10 = { holder = imperator144450 government = republic_government }
+	146.7.10 = { holder = imperator145962 government = republic_government }
+	148.7.10 = { holder = imperator142541 government = republic_government }
+	150.7.10 = { holder = imperator143230 government = republic_government }
+	152.7.10 = { holder = imperator144759 government = republic_government }
+	154.7.10 = { holder = imperator146974 government = republic_government }
+	159.7.10 = { holder = imperator143012 government = republic_government }
+	164.7.10 = { holder = imperator143230 government = republic_government }
+	169.7.10 = { holder = imperator144759 government = republic_government }
+	174.7.10 = { holder = imperator145031 government = republic_government }
+	179.7.10 = { holder = imperator149804 government = republic_government }
+	184.7.10 = { holder = imperator145415 government = republic_government }
+	189.7.10 = { holder = imperator147794 government = republic_government }
+	194.7.10 = { holder = imperator147669 government = republic_government }
+	199.7.10 = { holder = imperator156115 government = republic_government }
+	204.7.10 = { holder = imperator151112 government = republic_government }
+	209.7.10 = { holder = imperator149988 government = republic_government }
 	235.10.11 = { holder = imperator156828 government = feudal_government }
 	268.3.31 = { holder = imperator162538 government = feudal_government }
 	313.8.6 = { holder = imperator167926 government = feudal_government }
@@ -2026,7 +4954,7 @@ d_IRTOCK3_F38={
 }
 d_IRTOCK3_G50={
 	-14.5.5 = { holder = imperator126681 government = republic_government }
-	421.11.1 = { holder = imperator203275 government = city_state_government }
+	421.11.1 = { holder = imperator203275 government = republic_government }
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
 d_IRTOCK3_H39={
@@ -2349,14 +5277,6 @@ d_IRTOCK3_H44={
 	422.7.9 = { holder = imperator192376 government = theocracy_government }
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
-k_IRTOCK3_I28={
-	176.3.1 = { holder = imperator153085 government = feudal_government }
-	355.6.1 = { holder = imperator185022 government = feudal_government }
-	377.9.1 = { holder = imperator190753 government = feudal_government }
-	419.12.11 = { holder = imperator191160 government = feudal_government }
-	423.2.20 = { holder = imperator199909 government = feudal_government }
-	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
-}
 k_IRTOCK3_I46={
 	189.11.24 = { holder = imperator155391 government = feudal_government }
 	234.2.20 = { holder = imperator155399 government = feudal_government }
@@ -2478,14 +5398,6 @@ d_IRTOCK3_I49={
 	411.10.28 = { holder = imperator200228 government = nomad_government }
 	419.6.2 = { holder = imperator202441 government = nomad_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
-}
-k_IRTOCK3_I81={
-	221.3.1 = { holder = imperator150556 government = feudal_government }
-	221.12.21 = { holder = imperator160770 government = feudal_government }
-	367.5.1 = { holder = imperator188281 government = feudal_government }
-	403.8.1 = { holder = imperator197935 government = feudal_government }
-	412.7.6 = { holder = imperator199418 government = feudal_government }
-	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_IRTOCK3_J40={
 	282.1.25 = { holder = imperator170451 government = tribal_government }
@@ -2663,6 +5575,11 @@ d_IRTOCK3_L29={
 	416.12.26 = { holder = imperator201630 government = nomad_government }
 	423.7.6 = { succession_laws = { high_partition_succession_law } }
 }
+k_IRTOCK3_L41={
+	418.2.1 = { holder = imperator202179 government = feudal_government }
+	421.4.14 = { holder = imperator202189 government = feudal_government }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
 d_IRTOCK3_L49={
 	421.4.1 = { holder = imperator203104 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
@@ -2703,6 +5620,110 @@ d_IRTOCK3_M52={
 	423.6.1 = { holder = imperator207042 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+e_IRTOCK3_ATH={
+	-304.10.1 = { holder = imperator159 government = republic_government }
+	-299.10.1 = { holder = imperator218 government = republic_government }
+	-294.10.1 = { holder = imperator107 government = republic_government }
+	-289.10.1 = { holder = imperator391 government = republic_government }
+	-284.10.1 = { holder = imperator524 government = republic_government }
+	-274.10.1 = { holder = imperator107 government = republic_government }
+	-264.10.1 = { holder = imperator52915 government = republic_government }
+	-254.10.1 = { holder = imperator52910 government = republic_government }
+	-244.10.1 = { holder = imperator539 government = republic_government }
+	-234.10.1 = { holder = imperator52915 government = republic_government }
+	-229.12.30 = { holder = imperator60207 government = republic_government }
+	-219.12.30 = { holder = imperator67707 government = republic_government }
+	-209.12.30 = { holder = imperator65780 government = republic_government }
+	-200.5.17 = { holder = imperator58145 government = republic_government }
+	-191.1.21 = { holder = imperator60207 government = republic_government }
+	-189.9.28 = { holder = imperator74392 government = republic_government }
+	-179.9.28 = { holder = imperator70108 government = republic_government }
+	-169.9.28 = { holder = imperator89216 government = republic_government }
+	-159.9.28 = { holder = imperator86615 government = republic_government }
+	-149.9.28 = { holder = imperator85127 government = republic_government }
+	-139.2.8 = { holder = imperator92552 government = republic_government }
+	-129.2.8 = { holder = imperator86615 government = republic_government }
+	-119.2.8 = { holder = imperator98418 government = republic_government }
+	-109.2.8 = { holder = imperator95558 government = republic_government }
+	-99.2.8 = { holder = imperator93540 government = republic_government }
+	-97.8.14 = { holder = imperator101095 government = republic_government }
+	-89.1.7 = { holder = imperator99745 government = republic_government }
+	-79.1.7 = { holder = imperator103777 government = republic_government }
+	-69.1.7 = { holder = imperator113255 government = republic_government }
+	-64.1.7 = { holder = imperator110031 government = republic_government }
+	-59.1.7 = { holder = imperator111386 government = republic_government }
+	-54.1.7 = { holder = imperator119003 government = republic_government }
+	-49.1.7 = { holder = imperator111892 government = republic_government }
+	-44.1.7 = { holder = imperator113255 government = republic_government }
+	-39.1.7 = { holder = imperator114727 government = republic_government }
+	-34.1.7 = { holder = imperator119003 government = republic_government }
+	-29.1.7 = { holder = imperator111892 government = republic_government }
+	-26.2.5 = { holder = imperator120067 government = republic_government }
+	-21.2.5 = { holder = imperator118840 government = republic_government }
+	-16.2.5 = { holder = imperator114727 government = republic_government }
+	-11.2.5 = { holder = imperator123716 government = republic_government }
+	-6.2.5 = { holder = imperator123380 government = republic_government }
+	-1.2.5 = { holder = imperator125369 government = republic_government }
+	5.2.5 = { holder = imperator124095 government = republic_government }
+	10.2.5 = { holder = imperator124751 government = republic_government }
+	15.2.5 = { holder = imperator128263 government = republic_government }
+	20.2.5 = { holder = imperator124945 government = republic_government }
+	25.2.5 = { holder = imperator128694 government = republic_government }
+	30.2.5 = { holder = imperator127539 government = theocracy_government }
+	35.2.5 = { holder = imperator129132 government = theocracy_government }
+	40.2.5 = { holder = imperator124945 government = theocracy_government }
+	45.2.5 = { holder = imperator128694 government = theocracy_government }
+	46.4.6 = { holder = imperator127539 government = theocracy_government }
+	51.4.6 = { holder = imperator129132 government = theocracy_government }
+	56.4.6 = { holder = imperator134088 government = theocracy_government }
+	61.4.6 = { holder = imperator133763 government = theocracy_government }
+	66.4.6 = { holder = imperator136338 government = theocracy_government }
+	71.4.6 = { holder = imperator136812 government = theocracy_government }
+	72.11.11 = { holder = imperator136712 government = theocracy_government }
+	77.11.11 = { holder = imperator133763 government = theocracy_government }
+	82.11.11 = { holder = imperator136209 government = theocracy_government }
+	87.11.11 = { holder = imperator137287 government = theocracy_government }
+	92.11.11 = { holder = imperator134225 government = theocracy_government }
+	97.11.11 = { holder = imperator136540 government = theocracy_government }
+	102.11.11 = { holder = imperator140021 government = theocracy_government }
+	107.11.11 = { holder = imperator137287 government = theocracy_government }
+	112.11.11 = { holder = imperator140853 government = theocracy_government }
+	117.11.11 = { holder = imperator136540 government = theocracy_government }
+	120.7.17 = { holder = imperator140021 government = theocracy_government }
+	125.7.17 = { holder = imperator138949 government = theocracy_government }
+	130.7.17 = { holder = imperator140657 government = theocracy_government }
+	135.7.17 = { holder = imperator143620 government = theocracy_government }
+	140.7.17 = { holder = imperator142537 government = theocracy_government }
+	152.2.18 = { holder = imperator143620 government = theocracy_government }
+	160.2.9 = { holder = imperator144162 government = theocracy_government }
+	165.2.9 = { holder = imperator149188 government = theocracy_government }
+	170.2.9 = { holder = imperator144739 government = theocracy_government }
+	175.2.9 = { holder = imperator147936 government = theocracy_government }
+	180.2.9 = { holder = imperator144162 government = theocracy_government }
+	184.6.13 = { holder = imperator149188 government = theocracy_government }
+	189.6.13 = { holder = imperator148661 government = theocracy_government }
+	194.6.13 = { holder = imperator149413 government = theocracy_government }
+	199.6.13 = { holder = imperator148443 government = theocracy_government }
+	204.6.13 = { holder = imperator149188 government = theocracy_government }
+	208.3.17 = { holder = imperator154543 government = administrative_government }
+	256.1.9 = { holder = imperator160073 government = administrative_government }
+	294.1.21 = { holder = imperator163502 government = administrative_government }
+	314.6.3 = { holder = imperator164248 government = administrative_government }
+	322.10.11 = { holder = imperator173954 government = administrative_government }
+	381.4.15 = { holder = imperator179922 government = administrative_government }
+	383.10.30 = { holder = imperator182223 government = administrative_government }
+	417.1.6 = { holder = imperator194255 government = administrative_government }
+	423.5.22 = { liege = h_IRTOCK3_BDI }
+	423.7.6 = { effect = 	{
+		if = {
+			limit = {
+				exists = holder
+				holder = { has_government = administrative_government }
+			}
+			set_state_faith = faith:orthodox
+		}
+	} succession_laws = { male_only_law acclamation_succession_law } }
+}
 d_IRTOCK3_F66={
 	-84.1.28 = { holder = imperator114616 government = feudal_government liege = e_IRTOCK3_SYR }
 	-36.2.13 = { holder = imperator114595 government = theocracy_government }
@@ -2732,198 +5753,6 @@ d_IRTOCK3_F66={
 	408.1.7 = { holder = imperator182018 government = theocracy_government }
 	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
 }
-k_IRTOCK3_G17={
-	-43.2.3 = { holder = imperator122107 government = feudal_government liege = e_IRTOCK3_SYR }
-	-38.2.3 = { holder = imperator122083 government = republic_government }
-	-33.2.3 = { holder = imperator122084 government = republic_government }
-	-28.2.3 = { holder = imperator122087 government = republic_government }
-	-23.2.3 = { holder = imperator122085 government = republic_government }
-	-18.2.3 = { holder = imperator122086 government = theocracy_government }
-	-13.2.3 = { holder = imperator122084 government = theocracy_government }
-	-8.2.3 = { holder = imperator122811 government = theocracy_government }
-	-6.2.3 = { holder = imperator122085 government = theocracy_government }
-	-4.2.3 = { holder = imperator122100 government = theocracy_government }
-	-2.2.3 = { holder = imperator122086 government = theocracy_government }
-	1.2.3 = { holder = imperator122776 government = theocracy_government }
-	3.2.3 = { holder = imperator122812 government = theocracy_government }
-	5.2.3 = { holder = imperator122094 government = theocracy_government }
-	7.2.3 = { holder = imperator122811 government = theocracy_government }
-	9.2.3 = { holder = imperator124022 government = theocracy_government }
-	11.2.3 = { holder = imperator124740 government = theocracy_government }
-	13.2.3 = { holder = imperator129493 government = theocracy_government }
-	15.2.3 = { holder = imperator122776 government = theocracy_government }
-	17.2.3 = { holder = imperator122812 government = theocracy_government }
-	19.1.22 = { holder = imperator124728 government = theocracy_government }
-	21.1.22 = { holder = imperator122811 government = theocracy_government }
-	22.12.21 = { holder = imperator124022 government = theocracy_government }
-	24.12.21 = { holder = imperator124740 government = theocracy_government }
-	26.12.13 = { holder = imperator129493 government = theocracy_government }
-	28.12.13 = { holder = imperator122776 government = theocracy_government }
-	30.12.13 = { holder = imperator127577 government = theocracy_government }
-	32.12.13 = { holder = imperator130387 government = theocracy_government }
-	34.12.13 = { holder = imperator124728 government = theocracy_government }
-	36.12.13 = { holder = imperator124022 government = theocracy_government }
-	37.6.21 = { holder = imperator130856 government = theocracy_government }
-	39.6.21 = { holder = imperator129493 government = theocracy_government }
-	41.6.21 = { holder = imperator134553 government = theocracy_government }
-	43.6.21 = { holder = imperator127577 government = theocracy_government }
-	45.6.21 = { holder = imperator130387 government = theocracy_government }
-	47.6.21 = { holder = imperator124728 government = theocracy_government }
-	48.10.31 = { holder = imperator130671 government = theocracy_government }
-	50.10.31 = { holder = imperator130856 government = theocracy_government }
-	52.10.31 = { holder = imperator134945 government = theocracy_government }
-	54.10.31 = { holder = imperator137381 government = theocracy_government }
-	56.10.31 = { holder = imperator127577 government = theocracy_government }
-	58.10.31 = { holder = imperator134943 government = theocracy_government }
-	60.10.31 = { holder = imperator133203 government = theocracy_government }
-	62.10.31 = { holder = imperator130671 government = theocracy_government }
-	64.10.31 = { holder = imperator132475 government = theocracy_government }
-	66.10.31 = { holder = imperator134945 government = theocracy_government }
-	68.10.31 = { holder = imperator137381 government = theocracy_government }
-	70.10.31 = { holder = imperator132227 government = theocracy_government }
-	72.10.31 = { holder = imperator137383 government = theocracy_government }
-	74.10.31 = { holder = imperator130765 government = theocracy_government }
-	76.10.31 = { holder = imperator130671 government = theocracy_government }
-	78.10.31 = { holder = imperator132475 government = theocracy_government }
-	80.10.31 = { holder = imperator134945 government = theocracy_government }
-	82.10.31 = { holder = imperator132839 government = theocracy_government }
-	84.10.31 = { holder = imperator132227 government = theocracy_government }
-	86.10.31 = { holder = imperator134944 government = theocracy_government }
-	88.10.31 = { holder = imperator135885 government = theocracy_government }
-	90.10.31 = { holder = imperator134023 government = theocracy_government }
-	92.10.31 = { holder = imperator132475 government = theocracy_government }
-	94.10.31 = { holder = imperator137963 government = theocracy_government }
-	96.10.31 = { holder = imperator135952 government = theocracy_government }
-	98.10.31 = { holder = imperator135695 government = theocracy_government }
-	100.10.31 = { holder = imperator137481 government = theocracy_government }
-	102.10.31 = { holder = imperator135885 government = theocracy_government }
-	104.10.31 = { holder = imperator137969 government = theocracy_government }
-	106.10.31 = { holder = imperator138379 government = theocracy_government }
-	108.10.31 = { holder = imperator137963 government = theocracy_government }
-	110.10.31 = { holder = imperator135952 government = theocracy_government }
-	112.10.31 = { holder = imperator137202 government = theocracy_government }
-	114.10.31 = { holder = imperator137481 government = theocracy_government }
-	116.10.31 = { holder = imperator140410 government = theocracy_government }
-	118.10.31 = { holder = imperator137969 government = theocracy_government }
-	120.10.31 = { holder = imperator138379 government = theocracy_government }
-	122.10.31 = { holder = imperator140102 government = theocracy_government }
-	124.10.31 = { holder = imperator144729 government = theocracy_government }
-	126.10.31 = { holder = imperator140627 government = theocracy_government }
-	128.10.31 = { holder = imperator145210 government = theocracy_government }
-	130.10.31 = { holder = imperator140410 government = theocracy_government }
-	132.10.31 = { holder = imperator142003 government = theocracy_government }
-	134.10.31 = { holder = imperator138379 government = theocracy_government }
-	136.10.31 = { holder = imperator140102 government = theocracy_government }
-	138.10.31 = { holder = imperator144729 government = theocracy_government }
-	140.10.31 = { holder = imperator141715 government = theocracy_government }
-	142.10.31 = { holder = imperator145210 government = theocracy_government }
-	144.10.31 = { holder = imperator140410 government = theocracy_government }
-	146.10.31 = { holder = imperator142285 government = theocracy_government }
-	148.10.31 = { holder = imperator144432 government = theocracy_government }
-	150.10.31 = { holder = imperator144033 government = theocracy_government }
-	152.10.31 = { holder = imperator144729 government = theocracy_government }
-	154.10.31 = { holder = imperator141715 government = theocracy_government }
-	156.10.31 = { holder = imperator144878 government = theocracy_government }
-	158.10.31 = { holder = imperator140410 government = theocracy_government }
-	159.10.12 = { holder = imperator142285 government = theocracy_government }
-	161.6.4 = { holder = imperator145210 government = theocracy_government }
-	163.6.4 = { holder = imperator144033 government = theocracy_government }
-	165.6.4 = { holder = imperator145859 government = theocracy_government }
-	167.6.4 = { holder = imperator144439 government = theocracy_government }
-	169.6.4 = { holder = imperator144878 government = theocracy_government }
-	171.6.4 = { holder = imperator146735 government = theocracy_government }
-	173.6.4 = { holder = imperator146662 government = theocracy_government }
-	175.6.4 = { holder = imperator146315 government = theocracy_government }
-	177.6.4 = { holder = imperator150226 government = theocracy_government }
-	179.6.4 = { holder = imperator144742 government = theocracy_government }
-	180.3.4 = { holder = imperator151137 government = theocracy_government }
-	182.3.4 = { holder = imperator149733 government = theocracy_government }
-	184.3.4 = { holder = imperator146735 government = theocracy_government }
-	186.3.4 = { holder = imperator148121 government = theocracy_government }
-	188.3.4 = { holder = imperator146315 government = theocracy_government }
-	190.3.4 = { holder = imperator150226 government = theocracy_government }
-	192.3.4 = { holder = imperator155183 government = theocracy_government }
-	194.3.4 = { holder = imperator149720 government = theocracy_government }
-	196.3.4 = { holder = imperator149733 government = theocracy_government }
-	198.3.4 = { holder = imperator146735 government = theocracy_government }
-	200.3.4 = { holder = imperator148121 government = theocracy_government }
-	202.3.4 = { holder = imperator146315 government = theocracy_government }
-	204.3.4 = { holder = imperator150226 government = theocracy_government }
-	206.3.4 = { holder = imperator155183 government = theocracy_government }
-	208.3.4 = { holder = imperator149720 government = theocracy_government }
-	210.3.4 = { holder = imperator152234 government = theocracy_government }
-	212.3.4 = { holder = imperator152245 government = theocracy_government }
-	214.3.4 = { holder = imperator153671 government = theocracy_government }
-	216.3.4 = { holder = imperator148218 government = theocracy_government }
-	218.3.4 = { holder = imperator151392 government = theocracy_government }
-	220.3.4 = { holder = imperator154185 government = theocracy_government }
-	222.3.4 = { holder = imperator149720 government = theocracy_government }
-	223.4.21 = { holder = imperator152234 government = theocracy_government }
-	225.4.21 = { holder = imperator152245 government = theocracy_government }
-	227.4.21 = { holder = imperator153671 government = theocracy_government }
-	229.4.21 = { holder = imperator155185 government = theocracy_government }
-	231.4.21 = { holder = imperator151392 government = theocracy_government }
-	233.4.21 = { holder = imperator154185 government = theocracy_government }
-	235.4.21 = { holder = imperator156850 government = theocracy_government }
-	237.4.21 = { holder = imperator152234 government = theocracy_government }
-	239.4.21 = { holder = imperator152245 government = theocracy_government }
-	239.10.16 = { holder = imperator153671 government = theocracy_government }
-	241.10.16 = { holder = imperator156232 government = theocracy_government }
-	243.10.16 = { holder = imperator155185 government = theocracy_government }
-	245.10.16 = { holder = imperator154185 government = theocracy_government }
-	246.6.23 = { holder = imperator157449 government = theocracy_government }
-	248.6.23 = { holder = imperator156850 government = theocracy_government }
-	250.6.23 = { holder = imperator162496 government = theocracy_government }
-	252.6.23 = { holder = imperator153671 government = theocracy_government }
-	254.6.23 = { holder = imperator156232 government = theocracy_government }
-	256.6.23 = { holder = imperator160352 government = theocracy_government }
-	258.6.23 = { holder = imperator161326 government = theocracy_government }
-	260.6.23 = { holder = imperator157449 government = theocracy_government }
-	262.6.23 = { holder = imperator160607 government = theocracy_government }
-	264.6.23 = { holder = imperator162496 government = theocracy_government }
-	266.6.23 = { holder = imperator165662 government = theocracy_government }
-	268.6.23 = { holder = imperator159551 government = theocracy_government }
-	270.6.23 = { holder = imperator160352 government = theocracy_government }
-	272.6.23 = { holder = imperator162793 government = theocracy_government }
-	274.6.23 = { holder = imperator157449 government = theocracy_government }
-	276.4.10 = { holder = imperator162869 government = theocracy_government }
-	278.4.10 = { holder = imperator162496 government = theocracy_government }
-	280.4.10 = { holder = imperator165662 government = theocracy_government }
-	282.4.10 = { holder = imperator164166 government = theocracy_government }
-	284.4.10 = { holder = imperator160352 government = theocracy_government }
-	286.4.10 = { holder = imperator163803 government = theocracy_government }
-	288.4.10 = { holder = imperator165720 government = theocracy_government }
-	290.4.10 = { holder = imperator165138 government = theocracy_government }
-	292.4.10 = { holder = imperator165828 government = theocracy_government }
-	294.4.10 = { holder = imperator165662 government = theocracy_government }
-	296.4.10 = { holder = imperator164166 government = theocracy_government }
-	298.4.10 = { holder = imperator171317 government = theocracy_government }
-	300.4.10 = { holder = imperator163803 government = theocracy_government }
-	302.4.10 = { holder = imperator167734 government = theocracy_government }
-	304.4.10 = { holder = imperator165720 government = theocracy_government }
-	306.4.10 = { holder = imperator165828 government = theocracy_government }
-	308.4.10 = { holder = imperator167707 government = theocracy_government }
-	310.4.10 = { holder = imperator164166 government = theocracy_government }
-	312.4.10 = { holder = imperator162793 government = theocracy_government }
-	314.4.10 = { holder = imperator169660 government = theocracy_government }
-	316.4.10 = { holder = imperator167734 government = theocracy_government }
-	318.4.10 = { holder = imperator171317 government = theocracy_government }
-	320.4.10 = { holder = imperator166037 government = theocracy_government }
-	322.4.10 = { holder = imperator167707 government = theocracy_government }
-	324.4.10 = { holder = imperator165828 government = theocracy_government }
-	326.4.10 = { holder = imperator168950 government = theocracy_government }
-	328.4.10 = { holder = imperator176601 government = theocracy_government }
-	330.4.10 = { holder = imperator167734 government = theocracy_government }
-	332.4.10 = { holder = imperator171317 government = theocracy_government }
-	334.4.10 = { holder = imperator172730 government = theocracy_government }
-	336.4.10 = { holder = imperator168962 government = theocracy_government }
-	338.4.10 = { holder = imperator176196 government = theocracy_government }
-	360.3.24 = { holder = imperator172730 government = theocracy_government }
-	377.12.30 = { holder = imperator186438 government = feudal_government }
-	390.3.30 = { holder = imperator192811 government = feudal_government }
-	404.1.23 = { holder = imperator193930 government = feudal_government }
-	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
-}
 d_IRTOCK3_H43={
 	75.5.25 = { holder = imperator139817 government = feudal_government }
 	125.5.25 = { holder = imperator139808 government = theocracy_government }
@@ -2947,25 +5776,6 @@ d_IRTOCK3_H43={
 	392.12.20 = { holder = imperator178289 government = theocracy_government }
 	403.11.30 = { holder = imperator191720 government = theocracy_government }
 	406.3.7 = { liege = e_IRTOCK3_BAC }
-	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
-}
-d_IRTOCK3_H68={
-	132.9.21 = { holder = imperator146438 government = feudal_government liege = e_IRTOCK3_SYR }
-	182.9.21 = { holder = imperator149206 government = theocracy_government }
-	194.1.4 = { holder = imperator147709 government = theocracy_government }
-	203.4.20 = { holder = imperator147118 government = theocracy_government }
-	211.3.24 = { holder = imperator148167 government = theocracy_government }
-	225.6.28 = { holder = imperator150171 government = theocracy_government }
-	238.1.8 = { holder = imperator153860 government = theocracy_government }
-	258.9.21 = { holder = imperator155766 government = theocracy_government }
-	266.9.7 = { holder = imperator165609 government = theocracy_government }
-	298.10.8 = { holder = imperator161231 government = theocracy_government }
-	303.9.12 = { holder = imperator168801 government = theocracy_government }
-	318.11.22 = { holder = imperator174310 government = theocracy_government }
-	347.8.29 = { holder = imperator175751 government = theocracy_government }
-	385.10.13 = { holder = imperator178217 government = theocracy_government }
-	402.7.30 = { holder = imperator188477 government = theocracy_government }
-	422.5.29 = { holder = imperator193353 government = theocracy_government }
 	423.7.6 = { succession_laws = { city_succession_law princely_elective_succession_law } }
 }
 d_IRTOCK3_I00={
@@ -3079,9 +5889,10 @@ d_IRTOCK3_K33={
 	419.11.20 = { holder = imperator190181 government = feudal_government }
 	423.7.6 = { succession_laws = { male_preference_law single_heir_succession_law } }
 }
-k_IRTOCK3_K35={
-	356.6.26 = { holder = imperator185440 government = feudal_government liege = e_IRTOCK3_PRN }
-	408.1.30 = { holder = imperator185444 government = feudal_government }
+k_IRTOCK3_K47={
+	357.11.21 = { holder = imperator186098 government = feudal_government liege = h_hellenistic_empire }
+	380.7.26 = { holder = imperator186131 government = feudal_government }
+	422.10.8 = { holder = imperator195763 government = feudal_government }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_K62={
@@ -3135,12 +5946,8 @@ k_IRTOCK3_L61={
 	422.9.15 = { holder = imperator203815 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-k_IRTOCK3_L65={
-	422.9.15 = { holder = imperator203915 government = feudal_government liege = e_IRTOCK3_BAC }
-	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
-}
-k_IRTOCK3_L68={
-	422.9.15 = { holder = imperator203990 government = feudal_government liege = e_IRTOCK3_BAC }
+k_IRTOCK3_L66={
+	422.9.15 = { holder = imperator203940 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_L69={
@@ -3155,12 +5962,20 @@ k_IRTOCK3_L77={
 	422.9.15 = { holder = imperator204215 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+k_IRTOCK3_L79={
+	422.9.15 = { holder = imperator204265 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
+k_IRTOCK3_L81={
+	422.9.15 = { holder = imperator204315 government = feudal_government liege = e_IRTOCK3_BAC }
+	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
+}
 k_IRTOCK3_L85={
 	422.9.15 = { holder = imperator204415 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
-k_IRTOCK3_L91={
-	422.9.15 = { holder = imperator204565 government = feudal_government liege = e_IRTOCK3_BAC }
+k_IRTOCK3_L89={
+	422.9.15 = { holder = imperator204515 government = feudal_government liege = e_IRTOCK3_BAC }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 k_IRTOCK3_L96={
@@ -3215,6 +6030,9 @@ d_IRTOCK3_M31={
 	422.10.22 = { holder = imperator206173 government = feudal_government liege = k_IRTOCK3_J39 }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
+d_IRTOCK3_LEU_numidia_region={
+	395.5.19 = { liege = k_IRTOCK3_LEU holder = imperator184156 government = administrative_government succession_laws = { appointment_succession_law } }
+}
 d_IRTOCK3_I48_scythia_region={
 	399.9.22 = { liege = k_IRTOCK3_I48 holder = imperator186393 government = feudal_government succession_laws = { high_partition_succession_law } }
 }
@@ -3228,7 +6046,7 @@ d_IRTOCK3_I48_germania_region={
 	415.4.23 = { liege = k_IRTOCK3_I48 holder = imperator189910 government = feudal_government succession_laws = { high_partition_succession_law } }
 }
 k_IRTOCK3_PRN_ariana_region={
-	399.5.9 = { liege = e_IRTOCK3_PRN holder = imperator191836 government = feudal_government succession_laws = { high_partition_succession_law } }
+	399.5.9 = { liege = h_hellenistic_empire holder = imperator191836 government = feudal_government succession_laws = { high_partition_succession_law } }
 }
 d_IRTOCK3_I52_vistulia_region={
 	412.10.11 = { liege = k_IRTOCK3_I52 holder = imperator192633 government = feudal_government succession_laws = { high_partition_succession_law } }
@@ -3238,9 +6056,6 @@ d_IRTOCK3_H69_arabia_region={
 }
 d_IRTOCK3_COM_mesopotamia_region={
 	402.12.8 = { liege = k_IRTOCK3_COM holder = imperator193159 government = feudal_government succession_laws = { high_partition_succession_law } }
-}
-k_IRTOCK3_GAR_cyrenaica_region={
-	406.12.6 = { liege = e_IRTOCK3_GAR holder = imperator193304 government = administrative_government succession_laws = { appointment_succession_law } }
 }
 d_IRTOCK3_K97_ariana_region={
 	414.6.18 = { liege = k_IRTOCK3_K97 holder = imperator194433 government = feudal_government succession_laws = { high_partition_succession_law } }

@@ -1,0 +1,63 @@
+k_IRTOCK3_G42={
+	-19.10.21 = { holder = imperator125882 government = republic_government }
+	-14.1.25 = { holder = imperator125858 government = republic_government }
+	-12.1.25 = { holder = imperator125877 government = republic_government }
+	-10.1.25 = { holder = imperator125859 government = republic_government }
+	-8.1.25 = { holder = imperator125874 government = republic_government }
+	-6.1.25 = { holder = imperator125867 government = republic_government }
+	-4.1.25 = { holder = imperator126203 government = republic_government }
+	-2.1.25 = { holder = imperator125868 government = republic_government }
+	1.1.25 = { holder = imperator125858 government = republic_government }
+	3.1.25 = { holder = imperator125876 government = republic_government }
+	5.1.25 = { holder = imperator125859 government = republic_government }
+	7.1.25 = { holder = imperator125874 government = republic_government }
+	9.1.25 = { holder = imperator125867 government = republic_government }
+	11.1.25 = { holder = imperator125860 government = republic_government }
+	13.1.25 = { holder = imperator128502 government = republic_government }
+	15.1.25 = { holder = imperator125858 government = republic_government }
+	17.1.25 = { holder = imperator125876 government = republic_government }
+	408.2.21 = { holder = imperator199176 government = republic_government }
+	410.2.21 = { holder = imperator199324 government = republic_government }
+	412.2.21 = { holder = imperator199296 government = republic_government }
+	414.2.21 = { holder = imperator199183 government = republic_government }
+	416.2.21 = { holder = imperator199330 government = republic_government }
+	418.2.21 = { holder = imperator199226 government = republic_government }
+	420.2.21 = { holder = imperator199300 government = republic_government }
+	422.2.21 = { holder = imperator199299 government = republic_government }
+	423.7.6 = { succession_laws = { city_succession_law } }
+}
+d_east_franconia={
+	423.7.6 = { liege = 0 }
+}
+c_ansbach={
+	422.2.21 = { liege = 0 holder = imperator199299 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_bamberg={
+	419.6.2 = { liege = 0 holder = imperator202441 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_coburg={
+	422.2.21 = { liege = 0 holder = imperator199299 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_hohenlohe={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 16 }
+}
+c_nordlingen={
+	420.2.7 = { liege = 0 holder = imperator199044 }
+	423.7.6 = { change_development_level = 15 }
+}
+c_nurnberg={
+	422.2.21 = { liege = 0 holder = imperator199299 }
+	423.7.6 = { change_development_level = 4 }
+}
+c_wiltberg={
+	419.6.2 = { liege = 0 holder = imperator202441 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_wurzburg={
+	419.6.2 = { liege = 0 holder = imperator202441 }
+	423.7.6 = { change_development_level = 5 }
+}

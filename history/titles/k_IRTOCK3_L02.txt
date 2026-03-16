@@ -1,34 +1,30 @@
 k_IRTOCK3_L02={
 	395.9.1 = { holder = imperator195623 government = feudal_government }
-	396.9.19 = { liege = e_IRTOCK3_PRN }
+	396.9.19 = { liege = h_hellenistic_empire }
 	423.7.6 = { succession_laws = { male_only_law single_heir_succession_law } }
 }
 d_ferghana={
-	361.1.1 = { change_development_level = 3 }
 	423.7.6 = { liege = 0 }
 }
 c_ferghana={
 	395.9.1 = { liege = 0 holder = imperator195623 }
 	423.7.6 = { change_development_level = 9 }
 }
-c_khojand={
+c_isfara={
 	399.8.16 = { liege = 0 holder = imperator196919 }
 	423.7.6 = { change_development_level = 8 }
 }
-c_isfara={
+c_khojand={
 	399.8.16 = { liege = 0 holder = imperator196919 }
 	423.7.6 = { change_development_level = 8 }
 }
 c_nasaiya={
 	395.9.1 = { liege = 0 holder = imperator195623 }
-	423.7.6 = { liege = k_IRTOCK3_L02 holder = imperator195639 change_development_level = 9 }
+	423.7.6 = { change_development_level = 9 }
 }
 c_nasrabad={
 	399.8.16 = { liege = 0 holder = imperator196919 }
-	423.7.6 = { liege = k_IRTOCK3_L14 holder = imperator196905 change_development_level = 6 }
-}
-b_arslanbob={
-	423.7.6 = { holder = imperator196905 }
+	423.7.6 = { change_development_level = 6 }
 }
 c_uzgend={
 	395.9.1 = { liege = 0 holder = imperator195623 }

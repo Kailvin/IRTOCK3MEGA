@@ -2,8 +2,8 @@
 	holding = none
 }
 6240={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6241={
@@ -13,12 +13,12 @@
 	holding = city_holding
 }
 6243={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6244={
-	culture = himyarite
+	culture = qahtanite
 	faith = egyptian_pagan
 	holding = castle_holding
 }
@@ -26,7 +26,7 @@
 	holding = city_holding
 }
 6246={
-	culture = himyarite
+	culture = qahtanite
 	faith = egyptian_pagan
 	holding = castle_holding
 }
@@ -52,8 +52,8 @@
 	holding = city_holding
 }
 6276={
-	culture = south_arabian
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6278={
@@ -63,56 +63,11 @@
 	holding = church_holding
 }
 6280={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6281={
-	holding = none
-}
-6282={
-	culture = south_arabian
-	faith = south_arabian_pagan
-	holding = tribal_holding
-}
-6283={
-	holding = church_holding
-}
-6284={
-	holding = church_holding
-}
-6285={
-	holding = city_holding
-}
-6286={
-	culture = himyarite
-	faith = nicene
-	holding = castle_holding
-}
-6287={
-	holding = city_holding
-}
-6288={
-	holding = none
-}
-6289={
-	holding = none
-}
-6290={
-	holding = city_holding
-}
-6291={
-	culture = south_arabian
-	faith = nicene
-	holding = castle_holding
-}
-6292={
-	holding = none
-}
-6294={
-	holding = city_holding
-}
-6295={
 	holding = none
 }
 6296={
@@ -125,14 +80,13 @@
 	holding = church_holding
 }
 6299={
-	culture = himyarite
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
-	special_building_slot = marib_dam
 }
 6300={
-	culture = south_arabian
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 6301={

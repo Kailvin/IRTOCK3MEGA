@@ -5,6 +5,7 @@
 }
 9551={
 	holding = none
+	special_building_slot = generic_university
 }
 9552={
 	holding = none
@@ -149,6 +150,7 @@
 	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	special_building_slot = hpakant_mines_01
 }
 9644={
 	holding = none
@@ -165,5 +167,108 @@
 	holding = castle_holding
 }
 9658={
+	holding = none
+}
+10965={
+	culture = karen
+	religion = satsana_phi
+	holding = tribal_holding
+}
+10970={
+	culture = tai
+	religion = satsana_phi
+	holding = tribal_holding
+}
+10971={
+	holding = none
+}
+10972={
+	holding = city_holding
+}
+10973={
+	holding = none
+}
+10974={
+	holding = none
+}
+10975={
+	holding = none
+}
+10976={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+10977={
+	holding = church_holding
+}
+10978={
+	holding = none
+}
+10979={
+	culture = kachin
+	religion = satsana_phi
+	holding = tribal_holding
+}
+10980={
+	holding = none
+}
+10981={
+	holding = none
+}
+10982={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+10983={
+	holding = castle_holding
+}
+10984={
+	holding = none
+}
+10985={
+	holding = none
+}
+10986={
+	holding = none
+}
+10987={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+10988={
+	holding = none
+}
+10989={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+10990={
+	holding = city_holding
+}
+10991={
+	holding = church_holding
+}
+11452={
+	holding = none
+}
+11473={
+	holding = none
+}
+11480={
+	holding = none
+}
+11481={
+	culture = kachin
+	religion = satsana_phi
+	holding = tribal_holding
+}
+11486={
+	holding = city_holding
+}
+11493={
 	holding = none
 }

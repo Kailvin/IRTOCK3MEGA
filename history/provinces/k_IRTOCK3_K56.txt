@@ -2,7 +2,6 @@
 	culture = alan
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.1 = { culture = bashkir }
 }
 897={
 	holding = none
@@ -25,13 +24,11 @@
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.1 = { culture = thyssagataen religion = "scythian_pagan" }
 }
 7218={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.1 = { culture = thyssagataen religion = "scythian_pagan" }
 }
 7219={
 	holding = city_holding
@@ -43,7 +40,6 @@
 	culture = alan
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.1 = { culture = saragur }
 }
 7223={
 	holding = none
@@ -52,7 +48,6 @@
 	culture = alan
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.1 = { culture = saragur }
 }
 7225={
 	holding = none

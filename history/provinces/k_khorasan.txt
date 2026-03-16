@@ -6,6 +6,11 @@
 631={
 	holding = none
 }
+4005={
+	culture = macedonian
+	faith = hellenic_pagan
+	holding = castle_holding
+}
 4028={
 	holding = church_holding
 }
@@ -16,7 +21,6 @@
 }
 4030={
 	holding = none
-	special_building_slot = great_wall_of_gorgan_01
 }
 4031={
 	holding = none
@@ -68,16 +72,70 @@
 	faith = hellenic_pagan
 	holding = castle_holding
 }
+4313={
+	holding = none
+}
+4314={
+	holding = castle_holding
+}
 4315={
 	holding = none
 }
 4316={
-	holding = none
-}
-4317={
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
+}
+4317={
+	holding = none
+}
+4334={
+	holding = none
+}
+4335={
+	culture = macedonian
+	faith = orthodox
+	holding = castle_holding
+}
+4336={
+	holding = castle_holding
+}
+4337={
+	holding = none
+}
+4338={
+	holding = city_holding
+}
+4339={
+	holding = castle_holding
+}
+4340={
+	holding = none
+}
+4341={
+	culture = macedonian
+	faith = orthodox
+	holding = castle_holding
+}
+4347={
+	holding = none
+}
+4348={
+	holding = church_holding
+}
+4349={
+	holding = none
+}
+4350={
+	holding = none
+}
+4351={
+	culture = macedonian
+	faith = orthodox
+	holding = castle_holding
+}
+4352={
+	holding = none
 }
 4415={
 	holding = city_holding

@@ -1,33 +1,3 @@
-4788={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4789={
-	holding = none
-}
-4790={
-	holding = castle_holding
-}
-4794={
-	holding = none
-}
-4795={
-	holding = none
-}
-4796={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4797={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4798={
-	holding = none
-}
 4819={
 	holding = none
 }
@@ -37,46 +7,19 @@
 	holding = castle_holding
 }
 4821={
-	culture = macedonian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 4822={
 	holding = none
 }
-4824={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4825={
-	holding = city_holding
-}
-4827={
-	holding = none
-}
-4828={
+4823={
 	holding = church_holding
 }
-4829={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4830={
-	culture = macedonian
-	faith = nicene
-	holding = castle_holding
-}
-4831={
-	holding = none
-}
-4833={
-	holding = none
-}
 6005={
-	culture = macedonian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 6006={
@@ -89,13 +32,13 @@
 	holding = city_holding
 }
 6019={
-	culture = macedonian
+	culture = syro_hellenic
 	faith = hellenic_pagan
 	holding = castle_holding
 }
 6020={
-	culture = macedonian
-	faith = nicene
+	culture = syro_hellenic
+	faith = orthodox
 	holding = castle_holding
 }
 6021={

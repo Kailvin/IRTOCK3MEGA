@@ -22,16 +22,12 @@
 	holding = none
 }
 1362={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 1363={
 	holding = none
-}
-3411={
-	holding = none
-}
-3412={
-	holding = city_holding
 }
 3418={
 	holding = church_holding
@@ -48,9 +44,10 @@
 	holding = castle_holding
 }
 3422={
-	culture = indogreek
-	faith = hellenic_pagan
 	holding = castle_holding
+}
+3423={
+	holding = none
 }
 3424={
 	holding = none
@@ -85,7 +82,9 @@
 	holding = castle_holding
 }
 3434={
-	holding = city_holding
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 3435={
 	holding = none

@@ -7,12 +7,9 @@ k_IRTOCK3_K43={
 d_khotan={
 	423.7.6 = { liege = 0 }
 }
-c_khotan={
+c_cherchen={
 	416.7.7 = { liege = 0 holder = imperator186408 }
-	423.7.6 = { change_development_level = 0 }
-}
-b_lafak={
-	423.7.6 = { holder = imperator189035 }
+	423.7.6 = { change_development_level = 10 }
 }
 c_dondan_oilik={
 	416.7.7 = { liege = 0 holder = imperator186408 }
@@ -20,32 +17,13 @@ c_dondan_oilik={
 }
 c_karghalik={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 3 }
+	423.7.6 = { change_development_level = 4 }
 }
 c_keriya={
 	416.7.7 = { liege = 0 holder = imperator186408 }
-	423.7.6 = { change_development_level = 9 }
+	423.7.6 = { change_development_level = 8 }
 }
-d_charkliq={
-	33.1.1 = { government = trade_city_state_government }
-	422.2.24 = { holder = shanshan_015 }
-}
-c_charkliq={
-	33.1.1 = { government = trade_city_state_government }
-	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
-	423.7.6 = { change_development_level = 6 }
-}
-c_dunhuang={
-	33.1.1 = { government = trade_city_state_government }
-	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
-	423.7.6 = { change_development_level = 5 }
-}
-c_luobupo={
-	33.1.1 = { government = trade_city_state_government }
-	422.2.24 = { holder = shanshan_015 liege = d_charkliq }
-	423.7.6 = { change_development_level = 5 }
-}
-c_cherchen={
+c_khotan={
 	416.7.7 = { liege = 0 holder = imperator186408 }
-	423.7.6 = { change_development_level = 10 }
+	423.7.6 = { change_development_level = 0 }
 }

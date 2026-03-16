@@ -5,11 +5,11 @@ k_IRTOCK3_L86={
 d_vengi={
 	423.7.6 = { liege = 0 }
 }
-c_vengipura={
-	422.9.15 = { liege = 0 holder = imperator204440 }
-	423.7.6 = { change_development_level = 16 }
-}
 c_mosala={
 	422.9.15 = { liege = 0 holder = imperator204440 }
 	423.7.6 = { change_development_level = 17 }
+}
+c_vengipura={
+	422.9.15 = { liege = 0 holder = imperator204440 }
+	423.7.6 = { change_development_level = 16 }
 }

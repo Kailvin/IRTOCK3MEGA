@@ -2,32 +2,32 @@
 	holding = none
 }
 2051={
-	culture = rhaetio_roman
-	faith = roman_pagan
+	culture = roman
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2052={
 	holding = none
 }
 2053={
-	culture = rhaetio_roman
-	faith = roman_pagan
+	culture = roman
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2054={
 	holding = city_holding
 }
 2055={
-	culture = rhaetio_roman
-	faith = roman_pagan
+	culture = roman
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2056={
 	holding = castle_holding
 }
 2057={
-	culture = galatian
-	faith = nicene
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2058={
@@ -36,21 +36,20 @@
 2078={
 	holding = none
 }
-2079={
-	holding = none
-}
 2083={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
-	100.1.1 = { special_building_slot = aula_palatina }
+}
+2085={
+	holding = castle_holding
 }
 2192={
 	holding = none
 }
 2384={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2461={
@@ -63,8 +62,8 @@
 	holding = city_holding
 }
 2694={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2695={
@@ -83,8 +82,8 @@
 	holding = none
 }
 2704={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2705={
@@ -94,18 +93,18 @@
 	holding = none
 }
 2708={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2709={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2710={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2711={
@@ -124,8 +123,8 @@
 	holding = castle_holding
 }
 2717={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2719={
@@ -135,8 +134,8 @@
 	holding = none
 }
 2721={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2722={
@@ -161,21 +160,21 @@
 	holding = none
 }
 2729={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2730={
 	holding = none
 }
 2731={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2732={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2733={
@@ -185,19 +184,19 @@
 	holding = none
 }
 2736={
-	culture = galatian
-	faith = arianism
-	holding = castle_holding
+	holding = none
 }
 2737={
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2738={
 	holding = none
 }
 2739={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2741={
@@ -210,24 +209,24 @@
 	holding = none
 }
 2744={
-	culture = galatian
-	faith = arianism
-	holding = castle_holding
+	holding = none
 }
 2745={
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2746={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2747={
 	holding = castle_holding
 }
 2748={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2749={
@@ -237,8 +236,8 @@
 	holding = none
 }
 2751={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2752={
@@ -254,16 +253,16 @@
 	holding = none
 }
 2757={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2758={
 	holding = castle_holding
 }
 2759={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2760={
@@ -276,8 +275,8 @@
 	holding = none
 }
 2763={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2764={
@@ -293,8 +292,8 @@
 	holding = castle_holding
 }
 2768={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2769={
@@ -310,8 +309,8 @@
 	holding = city_holding
 }
 2773={
-	culture = rhaetio_roman
-	faith = roman_pagan
+	culture = roman
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2774={
@@ -327,16 +326,16 @@
 	holding = city_holding
 }
 2855={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2856={
 	holding = none
 }
 2862={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2863={
@@ -351,98 +350,97 @@
 2868={
 	holding = castle_holding
 }
-2869={
-	holding = castle_holding
-}
-2870={
-	culture = ripurian
-	faith = central_pagan
-	holding = tribal_holding
-}
-2871={
-	holding = city_holding
-}
-2872={
-	holding = city_holding
-}
-2873={
-	holding = city_holding
-}
-2874={
-	culture = ripurian
-	faith = central_pagan
-	holding = tribal_holding
-}
-2875={
-	culture = old_suebi
-	faith = central_pagan
-	holding = city_holding
-}
-2876={
-	holding = city_holding
-}
-2877={
-	culture = old_suebi
-	faith = central_pagan
-	holding = city_holding
-}
 2878={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
 2879={
-	holding = none
-}
-2880={
 	holding = none
 }
 2882={
 	holding = none
 }
 2883={
-	culture = galatian
-	faith = arianism
+	culture = hellenic_greek
+	faith = catholic
 	holding = castle_holding
 }
-2885={
+2938={
 	holding = none
 }
-2886={
-	culture = galatian
-	faith = arianism
-	holding = castle_holding
-}
-2887={
-	holding = city_holding
-}
-2888={
+2939={
 	holding = none
 }
-2889={
-	culture = galatian
-	faith = arianism
-	holding = castle_holding
-}
-2890={
-	holding = castle_holding
-}
-2891={
-	holding = castle_holding
-}
-2892={
+2940={
 	holding = none
 }
-2925={
+2941={
 	holding = none
 }
-2926={
-	holding = city_holding
+2942={
+	culture = langobard
+	faith = hellenic_pagan
+	holding = castle_holding
 }
-2927={
-	culture = ripurian
-	faith = central_pagan
-	holding = tribal_holding
+2943={
+	holding = none
+}
+2945={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2946={
+	holding = none
+}
+2947={
+	holding = none
+}
+2948={
+	holding = none
+}
+2949={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2956={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2957={
+	culture = langobard
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2958={
+	holding = none
+}
+2959={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2960={
+	culture = roman
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+2961={
+	holding = none
+}
+2962={
+	holding = none
+}
+2963={
+	holding = none
+}
+2964={
+	culture = langobard
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 2965={
 	holding = none
@@ -453,46 +451,50 @@
 2967={
 	holding = none
 }
+2968={
+	holding = city_holding
+}
+2969={
+	holding = city_holding
+}
+2970={
+	holding = none
+}
+2981={
+	holding = none
+}
+2984={
+	holding = none
+}
 2986={
 	holding = none
 }
 2987={
-	culture = old_suebi
-	faith = central_pagan
+	culture = bavarian
+	faith = germanic_pagan
 	holding = city_holding
 }
 2988={
 	holding = none
 }
 2989={
-	culture = old_suebi
-	faith = central_pagan
+	culture = bavarian
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2990={
-	culture = old_suebi
-	faith = central_pagan
+	culture = bavarian
+	faith = germanic_pagan
 	holding = city_holding
 }
 2991={
 	holding = none
-}
-2992={
-	holding = city_holding
 }
 2993={
 	holding = city_holding
 }
 2994={
 	holding = none
-}
-2995={
-	holding = none
-}
-2998={
-	culture = ripurian
-	faith = central_pagan
-	holding = city_holding
 }
 3107={
 	holding = none

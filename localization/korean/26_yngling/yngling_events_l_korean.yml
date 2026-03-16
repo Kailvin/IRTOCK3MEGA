@@ -1,5 +1,0 @@
-﻿l_korean:
- yngling_invasion.1001.t:0 "[invader.GetFirstNameNicknamedNoTooltip]"
- yngling_invasion.1001.desc:0 "[invader.GetFirstNameNoTooltip] has vowed to never cut [invader.GetHerHis] hair until [invader.GetSheHe] has become the ruler of $k_norway$.\n\nWith such an outragously ambitious vow, [invader.GetSheHe] has a steep challenge ahead of [invader.GetHerHim]."
- yngling_invasion.1001.a:0 "[invader.GetHerHis|U] hair is bound to reach the ground!"
- yngling_invasion.1001.b:0 "@warning_icon! I wonder what the future holds for [invader.GetHerHim]..."

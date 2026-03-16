@@ -6,7 +6,7 @@
 }
 6131={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 6132={
@@ -17,9 +17,8 @@
 }
 6134={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
-	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6135={
 	holding = none
@@ -40,9 +39,8 @@
 }
 6140={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
-	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6141={
 	holding = none
@@ -52,9 +50,8 @@
 }
 6144={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
-	100.1.1 = { special_building_slot = aflag_irrigation_systems }
 }
 6145={
 	holding = none
@@ -69,7 +66,7 @@
 	holding = castle_holding
 }
 6269={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }

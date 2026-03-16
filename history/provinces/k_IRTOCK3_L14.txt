@@ -72,7 +72,6 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
-	special_building_slot = ark_of_bukhara_01
 }
 4395={
 	holding = city_holding
@@ -124,7 +123,6 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
-	100.1.1 = { special_building_slot = temples_of_panikant }
 }
 4410={
 	holding = city_holding
@@ -191,7 +189,6 @@
 	culture = tocharian
 	faith = hellenic_pagan
 	holding = castle_holding
-	400.1.1 = { culture = wusun }
 }
 7144={
 	holding = city_holding

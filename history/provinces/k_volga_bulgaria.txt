@@ -1,11 +1,14 @@
 588={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 589={
 	culture = sarmatian
 	faith = scythian_pagan
+	holding = none
+}
+591={
 	holding = none
 }
 609={
@@ -19,11 +22,16 @@
 	holding = none
 }
 611={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 613={
+	holding = none
+}
+614={
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 5393={
@@ -36,8 +44,8 @@
 	holding = none
 }
 5396={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 5397={
@@ -47,8 +55,8 @@
 	holding = none
 }
 5399={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 5400={
@@ -61,8 +69,8 @@
 	holding = none
 }
 5403={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 5404={
@@ -84,6 +92,9 @@
 }
 5409={
 	holding = none
+}
+5411={
+	holding = church_holding
 }
 5412={
 	culture = sarmatian
@@ -166,8 +177,8 @@
 	holding = none
 }
 5470={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = none
 }
 5471={

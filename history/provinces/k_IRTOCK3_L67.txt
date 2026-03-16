@@ -1,11 +1,11 @@
 1118={
-	holding = city_holding
-	terrain = jungle
-}
-1196={
 	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
+	terrain = jungle
+}
+1196={
+	holding = city_holding
 	terrain = mountain
 }
 1197={
@@ -33,14 +33,6 @@
 }
 7849={
 	holding = castle_holding
-}
-7863={
-	holding = none
-	terrain = mountain
-}
-7864={
-	holding = none
-	terrain = mountain
 }
 7865={
 	holding = city_holding

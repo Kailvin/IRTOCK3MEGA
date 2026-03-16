@@ -9,20 +9,20 @@
 }
 2413={
 	culture = irish
-	faith = druidism
+	faith = celtic_pagan
 	holding = city_holding
 }
 2414={
 	culture = irish
-	faith = arianism
+	faith = catholic
 	holding = castle_holding
 }
 2415={
 	holding = city_holding
 }
 2418={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 2436={
@@ -32,18 +32,12 @@
 	holding = none
 }
 2438={
-	holding = city_holding
-}
-2441={
-	holding = none
+	culture = suebi
+	faith = germanic_pagan
+	holding = castle_holding
 }
 2442={
 	holding = none
-}
-2445={
-	culture = old_suebi
-	faith = arianism
-	holding = castle_holding
 }
 2453={
 	holding = city_holding
@@ -58,16 +52,16 @@
 	holding = none
 }
 2793={
-	culture = old_suebi
-	faith = saxon_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2794={
 	holding = none
 }
 2795={
-	culture = old_suebi
-	faith = saxon_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2796={
@@ -75,7 +69,7 @@
 }
 2797={
 	culture = old_saxon
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 }
 2798={
@@ -90,49 +84,38 @@
 2801={
 	holding = city_holding
 }
-2802={
-	culture = old_suebi
-	faith = saxon_pagan
-	holding = city_holding
-}
-2803={
-	holding = castle_holding
-}
 2804={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
-}
-2805={
-	holding = none
 }
 2806={
 	holding = none
 }
 2807={
-	culture = old_suebi
-	faith = arianism
+	culture = suebi
+	faith = catholic
 	holding = castle_holding
 }
 2808={
 	holding = none
 }
 2809={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2810={
 	holding = church_holding
 }
 2811={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2812={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2813={
@@ -142,8 +125,8 @@
 	holding = none
 }
 2817={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2819={
@@ -160,7 +143,7 @@
 }
 2838={
 	culture = norse
-	faith = saxon_pagan
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2839={
@@ -170,24 +153,24 @@
 	holding = none
 }
 2844={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2845={
 	holding = none
 }
 2846={
-	culture = ripurian
-	faith = saxon_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2851={
 	holding = none
 }
 2852={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2853={
@@ -200,13 +183,13 @@
 	holding = none
 }
 2859={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2860={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2861={
@@ -225,8 +208,8 @@
 	holding = none
 }
 2898={
-	culture = ripurian
-	faith = saxon_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2909={
@@ -242,22 +225,24 @@
 	holding = none
 }
 2913={
-	culture = ripurian
-	faith = arianism
+	culture = frankish
+	faith = catholic
 	holding = castle_holding
+}
+2914={
+	holding = none
 }
 2915={
 	holding = none
 }
 2918={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = castle_holding
-	361.1.1 = { special_building_slot = rammelsberg_mines_01 }
 }
 2919={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2920={
@@ -273,8 +258,8 @@
 	holding = none
 }
 2924={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 2928={
@@ -287,13 +272,13 @@
 	holding = city_holding
 }
 3003={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3005={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3006={
@@ -309,7 +294,7 @@
 	holding = none
 }
 3010={
-	culture = ripurian
-	faith = central_pagan
+	culture = frankish
+	faith = germanic_pagan
 	holding = tribal_holding
 }

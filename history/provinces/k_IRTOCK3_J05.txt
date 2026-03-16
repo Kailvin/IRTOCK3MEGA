@@ -1,8 +1,7 @@
 1351={
-	culture = greek
+	culture = hellenic_greek
 	faith = hellenic_pagan
 	holding = castle_holding
-	100.1.1 = { special_building_slot = sacred_rocks_of_hunza }
 }
 7951={
 	holding = none
@@ -11,12 +10,12 @@
 	holding = city_holding
 }
 7953={
-	culture = hephthalite
+	culture = hunnic
 	faith = khurmazta
 	holding = none
 }
 7954={
-	culture = greek
+	culture = hellenic_greek
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -97,7 +96,7 @@
 }
 9020={
 	culture = tocharian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 9021={
@@ -138,7 +137,7 @@
 }
 9033={
 	culture = sumpa
-	faith = rrmeaism
+	faith = old_bon
 	holding = none
 }
 9034={
@@ -168,7 +167,7 @@
 }
 9041={
 	culture = sumpa
-	faith = rrmeaism
+	faith = old_bon
 	holding = none
 }
 9042={

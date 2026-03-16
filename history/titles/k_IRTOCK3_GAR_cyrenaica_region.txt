@@ -1,0 +1,18 @@
+k_IRTOCK3_GAR_cyrenaica_region={
+	406.12.6 = { liege = e_IRTOCK3_GAR holder = imperator193304 government = administrative_government succession_laws = { appointment_succession_law } }
+}
+d_syrte={
+	423.7.6 = { liege = 0 }
+}
+c_labda={
+	418.8.29 = { liege = 0 holder = imperator199856 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_syrte={
+	406.12.6 = { liege = 0 holder = imperator193304 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_waddan={
+	418.8.29 = { liege = 0 holder = imperator199856 }
+	423.7.6 = { change_development_level = 11 }
+}

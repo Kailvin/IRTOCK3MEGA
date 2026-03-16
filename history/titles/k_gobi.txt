@@ -1,0 +1,72 @@
+k_gobi={
+	423.7.6 = { liege = 0 }
+}
+d_em_tataria={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_em_zhen_holder liege = 0 }
+}
+d_em_wuguguo={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_em_hepung_holder liege = 0 }
+}
+d_gobi_dadaels={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_em_dadaels_holder liege = 0 }
+}
+d_gobi_ongi={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_gobi_ongi_gol_holder liege = 0 }
+}
+d_gobi_shatuoguo={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_gobi_dorngovi_holder government = tribal_government }
+}
+c_em_akhulun={
+	423.7.6 = { holder = IRToCK3_c_em_hepung_holder change_development_level = 0 }
+}
+c_em_dadaels={
+	423.7.6 = { holder = IRToCK3_c_em_dadaels_holder change_development_level = 0 }
+}
+c_em_dutulun={
+	423.7.6 = { holder = IRToCK3_c_em_zhen_holder change_development_level = 0 }
+}
+c_em_gobidada={
+	423.7.6 = { holder = IRToCK3_c_em_zhen_holder change_development_level = 0 }
+}
+c_em_hepung={
+	423.7.6 = { holder = IRToCK3_c_em_hepung_holder change_development_level = 0 }
+}
+c_em_karakopi={
+	423.7.6 = { holder = IRToCK3_c_em_hepung_holder change_development_level = 0 }
+}
+c_em_khartereg={
+	423.7.6 = { holder = IRToCK3_c_em_hepung_holder change_development_level = 0 }
+}
+c_em_kherulendada={
+	423.7.6 = { holder = IRToCK3_c_em_zhen_holder change_development_level = 0 }
+}
+c_em_zhen={
+	423.7.6 = { holder = IRToCK3_c_em_zhen_holder change_development_level = 0 }
+}
+c_gobi_abakhai={
+	423.7.6 = { holder = IRToCK3_c_gobi_dorngovi_holder change_development_level = 0 }
+}
+c_gobi_abga={
+	423.7.6 = { holder = IRToCK3_c_gobi_dorngovi_holder change_development_level = 0 }
+}
+c_gobi_dorngovi={
+	423.7.6 = { holder = IRToCK3_c_gobi_dorngovi_holder change_development_level = 0 }
+}
+c_gobi_maominggan={
+	423.7.6 = { holder = IRToCK3_c_gobi_dorngovi_holder change_development_level = 0 }
+}
+c_gobi_ongi_gol={
+	423.7.6 = { holder = IRToCK3_c_gobi_ongi_gol_holder change_development_level = 0 }
+}
+c_gobi_sonkhot={
+	423.7.6 = { holder = IRToCK3_c_gobi_dorngovi_holder change_development_level = 0 }
+}
+c_gobi_ulaan_govi={
+	423.7.6 = { holder = IRToCK3_c_gobi_ongi_gol_holder change_development_level = 0 }
+}
+c_gobi_ulaan_nuur={
+	423.7.6 = { holder = IRToCK3_c_gobi_ongi_gol_holder change_development_level = 0 }
+}
+c_gobi_ulaantatar={
+	423.7.6 = { holder = IRToCK3_c_em_dadaels_holder change_development_level = 0 }
+}

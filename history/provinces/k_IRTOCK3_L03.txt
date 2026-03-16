@@ -1,11 +1,11 @@
 2906={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2916={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2917={
@@ -15,8 +15,8 @@
 	holding = none
 }
 2932={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 2933={
@@ -26,12 +26,19 @@
 	holding = none
 }
 2935={
-	holding = none
+	culture = suebi
+	faith = germanic_pagan
+	holding = castle_holding
 }
 2936={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
+}
+2980={
+	culture = suebi
+	faith = germanic_pagan
+	holding = tribal_holding
 }
 2997={
 	holding = none
@@ -43,8 +50,8 @@
 	holding = city_holding
 }
 3012={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3013={
@@ -54,9 +61,7 @@
 	holding = city_holding
 }
 3015={
-	culture = old_suebi
-	faith = gothic_pagan
-	holding = castle_holding
+	holding = none
 }
 3016={
 	holding = none
@@ -71,46 +76,73 @@
 	holding = city_holding
 }
 3020={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3021={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3023={
-	culture = old_suebi
-	faith = central_pagan
-	holding = castle_holding
-}
-3024={
-	holding = none
-}
-3025={
-	culture = old_suebi
-	faith = central_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3027={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
 }
 3028={
 	holding = castle_holding
 }
 3030={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
+}
+3032={
+	holding = none
+}
+3033={
+	holding = none
+}
+3034={
+	holding = church_holding
+}
+3035={
+	holding = church_holding
 }
 3038={
 	holding = none
 }
 3039={
-	culture = old_suebi
-	faith = gothic_pagan
+	culture = suebi
+	faith = germanic_pagan
 	holding = castle_holding
+}
+3136={
+	holding = none
+}
+3141={
+	holding = none
+}
+3171={
+	holding = none
+}
+3172={
+	holding = city_holding
+}
+3176={
+	holding = none
+}
+3181={
+	culture = suebi
+	faith = germanic_pagan
+	holding = tribal_holding
+}
+3182={
+	holding = none
 }

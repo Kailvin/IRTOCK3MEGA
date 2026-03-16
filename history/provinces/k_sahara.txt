@@ -1,22 +1,72 @@
+6452={
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1120.1.1 = { religion = ashari }
+}
+6453={
+	holding = none
+}
+6454={
+	holding = none
+}
+6455={
+	holding = none
+}
+6456={
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1070.1.1 = { religion = ashari }
+}
+6457={
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1070.1.1 = { culture = kanuri religion = ashari }
+}
+6458={
+	holding = none
+}
+6460={
+	culture = butr
+	faith = berber_pagan
+	holding = tribal_holding
+}
+6461={
+	holding = none
+}
+6462={
+	holding = none
+}
+6463={
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1050.1.1 = { culture = butr religion = ibadi }
+}
+6464={
+	holding = none
+}
 6493={
 	holding = none
 }
 6494={
-	culture = toubou
-	religion = idoism_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = tribal_holding
 }
 6495={
 	holding = none
 }
 6496={
-	culture = toubou
-	religion = idoism_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = tribal_holding
 }
 6497={
-	culture = toubou
-	religion = idoism_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = tribal_holding
 }
 6498={
@@ -29,13 +79,13 @@
 	holding = none
 }
 6561={
-	culture = toubou
-	religion = idoism_pagan
+	culture = zaghawa
+	religion = west_african_bori_pagan
 	holding = tribal_holding
 	1050.1.1 = { culture = butr religion = ibadi }
 }
 6562={
-	culture = hausa
+	culture = zaghawa
 	religion = west_african_bori_pagan
 	holding = tribal_holding
 	special_building_slot = takkeda_mines_01
@@ -44,15 +94,58 @@
 6563={
 	holding = none
 }
+6564={
+	culture = butr
+	faith = berber_pagan
+	holding = tribal_holding
+}
+6565={
+	holding = none
+}
+6566={
+	culture = butr
+	faith = berber_pagan
+	holding = tribal_holding
+}
+6567={
+	holding = none
+}
+6601={
+	holding = none
+}
+6602={
+	holding = none
+}
+6657={
+	holding = none
+}
 6658={
 	holding = none
 }
+6659={
+	holding = none
+}
 6660={
+	holding = none
+}
+6661={
+	holding = none
+}
+6662={
+	holding = none
+}
+6663={
+	holding = none
+}
+6664={
 	holding = none
 }
 6665={
 	holding = none
 }
 6666={
+	holding = none
+}
+6668={
 	holding = none
 }

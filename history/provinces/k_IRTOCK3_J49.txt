@@ -1,15 +1,12 @@
 534={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
-	400.1.1 = { culture = sclavenian religion = slavic_pagan }
 }
 5073={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = slavic religion = slavic_pagan }
-	400.1.1 = { culture = sclavenian religion = slavic_pagan }
 }
 5074={
 	holding = none
@@ -21,11 +18,9 @@
 	holding = none
 }
 5077={
-	culture = bastarnian
-	faith = central_pagan
+	culture = vandilian
+	faith = germanic_pagan
 	holding = castle_holding
-	380.1.1 = { culture = slavic religion = slavic_pagan }
-	400.1.1 = { culture = sclavenian }
 }
 5078={
 	holding = none

@@ -8,13 +8,7 @@
 
 has_mythical_founder_trigger = {
 	OR = {
-		AND = { # Charles Martell (?)
-			OR = {
-				this = title:k_france
-				this = title:e_france
-			}
-			current_date > 1000.1.1
-		}
+		
 		OR = { # Alexander		
 			this = title:k_thessalonika
 			this = title:k_hellas
@@ -31,71 +25,22 @@ has_mythical_founder_trigger = {
 			}
 			this = title:k_anatolia
 		}
-		this = title:k_poland # Lech
-		this = title:k_bohemia # Czech
-		OR = { # Rus
-			this = title:k_white_rus
-			this = title:k_ruthenia
-			this = title:e_russia
-		}
-		OR = { # Arthur
-			this = title:k_england
-			this = title:e_britannia
-		}
-		AND = {
-			OR = { # Belisarius
-				this = title:k_italy
-				this = title:k_romagna
-				this = title:k_sardinia
-				this = title:k_naples
-				this = title:e_italy
-			}
-			root.faith = faith:orthodox
-		}
+		
 		OR = { # Romulus
 			this = title:k_italy
 			this = title:k_romagna
 			this = title:k_sardinia
 			this = title:e_italy
-			this = title:e_roman_empire
+			this = title:h_roman_empire
+			this = title:h_eastern_roman_empire
+			this = title:h_western_roman_empire # IRToCK3: Added WRE hegemony title
 		}
-		OR = { # Ardashir
-			this = title:k_persia
-			this = title:e_persia
-		}
+		
 		AND = { # Pharaohs
 			this = title:k_egypt
 			NOT = { root.faith.religion = religion:islam_religion }
 		}
-		AND = { # Visigothic Kings
-			OR = {
-				this = title:k_castille
-				this = title:k_aragon
-				this = title:k_navarra
-				this = title:k_andalusia
-				this = title:k_portugal
-				this = title:e_spain
-			}
-			NOT = { root.faith.religion = religion:islam_religion }
-		}
-		AND = { # Abd al-Rahman
-			OR = {
-				this = title:k_castille
-				this = title:k_aragon
-				this = title:k_navarra
-				this = title:k_andalusia
-				this = title:k_portugal
-				this = title:e_spain
-			}
-			root.faith.religion = religion:islam_religion
-		}
-		AND = { # Zenobia
-			OR = {
-				this = title:k_syria
-				this = title:k_mesopotamia
-			}
-			NOT = { root.faith.religion = religion:islam_religion }
-		}
+		
 	}
 }
 
@@ -136,17 +81,13 @@ character_title_allows_off_screen_wandering_trigger = {
 			highest_held_title_tier >= tier_empire
 			OR = {
 				government_has_flag = government_is_administrative
-				government_has_flag = government_is_autocratic_ep3
 				government_has_flag = government_is_clan
 			}
 		}
 		# No administrative kings.
 		AND = {
-			highest_held_title_tier <= tier_kingdom
-			OR = {
+			highest_held_title_tier = tier_kingdom
 			government_has_flag = government_is_administrative
-			government_has_flag = government_is_autocratic_ep3
-			}
 		}
 		# No religious heads.
 		faith.religious_head ?= this

@@ -37,7 +37,6 @@
 	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	300.1.1 = { special_building_slot = nalanda_university }
 }
 1251={
 	culture = indogreek
@@ -48,5 +47,4 @@
 	culture = indogreek
 	faith = hellenic_pagan
 	holding = castle_holding
-	300.1.1 = { special_building_slot = holy_site_mahabodhi_temple_01 }
 }

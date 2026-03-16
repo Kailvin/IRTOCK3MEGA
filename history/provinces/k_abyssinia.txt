@@ -2,9 +2,15 @@
 	holding = none
 }
 1369={
-	culture = south_arabian
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
+}
+8314={
+	holding = none
+}
+8315={
+	holding = none
 }
 8316={
 	holding = none
@@ -14,8 +20,9 @@
 }
 8321={
 	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	faith = orthodox
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
 }
 8322={
 	holding = none
@@ -28,8 +35,8 @@
 }
 8347={
 	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	faith = waaqism_pagan
+	holding = castle_holding
 }
 8348={
 	holding = none
@@ -44,41 +51,46 @@
 	holding = none
 }
 8352={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
+	culture = ethiopian
+	faith = orthodox
+	holding = castle_holding
 }
 8353={
 	holding = none
+	1066.1.1 = { holding = church_holding }
+}
+8364={
+	culture = ethiopian
+	religion = waaqism_pagan
+	holding = castle_holding
 }
 8366={
 	culture = ethiopian
-	faith = arabic_pagan
-	holding = none
+	religion = haymanot
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
 }
 8367={
 	holding = none
+}
+8371={
+	culture = ethiopian
+	religion = haymanot
+	holding = tribal_holding
+	1066.1.1 = { holding = castle_holding }
 }
 8372={
 	holding = none
 }
 8378={
-	culture = somali
-	faith = egyptian_pagan
+	culture = ethiopian
+	faith = orthodox
+	holding = castle_holding
+}
+8385={
 	holding = none
 }
 8386={
-	holding = none
-}
-8395={
-	culture = somali
-	faith = egyptian_pagan
-	holding = none
-}
-8396={
-	holding = none
-}
-8397={
 	holding = none
 }
 8431={
@@ -91,7 +103,7 @@
 }
 8504={
 	culture = ethiopian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 8505={
@@ -108,12 +120,12 @@
 }
 8509={
 	culture = ethiopian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 8512={
 	culture = somali
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 8513={

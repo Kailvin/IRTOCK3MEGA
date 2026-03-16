@@ -8,15 +8,15 @@
 }
 8280={
 	culture = ethiopian
-	faith = aksumite_pagan
+	faith = arabic_pagan
 	holding = none
 }
 8281={
 	holding = none
 }
 8286={
-	culture = south_arabian
-	faith = nicene
+	culture = qahtanite
+	faith = orthodox
 	holding = castle_holding
 }
 8287={

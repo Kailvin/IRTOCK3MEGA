@@ -1,0 +1,72 @@
+k_funan={
+	423.7.6 = { liege = 0 }
+}
+d_angkor={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_angkor_holder liege = 0 }
+}
+d_angkor_borey={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_angkor_borey_holder liege = 0 }
+}
+d_baigaur={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ca_mau_holder liege = 0 }
+}
+d_ratanakiri={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_ratanakiri_holder liege = 0 }
+}
+d_vyadhapura={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_binh_long_holder liege = 0 }
+}
+c_angkor={
+	423.7.6 = { holder = IRToCK3_c_angkor_holder change_development_level = 0 }
+}
+c_angkor_borey={
+	423.7.6 = { holder = IRToCK3_c_angkor_borey_holder change_development_level = 0 }
+}
+c_baigaur={
+	423.7.6 = { holder = IRToCK3_c_ca_mau_holder change_development_level = 0 }
+}
+c_binh_dai={
+	423.7.6 = { holder = IRToCK3_c_ca_mau_holder change_development_level = 0 }
+}
+c_binh_long={
+	423.7.6 = { holder = IRToCK3_c_binh_long_holder change_development_level = 0 }
+}
+c_botum_sakor={
+	423.7.6 = { holder = IRToCK3_c_angkor_borey_holder change_development_level = 0 }
+}
+c_ca_mau={
+	423.7.6 = { holder = IRToCK3_c_ca_mau_holder change_development_level = 0 }
+}
+c_dong_si_mahosot={
+	423.7.6 = { holder = IRToCK3_c_angkor_holder change_development_level = 0 }
+}
+c_koh_ker={
+	423.7.6 = { holder = IRToCK3_c_angkor_holder change_development_level = 0 }
+}
+c_kracheh_nokor={
+	423.7.6 = { holder = IRToCK3_c_binh_long_holder change_development_level = 0 }
+}
+c_mueang_phra_rot={
+	423.7.6 = { holder = IRToCK3_c_angkor_borey_holder change_development_level = 0 }
+}
+c_pleiku={
+	423.7.6 = { holder = IRToCK3_c_ratanakiri_holder change_development_level = 0 }
+}
+c_prea_vihear={
+	423.7.6 = { holder = IRToCK3_c_angkor_holder change_development_level = 0 }
+}
+c_pursat={
+	423.7.6 = { holder = IRToCK3_c_angkor_borey_holder change_development_level = 0 }
+}
+c_ratanakiri={
+	423.7.6 = { holder = IRToCK3_c_ratanakiri_holder change_development_level = 0 }
+}
+c_sambhupura={
+	423.7.6 = { holder = IRToCK3_c_angkor_holder change_development_level = 0 }
+}
+c_stung_treng={
+	423.7.6 = { holder = IRToCK3_c_ratanakiri_holder change_development_level = 0 }
+}
+c_vyadhapura={
+	423.7.6 = { holder = IRToCK3_c_binh_long_holder change_development_level = 0 }
+}

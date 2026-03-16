@@ -1,3 +1,19 @@
+2={
+	culture = irish
+	faith = insular_celtic
+}
+3={
+	culture = irish
+	faith = insular_celtic
+}
+4={
+	culture = irish
+	faith = insular_celtic
+}
+5={
+	culture = irish
+	faith = insular_celtic
+}
 235={
 	holding = none
 }
@@ -10,7 +26,7 @@
 	holding = none
 }
 238={
-	culture = rugian
+	culture = norse
 	faith = norse_pagan
 	holding = none
 }
@@ -18,7 +34,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 240={
 	holding = none
@@ -27,7 +43,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 242={
 	holding = none
@@ -43,10 +59,11 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse }
+	1020.1.1 = { culture = norwegian }
+	1070.1.1 = { religion = catholic }
 }
 249={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = none
 }
@@ -57,7 +74,7 @@
 	holding = none
 }
 252={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = none
 }
@@ -74,7 +91,7 @@
 	holding = none
 }
 257={
-	culture = rugian
+	culture = norse
 	faith = norse_pagan
 	holding = none
 }
@@ -85,7 +102,7 @@
 	holding = none
 }
 260={
-	culture = rugian
+	culture = norse
 	faith = norse_pagan
 	holding = none
 }
@@ -105,7 +122,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 266={
 	holding = none
@@ -117,7 +134,7 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 269={
 	holding = none
@@ -128,7 +145,7 @@
 	religion = norse_pagan
 	holding = tribal_holding
 	997.1.1 = { holding = castle_holding }
-	1066.1.1 = { culture = norse religion = catholic buildings = { common_tradeport_01 hunting_grounds_01 barracks_01 } }
+	1066.1.1 = { culture = norwegian religion = catholic buildings = { common_tradeport_01 barracks_01 } }
 }
 271={
 	holding = none
@@ -153,7 +170,8 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse }
+	1020.1.1 = { culture = norwegian }
+	1070.1.1 = { religion = catholic }
 }
 278={
 	holding = none
@@ -165,7 +183,8 @@
 	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse }
+	1020.1.1 = { culture = norwegian }
+	1070.1.1 = { religion = catholic }
 }
 282={
 	holding = none
@@ -177,7 +196,7 @@
 	holding = none
 }
 289={
-	culture = aestian
+	culture = prussian
 	faith = slavic_pagan
 	holding = none
 }
@@ -185,10 +204,10 @@
 	holding = none
 }
 291={
-	culture = sami
-	religion = sami_pagan
+	culture = norse
+	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 292={
 	holding = none
@@ -214,16 +233,16 @@
 	holding = none
 }
 386={
-	culture = sami
-	religion = sami_pagan
+	culture = norse
+	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 389={
-	culture = sami
-	religion = sami_pagan
+	culture = norse
+	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 435={
 	holding = none
@@ -238,11 +257,14 @@
 	holding = none
 }
 439={
-	culture = sami
-	religion = sami_pagan
+	culture = norse
+	religion = norse_pagan
 	holding = tribal_holding
-	1020.1.1 = { culture = norse religion = catholic holding = castle_holding }
+	1020.1.1 = { culture = norwegian religion = catholic holding = castle_holding }
 }
 441={
+	holding = none
+}
+8769={
 	holding = none
 }

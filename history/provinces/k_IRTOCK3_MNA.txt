@@ -3,8 +3,8 @@
 	faith = insular_celtic
 }
 7={
-	culture = rugian
-	faith = central_pagan
+	culture = norse
+	faith = norse_pagan
 	holding = none
 }
 8={
@@ -183,12 +183,12 @@
 	holding = none
 }
 1502={
-	holding = city_holding
-}
-1503={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
+}
+1503={
+	holding = city_holding
 }
 1504={
 	holding = city_holding
@@ -197,12 +197,12 @@
 	holding = city_holding
 }
 1506={
-	holding = city_holding
-}
-1507={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
+}
+1507={
+	holding = city_holding
 }
 1508={
 	holding = city_holding
@@ -268,13 +268,11 @@
 }
 1526={
 	holding = church_holding
-	303.1.1 = { special_building_slot = london_bridge_01 }
 }
 1527={
 	culture = pictish
 	faith = insular_celtic
 	holding = castle_holding
-	special_building_slot = the_tower_of_london_01
 }
 1528={
 	holding = city_holding
@@ -383,6 +381,7 @@
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
+	special_building_slot = generic_university
 }
 1559={
 	holding = city_holding
@@ -523,9 +522,7 @@
 	holding = none
 }
 1598={
-	culture = irish
-	faith = insular_celtic
-	holding = castle_holding
+	holding = none
 }
 1599={
 	holding = none
@@ -553,7 +550,9 @@
 	holding = city_holding
 }
 1606={
-	holding = none
+	culture = irish
+	faith = insular_celtic
+	holding = castle_holding
 }
 1607={
 	holding = none
@@ -653,12 +652,12 @@
 	holding = none
 }
 1635={
-	holding = none
-}
-1636={
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
+}
+1636={
+	holding = none
 }
 1637={
 	culture = irish
@@ -727,7 +726,6 @@
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-	380.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1655={
 	holding = none
@@ -747,7 +745,6 @@
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-	74.1.1 = { special_building_slot = dolaucothi_gold_mines_01 }
 }
 1660={
 	holding = none
@@ -799,12 +796,12 @@
 	holding = none
 }
 1673={
-	culture = briton
-	religion = briton_pagan
-	holding = tribal_holding
+	culture = welsh
+	religion = catholic
+	holding = castle_holding
 }
 1674={
-	holding = none
+	holding = city_holding
 }
 1675={
 	holding = none
@@ -864,7 +861,6 @@
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-	380.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1690={
 	holding = none
@@ -885,7 +881,7 @@
 }
 1695={
 	culture = pictish
-	faith = pictish_druidism
+	faith = gaelic_paganism
 	holding = castle_holding
 }
 1696={
@@ -898,7 +894,6 @@
 	culture = irish
 	faith = insular_celtic
 	holding = castle_holding
-	365.1.1 = { culture = gaelic religion = irish_druidism }
 }
 1699={
 	holding = none
@@ -951,7 +946,7 @@
 }
 1712={
 	culture = pictish
-	faith = pictish_druidism
+	faith = gaelic_paganism
 	holding = castle_holding
 }
 1713={
@@ -995,7 +990,7 @@
 }
 1724={
 	culture = pictish
-	faith = pictish_druidism
+	faith = gaelic_paganism
 	holding = castle_holding
 }
 1725={
@@ -1031,7 +1026,7 @@
 }
 1734={
 	culture = pictish
-	faith = pictish_druidism
+	faith = gaelic_paganism
 	holding = castle_holding
 }
 1735={
@@ -1104,4 +1099,26 @@
 }
 8750={
 	holding = none
+}
+8775={
+	holding = city_holding
+}
+8776={
+	holding = none
+}
+8777={
+	holding = none
+}
+8778={
+	holding = none
+}
+8779={
+	holding = none
+}
+8780={
+	holding = none
+}
+12826={
+	holding = castle_holding
+	767.1.1 = { special_building = dean_mines_01 }
 }

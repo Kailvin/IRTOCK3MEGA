@@ -1,19 +1,15 @@
 k_mordvinia={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
 d_mordvinia={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_cheboksary_holder liege = 0 }
 }
 c_cheboksary={
-	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_cheboksary_holder liege = 0 change_development_level = 6 }
 }
 c_lachyk-uba={
-	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_cheboksary_holder liege = 0 change_development_level = 4 }
 }
 c_rakcha={
-	361.1.1 = { government = tribal_government }
 	423.7.6 = { holder = IRToCK3_c_cheboksary_holder liege = 0 change_development_level = 6 }
 }

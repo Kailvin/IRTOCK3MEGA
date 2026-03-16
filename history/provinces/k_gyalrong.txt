@@ -1,34 +1,32 @@
 9328={
-	holding = none
-}
-9329={
-	holding = none
+	holding = church_holding
 }
 9330={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
+	1200.1.1 = { culture = bodpa religion = lamaism }
 }
 9331={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 	650.1.1 = { culture = bodpa religion = lamaism }
 }
 9332={
-	holding = none
+	holding = church_holding
 }
 9333={
-	holding = none
+	holding = city_holding
 }
 9334={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 	1200.1.1 = { religion = lamaism }
 }
 9335={
-	holding = none
+	holding = church_holding
 }
 9337={
 	holding = none
@@ -47,12 +45,10 @@
 	1050.1.1 = { religion = bon }
 }
 9424={
-	holding = none
-	476.1.1 = { holding = city_holding }
+	holding = city_holding
 }
 9425={
-	holding = none
-	476.1.1 = { holding = church_holding }
+	holding = church_holding
 }
 9429={
 	culture = tangut
@@ -69,154 +65,145 @@
 9432={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
-	476.1.1 = { holding = castle_holding }
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = lamaism }
 }
 9433={
-	holding = none
-	476.1.1 = { holding = city_holding }
+	holding = city_holding
 }
 9434={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
-	476.1.1 = { holding = castle_holding }
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = lamaism }
 }
 9435={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
-	476.1.1 = { holding = castle_holding }
+	holding = castle_holding
+	900.1.1 = { culture = bodpa religion = lamaism }
 }
 9436={
-	holding = none
-	476.1.1 = { holding = church_holding }
+	holding = church_holding
 }
 9437={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
+	holding = castle_holding
 	900.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 	1150.1.1 = { religion = lamaism }
 }
 9438={
-	holding = none
+	holding = church_holding
 }
 9439={
-	holding = none
-	476.1.1 = { holding = city_holding }
+	holding = city_holding
 }
 9440={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
-	476.1.1 = { holding = castle_holding }
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = old_bon }
+	1050.1.1 = { religion = bon }
+	1150.1.1 = { religion = lamaism }
 }
 9441={
-	holding = none
-	476.1.1 = { holding = church_holding }
+	holding = church_holding
 }
 9442={
-	holding = none
-	476.1.1 = { holding = city_holding }
+	holding = city_holding
 }
 9443={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
-	476.1.1 = { holding = castle_holding }
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = old_bon }
+	1050.1.1 = { religion = bon }
+	1150.1.1 = { religion = lamaism }
 }
 9444={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
+	holding = castle_holding
+	800.1.1 = { culture = bodpa religion = old_bon }
+	1050.1.1 = { religion = bon }
+	1150.1.1 = { religion = lamaism }
 }
 9445={
-	holding = none
+	holding = church_holding
 }
 9446={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
+	holding = castle_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9447={
-	holding = none
+	holding = church_holding
 }
 9448={
-	holding = none
+	holding = city_holding
 }
 9449={
 	culture = tangut
 	religion = melieism
-	holding = tribal_holding
+	holding = castle_holding
 	800.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9450={
-	holding = none
+	holding = church_holding
 }
 9451={
-	holding = none
+	holding = church_holding
 }
 9452={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 	850.1.1 = { religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9453={
-	culture = tangut
-	religion = melieism
-	holding = tribal_holding
+	culture = qiang
+	religion = rrmeaism
+	holding = castle_holding
 	850.1.1 = { religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9454={
-	holding = none
+	holding = church_holding
 }
 9455={
-	holding = none
+	holding = city_holding
 }
 9456={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 	650.1.1 = { culture = bodpa religion = old_bon }
 	1050.1.1 = { religion = bon }
 }
 9457={
-	holding = none
-}
-9458={
-	culture = qiang
-	religion = rrmeaism
-	holding = tribal_holding
-}
-9459={
-	holding = none
-}
-9460={
-	holding = none
+	holding = city_holding
 }
 9461={
-	holding = none
+	holding = church_holding
 }
 9462={
-	holding = none
+	holding = city_holding
 }
 9463={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 }
 9464={
 	culture = qiang
 	religion = rrmeaism
-	holding = tribal_holding
+	holding = castle_holding
 }
 9465={
 	holding = none
@@ -225,5 +212,5 @@
 	holding = none
 }
 9467={
-	holding = none
+	holding = church_holding
 }

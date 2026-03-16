@@ -5,11 +5,11 @@ k_IRTOCK3_M11={
 d_dahala={
 	423.7.6 = { liege = 0 }
 }
-c_tripuri={
+c_chauragarh={
 	422.9.15 = { liege = 0 holder = imperator205065 }
 	423.7.6 = { change_development_level = 16 }
 }
-c_chauragarh={
+c_tripuri={
 	422.9.15 = { liege = 0 holder = imperator205065 }
 	423.7.6 = { change_development_level = 16 }
 }

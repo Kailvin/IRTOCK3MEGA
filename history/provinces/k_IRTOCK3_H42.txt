@@ -5,8 +5,8 @@
 	holding = none
 }
 2501={
-	culture = langobard
-	faith = roman_pagan
+	culture = frankish
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2502={
@@ -14,7 +14,7 @@
 }
 2503={
 	culture = roman
-	faith = roman_pagan
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2504={
@@ -22,12 +22,12 @@
 }
 2505={
 	culture = roman
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 }
 2506={
 	culture = italiote
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 }
 2507={
@@ -35,7 +35,7 @@
 }
 2508={
 	culture = roman
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 }
 2509={
@@ -49,7 +49,7 @@
 }
 2512={
 	culture = roman
-	faith = nicene
+	faith = catholic
 	holding = castle_holding
 }
 2513={
@@ -62,23 +62,33 @@
 	holding = city_holding
 }
 2516={
-	culture = kolochin
-	faith = arianism
+	culture = urslavic
+	faith = catholic
 	holding = castle_holding
 }
 2517={
 	culture = roman
-	faith = roman_pagan
+	faith = hellenic_pagan
 	holding = castle_holding
+	special_building_slot = doges_palace_01
 }
 2524={
 	holding = city_holding
 }
 2525={
 	culture = roman
-	faith = roman_pagan
+	faith = hellenic_pagan
 	holding = castle_holding
 }
 2666={
+	holding = none
+}
+8765={
+	holding = none
+}
+8766={
+	holding = church_holding
+}
+8767={
 	holding = none
 }

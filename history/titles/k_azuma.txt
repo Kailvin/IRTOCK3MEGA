@@ -1,0 +1,87 @@
+k_azuma={
+	423.7.6 = { liege = 0 }
+}
+d_east_bando={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_shimosa_holder government = feudal_government }
+}
+d_hokurikudo={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_echizen_holder government = feudal_government }
+}
+d_tokaido={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_ise_holder government = feudal_government }
+}
+d_tosando={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_omi_holder government = feudal_government }
+}
+d_west_bando={
+	423.7.6 = { liege = 0 holder = IRToCK3_c_musashi_holder government = feudal_government }
+}
+c_echigo={
+	423.7.6 = { holder = IRToCK3_c_echizen_holder change_development_level = 0 }
+}
+c_echizen={
+	423.7.6 = { holder = IRToCK3_c_echizen_holder change_development_level = 0 }
+}
+c_etchu={
+	423.7.6 = { holder = IRToCK3_c_echizen_holder change_development_level = 0 }
+}
+c_hida={
+	423.7.6 = { holder = IRToCK3_c_omi_holder change_development_level = 0 }
+}
+c_hitachi={
+	423.7.6 = { holder = IRToCK3_c_shimosa_holder change_development_level = 0 }
+}
+c_ise={
+	423.7.6 = { holder = IRToCK3_c_ise_holder change_development_level = 0 }
+}
+c_izu={
+	423.7.6 = { holder = IRToCK3_c_musashi_holder change_development_level = 0 }
+}
+c_kaga={
+	423.7.6 = { holder = IRToCK3_c_echizen_holder change_development_level = 0 }
+}
+c_kai={
+	423.7.6 = { holder = IRToCK3_c_omi_holder change_development_level = 0 }
+}
+c_kazusa={
+	423.7.6 = { holder = IRToCK3_c_shimosa_holder change_development_level = 0 }
+}
+c_kozuke={
+	423.7.6 = { holder = IRToCK3_c_musashi_holder change_development_level = 0 }
+}
+c_mikawa={
+	423.7.6 = { holder = IRToCK3_c_ise_holder change_development_level = 0 }
+}
+c_mino={
+	423.7.6 = { holder = IRToCK3_c_omi_holder change_development_level = 0 }
+}
+c_musashi={
+	423.7.6 = { holder = IRToCK3_c_musashi_holder change_development_level = 0 }
+}
+c_noto={
+	423.7.6 = { holder = IRToCK3_c_echizen_holder change_development_level = 0 }
+}
+c_omi={
+	423.7.6 = { holder = IRToCK3_c_omi_holder change_development_level = 0 }
+}
+c_owari={
+	423.7.6 = { holder = IRToCK3_c_ise_holder change_development_level = 0 }
+}
+c_sagami={
+	423.7.6 = { holder = IRToCK3_c_musashi_holder change_development_level = 0 }
+}
+c_shimosa={
+	423.7.6 = { holder = IRToCK3_c_shimosa_holder change_development_level = 0 }
+}
+c_shimotsuke={
+	423.7.6 = { holder = IRToCK3_c_shimosa_holder change_development_level = 0 }
+}
+c_shinano={
+	423.7.6 = { holder = IRToCK3_c_omi_holder change_development_level = 0 }
+}
+c_suruga={
+	423.7.6 = { holder = IRToCK3_c_ise_holder change_development_level = 0 }
+}
+c_totomi={
+	423.7.6 = { holder = IRToCK3_c_ise_holder change_development_level = 0 }
+}

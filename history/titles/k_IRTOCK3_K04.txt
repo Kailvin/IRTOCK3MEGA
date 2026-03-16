@@ -13,44 +13,38 @@ k_IRTOCK3_K04={
 d_aral_il={
 	423.7.6 = { liege = 0 }
 }
-c_yangikent={
-	416.8.15 = { liege = 0 holder = imperator198235 }
-	423.7.6 = { change_development_level = 2 }
-}
-c_raimskoe={
-	416.8.15 = { liege = 0 holder = imperator198235 }
-	423.7.6 = { change_development_level = 3 }
-}
-c_kara-mugai={
-	416.8.15 = { liege = 0 holder = imperator198235 }
-	423.7.6 = { change_development_level = 3 }
+d_syr_darya={
+	423.7.6 = { liege = 0 }
 }
 c_ak-dzulpas={
 	423.2.20 = { liege = 0 holder = imperator199909 }
 	423.7.6 = { change_development_level = 3 }
 }
-b_zhelanash={
-	423.7.6 = { holder = imperator198136 }
-}
 c_aralkizil={
 	423.2.20 = { liege = 0 holder = imperator199909 }
-	423.7.6 = { liege = k_IRTOCK3_I28 holder = imperator190764 change_development_level = 2 }
-}
-d_syr_darya={
-	423.7.6 = { liege = 0 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_jend={
 	416.8.15 = { liege = 0 holder = imperator198235 }
 	423.7.6 = { change_development_level = 6 }
 }
-b_azez-kul={
-	423.7.6 = { holder = imperator185748 }
+c_kara-mugai={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_raimskoe={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 3 }
 }
 c_sighnaq={
-	416.8.15 = { holder = imperator198235 liege = 0 }
+	416.8.15 = { liege = 0 holder = imperator198235 }
 	423.7.6 = { change_development_level = 6 }
 }
 c_uzgend_KARA={
-	416.8.15 = { holder = imperator198235 liege = 0 }
+	416.8.15 = { liege = 0 holder = imperator198235 }
 	423.7.6 = { change_development_level = 7 }
+}
+c_yangikent={
+	416.8.15 = { liege = 0 holder = imperator198235 }
+	423.7.6 = { change_development_level = 2 }
 }

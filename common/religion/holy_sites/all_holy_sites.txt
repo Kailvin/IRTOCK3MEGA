@@ -8,11 +8,9 @@
 }
 stonehenge={
 	county = c_wiltshire
-	barony = b_salisbury
 	character_modifier = {
 		name = holy_site_stonehenge_effect_name
 		monthly_piety_gain_mult = 0.2
-		dread_baseline_add = 5
 	}
 }
 tlachtgha={
@@ -23,7 +21,7 @@ tlachtgha={
 	}
 }
 glanum={
-	county = c_arles
+	county = c_venaissin
 	barony = b_arles
 	character_modifier = {
 		name = holy_site_glanum_effect_name
@@ -95,8 +93,7 @@ auvergne={
 	character_modifier = {
 		name = holy_site_auvergne_effect_name
 		martial = 1
-		learning = 1
-		intrigue = 1
+		prowess = 1
 	}
 }
 poitou={
@@ -323,9 +320,11 @@ zawty={
 }
 giza={
 	county = c_giza
+	barony = b_gizeh
 	character_modifier = {
 		name = holy_site_giza_effect_name
-		build_gold_cost = -0.15
+		life_expectancy = 3
+		health = 0.1
 	}
 }
 bahnasa={
@@ -349,8 +348,7 @@ petra={
 	barony = b_baidha-petra
 	character_modifier = {
 		name = holy_site_petra_effect_name
-		domain_tax_mult = 0.01
-		development_growth_factor = 0.1
+		domain_tax_mult = 0.02
 	}
 }
 sirwa={
@@ -369,7 +367,7 @@ taif={
 	}
 }
 babylon={
-	county = c_batiha
+	county = c_kufa
 	barony = b_al-hila
 	character_modifier = {
 		name = holy_site_babylon_effect_name
@@ -599,6 +597,15 @@ german_dublin={
 		different_culture_opinion = 5
 	}
 }
+vestisland={
+	county = c_vestisland
+	barony = b_vestfirdir
+	character_modifier = {
+		name = holy_site_vestisland_effect_name
+		diplomacy = 1
+		learning = 1
+	}
+}
 oxfordshire={
 	county = c_oxfordshire
 	barony = b_witney
@@ -719,7 +726,6 @@ popa={
 }
 zwegabin={
 	county = c_thaton
-	barony = b_mawlamyine
 	character_modifier = {
 		name = holy_site_zwegabin_effect_name
 		fertility = 0.15
@@ -785,7 +791,7 @@ irtock3_ajivika_minagana={
 	}
 }
 irtock3_ajivika_chintamani={
-	county = c_penugonda
+	county = c_candragiri
 	barony = b_nangali
 	character_modifier = {
 		name = holy_site_irtock3_ajivika_chintamani_effect_name
@@ -1041,13 +1047,11 @@ ragusa={
 	county = c_ragusa
 	character_modifier = {
 		name = holy_site_ragusa_effect_name
-		development_growth_factor = 0.1
-		stewardship = 1
+		diplomacy = 1
 	}
 }
 esztergom={
-	county = c_visegrad
-	barony = b_esztergom
+	county = c_esztergom
 	character_modifier = {
 		name = holy_site_esztergom_effect_name
 		county_opinion_add = 10
@@ -1495,6 +1499,143 @@ dwarka={
 		hard_casualty_modifier = -0.1
 	}
 }
+puri={
+	county = c_puri
+	character_modifier = {
+		name = holy_site_puri_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning_per_piety_level = 1
+	}
+}
+badrinath={
+	county = c_garwhal
+	barony = b_uttarkashi
+	character_modifier = {
+		name = holy_site_badrinath_effect_name
+		short_reign_duration_mult = -0.25
+		vassal_opinion = 3
+	}
+}
+shringeri={
+	county = c_banavasi
+	barony = b_shringeri
+	character_modifier = {
+		name = holy_site_shringeri_effect_name
+		stewardship_per_piety_level = 1
+	}
+}
+konarak={
+	county = c_kataka
+	barony = b_konarak
+	character_modifier = {
+		name = holy_site_konarak_effect_name
+		development_growth_factor = 0.1
+		church_holding_build_gold_cost = -0.1
+	}
+}
+angkor={
+	county = c_angkor
+	character_modifier = {
+		name = holy_site_angkor_effect_name
+		tributary_opinion = 5
+		jungle_construction_gold_cost = -0.1
+	}
+}
+bantey_srei={
+	county = c_angkor
+	character_modifier = {
+		name = holy_site_bantey_srei_effect_name
+		county_opinion_add = 5
+		great_project_build_speed = -0.05
+	}
+}
+borobudur={
+	county = c_JAV_mataram
+	barony = b_JAV_Borobodur
+	character_modifier = {
+		name = holy_site_borobudur_effect_name
+		monthly_piety_gain_per_knight_mult = 0.01
+		knight_effectiveness_mult = 0.1
+	}
+}
+muara_takus={
+	county = c_SUM_muara_takus
+	barony = b_SUM_Muara_Takus
+	character_modifier = {
+		name = holy_site_muara_takus_effect_name
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+}
+prambanan={
+	county = c_JAV_mataram
+	barony = b_JAV_Mataram
+	character_modifier = {
+		name = holy_site_prambanan_effect_name
+		different_culture_opinion = 10
+	}
+}
+kalasan={
+	county = c_JAV_mataram
+	barony = b_JAV_Mataram
+	character_modifier = {
+		name = holy_site_kalasan_effect_name
+		diplomacy = 1
+		powerful_vassal_opinion = 5
+	}
+}
+preah_vihear={
+	county = c_prea_vihear
+	barony = b_prea_vihear
+	character_modifier = {
+		name = holy_site_preah_vihear_effect_name
+		jungle_development_growth_factor = 0.2
+		county_opinion_add = 5
+	}
+}
+my_son={
+	county = c_indrapura
+	barony = b_my_son
+	character_modifier = {
+		name = holy_site_my_son_effect_name
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+}
+bayon={
+	county = c_angkor
+	character_modifier = {
+		name = holy_site_bayon_effect_name
+		wetlands_development_growth_factor = 0.2
+		county_opinion_add = 5
+	}
+}
+bumiayu={
+	county = c_SUM_palembang
+	barony = b_SUM_Musi
+	character_modifier = {
+		name = holy_site_bumiayu_effect_name
+		clergy_opinion = 5
+		monthly_piety_gain_mult = 0.1
+	}
+}
+khao_khlang_nai={
+	county = c_lop_buri
+	barony = b_sri_thep
+	character_modifier = {
+		name = holy_site_khao_khlang_nai_effect_name
+		tributary_opinion = 5
+		temple_citadel_holding_build_gold_cost = -0.1
+	}
+}
+bupaya={
+	county = c_pagan
+	barony = b_pagan
+	character_modifier = {
+		name = holy_site_bupaya_effect_name
+		monthly_piety_gain_mult = 0.1
+	}
+}
 palitana={
 	county = c_somnath
 	character_modifier = {
@@ -1592,7 +1733,7 @@ jumla={
 	}
 }
 maowun={
-	county = c_maowun
+	county = c_hanzhou
 	character_modifier = {
 		name = holy_site_maowun_effect_name
 		monthly_piety_gain_per_knight_mult = 0.01
@@ -1627,14 +1768,14 @@ rebgong={
 	}
 }
 xingqing={
-	county = c_xingqing
+	county = c_lingzhou
 	character_modifier = {
 		name = holy_site_xingqing_effect_name
 		same_faith_opinion = 5
 	}
 }
 yijinai={
-	county = c_yijinai
+	county = c_tongcheng
 	character_modifier = {
 		name = holy_site_yijinai_effect_name
 		build_gold_cost = -0.05
@@ -1722,7 +1863,7 @@ badd={
 	}
 }
 ctesiphon={
-	county = c_ctesiphon
+	county = c_baghdad
 	barony = b_an-nahrawan
 	character_modifier = {
 		name = holy_site_ctesiphon_effect_name
@@ -1791,7 +1932,6 @@ ranaheim={
 	county = c_trandheim
 	character_modifier = {
 		name = holy_site_ranaheim_effect_name
-		naval_movement_speed_mult = 0.2
 		men_at_arms_maintenance = -0.05
 	}
 }
@@ -1909,7 +2049,7 @@ rugen={
 	}
 }
 pest={
-	county = c_komarom
+	county = c_visegrad
 	barony = b_pest
 	character_modifier = {
 		name = holy_site_pest_effect_name
@@ -1989,11 +2129,9 @@ athens={
 }
 carthage={
 	county = c_tunis
-	barony = b_tunis
 	character_modifier = {
-		name = holy_site_sligo_effect_name
-		naval_movement_speed_mult = 0.25
-		embarkation_cost_mult = -0.2
+		name = holy_site_carthage_effect_name
+		dread_baseline_add = 5
 	}
 }
 olympus={
@@ -2022,10 +2160,10 @@ kabul={
 }
 multan={
 	county = c_multan
-	barony = b_multan
 	character_modifier = {
 		name = holy_site_multan_effect_name
-		monthly_prestige_gain_mult = 0.1
+		martial = 1
+		monthly_piety_gain_mult = 0.05
 	}
 }
 bost={
@@ -2037,6 +2175,7 @@ bost={
 }
 khotan={
 	county = c_khotan
+	barony = b_lafak
 	character_modifier = {
 		name = holy_site_khotan_effect_name
 		different_culture_opinion = 10
@@ -2051,6 +2190,7 @@ balkh={
 }
 lhasa={
 	county = c_lhasa
+	barony = b_lhasa
 	character_modifier = {
 		name = holy_site_lhasa_effect_name
 		monthly_piety_gain_mult = 0.2
@@ -2341,6 +2481,30 @@ mogadishu={
 		clergy_opinion = 5
 	}
 }
+kirinyaga={
+	county = c_kirinyaga
+	character_modifier = {
+		name = holy_site_kirinyaga_effect_name
+		health = 0.1
+		monthly_piety_gain_mult = 0.1
+	}
+}
+mangea={
+	county = c_mombasa
+	barony = b_mtwapa
+	character_modifier = {
+		name = holy_site_mangea_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+kilimanjaro={
+	county = c_kilimanjaro
+	character_modifier = {
+		name = holy_site_kilimanjaro_effect_name
+		controlled_province_advantage = 5
+		prowess_per_piety_level = 1
+	}
+}
 gilgit={
 	county = c_gilgit
 	character_modifier = {
@@ -2349,585 +2513,916 @@ gilgit={
 		stewardship = 1
 	}
 }
+nakkavaram={
+	county = c_nakkavaram
+	character_modifier = {
+		name = holy_site_nakkavaram_effect_name
+		build_gold_cost = -0.1
+		stewardship = 1
+	}
+}
+ar_kol={
+	county = c_andamans
+	character_modifier = {
+		name = holy_site_ar_kol_effect_name
+		jungle_tax_mult = 0.15
+		monthly_piety_gain_mult = 0.1
+	}
+}
 suzhou={
 	county = c_suzhou
 	character_modifier = {
 		name = holy_site_suzhou_effect_name
 		diplomacy = 1
-		martial = 1
 	}
 }
-uiska={
-	county = c_uiska
+mount_heng={
+	county = c_shuozhou
 	character_modifier = {
-		name = holy_site_uiska_effect_name
-		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
+		name = holy_site_mount_heng_effect_name
+		direct_vassal_opinion = 5
 	}
 }
-tambov={
-	county = c_tambov
+mount_longhu={
+	county = c_jianchang
+	barony = b_nancheng
 	character_modifier = {
-		name = holy_site_tambov_effect_name
-		stewardship = 1
-		close_relative_opinion = 5
+		name = holy_site_mount_longhu_effect_name
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
 }
-enare={
-	county = c_inari
+mount_qingcheng={
+	county = c_chengdu
 	character_modifier = {
-		name = holy_site_enare_effect_name
-		taiga_max_combat_roll = 5
-		archers_toughness_mult = 0.1
+		name = holy_site_mount_qingcheng_effect_name
+		life_expectancy = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
 	}
 }
-enarefi={
-	county = c_inari
+mount_tai={
+	county = c_yunzhou
 	character_modifier = {
-		name = holy_site_enarefi_effect_name
-		taiga_max_combat_roll = 5
-		archers_toughness_mult = 0.1
+		name = holy_site_mount_tai_effect_name
+		monthly_piety_gain_mult = 0.05
+		learning = 1
 	}
 }
-koda={
-	county = c_koda
+mount_mian={
+	county = c_taiyuan
 	character_modifier = {
-		name = holy_site_koda_effect_name
-		taiga_max_combat_roll = 5
-		archers_toughness_mult = 0.1
-	}
-}
-yoshkar-ola={
-	county = c_yoshkar-ola
-	character_modifier = {
-		name = holy_site_yoshkar-ola_effect_name
-		taiga_max_combat_roll = 5
-		archers_toughness_mult = 0.1
-	}
-}
-sjeltie={
-	county = c_sjeltie
-	character_modifier = {
-		name = holy_site_sjeltie_effect_name
-		supply_duration = 0.25
-		prowess = 1
-	}
-}
-choklema={
-	county = c_choklema
-	character_modifier = {
-		name = holy_site_choklema_effect_name
+		name = holy_site_mount_mian_effect_name
 		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+}
+mount_kunyu={
+	county = c_dengzhou
+	character_modifier = {
+		name = holy_site_mount_kunyu_effect_name
+		stress_loss_mult = 0.2
+		life_expectancy = 1
+	}
+}
+mount_wudang={
+	county = c_junzhou
+	character_modifier = {
+		name = holy_site_mount_wudang_effect_name
+		martial = 1
+		prowess_per_prestige_level = 1
+	}
+}
+mount_qiyung={
+	county = c_shezhou
+	character_modifier = {
+		name = holy_site_mount_wudang_effect_name
+		learning = 2
+	}
+}
+luyi={
+	county = c_bozhou
+	barony = b_luyi
+	character_modifier = {
+		name = holy_site_luyi_effect_name
+		learning = 1
+		monthly_piety = 1
+	}
+}
+ishizuchi={
+	county = c_iyo
+	barony = b_ishizuchi
+	character_modifier = {
+		name = holy_site_ishizuchi_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+fuji={
+	county = c_suruga
+	barony = b_fuji
+	character_modifier = {
+		name = holy_site_fuji_effect_name
+		councillor_opinion = 5
+	}
+}
+haku={
+	county = c_kaga
+	barony = b_haku
+	character_modifier = {
+		name = holy_site_haku_effect_name
+		vassal_levy_contribution_add = 0.15
+	}
+}
+ise_jingu={
+	county = c_ise
+	barony = b_ise_jingu
+	character_modifier = {
+		name = holy_site_ise_jingu_effect_name
+		learning_per_piety_level = 1
+	}
+}
+koya={
+	county = c_kii
+	barony = b_kongobu_ji
+	character_modifier = {
+		name = holy_site_koya_effect_name
+		clergy_opinion = 5
+	}
+}
+haguro={
+	county = c_tokisara
+	barony = b_tokisara
+	character_modifier = {
+		name = holy_site_haguro_effect_name
+		mountains_advantage = 5
+		mountains_development_growth_factor = 0.2
+	}
+}
+itsukushima={
+	county = c_aki
+	barony = b_itsukushima
+	character_modifier = {
+		name = holy_site_itsukushima_effect_name
 		knight_effectiveness_mult = 0.2
 	}
 }
-glazov={
-	county = c_glazov
+hachimangu={
+	county = c_buzen
+	barony = b_usa
 	character_modifier = {
-		name = holy_site_glazov_effect_name
-		monthly_piety_gain_mult = 0.1
+		name = holy_site_hachimangu_effect_name
+		men_at_arms_maintenance = -0.05
 	}
 }
-bjarmiasite={
-	county = c_kholmogory
+shaolin={
+	county = c_henan
+	barony = b_dengfeng
 	character_modifier = {
-		name = holy_site_bjarmiasite_effect_name
-		monthly_piety_gain_mult = 0.1
+		name = holy_site_shaolin_effect_name
+		prowess_per_piety_level = 1
+		clergy_opinion = 5
 	}
 }
-pudozh={
-	county = c_pudozh
+hangzhou={
+	county = c_hangzhou
 	character_modifier = {
-		name = holy_site_pudozh_effect_name
-		taiga_max_combat_roll = 5
-		archers_toughness_mult = 0.1
+		name = holy_site_lingyin_effect_name
+		diplomacy = 1
+		councillor_opinion = 5
 	}
 }
-volga={
-	county = c_yaroslavl
+wutai={
+	county = c_daizhou
 	character_modifier = {
-		name = holy_site_volga_effect_name
-		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
+		name = holy_site_wutai_effect_name
+		learning = 2
 	}
 }
-kainuu={
-	county = c_kainuu
+emei={
+	county = c_jiazhou
 	character_modifier = {
-		name = holy_site_kainuu_effect_name
-		monthly_piety_gain_mult = 0.1
+		name = holy_site_emei_effect_name
+		development_growth_factor = 0.1
 	}
 }
-causeaway={
-	county = c_inner_hebrides
-	barony = b_arran
+jiuhua={
+	county = c_chizhou
 	character_modifier = {
-		name = holy_site_fortriu_effect_name
-		embarkation_cost_mult = -0.75
-		naval_movement_speed_mult = 0.25
-	}
-	flag = unlocks_naval_raiding
-}
-fortriu={
-	county = c_moray
-	character_modifier = {
-		name = holy_site_fortriu_effect_name
-		monthly_county_control_growth_factor = 0.1
-		dread_baseline_add = 5
-		same_faith_opinion = 10
-	}
-}
-anglesey={
-	county = c_anglesey
-	character_modifier = {
-		name = holy_site_ynis_mon_effect_name
-		fertility = 0.1
-	}
-}
-hexham={
-	county = c_durham
-	barony = b_hexham
-	character_modifier = {
-		name = holy_site_hadrians_wall_effect_name
-		defender_advantage = 5
+		name = holy_site_jiuhua_effect_name
+		owned_personal_scheme_success_chance_add = 5
 		diplomacy = 1
 	}
 }
-tara={
-	county = c_dublin
-	barony = b_dublin
+putuo={
+	county = c_yuezhou_1
 	character_modifier = {
-		name = holy_site_tara_effect_name
-		monthly_county_control_growth_factor = 0.1
-		dread_baseline_add = 5
-		same_faith_opinion = 10
-	}
-}
-jerba={
-	county = c_djerba
-	barony = b_jerba
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-souf={
-	county = c_souf
-	barony = b_souf
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-septum={
-	county = c_ceuta
-	barony = b_sabta
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-agadir={
-	county = c_agadir
-	barony = b_agadir
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-harran={
-	county = c_harran
-	character_modifier = {
-		name = holy_site_harran_effect_name
-		monthly_lifestyle_xp_gain_mult = 0.05
-		learning = 1
-	}
-}
-bilizma={
-	county = c_bilizma
-	character_modifier = {
-		name = holy_site_bilizma_effect_name
-		learning = 1
+		name = holy_site_putuo_effect_name
+		county_opinion_add = 5
 		different_faith_opinion = 5
 	}
 }
-ahaggar={
-	county = c_djanet
+wenang={
+	county = c_SuMa_wenang
 	character_modifier = {
-		name = holy_site_ahaggar_effect_name
-		tolerance_advantage_mod = 3
-		same_culture_opinion = 5
+		name = holy_site_wenang_effect_name
+		stewardship_per_piety_level = 1
 	}
 }
-tanas={
-	county = c_tanas
+siang={
+	county = c_SuMa_siang
 	character_modifier = {
-		name = holy_site_tanas_effect_name
-		monthly_prestige_gain_mult = 0.1
+		name = holy_site_siang_effect_name
+		martial = 1
+		clergy_opinion = 5
 	}
 }
-thebes={
-	county = c_qus
+tengchong={
+	county = c_monyin
 	character_modifier = {
-		name = holy_site_thebes_effect_name
-		monthly_piety_gain_mult = 0.05
+		name = holy_site_tengchong_effect_name
+		clergy_opinion = 5
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
 	}
 }
-baduhena={
-	county = c_oldenburg
-	barony = b_leer
+dali={
+	county = c_dali
 	character_modifier = {
-		name = holy_site_baduhena_effect_name
-		diplomacy_per_piety_level = 1
+		name = holy_site_dali_effect_name
+		knight_effectiveness_mult = 0.2
+		prowess_per_prestige_level = 1
 	}
 }
-nerthus={
-	county = c_sjaelland
-	barony = b_roskilde
+shicheng={
+	county = c_shicheng
 	character_modifier = {
-		name = holy_site_nerthus_effect_name
-		fertility = 0.10
-		monthly_lifestyle_xp_gain_mult = 0.15
+		name = holy_site_shicheng_effect_name
+		diplomacy = 1
+		powerful_vassal_opinion = 5
 	}
 }
-semnones={
-	county = c_luneburg
-	barony = b_celle
+jinglong={
+	county = c_chiang_rung
 	character_modifier = {
-		name = holy_site_semnones_effect_name
-		dread_baseline_add = 5
+		name = holy_site_jinglong_effect_name
+		jungle_advantage = 3
 	}
 }
-irminsul={
-	county = c_wittenberg
-	barony = b_wittenberg
+jianchang={
+	county = c_jingzhou_2
 	character_modifier = {
-		name = holy_site_irminsul_effect_name
-		prowess_per_piety_level = 1
-		max_combat_roll = 4
+		name = holy_site_jianchang_effect_name
+		learning = 1
+		clergy_opinion = 5
 	}
 }
-oium={
-	county = c_oleshye
-	barony = b_oleshye
+zhaotong={
+	county = c_huizhou
 	character_modifier = {
-		name = holy_site_oium_effect_name
-		levy_size = 0.05
-		monthly_county_control_growth_factor = 0.1
+		name = holy_site_zhaotong_effect_name
+		knight_limit = 1
+		light_cavalry_toughness_mult = 0.1
 	}
 }
-gotland={
-	county = c_gutland
+xuhen={
+	county = c_jingzhou_2
 	character_modifier = {
-		name = holy_site_gotland_effect_name
-		different_culture_opinion = 10
-		cultural_head_acceptance_gain_mult = 0.15
+		name = holy_site_xuhen_effect_name
+		tributary_opinion = 4
 	}
 }
-alesia={
-	county = c_tonnerrois
-	barony = b_montbard
+chang_an={
+	county = c_jingzhao
 	character_modifier = {
-		monthly_prestige_gain_mult = 0.1
-	}
-	flag = kerala_conversion_bonus
-}
-vannes={
-	county = c_vannes
-	character_modifier = {
-		martial_per_piety_level = 1
-	}
-}
-dijon={
-	county = c_dijon
-	character_modifier = {
-		name = holy_site_dijon_effect_name
-		close_relative_opinion = 5
+		name = holy_site_xi_an_effect_name
 		monthly_piety_gain_mult = 0.1
 	}
 }
-orleans={
-	county = c_orleans
+bulguksa={
+	county = c_gyeongju
 	character_modifier = {
-		name = holy_site_orleans_effect_name
-		retreat_losses = -0.2
-		levy_reinforcement_rate_same_faith = 0.2
+		name = holy_site_bulguksa_effect_name
+		controlled_province_advantage = 5
 	}
 }
-lombardia={
-	county = c_lombardia
+donggang={
+	county = c_jangheung
 	character_modifier = {
-		name = holy_site_lombardia_effect_name
+		name = holy_site_donggang_effect_name
+		learning = 1
+		health = 0.1
+	}
+}
+cotabato={
+	county = c_PHI_cotabato
+	character_modifier = {
+		name = holy_site_cotabato_effect_name
+		learning = 1
+		tributary_opinion = 5
+	}
+}
+biri_larosa={
+	county = c_PHI_samar
+	character_modifier = {
+		name = holy_site_biri_larosa_effect_name
+		monthly_piety_gain_mult = 0.1
+	}
+}
+pinatubo={
+	county = c_PHI_tondo
+	character_modifier = {
+		name = holy_site_pinatubo_effect_name
+		jungle_tax_mult = 0.15
+	}
+}
+ivatan={
+	county = c_PHI_ivatan
+	character_modifier = {
+		name = holy_site_pulag_effect_name
+		same_faith_opinion = 10
+	}
+}
+mantalingajan={
+	county = c_PHI_south_palawan
+	character_modifier = {
+		name = holy_site_mantalingajan_effect_name
+		monthly_prestige_gain_per_knight_mult = 0.01
+		build_prestige_cost = -0.15
+	}
+}
+danai={
+	county = c_myitkyina
+	character_modifier = {
+		name = holy_site_danai_effect_name
+		owned_personal_scheme_success_chance_add = 5
+	}
+}
+magadha={
+	county = c_magadha
+	character_modifier = {
+		name = holy_site_magadha_effect_name
+		short_reign_duration_mult = -0.25
+	}
+}
+vien_chan={
+	county = c_vien_chan
+	character_modifier = {
+		name = holy_site_vien_chan_effect_name
+		sway_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+hsenwi={
+	county = c_hsenwi
+	character_modifier = {
+		name = holy_site_hsenwi_effect_name
+		personal_scheme_phase_duration_add = minor_scheme_phase_duration_bonus_value
+	}
+}
+sukhothai={
+	county = c_sukhothai
+	character_modifier = {
+		name = holy_site_sukhothai_effect_name
+		owned_personal_scheme_success_chance_add = 5
+	}
+}
+cao_bang={
+	county = c_binh_nguyen
+	character_modifier = {
+		name = holy_site_cao_bang_effect_name
+		intrigue = 1
+	}
+}
+molihewen={
+	county = c_eman_molihewen
+	character_modifier = {
+		name = holy_site_molihewen_effect_name
+		prowess_per_piety_level = 1
+	}
+}
+yam_alin={
+	county = c_eman_yam_alin
+	character_modifier = {
+		name = holy_site_yam_alin_effect_name
+		martial = 1
+	}
+}
+chupka={
+	county = c_chupka
+	character_modifier = {
+		name = holy_site_kunasir_effect_name
+		controlled_province_advantage = 5
+	}
+}
+yizhou={
+	county = c_BAL_dongpyeong_yizhou
+	character_modifier = {
+		name = holy_site_yizhou_effect_name
+		levy_size = 0.1
+	}
+}
+amandee={
+	county = c_amami
+	barony = b_amami
+	character_modifier = {
+		name = holy_site_amandee_effect_name
+		mountains_development_growth_factor = 0.2
+	}
+}
+sefa_utaki={
+	county = c_ucinaa
+	barony = b_simajiri
+	character_modifier = {
+		name = holy_site_sefa_utaki_effect_name
+		mountains_advantage = 5
+	}
+}
+tate={
+	county = c_shinano
+	character_modifier = {
+		name = holy_site_tate_effect_name
+		levy_size = 0.1
+	}
+}
+awa={
+	county = c_awa
+	character_modifier = {
+		name = holy_site_awa_effect_name
+		title_creation_cost_mult = -0.15
+	}
+}
+iban={
+	county = c_BOR_iban
+	character_modifier = {
+		name = holy_site_iban_effect_name
+		martial = 1
+		supply_duration = 0.25
+	}
+}
+kudat={
+	county = c_BOR_kudat
+	character_modifier = {
+		name = holy_site_kudat_effect_name
+		jungle_advantage = 5
+	}
+}
+taiao={
+	county = c_BOR_taiao
+	character_modifier = {
+		name = holy_site_taiao_effect_name
+		advantage_against_coreligionists = 1
+	}
+}
+sukadana={
+	county = c_BOR_sukadana
+	character_modifier = {
+		name = holy_site_sukadana_effect_name
+		courtier_and_guest_opinion = 5
 		councillor_opinion = 5
+	}
+}
+kutai={
+	county = c_BOR_kutai_utara
+	character_modifier = {
+		name = holy_site_kutai_effect_name
+		prowess_per_piety_level = 1
+	}
+}
+quanzhou={
+	county = c_quanzhou
+	character_modifier = {
+		name = holy_site_quanzhou_effect_name
+		monthly_piety_gain_mult = 0.1
+		stress_loss_per_piety_level = 0.05
+	}
+}
+turpan={
+	county = c_kara_khoja
+	barony = b_turpan
+	character_modifier = {
+		name = holy_site_turpan_effect_name
+		development_growth_factor = 0.1
+	}
+}
+qufu={
+	county = c_yanzhou
+	barony = b_fuqu
+	character_modifier = {
+		name = holy_site_qufu_effect_name
+		legitimacy_gain_mult = 0.1
+		monthly_merit_mult = 0.05
+	}
+}
+quzhou={
+	county = c_quzhou
+	character_modifier = {
+		name = holy_site_quzhou_effect_name
+		negate_learning_penalty_add = 4
+	}
+}
+linzi={
+	county = c_qingzhou
+	character_modifier = {
+		name = holy_site_linzi_effect_name
+		monthly_piety_gain_mult = 0.15
+		monthly_prestige_gain_mult = 0.05
+	}
+}
+bianliang={
+	county = c_bianzhou
+	character_modifier = {
+		name = holy_site_bianliang_effect_name
+		courtier_and_guest_opinion = 5
+		councillor_opinion = 5
+	}
+}
+zhuolu={
+	county = c_datong
+	character_modifier = {
+		name = holy_site_zhuolu_effect_name
 		county_opinion_add = 5
 	}
 }
-yperen={
-	county = c_yperen
+dongting={
+	county = c_langzhou_1
 	character_modifier = {
-		name = holy_site_yperen_effect_name
+		name = holy_site_dongting_effect_name
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+}
+wehale={
+	county = c_IDO_wehale
+	character_modifier = {
+		name = holy_site_wehale_effect_name
+		cultural_head_fascination_mult = 0.15
+	}
+}
+qiongzhou={
+	county = c_qiongzhou
+	character_modifier = {
+		name = holy_site_qiongzhou_effect_name
+		controlled_province_advantage = 5
+	}
+}
+amparita={
+	county = c_SuMa_ajatappareng
+	barony = b_SUL_Amparita
+	character_modifier = {
+		name = holy_site_amparita_effect_name
+		jungle_tax_mult = 0.1
+	}
+}
+buru-sula={
+	county = c_SuMa_buru-sula
+	character_modifier = {
+		name = holy_site_buru_sula_effect_name
+		stewardship = 1
+	}
+}
+papua_selatan={
+	county = c_papua_selatan
+	character_modifier = {
+		name = holy_site_papua_selatan_effect_name
+		dread_gain_mult = 0.1
+	}
+}
+kepala_burung={
+	county = c_kepala_burung
+	character_modifier = {
+		name = holy_site_kepala_burung_effect_name
 		monthly_tyranny = -0.1
 		tyranny_gain_mult = -0.2
 	}
 }
-naxos={
-	county = c_naxos
-	barony = b_naxos
+hoanya={
+	county = c_hoanya
 	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-cephalonia={
-	county = c_cephalonia
-	barony = b_cephalonia
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		same_faith_opinion = 10
-	}
-}
-ephesos={
-	county = c_ionia
-	barony = b_ephesos
-	character_modifier = {
-		name = holy_site_sligo_effect_name
-		prowess_per_piety_level = 1
-		martial = 2
-	}
-}
-siwa={
-	county = c_siwa
-	character_modifier = {
-		name = holy_site_siwa_effect_name
-		learning_per_piety_level = 1
-		same_faith_opinion = 10
-	}
-}
-augila={
-	county = c_awjila
-	character_modifier = {
-		name = holy_site_augila_effect_name
-		stewardship = 2
+		name = holy_site_hoanya_effect_name
 		development_growth_factor = 0.1
 	}
 }
-garama={
-	county = c_germa
+sonba_i={
+	county = c_IDO_sonba_i
 	character_modifier = {
-		name = holy_site_garama_effect_name
-		martial_per_piety_level = 1
+		name = holy_site_sonba_i_effect_name
+		learning = 2
+	}
+}
+riak_nan_berbedur={
+	county = c_SUM_riak_nan_berbedur
+	character_modifier = {
+		name = holy_site_riak_nan_berbedur_effect_name
+		monthly_prestige_gain_mult = 0.2
+	}
+}
+gangganegara={
+	county = c_MAL_gangganegara
+	character_modifier = {
+		name = holy_site_gangganegara_effect_name
 		county_opinion_add = 10
+		same_faith_opinion = 10
 	}
 }
-perpuza={
-	county = c_hadrianeia
-	barony = b_sebaste
+nutapkauspe={
+	county = c_menas
+	barony = b_opereperkep
 	character_modifier = {
-		name = holy_site_perpuza_effect_name
-		learning_per_piety_level = 1
-		mountains_advantage = 3
-		desert_mountains_advantage = 3
+		name = holy_site_nutapkauspe_effect_name
+		supply_duration = 0.2
+		men_at_arms_maintenance = -0.05
 	}
 }
-edessa={
-	county = c_edessa
-	barony = b_edessa
+makkarinupuri={
+	county = c_ioci
+	barony = b_aptapet_ainu
 	character_modifier = {
-		name = holy_site_edessa_effect_name
-		monthly_county_control_growth_factor = 0.1
-		church_holding_build_gold_cost = -0.05
-		church_holding_holding_build_gold_cost = -0.05
+		name = holy_site_simenas_effect_name
+		controlled_province_advantage = 5
 	}
 }
-risinium={
-	county = c_travunia
-	barony = b_risan
+tarayka={
+	county = c_tarayka
+	barony = b_tarayka
 	character_modifier = {
-		name = holy_site_risinium_effect_name
-		embarkation_cost_mult = -0.2
-		monthly_war_income_mult = 0.1
+		name = holy_site_tarayka_effect_name
+		same_faith_opinion = 5
 	}
 }
-mount_tomor={
-	county = c_antipatreia
+kamuykotan={
+	county = c_iskar
+	barony = b_cup_pet
 	character_modifier = {
-		name = holy_site_risinium_effect_name
-		legitimacy_gain_mult = 0.05
-		owned_personal_scheme_success_chance_add = 4
+		name = holy_site_kamuykotan_effect_name
+		development_growth_factor = 0.1
 	}
 }
-oenoanda={
-	county = c_caria
-	barony = b_telmessos
+hitakami={
+	county = c_isawa
+	barony = b_isawa
 	character_modifier = {
-		name = holy_site_oenoanda_effect_name
-		different_faith_county_opinion_mult = -0.15
-		stress_gain_mult = -0.15
+		name = holy_site_uskes_effect_name
+		cultural_head_fascination_mult = 0.15
 	}
 }
-palmyra={
-	county = c_palmyra
-	barony = b_tadmur
+nanning={
+	county = c_yongzhou
 	character_modifier = {
-		name = holy_site_palmyra_effect_name
-		domain_tax_mult = 0.01
-		vassal_tax_contribution_mult = 0.03
+		name = holy_site_nanning_effect_name
+		title_creation_cost_mult = -0.15
 	}
 }
-lysa_gora={
-	county = c_sandomierska
+muze={
+	county = c_muze
 	character_modifier = {
-		name = holy_site_lysa_gora_effect_name
-		personal_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
+		name = holy_site_muze_effect_name
+		learning = 1
 	}
 }
-kataragama={
-	county = c_rohana
-	barony = b_katargama
+sizhou={
+	county = c_jiangzhou_2
 	character_modifier = {
-		name = holy_site_kataragama_effect_name
-		different_faith_opinion = 5
-		enemy_hostile_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+		name = holy_site_sizhou_effect_name
+		monthly_prestige_gain_mult = 0.15
 	}
 }
-myitsone={
-	county = c_takon
-	barony = b_takon
+daozhou={
+	county = c_daozhou
 	character_modifier = {
-		name = holy_site_myitsone_effect_name
-		learning_per_piety_level = 1
-		cultural_head_fascination_mult = 0.1
+		name = holy_site_daozhou_effect_name
+		development_growth_factor = 0.1
 	}
 }
-marib={
-	county = c_jawf-al-yamani
-	barony = b_baraqish
+anlong={
+	county = c_yanchuan
 	character_modifier = {
-		name = holy_site_marib_effect_name
-		build_speed = -0.1
-		monthly_prestige_gain_mult = 0.05
+		name = holy_site_anlong_effect_name
+		knight_effectiveness_mult = 0.2
 	}
 }
-tortoli={
-	county = c_tortoli
+haripunjaya={
+	county = c_haripunjaya
 	character_modifier = {
-		name = holy_site_tortoli_effect_name
-		defender_holding_advantage = 3
-		build_gold_cost = -0.05
+		name = holy_site_haripunjaya_effect_name
+		cultural_head_fascination_mult = 0.15
 	}
 }
-cagliari={
-	county = c_cagliari
+nguu_hong={
+	county = c_quoc_oai
 	character_modifier = {
-		name = holy_site_cagliari_effect_name
-		domain_tax_mult = 0.02
+		name = holy_site_nguu_hong_effect_name
+		monthly_piety_gain_mult = 0.05
 	}
 }
-damot={
-	county = c_damot
+yangtze={
+	county = c_ezhou
 	character_modifier = {
-		name = holy_site_damot_effect_name
+		name = holy_site_yangtze_effect_name
+		same_faith_opinion = 10
+		dynasty_house_opinion = 5
+	}
+}
+zunyi={
+	county = c_bozhou_1
+	character_modifier = {
+		name = holy_site_zunyi_effect_name
+		levy_reinforcement_rate_same_faith = 0.2
+	}
+}
+cheongju={
+	county = c_cheongju
+	character_modifier = {
+		name = holy_site_cheongju_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+goseong={
+	county = c_goseong
+	character_modifier = {
+		name = holy_site_goseong_effect_name
+		monthly_piety = 1
+	}
+}
+baekdu={
+	county = c_BAL_east_amnok
+	barony = b_FIC_Liao_Changbaishan
+	character_modifier = {
+		name = holy_site_baekdu_effect_name
+		mountains_tax_mult = 0.15
+		stress_loss_mult = 0.1
+	}
+}
+taebaek={
+	county = c_andong
+	character_modifier = {
+		name = holy_site_taebaek_effect_name
+		monthly_prestige_gain_mult = 0.2
+		same_faith_opinion = 5
+	}
+}
+halla={
+	county = c_tamna
+	character_modifier = {
+		name = holy_site_halla_effect_name
+		fertility = 0.10
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+}
+mani={
+	county = c_gaeseong
+	character_modifier = {
+		name = holy_site_mani_effect_name
+		legitimacy_gain_mult = 0.1
 		county_opinion_add = 5
-		close_relative_opinion = 5
 	}
 }
-abbo_wonsho={
-	county = c_sharka
-	barony = b_kambata
+seorak={
+	county = c_goseong
 	character_modifier = {
-		name = holy_site_abbo_wonsho_effect_name
-		prestige_level_impact_mult = 0.1
-		church_holding_build_speed = -0.1
+		name = holy_site_seorak_effect_name
+		different_faith_opinion = 10
 	}
 }
-beipi={
-	county = c_kwararafa
+sikong={
+	county = c_qizhou_1
 	character_modifier = {
-		name = holy_site_beipi_effect_name
-		knight_effectiveness_mult = 0.1
+		name = holy_site_mount_sikong_effect_name
+		monthly_county_control_growth_factor = 0.1
 	}
 }
-bida={
-	county = c_nupe
+nanhua={
+	county = c_caozhou
 	character_modifier = {
-		name = holy_site_bida_effect_name
-		monthly_piety_gain_per_happy_powerful_vassal_mult = 0.02
+		name = holy_site_nanhua_effect_name
+		monthly_piety_gain_mult = 0.2
 	}
 }
-emesa={
-	county = c_homs
+sarasvati={
+	county = c_sarasvati
+	barony = b_sarasvati
 	character_modifier = {
-		name = holy_site_emesa_effect_name
-		legitimacy_gain_mult = 0.15
+		name = holy_site_sarasvati_effect_name
+		learning = 1
 	}
 }
-kinnaur={
-	county = c_kamru
+mount_lu={
+	county = c_yunyang
+	barony = b_xunyang
 	character_modifier = {
-		name = holy_site_kinnaur_effect_name
-		hills_provisions_use_mult = -0.1
-		mountains_provisions_use_mult = -0.1
-		hills_attrition_mult = -0.1
-		mountains_attrition_mult = -0.1
+		name = holy_site_mount_lu_effect_name
+		same_heritage_county_advantage_add = 2
 	}
 }
-IRtoCK3_b_yampil_dacian_pagan={
-	county = c_ushytsia
-	barony = b_yampil
+nara={
+	county = c_yamato
+	barony = b_kofuku_ji
 	character_modifier = {
-		cultural_head_fascination_mult = 0.05
+		name = holy_site_nara_effect_name
+		same_faith_opinion = 5
 	}
 }
-IRtoCK3_b_rauna_baltic_pagan={
-	county = c_talava
-	barony = b_rauna
+vaishali={
+	county = c_vaisali
+	barony = b_vaisali
 	character_modifier = {
-		embarkation_cost_mult = -0.1
-		levy_reinforcement_rate = 0.025
+		name = holy_site_vaishali_effect_name
+		monthly_piety = 0.5
+	}
+}
+mogao={
+	county = c_shazhou
+	barony = b_mogao
+	character_modifier = {
+		name = holy_site_mogao_effect_name
+		development_growth_factor = 0.1
+	}
+}
+luoyang={
+	county = c_henan
+	barony = b_luoyang
+	character_modifier = {
+		name = holy_site_luoyang_effect_name
+		county_opinion_add = 10
+		diplomacy = 1
+	}
+}
+gaeseong={
+	county = c_gaeseong
+	barony = b_Goryeo_Gaeseong_Gaeseong
+	character_modifier = {
+		name = holy_site_gaeseong_effect_name
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+tiantai={
+	county = c_taizhou
+	character_modifier = {
+		name = holy_site_tiantai_effect_name
+		learning = 2
+	}
+}
+hiei={
+	county = c_omi
+	barony = b_enryaku_ji
+	character_modifier = {
+		name = holy_site_hiei_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+heiankyo={
+	county = c_yamashiro
+	barony = b_kyo
+	character_modifier = {
+		name = holy_site_heiankyo_effect_name
+		monthly_piety_gain_mult = 0.2
+	}
+}
+kizuki={
+	county = c_izumo
+	barony = b_kizuki_taisha
+	character_modifier = {
+		name = holy_site_kizuki_effect_name
+		clergy_opinion = 5
+	}
+}
+kashima={
+	county = c_hitachi
+	barony = b_kashima_hitachi
+	character_modifier = {
+		name = holy_site_kashima_effect_name
+		tax_mult = 0.05
 	}
 }
 IRtoCK3_b_lhasa_old_bon={
 	county = c_lhasa
 	barony = b_lhasa
 	character_modifier = {
-		cultural_head_fascination_mult = 0.15
+		tax_mult = 0.1
 	}
 }
 IRtoCK3_b_potala_old_bon={
 	county = c_lhasa
 	barony = b_potala
 	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
+		tax_mult = 0.1
 	}
 }
 IRtoCK3_b_lhunzhub_old_bon={
 	county = c_lhunzhub
 	barony = b_lhunzhub
 	character_modifier = {
-		tax_mult = 0.3
+		tax_mult = 0.1
 	}
 }
 IRtoCK3_b_medog_old_bon={
 	county = c_pemako
 	barony = b_medog
 	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
+		
 	}
 }
 IRtoCK3_b_xungba_old_bon={
 	county = c_gegyai
 	barony = b_xungba
 	character_modifier = {
-		additional_fort_level = 1
-		build_gold_cost = -0.05
-	}
-}
-IRtoCK3_b_karghalik_mahayana={
-	county = c_karghalik
-	barony = b_karghalik
-	character_modifier = {
-		tax_mult = 0.05
-		army_maintenance_mult = 0.05
+		additional_fort_level = 0.5
+		build_gold_cost = 0.05
 	}
 }
 IRtoCK3_b_along_donyipoloism={
@@ -2959,7 +3454,7 @@ IRtoCK3_b_baghdad_manichean={
 	}
 }
 IRtoCK3_b_kazima_manichean={
-	county = c_qatif
+	county = c_samman
 	barony = b_kazima
 	character_modifier = {
 		county_opinion_add = 40
@@ -2983,6 +3478,13 @@ IRtoCK3_b_ghazna_manichean={
 		tyranny_gain_mult = 0.05
 	}
 }
+IRtoCK3_b_viborg_norse_pagan={
+	county = c_viborg
+	barony = b_viborg
+	character_modifier = {
+		levy_size = 0.05
+	}
+}
 IRtoCK3_b_roskilde_norse_pagan={
 	county = c_sjaelland
 	barony = b_roskilde
@@ -2990,41 +3492,75 @@ IRtoCK3_b_roskilde_norse_pagan={
 		cultural_head_fascination_mult = 0.05
 	}
 }
-IRtoCK3_b_oslosyslar_norse_pagan={
-	county = c_vingulmork
-	barony = b_oslosyslar
+IRtoCK3_b_slagelse_norse_pagan={
+	county = c_sjaelland
+	barony = b_slagelse
 	character_modifier = {
-		general_opinion = 5
+		cultural_head_fascination_mult = 0.05
 	}
 }
-IRtoCK3_b_hedmork_norse_pagan={
-	county = c_hedmork
-	barony = b_hedmork
+IRtoCK3_b_lindholm_norse_pagan={
+	county = c_aalborg
+	barony = b_lindholm
+	character_modifier = {
+		county_opinion_add = 25
+	}
+}
+IRtoCK3_b_romerriki_norse_pagan={
+	county = c_vingulmork
+	barony = b_romerriki
 	character_modifier = {
 		embarkation_cost_mult = -0.1
 		tax_mult = 0.06
+	}
+}
+IRtoCK3_b_grossenhain_germanic_pagan={
+	county = c_meissen
+	barony = b_grossenhain
+	character_modifier = {
+		tyranny_loss_mult = 2.5
+	}
+}
+IRtoCK3_b_radebeul_germanic_pagan={
+	county = c_meissen
+	barony = b_radebeul
+	character_modifier = {
+		tyranny_loss_mult = 2.5
+	}
+}
+IRtoCK3_b_syracusa_germanic_pagan={
+	county = c_siracusa
+	barony = b_syracusa
+	character_modifier = {
+		development_growth_factor = 0.04
+	}
+}
+IRtoCK3_b_gdansk_germanic_pagan={
+	county = c_danzig
+	barony = b_gdansk
+	character_modifier = {
+		county_opinion_add = 25
 	}
 }
 IRtoCK3_b_sakala_hellenic_pagan={
 	county = c_sakala
 	barony = b_sakala
 	character_modifier = {
-		cultural_head_fascination_mult = 0.1
+		different_culture_opinion = 4
 	}
 }
 IRtoCK3_b_termez_hellenic_pagan={
 	county = c_chaghaniyan
 	barony = b_termez
 	character_modifier = {
-		same_culture_opinion = 10
+		same_culture_opinion = 4
 	}
 }
 IRtoCK3_b_kunjah_hellenic_pagan={
 	county = c_gurjaratra
 	barony = b_kunjah
 	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
+		same_culture_opinion = 4
 	}
 }
 IRtoCK3_b_bhuttar_hellenic_pagan={
@@ -3034,50 +3570,18 @@ IRtoCK3_b_bhuttar_hellenic_pagan={
 		build_gold_cost = -0.05
 	}
 }
+IRtoCK3_b_myede_hellenic_pagan={
+	county = c_sriksetra
+	barony = b_myede
+	character_modifier = {
+		county_opinion_add = 4
+	}
+}
 IRtoCK3_b_yajatinagara_srikula_shaktism={
 	county = c_suvarnapura
 	barony = b_yajatinagara
 	character_modifier = {
 		development_growth_factor = -0.5
-	}
-}
-IRtoCK3_b_gudakva_scythian_pagan={
-	county = c_odishi
-	barony = b_gudakva
-	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
-	}
-}
-IRtoCK3_b_mizdahqan_scythian_pagan={
-	county = c_kurdar
-	barony = b_mizdahqan
-	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
-	}
-}
-IRtoCK3_b_myory_scythian_pagan={
-	county = c_lukoml
-	barony = b_myory
-	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
-	}
-}
-IRtoCK3_b_barzam_scythian_pagan={
-	county = c_firabr
-	barony = b_barzam
-	character_modifier = {
-		tax_mult = 0.1
-	}
-}
-IRtoCK3_b_pecheneg_scythian_pagan={
-	county = c_pecheneg
-	barony = b_pecheneg
-	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_zarnikh_rabbinism={
@@ -3110,7 +3614,7 @@ IRtoCK3_b_fahraj_rabbinism={
 	}
 }
 IRtoCK3_b_makisin_karaism={
-	county = c_sinjar
+	county = c_khabur
 	barony = b_makisin
 	character_modifier = {
 		county_opinion_add = -30
@@ -3160,12 +3664,11 @@ IRtoCK3_b_baqlin-west_kushitism_pagan={
 		different_culture_opinion = 3
 	}
 }
-IRtoCK3_b_wadi_el-milk_kushitism_pagan={
-	county = c_wadi_el-milk
-	barony = b_wadi_el-milk
+IRtoCK3_b_saqadi_kushitism_pagan={
+	county = c_gezira
+	barony = b_saqadi
 	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
+		general_opinion = 8
 	}
 }
 IRtoCK3_b_cagliari_egyptian_pagan={
@@ -3180,6 +3683,12 @@ IRtoCK3_b_oristano_egyptian_pagan={
 	barony = b_oristano
 	character_modifier = {
 		tyranny_loss_mult = 2.5
+	}
+}
+IRtoCK3_b_qus_egyptian_pagan={
+	county = c_qus
+	barony = b_qus
+	character_modifier = {
 		tyranny_gain_mult = 0.5
 	}
 }
@@ -3190,19 +3699,18 @@ IRtoCK3_b_samannud_egyptian_pagan={
 		monthly_martial_lifestyle_xp_gain_mult = 0.1
 	}
 }
-IRtoCK3_b_qus_egyptian_pagan={
-	county = c_qus
-	barony = b_qus
-	character_modifier = {
-		knight_effectiveness_mult = 0.25
-		supply_duration = 0.15
-	}
-}
 IRtoCK3_b_iglesias_egyptian_pagan={
 	county = c_cagliari
 	barony = b_iglesias
 	character_modifier = {
-		general_opinion = 10
+		general_opinion = 8
+	}
+}
+IRtoCK3_b_tarifa_berber_pagan={
+	county = c_cadiz
+	barony = b_tarifa
+	character_modifier = {
+		diplomacy = 1
 	}
 }
 IRtoCK3_b_pushkin_slavic_pagan={
@@ -3223,8 +3731,7 @@ IRtoCK3_b_tighina_slavic_pagan={
 	county = c_cetatea_alba
 	barony = b_tighina
 	character_modifier = {
-		stewardship = 2
-		development_growth_factor = 0.1
+		tyranny_loss_mult = 2.5
 	}
 }
 IRtoCK3_b_alistegunde_slavic_pagan={
@@ -3253,15 +3760,14 @@ IRtoCK3_b_akhtyr_tengri_pagan={
 	county = c_hradyzk
 	barony = b_akhtyr
 	character_modifier = {
-		cultural_head_fascination_mult = 0.1
+		cultural_head_fascination_mult = 0.075
 	}
 }
 IRtoCK3_b_cernauti_tengri_pagan={
 	county = c_hotin
 	barony = b_cernauti
 	character_modifier = {
-		tyranny_loss_mult = 0.1
-		knight_effectiveness_mult = 0.25
+		
 	}
 }
 IRtoCK3_b_chally-kala_tengri_pagan={
@@ -3276,6 +3782,45 @@ IRtoCK3_b_ust-livny_tengri_pagan={
 	barony = b_ust-livny
 	character_modifier = {
 		tyranny_loss_mult = 0.1
+	}
+}
+IRtoCK3_b_gudakva_scythian_pagan={
+	county = c_odishi
+	barony = b_gudakva
+	character_modifier = {
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
+	}
+}
+IRtoCK3_b_mizdahqan_scythian_pagan={
+	county = c_kurdar
+	barony = b_mizdahqan
+	character_modifier = {
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
+	}
+}
+IRtoCK3_b_myory_scythian_pagan={
+	county = c_polotsk
+	barony = b_myory
+	character_modifier = {
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
+	}
+}
+IRtoCK3_b_barzam_scythian_pagan={
+	county = c_firabr
+	barony = b_barzam
+	character_modifier = {
+		tax_mult = 0.1
+	}
+}
+IRtoCK3_b_yelets_scythian_pagan={
+	county = c_tula
+	barony = b_yelets
+	character_modifier = {
+		tyranny_loss_mult = 0.1
+		knight_effectiveness_mult = 0.25
 	}
 }
 IRtoCK3_b_as-salman_arabic_pagan={
@@ -3306,6 +3851,14 @@ IRtoCK3_b_sarsar_arabic_pagan={
 		
 	}
 }
+IRtoCK3_b_sarkhad_canaanite_pagan={
+	county = c_hauran
+	barony = b_sarkhad
+	character_modifier = {
+		embarkation_cost_mult = -0.05
+		different_culture_opinion = -5
+	}
+}
 IRtoCK3_b_kabala_caucasian_pagan={
 	county = c_shaki
 	barony = b_kabala
@@ -3318,6 +3871,52 @@ IRtoCK3_b_ganja_caucasian_pagan={
 	barony = b_ganja
 	character_modifier = {
 		tax_mult = 0.1
+	}
+}
+IRtoCK3_b_haarlem_celtic_pagan={
+	county = c_westfriesland
+	barony = b_haarlem
+	character_modifier = {
+		knight_effectiveness_mult = 0.3
+	}
+}
+IRtoCK3_b_aalkmar_celtic_pagan={
+	county = c_westfriesland
+	barony = b_aalkmar
+	character_modifier = {
+		knight_effectiveness_mult = 0.3
+	}
+}
+IRtoCK3_b_edam_celtic_pagan={
+	county = c_westfriesland
+	barony = b_edam
+	character_modifier = {
+		knight_effectiveness_mult = 0.3
+	}
+}
+IRtoCK3_b_medemblik_celtic_pagan={
+	county = c_westfriesland
+	barony = b_medemblik
+	character_modifier = {
+		knight_effectiveness_mult = 0.3
+	}
+}
+IRtoCK3_b_harlingen_celtic_pagan={
+	county = c_frisia
+	barony = b_harlingen
+	character_modifier = {
+		same_faith_opinion = 5
+		levy_reinforcement_rate = 0.025
+		vassal_opinion = -5
+	}
+}
+IRtoCK3_b_dumbarton_gaelic_paganism={
+	county = c_lennox
+	barony = b_dumbarton
+	character_modifier = {
+		same_faith_opinion = 5
+		levy_reinforcement_rate = 0.025
+		vassal_opinion = -5
 	}
 }
 IRtoCK3_b_daroca_iberian_pagan={
@@ -3361,5 +3960,12 @@ IRtoCK3_b_juy-e-sard_mesopotamian_pagan={
 	character_modifier = {
 		cultural_head_fascination_mult = 0.02
 		build_gold_cost = -0.025
+	}
+}
+IRtoCK3_b_yampil_dacian_pagan={
+	county = c_ushytsia
+	barony = b_yampil
+	character_modifier = {
+		cultural_head_fascination_mult = 0.05
 	}
 }

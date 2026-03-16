@@ -4,9 +4,17 @@ k_spanish_galicia={
 d_galicia={
 	423.7.6 = { liege = 0 }
 }
+c_astorga={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 9 }
+}
 c_coruna={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 11 }
+}
+c_monterrei={
+	416.7.12 = { liege = 0 holder = imperator198687 }
+	423.7.6 = { change_development_level = 8 }
 }
 c_santiago={
 	416.7.12 = { liege = 0 holder = imperator198687 }
@@ -15,12 +23,4 @@ c_santiago={
 c_tui={
 	416.7.12 = { liege = 0 holder = imperator198687 }
 	423.7.6 = { change_development_level = 13 }
-}
-c_astorga={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 9 }
-}
-c_monterrei={
-	416.7.12 = { liege = 0 holder = imperator198687 }
-	423.7.6 = { change_development_level = 8 }
 }

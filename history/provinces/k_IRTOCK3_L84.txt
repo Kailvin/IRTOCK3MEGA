@@ -12,10 +12,6 @@
 3999={
 	holding = city_holding
 }
-7913={
-	holding = none
-	terrain = jungle
-}
 7914={
 	holding = city_holding
 	terrain = jungle

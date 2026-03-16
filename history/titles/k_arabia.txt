@@ -1,0 +1,33 @@
+k_arabia={
+	423.7.6 = { liege = 0 }
+}
+d_amman={
+	423.7.6 = { liege = 0 }
+}
+d_yamama={
+	423.7.6 = { liege = 0 }
+}
+c_al-arid={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { change_development_level = 1 }
+}
+c_balqa={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_falaj={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { change_development_level = 5 }
+}
+c_jilat={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 0 }
+}
+c_maab={
+	389.10.30 = { liege = 0 holder = imperator183693 }
+	423.7.6 = { change_development_level = 10 }
+}
+c_yamama={
+	388.2.1 = { liege = 0 holder = imperator193571 }
+	423.7.6 = { change_development_level = 3 }
+}

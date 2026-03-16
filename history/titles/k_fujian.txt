@@ -1,0 +1,39 @@
+k_fujian={
+	423.7.6 = { liege = 0 }
+}
+d_jianning={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_jian_an_holder liege = 0 }
+}
+d_pinghai={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_quanzhou_holder liege = 0 }
+}
+d_weiwu={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_fuzhou_1_holder liege = 0 }
+}
+c_funing={
+	423.7.6 = { holder = IRToCK3_c_fuzhou_1_holder change_development_level = 0 }
+}
+c_fuzhou_1={
+	423.7.6 = { holder = IRToCK3_c_fuzhou_1_holder change_development_level = 0 }
+}
+c_jian_an={
+	423.7.6 = { holder = IRToCK3_c_jian_an_holder change_development_level = 0 }
+}
+c_nanjian={
+	423.7.6 = { holder = IRToCK3_c_jian_an_holder change_development_level = 0 }
+}
+c_quanzhou={
+	423.7.6 = { holder = IRToCK3_c_quanzhou_holder change_development_level = 0 }
+}
+c_shaowu={
+	423.7.6 = { holder = IRToCK3_c_jian_an_holder change_development_level = 0 }
+}
+c_tingzhou={
+	423.7.6 = { holder = IRToCK3_c_jian_an_holder change_development_level = 0 }
+}
+c_xinghua={
+	423.7.6 = { holder = IRToCK3_c_quanzhou_holder change_development_level = 0 }
+}
+c_zhangzhou={
+	423.7.6 = { holder = IRToCK3_c_quanzhou_holder change_development_level = 0 }
+}

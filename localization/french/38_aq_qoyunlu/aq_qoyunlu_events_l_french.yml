@@ -1,5 +1,0 @@
-﻿l_french:
- aq_qoyunlu_invasion.1001.t:0 "[invader.GetFirstNameNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
- aq_qoyunlu_invasion.1001.desc:0 "Similar to their rival $hi_dynn_oghuz_house_qara_qoyunlu$ (Black Sheep Türkomans), $hi_dynn_oghuz_house_aq_qoyunlu$ (White Sheep Türkomans) arrived in Anatolia during the great $mongol$ conquests. Similarly, they also claim descendancy from the legendary [invader.GetDynasty.GetName] Khan through the $hi_dynn_oghuz_house_bayandur$ tribe.\n\nThe confederation fought against the Empire of $k_trebizond$ - a splinter of the $e_byzantium$ after the Fourth Crusade - numerous times until frequent royal marriages between the two put a halt to the hostilities.\n\nAs their rivals declined, [invader.GetFirstNameNoTooltip] seized the oportunity to subjugate large parts of Persia. Later conquests by the Safavids and the $e_ottoman$ would put an end to the loose confederation."
- aq_qoyunlu_invasion.1001.a:0 "Another self-proclaimed 'great conqueror'."
- aq_qoyunlu_invasion.1001.b:0 "@warning_icon! I wish I was ruling in [invader.GetHerHis] stead..."

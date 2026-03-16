@@ -1,5 +1,0 @@
-﻿l_english:
- argead_invasion.1001.t:0 "[invader.GetFirstNameNicknamedNoTooltip] [invader.GetHouse.GetNameNoTooltip]"
- argead_invasion.1001.desc:0 "[invader.GetShortUINameNoTooltip] inherited the kingdom of Macedon at the age of [invader.GetAge] when [invader.GetHerHis] father was murdered. Due to successful reforms introduced by [invader.GetHerHis] father, the realm now posessed a capable standing army consisting of a sturdy phalanx supported by light cavalry and siege engine strikes.\n\nAfter ascending to the throne, [invader.GetFirstNameNoTooltip] pruged any potential rivals, put down rebellions and secured the Balkan front before advancing into Asia."
- argead_invasion.1001.a:0 "Hollow ambitions."
- argead_invasion.1001.b:0 "@warning_icon! I wish I was ruling in [invader.GetHerHis] stead..."

@@ -7,35 +7,35 @@
 6776={
 	culture = soninke
 	religion = west_african_bidu_pagan
-	holding = tribal_holding
+	holding = none
 	1046.1.1 = { religion = ashari }
 }
 6777={
 	holding = none
 }
 6778={
-	culture = serer
-	religion = west_african_roog_pagan
-	holding = tribal_holding
+	culture = soninke
+	religion = west_african_bidu_pagan
+	holding = none
 	1046.1.1 = { religion = ashari }
 }
 6779={
-	culture = serer
-	religion = west_african_roog_pagan
-	holding = tribal_holding
+	culture = soninke
+	religion = west_african_bidu_pagan
+	holding = none
 	1246.1.1 = { religion = ashari }
 }
 6780={
 	holding = none
 }
 6781={
-	culture = serer
+	culture = pulaar
 	religion = west_african_roog_pagan
-	holding = tribal_holding
+	holding = none
 	1035.1.1 = { religion = ashari }
 }
 6782={
-	culture = serer
+	culture = pulaar
 	religion = west_african_roog_pagan
 	holding = tribal_holding
 	1035.1.1 = { religion = ashari }
@@ -59,7 +59,7 @@
 6797={
 	culture = pulaar
 	religion = west_african_roog_pagan
-	holding = tribal_holding
+	holding = none
 	1035.1.1 = { religion = ashari }
 }
 6798={
@@ -72,16 +72,14 @@
 	holding = none
 }
 8246={
-	culture = serer
+	culture = wolof
 	religion = west_african_roog_pagan
-	holding = tribal_holding
-	50.1.1 = { culture = serer }
-	1035.1.1 = { religion = ashari }
+	holding = none
 }
 8248={
 	culture = wolof
 	religion = west_african_roog_pagan
-	holding = tribal_holding
+	holding = none
 }
 8249={
 	holding = none
@@ -92,7 +90,7 @@
 8251={
 	culture = wolof
 	religion = west_african_roog_pagan
-	holding = tribal_holding
+	holding = none
 }
 8252={
 	holding = none
@@ -104,9 +102,9 @@
 	holding = none
 }
 8255={
-	culture = serer
+	culture = wolof
 	religion = west_african_roog_pagan
-	holding = tribal_holding
+	holding = none
 }
 8257={
 	holding = none

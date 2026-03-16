@@ -21,8 +21,8 @@ fund_inspiration_effect = {
 					}
 				}
 			}
-				scope:actor = {
-					add_courtier = scope:recipient
+			scope:actor = {
+				add_courtier = scope:recipient
 			}
 		}
 		add_opinion = {
@@ -106,7 +106,7 @@ set_alchemy_inspiration_type_effect = {
 					10 = { #Panacea: a cure-all for all disease
 						modifier = {
 							add = 10
-							has_trait = lifestyle_physician 
+							has_trait = lifestyle_physician
 						}
 						set_variable = {
 							name = artifact_alchemy_type
@@ -166,7 +166,7 @@ set_adventure_location_effect = {
 						trigger = {
 							trigger_if = {
 								limit = { exists = location }
-								location = { 
+								location = {
 									NOT = { geographical_region = world_africa }
 								}
 								adventurer_potential_destination_distance_check = {
@@ -229,7 +229,7 @@ set_adventure_location_effect = {
 						trigger = {
 							trigger_if = {
 								limit = { exists = location }
-								location = { 
+								location = {
 									NOT = { geographical_region = world_europe }
 								}
 								adventurer_potential_destination_distance_check = {
@@ -307,7 +307,7 @@ set_adventure_location_effect = {
 						trigger = {
 							trigger_if = {
 								limit = { exists = location }
-								location = { 
+								location = {
 									NOT = { geographical_region = world_middle_east }
 								}
 								adventurer_potential_destination_distance_check = {
@@ -370,7 +370,7 @@ set_adventure_location_effect = {
 						trigger = {
 							trigger_if = {
 								limit = { exists = location }
-								location = { 
+								location = {
 									NOT = { geographical_region = world_india }
 								}
 								adventurer_potential_destination_distance_check = {
@@ -433,7 +433,7 @@ set_adventure_location_effect = {
 						trigger = {
 							trigger_if = {
 								limit = { exists = location }
-								location = { 
+								location = {
 									NOT = { geographical_region = world_steppe }
 								}
 								adventurer_potential_destination_distance_check = {
@@ -536,7 +536,85 @@ set_adventure_location_effect = {
 							value = flag:tibet
 						}
 					}
-					85 = { #Very skillde adventurers are often going to let you decide!
+					10 = {
+						# East Asia
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								location = {
+									NOT = { geographical_region = world_europe }
+								}
+								adventurer_potential_destination_distance_check = {
+									REGION = world_asia_east
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:east_asia
+						}
+					}
+					5 = {
+						# East Asia - China
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_asia_china
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:china
+						}
+					}
+					5 = {
+						# East Asia - Korea
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_asia_korea
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:korea
+						}
+					}
+					5 = {
+						# East Asia - Japan
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_asia_japan
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:japan
+						}
+					}
+					5 = {
+						# Southeast Asia - Maritime and Landed
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_asia_southeast
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:southeast_asia
+						}
+					}
+					85 = { #Very skilled adventurers are often going to let you decide!
 						trigger = {
 							scope:allow_no_destination_option = yes
 						}
@@ -706,6 +784,36 @@ get_adventure_inspiration_start_location = {
 						title_province = { save_scope_as = location }
 					}
 				}
+				flag:china = { #China
+					random_county_in_region = {
+						region = world_asia_china
+						title_province = { save_scope_as = location }
+					}
+				}
+				flag:korea = { #Korea
+					random_county_in_region = {
+						region = world_asia_korea
+						title_province = { save_scope_as = location }
+					}
+				}
+				flag:japan = { #Japan
+					random_county_in_region = {
+						region = world_asia_japan
+						title_province = { save_scope_as = location }
+					}
+				}
+				flag:east_asia = { #Southeast Asia
+					random_county_in_region = {
+						region = world_asia_east
+						title_province = { save_scope_as = location }
+					}
+				}
+				flag:southeast_asia = { #Southeast Asia
+					random_county_in_region = {
+						region = world_asia_southeast
+						title_province = { save_scope_as = location }
+					}
+				}
 			}
 		}
 	}
@@ -724,7 +832,7 @@ inspiration_adventure_create_artifact_effect = {
 			BASE_SCOPE = scope:adventurer
 			NO_DESTINATION = no
 		}
-		get_adventure_inspiration_start_location = { ADVENTURER = scope:adventurer } 
+		get_adventure_inspiration_start_location = { ADVENTURER = scope:adventurer }
 	}
 	else = {
 		#To save the location and make sure materials can access it
@@ -778,7 +886,7 @@ inspiration_adventure_create_artifact_effect = {
 									scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
 									add = -4 #High inspiration skill adventurers will only find relics if there is nothing else to find.
 								}
-								random_list = { #This is a list inside an item in the other list because we need _one_ chance for relic and the relic types must be able to have overlapping triggers. 
+								random_list = { #This is a list inside an item in the other list because we need _one_ chance for relic and the relic types must be able to have overlapping triggers.
 									100 = {	#Christian
 										trigger = {
 											scope:location ?= {
@@ -816,28 +924,6 @@ inspiration_adventure_create_artifact_effect = {
 													geographical_region = world_middle_east
 												}
 											}
-											OR = {
-												AND = {
-													NOT = {
-														faith:united_islam = {
-															has_doctrine = unavailable_doctrine
-														}
-													}
-													faith:sunni = {
-														has_doctrine = unavailable_doctrine
-													}
-												}
-												AND = {
-													NOT = {
-														faith:sunni = {
-															has_doctrine = unavailable_doctrine
-														}
-													}
-													faith:united_islam = {
-														has_doctrine = unavailable_doctrine
-													}
-												}
-											}
 										}
 										modifier = {
 											NOT = { scope:location.religion = religion:islam_religion }
@@ -854,6 +940,10 @@ inspiration_adventure_create_artifact_effect = {
 													geographical_region = world_tibet
 													geographical_region = world_burma
 													geographical_region = world_himalaya
+													geographical_region = world_asia_china
+													geographical_region = world_asia_japan
+													geographical_region = world_asia_korea
+													geographical_region = world_asia_southeast
 												}
 											}
 										}
@@ -1006,6 +1096,7 @@ inspiration_adventure_create_artifact_effect = {
 													religion = religion:hinduism_religion
 													geographical_region = world_india
 													geographical_region = world_himalaya
+													geographical_region = world_asia_southeast
 												}
 											}
 										}
@@ -1041,6 +1132,7 @@ inspiration_adventure_create_artifact_effect = {
 														OR = {
 															geographical_region = world_india
 															geographical_region = world_tibet
+															geographical_region = world_asia_southeast
 															religion = religion:hinduism_religion
 														}
 													}
@@ -1067,7 +1159,7 @@ inspiration_adventure_create_artifact_effect = {
 											10 = { #Cintamani stone
 												trigger = {
 													any_artifact = {
-														count < 3
+														count < 5
 														has_variable = cintamani_hindu
 													}
 													scope:location ?= {
@@ -1348,10 +1440,31 @@ inspiration_adventure_create_artifact_effect = {
 								}
 								trigger = {
 									any_artifact = {
+										count < 4
+										has_variable = sword_of_goujian
+									}
+									scope:location ?= {
+										geographical_region = world_asia_east
+									}
+								}
+								create_artifact_sword_goujian_effect = { OWNER = root }
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									any_artifact = {
 										count < 9
 										has_variable = sword_of_muhammad
 									}
-									game_start_date >= 610
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1438,6 +1551,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_tibet
 											geographical_region = ghw_region_afghanistan
 											religion = religion:buddhism_religion
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -1465,6 +1582,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_tibet
 											geographical_region = ghw_region_afghanistan
 											religion = religion:buddhism_religion
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -1492,6 +1613,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_tibet
 											geographical_region = ghw_region_afghanistan
 											religion = religion:buddhism_religion
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -1519,6 +1644,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_tibet
 											geographical_region = ghw_region_afghanistan
 											religion = religion:buddhism_religion
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -1659,7 +1788,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = al_sayf_al_khass
 									}
-									game_start_date >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1685,7 +1813,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = qadib_al_mulk
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1711,7 +1838,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = al_dawat
 									}
-									current_year >= 650
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1737,7 +1863,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = al_hafir
 									}
-									current_year >= 650
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1763,7 +1888,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 2
 										has_variable = banner_thankfulness
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1789,7 +1913,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = al_jabal
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1815,7 +1938,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = al_yatima
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -1989,7 +2111,7 @@ inspiration_adventure_create_artifact_effect = {
 										has_variable = olifant
 									}
 									scope:location ?= {
-										OR = { 
+										OR = {
 											geographical_region = world_europe_west
 											geographical_region = world_europe_south
 										}
@@ -2014,63 +2136,13 @@ inspiration_adventure_create_artifact_effect = {
 										has_variable = angelica_ring
 									}
 									scope:location ?= {
-										OR = { 
+										OR = {
 											geographical_region = world_europe_west
 											geographical_region = world_europe_south
 										}
 									}
 								}
 								create_artifact_angelicas_ring_effect = { OWNER = ROOT }
-							}
-							10 = { #TFE Old Roman Sarcophagus
-								modifier = {
-									OR = {
-										scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
-										AND = {
-											exists = scope:inspiration_owner.var:artifact_quality
-											scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
-										}
-									}
-									add = 5
-								}
-								trigger = {
-									any_artifact = {
-										count < 1
-										has_variable = roman_sarcophagus
-									}
-									scope:location ?= {
-										OR = { 
-											geographical_region = world_europe_west
-											geographical_region = world_europe_south
-										}
-									}
-								}
-								create_artifact_roman_sarcophagus_effect = { OWNER = ROOT }
-							} 
-							10 = { #TFE Old Roman Diadem
-								modifier = {
-									OR = {
-										scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
-										AND = {
-											exists = scope:inspiration_owner.var:artifact_quality
-											scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
-										}
-									}
-									add = 5
-								}
-								trigger = {
-									any_artifact = {
-										count < 1
-										has_variable = golden_diadem
-									}
-									scope:location ?= {
-										OR = { 
-											geographical_region = world_europe_west
-											geographical_region = world_europe_south
-										}
-									}
-								}
-								create_artifact_golden_diadem_effect = { OWNER = ROOT }
 							}
 							10 = { #Colada
 								modifier = {
@@ -2089,7 +2161,7 @@ inspiration_adventure_create_artifact_effect = {
 										has_variable = colada
 									}
 									scope:location ?= {
-										OR = { 
+										OR = {
 											geographical_region = world_europe_west
 											geographical_region = world_europe_south
 										}
@@ -2115,7 +2187,7 @@ inspiration_adventure_create_artifact_effect = {
 										has_variable = durendal
 									}
 									scope:location ?= {
-										OR = { 
+										OR = {
 											geographical_region = world_europe_west
 											geographical_region = world_europe_south
 										}
@@ -2139,9 +2211,8 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = joyeuse
 									}
-									game_start_date >= 700
 									scope:location ?= {
-										OR = { 
+										OR = {
 											geographical_region = world_europe_west
 											geographical_region = world_europe_south
 										}
@@ -2414,6 +2485,9 @@ inspiration_adventure_create_artifact_effect = {
 							}
 							2 = { #Chinese Caligraphy
 								trigger = {
+									root.culture = {
+										has_graphical_east_asia_culture_group_trigger = no
+									} #This is not a notable artifact if you are already from the region
 									any_artifact = {
 										count < 15
 										has_variable = chinese_caligraphy
@@ -2423,6 +2497,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_india
 											geographical_region = world_burma
 											geographical_region = world_tibet
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -2440,6 +2518,9 @@ inspiration_adventure_create_artifact_effect = {
 									add = 5
 								}
 								trigger = {
+									root.culture = {
+										has_graphical_east_asia_culture_group_trigger = no
+									} #This is not a notable artifact if you are already from the region
 									any_artifact = {
 										count < 15
 										has_variable = ruyi
@@ -2449,6 +2530,10 @@ inspiration_adventure_create_artifact_effect = {
 											geographical_region = world_india
 											geographical_region = world_burma
 											geographical_region = world_tibet
+											geographical_region = world_asia_china
+											geographical_region = world_asia_japan
+											geographical_region = world_asia_korea
+											geographical_region = world_asia_southeast
 										}
 									}
 								}
@@ -2522,7 +2607,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = mantle_of_prophet
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -2548,7 +2632,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 1
 										has_variable = spear_of_the_prophet
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -2574,7 +2657,6 @@ inspiration_adventure_create_artifact_effect = {
 										count < 15
 										has_variable = sassanian_sword
 									}
-									current_year >= 700
 									scope:location ?= {
 										OR = {
 											geographical_region = world_middle_east
@@ -2606,6 +2688,150 @@ inspiration_adventure_create_artifact_effect = {
 								}
 							}
 							
+							5 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									any_artifact = {
+										count < 1
+										has_variable = heirloom_seal
+									}
+									scope:location ?= {
+										geographical_region = world_asia_china
+									}
+								}
+								create_artifact_heirloom_seal_effect = { OWNER = root }
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									any_artifact = {
+										count < 1
+										has_variable = statue_amitabha_buddha
+									}
+									scope:location ?= {
+										geographical_region = world_asia_southeast
+									}
+									current_date >= 1080.1.1
+								}
+								create_artifact_statue_viet_green_amitabha_buddha_effect = { OWNER = root }
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									any_artifact = {
+										count < 1
+										has_variable = chinese_armillary_sphere
+									}
+									scope:location ?= {
+										geographical_region = world_asia_china
+									}
+								}
+								create_artifact_chinese_armillary_sphere_effect = { OWNER = root }
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									any_artifact = {
+										count < 1
+										has_variable = eight_fold_chest
+									}
+									scope:location ?= {
+										geographical_region = world_asia_china
+									}
+								}
+								create_artifact_eight_fold_chest_effect = {
+									OWNER = root
+								}
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									current_date > 1150.1.1 #Needs to be long past creation date for this to make sense
+									any_artifact = {
+										count < 1
+										has_variable = military_classics
+									}
+									scope:location ?= {
+										geographical_region = world_asia_china
+									}
+								}
+								create_artifact_military_classics_effect = {
+									OWNER = root
+								}
+							}
+							10 = {
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									has_tgp_dlc_trigger = yes
+									any_artifact = {
+										count < 1
+										has_variable = baekje_incense_burner
+									}
+									scope:location ?= {
+										geographical_region = world_asia_korea
+									}
+								}
+								create_artifact_pedestal_baekje_incense_burner_effect = { OWNER = root }
+							}
 						}
 					}
 				}
@@ -2630,7 +2856,7 @@ inspiration_adventure_create_artifact_effect = {
 							}
 						}
 					}
-					scope:owner = { 
+					scope:owner = {
 						create_artifact_weapon_effect = {
 							OWNER = scope:artifact_origin
 							CREATOR = scope:artifact_origin
@@ -2695,7 +2921,7 @@ inspiration_adventure_create_artifact_effect = {
 							}
 						}
 					}
-					scope:owner = { 
+					scope:owner = {
 						create_artifact_necklace_effect = {
 							OWNER = scope:artifact_origin
 							SMITH = scope:artifact_origin
@@ -2735,7 +2961,7 @@ inspiration_adventure_create_artifact_effect = {
 							SMITH = scope:artifact_origin
 						}
 					}
-					scope:owner = { 
+					scope:owner = {
 						save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
 							name = regalia_artifact
 							value = yes
@@ -2933,10 +3159,10 @@ inspiration_adventure_create_artifact_effect = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					exists = scope:epic
-						NOT = { exists = scope:task_contract_taker }
-					 }
+					NOT = { exists = scope:task_contract_taker }
+				}
 				scope:epic = {
 					add_artifact_history = {
 						location = root.capital_province

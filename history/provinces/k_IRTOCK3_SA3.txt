@@ -4,12 +4,9 @@
 579={
 	holding = none
 }
-591={
-	holding = none
-}
 592={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 593={
@@ -27,9 +24,8 @@
 }
 596={
 	culture = roman
-	faith = nicene
+	faith = orthodox
 	holding = tribal_holding
-	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 602={
 	holding = none
@@ -55,16 +51,10 @@
 	faith = scythian_pagan
 	holding = tribal_holding
 }
-614={
-	culture = aestian
-	faith = central_pagan
-	holding = none
-}
 616={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = tribal_holding
-	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5287={
 	culture = sarmatian
@@ -93,7 +83,7 @@
 }
 5296={
 	culture = alan
-	faith = nicene
+	faith = orthodox
 	holding = tribal_holding
 }
 5297={
@@ -122,7 +112,7 @@
 	holding = tribal_holding
 }
 5311={
-	culture = aestian
+	culture = prussian
 	faith = scythian_pagan
 	holding = castle_holding
 }
@@ -139,7 +129,6 @@
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = castle_holding
-	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5325={
 	holding = none
@@ -156,7 +145,6 @@
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = tribal_holding
-	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 5329={
 	holding = none
@@ -177,10 +165,9 @@
 	culture = alan
 	faith = scythian_pagan
 	holding = tribal_holding
-	395.1.2 = { culture = thyssagataen religion = scythian_pagan }
 }
 5366={
-	culture = east_galindian
+	culture = urslavic
 	faith = scythian_pagan
 	holding = tribal_holding
 }
@@ -208,7 +195,7 @@
 	holding = none
 }
 5377={
-	culture = aestian
+	culture = prussian
 	faith = scythian_pagan
 	holding = castle_holding
 }
@@ -228,8 +215,8 @@
 	holding = none
 }
 5390={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 5391={
@@ -241,9 +228,6 @@
 5410={
 	holding = none
 }
-5411={
-	holding = church_holding
-}
 5502={
 	holding = none
 }
@@ -251,8 +235,8 @@
 	holding = none
 }
 5504={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = tribal_holding
 }
 5505={
@@ -268,7 +252,7 @@
 	holding = none
 }
 5509={
-	culture = aestian
-	faith = central_pagan
+	culture = prussian
+	faith = germanic_pagan
 	holding = tribal_holding
 }

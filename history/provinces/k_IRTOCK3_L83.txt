@@ -2,14 +2,10 @@
 	holding = none
 }
 1157={
-	culture = indogreek
-	faith = hellenic_pagan
 	holding = castle_holding
 }
 1208={
-	culture = indogreek
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 1209={
 	culture = indogreek
@@ -22,7 +18,9 @@
 	holding = castle_holding
 }
 1255={
-	holding = none
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 1256={
 	culture = indogreek
@@ -57,5 +55,30 @@
 	holding = city_holding
 }
 7910={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7912={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
+}
+7913={
 	holding = none
+	terrain = jungle
+}
+7920={
+	holding = none
+}
+7921={
+	holding = castle_holding
+}
+7922={
+	holding = none
+}
+7923={
+	culture = indogreek
+	faith = hellenic_pagan
+	holding = castle_holding
 }

@@ -10,13 +10,13 @@
 	holding = castle_holding
 }
 5959={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 5960={
-	culture = kolochin
-	faith = nicene
+	culture = urslavic
+	faith = orthodox
 	holding = castle_holding
 }
 5961={
@@ -24,7 +24,7 @@
 }
 5962={
 	culture = hebrew
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 5963={
@@ -35,9 +35,8 @@
 }
 5965={
 	culture = nabatean
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
-	300.1.1 = { special_building_slot = dome_of_the_rock_01 }
 }
 5966={
 	holding = none
@@ -47,7 +46,7 @@
 }
 5968={
 	culture = hebrew
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 5969={

@@ -2,30 +2,22 @@
 	culture = sarmatian
 	faith = hellenic_pagan
 	holding = castle_holding
-	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 557={
-	culture = hun
+	culture = hunnic
 	faith = hellenic_pagan
 	holding = castle_holding
-	390.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 558={
-	culture = greek
+	culture = hellenic_greek
 	faith = hellenic_pagan
 	holding = castle_holding
-	390.1.1 = { culture = gothic religion = "arianism" }
 }
 559={
-	culture = greek
-	faith = hellenic_pagan
-	holding = castle_holding
-	370.1.1 = { culture = gothic religion = arianism }
+	holding = city_holding
 }
 560={
-	culture = sarmatian
-	faith = hellenic_pagan
-	holding = castle_holding
+	holding = none
 }
 561={
 	holding = city_holding
@@ -34,13 +26,11 @@
 	culture = alan
 	faith = hellenic_pagan
 	holding = castle_holding
-	391.1.1 = { culture = gothic religion = arianism }
 }
 564={
 	culture = sarmatian
 	faith = scythian_pagan
 	holding = tribal_holding
-	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 565={
 	holding = none
@@ -54,22 +44,19 @@
 	culture = sarmatian
 	faith = hellenic_pagan
 	holding = castle_holding
-	395.1.1 = { culture = hun religion = tengri_pagan }
 }
 599={
 	culture = sarmatian
-	faith = nicene
+	faith = orthodox
 	holding = tribal_holding
-	395.1.1 = { culture = hun religion = tengri_pagan }
 }
 5276={
-	holding = none
-}
-5277={
-	culture = sarmatian
+	culture = hellenic_greek
 	faith = hellenic_pagan
 	holding = castle_holding
-	370.1.1 = { culture = gothic religion = arianism }
+}
+5277={
+	holding = none
 }
 5278={
 	holding = church_holding
@@ -96,10 +83,9 @@
 	holding = none
 }
 5320={
-	culture = hun
+	culture = hunnic
 	faith = hellenic_pagan
 	holding = castle_holding
-	395.1.1 = { culture = "hun" religion = "tengri_pagan" }
 }
 5321={
 	holding = none
@@ -114,7 +100,9 @@
 	holding = none
 }
 5330={
-	holding = none
+	culture = sarmatian
+	faith = hellenic_pagan
+	holding = castle_holding
 }
 5331={
 	holding = none

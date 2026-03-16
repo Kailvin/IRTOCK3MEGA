@@ -88,7 +88,7 @@
 }
 4088={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4089={
@@ -118,7 +118,7 @@
 }
 4096={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4097={
@@ -129,23 +129,6 @@
 }
 4099={
 	holding = castle_holding
-}
-4100={
-	holding = city_holding
-}
-4101={
-	holding = none
-}
-4102={
-	holding = none
-}
-4103={
-	culture = macedonian
-	faith = hellenic_pagan
-	holding = castle_holding
-}
-4104={
-	holding = city_holding
 }
 4117={
 	holding = none
@@ -177,7 +160,7 @@
 }
 4171={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4172={
@@ -197,7 +180,7 @@
 }
 4177={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4178={
@@ -239,7 +222,7 @@
 }
 4193={
 	culture = qahtanite
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4194={
@@ -341,7 +324,7 @@
 }
 4305={
 	culture = macedonian
-	faith = nicene
+	faith = orthodox
 	holding = castle_holding
 }
 4306={
@@ -371,7 +354,6 @@
 	culture = macedonian
 	faith = hellenic_pagan
 	holding = castle_holding
-	345.1.1 = { special_building_slot = oblivion_prison }
 }
 6012={
 	holding = castle_holding
@@ -391,7 +373,7 @@
 	holding = church_holding
 }
 6017={
-	culture = macedonian
+	culture = syro_hellenic
 	faith = hellenic_pagan
 	holding = castle_holding
 }

@@ -4,11 +4,11 @@ k_tsang={
 d_nyima={
 	423.7.6 = { government = tribal_government holder = IRToCK3_c_nyima_holder liege = 0 }
 }
-c_nyima={
-	423.7.6 = { holder = IRToCK3_c_nyima_holder liege = 0 change_development_level = 5 }
-}
 c_aso={
 	423.7.6 = { holder = IRToCK3_c_nyima_holder liege = 0 change_development_level = 0 }
+}
+c_nyima={
+	423.7.6 = { holder = IRToCK3_c_nyima_holder liege = 0 change_development_level = 5 }
 }
 c_xainza={
 	423.7.6 = { holder = IRToCK3_c_nyima_holder liege = 0 change_development_level = 0 }

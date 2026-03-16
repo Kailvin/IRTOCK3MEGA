@@ -7,22 +7,42 @@ k_IRTOCK3_K40={
 d_kashgar={
 	423.7.6 = { liege = 0 }
 }
+d_khuttal={
+	423.7.6 = { liege = 0 }
+}
+c_aksu={
+	421.1.22 = { liege = 0 holder = imperator196086 }
+	423.7.6 = { change_development_level = 8 }
+}
+c_chaghaniyan={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 15 }
+}
 c_kashgar={
 	422.3.20 = { liege = 0 holder = imperator194995 }
 	423.7.6 = { change_development_level = 8 }
+}
+c_khuttal={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 10 }
 }
 c_maralbeshi={
 	421.1.22 = { liege = 0 holder = imperator196086 }
 	423.7.6 = { change_development_level = 5 }
 }
+c_rasht={
+	422.3.20 = { liege = 0 holder = imperator194995 }
+	423.7.6 = { change_development_level = 8 }
+}
 c_terek_pass={
 	422.3.20 = { liege = 0 holder = imperator194995 }
-	423.7.6 = { liege = k_IRTOCK3_K40 holder = imperator187415 change_development_level = 7 }
+	423.7.6 = { change_development_level = 7 }
 }
-b_ulugqat={
-	423.7.6 = { holder = imperator188212 }
+c_wakhsh={
+	415.10.5 = { liege = 0 holder = imperator200628 }
+	423.7.6 = { change_development_level = 11 }
 }
 c_yarkand={
 	392.1.14 = { liege = 0 holder = imperator191227 }
-	423.7.6 = { change_development_level = 6 }
+	423.7.6 = { change_development_level = 5 }
 }

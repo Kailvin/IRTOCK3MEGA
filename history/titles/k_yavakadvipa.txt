@@ -1,0 +1,42 @@
+k_yavakadvipa={
+	423.7.6 = { liege = 0 }
+}
+d_IDO_bali={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_IDO_bali_holder liege = 0 }
+}
+d_JAV_mataram={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_JAV_mataram_holder liege = 0 }
+}
+d_JAV_taruma={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_JAV_sunda_holder liege = 0 }
+}
+c_IDO_bali={
+	423.7.6 = { holder = IRToCK3_c_IDO_bali_holder change_development_level = 0 }
+}
+c_IDO_lombok_and_sumbawa={
+	423.7.6 = { holder = IRToCK3_c_IDO_bali_holder change_development_level = 0 }
+}
+c_JAV_cimanuk={
+	423.7.6 = { holder = IRToCK3_c_JAV_sunda_holder change_development_level = 0 }
+}
+c_JAV_galuh={
+	423.7.6 = { holder = IRToCK3_c_JAV_sunda_holder change_development_level = 0 }
+}
+c_JAV_janggala={
+	423.7.6 = { holder = IRToCK3_c_JAV_mataram_holder change_development_level = 0 }
+}
+c_JAV_kalingga={
+	423.7.6 = { holder = IRToCK3_c_JAV_mataram_holder change_development_level = 0 }
+}
+c_JAV_lumajang={
+	423.7.6 = { holder = IRToCK3_c_JAV_mataram_holder change_development_level = 0 }
+}
+c_JAV_madura={
+	423.7.6 = { holder = IRToCK3_c_IDO_bali_holder change_development_level = 0 }
+}
+c_JAV_mataram={
+	423.7.6 = { holder = IRToCK3_c_JAV_mataram_holder change_development_level = 0 }
+}
+c_JAV_sunda={
+	423.7.6 = { holder = IRToCK3_c_JAV_sunda_holder change_development_level = 0 }
+}

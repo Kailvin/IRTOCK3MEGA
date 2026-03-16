@@ -1,8 +1,0 @@
-﻿l_russian:
- ziyarid_invasion.1001.t:0 "[invader.GetFaith.GetReligion.GetAdjectiveNoTooltip] Uprising in $k_daylam$"
- ziyarid_invasion.1001.desc.intro:0 "Back when the $e_roman_empire$ was still whole and before the Rashidun Caliphate emerged from Arabia, Persia was ruled by the [sassanid_dynasty_member.GetDynasty.GetName]#l s#! - a $zoroastrianism_religion_adj$ empire founded in 224 AD.\nAfter the conquest of the entire region by the Muslims in 654, Islam had slowly become the majority faith.\n\n[invader.GetShortUINameNoTooltip] dreams of restoring the once mighty empire and bringing [invader.GetFaith.GetReligion.GetName] back from the brink of extinction. "
- ziyarid_invasion.1001.desc.zoroastrian_uprising:0 "[invader.GetSheHe|U] and [invader.GetHerHis] devout followers of [invader.GetFaith.HighGodName] have been gathering strength in secret and believe that the time is now right to stage a large scale uprising."
- ziyarid_invasion.1001.desc.other_zoroastrians:0 "Though there already are some rulers - such as [other_zoroastrian_ruler.GetName] - who have returned to the old ways, [invader.GetSheHe] and [invader.GetHerHis] devout followers of [invader.GetFaith.HighGodName] believe that #italic they#! ought to be in power."
- ziyarid_invasion.1001.desc.outro:0 "\n\nWill [invader.GetFirstNameNoTooltip] succeed in becoming the fabled $zoroastrianism_good_god_saoshyant$? Only time will tell."
- ziyarid_invasion.1001.a:0 "A new Sassanid Empire? Pah!"
- ziyarid_invasion.1001.b:0 "@warning_icon! I wish I was ruling in [invader.GetHerHis] stead..."

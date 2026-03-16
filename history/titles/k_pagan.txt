@@ -1,0 +1,33 @@
+k_pagan={
+	423.7.6 = { liege = 0 }
+}
+d_ramannadesa={
+	423.7.6 = { government = tribal_government holder = IRToCK3_c_thaton_holder liege = 0 }
+}
+d_yongchang={
+	423.7.6 = { government = feudal_government holder = IRToCK3_c_yongchang_yongchang_holder liege = 0 }
+}
+c_dagon={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_kusumi={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_moeng_laem={
+	423.7.6 = { holder = IRToCK3_c_yongchang_yongchang_holder change_development_level = 0 }
+}
+c_pegu={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_sittaung={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_thaton={
+	423.7.6 = { holder = IRToCK3_c_thaton_holder liege = 0 change_development_level = 0 }
+}
+c_yongchang_jingmadian={
+	423.7.6 = { holder = IRToCK3_c_yongchang_yongchang_holder change_development_level = 0 }
+}
+c_yongchang_yongchang={
+	423.7.6 = { holder = IRToCK3_c_yongchang_yongchang_holder change_development_level = 0 }
+}

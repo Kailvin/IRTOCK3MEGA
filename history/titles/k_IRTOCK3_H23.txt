@@ -28,35 +28,34 @@ k_IRTOCK3_H23={
 	313.6.30 = { holder = imperator175350 government = republic_government }
 	318.6.30 = { holder = imperator165473 government = republic_government }
 	323.6.30 = { holder = imperator169553 government = republic_government }
-	394.7.1 = { holder = imperator195323 government = city_state_government }
-	399.7.1 = { holder = imperator196113 government = city_state_government }
-	404.7.1 = { holder = imperator195325 government = city_state_government }
-	409.7.1 = { holder = imperator195758 government = city_state_government }
-	414.7.1 = { holder = imperator195323 government = city_state_government }
-	419.7.1 = { holder = imperator195334 government = city_state_government }
+	394.7.1 = { holder = imperator195323 government = republic_government }
+	399.7.1 = { holder = imperator196113 government = republic_government }
+	404.7.1 = { holder = imperator195325 government = republic_government }
+	409.7.1 = { holder = imperator195758 government = republic_government }
+	414.7.1 = { holder = imperator195323 government = republic_government }
+	419.7.1 = { holder = imperator195334 government = republic_government }
 	423.7.6 = { succession_laws = { city_succession_law } }
 }
 d_lausitz={
-	361.1.1 = { change_development_level = 0 }
 	423.7.6 = { liege = 0 }
 }
-c_cottbus={
-	422.9.14 = { liege = 0 holder = imperator203714 }
-	423.7.6 = { change_development_level = 8 }
-}
-c_gorlitz={
-	422.9.14 = { liege = 0 holder = imperator203714 }
-	423.7.6 = { change_development_level = 3 }
+c_brene={
+	395.11.11 = { liege = 0 holder = imperator195692 }
+	423.7.6 = { change_development_level = 2 }
 }
 c_juterbog={
 	419.7.1 = { liege = 0 holder = imperator195334 }
-	423.7.6 = { change_development_level = 2 }
+	423.7.6 = { change_development_level = 3 }
+}
+c_naumberg={
+	421.11.1 = { liege = 0 holder = imperator203275 }
+	423.7.6 = { change_development_level = 5 }
 }
 c_spreewald={
 	422.9.14 = { liege = 0 holder = imperator203714 }
 	423.7.6 = { change_development_level = 5 }
 }
-c_naumberg={
-	421.11.1 = { liege = 0 holder = imperator203275 }
-	423.7.6 = { change_development_level = 5 }
+c_wittenberg={
+	410.4.13 = { liege = 0 holder = imperator199756 }
+	423.7.6 = { change_development_level = 0 }
 }

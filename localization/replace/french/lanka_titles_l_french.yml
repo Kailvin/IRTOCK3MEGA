@@ -1,0 +1,72 @@
+l_french:
+ language_sinhalese_name:0 "Cinghalais"
+ war_1066_Sinhalese_Rebellion:0 "La rébellion de Vijayabahu"
+
+ #Cybrkhan Note: Credits to Soraya for all the names below
+
+ k_lanka:0 "Tambapanni"
+ k_lanka_adj:0 "Tambapanni"
+
+ d_sinhala:0 "Rajarama"
+ d_sinhala_adj:0 "Rajarama"
+ 	
+ c_phiti:0 "Anuradhapura"
+ c_phiti_adj:0 "Anuradhapura"
+
+		#b_anuradhapura
+		#b_vavuniya
+ b_dhamballai:0 "Dambulla"
+
+ c_trincomalee:0 "Polonnaruwa"
+ c_trincomalee_adj:0 "Polonnaruwa"
+
+	 	#b_polonnaruwa
+ b_trincomalee:0 "Tirukonamalai"
+
+	#c_jaffna
+	#c_jaffna_adj
+
+ b_jaffna:0 "Yalppanam"
+		#b_mullaitivu
+
+	#c_kotte
+	#c_kotte_adj
+
+		#b_puttalam
+ b_mannar:0 "Matottam"
+ b_kurunagala:0 "Kutiraimalai"
+
+ d_dakhina_desa:0 "Mayarama"
+ d_dakhina_desa_adj:0 "Mayarama"
+ 	
+ c_dakhina_desa:0 "Mayarama"
+ c_dakhina_desa_adj:0 "Mayarama"
+		
+ b_gimhathiththa:0 "Rayagama"
+		#b_sitawaka
+		#b_kotte:0
+		#b_dambadeniya
+	
+	#c_kandy
+	#c_kandy_adj
+		
+		#b_malaya_rata
+		#b_senkadagalapura
+		#b_matale
+
+ d_ruhunu:0 "Rohana"
+ d_ruhunu_adj:0 "Rohana"
+ 	
+ 	#c_rohana
+	#c_rohana_adj
+		
+		#b_magampura
+ b_katargama:0 "Kataragama"
+		#b_godawaya
+ 	
+ c_batticaloa:0 "Madakalapuwa"
+ c_batticaloa_adj:0 "Madakalapuwa"
+		
+ b_batticaloa:0 "Madakalapuwa"
+		#b_dighavapi
+		#b_mahiyangana

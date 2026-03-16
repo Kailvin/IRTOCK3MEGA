@@ -1,0 +1,985 @@
+﻿
+# Tulun, ibn Tulun's father
+# RICE_upper_egypt_001 = {
+# 	name = "Tulun"
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	# Tulun was a Turk from a locality known in Arabic sources as Tagharghar or Toghuz[o]ghuz, i.e., the Uyghur confederation.
+# 	culture = "uyghur" #
+# 	prowess = 6
+# 	trait = education_martial_3
+# 	# Unknown, but had Ibn Tulun in 835
+# 	800.2.5 = {
+# 		birth = yes
+# 	}
+# 	# Died in 854/855
+# 	855.1.1 = {
+# 		death = yes
+# 	}
+# }
+
+# Qasim, ibn Tulun's mother
+RICE_upper_egypt_002 = {
+	name = "Qasim"
+	religion = "ashari"
+	culture = "turkish"
+	female = yes
+	# Unknown, but had Ibn Tulun in 835 and remarried after Tulun's death so can't have been that old
+	818.5.2 = {
+		birth = yes
+	}
+	834.1.1 = {
+		add_spouse = extra_tulunids_5
+	}
+	856.1.1 = {
+		add_spouse = RICE_upper_egypt_003
+	}
+	# Unknown
+	866.1.1 = {
+		death = yes
+	}
+}
+
+# ibn Tulun's mentor, father of his wife, and Tulun's friend
+RICE_upper_egypt_003 = {
+	name = "Yarjukh"
+	dynasty=RICE_yarjukhid_egypt
+	religion = "ashari"
+	culture = "turkish"
+	trait = education_martial_3
+	# Unknown, but had married ibn Tulun's mother and was friends with Tulun
+	808.2.25 = {
+		birth = yes
+	}
+	866.1.1 = {
+		employer = 34014 # Al-Mutazz
+		effect = {
+			set_relation_friend = {
+				target = character:163115 # Ibn Tulun
+				reason = RICE_friend_reason_placeholder
+			}	
+		}
+	}
+	873.1.1 = {
+		death = yes
+	}
+}
+
+# ibn Tulun's wife and mother of his eldest son Abbas and his daughter Fatimah
+RICE_upper_egypt_004 = {
+	name = "Khatun"
+	dynasty=RICE_yarjukhid_egypt
+	religion = "ashari"
+	culture = "turkish"
+	female = yes
+	father = RICE_upper_egypt_003
+	# Unknown
+	835.4.6 = {
+		birth = yes
+	}
+	851.4.6 = {
+		add_spouse = 163115
+	}
+	899.1.1 = {
+		death = yes
+	}
+}
+
+# ibn Tulun's daughter
+# RICE_upper_egypt_005 = {
+# 	name = "Fatimah"
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	female = yes
+# 	father = 163115
+# 	mother = RICE_upper_egypt_004
+# 	# Unknown
+# 	856.1.2 = {
+# 		birth = yes
+# 	}
+# 	909.1.1 = {
+# 		death = yes
+# 	}
+# }
+
+
+# ibn Tulun's second wife, a slave gifted to him by Caliph al-Musta'in
+RICE_upper_egypt_006 = {
+	name = "Miyas"
+	religion = "ashari"
+	culture = "levantine" # Unknown ethnicity, so I made her Levantine
+	female = yes
+	trait = beauty_good_1
+	# Unknown
+	840.2.2 = {
+		birth = yes
+	}
+	856.2.2 = {
+		add_spouse = 163115
+	}
+	909.1.1 = {
+		death = yes
+	}
+}
+
+
+# ibn Tulun's first born son, who failed to rebel against his father in 879
+# RICE_upper_egypt_007 = {
+# 	name = "al-Abbas"
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	trait = trusting # Easily manipulated by others
+# 	trait = fickle # Pliable of mind
+# 	# After capturing his son following his rebellion, ibn Tulun asked his son to gouge the eyes and cut the hands of his conspirators as a secret test of character
+# 	# When al-Abbas did this without hesitation, ibn Tulun was said to have wept profusely and imprisoned him. 
+# 	trait = arbitrary 
+# 	trait = callous
+# 	father = 163115
+# 	mother = RICE_upper_egypt_004
+# 	# Unknown
+# 	852.1.1 = {
+# 		birth = yes
+# 	}
+# 	884.1.1 = {
+# 		death = {
+# 			death_reason = death_execution
+# 			killer = 163138
+# 		}
+# 	}
+# }
+
+# Postmaster/head of intelligence in Egypt before Ibn Tulun and thus a major official, political enemy of Ibn Tulun
+# Gave Ibn Tulun a large gift of money when Ibn Tulun first arrived as a gesture that his and al-Mudabbir would keep their autonomous power
+# However, Ibn Tulun refused the gift to assert his authority. There was later plenty of intrigue as Ibn Tulun and al-Mudabbir/Shukayr
+# tried to outmaneuver each other in the Abbasid court. Eventually, Shukayr was dismissed c. 872 and died soon after
+RICE_upper_egypt_008 = {
+	name = "Shukayr"
+	dynasty = RICE_shukayr_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_intrigue_2
+	# Unknown
+	830.1.1 = {
+		birth = yes
+	}
+	# Lower opinion instead of rivalry for now
+	866.1.1 = {
+		effect = {
+			set_relation_friend = {
+				target = character:RICE_upper_egypt_010
+				reason = RICE_friend_reason_placeholder
+			}	
+		}
+	}
+	872.1.1 = {
+		death = yes
+	}
+}
+
+# al-Mudabbir's father, apparently was of Persian origin
+RICE_upper_egypt_009 = {
+	name = "Muhammad"
+	dynasty = RICE_al_mudabbir_egypt
+	religion = "ashari"
+	culture = "persian"
+	# Unknown
+	800.1.1 = {
+		birth = yes
+	}
+	852.1.1 = {
+		death = yes
+	}
+}
+
+# al-Mudabbir himself
+RICE_upper_egypt_010 = {
+	name = "Abu_Al-Hasan"
+	dynasty = RICE_al_mudabbir_egypt
+	religion = "ashari"
+	culture = "persian"
+	stewardship = 7
+	learning = 6
+	trait = education_diplomacy_3 # distinguished man of letters
+	trait = lifestyle_poet # esteemed as a poet by Caliph al-Mutawakkil, his friend
+	trait = greedy # was said to increase taxes in Egypt unfairly
+	trait = callous # was said to increase taxes in Egypt unfairly
+	trait = ambitious # was said to increase taxes in Egypt unfairly
+	father = RICE_upper_egypt_009
+	# Unknown
+	836.3.6 = {
+		birth = yes
+	}
+	# Died in prison
+	883.1.1 = {
+		death = yes
+	}
+}
+
+# al-Mudabbir's brother, Abu Ishaq Ibrahim
+RICE_upper_egypt_011 = {
+	name = "Abu_Ishaq"
+	dynasty = RICE_al_mudabbir_egypt
+	religion = "ashari"
+	culture = "persian"
+	trait = education_stewardship_3 # wrote a book on administration
+	trait = lifestyle_poet # esteemed as a poet by Caliph al-Mutawakkil, his friend
+	trait = diligent # broke a prison wall to escape while captured by Zanj rebels
+	father = RICE_upper_egypt_009
+	# Unknown
+	839.9.9 = {
+		birth = yes
+	}
+	866.1.1 = {
+		employer = 34014 # Al-Mutazz
+	}
+	# Died in prison
+	892.1.1 = {
+		death = yes
+	}
+}
+
+# Bugha al-Asghar Ahmad ibn Muhammad Ibn at-Tabataba’i
+# Alid who revolted against the Abbasids in Barca
+RICE_upper_egypt_012 = {
+	name = "bugha_al_asghar"
+	dynasty = RICE_al_tabataba_egypt
+	religion = "zayidi" # Per iFrunx's suggestion
+	culture = "bedouin"
+	# Unknown
+	831.4.7 = {
+		birth = yes
+	}
+	# Executed in Egypt
+	869.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 163115 # Ibn Tulun
+		}
+	}
+}
+
+# Ibn al-Sufi, Ibrahim ibn Muhammad
+# Alid who revolted in the Egyptian oases in 869, was later sent to Medina
+RICE_upper_egypt_013 = {
+	name = "Ibrahim"
+	dynasty = RICE_al_sufi_egypt
+	religion = "ismaili" # Not sure if the right one
+	culture = "egyptian"
+	diplomacy = 10 # Formented rebellions for many years, so must have been charismatic
+	# Massacred inhabitants of Esna, ravaged Aswan where he cut thouands of palm trees
+	trait=vengeful
+	trait=wrathful
+	trait=gregarious
+	# Unknown
+	835.5.31 = {
+		birth = yes
+	}
+	# Unknown
+	879.1.23 = {
+		death = yes
+	}
+}
+
+# Abu Ruh Sukun
+# Former partisan of al-Sufi in the oases who rebelled in 872-873, offered a truce
+RICE_upper_egypt_014 = {
+	name = "Abu_Ruh_Sukun"
+	dynasty = RICE_sukunid_egypt
+	religion = "ismaili" # Not sure if the right one
+	culture = "egyptian"
+	# Unknown
+	843.7.22 = {
+		birth = yes
+	}
+	# Unknown
+	897.9.12 = {
+		death = yes
+	}
+}
+
+
+# Muhammad ibn al-Faraj al-Farghani
+# Governor of Barca who declared rebellion in 874-875
+# Replaced with al-farghani_1 in vanilla at some point
+# RICE_upper_egypt_015 = {
+# 	name = "Muhammad"
+# 	dynasty = RICE_al_farghani_egypt
+# 	religion = "ashari"
+# 	culture = "sogdian" # Farghani = Fergana, so family probably originally came from there
+# 	trait=education_martial_3
+# 	# Unknown
+# 	839.5.16 = {
+# 		birth = yes
+# 	}
+# 	# Unknown
+# 	892.4.1 = {
+# 		death = yes
+# 	}
+# }
+
+
+# Abu Ja'far Muhammad ibn 'Abd al-Kan
+# Ibn Tulun's chancellor/director of administration, died in 891
+RICE_upper_egypt_016 = {
+	name = "Abu_Jafar_Muhammad"
+	dynasty = RICE_al_kan_egypt
+	religion = "ashari"
+	culture = "persian" # Likely of Persian origin
+	trait=education_diplomacy_3
+	trait=administrator
+	diplomacy = 6
+	stewardship = 7
+	# Unknown
+	830.10.6 = {
+		birth = yes
+		give_nickname = nick_RICE_ibn_abd_kan
+	}
+	# Known
+	891.3.7 = {
+		death = yes
+	}
+}
+
+
+# Abu Bakr Ahmad ibn Ibrahim al-Madhara'i al-Atrash (the Deaf)
+# Governor of finances in Egypt and Syria
+RICE_upper_egypt_017 = {
+	name = "Ahmad"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_stewardship_4
+	trait=generous
+	trait=diligent
+	#trait=ambitious
+	stewardship = 8
+	father = RICE_upper_egypt_027
+	# Unknown
+	828.5.5 = {
+		birth = yes
+	}
+	848.1.1 = {
+		add_spouse = RICE_upper_egypt_028
+	}
+	# Known
+	884.5.20 = {
+		death = yes
+	}
+}
+
+
+# Fourth son of Ibn Tulun who was left in charge of affairs in Egypt in 879 during his brother's rebellion
+# Later rebelled himself against his nephew in 897 and was executed
+# RICE_upper_egypt_018 = {
+# 	name = "Mukarram"
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 163115
+# 	mother = RICE_upper_egypt_004
+# 	# Unknown
+# 	858.2.2 = {
+# 		birth = yes
+# 	}
+# 	# Known
+# 	897.1.1 = {
+# 		death = {
+# 			death_reason = death_execution
+# 		}
+# 	}
+# }
+
+# # Daughter of Ibn Tulun
+# RICE_upper_egypt_019 = {
+# 	name = "Lamis"
+# 	female=yes
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 163115
+# 	mother = RICE_upper_egypt_006
+# 	trait = beauty_good_1
+# 	# Unknown
+# 	860.2.23 = {
+# 		birth = yes
+# 	}
+# 	# Unknown
+# 	911.7.14 = {
+# 		death = yes
+# 	}
+# }
+
+# # Daughter of Ibn Tulun
+# RICE_upper_egypt_020 = {
+# 	name = "Safiya"
+# 	female=yes
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 163115
+# 	mother = RICE_upper_egypt_004
+# 	# Unknown
+# 	862.9.17 = {
+# 		birth = yes
+# 	}
+# 	# Unknown
+# 	935.3.5 = {
+# 		death = yes
+# 	}
+# }
+
+# # Daughter of Ibn Tulun
+# RICE_upper_egypt_021 = {
+# 	name = "Khadija"
+# 	female=yes
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 163115
+# 	mother = RICE_upper_egypt_006
+# 	# Unknown
+# 	863.11.14 = {
+# 		birth = yes
+# 	}
+# 	# Unknown
+# 	927.8.11 = {
+# 		death = yes
+# 	}
+# }
+
+# # Daughter of Ibn Tulun
+# RICE_upper_egypt_022 = {
+# 	name = "Maymunah"
+# 	female=yes
+# 	dynasty = 820
+# 	religion = "ashari"
+# 	culture = "egyptian"
+# 	father = 163115
+# 	mother = RICE_upper_egypt_004
+# 	trait = beauty_good_1
+# 	# Unknown
+# 	865.12.13 = {
+# 		birth = yes
+# 	}
+# 	# Unknown
+# 	919.2.15 = {
+# 		death = yes
+# 	}
+# }
+
+# Ali, al-Madhara'i's son, who handled Tulunid finances in Egypt
+RICE_upper_egypt_023 = {
+	name = "Ali"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_stewardship_3
+	stewardship = 7
+	father=RICE_upper_egypt_017
+	mother=RICE_upper_egypt_028
+	# Unknown
+	852.5.28 = {
+		birth = yes
+	}
+	# Killed during a coup against Jaysh ibn Khumarawayh, the third Tulunid ruler
+	897.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+
+# al-Husayn, al-Madhara'i's son, who handled Tulunid finances in Syria
+RICE_upper_egypt_024 = {
+	name = "al-Husayn"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_stewardship_3
+	stewardship = 7
+	father=RICE_upper_egypt_017
+	mother=RICE_upper_egypt_028
+	# Unknown
+	858.8.25 = {
+		birth = yes
+	}
+	# Known year
+	929.5.16 = {
+		death = yes
+	}
+}
+
+# Ali al-Madhara'i's son, Ahmad
+RICE_upper_egypt_025 = {
+	name = "Ahmad"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_stewardship_3
+	stewardship = 7
+	father=RICE_upper_egypt_023
+	# Unknown
+	869.5.14 = {
+		birth = yes
+	}
+	# Known year
+	915.7.26 = {
+		death = yes
+	}
+}
+
+# Ali al-Madhara'i's son, Muhammad, last prominent member of his clan
+RICE_upper_egypt_026 = {
+	name = "Muhammad"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_stewardship_3
+	diplomacy = 6 # Later served as vizier
+	stewardship = 7
+	father=RICE_upper_egypt_023
+	# Known year
+	871.3.30 = {
+		birth = yes
+	}
+	# Known year
+	957.12.15 = {
+		death = yes
+	}
+}
+
+# Abu Bakr al-Madhara'i's father - family was originally from Iraq
+RICE_upper_egypt_027 = {
+	name = "Ibrahim"
+	dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "levantine"
+	# Unknown
+	800.5.2 = {
+		birth = yes
+	}
+	# Unknown
+	862.2.5 = {
+		death = yes
+	}
+}
+
+# Abu Bakr al-Madhara'i's fictitious wife
+RICE_upper_egypt_028 = {
+	name = "Mariam"
+	#dynasty = RICE_al_madhara_i_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	female = yes
+	# Unknown
+	830.10.13 = {
+		birth = yes
+	}
+	# Unknown
+	894.6.30 = {
+		death = yes
+	}
+}
+
+# Yusuf al-Daya's father
+RICE_upper_egypt_029 = {
+	name = "Ibrahim"
+	dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "levantine"
+	# Unknown
+	750.9.13 = {
+		birth = yes
+	}
+	# Unknown
+	808.8.18 = {
+		death = yes
+	}
+}
+
+# Yusuf al-Daya
+# Scholar, secretary, and major landowner in Egypt around Fustat
+# Had connections with the Abbasid court and was a prominent member of Abbasid scholarly circles but moved to Egypt for some reason
+# Became a major official but was suspected of cheating taxes
+# Father of the more famous Ahmad ibn Yusuf ibn al-Daya
+RICE_upper_egypt_030 = {
+	name = "Yusuf"
+	dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_learning_4
+	trait=intellect_good_1
+	trait=gregarious # Close links with the ruling elites of the Abbasid court and Egypt
+	trait=generous # Did a lot of charity stuff I guess
+	trait=diligent # Scholar
+	trait=deceitful # Suspected of cheating taxes and doing espionage on behalf of the Abbasids by the Egyptian authorities
+	father=RICE_upper_egypt_029
+	# Estimated year
+	795.3.1 = {
+		birth = yes
+		give_nickname = nick_RICE_ibn_al_daya # Ibn al-Daya
+	}
+	830.1.1 = {
+		add_spouse = RICE_upper_egypt_031
+	}
+	830.1.1 = {
+		add_spouse = RICE_upper_egypt_032
+	}
+	# Estimated between 876 and 884
+	880.8.8 = {
+		death = yes
+	}
+}
+
+# Fictitious wife of Yusuf al-Daya - said to have multiple wives
+RICE_upper_egypt_031 = {
+	name = "Sadiya"
+	#dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "levantine"
+	female = yes
+	# Unknown
+	808.5.28 = {
+		birth = yes
+	}
+	# Unknown
+	880.8.18 = {
+		death = yes
+	}
+}
+
+# Fictitious wife of Yusuf al-Daya - said to have multiple wives
+RICE_upper_egypt_032 = {
+	name = "Nura"
+	#dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	female = yes
+	# Unknown
+	808.8.25 = {
+		birth = yes
+	}
+	# Unknown
+	880.8.28 = {
+		death = yes
+	}
+}
+
+# Ahmad ibn al-Daya
+# Important Tulunid secretary, mathematician, and historian
+# Also major landholder around Cairo
+RICE_upper_egypt_033 = {
+	name = "Ahmad"
+	dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	trait=education_learning_4
+	trait=intellect_good_1
+	father=RICE_upper_egypt_030
+	mother=RICE_upper_egypt_031
+	# Confusingly, some sources list 859 or 864, others around the 830s
+	834.1.11 = {
+		birth = yes
+	}
+	# Confusingly, some sources list 912 while others list 941 or 951
+	912.4.24 = {
+		death = yes
+	}
+}
+
+# Yusuf's other son Yaqub
+# Not much else is known about him
+RICE_upper_egypt_035 = {
+	name = "Yaqub"
+	dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	father=RICE_upper_egypt_030
+	mother=RICE_upper_egypt_032
+	# Unknown
+	844.4.2 = {
+		birth = yes
+	}
+	# Unknown
+	911.1.11 = {
+		death = yes
+	}
+}
+
+# Yusuf's other son al-Hasan
+# Not much else is known about him
+RICE_upper_egypt_036 = {
+	name = "Al-Hasan"
+	dynasty = RICE_al_daya_egypt
+	religion = "ashari"
+	culture = "egyptian"
+	father=RICE_upper_egypt_030
+	mother=RICE_upper_egypt_032
+	# Unknown
+	846.2.10 = {
+		birth = yes
+	}
+	# Unknown
+	922.2.22 = {
+		death = yes
+	}
+}
+
+
+# Musa ibn Tulun
+# Habsiya bint Tulun
+# Samana bint Tulun
+# ʾAḥmad ibn Yūsuf ibn ʾIbrāhīm ibn al-Dāya
+
+###########################################################
+# 
+# IKHSHIDID DYNASTY
+# 
+###########################################################
+
+
+# Juff
+# Grandfather of Muhammad al-Ikhshid, the founder of the Ikhshidid dynasty of Egypt
+# Unlike most Turkish soldiers in Abbasid employ, he was a freeman
+# Originally from Ferghana, but was a Turk
+RICE_ikhshidid_001 = {
+	name = "Juff"
+	dynasty = RICE_ikhshidid_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	trait = education_martial_2
+	806.3.7 = {	# Unknown
+		birth = yes
+	}
+	862.4.9 = { # Unknown
+		death = yes
+	}
+}
+
+# Tughj
+# Muhammad al-Ikhshid's father
+RICE_ikhshidid_002 = {
+	name = "Tughj"
+	dynasty = RICE_ikhshidid_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	trait = education_martial_3
+	trait = physique_good_1 	# Apparently had an impressive appearance
+	trait = brave 				# Distinguished military commander
+	trait = fickle 				# Defected a couple times
+	trait = diligent 			# Something generic
+	father = RICE_ikhshidid_001
+	841.4.30 = {	# Unknown
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	906.3.1 = { # Roughly
+		death = {
+			death_reason = death_prison
+		}
+	}
+}
+
+# Badr, Tughj's brother
+# Little is known about him
+RICE_ikhshidid_003 = {
+	name = "Badr"
+	dynasty = RICE_ikhshidid_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	father = RICE_ikhshidid_001
+	844.7.18 = {	# Unknown
+		birth = yes
+	}
+	911.3.2 = { # Unknown
+		death = yes
+	}
+}
+
+# Wazar, Tughj's brother
+# Little is known about him
+RICE_ikhshidid_004 = {
+	name = "Wazar"
+	dynasty = RICE_ikhshidid_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	father = RICE_ikhshidid_001
+	847.12.14 = {	# Unknown
+		birth = yes
+	}
+	905.6.25 = { # Unknown
+		death = yes
+	}
+}
+
+
+
+
+###########################################################
+# 
+# EGYPTIAN JEWS
+# 
+###########################################################
+
+# al-Wuhsha al-Dallala, a prominent Jewish businesswoman in the late 11th/early 12th centuries
+# Was famous for being avant-garde and infamously unconventional in lifestyle
+RICE_egyptian_jewish_001 = {
+	name = "Karima"
+	dna = RICE_landless_al_wuhsha_dna
+	female=yes
+	dynasty = RICE_al_wuhsha_al_dallala_dynasty
+	religion = "rabbinism"
+	culture = "bavlim"
+	trait=education_stewardship_4	# Successful independent businessomwan, leading member of the Cairo business world. So rich she once didn't show up for a court case because the money involved was insignificant to her.
+	#trait=lustful 					# Unconventional love because she lived with a guy out of wedlock, so not exactly lustful per se, not really sure what other trait would work
+	trait=diligent					# Successful businesswoman
+	trait=generous					# Donated a lot in her will
+	trait=forgiving					# Despite being ostracized by a Cairo synagogue, she still helped them later on 
+	trait=stubborn					# Noted as a strong independent woman girlboss who openly flaunted her unusual lifestyle
+	trait=intellect_good_1
+	father=RICE_egyptian_jewish_002
+	sexuality = heterosexual
+	# Unknown
+	1048.7.12 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1066.1.1 = {
+		give_nickname = nick_RICE_al_dallala
+	}
+	1068.1.1 = {
+		add_spouse = RICE_egyptian_jewish_004
+	}
+	1075.1.1 = {
+		remove_spouse = RICE_egyptian_jewish_004
+	}
+	# Unknown, but sometime after 1104 which is the date of her will
+	1111.2.22 = {
+		death = yes
+	}
+}
+
+# al-Wuhsha al-Dallala's father, Ammar, a Jewish banker from Alexandria
+RICE_egyptian_jewish_002 = {
+	name = "Ammar"
+	dynasty = RICE_al_wuhsha_al_dallala_dynasty
+	religion = "rabbinism"
+	culture = "bavlim"
+	trait=education_stewardship_3
+	# Unknown
+	1010.10.10 = {
+		birth = yes
+	}
+	# Unknown
+	1064.8.8 = {
+		death = yes
+	}
+}
+
+# al-Wuhsha al-Dallala's daughter, Sitt Ghazal
+RICE_egyptian_jewish_003 = {
+	name = "Sitt_Ghazal"
+	female=yes
+	dynasty = RICE_al_wuhsha_al_dallala_dynasty
+	religion = "rabbinism"
+	culture = "bavlim"
+	father=RICE_egyptian_jewish_004
+	mother=RICE_egyptian_jewish_001
+	# Unknown
+	1072.8.25 = {
+		birth = yes
+	}
+	# Unknown, but alive in December 1132 from a document attested there
+	1144.4.14 = {
+		death = yes
+	}
+}
+
+# al-Wuhsha al-Dallala's husband Arye who she later divorced
+RICE_egyptian_jewish_004 = {
+	name = "Arye"
+	religion = "rabbinism"
+	culture = "bavlim"
+	# Unknown
+	1044.1.24 = {
+		birth = yes
+	}
+	# Unknown
+	1098.4.22 = {
+		death = yes
+	}
+}
+
+# al-Wuhsha al-Dallala's son, couldn't find his name
+RICE_egyptian_jewish_005 = {
+	name = "Binyamin"
+	dynasty = RICE_al_wuhsha_al_dallala_dynasty
+	religion = "rabbinism"
+	culture = "bavlim"
+	#father=RICE_egyptian_jewish_004
+	mother=RICE_egyptian_jewish_001
+	trait = legitimized_bastard 		# Was born out of wedlock, but mother made efforts to ensure he could inherit most of her assets
+	# Unknown, but mother was banned from the synagogue in 1095 due to giving birth out of wedlock, so he was born by then
+	1094.1.13 = {
+		birth = yes
+	}
+	# Unknown, but alive in 1104 for her will
+	1144.4.14 = {
+		death = yes
+	}
+}
+
+
+###########################################################
+# 
+# UPPER EGYPT MISC
+# 
+###########################################################
+
+
+# Azjur al-Turki
+# Governor of Egypt before ibn Tulun in 868
+RICE_upper_egypt_misc_001 = {
+	name = "Azjur"
+	dynasty = RICE_al_turki_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	father = RICE_upper_egypt_misc_002
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	trait = education_intrigue_3 	# Head of security in Egypt before becoming governor
+	trait = zealous 				# Wanted to enforce what he saw as Islamic rules more strictly, like ordering women to stay at home
+	trait = brave 					# Military background
+	trait = stubborn 				# To represent how he enforced strict laws even though it made him very unpopular 
+	833.7.24 = { # Unknown
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	869.1.1. = {
+		add_trait = hajjaj 	# Depending on the source, he either went back to working as an officer for the Caliph, or left Egypt to go on the Hajj
+	}
+	890.4.22 = { # Unknown
+		death = yes
+	}
+}
+
+# Azjur's father, Ulugh
+RICE_upper_egypt_misc_002 = {
+	name = "Ulugh"
+	dynasty = RICE_al_turki_dynasty
+	religion = "ashari"
+	culture = "turkish"
+	798.11.19 = { # Unknown
+		birth = yes
+	}
+	859.7.3 = { # Unknown
+		death = yes
+	}
+}
+
+
+

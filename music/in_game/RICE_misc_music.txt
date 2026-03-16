@@ -1,0 +1,59 @@
+﻿
+## North Atlantic Cue Tracks
+
+## Composed by George Hammond
+## To hear more of his great work, please check out this link: https://fanlink.to/georgehammondmusic
+
+# mx_RICE_greenland_struggle_opening = {
+# 	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_RICE_greenland_struggle_opening"
+# 	pause_factor = 30
+# }
+
+mx_RICE_greenland_struggle_integration = {
+	music = "file:/music/cuetracks/mx_RICE_greenland_struggle_integration.ogg"
+	name = "mx_RICE_greenland_struggle_integration"
+	pause_factor = 30
+}
+
+mx_RICE_greenland_struggle_abandonment = {
+	music = "file:/music/cuetracks/mx_RICE_greenland_struggle_abandonment.ogg"
+	name = "mx_RICE_greenland_struggle_abandonment"
+	pause_factor = 30
+}
+
+
+## Indian Cue Tracks
+# Transcendental Meditation - FesliyanStudios
+# https://www.fesliyanstudios.com/royalty-free-music/download/transcendental-meditation/1788
+
+
+mx_india_cue_1 = {
+	music = "file:/music/cuetracks/india_cue_1.ogg"
+	name = "mx_india_cue_1"
+	pause_factor = 30
+}
+
+mx_india_cue_2 = {
+	music = "file:/music/cuetracks/india_cue_2.ogg"
+	name = "mx_india_cue_2"
+	pause_factor = 30
+}
+
+mx_india_cue_3 = {
+	music = "file:/music/cuetracks/india_cue_3.ogg"
+	name = "mx_india_cue_3"
+	pause_factor = 30
+}
+
+
+## Tibetan Cue Tracks
+
+# Tibetan Chants by Timbre from freesound.org, based on an original recording by djgriffin
+# https://freesound.org/people/Timbre/sounds/103591/
+
+mx_tibet_cue_1 = {
+	music = "file:/music/cuetracks/mx_tibet_cue_1.ogg"
+	name = "mx_tibet_cue_1"
+	pause_factor = 30
+}
+

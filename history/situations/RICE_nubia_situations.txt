@@ -1,0 +1,24 @@
+﻿#####################
+# THE NILE RIVER  #
+#####################
+1.8.1 = {
+    effect = {
+        start_situation = {
+            type = RICE_nile_river_situation
+            start_phase = nile_normal_flood
+        }
+        # start_situation = {
+        #     type = RICE_nubia_baqt_situation
+        #     start_phase = baqt_accord
+        # }
+    }
+} 
+
+632.1.1 = {
+    effect = {
+        start_situation = {
+            type = RICE_nubia_baqt_situation
+            start_phase = baqt_accord
+        }
+    }
+} 

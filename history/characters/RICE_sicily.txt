@@ -1,0 +1,833 @@
+﻿
+###########################################################
+# 
+# Miscellaneous Muslim Characters
+# 
+###########################################################
+
+# Uthman
+# Poorly attested ruler of the Emirate of Taranto who surrendered it in 880
+RICE_sicily_arabic_001 = {
+	name = "Uthman"
+	religion = "ashari"
+	culture = siqilli
+	842.10.6 = { # Unknown
+		birth = yes
+	}
+	888.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Ibrahim
+# Muslim soldier and friend/blood brother of Serlo d'Hauteville who later betrayed him
+RICE_sicily_arabic_002 = {
+	name = "Ibrahim"
+	religion = "ashari"
+	culture = siqilli
+	trait = education_martial_3
+	trait = deceitful
+	1040.4.4 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {
+		effect = {
+			set_relation_friend = {
+				target = character:1127
+				reason = RICE_friend_reason_placeholder
+			}	
+		}		
+	}
+	1080.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Constantine the African
+# Famous physician and later monk important in the history of the Salerno School of medicine
+# "Saracen" origin, but sources unclear if he was a convert to Christianity or born into a Christian North African family
+# The last source below argues that Constantine was the latter and he may have been part of a community that still knew some Latin
+# aka, Afro-Roman
+# Some sources:
+# https://www.scribd.com/document/840979862/Constantine-the-African-encyclopedia-ent
+# https://centaur.reading.ac.uk/122512/1/Jeavons_thesis.pdf
+# https://helda.helsinki.fi/server/api/core/bitstreams/ec3f5220-57b7-411f-bfae-7dcc6a68d40a/content
+# https://academic.oup.com/library/article/24/4/415/7492033
+# https://muslimheritage.com/constantine-the-african/
+RICE_sicily_arabic_003 = {
+	name = "Constantinus"
+	dynasty = dynasty_RICE_sicily_africanus
+	religion = "catholic" # ashari
+	culture = african_roman # maghrebi
+	diplomacy = 6
+	stewardship = 6 # May have started off as a merchant
+	learning = 9
+	trait = education_learning_4 
+	trait = devoted 				# Became a monk by 1077, I'm just starting this early - player will choose via event
+	trait = intellect_good_1
+	#trait = lifestyle_physician
+	trait = RICE_trans_saharan_merchant # May have started off as a merchant
+	trait = lifestyle_traveler 			# Supposedly traveled as far as Mesopotamia, Ethiopia, India, etc. to learn medicine, but this is probably exaggeration from later sources - early sources do mention him studying in Cairo, however
+	#trait = diligent 					# Worked hard to be smart
+	trait = compassionate 				# Wanted to practice medicine as his mission in life
+	trait = humble 						# According to legend refused great honors from Robert of Guiscard and just wanted to chill teaching people
+	trait = just 						# Desired to help the Latins of Italy with medicine when he felt it was crappy and not up to standard
+	trait = scholar 					# Important scholar of medicine and translator
+	1028.6.9 = { # Unknown; a few places online list dates ranging from 1010 to the 1020s but I can't find anything reliable; died of old age by 1098/1099 latest
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1066.1.1 = {
+		#employer = 1128 # Although he wandered around and may have gotten to Salerno in 1077, put him in Robert Guiscard's court so he doesn't wander off
+		effect = {
+			#set_character_faith = faith:catholic
+			learn_language = language_arabic
+			learn_language = language_greek
+			learn_language = language_italian
+			learn_language = language_latin
+			add_trait = RICE_sicilian_ruler
+			add_trait = lifestyle_physician
+			# add_random_tiered_trait_xp_effect = {
+			# 	TRAIT = lifestyle_physician
+			# 	LEVEL_1 = no
+			# 	LEVEL_3 = yes
+			# }
+			# His disciples and assistants Johannes Afflacius and Atto, whom he had a close relationship with
+			set_relation_friend = {
+				target = character:RICE_sicily_arabic_010
+				reason = RICE_friend_reason_placeholder
+			}	
+			set_relation_friend = {
+				target = character:RICE_sicily_latin_011
+				reason = RICE_friend_reason_placeholder
+			}	
+		}
+	}
+	1097.12.22 = { # Unknown but before 1098/1099, died of old age; date of death according to German Wikipedia is December 22
+		death = yes
+	}
+}
+
+# Al-Hasan ibn al-Abbas, Aghlabid commander who defeated Byzzantine general Barsakios near Taormina in 881
+# Later dismissed from post after a later defeat
+RICE_sicily_arabic_004 = {
+	name = "Al-Hasan"
+	religion = "ashari"
+	culture = siqilli
+	trait = education_martial_2
+	father=RICE_sicily_arabic_005
+	846.4.17 = { # Unknown
+		birth = yes
+	}
+	867.1.1 = {
+		employer = maghrebi0001 # Khafaja ibn Sufyan, vanila's ruler of Sicily in 867
+	}
+	895.12.14 = { # Unknown
+		death = yes
+	}
+}
+
+# al-Abbas, al-Hasan ibn al-Abbas' father
+RICE_sicily_arabic_005 = {
+	name = "al-Abbas"
+	religion = "ashari"
+	culture = siqilli
+	828.5.1 = {
+		birth = yes
+	}
+	865.9.12 = {
+		death = yes
+	}
+}
+
+# Ibn al-Qatta' al-Siqilli
+# Siculo-Arabic philogist, lexicographer, and anthropologist, particularly on poets
+RICE_sicily_arabic_006 = {
+	name = "abu_al_qasim_ali"
+	dynasty_house = RICE_house_siqilli_aghlabid # Descended from the Aghlabids
+	religion = "ashari"
+	culture = siqilli
+	trait = education_learning_3
+	trait = scholar
+	trait = lifestyle_poet
+	trait = RICE_sicilian_ruler # Give him at game start since he won't get it automatically
+	father=RICE_sicily_arabic_007
+	1041.10.9 = { # Known
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1123.4.15 = { # Roughly
+		death = yes
+	}
+}
+
+# Ibn al-Qatta' al-Siqilli's father, Jafar
+RICE_sicily_arabic_007 = {
+	name = "Jafar"
+	dynasty_house = RICE_house_siqilli_aghlabid # Descended from the Aghlabids
+	religion = "ashari"
+	culture = siqilli
+	trait = education_learning_3
+	trait = scholar
+	trait = lifestyle_poet
+	father=RICE_sicily_arabic_008
+	1014.7.2 = { # Unknown
+		birth = yes
+	}
+	1065.9.3 = { # Unknown
+		death = yes
+	}
+}
+
+# Ibn al-Qatta' al-Siqilli's grandfather, Ali
+RICE_sicily_arabic_008 = {
+	name = "Ali"
+	dynasty_house = RICE_house_siqilli_aghlabid # Descended from the Aghlabids
+	religion = "ashari"
+	culture = siqilli
+	trait = education_learning_3
+	trait = scholar
+	trait = lifestyle_poet
+	father=RICE_sicily_arabic_009
+	981.2.16 = { # Unknown
+		birth = yes
+	}
+	1051.7.14 = { # Unknown
+		death = yes
+	}
+}
+
+# Ibn al-Qatta' al-Siqilli's great-grandfather, Muhammad
+RICE_sicily_arabic_009 = {
+	name = "Muhammad"
+	dynasty_house = RICE_house_siqilli_aghlabid # Descended from the Aghlabids
+	religion = "ashari"
+	culture = siqilli
+	trait = education_learning_3
+	trait = scholar
+	trait = lifestyle_poet
+	955.4.3 = { # Unknown
+		birth = yes
+	}
+	1026.3.25 = { # Unknown
+		death = yes
+	}
+}
+
+# Joannes Medicus, often identified with Johannes Afflacius
+# Pupil of Constantine the African and monk at Monte Cassino, possibly another Arabic Islamic convert to Christianity
+# His original birth name is suggested to be Yaḥya ibn ‛Aflah
+# Some sources list his birth as 1040, others as between 1055 and 1070 - I'm going wit 1040 so he's an adult in 1066
+RICE_sicily_arabic_010 = {
+	name = "Yahya" # Yahya
+	dynasty = RICE_dynasty_afflacius
+	religion = "catholic"
+	culture = maghrebi
+	trait = education_learning_4
+	trait = devoted
+	trait = diligent
+	trait = humble
+	trait = just
+	trait = lifestyle_physician
+	father = RICE_sicily_arabic_011
+	1040.4.4 = { # Possible
+		birth = yes
+	}
+	1066.9.15 = {
+		employer = RICE_sicily_arabic_003
+	}
+	1114.11.14 = { #  died in or after 1114
+		death = yes
+	}
+}
+
+# Johannes Afflacius' hypothetical father
+RICE_sicily_arabic_011 = {
+	name = "Aflah"
+	dynasty = RICE_dynasty_afflacius
+	religion = "ashari"
+	culture = maghrebi
+	1008.9.9 = { # Unknown
+		birth = yes
+	}
+	1055.8.22 = { # Unknown
+		death = yes
+	}
+}
+
+#  Ibn hamdīs (1056–1133)
+
+###########################################################
+# 
+# Miscellaneous Greek Characters
+# 
+###########################################################
+
+# Abulchares, third to last Catepan of Italy for the Byzantines
+RICE_sicily_greek_001 = {
+	name = "Abulchares"
+	religion = "orthodox"
+	culture = levantine # Of Arabic origin, but not sure which type of Arabic
+	diplomacy = 6
+	martial = 7
+	intrigue = 6
+	# Capable defender
+	trait = education_martial_3
+	trait = loyal
+	trait = diligent
+	1030.8.25 = { # Unknown
+		birth = yes
+	}
+	1068.8.8 = { # Died in 1068
+		death = yes
+	}
+}
+
+# Byzantios, leading citizen of the pro-Byzantine faction in Bari
+RICE_sicily_greek_002 = {
+	name = "Byzantios"
+	# dynasty = Guirdeliku
+	religion = "orthodox"
+	culture = greek
+	trait = loyal
+	1034.6.25 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {		
+		set_relation_rival = character:RICE_sicily_greek_004
+	}
+	1070.7.18 = { # Known
+		death = {
+			death_reason = death_assassination
+			killer = RICE_sicily_greek_004
+		}
+	}
+}
+
+# Ioannakes, father of Argyritzos
+RICE_sicily_greek_003 = {
+	name = "Ioannakes"
+	religion = "orthodox"
+	culture = greek
+	trait = disloyal
+	trait = ambitious
+	trait = deceitful
+	1001.1.11 = { # Unknown
+		birth = yes
+	}	
+	1060.6.6 = { # Unknown
+		death = yes
+	}
+}
+
+# Argyritzos, leading citizen of the pro-Norman faction in Bari
+# Briefly ruler of Bari under the Normans
+RICE_sicily_greek_004 = {
+	name = "Argyritzos"
+	religion = "orthodox"
+	culture = greek
+	trait = disloyal
+	father=RICE_sicily_greek_003
+	1035.9.7 = { # Unknown
+		birth = yes
+	}
+	1054.1.1 = {
+		add_spouse = RICE_sicily_greek_005
+	}
+	1113.4.7 = { # Unknown
+		death = yes
+	}
+}
+
+# Argyritzos' fictitious wife
+RICE_sicily_greek_005 = {
+	name = "Theodosia"
+	female=yes
+	religion = "orthodox"
+	culture = greek
+	1036.2.25 = { # Unknown
+		birth = yes
+	}
+	1105.7.9 = { # Unknown
+		death = yes
+	}
+}
+
+# Jaquinta of Bari, Argyritzos' daughter, later queen consort of King Constantine Bodin of Dioclea/Duklja
+RICE_sicily_greek_006 = {
+	name = "Jaquinta"
+	female=yes
+	religion = "orthodox"
+	culture = greek
+	father=RICE_sicily_greek_004
+	mother=RICE_sicily_greek_005
+	1055.2.28 = { # Unknown
+		birth = yes
+	}
+	1078.1.1 = {
+		add_spouse = 20493
+	}
+	1118.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Melus of Bari, Lombard/Armenian nobleman whose attempt to carve out an autonomous territory in Bari led to the Norman presence in southern Italy
+RICE_sicily_greek_007 = {
+	name = "Melus"
+	dynasty=RICE_dynasty_of_bari_lombard
+	religion = "catholic"
+	culture = armenian
+	969.6.9 = { # Unknown
+		birth = yes
+	}
+	990.1.1 = {
+		add_spouse = RICE_sicily_greek_010
+	}
+	1020.5.8 = { # Year known
+		death = yes
+	}
+}
+
+# Dattus/Datto, Melus' brother-in-law
+RICE_sicily_greek_008 = {
+	name = "Datto"
+	religion = "catholic"
+	culture = lombard
+	father = RICE_sicily_greek_009
+	980.5.2 = { # Year according to Spanish Wikipedia, not sure how reliable
+		birth = yes
+	}
+	1021.6.15 = { # Known, executed by Basil Boioannes
+		death = {
+			death_reason = death_execution
+			killer = 1716 # Basil II, technicaly Basil Boioannes but I put Basil II since the latter doesn't exist in the code
+		}
+	}
+}
+
+# Dattus' fictitous father
+RICE_sicily_greek_009 = {
+	name = "Gacco"
+	religion = "catholic"
+	culture = lombard
+	948.6.12 = { # Unknown
+		birth = yes
+	}
+	1001.1.10 = { # Unknown
+		death = yes
+	}
+}
+
+# Dattus' sister and Melus' wife, Maralda
+RICE_sicily_greek_010 = {
+	name = "Maralda"
+	female=yes
+	religion = "catholic"
+	culture = lombard
+	father = RICE_sicily_greek_009
+	970.3.17 = { # Unknown
+		birth = yes
+	}
+	1031.4.30 = { # Unknown
+		death = yes
+	}
+}
+
+# Argyros of Bari, Melus' son and Byzantine catepan of Italy
+RICE_sicily_greek_011 = {
+	name = "Argyros"
+	dynasty=RICE_dynasty_of_bari_lombard
+	religion = "orthodox"
+	culture = lombard
+	trait = education_martial_2
+	trait = generous 	# Donated to the Abbey of Farfa upon his death
+	trait = fickle 		# Defected to the Byzantines 
+	trait = deceitful 	# Defected to the Byzantines 
+	father = RICE_sicily_greek_007
+	mother = RICE_sicily_greek_010
+	1000.5.28 = { # Rough guesstimate
+		birth = yes
+	}
+	# Have to do this in scripted effect because Abulchares isn't landed yet
+	# 1066.1.1 = {
+	# 	employer = RICE_sicily_greek_001 # Abulchares
+	# }
+	1068.7.29 = { # Rough guesstimate
+		death = yes
+	}
+}
+
+# Barsakios, Byzantine commander defeated by the Aghlabid commander al-Hasan ibn al-Abbas near Taormina in spring 881 and recalled to Constantinople
+# Possibly same as the person of the same name who became Strategos of Longibardia in 894/895
+# Wikipedia says he's of Armenian origin but I can't look at their source since it appears to require some sort of access, so I'll have to take their word for it
+RICE_sicily_greek_012 = {
+	name = "Barsakios"
+	religion = "orthodox"
+	culture = armenian
+	840.4.8 = { # Unknown
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 145190 # Constantine Kontomytes, vanila's ruler of Syracuse in 867
+	}
+	909.9.29 = { # Unknown
+		death = yes
+	}
+}
+
+
+
+###########################################################
+# 
+# Miscellaneous Latin Characters
+# 
+###########################################################
+
+
+# Dacomarius, local elite and fidelis (sworn follower) of the Lombard prince Landulf VI of Benevento
+# Had strong influence over local affairs
+# He and his son Anso tried to make Benevento more independent in the late 1000s after the collapse of the Lombard princes
+RICE_sicily_latin_001 = {
+	name = "Dacomarius"
+	dynasty = dynasty_RICE_dacomarius
+	religion = "catholic"
+	culture = lombard
+	trait = education_stewardship_3
+	trait = ambitious
+	1039.6.1 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 73318 # Landulf VI
+	}
+	1097.1.1 = { # Known year
+		death = yes
+	}
+}
+
+# Dacomarius' son, Anso
+RICE_sicily_latin_002 = {
+	name = "Anso"
+	dynasty = dynasty_RICE_dacomarius
+	religion = "catholic"
+	culture = lombard
+	trait = ambitious
+	father = RICE_sicily_latin_001
+	1071.3.30 = { # Unknown
+		birth = yes
+	}
+	1141.2.9 = { # Unknown
+		death = yes
+	}
+}
+
+# Stephen, a rector who was part of the court of Landulf VI of Benevento with the title of Schuldahis
+RICE_sicily_latin_003 = {
+	name = "Stefano"
+	dynasty = dynasty_RICE_schuldahis
+	religion = "catholic"
+	culture = lombard
+	trait = education_learning_3
+	1036.4.25 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 73318 # Landulf VI
+	}
+	1111.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+# Erchempert, Lombard historian and monk
+RICE_sicily_latin_004 = {
+	name = "Erchempert"
+	religion = "catholic"
+	culture = lombard
+	trait = education_learning_3
+	trait = scholar
+	trait = devoted
+	trait = zealous
+	trait = stubborn
+	trait = diligent
+	838.3.8 = { # Unknown
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 71908 # Ruler of Capua, probably should be someone else
+	}
+	889.8.9 = { # Unknown
+		death = yes
+	}
+}
+
+# Longibardopoulos, Lombard chief who fled to the Byzantines following the Norman conquest and became a general there
+# He later defected to Constantine Bodin, Serian prince leading a Bulgarian revolt against the Byzantines
+# Then he defected back to the Byzantines
+RICE_sicily_latin_005 = {
+	name = "Longibardopoulos"
+	dynasty = dynasty_RICE_lombardus
+	religion = "orthodox"
+	culture = lombard
+	trait = education_martial_3
+	trait = fickle
+	trait = deceitful
+	trait = brave
+	1038.4.3 = { # Unknown
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1066.1.1 = {
+		employer = 1732 # Byzantine Emperor
+	}
+	1095.3.22 = { # Unknown
+		death = yes
+	}
+}
+
+# Amatus of Monte Cassino, 11th century historian and monk from southern Italy
+# Born in Salerno, so I made him Lombard
+# Might have served as bishop of Paestum in the 1050s, before his arrival at the monastery of Monte Cassino
+RICE_sicily_latin_006 = {
+	name = "Amatus"
+	dynasty = dynasty_RICE_monte_cassino
+	religion = "catholic"
+	culture = lombard
+	trait = education_learning_3
+	trait = scholar
+	trait = devoted
+	1011.11.11 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {		
+		set_relation_rival = character:1119 # Gisulf II of Salerno, Amatus treats him very negatively in his work due to possible hostility between the two
+	}
+	1088.3.9 = { # His main chronicle, History of the Normans, was written after 1080
+		death = yes
+	}
+}
+
+# William of Apulia, 11th century poet and chronicler who wrote Gesta Roberti Wiscardi ("The Deeds of Robert Guiscard")
+# His ethnic origins are disputed, but possibly Norman or Lombard
+# Had some familiar with the Greeks, as he was sympathetic to the Byzantines and was familiar with Byzantine language, history, and customs
+# Paul Brown's article, The Gesta Roberti Wiscardi:A‘Byzantine’ history?, suggests William might have been the son of Greek-speaking Lombards, or a mix of ethnicities
+# https://daneshyari.com/article/preview/1160104.pdf
+RICE_sicily_latin_007 = {
+	name = "William"
+	dynasty = dynasty_RICE_apulia
+	religion = "catholic"
+	culture = lombard
+	diplomacy = 7
+	learning = 7
+	trait = education_diplomacy_3
+	trait = lifestyle_poet 
+	trait = humble
+	1042.8.6 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 1128 # Although he might not have been in Robert Guiscard's company yet, I put him here so he doesn't wander off
+		effect = {
+			learn_language = language_greek
+			add_character_modifier = {
+				modifier = RICE_sicily_william_of_apulia_modifier
+			}
+		}		
+	}
+	1111.1.11 = { # He composed the Gesta Roberti Wiscardi sometime around 1097 to 1099
+		death = yes
+	}
+}
+
+# Geoffrey Malaterra, 11th century (possibly Norman) historian and monk
+# Might have arrived in Sicily as part of Duke Roger I's ecclesiastical rebuilding efforts
+# Prior to his arrival in Sicily, he had traveled there from somewhere beyond the Alps
+# So he might not have been Norman per se, but I'm making him Norman for convenience
+RICE_sicily_latin_008 = {
+	name = "Geoffroy"
+	dynasty = dynasty_RICE_malaterra
+	religion = "catholic"
+	culture = norman
+	trait = education_learning_3
+	trait = scholar
+	trait = devoted
+	trait = lifestyle_traveler 
+	trait = diligent
+	1035.7.9 = { # Unknown
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = 1132 # Probably not in Roger Guiscard's employ yet, but I put him here so he doesn't wander off
+		add_trait_xp = {
+			trait = lifestyle_traveler
+			track = travel
+			value = {
+				integer_range = {
+					min = small_lifestyle_random_xp_low
+					max = small_lifestyle_random_xp_high
+				}
+			}
+		}
+	}
+	1105.4.21 = { # His work ends in 1099
+		death = yes
+	}
+}
+
+# Trapelicino, also known as Trapelicinus, Trepedicinus, and Trepelezino
+# Pirate who worked for Pisa before defecting to Genoa, and later worked for the Aragonese and had connections throughout the Christian and Muslim Mediterranean
+# His origins are unknown, but possibly was from Trapani, Sicily
+RICE_sicily_latin_009 = {
+	name = "Trapelicino"
+	dynasty = RICE_Trapelicinus_dynasty
+	religion = "catholic"
+	culture = sicilian
+	stewardship = 6
+	trait = education_martial_3
+	trait = deceitful
+	trait = greedy
+	trait = patient
+	trait = viking
+	trait = reaver
+	1137.9.5 = { # Unknown, but he was active as early as the 1160s
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1160.1.1 = {
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_pirate_mediterranean_connections_modifier
+			}
+		}
+	}
+	1199.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Joachim of Fiore
+# Theologian, abbot, apocalyptic thinker, and founder of the monastic order of San Giovanni in Fiore
+RICE_sicily_latin_010 = {
+	name = "Gioacchino"
+	dynasty = RICE_joachim_of_fiore_dynasty
+	religion = "catholic"
+	culture = sicilian
+	diplomacy = 8
+	trait = education_learning_4
+	trait = devoted
+	trait = pilgrim
+	trait = temperate 	# Preferred to live like a hermit
+	trait = humble
+	trait = gregarious 	# Known for his eloquence and was an effective preacher
+	trait = zealous
+	trait = theologian
+	1135.2.4 = { # Rough year
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 30896 # Hugh II, holder of Catanzaro, the closest place in-game to the Abbey of Corazzo where Joachim was in 1178
+	}
+	1202.3.30 = { # Known
+		death = yes
+	}
+}
+
+# Atto
+# Monk at Monte Cassino and a pupil/assistant of Constantine the African
+RICE_sicily_latin_011 = {
+	name = "Atto"
+	dynasty = RICE_dynasty_atto_of_monte_cassino
+	religion = "catholic"
+	culture = sicilian
+	trait = education_learning_4
+	trait = devoted
+	trait = diligent
+	trait = patient
+	trait = temperate
+	trait = lifestyle_physician
+	1048.1.8 = { # Unknown
+		birth = yes
+	}
+	1066.9.15 = {
+		employer = RICE_sicily_arabic_003
+	}
+	1125.5.20 = { # Unknown
+		death = yes
+	}
+}
+
+
+
+###########################################################
+# 
+# Miscellaneous Jewish Characters
+# 
+###########################################################
+
+# Abu Aaron, Jewish scholar and mystic
+# Who according to Jewish sources was a friend of Sawdan, the last Emir of Bari
+RICE_sicily_jewish_001 = {
+	name = "Aaron"
+	dynasty = RICE_jewish_abu_aaron
+	religion = "rabbinism"
+	culture = bavlim
+	learning = 8
+	trait = education_learning_4
+	trait = lifestyle_mystic
+	trait = lifestyle_traveler
+	825.8.25 = { # Unknown
+		birth = yes
+	}
+	867.1.1 = {
+		employer = 163094
+		effect = {
+			set_relation_friend = {
+				target = character:163094
+				reason = RICE_friend_reason_placeholder
+			}	
+		}
+	}
+	888.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Andreas, Archbishop of Bari who converted to Judaism sometime around 1066 or a little after
+# Died in Egypt
+RICE_sicily_jewish_002 = {
+	name = "Andrea"
+	dynasty = RICE_andreas_of_bari_dynasty
+	religion = "catholic"
+	culture = sicilian
+	learning = 5
+	trait = education_learning_3
+	trait = zealous
+	trait = brave
+	trait = honest
+	trait = patient
+	1030.6.9 = { # Unknown
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1066.1.1 = {
+		religion = rabbinism
+		effect = {
+			learn_language = language_greek
+			learn_language = language_arabic
+			add_character_modifier = {
+				modifier = RICE_sicily_andreas_archbishop_of_bari_modifier
+			}
+		}
+	}
+	1078.11.19 = { # Roughly
+		death = yes
+	}
+}
+
+
+
+
+
+
+

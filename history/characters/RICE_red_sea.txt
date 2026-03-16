@@ -1,0 +1,77 @@
+﻿
+# Eldad ha-Dani, a Jew who claimed to be from the Tribe of Dan in Africa, but was probably more likely from Yemen
+RICE_red_sea_001 = {
+	name = "Eldad"
+	dynasty = RICE_eldad_the_danite_dynasty
+	religion = "rabbinism"
+	culture = "teimani"
+	diplomacy = 6
+	learning = 6
+	trait = education_diplomacy_4
+	trait = gregarious
+	trait = eccentric
+	trait = patient
+	trait = lifestyle_traveler
+	trait = RICE_the_danite
+	father = RICE_red_sea_001a
+	844.8.25 = { # Unknown
+		birth = yes
+		#give_nickname = nick_RICE_ha_dani
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	909.1.1 = { # Unknown
+		death = yes
+	}
+}
+
+# Eldad's father, 
+RICE_red_sea_001a = {
+	name = "dynn_RICE_mahli"
+	dynasty = RICE_eldad_the_danite_dynasty
+	religion = "rabbinism"
+	culture = "teimani"
+	trait = RICE_the_danite
+	808.8.8 = { # Unknown
+		birth = yes
+	}
+	864.8.8 = { # Unknown
+		death = yes
+	}
+}
+
+# Japheth ibn Bundar, a Jewish leader of the Yemenite Jewish community and traders' official in Aden
+# Of Persian origin
+# Appointed Negid
+RICE_red_sea_002 = {
+	name = "dynn_Japheth"
+	dynasty = RICE_bundar_dynasty
+	religion = "rabbinism"
+	culture = "parsim"
+	diplomacy = 6
+	trait = education_stewardship_4
+	trait = RICE_silk_road_merchant
+	father = RICE_red_sea_003
+	1048.3.22 = { # Unknown
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1134.4.3 = { # Unknown, but son was officially confirmed as successor to his father's position in 1140 by the dual commission of the head of the Palestinian yeshiva and the Babylonian exilarch
+		death = yes
+	}
+}
+
+# Japheth's father Bundar
+RICE_red_sea_003 = {
+	name = "Bundar"
+	dynasty = RICE_bundar_dynasty
+	religion = "rabbinism"
+	culture = "parsim"
+	trait = RICE_silk_road_merchant
+	1010.11.2 = { # Unknown
+		birth = yes
+	}
+	1064.3.19 = { # Unknown
+		death = yes
+	}
+}
+

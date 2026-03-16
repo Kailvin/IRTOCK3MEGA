@@ -1,0 +1,1870 @@
+﻿
+
+# RICE_nubia_001 = {
+# 	name = "Moses_Georgios"
+# 	dynasty = 101777
+# 	religion = "coptic"
+# 	culture = "nubian"
+# 	father = 31727
+# 	health = 6 # Ensure he lives a while
+# 	trait = education_martial_3
+# 	trait = diligent
+# 	trait = brave
+# 	trait = stubborn
+# 	1110.1.1 = {
+# 		birth = yes
+# 	}
+# 	1190.1.1 = {
+# 		death = yes
+# 	}
+# }
+
+# # Archbishop Georgios of Dongola and Makuria
+# # Son of King Zakharias V
+# # Important figure in the Nubization cultural shift away from Byzantine art and influences towards more indigenous influences
+# RICE_nubia_002 = {
+# 	name = "Georgios"
+# 	dynasty = RICE_BAP_dynasty_makuria
+# 	religion = "coptic"
+# 	culture = "nubian"
+# 	father = dongola0017 # Africa Plus doesn't have Zakharias V, so I use a different ruler to make him Solomon's uncle
+# 	trait = education_learning_4
+# 	trait = ambitious
+# 	trait = generous
+# 	trait = zealous
+# 	trait = loyal
+# 	trait = scholar
+# 	trait = devoted
+# 	1031.1.13 = {
+# 		birth = yes
+# 		effect = {
+# 			add_character_modifier = {
+# 				modifier = RICE_nubia_archbishop_georgios_modifier
+# 			}
+# 		}
+# 	}
+# 	1113.4.25 = {
+# 		death = yes
+# 	}
+# }
+
+
+######################################################################
+# 
+# Family of Eionñoka/Einnoka, well-attested woman from many documents in Makuria c. late 1100s
+# 
+######################################################################
+
+# Eionñoka appeared to have a large social network
+# She is well-represented in documents recovered from Qasr Ibrim, so she's the focal point of this family
+# And her family had many men who held high office
+RICE_einnoka_001 = {
+	name = "EionN_oka"
+	female = yes
+	dynasty = RICE_dynasty_chael_sonoja
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_diplomacy_3
+	trait = gregarious 	# Extensive social network
+	father = RICE_einnoka_004
+	mother = RICE_einnoka_003
+	1148.4.2 = {
+		birth = yes
+	}
+	1219.3.7 = {
+		death = yes
+	}
+}
+
+# Magosi, Eionnoka's maternal grandparent, unknown if male or female
+RICE_einnoka_002 = {
+	name = "Magosi"
+	dynasty = RICE_dynasty_magosi
+	religion = "coptic"
+	culture = "nubian"
+	1107.3.9 = {
+		birth = yes
+	}
+	1162.6.20 = {
+		death = yes
+	}
+}
+
+# Papisinen, Eionnoka's mother
+RICE_einnoka_003 = {
+	name = "Papisinen"
+	female = yes
+	dynasty = RICE_dynasty_magosi
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_einnoka_002
+	1129.2.12 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		add_spouse = RICE_einnoka_004
+	}
+	1155.1.1 = {
+		add_spouse = RICE_einnoka_006
+	}
+	1175.9.6 = {
+		death = yes
+	}
+}
+
+# Chaêl-Sonoja , Eionnoka's father
+RICE_einnoka_004 = {
+	name = "ChaelsoN_oja"
+	dynasty = RICE_dynasty_chael_sonoja
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_einnoka_002
+	1119.6.19 = {
+		birth = yes
+	}
+	1154.3.12 = {
+		death = yes
+	}
+}
+
+# Second daughter of Chaêl-Sonoja, thus Eionnoka's sister or stepsister
+# Name unknown
+RICE_einnoka_005 = {
+	name = "OuarenO_"
+	female = yes
+	dynasty = RICE_dynasty_chael_sonoja
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_einnoka_004
+	mother = RICE_einnoka_003
+	1159.12.30 = {
+		birth = yes
+	}
+	1202.1.16 = {
+		death = yes
+	}
+}
+
+# Tounnesi, Eionnoka's stepfather
+RICE_einnoka_006 = {
+	name = "Tounnesi"
+	dynasty = RICE_dynasty_tounnesi
+	religion = "coptic"
+	culture = "nubian"
+	1117.4.24 = {
+		birth = yes
+	}
+	1171.12.19 = {
+		death = yes
+	}
+}
+
+# Kapopi, Eionnoka's stepsister or half-sister
+# Sold land to Neusi, daughter of the Eparch Adam in the late 1190s, because she had no heirs
+RICE_einnoka_007 = {
+	name = "Kapopi"
+	female = yes
+	dynasty = RICE_dynasty_tounnesi
+	religion = "coptic"
+	culture = "nubian"
+	trait = infertile
+	trait = chaste
+	father = RICE_einnoka_006
+	mother = RICE_einnoka_003
+	1156.1.10 = {
+		birth = yes
+	}
+	1208.4.25 = {
+		death = yes
+	}
+}
+
+# Mena, Eionnoka's husband
+# Possibly identical with a certain Mena, bishop of Ibrim, mentioned in some documents
+# I'll lean into the above conflation a bit
+RICE_einnoka_008 = {
+	name = "Mena"
+	dynasty = RICE_dynasty_nubian_mena
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	1142.3.11 = {
+		birth = yes
+	}
+	1166.1.1 = {
+		add_spouse = RICE_einnoka_001
+	}
+	1202.3.20 = {
+		death = yes
+	}
+}
+
+# Son of Eionnoka and Mena
+# Became a priest and possibly Bishop of Sai
+# Described as one of "the best men of Ibrim" and in service to the Eparch Adam
+# This means he must have been an adult by the 1180s or 1190s
+RICE_einnoka_009 = {
+	name = "IE_sous"
+	dynasty = RICE_dynasty_nubian_mena
+	religion = "coptic"
+	culture = "nubian"
+	trait = intellect_good_1
+	father = RICE_einnoka_008
+	mother = RICE_einnoka_001
+	1167.2.12 = {
+		birth = yes
+	}
+	1186.1.1 = {
+		add_trait = devoted
+	}
+	1232.6.17 = {
+		death = yes
+	}
+}
+
+# Nonnen
+# Daughter of Eionnoka and Mena
+RICE_einnoka_010 = {
+	name = "Nonnen"
+	female = yes
+	dynasty = RICE_dynasty_nubian_mena
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_einnoka_008
+	mother = RICE_einnoka_001
+	1171.9.10 = {
+		birth = yes
+	}
+	1220.1.13 = {
+		death = yes
+	}
+}
+
+
+
+######################################################################
+# 
+# Family of Maššouda, official in Makuria's administration c. late 1100s
+# 
+######################################################################
+
+# Mashshouda
+# Held titles of choiak-eikšil, Elder, maybe also nešš of Koudketi
+# A Mashshouda from this period in Nobatia is also attested as Domestikos of Tapha
+# Seems to have held an extensive network of social contacts locally
+RICE_mashshouda_001 = {
+	name = "MaS_S_ouda"
+	dynasty = RICE_dynasty_mashshouda
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	trait = gregarious 	# Extensive social network
+	1139.2.7 = {
+		birth = yes
+	}
+	1160.1.1 = {
+		add_spouse = RICE_mashshouda_002
+		# It is uncertain whether Mashshouda was a close friend or a distant relative of Eionñoka's family (see above)
+		# For now, I've made him a close friend of her and her husband
+		effect = {
+			set_relation_friend = { reason = friend_generic_history target = character:RICE_einnoka_001 } # Eionñoka
+			set_relation_friend = { reason = friend_generic_history target = character:RICE_einnoka_008 } # Mena
+		}
+	}
+	1203.4.16 = {
+		death = yes
+	}
+}
+
+# Pampigon, Mashshouda's wife
+RICE_mashshouda_002 = {
+	name = "Pampigon"
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	1142.3.9 = {
+		birth = yes
+	}
+	1213.2.19 = {
+		death = yes
+	}
+}
+
+# Sonoja-Piki, Mashshouda's daughter
+RICE_mashshouda_003 = {
+	name = "Sonoja_Piki"
+	dynasty = RICE_dynasty_mashshouda
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_mashshouda_001
+	mother = RICE_mashshouda_002
+	# She was involved in some land sales and other legal documents from the 1180s and 1190s, so I'm assuming she's an adult by the 1190s
+	1165.2.14 = {
+		birth = yes
+	}
+	1220.6.17 = {
+		death = yes
+	}
+}
+
+######################################################################
+# 
+# Family of Papon, local official in Makuria's administration c. late 1100s
+# 
+######################################################################
+
+# Papon / Papon Ouatta
+# Chief of the King, tot of Ibrim, Great Kis, as well as a priest from Derr and an employee of the chancellery
+# However he had kids, so I won't portray him as a priest per se (?)
+RICE_papon_001 = {
+	name = "Papon_Ouatta"
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	1131.4.19 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		add_spouse = RICE_papon_002
+	}
+	1207.11.26 = {
+		death = yes
+	}
+}
+
+# Papisinen, Papon's wife
+# One source lists Ouata/Ouatta as the wife, another lists Ouatta as part of a double name of Papon
+# I've gone with the former for now
+RICE_papon_002 = {
+	name = "Papisinen"
+	female = yes
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	1127.12.14 = {
+		birth = yes
+	}
+	1199.4.2 = {
+		death = yes
+	}
+}
+
+# David, Papon's son
+# Priest
+RICE_papon_003 = {
+	name = "Dauid"
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	trait = devoted
+	father = RICE_papon_001
+	mother = RICE_papon_002
+	1150.2.14 = {
+		birth = yes
+	}
+	1217.6.18 = {
+		death = yes
+	}
+}
+
+# Iominne, Papon's daughter
+RICE_papon_004 = {
+	name = "Eionmnne"
+	female = yes
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_papon_001
+	mother = RICE_papon_002
+	1153.4.27 = {
+		birth = yes
+	}
+	1209.3.12 = {
+		death = yes
+	}
+}
+
+# Ouattalngal, Papon's son
+RICE_papon_005 = {
+	name = "Ouattalngal"
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_papon_001
+	mother = RICE_papon_002
+	1157.12.2 = {
+		birth = yes
+	}
+	1231.5.19 = {
+		death = yes
+	}
+}
+
+# Šipopi/Shipopi, Papon's daughter (?)
+RICE_papon_006 = {
+	name = "S_popi"
+	female = yes
+	dynasty = RICE_dynasty_papon
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_papon_001
+	mother = RICE_papon_002
+	1162.4.15 = {
+		birth = yes
+	}
+	1231.10.24 = {
+		death = yes
+	}
+}
+
+######################################################################
+# 
+# Family of Chael, "Lord of the Horses" in a legal document dated to 1200 that also included Adam, Eparch of Nobatia
+# 
+######################################################################
+
+# Chael
+# Lord of the Horses
+# May have fulfilled some kind of military role
+RICE_chael_001 = {
+	name = "Chael"
+	dynasty = RICE_dynasty_chael
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_martial_2
+	1157.4.20 = {
+		birth = yes
+	}
+	1210.3.19 = {
+		death = yes
+	}
+}
+
+##############################################################
+# 
+# FICTIONAL ALODIAN/NILOTIC CHARACTERS
+# 
+##############################################################
+
+# Tagali and Sennar, 867
+RICE_nilotic_sennar_001 = {
+	name = "PI_u"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	841.10.2 = {
+		birth = yes
+	}
+	897.9.14 = {
+		death = yes
+	}
+}
+
+# Tagali and Sennar, 1066
+RICE_nilotic_sennar_002 = {
+	name = "MakuEi"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1037.6.12 = {
+		birth = yes
+	}
+	1103.7.26 = {
+		death = yes
+	}
+}
+
+# Tagali and Sennar, 1178
+RICE_nilotic_sennar_003 = {
+	name = "Tho_n"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1139.12.14 = {
+		birth = yes
+	}
+	1207.10.3 = {
+		death = yes
+	}
+}
+
+# Gezira and Eleila, 867
+RICE_nilotic_gezira_001 = {
+	name = "Monyyak"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	833.7.2 = {
+		birth = yes
+	}
+	894.12.7 = {
+		death = yes
+	}
+}
+
+# Gezira and Eleila, 1066
+RICE_nilotic_gezira_002 = {
+	name = "MonypiNG_"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1029.12.16 = {
+		birth = yes
+	}
+	1089.6.5 = {
+		death = yes
+	}
+}
+
+# Gezira and Eleila, 1178
+RICE_nilotic_gezira_003 = {
+	name = "AkOO_OO_n"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1151.4.7 = {
+		birth = yes
+	}
+	1241.7.2 = {
+		death = yes
+	}
+}
+
+# Gumuz and Fazughli, 867
+RICE_nilotic_fazughli_001 = {
+	name = "KU_r"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	845.11.19 = {
+		birth = yes
+	}
+	920.1.15 = {
+		death = yes
+	}
+}
+
+# Gumuz and Fazughli, 1066
+RICE_nilotic_fazughli_002 = {
+	name = "Makuac"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1043.9.17 = {
+		birth = yes
+	}
+	1109.8.7 = {
+		death = yes
+	}
+}
+
+# Gumuz and Fazughli, 1178
+RICE_nilotic_fazughli_003 = {
+	name = "GareNG_"
+	religion = "dinka_pagan"
+	culture = "dinka"
+	1148.12.26 = {
+		birth = yes
+	}
+	1230.1.31 = {
+		death = yes
+	}
+}
+
+
+
+##############################################################
+# 
+# DOMESTIKOS OF FARAS IN THE 1100s
+# 
+##############################################################
+
+##############################################################
+# 
+# OTHER ASSOCIATES OF EPARCH ADAM c. late 1100s
+# 
+##############################################################
+
+# Sirephi or Shirephi, Domestikos of Faras, in this document here: https://www.medievalnubia.info/dev/index.php/P.QI.3.34
+# Also see here: https://dbmnt.uw.edu.pl/texts/582/
+# He was thus a witness to a land sale to Eionnoka (spelled Iongoka alternatively) dated to c. 1155-1180
+# Interestingly, another Shirephi is attested as a mid-ranking official on August 22, 1155
+# in one of the earliest documents during Moses Georgios' reign, a royal proclamation of a Church.
+# This is my own personal speculation, but they could feasibly be the same person since they have the same name.
+# Eparch Adam is listed as Domestikos of Faras in 16 August 1200 in another document
+# This suggests to me Sirephi either was dead or no longer was in that position by then
+# This name is also the Nubian spelling of the Arabic name Sharaf; because of this, I'll make him Egyptian for funsies
+# There were Coptic and Muslim Egyptians active in Nubia, even as courtiers of the king, so this isn't implausble at all
+# Though I should note there appears to be Christian Nubians who sometimes had Arabic names, too, during this period
+RICE_nubia_eparch_coworkers_001 = {
+	name = "Sharaf" # Sirephi/Shirephi
+	dynasty = RICE_dynasty_nubian_sharaf
+	religion = "coptic"
+	culture = "egyptian"
+	1131.12.16 = {
+		birth = yes
+	}
+	1155.1.1 = {
+		add_spouse = RICE_nubia_eparch_coworkers_001a
+	}
+	1195.3.27 = {
+		death = yes
+	}
+}
+
+# Sharaf/Sirephi/Shirephi's fictitious Nubian wife
+# So that he has a bit of a family despite his age
+RICE_nubia_eparch_coworkers_001a = {
+	name = "Egaloskoura"
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	1137.1.7 = {
+		birth = yes
+	}
+	1206.4.23 = {
+		death = yes
+	}
+}
+
+# Sharaf/Sirephi/Shirephi's fictitious Nubian child
+# So that he has a bit of a family despite his age
+RICE_nubia_eparch_coworkers_001b = {
+	name = "Ioseph"
+	dynasty = RICE_dynasty_nubian_sharaf
+	religion = "coptic"
+	culture = "egyptian"
+	father = RICE_nubia_eparch_coworkers_001
+	mother = RICE_nubia_eparch_coworkers_001a
+	1155.10.16 = {
+		birth = yes
+	}
+	1239.6.1 = {
+		death = yes
+	}
+}
+
+# Sharaf/Sirephi/Shirephi's fictitious Nubian child
+# So that he has a bit of a family despite his age
+RICE_nubia_eparch_coworkers_001c = {
+	name = "Mariam"
+	female = yes
+	dynasty = RICE_dynasty_nubian_sharaf
+	religion = "coptic"
+	culture = "egyptian"
+	father = RICE_nubia_eparch_coworkers_001
+	mother = RICE_nubia_eparch_coworkers_001a
+	1161.11.30 = {
+		birth = yes
+	}
+	1238.10.19 = {
+		death = yes
+	}
+}
+
+# Minnel, vice-eparch on a land sale documents dating to exactly December 30, 1199 and August 16, 1200
+# Minnel was also possibly Gous of Arminna at some point (or that's someone with his name)
+RICE_nubia_eparch_coworkers_002 = {
+	name = "Minnel"
+	dynasty = RICE_dynasty_minnel
+	religion = "coptic"
+	culture = "nubian"
+	1149.2.6 = {
+		birth = yes
+	}
+	1213.9.22 = {
+		death = yes
+	}
+}
+
+# Teeita or Teita, mentioned as domestikos elect in the same document as Sirephi, as well as the document Minnel was on vice-eparch on December 30, 1199
+# He was also the "Tot"/Chief of Arminna
+# There is an archaeological site called Arminna West very close to the famous Abu Simbel
+# It's thus in Lower Nubia which would make sense with Teita being an important official there
+# But I don't know if this corresponds to the actual Arminna mentioned here
+# There isn't enough space in Nobatia, so I had to make him an official in Sai
+RICE_nubia_eparch_coworkers_003 = {
+	name = "Teita"
+	dynasty = RICE_dynasty_teita
+	religion = "coptic"
+	culture = "nubian"
+	1142.10.4 = {
+		birth = yes
+	}
+	1220.5.9 = {
+		death = yes
+	}
+}
+
+# Eidisil, the "Great Priest" who was scribe of the Eparchos in a document from the 1190s
+RICE_nubia_eparch_coworkers_004 = {
+	name = "Eidisil"
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	trait = devoted
+	1134.2.20 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1207.9.30 = {
+		death = yes
+	}
+}
+
+
+# Loukasi (i.e. Loukas/Luke), Gous of Tharmousi
+# Probably some kind of scribal official
+# Attested in various documents in the late 1100s
+RICE_nubia_eparch_coworkers_005 = {
+	name = "Loukas"
+	dynasty = RICE_dynasty_loukasi_tharmousi
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	1149.2.6 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1221.8.7 = {
+		death = yes
+	}
+}
+
+# Staurosa or Istarosa (?), mid-ranking official mentioned in documents with Adam the Eparch in the 1190s
+RICE_nubia_eparch_coworkers_006 = {
+	name = "Staurosa"
+	religion = "coptic"
+	culture = "nubian"
+	1160.1.4 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1235.11.19 = {
+		death = yes
+	}
+}
+
+# Perse of Persel, mid-ranking official mentioned in documents with Adam the Eparch in the 1190s
+RICE_nubia_eparch_coworkers_007 = {
+	name = "Perse"
+	religion = "coptic"
+	culture = "nubian"
+	1154.2.9 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1223.10.3 = {
+		death = yes
+	}
+}
+
+# Ionkouda, mid-ranking official mentioned in documents with Adam the Eparch in the 1190s
+# RICE_nubia_eparch_coworkers_008 = {
+# 	name = "Ionkouda"
+# 	religion = "coptic"
+# 	culture = "nubian"
+# 	1149.3.20 = {
+# 		birth = yes
+# 	}
+# 	1178.1.1 = {
+# 		employer = nobadia0018 # Eparch Adam
+# 	}
+# 	1231.3.19 = {
+# 		death = yes
+# 	}
+# }
+
+# Iodisil, low-ranking official/mid-ranking clergyman mentioned in documents with Adam the Eparch in the 1190s
+RICE_nubia_eparch_coworkers_009 = {
+	name = "Iodisil"
+	religion = "coptic"
+	culture = "nubian"
+	trait = devoted
+	1131.2.19 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1214.10.8 = {
+		death = yes
+	}
+}
+
+# Dollisil, high-ranking official mentioned in documents with Adam the Eparch in the 1190s
+# Tricliniaris of the Eparch of Nobatia
+RICE_nubia_eparch_coworkers_010 = {
+	name = "Dollisil"
+	religion = "coptic"
+	culture = "nubian"
+	1155.12.8 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1249.3.1 = {
+		death = yes
+	}
+}
+
+# Dollai, Ness of the Domestikos of Faras, attested 1190-1200
+RICE_nubia_eparch_coworkers_011 = {
+	name = "Dollai"
+	religion = "coptic"
+	culture = "nubian"
+	1153.2.6 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam # Should be RICE_nubia_eparch_coworkers_001, Domestikos of Faras
+	}
+	1221.4.11 = {
+		death = yes
+	}
+}
+
+# Aron/Aaron, possibly bishop of Faras around 1178
+# I couldn't find any information on a contemporary Bishop of Faras/Pakhoras who would've been higher ranking
+# There is a certain Bishop "Tamer" mentioned in Wikipedia and a couple sources online
+# But this source here says newer research by van der Vliet suggests "deleting this bishop": https://www.medievalnubia.info/dev/index.php/Bishoprics
+# So a bishop named "Tamer" might not have existed then
+# However, that same source mentions possibly an Aron (i.e. Aaron) existing sometime after c. 1175
+# I cannot find anyone that corresponds to that
+RICE_nubia_eparch_coworkers_012 = {
+	name = "Aaron"
+	religion = "coptic"
+	culture = "nubian"
+	trait = devoted
+	mother = RICE_nubia_eparch_coworkers_012a
+	1140.6.2 = {
+		birth = yes
+		effect = { add_character_flag = do_not_generate_starting_family }
+	}
+	1217.8.12 = {
+		death = yes
+	}
+}
+
+# Doulista was the mother of a bishop who died in 1183
+# She may have been the mother of the Bishop of Faras
+RICE_nubia_eparch_coworkers_012a = {
+	name = "Doulista"
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	1118.2.14 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam # Should be RICE_nubia_eparch_coworkers_012, Bishop of Faras
+	}
+	1183.9.14 = {
+		death = yes
+	}
+}
+
+
+# Ramil , high-ranking Makurian official who held the title of "Tricliniaris"
+# Attested in documents in Qasr Ibrim, including one dated to 30 July 1187
+# See here for more info: https://dbmnt.uw.edu.pl/people/600788/
+RICE_nubia_eparch_coworkers_013 = {
+	name = "Ramil"
+	dynasty = RICE_dynasty_ramil_nubian
+	religion = "coptic"
+	culture = "nubian"
+	1149.4.3 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1214.8.12 = {
+		death = yes
+	}
+}
+
+# Ionkouda, high-ranking Makurian official with the title of "Ngeshsh" in Nobatia
+# Attested in documents in Qasr Ibrim, including one dated to 30 July 1187
+# See here for more info: https://dbmnt.uw.edu.pl/people/600788/
+RICE_nubia_eparch_coworkers_014 = {
+	name = "Eionkouda"
+	dynasty = RICE_dynasty_ionkouda_nubian
+	religion = "coptic"
+	culture = "nubian"
+	1137.11.19 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1208.6.30 = {
+		death = yes
+	}
+}
+
+
+##############################################################
+# 
+# "Thel() of Kaktine" - a title attested in a couple places
+# Thel was a title that might have been related to tax collection 
+# 
+##############################################################
+
+
+# Dauti aka Dauid
+# Thel of Kaktine attested in the mid 1100s under eparchs like Mase
+# For simplicity, I'm making him Tapara's father
+RICE_nubia_thel_of_kaktine_01 = {
+	name = "Dauid"
+	dynasty = RICE_dynasty_kaktine
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	1118.1.9 = {
+		birth = yes
+	}
+	1144.1.1 = {
+		add_spouse = RICE_nubia_thel_of_kaktine_01a
+	}
+	1172.3.19 = {
+		death = yes
+	}
+}
+
+# Dauti's fictitious wife
+RICE_nubia_thel_of_kaktine_01a = {
+	name = "IE_sousyko"
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	1124.7.3 = {
+		birth = yes
+	}
+	1177.11.12 = {
+		death = yes
+	}
+}
+
+# Tapara, the Meizoterus/Meizoteros of Ibrim
+# meizoteros / daukatt of Silmi (= Ibrim)
+# Attested in documents in the 1190s
+# He was Meizoteros, meaning some kind of high-ranking official
+# Another "Tapara" is attested as the thel( ) of Kaktine in a document that comes from somewhere in the 1150s-1180s
+# A Tapara, thel() of Kaktine is also in a document listing Eparch Gabrielinkouda who was active in the early 1200s (?)
+# While they are not necessarily the same person, I'm going to assume they are for now
+RICE_nubia_thel_of_kaktine_02 = {
+	name = "Tapara"
+	dynasty = RICE_dynasty_kaktine
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	father = RICE_nubia_thel_of_kaktine_01
+	mother = RICE_nubia_thel_of_kaktine_01a
+	1152.12.10 = {
+		birth = yes
+	}
+	# 1178.1.1 = {
+	# 	employer = nobadia0018 # Eparch Adam
+	# }
+	1224.3.9 = {
+		death = yes
+	}
+}
+
+# Dauti's ficitious daughter
+RICE_nubia_thel_of_kaktine_02a = {
+	name = "Hellene"
+	female = yes
+	dynasty = RICE_dynasty_kaktine
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_nubia_thel_of_kaktine_01
+	mother = RICE_nubia_thel_of_kaktine_01a
+	1159.3.31 = {
+		birth = yes
+	}
+	1219.4.27 = {
+		death = yes
+	}
+}
+
+##############################################################
+# 
+# Lami ibn Hasan al-Kanzi and people associated with him
+# He seems to be part of the Banu Kanz
+# 
+##############################################################
+
+
+# Lami ibn Hasan al-Kanzi
+# Muslim landowner and courtier to the King of Nubia, but also in service to the Kanz al-Dawla/Muslim governor of Aswan attested c. 1169
+RICE_lami_al_kanzi_001 = {
+	name = "Lami"
+	dynasty_house = RICE_house_al_kanzi
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_stewardship_3
+	father = RICE_lami_al_kanzi_003
+	1142.1.9 = {
+		birth = yes
+	}
+	1164.1.1 = {
+		add_spouse = RICE_lami_al_kanzi_005
+	}
+	1169.1.1 = {
+		set_relation_rival = { reason = rival_generic_history target = character:RICE_hisn_al_asqalani_001 }
+	}
+	1221.2.21 = {
+		death = yes
+	}
+}
+
+# Husayn ibn Hasan al-Kanzi
+# Lami's brother, who corresponded with the Nubian eparch Uruwi in some capacity
+# This seems to indicate to me he also had some sort of official role too
+RICE_lami_al_kanzi_002 = {
+	name = "Husayn"
+	dynasty_house = RICE_house_al_kanzi
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_diplomacy_3
+	father = RICE_lami_al_kanzi_003
+	1146.3.17 = {
+		birth = yes
+	}
+	1221.2.21 = {
+		death = yes
+	}
+}
+
+# Hasan al-Kanzi
+# Father of Husayn and Lami
+RICE_lami_al_kanzi_003 = {
+	name = "Hasan"
+	dynasty_house = RICE_house_al_kanzi
+	religion = "ashari"
+	culture = "egyptian"
+	1107.2.14 = {
+		birth = yes
+	}
+	1161.9.17 = {
+		death = yes
+	}
+}
+
+# Mansur, son of Lami ibn Hasan
+RICE_lami_al_kanzi_004 = {
+	name = "Mansur"
+	dynasty_house = RICE_house_al_kanzi
+	religion = "ashari"
+	culture = "egyptian"
+	father = RICE_lami_al_kanzi_001
+	mother = RICE_lami_al_kanzi_005
+	1166.10.10 = {
+		birth = yes
+	}
+	1239.5.30 = {
+		death = yes
+	}
+}
+
+# Fictitious wife of Lami ibn Hasan al-Kanzi
+RICE_lami_al_kanzi_005 = {
+	name = "Mariam"
+	female = yes
+	religion = "ashari"
+	culture = "egyptian"
+	1144.6.8 = {
+		birth = yes
+	}
+	1219.8.2 = {
+		death = yes
+	}
+}
+
+##############################################################
+# 
+# Ḥiṣn al-Dawla ibn al-ʿAsqalānī
+# 
+##############################################################
+
+# Hisn al-Dawla
+# Rival of Lami at the court of the Nubian king
+RICE_hisn_al_asqalani_001 = {
+	name = "Hisn_al_dawla"
+	dynasty = RICE_dynasty_al_asqalani
+	religion = "ashari"
+	culture = "egyptian"
+	trait = education_stewardship_3
+	father = RICE_hisn_al_asqalani_002
+	1145.3.6 = {
+		birth = yes
+	}
+	1210.3.14 = {
+		death = yes
+	}
+}
+
+# Hisn al-Dawla's father
+RICE_hisn_al_asqalani_002 = {
+	name = "al_asqalani"
+	dynasty = RICE_dynasty_al_asqalani
+	religion = "ashari"
+	culture = "egyptian"
+	1103.9.2 = {
+		birth = yes
+	}
+	1166.5.5 = {
+		death = yes
+	}
+}
+
+
+
+######################################################################
+# 
+# Family of Maššouda, official in Makuria's administration c. late 1100s
+# 
+######################################################################
+
+
+######################################################################
+# 
+# Family of Douddil, high-ranking official Makuria's administration c. late 1100s
+# 
+######################################################################
+
+
+# Douddil
+# Official attested in several documents from c. 1155 - 1200
+# Held several titles, including Architriklinios (so it appears to be different than the triklinios commonly attested elsewhere)
+# Interestingly, per the academia.edu article linked below, of the 7 times the title Architriklinios is attested
+# 5 of those times are of Douddil; so, this could reflect Douddil's high status rather than the title itself being important
+# DBMNT page: https://www.dbmnt.uw.edu.pl/people/600176/
+# https://www.academia.edu/38395753/Kimeliarches_treasurer_A_so_far_unidentified_office_in_the_Kingdom_of_Makuria_with_notes_on_several_other_offices_and_titles_
+RICE_douddil_001 = {
+	name = "Douddil"
+	dynasty = RICE_dynasty_douddil_nubian
+	religion = "coptic"
+	culture = "nubian"
+	mother = RICE_douddil_002
+	1149.4.22 = {
+		birth = yes
+	}
+	1219.3.15 = {
+		death = yes
+	}
+}
+
+# Argate
+# Douddil's mother, mentioned in some documents
+# DBMNT page: https://www.dbmnt.uw.edu.pl/people/601396/
+RICE_douddil_002 = {
+	name = "Argate"
+	dynasty = RICE_dynasty_douddil_nubian
+	female = yes
+	religion = "coptic"
+	culture = "nubian"
+	1126.7.30 = {
+		birth = yes
+	}
+	1192.3.3 = {
+		death = yes
+	}
+}
+
+
+######################################################################
+# 
+# Family of Adam and Fulco Niger, minor landowners attested in Jerusalem/Crusader States in 1163
+# 
+######################################################################
+
+# Robert Niger
+# Attested in records in 1145 and the 1170s
+# Although he is not necessarily connected to Adam and Fulco, I need a parent for the brothers to be connected
+# And I figured it's better to have a real person who could've been related than not
+RICE_adam_niger_001 = {
+	name = "Robert"
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	1102.4.9 = {
+		birth = yes
+	}
+	1175.6.3 = {
+		death = yes
+	}
+}
+
+# Fulco Niger, brother of Adam Niger
+# Donated land to the Knights Hospitallers in 1163 near the Church of Saint Stephen by the hospital of Jerusalem
+# Attested 9 times with his brother between c. 1151 and 1171, and separately in 1159 and 1167
+RICE_adam_niger_002 = {
+	name = "Fouques" # Fulco
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	father = RICE_adam_niger_001
+	1139.2.17 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1223.8.14 = {
+		death = yes
+	}
+}
+
+# Adam Niger, brother of Fulco Niger
+# Attested 9 times with his brother between c. 1151 and 1171, and separately in 1159 and 1167
+# Donated land to the Knights Hospitallers in 1163 near the Church of Saint Stephen by the hospital of Jerusalem
+RICE_adam_niger_003 = {
+	name = "Adam"
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	trait = generous
+	father = RICE_adam_niger_001
+	1121.9.5 = {
+		birth = yes
+	}
+	1141.1.1 = {
+		add_spouse = RICE_adam_niger_004
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1209.3.2 = {
+		death = yes
+	}
+}
+
+# Adam Niger's wife, Osmunda
+RICE_adam_niger_004 = {
+	name = "Osmunda"
+	female = yes
+	religion = "catholic"
+	culture = "english"
+	1121.4.19 = {
+		birth = yes
+	}
+	1204.7.13 = {
+		death = yes
+	}
+}
+
+# Adam and Osmunda's son, Bertinus
+# Attested in the land sale document in 1163 as a witness
+RICE_adam_niger_005 = {
+	name = "Bertin"
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	father = RICE_adam_niger_003
+	mother = RICE_adam_niger_004
+	1142.1.6 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1225.5.16 = {
+		death = yes
+	}
+}
+
+# Adam and Osmunda's daughter, Maholdis
+# Attested in the land sale document in 1163 as a witness
+RICE_adam_niger_006 = {
+	name = "Maholdis"
+	female = yes
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	father = RICE_adam_niger_003
+	mother = RICE_adam_niger_004
+	1144.5.2 = {
+		birth = yes
+	}
+	1163.1.1 = {
+		add_spouse = RICE_adam_niger_008
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1231.7.8 = {
+		death = yes
+	}
+}
+
+# Adam and Osmunda's son, Robertus
+# Attested in the land sale document in 1163 as a witness
+RICE_adam_niger_007 = {
+	name = "Robert"
+	dynasty = RICE_dynasty_adam_niger
+	religion = "catholic"
+	culture = "nubian"
+	father = RICE_adam_niger_003
+	mother = RICE_adam_niger_004
+	1146.3.9 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1220.11.24 = {
+		death = yes
+	}
+}
+
+# Adam and Osmunda's son-in-law Stephen, married to Maholdis
+# Attested in the land sale document in 1163 as a witness
+RICE_adam_niger_008 = {
+	name = "Stephen"
+	dynasty = RICE_dynasty_stephen_jerusalem
+	religion = "catholic"
+	culture = "french"
+	1139.11.2 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 223523 # King Baldwin III of Jerusalem
+	}
+	1217.9.20 = {
+		death = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+##############################################################
+# 
+# MISCELLANEOUS NUBIAN CHARACTERS
+# 
+##############################################################
+
+# Merki, Nubian high official attested in the 9th century
+# Involved as an agricultural official at some point in his career, later a member of the king's entourage
+# Died at the age of 64, though year unknown
+RICE_nubia_misc_001 = {
+	name = "Merki"
+	dynasty = RICE_dynasty_merki
+	religion = "coptic"
+	culture = "nubian"
+	stewardship = 5
+	learning = 5
+	trait = education_stewardship_3 # Agricultural official
+	831.8.2 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_merki_modifier
+			}
+		}
+	}
+	895.11.5 = {
+		death = yes
+	}
+}
+
+# Mariankuda, tetrarch of Makuria so probably a very high ranking Makurian official
+RICE_nubia_misc_002 = {
+	name = "Mariankuda"
+	dynasty = RICE_dynasty_mariankuda
+	religion = "coptic"
+	culture = "nubian"
+	824.4.16 = {
+		birth = yes
+		effect = {
+			add_character_modifier = {
+				modifier = RICE_nubia_mariankuda_modifier
+			}
+		}
+	}
+	887.8.8 = { # Known death in 887
+		death = yes
+	}
+}
+
+# Kapopi
+# Woman who sold land she inherited to Neuesi, daughter of Adam(a) the Eparch of Nobadia
+# Attested as late as 1199
+# RICE_nubia_misc_003 = {
+# 	name = "Kapopi"
+# 	female = yes
+# 	dynasty = RICE_dynasty_kapopi
+# 	religion = "coptic"
+# 	culture = "nubian"
+# 	trait = chaste # Had no heirs
+# 	trait = infertile # Had no heirs
+# 	1141.3.9 = {
+# 		birth = yes
+# 		effect = { add_character_flag = do_not_generate_starting_family }
+# 	}
+# 	1219.3.6 = {
+# 		death = yes
+# 	}
+# }
+
+# Abu al-Makarim
+# Coptic monk and important source on the monasteries of Egypt and Nubia during his era
+RICE_nubia_misc_004 = {
+	name = "Abu_al-Makarim"
+	religion = "coptic"
+	culture = "egyptian"
+	trait = education_learning_4
+	trait = scholar
+	trait = devoted
+	1149.9.3 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = 161497 #Markos III
+	}
+	1209.4.27 = { # Different language wikipedias give different dates for his birth and death
+		death = yes
+	}
+}
+
+# Ogijino
+# Visitor to the Cathedral of Faras who left an inscription sometime around the 13th century
+RICE_nubia_misc_005 = {
+	name = "Ogijino"
+	dynasty = RICE_dynasty_ogijino
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_2
+	trait = lifestyle_traveler
+	trait = zealous
+	1160.1.17 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = dongola0022 # King Moses Georgios
+	}
+	1248.5.14 = {
+		death = yes
+	}
+}
+
+
+# Mena is attested as a *vice-eparch* or an anteparch, poossibly c. 1050-1099 who *may* have become Eparch
+# Main text is a letter from the Eparch to him, in Gebel Adda, with instructions to catch the slaves of a certain Teniellasi
+# For now, I'll just place him as a count under the Eparch of Nobatia
+# While it is plausible that he could be eparch, I decided to leave him here since the Eparch family tree has enough going on
+# See here for info: https://dbmnt.uw.edu.pl/people/600637/
+# See also here: https://www.academia.edu/7901228/A_survey_of_Christian_textual_finds_from_Gebel_Adda_kept_in_the_Royal_Ontario_Museum_in_Toronto_in_J_R_Anderson_D_A_Welsby_eds_The_Fourth_Cataract_and_Beyond_Proceedings_of_the_12th_International_Conference_for_Nubian_Studies_Leuven_2014_pp_951_959
+RICE_nubia_misc_006 = {
+	name = "Mena"
+	dynasty = RICE_dynasty_mena_gebel_adda
+	religion = "coptic"
+	culture = "nubian"
+	1041.3.11 = {
+		birth = "1041.3.11"
+	}
+	1093.1.1 = {
+		death = "1093.1.1"
+	}
+}
+
+
+# Teniellasi is some dude attested c. 1050-1092 who lost his fugitive slaves, and is associated with Eparch Marianou somehow
+# Angelosinkouda composed a letter on behalf of the Eparch to Vice-Eparch/Anteparch Mena with instructions to catch the slaves
+# For now, I'll just place him as a count under the Eparch of Nobatia
+# See here for info: https://dbmnt.uw.edu.pl/people/601538/
+# See also here: https://www.academia.edu/7901228/A_survey_of_Christian_textual_finds_from_Gebel_Adda_kept_in_the_Royal_Ontario_Museum_in_Toronto_in_J_R_Anderson_D_A_Welsby_eds_The_Fourth_Cataract_and_Beyond_Proceedings_of_the_12th_International_Conference_for_Nubian_Studies_Leuven_2014_pp_951_959
+RICE_nubia_misc_007 = {
+	name = "Teniellasi"
+	dynasty = RICE_dynasty_teniellasi
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_intrigue_1 # Since he lost his slaves, I'm just doing this for funsies to portray him for losing his slaves
+	1031.1.17 = {
+		birth = "1031.1.17"
+	}
+	1066.1.1 = {
+		employer = nobadia0012 # Eparch
+	}
+	1090.1.1 = {
+		death = "1090.1.1"
+	}
+}
+
+
+# Angelosinkouda is an Archnotarios (perhaps some kind of high-ranking scribal official) attested c. 1050-1092 and working under Eparch Marianou
+# He composed a letter on behalf of the Eparch to Vice-Eparch/Anteparch Mena with instructions to catch the slaves of a certain Teniellasi
+# For now, I'll just place him as a courtier under the Eparch of Nobatia
+# See here for info: https://dbmnt.uw.edu.pl/people/602510/
+# See also here: https://www.academia.edu/7901228/A_survey_of_Christian_textual_finds_from_Gebel_Adda_kept_in_the_Royal_Ontario_Museum_in_Toronto_in_J_R_Anderson_D_A_Welsby_eds_The_Fourth_Cataract_and_Beyond_Proceedings_of_the_12th_International_Conference_for_Nubian_Studies_Leuven_2014_pp_951_959
+RICE_nubia_misc_008 = {
+	name = "Angelosinkouda"
+	dynasty = RICE_dynasty_angelosinkouda_archnotarios
+	religion = "coptic"
+	culture = "nubian"
+	learning = 7
+	trait = education_diplomacy_3
+	1037.6.10 = {
+		birth = "1037.6.10"
+	}
+	1066.1.1 = {
+		employer = nobadia0012 # Eparch
+	}
+	1102.1.1 = {
+		death = "1102.1.1"
+	}
+}
+
+
+# Petros who is identified as some high-ranking official in Makuria and son of an unnamed Meizoteros of Domestikos (or Meizoteros *and* Domestikos)
+# Attested between Sept 29, 1071 and August 27, 1072
+# Held the title of Eparch, maybe, but I can't find if he was the Eparch of Nobatia
+# Therefore, I'm assuming he is the Eparch of another place
+# See here for info: https://dbmnt.uw.edu.pl/texts/609/
+# https://dbmnt.uw.edu.pl/people/603145/
+RICE_nubia_misc_009 = {
+	name = "Petros"
+	dynasty = RICE_dynasty_petros_1066
+	religion = "coptic"
+	culture = "nubian"
+	1040.12.5 = {
+		birth = "1040.12.5"
+	}
+	1127.1.1 = {
+		death = "1127.1.1"
+	}
+}
+
+# Georgios, Bishop of Pachoras/Faras
+# Attested in his epitaph with his death of August 14, 1097
+# And in an inscription with his representation in Faras Cathedral (?) from c. 1062-1067
+RICE_nubia_misc_010 = {
+	name = "Georgios"
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	trait = devoted
+	1021.3.8 = {
+		birth = "1021.3.8"
+	}
+	1097.8.14 = {
+		death = "1097.8.14"
+	}
+}
+
+# Raphaelanya (ⲣⲁⲫⲁⲏⲗⲁⳡⲁ)
+# Person attested in a document from Qasr Ibrim dating to around 29 September 1071–27 August 1072
+# I couldn't find any other info about them; even their gender is uncertain, but is believed to be probably male
+RICE_nubia_misc_011 = {
+	name = "Raphaelanya"
+	religion = "coptic"
+	culture = "nubian"
+	1039.11.8 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = nobadia0012 # Eparch
+	}
+	1109.7.20 = {
+		death = yes
+	}
+}
+
+
+# Staurophoros
+# meizon, nauarches of Nobades, naukrates of the Seven Lands
+# Some kind of high-ranking military/civil official in Nobatia who was a patron of a church
+# Attested through his epitaph dated to December 4, 1069: https://dbmnt.uw.edu.pl/people/602966/
+RICE_nubia_misc_012 = {
+	name = "Staurophoros"
+	dynasty = RICE_dynasty_nubia_staurophoros
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_martial_3
+	trait = forder # To represent him possibly being some kind of naval commander
+	# Hypothetical based on him being a patron of a church and a military commander, possibly naval/navy related
+	trait = generous
+	1015.3.12 = {
+		birth = yes
+	}
+	# 1066.1.1 = {
+	# 	employer = nobadia0012 # Eparch
+	# }
+	1069.12.4 = {
+		death = yes
+	}
+}
+
+# Mashshouda Isminna
+# Attested through his son's epitaph from Meinarti in Nobatia, dated to May 1, 1084: 
+# His son, whose name is not known, held the title of choiakishshil, which was some kind of high-ranking Makurian official title
+RICE_nubia_misc_013 = {
+	name = "Mashshouda_Isminna"
+	dynasty = RICE_dynasty_mashshouda_isminna
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	998.1.20 = {
+		birth = yes
+	}
+	1065.11.13 = {
+		death = yes
+	}
+}
+
+# Son of Mashshouda Isminna, held the title of choiakishshil
+# Since his name is unknown, I just made something up
+# choiakishshil might have something related to Choiak celebrations
+RICE_nubia_misc_014 = {
+	name = "HE_lias"
+	dynasty = RICE_dynasty_mashshouda_isminna
+	religion = "coptic"
+	culture = "nubian"
+	father = RICE_nubia_misc_013
+	1036.3.31 = {
+		birth = yes
+	}
+	1084.5.1 = {
+		death = yes
+	}
+}
+
+# Kosma, Makurian official in Nobatia
+# Attested in epitaph dated to May 21, 1093
+# Held the title of Sene of Talmis (Kalabsha), however it appears we have few records of that title elsewhere
+# Thus it is hard to gauge what his responsibilities might have been or how high-ranking he was
+RICE_nubia_misc_015 = {
+	name = "Kosmas"
+	dynasty = RICE_dynasty_sene_of_talmis
+	religion = "coptic"
+	culture = "nubian"
+	1039.12.3 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = nobadia0012 # Eparch
+	}
+	1093.5.21 = {
+		death = yes
+	}
+}
+
+# Kyros
+# Bishop of Pachoras/Faras attested in the 860s/870s, died in 902
+RICE_nubia_misc_016 = {
+	name = "Kyros"
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_3
+	trait = devoted
+	830.8.6 = {
+		birth = yes
+		effect = { 
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	902.4.15 = {
+		death = yes
+	}
+}
+
+# Paulos
+# Attested from his epitaph that dates to sometime in the 9th century
+# Held the title of Meizoteros
+RICE_nubia_misc_017 = {
+	name = "Paulos"
+	dynasty = RICE_dynasty_sene_of_talmis_2
+	religion = "coptic"
+	culture = "nubian"
+	836.5.2 = {
+		birth = yes
+	}
+	897.1.14 = {
+		death = yes
+	}
+}
+
+# Peishate
+# Some kind of high-ranking (?) official attested in a 9th century land sale document: https://dbmnt.uw.edu.pl/people/103401/
+# During the reign of Ioannes, so earlier in the 9th century
+RICE_nubia_misc_018 = {
+	name = "Peishate"
+	religion = "coptic"
+	culture = "nubian"
+	811.4.2 = {
+		birth = yes
+	}
+	867.1.1 = {
+		employer = dongola0010 # King Georgios
+	}
+	882.7.10 = {
+		death = yes
+	}
+}
+
+# Guido "of Nubia"/"de Nubie"
+# A man attested on a document from the Crusader States, possibly some kind of courtier, in 1226 CE
+# Another "Guido of Nubie/Nubre" is also attested c. 1243 CE
+# Nubie/Nubia could refer to Nubia, but could also refer to other places in the Mediterranean
+# For example, a fief within Tripoil called Nubie
+# Thus, there's no evidence suggesting Guido was or wasn't Nubian
+# However, because we have evidence of Nubian communities or travelers in the Mediterranean, including in Europe
+# I decided to make him Nubian to represent their presence
+# See here for more info: https://escholarship.org/content/qt8908w6s5/qt8908w6s5_noSplash_6b10cbf71968a9b778432a459a94f258.pdf?t=q2zg3g
+RICE_nubia_misc_019 = {
+	name = "Guido"
+	dynasty = RICE_dynasty_guido_nubian
+	religion = "coptic"
+	culture = "nubian"
+	1160.1.19 = {
+		birth = yes
+		effect = { 
+			add_character_flag = do_not_generate_starting_family
+			add_character_modifier = {
+				modifier = RICE_nubia_crusader_states_connection
+			}
+		}
+	}
+	1245.4.23 = { # Alive in 1226 and 1243
+		death = yes
+	}
+}
+
+
+# Astigelli, high-ranking Makurian official who held the title of "Tricliniaris of Douksi"
+# Attested in documents in Qasr Ibrim, including one dated to 30 July 1187
+# See here for more info: https://dbmnt.uw.edu.pl/people/602663/
+RICE_nubia_misc_020 = {
+	name = "Astigelli"
+	dynasty = RICE_dynasty_astigelli_nubian
+	religion = "coptic"
+	culture = "nubian"
+	1152.4.9 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1203.9.17 = {
+		death = yes
+	}
+}
+
+# Simamon, high-ranking Makurian official
+# Held the title of Shoung, or "Keeper of Granaries", a high-profile official of the central Makurian administration
+# Attested in documents in Qasr Ibrim c. 1155-1199
+# Interestingly, a later king of Makuria, Basil, also held the title of "Keeper of Granaries" per a document from 16 August 1199
+# See here for more info: https://dbmnt.uw.edu.pl/people/601817/
+# Oddly enough, and coincidentally, another Simamon is attested as being a "Keeper of Granaries" in a document from 27 November 1280–26 December 1280
+RICE_nubia_misc_021 = {
+	name = "Simamon"
+	dynasty = RICE_dynasty_simamon_nubian
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	1147.11.30 = {
+		birth = yes
+	}
+	1219.3.20 = {
+		death = yes
+	}
+}
+
+# Aggestotil
+# Ness of the Domesticus of Faras, who was Eparch Adam, in a document dated to 1187
+RICE_nubia_misc_022 = {
+	name = "Aggestotil"
+	dynasty = RICE_dynasty_aggestotil_nubian
+	religion = "coptic"
+	culture = "nubian"
+	1145.3.6 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		employer = nobadia0018 # Eparch Adam
+	}
+	1222.9.1 = {
+		death = yes
+	}
+}
+
+# Petrou, Bishop of Kourte (aka Qurta in Nobatia)
+# Epitaph is dated to the 11th or 12th century
+RICE_nubia_misc_023 = {
+	name = "Petros"
+	#dynasty = RICE_dynasty_petrou
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_learning_2
+	trait = devoted
+	1040.3.13 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = nobadia0012 # Eparch
+	}
+	1110.4.24 = {
+		death = yes
+	}
+}
+
+# Eikkir, wealthy noblewoman and church patron known from an epitaph
+# Her epitaph is dated to somewhere between August 6, 1084 to August 6, 1184
+RICE_nubia_misc_024 = {
+	name = "Eikkir"
+	female = yes
+	dynasty = RICE_dynasty_eikkir
+	religion = "coptic"
+	culture = "nubian"
+	trait = education_stewardship_3
+	trait = generous
+	1042.8.6 = {
+		birth = yes
+	}
+	1066.1.1 = {
+		employer = dongola0019 # King of Makuria
+	}
+	1129.3.18 = {
+		death = yes
+	}
+}
+

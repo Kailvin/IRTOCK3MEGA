@@ -238,7 +238,7 @@
 	holding = castle_holding
 }
 3092={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -265,12 +265,12 @@
 	holding = city_holding
 }
 3099={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
 3100={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -295,7 +295,7 @@
 	holding = city_holding
 }
 3109={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -321,7 +321,7 @@
 	holding = none
 }
 3117={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -335,7 +335,7 @@
 	holding = none
 }
 3121={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }

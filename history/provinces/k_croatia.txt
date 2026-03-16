@@ -26,7 +26,7 @@
 	holding = castle_holding
 }
 465={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -39,7 +39,7 @@
 	holding = church_holding
 }
 468={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -89,7 +89,7 @@
 	holding = city_holding
 }
 3510={
-	culture = urslavic
+	culture = estonian
 	faith = orthodox
 	holding = castle_holding
 }
@@ -100,7 +100,7 @@
 	holding = none
 }
 3513={
-	culture = urslavic
+	culture = estonian
 	faith = orthodox
 	holding = castle_holding
 }
@@ -130,7 +130,7 @@
 	holding = city_holding
 }
 3522={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -229,7 +229,7 @@
 	holding = church_holding
 }
 3551={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }
@@ -257,7 +257,7 @@
 	holding = city_holding
 }
 3560={
-	culture = urslavic
+	culture = estonian
 	faith = catholic
 	holding = castle_holding
 }

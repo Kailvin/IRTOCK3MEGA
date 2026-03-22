@@ -2647,6 +2647,83 @@ h_hellenistic_empire = {
 			definite_form = no
 			ruler_uses_title_name = no
 		}
+			d_uzboy = {
+			color = { 5 140 65 }
+
+			capital = c_kurtysh
+
+			c_kurtysh = {
+				color = { 25 160 75 }
+
+				b_kurtysh = {
+					province = 4528
+
+					color = { 25 160 75 }
+				}
+				b_bala_iskem= {
+					province = 4527
+
+					color = { 25 160 75 }
+				}
+				b_igdy = {
+					province = 4529
+
+					color = { 25 160 75 }
+				}
+			}
+			c_sarykamysh = {
+				color = { 20 185 45 }
+
+				b_sarykamysh= {
+					province = 4524
+
+					color = { 20 185 45 }
+				}
+				b_ortakuyu = {
+					province = 4525
+
+					color = { 20 185 45 }
+				}
+				b_kugunek = {
+					province = 4526
+
+					color = { 20 185 45 }
+				}
+			}
+			c_uzboy = {
+				color = { 45 210 5 }
+
+				b_burgun = {
+					province = 4530
+
+					color = { 45 210 5 }
+				}
+				b_dekcha = {
+					province = 4531
+
+					color = { 45 210 5 }
+				}
+				b_yashkan = {
+					province = 4532
+
+					color = { 45 210 5 }
+				}
+			}
+			c_nebit_dag = {
+				color = { 25 230 70 }
+
+				b_nebit_dag = {
+					province = 4533
+
+					color = { 25 230 70 }
+				}
+				b_cheleken= {
+					province = 4415
+
+					color = { 25 230 70 }
+				}
+			}
+		}
 			d_khorezm = {
 				capital = c_gurganj
 				color = { 70 198 103 }
@@ -5377,6 +5454,50 @@ h_hellenistic_empire = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
+		}
+		d_nasa = {
+			color = { 75 245 245 }
+
+			capital = c_abivard # Abivard
+
+			c_abivard = {
+				color = { 90 240 240 }
+
+				b_abivard = {
+					province = 4044
+
+					color = { 90 240 240 }
+				}
+				b_shahrastan = {
+					province = 4041
+
+					color = { 90 240 240 }
+				}
+				b_nasa = {
+					province = 4042
+
+					color = { 90 240 240 }
+				}
+				b_khabushan = {
+					province = 4043
+
+					color = { 90 240 240 }
+				}
+			}
+			c_farava = {
+				color = { 80 250 250 }
+
+				b_farava = {
+					province = 4036
+
+					color = { 80 250 250 }
+				}
+				b_hesare-taq = {
+					province = 4037
+
+					color = { 80 250 250 }
+				}
+			}
 		}
 		d_kohestan = {
 			capital = c_qain
@@ -10982,7 +11103,81 @@ e_britannia = {
 				}
 			}
 		}
+		d_northern_isles = {
+			color = { 195 75 75 }
 
+			capital = c_orkney # Orkney
+
+			definite_form = yes
+
+			cultural_names =  {
+				name_list_norse = cn_nordreyjar
+			}
+
+			c_orkney = {
+				color = { 195 75 75 }
+
+				cultural_names = {
+					name_list_norse = cn_orkneyjar
+					name_list_norwegian = cn_orkneyjar
+				}
+
+				b_kirkwall = {
+					province = 8
+
+					color = { 195 75 75 }
+
+					cultural_names =  {
+						name_list_norwegian = cn_kirkuvag
+						name_list_danish = cn_kyrkovik
+						name_list_swedish = cn_kyrkovik
+						name_list_norse = cn_kirkuvag
+						name_list_pictish = cn_icluasctreh
+						name_list_welsh = cn_eglwystref
+						name_list_irish = cn_baile_na_h_eaglais
+					}
+				}
+			}
+
+			c_faereyar = {
+				color = { 200 70 70 }
+
+				b_torshavn = {
+					province = 6
+
+					color = { 200 70 70 }
+
+					cultural_names =  {
+						name_list_norse = cn_torshavn
+						name_list_pictish = cn_pirth_taran
+						name_list_welsh = cn_porth_taran
+						name_list_irish = cn_port_turenn
+					}
+				}
+			}
+			c_shetland = {
+				color = { 205 65 65 }
+
+				cultural_names = {
+					name_list_norse = cn_hjaltland
+					name_list_norwegian = cn_hjaltland
+				}
+
+				b_scalloway = {
+					province = 7
+
+					color = { 205 65 65 }
+
+					cultural_names =  {
+						name_list_norse = cn_skalavagr
+						name_list_norwegian = cn_skalavagr
+						name_list_pictish = cn_bachuuon_maurt
+						name_list_welsh = cn_bachwyon_mawrty
+						name_list_irish = cn_batin_mortaigh
+					}
+				}
+			}
+		}
 		d_moray = {
 			color = { 255 180 60 }
 
@@ -132103,6 +132298,52 @@ e_IRTOCK3_heritage_heritage_iranian = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
+		}
+		d_garabogazkol = {	#Garabogazköl
+			color = { 215 70 0 }
+
+			c_garabogazkol = {		#Garabogazköl
+				color = { 235 90 20 }
+
+				b_kyzyl-su = {
+					province = 627
+
+					color = { 235 90 20 }
+				}
+				b_yangadzha = {
+					province = 631
+
+					color = { 235 90 20 }
+				}
+			}
+			c_bekdas = {
+				color = { 225 140 40 }
+
+				b_bekdas = {
+					province = 7085
+
+					color = { 225 140 40 }
+				}
+				b_sumbe = {
+					province = 7086
+
+					color = { 225 140 40 }
+				}
+			}
+			c_oglamych = {
+				color = { 210 105 5 }
+
+				b_oglamych = {
+					province = 7088
+
+					color = { 210 105 5 }
+				}
+				b_kum-sebszen = {
+					province = 7087
+
+					color = { 210 105 5 }
+				}
+			}
 		}
 		d_jemba = {
 			capital = c_qoshagyl

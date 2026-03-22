@@ -1,0 +1,32 @@
+﻿###  saxon Conquest Regions
+
+special_saxon_conquest_region_1 = {
+	duchies = {
+		# k_england
+		d_cornwall
+		d_somerset
+		d_canterbury
+		d_gloucester
+		d_bedford
+		d_norfolk
+		d_hereford
+		d_york
+		d_lancaster
+		d_northumberland
+	}
+}
+
+
+
+
+special_saxon_conquest_region_start = {
+	regions = {
+		special_saxon_conquest_region_1
+	}
+}
+
+special_saxon_conquest_region_total = {
+	regions = {
+		special_saxon_conquest_region_1
+	}
+}

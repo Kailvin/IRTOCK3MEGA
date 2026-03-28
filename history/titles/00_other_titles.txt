@@ -535,20 +535,20 @@ e_caspian-pontic_steppe={
 	159.1.30 = { government = feudal_government holder = imperator147535 }
 	216.5.7 = { government = feudal_government holder = imperator150440 }
 	238.3.29 = { government = feudal_government holder = imperator161833 }
-	305.1.14 = { government = administrative_government holder = imperator162860 }
-	307.3.18 = { government = administrative_government holder = imperator170160 }
-	354.6.1 = { government = administrative_government holder = imperator175207 }
-	387.4.8 = { government = administrative_government holder = imperator182043 }
-	416.7.12 = { government = administrative_government holder = imperator198687 }
+	305.1.14 = { government = steppe_admin_government holder = imperator162860 }
+	307.3.18 = { government = steppe_admin_government holder = imperator170160 }
+	354.6.1 = { government = steppe_admin_government holder = imperator175207 }
+	387.4.8 = { government = steppe_admin_government holder = imperator182043 }
+	416.7.12 = { government = steppe_admin_government holder = imperator198687 }
 	423.7.6 = { effect = 	{
 		if = {
 			limit = {
 				exists = holder
-				holder = { has_government = administrative_government }
+				holder = { has_government = steppe_admin_government }
 			}
 			set_state_faith = faith:iberian_pagan
 		}
-	} succession_laws = { male_preference_law acclamation_succession_law } }
+	} succession_laws = { male_preference_law } }
 }
 k_pontic_steppe={
 	423.7.6 = { liege = 0 }

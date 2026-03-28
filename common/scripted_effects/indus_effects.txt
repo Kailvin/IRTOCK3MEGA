@@ -51,7 +51,7 @@ spawn_indus_invader_effect = {
 		add_piety = 150
 		
 		dynasty = {
-			set_dynasty_name = hi_dynn_indus
+			set_dynasty_name = Gandhi
 			set_coa = title:k_indus
 
 			add_dynasty_prestige_level = 3
@@ -60,7 +60,7 @@ spawn_indus_invader_effect = {
 			$INVADER_DYNN$_add_dynasty_perks_effect = yes
 		}
 		house = {
-			set_house_name = hi_dynn_indus
+			set_house_name = Gandhi
 		}
 	}
 

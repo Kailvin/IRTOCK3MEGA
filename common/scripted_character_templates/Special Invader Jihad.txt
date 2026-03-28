@@ -1,22 +1,23 @@
 ﻿### scythian slave revolt Character Templates [ID, history ID]
 
-slave_revolt_character_template = {
+jihad_character_template = {
 	age = { 20 40 }
-	name = "Mohandas"
+	name = "Muhammad"
 	gender = male
-	dynasty = generate
+	dynasty = 7296
+	sexuality = heterosexual
 
-	faith = faith:shaivism
-	culture = culture:rajput
+	faith = faith:ashari
+	culture = culture:bedouin
 
 	trait = ambitious
-	trait = brave
-	trait = wrathful
+	trait = calm
+	trait = zealous
+	trait = gregarious
 
-	trait = education_martial_4
-	trait = lifestyle_blademaster
-	trait = intellect_good_1
-	trait = peasant_leader
+	trait = education_learning_5
+	trait = sayyid
+	trait = conqueror
 	
 	random_traits_list = {
 		count = 1

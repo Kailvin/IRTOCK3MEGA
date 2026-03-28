@@ -1,53 +1,53 @@
-﻿namespace = indus_invasion
+﻿namespace = jihad_invasion
 
 ### Spawn invader with the associated story...
-indus_invasion.0001 = {
+jihad_invasion.0001 = {
 	scope = none
 	hidden = yes
 	
 	trigger = {
-		exists = title:k_indus # update compatibility - new titles in old saves return false
+		exists = title:k_hejaz # update compatibility - new titles in old saves return false
 		# only trigger the uprising if every county in the start region is not only controlled by a player, to prevent the script from removing player held demesne. player-ai-vassals are fine though.
 		any_county_in_region = {
-			region = special_indus_conquest_region_start
+			region = special_jihad_conquest_region_start
 			count > 0
 			holder = { is_ai = yes }
 		}
 	}
 
 	on_trigger_fail = {
-		debug_log = "indus story has failed to trigger; trying again next year"
+		debug_log = "jihad story has failed to trigger; trying again next year"
 		debug_log_date = yes
 	}
 
 	immediate = {
-		debug_log = "indus story owner has appeared"
+		debug_log = "jihad story owner has appeared"
 		debug_log_date = yes
 		
-		spawn_indus_invader_effect = {
-			INVADER_DYNN = indus
+		spawn_jihad_invader_effect = {
+			INVADER_DYNN = 7296
 		}
 		scope:invader = {
-			create_story = story_indus_invasion
+			create_story = story_jihad_invasion
 		}
 	}
 }
 
 # Event for handling army spawning
-indus_invasion.0100 = {
+jihad_invasion.0100 = {
 	hidden = yes
 	immediate = {
-		spawn_indus_troops_effect = yes
+		spawn_jihad_troops_effect = yes
 	}
 }
 
 # Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead
-indus_invasion.0200 = {
+jihad_invasion.0200 = {
 	hidden = yes
 	trigger = { is_ai = yes } # don't force a player into a war
 	immediate = {
 		war_target_evaluation_and_declaration_effect = {
-			INVADER_DYNN = indus
+			INVADER_DYNN = 7296
 			INVADER_CHAR = scope:story.story_owner
 			INVADER_REGION = total
 			INVADER_TARGET_TITLE_TIER = kingdom
@@ -63,10 +63,10 @@ indus_invasion.0200 = {
 ##################
 
 ### The invader has appeared! Would you like to play as them?
-indus_invasion.1001 = { # only players see this
+jihad_invasion.1001 = { # only players see this
 	type = character_event
-	title = indus_invasion.1001.t
-	desc = indus_invasion.1001.desc
+	title = jihad_invasion.1001.t
+	desc = jihad_invasion.1001.desc
 	
 	theme = hi_theme_steppe
 
@@ -82,14 +82,14 @@ indus_invasion.1001 = { # only players see this
 	trigger = { hi_show_invader_notification_event_trigger = yes }
 	
 	option = {
-		name = indus_invasion.1001.a
+		name = jihad_invasion.1001.a
 		add_stress = 1
 	}
 
 	option = { # play as the newly spawned invader
-		name = indus_invasion.1001.b
+		name = jihad_invasion.1001.b
 		trigger = { hi_play_as_invader_event_option_trigger = yes }
-		custom_tooltip = indus_invasion.1001.b.tt
+		custom_tooltip = jihad_invasion.1001.b.tt
 		custom_tooltip = invader_title_destroyed_on_succession_tt
 		add_internal_flag = dangerous
 		scope:invader = {

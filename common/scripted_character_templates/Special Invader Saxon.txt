@@ -2,6 +2,7 @@
 
 saxon_invasion_character_template = {
 	age = { 20 40 }
+	name = "Alfred"
 	gender = male
 	dynasty = generate
 

@@ -1,16 +1,16 @@
 ﻿# spawn invader, before story
-spawn_saxon_invader_effect = {
+spawn_jihad_invader_effect = {
 	random_county_in_region = {
-		region = special_$INVADER_DYNN$_conquest_region_start
+		region = special_jihad_conquest_region_start
 		title_province = { save_scope_as = invader_spawn_location }
 	}
 
-	# INVADER saxon
+	# INVADER jihad
 	if = {
 		limit = { has_game_rule = inversed_gender_equality }
 		create_character = {
 			gender = female
-			template = saxon_invasion_character_template
+			template = jihad_character_template
 			location = scope:invader_spawn_location
 			save_scope_as = invader
 		}
@@ -21,7 +21,7 @@ spawn_saxon_invader_effect = {
 			50 = {
 				create_character = {
 					gender = female
-					template = saxon_invasion_character_template
+					template = jihad_character_template
 					location = scope:invader_spawn_location
 					save_scope_as = invader
 				}
@@ -29,7 +29,7 @@ spawn_saxon_invader_effect = {
 			50 = {
 				create_character = {
 					gender = male
-					template = saxon_invasion_character_template
+					template = jihad_character_template
 					location = scope:invader_spawn_location
 					save_scope_as = invader
 				}
@@ -39,7 +39,7 @@ spawn_saxon_invader_effect = {
 	else = {
 		create_character = {
 			gender = male
-			template = saxon_invasion_character_template
+			template = jihad_character_template
 			location = scope:invader_spawn_location
 			save_scope_as = invader
 		}
@@ -51,29 +51,28 @@ spawn_saxon_invader_effect = {
 		add_piety = 150
 		
 		dynasty = {
-			set_dynasty_name = Wuffingas
-			set_coa = title:k_england
-
+			set_dynasty_name = dynn_Hashimid
+			set_coa = title:d_sunni
 			add_dynasty_prestige_level = 3
 			add_dynasty_prestige = 7500
 			
 			$INVADER_DYNN$_add_dynasty_perks_effect = yes
 		}
 		house = {
-			set_house_name = Wuffingas
+			set_house_name = Hashimid
 		}
 	}
 
 	every_player = {
-		trigger_event = $INVADER_DYNN$_invasion.1001 # Notification: Start of invasion
+		trigger_event = jihad_invasion.1001 # Notification: Start of invasion
 	}
 }
 
-saxon_add_dynasty_perks_effect = {
+jihad_add_dynasty_perks_effect = {
 	add_dynasty_perk = warfare_legacy_1
 }
 
-saxon_maintenance_effect = {
+jihad_maintenance_effect = {
 	apply_invader_modifiers_effect = {
 		INVADER_DYNN = $INVADER_DYNN$
 	}
@@ -94,11 +93,11 @@ saxon_maintenance_effect = {
 		INVADER_TITLE = $INVADER_TITLE$
 		LANDLESS_YES_NO = $LANDLESS_YES_NO$
 	}
-	saxon_grant_historical_artifacts_effect = yes
+	jihad_grant_historical_artifacts_effect = yes
 }
 
 ### populating the life of the invader character
-spawn_saxon_family_effect = {
+spawn_jihad_family_effect = {
 	# spouse
 	if = {
 		limit = { $INVADER_CHAR$ = { is_female = yes } }
@@ -137,40 +136,40 @@ spawn_saxon_family_effect = {
 }
 
 # Make sure invader has troops
-spawn_saxon_troops_effect = {
+spawn_jihad_troops_effect = {
 	if = {
 		limit = { has_character_flag = is_first_invader_flag }
-		spawn_saxon_army_effect = yes
+		spawn_jihad_army_effect = yes
 	}
-	spawn_saxon_army_effect = yes
-	spawn_saxon_army_effect = yes
+	spawn_jihad_army_effect = yes
+	spawn_jihad_army_effect = yes
 	if = {
 		limit = { years_from_game_start > 100 }
-		spawn_saxon_army_effect = yes
+		spawn_jihad_army_effect = yes
 	}
 	if = {
 		limit = { years_from_game_start > 200 }
-		spawn_saxon_army_effect = yes
+		spawn_jihad_army_effect = yes
 	}
 	if = {
 		limit = { years_from_game_start > 300 }
-		spawn_saxon_army_effect = yes
+		spawn_jihad_army_effect = yes
 	}
 }
-spawn_saxon_army_effect = {
+spawn_jihad_army_effect = {
 	spawn_army = {
-		name = saxon_event_troops
+		name = jihad_event_troops
 		location = capital_province
 		uses_supply = no
 		inheritable = no
 		
 		levies = 250
 		men_at_arms = {
-			type = huscarl
+			type = horse_archers
 			stacks = 15
 		}
 		men_at_arms = {
-			type = huscarl
+			type = horse_archers
 			stacks = 15
 		}
 		men_at_arms = {
@@ -178,11 +177,11 @@ spawn_saxon_army_effect = {
 			stacks = 10
 		}
 		men_at_arms = {
-			type = longbowmen
+			type = light_horsemen
 			stacks = 10
 		}
 		men_at_arms = {
-			type = longbowmen
+			type = armored_horsemen
 			stacks = 8
 		}
 		# siege

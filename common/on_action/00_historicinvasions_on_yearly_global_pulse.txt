@@ -2464,7 +2464,44 @@ indus_invasion_on_action = { # 370 or random
 		}
 	}
 }
-
+jihad_invasion_on_action = { # 370 or random
+	trigger = {
+		current_date > 600.1.1
+		current_date < 700.1.1
+		# game start date irrelevant
+		NOT = { has_game_rule = never_attila_invasion }
+		exists = title:k_hejaz # update compatibility - new titles in old saves return false
+		NOT = { # is set in story
+			is_target_in_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:jihad_story_started
+			}
+		}
+	}
+	effect = {
+			random = {
+				chance = 0
+				modifier = {
+					add = 5
+					current_date > 605.1.1
+				}
+				modifier = {
+					add = 15
+					current_date > 610.1.1
+				}
+				modifier = {
+					add = 30
+					current_date > 615.1.1
+				}
+				debug_log = "attempting to trigger attila story soon"
+				trigger_event = {
+					id = indus_invasion.0001
+					days = { 2 240 } # keep this smaller than 1 year if the global variable is set in event .0001
+				}
+			}
+		}
+	}
+}
 argead_invasion_on_action = { # random
 	trigger = {
 		# game start date irrelevant
@@ -2517,19 +2554,19 @@ maurya_invasion_on_action = { # random
 	}
 	effect = {
 		random = {
-			chance = 0
-			modifier = {
-				add = 1
-				years_from_game_start >= 50
-			}
-			modifier = {
-				add = 1
-				years_from_game_start >= 100
-			}
-			modifier = {
-				add = 3
-				years_from_game_start >= 150
-			}
+				chance = 0
+				modifier = {
+					add = 5
+					current_date > 430.1.1
+				}
+				modifier = {
+					add = 15
+					current_date > 440.1.1
+				}
+				modifier = {
+					add = 30
+					current_date > 450.1.1
+				}
 			debug_log = "attempting to trigger maurya story soon"
 			trigger_event = {
 				id = maurya_invasion.0001

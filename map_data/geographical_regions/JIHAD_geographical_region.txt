@@ -1,0 +1,62 @@
+﻿###  jihad Conquest Regions
+
+special_jihad_conquest_region_1 = {
+	duchies = {
+	d_mecca
+	}
+}
+special_jihad_conquest_region_2 = {
+	duchies = {
+		d_diyarrabia d_diyarmudar d_diyarbakr d_euphrates
+		#Arabia
+		d_jawf d_amman d_shammar d_medina d_asir d_najd d_yamama d_al-hasa d_bahrain d_oman
+		#Yemen
+		d_sanaa d_jawf-al-yamani d_taizz d_hadramawt d_mahra d_socotra
+		#Mesopotamia
+		d_kermanshah d_basra d_baghdad d_samarra d_kurdistan d_wasit d_kufa
+		#Sinai
+		d_sinai
+		#Syria
+		d_damascus d_aleppo d_antioch d_edessa d_homs d_lebanon d_palmyra
+		#Jerusalem
+		d_oultrejourdain d_palestine d_urdunn
+	}
+}
+
+special_jihad_conquest_region_3 = {
+	duchies = {
+		#Persia
+		d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan
+		#k_daylam
+		d_daylam d_tabaristan d_gurgan d_azerbaijan
+		#k_makran
+		d_jabal_kufs d_makran d_sistan
+		#k_kabulistan
+		d_kabul d_zabulistan
+		#k_khiva
+		d_samarkand d_khiva d_dihistan
+		d_marrakesh d_fes d_tlemcen d_alger d_tunis d_gabes d_tahert d_rif d_sous d_tafilalt d_bejaia d_mzab d_kroumerie d_kairouan d_jerid d_zab
+		d_tripolitania d_cyrenaica d_alexandria d_delta d_cairo d_al-said d_eastern_desert d_al-wahat d_syrte
+		
+	}
+}
+special_jihad_conquest_region_4 = {
+	duchies = {
+	 d_aragon d_barcelona d_valencia d_mallorca d_porto d_beja d_algarve d_cordoba d_murcia d_granada d_sevilla d_badajoz d_toledo d_coimbra d_cantabria 
+	}
+}
+
+special_jihad_conquest_region_start = {
+	regions = {
+		special_jihad_conquest_region_1
+	}
+}
+
+special_jihad_conquest_region_total = {
+	regions = {
+		special_jihad_conquest_region_1
+		special_jihad_conquest_region_2
+		special_jihad_conquest_region_3
+		special_jihad_conquest_region_4
+	}
+}

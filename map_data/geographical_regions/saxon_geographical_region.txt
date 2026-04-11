@@ -2,6 +2,14 @@
 
 special_saxon_conquest_region_1 = {
 	duchies = {
+		d_frisia
+		d_holland
+		d_utrecht
+		d_slesvig
+	}
+}
+special_saxon_conquest_region_2 = {
+	duchies = {
 		# k_england
 		d_cornwall
 		d_somerset
@@ -28,5 +36,6 @@ special_saxon_conquest_region_start = {
 special_saxon_conquest_region_total = {
 	regions = {
 		special_saxon_conquest_region_1
+		special_saxon_conquest_region_2
 	}
 }

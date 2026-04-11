@@ -1,5 +1,5 @@
 k_qingxu={
-	423.7.6 = { liege = 0 }
+	423.7.6 = { change_development_level = 8 change_development_level = 8 liege = 0 }
 }
 d_xusi={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_xuzhou_1_holder liege = 0 }

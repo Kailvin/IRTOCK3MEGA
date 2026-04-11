@@ -339,8 +339,24 @@ e_hre={
 k_hansa={
 	423.7.6 = { liege = 0 }
 }
+k_baekje={
+	423.7.6 = { holder = IRToCK3_c_jeonju_holder government = meritocratic_government }
+}
+k_silla={
+	423.7.6 = { holder = IRToCK3_c_ulju_holder government = meritocratic_government }
+}
+k_goguryeo={
+	423.7.6 = { holder = IRToCK3_c_seogyeong_holder government = meritocratic_government }
+}
 e_britannia={
-	423.7.6 = { liege = 0 }
+	423.7.6 = {  holder = imperator193903 government = administrative_government effect = 	{
+		if = {
+			limit = {
+				exists = holder
+				holder = { has_government = administrative_government }
+			}
+			set_state_faith = faith:insular_celtic
+		}}}
 }
 k_england={
 	423.7.6 = { liege = 0 }

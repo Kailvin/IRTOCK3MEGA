@@ -239,169 +239,6 @@ h_hellenistic_empire = {
 	e_IRTOCK3_heritage_heritage_syriac = {
 	capital = c_mosul
 	color = { 209 212 135 }
-	k_mesopotamia = {
-			capital = c_baghdad
-			color = { 3 11 22 }
-			d_wasit = {
-				capital = c_wasit
-				color = { 45 175 100 }
-				c_wasit = {
-					color = { 55 165 110 }
-					b_wasit = {
-						color = { 55 165 110 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4821
-					}
-					b_kaskar = {
-						color = { 55 165 110 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4822
-					}
-					b_an-numaniya = {
-						color = { 55 165 110 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4823
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_tib = {
-					color = { 25 165 110 }
-					b_at-tib = {
-						color = { 25 165 110 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4820
-					}
-					b_karkha = {
-						color = { 25 165 110 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4819
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			d_basra = {
-				capital = c_basra
-				color = { 5 130 40 }
-				c_basra = {
-					color = { 80 147 30 }
-					b_bajlan = {
-						color = { 80 147 30 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6019
-					}
-					b_basra = {
-						color = { 80 147 30 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6022
-					}
-					b_hifair = {
-						color = { 80 147 30 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6025
-					}
-					b_ar-rukhail = {
-						color = { 80 147 30 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6024
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_ubulla = {
-					color = { 80 170 5 }
-					b_al-ubulla = {
-						color = { 80 170 5 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6020
-					}
-					b_matara-iraq = {
-						color = { 80 170 5 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6021
-					}
-					b_ain_said = {
-						color = { 80 170 5 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6023
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_rusafa = {
-					color = { 70 125 40 }
-					b_ar-rusafa-iraq = {
-						color = { 70 125 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6005
-					}
-					b_al-farut = {
-						color = { 70 125 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6006
-					}
-					b_al-qatr = {
-						color = { 70 125 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6007
-					}
-					b_nahr_simmara = {
-						color = { 70 125 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6008
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
 	k_IRTOCK3_COM = {
 		capital = c_mosul
 		color = { 183 65 14 }
@@ -2565,6 +2402,173 @@ h_hellenistic_empire = {
 		k_IRTOCK3_K35 = {
 			capital = c_astrakhan
 			color = { 112 200 46 }
+			d_nasa = {
+			color = { 75 245 245 }
+
+			capital = c_abivard # Abivard
+
+			c_abivard = {
+				color = { 90 240 240 }
+
+				b_abivard = {
+					province = 4044
+
+					color = { 90 240 240 }
+				}
+				b_shahrastan = {
+					province = 4041
+
+					color = { 90 240 240 }
+				}
+				b_nasa = {
+					province = 4042
+
+					color = { 90 240 240 }
+				}
+				b_khabushan = {
+					province = 4043
+
+					color = { 90 240 240 }
+				}
+			}
+			c_farava = {
+				color = { 80 250 250 }
+
+				b_farava = {
+					province = 4036
+
+					color = { 80 250 250 }
+				}
+				b_hesare-taq = {
+					province = 4037
+
+					color = { 80 250 250 }
+				}
+			}
+		}
+			d_garabogazkol = {	#Garabogazköl
+			color = { 215 70 0 }
+
+			c_garabogazkol = {		#Garabogazköl
+				color = { 235 90 20 }
+
+				b_kyzyl-su = {
+					province = 627
+
+					color = { 235 90 20 }
+				}
+				b_yangadzha = {
+					province = 631
+
+					color = { 235 90 20 }
+				}
+			}
+			c_bekdas = {
+				color = { 225 140 40 }
+
+				b_bekdas = {
+					province = 7085
+
+					color = { 225 140 40 }
+				}
+				b_sumbe = {
+					province = 7086
+
+					color = { 225 140 40 }
+				}
+			}
+			c_oglamych = {
+				color = { 210 105 5 }
+
+				b_oglamych = {
+					province = 7088
+
+					color = { 210 105 5 }
+				}
+				b_kum-sebszen = {
+					province = 7087
+
+					color = { 210 105 5 }
+				}
+			}
+		}
+			d_uzboy = {
+			color = { 5 140 65 }
+
+			capital = c_kurtysh
+
+			c_kurtysh = {
+				color = { 25 160 75 }
+
+				b_kurtysh = {
+					province = 4528
+
+					color = { 25 160 75 }
+				}
+				b_bala_iskem= {
+					province = 4527
+
+					color = { 25 160 75 }
+				}
+				b_igdy = {
+					province = 4529
+
+					color = { 25 160 75 }
+				}
+			}
+			c_sarykamysh = {
+				color = { 20 185 45 }
+
+				b_sarykamysh= {
+					province = 4524
+
+					color = { 20 185 45 }
+				}
+				b_ortakuyu = {
+					province = 4525
+
+					color = { 20 185 45 }
+				}
+				b_kugunek = {
+					province = 4526
+
+					color = { 20 185 45 }
+				}
+			}
+			c_uzboy = {
+				color = { 45 210 5 }
+
+				b_burgun = {
+					province = 4530
+
+					color = { 45 210 5 }
+				}
+				b_dekcha = {
+					province = 4531
+
+					color = { 45 210 5 }
+				}
+				b_yashkan = {
+					province = 4532
+
+					color = { 45 210 5 }
+				}
+			}
+			c_nebit_dag = {
+				color = { 25 230 70 }
+
+				b_nebit_dag = {
+					province = 4533
+
+					color = { 25 230 70 }
+				}
+				b_cheleken= {
+					province = 4415
+
+					color = { 25 230 70 }
+				}
+			}
+		}
 			d_merv = {
 			capital = c_merv
 			color = { 15 250 225 }
@@ -2809,83 +2813,6 @@ h_hellenistic_empire = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
-		}
-			d_uzboy = {
-			color = { 5 140 65 }
-
-			capital = c_kurtysh
-
-			c_kurtysh = {
-				color = { 25 160 75 }
-
-				b_kurtysh = {
-					province = 4528
-
-					color = { 25 160 75 }
-				}
-				b_bala_iskem= {
-					province = 4527
-
-					color = { 25 160 75 }
-				}
-				b_igdy = {
-					province = 4529
-
-					color = { 25 160 75 }
-				}
-			}
-			c_sarykamysh = {
-				color = { 20 185 45 }
-
-				b_sarykamysh= {
-					province = 4524
-
-					color = { 20 185 45 }
-				}
-				b_ortakuyu = {
-					province = 4525
-
-					color = { 20 185 45 }
-				}
-				b_kugunek = {
-					province = 4526
-
-					color = { 20 185 45 }
-				}
-			}
-			c_uzboy = {
-				color = { 45 210 5 }
-
-				b_burgun = {
-					province = 4530
-
-					color = { 45 210 5 }
-				}
-				b_dekcha = {
-					province = 4531
-
-					color = { 45 210 5 }
-				}
-				b_yashkan = {
-					province = 4532
-
-					color = { 45 210 5 }
-				}
-			}
-			c_nebit_dag = {
-				color = { 25 230 70 }
-
-				b_nebit_dag = {
-					province = 4533
-
-					color = { 25 230 70 }
-				}
-				b_cheleken= {
-					province = 4415
-
-					color = { 25 230 70 }
-				}
-			}
 		}
 			d_khorezm = {
 				capital = c_gurganj
@@ -4375,6 +4302,169 @@ h_hellenistic_empire = {
 	e_IRTOCK3_hegemony_h_hellenistic_empire_arabia = {
 		capital = c_baghdad
 		color = { 3 11 22 }
+		k_mesopotamia = {
+			capital = c_baghdad
+			color = { 3 11 22 }
+			d_wasit = {
+				capital = c_wasit
+				color = { 45 175 100 }
+				c_wasit = {
+					color = { 55 165 110 }
+					b_wasit = {
+						color = { 55 165 110 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4821
+					}
+					b_kaskar = {
+						color = { 55 165 110 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4822
+					}
+					b_an-numaniya = {
+						color = { 55 165 110 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4823
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_tib = {
+					color = { 25 165 110 }
+					b_at-tib = {
+						color = { 25 165 110 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4820
+					}
+					b_karkha = {
+						color = { 25 165 110 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4819
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			d_basra = {
+				capital = c_basra
+				color = { 5 130 40 }
+				c_basra = {
+					color = { 80 147 30 }
+					b_bajlan = {
+						color = { 80 147 30 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6019
+					}
+					b_basra = {
+						color = { 80 147 30 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6022
+					}
+					b_hifair = {
+						color = { 80 147 30 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6025
+					}
+					b_ar-rukhail = {
+						color = { 80 147 30 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6024
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_ubulla = {
+					color = { 80 170 5 }
+					b_al-ubulla = {
+						color = { 80 170 5 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6020
+					}
+					b_matara-iraq = {
+						color = { 80 170 5 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6021
+					}
+					b_ain_said = {
+						color = { 80 170 5 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6023
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_rusafa = {
+					color = { 70 125 40 }
+					b_ar-rusafa-iraq = {
+						color = { 70 125 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6005
+					}
+					b_al-farut = {
+						color = { 70 125 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6006
+					}
+					b_al-qatr = {
+						color = { 70 125 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6007
+					}
+					b_nahr_simmara = {
+						color = { 70 125 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6008
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
 		landless = no
 		definite_form = no
 		ruler_uses_title_name = no
@@ -5454,50 +5544,6 @@ h_hellenistic_empire = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
-		}
-		d_nasa = {
-			color = { 75 245 245 }
-
-			capital = c_abivard # Abivard
-
-			c_abivard = {
-				color = { 90 240 240 }
-
-				b_abivard = {
-					province = 4044
-
-					color = { 90 240 240 }
-				}
-				b_shahrastan = {
-					province = 4041
-
-					color = { 90 240 240 }
-				}
-				b_nasa = {
-					province = 4042
-
-					color = { 90 240 240 }
-				}
-				b_khabushan = {
-					province = 4043
-
-					color = { 90 240 240 }
-				}
-			}
-			c_farava = {
-				color = { 80 250 250 }
-
-				b_farava = {
-					province = 4036
-
-					color = { 80 250 250 }
-				}
-				b_hesare-taq = {
-					province = 4037
-
-					color = { 80 250 250 }
-				}
-			}
 		}
 		d_kohestan = {
 			capital = c_qain
@@ -8691,7 +8737,7 @@ k_hansa = {
 }
 
 e_britannia = {
-	color = { 172 22 22 }
+	color = { 0 42 22 }
 
 	capital = c_middlesex
 
@@ -11103,81 +11149,7 @@ e_britannia = {
 				}
 			}
 		}
-		d_northern_isles = {
-			color = { 195 75 75 }
 
-			capital = c_orkney # Orkney
-
-			definite_form = yes
-
-			cultural_names =  {
-				name_list_norse = cn_nordreyjar
-			}
-
-			c_orkney = {
-				color = { 195 75 75 }
-
-				cultural_names = {
-					name_list_norse = cn_orkneyjar
-					name_list_norwegian = cn_orkneyjar
-				}
-
-				b_kirkwall = {
-					province = 8
-
-					color = { 195 75 75 }
-
-					cultural_names =  {
-						name_list_norwegian = cn_kirkuvag
-						name_list_danish = cn_kyrkovik
-						name_list_swedish = cn_kyrkovik
-						name_list_norse = cn_kirkuvag
-						name_list_pictish = cn_icluasctreh
-						name_list_welsh = cn_eglwystref
-						name_list_irish = cn_baile_na_h_eaglais
-					}
-				}
-			}
-
-			c_faereyar = {
-				color = { 200 70 70 }
-
-				b_torshavn = {
-					province = 6
-
-					color = { 200 70 70 }
-
-					cultural_names =  {
-						name_list_norse = cn_torshavn
-						name_list_pictish = cn_pirth_taran
-						name_list_welsh = cn_porth_taran
-						name_list_irish = cn_port_turenn
-					}
-				}
-			}
-			c_shetland = {
-				color = { 205 65 65 }
-
-				cultural_names = {
-					name_list_norse = cn_hjaltland
-					name_list_norwegian = cn_hjaltland
-				}
-
-				b_scalloway = {
-					province = 7
-
-					color = { 205 65 65 }
-
-					cultural_names =  {
-						name_list_norse = cn_skalavagr
-						name_list_norwegian = cn_skalavagr
-						name_list_pictish = cn_bachuuon_maurt
-						name_list_welsh = cn_bachwyon_mawrty
-						name_list_irish = cn_batin_mortaigh
-					}
-				}
-			}
-		}
 		d_moray = {
 			color = { 255 180 60 }
 
@@ -17105,6 +17077,81 @@ e_scandinavia = {
 	k_norway = {
 		capital = c_trandheim
 		color = { 130 4 40 }
+		d_northern_isles = {
+			color = { 195 75 75 }
+
+			capital = c_orkney # Orkney
+
+			definite_form = yes
+
+			cultural_names =  {
+				name_list_norse = cn_nordreyjar
+			}
+
+			c_orkney = {
+				color = { 195 75 75 }
+
+				cultural_names = {
+					name_list_norse = cn_orkneyjar
+					name_list_norwegian = cn_orkneyjar
+				}
+
+				b_kirkwall = {
+					province = 8
+
+					color = { 195 75 75 }
+
+					cultural_names =  {
+						name_list_norwegian = cn_kirkuvag
+						name_list_danish = cn_kyrkovik
+						name_list_swedish = cn_kyrkovik
+						name_list_norse = cn_kirkuvag
+						name_list_pictish = cn_icluasctreh
+						name_list_welsh = cn_eglwystref
+						name_list_irish = cn_baile_na_h_eaglais
+					}
+				}
+			}
+
+			c_faereyar = {
+				color = { 200 70 70 }
+
+				b_torshavn = {
+					province = 6
+
+					color = { 200 70 70 }
+
+					cultural_names =  {
+						name_list_norse = cn_torshavn
+						name_list_pictish = cn_pirth_taran
+						name_list_welsh = cn_porth_taran
+						name_list_irish = cn_port_turenn
+					}
+				}
+			}
+			c_shetland = {
+				color = { 205 65 65 }
+
+				cultural_names = {
+					name_list_norse = cn_hjaltland
+					name_list_norwegian = cn_hjaltland
+				}
+
+				b_scalloway = {
+					province = 7
+
+					color = { 205 65 65 }
+
+					cultural_names =  {
+						name_list_norse = cn_skalavagr
+						name_list_norwegian = cn_skalavagr
+						name_list_pictish = cn_bachuuon_maurt
+						name_list_welsh = cn_bachwyon_mawrty
+						name_list_irish = cn_batin_mortaigh
+					}
+				}
+			}
+		}
 		d_agder = {
 			capital = c_nedenes
 			color = { 170 30 30 }
@@ -31002,6 +31049,264 @@ e_arabia = {
 		definite_form = no
 		ruler_uses_title_name = no
 	}
+	k_IRTOCK3_H69 = {
+		capital = c_tihamat-al-yamani
+		color = { 200 56 241 }
+		d_jawf-al-yamani = {
+			capital = c_jawf-al-yamani
+			color = { 230 240 40 }
+			c_jawf-al-yamani = {
+				color = { 227 242 42 }
+				b_main = {
+					color = { 227 242 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6299
+				}
+				b_shabwa = {
+					color = { 227 242 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6296
+				}
+				b_bayhan = {
+					color = { 227 242 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6297
+				}
+				b_baraqish = {
+					color = { 227 242 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6298
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_wabar = {
+				color = { 233 244 44 }
+				b_wabar = {
+					color = { 233 244 44 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6300
+				}
+				b_hisn_al-abr = {
+					color = { 233 244 44 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6301
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_sanaa = {
+			capital = c_sanaa
+			color = { 220 230 30 }
+			c_sanaa = {
+				color = { 225 235 36 }
+				b_sanaa = {
+					color = { 225 235 36 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6276
+				}
+				b_ash-sharaf = {
+					color = { 225 235 36 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6272
+				}
+				b_huth = {
+					color = { 225 235 36 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6273
+				}
+				b_ar-rayda = {
+					color = { 225 235 36 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6274
+				}
+				b_shibam-sanaa = {
+					color = { 225 235 36 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6275
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_tihamat-al-yamani = {
+				color = { 218 228 28 }
+				b_attar = {
+					color = { 218 228 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6240
+				}
+				b_harad = {
+					color = { 218 228 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6241
+				}
+				b_al-mahjam = {
+					color = { 218 228 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6270
+				}
+				b_kamaran = {
+					color = { 218 228 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6271
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_najran = {
+				color = { 223 231 34 }
+				b_najran = {
+					color = { 223 231 34 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6243
+				}
+				b_sada = {
+					color = { 223 231 34 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6242
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_zabid = {
+				color = { 216 225 25 }
+				b_zabid = {
+					color = { 216 225 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6280
+				}
+				b_fashal = {
+					color = { 216 225 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6278
+				}
+				b_ghalafiqa = {
+					color = { 216 225 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6279
+				}
+				b_mawza = {
+					color = { 216 225 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6281
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_asir = {
+			capital = c_aqiq
+			color = { 150 210 20 }
+			c_aqiq = {
+				color = { 147 207 17 }
+				b_aqiq_tamra = {
+					color = { 147 207 17 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6246
+				}
+				b_dam = {
+					color = { 147 207 17 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6245
+				}
+				b_sarba = {
+					color = { 147 207 17 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6247
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_asir = {
+				color = { 152 212 22 }
+				b_wadi_tathlith = {
+					color = { 152 212 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6244
+				}
+				b_wadi_ghamid = {
+					color = { 152 212 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 6232
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
 	k_IRTOCK3_H96 = {
 		capital = c_dhofar
 		color = { 218 148 132 }
@@ -31399,13 +31704,6 @@ e_arabia = {
 	k_IRTOCK3_I81 = {
 		capital = c_hail
 		color = { 195 248 97 }
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
-	k_IRTOCK3_H72 = {
-		capital = c_surrah
-		color = { 44 242 15 }
 		d_jawf = {
 			capital = c_al_jawf
 			color = { 150 250 50 }
@@ -31494,87 +31792,13 @@ e_arabia = {
 			definite_form = no
 			ruler_uses_title_name = no
 		}
-		d_yamama = {
-				capital = c_yamama
-				color = { 150 180 0 }
-				c_yamama = {
-					color = { 153 183 2 }
-					b_yamama = {
-						color = { 153 183 2 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6253
-					}
-					b_al-khadarim = {
-						color = { 153 183 2 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6251
-					}
-					b_al-kharj = {
-						color = { 153 183 2 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6252
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_al-arid = {
-					color = { 147 177 3 }
-					b_al-arid = {
-						color = { 147 177 3 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6254
-					}
-					b_ubad = {
-						color = { 147 177 3 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6255
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_falaj = {
-					color = { 156 186 0 }
-					b_falaj = {
-						color = { 156 186 0 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6250
-					}
-					b_al-haddar = {
-						color = { 156 186 0 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6248
-					}
-					b_qasr-al-adi = {
-						color = { 156 186 0 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 6249
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
+	k_IRTOCK3_H72 = {
+		capital = c_surrah
+		color = { 44 242 15 }
 		d_najd = {
 			capital = c_sharaf
 			color = { 160 200 10 }
@@ -31807,6 +32031,87 @@ e_arabia = {
 	k_IRTOCK3_K58 = {
 		capital = c_qatif
 		color = { 4 73 208 }
+		d_yamama = {
+				capital = c_yamama
+				color = { 150 180 0 }
+				c_yamama = {
+					color = { 153 183 2 }
+					b_yamama = {
+						color = { 153 183 2 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6253
+					}
+					b_al-khadarim = {
+						color = { 153 183 2 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6251
+					}
+					b_al-kharj = {
+						color = { 153 183 2 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6252
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_al-arid = {
+					color = { 147 177 3 }
+					b_al-arid = {
+						color = { 147 177 3 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6254
+					}
+					b_ubad = {
+						color = { 147 177 3 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6255
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_falaj = {
+					color = { 156 186 0 }
+					b_falaj = {
+						color = { 156 186 0 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6250
+					}
+					b_al-haddar = {
+						color = { 156 186 0 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6248
+					}
+					b_qasr-al-adi = {
+						color = { 156 186 0 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 6249
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
 		d_al-hasa = {
 			capital = c_al-hasa
 			color = { 32 127 30 }
@@ -89366,6 +89671,387 @@ h_IRTOCK3_BDI = {
 	e_IRTOCK3_hegemony_h_IRTOCK3_BDI_pannonia = {
 		capital = c_visegrad
 		color = { 250 120 90 }
+		k_dacia = {
+			capital = c_campulung
+			color = { 237 147 52 }
+			d_transylvanian_alps = {
+				capital = c_campulung
+				color = { 175 86 10 }
+				c_campulung = {
+					color = { 175 86 10 }
+					b_targoviste = {
+						color = { 175 86 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 515
+					}
+					b_campulung = {
+						color = { 175 86 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5009
+					}
+					b_arges = {
+						color = { 175 86 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5008
+					}
+					b_pitesti = {
+						color = { 175 86 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4993
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_polovragi = {
+					color = { 165 76 10 }
+					b_polovragi = {
+						color = { 165 76 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5005
+					}
+					b_govora = {
+						color = { 165 76 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5006
+					}
+					b_filiasi = {
+						color = { 165 76 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5007
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_tabla_butii = {
+					color = { 155 66 10 }
+					b_tabla_butii = {
+						color = { 155 66 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4989
+					}
+					b_zoresti = {
+						color = { 155 66 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4980
+					}
+					b_dumbraveni = {
+						color = { 155 66 10 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4977
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			d_muntenia = {
+				capital = c_giurgiu
+				color = { 220 132 40 }
+				c_giurgiu = {
+					color = { 210 122 50 }
+					b_giurgiu = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4990
+					}
+					b_turnu = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 514
+					}
+					b_rusii_de_vede = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4988
+					}
+					b_comana = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4991
+					}
+					b_glavacioc = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4992
+					}
+					b_costesti = {
+						color = { 220 132 40 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4994
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_bucuresti = {
+					color = { 241 195 72 }
+					b_bucuresti = {
+						color = { 241 195 72 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4995
+					}
+					b_targsor = {
+						color = { 241 195 72 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4996
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_calarasi = {
+					color = { 238 212 80 }
+					b_calarasi = {
+						color = { 238 212 80 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4997
+					}
+					b_radovanu = {
+						color = { 238 212 80 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4998
+					}
+					b_fetesti = {
+						color = { 238 212 80 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4999
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_buzau = {
+					color = { 230 142 50 }
+					b_buzau = {
+						color = { 230 142 50 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5000
+					}
+					b_slobozia = {
+						color = { 230 142 50 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5001
+					}
+					b_ploiesti = {
+						color = { 230 142 50 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5002
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_braila = {
+					color = { 240 152 60 }
+					b_braila = {
+						color = { 240 152 60 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5003
+					}
+					b_ramnicu_sarat = {
+						color = { 240 152 60 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 5004
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			d_oltenia = {
+				capital = c_targu_jiu
+				color = { 222 155 78 }
+				c_targu_jiu = {
+					color = { 221 170 77 }
+					b_targu_jiu = {
+						color = { 221 170 77 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4978
+					}
+					b_baia_de_arama = {
+						color = { 221 170 77 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4979
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_severin = {
+					color = { 247 201 78 }
+					b_severin = {
+						color = { 247 201 78 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 516
+					}
+					b_orsova = {
+						color = { 247 201 78 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4975
+					}
+					b_mehadia = {
+						color = { 247 201 78 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4976
+					}
+					b_karansebes = {
+						color = { 247 201 78 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 3881
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_calafat = {
+					color = { 255 176 76 }
+					b_calafat = {
+						color = { 255 176 76 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4981
+					}
+					b_cujmir = {
+						color = { 255 176 76 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4982
+					}
+					b_strehaia = {
+						color = { 255 176 76 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4983
+					}
+					b_segarcea = {
+						color = { 255 176 76 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4984
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				c_craiova = {
+					color = { 248 166 66 }
+					b_craiova = {
+						color = { 248 166 66 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4985
+					}
+					b_corabia = {
+						color = { 248 166 66 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4986
+					}
+					b_dragasani = {
+						color = { 248 166 66 }
+						landless = no
+						definite_form = no
+						ruler_uses_title_name = no
+						province = 4987
+					}
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+			ai_primary_priority = {
+			if = {
+				limit = {
+					culture = culture:vlach
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+		}
 		k_hungary = {
 			capital = c_visegrad
 			color = { 250 120 90 }
@@ -93280,9 +93966,6 @@ h_IRTOCK3_BDI = {
 		}
 			cultural_names = {
 				name_list_roman = cn_dalmatia
-				name_list_greek = cn_dalmatia
-				name_list_finnish = cn_dalmatia
-				name_list_estonian = = cn_dalmatia
 			}
 		}
 		k_serbia = {
@@ -93673,387 +94356,6 @@ h_IRTOCK3_BDI = {
 	e_IRTOCK3_hegemony_h_IRTOCK3_BDI_orientis = {
 		capital = c_turnovo
 		color = { 113 88 101 }
-		k_dacia = {
-			capital = c_campulung
-			color = { 237 147 52 }
-			d_transylvanian_alps = {
-				capital = c_campulung
-				color = { 175 86 10 }
-				c_campulung = {
-					color = { 175 86 10 }
-					b_targoviste = {
-						color = { 175 86 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 515
-					}
-					b_campulung = {
-						color = { 175 86 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5009
-					}
-					b_arges = {
-						color = { 175 86 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5008
-					}
-					b_pitesti = {
-						color = { 175 86 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4993
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_polovragi = {
-					color = { 165 76 10 }
-					b_polovragi = {
-						color = { 165 76 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5005
-					}
-					b_govora = {
-						color = { 165 76 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5006
-					}
-					b_filiasi = {
-						color = { 165 76 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5007
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_tabla_butii = {
-					color = { 155 66 10 }
-					b_tabla_butii = {
-						color = { 155 66 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4989
-					}
-					b_zoresti = {
-						color = { 155 66 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4980
-					}
-					b_dumbraveni = {
-						color = { 155 66 10 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4977
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			d_muntenia = {
-				capital = c_giurgiu
-				color = { 220 132 40 }
-				c_giurgiu = {
-					color = { 210 122 50 }
-					b_giurgiu = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4990
-					}
-					b_turnu = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 514
-					}
-					b_rusii_de_vede = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4988
-					}
-					b_comana = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4991
-					}
-					b_glavacioc = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4992
-					}
-					b_costesti = {
-						color = { 220 132 40 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4994
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_bucuresti = {
-					color = { 241 195 72 }
-					b_bucuresti = {
-						color = { 241 195 72 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4995
-					}
-					b_targsor = {
-						color = { 241 195 72 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4996
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_calarasi = {
-					color = { 238 212 80 }
-					b_calarasi = {
-						color = { 238 212 80 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4997
-					}
-					b_radovanu = {
-						color = { 238 212 80 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4998
-					}
-					b_fetesti = {
-						color = { 238 212 80 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4999
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_buzau = {
-					color = { 230 142 50 }
-					b_buzau = {
-						color = { 230 142 50 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5000
-					}
-					b_slobozia = {
-						color = { 230 142 50 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5001
-					}
-					b_ploiesti = {
-						color = { 230 142 50 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5002
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_braila = {
-					color = { 240 152 60 }
-					b_braila = {
-						color = { 240 152 60 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5003
-					}
-					b_ramnicu_sarat = {
-						color = { 240 152 60 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 5004
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			d_oltenia = {
-				capital = c_targu_jiu
-				color = { 222 155 78 }
-				c_targu_jiu = {
-					color = { 221 170 77 }
-					b_targu_jiu = {
-						color = { 221 170 77 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4978
-					}
-					b_baia_de_arama = {
-						color = { 221 170 77 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4979
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_severin = {
-					color = { 247 201 78 }
-					b_severin = {
-						color = { 247 201 78 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 516
-					}
-					b_orsova = {
-						color = { 247 201 78 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4975
-					}
-					b_mehadia = {
-						color = { 247 201 78 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4976
-					}
-					b_karansebes = {
-						color = { 247 201 78 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 3881
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_calafat = {
-					color = { 255 176 76 }
-					b_calafat = {
-						color = { 255 176 76 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4981
-					}
-					b_cujmir = {
-						color = { 255 176 76 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4982
-					}
-					b_strehaia = {
-						color = { 255 176 76 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4983
-					}
-					b_segarcea = {
-						color = { 255 176 76 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4984
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				c_craiova = {
-					color = { 248 166 66 }
-					b_craiova = {
-						color = { 248 166 66 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4985
-					}
-					b_corabia = {
-						color = { 248 166 66 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4986
-					}
-					b_dragasani = {
-						color = { 248 166 66 }
-						landless = no
-						definite_form = no
-						ruler_uses_title_name = no
-						province = 4987
-					}
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-			ai_primary_priority = {
-			if = {
-				limit = {
-					culture = culture:vlach
-				}
-				add = @correct_culture_primary_score
-			}
-		}
-		}
 		k_bulgaria = {
 			capital = c_turnovo
 			color = { 113 88 101 }
@@ -99107,264 +99409,6 @@ e_IRTOCK3_GAR = {
 		definite_form = no
 		ruler_uses_title_name = no
 	}
-	k_IRTOCK3_H69 = {
-		capital = c_tihamat-al-yamani
-		color = { 200 56 241 }
-		d_jawf-al-yamani = {
-			capital = c_jawf-al-yamani
-			color = { 230 240 40 }
-			c_jawf-al-yamani = {
-				color = { 227 242 42 }
-				b_main = {
-					color = { 227 242 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6299
-				}
-				b_shabwa = {
-					color = { 227 242 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6296
-				}
-				b_bayhan = {
-					color = { 227 242 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6297
-				}
-				b_baraqish = {
-					color = { 227 242 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6298
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_wabar = {
-				color = { 233 244 44 }
-				b_wabar = {
-					color = { 233 244 44 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6300
-				}
-				b_hisn_al-abr = {
-					color = { 233 244 44 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6301
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_sanaa = {
-			capital = c_sanaa
-			color = { 220 230 30 }
-			c_sanaa = {
-				color = { 225 235 36 }
-				b_sanaa = {
-					color = { 225 235 36 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6276
-				}
-				b_ash-sharaf = {
-					color = { 225 235 36 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6272
-				}
-				b_huth = {
-					color = { 225 235 36 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6273
-				}
-				b_ar-rayda = {
-					color = { 225 235 36 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6274
-				}
-				b_shibam-sanaa = {
-					color = { 225 235 36 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6275
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_tihamat-al-yamani = {
-				color = { 218 228 28 }
-				b_attar = {
-					color = { 218 228 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6240
-				}
-				b_harad = {
-					color = { 218 228 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6241
-				}
-				b_al-mahjam = {
-					color = { 218 228 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6270
-				}
-				b_kamaran = {
-					color = { 218 228 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6271
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_najran = {
-				color = { 223 231 34 }
-				b_najran = {
-					color = { 223 231 34 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6243
-				}
-				b_sada = {
-					color = { 223 231 34 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6242
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_zabid = {
-				color = { 216 225 25 }
-				b_zabid = {
-					color = { 216 225 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6280
-				}
-				b_fashal = {
-					color = { 216 225 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6278
-				}
-				b_ghalafiqa = {
-					color = { 216 225 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6279
-				}
-				b_mawza = {
-					color = { 216 225 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6281
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_asir = {
-			capital = c_aqiq
-			color = { 150 210 20 }
-			c_aqiq = {
-				color = { 147 207 17 }
-				b_aqiq_tamra = {
-					color = { 147 207 17 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6246
-				}
-				b_dam = {
-					color = { 147 207 17 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6245
-				}
-				b_sarba = {
-					color = { 147 207 17 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6247
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_asir = {
-				color = { 152 212 22 }
-				b_wadi_tathlith = {
-					color = { 152 212 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6244
-				}
-				b_wadi_ghamid = {
-					color = { 152 212 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 6232
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
 	k_sardinia = {
 		capital = c_cagliari
 		color = { 210 165 255 }
@@ -99764,80 +99808,6 @@ e_IRTOCK3_GAR = {
 	k_IRTOCK3_I96 = {
 		capital = c_tigre
 		color = { 192 65 151 }
-		d_dahlaks = {
-			capital = c_dahlak
-			color = { 196 146 82 }
-			c_dahlak = {
-				color = { 198 148 85 }
-				b_dahlak_kebir = {
-					color = { 198 148 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8280
-				}
-				b_gimhile = {
-					color = { 198 148 85 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8281
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_massawa = {
-				color = { 200 150 87 }
-				b_massawa = {
-					color = { 200 150 87 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8278
-				}
-				b_dehono = {
-					color = { 200 150 87 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8279
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_bur = {
-				color = { 202 152 89 }
-				b_buri = {
-					color = { 202 152 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8286
-				}
-				b_bur = {
-					color = { 202 152 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8287
-				}
-				b_saho = {
-					color = { 202 152 89 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8330
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
 		d_gondar = {
 			capital = c_dembiya
 			color = { 123 65 23 }
@@ -99931,6 +99901,94 @@ e_IRTOCK3_GAR = {
 					definite_form = no
 					ruler_uses_title_name = no
 					province = 8305
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_sanaag = {
+			capital = c_mait
+			color = { 205 29 29 }
+			c_mait = {
+				color = { 210 28 25 }
+				b_mait = {
+					color = { 210 28 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8425
+				}
+				b_laas_qoray = {
+					color = { 210 28 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8426
+				}
+				b_haylan = {
+					color = { 210 28 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8427
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_makhir = {
+				color = { 207 32 32 }
+				b_makhir = {
+					color = { 207 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8424
+				}
+				b_sheikh = {
+					color = { 207 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8502
+				}
+				b_togdheer = {
+					color = { 207 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8503
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_busaso = {
+				color = { 212 23 23 }
+				b_busaso = {
+					color = { 212 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8430
+				}
+				b_qumbucul = {
+					color = { 212 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8428
+				}
+				b_el-ayo = {
+					color = { 212 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8429
 				}
 				landless = no
 				definite_form = no
@@ -107445,6 +107503,223 @@ e_IRTOCK3_from_c_balkh = {
 e_IRTOCK3_from_c_fafan = {
 	capital = c_fafan
 	color = { 156 20 28 }
+	k_adal = {
+		capital = c_dakkar
+		color = { 136 28 28 }
+		d_dawaro = {
+			capital = c_dawaro
+			color = { 138 30 30 }
+			c_dawaro = {
+				color = { 140 32 32 }
+				b_karayu = {
+					color = { 140 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8354
+				}
+				b_dawaro = {
+					color = { 140 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8414
+				}
+				b_dawaro-west = {
+					color = { 140 32 32 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8415
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_gabal = {
+				color = { 142 34 35 }
+				b_bate = {
+					color = { 142 34 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8395
+				}
+				b_gendebelo = {
+					color = { 142 34 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8396
+				}
+				b_gabal = {
+					color = { 142 34 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8397
+				}
+				b_gabal_south = {
+					color = { 142 34 35 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8409
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_arusi = {
+				color = { 145 37 38 }
+				b_arusi = {
+					color = { 145 37 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8413
+				}
+				b_boke = {
+					color = { 145 37 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8384
+				}
+				b_arusi-north = {
+					color = { 145 37 38 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8412
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_adal = {
+			capital = c_dakkar
+			color = { 148 20 20 }
+			c_dakkar = {
+				color = { 150 22 22 }
+				b_dakkar = {
+					color = { 150 22 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8406
+				}
+				b_adal = {
+					color = { 150 22 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8393
+				}
+				b_aw_barre = {
+					color = { 150 22 22 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8402
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_harar = {
+				color = { 152 24 25 }
+				b_harar = {
+					color = { 152 24 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8407
+				}
+				b_west_adal = {
+					color = { 152 24 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8394
+				}
+				b_jebel_ahmar = {
+					color = { 152 24 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8410
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_hargaya = {
+				color = { 154 26 27 }
+				b_hargaya = {
+					color = { 154 26 27 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8408
+				}
+				b_hargaya-west = {
+					color = { 154 26 27 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8411
+				}
+				b_hargaya-south = {
+					color = { 154 26 27 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8416
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_fafan = {
+				color = { 156 20 28 }
+				b_fafan = {
+					color = { 156 20 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8420
+				}
+				b_hargeisa = {
+					color = { 156 20 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8405
+				}
+				b_fafan-south = {
+					color = { 156 20 28 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8500
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
 	landless = no
 	definite_form = no
 	ruler_uses_title_name = no
@@ -107466,6 +107741,101 @@ d_IRTOCK3_L49 = {
 e_IRTOCK3_from_c_cheboksary = {
 	capital = c_cheboksary
 	color = { 44 44 65 }
+	k_mordvinia = {
+		capital = c_cheboksary
+		color = { 38 66 71 }
+		d_mordvinia = {
+			capital = c_cheboksary
+			color = { 26 46 50 }
+			c_cheboksary = {
+				color = { 44 44 65 }
+				b_cheboksary = {
+					color = { 44 44 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 590
+				}
+				b_urmary = {
+					color = { 44 44 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5363
+				}
+				b_tzyvil = {
+					color = { 44 44 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5364
+				}
+				b_alatyr = {
+					color = { 44 44 65 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5365
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_lachyk-uba = {
+				color = { 36 36 50 }
+				b_lachyk-uba = {
+					color = { 36 36 50 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5359
+				}
+				b_morchansk = {
+					color = { 36 36 50 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					cultural_names = {
+						name_list_mordvin = cn_tumolaj
+						name_list_merya = cn_tumolaj
+						name_list_meshchera = cn_tumolaj
+						name_list_mari = cn_tumolaj
+						name_list_muroma = cn_tumolaj
+					}
+					province = 5360
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_rakcha = {
+				color = { 25 30 78 }
+				b_rakcha = {
+					color = { 25 30 78 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5362
+				}
+				b_chatzk = {
+					color = { 25 30 78 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 5361
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		landless = no
+		definite_form = no
+		ruler_uses_title_name = no
+	}
 	landless = no
 	definite_form = no
 	ruler_uses_title_name = no
@@ -120011,674 +120381,9 @@ e_IRTOCK3_heritage_heritage_somalian = {
 e_IRTOCK3_heritage_heritage_east_african = {
 	capital = c_intarta
 	color = { 178 162 17 }
-	k_adal = {
-		capital = c_dakkar
-		color = { 136 28 28 }
-		d_dawaro = {
-			capital = c_dawaro
-			color = { 138 30 30 }
-			c_dawaro = {
-				color = { 140 32 32 }
-				b_karayu = {
-					color = { 140 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8354
-				}
-				b_dawaro = {
-					color = { 140 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8414
-				}
-				b_dawaro-west = {
-					color = { 140 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8415
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_gabal = {
-				color = { 142 34 35 }
-				b_bate = {
-					color = { 142 34 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8395
-				}
-				b_gendebelo = {
-					color = { 142 34 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8396
-				}
-				b_gabal = {
-					color = { 142 34 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8397
-				}
-				b_gabal_south = {
-					color = { 142 34 35 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8409
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_arusi = {
-				color = { 145 37 38 }
-				b_arusi = {
-					color = { 145 37 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8413
-				}
-				b_boke = {
-					color = { 145 37 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8384
-				}
-				b_arusi-north = {
-					color = { 145 37 38 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8412
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_adal = {
-			capital = c_dakkar
-			color = { 148 20 20 }
-			c_dakkar = {
-				color = { 150 22 22 }
-				b_dakkar = {
-					color = { 150 22 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8406
-				}
-				b_adal = {
-					color = { 150 22 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8393
-				}
-				b_aw_barre = {
-					color = { 150 22 22 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8402
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_harar = {
-				color = { 152 24 25 }
-				b_harar = {
-					color = { 152 24 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8407
-				}
-				b_west_adal = {
-					color = { 152 24 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8394
-				}
-				b_jebel_ahmar = {
-					color = { 152 24 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8410
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_hargaya = {
-				color = { 154 26 27 }
-				b_hargaya = {
-					color = { 154 26 27 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8408
-				}
-				b_hargaya-west = {
-					color = { 154 26 27 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8411
-				}
-				b_hargaya-south = {
-					color = { 154 26 27 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8416
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_fafan = {
-				color = { 156 20 28 }
-				b_fafan = {
-					color = { 156 20 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8420
-				}
-				b_hargeisa = {
-					color = { 156 20 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8405
-				}
-				b_fafan-south = {
-					color = { 156 20 28 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8500
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
 	k_abyssinia = {
 		capital = c_lasta
 		color = { 50 99 38 }
-				d_sanaag = {
-			capital = c_mait
-			color = { 205 29 29 }
-			c_mait = {
-				color = { 210 28 25 }
-				b_mait = {
-					color = { 210 28 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8425
-				}
-				b_laas_qoray = {
-					color = { 210 28 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8426
-				}
-				b_haylan = {
-					color = { 210 28 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8427
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_makhir = {
-				color = { 207 32 32 }
-				b_makhir = {
-					color = { 207 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8424
-				}
-				b_sheikh = {
-					color = { 207 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8502
-				}
-				b_togdheer = {
-					color = { 207 32 32 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8503
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_busaso = {
-				color = { 212 23 23 }
-				b_busaso = {
-					color = { 212 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8430
-				}
-				b_qumbucul = {
-					color = { 212 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8428
-				}
-				b_el-ayo = {
-					color = { 212 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8429
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-
-		d_lasta = {
-			capital = c_lasta
-			color = { 205 155 95 }
-			c_lasta = {
-				color = { 207 157 97 }
-				b_lalibela = {
-					color = { 207 157 97 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8301
-				}
-				b_tekeze = {
-					color = { 207 157 97 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8297
-				}
-				b_lasta = {
-					color = { 207 157 97 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8298
-				}
-				b_adafa = {
-					color = { 207 157 97 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8299
-				}
-				b_doba = {
-					color = { 207 157 97 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8300
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_hayq = {
-				color = { 209 159 99 }
-				b_hayq = {
-					color = { 209 159 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8326
-				}
-				b_dabahu = {
-					color = { 209 159 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8336
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_angot = {
-				color = { 211 161 101 }
-				b_angot = {
-					color = { 211 161 101 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8308
-				}
-				b_bashila = {
-					color = { 211 161 101 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8318
-				}
-				b_gishe = {
-					color = { 211 161 101 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8319
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_amhara = {
-				color = { 213 155 99 }
-				b_amhara = {
-					color = { 213 155 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8324
-				}
-				b_east_amhara = {
-					color = { 213 155 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8325
-				}
-				b_wagda = {
-					color = { 213 155 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8328
-				}
-				b_walaqa = {
-					color = { 213 155 99 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8329
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_danakil = {
-			capital = c_danakil
-			color = { 165 35 45 }
-			c_danakil = {
-				color = { 167 37 47 }
-				b_amarta = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8334
-				}
-				b_ragali = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8333
-				}
-				b_afera = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8335
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_edd = {
-				color = { 167 37 47 }
-				b_edd = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8332
-				}
-				b_edd-north = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8331
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_afar = {
-				color = { 167 37 47 }
-				b_afar = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8339
-				}
-				b_south_danakil = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8337
-				}
-				b_north_afar = {
-					color = { 167 37 47 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8338
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_zaila = {
-			capital = c_zaila
-			color = { 169 19 19 }
-			c_zaila = {
-				color = { 173 23 23 }
-				b_zaila = {
-					color = { 173 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8400
-				}
-				b_abasa = {
-					color = { 173 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8398
-				}
-				b_ghoubet = {
-					color = { 173 23 23 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8399
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_tadjoura = {
-				color = { 171 21 21 }
-				b_tadjoura = {
-					color = { 171 21 21 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8342
-				}
-				b_assab = {
-					color = { 171 21 21 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8340
-				}
-				b_awbuk = {
-					color = { 171 21 21 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8341
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_berbera = {
-				color = { 175 25 25 }
-				b_berbera = {
-					color = { 175 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8404
-				}
-				b_amud = {
-					color = { 175 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8401
-				}
-				b_gogesa = {
-					color = { 175 25 25 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8403
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		d_mora = {
-			capital = c_awssa
-			color = { 160 30 40 }
-			c_awssa = {
-				color = { 162 32 42 }
-				b_awssa = {
-					color = { 162 32 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8344
-				}
-				b_mora-awssa = {
-					color = { 162 32 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8343
-				}
-				b_awash = {
-					color = { 162 32 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8345
-				}
-				b_abbe = {
-					color = { 162 32 42 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8391
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_sitti = {
-				color = { 163 28 43 }
-				b_sitti = {
-					color = { 163 28 43 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8392
-				}
-				b_middle_awash = {
-					color = { 163 28 43 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 8346
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
 		d_socotra = {
 			capital = c_socotra
 			color = { 142 255 85 }
@@ -121663,6 +121368,80 @@ e_IRTOCK3_heritage_heritage_east_african = {
 	k_IRTOCK3_QOH = {
 		capital = c_intarta
 		color = { 44 239 36 }
+		d_dahlaks = {
+			capital = c_dahlak
+			color = { 196 146 82 }
+			c_dahlak = {
+				color = { 198 148 85 }
+				b_dahlak_kebir = {
+					color = { 198 148 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8280
+				}
+				b_gimhile = {
+					color = { 198 148 85 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8281
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_massawa = {
+				color = { 200 150 87 }
+				b_massawa = {
+					color = { 200 150 87 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8278
+				}
+				b_dehono = {
+					color = { 200 150 87 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8279
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_bur = {
+				color = { 202 152 89 }
+				b_buri = {
+					color = { 202 152 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8286
+				}
+				b_bur = {
+					color = { 202 152 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8287
+				}
+				b_saho = {
+					color = { 202 152 89 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8330
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
 		landless = no
 		definite_form = no
 		ruler_uses_title_name = no
@@ -121670,7 +121449,365 @@ e_IRTOCK3_heritage_heritage_east_african = {
 	k_IRTOCK3_J60 = {
 		capital = c_zaila
 		color = { 54 231 35 }
-		
+		d_lasta = {
+			capital = c_lasta
+			color = { 205 155 95 }
+			c_lasta = {
+				color = { 207 157 97 }
+				b_lalibela = {
+					color = { 207 157 97 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8301
+				}
+				b_tekeze = {
+					color = { 207 157 97 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8297
+				}
+				b_lasta = {
+					color = { 207 157 97 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8298
+				}
+				b_adafa = {
+					color = { 207 157 97 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8299
+				}
+				b_doba = {
+					color = { 207 157 97 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8300
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_hayq = {
+				color = { 209 159 99 }
+				b_hayq = {
+					color = { 209 159 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8326
+				}
+				b_dabahu = {
+					color = { 209 159 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8336
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_angot = {
+				color = { 211 161 101 }
+				b_angot = {
+					color = { 211 161 101 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8308
+				}
+				b_bashila = {
+					color = { 211 161 101 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8318
+				}
+				b_gishe = {
+					color = { 211 161 101 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8319
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_amhara = {
+				color = { 213 155 99 }
+				b_amhara = {
+					color = { 213 155 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8324
+				}
+				b_east_amhara = {
+					color = { 213 155 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8325
+				}
+				b_wagda = {
+					color = { 213 155 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8328
+				}
+				b_walaqa = {
+					color = { 213 155 99 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8329
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_danakil = {
+			capital = c_danakil
+			color = { 165 35 45 }
+			c_danakil = {
+				color = { 167 37 47 }
+				b_amarta = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8334
+				}
+				b_ragali = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8333
+				}
+				b_afera = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8335
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_edd = {
+				color = { 167 37 47 }
+				b_edd = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8332
+				}
+				b_edd-north = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8331
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_afar = {
+				color = { 167 37 47 }
+				b_afar = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8339
+				}
+				b_south_danakil = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8337
+				}
+				b_north_afar = {
+					color = { 167 37 47 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8338
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_zaila = {
+			capital = c_zaila
+			color = { 169 19 19 }
+			c_zaila = {
+				color = { 173 23 23 }
+				b_zaila = {
+					color = { 173 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8400
+				}
+				b_abasa = {
+					color = { 173 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8398
+				}
+				b_ghoubet = {
+					color = { 173 23 23 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8399
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_tadjoura = {
+				color = { 171 21 21 }
+				b_tadjoura = {
+					color = { 171 21 21 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8342
+				}
+				b_assab = {
+					color = { 171 21 21 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8340
+				}
+				b_awbuk = {
+					color = { 171 21 21 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8341
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_berbera = {
+				color = { 175 25 25 }
+				b_berbera = {
+					color = { 175 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8404
+				}
+				b_amud = {
+					color = { 175 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8401
+				}
+				b_gogesa = {
+					color = { 175 25 25 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8403
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
+		d_mora = {
+			capital = c_awssa
+			color = { 160 30 40 }
+			c_awssa = {
+				color = { 162 32 42 }
+				b_awssa = {
+					color = { 162 32 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8344
+				}
+				b_mora-awssa = {
+					color = { 162 32 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8343
+				}
+				b_awash = {
+					color = { 162 32 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8345
+				}
+				b_abbe = {
+					color = { 162 32 42 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8391
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			c_sitti = {
+				color = { 163 28 43 }
+				b_sitti = {
+					color = { 163 28 43 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8392
+				}
+				b_middle_awash = {
+					color = { 163 28 43 }
+					landless = no
+					definite_form = no
+					ruler_uses_title_name = no
+					province = 8346
+				}
+				landless = no
+				definite_form = no
+				ruler_uses_title_name = no
+			}
+			landless = no
+			definite_form = no
+			ruler_uses_title_name = no
+		}
 		landless = no
 		definite_form = no
 		ruler_uses_title_name = no
@@ -129597,101 +129734,6 @@ e_IRTOCK3_heritage_heritage_ugro_permian = {
 e_IRTOCK3_heritage_heritage_iranian = {
 	capital = c_yaroslavl
 	color = { 26 153 204 }
-	k_mordvinia = {
-		capital = c_cheboksary
-		color = { 38 66 71 }
-		d_mordvinia = {
-			capital = c_cheboksary
-			color = { 26 46 50 }
-			c_cheboksary = {
-				color = { 44 44 65 }
-				b_cheboksary = {
-					color = { 44 44 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 590
-				}
-				b_urmary = {
-					color = { 44 44 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5363
-				}
-				b_tzyvil = {
-					color = { 44 44 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5364
-				}
-				b_alatyr = {
-					color = { 44 44 65 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5365
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_lachyk-uba = {
-				color = { 36 36 50 }
-				b_lachyk-uba = {
-					color = { 36 36 50 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5359
-				}
-				b_morchansk = {
-					color = { 36 36 50 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					cultural_names = {
-						name_list_mordvin = cn_tumolaj
-						name_list_merya = cn_tumolaj
-						name_list_meshchera = cn_tumolaj
-						name_list_mari = cn_tumolaj
-						name_list_muroma = cn_tumolaj
-					}
-					province = 5360
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			c_rakcha = {
-				color = { 25 30 78 }
-				b_rakcha = {
-					color = { 25 30 78 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5362
-				}
-				b_chatzk = {
-					color = { 25 30 78 }
-					landless = no
-					definite_form = no
-					ruler_uses_title_name = no
-					province = 5361
-				}
-				landless = no
-				definite_form = no
-				ruler_uses_title_name = no
-			}
-			landless = no
-			definite_form = no
-			ruler_uses_title_name = no
-		}
-		landless = no
-		definite_form = no
-		ruler_uses_title_name = no
-	}
 	k_IRTOCK3_J39 = {
 		capital = c_kerch
 		color = { 65 138 192 }
@@ -132303,52 +132345,6 @@ e_IRTOCK3_heritage_heritage_iranian = {
 			landless = no
 			definite_form = no
 			ruler_uses_title_name = no
-		}
-		d_garabogazkol = {	#Garabogazköl
-			color = { 215 70 0 }
-
-			c_garabogazkol = {		#Garabogazköl
-				color = { 235 90 20 }
-
-				b_kyzyl-su = {
-					province = 627
-
-					color = { 235 90 20 }
-				}
-				b_yangadzha = {
-					province = 631
-
-					color = { 235 90 20 }
-				}
-			}
-			c_bekdas = {
-				color = { 225 140 40 }
-
-				b_bekdas = {
-					province = 7085
-
-					color = { 225 140 40 }
-				}
-				b_sumbe = {
-					province = 7086
-
-					color = { 225 140 40 }
-				}
-			}
-			c_oglamych = {
-				color = { 210 105 5 }
-
-				b_oglamych = {
-					province = 7088
-
-					color = { 210 105 5 }
-				}
-				b_kum-sebszen = {
-					province = 7087
-
-					color = { 210 105 5 }
-				}
-			}
 		}
 		d_jemba = {
 			capital = c_qoshagyl

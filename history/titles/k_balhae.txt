@@ -20,77 +20,77 @@ d_LIAO_dongjing={
 	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_LIAO_shenyang_holder liege = 0 }
 }
 c_BAL_changchun={
-	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 3 }
 }
 c_BAL_dongju={
-	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 3 }
 }
 c_BAL_east_amnok={
-	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 3 }
 }
 c_BAL_east_hyeondeok={
-	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 3 }
 }
 c_BAL_east_jangryeong={
-	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 3 }
 }
 c_BAL_fengzhou={
-	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 3 }
 }
 c_BAL_fuzhou={
-	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 3 }
 }
 c_BAL_makhil={
-	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 3 }
 }
 c_BAL_namhae={
-	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 3 }
 }
 c_BAL_northyongwon={
-	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 3 }
 }
 c_BAL_sokju={
-	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 3 }
 }
 c_BAL_southyongwon={
-	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_namhae_holder change_development_level = 3 }
 }
 c_BAL_west_amnok={
-	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 3 }
 }
 c_BAL_west_hyeondeok={
-	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 3 }
 }
 c_BAL_west_jangryeong={
-	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_east_amnok_holder change_development_level = 3 }
 }
 c_BAL_west_makhil={
-	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_makhil_holder change_development_level = 3 }
 }
 c_BAL_xinzhou={
-	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 3 }
 }
 c_BAL_yeongju={
-	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 3 }
 }
 c_BAL_yizhou={
-	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_changchun_holder change_development_level = 3 }
 }
 c_BAL_yongcheon={
-	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_BAL_yongcheon_holder change_development_level = 3 }
 }
 c_LIAO_diezhou={
-	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 3 }
 }
 c_LIAO_guidezhou={
-	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 3 }
 }
 c_LIAO_shenyang={
-	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 3 }
 }
 c_LIAO_yinzhou={
-	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 3 }
 }
 c_LIAO_zhenzhou={
-	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_LIAO_shenyang_holder change_development_level = 3 }
 }

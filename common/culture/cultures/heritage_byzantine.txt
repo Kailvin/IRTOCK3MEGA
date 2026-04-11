@@ -2,7 +2,7 @@
 	color = rgb { 148 189 242 }
 	heritage = heritage_byzantine
 	language = language_greek
-	traditions = { tradition_warrior_culture tradition_legalistic tradition_astute_diplomats }
+	traditions = { tradition_ep3_roman_ceremonies tradition_republican_legacy tradition_fp3_beacon_of_learning tradition_city_keepers tradition_maritime_mercantilism }
 	name_list = name_list_ancient_greek
 	name_list = name_list_trojan
 	ethos = ethos_bureaucratic

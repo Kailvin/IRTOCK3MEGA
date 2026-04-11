@@ -3106,7 +3106,7 @@ IRToCK3_d_iceland_hermit={
 }
 IRToCK3_head_of_faith_haymanot={
 	name = Uways
-	culture = qahtanite
+	culture = bedouin
 	faith = haymanot
 	trait = chaste
 	trait = celibate
@@ -3115,7 +3115,7 @@ IRToCK3_head_of_faith_haymanot={
 }
 IRToCK3_head_of_faith_karaism={
 	name = Ashraf
-	culture = adnanite
+	culture = bedouin
 	faith = karaism
 	trait = chaste
 	trait = celibate

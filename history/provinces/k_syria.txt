@@ -63,7 +63,7 @@
 	holding = city_holding
 }
 5924={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -71,7 +71,7 @@
 	holding = none
 }
 5926={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -123,7 +123,7 @@
 	holding = city_holding
 }
 5940={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -131,7 +131,7 @@
 	holding = none
 }
 5942={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -139,7 +139,7 @@
 	holding = none
 }
 5945={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -150,7 +150,7 @@
 	holding = none
 }
 5948={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -158,12 +158,12 @@
 	holding = none
 }
 5950={
-	culture = adnanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
 5951={
-	culture = adnanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }

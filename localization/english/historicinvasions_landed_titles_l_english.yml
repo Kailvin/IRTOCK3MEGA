@@ -26,6 +26,9 @@
  k_ziyarid:0 "$hi_dynn_ziyarid$"
  k_ziyarid_adj:0 "Gilak"
 
+ k_indus:0 "Indus"
+ k_indus_adj: :Indian"
+
  e_ayyubid_article:0 "the "
  e_ayyubid:0 "$hi_dynn_hadabanid_house_ayyubid$ $empire_feudal_iranian_group$"
  e_ayyubid_adj:0 "$kurdish$"

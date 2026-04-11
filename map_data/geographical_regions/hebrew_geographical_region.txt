@@ -1,0 +1,38 @@
+﻿###  hebrew Conquest Regions
+
+special_hebrew_conquest_region_1 = {
+	duchies = {
+		d_palestine
+		d_oulterjourdain
+		d_urdunn
+		d_amman
+	}
+}
+special_hebrew_conquest_region_2 = {
+	duchies = {
+		d_shammar
+		d_medina
+		d_mecca
+		d_sanaa
+		d_asir
+		d_damascus
+		d_lebanon
+		d_cyprus
+	}
+}
+
+
+
+
+special_hebrew_conquest_region_start = {
+	regions = {
+		special_hebrew_conquest_region_1
+	}
+}
+
+special_hebrew_conquest_region_total = {
+	regions = {
+		special_hebrew_conquest_region_1
+		special_hebrew_conquest_region_2
+	}
+}

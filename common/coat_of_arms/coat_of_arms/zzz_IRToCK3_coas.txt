@@ -145,6 +145,28 @@ d_IRTOCK3_SCI={
 	}
 
 }
+e_britannia={
+pattern = "pattern_solid.tga"
+	color1 = rgb { 0 66 0 }
+	color2 = "hibernia_color"
+	
+	colored_emblem = {
+		texture = "ce_tir_tairngire.dds"
+		color1 = rgb { 243 174 9 }
+	}
+}
+k_indus={
+	pattern = "pattern_solid.dds"
+	color1 = "roman_red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_lion_pillar_india.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { position = { 0.5 0.45 } scale = { 0.90 0.80 }  }
+	}
+}
 k_IRTOCK3_MNA={
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 66 0 }

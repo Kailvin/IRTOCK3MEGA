@@ -1,6 +1,6 @@
 2633={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2634={
@@ -8,7 +8,7 @@
 }
 2635={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2636={
@@ -27,7 +27,7 @@
 }
 2640={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2641={
@@ -47,6 +47,6 @@
 }
 2646={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }

@@ -3,7 +3,7 @@
 }
 2031={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2034={
@@ -22,12 +22,12 @@
 }
 2039={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2040={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2042={
@@ -64,12 +64,12 @@
 }
 2777={
 	culture = hellenic_greek
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2778={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2779={
@@ -83,12 +83,12 @@
 }
 2782={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2783={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2784={
@@ -99,7 +99,7 @@
 }
 2786={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2787={
@@ -110,7 +110,7 @@
 }
 2950={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 	special_building_slot = schwaz_mines_01
 }
@@ -128,12 +128,12 @@
 }
 2955={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2971={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2972={
@@ -144,7 +144,7 @@
 }
 2975={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2976={
@@ -152,7 +152,7 @@
 }
 2977={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2978={
@@ -228,7 +228,7 @@
 }
 3089={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3090={
@@ -244,7 +244,7 @@
 }
 3093={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3094={
@@ -285,7 +285,7 @@
 }
 3105={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3106={
@@ -358,7 +358,7 @@
 }
 3128={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3129={
@@ -369,7 +369,7 @@
 }
 3131={
 	culture = langobard
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3132={
@@ -380,12 +380,12 @@
 }
 3134={
 	culture = frankish
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3135={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 3137={

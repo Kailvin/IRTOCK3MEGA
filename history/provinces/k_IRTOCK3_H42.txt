@@ -6,7 +6,7 @@
 }
 2501={
 	culture = frankish
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2502={
@@ -14,7 +14,7 @@
 }
 2503={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2504={
@@ -68,7 +68,7 @@
 }
 2517={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 	special_building_slot = doges_palace_01
 }
@@ -77,7 +77,7 @@
 }
 2525={
 	culture = roman
-	faith = hellenic_pagan
+	faith = eleusinian_mysteries
 	holding = castle_holding
 }
 2666={

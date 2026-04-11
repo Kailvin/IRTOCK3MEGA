@@ -2464,6 +2464,44 @@ indus_invasion_on_action = { # 370 or random
 		}
 	}
 }
+hebrew_invasion_on_action = { # 370 or random
+	trigger = {
+		current_date > 430.1.1
+		current_date < 500.1.1
+		# game start date irrelevant
+		NOT = { has_game_rule = never_attila_invasion }
+		exists = title:k_israel # update compatibility - new titles in old saves return false
+		NOT = { # is set in story
+			is_target_in_global_variable_list = {
+				name = historicinvasions_story_started
+				target = flag:indus_story_started
+			}
+		}
+	}
+	effect = {
+			random = {
+				chance = 0
+				modifier = {
+					add = 5
+					current_date > 430.1.1
+				}
+				modifier = {
+					add = 15
+					current_date > 440.1.1
+				}
+				modifier = {
+					add = 30
+					current_date > 450.1.1
+				}
+				debug_log = "attempting to trigger israel story soon"
+				trigger_event = {
+					id = hebrew_invasion.0001
+					days = { 2 240 } # keep this smaller than 1 year if the global variable is set in event .0001
+				}
+			}
+		}
+	}
+}
 jihad_invasion_on_action = { # 370 or random
 	trigger = {
 		current_date > 600.1.1
@@ -2495,7 +2533,7 @@ jihad_invasion_on_action = { # 370 or random
 				}
 				debug_log = "attempting to trigger attila story soon"
 				trigger_event = {
-					id = indus_invasion.0001
+					id = jihad_invasion.0001
 					days = { 2 240 } # keep this smaller than 1 year if the global variable is set in event .0001
 				}
 			}

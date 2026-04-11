@@ -8,32 +8,32 @@ d_south_saikaido={
 	423.7.6 = { government = japan_administrative_government holder = IRToCK3_c_satsuma_holder liege = 0 }
 }
 c_bungo={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }
 c_buzen={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }
 c_chikugo={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }
 c_chikuzen={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }
 c_higo={
-	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 4 }
 }
 c_hizen={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }
 c_hyuga={
-	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 4 }
 }
 c_osumi={
-	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 4 }
 }
 c_satsuma={
-	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_satsuma_holder change_development_level = 4 }
 }
 c_tsushima={
-	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 8 }
+	423.7.6 = { holder = IRToCK3_c_chikuzen_holder change_development_level = 4 }
 }

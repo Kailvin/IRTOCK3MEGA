@@ -1,5 +1,5 @@
 k_fujian={
-	423.7.6 = { liege = 0 }
+	423.7.6 = { change_development_level = 8 liege = 0 }
 }
 d_jianning={
 	423.7.6 = { government = feudal_government holder = IRToCK3_c_jian_an_holder liege = 0 }

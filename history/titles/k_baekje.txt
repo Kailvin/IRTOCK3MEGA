@@ -1,5 +1,5 @@
 k_baekje={
-	423.7.6 = { holder = IRToCK3_c_jeonju_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_jeonju_holder liege = 0 }
 }
 d_chungju={
 	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_chungju_holder liege = k_baekje }

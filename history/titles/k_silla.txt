@@ -1,5 +1,5 @@
 k_silla={
-	423.7.6 = {  holder = IRToCK3_c_ulju_holder liege = 0 }
+	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_ulju_holder liege = 0 }
 }
 d_donggye={
 	423.7.6 = { government = meritocratic_government holder = IRToCK3_c_myeongju_holder liege = k_silla }

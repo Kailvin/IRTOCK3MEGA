@@ -1,0 +1,6 @@
+﻿l_russian:
+ h_africa: "Африка"
+ h_africa_adj: "Африканск"
+ h_africa_pre: "Африканск"
+ 
+ unite_africa_decision_hegemony_of_africa: "[africa_heg.GetName] получит [de_jure|El] права на все африканские [Concept('empire', 'имперские')|E] [Concept('title', 'титулы')|E]"

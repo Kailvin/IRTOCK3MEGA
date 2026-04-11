@@ -1,0 +1,6 @@
+﻿l_polish:
+ h_africa: "Afryka"
+ h_africa_adj: "Afryki"
+ h_africa_pre: "Afrykańsko"
+
+ unite_africa_decision_hegemony_of_africa: "Każdy afrykański [title|El] [Concept('empire', 'imperium')|E], który posiadasz, stanie się [de_jure|El] [africa_heg.GetName]"

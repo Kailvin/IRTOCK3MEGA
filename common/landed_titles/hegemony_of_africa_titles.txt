@@ -1,0 +1,8 @@
+﻿h_africa = {
+	color = { 177 151 80 }
+	capital = c_kanem #	Manan
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+}

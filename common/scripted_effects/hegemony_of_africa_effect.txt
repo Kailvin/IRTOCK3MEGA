@@ -1,0 +1,118 @@
+﻿unite_africa_decision_effects = {
+	#Prestige
+	add_prestige = massive_prestige_gain
+
+	#Religion bonuses
+	if = {
+		limit = {
+			faith = {
+				OR = {
+					religion_tag = islam_religion
+					religion_tag = west_african_roog_religion
+					religion_tag = west_african_religion
+					religion_tag = west_african_bori_religion
+					this = faith:coptic
+
+				}
+			}
+		}
+		add_piety = massive_piety_gain
+		faith = {
+			change_fervor = {
+				value = medium_fervor_gain
+				desc = fervor_gain_united_africa
+			}
+		}
+
+		if = {
+			limit = {
+				any_vassal_or_below = {
+					faith != scope:africa_uniter.faith
+					is_ai = yes
+					capital_province ?= { geographical_region = world_africa }
+				}
+			}
+			every_vassal_or_below = {
+				custom = every_non_root_faith_vassal_africa
+				limit = {
+					faith != scope:africa_uniter.faith
+					is_ai = yes
+					capital_province ?= { geographical_region = world_africa }
+				}
+				random = {
+					chance = 33
+					set_character_faith = scope:africa_uniter.faith
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				any_realm_province = {
+					faith != scope:africa_uniter.faith
+					geographical_region = world_africa
+				}
+			}
+			every_realm_province = {
+				limit = {
+					faith != scope:africa_uniter.faith
+					geographical_region = world_africa
+				}
+				county = { add_to_list = every_realm_county }
+			}
+
+			every_in_list = {
+				list = every_realm_county
+				custom = every_non_root_faith_county_africa
+				random = {
+					chance = 33
+					custom_tooltip = every_non_africa_uniter_faith_convert
+					hidden_effect = { set_county_faith = scope:africa_uniter.faith }
+				}
+			}
+		}
+	}
+	
+	# update hegemony capital
+	title:h_africa = { set_capital_county = scope:africa_uniter.capital_province.county }
+	
+	#Create the title and make it primary
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:h_africa = {
+		change_title_holder = {
+			holder = root
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+	set_primary_title_to = title:h_africa
+	
+	# Inform players of the de jure drift
+	title:h_africa = {
+		save_scope_as = africa_heg
+		custom_tooltip = unite_africa_decision_hegemony_of_africa  #Scope change for tooltip formatting.
+	}
+	
+	# add all empires to the list
+	title:e_maghreb = { add_to_list = african_empires }
+	title:e_mali = { add_to_list = african_empires }
+	title:e_guinea = { add_to_list = african_empires }
+	title:e_kanem_bornu = { add_to_list = african_empires }
+	title:e_abyssinia = { add_to_list = african_empires }
+	title:e_azania = { add_to_list = african_empires }
+	
+	hidden_effect = {
+		# move egypt to abyssinia
+		title:k_egypt = { set_de_jure_liege_title = title:e_abyssinia }
+		
+		# move empires to hegemony
+		every_in_list = {
+			list = african_empires
+			set_de_jure_liege_title = scope:africa_uniter.primary_title
+		}
+	}
+}

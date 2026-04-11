@@ -1,0 +1,6 @@
+﻿l_french:
+ h_africa: "Ifriqiya"
+ h_africa_adj: "africaine"
+ h_africa_pre: "afro"
+
+ unite_africa_decision_hegemony_of_africa: "Chaque [title|El] de [empire|El] africaine deviendra un territoire [de_jure|El] de l’[africa_heg.GetName]"

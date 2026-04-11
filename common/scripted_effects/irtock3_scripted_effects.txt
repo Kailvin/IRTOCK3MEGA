@@ -408,6 +408,7 @@ irtock3_setup_governments = {
 					if = {
 						limit = {
 							NOT = { has_government = nomad_government }
+							NOT = { has_government = meritocratic_government }
 						}
 						change_government = nomad_government # Make them Nomadic
 					}
@@ -427,6 +428,7 @@ irtock3_setup_governments = {
 					else_if = {
 						limit = {
 							NOT = { has_government = tribal_government }
+							NOT = { has_government = meritocratic_government }
 						}
 						change_government = tribal_government # Make them Tribal
 					}

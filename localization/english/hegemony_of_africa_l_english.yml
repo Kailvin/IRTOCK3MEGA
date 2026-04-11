@@ -1,0 +1,6 @@
+﻿l_english:
+ h_africa: "Africa"
+ h_africa_adj: "African"
+ h_africa_pre: "Afro"
+
+ unite_africa_decision_hegemony_of_africa: "Every African [empire|E] [title|E] will become [de_jure|E] of the [africa_heg.GetName]"

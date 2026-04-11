@@ -1,5 +1,5 @@
 6282={
-	culture = qahtanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = tribal_holding
 }
@@ -7,7 +7,7 @@
 	holding = church_holding
 }
 6284={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -30,7 +30,7 @@
 	holding = city_holding
 }
 6291={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -50,17 +50,17 @@
 	holding = none
 }
 6312={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
 6313={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
 6314={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }

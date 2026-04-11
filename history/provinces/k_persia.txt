@@ -87,12 +87,12 @@
 	holding = none
 }
 4088={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
 4089={
-	culture = qahtanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -193,7 +193,7 @@
 	holding = city_holding
 }
 4185={
-	culture = qahtanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -213,7 +213,7 @@
 	holding = none
 }
 4191={
-	culture = qahtanite
+	culture = bedouin
 	faith = arabic_pagan
 	holding = castle_holding
 }
@@ -221,7 +221,7 @@
 	holding = none
 }
 4193={
-	culture = qahtanite
+	culture = bedouin
 	faith = orthodox
 	holding = castle_holding
 }
@@ -269,7 +269,7 @@
 	holding = none
 }
 4265={
-	culture = qahtanite
+	culture = bedouin
 	faith = hellenic_pagan
 	holding = castle_holding
 }
@@ -280,7 +280,7 @@
 	holding = none
 }
 4268={
-	culture = qahtanite
+	culture = bedouin
 	faith = rabbinism
 	holding = castle_holding
 }

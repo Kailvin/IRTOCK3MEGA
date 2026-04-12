@@ -48,6 +48,10 @@ yearly_global_pulse = {
 		rajasa_invasion_on_action # 1293
 		liao_invasion_on_action # 916
 		ahom_invasion_on_action # 1228
+		saxon_invasion_on_action
+		indus_invasion_on_action
+		hebrew_invasion_on_action
+		jihad_invasion_on_action
 
 		turkish_migrations_on_action # 1080
 
@@ -2355,7 +2359,6 @@ attila_invasion_on_action = { # 370 or random
 		current_date > 430.1.1
 		current_date < 500.1.1
 		# game start date irrelevant
-		NOT = { has_game_rule = never_attila_invasion }
 		exists = title:e_attila # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
@@ -2393,7 +2396,6 @@ saxon_invasion_on_action = { # 370 or random
 		current_date > 430.1.1
 		current_date < 500.1.1
 		# game start date irrelevant
-		NOT = { has_game_rule = never_attila_invasion }
 		exists = title:k_england # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
@@ -2431,7 +2433,6 @@ indus_invasion_on_action = { # 370 or random
 		current_date > 430.1.1
 		current_date < 500.1.1
 		# game start date irrelevant
-		NOT = { has_game_rule = never_attila_invasion }
 		exists = title:k_indus # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
@@ -2469,7 +2470,6 @@ hebrew_invasion_on_action = { # 370 or random
 		current_date > 430.1.1
 		current_date < 500.1.1
 		# game start date irrelevant
-		NOT = { has_game_rule = never_attila_invasion }
 		exists = title:k_israel # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
@@ -2507,7 +2507,6 @@ jihad_invasion_on_action = { # 370 or random
 		current_date > 600.1.1
 		current_date < 700.1.1
 		# game start date irrelevant
-		NOT = { has_game_rule = never_attila_invasion }
 		exists = title:k_hejaz # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
@@ -2581,7 +2580,6 @@ argead_invasion_on_action = { # random
 maurya_invasion_on_action = { # random
 	trigger = {
 		# game start date irrelevant
-		NOT = { has_game_rule = never_maurya_invasion }
 		exists = title:e_maurya # update compatibility - new titles in old saves return false
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {

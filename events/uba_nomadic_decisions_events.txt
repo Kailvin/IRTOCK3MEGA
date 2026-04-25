@@ -1,0 +1,60 @@
+﻿namespace = uba_nomadic_decisions
+
+uba_nomadic_decisions.0001 = {
+	type = character_event
+	title = uba_nomadic_decisions.0001.t
+	desc = uba_nomadic_decisions.0001.desc
+	theme = nomads
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#是的
+	option = {
+		name = uba_nomadic_decisions.0001.a
+		uba_nomadic_upgrade_effect = yes
+		trigger = {
+			NOR = {
+				AND = {
+					scope:barony.title_province = { has_building_or_higher = UBA_hunting_04 }
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:$BUILDING$_finished
+					}
+				}
+				AND = {
+					scope:barony.title_province = { has_building_or_higher = UBA_pasture_04 }
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:$BUILDING$_finished
+					}
+				}
+				AND = {
+					scope:barony.title_province = { has_building_or_higher = UBA_yurt_04 }
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:$BUILDING$_finished
+					}
+				}
+			}
+		}
+	}
+
+	#算了（放弃）
+	option = {
+		name = uba_decisions.0001.cancel
+		if = {
+			limit = {
+				government_has_flag = government_is_nomadic
+				exists = domicile
+			}
+			domicile = {
+				change_herd = 2000
+			}
+		}
+		add_gold = massive_prestige_value
+		add_prestige_no_experience = massive_prestige_value
+		remove_decision_cooldown = uba_nomadic_building_decision
+	}
+}

@@ -1,0 +1,389 @@
+﻿# AoR Geographical regions
+
+rba_monsoon_region = {
+	kingdoms = {
+		# 中国 秦淮线以南
+		k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou k_qianzhong k_lingnan k_lingxi k_dali
+		# 日本
+		k_tsukushi k_yamato k_azuma
+	}
+	duchies = {
+		# 金商
+		d_jinshang 
+		# 朝鲜半岛南部
+		d_chungju d_jeonju d_naju d_gyeongju d_jinju d_tamna
+		# 云南缅甸
+		d_mongnai d_yongchang d_tengchong
+		# 藏南
+		d_bumthang d_paro d_monyul d_lhoyul d_dzayul
+		# 台湾
+		d_liuqiu
+		# 琉球
+		d_ruucuu
+		
+		# dlc_tgp_mainland_southeast_asia_region
+		# Vietnam
+		d_hai_dong d_thang_long d_lam_tay d_nghe_an d_indrapura d_vijaya d_baigaur
+		# Laos
+		d_phonsavan d_sipsongpanna # also a bit of thailand tbh
+		# Cambodia
+		d_angkor d_vyadhapura d_ratanakiri d_angkor_borey
+		# Thailand
+		d_haripunjaya d_lop_buri d_sukhothai d_tun_sun d_muang_sua d_mukdahan 
+		# Myanmar
+		d_mongnai d_ramannadesa d_sriksetra d_pagan d_tagaung d_arakan
+		# 马来亚
+		d_MAL_langkasuka d_MAL_pahang
+
+		# world_asia_southeast_islands
+		#Philippines
+		d_PHI_tondo d_PHI_ilocana d_PHI_cagayan d_PHI_sandao d_PHI_visayas d_PHI_maguindanao d_PHI_butuan
+		#Borneo
+		d_BOR_tanjungpura d_BOR_barune d_BOR_santubong d_BOR_nan_sarunai d_BOR_kutai
+		#Sulawesi & Maluku
+		d_SuMa_luwu d_SuMa_konawe d_SuMa_minahasa d_SuMa_tompotika d_SuMa_halmahera d_SuMa_maluku
+		#Indonesia
+		d_SUM_palembang d_SUM_jambi d_SUM_riau d_SUM_aceh d_SUM_minangkabau d_JAV_mataram d_JAV_taruma d_IDO_bali d_IDO_lesser_sunda d_IDO_timor d_nias d_papua d_handumans
+	
+		# world_india_deccan
+		#Maharastra
+		d_vidharba d_konkana d_nasikya d_devagiri d_rattapadi
+		#Karnata
+		d_kalyani d_gangavadi d_nulambavadi d_raichur_doab
+		#Tamilakam
+		d_chola_nadu d_pandya_nadu d_chera_nadu d_tondai_nadu
+		#Andhra
+		d_vengi d_udayagiri
+		#Telingana
+		d_warangal d_racakonda
+		#Lanka
+		d_dakhina_desa d_ruhunu d_sinhala
+		# d_lanka
+		
+		##　world_india_bengal
+		#Gondwana
+		d_dahala d_ratanpur
+		#Bengal
+		d_vanga d_varendra d_gauda d_nadia d_suhma
+		#Kamarupa
+		d_kamarupanagara d_para_lauhitya d_sutiya
+		#Orissa
+		d_daksina_kosala d_tosali d_kalinga d_dandakaranya
+		#Bihar
+		d_tirabhukti d_kasi d_jharkand d_magadha
+		
+		## world_india_rajastan
+		#Sindh
+		d_sauvira d_bhakkar
+		#Punjab
+		d_multan d_lahore d_gandhara
+		#Delhi
+		d_kuru d_haritanaka d_mathura d_vodamayutja
+		#Gujarat
+		d_gurjara_mandala d_anartta d_saurashtra d_lata
+		#Rajputana
+		d_maru d_jangladesh d_stravani d_medapata d_ajmer
+		#Malwa
+		d_dadhipadra d_akara_dasarna d_anupa
+		#Kosala
+		d_kanyakubja d_saryupara d_jejakabhukti
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+		#Kashmir
+		d_kasmira
+	}
+	counties = {
+		c_shenzhou
+	}
+}
+
+rba_tea_region = {
+	kingdoms = {
+		# 中国 秦淮线以南
+		k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou k_qianzhong k_lingnan k_lingxi k_dali
+		# 越南
+		k_viet
+		# 日本
+		k_tsukushi k_yamato k_azuma
+	}
+	duchies = {
+		# 金商
+		d_jinshang 
+		# 台湾
+		d_liuqiu
+		# 琉球
+		d_ruucuu
+		# 朝鲜半岛南部
+		d_chungju d_jeonju d_naju d_gyeongju d_jinju d_tamna
+	}
+}
+
+rba_silk_region = {
+	kingdoms = {
+		# 中国 秦淮线以南
+		k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou
+		# 太南了有点
+		# k_qianzhong k_lingnan k_lingxi k_dali
+		# 中国 秦淮线以北
+		k_henan k_qingxu k_hebei k_hedong k_guannei
+		# 太北了有点
+		# k_hexi k_xia k_youji k_daibei 
+	}
+	duchies = {
+		# 金商 在关内里面了
+		# d_jinshang 
+		# 琉球
+		d_ruucuu
+	}
+}
+# [GetGeographicalRegion('rba_no_vineyard_region').GetName]
+rba_no_vineyard_region = {
+	kingdoms = {
+		# 中国 华南
+		k_qianzhong k_lingnan k_lingxi k_dali
+	}
+	duchies = {
+	## 东北亚 world_asia_north_east
+		#Khitan/Liao
+		d_LIAO_zhongjing d_LIAO_dongjing d_liaoxi d_yanyun_yuyi
+		#Balhae
+		d_BAL_parhae d_BAL_moe_su d_BAL_buyeo d_BAL_amnok_jangryeong d_BAL_southern_balhae d_BAL_cheolli
+		d_BAL_hoewon d_BAL_dongpyeong d_BAL_yeojintang d_BAL_anwon
+		#k_amur
+		d_eman_boli d_eman_sikhotebei d_eman_samagero d_eman_nivkhia d_eman_amar d_eman_bureya
+		# Shiwei
+		d_SW_lingxiguo d_SW_qingxingan d_SW_puyudao d_SW_ruzheguo  d_SW_sushenguo
+		# 北海道 world_asia_sakhalin_hokkaido
+		d_menas d_sum d_sahaliyan
+	# 蒙古-西伯利亚
+		#Angara
+		d_yenisei_kan d_chuna_valley d_lena d_angara
+		#Khakassia
+		d_khakass_hollow d_blue_khakassia d_shoria d_kargassia d_eastern_sayan
+		#Buryatia
+		d_uda_valley d_dauria d_bargujin_tukum d_baigaluuls d_tsagaanbaigal
+	## 大草原东部 world_steppe_east
+		#Mongolia
+		d_orkhon d_ogrash d_selenga_valley d_ovorkhangai d_arkhangai d_khovsgol d_gobi_altai d_ubsunur_hollow d_zavkhan d_khovd
+		d_togina d_tannu_ola d_western_sayan d_katu_yaryk
+		d_uda_valley
+		#East Mongolia
+		d_EM_onon d_EM_yujuelu d_EM_wajiezi
+		#East Mongolia-Western Shiwei
+		d_SW_heicheziguo d_SW_dashiweiguo
+		d_em_tataria d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi
+		#Manchuria
+		d_LIAO_linhuang d_LIAO_shangjing
+	## 大草原中部 world_steppe_central
+		#Dzungaria
+		# d_altay d_akaltay d_kara_khoja d_beshbalik d_gurbantunggut d_naiman_gobi
+		#Turkestan
+		# d_transcaspiana d_garabogazkol d_barsuki d_aral_karakum d_zhetysu d_tarbagatai d_jemba d_aral_il d_chah d_syr_darya d_muyunkum d_talas_alatau d_alakol d_ili-alatau
+		#Cumania
+		d_kurgan d_mugodzhar_hills d_atyrau d_manatau d_turgay d_kokturgay d_kush-murun d_tobol-ishim d_saryarka d_qyzylsaryarka d_kazakh d_atbasar d_kentarlau d_karkaraly d_karabas d_tokumbay d_betpa d_semey d_jinghiz d_degelen
+	## 大草原西部 world_steppe_west
+		#Pontic Steppe
+		d_levedia d_don_valley d_tana d_khazaria d_ciscaucasia d_itil d_alania d_azov d_pecheneg
+		# d_yedisan d_crimea d_red_levedia d_kizilyedisan
+		#Volga Bulgaria
+		d_volga_bulgaria d_kazan d_bashkiria d_sakmara d_voronezh d_mordvinia d_saran d_chuvashia d_khopyor d_tambov d_ural d_udmurtia d_martyuba d_uraltau d_aqtobe d_jalmat d_bugurslan d_vogulia d_perm
+	## 塔里木 world_steppe_tarim
+		# d_kashgar d_khotan d_karashar d_charkliq d_loulan
+	## 北欧 world_europe_north
+	## 去掉丹麦南部三个公国
+		#Sweden
+		d_ostergotland d_gotland d_vastergotland d_svealand d_norrland d_smaland d_bergslagen
+		# d_uppland d_bergslagen
+		#Norway
+		d_viken d_agder d_vestlandi d_trandalog d_dalir d_halogaland d_iceland d_northern_isles d_jamtland
+		# d_orkney d_vestlandet d_ostlandet d_trondelag
+		#Finland
+		d_karelia d_finland d_savo d_pohjanmaa
+		# d_kola
+		#Denmark
+		d_skane 
+		# d_sjaelland d_jylland d_slesvig
+		#Sapmi
+		d_aarjetje d_duortnoseatnu d_giemajohka d_guoldat d_vuovdisamieana
+		#Estonia
+		d_esthonia d_livonia
+		#Bjarmaland
+		d_biarmia d_chudia d_vologda d_ustyug
+		#Novgorod
+		d_novgorod d_vepsia d_luki
+		#Vladimir
+		d_opolye d_ryazan d_nizhny_novgorod
+	## 西伯利亚 ghw_region_siberia
+		#Kimek
+		d_mugodzhar_hills d_aqtobe d_atyrau d_manatau
+		#Bashkiria
+		d_bashkiria d_sakmara d_uraltau d_vogulia
+		#Yugra
+		d_ostyaki d_konda d_pelym d_kazym
+		#Sibir
+		d_sibir d_ishim d_tara d_lanikaz
+		#Cumania
+		d_turgay d_kokturgay d_kurgan d_kush-murun d_tobol-ishim d_saryarka d_qyzylsaryarka d_kazakh d_atbasar
+		#Ob
+		d_salair d_aley d_altaishan d_ala_tau d_vasyugan_mire d_baraba_steppe d_kulyndy_steppe
+		#Kipchak
+		d_semey d_jinghiz d_degelen d_kentarlau d_karkaraly d_karabas d_tokumbay d_betpa
+		#Zhetysu
+		#d_zhetysu d_alakol d_tarbagatai d_ili-alatau
+	## 西藏吐蕃 ghw_region_tibet
+		#Amdo
+		d_xining d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb
+		#Gyalrong
+		d_gyalrong d_chakla d_golog d_malho d_gainlho
+		#Kham
+		d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang
+		#Tsang
+		d_xigaze d_sagya d_ngamring d_nyima
+		#U
+		d_yarlung d_lhasa d_nagchu d_conyi
+		#Guge
+		d_ngari d_kinnaur d_purang
+		#Maryul
+		d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog
+		#Lhomon
+		d_bumthang d_paro d_monyul d_lhoyul d_dzayul
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+	## 印度 world_india_deccan
+		#Maharastra
+		d_vidharba d_konkana d_nasikya d_devagiri d_rattapadi
+		#Karnata
+		d_kalyani d_gangavadi d_nulambavadi d_raichur_doab
+		#Tamilakam
+		d_chola_nadu d_pandya_nadu d_chera_nadu d_tondai_nadu
+		#Andhra
+		d_vengi d_udayagiri
+		#Telingana
+		d_warangal d_racakonda
+		#Lanka
+		d_dakhina_desa d_ruhunu d_sinhala
+		# d_lanka
+	## world_india_bengal
+		#Gondwana
+		d_dahala d_ratanpur
+		#Bengal
+		d_vanga d_varendra d_gauda d_nadia d_suhma
+		#Kamarupa
+		d_kamarupanagara d_para_lauhitya d_sutiya
+		#Orissa
+		d_daksina_kosala d_tosali d_kalinga d_dandakaranya
+		#Bihar
+		d_tirabhukti d_kasi d_jharkand d_magadha
+	## world_india_rajastan 去掉印度河沿岸
+		#Sindh
+		# d_sauvira d_bhakkar
+		#Punjab
+		# d_multan d_lahore d_gandhara
+		#Delhi
+		d_kuru d_haritanaka d_mathura d_vodamayutja
+		#Gujarat
+		d_gurjara_mandala d_anartta d_saurashtra d_lata
+		#Rajputana
+		d_maru d_jangladesh d_stravani d_medapata d_ajmer
+		#Malwa
+		d_dadhipadra d_akara_dasarna d_anupa
+		#Kosala
+		d_kanyakubja d_saryupara d_jejakabhukti
+		#Himalaya
+		d_kurmanchal d_khasa d_nepal d_limbuwan
+		#Kashmir
+		# d_kasmira
+	## 云南边境
+		d_yongchang d_tengchong
+	## 东南亚大陆 dlc_tgp_mainland_southeast_asia_region
+		# Vietnam
+		d_hai_dong d_thang_long d_lam_tay d_nghe_an d_indrapura d_vijaya d_baigaur
+		# Laos
+		d_phonsavan d_sipsongpanna # also a bit of thailand tbh
+		# Cambodia
+		d_angkor d_vyadhapura d_ratanakiri d_angkor_borey
+		# Thailand
+		d_haripunjaya d_lop_buri d_sukhothai d_tun_sun d_muang_sua d_mukdahan 
+		# Myanmar
+		d_mongnai d_ramannadesa d_sriksetra d_pagan d_tagaung d_arakan
+		# 马来亚
+		d_MAL_langkasuka d_MAL_pahang
+
+	## 东南亚海岛 world_asia_southeast_islands
+		#Philippines
+		d_PHI_tondo d_PHI_ilocana d_PHI_cagayan d_PHI_sandao d_PHI_visayas d_PHI_maguindanao d_PHI_butuan
+		#Borneo
+		d_BOR_tanjungpura d_BOR_barune d_BOR_santubong d_BOR_nan_sarunai d_BOR_kutai
+		#Sulawesi & Maluku
+		d_SuMa_luwu d_SuMa_konawe d_SuMa_minahasa d_SuMa_tompotika d_SuMa_halmahera d_SuMa_maluku
+		#Indonesia
+		d_SUM_palembang d_SUM_jambi d_SUM_riau d_SUM_aceh d_SUM_minangkabau d_JAV_mataram d_JAV_taruma d_IDO_bali d_IDO_lesser_sunda d_IDO_timor d_nias d_papua d_handumans
+	##　非洲萨哈拉 world_africa_sahara
+		#Anbiya and Sahara
+		d_zammour d_adrar d_touat d_taghaza d_tadmekka d_ghat d_air d_kawar d_tibesti d_fezzan
+
+	## 西非 world_africa_west
+		#Songhay
+		d_kawkaw d_timbuktu d_dendi
+		#Gurma
+		d_lower_gurma d_upper_gurma d_yatenga
+		#Ghana
+		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
+		#Mali
+		d_manding d_bambuk d_futa_jalon
+		#Takrur
+		d_takrur d_silla d_djolof
+		#Jenne
+		d_jenne d_bobo
+		#Kaabu
+		d_kaabu d_wuli d_kasa
+
+		#Guinea
+		d_sapi d_kono d_bassa
+		#Toro
+		d_toro d_loma
+		#Kong
+		d_worodugu d_kong d_lobi
+		#Adiukru
+		d_wenyon d_kru d_adiukru
+		#Akan
+		d_gyaman d_brong d_ashanti d_eweland
+		#Gur
+		d_dagomba d_wagadugu d_mamprusi
+		#Borgu
+		d_borgu d_savalu
+		#Yorubaland
+		d_ibadan d_oyo d_ife d_benin
+		#Igbo-Benue
+		d_igboland d_nupe d_kwararafa
+
+		#Kanem
+		d_kanem d_bornu d_kagha
+		#Sao
+		d_baguirmi d_salamat d_wandala
+		#Hausaland
+		d_kano d_katsina d_kebbi d_gobir
+		#Darfur
+		d_darfur d_west_darfur d_wadai d_kordofan
+	## 东非 world_africa_east
+		#Abyssinia
+		# d_aksum d_dahlaks d_lasta d_gondar d_gojjam d_showa
+		#Nubia
+		# d_nobatia d_makuria d_shamir d_alwa 
+		d_sennar
+		#Blemmyia
+		# d_naqis d_bazin d_baqlin
+		#Damot
+		d_damot d_kaffa d_sharka
+		#Adal
+		# d_dawaro d_adal d_mora d_danakil d_zaila d_sanaag
+
+		#Ajuraan
+		d_hafun d_mogadishu d_west_ajuraan
+		#Outer Ajuraan
+		d_shabelle d_bali d_samalo
+
+		# Zanj
+		d_pate d_mombasa d_zanzibar d_bonde_la_ufa
+	}
+}

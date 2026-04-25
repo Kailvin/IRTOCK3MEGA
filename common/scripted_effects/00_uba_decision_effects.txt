@@ -1,0 +1,130 @@
+﻿# 可以替换成scope:barony.title_province
+
+# 设置变量
+uba_give_building_location_effect = {
+	uba_building_location_effect = yes
+	set_variable = {
+		name = uba_building_location
+		value = scope:uba_building_locale
+	}
+}
+# 将触发事件的男爵领保存为scope
+uba_building_location_effect = {
+	scope:barony.title_province = { save_scope_as = uba_building_locale }
+}
+
+
+
+# 使用这个来添加建筑槽
+# var:uba_building_location = {
+# 	add_special_building_slot = legendary_hunting_lodge
+# }
+
+# 建造建筑后要调用这个来清除变量
+uba_cleanup_effect = {
+	if = {
+		limit = {
+			exists = var:uba_building_location
+		}
+		remove_variable = uba_building_location
+	}
+	if = {
+		limit = {
+			exists = global_var:uba_event_ongoing
+		}
+		remove_global_variable = uba_event_ongoing
+	}
+}
+
+#和柜子恶魔的交易
+uba_deal_with_chlosey_effect = {
+	hidden_effect = {
+		while = { 
+			count = $NUM$
+			random_list = {
+				10 = {
+					trigger = { root = { learning >= 1 } }
+					add_learning_skill = -1
+				}
+				10 = {
+					trigger = { root = { stewardship >= 1 } }
+					add_stewardship_skill = -1
+				}
+				10 = {
+					trigger = { root = { intrigue >= 1 } }
+					add_intrigue_skill = -1
+				}
+				10 = {
+					trigger = { root = { martial >= 1 } }
+					add_martial_skill = -1
+				}
+				10 = {
+					trigger = { root = { diplomacy >= 1 } }
+					add_diplomacy_skill = -1
+				}
+				10 = {
+					trigger = { root = { prowess >= 2 } }
+					add_prowess_skill = -2
+				}
+			}
+		}
+	}
+}
+
+uba_nomadic_upgrade_effect = {
+	scope:barony.title_province = {
+		if = {
+			limit = { has_building_or_higher = UBA_hunting_01 }
+			uba_nomadic_building_upgrade_effect = { BUILDING = UBA_hunting }
+		}
+		else_if = {
+			limit = { has_building_or_higher = UBA_pasture_01 }
+			uba_nomadic_building_upgrade_effect = { BUILDING = UBA_pasture }
+		}
+		else_if = {
+			limit = { has_building_or_higher = UBA_yurt_01 }
+			uba_nomadic_building_upgrade_effect = { BUILDING = UBA_yurt }
+		}
+	}
+}
+
+uba_nomadic_building_upgrade_effect = {
+	if = {
+		limit = {
+            has_building = $BUILDING$_01
+        }
+		remove_building = $BUILDING$_01
+		add_special_building = $BUILDING$_02
+	}
+	else_if = {
+		limit = {
+            has_building = $BUILDING$_02
+        }
+		remove_building = $BUILDING$_02
+		add_special_building = $BUILDING$_03
+	}
+	else_if = {
+		limit = {
+            has_building = $BUILDING$_03
+        }
+		remove_building = $BUILDING$_03
+		add_special_building = $BUILDING$_04
+	}
+	else_if = {
+		limit = {
+            has_building = $BUILDING$_04
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = uba_unique_buildings_finished
+					target = flag:$BUILDING$_finished
+				}
+			}
+        }
+		add_to_global_variable_list = {
+			name = uba_unique_buildings_finished
+			target = flag:$BUILDING$_finished
+		}
+		remove_building = $BUILDING$_04
+		add_special_building = $BUILDING$_05
+	}
+}

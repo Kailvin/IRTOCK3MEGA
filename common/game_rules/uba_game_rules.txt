@@ -1,0 +1,132 @@
+﻿uba_decision_cooldown_set = {
+	categories = {
+		tweaks
+	}
+	default = uba_decision_cooldown_default
+
+	uba_decision_cooldown_no = {
+	}
+
+	uba_decision_cooldown_less = {
+	}
+
+	uba_decision_cooldown_default = {
+	}
+
+	uba_decision_cooldown_more = {
+	}
+
+	uba_decision_cooldown_much_more = {
+	}
+
+}
+
+uba_decision_cost_set = {
+	categories = {
+		tweaks
+	}
+	default = uba_decision_cost_default
+
+	uba_decision_cost_default = {
+	}
+	
+	uba_decision_cost_less = {
+	}
+
+	uba_decision_cost_more = {
+	}
+
+	uba_decision_cost_much_more = {
+	}
+}
+
+uba_common_buildings_switch = {
+	categories = {
+		tweaks
+	}
+	default = uba_common_buildings_on
+
+	uba_common_buildings_on = {
+	}
+	
+	uba_common_buildings_off = {
+	}
+}
+
+uba_wonder_buildings_unique_switch = {
+	categories = {
+		tweaks
+	}
+	default = uba_wonder_buildings_unique_on
+
+	uba_wonder_buildings_unique_on = {
+	}
+	
+	uba_wonder_buildings_unique_off = {
+	}
+}
+
+uba_history_special_buildings = {
+	categories = {
+		tweaks
+	}
+	default = uba_history_special_buildings_on
+
+	uba_history_special_buildings_on = {
+	}
+	
+	uba_history_special_buildings_off = {
+	}
+}
+
+uba_innovation_requirement = {
+	categories = {
+		tweaks
+	}
+	default = uba_innovation_requirement_on
+
+	uba_innovation_requirement_on = {
+	}
+	
+	uba_innovation_requirement_off = {
+	}
+}
+
+
+# uba_construction_time_set = {
+# 	categories = {
+# 		difficulty
+# 	}
+# 	default = uba_construction_time_default
+
+# 	uba_construction_time_default = {
+# 	}
+	
+# 	uba_construction_time_less = {
+# 	}
+
+# 	uba_construction_time_more = {
+# 	}
+
+# 	uba_construction_time_much_more = {
+# 	}
+# }
+
+# uba_construction_cost_set = {
+# 	categories = {
+# 		difficulty
+# 	}
+# 	default = uba_construction_cost_default
+
+# 	uba_construction_cost_default = {
+# 	}
+	
+# 	uba_construction_cost_less = {
+# 	}
+
+# 	uba_construction_cost_more = {
+# 	}
+
+# 	uba_construction_cost_much_more = {
+# 	}
+# }

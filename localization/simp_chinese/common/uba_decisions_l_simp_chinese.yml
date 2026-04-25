@@ -1,0 +1,106 @@
+﻿l_simp_chinese:
+# 决议组
+ decision_group_type_uba: "建筑师决议"
+
+# 按钮UI本地化
+ UBA_ESTABLISH_BUILDING_NAME_LABEL:0 "名称："
+ UBA_ESTABLISH_BUILDING_CAPITAL_LABEL:0 "地点"
+ UBA_ESTABLISH_BUILDING_CHANGE_CAPITAL:1 "更改地点"
+ UBA_ESTABLISH_BUILDING_SELECT_CAPITAL:1 "选择地点"
+ 
+# 建造奇观
+ uba_building_decision:0 "建造奇观"
+ uba_building_decision_tooltip:0 "在指定地点增加一座独特的特殊建筑"
+ uba_building_decision_desc:0 "人生在世不过弹指一挥间。在我离开人世之后，又有多少人还能记住我的名字呢？要使得众人将我铭记，我必须给这世界留下更为深刻的印记，比如————\n\n一座#EMP 伟大#!的建筑。"
+ uba_building_decision_confirm:0 "规划建筑"
+
+# 拆除奇观
+ uba_remove_building_decision:0 "为奇观建筑清理场地"
+ uba_remove_building_decision_tooltip:0 "移除指定地点的特殊建筑"
+ uba_remove_building_decision_effect:0 "移除指定地点的特殊建筑，为将来的建设腾出空间"
+ uba_remove_building_decision_desc:0 "拥有一座独特的建筑并非总是好事，尤其是当我想腾出场地来建设一座更#EMP 伟大#!的建筑的时候。\n——或许，我可以付钱给工匠把这座讨人厌的建筑拆掉……"
+ uba_remove_building_decision_confirm:0 "腾出空间"
+
+# 游牧升级
+ uba_nomadic_building_decision:0 "升级游牧奇观"
+ uba_nomadic_building_decision_tooltip:0 "升级我的游牧特殊建筑"
+ uba_nomadic_building_decision_effect:0 "升级指定地点的游牧特殊建筑"
+ uba_nomadic_building_decision_desc:0 "这片土地属于我，#EMP 伟大#!的[ROOT.Char.GetTitleAsNameNoTooltip]！我治下的子民将永远牢记我的成就……\n#EMP 以及我的建筑。#!"
+ uba_nomadic_building_decision_confirm:0 "放手去做"
+
+# 开关决议
+ uba_decision_off:0 "隐藏建筑师决议"
+ uba_decision_off_tooltip:0 "隐藏建筑师系列决议"
+ uba_decision_off_effect:0 "建筑师系列模组决议将被隐藏，可通过决议再次启用"
+ uba_decision_off_desc:0 "我忽然意识到：建立一座永恒存在的建筑是个不切实际，甚至有些愚蠢的主意。或许我该把这批没用的建筑师和工匠遣散，把省下来的钱花到更有价值的地方。"
+ uba_decision_off_confirm:0 "遣散工匠"
+ uba_decision_on:0 "显示建筑师决议"
+ uba_decision_on_tooltip:0 "显示建筑师系列决议"
+ uba_decision_on_effect:0 "建筑师系列模组决议将恢复显示，可通过决议再次隐藏"
+ uba_decision_on_desc:0 "凭借一座奇观流芳百世的念头仍然在我脑内飞旋！\n我或许还是应该把那批建筑师叫回来。现在我有更绝妙的点子需要他们去实现……"
+ uba_decision_on_confirm:0 "召集工匠"
+
+# 选项要求
+uba_no_nomad_tt: "你必须不$government_is_nomadic$"
+uba_cost_tt: "你必须拥有至少[SCOPE.ScriptValue('uba_decision_cost')|0][gold_i]！"
+uba_diplomacy_tt: "你必须拥有[diplomacy|E][lifestyle_trait|E]、[education_trait|E]或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_martial_tt: "你必须拥有[martial|E][lifestyle_trait|E]、[education_trait|E]或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_stewardship_tt: "你必须拥有[stewardship|E][lifestyle_trait|E]、[education_trait|E]，[GetTrait('education_republican_knowledge_3').GetName( GetNullCharacter )]线的[traits|E]，或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_learning_tt: "你必须拥有[learning|E][lifestyle_trait|E]、[education_trait|E]或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_travel_tt: "你必须拥有[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]、[GetTrait('pilgrim').GetName( GetNullCharacter )]、[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_lifestyle_tt: "你必须拥有[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]、[GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )]、[GetTrait('lifestyle_gardener').GetName( GetNullCharacter )]、[GetTrait('lifestyle_physician').GetName( GetNullCharacter )]、[GetTrait('witch').GetName( GetNullCharacter )]或者[GetTrait('architect').GetName( GetNullCharacter )][trait|E]"
+uba_intrigue_tt: "你必须拥有[intrigue|E][lifestyle_trait|E]、[education_trait|E]"
+uba_nomad_tt: "你必须拥有[herd|E]或[GetTrait('nomadic_philosophy').GetName( GetNullCharacter )][trait|E]"
+uba_cash_tt: "你必须拥有……#color_yellow 足够的勇气#! "
+uba_wall_tt: "你必须拥有……#color_yellow 足够的实力#! \n你必须拥有[GetTrait('architect').GetName( GetNullCharacter )][trait|E]或完成更伟大的功绩……"
+
+# 选项名称
+uba_building_decision_diplomacy: "外交之道"
+uba_building_decision_diplomacy_desc: "外交是言语的艺术，而我的言语能令最坚硬的心灵为之屈服。"
+uba_diplomacy_tooltip: "$uba_building_decision_diplomacy_desc$"
+uba_building_decision_martial: "军事之道"
+uba_building_decision_martial_desc: "即便是看似无法挽回的军事困境，我也能扭转乾坤，反败为胜。"
+uba_martial_tooltip: "$uba_building_decision_martial_desc$"
+uba_building_decision_stewardship: "管理之道"
+uba_building_decision_stewardship_desc: "只需一点技巧，我就能使一桩失败的生意扭亏为盈。"
+uba_stewardship_tooltip: "$uba_building_decision_stewardship_desc$"
+uba_building_decision_learning: "学识之道"
+uba_building_decision_learning_desc: "不论是神圣还是世俗，几乎没有什么高深的学问是我从未涉足的。"
+uba_learning_tooltip: "$uba_building_decision_learning_desc$"
+uba_building_decision_travel: "旅行之道"
+uba_building_decision_travel_desc: "我走过了无数的路，看见了大半个世界。"
+uba_travel_tooltip: "$uba_building_decision_travel_desc$"
+uba_building_decision_lifestyle: "生活之道"
+uba_building_decision_lifestyle_desc: "我想，西西弗斯应当是幸福的。"
+uba_lifestyle_tooltip: "$uba_building_decision_lifestyle_desc$"
+uba_building_decision_intrigue: "谋略之秘"
+uba_building_decision_intrigue_desc: "我是风中的一丝低语，墙上的一片阴影。"
+uba_intrigue_tooltip: "$uba_building_decision_intrigue_desc$"
+uba_building_decision_nomad: "草原之息"
+uba_building_decision_nomad_desc: "天苍苍，野茫茫，风吹草低见牛羊。"
+uba_nomad_tooltip: "$uba_building_decision_nomad_desc$"
+uba_building_decision_cash: "财富之愿"
+uba_building_decision_cash_desc: "$trait_avaricious_desc$\n\n然而此刻，我身后的柜子不合时宜地动了起来……"
+uba_cash_tooltip: "$uba_building_decision_cash_desc$"
+uba_building_decision_wall: "工程奇迹"
+uba_building_decision_wall_desc: "$trait_architect_desc$"
+uba_wall_tooltip: "$uba_building_decision_wall_desc$"
+
+## 旧版决议
+ uba_building_decision_1:0 "#EMP 奇观：#!规划地点"
+ uba_building_decision_1_tooltip:0 "指定地点以建造一座独特的特殊建筑。"
+ uba_building_decision_1_effect:0 "为这项大型建筑工程选择一处合适的地点"
+ uba_building_decision_1_desc:0 "人生在世不过弹指一挥间。\n在我离开人世后，又有多少人还能记住我的名字呢？要使得众人将我铭记，我必须给这世界留下更为深刻的印记，比如——#EMP 一座伟大的建筑。#!"
+ uba_building_decision_1_confirm:0 "做好准备"
+
+ uba_building_decision_2:0 "#EMP 奇观：#!选择方案"
+ uba_building_decision_2_tooltip:0 "在指定地点建造一座独特的特殊建筑"
+ uba_building_decision_2_effect:0 "确定接下来将要建造何种特殊建筑"
+ uba_building_decision_2_desc:0 "现在，我必须思考这个最重要的问题：\n我希望以什么样的名声被世人所铭记？\n\n这座建筑将会深刻地改变#bold [ROOT.Var('uba_building_location').Province.GetName]#!，我需要谨慎决定。"
+ uba_building_decision_2_confirm:0 "开始动工"
+
+ uba_building_decision_3:0 "#EMP 奇观：#!撤销选址"
+ uba_building_decision_3_tooltip:0 "撤销此前为特殊建筑选定的位置"
+ uba_building_decision_3_effect:0 "撤销此前为特殊建筑选定的位置"
+ uba_building_decision_3_desc:0 "我忽然意识到：\n#bold [ROOT.Var('uba_building_location').Province.GetName]#!对于我设想中的工程来说或许并不是一个合适的地点，现在撤销之前的决定或许还不算太晚。"
+ uba_building_decision_3_confirm:0 "撤销选择"

@@ -1,0 +1,3 @@
+﻿# place all in trayer
+# so no error if player is not a character
+gui/uba_trayer.gui = uba_trayer_top

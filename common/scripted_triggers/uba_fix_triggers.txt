@@ -1,0 +1,12 @@
+﻿# ##有无矿
+# has_any_special_mine_trigger = {
+# 	has_building_with_flag = special_mine
+# }
+
+# county_has_any_special_mine_building_trigger = {
+# 	has_building_with_flag = special_mine
+# }
+
+# has_university_building_trigger = {
+# 	has_building_with_flag = special_university
+# }

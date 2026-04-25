@@ -1,0 +1,38 @@
+﻿on_game_start = {
+	on_actions = {
+		uba_setup_on_actions
+		uba_history_special_buildings_adding
+		uba_history_special_buildings_adding_kaifeng
+	}
+}
+
+uba_setup_on_actions = {
+	effect = {
+		set_global_variable = is_uba_loaded
+		# 历史特建 大相国寺
+		if = {
+			limit = {
+				OR = {
+					has_game_rule = uba_history_special_buildings_on
+					has_global_variable = is_uba_hbp_loaded #奇观建筑师 历史建筑补充包
+				}
+			}
+			title:b_kaifeng.title_province = { add_special_building = daxiangguo_temple_01 }
+			if = { 
+				limit = { game_start_date >= 959.1.1 game_start_date < 1127.1.1 } 
+				title:b_kaifeng.title_province = { add_building = kaifeng_palace_01 }
+			}
+			if = { 
+				limit = { game_start_date < 959.1.1 } 
+				title:b_changan.title_province = { add_building = kaifeng_palace_01 } 
+			}
+		}
+		else = {
+			if = { 
+				limit = { game_start_date >= 959.1.1 game_start_date < 1127.1.1 } 
+				title:b_kaifeng.title_province = { add_special_building = kaifeng_palace_01 } 
+			}
+	        else = { title:b_kaifeng.title_province = { add_special_building = daxiangguo_temple_01 } }
+		}
+	}
+}

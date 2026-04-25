@@ -1,0 +1,16 @@
+﻿on_game_start_after_lobby = {
+	on_actions = {
+		uba_greeting_on_actions
+	}
+}
+
+uba_greeting_on_actions = {
+	effect = {
+		every_player = {
+			trigger_event = {
+				id = uba_greeting.0001
+				days = { 1 7 }
+			}
+		}
+	}
+}

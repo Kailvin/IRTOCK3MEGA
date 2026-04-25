@@ -1,0 +1,50 @@
+﻿l_simp_chinese:
+# 决议组
+ decision_group_type_uba_flavor: "建筑风味决议"
+# 决议
+ uba_unlock_pet_flavor_desc:0 "启用#EMP $uba_flavor_pet_decision$#![decision|E]"
+ uba_flavor_pet_decision:0 "领养动物"
+ uba_flavor_pet_decision_tooltip:0 "领养一只可爱的宠物……或者一匹战马！"
+ uba_flavor_pet_decision_effect:0 "选择将要领养的动物。"
+ uba_flavor_pet_decision_desc:0 "生活并非只充满了阴谋和杀戮，偶尔也需要一些调剂……为什么我不领养一只可以陪伴我的动物呢？"
+ uba_flavor_pet_decision_confirm:0 "作出决定"
+
+ uba_unlock_hunt_flavor_desc:0 "启用#EMP $uba_flavor_hunt_decision$#![decision|E]"
+ uba_flavor_hunt_decision:0 "寻找猎物"
+ uba_flavor_hunt_decision_tooltip:0 "寻找一些可以狩猎的对象。"
+ uba_flavor_hunt_decision_effect:0 "让你的$master_of_hunt_court_position$在领地内寻找合适的猎物。"
+ uba_flavor_hunt_decision_desc:0 "我已经许久未能试验自己的狩猎技巧了。我仿佛听见了弓在叹息……是时候给它找一些合适的对手了。"
+ uba_flavor_hunt_decision_confirm:0 "派遣使者"
+
+ uba_unlock_knight_flavor_desc:0 "启用#EMP $uba_flavor_knight_decision$#![decision|E]"
+ uba_flavor_knight_decision:0 "训练$knight_culture_player_plural_no_tooltip$"
+ uba_flavor_knight_decision_tooltip:0 "为$knight_culture_player_plural_no_tooltip$提供一套训练计划。"
+ uba_flavor_knight_decision_effect:0 "为你的$knight_culture_player_plural_no_tooltip$提供一整套训练计划。"
+ uba_flavor_knight_decision_desc:0 "我发觉我的$knight_culture_player_plural_no_tooltip$似乎有些疏于训练了。如果一位$knight_culture_player$既不长于武艺，又不精通战术，他又要怎么在战场上胜过敌人呢？"
+ uba_flavor_knight_decision_confirm:0 "开始训练"
+
+ uba_flavor_decisions.0011.t:0 "$uba_flavor_pet_decision$"
+ uba_flavor_decisions.0011.desc:0 "我在庭院中徘徊，思忖着什么样的动物才是最适合的选择。\n\n在走过又一个拐角之后，我终于拿定了主意——"
+ uba_flavor_decisions.0011.a:0 "一只可爱的猫。"
+ uba_flavor_decisions.0011.b:0 "一只机灵的狗。"
+ uba_flavor_decisions.0011.c:0 "一匹勇猛的马。"
+ uba_flavor_decisions.0011.rock:0 "一块路边的石头。"
+ uba_flavor_decisions.0011.rock.tt:0 "出于未知的缘故，我突然觉得石头也会是不错的宠物……"
+ uba_flavor_decisions.0011.cancel:0 "唉，或许不是现在。"
+
+ uba_flavor_decisions.0012.t:0 "$uba_flavor_hunt_decision$"
+ uba_flavor_decisions.0012.desc:0 "$master_of_hunt_court_position$显得有些跃跃欲试：“大人，无论您想要什么样的目标，我都会竭尽全力！”\n\n我点了点头，拿定了主意。"
+ uba_flavor_decisions.0012.a:0 "为我的猎弓寻找合适的猎物。"
+ uba_flavor_decisions.0012.b:0 "为我的猎鹰寻找恰当的目标。"
+ uba_flavor_decisions.0012.c:0 "[ROOT.Char.GetTitleAsNameNoTooltip]需要与之相配的对手。"
+ uba_flavor_decisions.0012.d:0 "[ROOT.Char.GetTitleAsNameNoTooltip]不会畏惧危险的猎物。"
+ uba_flavor_decisions.0012.cancel:0 "我改主意了，此事作罢。"
+
+ uba_flavor_decisions.0021.t:0 "$uba_flavor_knight_decision$"
+ uba_flavor_decisions.0021.desc:0 "我来到训练场，看见[training_knight.GetFirstNameNoTooltip]和其他$knight_culture_player_plural_no_tooltip$站成一排，等待着我的指令。\n\n“大人，所有骑士都在这里了，听候您的吩咐。”[training_knight.GetFirstNameNoTooltip]说道。\n\n或许我该给今天的训练确定一个主题。"
+ uba_flavor_decisions.0021.a:0 "普通的对练就行了。"
+ uba_flavor_decisions.0021.a.tt:0 "所有骑士（以及我自己）都会提升一定的$prowess$。"
+ uba_flavor_decisions.0021.b:0 "$knight_culture_player_plural_no_tooltip$该学点新战术。"
+ uba_flavor_decisions.0021.b.tt:0 "所有骑士（以及我自己）都将学会一些新战术。"
+ uba_flavor_decisions.0021.cancel:0 "全体都有，解散！"
+

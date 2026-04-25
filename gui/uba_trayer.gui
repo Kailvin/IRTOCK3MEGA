@@ -1,0 +1,6 @@
+﻿widget = {
+    name = "uba_trayer_top"
+	size = { 100% 100% }
+	layer = top
+	uba_update = {}
+}

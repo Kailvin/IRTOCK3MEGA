@@ -1,0 +1,307 @@
+﻿# #奇观建筑师 历史建筑补充包
+uba_history_special_buildings_adding = {
+	effect = {
+		if = {
+			limit = {
+				OR = {
+					has_game_rule = uba_history_special_buildings_on
+					has_global_variable = is_uba_hbp_loaded #奇观建筑师 历史建筑补充包
+				}
+			}
+			## 历史建筑
+			# 祆神庙
+			if = { limit = { game_start_date >= 1050.1.1 } title:b_pingyao.title_province = { add_special_building = xianshen_temple_01 } }
+	        else = { title:b_pingyao.title_province = { add_special_building_slot = xianshen_temple_01 } }
+			# 武侯祠
+			title:b_chengdu.title_province = { add_special_building = wuhou_shrine_01 }
+			# 都江堰
+			title:b_wenjiang.title_province = { add_special_building = dujiangyan_01 }
+			# 西山八水院
+			if = { limit = { game_start_date >= 1068.1.1 } title:b_changping.title_province = { add_special_building = qingshui_temple_01 } }
+	        else = { title:b_changping.title_province = { add_special_building_slot = qingshui_temple_01 } }
+			# 卢沟桥
+			if = { limit = { game_start_date >= 1189.1.1 } title:b_ji.title_province = { add_special_building = marco_polo_bridge_01 } }
+	        else = { title:b_ji.title_province = { add_special_building_slot = marco_polo_bridge_01 } }
+			# 岳阳楼
+			title:b_baling.title_province = { add_special_building = yueyang_tower_01 }
+			# 黄鹤楼
+			title:b_jiangxia.title_province = { add_special_building = yellow_crane_tower_01 }
+			# 鹳雀楼
+			title:b_hedong.title_province = { add_special_building = stork_tower_01 }
+			# 滕王阁与白鹿洞书院
+			title:b_nanchang.title_province = { remove_building = white_deer_grotto_academy_01 add_special_building = prince_teng_pavilion_01 }
+			if = { limit = { game_start_date >= 960.1.1 } title:b_xunyang.title_province = { add_special_building = white_deer_grotto_academy_01 } }
+	        else = { title:b_xunyang.title_province = { add_special_building = white_deer_grotto_academy_01 } }
+			# 蓬莱阁
+			if = { limit = { game_start_date >= 1061.1.1 } title:b_penglai.title_province = { add_special_building = penglai_pavilion_01 } }
+	        else = { title:b_penglai.title_province = { add_special_building_slot = penglai_pavilion_01 } }
+			# 宋陵
+			if = { limit = { game_start_date >= 963.1.1 } title:b_xingyang.title_province = { add_special_building = songling_mausoleum_01 } }
+	        # else = { title:b_xingyang.title_province = { add_special_building_slot = songling_mausoleum_01 } }
+			# 佛光寺
+			title:b_zhengping.title_province = { add_special_building = foguang_temple_01 }
+			# 青城山道观
+			title:b_linqiong.title_province = { add_special_building = qingcheng_mountain_temples_01 }
+			# 大明寺
+			title:b_jiangdu.title_province = { add_special_building = daming_temple_01 }
+			# 天师府
+			if = { limit = { game_start_date >= 1105.1.1 } title:b_yiyang_1.title_province = { add_special_building = tianshi_mansion_01 } }
+	        else = { title:b_yiyang_1.title_province = { add_special_building_slot = tianshi_mansion_01 } }
+			# 国清寺
+			title:b_linhai.title_province = { add_special_building = guoqing_temple_01 }
+			# 普济寺
+			if = { limit = { game_start_date >= 1080.1.1 } title:b_wengshan.title_province = { set_holding_type = church_holding add_special_building = puji_temple_02 } }
+	        else = { title:b_wengshan.title_province = { set_holding_type = church_holding add_special_building = puji_temple_01 } }
+			# 寒山寺
+			title:b_wu.title_province = { add_special_building = hanshan_temple_01 }
+			# 阿房宫
+			title:b_jingyang.title_province = { add_special_building = palace_of_epang_01 }
+			# 法门寺
+			title:b_tianxing.title_province = { add_special_building = famen_temple_01 }
+			# 热田神宫
+			title:b_atsuta.title_province = { add_special_building = atsuta_jingu_01 }
+			# 四天王寺
+			title:b_kawachi.title_province = { add_special_building = shitenno_temple_01 }
+			# 赵州桥
+			title:b_pingji.title_province = { add_special_building = zhaozhou_bridge_01 }
+			# 大秦寺塔
+			title:b_mei.title_province = { add_special_building = daqin_temple_pagoda_01 }
+			# 安鹤宫
+			title:b_Goryeo_Bukgye_Seogyeong.title_province = { remove_building = generic_university add_special_building = anhakgung_palace_01 }
+			# 松岳宫与碧澜渡
+			title:b_Goryeo_Gaeseong_Gaeseong.title_province = { remove_building = byeokran_port_01 add_special_building = songak_palace_01 }
+			title:b_Goryeo_Yanggwan_Ganghwa.title_province = { add_special_building = byeokran_port_01 }
+			# 景福宫
+			title:b_Goryeo_Yanggwan_Yangju.title_province = { add_special_building_slot = gyeongbokgung_palace_01 }
+			# 定陵寺
+			title:b_Goryeo_Seohae_Tosan.title_province = { add_special_building = chongrung_temple_01 }
+			# 海印寺
+			title:b_Goryeo_Gyeongsang_Hapcheon.title_province = { add_special_building = haein_temple_01 }
+			# 承天寺
+			if = { limit = { game_start_date >= 1050.1.1 } title:b_huaiyuan.title_province = { add_special_building = chengtian_temple_01 } }
+	        else = { title:b_huaiyuan.title_province = { add_special_building_slot = chengtian_temple_01 } }
+			# 迦叶如来寺
+			if = { limit = { game_start_date >= 1098.1.1 } title:b_zhangye.title_province = { add_special_building = zhangye_temple_01 } }
+	        else = { title:b_zhangye.title_province = { add_special_building_slot = zhangye_temple_01 } }
+			# 涌泉寺
+			if = { limit = { game_start_date >= 908.1.1 } title:b_min.title_province = { add_special_building = yongquan_temple_01 } }
+	        else = { title:b_min.title_province = { add_special_building_slot = yongquan_temple_01 } }
+			# 正定隆兴寺
+			title:b_zhending.title_province = { add_special_building = zhengding_longxing_temple_01 }
+			# 青州龙兴寺
+			title:b_yidu_2.title_province = { add_special_building = qingzhou_longxing_temple_01 }
+			# 开元观
+			title:b_jiangling.title_province = { add_special_building = kaiyuan_temple_01 }
+			# 石佛寺
+			title:b_Liao_Shangjing.title_province = { add_special_building = stone_buddha_temple_01 }
+			# 舍利寺塔
+			if = { limit = { game_start_date >= 1044.1.1 } title:b_Liao_Shenyang.title_province = { add_special_building = sarira_temple_pagoda_01 } }
+	        else = { title:b_Liao_Shenyang.title_province = { add_special_building_slot = sarira_temple_pagoda_01 } }
+			# 广佑寺
+			title:b_Liao_Liaoyang.title_province = { set_holding_type = church_holding add_special_building = guangyou_temple_01 }
+			# 感圣寺大明塔
+			title:b_Liao_Dading.title_province = { add_special_building = gansheng_temple_01 }
+			# 宝胜寺
+			if = { limit = { game_start_date >= 1044.1.1 } title:b_Liao_Mozhou.title_province = { add_special_building_slot = baosheng_temple_01 } }
+	        else = { title:b_Liao_Mozhou.title_province = { add_special_building_slot = baosheng_temple_01 } }
+			# 黄帝陵
+			title:b_zhongbu.title_province = { add_special_building = yellowemperor_mausoleum_01 }
+			# 龙门石窟
+			title:b_yique.title_province = { set_holding_type = church_holding add_special_building = longmen_grottoes_01 }
+			# 莫高窟
+			title:b_mogao.title_province = { add_special_building = mogao_grottoes_01 }
+			# 鸠摩罗什寺
+			title:b_guzang.title_province = { set_holding_type = castle_holding add_special_building = kumarajiva_temple_01 }
+			# 空相寺
+			title:b_shan.title_province = { add_special_building = kongxiang_temple_01 }
+			# 金山寺
+			title:b_dantu.title_province = { add_special_building = jinshan_temple_01 }
+			# 塔尔寺
+			title:b_rusar_huangzhong.title_province = { add_special_building_slot = kumbum_temple_01 }
+			# 永宁寺
+			title:b_eman_nurgan.title_province = { add_special_building_slot = yongning_temple_01 }
+			# 奉国寺
+			if = { limit = { game_start_date >= 1020.1.1 } title:b_Liao_Yizhou3.title_province = { add_special_building = fengguo_temple_01 } }
+	        else = { title:b_Liao_Yizhou3.title_province = { add_special_building_slot = fengguo_temple_01 } }
+			# 玄中寺
+			title:b_jiaocheng.title_province = { add_special_building = xuanzhong_temple_01 }
+			# 玉泉寺
+			title:b_dangyang.title_province = { add_special_building = yuquan_temple_01 }
+			# 宁戎寺/柏孜克里克千佛洞
+			title:b_kara_khoja.title_province = { add_special_building = bezeklik_grottoes_01 }
+			# 古格王宫
+			title:b_tsaparang.title_province = { add_special_building = guge_palace_01 }
+
+			## 书院
+			# 程颢书院
+			if = { limit = { game_start_date >= 1065.1.1 } title:b_jincheng_2.title_province = { add_special_building = chenghao_academy_01 } }
+	        else = { title:b_jincheng_2.title_province = { add_special_building_slot = chenghao_academy_01 } }
+			# 石洞书院
+			if = { limit = { game_start_date >= 1148.1.1 } title:b_jinhua.title_province = { add_special_building = shidong_academy_01 } }
+	        else = { title:b_jinhua.title_province = { add_special_building_slot = shidong_academy_01 } }
+			# 泉山书院
+			if = { limit = { game_start_date >= 1153.1.1 } title:b_qingxi_1.title_province = { remove_building = generic_university add_special_building = quanshan_academy_01 } }
+	        else = { title:b_qingxi_1.title_province = { remove_building = generic_university add_special_building = quanshan_academy_01 } }
+			# 鹅湖书院
+			if = { limit = { game_start_date >= 1175.1.1 } title:b_yanshan.title_province = { set_holding_type = church_holding add_special_building = ehu_academy_02 } }
+	        else = { title:b_yanshan.title_province = { set_holding_type = church_holding add_special_building = ehu_academy_01 } }
+			# 应天书院
+			if = { limit = { game_start_date >= 1009.1.1 } title:b_songcheng.title_province = { add_special_building = yingtian_academy_02 } }
+	        else = { title:b_songcheng.title_province = { add_special_building_slot = yingtian_academy_01 } }
+			# 嵩阳书院
+			title:b_yanshi.title_province = { add_special_building = songyang_academy_01 }
+			# 足利学校
+			title:b_ashikaga.title_province = { add_special_building_slot = ashikaga_academy_01 }
+			# 白鹭洲书院
+			title:b_luling.title_province = { add_special_building_slot = bailuzhou_academy_01 }
+
+			## 市舶司
+			if = { limit = { game_start_date >= 971.1.1 } title:b_huating.title_province = { add_special_building = xiuzhou_seaport_01 } }
+	        else = { title:b_huating.title_province = { add_special_building_slot = xiuzhou_seaport_01 } }
+			if = { limit = { game_start_date >= 971.1.1 } title:b_mao.title_province = { add_special_building = mingzhou_seaport_01 } }
+	        else = { title:b_mao.title_province = { add_special_building_slot = mingzhou_seaport_01 } }
+			if = { limit = { game_start_date >= 971.1.1 } title:b_gaomi.title_province = { add_special_building = mizhou_seaport_01 } }
+	        else = { title:b_gaomi.title_province = { add_special_building_slot = mizhou_seaport_01 } }
+			# 江户港
+	        title:b_toshima.title_province = { add_special_building = edo_port_01 } 
+			# 堺港
+	        title:b_otori.title_province = { remove_building = mozu_tombs add_special_building = sakai_port_01 } 
+			# 清海镇
+			title:b_Goryeo_Jeolla_Jangheung.title_province = { add_special_building = cheonghaejin_port_01 }
+
+			## 历史要塞
+			# 白帝城
+			title:b_fengjie.title_province = { add_special_building = baidi_fortress_01 }
+			# 钓鱼城
+			if = { limit = { game_start_date >= 1239.1.1 } title:b_shijing.title_province = { add_special_building = diaoyu_fortress_01 } }
+	        else = { title:b_shijing.title_province = { add_special_building_slot = diaoyu_fortress_01 } }
+			# 太原城
+			if = { limit = { game_start_date >= 985.1.1 } title:b_taiyuan.title_province = { add_special_building = taiyuan_fortress_02 } }
+	        else = { title:b_taiyuan.title_province = { add_special_building = taiyuan_fortress_01 } }
+			# 首里城
+			title:b_nakajan.title_province = { set_holding_type = tribal_holding add_special_building_slot = shuri_castle_01 }
+			# 大名府城
+			title:b_yuancheng.title_province = { add_special_building = daming_fortress_01 }
+			# 襄阳城
+			title:b_xiangyang.title_province = { add_special_building = xiangyang_fortress_01 }
+			# 北庭城
+			title:b_beshbalik.title_province = { add_special_building = beiting_fortress_01 }
+
+			## 自然景观
+			# 泰山
+			title:b_xuchang.title_province = { add_special_building = mount_tai_01 }
+			# 黄果树瀑布
+			title:b_shian.title_province = { add_special_building = huangguoshu_01 }
+			# 巫峡
+			title:b_wushan_1.title_province = { add_special_building = wuxia_01 }
+			# 五指山
+			title:b_lingshui.title_province = { add_special_building = mount_wuzhi_01 }
+			# 与那霸岳
+			title:b_kunjan_ucinaa.title_province = { set_holding_type = tribal_holding add_special_building = mount_yonaha_01 }
+			# 金刚山
+			title:b_Goryeo_Donggye_Goseong.title_province = { add_special_building = mount_kumgang_01 }
+			# 莫干山
+			title:b_wukang.title_province = { add_special_building = mount_mogan_01 }
+			# 九寨沟
+			title:b_yunglro.title_province = { add_special_building = jiuzhaigou_01 }
+			# 丹霞山
+			title:b_qujiang_1.title_province = { add_special_building = mount_danxia_01 }
+			# 冈仁波齐峰
+			title:b_kyunglung.title_province = { add_special_building = mount_kailash_01 }
+			
+
+			## 矿藏与盐场
+			# title:b_ye_1.title_province = { add_special_building_slot = laizhou_mines_01 }
+			# title:b_shanghang.title_province = { add_special_building_slot = zijinshan_mines_01 }
+			title:b_wuchang.title_province = { add_special_building = tonglyushan_mines_01 }
+			# title:b_qingyang.title_province = { add_special_building = tongguanshan_mines_01 }
+			title:b_bipan.title_province = { add_special_building = huize_mines_01 }
+			# title:b_fuyang.title_province = { add_special_building = hanxing_mines_01 }
+			title:b_xuchuan.title_province = { add_special_building = rongxian_salt_01 }
+			# title:b_gongjing.title_province = { add_special_building = zigong_salt_01 }
+			title:b_wuyuan.title_province = { add_special_building = yanzhou_salt_01 }
+			title:b_anyi.title_province = { add_special_building = xiechi_salt_01 }
+			title:b_yancheng.title_province = { add_special_building = lianghuai_salt_01 }
+			title:b_haiyan.title_province = { add_special_building = yanguan_salt_01 }
+
+			# title:b_ningde.title_province = { add_special_building = baofeng_mines_01 }
+			# title:b_pingyang.title_province = { add_special_building = guiyang_mines_01 }
+			# title:b_yongjia.title_province = { add_special_building_slot = taishun_mines_01 }
+			# title:b_sado.title_province = { set_holding_type = city_holding add_special_building_slot = sado_mines_01 }
+			title:b_naka_iwami.title_province = { add_special_building_slot = iwami_mines_01 }
+			
+			title:b_tsuru.title_province = { set_holding_type = city_holding add_special_building_slot = kurokawa_mines_01 }
+			# title:b_yongxing_2.title_province = { set_holding_type = city_holding add_special_building = daye_mines_01 }
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = kaifeng_active_global_variable  # 营造法式MOD
+				}
+			}
+			# 白马寺
+			title:b_luoyang.title_province = { add_special_building = white_horse_temple_01 }
+			# 长干寺与茅山书院
+			if = { limit = { game_start_date >= 1424.1.1 } title:b_jiangning.title_province = { remove_building = maoshan_academy_01 add_special_building = changgan_temple_03 } }
+			else_if = { limit = { game_start_date >= 1020.1.1 } title:b_jiangning.title_province = { remove_building = maoshan_academy_01 add_special_building = changgan_temple_02 } }
+			else = { title:b_jiangning.title_province = { remove_building = maoshan_academy_01 add_special_building = changgan_temple_01 } }
+			if = { limit = { game_start_date >= 860.1.1 } title:b_gourong.title_province = { add_special_building = maoshan_academy_01 } }
+	        else = { title:b_gourong.title_province = { add_special_building_slot = maoshan_academy_01 } }
+		}
+		if = { ### CCP8
+			limit = {
+				OR = {
+					has_game_rule = uba_history_special_buildings_on
+					has_global_variable = is_uba_hbp_loaded #奇观建筑师 历史建筑补充包
+				}
+				has_cp8_dlc_trigger = yes
+			}
+			# 八幡宫
+			if = { limit = { game_start_date >= 1063.1.1 } title:b_tama_musashi.title_province = { add_special_building = hachimanguu_01 } }
+	        else = { title:b_tama_musashi.title_province = { add_special_building_slot = hachimanguu_01 } }
+			# 崇圣寺
+			title:b_ningbei.title_province = { add_special_building = chongsheng_temple_01 }
+			# 杭州市舶司
+			if = { limit = { game_start_date >= 971.1.1 } title:b_fuyang_1.title_province = { set_holding_type = city_holding add_special_building = hangzhou_seaport_01 } }
+	        else = { title:b_fuyang_1.title_province = { set_holding_type = city_holding add_special_building_slot = hangzhou_seaport_01 } }
+			# 广州市舶司
+			if = { limit = { game_start_date >= 971.1.1 } title:b_qingyuan_1.title_province = { add_special_building = guangzhou_seaport_01 } }
+	        else = { title:b_qingyuan_1.title_province = { add_special_building_slot = guangzhou_seaport_01 } }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_game_rule = uba_history_special_buildings_on
+					has_global_variable = is_uba_hbp_loaded #奇观建筑师 历史建筑补充包
+				}
+				has_cp8_dlc_trigger = no
+			}
+			# 岳麓书院
+			if = { limit = { game_start_date >= 976.1.1 } title:b_changsha.title_province = { add_special_building = yuelu_academy_uba_01 } }
+	        else = { title:b_changsha.title_province = { add_special_building_slot = yuelu_academy_uba_01 } }
+			# 八幡宫
+			if = { limit = { game_start_date >= 1063.1.1 } title:b_kamakura.title_province = { add_special_building = hachimanguu_01 } }
+	        else = { title:b_kamakura.title_province = { add_special_building_slot = hachimanguu_01 } }
+			# 出云大社
+			title:b_kizuki_taisha.title_province = { add_special_building = izumo_taisha_uba_01 }
+			# 曲阜孔庙
+			title:b_fuqu.title_province = { add_special_building = confucian_temple_01 }
+			# 麦积山石窟
+			title:b_chengji.title_province = { add_special_building = maijishan_grottoes_uba_01 }
+			# 杭州市舶司
+			# if = { limit = { game_start_date >= 971.1.1 } title:b_qiantang.title_province = { add_special_building = hangzhou_seaport_01 } }
+	        # else = { title:b_qiantang.title_province = { add_special_building_slot = hangzhou_seaport_01 } }
+	        title:b_qiantang.title_province = { add_special_building = hangzhou_seaport_01 } 
+			# 广州市舶司
+			if = { limit = { game_start_date >= 971.1.1 } title:b_nanhai.title_province = { add_special_building = guangzhou_seaport_01 } }
+	        else = { title:b_nanhai.title_province = { add_special_building_slot = guangzhou_seaport_01 } }
+			# 下龙湾
+			title:b_tan_hung.title_province = { add_special_building = halong_bay_01 }
+			# 崇圣寺
+			title:b_dali_1.title_province = { add_special_building = chongsheng_temple_01 }
+			# 弥勒寺
+			# title:b_Goryeo_Yanggwan_Chungju.title_province = { add_special_building = mireuk_temple_01 }
+			title:b_Goryeo_Jeolla_Jeonju.title_province = { add_special_building = mireuk_temple_01 }
+		}
+	}
+}

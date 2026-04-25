@@ -1,0 +1,146 @@
+﻿uba_flavor_pet_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba_flavor
+	desc = uba_flavor_pet_decision_desc
+	selection_tooltip = uba_flavor_pet_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_ai = no
+		any_directly_owned_province = {
+			OR = {
+				has_building_or_higher = UBA_reserve_04
+				has_building_or_higher = UBA_garden_04
+				has_building_or_higher = UBA_test_building_1
+			}
+		}
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = medium_gold_value
+	}
+
+	cooldown = {
+		months = 6
+	}
+
+	effect = {
+		custom_tooltip =  uba_flavor_pet_decision_effect
+		trigger_event = uba_flavor_decisions.0011
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_flavor_hunt_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba_flavor
+	desc = uba_flavor_hunt_decision_desc
+	selection_tooltip = uba_flavor_hunt_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_ai = no
+		any_directly_owned_province = {
+			OR = {
+				has_building_or_higher = UBA_hunting_04
+				has_building_or_higher = UBA_test_building_1
+			}
+		}
+	}
+
+	is_valid = {
+		# always = no
+		employs_court_position = master_of_hunt_court_position
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = medium_gold_value
+	}
+
+	cooldown = {
+		months = 6
+	}
+
+	effect = {
+		custom_tooltip =  uba_flavor_hunt_decision_effect
+		trigger_event = uba_flavor_decisions.0012
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_flavor_knight_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba_flavor
+	desc = uba_flavor_knight_decision_desc
+	selection_tooltip = uba_flavor_knight_decision_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_ai = no
+		any_directly_owned_province = {
+			OR = {
+				has_building_or_higher = UBA_knight_04
+				has_building_or_higher = UBA_castle_04
+				has_building_or_higher = UBA_test_building_1
+			}
+		}
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		gold = medium_gold_value
+	}
+	
+	cooldown = {
+		months = 6
+	}
+
+	effect = {
+		custom_tooltip =  uba_flavor_knight_decision_effect
+		trigger_event = uba_flavor_decisions.0021
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

@@ -1,0 +1,307 @@
+﻿
+##决议选择男爵领条件
+uba_barony_is_valid_trigger = {
+	holder = $CHARACTER$
+
+	# title_province = {
+	# 	OR = {
+	# 		has_holding_type = castle_holding
+	# 		has_holding_type = city_holding
+	# 		has_holding_type = temple_holding
+	# 		has_holding_type = tribal_holding
+	# 	}
+	# }
+
+
+	title_province = {
+		has_special_building = no
+	}
+
+	NOT = { is_leased_out = yes }
+}
+
+uba_remove_barony_is_valid_trigger = {
+	holder = $CHARACTER$
+
+	title_province = {
+		has_special_building = yes
+	}
+	NOT = { is_leased_out = yes }
+}
+
+uba_nomadic_building_barony_is_valid_trigger = {
+	holder = $CHARACTER$
+
+	title_province = {
+		has_special_building = yes
+		OR = {
+			AND = {
+				has_building_or_higher = UBA_hunting_01
+				NOT = { has_building = UBA_hunting_05 }
+				NAND = {
+					has_building = UBA_hunting_04
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_hunting_finished
+					}
+				}
+			}
+			AND = {
+				has_building_or_higher = UBA_pasture_01
+				NOT = { has_building = UBA_pasture_05 }
+				NAND = {
+					has_building = UBA_pasture_04
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_pasture_finished
+					}
+				}
+				
+			}
+			AND = {
+				has_building_or_higher = UBA_yurt_01
+				NOT = { has_building = UBA_yurt_05 }
+				NAND = {
+					has_building = UBA_yurt_04
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_yurt_finished
+					}
+				}
+			}
+		}
+	}
+	NOT = { is_leased_out = yes }
+}
+
+## 成就建筑
+uba_achievement_unlocked_trigger = {
+	OR = {
+		uba_achievement_northsea_mann_trigger = yes
+		uba_achievement_outremer_trigger = yes
+		#uba_test_trigger = yes
+	}
+}
+
+uba_achievement_northsea_mann_trigger = {
+	has_title = title:e_north_sea
+	# has_title = title:k_mann_the_isles
+}
+
+uba_achievement_outremer_trigger = {
+	has_title = title:e_outremer
+}
+
+uba_test_trigger = {
+	#has_title = title:e_byzantium
+}
+
+# 奇观升级需求
+# 工事奇观
+uba_building_requirement_fortification_1 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 01 }
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_crop_rotation
+			# }
+			scope:holder.culture = {
+				has_innovation = innovation_battlements
+			}
+		}
+	}
+}
+uba_building_requirement_fortification_2 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_battlements
+			}
+		}
+	}
+}
+uba_building_requirement_fortification_3 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_hoardings
+			}
+		}
+	}
+}
+uba_building_requirement_fortification_4 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 03 }
+			scope:holder.culture = {
+				has_innovation = innovation_hoardings
+			}
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_machicolations
+			# }
+		}
+	}
+}
+# 经济奇观
+uba_building_requirement_economy_1 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 01 }
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_crop_rotation
+			# }
+			scope:holder.culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
+	}
+}
+uba_building_requirement_economy_2 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
+	}
+}
+uba_building_requirement_economy_3 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_guilds
+			}
+		}
+	}
+}
+uba_building_requirement_economy_4 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 03 }
+			scope:holder.culture = {
+				has_innovation = innovation_guilds
+			}
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_cranes
+			# }
+		}
+	}
+}
+# 军事奇观
+uba_building_requirement_military_1 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 01 }
+			scope:holder.culture = {
+				has_innovation = innovation_burhs
+			}
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_barracks
+			# }
+		}
+	}
+}
+uba_building_requirement_military_2 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_burhs
+			}
+		}
+	}
+}
+uba_building_requirement_military_3 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_castle_baileys
+			}
+		}
+	}
+}
+uba_building_requirement_military_4 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 03 }
+			scope:holder.culture = {
+				has_innovation = innovation_castle_baileys
+			}
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_royal_armory
+			# }
+		}
+	}
+}
+# 游牧奇观
+uba_building_requirement_nomadic_1 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 01 }
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_crop_rotation
+			# }
+			scope:holder.culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
+		has_building_or_higher = nomadic_camp_01
+	}
+}
+uba_building_requirement_nomadic_2 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
+		has_building_or_higher = nomadic_camp_01
+	}
+}
+uba_building_requirement_nomadic_3 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 02 }
+			scope:holder.culture = {
+				has_innovation = innovation_guilds
+			}
+		}
+		has_building_or_higher = nomadic_camp_01
+	}
+}
+uba_building_requirement_nomadic_4 = {
+	OR = {
+		has_game_rule = uba_innovation_requirement_off
+		AND = {
+			building_requirement_castle_city_church = { LEVEL = 03 }
+			scope:holder.culture = {
+				has_innovation = innovation_guilds
+			}
+			# scope:holder.culture = {
+			# 	has_innovation = innovation_cranes
+			# }
+		}
+		has_building_or_higher = nomadic_camp_01
+	}
+}

@@ -1,0 +1,1911 @@
+﻿namespace = uba_decisions
+# 0001 选择位置
+uba_decisions.0001 = {
+	type = character_event
+	title = uba_decisions.0001.t
+	desc = uba_decisions.0001.desc
+	theme = realm
+	override_background = { reference = terrain }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		uba_give_building_location_effect = yes
+	}
+	#是的
+	option = {
+		name = uba_decisions.0001.a
+		#flavor = uba_decisions.0001.a.flavor
+		remove_global_variable = uba_event_ongoing
+		show_as_tooltip = {
+			custom_tooltip = uba_decisions.0001.a_tt
+		}
+	}
+
+	#算了（放弃）
+	option = {
+		name = uba_decisions.0001.cancel
+		remove_decision_cooldown = uba_building_decision_1
+		uba_cleanup_effect = yes
+		remove_global_variable = uba_event_ongoing
+		show_as_tooltip = {
+			custom_tooltip = uba_decisions.0001.cancel_tt
+		}
+	}
+}
+
+# 0999 建筑升级完成
+uba_decisions.0999 = { # 
+	type = character_event
+	title = uba_decisions.0999.t
+	theme = realm
+	desc = uba_decisions.0999.desc
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	immediate = { 
+		play_music_cue = "mx_cue_epic_sacral_moment" 
+		dynasty = { add_dynasty_prestige = massive_dynasty_prestige_value }
+		if = {
+			limit = {
+				culture = { has_cultural_era_or_later = culture_era_high_medieval }
+			}
+			add_prestige = 1500
+		}
+		else = {
+			add_prestige = 1200
+		}
+	}
+
+	option = {
+		name = uba_decisions.0999.a
+		flavor = uba_decisions.0999.a.flavor
+	}
+}
+
+uba_decisions.0998 = { # 暗影王座升级特色
+	type = character_event
+	title = uba_decisions.0998.t
+	theme = intrigue
+	desc = uba_decisions.0998.desc
+	left_portrait = {
+		character = root
+		animation = personality_callous
+	}
+
+	immediate = { 
+		play_music_cue = "mx_cue_epic_sacral_moment" 
+		dynasty = { add_dynasty_prestige = massive_dynasty_prestige_value }
+		if = {
+			limit = {
+				culture = { has_cultural_era_or_later = culture_era_high_medieval }
+			}
+			add_prestige = 1500
+		}
+		else = {
+			add_prestige = 1200
+		}
+	}
+
+	option = {
+		name = uba_decisions.0999.a
+		flavor = uba_decisions.0999.a.flavor
+	}
+}
+
+# 1000 工程：城墙与成就
+uba_decisions.1000 = {
+	type = character_event
+	title = uba_decisions.1000.t
+	desc = uba_decisions.1000.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.1000.achievement
+		flavor = uba_decisions.1000.achievement.flavor
+		trigger = {
+			uba_achievement_unlocked_trigger = yes
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.1001
+		}
+	}
+
+	option = {
+		name = uba_decisions.1000.wall
+		flavor = uba_decisions.1000.wall.flavor
+		trigger = {
+			NOR = {
+				exists = global_var:uba_wanna_build_wall
+				exists = global_var:uba_building_wall
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.1100
+		}
+	}
+	
+	option = { # 测试用
+		name = uba_decisions.1000.test
+		flavor = uba_decisions.1000.test.flavor
+		trigger = {
+			always = no
+		}
+		# remove_global_variable = uba_event_ongoing
+		hidden_effect = {
+			trigger_event = uba_decisions.1999
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+# 1000 成就建筑
+uba_decisions.1001 = { #成就建筑
+	type = character_event
+	title = uba_decisions.1001.t
+	desc = uba_decisions.1001.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.1001.a
+		flavor = uba_decisions.1001.a.flavor
+		show_as_tooltip = { custom_tooltip = uba_decisions.1001.a.tt }
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_valhalla_added
+				}
+			}
+			uba_achievement_northsea_mann_trigger = yes
+			# exists = var:uba_building_location
+		}
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_valhalla_01
+		# 		add_special_building = UBA_valhalla_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_valhalla_planned
+			value = 1
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_valhalla_added
+		}
+		# hidden_effect = {
+		# 	trigger_event = {
+		# 		id = uba_decisions.1010
+		# 		days = 1
+		# 	}
+		# }
+	}
+
+	option = {
+		name = uba_decisions.1001.b
+		flavor = uba_decisions.1001.b.flavor
+		show_as_tooltip = { custom_tooltip = uba_decisions.1001.b.tt }
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_headquarter_added
+				}
+			}
+			uba_achievement_outremer_trigger = yes
+		}
+		set_variable = {
+			name = uba_construct_headquarter_planned
+			value = 1
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_headquarter_added
+		}
+		# hidden_effect = {
+		# 	trigger_event = {
+		# 		id = uba_decisions.1011
+		# 		days = 1
+		# 	}
+		# }
+	}
+
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.1000
+		}
+	}
+}
+uba_decisions.1010 = { #血与金之城
+	type = character_event
+	title = uba_decisions.1010.t
+	theme = martial
+	desc = {
+		first_valid = {
+			triggered_desc = { #Multiple illegitimate children now legitimate
+				trigger = { faith.religion = { is_in_family = rf_pagan } }
+				desc = uba_decisions.1010.desc.pagan
+			}
+			triggered_desc = {
+				trigger = { NOT = { faith.religion = { is_in_family = rf_pagan } } }
+				desc = uba_decisions.1010.desc.else
+			}
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = { play_music_cue = "mx_cue_epic_sacral_moment" }
+
+	option = {
+		name = uba_decisions.1010.a
+		flavor = uba_decisions.1010.a.flavor
+	}
+}
+uba_decisions.1011 = { #骑士团总部
+	type = character_event
+	title = uba_decisions.1011.t
+	theme = faith
+	override_background = ep2_holy_site_mena
+	desc = uba_decisions.1011.desc
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	immediate = { play_music_cue = "mx_cue_epic_sacral_moment" }
+
+	option = {
+		name = uba_decisions.1011.a
+		flavor = uba_decisions.1011.a.flavor
+	}
+}
+# 1100 城墙
+uba_decisions.1100 = { #建造一座城墙？
+	type = character_event
+	title = uba_decisions.1100.t
+	desc = uba_decisions.1100.desc
+	theme = realm
+	override_background = { reference = courtyard }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.1100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.1100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = 1000
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	set_global_variable = {
+		# 		name = uba_wanna_build_wall
+		# 		value = yes
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wall_planned
+			value = 1
+		}
+	}
+
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.1000
+		}
+	}
+}
+# 1999 测试用建筑
+uba_decisions.1999 = { #测试
+	type = character_event
+	title = uba_decisions.1999.t
+	desc = uba_decisions.1999.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = {
+		name = uba_decisions.1999.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.1999.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# remove_short_term_gold = 1
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_test_building_1
+		# 		add_special_building = UBA_test_building_1
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		# remove_decision_cooldown = uba_building_decision_1
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:uba_test_building_1
+		}
+	}
+
+	
+	option = {
+		name = uba_decisions.2200.t
+		show_as_tooltip = { custom_tooltip = uba_decisions.2200.a_tt }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_palace_01
+		}
+	}
+	option = {
+		name = uba_decisions.3100.t
+		show_as_tooltip = { custom_tooltip = uba_decisions.3100.a_tt }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_castle_01
+		}
+	}
+
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.1000
+		}
+	}
+	
+}
+# 2000 外交
+uba_decisions.2000 = {
+	type = character_event
+	title = uba_decisions.2000.t
+	desc = uba_decisions.2000.desc
+	theme = diplomacy
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.2000.colosseum
+		flavor = uba_decisions.2000.colosseum.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_diplomacy
+					has_trait = diplomat
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.2100
+		}
+	}
+
+	option = {
+		name = uba_decisions.2000.palace
+		flavor = uba_decisions.2000.palace.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_diplomacy
+					has_trait = august
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.2200
+		}
+	}
+
+	option = {
+		name = uba_decisions.2000.reserve
+		flavor = uba_decisions.2000.reserve.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_diplomacy
+					has_trait = family_first
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.2300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.2100 = { #建造一座剧场？
+	type = character_event
+	title = uba_decisions.2100.t
+	desc = uba_decisions.2100.desc
+	theme = diplomacy_foreign_affairs_focus	
+	override_background = { reference = corridor_day }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.2100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.2100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_colosseum_01
+		# 		add_special_building = UBA_colosseum_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_colosseum_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.2000
+		}
+	}
+}
+uba_decisions.2200 = { #建造一座宫殿？
+	type = character_event
+	title = uba_decisions.2200.t
+	desc = uba_decisions.2200.desc
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.2200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.2200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_palace_01
+		# 		add_special_building = UBA_palace_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_palace_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.2000
+		}
+	}
+}
+uba_decisions.2300 = { #建造一座林苑？
+	type = character_event
+	title = uba_decisions.2300.t
+	desc = uba_decisions.2300.desc
+	theme = family #diplomacy_family_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.2300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.2300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_reserve_01
+		# 		add_special_building = UBA_reserve_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_reserve_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.2000
+		}
+	}
+}
+# 3000 军事
+uba_decisions.3000 = {
+	type = character_event
+	title = uba_decisions.3000.t
+	desc = uba_decisions.3000.desc
+	theme = martial
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.3000.castle
+		flavor = uba_decisions.3000.castle.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_martial
+					has_trait = strategist
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.3100
+		}
+	}
+
+	option = {
+		name = uba_decisions.3000.tower
+		flavor = uba_decisions.3000.tower.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_martial
+					has_trait = overseer
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.3200
+		}
+	}
+
+	option = {
+		name = uba_decisions.3000.knight
+		flavor = uba_decisions.3000.knight.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_martial
+					has_trait = gallant
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.3300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.3100 = { #建造一座要塞？
+	type = character_event
+	title = uba_decisions.3100.t
+	desc = uba_decisions.3100.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.3100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.3100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_castle_01
+		# 		add_special_building = UBA_castle_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_castle_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.3000
+		}
+	}
+}
+uba_decisions.3200 = { #建造一座灯塔？
+	type = character_event
+	title = uba_decisions.3200.t
+	desc = uba_decisions.3200.desc
+	theme = martial_authority_focus
+	override_background = { reference = courtyard }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.3200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.3200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_tower_01
+		# 		add_special_building = UBA_tower_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_tower_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.3000
+		}
+	}
+}
+uba_decisions.3300 = { #建造一座军校？
+	type = character_event
+	title = uba_decisions.3300.t
+	desc = uba_decisions.3300.desc
+	theme = martial_chivalry_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.3300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.3300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_knight_01
+		# 		add_special_building = UBA_knight_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_knight_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.3000
+		}
+	}
+}
+# 4000 管理
+uba_decisions.4000 = {
+	type = character_event
+	title = uba_decisions.4000.t
+	desc = uba_decisions.4000.desc
+	theme = stewardship
+	override_background = { reference = council_chamber }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.4000.workshop
+		flavor = uba_decisions.4000.workshop.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_stewardship
+					has_trait = avaricious
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.4200
+		}
+	}
+
+	option = {
+		name = uba_decisions.4000.governor
+		flavor = uba_decisions.4000.governor.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_stewardship
+					has_trait = administrator
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.4100
+		}
+	}
+
+	option = {
+		name = uba_decisions.4000.parliament
+		flavor = uba_decisions.4000.parliament.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_stewardship
+					has_trait = education_republican_knowledge_1
+					has_trait = education_republican_knowledge_2
+					has_trait = education_republican_knowledge_3
+					has_trait = education_republican_knowledge_4
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.4300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.4100 = { #建造一座官署？
+	type = character_event
+	title = uba_decisions.4100.t
+	desc = uba_decisions.4100.desc
+	theme = stewardship_duty_focus
+	override_background = { reference = alley_day }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.4100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.4100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_governor_01
+		# 		add_special_building = UBA_governor_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_governor_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.4000
+		}
+	}
+}
+uba_decisions.4200 = { #建造一座工坊？
+	type = character_event
+	title = uba_decisions.4200.t
+	desc = uba_decisions.4200.desc
+	theme = stewardship_wealth_focus
+	override_background = { reference = market }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.4200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.4200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_workshop_01
+		# 		add_special_building = UBA_workshop_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_workshop_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.4000
+		}
+	}
+}
+uba_decisions.4300 = { #建造一座议会？
+	type = character_event
+	title = uba_decisions.4300.t
+	desc = uba_decisions.4300.desc
+	theme = stewardship_domain_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.4300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.4300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_parliament_01
+		# 		add_special_building = UBA_parliament_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_parliament_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.4000
+		}
+	}
+}
+# 5000 谋略
+uba_decisions.5000 = {
+	type = character_event
+	title = uba_decisions.5000.t
+	desc = uba_decisions.5000.desc
+	theme = intrigue
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.5000.secret
+		flavor = uba_decisions.5000.secret.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = education_intrigue
+					has_trait = schemer
+					has_trait = seducer
+					has_trait = torturer
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.5100
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.5100 = { #建造一座密堡？
+	type = character_event
+	title = uba_decisions.5100.t
+	desc = uba_decisions.5100.desc
+	theme = intrigue
+	override_background = { reference = dungeon }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.5100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.5100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_secret_01
+		# 		add_special_building = UBA_secret_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_secret_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.5000
+		}
+	}
+}
+# 6000 学识
+uba_decisions.6000 = {
+	type = character_event
+	title = uba_decisions.6000.t
+	desc = uba_decisions.6000.desc
+	theme = learning
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.6000.hospital
+		flavor = uba_decisions.6000.hospital.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_learning
+					has_trait = whole_of_body
+					has_trait = lifestyle_physician
+					has_trait = lifestyle_herbalist
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.6100
+		}
+	}
+
+	option = {
+		name = uba_decisions.6000.university
+		flavor = uba_decisions.6000.university.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_learning
+					has_trait = scholar
+					has_trait = lifestyle_mystic
+					has_trait = witch
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.6200
+		}
+	}
+
+	option = {
+		name = uba_decisions.6000.church
+		flavor = uba_decisions.6000.church.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = education_learning
+					has_trait = theologian
+					has_trait = pilgrim
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.6300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.6100 = { #建造一座医院？
+	type = character_event
+	title = uba_decisions.6100.t
+	desc = uba_decisions.6100.desc
+	theme = learning_medicine_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.6100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.6100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_hospital_01
+		# 		add_special_building = UBA_hospital_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_hospital_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.6000
+		}
+	}
+}
+uba_decisions.6200 = { #建造一座学院？
+	type = character_event
+	title = uba_decisions.6200.t
+	desc = uba_decisions.6200.desc
+	theme = learning_scholarship_focus
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.6200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.6200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_university_01
+		# 		add_special_building = UBA_university_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_university_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.6000
+		}
+	}
+}
+uba_decisions.6300 = { #建造一座圣殿？
+	type = character_event
+	title = uba_decisions.6300.t
+	desc = uba_decisions.6300.desc
+	theme = learning_theology_focus #faith
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.6300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.6300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_church_01
+		# 		add_special_building = UBA_church_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_church_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.6000
+		}
+	}
+}
+# 7000 旅行
+uba_decisions.7000 = {
+	type = character_event
+	title = uba_decisions.7000.t
+	desc = uba_decisions.7000.desc
+	theme = realm
+	override_background = { reference = terrain }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.7000.market
+		flavor = uba_decisions.7000.market.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_traveler
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.7100
+		}
+	}
+
+	option = {
+		name = uba_decisions.7000.port
+		flavor = uba_decisions.7000.port.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_traveler
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.7110
+		}
+	}
+
+	option = {
+		name = uba_decisions.7000.holyland
+		flavor = uba_decisions.7000.holyland.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = pilgrim
+					has_trait = theologian
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.7200
+		}
+	}
+
+	option = {
+		name = uba_decisions.7000.basins
+		flavor = uba_decisions.7000.basins.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_traveler
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.7300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.7100 = { #建造一座市场？
+	type = character_event
+	title = uba_decisions.7100.t
+	desc = uba_decisions.7100.desc.market
+
+	theme = stewardship
+	override_background = { reference = market }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.7100.market
+		show_as_tooltip = { custom_tooltip = uba_decisions.7100.market_tt }
+		# trigger = {
+		# 	exists = var:uba_building_location 
+		# 	# var:uba_building_location = { 
+		# 	# 	NOR = {
+		# 	# 		is_coastal = yes
+		# 	# 		is_riverside_province = yes
+		# 	# 	}
+		# 	# } 
+		# }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_market_01
+		# 		add_special_building = UBA_market_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_market_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.7000
+		}
+	}
+}
+uba_decisions.7110 = { #建造一座港口？
+	type = character_event
+	title = uba_decisions.7100.t
+	desc = uba_decisions.7100.desc.port
+
+	theme = stewardship
+	override_background = { reference = docks }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+	option = {
+		name = uba_decisions.7100.port
+		show_as_tooltip = { custom_tooltip = uba_decisions.7100.port_tt }
+		# trigger = {
+		# 	exists = var:uba_building_location 
+		# 	var:uba_building_location = { 
+		# 		OR = {
+		# 			is_coastal = yes
+		# 			is_riverside_province = yes
+		# 		}
+		# 	} 
+		# }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_port_01
+		# 		add_special_building = UBA_port_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_port_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.7000
+		}
+	}
+}
+uba_decisions.7200 = { #建造一座圣城？
+	type = character_event
+	title = uba_decisions.7200.t
+	desc = uba_decisions.7200.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.7200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.7200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_holyland_01
+		# 		add_special_building = UBA_holyland_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_holyland_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.7000
+		}
+	}
+}
+uba_decisions.7300 = { #建造一座水库？
+	type = character_event
+	title = uba_decisions.7300.t
+	desc = uba_decisions.7300.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.7300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.7300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_basins_01
+		# 		add_special_building = UBA_basins_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_basins_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.7000
+		}
+	}
+}
+# 8000 生活
+uba_decisions.8000 = {
+	type = character_event
+	title = uba_decisions.8000.t
+	desc = uba_decisions.8000.desc
+	theme = pet
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.8000.academy
+		flavor = uba_decisions.8000.academy.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_mystic
+					has_trait = witch
+					has_trait = scholar
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.8100
+		}
+	}
+
+	option = {
+		name = uba_decisions.8000.garden
+		flavor = uba_decisions.8000.garden.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_herbalist
+					has_trait = lifestyle_gardener
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.8200
+		}
+	}
+
+	option = {
+		name = uba_decisions.8000.hunting
+		flavor = uba_decisions.8000.hunting.flavor
+		trigger = {
+			root = {
+				OR = {
+					has_trait = architect
+					has_trait = lifestyle_hunter
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.8300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.8100 = { #建造一座书库？
+	type = character_event
+	title = uba_decisions.8100.t
+	desc = uba_decisions.8100.desc
+	theme = learning_scholarship_focus
+	override_background = { reference = study }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.8100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.8100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_academy_01
+		# 		add_special_building = UBA_academy_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_academy_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.8000
+		}
+	}
+}
+uba_decisions.8200 = { #建造一座花园？
+	type = character_event
+	title = uba_decisions.8200.t
+	desc = uba_decisions.8200.desc
+	theme = friend_relation
+	override_background = { reference = garden }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.8200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.8200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_garden_01
+		# 		add_special_building = UBA_garden_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_garden_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.8000
+		}
+	}
+}
+uba_decisions.8300 = { #建造一座猎苑？
+	type = character_event
+	title = uba_decisions.8300.t
+	desc = uba_decisions.8300.desc
+	theme = hunting
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.8300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.8300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_hunting_01
+		# 		add_special_building = UBA_hunting_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_hunting_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.8000
+		}
+	}
+}
+# 9000 游牧
+uba_decisions.9000 = {
+	type = character_event
+	title = uba_decisions.9000.t
+	desc = uba_decisions.9000.desc
+	theme = nomads
+	# override_background = { reference = wilderness_steppe }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	option = {
+		name = uba_decisions.9000.yurt
+		flavor = uba_decisions.9000.yurt.flavor
+		trigger = {
+			root = {
+				OR = {
+					government_has_flag = government_is_nomadic
+					has_trait = nomadic_philosophy
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.9100
+		}
+	}
+
+	option = {
+		name = uba_decisions.9000.pasture
+		flavor = uba_decisions.9000.pasture.flavor
+		trigger = {
+			root = {
+				OR = {
+					government_has_flag = government_is_nomadic
+					has_trait = nomadic_philosophy
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.9200
+		}
+	}
+
+	option = {
+		name = uba_decisions.8000.hunting
+		flavor = uba_decisions.8000.hunting.flavor
+		trigger = {
+			root = {
+				OR = {
+					government_has_flag = government_is_nomadic
+					has_trait = nomadic_philosophy
+					has_trait = lifestyle_hunter
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_decisions.9300
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1000.back
+		flavor = uba_decisions.1000.back.flavor
+		# remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	# option = {
+	# 	name = uba_decisions.1000.cancel
+	# 	flavor = uba_decisions.1000.cancel.flavor
+	# 	uba_cleanup_effect = yes
+	# 	remove_decision_cooldown = uba_building_decision_1
+	# }
+}
+uba_decisions.9100 = { #建造一座王庭？
+	type = character_event
+	title = uba_decisions.9100.t
+	desc = uba_decisions.9100.desc
+	theme = war
+	override_background = { reference = mpo_temple_steppe }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.9100.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.9100.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_yurt_01
+		# 		add_special_building = UBA_yurt_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_yurt_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.9000
+		}
+	}
+}
+uba_decisions.9200 = { #建造一座牧场？
+	type = character_event
+	title = uba_decisions.9200.t
+	desc = uba_decisions.9200.desc
+	theme = nomads
+	override_background = { reference = mpo_camp_steppe }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.9200.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.9200.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_pasture_01
+		# 		add_special_building = UBA_pasture_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_pasture_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.9000
+		}
+	}
+}
+uba_decisions.9300 = { #建造一座猎苑？
+	type = character_event
+	title = uba_decisions.8300.t
+	desc = uba_decisions.8300.desc
+	theme = hunting
+	override_background = { reference = mpo_hunt_steppe }
+	left_portrait = {
+		character = root
+		animation = personality_rational #personality_honorable
+	}
+
+	option = {
+		name = uba_decisions.8300.a
+		show_as_tooltip = { custom_tooltip = uba_decisions.8300.a_tt }
+		# trigger = { exists = var:uba_building_location }
+		# remove_short_term_gold = uba_decision_cost
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_hunting_01
+		# 		add_special_building = UBA_hunting_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# }
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = flag:UBA_hunting_01
+		}
+	}
+	
+	option = {
+		name = uba_decisions.1100.back
+		flavor = uba_decisions.1100.back.flavor
+		hidden_effect = {
+			trigger_event = uba_decisions.9000
+		}
+	}
+}

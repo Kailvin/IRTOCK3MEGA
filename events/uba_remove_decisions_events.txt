@@ -1,0 +1,34 @@
+﻿namespace = uba_remove_decisions
+
+uba_remove_decisions.0001 = {
+	type = character_event
+	title = uba_remove_decisions.0001.t
+	desc = uba_remove_decisions.0001.desc
+	theme = realm
+	override_background = { reference = courtyard }
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#是的
+	option = {
+		name = uba_remove_decisions.0001.a
+		flavor = uba_remove_decisions.0001.a.flavor
+		hidden_effect = {
+			uba_remove_special_building_effect = yes
+		}
+	}
+
+	#算了（放弃）
+	option = {
+		name = uba_decisions.0001.cancel
+		add_gold = 500
+		# stress_impact = {
+		# 	greedy = minor_stress_impact_loss
+		# 	base = minor_stress_impact_gain
+		# 	ambitious = medium_stress_impact_gain
+		# }
+		# remove_decision_cooldown = uba_building_decision
+	}
+}

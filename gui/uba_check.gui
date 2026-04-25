@@ -1,0 +1,21 @@
+﻿types jomini_command{
+    type uba_update = widget{
+        datacontext = "[GetScriptedGui( 'uba_update' )]"
+        visible = "[ScriptedGui.IsShown( GuiScope.End )]"
+
+        state = {
+            name = a
+            next = b
+            duration = 0.01
+            on_start = "[ScriptedGui.Execute( GuiScope.End )]"
+			trigger_on_create = yes
+        }
+
+        state = {
+            name = b
+            next = a
+            on_start = "[ScriptedGui.Execute( GuiScope.End )]"
+            duration = 0.01
+        }
+    }
+}

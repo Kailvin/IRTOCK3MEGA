@@ -1,0 +1,406 @@
+﻿l_simp_chinese:
+# 特性
+ unlocks_cereal_fields_and_farm_estates: "可以在该[holding|E]修建#V $building_type_cereal_fields_01$#!、#V $building_type_farm_estates_01$#!线的[buildings|E]"
+ unlocks_windmills_and_watermills: "可以在该[holding|E]修建#V $building_type_windmills_01$#! and #V $building_type_watermills_01$#!线的[buildings|E]"
+
+# 庄园线
+ building_type_uba_manor_01: "私家庄园"  #Royal Manor
+ building_type_uba_manor_01_desc: "这里有着丰饶的农田、宜人的牧场、精致的园艺和优质的储存设施，而这片壮丽的领地只由王室独享。成百上千的农民日夜为他们的君主辛勤劳作，献上丰收与税款。"
+ building_uba_manor_01: "庄园主宅" #Manor House
+ building_uba_manor_01_desc: "这座壮观的主宅是庄园的核心建筑，具备豪华的内部装饰和宽敞的空间，相比于城堡来说更适合居住。除了君主本人之外，其他王室成员也会偶尔小住一段时间。"
+ building_uba_manor_02: "庄稼地" #Crop Fields
+ building_uba_manor_02_desc: "庄稼地用于种植粮食和其他农作物。农民的辛勤劳作让这些广阔的田地提供了丰富的粮食，在满足庄园居民的食物需求之外还有丰富的盈余可供出售。"
+ building_uba_manor_03: "牧草地" #Pastures
+ building_uba_manor_03_desc: "这片开阔的草地天然适合放牧。在平日里能够供养牛、羊等家畜，为庄园提供奶制品、肉类和其他畜产品；在艰难的时日，则可用于生产干草。"
+ building_uba_manor_04: "菜园与果园" #Kitchen Garden and Orchard
+ building_uba_manor_04_desc: "大片的菜园与果园为庄园提供了新鲜的蔬菜和水果，在满足庄园居民的饮食需求之余，还可供应宴会和盛宴所需的食材。"
+ building_uba_manor_05: "葡萄园和酒庄" #Vineyards and Winery
+ building_uba_manor_05_desc: "这些葡萄园提供了优质的葡萄，它们将被送往酒庄加工成优质美酒，为王室提供享受和庆祝时的饮品。"
+ building_uba_manor_06: "水井与磨坊" #Wells and Mill
+ building_uba_manor_06_desc: "水井能够提供清洁的饮用水，而磨坊则能够高效而便捷地加工谷物，将庄园产出的农作物磨成面粉等食品原料。"
+ building_uba_manor_07: "狩猎场" #Hunting Grounds
+ building_uba_manor_07_desc: "庄园边缘的保留地被划定为狩猎场。这片领地有着丰富的野生动物资源，供王室成员及其客人进行狩猎和娱乐活动。"
+ building_uba_manor_08: "仓库与地窖" #Warehouses and Cellars
+ building_uba_manor_08_desc: "仓库用于存放谷物、干草、工具以及其他物资，而地窖则用于储存葡萄酒和其他珍贵的食品、饮料等物品。"
+
+# 行宫线
+ building_type_uba_residence_01: "郊外行宫" #Royal Residence
+ building_type_uba_residence_01_desc: "即便是再奢侈华美的城堡也比不上这处独为你而建的行宫。想象一下吧，在你为责任的重担而感到绝望的时候，你还能逃往这处绝美的世外桃源……"
+ building_uba_residence_01: "郊外别墅" #Country Mansion
+ building_uba_residence_01_desc: "有什么能比一座华美的大宅能更好地展示王家权势和威望呢？我们就是比其他所有人更优越！"
+ building_uba_residence_02: "庭院与花园" #Courtyards and Gardens
+ building_uba_residence_02_desc: "一处绝妙的开放空间，可用于各种户外休闲、庆祝活动。而且花园中种植的美丽花卉也让人心旷神怡。"
+ building_uba_residence_03: "武器库" #Armory
+ building_uba_residence_03_desc: "身处乡间远离尘嚣并不意味着安全——这代表你仍然需要武器和士兵来保护自己，尤其是当一群愤怒的农民正在向你的住处靠拢时……"
+ building_uba_residence_04: "马厩" #Stables
+ building_uba_residence_04_desc: "一处包括马槽、马具和饲料等设施的简单马厩就能够保证你在回程的路上能骑上精神抖擞的坐骑。"
+ building_uba_residence_05: "图书馆" #Library
+ building_uba_residence_05_desc: "一间收藏书籍、手稿和艺术品的图书馆。这会是一处有利于学习和思考的安静空间。"
+ building_uba_residence_06: "礼拜堂" #Chapel
+ building_uba_residence_06_desc: "即便远离了吵闹的廷臣和讨厌的农民，也不意味着你能够远离神的视线。"
+ building_uba_residence_07: "浴场" #Baths
+ building_uba_residence_07_desc: "一处配备了浴池、蒸汽房和按摩设施的大浴场，按照罗马风格建设而成。真是棒极了。"
+ building_uba_residence_08: "画廊与陈设室" #Gallery and Cabinet Room
+ building_uba_residence_08_desc: "哦，你当然需要一处能够展示收藏品的地方，不然的话，又怎么能看见宾客为你的艺术品和文物收藏啧啧称奇的模样呢？"
+
+# 图书馆线
+ building_type_uba_library_01: "图书馆" #Library
+ building_type_uba_library_01_desc: "这是一座知识与文化的宝库，市民们可以在这里自由阅读他们允许被阅读的书籍。"
+ building_uba_library_01: "大厅" #Hall
+ building_uba_library_01_desc: "这座恢弘的大厅为来客提供了一个宽敞舒适的空间，还陈列出了一部分馆藏文献的复制品以供来者阅读。"
+ building_uba_library_02: "藏书室" #Book’s Collection
+ building_uba_library_02_desc: "精心布置的藏书室里陈列着大量丰富的书籍和文献，对知识的探索者来说，这里无疑是一处珍贵的宝藏。"
+ building_uba_library_03: "阅读室" #Reading Room
+ building_uba_library_03_desc: "宁静的阅读室为读者创造了一个宜人的环境，让他们能够专注学习、深入研究和享受阅读的乐趣。"
+ building_uba_library_04: "抄写室" #Scribe's room
+ building_uba_library_04_desc: "书吏们为馆藏珍贵手稿的保存和复制做出了重要贡献，以非常简单的形式——抄写。"
+ building_uba_library_05: "绘图室" #Paint's room
+ building_uba_library_05_desc: "那些长于绘画的书吏被委派做绘图的工作，他们需要为书本的空白填上适合的图案。"
+ building_uba_library_06: "研究室" #Research and Study room
+ building_uba_library_06_desc: "研究室为学者们提供了一个安静、舒适的环境，让他们沉浸于深入研究的世界，探索知识的无尽边界。"
+ building_uba_library_07: "古书室" #Antiquarian's room
+ building_uba_library_07_desc: "那些最为古老而稀有的手稿和古代文献在经过抄录复制之后，就会被放置在古书室中妥善保存。"
+ building_uba_library_08: "图书管理员" #Librarian
+ building_uba_library_08_desc: "专业的图书管理员在图书馆中发挥着重要的角色，他们需要负责保存、分类、编目、借还管理等多种工作。离了他们，图书馆完全无法运行起来。"
+
+# 市政厅线
+ building_type_uba_townhall_01: "市政厅" #City Hall
+ building_type_uba_townhall_01_desc: "市政厅是城市行政管理的核心与决策中心，承担着行政、立法和司法等职能，同时也为市民提供重要的公共服务。"
+ building_uba_townhall_01: "议事堂" #Council Chamber
+ building_uba_townhall_01_desc: "市民、神职、贵族与领主的代表汇聚于此，他们将共同讨论城市事务、审议议案，并做出决策。"
+ building_uba_townhall_02: "法院" #Municipal Court
+ building_uba_townhall_02_desc: "市民们为他们的利益与正义争辩不休，而法官——君主的意志的代行人则负责做出裁断。"
+ building_uba_townhall_03: "管理办公室" #Administrative Office
+ building_uba_townhall_03_desc: "市政厅的大小官员都在这里处理日常事务、拟定法令。这就是城市决策的中枢。"
+ building_uba_townhall_04: "税吏办事处" #Tax Office
+ building_uba_townhall_04_desc: "讨人厌的税吏……抱歉，我是说，您的税吏将会确保每一个应该交给您的金币都会进入您的口袋。"
+ building_uba_townhall_05: "档案室" #Municipal Archives
+ building_uba_townhall_05_desc: "所有行政记录、法律文件和历史文献最终都会存留在这里，或许某一天，它们还会派上用场。"
+ building_uba_townhall_06: "城市卫队" #City Guard
+ building_uba_townhall_06_desc: "警卫们维护着城市的安全和治安，保护市民们不受强盗与流寇的侵袭。"
+ building_uba_townhall_07: "时钟塔" #Clock tower
+ building_uba_townhall_07_desc: "高耸的钟楼是市政厅的标志，那只精致且独一无二的钟表在为市民报时的同时也向每一位来客展现着城市的荣耀。"
+ building_uba_townhall_08: "广场" #Piazza
+ building_uba_townhall_08_desc: "市政厅周围的这座广场是举办城市公共活动、重要庆典和集会的最佳场所。"
+ UBA_townhall_effect_desc: "这座建筑能够增加#EMP 0.5#!直辖上限"
+
+# 礼拜堂线
+ building_type_uba_temple_01: "礼拜堂" #House of Worship
+ building_type_uba_temple_01_desc: "一座宁静而庄严的建筑，供人们静心祷告和参与宗教仪式，内部装饰精美，透射着神圣的氛围。"
+ building_uba_temple_01: "主殿" #Grand Temple
+ building_uba_temple_01_desc: "巍峨高大的空间，散发着庄严和荣耀，拥有宏伟的拱顶和精美的艺术装饰，是建筑物内最重要、最庄严的区域。"
+ building_uba_temple_02: "祈祷室" #Prayer room
+ building_uba_temple_02_desc: "一个安静而温馨的，专用于祈祷和沉思的空间。连空气也充满了宁静和虔诚的氛围。"
+ building_uba_temple_03: "隐修院" #Monastery
+ building_uba_temple_03_desc: "礼拜堂侧面一座简朴而宁静的建筑物，供修士或修女居住、祈祷和从事宗教事务。"
+ building_uba_temple_04: "神学院" #Seminary
+ building_uba_temple_04_desc: "一所附属于礼拜堂的学校，供教士和神学生学习和探讨宗教知识，内部设有教室、图书馆和研究设施。"
+ building_uba_temple_05: "礼堂" #Auditorium
+ building_uba_temple_05_desc: "通常用来举办各种宗教集会。但非宗教的集会、庆典和演讲等活动也经常会在这里举办。"
+ building_uba_temple_06: "墓地" #Cemetery
+ building_uba_temple_06_desc: "一片安详而肃穆的，充满回忆的土地，安葬着逝者的遗体，寄托着人们对亲人的尊重和纪念。。"
+ building_uba_temple_07: "钟楼" #Bell tower
+ building_uba_temple_07_desc: "一座高耸的塔楼，镶嵌着钟铃，它的钟声回响在城市的街道上，宣告着宗教仪式和特殊时刻的到来。"
+ building_uba_temple_08: "广场" #Piazza
+ building_uba_temple_08_desc: "礼拜堂门口被建筑物所环绕的的广场，是市民聚集、社交、休闲和举办各种活动的场所，呈现着城市的活力和文化。"
+ UBA_temple_effect_desc: "$UBA_townhall_effect_desc$"
+
+# 集市线
+ building_type_uba_bazaar_01: "集市" #Pilgrims' Bazaar
+ building_type_uba_bazaar_01_desc: "对跋涉至此的旅行者和朝圣者而言，一座突然出现在地平线上的集市无疑是天赐的福音。"
+ building_uba_bazaar_01: "水井" #Water well
+ building_uba_bazaar_01_desc: "经历了长途跋涉的旅客们能够在这里补充珍贵的淡水。"
+ building_uba_bazaar_02: "食品商" #Food vendor
+ building_uba_bazaar_02_desc: "摊位之间飘散着烤肉、果脯与异国香料的气味。美味佳肴不仅能满足旅客的味蕾，也能治愈他们的心灵。"
+ building_uba_bazaar_03: "旅店与马厩" #Inn and stable
+ building_uba_bazaar_03_desc: "即便人在异乡，旅客仍然能在这里享受到舒适的床榻与热情的款待——当然，他们的马匹也会得到合适的照料。"
+ building_uba_bazaar_04: "纪念品商" #Souvenir vendor
+ building_uba_bazaar_04_desc: "货架上陈列着琳琅满目的手工艺品与其他各种珍奇的小玩意，但要小心商人们的花言巧语。"
+ building_uba_bazaar_05: "酒馆" #Tavern
+ building_uba_bazaar_05_desc: "酒馆里总是充满了美酒和故事。美酒让旅客们打开话匣，而接下来的故事能让欢笑充满整个房间。"
+ building_uba_bazaar_06: "圣所" #Sanctuary
+ building_uba_bazaar_06_desc: "与故乡的神殿相比这座建筑显得毫不起眼，但这里仍然聚集了许多虔诚的信众。"
+ building_uba_bazaar_07: "佣兵" #Mercenaries
+ building_uba_bazaar_07_desc: "朝圣之路绝非坦途，而他们能帮助旅客解决掉许多麻烦。"
+ building_uba_bazaar_08: "舞台" #Stage
+ building_uba_bazaar_08_desc: "也许这座简易舞台算不上有多么精致，但在这里上演的舞蹈、戏剧与音乐却是货真价实的艺术。"
+
+# 水渠线
+ building_type_uba_aqueduct_01: "水渠" #Aqueduct
+ building_type_uba_aqueduct_01_desc: "对水资源的依赖限制了城市的发展潜力，我们需要一套完整合理的水利系统来解决这个问题。"
+ building_uba_aqueduct_01: "水源" #Sources
+ building_uba_aqueduct_01_desc: "确保水的持续供应是整个水利系统的关键。泉水是最常见的水源，但有时我们也会从自然水体或是人工水库中取水。"
+ building_uba_aqueduct_02: "引水渠" #canal
+ building_uba_aqueduct_02_desc: "水源地通常与城市距离较远，而这些由石头与砖块构成的水渠能够将水顺利地输送到下游。"
+ building_uba_aqueduct_03: "渡槽" #Aqueduct
+ building_uba_aqueduct_03_desc: "适合的坡度与高低差确保了水流能够顺利地从高处流向低处，这种重力驱动的方式使得整个供水系统高效而可靠。"
+ building_uba_aqueduct_04: "桥梁、隧道、虹吸管" #Bridgework, siphons and tunnels
+ building_uba_aqueduct_04_desc: "一些渡槽将会经过地势落差较大的地区，而工程师们的智慧能让水流平稳地到达下一段管道。"
+ building_uba_aqueduct_05: "水塔与水池" #Water Towers and Reservoirs
+ building_uba_aqueduct_05_desc: "为了保持水流的稳定、水压的平衡以及水质的安全，来自渡槽的水会首先被输送到水塔中，然后被送到城市中的蓄水池与沉淀池中。"
+ building_uba_aqueduct_06: "管道系统" #Pipeline system
+ building_uba_aqueduct_06_desc: "水流一旦进入城市，就会被引导至复杂的管道系统中。这些管道通常埋在地下，以保护其免受外部环境的干扰。"
+ building_uba_aqueduct_07: "供水与排水" #water supply and drainage
+ building_uba_aqueduct_07_desc: "精心设计的分配供水系统确保了每个区域都能得到充足的供水；而污水则被收集入排水系统以进行妥善处理。"
+ building_uba_aqueduct_08: "定期维护" #regular maintenance
+ building_uba_aqueduct_08_desc: "如此复杂的水利系统需要一个全面的定期维护机制。若干支由工程师、工人与士兵组成的巡查队将会确保这套系统在大部分时间中正常工作。"
+
+# 骑士训练场线
+ building_type_uba_joust_01: "骑士训练场" #Knight Training Ground
+ building_type_uba_joust_01_desc: "一处专为训练骑士而建设的场地。无数有志青年将在这里为他们的骑士梦挥洒汗水……可能还有泪水和血水。"
+ building_uba_joust_01: "比武场" #Tournament Ground
+ building_uba_joust_01_desc: "一片空地被清理出来供骑士们使用，他们将在这里进行徒手搏击、武器对练等项目的日常训练。"
+ building_uba_joust_02: "靶场" #Archery Range
+ building_uba_joust_02_desc: "这片区域被划定用于射箭、投枪或其他远程武器的训练，安置靶子的时候需要格外小心！"
+ building_uba_joust_03: "马厩" #Stable
+ building_uba_joust_03_desc: "在经过一天的骑术训练后，骑士们的爱马会被安置在马厩中，它们将由专业的工人负责照料。"
+ building_uba_joust_04: "营房" #Barrack
+ building_uba_joust_04_desc: "即便是再勇猛的骑士也会有需要休息的时候。只需要休息一晚，第二天他们便能精力充沛！"
+ building_uba_joust_05: "武器库" #Armory
+ building_uba_joust_05_desc: "武器库是用于存放和维护骑士们的各种装备的地方，进门的时候要非常小心才能确保不碰掉任何东西。"
+ building_uba_joust_06: "铁匠铺" #Blacksmith
+ building_uba_joust_06_desc: "铁匠为骑士们打造各类武器与盔甲，同时也为骑士们提供武器的保养与修理服务。"
+ building_uba_joust_07: "医务室" #Infirmary
+ building_uba_joust_07_desc: "高强度的训练难免会出现伤者，而医生能够保证伤者的病情不会进一步恶化……也许吧。"
+ building_uba_joust_08: "骑士大厅" #Knight's Hall
+ building_uba_joust_08_desc: "骑士和指挥官在这里讨论战术、战略以及日常事务——当然，最激动人心的授勋仪式也会在这里举办。"
+
+# 检查站线
+ building_type_uba_checkpoint_01: "检查站" #
+ building_type_uba_checkpoint_01_desc: "检查站通常位于村庄或城市的边界上，它既是防御敌人的哨所，也是控制商贸和人口流动的重要手段。"
+ building_uba_checkpoint_01: "简易哨岗" #
+ building_uba_checkpoint_01_desc: "少量士兵驻守着一个简单的木制哨塔和木栅栏。士兵们在此查验过往行人的身份和货物，确保没有危险分子混入。"
+ building_uba_checkpoint_02: "武器库" #
+ building_uba_checkpoint_02_desc: "一个小型武器库被用于存放弓箭、长矛等常见武器。虽然数量可能聊胜于无，但仍然有助于提升士兵们的战斗力。"
+ building_uba_checkpoint_03: "瞭望塔" #
+ building_uba_checkpoint_03_desc: "哨塔被加高加固，士兵得以站在更高处以监视远方可能的来犯之敌。"
+ building_uba_checkpoint_04: "税务站" #
+ building_uba_checkpoint_04_desc: "附近的领主委派了专门的税务官，负责对商人和过境的货物征收税款——这是一份令人羡慕的好差事。"
+ building_uba_checkpoint_05: "城墙" #
+ building_uba_checkpoint_05_desc: "简单的木制围墙如今被坚固的石质城墙取代，防御力已经不可同日而语。"
+ building_uba_checkpoint_06: "商贸关卡" #
+ building_uba_checkpoint_06_desc: "检查站设有专门的商贸登记区，以记录过境商人的信息和货物。没收的违法物品和征收的税款被存放在专人看守的仓库内。"
+ building_uba_checkpoint_07: "驻军营地" #
+ building_uba_checkpoint_07_desc: "新设置的小型驻军营地能够容纳更多的士兵和防御器械，用于加强此地的防御力量。"
+ building_uba_checkpoint_08: "边境堡垒" #
+ building_uba_checkpoint_08_desc: "高大的石墙、瞭望塔以及坚固的防御工事使得此地变得易守难攻。此地已经成为了边境防御的关键位置。"
+
+# 税务线
+ building_type_uba_taxing_01: "税务署" #
+ building_type_uba_taxing_01_desc: "让农民、市民和商人心甘情愿地缴纳税款不是一件容易的事情，有时我们需要给予他们一些小小的帮助。"
+ building_uba_taxing_01: "税吏亭" #
+ building_uba_taxing_01_desc: "一个内部陈设平平无奇的简单建筑物，税吏和他的士兵将确保此地的农民“足够”尊重他们的君主。"
+ building_uba_taxing_02: "档案室" #
+ building_uba_taxing_02_desc: "文件柜、账簿和印章等物件都被存放在档案室中，方便税务管理和记录。"
+ building_uba_taxing_03: "金库" #
+ building_uba_taxing_03_desc: "一个小型金库被用作存放征收来的税款和农民缴纳的物产。要确保这些东西的安全可不是容易的工作。"
+ building_uba_taxing_04: "税务评估员" #
+ building_uba_taxing_04_desc: "税务评估员会对土地、商品和财产进行估价，从而确定纳税人应当缴纳的税收……的基数。"
+ building_uba_taxing_05: "$building_tax_assessor_01$" #
+ building_uba_taxing_05_desc: "$building_tax_assessor_01_desc$"
+ building_uba_taxing_06: "$building_tax_assessor_02$" #
+ building_uba_taxing_06_desc: "$building_tax_assessor_02_desc$"
+ building_uba_taxing_07: "$building_tax_assessor_03$" #
+ building_uba_taxing_07_desc: "$building_tax_assessor_03_desc$"
+ building_uba_taxing_08: "税务总局" #
+ building_uba_taxing_08_desc: "“世界上只有两件事是不可避免的，纳税和死亡。”——而我们让这两件事成为了选择题。"
+
+# 浴场线
+ building_type_uba_bathroom_01: "公共浴场" #
+ building_type_uba_bathroom_01_desc: "浴场不仅可用于清洁身体、预防疾病、放松身心，而且还是一个面对全社会开放的休闲社交场所。"
+ building_uba_bathroom_01: "洗浴堂" #
+ building_uba_bathroom_01_desc: "基本的公共洗浴设施，设有几个开放的浴池，可供来客进行简单的洗浴清洁。"
+ building_uba_bathroom_02: "更衣室" #
+ building_uba_bathroom_02_desc: "现在宾客可以不紧不慢地褪去衣物并将它们寄存在更衣室内，这让宾客免去了衣物无处存放的烦恼。"
+ building_uba_bathroom_03: "大浴池" #
+ building_uba_bathroom_03_desc: "一个大型浴池往往不只是用来洗净自己身体的，它更是一个所有人都能够坦诚相见的社交区域。"
+ building_uba_bathroom_04: "休息室" #
+ building_uba_bathroom_04_desc: "清洁之余，浴场还提供了舒适的休息区域。在这里消磨时光或许也是个好选择。"
+ building_uba_bathroom_05: "冷水池" #
+ building_uba_bathroom_05_desc: "对于那些不适应高水温的人来说，他们仍然可以在水温较低的冷水池中享受沐浴的乐趣。对于儿童来说，这里也是个戏水玩耍的好地方。"
+ building_uba_bathroom_06: "温泉池" #
+ building_uba_bathroom_06_desc: "温泉当然是好东西，而深究浴场为何每周都会消耗如此之多的木柴却不是个好主意。"
+ building_uba_bathroom_07: "理疗室" #
+ building_uba_bathroom_07_desc: "专业人士在此提供舒适的理疗服务。据说合适的按摩能够祛除人体内的污浊气体，如此便能避免罹患疾病。"
+ building_uba_bathroom_08: "私人浴池" #
+ building_uba_bathroom_08_desc: "那些富贵之人通常不希望其他看到他们的自然姿态。相比于大浴池来说，配有大理石雕塑和繁复镶嵌图案的私人浴池显然是个更好的选择。"
+
+# 草药线
+ building_type_uba_herbal_01: "草药园" #
+ building_type_uba_herbal_01_desc: "草药是对抗瘟疫和疾病的关键。一座种植和研究各类草药与其他植物的草药园将大大提升我们对疾病的应对能力。"
+ building_uba_herbal_01: "草药田" #
+ building_uba_herbal_01_desc: "简单的木制围栏包绕着一方宁静的田地。这里种植着一些基础的药草和香草，供医师和村民使用。"
+ building_uba_herbal_02: "苗圃" #
+ building_uba_herbal_02_desc: "苗圃是培育植物幼株的园地，也是我们扩大种植面积所需的基础设施。"
+ building_uba_herbal_03: "分区种植" #
+ building_uba_herbal_03_desc: "药草和香草被按照性质区分为若干种类型，而性质相近的则被安排至同个分区内培育。"
+ building_uba_herbal_04: "灌溉系统" #
+ building_uba_herbal_04_desc: "巧妙的水渠与管道将水从上游引入草药园中，让农夫无需依靠人力从远处运来灌溉用水。"
+ building_uba_herbal_05: "干燥间" #
+ building_uba_herbal_05_desc: "一个干燥且通风良好的工作棚被用作植物的干制和储存。经过干制的药草通常更容易保存，且效力更佳。"
+ building_uba_herbal_06: "制药工作坊" #
+ building_uba_herbal_06_desc: "制药所需的工具通常都存放在工作坊内，草药师和他的学徒在这里将药草研磨、粉碎、混合，并调配出合适的药剂。"
+ building_uba_herbal_07: "图书室" #
+ building_uba_herbal_07_desc: "图书室内收藏了大量关于药草种植和使用的书籍以及手稿，可供学者和医师研究。"
+ building_uba_herbal_08: "玻璃房间" #
+ building_uba_herbal_08_desc: "这座由玻璃搭建而成的奇妙建筑物内的温度总是比外界高上不少，托它的福，植物也都生长得更快更好了。"
+
+# 密室线
+ building_type_uba_private_01: "密室" #
+ building_type_uba_private_01_desc: "复杂的密道网络和隐藏房间让密室变得难以找寻，这里既是情报网络的中心，也是阴谋家们策划行动和藏身的地方。"
+ building_uba_private_01: "藏身处" #
+ building_uba_private_01_desc: "掩藏自己的行踪并不需要多么高深的技巧。有时一座再普通不过的房屋便能让你消失在追踪者的眼皮底下。"
+ building_uba_private_02: "安全屋" #
+ building_uba_private_02_desc: "对于时常需要潜藏于暗影中的人来说，拥有一座坐落于城市角落或乡村边缘的小屋会是个绝佳的选择。"
+ building_uba_private_03: "隐秘房间" #
+ building_uba_private_03_desc: "大宅背后被封死的木门背后有着什么？书架上那本红色的书又有什么特殊寓意？有的问题是好问题，但最好不要说出口。"
+ building_uba_private_04: "秘密通道" #
+ building_uba_private_04_desc: "对于一个有着一些小秘密的人来说，拥有一条或是更多秘密通道并不是多么稀奇的事情，尤其是你正在尝试经营一个秘密组织的时候……"
+ building_uba_private_05: "训练室" #
+ building_uba_private_05_desc: "成员们能够在训练室内进行严格的侦察、逃脱与战斗训练。而有了熏香的“帮助”，他们得以进步得更为迅速。"
+ building_uba_private_06: "会议室" #
+ building_uba_private_06_desc: "会议室是成员们进行策划与讨论的场所。建筑结构经过了巧妙设计，即便贴着外壁也极难听清内部的声音，以免隔墙有耳。"
+ building_uba_private_07: "情报室" #
+ building_uba_private_07_desc: "来自各处的情报在这里被汇总，并由专人加以分析。任何看似无用的细节都可能成为计划的关键。"
+ building_uba_private_08: "指挥部" #
+ building_uba_private_08_desc: "尽管每个成员都能得到来自指挥部的指令，但即便是资深成员也未必了解它的精确位置。\n\n#emphasis 真相或许会永远隐藏在熏香与迷雾之中。#!"
+
+# 葡萄线
+ building_type_uba_vineyard_01: "葡萄园" #Vineyard
+ building_type_uba_vineyard_01_desc: "得天独厚的风土条件孕育了优质的葡萄，而精湛的酿酒工艺则将这份自然的馈赠转化为琼浆玉液。从葡萄园到酒窖，每一个环节都凝聚着匠人们的心血。"
+ building_uba_vineyard_01: "葡萄园" #Vineyard
+ building_uba_vineyard_01_desc: "精心挑选的土地上，一排排整齐的葡萄藤蔓延开来。阳光、雨露和土壤的滋养，让每一颗葡萄都饱含着风土的精华。"
+ building_uba_vineyard_02: "育种苗圃" #Nursery
+ building_uba_vineyard_02_desc: "使用嫁接与选育技术，才能够培育出更适应当地环境、品质更优良的葡萄品种，为酿造顶级佳酿打好基础。"
+ building_uba_vineyard_03: "葡萄压榨机" #
+ building_uba_vineyard_03_desc: "成熟的葡萄被小心翼翼地采摘下来，压榨成汁，被灌入橡木桶中，准备转化为醇厚的美酒。"
+ building_uba_vineyard_04: "精酿坊" #
+ building_uba_vineyard_04_desc: "保持稳定的温度和湿度是葡萄酒品质的关键。工坊采用双层石墙与稻草保温，而伟大的转变在橡木桶中悄悄地进行着。"
+ building_uba_vineyard_05: "酒窖" #Wine Cellar
+ building_uba_vineyard_05_desc: "恒温恒湿的酒窖是葡萄酒的理想储存场所。在这里，橡木桶赋予葡萄酒更复杂的香气和口感，而时间将其镀上独特的色彩，使其更加醇厚、饱满。"
+ building_uba_vineyard_06: "精品陈列厅" #
+ building_uba_vineyard_06_desc: "带家族纹章的酒瓶陈列在橡木展架上，只有最杰出的成品能够得到这般殊荣。"
+ building_uba_vineyard_07: "贵宾品酒室" #
+ building_uba_vineyard_07_desc: "洁净而华美的大厅，是贵宾品鉴葡萄酒的场所。精致华美的装饰和无微不至的服务让葡萄酒不单单只是餐桌上的佳品。"
+ building_uba_vineyard_08: "大酒庄" #Grand Winery
+ building_uba_vineyard_08_desc: "集葡萄种植、酿造、销售于一体的大型酒庄。先进的设备和丰富的经验让其佳酿享誉四方。"
+
+# 橄榄线
+ building_type_uba_olive_01: "橄榄园" #Olive
+ building_type_uba_olive_01_desc: "地中海的阳光和温暖的气候孕育了橄榄树。这种古老的树种不仅提供了美味的果实，滋养着一方水土，更衍生出了丰富的相关产业"
+ building_uba_olive_01: "橄榄园" #
+ building_uba_olive_01_desc: "成片的橄榄树在山坡上茁壮成长，银绿色的叶子在阳光下闪闪发光，构成了一幅美丽的田园画卷。成熟的橄榄不仅可以食用，还能榨取珍贵的橄榄油，用途广泛。"
+ building_uba_olive_02: "传统榨油工坊" #
+ building_uba_olive_02_desc: "新鲜的橄榄果实在榨油工坊中先被碾成糊状，然后以杠杆加压，挤出初榨橄榄油。"
+ building_uba_olive_03: "橄榄油仓库" #
+ building_uba_olive_03_desc: "根据酸度和风味的不同，橄榄油被分为不同的等级。优质的橄榄油被储存在陶罐中，以保留其原始的风味与品质。"
+ building_uba_olive_04: "改良榨油机" #
+ building_uba_olive_04_desc: "通过引入更先进的榨油设备和技术，工坊得以生产出更多高品质的橄榄油。"
+ building_uba_olive_05: "橄榄油皂作坊" #
+ building_uba_olive_05_desc: "橄榄油是制作肥皂的理想原料，其天然的滋润成分能够温和地清洁和呵护肌肤。手工制作的橄榄油皂不仅用于清洁，也逐渐成为生活品质的重要标志。"
+ building_uba_olive_06: "香水作坊" #
+ building_uba_olive_06_desc: "橄榄油独特的香气使其成为制作香水的天然基底。在经验丰富的调香师手中，橄榄油得以与草本香料相融合，调制出清新淡雅的香氛。"
+ building_uba_olive_07: "大型榨油工坊" 
+ building_uba_olive_07_desc: "金黄色的橄榄油是地中海饮食的核心，而更多榨油机的引入让榨油工坊能够进一步扩大生产规模，不断提升产量与品质。"
+ building_uba_olive_08: "橄榄庄园"
+ building_uba_olive_08_desc: "$building_type_uba_olive_01_desc$"
+
+# 皮毛线
+ building_type_uba_fur_01: "皮革工坊"
+ building_type_uba_fur_01_desc: "在寒冷的地区，动物的皮毛是抵御严寒的重要物资。从狩猎到加工，从御寒物资到身份象征，毛皮始终与人们的生活息息相关。"
+ building_uba_fur_01: "狩猎场"
+ building_uba_fur_01_desc: "广袤的森林和原野是野生动物的家园，也是猎人们获取猎物的场所。未经授权的偷猎行为被严格禁止。"
+ building_uba_fur_02: "营地"
+ building_uba_fur_02_desc: "猎人们会在营地中处理他们的战利品，小心地剥取动物的皮毛，并进行初步的清洁。"
+ building_uba_fur_03: "生皮鞣制"
+ building_uba_fur_03_desc: "鞣制是加工的关键步骤。带着血腥味的兽皮将在这里得到精心处理……只是气味令人不敢恭维。"
+ building_uba_fur_04: "裁缝铺"
+ building_uba_fur_04_desc: "熟练的工匠将鞣制好的皮革裁剪、缝制成各种皮革服装，为人们提供温暖且坚实的保护。"
+ building_uba_fur_05: "制甲匠铺"
+ building_uba_fur_05_desc: "将硬化皮革与亚麻布交替粘合，皮革也可被制成结实且轻便的皮质护甲。"
+ building_uba_fur_06: "雕刻工坊"
+ building_uba_fur_06_desc: "狩猎所得的动物角、骨、牙等材料，经过精心雕琢，可以制成各种精美的工艺品或实用品。"
+ building_uba_fur_07: "裘皮工坊"
+ building_uba_fur_07_desc: "裘皮即是带毛鞣制而成的动物毛皮，这些华丽的动物皮毛最终大多会成为某位大人物得意的收藏。"
+ building_uba_fur_08: "皮毛贸易站"
+ building_uba_fur_08_desc: "优质的皮毛和皮革制品会经由商人之手销往各地，或是成为人们御寒的衣物，或是成为领主宝库中的奢华藏品。"
+
+# 广场
+ building_type_uba_piazza_01: "广场"
+ building_type_uba_piazza_01_desc: "广场是市民日常活动、交流、贸易往来的中心，也是领主展现权威的重要场所。"
+ building_uba_piazza_01: "小广场"
+ building_uba_piazza_01_desc: "房屋前的空地成为了市民自发聚集的场所。人们在此交易商品，交流信息，或是享受自己少有的闲暇时光。"
+ building_uba_piazza_02: "布告栏"
+ building_uba_piazza_02_desc: "广场前设立了一块简单的布告栏，用于张贴法令以及其他重要信息。对于识字的人来说，布告栏上的文字或许也意味着不可多得的机会。"
+ building_uba_piazza_03: "仪式场地"
+ building_uba_piazza_03_desc: "广场逐渐成为了虔诚的市民们用来举行仪式的场地。许多宗教仪式和庆典在此举行，广场也变得更加热闹。"
+ building_uba_piazza_04: "集市"
+ building_uba_piazza_04_desc: "广场附近逐渐成为了重要的商业区域。固定的摊位和店铺吸引了更多的商人和顾客，集市的规模还在进一步扩大。"
+ building_uba_piazza_05: "市政管理"
+ building_uba_piazza_05_desc: "新的市政管理机制已经落实。现在，卫兵在广场附近巡逻，市政官员在此维持秩序，进一步加强了领主对城市的控制。"
+ building_uba_piazza_06: "节日庆典"
+ building_uba_piazza_06_desc: "广场时常举办各种节日和庆典，是市民聚集以及举办各类活动的重要场所。盛大的庆祝活动不仅丰富了市民的生活，更提升了领主的声望。"
+ building_uba_piazza_07: "纪念柱"
+ building_uba_piazza_07_desc: "或许是为了纪念某些重要的事件或人物，广场中心矗立着一根宏伟的纪念柱。这座气派的广场即便对于平民之外的大人物来说也是一个休闲的好去处。"
+ building_uba_piazza_08: "大广场"
+ building_uba_piazza_08_desc: "这座广场如今被柱廊与花坛环绕着，而由专业雕刻家打造的无数雕塑、喷泉以及大理石柱会让每一位游客都留下无比深刻的印象。城市的脉搏在此跳动。"
+
+# 窑炉
+ building_type_uba_kiln_01: "窑炉"
+ building_type_uba_kiln_01_desc: "$building_type_dragon_kiln_01_desc$"
+ building_uba_kiln_01: "土窑"
+ building_uba_kiln_01_desc: "原始的窑炉形制，简单挖掘或堆筑而成。仅能烧制基础陶器，多用于满足当地百姓日常所需。"
+ building_uba_kiln_02: "圆窑"
+ building_uba_kiln_02_desc: "一种圆拱形窑炉，其结构相较土窑更为封闭，能集中火力提高温度，烧制出硬度更高、更耐用的陶器。"
+ building_uba_kiln_03: "$building_dragon_kiln_01$"
+ building_uba_kiln_03_desc: "$building_dragon_kiln_01_desc$"
+ building_uba_kiln_04: "$building_dragon_kiln_02$"
+ building_uba_kiln_04_desc: "$building_dragon_kiln_02_desc$"
+ building_uba_kiln_05: "$building_dragon_kiln_03$"
+ building_uba_kiln_05_desc: "$building_dragon_kiln_03_desc$"
+ building_uba_kiln_06: "葫芦窑"
+ building_uba_kiln_06_desc: "其窑身如葫芦般膨大且分段，能够充分利用余热，实现更好的保温效果。这种高效的窑炉结构能进一步提高瓷器烧成率，并降低燃料成本。"
+ building_uba_kiln_07: "蛋形窑"
+ building_uba_kiln_07_desc: "一种体型巨大、腹部宽阔的倒焰式窑炉，窑体酷似鸭蛋，由窑房和窑炉两部分组成。此窑火力强劲且稳定，还可以分别装烧高、中、低温度的瓷器。"
+ building_uba_kiln_08: "官窑"
+ building_uba_kiln_08_desc: "在官方监督下，聚集最精湛的工匠，使用最上乘的原料，其产出的瓷器专供宫廷使用。"
+
+# 茶园
+ building_type_uba_tea_01: "茶园"
+ building_type_uba_tea_01_desc: "$tgp_tea_ceremony_decision_desc$"
+ building_uba_tea_01: "野茶园"
+ building_uba_tea_01_desc: "茶树散布于山坡之上，采摘规模较小。所产茶叶大多仅供自家饮用，品质参差不齐。"
+ building_uba_tea_02: "小茶园"
+ building_uba_tea_02_desc: "茶园初具规模，由工人进行修剪和管理。茶坊内设有基础的烘炒工具，可将鲜叶初步加工。"
+ building_uba_tea_03: "茶园"
+ building_uba_tea_03_desc: "茶田采用了间作方式以优化产量。茶叶生产较为稳定，甚至能远销至邻近郡县，小有名气。"
+ building_uba_tea_04: "炒茶坊"
+ building_uba_tea_04_desc: "茶园附近建立起了炒茶坊，集炒、揉、烘、压等复杂工序于一处。"
+ building_uba_tea_05: "名种茶园"
+ building_uba_tea_05_desc: "茶园专注于培植优良茶树品种，对土壤、水源极为讲究，选育出带有特定风味的佳茗。"
+ building_uba_tea_06: "茶商"
+ building_uba_tea_06_desc: "巨大的种植规模催生出了完善的产销体系。茶叶得以行销海内外，巨大的贸易利润足以支撑地方财政。"
+ building_uba_tea_07: "都茶务"
+ building_uba_tea_07_desc: "茶税作为商税的一部分，数量已经相当可观。因此朝廷设置专员管控茶业，以保证茶叶的高品质和稳定供应。"
+ building_uba_tea_08: "贡茶"
+ building_uba_tea_08_desc: "此茶园出产的茶叶专供皇室享用。其茶树生长环境得天独厚，采摘标准严苛，加工技艺炉火纯青，每一片茶叶皆是极致珍品。"
+
+# 蚕桑业
+ building_type_uba_silk_01: "$innovation_sericulture$"
+ building_type_uba_silk_01_desc: "$innovation_sericulture_desc$"
+ building_uba_silk_01: "小桑林"
+ building_uba_silk_01_desc: "农家依靠房前屋后的小桑林饲养少量蚕，所得蚕丝多用于自给自足或简单的手工作坊。"
+ building_uba_silk_02: "桑林"
+ building_uba_silk_02_desc: "开辟出专门的土地种植桑树。稳定的桑叶供应是扩大养蚕规模的基础。"
+ building_uba_silk_03: "大桑林"
+ building_uba_silk_03_desc: "桑园规模庞大，桑树得到集中管理，产出桑叶质量更优。养蚕规模也随之扩大。"
+ building_uba_silk_04: "蚕房"
+ building_uba_silk_04_desc: "合理设计的蚕房能有效控制温度和湿度，确保蚕健康生长。蚕茧与生丝产量都进一步增加。"
+ building_uba_silk_05: "缫车"
+ building_uba_silk_05_desc: "缫丝指的是将蚕茧煮沸后抽出细长的丝线，是丝绸生产的关键一步。高效的缫车能使生丝的质量和产量都得到大幅提升。"
+ building_uba_silk_06: "纺车"
+ building_uba_silk_06_desc: "纺车将生丝加捻、卷绕，制成结构更坚固的丝线。水力大纺车的出现更是大大提高了纺纱效率。平平无奇的生丝在这里被加工为绢、绫、罗等丝织品。"
+ building_uba_silk_07: "织机"
+ building_uba_silk_07_desc: "平平无奇的丝线被加工为布匹等丝织品。绸采用平纹织法，质地厚实柔软；缎使用斜纹交织工艺，触感光滑。"
+ building_uba_silk_08: "染坊"
+ building_uba_silk_08_desc: "丝绸在此进行复杂的染色、印花、刺绣等工序，产出图案精美、色彩艳丽的华丽绸缎。"

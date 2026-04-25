@@ -1,0 +1,285 @@
+﻿# 按变量添加特建 奇观
+uba_construct_wonder_buildings_switch = {
+	uba_remove_uba_unique_flags_effect = yes
+	switch = {
+		trigger = var:uba_construct_wonder_planned
+		# 测试
+		flag:uba_test_building_1 = {
+			scope:province = {
+				# add_special_building = UBA_valhalla_01
+				replace_building_effect = UBA_valhalla_01
+			}
+		}
+		# 奇观
+		flag:UBA_colosseum_01 = {
+			scope:province = {
+				# add_special_building = UBA_colosseum_01
+				replace_building_effect = UBA_colosseum_01
+			}
+		}
+		flag:UBA_palace_01 = {
+			scope:province = {
+				# add_special_building = UBA_palace_01
+				replace_building_effect = UBA_palace_01
+			}
+		}
+		flag:UBA_reserve_01 = {
+			scope:province = {
+				# add_special_building = UBA_reserve_01
+				replace_building_effect = UBA_reserve_01
+			}
+		}
+		flag:UBA_castle_01 = {
+			scope:province = {
+				# add_special_building = UBA_castle_01
+				replace_building_effect = UBA_castle_01
+			}
+		}
+		flag:UBA_tower_01 = {
+			scope:province = {
+				# add_special_building = UBA_tower_01
+				replace_building_effect = UBA_tower_01
+			}
+		}
+		flag:UBA_knight_01 = {
+			scope:province = {
+				# add_special_building = UBA_knight_01
+				replace_building_effect = UBA_knight_01
+			}
+		}
+		flag:UBA_workshop_01 = {
+			scope:province = {
+				# add_special_building = UBA_workshop_01
+				replace_building_effect = UBA_workshop_01
+			}
+		}
+		flag:UBA_governor_01 = {
+			scope:province = {
+				# add_special_building = UBA_governor_01
+				replace_building_effect = UBA_governor_01
+			}
+		}
+		flag:UBA_parliament_01 = {
+			scope:province = {
+				# add_special_building = UBA_parliament_01
+				replace_building_effect = UBA_parliament_01
+			}
+		}
+		flag:UBA_hospital_01 = {
+			scope:province = {
+				# add_special_building = UBA_hospital_01
+				replace_building_effect = UBA_hospital_01
+			}
+		}
+		flag:UBA_university_01 = {
+			scope:province = {
+				# add_special_building = UBA_university_01
+				replace_building_effect = UBA_university_01
+			}
+		}
+		flag:UBA_church_01 = {
+			scope:province = {
+				# add_special_building = UBA_church_01
+				replace_building_effect = UBA_church_01
+			}
+		}
+		flag:UBA_market_01 = {
+			scope:province = {
+				# add_special_building = UBA_market_01
+				replace_building_effect = UBA_market_01
+			}
+		}
+		flag:UBA_port_01 = {
+			scope:province = {
+				# add_special_building = UBA_port_01
+				replace_building_effect = UBA_port_01
+			}
+		}
+		flag:UBA_holyland_01 = {
+			scope:province = {
+				# add_special_building = UBA_holyland_01
+				replace_building_effect = UBA_holyland_01
+			}
+		}
+		flag:UBA_basins_01 = {
+			scope:province = {
+				# add_special_building = UBA_basins_01
+				replace_building_effect = UBA_basins_01
+			}
+		}
+		flag:UBA_academy_01 = {
+			scope:province = {
+				# add_special_building = UBA_academy_01
+				replace_building_effect = UBA_academy_01
+			}
+		}
+		flag:UBA_garden_01 = {
+			scope:province = {
+				# add_special_building = UBA_garden_01
+				replace_building_effect = UBA_garden_01
+			}
+		}
+		flag:UBA_secret_01 = {
+			scope:province = {
+				# add_special_building = UBA_secret_01
+				replace_building_effect = UBA_secret_01
+			}
+		}
+		flag:UBA_hunting_01 = {
+			scope:province = {
+				# add_special_building = UBA_hunting_01
+				replace_building_effect = UBA_hunting_01
+			}
+		}
+		flag:UBA_pasture_01 = {
+			scope:province = {
+				# add_special_building = UBA_pasture_01
+				replace_building_effect = UBA_pasture_01
+			}
+		}
+		flag:UBA_yurt_01 = {
+			scope:province = {
+				# add_special_building = UBA_yurt_01
+				replace_building_effect = UBA_yurt_01
+			}
+		}
+	}
+}
+# 按变量添加特建 矿井
+uba_construct_mine_buildings_switch = {
+	uba_remove_uba_unique_flags_effect = yes
+	switch = {
+		trigger = var:uba_find_mines_planned
+		# 测试
+		flag:UBA_wonderful_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_wonderful_mines_01
+				# add_special_building = UBA_wonderful_mines_01
+				# add_special_building_slot = UBA_wonderful_mines_01
+			}
+		}
+		flag:UBA_gems_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_gems_mines_01
+				# add_special_building = UBA_gems_mines_01
+				# add_special_building_slot = UBA_gems_mines_01
+			}
+		}
+		flag:UBA_diamonds_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_diamonds_mines_01
+				# add_special_building = UBA_diamonds_mines_01
+				# add_special_building_slot = UBA_diamonds_mines_01
+			}
+		}
+		flag:UBA_gold_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_gold_mines_01
+				# add_special_building = UBA_gold_mines_01
+				# add_special_building_slot = UBA_gold_mines_01
+			}
+		}
+		flag:UBA_silver_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_silver_mines_01
+				# add_special_building = UBA_silver_mines_01
+				# add_special_building_slot = UBA_silver_mines_01
+			}
+		}
+		flag:UBA_copper_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_copper_mines_01
+				# add_special_building = UBA_copper_mines_01
+				# add_special_building_slot = UBA_copper_mines_01
+			}
+		}
+		flag:UBA_iron_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_iron_mines_01
+				# add_special_building = UBA_iron_mines_01
+				# add_special_building_slot = UBA_iron_mines_01
+			}
+		}
+		flag:UBA_salt_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_salt_mines_01
+				# add_special_building = UBA_salt_mines_01
+				# add_special_building_slot = UBA_salt_mines_01
+			}
+		}
+		flag:UBA_jade_mines_01 = {
+			scope:province = {
+				replace_building_effect = UBA_jade_mines_01
+				# add_special_building = UBA_jade_mines_01
+				# add_special_building_slot = UBA_jade_mines_01
+			}
+		}
+	}
+}
+
+# 清除UBA独一特建flag
+uba_remove_uba_unique_flags_effect = {
+	scope:province = {
+		# 特建
+		switch = {
+			trigger = has_building_or_higher
+			# 特建
+			UBA_colosseum_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_colosseum } }
+			UBA_reserve_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_reserve } }
+			UBA_palace_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_palace } }
+			UBA_castle_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_castle } }
+			UBA_tower_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_tower } }
+			UBA_knight_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_knight } }
+			UBA_workshop_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_workshop } }
+			UBA_governor_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_governor } }
+			UBA_parliament_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_parliament } }
+			UBA_hospital_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_hospital } }
+			UBA_university_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_university } }
+			UBA_church_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_church } }
+			UBA_market_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_market } }
+			UBA_port_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_port } }
+			UBA_holyland_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_holyland } }
+			UBA_basins_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_basins } }
+			UBA_academy_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_academy } }
+			UBA_garden_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_garden } }
+			UBA_secret_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_secret } }
+			UBA_hunting_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_hunting } }
+			UBA_pasture_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_pasture } }
+			UBA_yurt_05 = { uba_remove_uba_unique_flags_building_effect = { BUILDING = UBA_yurt } }
+			# 矿
+			UBA_gems_mines_05 = { uba_remove_uba_unique_flags_mine_effect = { BUILDING = UBA_gems_mines } }
+			UBA_diamonds_mines_05 = { uba_remove_uba_unique_flags_mine_effect = { BUILDING = UBA_diamonds_mines } }
+			UBA_wonderful_mines_05 = { uba_remove_uba_unique_flags_mine_effect = { BUILDING = UBA_wonderful_mines } }
+		}
+	}
+}
+# UBA奇观flag
+uba_remove_uba_unique_flags_building_effect = {
+	if = {
+		limit = {
+			is_target_in_global_variable_list = {
+				name = uba_unique_buildings_finished
+				target = flag:$BUILDING$_finished
+			}
+		}
+		remove_list_global_variable = {
+			name = uba_unique_buildings_finished
+			target = flag:$BUILDING$_finished
+		}
+	}
+}
+# UBA矿井flag
+uba_remove_uba_unique_flags_mine_effect = {
+	if = {
+		limit = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:$MINE$_mines_added
+			}
+        }
+		remove_list_global_variable = {
+			name = unavailable_unique_decisions
+			target = flag:$MINE$_mines_added
+		}
+	}
+}

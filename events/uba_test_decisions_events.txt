@@ -1,0 +1,121 @@
+﻿namespace = uba_test_decisions
+
+uba_test_decisions.0001 = {
+	type = character_event
+	title = uba_test_decisions.0001.t
+	desc = uba_test_decisions.0001.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		uba_give_building_location_effect = yes
+	}
+	#是的
+	option = {
+		name = uba_test_decisions.0001.a
+		#flavor = uba_test_decisions.0001.a.flavor
+		# hidden_effect = {
+		# 	uba_give_building_location_effect = yes
+		# }
+		remove_global_variable = uba_event_ongoing
+		show_as_tooltip = {
+			custom_tooltip = uba_test_decisions.0001.a_tt
+		}
+	}
+
+	#算了（放弃）
+	option = {
+		name = uba_decisions.0001.cancel
+		#add_gold = 500
+		# stress_impact = {
+		# 	greedy = minor_stress_impact_loss
+		# 	base = minor_stress_impact_gain
+		# 	ambitious = medium_stress_impact_gain
+		# }
+		# remove_decision_cooldown = uba_building_decision
+		uba_cleanup_effect = yes
+		remove_global_variable = uba_event_ongoing
+	}
+}
+
+uba_test_decisions.1999 = { #测试
+	type = character_event
+	title = uba_test_decisions.1999.t
+	desc = uba_test_decisions.1999.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+
+
+	option = {
+		name = uba_test_decisions.1999.a
+		show_as_tooltip = {
+			custom_tooltip = uba_test_decisions.1999.a_tt
+		}
+		# trigger = {
+		# 	NOT = {
+		# 		is_target_in_global_variable_list = {
+		# 			name = unavailable_unique_decisions
+		# 			target = flag:UBA_test_building_added
+		# 		}
+		# 	}
+		# }
+		trigger = {
+			exists = var:uba_building_location
+		}
+		if = {
+			limit = {
+				exists = var:uba_building_location
+			}
+			var:uba_building_location = { save_scope_as = uba_building_location }
+			var:uba_building_location = {
+				add_special_building_slot = UBA_test_building
+				add_special_building = UBA_test_building
+			}
+			uba_cleanup_effect = yes
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_test_building_added
+		}
+	}
+	
+	option = {
+		name = uba_decisions.0001.cancel
+		add_gold = 1500
+		uba_cleanup_effect = yes
+		remove_decision_cooldown = uba_building_decision
+	}
+}
+
+uba_test_decisions.0002 = {
+	type = character_event
+	title = uba_test_decisions.0002.t
+	desc = uba_test_decisions.0002.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	immediate = {
+		#uba_give_building_location_effect = yes
+	}
+
+	#是的
+	option = {
+		name = uba_test_decisions.0002.a
+		#flavor = uba_test_decisions.0001.a.flavor
+		# hidden_effect = {
+		# 	uba_give_building_location_effect = yes
+		# }
+		show_as_tooltip = {
+			custom_tooltip = uba_test_decisions.0001.a_tt
+		}
+	}
+}

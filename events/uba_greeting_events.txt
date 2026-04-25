@@ -1,0 +1,123 @@
+﻿namespace = uba_greeting
+
+uba_greeting.0001 = {
+	type = character_event
+	title = uba_greeting.0001.t
+	# desc = uba_greeting.0001.desc
+	desc = {
+		first_valid = {
+			# desc = uba_greeting.0001.desc.openning
+			triggered_desc = { # 有地
+				trigger = {
+					is_landed = yes
+				}
+				desc = uba_greeting.0001.desc.noblesopenning
+			}
+			triggered_desc = { # 无地
+				trigger = {
+					is_landed = no
+				}
+				desc = uba_greeting.0001.desc.wanderersopenning
+			}
+		}
+		desc = uba_greeting.0001.desc.modlist
+		triggered_desc = { # 奇观建筑师
+			trigger = {
+				has_global_variable = is_uba_loaded
+			}
+			desc = uba_greeting.0001.desc.uba
+		}
+		triggered_desc = { # 奇观建筑师 亚洲特建包
+			trigger = {
+				NOT = { has_global_variable = is_uba_loaded }
+				has_global_variable = is_uba_hbp_loaded
+			}
+			desc = uba_greeting.0001.desc.ubahbp
+		}
+		triggered_desc = { # 王国建筑师
+			trigger = {
+				has_global_variable = is_rba_loaded
+			}
+			desc = uba_greeting.0001.desc.rba
+		}
+		triggered_desc = { # 地产建筑师
+			trigger = {
+				has_global_variable = is_hba_loaded
+			}
+			desc = uba_greeting.0001.desc.hba
+		}
+		triggered_desc = { # 庄园建筑师
+			trigger = {
+				has_global_variable = is_eba_loaded
+			}
+			desc = uba_greeting.0001.desc.eba
+		}
+		triggered_desc = { # 自动建筑师
+			trigger = {
+				has_global_variable = is_aba_loaded
+			}
+			desc = uba_greeting.0001.desc.aba
+		}
+		desc = uba_greeting.0001.desc.ending
+	}
+	theme = stewardship
+	
+	override_background = {
+		trigger = { is_landed = yes }
+		reference = study
+	}
+	override_background = {
+		trigger = { is_landed = no }
+		reference = tavern
+	}
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#OK
+	option = {
+		name = uba_greeting.0001.a
+		show_as_tooltip = {
+			custom_tooltip = uba_greeting.0001.a_tt
+		}
+	}
+
+	#让我看看
+	option = {
+		name = uba_greeting.0001.thanks
+		show_as_tooltip = {
+			custom_tooltip = uba_greeting.0001.thanks_tt
+		}
+		trigger_event = uba_greeting.0002
+	}
+}
+
+uba_greeting.0002 = {
+	type = character_event
+	title = uba_greeting.0002.t
+	desc = {
+		desc = uba_greeting.0002.desc.openning
+		desc = uba_greeting.0002.desc.thanks
+		desc = uba_greeting.0002.desc.ending
+	}
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	#是的
+	option = {
+		name = uba_greeting.0002.a
+		#flavor = uba_greeting.0001.a.flavor
+		# hidden_effect = {
+		# 	uba_give_building_location_effect = yes
+		# }
+		show_as_tooltip = {
+			custom_tooltip = uba_greeting.0002.a_tt
+		}
+		stress_impact = { base = minor_stress_impact_loss }
+		add_gold = medium_gold_value_static_max
+	}
+}

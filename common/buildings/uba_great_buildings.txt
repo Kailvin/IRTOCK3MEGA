@@ -1,0 +1,1991 @@
+﻿##########
+### 原开封皇宫 现京师皇城
+
+kaifeng_palace_01 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = kaifeng_examination_cost_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_kaifeng_palace.dds"
+	
+	can_construct_potential = {
+		always = no # This building is the result of a great project
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.1
+		stewardship_per_influence_level = 1
+		dynasty_house_opinion = 5
+		monthly_influence_mult = 0.1
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.2
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	# type = special
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	next_building = kaifeng_palace_02
+
+	flag = travel_point_of_interest_economic
+	flag = special_university
+}
+kaifeng_palace_02 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = kaifeng_examination_cost_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_kaifeng_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		custom_tooltip = {
+			text = has_game_rule_uba_history_special_buildings_on
+			has_game_rule = uba_history_special_buildings_on
+		}
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.1
+		
+		stewardship_per_influence_level = 1
+
+		men_at_arms_title_limit = 3
+
+		dynasty_house_opinion = 5
+	}
+	province_modifier = {
+		monthly_income = 3
+		fort_level = normal_building_fort_level_tier_2
+		garrison_size = 0.5
+		stationed_maa_damage_mult = 0.25
+		stationed_maa_toughness_mult = 0.25
+		hostile_raid_time = 0.15
+		defender_holding_advantage = 5
+	}
+	county_modifier = {
+		travel_danger = -10
+
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+		supply_limit_mult = 0.25
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.05
+		tax_mult = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	# type = special
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	next_building = kaifeng_palace_03
+
+	flag = travel_point_of_interest_economic
+	flag = special_university
+}
+kaifeng_palace_03 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = kaifeng_examination_cost_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_kaifeng_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.15
+		
+		stewardship_per_influence_level = 1
+
+		men_at_arms_title_cap = 1
+		men_at_arms_title_limit = 5
+
+		dynasty_house_opinion = 10
+	}
+	province_modifier = {
+		monthly_income = 6
+		fort_level = normal_building_fort_level_tier_4
+		garrison_size = 0.75
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+		hostile_raid_time = 0.3
+		defender_holding_advantage = 10
+	}
+	county_modifier = {
+		travel_danger = -15
+
+		levy_size = 0.1
+		tax_mult = 0.4
+		development_growth_factor = 0.2
+		supply_limit_mult = 0.50
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.1
+		tax_mult = 0.1
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	# type = special
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	next_building = kaifeng_palace_04
+
+	flag = travel_point_of_interest_economic
+	flag = special_university
+}
+kaifeng_palace_04 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = kaifeng_examination_cost_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_kaifeng_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_4
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.2
+		
+		stewardship_per_influence_level = 1
+
+		men_at_arms_title_cap = 2
+		men_at_arms_title_limit = 7
+
+		dynasty_house_opinion = 10
+	}
+	province_modifier = {
+		monthly_income = 9
+		fort_level = normal_building_fort_level_tier_6
+		garrison_size = 1
+		stationed_maa_damage_mult = 0.75
+		stationed_maa_toughness_mult = 0.75
+		hostile_raid_time = 0.4
+		defender_holding_advantage = 12
+	}
+	county_modifier = {
+		travel_danger = -20
+
+		levy_size = 0.15
+		tax_mult = 0.45
+		development_growth_factor = 0.2
+		supply_limit_mult = 0.75
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.15
+		tax_mult = 0.15
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	# type = special
+	type = duchy_capital
+	
+	flag = duchy_building
+	
+	next_building = kaifeng_palace_05
+
+	flag = travel_point_of_interest_economic
+	flag = special_university
+}
+kaifeng_palace_05 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = { has_tgp_dlc_trigger = yes }
+			desc = kaifeng_examination_cost_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_kaifeng_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_5
+	
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.25
+		
+		martial_per_influence_level = 1
+		stewardship_per_influence_level = 1
+
+		men_at_arms_title_cap = 3
+		men_at_arms_title_limit = 9
+
+		dynasty_house_opinion = 10
+	}
+	province_modifier = {
+		monthly_income = 12
+		fort_level = normal_building_fort_level_tier_8
+		garrison_size = 1.5
+		stationed_maa_damage_mult = 1
+		stationed_maa_toughness_mult = 1
+		hostile_raid_time = 0.5
+		defender_holding_advantage = 15
+	}
+	county_modifier = {
+		travel_danger = -30
+
+		levy_size = 0.2
+		tax_mult = 0.5
+		development_growth_factor = 0.2
+		supply_limit_mult = 1
+	}
+	duchy_capital_county_modifier = {
+		levy_size = 0.20
+		tax_mult = 0.20
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	# type = special
+	type = duchy_capital
+	
+	flag = duchy_building
+
+	flag = travel_point_of_interest_economic
+	flag = special_university
+}
+
+### 紫禁城
+
+forbidden_city_01 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = beijing_palace_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_forbidden_city.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			capital_province = root
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		court_grandeur_baseline_add = 12
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_influence_mult = 0.1
+		
+		diplomacy_per_influence_level = 1
+	}
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.2
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = forbidden_city_02
+
+	great_project_type = uba_forbidden_city_update
+	type = great_building
+
+	flag = the_forbidden_city
+
+	flag = travel_point_of_interest_diplomatic
+}
+forbidden_city_02 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = beijing_palace_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_forbidden_city.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			capital_province = root
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	character_modifier = {
+		domain_limit = 1
+		court_grandeur_baseline_add = 14
+		vassal_limit = 50
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.15
+		monthly_influence = 0.5
+		monthly_influence_mult = 0.2
+		
+		diplomacy_per_influence_level = 1
+
+		cultural_head_fascination_mult = 0.05
+		monthly_lifestyle_xp_gain_mult = 0.05
+	}
+	province_modifier = {
+		monthly_income = 1.5
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.25
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = forbidden_city_03
+
+	great_project_type = uba_forbidden_city_update
+	type = great_building
+
+	flag = the_forbidden_city
+	flag = travel_point_of_interest_diplomatic
+}
+forbidden_city_03 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = beijing_palace_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_forbidden_city.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			capital_province = root
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+	
+	character_modifier = {
+		domain_limit = 2
+		court_grandeur_baseline_add = 16
+		vassal_limit = 100
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.1
+		monthly_dynasty_prestige_mult = 0.20
+		monthly_influence = 0.75
+		monthly_influence_mult = 0.3
+		
+		diplomacy_per_influence_level = 1
+
+		cultural_head_fascination_mult = 0.1
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.6
+		stationed_maa_toughness_mult = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.4
+		development_growth_factor = 0.3
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = forbidden_city_04
+
+	great_project_type = uba_forbidden_city_update
+	type = great_building
+
+	flag = the_forbidden_city
+	flag = travel_point_of_interest_diplomatic
+}
+forbidden_city_04 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = beijing_palace_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_forbidden_city.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			capital_province = root
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_4
+	
+	character_modifier = {
+		domain_limit = 3
+		court_grandeur_baseline_add = 18
+		vassal_limit = 150
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.2
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.4
+		
+		diplomacy_per_influence_level = 1
+		stewardship_per_influence_level = 1
+
+		cultural_head_fascination_mult = 0.15
+		monthly_lifestyle_xp_gain_mult = 0.15
+	}
+	province_modifier = {
+		monthly_income = 2.5
+		stationed_maa_damage_mult = 0.8
+		stationed_maa_toughness_mult = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.45
+		development_growth_factor = 0.35
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = forbidden_city_05
+
+	great_project_type = uba_forbidden_city_update
+	type = great_building
+
+	flag = the_forbidden_city
+	flag = travel_point_of_interest_diplomatic
+}
+forbidden_city_05 = {
+	construction_time = very_slow_construction_time
+	
+	effect_desc = {
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = unlocks_building_desc
+		}
+		triggered_desc = {
+			trigger = {
+				OR = {
+					has_tgp_dlc_trigger = yes
+					has_ep3_dlc_trigger = yes
+				}
+			}
+			desc = beijing_palace_bonus_desc
+		}
+	}
+	
+	type_icon = "icon_structure_forbidden_city.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			capital_province = root
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_5
+	
+	character_modifier = {
+		domain_limit = 4
+		court_grandeur_baseline_add = 20
+		vassal_limit = 200
+		courtly_opinion = 10
+
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.5
+
+		diplomacy_per_influence_level = 1
+		stewardship_per_influence_level = 1
+		learning_per_influence_level = 1
+		
+		cultural_head_fascination_mult = 0.2
+		monthly_lifestyle_xp_gain_mult = 0.2
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_maa_damage_mult = 1
+		stationed_maa_toughness_mult = 1
+	}
+	county_modifier = {
+		tax_mult = 0.5
+		development_growth_factor = 0.4
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	great_project_type = uba_forbidden_city_update
+	type = great_building
+
+	flag = the_forbidden_city_max
+	flag = travel_point_of_interest_diplomatic
+}
+
+### 君堡大皇宫
+
+palatium_magnum_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_magnum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		court_grandeur_baseline_add = 12
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_influence_mult = 0.1
+		
+		diplomacy_per_influence_level = 1
+	}
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.2
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_magnum_02
+
+	great_project_type = uba_palatium_magnum_update
+	type = great_building
+
+	flag = the_palatium_magnum
+
+	flag = travel_point_of_interest_diplomatic
+}
+palatium_magnum_02 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palatium_magnum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	character_modifier = {
+		domain_limit = 1
+		court_grandeur_baseline_add = 14
+		vassal_limit = 50
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.15
+		monthly_influence = 0.5
+		monthly_influence_mult = 0.2
+
+		diplomacy_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = 1.5
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.25
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_magnum_03
+
+	great_project_type = uba_palatium_magnum_update
+	type = great_building
+
+	flag = the_palatium_magnum
+	flag = travel_point_of_interest_diplomatic
+}
+palatium_magnum_03 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palatium_magnum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 2
+		court_grandeur_baseline_add = 16
+		vassal_limit = 100
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.1
+		monthly_dynasty_prestige_mult = 0.20
+		monthly_influence = 0.75
+		monthly_influence_mult = 0.3
+		
+		diplomacy_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.2
+	}
+	province_modifier = {
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.6
+		stationed_maa_toughness_mult = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.4
+		development_growth_factor = 0.3
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_magnum_04
+
+	great_project_type = uba_palatium_magnum_update
+	type = great_building
+
+	flag = the_palatium_magnum
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+palatium_magnum_04 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_magnum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 3
+		court_grandeur_baseline_add = 18
+		vassal_limit = 150
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.2
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.4
+		
+		diplomacy_per_influence_level = 1
+		stewardship_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.3
+	}
+	province_modifier = {
+		monthly_income = 2.5
+		stationed_maa_damage_mult = 0.8
+		stationed_maa_toughness_mult = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.45
+		development_growth_factor = 0.35
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_magnum_05
+
+	great_project_type = uba_palatium_magnum_update
+	type = great_building
+
+	flag = the_palatium_magnum
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+palatium_magnum_05 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_magnum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 4
+		court_grandeur_baseline_add = 20
+		vassal_limit = 200
+		courtly_opinion = 10
+
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.5
+
+		diplomacy_per_influence_level = 1
+		martial_per_influence_level = 1
+		stewardship_per_influence_level = 1
+		
+		monthly_lifestyle_xp_gain_mult = 0.4
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_maa_damage_mult = 1
+		stationed_maa_toughness_mult = 1
+	}
+	county_modifier = {
+		tax_mult = 0.5
+		development_growth_factor = 0.4
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	great_project_type = uba_palatium_magnum_update
+	type = great_building
+
+	flag = the_palatium_magnum_max
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+
+# 罗马大皇宫
+palatium_hill_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_hill.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		court_grandeur_baseline_add = 12
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_influence_mult = 0.1
+		
+		diplomacy_per_influence_level = 1
+	}
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.2
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.2
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_hill_02
+
+	great_project_type = uba_palatium_hill_update
+	type = great_building
+
+	flag = the_palatium_hill
+
+	flag = travel_point_of_interest_diplomatic
+}
+palatium_hill_02 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palatium_hill.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	character_modifier = {
+		domain_limit = 1
+		court_grandeur_baseline_add = 14
+		vassal_limit = 50
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.15
+		monthly_influence = 0.5
+		monthly_influence_mult = 0.2
+
+		diplomacy_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = 1.5
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.4
+	}
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.25
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_hill_03
+
+	great_project_type = uba_palatium_hill_update
+	type = great_building
+
+	flag = the_palatium_hill
+	flag = travel_point_of_interest_diplomatic
+}
+palatium_hill_03 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_palatium_hill.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 2
+		court_grandeur_baseline_add = 16
+		vassal_limit = 100
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.1
+		monthly_dynasty_prestige_mult = 0.20
+		monthly_influence = 0.75
+		monthly_influence_mult = 0.3
+		
+		diplomacy_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.2
+	}
+	province_modifier = {
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.6
+		stationed_maa_toughness_mult = 0.6
+	}
+	county_modifier = {
+		tax_mult = 0.4
+		development_growth_factor = 0.3
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_hill_04
+
+	great_project_type = uba_palatium_hill_update
+	type = great_building
+
+	flag = the_palatium_hill
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+palatium_hill_04 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_hill.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 3
+		court_grandeur_baseline_add = 18
+		vassal_limit = 150
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.2
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.4
+		
+		diplomacy_per_influence_level = 1
+		stewardship_per_influence_level = 1
+
+		monthly_lifestyle_xp_gain_mult = 0.3
+	}
+	province_modifier = {
+		monthly_income = 2.5
+		stationed_maa_damage_mult = 0.8
+		stationed_maa_toughness_mult = 0.8
+	}
+	county_modifier = {
+		tax_mult = 0.45
+		development_growth_factor = 0.35
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = palatium_hill_05
+
+	great_project_type = uba_palatium_hill_update
+	type = great_building
+
+	flag = the_palatium_hill
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+palatium_hill_05 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_palatium_hill.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_roman_empire
+				has_title = title:h_eastern_roman_empire
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 4
+		court_grandeur_baseline_add = 20
+		vassal_limit = 200
+		courtly_opinion = 10
+
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.25
+		monthly_influence = 1
+		monthly_influence_mult = 0.5
+
+		diplomacy_per_influence_level = 1
+		stewardship_per_influence_level = 1
+		learning_per_influence_level = 1
+		
+		monthly_lifestyle_xp_gain_mult = 0.4
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_maa_damage_mult = 1
+		stationed_maa_toughness_mult = 1
+	}
+	county_modifier = {
+		tax_mult = 0.5
+		development_growth_factor = 0.4
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	great_project_type = uba_palatium_hill_update
+	type = great_building
+
+	flag = the_palatium_hill_max
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+
+# 和平之城
+madinat_al-salam_01 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_madinat_al-salam.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_dar_al_islam
+			}
+		}
+	}
+	
+	cost_gold = 1000
+	
+	character_modifier = {
+		court_grandeur_baseline_add = 12
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.1
+
+		martial_per_piety_level = 1
+
+		knight_limit = 2
+		monthly_prestige_gain_per_knight_mult = 0.01
+	}
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.2
+		travel_danger = -20
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.2
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = madinat_al-salam_02
+
+	great_project_type = uba_madinat_al_salam_update
+	type = great_building
+
+	flag = the_madinat_al-salam
+
+	flag = travel_point_of_interest_diplomatic
+}
+madinat_al-salam_02 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_madinat_al-salam.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_dar_al_islam
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	character_modifier = {
+		domain_limit = 1
+		court_grandeur_baseline_add = 14
+		vassal_limit = 50
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige_mult = 0.15
+
+		martial_per_piety_level = 1
+
+		knight_limit = 4
+		monthly_prestige_gain_per_knight_mult = 0.02
+		
+		domain_tax_same_faith_mult = 0.05
+
+		monthly_lifestyle_xp_gain_mult = 0.1
+	}
+	province_modifier = {
+		monthly_income = 2
+		stationed_maa_damage_mult = 0.4
+		stationed_maa_toughness_mult = 0.4
+		travel_danger = -20
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+	}
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.25
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = madinat_al-salam_03
+
+	great_project_type = uba_madinat_al_salam_update
+	type = great_building
+
+	flag = the_madinat_al-salam
+	flag = travel_point_of_interest_diplomatic
+}
+madinat_al-salam_03 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_madinat_al-salam.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_dar_al_islam
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 2
+		court_grandeur_baseline_add = 16
+		vassal_limit = 100
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.1
+		monthly_dynasty_prestige_mult = 0.20
+
+		martial_per_piety_level = 1
+		learning_per_piety_level = 1
+
+		knight_limit = 6
+		monthly_prestige_gain_per_knight_mult = 0.03
+		
+		domain_tax_same_faith_mult = 0.10
+
+		monthly_lifestyle_xp_gain_mult = 0.2
+	}
+	province_modifier = {
+		monthly_income = 3
+		stationed_maa_damage_mult = 0.6
+		stationed_maa_toughness_mult = 0.6
+		travel_danger = -20
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+	}
+	county_modifier = {
+		tax_mult = 0.4
+		development_growth_factor = 0.3
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = madinat_al-salam_04
+
+	great_project_type = uba_madinat_al_salam_update
+	type = great_building
+
+	flag = the_madinat_al-salam
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+madinat_al-salam_04 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_madinat_al-salam.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_dar_al_islam
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 3
+		court_grandeur_baseline_add = 18
+		vassal_limit = 150
+		courtly_opinion = 5
+
+		monthly_dynasty_prestige = 0.2
+		monthly_dynasty_prestige_mult = 0.25
+
+		martial_per_piety_level = 1
+		learning_per_piety_level = 1
+
+		knight_limit = 8
+		monthly_prestige_gain_per_knight_mult = 0.04
+		
+		domain_tax_same_faith_mult = 0.15
+
+		monthly_lifestyle_xp_gain_mult = 0.3
+	}
+	province_modifier = {
+		monthly_income = 4
+		stationed_maa_damage_mult = 0.8
+		stationed_maa_toughness_mult = 0.8
+		travel_danger = -20
+		defender_holding_advantage = normal_building_advantage_tier_4
+		fort_level = good_building_fort_level_tier_4
+	}
+	county_modifier = {
+		tax_mult = 0.45
+		development_growth_factor = 0.35
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = madinat_al-salam_05
+
+	great_project_type = uba_madinat_al_salam_update
+	type = great_building
+
+	flag = the_madinat_al-salam
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}
+madinat_al-salam_05 = {
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_madinat_al-salam.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	is_enabled = {
+		scope:holder = {
+			highest_held_title_tier >= tier_empire
+			OR = {
+				capital_province = root
+				has_title = title:h_dar_al_islam
+			}
+		}
+	}
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			desc = university_toto_effect_desc
+		}
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+	
+	character_modifier = {
+		domain_limit = 4
+		court_grandeur_baseline_add = 20
+		vassal_limit = 200
+		courtly_opinion = 10
+
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.25
+
+		martial_per_piety_level = 1
+		learning_per_piety_level = 1
+		stewardship_per_piety_level = 1
+
+		knight_limit = 12
+		monthly_prestige_gain_per_knight_mult = 0.05
+		
+		domain_tax_same_faith_mult = 0.2
+
+		monthly_lifestyle_xp_gain_mult = 0.4
+	}
+	province_modifier = {
+		monthly_income = 5
+		stationed_maa_damage_mult = 1
+		stationed_maa_toughness_mult = 1
+		travel_danger = -20
+		defender_holding_advantage = normal_building_advantage_tier_5
+		fort_level = good_building_fort_level_tier_5
+	}
+	county_modifier = {
+		tax_mult = 0.5
+		development_growth_factor = 0.4
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	great_project_type = uba_madinat_al_salam_update
+	type = great_building
+
+	flag = the_madinat_al-salam_max
+	flag = travel_point_of_interest_diplomatic
+	flag = special_university
+}

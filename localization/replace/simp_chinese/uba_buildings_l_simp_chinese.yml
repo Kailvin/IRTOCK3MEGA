@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ building_type_kaifeng_palace_01: "$building_kaifeng_palace_01$"
+ building_type_kaifeng_palace_01_desc: "$building_kaifeng_palace_01_desc$"
+ building_kaifeng_palace_01: "皇城"
+ building_kaifeng_palace_01_desc: "政令通达的行政中枢坐落于朱垣之内，确保都城乃至天下繁荣昌盛。"
+
+ building_type_forbidden_city_01: "紫禁城"
+ building_type_forbidden_city_01_desc: "紫禁城是由近千座殿宇组成的庞大皇城，巍峨宫墙与深堑护城河护卫着这座万千官吏勤恪奉公的国家统治核心。"
+ building_forbidden_city_01: "外朝"
+ building_forbidden_city_01_desc: "$building_type_forbidden_city_01_desc$\n\n金銮殿是宏伟庄严的帝国礼仪中心，是皇帝举行登基、册封等重大典礼，以及召集文武百官朝贺、颁布政令的核心区域。"
+

@@ -1,0 +1,179 @@
+﻿@wonderful_mine_tax_base = 1
+@wonderful_mine_tax_scale_addition_per_tier = 3
+
+@wonderful_mine_tax_tier_1 = @[wonderful_mine_tax_base]
+@wonderful_mine_tax_tier_2 = @[wonderful_mine_tax_tier_1 + wonderful_mine_tax_scale_addition_per_tier]
+@wonderful_mine_tax_tier_3 = @[wonderful_mine_tax_tier_2 + wonderful_mine_tax_scale_addition_per_tier]
+@wonderful_mine_tax_tier_4 = @[wonderful_mine_tax_tier_3 + wonderful_mine_tax_scale_addition_per_tier]
+@wonderful_mine_tax_tier_5 = @[wonderful_mine_tax_tier_4 + wonderful_mine_tax_scale_addition_per_tier + 1]
+@wonderful_mine_tax_tier_6 = @[wonderful_mine_tax_tier_5 + wonderful_mine_tax_scale_addition_per_tier + 1]
+@wonderful_mine_tax_tier_7 = @[wonderful_mine_tax_tier_6 + wonderful_mine_tax_scale_addition_per_tier + 1]
+@wonderful_mine_tax_tier_8 = @[wonderful_mine_tax_tier_7 + wonderful_mine_tax_scale_addition_per_tier]
+
+wonderful_mine_building_tax_tier_1 = @[wonderful_mine_tax_tier_1]
+wonderful_mine_building_tax_tier_2 = @[wonderful_mine_tax_tier_2]
+wonderful_mine_building_tax_tier_3 = @[wonderful_mine_tax_tier_3]
+wonderful_mine_building_tax_tier_4 = @[wonderful_mine_tax_tier_4]
+wonderful_mine_building_tax_tier_5 = @[wonderful_mine_tax_tier_5]
+wonderful_mine_building_tax_tier_6 = @[wonderful_mine_tax_tier_6]
+wonderful_mine_building_tax_tier_7 = @[wonderful_mine_tax_tier_7]
+wonderful_mine_building_tax_tier_8 = @[wonderful_mine_tax_tier_8]
+
+
+@high_movement_speed_base = 0.015
+@high_movement_speed_addition_per_tier = 0.025
+@very_high_movement_speed_tier_1 = @[high_movement_speed_base]
+@very_high_movement_speed_tier_2 = @[very_high_movement_speed_tier_1 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_3 = @[very_high_movement_speed_tier_2 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_4 = @[very_high_movement_speed_tier_3 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_5 = @[very_high_movement_speed_tier_4 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_6 = @[very_high_movement_speed_tier_5 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_7 = @[very_high_movement_speed_tier_6 + high_movement_speed_addition_per_tier]
+@very_high_movement_speed_tier_8 = @[very_high_movement_speed_tier_7 + high_movement_speed_addition_per_tier]
+
+very_high_movement_speed_tier_1 = @[very_high_movement_speed_tier_1]
+very_high_movement_speed_tier_2 = @[very_high_movement_speed_tier_2]
+very_high_movement_speed_tier_3 = @[very_high_movement_speed_tier_3]
+very_high_movement_speed_tier_4 = @[very_high_movement_speed_tier_4]
+very_high_movement_speed_tier_5 = @[very_high_movement_speed_tier_5]
+very_high_movement_speed_tier_6 = @[very_high_movement_speed_tier_6]
+very_high_movement_speed_tier_7 = @[very_high_movement_speed_tier_7]
+very_high_movement_speed_tier_8 = @[very_high_movement_speed_tier_8]
+
+# 决议冷却
+uba_decision_cooldown = {
+	value = 0
+	switch = {
+		trigger = has_game_rule
+		uba_decision_cooldown_default = { add = 1825 } # 5 years
+		uba_decision_cooldown_less = { add = 730 } # 2 years
+		uba_decision_cooldown_more = { add = 3650 } # 10 years
+		uba_decision_cooldown_much_more = { add = 7300 } # 20 years
+		uba_decision_cooldown_no = { add = 1 }
+	}
+	# if = {
+	# 	limit = { has_game_rule = uba_decision_cooldown_default }
+	# 	value = 5
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cooldown_less }
+	# 	value = 2
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cooldown_more }
+	# 	value = 10
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cooldown_much_more }
+	# 	value = 20
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cooldown_no }
+	# 	value = 0
+	# }
+	# else = { value = 5 }
+}
+
+# 工程时间乘数
+uba_great_project_construction_time_multiplier_value = {
+	value = 0.5
+	if = {
+		limit = {
+			top_participant_group:dynastic_cycle ?= {
+				has_participant_group_parameter = dynastic_cycle_imperial_buildings_increased_build_speed
+			}
+		}
+		add = -0.25
+	}
+}
+
+
+# 决议花费
+uba_decision_cost = {
+	value = 0
+	switch = {
+		trigger = has_game_rule
+		uba_decision_cost_default = { add = 2000 }
+		uba_decision_cost_less = { add = 1000 }
+		uba_decision_cost_more = { add = 4000 }
+		uba_decision_cost_much_more = { add = 8000 }
+	}
+	# if = {
+	# 	limit = { has_game_rule = uba_decision_cost_default }
+	# 	value = 500
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cost_less }
+	# 	value = 250
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cost_more }
+	# 	value = 1000
+	# }
+	# else_if = {
+	# 	limit = { has_game_rule = uba_decision_cost_much_more }
+	# 	value = 2000
+	# }
+	# else = { value = 500 }
+}
+
+# 建筑 升级时间
+uba_construction_time = 2190
+uba_short_construction_time = 1080
+uba_mine_construction_time = 1825
+
+# 建筑 花费
+uba_construction_cost_normal = 2500
+uba_construction_cost_unique_2 = 4000
+uba_construction_cost_unique_3 = 6000
+uba_construction_cost_unique_4 = 8000
+uba_construction_cost_unique_5 = 12000
+uba_construction_cost_cheap_2 = 2000
+uba_construction_cost_cheap_3 = 3000
+uba_construction_cost_cheap_4 = 4000
+uba_construction_cost_cheap_5 = 6000
+
+# 奇观发展度加成
+uba_development_growth_excellent_1 = 0.1
+uba_development_growth_excellent_2 = 0.2
+uba_development_growth_excellent_3 = 0.3
+uba_development_growth_excellent_4 = 0.4
+uba_development_growth_excellent_5 = 0.5
+uba_development_growth_factor_excellent_1 = 0.05
+uba_development_growth_factor_excellent_2 = 0.1
+uba_development_growth_factor_excellent_3 = 0.2
+uba_development_growth_factor_excellent_4 = 0.3
+uba_development_growth_factor_excellent_5 = 0.4
+
+uba_development_growth_good_1 = 0.1
+uba_development_growth_good_2 = 0.1
+uba_development_growth_good_3 = 0.2
+uba_development_growth_good_4 = 0.2
+uba_development_growth_good_5 = 0.3
+uba_development_growth_factor_good_1 = 0.05
+uba_development_growth_factor_good_2 = 0.1
+uba_development_growth_factor_good_3 = 0.2
+uba_development_growth_factor_good_4 = 0.2
+uba_development_growth_factor_good_5 = 0.3
+
+uba_development_growth_normal_1 = 0
+uba_development_growth_normal_2 = 0
+uba_development_growth_normal_3 = 0.1
+uba_development_growth_normal_4 = 0.2
+uba_development_growth_normal_5 = 0.3
+uba_development_growth_factor_normal_1 = 0.05
+uba_development_growth_factor_normal_2 = 0.1
+uba_development_growth_factor_normal_3 = 0.1
+uba_development_growth_factor_normal_4 = 0.1
+uba_development_growth_factor_normal_5 = 0.15
+
+uba_development_growth_poor_1 = 0
+uba_development_growth_poor_2 = 0
+uba_development_growth_poor_3 = 0
+uba_development_growth_poor_4 = 0
+uba_development_growth_poor_5 = 0.1
+uba_development_growth_factor_poor_1 = 0.05
+uba_development_growth_factor_poor_2 = 0.05
+uba_development_growth_factor_poor_3 = 0.05
+uba_development_growth_factor_poor_4 = 0.1
+uba_development_growth_factor_poor_5 = 0.15

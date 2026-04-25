@@ -1,0 +1,5380 @@
+﻿@msg_completion_effect_generic = "event:/DLC/EP4/SFX/Stingers/China/tgp_mx_sting_finishing_great_project_generic"
+@msg_completion_effect_military = "event:/DLC/EP4/SFX/Stingers/China/tgp_mx_sting_finishing_great_project_military"
+@msg_completion_effect_natural_disaster = "event:/DLC/EP4/SFX/Stingers/China/tgp_mx_sting_finishing_great_project_disaster"
+
+
+@great_project_default_icon = "gfx/interface/icons/great_projects/_default.dds"
+@great_project_mandala_icon = "gfx/interface/icons/great_projects/mandala_capital.dds"
+@great_project_china_icon = "gfx/interface/icons/great_projects/city_china.dds"
+@great_project_great_canals_icon = "gfx/interface/icons/great_projects/grand_canals.dds"
+@icon_great_project_great_wall = "gfx/interface/icons/great_projects/great_wall.dds"
+
+@default_illustration = "gfx/interface/illustrations/great_projects/asia_great_project_default.dds"
+@mandala_capital_illustration = "gfx/interface/illustrations/decisions/tgp_projects_mandala_capital.dds"
+@castle_china_illustration = "gfx/interface/illustrations/holding_types/tgp_castle_china.dds"
+@great_wall_illustration = "gfx/interface/illustrations/decisions/tgp_great_wall.dds"
+@grand_canals_illustration = "gfx/interface/illustrations/event_scenes/tgp_chinese_city.dds"
+@courtyard_asia_illustration = "gfx/interface/illustrations/event_scenes/tgp_courtyard_asia.dds"
+
+
+@uba_constantinople_illustration = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
+@uba_roma_illustration = "gfx/interface/illustrations/decisions/ep3_decision_roman_restoration.dds"
+@uba_madinat_al_salam_illustration = "gfx/interface/illustrations/decisions/fp3/fp3_decision_foundation.dds"
+@uba_madinat_al_salam_crusaders_illustration = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+@uba_madinat_al_salam_update_illustration = "gfx/interface/illustrations/decisions/decision_golden_age.dds"
+@uba_city_illustration = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
+@uba_mines_illustration = "gfx/interface/illustrations/event_scenes/fp3_cave.dds"
+@throne_room_asia_illustration = "gfx/interface/illustrations/event_scenes/tgp_asia_throne_room.dds"
+@estate_asia_illustration = "gfx/interface/illustrations/event_scenes/tgp_asia_estate.dds"
+@garden_asia_illustration = "gfx/interface/illustrations/event_scenes/tgp_garden_asia.dds"
+
+## 奇观工程（特殊建筑）
+uba_construct_wonder = {
+	icon = {
+		trigger = {
+			trigger_if = {
+				limit = { exists = scope:province }
+				scope:province = {
+					OR = {
+						geographical_region = world_asia
+						geographical_region = world_steppe_east
+					}
+				}
+			}
+			trigger_else = {
+				scope:founder = {
+					capital_province ?= {
+						OR = {
+							geographical_region = world_asia
+							geographical_region = world_steppe_east
+						}
+					}
+				}
+			}
+		}
+		reference = @great_project_china_icon
+	}
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		trigger = {
+			trigger_if = {
+				limit = { exists = scope:province }
+				scope:province = {
+					OR = {
+						geographical_region = world_asia
+						geographical_region = world_steppe_east
+					}
+				}
+			}
+			trigger_else = {
+				scope:founder = {
+					capital_province ?= {
+						OR = {
+							geographical_region = world_asia
+							geographical_region = world_steppe_east
+						}
+					}
+				}
+			}
+		}
+		reference = @castle_china_illustration
+	}
+	illustration = {
+		reference = @uba_city_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_construct_wonder
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_construct_wonder }
+		has_variable = uba_construct_wonder_planned
+	}
+
+	province_filter = top_realm
+	owner = province_owner
+
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			# custom_tooltip = {
+			# 	text = great_project_type_uba_construct_wonder_does_not_already_have_special_buildings
+			# 	has_special_building = no
+			# }
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_have_holdings
+				has_holding = yes
+			}
+			# custom_tooltip = {
+			# 	text = great_project_type_uba_construct_wonder_is_not_leased_out
+			# 	is_leased_out = no
+			# }
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_plan
+			has_variable = uba_construct_wonder_planned
+		}
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_built_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_construct_wonder_built_modifier
+				}
+			}
+		}
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = uba_decision_cooldown
+		multiply = uba_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+		set_variable = {
+			name = uba_construct_wonder_planned
+			value = scope:owner.var:uba_construct_wonder_planned
+		}
+		scope:owner = {
+			remove_variable = uba_construct_wonder_planned
+			save_scope_as = first_owner
+		}
+	}
+
+	on_invalidated = {
+		remove_variable = uba_construct_wonder_planned
+		scope:first_owner = {
+			remove_variable = uba_construct_wonder_planned
+		}
+		scope:owner = {
+			remove_variable = uba_construct_wonder_planned
+		}
+	}
+
+	on_complete = {
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_construct_wonder_built_modifier
+				days = uba_decision_cooldown
+			}
+		}
+		custom_tooltip = {
+			text = uba_construct_wonder_province_gains_wonders
+		}
+		uba_construct_wonder_buildings_switch = yes
+		scope:province ?= {
+			if = {
+				limit = {
+					has_special_building = yes
+				}
+				custom_tooltip = uba_special_building_replace_tt
+			}
+		}
+		
+		remove_variable = uba_construct_wonder_planned
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	# can_cancel = {
+	# 	  always = no
+	# }
+	on_cancel = {
+		remove_variable = uba_construct_wonder_planned
+		scope:owner = {
+			remove_variable = uba_construct_wonder_planned
+		}
+	}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = duchy
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 3
+		duchy = 6
+		kingdom = 6
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+}
+
+## 矿藏勘探（特殊建筑）
+uba_find_mines = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_mines_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_find_mines
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_find_mines }
+		has_variable = uba_find_mines_planned
+	}
+
+	province_filter = top_realm
+	owner = province_owner
+
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			# custom_tooltip = {
+			# 	text = great_project_type_uba_construct_wonder_does_not_already_have_special_buildings
+			# 	has_special_building = no
+			# }
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_have_holdings
+				has_holding = yes
+			}
+			# custom_tooltip = {
+			# 	text = great_project_type_uba_construct_wonder_is_not_leased_out
+			# 	is_leased_out = no
+			# }
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_find_mines_plan
+			has_variable = uba_find_mines_planned
+		}
+		# custom_tooltip = {
+		# 	text = great_project_type_uba_construct_wonder_built_recently
+		# 	NOT = {
+		# 		any_sub_realm_county = {
+		# 			has_county_modifier = uba_construct_wonder_built_modifier
+		# 		}
+		# 	}
+		# }
+	}
+
+	on_invalidated = {
+		remove_variable = uba_construct_wonder_planned
+		scope:first_owner = {
+			remove_variable = uba_construct_wonder_planned
+		}
+		scope:owner = {
+			remove_variable = uba_construct_wonder_planned
+		}
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 0.25
+		}
+	}
+
+	construction_time = {
+		value = uba_decision_cooldown
+		multiply = 0.1
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+		set_variable = {
+			name = uba_find_mines_planned
+			value = scope:owner.var:uba_find_mines_planned
+		}
+		scope:owner = {
+			remove_variable = uba_find_mines_planned
+			save_scope_as = first_owner
+		}
+	}
+
+
+	on_complete = {
+		# scope:province.county = {
+		# 	add_county_modifier = {
+		# 		modifier = uba_construct_wonder_built_modifier
+		# 		days = uba_decision_cooldown
+		# 	}
+		# }
+		custom_tooltip = {
+			text = uba_construct_wonder_province_find_mines
+		}
+		uba_construct_mine_buildings_switch = yes
+		scope:province ?= {
+			if = {
+				limit = {
+					has_special_building = yes
+				}
+				custom_tooltip = uba_special_building_replace_tt
+			}
+		}
+		remove_variable = uba_find_mines_planned
+		great_project_notify_completion = { CHARACTER = scope:owner }
+	}
+	
+	# can_cancel = {
+	# 	  always = no
+	# }
+	on_cancel = {
+		scope:owner = {
+			switch = {
+				trigger = var:uba_find_mines_planned
+				flag:UBA_wonderful_mines_01 = {
+					remove_list_global_variable = {
+						name = unavailable_unique_decisions
+						target = flag:UBA_wonderful_mines_added
+					}
+					remove_variable = uba_find_mines_planned
+				}
+				flag:UBA_gems_mines_01 = {
+					remove_list_global_variable = {
+						name = unavailable_unique_decisions
+						target = flag:UBA_gems_mines_added
+					}
+					remove_variable = uba_find_mines_planned
+				}
+				flag:UBA_diamonds_mines_01 = {
+					remove_list_global_variable = {
+						name = unavailable_unique_decisions
+						target = flag:UBA_diamonds_mines_added
+					}
+					remove_variable = uba_find_mines_planned
+				}
+				flag:UBA_gold_mines_01 = {remove_variable = uba_find_mines_planned}
+				flag:UBA_silver_mines_01 = {remove_variable = uba_find_mines_planned}
+				flag:UBA_copper_mines_01 = {remove_variable = uba_find_mines_planned}
+				flag:UBA_iron_mines_01 = {remove_variable = uba_find_mines_planned}
+				flag:UBA_salt_mines_01 = {remove_variable = uba_find_mines_planned}
+				flag:UBA_jade_mines_01 = {remove_variable = uba_find_mines_planned}
+			}
+		}
+		remove_variable = uba_find_mines_planned
+	}
+
+	project_contributions = {
+		guides = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.05
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				# great_project_reward_contribution_completion_notification_effect = {
+				# 	LEVEL = minor
+				# 	NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# 	OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# }
+				custom_tooltip =  uba_find_mines_tooltip
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.05
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				# great_project_reward_contribution_completion_notification_effect = {
+				# 	LEVEL = minor
+				# 	NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# 	OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# }
+				custom_tooltip =  uba_find_mines_tooltip
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		prospectors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.05
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				# great_project_reward_contribution_completion_notification_effect = {
+				# 	LEVEL = minor
+				# 	NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# 	OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# }
+				custom_tooltip =  uba_find_mines_tooltip
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.05
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				# great_project_reward_contribution_completion_notification_effect = {
+				# 	LEVEL = minor
+				# 	NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# 	OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				# }
+				custom_tooltip =  uba_find_mines_tooltip
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = duchy
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 3
+		duchy = 6
+		kingdom = 6
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+}
+
+## 修缮宫城（大型建筑升级）紫禁城
+uba_forbidden_city_update = {
+	icon = {
+		reference = @great_project_china_icon
+	}
+	illustration = {
+		reference = @garden_asia_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_forbidden_city_update
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_forbidden_city_update }
+		government_has_flag = government_is_celestial
+		any_held_title = { this = title:h_china }
+		capital_province = { 
+			has_building_or_higher = forbidden_city_01
+			# has_building_with_flag = the_forbidden_city
+			NOT = { has_building_with_flag = the_forbidden_city_max }
+		}
+	}
+
+	can_start_planning = {
+		is_independent_ruler = yes
+		custom_tooltip = {
+			text = great_project_type_uba_update_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_forbidden_city_update_modifier
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:owner = {
+			scope:province = {
+				switch = {
+					trigger = has_building
+					forbidden_city_01 = {
+						hidden_effect = { remove_building = forbidden_city_01 }
+						set_great_building = forbidden_city_02
+					}
+					forbidden_city_02 = {
+						hidden_effect = { remove_building = forbidden_city_02 }
+						set_great_building = forbidden_city_03
+					}
+					forbidden_city_03 = {
+						hidden_effect = { remove_building = forbidden_city_03 }
+						set_great_building = forbidden_city_04
+					}
+					forbidden_city_04 = {
+						hidden_effect = { remove_building = forbidden_city_04 }
+						set_great_building = forbidden_city_05
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_forbidden_city_update_modifier
+				years = 5
+			}
+		}
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+
+				add_character_modifier = {
+					modifier = tgp_strengthen_capital_character_modifier
+					years = 5
+				}
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+		# The ruling house can only do this once, so let's set a cooldown
+		situation:dynastic_cycle ?= {
+			set_variable = {
+				name = gp_strengthen_capital_cooldown
+				value = scope:owner.house
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	project_contributions = {
+		materials = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 2
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		workforce = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 2
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		architects = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county = {
+					add_county_modifier = {
+						modifier = tgp_strengthen_capital_architects_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		engineers = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county = {
+					add_county_modifier = {
+						modifier = tgp_strengthen_capital_engineers_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		sculptors = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county.holder = {
+					add_character_modifier = {
+						modifier = tgp_strengthen_capital_sculptors_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = @msg_completion_effect_generic
+}
+
+## 营造皇城（公国建筑）
+uba_capital_city = {
+	icon = {
+		reference = @great_project_china_icon
+	}
+	illustration = {
+		reference = @estate_asia_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_capital_city
+	}
+	
+	is_shown = {
+		government_has_flag = government_is_celestial
+		is_independent_ruler = yes
+		highest_held_title_tier >= tier_empire
+		NOT = { is_planning_great_project = uba_capital_city }
+	}
+
+	province_filter = top_realm
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_capital_city_duchy_capital
+				duchy = {
+					title_capital_county.title_province = scope:province # is also the duchy capital
+				}
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_capital_city_not_again
+				NOT = { has_building_or_higher = kaifeng_palace_01 }
+			}
+		}
+	}
+
+	can_start_planning = {
+	}
+
+	cost = {
+		treasury_or_gold = great_project_base_starting_cost
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+	
+	on_start_build = {}
+	
+	on_complete = {
+		# custom_tooltip = {
+		# 	text = uba_capital_city_province_gains_buildings
+		# 	scope:province = {
+		# 		# add_building = kaifeng_palace_01
+		# 		replace_building_effect = kaifeng_palace_01
+		# 	}
+		# }
+		# scope:province ?= {
+		# 	if = {
+		# 		limit = {
+		# 			has_building_with_flag = duchy_building
+		# 		}
+		# 		custom_tooltip = project_great_barracks_replace_tt
+		# 	}
+		# }
+		if = {
+			limit = {
+				NOT = {
+					scope:province ?= {
+						has_building_with_flag = duchy_building
+					}
+				}
+			}
+			custom_tooltip = {
+				text = uba_capital_city_province_gains_buildings
+				scope:province ?= {
+					add_building = kaifeng_palace_01
+				}
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = uba_capital_city_province_gains_buildings
+				scope:province ?= {
+					replace_building_effect = kaifeng_palace_01
+				}
+			}
+			custom_tooltip = {
+				text = project_great_barracks_replace_tt
+			}
+		}
+
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+
+				add_character_modifier = {
+					modifier = tgp_strengthen_capital_character_modifier
+					years = 5
+				}
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+		# The ruling house can only do this once, so let's set a cooldown
+		situation:dynastic_cycle ?= {
+			set_variable = {
+				name = gp_strengthen_capital_cooldown
+				value = scope:owner.house
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = empire
+	}
+	ai_check_interval_by_tier = {								
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = @msg_completion_effect_generic
+}
+
+## 建设城墙（公国建筑）
+uba_construct_wall = {
+	icon = {
+		trigger = {
+			trigger_if = {
+				limit = { exists = scope:province }
+				scope:province = {
+					OR = {
+						geographical_region = world_asia
+						geographical_region = world_steppe_east
+					}
+				}
+			}
+			trigger_else = {
+				scope:founder = {
+					capital_province ?= {
+						OR = {
+							geographical_region = world_asia
+							geographical_region = world_steppe_east
+						}
+					}
+				}
+			}
+		}
+		reference = @great_project_china_icon
+	}
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		trigger = {
+			trigger_if = {
+				limit = { exists = scope:province }
+				scope:province = {
+					OR = {
+						geographical_region = world_asia
+						geographical_region = world_steppe_east
+					}
+				}
+			}
+			trigger_else = {
+				scope:founder = {
+					capital_province ?= {
+						OR = {
+							geographical_region = world_asia
+							geographical_region = world_steppe_east
+						}
+					}
+				}
+			}
+		}
+		reference = @castle_china_illustration
+	}
+	illustration = {
+		reference = @uba_city_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_construct_wall
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_construct_wall }
+		has_variable = uba_construct_wall_planned
+	}
+
+	province_filter = top_realm
+	owner = province_owner
+
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_capital_city_duchy_capital
+				duchy = {
+					title_capital_county.title_province = scope:province # is also the duchy capital
+				}
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wall_not_again
+				NOT = { has_building_or_higher = UBA_wall_01 }
+			}
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_plan
+			has_variable = uba_construct_wall_planned
+		}
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = 10 #uba_decision_cooldown
+		multiply = 1 #uba_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_construct_wonder_built_modifier
+				days = uba_decision_cooldown
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					scope:province ?= {
+						has_building_with_flag = duchy_building
+					}
+				}
+			}
+			custom_tooltip = {
+				text = uba_construct_wall_province_gains_buildings
+				scope:province ?= {
+					add_building = UBA_wall_01
+				}
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = uba_construct_wall_province_gains_buildings
+				scope:province ?= {
+					replace_building_effect = UBA_wall_01
+				}
+			}
+			custom_tooltip = {
+				text = project_great_barracks_replace_tt
+			}
+		}
+		# custom_tooltip = {
+		# 	text = uba_construct_wall_province_gains_buildings
+		# 	scope:province = {
+		# 		# add_building = UBA_wall_01
+		# 		replace_building_effect = UBA_wall_01
+		# 	}
+		# }
+		# scope:province ?= {
+		# 	if = {
+		# 		limit = {
+		# 			has_building_with_flag = duchy_building
+		# 		}
+		# 		custom_tooltip = project_great_barracks_replace_tt
+		# 	}
+		# }
+		
+		remove_variable = uba_construct_wall_planned
+		scope:owner = {
+			remove_variable = uba_construct_wall_planned
+		}
+		great_project_notify_completion = { CHARACTER = scope:owner }
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {
+	}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = duchy
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 3
+		duchy = 6
+		kingdom = 6
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+}
+
+## 血与金之城（公国建筑）北海帝国
+uba_construct_valhalla = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_city_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_construct_valhalla
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_construct_valhalla }
+		has_variable = uba_construct_valhalla_planned
+	}
+
+	province_filter = top_realm
+	owner = province_owner
+
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_capital_city_duchy_capital
+				duchy = {
+					title_capital_county.title_province = scope:province # is also the duchy capital
+				}
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_valhalla_not_again
+				NOT = { has_building_or_higher = UBA_valhalla_01 }
+			}
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_plan
+			has_variable = uba_construct_valhalla_planned
+		}
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = 10 #uba_decision_cooldown
+		multiply = 1 #uba_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_construct_wonder_built_modifier
+				days = uba_decision_cooldown
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					scope:province ?= {
+						has_building_with_flag = duchy_building
+					}
+				}
+			}
+			custom_tooltip = {
+				text = uba_construct_valhalla_province_gains_buildings
+				scope:province ?= {
+					add_building = UBA_valhalla_01
+				}
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = uba_construct_valhalla_province_gains_buildings
+				scope:province ?= {
+					replace_building_effect = UBA_valhalla_01
+				}
+			}
+			custom_tooltip = {
+				text = project_great_barracks_replace_tt
+			}
+		}
+		# custom_tooltip = {
+		# 	text = uba_construct_valhalla_province_gains_buildings
+		# 	scope:province = {
+		# 		# add_building = UBA_valhalla_01
+		# 		replace_building_effect = UBA_valhalla_01
+		# 	}
+		# }
+		# scope:province ?= {
+		# 	if = {
+		# 		limit = {
+		# 			has_building_with_flag = duchy_building
+		# 		}
+		# 		custom_tooltip = project_great_barracks_replace_tt
+		# 	}
+		# }
+		
+		remove_variable = uba_construct_valhalla_planned
+		scope:owner = {
+			remove_variable = uba_construct_valhalla_planned
+			trigger_event = {
+				id = uba_decisions.1010
+				days = 1
+			}
+		}
+		great_project_notify_completion = { CHARACTER = scope:owner }
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {
+	}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = duchy
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 3
+		duchy = 6
+		kingdom = 6
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+}
+
+## 骑士团总部（公国建筑）海外帝国
+uba_construct_headquarter = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_city_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_construct_headquarter
+	}
+	
+	is_shown = {
+		NOT = { is_planning_great_project = uba_construct_headquarter }
+		has_variable = uba_construct_headquarter_planned
+	}
+
+	province_filter = top_realm
+	owner = province_owner
+
+	is_location_valid = {
+		scope:province = {
+			custom_tooltip = {
+				text = great_project_type_uba_capital_city_duchy_capital
+				duchy = {
+					title_capital_county.title_province = scope:province # is also the duchy capital
+				}
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_wonder_does_not_control
+				barony.holder = ROOT
+			}
+			custom_tooltip = {
+				text = great_project_type_uba_construct_headquarter_not_again
+				NOT = { has_building_or_higher = UBA_headquarter_01 }
+			}
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_plan
+			has_variable = uba_construct_headquarter_planned
+		}
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = 10 #uba_decision_cooldown
+		multiply = 1 #uba_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_construct_wonder_built_modifier
+				days = uba_decision_cooldown
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					scope:province ?= {
+						has_building_with_flag = duchy_building
+					}
+				}
+			}
+			custom_tooltip = {
+				text = uba_construct_headquarter_province_gains_buildings
+				scope:province ?= {
+					add_building = UBA_headquarter_01
+				}
+			}
+		}
+		else = {
+			custom_tooltip = {
+				text = uba_construct_headquarter_province_gains_buildings
+				scope:province ?= {
+					replace_building_effect = UBA_headquarter_01
+				}
+			}
+			custom_tooltip = {
+				text = project_great_barracks_replace_tt
+			}
+		}
+		# custom_tooltip = {
+		# 	text = uba_construct_headquarter_province_gains_buildings
+		# 	scope:province = {
+		# 		# add_building = UBA_headquarter_01
+		# 		replace_building_effect = UBA_headquarter_01
+		# 	}
+		# }
+		# scope:province ?= {
+		# 	if = {
+		# 		limit = {
+		# 			has_building_with_flag = duchy_building
+		# 		}
+		# 		custom_tooltip = project_great_barracks_replace_tt
+		# 	}
+		# }
+		
+		remove_variable = uba_construct_headquarter_planned
+		scope:owner = {
+			remove_variable = uba_construct_headquarter_planned
+			trigger_event = {
+				id = uba_decisions.1011
+				days = 1
+			}
+		}
+		great_project_notify_completion = { CHARACTER = scope:owner }
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+						if = {
+							limit = {
+								any_character_situation = {
+									situation_type = dynastic_cycle
+									has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+								}
+							}
+							multiply = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {
+	}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = uba_decision_cost
+					multiply = 0.25
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = duchy
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 3
+		duchy = 6
+		kingdom = 6
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+}
+
+## 兴建大皇宫（大型建筑）君堡大皇宫
+uba_palatium_magnum = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_constantinople_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_palatium_magnum
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		is_roman_emperor_trigger = yes
+		NOR = {
+			is_planning_great_project = uba_palatium_magnum 
+			any_sub_realm_county = { # Only once
+				any_county_province = {
+					has_building_or_higher = palatium_magnum_01
+				}
+			}
+			any_sub_realm_county = {
+				has_county_modifier = uba_palatium_magnum_modifier
+			}
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_palatium_magnum_constantinople
+			capital_barony ?= title:b_constantinople
+		}
+	}
+	
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 2
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+	
+	on_start_build = {}
+	
+	on_complete = {
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_palatium_magnum_modifier
+				years = 5
+			}
+		}
+		scope:owner = {
+			scope:province = {
+				set_great_building = palatium_magnum_01
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	# Top liege pays with the treasury, while vassals may pitch in with gold
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 修缮大皇宫（大型建筑升级）君堡大皇宫
+uba_palatium_magnum_update = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_constantinople_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_palatium_magnum_update
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		is_roman_emperor_trigger = yes
+		capital_province = { 
+			has_building_or_higher = palatium_magnum_01
+			NOT = { has_building_with_flag = the_palatium_magnum_max }
+		}
+		NOT = {
+			is_planning_great_project = uba_palatium_magnum_update
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_palatium_magnum_constantinople
+			capital_barony ?= title:b_constantinople
+		}
+		custom_tooltip = {
+			text = great_project_type_uba_update_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_palatium_magnum_modifier
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:owner = {
+			scope:province = {
+				switch = {
+					trigger = has_building
+					palatium_magnum_01 = {
+						hidden_effect = { remove_building = palatium_magnum_01 }
+						set_great_building = palatium_magnum_02
+					}
+					palatium_magnum_02 = {
+						hidden_effect = { remove_building = palatium_magnum_02 }
+						set_great_building = palatium_magnum_03
+					}
+					palatium_magnum_03 = {
+						hidden_effect = { remove_building = palatium_magnum_03 }
+						set_great_building = palatium_magnum_04
+					}
+					palatium_magnum_04 = {
+						hidden_effect = { remove_building = palatium_magnum_04 }
+						set_great_building = palatium_magnum_05
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_palatium_magnum_modifier
+				years = 5
+			}
+		}
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 兴建大皇宫（大型建筑）罗马大皇宫
+uba_palatium_hill = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_roma_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_palatium_hill
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		is_roman_emperor_trigger = yes
+		NOR = {
+			is_planning_great_project = uba_palatium_hill 
+			any_sub_realm_county = { # Only once
+				any_county_province = {
+					has_building_or_higher = palatium_hill_01
+				}
+			}
+			any_sub_realm_county = {
+				has_county_modifier = uba_palatium_magnum_modifier
+			}
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_palatium_hill_roma
+			capital_barony ?= title:b_roma
+		}
+	}
+	
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 2
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+	
+	on_start_build = {}
+	
+	on_complete = {
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_palatium_magnum_modifier
+				years = 5
+			}
+		}
+		scope:owner = {
+			scope:province = {
+				set_great_building = palatium_hill_01
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	# Top liege pays with the treasury, while vassals may pitch in with gold
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 修缮大皇宫（大型建筑升级）罗马大皇宫
+uba_palatium_hill_update = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_roma_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_palatium_hill_update
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		is_roman_emperor_trigger = yes
+		capital_province = { 
+			has_building_or_higher = palatium_hill_01
+			NOT = { has_building_with_flag = the_palatium_hill_max }
+		}
+		NOT = {
+			is_planning_great_project = uba_palatium_hill_update
+		}
+	}
+
+	can_start_planning = {
+		custom_tooltip = {
+			text = great_project_type_uba_palatium_hill_roma
+			capital_barony ?= title:b_roma
+		}
+		custom_tooltip = {
+			text = great_project_type_uba_update_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_palatium_magnum_modifier
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:owner = {
+			scope:province = {
+				switch = {
+					trigger = has_building
+					palatium_hill_01 = {
+						hidden_effect = { remove_building = palatium_hill_01 }
+						set_great_building = palatium_hill_02
+					}
+					palatium_hill_02 = {
+						hidden_effect = { remove_building = palatium_hill_02 }
+						set_great_building = palatium_hill_03
+					}
+					palatium_hill_03 = {
+						hidden_effect = { remove_building = palatium_hill_03 }
+						set_great_building = palatium_hill_04
+					}
+					palatium_hill_04 = {
+						hidden_effect = { remove_building = palatium_hill_04 }
+						set_great_building = palatium_hill_05
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_palatium_magnum_modifier
+				years = 5
+			}
+		}
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 兴建和平之城（大型建筑）
+uba_madinat_al_salam = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		trigger = {
+			scope:founder = {
+				faith = { religion = religion:christianity_religion }
+			}
+		}
+		reference = @uba_madinat_al_salam_crusaders_illustration
+	}
+	illustration = {
+		reference = @uba_madinat_al_salam_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_madinat_al_salam
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		has_global_variable = created_dar_al_islam # 达尔伊斯兰已成立
+		has_title = title:h_dar_al_islam
+		# any_held_title = {
+		# 	OR = {
+		# 		this = title:h_dar_al_islam
+		# 	}
+		# }
+		NOR = { # Only once
+			has_global_variable = built_madinat_al_salam
+			is_planning_great_project = uba_madinat_al_salam 
+			any_sub_realm_county = {
+				any_county_province = {
+					has_building_or_higher = madinat_al-salam_01
+				}
+			}
+			any_sub_realm_county = {
+				has_county_modifier = uba_madinat_al_salam_modifier
+			}
+		}
+	}
+
+	can_start_planning = {
+		capital_barony.title_province ?= {
+			NOT = { has_building = madinat_al-salam_01 }
+		}
+	}
+	
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 2
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+	
+	on_start_build = {}
+	
+	on_complete = {
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_madinat_al_salam_modifier
+				years = 5
+			}
+		}
+		custom_tooltip = {
+			text = uba_madinat_al_salam_province_gains_buildings
+			set_global_variable = {
+				name = built_madinat_al_salam
+				value = yes
+			}
+		}
+		scope:owner = {
+			scope:province = {
+				set_great_building = madinat_al-salam_01
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	# Top liege pays with the treasury, while vassals may pitch in with gold
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 6
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 扩建和平之城（大型建筑升级）
+uba_madinat_al_salam_update = {
+	icon = {
+		reference = @great_project_default_icon
+	}
+	illustration = {
+		reference = @uba_madinat_al_salam_update_illustration
+	}
+
+	name = {
+		desc = great_project_type_uba_madinat_al_salam_update
+	}
+	
+	is_shown = {
+		is_independent_ruler = yes
+		has_title = title:h_dar_al_islam
+		# any_held_title = {
+		# 	OR = {
+		# 		this = title:h_dar_al_islam
+		# 	}
+		# }
+		capital_province = { 
+			has_building_or_higher = madinat_al-salam_01
+			NOT = { has_building_with_flag = the_madinat_al-salam_max }
+		}
+		NOT = {
+			is_planning_great_project = uba_madinat_al_salam_update
+		}
+	}
+
+	can_start_planning = {
+		capital_province = { 
+			has_building_or_higher = madinat_al-salam_01
+			NOT = { has_building_with_flag = the_madinat_al-salam_max }
+		}
+		custom_tooltip = {
+			text = great_project_type_uba_update_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_madinat_al_salam_modifier
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		scope:owner.house = scope:founder.house
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 1
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	# on_plan_build = {
+	# }
+
+	on_start_build = {
+	}
+
+	on_complete = {
+		scope:owner = {
+			scope:province = {
+				switch = {
+					trigger = has_building
+					madinat_al-salam_01 = {
+						hidden_effect = { remove_building = madinat_al-salam_01 }
+						set_great_building = madinat_al-salam_02
+					}
+					madinat_al-salam_02 = {
+						hidden_effect = { remove_building = madinat_al-salam_02 }
+						set_great_building = madinat_al-salam_03
+					}
+					madinat_al-salam_03 = {
+						hidden_effect = { remove_building = madinat_al-salam_03 }
+						set_great_building = madinat_al-salam_04
+					}
+					madinat_al-salam_04 = {
+						hidden_effect = { remove_building = madinat_al-salam_04 }
+						set_great_building = madinat_al-salam_05
+					}
+				}
+			}
+		}
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = uba_madinat_al_salam_modifier
+				years = 5
+			}
+		}
+		scope:owner ?= {
+			send_interface_toast = {
+				type = event_generic_neutral_text
+				title = great_project_completed_msg_t
+				left_icon = scope:owner
+				right_icon = scope:province.county
+				desc = great_project_completed_msg_desc
+				
+				if = {
+					limit = { is_valid_for_legitimacy_change = yes }
+					add_legitimacy = {
+						value = medium_legitimacy_gain
+					}
+				}
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	project_contributions = {
+		materials = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		work_force = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		architects = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		engineers = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+		sculptors = {
+			contributor_is_valid = {
+				custom_tooltip = {
+					text = great_project_contribution_must_be_province_owner_or_above
+					OR = {
+						this = scope:great_project.great_project_location.province_owner
+						is_liege_or_above_of = scope:great_project.great_project_location.province_owner
+					}
+				}
+				# is_landless_adventurer = no
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = 0
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = "event:/DLC/EP2/SFX/Events/Grand_Activities/Tours/ep2_event_grand_tour_arrival_welcome"
+
+}
+
+## 其他
+
+## 加强首都
+strengthen_capital = {
+	icon = {
+		reference = @great_project_china_icon
+	}
+	illustration = {
+		reference = @courtyard_asia_illustration
+	}
+
+	name = {
+		desc = great_project_type_strengthen_capital
+	}
+	
+	is_shown = {
+		has_tgp_dlc_trigger = yes
+		OR = {
+			has_title = title:h_china
+			has_title = title:e_minister_of_works
+		}
+		NOR = {
+			is_planning_great_project = strengthen_capital
+			custom_tooltip = {
+				text = only_single_great_project_type_allowed
+				any_great_project = {
+					great_project_type = strengthen_capital
+				}
+			}
+		}
+		NOT = {
+			any_sub_realm_county = {
+				has_county_modifier = tgp_strengthen_capital_modifier
+			}
+		}
+		trigger_if = {
+			limit = {
+				exists = situation:dynastic_cycle.var:gp_strengthen_capital_cooldown
+			}
+			house != situation:dynastic_cycle.var:gp_strengthen_capital_cooldown
+		}
+	}
+
+	can_start_planning = {
+		OR = {
+			is_independent_ruler = yes
+			has_title = title:e_minister_of_works
+		}
+	}
+	
+	is_valid = {
+		scope:province.county.holder.top_liege ?= scope:owner
+	}
+
+	cost = {
+		treasury_or_gold = {
+			value = great_project_base_starting_cost
+			multiply = 2
+		}
+	}
+
+	construction_time = {
+		value = great_project_base_construction_time
+		multiply = common_great_project_construction_time_multiplier_value
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		vassals = yes
+	}
+
+	contributor_cooldown = standard_contributor_cooldown_value
+	
+	on_start_build = {}
+	
+	on_complete = {
+		scope:province.county = {
+			add_county_modifier = {
+				modifier = tgp_strengthen_capital_modifier
+				years = 20
+			}
+		}
+		show_as_tooltip = {
+			scope:founder.top_liege ?= { # because the real owner doesn't exist in the effect preview
+				send_interface_toast = {
+					type = event_generic_neutral_text
+					title = great_project_completed_msg_t
+					left_icon = scope:owner
+					right_icon = scope:province.county
+					desc = great_project_completed_msg_desc
+
+					add_character_modifier = {
+						modifier = tgp_strengthen_capital_character_modifier
+						years = 20
+					}
+					
+					if = {
+						limit = { is_valid_for_legitimacy_change = yes }
+						add_legitimacy = {
+							value = medium_legitimacy_gain
+							if = {
+								limit = {
+									any_character_situation = {
+										situation_type = dynastic_cycle
+										has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+									}
+								}
+								multiply = 2
+							}
+						}
+					}
+				}
+			}		
+		}
+		hidden_effect = {
+			scope:owner ?= {
+				send_interface_toast = {
+					type = event_generic_neutral_text
+					title = great_project_completed_msg_t
+					left_icon = scope:owner
+					right_icon = scope:province.county
+					desc = great_project_completed_msg_desc
+
+					add_character_modifier = {
+						modifier = tgp_strengthen_capital_character_modifier
+						years = 20
+					}
+					
+					if = {
+						limit = { is_valid_for_legitimacy_change = yes }
+						add_legitimacy = {
+							value = medium_legitimacy_gain
+							if = {
+								limit = {
+									any_character_situation = {
+										situation_type = dynastic_cycle
+										has_situation_top_phase_parameter = dynastic_cycle_great_projects_increased_legitimacy
+									}
+								}
+								multiply = 2
+							}
+						}
+					}
+				}
+			}
+		}
+		scope:founder ?= {
+			if = {
+				limit = {
+					tgp_is_any_minister = yes
+					is_alive = yes # this is actually necessary, because they remain the scope character and accessible even after death
+				}
+				change_influence = minister_influence_gain_value
+			}
+		}
+		# The ruling house can only do this once, so let's set a cooldown
+		situation:dynastic_cycle ?= {
+			set_variable = {
+				name = gp_strengthen_capital_cooldown
+				value = scope:owner.house
+			}
+		}
+	}
+	
+	on_cancel = {}
+
+	# Top liege pays with the treasury, while vassals may pitch in with gold
+	project_contributions = {
+		materials = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 2
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		workforce = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 2
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = yes
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = minor
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		architects = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county = {
+					add_county_modifier = {
+						modifier = tgp_strengthen_capital_architects_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		engineers = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county = {
+					add_county_modifier = {
+						modifier = tgp_strengthen_capital_engineers_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		sculptors = {
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 1.5
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province.county.holder = {
+					add_character_modifier = {
+						modifier = tgp_strengthen_capital_sculptors_modifier
+						years = 20
+					}
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+		forbidden_city = {
+			is_shown = {
+				scope:owner = {
+					capital_barony.title_province ?= {
+						NOT = { has_building_or_higher = forbidden_city_01 }
+					}
+				}
+			}
+
+			cost = {
+				treasury_or_gold = {
+					value = great_project_base_contribution_cost
+					multiply = 3
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+			
+			is_required = no
+
+			on_complete = {
+				great_project_reward_contribution_completion_notification_effect = {
+					LEVEL = major
+					NON_OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+					OWNER_REWARD_EFFECT = great_project_reward_contribution_completion_null
+				}
+				scope:province = {
+					set_great_building = forbidden_city_01
+				}
+			}
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {							
+				barony = 0
+				county = 12
+				duchy = 9
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+	}
+	ai_check_interval_by_tier = {							
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 0
+		hegemony = 6
+	}
+	ai_will_do = {
+		value = 500
+		if = {
+			limit = {
+				is_at_war = yes
+			}
+			multiply = 0
+		}
+	}
+
+	completion_sound_effect = @msg_completion_effect_generic
+}

@@ -1,0 +1,8782 @@
+﻿### 特殊建筑
+## 外交
+# 剧场
+# 剧院
+UBA_colosseum_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		# tax_mult = 0.05
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+		# county_opinion_add = 10
+	}
+
+	province_modifier = {
+		# monthly_income = 1
+	}
+
+	character_modifier = {
+		# stress_gain_mult = -0.10
+		stress_loss_mult = 0.05
+		# monthly_prestige_gain_mult = 0.30
+		# monthly_dynasty_prestige_mult = 0.05
+		# court_grandeur_baseline_add = 4
+		monthly_influence = 0.5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_colosseum_02
+	
+	type = special
+	
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_colosseum_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		# tax_mult = 0.05
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+		county_opinion_add = 10
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.10
+		
+		prestige_level_impact_mult = 0.05
+		monthly_prestige_gain_mult = 0.03
+		
+		# diplomacy_per_prestige_level = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		
+		owned_legend_spread_mult = 0.1
+		# character_capital_county_monthly_development_growth_add = 0.1
+		monthly_influence = 1
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_colosseum_03
+
+	type = special
+	
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_colosseum_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_colosseum_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+		county_opinion_add = 15
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.15
+		
+		prestige_level_impact_mult = 0.20
+		monthly_prestige_gain_mult = 0.06
+		
+		# diplomacy_per_prestige_level = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+		
+		owned_legend_spread_mult = 0.2
+		# character_capital_county_monthly_development_growth_add = 0.1
+		monthly_influence = 1.5
+		monthly_influence_mult = 0.05
+
+		owned_personal_scheme_success_chance_add = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_colosseum_04
+
+	type = special
+	
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_colosseum_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_colosseum_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+		county_opinion_add = 20
+	}
+
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.20
+		
+		prestige_level_impact_mult = 0.35
+		monthly_prestige_gain_mult = 0.09
+		monthly_dynasty_prestige_mult = 0.05
+		
+		# diplomacy_per_prestige_level = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
+		
+		owned_legend_spread_mult = 0.3
+		# character_capital_county_monthly_development_growth_add = 0.1
+		monthly_influence = 2.5
+		monthly_influence_mult = 0.10
+
+		owned_personal_scheme_success_chance_add = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_colosseum_05
+	
+	type = special
+	
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_colosseum_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_colosseum_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_colosseum.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = uba_unique_buildings_finished
+				target = flag:UBA_colosseum_finished
+			}
+		}
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = diplomat
+		# 		OR = {
+		# 			has_trait = education_diplomacy_3
+		# 			has_trait = education_diplomacy_4
+		# 			has_trait = education_diplomacy_5
+		# 		}
+		# 	}
+		# }
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_colosseum_building
+			NOT = {
+				exists = global_var:UBA_colosseum_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_colosseum_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_colosseum_finished
+					}
+				}
+			}
+		}
+	}
+	
+	# show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+		county_opinion_add = 20
+	}
+
+	province_modifier = {
+		monthly_income = 3
+	}
+
+	character_modifier = {
+		#stress_gain_mult = -0.20
+		stress_loss_mult = 0.30
+
+		prestige_level_impact_mult = 0.5
+		monthly_prestige_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+		
+		diplomacy_per_prestige_level = 1
+		monthly_diplomacy_lifestyle_xp_gain_mult = 0.25
+		# character_capital_county_monthly_development_growth_add = 0.2
+	
+		owned_legend_spread_mult = 0.4
+		monthly_influence = 5
+		monthly_influence_mult = 0.15
+
+		max_personal_schemes_add = 1
+		owned_personal_scheme_success_chance_add = 20
+	}
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_colosseum_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_colosseum_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_colosseum_finished
+		}
+		remove_global_variable = UBA_colosseum_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+
+			# if = { # 获得特质
+			# 	limit = {
+			# 		has_trait = lifestyle_reveler
+			# 	}
+			# 	add_trait_xp = {
+			# 		trait = lifestyle_reveler
+			# 		value = 30
+			# 	}
+			# }
+			# else = {
+			# 	add_trait = lifestyle_reveler
+			# 	add_trait_xp = {
+			# 		trait = lifestyle_reveler
+			# 		value = 30
+			# 	}
+			# }
+
+			# if = { # 获得称号
+			# 	limit = {
+			# 		OR = {
+			# 			has_bad_nickname = yes
+			# 			has_any_nickname = no
+			# 		}
+			# 	}
+			# 	give_nickname = nick_the_scholar
+			# }
+
+			# every_player = { #通知其他玩家的事件
+			# 	limit = {
+			# 		NOT = { this = scope:founder }
+			# 		is_within_diplo_range = { CHARACTER = scope:founder }
+			# 	}
+			# 	trigger_event = major_decisions.2002
+			# }
+		}
+	}
+
+	type = special
+	
+	flag = travel_point_of_interest_diplomatic
+}
+
+# 宫殿
+UBA_palace_01 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_1
+		development_growth_factor = uba_development_growth_factor_normal_1
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+
+	character_modifier = {
+		monthly_influence = 1
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_palace_02
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_palace_02 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_fortification_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_normal_2
+		development_growth_factor = uba_development_growth_factor_normal_2
+		monthly_county_control_growth_add = 0.4
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		travel_danger = -10
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		vassal_limit = 10
+
+		courtier_and_guest_opinion = 5
+		courtly_opinion = 5
+
+		legitimacy_gain_mult = 0.08
+		monthly_influence = 2
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_palace_03
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_palace_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_palace_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_normal_3
+		development_growth_factor = uba_development_growth_factor_normal_3
+		monthly_county_control_growth_add = 0.6
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		travel_danger = -20
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		vassal_limit = 20
+
+		tyranny_gain_mult = -0.10
+		
+		courtier_and_guest_opinion = 5
+		courtly_opinion = 5
+
+		legitimacy_gain_mult = 0.12
+		monthly_influence = 3
+		monthly_influence_mult = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_palace_04
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_palace_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_palace_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_normal_4
+		development_growth_factor = uba_development_growth_factor_normal_4
+		monthly_county_control_growth_add = 0.8
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		vassal_limit = 25
+
+		tyranny_gain_mult = -0.15
+		monthly_dynasty_prestige_mult = 0.05
+		
+		courtier_and_guest_opinion = 10
+		courtly_opinion = 10
+
+		legitimacy_gain_mult = 0.16
+		monthly_influence = 4
+		monthly_influence_mult = 0.10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_palace_05
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_palace_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_palace_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_alhambra.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = diplomat
+		# 		has_trait = august
+		# 		has_trait = schemer
+		# 		OR = {
+		# 			has_trait = education_diplomacy_3
+		# 			has_trait = education_diplomacy_4
+		# 			has_trait = education_diplomacy_5
+		# 		}
+		# 		OR = {
+		# 			has_trait = education_intrigue_3
+		# 			has_trait = education_intrigue_4
+		# 			has_trait = education_intrigue_5
+		# 		}
+		# 	}
+		# }
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_palace_building
+			NOT = {
+				exists = global_var:UBA_palace_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_palace_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_palace_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_normal_5
+		development_growth_factor = uba_development_growth_factor_normal_5
+		monthly_county_control_growth_add = 1
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		diplomacy_per_prestige_level = 1
+		vassal_limit = 50
+
+		tyranny_gain_mult = -0.20
+		monthly_dynasty_prestige_mult = 0.10
+		
+		courtier_and_guest_opinion = 10
+		courtly_opinion = 10
+		courtly_tax_contribution_mult = 0.10
+	
+		feudal_government_tax_contribution_add = 0.10
+		administrative_government_tax_contribution_add = 0.05
+
+		legitimacy_gain_mult = 0.32
+		monthly_influence = 5
+		monthly_influence_mult = 0.15
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_palace_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_palace_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_palace_finished
+		}
+		remove_global_variable = UBA_palace_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+# 林苑，保留地
+UBA_reserve_01 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		epidemic_resistance = 5
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.05
+		negate_health_penalty_add = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_reserve_02
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_reserve_02 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_2
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.10
+		negate_health_penalty_add = 0.10
+
+		domicile_monthly_influence_mult = 0.10
+		domicile_monthly_gold_mult = 0.10
+		
+		courtier_opinion = 5
+	}
+
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_reserve_03
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_reserve_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_reserve_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.15
+		negate_health_penalty_add = 0.15
+
+		domicile_monthly_influence_mult = 0.15
+		domicile_monthly_gold_mult = 0.15
+		
+		courtier_opinion = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_reserve_04
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_reserve_04 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_pet_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_reserve_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 4
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		stress_gain_mult = -0.20
+		negate_health_penalty_add = 0.15
+
+		domicile_monthly_influence_mult = 0.2
+		domicile_monthly_gold_mult = 0.2
+		
+		courtier_opinion = 10
+		fertility = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_reserve_05
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_reserve_05 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_pet_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_reserve_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_royal_forest.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_reserve_building
+			NOT = {
+				exists = global_var:UBA_reserve_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_reserve_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_reserve_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+	
+	province_modifier = {
+		monthly_income = 5
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+		stress_gain_mult = -0.30
+		negate_health_penalty_add = 0.25
+
+		domicile_monthly_influence_mult = 0.2
+		domicile_monthly_gold_mult = 0.2
+
+		courtier_opinion = 10
+		fertility = 0.10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_reserve_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_reserve_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_reserve_finished
+		}
+		remove_global_variable = UBA_reserve_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+## 军事
+# 要塞
+UBA_castle_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+
+	cost_gold = 2000
+
+	max_garrison = good_building_max_garrison_tier_1
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_1
+		development_growth_factor = uba_development_growth_factor_normal_1
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+
+	character_modifier = {
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_castle_02
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_castle_02 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_1 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_2
+
+	max_garrison = good_building_max_garrison_tier_3
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_2
+		development_growth_factor = uba_development_growth_factor_normal_2
+		hostile_raid_time = 0.10
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+		stationed_maa_damage_mult = high_maa_damage_tier_1
+		stationed_maa_toughness_mult = high_maa_toughness_tier_1
+		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		army_maintenance_mult = -0.05
+
+		men_at_arms_limit = 4
+		
+		monthly_prestige = 0.10
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_castle_03
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_castle_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_castle_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_2 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_3
+
+	max_garrison = good_building_max_garrison_tier_3
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_3
+		development_growth_factor = uba_development_growth_factor_normal_3
+		hostile_raid_time = 0.20
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		stationed_maa_damage_mult = high_maa_damage_tier_2
+		stationed_maa_toughness_mult = high_maa_toughness_tier_2
+		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.10
+		army_maintenance_mult = -0.10
+
+		men_at_arms_limit = 4
+		men_at_arms_title_limit = 1
+		
+		monthly_prestige = 0.15
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_castle_04
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_castle_04 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_knight_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_castle_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_4
+		development_growth_factor = uba_development_growth_factor_normal_4
+		hostile_raid_time = 0.35
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		stationed_maa_damage_mult = high_maa_damage_tier_2
+		stationed_maa_toughness_mult = high_maa_toughness_tier_2
+		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		monthly_martial_lifestyle_xp_gain_mult = 0.15
+		army_maintenance_mult = -0.15
+
+		men_at_arms_cap = 1
+		men_at_arms_limit = 8
+		men_at_arms_title_limit = 2
+		
+		monthly_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_castle_05
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_castle_05 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_knight_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_castle_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_the_citadel_of_aleppo.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = strategist
+		# 		has_trait = overseer
+		# 		OR = {
+		# 			has_trait = education_martial_3
+		# 			has_trait = education_martial_4
+		# 			has_trait = education_martial_5
+		# 		}
+		# 	}
+		# }
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_castle_building
+			NOT = {
+				exists = global_var:UBA_castle_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_castle_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_castle_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_5
+		development_growth_factor = uba_development_growth_factor_normal_5
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		stationed_maa_damage_mult = high_maa_damage_tier_3
+		stationed_maa_toughness_mult = high_maa_toughness_tier_3
+		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		martial_per_prestige_level = 1
+		monthly_martial_lifestyle_xp_gain_mult = 0.25
+
+		monthly_county_control_growth_factor = 0.05
+		
+		army_maintenance_mult = -0.20
+
+		men_at_arms_cap = 2
+		men_at_arms_limit = 10
+		men_at_arms_title_cap = 1
+		men_at_arms_title_limit = 2
+		
+		monthly_prestige = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_castle_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_castle_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_castle_finished
+		}
+		remove_global_variable = UBA_castle_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# 巨塔
+UBA_tower_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_poor_1
+		development_growth_factor = uba_development_growth_factor_poor_1
+		hostile_raid_time = 0.10
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+
+	character_modifier = {
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_tower_02
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_tower_02 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_1 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_poor_2
+		development_growth_factor = uba_development_growth_factor_poor_2
+		supply_limit = 1000
+		hostile_raid_time = 0.10
+	}
+
+	province_modifier = {
+		stationed_maa_toughness_mult = high_maa_toughness_tier_1
+		fort_level = good_building_fort_level_tier_1
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		glory_hound_opinion = 5
+		levy_reinforcement_rate = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_tower_03
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_tower_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_tower_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_2 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_poor_3
+		development_growth_factor = uba_development_growth_factor_poor_3
+		supply_limit = 1500
+		hostile_raid_time = 0.20
+	}
+
+	province_modifier = {
+		stationed_maa_toughness_mult = high_maa_toughness_tier_2
+		fort_level = good_building_fort_level_tier_2
+		garrison_size = 1
+		travel_danger = -15
+	}
+
+	character_modifier = {
+		stewardship = 1
+		glory_hound_opinion = 5
+		levy_reinforcement_rate = 0.10
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_tower_04
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_tower_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_tower_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_poor_4
+		development_growth_factor = uba_development_growth_factor_poor_4
+		supply_limit = 2000
+		hostile_raid_time = 0.35
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_add = 5
+		stationed_maa_toughness_mult = high_maa_toughness_tier_2
+		fort_level = good_building_fort_level_tier_2
+		garrison_size = 2
+		travel_danger = -25
+	}
+
+	character_modifier = {
+		men_at_arms_cap = 1
+		# martial_per_prestige_level = 1
+		stewardship = 2
+		men_at_arms_maintenance_per_dread_mult = -0.005
+		
+		monthly_dynasty_prestige_mult = 0.05
+
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+
+		levy_reinforcement_rate = 0.15
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_tower_05
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_tower_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_tower_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_watchtower.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_tower_building
+			NOT = {
+				exists = global_var:UBA_tower_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_tower_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_tower_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth = uba_development_growth_poor_5
+		development_growth_factor = uba_development_growth_factor_poor_5
+		supply_limit = 2000
+		hostile_raid_time = 0.5
+	}
+
+	province_modifier = {
+		stationed_maa_toughness_add = 10
+		stationed_maa_toughness_mult = high_maa_toughness_tier_3
+		fort_level = good_building_fort_level_tier_3
+		garrison_size = 2
+		travel_danger = -25
+	}
+
+	character_modifier = {
+		#stewardship_per_prestige_level = 1
+		martial_per_prestige_level = 1
+		men_at_arms_cap = 2
+		men_at_arms_maintenance_per_dread_mult = -0.010
+		
+		monthly_dynasty_prestige_mult = 0.05
+
+		glory_hound_opinion = 10
+		glory_hound_tax_contribution_mult = 0.10
+
+		levy_reinforcement_rate = 0.2
+		levy_attack = 5
+		levy_toughness = 10
+		# levy_pursuit = 5
+		# levy_screen = 5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_tower_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_tower_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_tower_finished
+		}
+		remove_global_variable = UBA_tower_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+# 军校
+UBA_knight_01 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_1
+		development_growth_factor = uba_development_growth_factor_normal_1
+	}
+
+	province_modifier = {
+	}
+
+	character_modifier = {
+		knight_limit = 1
+		knight_effectiveness_mult = 0.05
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_knight_02
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_knight_02 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_dlc_feature = tours_and_tournaments }
+			#desc = tournament_activity_cost_max_discount_unlocks_desc
+		}
+	}
+	
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_1 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_2
+		development_growth_factor = uba_development_growth_factor_normal_2
+	}
+
+	province_modifier = {
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		accolade_glory_gain_mult = 0.1
+
+		knight_limit = 2
+		knight_effectiveness_mult = 0.25
+
+		monthly_prestige_gain_per_knight_add = 0.05
+
+		tourney_participant_xp_gain_mult = 0.1
+		trait_track_lifestyle_blademaster_xp_gain_mult = 0.1
+
+		counter_efficiency = 0.05
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_knight_03
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_knight_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_knight_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_2 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_3
+		development_growth_factor = uba_development_growth_factor_normal_3
+	}
+
+	province_modifier = {
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		#active_accolades = 1
+		accolade_glory_gain_mult = 0.10
+
+		knight_limit = 4
+		knight_effectiveness_mult = 0.5
+
+		monthly_prestige_gain_per_knight_add = 0.05
+		prowess_per_prestige_level = 1
+
+		tourney_participant_xp_gain_mult = 0.10
+		trait_track_lifestyle_blademaster_xp_gain_mult = 0.10
+
+		counter_efficiency = 0.10
+
+		glory_hound_opinion = 5
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_knight_04
+
+	type = special
+	
+	flag = travel_point_of_interest_martial
+}
+
+UBA_knight_04 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_knight_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_knight_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_4
+		development_growth_factor = uba_development_growth_factor_normal_4
+	}
+	
+	province_modifier = {
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		accolade_glory_gain_mult = 0.20
+
+		knight_limit = 8
+		knight_effectiveness_mult = 1
+
+		monthly_prestige_gain_per_knight_add = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		
+		prowess_per_prestige_level = 1
+
+		tourney_participant_xp_gain_mult = 0.15
+		trait_track_lifestyle_blademaster_xp_gain_mult = 0.15
+		
+		counter_efficiency = 0.15
+
+		glory_hound_opinion = 5
+		glory_hound_tax_contribution_mult = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_knight_05
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_knight_05 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_knight_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_knight_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_hotin_fortress.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_military_4 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = overseer
+		# 		has_trait = gallant
+		# 		OR = {
+		# 			has_trait = education_martial_3
+		# 			has_trait = education_martial_4
+		# 			has_trait = education_martial_5
+		# 		}
+		# 		OR = {
+		# 			has_trait = education_martial_prowess_3
+		# 			has_trait = education_martial_prowess_4
+		# 		}
+		# 	}
+		# }
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_knight_building
+			NOT = {
+				exists = global_var:UBA_knight_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_knight_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_knight_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_5
+		development_growth_factor = uba_development_growth_factor_normal_5
+	}
+	
+	province_modifier = {
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		accolade_glory_gain_mult = 0.25
+
+		knight_limit = 12
+		knight_effectiveness_mult = 2
+
+		monthly_prestige_gain_per_knight_add = 0.10
+		monthly_piety_gain_per_knight_add = 0.05
+		monthly_dynasty_prestige_mult = 0.10
+		
+		prowess_per_prestige_level = 1
+		prowess_per_piety_level = 1
+
+		tourney_participant_xp_gain_mult = 0.2
+		trait_track_lifestyle_blademaster_xp_gain_mult = 0.2
+		
+		counter_efficiency = 0.20
+
+		glory_hound_opinion = 10
+		glory_hound_tax_contribution_mult = 0.10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_knight_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_knight_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_knight_finished
+		}
+		remove_global_variable = UBA_knight_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+## 管理
+# 工坊
+UBA_workshop_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_excellent_1
+		development_growth_factor = uba_development_growth_factor_excellent_1
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		build_speed = good_building_build_speed_tier_1
+	}
+
+	character_modifier = {
+		county_opinion_add = 5
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_workshop_02
+	
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_workshop_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		levy_size = 0.10
+		development_growth = uba_development_growth_excellent_2
+		development_growth_factor = uba_development_growth_factor_excellent_2
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		build_speed = good_building_build_speed_tier_2
+	}
+
+	character_modifier = {
+		county_opinion_add = 5
+
+		build_speed = -0.05
+		build_gold_cost = -0.05
+		holding_build_speed = -0.05
+		holding_build_gold_cost = -0.05
+		domicile_build_speed = -0.05
+		domicile_build_gold_cost = -0.05
+
+		domicile_monthly_gold_mult = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_workshop_03
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_workshop_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_workshop_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		levy_size = 0.10
+		development_growth = uba_development_growth_excellent_3
+		development_growth_factor = uba_development_growth_factor_excellent_3
+	}
+	
+	province_modifier = {
+		monthly_income = 4
+		build_speed = good_building_build_speed_tier_4
+	}
+
+	character_modifier = {
+		county_opinion_add = 5
+
+		build_speed = -0.1
+		build_gold_cost = -0.1
+		holding_build_speed = -0.1
+		holding_build_gold_cost = -0.1
+		domicile_build_speed = -0.1
+		domicile_build_gold_cost = -0.1
+
+		domicile_monthly_gold_mult = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_workshop_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_workshop_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_workshop_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		levy_size = 0.15
+		development_growth = uba_development_growth_excellent_4
+		development_growth_factor = uba_development_growth_factor_excellent_4
+	}
+	
+	province_modifier = {
+		monthly_income = 6
+		build_speed = good_building_build_speed_tier_6
+	}
+
+	character_modifier = {
+		# learning_per_stress_level = 1
+		stewardship_per_stress_level = 1
+
+		county_opinion_add = 5
+
+		monthly_dynasty_prestige_mult = 0.05
+
+		build_speed = -0.15
+		build_gold_cost = -0.15
+		holding_build_speed = -0.15
+		holding_build_gold_cost = -0.15
+		domicile_build_speed = -0.15
+		domicile_build_gold_cost = -0.15
+
+		domicile_monthly_gold_mult = 0.15
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_workshop_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_workshop_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_workshop_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_workshop_building
+			NOT = {
+				exists = global_var:UBA_workshop_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_workshop_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_workshop_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		levy_size = 0.20
+		development_growth = uba_development_growth_excellent_5
+		development_growth_factor = uba_development_growth_factor_excellent_5
+	}
+	
+	province_modifier = {
+		monthly_income = 8
+		build_speed = good_building_build_speed_tier_8
+	}
+
+	character_modifier = {
+		# stewardship_per_prestige_level = 1
+		learning_per_stress_level = 1
+		stewardship_per_stress_level = 1
+		county_opinion_add = 10
+
+		monthly_dynasty_prestige_mult = 0.05
+
+		build_speed = -0.25
+		build_gold_cost = -0.25
+		holding_build_speed = -0.25
+		holding_build_gold_cost = -0.25
+		domicile_build_speed = -0.25
+		domicile_build_gold_cost = -0.25
+
+		domicile_monthly_gold_mult = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_workshop_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_workshop_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_workshop_finished
+		}
+		remove_global_variable = UBA_workshop_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+# 法院
+UBA_governor_01 = {
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+	
+	province_modifier = {
+	}
+	
+	character_modifier = {
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_governor_02
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_governor_02 = {
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		levy_size = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+		monthly_county_control_growth_add = 0.2
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+	
+	character_modifier = {
+		build_gold_cost = -0.05
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_governor_03
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_governor_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_governor_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		levy_size = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+		monthly_county_control_growth_add = 0.4
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+		build_gold_cost = -0.05
+		domain_tax_mult = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_governor_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_governor_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_governor_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		levy_size = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+		monthly_county_control_growth_add = 0.6
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		# stewardship_per_prestige_level = 1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
+		monthly_dynasty_prestige_mult = 0.05
+
+		build_gold_cost = -0.10
+		domain_tax_mult = 0.10
+
+		administrative_government_opinion = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_governor_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_governor_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_governor_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_palace_of_achen.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_governor_building
+			NOT = {
+				exists = global_var:UBA_governor_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_governor_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_governor_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		levy_size = 0.20
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+		monthly_county_control_growth_add = 1
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+
+	character_modifier = {
+		stewardship_per_prestige_level = 1
+		monthly_stewardship_lifestyle_xp_gain_mult = 0.25
+
+		monthly_dynasty_prestige_mult = 0.05
+
+		administrative_government_opinion = 10
+		administrative_government_tax_contribution_add = 0.10
+
+		build_gold_cost = -0.2
+		domain_tax_mult = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_governor_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_governor_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_governor_finished
+		}
+		remove_global_variable = UBA_governor_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+
+# 议会宫
+UBA_parliament_01 = {
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_doges_palace.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_motte
+		}
+	}
+	
+	show_disabled = yes
+
+	cost_gold = 2000
+	
+	county_modifier = {
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+	character_modifier = {
+		monthly_influence = 1
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_parliament_02
+	
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_parliament_02 = {
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_doges_palace.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_1 = yes
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_2
+	
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+		travel_danger = -20
+		epidemic_resistance = 10
+	}
+	character_modifier = {
+		vassal_limit = 10
+
+		republic_government_opinion = 5
+		parochial_opinion = 5
+
+		legitimacy_gain_mult = 0.08
+		monthly_influence = 2
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_parliament_03
+	
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_parliament_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_parliament_unlocks_desc
+		}
+	}
+
+	construction_time = very_slow_construction_time
+	
+	type_icon = "icon_structure_doges_palace.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = administrator
+		# 		OR = {
+		# 			has_trait = education_republican_knowledge_3
+		# 			has_trait = education_republican_knowledge_4
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+
+	cost_gold = uba_construction_cost_unique_3
+	
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		travel_danger = -10
+		epidemic_resistance = 15
+	}
+	character_modifier = {
+		vassal_limit = 20
+
+		republic_government_opinion = 5
+		parochial_opinion = 5
+
+		tyranny_loss_mult = 0.10
+		legitimacy_gain_mult = 0.12
+
+		monthly_influence = 3
+		monthly_influence_mult = 0.05
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_parliament_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_parliament_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_parliament_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		vassal_limit = 25
+		monthly_dynasty_prestige_mult = 0.05
+
+		republic_government_opinion = 10
+		parochial_opinion = 10
+
+		tyranny_loss_mult = 0.15
+
+		legitimacy_gain_mult = 0.16
+		monthly_influence = 4
+		monthly_influence_mult = 0.10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_parliament_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_parliament_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_parliament_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_doges_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_parliament_building
+			NOT = {
+				exists = global_var:UBA_parliament_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_parliament_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_parliament_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+	
+	province_modifier = {
+		monthly_income = 5
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		stewardship_per_prestige_level = 1
+		vassal_limit = 50
+
+		monthly_dynasty_prestige_mult = 0.10
+
+		republic_government_opinion = 10
+		republic_government_tax_contribution_add = 0.10
+		parochial_opinion = 10
+		parochial_tax_contribution_mult = 0.10
+		administrative_government_tax_contribution_add = 0.05
+
+		tyranny_loss_mult = 0.20
+
+		legitimacy_gain_mult = 0.32
+		monthly_influence = 5
+		monthly_influence_mult = 0.15
+	}
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_parliament_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_parliament_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_parliament_finished
+		}
+		remove_global_variable = UBA_parliament_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+## 学识
+# 医院
+UBA_hospital_01 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_1
+		development_growth_factor = uba_development_growth_factor_normal_1
+		epidemic_resistance = 10
+	}
+	
+	province_modifier = {
+	}
+
+	character_modifier = {
+		monthly_piety = 0.2
+		negate_health_penalty_add = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hospital_02
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_hospital_02 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_2
+		development_growth_factor = uba_development_growth_factor_normal_2
+		epidemic_resistance = 15
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.10
+		monthly_piety = 0.4
+		negate_health_penalty_add = 0.10
+		epidemic_resistance = 5
+	}
+
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hospital_03
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_hospital_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hospital_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_3
+		development_growth_factor = uba_development_growth_factor_normal_3
+		epidemic_resistance = 20
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.10
+		monthly_piety = 0.6
+		negate_health_penalty_add = 0.15
+		epidemic_resistance = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hospital_04
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_hospital_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hospital_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_4
+		development_growth_factor = uba_development_growth_factor_normal_4
+		epidemic_resistance = 25
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		learning_per_stress_level = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+		monthly_piety = 0.8
+		monthly_dynasty_prestige_mult = 0.05
+		negate_health_penalty_add = 0.15
+		epidemic_resistance = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hospital_05
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_hospital_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hospital_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_great_mosque_of_cordoba.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_hospital_building
+			NOT = {
+				exists = global_var:UBA_hospital_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_hospital_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_hospital_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_5
+		development_growth_factor = uba_development_growth_factor_normal_5
+		epidemic_resistance = 30
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+
+	character_modifier = {
+		learning_per_stress_level = 2
+		monthly_learning_lifestyle_xp_gain_mult = 0.25
+		monthly_piety = 1
+		monthly_dynasty_prestige_mult = 0.05
+		negate_health_penalty_add = 0.25
+		health = 0.10
+		epidemic_resistance = 20
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_hospital_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_hospital_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_hospital_finished
+		}
+		remove_global_variable = UBA_hospital_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+# 大学
+UBA_university_01 = {
+	construction_time = uba_construction_time
+	effect_desc = {
+		desc = unlocks_building_desc
+		# triggered_desc = {
+		# 	trigger = { has_dlc_feature = tours_and_tournaments }
+		# 	desc = university_toto_effect_desc
+		# }
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+	
+	province_modifier = {
+	}
+
+	character_modifier = {
+		#learning_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.05
+		#cultural_head_fascination_mult = 0.05
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_university_02
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+	flag = special_university
+}
+
+UBA_university_02 = {
+	construction_time = uba_construction_time
+	effect_desc = {
+		desc = unlocks_building_desc
+		# triggered_desc = {
+		# 	trigger = { has_dlc_feature = tours_and_tournaments }
+		# 	desc = university_toto_effect_desc
+		# }
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+	}
+
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.10
+		cultural_head_fascination_mult = 0.05
+
+		different_culture_opinion = 5
+		monthly_dynasty_prestige = 0.25
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_university_03
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+	flag = special_university
+}
+
+UBA_university_03 = {
+	construction_time = uba_construction_time
+
+	effect_desc = {
+		desc = unlocks_building_desc
+		# triggered_desc = {
+		# 	trigger = { has_dlc_feature = tours_and_tournaments }
+		# 	desc = university_toto_effect_desc
+		# }
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_university_unlocks_desc
+		}
+	}
+
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = scholar
+		# 		has_trait = theologian
+		# 		has_trait = lifestyle_mystic
+		# 		OR = {
+		# 			has_trait = education_learning_3
+		# 			has_trait = education_learning_4
+		# 			has_trait = education_learning_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.10
+		cultural_head_fascination_mult = 0.05
+
+		different_culture_opinion = 5
+		monthly_dynasty_prestige = 0.25
+
+		development_growth_factor = 0.1
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_university_04
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+	flag = special_university
+}
+
+UBA_university_04 = {
+	construction_time = uba_construction_time
+	effect_desc = {
+		desc = unlocks_building_desc
+		# triggered_desc = {
+		# 	trigger = { has_dlc_feature = tours_and_tournaments }
+		# 	desc = university_toto_effect_desc
+		# }
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_university_unlocks_desc
+		}
+	}
+
+
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		monthly_lifestyle_xp_gain_mult = 0.15
+		cultural_head_fascination_mult = 0.05
+
+		different_culture_opinion = 10
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.05
+		
+		# faith_creation_piety_cost_mult = -0.2
+		
+		development_growth_factor = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_university_05
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+	flag = special_university
+}
+
+UBA_university_05 = {
+	construction_time = uba_construction_time
+	effect_desc = {
+		desc = unlocks_building_desc
+		# triggered_desc = {
+		# 	trigger = { has_dlc_feature = tours_and_tournaments }
+		# 	desc = university_toto_effect_desc
+		# }
+		triggered_desc = {
+			trigger = { has_dlc_feature = royal_court }
+			desc = university_roco_effect_desc
+		}
+		desc = university_effect_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_university_unlocks_desc
+		}
+	}
+
+
+	type_icon = "icon_structure_temple_of_uppsala.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_university_requirement = yes
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_university_building
+			NOT = {
+				exists = global_var:UBA_university_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_university_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_university_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+
+	character_modifier = {
+		learning_per_prestige_level = 2
+		monthly_lifestyle_xp_gain_mult = 0.25
+
+		cultural_head_fascination_mult = 0.15
+		different_culture_opinion = 10
+		monthly_dynasty_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.10
+		
+		# faith_creation_piety_cost_mult = -0.2
+		
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_university_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_university_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_university_finished
+		}
+		remove_global_variable = UBA_university_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+	flag = special_university
+}
+
+# 圣殿
+UBA_church_01 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_soltaniyeh.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+	
+	cost_gold = 2000
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		pilgrim_xp_gain_mult = 0.1
+		clergy_opinion = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_church_02
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_church_02 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_soltaniyeh.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_1 = yes
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -10
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		monthly_piety = 0.1
+		piety_level_impact_mult = 0.10
+		pilgrim_xp_gain_mult = 0.2
+		clergy_opinion = 5
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_church_03
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_church_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_church_unlocks_desc
+		}
+	}
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_soltaniyeh.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = scholar
+		# 		has_trait = theologian
+		# 		has_trait = pilgrim
+		# 		OR = {
+		# 			has_trait = education_learning_3
+		# 			has_trait = education_learning_4
+		# 			has_trait = education_learning_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+	
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -10
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		monthly_piety = 0.2
+		faith_creation_piety_cost_mult = -0.05
+
+		#holy_order_hire_cost_mult = -0.05
+		piety_level_impact_mult = 0.20
+		levy_reinforcement_rate_same_faith = 0.05
+		
+		pilgrim_xp_gain_mult = 0.3
+
+		same_faith_opinion = 5
+		clergy_opinion = 5
+		zealot_opinion = 5
+		theocracy_government_opinion = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_church_04
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_church_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_church_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_soltaniyeh.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -20
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		# learning_per_piety_level = 1
+
+		monthly_piety = 0.3
+		monthly_dynasty_prestige_mult = 0.05
+		faith_creation_piety_cost_mult = -0.10
+
+		#holy_order_hire_cost_mult = -0.1
+		piety_level_impact_mult = 0.35
+		domain_tax_same_faith_mult = 0.05
+		levy_reinforcement_rate_same_faith = 0.10
+		
+		pilgrim_xp_gain_mult = 0.4
+
+		same_faith_opinion = 5
+		clergy_opinion = 10
+		zealot_opinion = 10
+		theocracy_government_opinion = 10
+		# theocracy_government_tax_contribution_add = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_church_05
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_church_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_church_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_soltaniyeh.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_church_building
+			NOT = {
+				exists = global_var:UBA_church_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_church_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_church_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+
+	province_modifier = {
+		monthly_income = 3
+		travel_danger = -20
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		learning_per_piety_level = 1
+
+		monthly_piety = 0.5
+		monthly_dynasty_prestige_mult = 0.10
+		faith_creation_piety_cost_mult = -0.20
+
+		piety_level_impact_mult = 0.5
+		domain_tax_same_faith_mult = 0.10
+		levy_reinforcement_rate_same_faith = 0.25
+		
+		pilgrim_xp_gain_mult = 0.5
+
+		same_faith_opinion = 10
+		clergy_opinion = 10
+		zealot_opinion = 10
+		zealot_tax_contribution_mult = 0.10
+		theocracy_government_opinion = 10
+		theocracy_government_tax_contribution_add = 0.10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_church_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_church_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_church_finished
+		}
+		remove_global_variable = UBA_church_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+# 寺院（并入圣殿
+UBA_abbaye_01 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_canterbury_cathedral.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+	
+	cost_gold = 2000
+	
+	province_modifier = {
+		monthly_income = 1
+		# travel_danger = -10
+	}
+
+	county_modifier = {
+		# tax_mult = 0.1
+		development_growth_factor = 0.05
+		# development_growth = 0.1
+	}
+
+	character_modifier = {
+		monthly_piety = 0.20
+		# monthly_piety_gain_per_knight_mult = 0.05
+		# monthly_county_control_growth_factor = 0.1
+		# learning_per_piety_level = 1
+		# monthly_learning_lifestyle_xp_gain_mult = 0.1
+		# learn_language_scheme_power_mult = 0.25
+	}
+	
+	county_holder_character_modifier = {
+		monthly_piety = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_abbaye_02
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_abbaye_02 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_canterbury_cathedral.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+	
+	cost_gold = uba_construction_cost_normal
+	
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -10
+	}
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.2
+		development_growth = 0.15
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		learning = 1
+		monthly_piety = 0.20
+		
+		monthly_piety_gain_per_knight_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+		
+		clergy_opinion = 10
+		theocracy_government_opinion = 10
+		# domain_tax_same_faith_mult = 0.05
+
+		learn_language_scheme_power_mult = 0.25
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+
+	county_holder_character_modifier = {
+		monthly_piety = 0.05
+	}
+		
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+# 圣城见旅行部分
+
+## 旅行
+# 市场
+UBA_market_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_excellent_1
+		development_growth_factor = uba_development_growth_factor_excellent_1
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_market_02
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_market_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_2
+		development_growth_factor = uba_development_growth_factor_excellent_2
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.05
+		character_travel_safety = 5
+		lifestyle_traveler_xp_gain_mult = 0.05
+
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_market_03
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_market_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_market_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = avaricious
+		# 		has_trait = lifestyle_traveler
+		# 		OR = {
+		# 			has_trait = education_stewardship_3
+		# 			has_trait = education_stewardship_4
+		# 			has_trait = education_stewardship_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_3
+		development_growth_factor = uba_development_growth_factor_excellent_3
+	}
+	
+	province_modifier = {
+		monthly_income = 4
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.10
+		movement_speed = 0.1
+
+		character_travel_safety = 5
+
+		lifestyle_traveler_xp_gain_mult = 0.10
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+
+	max_garrison = good_building_max_garrison_tier_3
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_market_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_market_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_market_unlocks_desc
+		}
+	}
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_excellent_4
+		development_growth_factor = uba_development_growth_factor_excellent_4
+	}
+	
+	province_modifier = {
+		monthly_income = 6
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+
+		domicile_monthly_gold_mult = 0.15
+
+		movement_speed = 0.2
+		diplomatic_range_mult = 0.1
+
+		character_travel_speed = 5
+		character_travel_safety = 10
+
+		lifestyle_traveler_xp_gain_mult = 0.25
+		different_culture_opinion = 10
+		opinion_of_different_culture = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_market_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_market_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_market_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_iron_pillar_of_delhi.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_market_building
+			NOT = {
+				exists = global_var:UBA_market_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_market_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_market_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.30
+		development_growth = uba_development_growth_excellent_5
+		development_growth_factor = uba_development_growth_factor_excellent_5
+	}
+	
+	province_modifier = {
+		monthly_income = 8
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+
+		domain_tax_mult = 0.05
+		domicile_monthly_gold_mult = 0.2
+
+		movement_speed = 0.5
+		diplomatic_range_mult = 0.2
+
+		character_travel_speed = 10
+		character_travel_safety = 15
+
+		lifestyle_traveler_xp_gain_mult = 0.5
+		different_culture_opinion = 20
+		opinion_of_different_culture = 20
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_market_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_market_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_market_finished
+		}
+		remove_global_variable = UBA_market_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+# 港口
+UBA_port_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_excellent_1
+		development_growth_factor = uba_development_growth_factor_excellent_1
+	}
+
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_port_02
+	
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_port_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_normal
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_2
+		development_growth_factor = uba_development_growth_factor_excellent_2
+	}
+
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.05
+		coastal_sea_travel_danger = -5
+		sea_travel_danger = -5
+
+		lifestyle_traveler_xp_gain_mult = 0.05
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_port_03
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_port_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_port_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = avaricious
+		# 		has_trait = lifestyle_traveler
+		# 		OR = {
+		# 			has_trait = education_stewardship_3
+		# 			has_trait = education_stewardship_4
+		# 			has_trait = education_stewardship_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_3
+		development_growth_factor = uba_development_growth_factor_excellent_3
+	}
+	
+	province_modifier = {
+		monthly_income = 4
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.10
+		naval_movement_speed_mult = 0.05
+		embarkation_cost_mult = -0.05
+
+		coastal_sea_travel_danger = -5
+		sea_travel_danger = -5
+
+		lifestyle_traveler_xp_gain_mult = 0.10
+		different_culture_opinion = 5
+		opinion_of_different_culture = 5
+	}
+
+	max_garrison = good_building_max_garrison_tier_3
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_port_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_port_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_port_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_excellent_4
+		development_growth_factor = uba_development_growth_factor_excellent_4
+	}
+	
+	province_modifier = {
+		monthly_income = 6
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.15
+		monthly_dynasty_prestige_mult = 0.05
+
+		diplomatic_range_mult = 0.1
+		naval_movement_speed_mult = 0.10
+		embarkation_cost_mult = -0.10
+
+		character_travel_speed = 5
+		coastal_sea_travel_danger = -5
+		sea_travel_danger = -5
+
+		lifestyle_traveler_xp_gain_mult = 0.25
+		different_culture_opinion = 10
+		opinion_of_different_culture = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_port_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_port_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_port_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_tradeport.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_port_building
+			NOT = {
+				exists = global_var:UBA_port_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_port_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_port_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.30
+		development_growth = uba_development_growth_excellent_5
+		development_growth_factor = uba_development_growth_factor_excellent_5
+	}
+	
+	province_modifier = {
+		monthly_income = 8
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+
+		domain_tax_mult = 0.05
+		domicile_monthly_gold_mult = 0.2
+
+		diplomatic_range_mult = 0.2
+		naval_movement_speed_mult = 0.15
+		embarkation_cost_mult = -0.15
+
+		character_travel_speed = 10
+		coastal_sea_travel_danger = -10
+		sea_travel_danger = -10
+		
+		lifestyle_traveler_xp_gain_mult = 0.5
+		different_culture_opinion = 20
+		opinion_of_different_culture = 20
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_port_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_port_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_port_finished
+		}
+		remove_global_variable = UBA_port_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+# 圣城
+UBA_holyland_01 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_uba_holyland.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_city_planning
+		}
+	}
+	
+	cost_gold = 2000
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+		county_opinion_add = 5
+	}
+
+	province_modifier = {
+	}
+
+	character_modifier = {
+		pilgrim_xp_gain_mult = 0.1
+		lifestyle_traveler_xp_gain_mult = 0.1
+		zealot_opinion = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_holyland_02
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_holyland_02 = {
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_uba_holyland.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	cost_gold = uba_construction_cost_unique_2
+	
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -10
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		monthly_piety = 0.1
+		pilgrim_xp_gain_mult = 0.1
+		lifestyle_traveler_xp_gain_mult = 0.1
+		zealot_opinion = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_holyland_03
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_holyland_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_holyland_unlocks_desc
+		}
+	}
+	construction_time = uba_construction_time
+	
+	type_icon = "icon_structure_uba_holyland.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = scholar
+		# 		has_trait = lifestyle_mystic
+		# 		has_trait = pilgrim
+		# 		OR = {
+		# 			has_trait = education_learning_3
+		# 			has_trait = education_learning_4
+		# 			has_trait = education_learning_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	cost_gold = uba_construction_cost_unique_3
+	
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -10
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		monthly_piety = 0.1
+		monthly_prestige = 0.1
+
+		faith_conversion_piety_cost_mult = -0.05
+		holy_order_hire_cost_mult = -0.05
+		mercenary_hire_cost_mult = -0.05
+		
+		pilgrim_xp_gain_mult = 0.10
+		lifestyle_traveler_xp_gain_mult = 0.1
+
+		different_faith_opinion = 5
+		zealot_opinion = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_holyland_04
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_holyland_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_holyland_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_uba_holyland.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -20
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		monthly_piety = 0.15
+		monthly_prestige = 0.15
+		monthly_dynasty_prestige_mult = 0.05
+
+		faith_conversion_piety_cost_mult = -0.10
+		holy_order_hire_cost_mult = -0.10
+		mercenary_hire_cost_mult = -0.10
+		domain_tax_same_faith_mult = 0.05
+		
+		pilgrim_xp_gain_mult = 0.15
+		lifestyle_traveler_xp_gain_mult = 0.15
+
+		different_faith_opinion = 5
+		zealot_opinion = 5
+		zealot_tax_contribution_mult = 0.05
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_holyland_05
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+UBA_holyland_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_holyland_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_uba_holyland.dds"  
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_holyland_building
+			NOT = {
+				exists = global_var:UBA_holyland_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_holyland_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_holyland_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+
+	province_modifier = {
+		monthly_income = 3
+		travel_danger = -20
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		learning_per_piety_level = 1
+
+		monthly_piety = 0.25
+		monthly_prestige = 0.25
+		monthly_dynasty_prestige_mult = 0.10
+
+		faith_conversion_piety_cost_mult = -0.20
+		holy_order_hire_cost_mult = -0.20
+		mercenary_hire_cost_mult = -0.20
+		domain_tax_different_faith_mult = 0.10
+		#levy_reinforcement_rate_different_faith = 0.25
+		
+		pilgrim_xp_gain_mult = 0.25
+		lifestyle_traveler_xp_gain_mult = 0.25
+
+		different_faith_opinion = 10
+		zealot_opinion = 10
+		zealot_tax_contribution_mult = 0.10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_holyland_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_holyland_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_holyland_finished
+		}
+		remove_global_variable = UBA_holyland_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+# 水库
+UBA_basins_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_kairouan_basins.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_excellent_1
+		development_growth_factor = uba_development_growth_factor_excellent_1
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		supply_limit = good_building_supply_limit_tier_1
+		build_speed = good_building_build_speed_tier_1
+		epidemic_resistance = 5
+	}
+
+	character_modifier = {
+		build_speed = -0.02
+		build_gold_cost = -0.02
+		holding_build_speed = -0.02
+		holding_build_gold_cost = -0.02
+		domicile_build_speed = -0.02
+		domicile_build_gold_cost = -0.02
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_basins_02
+	
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_basins_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_kairouan_basins.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_normal
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_2
+		development_growth_factor = uba_development_growth_factor_excellent_2
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		supply_limit = good_building_supply_limit_tier_2
+		build_speed = good_building_build_speed_tier_2
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.05
+
+		build_speed = -0.04
+		build_gold_cost = -0.04
+		holding_build_speed = -0.04
+		holding_build_gold_cost = -0.04
+		domicile_build_speed = -0.04
+		domicile_build_gold_cost = -0.04
+
+		negate_health_penalty_add = 0.05
+		lifestyle_traveler_xp_gain_mult = 0.05
+	}
+
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_basins_03
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_basins_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_basins_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_structure_kairouan_basins.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = avaricious
+		# 		has_trait = lifestyle_traveler
+		# 		OR = {
+		# 			has_trait = education_stewardship_3
+		# 			has_trait = education_stewardship_4
+		# 			has_trait = education_stewardship_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_excellent_3
+		development_growth_factor = uba_development_growth_factor_excellent_3
+	}
+	
+	province_modifier = {
+		monthly_income = 4
+		supply_limit = good_building_supply_limit_tier_4
+		build_speed = good_building_build_speed_tier_4
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		domicile_monthly_gold_mult = 0.10
+
+		build_speed = -0.06
+		build_gold_cost = -0.06
+		holding_build_speed = -0.06
+		holding_build_gold_cost = -0.06
+		domicile_build_speed = -0.06
+		domicile_build_gold_cost = -0.06
+
+		negate_health_penalty_add = 0.10
+		lifestyle_traveler_xp_gain_mult = 0.10
+	}
+
+	max_garrison = good_building_max_garrison_tier_3
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_basins_04
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_basins_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_basins_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_kairouan_basins.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_excellent_5
+		development_growth_factor = uba_development_growth_factor_excellent_5
+	}
+	
+	province_modifier = {
+		monthly_income = 6
+		supply_limit = good_building_supply_limit_tier_6
+		build_speed = good_building_build_speed_tier_6
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+
+		domicile_monthly_gold_mult = 0.15
+		
+		build_speed = -0.08
+		build_gold_cost = -0.08
+		holding_build_speed = -0.08
+		holding_build_gold_cost = -0.08
+		domicile_build_speed = -0.08
+		domicile_build_gold_cost = -0.08
+
+		negate_health_penalty_add = 0.15
+		lifestyle_traveler_xp_gain_mult = 0.25
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_basins_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_basins_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_basins_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_structure_kairouan_basins.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_basins_building
+			NOT = {
+				exists = global_var:UBA_basins_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_basins_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_basins_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.30
+		development_growth = uba_development_growth_excellent_5
+		development_growth_factor = uba_development_growth_factor_excellent_5
+	}
+	
+	province_modifier = {
+		monthly_income = 8
+		supply_limit = good_building_supply_limit_tier_8
+		build_speed = good_building_build_speed_tier_8
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		monthly_dynasty_prestige_mult = 0.05
+
+		domain_tax_mult = 0.05
+		domicile_monthly_gold_mult = 0.2
+		
+		build_speed = -0.10
+		build_gold_cost = -0.10
+		holding_build_speed = -0.10
+		holding_build_gold_cost = -0.10
+		domicile_build_speed = -0.10
+		domicile_build_gold_cost = -0.10
+
+		negate_health_penalty_add = 0.2
+		lifestyle_traveler_xp_gain_mult = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_basins_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_basins_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_basins_finished
+		}
+		remove_global_variable = UBA_basins_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+## 生活（医院、皇宫见前面）
+# 图书馆 炼金学院
+UBA_academy_01 = {
+	construction_time = uba_construction_time
+	# effect_desc = {
+	# 	desc = unlocks_building_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = tours_and_tournaments }
+	# 		desc = academy_toto_unlocks_desc
+	# 	}
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = royal_court }
+	# 		desc = academy_roco_unlocks_desc
+	# 	}
+	# 	desc = academy_unlocks_desc
+	# }
+
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+	
+	province_modifier = {
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_academy_02
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_academy_02 = {
+	construction_time = uba_construction_time
+	# effect_desc = {
+	# 	desc = unlocks_building_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = tours_and_tournaments }
+	# 		desc = academy_toto_unlocks_desc
+	# 	}
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = royal_court }
+	# 		desc = academy_roco_unlocks_desc
+	# 	}
+	# 	desc = academy_unlocks_desc
+	# }
+
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = UBA_academy_03
+	
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_academy_03 = {
+	construction_time = uba_construction_time
+	# effect_desc = {
+	# 	desc = unlocks_building_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = tours_and_tournaments }
+	# 		desc = university_toto_effect_desc
+	# 	}
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = royal_court }
+	# 		desc = university_roco_effect_desc
+	# 	}
+	# 	desc = university_effect_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_game_rule = uba_common_buildings_on }
+	# 		desc = UBA_academy_unlocks_desc
+	# 	}
+	# }
+
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = scholar
+		# 		has_trait = theologian
+		# 		has_trait = lifestyle_mystic
+		# 		OR = {
+		# 			has_trait = education_learning_3
+		# 			has_trait = education_learning_4
+		# 			has_trait = education_learning_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.10
+		cultural_head_fascination_mult = 0.05
+
+		monthly_income_mult = 0.05
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_academy_04
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_academy_04 = {
+	construction_time = uba_construction_time
+	# effect_desc = {
+	# 	desc = unlocks_building_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = tours_and_tournaments }
+	# 		desc = university_toto_effect_desc
+	# 	}
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = royal_court }
+	# 		desc = university_roco_effect_desc
+	# 	}
+	# 	desc = university_effect_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_game_rule = uba_common_buildings_on }
+	# 		desc = UBA_academy_unlocks_desc
+	# 	}
+	# }
+
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+	}
+
+	character_modifier = {
+		learning_per_stress_level = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+		cultural_head_fascination_mult = 0.1
+
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_income_mult = 0.1
+		
+		domicile_monthly_influence_mult = 0.1
+		domicile_monthly_piety_mult = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_academy_05
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+UBA_academy_05 = {
+	construction_time = uba_construction_time
+	# effect_desc = {
+	# 	desc = unlocks_building_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = tours_and_tournaments }
+	# 		desc = university_toto_effect_desc
+	# 	}
+	# 	triggered_desc = {
+	# 		trigger = { has_dlc_feature = royal_court }
+	# 		desc = university_roco_effect_desc
+	# 	}
+	# 	desc = university_effect_desc
+	# 	triggered_desc = {
+	# 		trigger = { has_game_rule = uba_common_buildings_on }
+	# 		desc = UBA_academy_unlocks_desc
+	# 	}
+	# }
+
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_academy_building
+			NOT = {
+				exists = global_var:UBA_academy_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_academy_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_academy_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+	}
+
+	character_modifier = {
+		learning_per_prestige_level = 1
+		learning_per_stress_level = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.25
+		cultural_head_fascination_mult = 0.2
+
+		monthly_dynasty_prestige_mult = 0.05
+		monthly_income_mult = 0.2
+		
+		domicile_monthly_influence_mult = 0.2
+		domicile_monthly_piety_mult = 0.2
+	}
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_academy_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_academy_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_academy_finished
+		}
+		remove_global_variable = UBA_academy_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_learning
+}
+
+# 花园
+UBA_garden_01 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_uba_garden.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		epidemic_resistance = 10
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.05
+		negate_health_penalty_add = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+	}
+	
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_garden_02
+	
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_garden_02 = {
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_uba_garden.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_1 = yes
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_2
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		epidemic_resistance = 15
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.10
+		health = 0.05
+
+		negate_health_penalty_add = 0.1
+		monthly_learning_lifestyle_xp_gain_mult = 0.10
+
+		court_grandeur_baseline_add = 4
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_garden_03
+	
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_garden_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_garden_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+
+	type_icon = "icon_building_uba_garden.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_2 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = lifestyle_herbalist
+		# 		has_trait = lifestyle_gardener
+		# 		OR = {
+		# 			has_trait = education_stewardship_3
+		# 			has_trait = education_stewardship_4
+		# 			has_trait = education_stewardship_5
+		# 		}
+		# 	}
+		# }
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+
+	province_modifier = {
+		monthly_income = 4
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.15
+		health = 0.05
+		negate_health_penalty_add = 0.1
+		monthly_learning_lifestyle_xp_gain_mult = 0.15
+
+		court_grandeur_baseline_add = 8
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_garden_04
+
+	type = special
+	
+	flag = travel_point_of_interest_economic
+}
+
+UBA_garden_04 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_pet_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_garden_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_garden.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 6
+		epidemic_resistance = 20
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.20
+		health = 0.10
+		negate_health_penalty_add = 0.15
+		monthly_learning_lifestyle_xp_gain_mult = 0.20
+
+		monthly_dynasty_prestige_mult = 0.05
+
+		court_grandeur_baseline_add = 12
+		character_capital_county_monthly_development_growth_add = 0.1
+		
+		domicile_monthly_influence_mult = 0.1
+		domicile_monthly_gold_mult = 0.1
+		personal_scheme_phase_duration_add = -5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_garden_05
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+UBA_garden_05 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_pet_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_garden_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_garden.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_economy_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_garden_building
+			NOT = {
+				exists = global_var:UBA_garden_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_garden_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_garden_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_5
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_good_5
+		development_growth_factor = uba_development_growth_factor_good_5
+	}
+	
+	province_modifier = {
+		monthly_income = 8
+		epidemic_resistance = 25
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.30
+		health = 0.15
+		negate_health_penalty_add = 0.15
+		monthly_learning_lifestyle_xp_gain_mult = 0.25
+
+		monthly_dynasty_prestige_mult = 0.05
+
+		court_grandeur_baseline_add = 16
+		character_capital_county_monthly_development_growth_add = 0.2
+		
+		domicile_monthly_influence_mult = 0.2
+		domicile_monthly_gold_mult = 0.2
+		personal_scheme_phase_duration_add = -10
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_garden_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_garden_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_garden_finished
+		}
+		remove_global_variable = UBA_garden_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
+
+## 谋略
+# 密宫
+UBA_secret_01 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	max_garrison = good_building_max_garrison_tier_1
+
+	county_modifier = {
+		development_growth = uba_development_growth_normal_1
+		development_growth_factor = uba_development_growth_factor_normal_1
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_1
+		fort_level = good_building_fort_level_tier_1
+	}
+
+	character_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+		dread_baseline_add = 10
+		enemy_hostile_scheme_success_chance_add = -5
+		enemy_hostile_scheme_phase_duration_add = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_secret_02
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_secret_02 = {
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_fortification_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_2
+
+	max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_normal_2
+		development_growth_factor = uba_development_growth_factor_normal_2
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+		tyranny_gain_mult = 0.05
+		dread_per_tyranny_add = 0.10
+
+		dread_baseline_add = 10
+		
+		owned_personal_scheme_success_chance_add = 5
+		owned_hostile_scheme_success_chance_add = 5
+		enemy_hostile_scheme_success_chance_add = -10
+		hostile_scheme_phase_duration_add = -5
+		enemy_hostile_scheme_phase_duration_add = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_secret_03
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_secret_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_secret_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_normal_3
+		development_growth_factor = uba_development_growth_factor_normal_3
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+		fort_level = good_building_fort_level_tier_2
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		intrigue_per_stress_level = 1
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
+
+		tyranny_gain_mult = 0.05
+		dread_per_tyranny_add = 0.20
+
+		dread_baseline_add = 15
+		
+		owned_hostile_scheme_success_chance_add = 10
+		enemy_hostile_scheme_success_chance_add = -10
+		hostile_scheme_phase_duration_add = -10
+		enemy_hostile_scheme_phase_duration_add = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_secret_04
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_secret_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_secret_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_normal_4
+		development_growth_factor = uba_development_growth_factor_normal_4
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		intrigue_per_stress_level = 1
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.20
+
+		tyranny_gain_mult = 0.10
+		dread_per_tyranny_add = 0.35
+
+		dread_baseline_add = 20
+		dread_decay_mult = -0.1
+		dread_gain_mult = 0.1
+		
+		owned_hostile_scheme_success_chance_add = 10
+		enemy_hostile_scheme_success_chance_add = -10
+		hostile_scheme_phase_duration_add = -10
+		enemy_hostile_scheme_phase_duration_add = 10
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_secret_05
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+UBA_secret_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_secret_unlocks_desc
+		}
+	}
+
+	construction_time = uba_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_palace.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_fortification_4 = yes
+		# scope:holder = {
+		# 	OR = {
+		# 		has_trait = architect
+		# 		has_trait = diplomat
+		# 		has_trait = august
+		# 		has_trait = schemer
+		# 		OR = {
+		# 			has_trait = education_diplomacy_3
+		# 			has_trait = education_diplomacy_4
+		# 			has_trait = education_diplomacy_5
+		# 		}
+		# 		OR = {
+		# 			has_trait = education_intrigue_3
+		# 			has_trait = education_intrigue_4
+		# 			has_trait = education_intrigue_5
+		# 		}
+		# 	}
+		# }
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_secret_building
+			NOT = {
+				exists = global_var:UBA_secret_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_secret_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_secret_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_unique_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.20
+		development_growth = uba_development_growth_normal_5
+		development_growth_factor = uba_development_growth_factor_normal_5
+	}
+	
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_3
+		fort_level = good_building_fort_level_tier_3
+		travel_danger = -20
+	}
+
+	character_modifier = {
+		intrigue_per_prestige_level = 1
+		intrigue_per_stress_level = 1
+		monthly_intrigue_lifestyle_xp_gain_mult = 0.25
+
+		tyranny_gain_mult = 0.10
+		dread_per_tyranny_add = 0.5
+
+		dread_baseline_add = 25
+		dread_decay_mult = -0.2
+		dread_gain_mult = 0.2
+		
+		max_hostile_schemes_add = 1
+		owned_hostile_scheme_success_chance_add = 15
+		enemy_hostile_scheme_success_chance_add = -15
+		hostile_scheme_phase_duration_add = -15
+		enemy_hostile_scheme_phase_duration_add = 15
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_secret_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_secret_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_secret_finished
+		}
+		remove_global_variable = UBA_secret_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0998
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_diplomatic
+}
+
+## 游牧
+# 猎场
+UBA_hunting_01 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_hunting_grounds.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		development_growth = uba_development_growth_good_1
+		development_growth_factor = uba_development_growth_factor_good_1
+	}
+	
+	province_modifier = {
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.05
+		stress_loss_mult = 0.05
+
+		lifestyle_hunter_xp_gain_mult = 0.10
+		parochial_opinion = 5
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hunting_02
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_hunting_02 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_hunting_grounds.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_nomadic_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_2
+
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth = uba_development_growth_good_2
+		development_growth_factor = uba_development_growth_factor_good_2
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -5
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		
+		stress_gain_mult = -0.10
+		stress_loss_mult = 0.10
+		health = 0.05
+
+		lifestyle_hunter_xp_gain_mult = 0.10
+		parochial_opinion = 5
+	}
+
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hunting_03
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_hunting_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hunting_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_hunting_grounds.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_3
+
+	county_modifier = {
+		tax_mult = 0.10
+		development_growth = uba_development_growth_good_3
+		development_growth_factor = uba_development_growth_factor_good_3
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		travel_danger = -5
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_prestige_gain_mult = 0.05
+
+		stress_gain_mult = -0.10
+		stress_loss_mult = 0.10
+		health = 0.05
+
+		lifestyle_hunter_xp_gain_mult = 0.20
+		parochial_opinion = 5
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hunting_04
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_hunting_04 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_hunt_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hunting_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_hunting_grounds.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_4
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_good_4
+		development_growth_factor = uba_development_growth_factor_good_4
+	}
+	
+	province_modifier = {
+		monthly_income = 2
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+
+		stress_gain_mult = -0.15
+		stress_loss_mult = 0.15
+		health = 0.10
+		
+		lifestyle_hunter_xp_gain_mult = 0.25
+		parochial_opinion = 10
+		
+		domicile_monthly_prestige_mult = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_hunting_05
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_hunting_05 = {
+	effect_desc = {
+		desc = unlocks_building_desc
+		desc = uba_unlock_hunt_flavor_desc
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_hunting_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_legendary_hunting_grounds.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_hunting_building
+			NOT = {
+				exists = global_var:UBA_hunting_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_hunting_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_hunting_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth = uba_development_growth_poor_5
+		development_growth_factor = uba_development_growth_factor_poor_5
+	}
+	
+	province_modifier = {
+		monthly_income = 3
+		travel_danger = -10
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+		monthly_prestige_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+
+		stress_gain_mult = -0.20
+		stress_loss_mult = 0.20
+		health = 0.15
+		
+		lifestyle_hunter_xp_gain_mult = 0.5
+		parochial_opinion = 10
+		parochial_tax_contribution_mult = 0.1
+
+		domicile_monthly_influence_mult = 0.2
+		domicile_monthly_prestige_mult = 0.2
+
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_hunting_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_hunting_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_hunting_finished
+		}
+		remove_global_variable = UBA_hunting_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+# 牧场
+UBA_pasture_01 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_pasture.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	county_modifier = {
+		county_opinion_add = 5
+		county_fertility_growth_add = 0.2
+		county_fertility_growth_mult = 0.06
+	}
+
+	character_modifier = {
+		herd_capacity_mult = 0.1
+		herd_capacity_add = 4000
+		monthly_income_from_herd_mult = 0.04
+		
+		herd_gain_mult = 0.02
+
+		county_fertility_growth_mult = 0.10
+		character_capital_monthly_county_fertility_growth_add = 0.04
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_pasture_02
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_pasture_02 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_pasture.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_nomadic_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_2
+
+	county_modifier = {
+		county_opinion_add = 5
+		county_fertility_growth_add = 0.4
+		county_fertility_growth_mult = 0.12
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.1
+		monthly_prestige_gain_mult = 0.05
+
+		herd_capacity_mult = 0.15
+		herd_capacity_add = 8000
+		monthly_income_from_herd_mult = 0.08
+		
+		herd_conversion = 0.010
+		herd_gain_mult = 0.04
+
+		county_fertility_growth_mult = 0.20
+		character_capital_monthly_county_fertility_growth_add = 0.08
+		
+		light_cavalry_damage_mult = 0.1
+		nomadic_horde_damage_mult = 0.1
+	}
+
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_pasture_03
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_pasture_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_pasture_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_pasture.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_3
+
+	county_modifier = {
+		county_opinion_add = 5
+		county_fertility_growth_add = 0.6
+		county_fertility_growth_mult = 0.16
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+
+		herd_capacity_mult = 0.3
+		herd_capacity_add = 12000
+		monthly_income_from_herd_mult = 0.12
+		
+		herd_conversion = 0.020
+		herd_gain_mult = 0.08
+
+		county_fertility_growth_mult = 0.30
+		character_capital_monthly_county_fertility_growth_add = 0.12
+		
+		light_cavalry_damage_mult = 0.2
+		light_cavalry_toughness_mult = 0.1
+		nomadic_horde_damage_mult = 0.2
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_pasture_04
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_pasture_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_pasture_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_pasture.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_4
+
+	county_modifier = {
+		county_opinion_add = 10
+		county_fertility_growth_add = 0.8
+		county_fertility_growth_mult = 0.20
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		monthly_prestige_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+
+		herd_capacity_mult = 0.4
+		herd_capacity_add = 15000
+		monthly_income_from_herd_mult = 0.15
+		
+		herd_conversion = 0.025
+		herd_gain_mult = 0.10
+
+		county_fertility_growth_mult = 0.40
+		character_capital_monthly_county_fertility_growth_add = 0.15
+		
+		light_cavalry_damage_mult = 0.3
+		light_cavalry_toughness_mult = 0.2
+		nomadic_horde_damage_mult = 0.3
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_pasture_05
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+UBA_pasture_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_pasture_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_uba_pasture.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_pasture_building
+			NOT = {
+				exists = global_var:UBA_pasture_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_pasture_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_pasture_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	county_modifier = {
+		county_opinion_add = 20
+		county_fertility_growth_add = 1
+		county_fertility_growth_mult = 0.25
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+		monthly_prestige_gain_mult = 0.20
+		monthly_dynasty_prestige_mult = 0.05
+
+		herd_capacity_mult = 0.5
+		herd_capacity_add = 20000
+		monthly_income_from_herd_mult = 0.20
+		
+		herd_conversion = 0.03
+		herd_gain_mult = 0.20
+
+		county_fertility_growth_mult = 0.50
+		character_capital_monthly_county_fertility_growth_add = 0.20
+		
+		light_cavalry_damage_mult = 0.5
+		light_cavalry_toughness_mult = 0.5
+		nomadic_horde_damage_mult = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_pasture_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_pasture_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_pasture_finished
+		}
+		remove_global_variable = UBA_pasture_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_natural_feature
+}
+
+# 汗帐
+UBA_yurt_01 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_nomadic_settlement.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+	}
+
+	show_disabled = yes
+	
+	cost_gold = 2000
+
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.05
+
+		vassal_herd_contribution_mult = 0.04
+		intimidated_vassal_herd_contribution_mult = 0.04
+		tributary_tax_mult = 0.04
+
+		men_at_arms_limit = 1
+	}
+	
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_yurt_02
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_yurt_02 = {
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_nomadic_settlement.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+
+	can_construct = {
+		uba_building_requirement_nomadic_1 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_2
+
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_1
+		defender_holding_advantage = normal_building_advantage_tier_1
+		
+		stationed_maa_damage_mult = 0.1
+		stationed_maa_siege_value_add = 0.1
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.10
+		monthly_prestige_gain_mult = 0.05
+
+		vassal_herd_contribution_mult = 0.08
+		cowed_vassal_herd_contribution_mult = 0.04
+		intimidated_vassal_herd_contribution_mult = 0.08
+		tributary_tax_mult = 0.08
+
+		men_at_arms_limit = 2
+
+		archer_cavalry_damage_mult = 0.1
+		heavy_cavalry_damage_mult = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_yurt_03
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_yurt_03 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_yurt_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_nomadic_settlement.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_2 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_3
+
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_2
+		defender_holding_advantage = normal_building_advantage_tier_2
+		
+		stationed_maa_damage_mult = 0.2
+		stationed_maa_toughness_mult = 0.1
+		stationed_maa_siege_value_add = 0.2
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_prestige_gain_mult = 0.05
+		monthly_dynasty_prestige_mult = 0.05
+
+		vassal_herd_contribution_mult = 0.12
+		cowed_vassal_herd_contribution_mult = 0.06
+		intimidated_vassal_herd_contribution_mult = 0.12
+		tributary_tax_mult = 0.12
+
+		men_at_arms_cap = 1
+		men_at_arms_limit = 2
+
+		archer_cavalry_damage_mult = 0.2
+		archer_cavalry_toughness_mult = 0.1
+		heavy_cavalry_damage_mult = 0.2
+		heavy_cavalry_toughness_mult = 0.1
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_yurt_04
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_yurt_04 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_yurt_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_nomadic_settlement.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_3 = yes
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_4
+
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_3
+		defender_holding_advantage = normal_building_advantage_tier_3
+		
+		stationed_maa_damage_mult = 0.3
+		stationed_maa_toughness_mult = 0.2
+		stationed_maa_siege_value_add = 0.3
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		monthly_prestige_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+
+		vassal_herd_contribution_mult = 0.16
+		cowed_vassal_herd_contribution_mult = 0.08
+		intimidated_vassal_herd_contribution_mult = 0.16
+		tributary_tax_mult = 0.16
+
+		men_at_arms_cap = 2
+		men_at_arms_limit = 4
+
+		archer_cavalry_damage_mult = 0.3
+		archer_cavalry_toughness_mult = 0.2
+		heavy_cavalry_damage_mult = 0.3
+		heavy_cavalry_toughness_mult = 0.2
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = UBA_yurt_05
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+UBA_yurt_05 = {
+	effect_desc = {
+		triggered_desc = {
+			trigger = { has_game_rule = uba_common_buildings_on }
+			desc = UBA_yurt_unlocks_desc
+		}
+	}
+
+	construction_time = uba_short_construction_time
+	#effect_desc = feast_cost_discount_max_desc
+
+	type_icon = "icon_building_nomadic_settlement.dds"
+	
+	can_construct_potential = {
+		# building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		uba_building_requirement_nomadic_4 = yes
+	}
+
+	can_construct_showing_failures_only = {
+		custom_tooltip = {
+			text = UBA_yurt_building
+			NOT = {
+				exists = global_var:UBA_yurt_building
+			}
+		}
+		custom_tooltip = {
+			text = UBA_yurt_finished
+			OR = {
+				has_game_rule = uba_wonder_buildings_unique_off
+				NOT = { 
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:UBA_yurt_finished
+					}
+				}
+			}
+		}
+	}
+
+	show_disabled = yes
+	
+	cost_gold = uba_construction_cost_cheap_5
+
+	#max_garrison = good_building_max_garrison_tier_2
+
+	province_modifier = {
+		fort_level = normal_building_fort_level_tier_4
+		defender_holding_advantage = normal_building_advantage_tier_4
+		
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+		stationed_maa_siege_value_add = 0.5
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+		monthly_prestige_gain_mult = 0.20
+		monthly_dynasty_prestige_mult = 0.05
+
+		vassal_herd_contribution_mult = 0.24
+		cowed_vassal_herd_contribution_mult = 0.12
+		intimidated_vassal_herd_contribution_mult = 0.24
+		tributary_tax_mult = 0.24
+
+		men_at_arms_cap = 3
+		men_at_arms_limit = 6
+
+		archer_cavalry_damage_mult = 0.5
+		archer_cavalry_toughness_mult = 0.5
+		heavy_cavalry_damage_mult = 0.5
+		heavy_cavalry_toughness_mult = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	on_start = {
+		set_global_variable = {
+			name = UBA_yurt_building
+			value = yes
+		}
+	}
+
+	on_cancelled = {
+		remove_global_variable = UBA_yurt_building
+	}
+
+	on_complete = {
+		#Regular Mandala Boon
+		mandala_built_piety_duchy_building_t3_effect = yes
+		root = { save_scope_as = uba_building_province }
+		add_to_global_variable_list = { #已建成
+			name = uba_unique_buildings_finished
+			target = flag:UBA_yurt_finished
+		}
+		remove_global_variable = UBA_yurt_building
+		county.holder = {
+			hidden_effect = {
+				##一个庆祝用的特殊事件，应该添加音乐
+				trigger_event = {
+					id = uba_decisions.0999
+					days = { 1 14 }
+				}
+			}
+		}
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}

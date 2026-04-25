@@ -1,0 +1,11 @@
+﻿uba_update = {
+	scope = none
+	is_shown = {
+		NOT = {
+			has_global_variable = is_uba_loaded
+		}
+	}
+	effect = {
+		set_global_variable = is_uba_loaded
+	}
+}

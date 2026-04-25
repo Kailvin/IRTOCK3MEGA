@@ -1,0 +1,1065 @@
+﻿# 风炉 【原版建筑】
+building_wind_furnace_requirement_terrain = {
+	OR = {
+		AND = {
+			geographical_region = world_india
+			OR = {
+				is_coastal = yes
+				AND = {
+					scope:holder.top_liege = {
+						any_realm_county = {
+							any_county_province = {
+								has_building_or_higher = konasamudram_mines_01
+							}
+						}
+					}
+					duchy = {
+						any_de_jure_county = {
+							any_county_province = {
+								has_building_or_higher = konasamudram_mines_01
+							}
+						}
+					}
+				}
+			}
+			scope:holder.culture = { has_innovation = innovation_wootz_steel }
+		}
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_wonderful_mines_02
+							has_building_or_higher = UBA_iron_mines_01
+							has_building_or_higher = UBA_valhalla_03
+							has_building_or_higher = UBA_workshop_03
+							has_building_or_higher = UBA_test_building_1
+						}
+						NOT = { has_game_rule = uba_common_buildings_off }
+					}
+				}
+			}
+		}
+	}
+}
+# 庄园 【原版建筑】
+building_farm_estates_requirement_terrain = {
+	OR = {
+		terrain = farmlands
+		has_building_or_higher = uba_aqueduct_05
+		has_building_or_higher = waterworks_05
+		AND = {
+			OR = {
+				terrain = floodplains
+				terrain = plains
+			}
+			trigger_if = { 
+				limit = { has_global_variable = is_rba_loaded }
+				NOT = { has_game_rule = rba_traditions_off }
+				culture = {
+					has_cultural_parameter = can_build_farms_and_orchards
+				}
+			}
+			trigger_else = { 
+				always = no
+			}
+		}
+	}
+}
+# 果园 【原版建筑】
+building_orchards_requirement_terrain = {
+	OR = {
+		terrain = floodplains
+		terrain = oasis
+		has_building_or_higher = qanats_05
+		# has_building_or_higher = uba_aqueduct_05
+		AND = {
+			OR = {
+				terrain = farmlands
+				terrain = plains
+			}
+			trigger_if = { 
+				limit = { has_global_variable = is_rba_loaded }
+				NOT = { has_game_rule = rba_traditions_off }
+				culture = {
+					has_cultural_parameter = can_build_farms_and_orchards
+				}
+			}
+			trigger_else = { 
+				always = no
+			}
+		}
+		culture = {
+			has_cultural_parameter = vegetarian_fruit_orchard_allowed
+		}
+	}
+}
+# 农场 【原版建筑】
+building_cereal_fields_requirement_terrain = {
+	OR = {
+		terrain = drylands
+		AND = {
+			OR = {
+				terrain = farmlands
+				terrain = plains
+			}
+			trigger_if = { 
+				limit = { has_global_variable = is_rba_loaded }
+				NOT = { geographical_region = rba_monsoon_region }
+			}
+		}
+		AND = {
+			terrain = floodplains
+			trigger_if = { 
+				limit = { has_global_variable = is_rba_loaded }
+				NOT = { geographical_region = rba_monsoon_region }
+			}
+			trigger_else = {
+				NOR = {
+					geographical_region = graphical_east_asia
+					geographical_region = custom_viet_lands
+				}
+			}
+		}
+		county = {
+			OR = {
+				has_county_modifier = fertile_desert_mountains_modifier
+				has_county_modifier = dodekapolis_modifier
+			}
+		}
+		has_building_or_higher = qanats_05
+		has_building_or_higher = uba_aqueduct_05
+		has_building_or_higher = waterworks_05
+	}
+}
+
+# 商队驿站【原版】
+building_caravanserai_requirement_terrain = {
+	OR = {
+		county ?= {
+			any_county_province = {
+				OR = {
+					terrain = drylands
+					terrain = desert
+					terrain = oasis
+					terrain = floodplains
+					terrain = steppe
+					terrain = desert_mountains
+					AND = {
+						geographical_region = world_europe_west_iberia
+						has_global_variable = fp2_struggle_conciliation_ending
+					}
+				}
+			}
+		}
+		
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			scope:holder.top_liege = {
+				any_realm_county = {
+					any_county_province = {
+						OR = {
+							has_building_with_flag = { flag = silk_road_node }
+							has_building_or_higher = kaifeng_palace_01
+							has_building_or_higher = theodosian_walls_01
+						}
+					}
+				}
+			}
+			duchy = {
+				any_de_jure_county = {
+					any_county_province = {
+						OR = {
+							has_building_with_flag = { flag = silk_road_node }
+							has_building_or_higher = kaifeng_palace_01
+							has_building_or_higher = theodosian_walls_01
+						}
+					}
+				}
+			}
+		}
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_market_03
+							has_building_or_higher = UBA_port_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+### 大要塞
+## 训练场
+# 军团训练场 【原版建筑】
+building_regimental_grounds_requirement_terrain = {
+	OR = {
+		terrain = floodplains
+		terrain = farmlands
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_castle_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_cultural_parameter = unlock_regimental_grounds_in_more_region }
+			OR = {
+				has_building_or_higher = barracks_01
+				has_building_or_higher = military_camps_01
+				has_building_or_higher = stables_01
+			}
+		}
+	}
+}
+# 战士公会 【原版建筑】
+building_warrior_lodges_requirement_terrain = {
+	OR = {
+		AND = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = hills
+				terrain = terraced_hills
+			}
+			NOT = { geographical_region = world_horse_buildings_in_hills_and_mountains }
+		}
+		culture = { has_cultural_parameter = warrior_lodges_lift_restrictions }
+
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_test_building_1
+							has_building_or_higher = UBA_castle_03
+						}
+					}
+				}
+			}
+		}
+		# trigger_if = { 
+		# 	limit = { has_global_variable = is_rba_loaded }
+		# 	culture = { has_innovation = innovation_rba_training_ground }
+		# 	OR = {
+		# 		has_building_or_higher = barracks_05
+		# 		has_building_or_higher = military_camps_05
+		# 	}
+		# }
+	}
+}
+## 护林官
+# 山坡放牧地 【原版建筑】
+building_hillside_grazing_requirement_terrain = {
+	OR = {
+		AND = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = hills
+				terrain = terraced_hills
+			}
+			OR = {
+				geographical_region = world_horse_buildings_in_hills_and_mountains
+				culture = { has_cultural_parameter = unlock_hillside_grazing_building_in_more_region }
+			}
+		}
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_castle_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		# trigger_if = { 
+		# 	limit = { has_global_variable = is_rba_loaded }
+		# 	culture = { has_innovation = innovation_rba_regarders }
+		# 	has_building_or_higher = stables_05
+		# }
+	}
+}
+# 牧马场
+building_horse_pastures_requirement_terrain = {
+	OR = {
+		terrain = steppe
+		geographical_region = world_steppe_east
+		culture = { has_cultural_parameter = unlock_horse_pastures_building }
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_hunting_03
+							has_building_or_higher = UBA_yurt_03
+							has_building_or_higher = UBA_pasture_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		# trigger_if = { 
+		# 	limit = { has_global_variable = is_rba_loaded }
+		# 	culture = { has_innovation = innovation_rba_regarders }
+		# 	has_building_or_higher = stables_05
+		# }
+	}
+}
+
+### 水利系统
+# 坎儿井 【原版建筑】灌溉专家传统/水利系统
+building_qanats_requirement_terrain = {
+	county ?= {
+		any_county_province = {
+			OR = {
+				terrain = hills
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = desert
+				terrain = drylands
+			}
+		}
+	}
+	OR = {
+		culture = { has_cultural_parameter = unlocks_qanat_building }
+		scope:holder = {
+			any_directly_owned_province = {
+				trigger_if = { 
+					limit = { has_global_variable = is_uba_loaded }
+					OR = {
+						has_building_or_higher = UBA_basins_03
+						has_building_or_higher = UBA_test_building_1
+					}
+				}
+			}
+		}
+	}
+	NOR = {
+		has_building_or_higher = uba_aqueduct_01
+		# has_building_or_higher = waterworks_01
+	}
+}
+## 卫生设施【原版革新】/水利系统
+# 水渠
+building_uba_aqueduct_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			OR = {
+				any_directly_owned_province = {
+					OR = {
+						trigger_if = { 
+							limit = { has_global_variable = is_uba_loaded }
+							OR = {
+								has_building_or_higher = UBA_basins_03
+								has_building_or_higher = UBA_test_building_1
+							}
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			AND = {
+				culture = { has_cultural_parameter = unlocks_aqueduct_and_bathroom_buildings }
+				county ?= {
+					any_county_province = {
+						OR = {
+							terrain = hills # 山地类（不包括沙漠山地）
+							terrain = mountains
+							terrain = farmlands # 农田/平原/绿洲/湿地
+							terrain = plains
+							terrain = oasis
+							terrain = wetlands
+							is_riverside_province = yes # 沿河
+						}
+					}
+				}
+			}
+		}
+	}
+	NOR = {
+		has_building_or_higher = qanats_01
+		# has_building_or_higher = waterworks_01
+	}
+}
+# 浴场
+building_uba_bathroom_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_basins_03
+							has_building_or_higher = UBA_hospital_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_cultural_parameter = unlocks_aqueduct_and_bathroom_buildings }
+		}
+	}
+}
+
+## 复式记账法【原版革新】
+# 税局
+building_uba_taxing_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_governor_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_cultural_parameter = unlocks_taxing_and_bazaar_buildings }
+		}
+	}
+}
+# 集市
+building_uba_bazaar_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_holyland_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			AND = {
+				culture = { has_cultural_parameter = unlocks_taxing_and_bazaar_buildings }
+				county ?= {
+					any_county_province = {
+						OR = {
+							terrain = farmlands
+							terrain = plains
+							terrain = drylands
+							terrain = oasis
+							terrain = floodplains
+							terrain = steppe
+							terrain = wetlands
+						}
+					}
+				}
+			}
+		}
+	}
+}
+### 抄书吏
+# 市政厅
+building_uba_townhall_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_parliament_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_scribe }
+		}
+	}
+}
+# 图书馆
+building_uba_library_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_university_03
+							has_building_or_higher = UBA_academy_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_scribe }
+		}
+	}
+}
+# 礼拜堂
+building_uba_temple_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_church_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_scribe }
+		}
+	}
+}
+# 广场
+building_uba_piazza_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_colosseum_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			AND = {
+				culture = { has_innovation = innovation_rba_scribe }
+				# county ?= {
+				# 	any_county_province = {
+				# 		OR = {
+				# 			terrain = farmlands
+				# 			terrain = plains
+				# 			terrain = drylands
+				# 			terrain = oasis
+				# 			terrain = floodplains
+				# 			terrain = steppe
+				# 			terrain = wetlands
+				# 		}
+				# 	}
+				# }
+			}
+		}
+	}
+}
+
+### 训练场
+# 检查站
+building_uba_checkpoint_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_tower_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_training_ground }
+		}
+			# OR = {
+			# 	terrain = hills # 山地类（不包括沙漠山地）
+			# 	terrain = mountains
+			# 	terrain = plains # 平原
+			# 	terrain = oasis # 湿地类
+			# 	terrain = wetlands
+			# 	terrain = desert_mountains #旱地类
+			# 	terrain = desert
+			# 	terrain = drylands
+			# }
+	}
+}
+# 骑士训练场
+building_uba_joust_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_knight_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { 
+				OR = {
+					has_cultural_tradition = tradition_warriors_by_merit #选兵唯能
+					has_cultural_tradition = tradition_only_the_strong #唯有强者
+					has_cultural_tradition = tradition_martial_admiration #尚武
+					has_cultural_tradition = tradition_chanson_de_geste #武功歌
+					has_cultural_tradition = tradition_chivalry #骑士精神
+					has_cultural_tradition = tradition_ep3_audacious_cadets #大胆的次子
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_training_ground }
+		}
+	}
+}
+
+### 护林官
+# 皮草贸易
+building_uba_fur_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_hunting_03
+							has_building_or_higher = UBA_pasture_03
+							has_building_or_higher = UBA_yurt_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { 
+				OR = {
+					has_cultural_tradition = tradition_hunters #多产猎手
+					has_cultural_tradition = tradition_ep2_avid_falconers #狂热的训鹰人
+					has_cultural_tradition = tradition_sacred_hunts #圣猎
+					has_cultural_tradition = tradition_bush_hunting #荒野狩猎
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_regarders }
+			culture = { has_cultural_parameter = unlock_fur_hunting_grounds }
+			has_building_or_higher = hunting_grounds_01
+		}
+	}
+}
+
+### 私人地产
+# 郊外行宫
+building_uba_residence_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_palace_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_private_estate }
+			scope:holder = {
+				highest_held_title_tier >= tier_duchy
+			}
+		}
+	}
+}
+# 私家庄园
+building_uba_manor_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_reserve_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_private_estate }
+			OR = {
+				terrain = farmlands
+				terrain = plains
+				terrain = drylands
+				terrain = floodplains
+				terrain = oasis
+				county = {
+					OR = {
+						has_county_modifier = fertile_desert_mountains_modifier
+						has_county_modifier = dodekapolis_modifier
+					}
+				}
+			}
+		}
+	}
+}
+# 藏身处
+building_uba_private_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_secret_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_innovation = innovation_rba_private_estate }
+		}
+	}
+}
+
+### 种植园
+# 草药园 【原版建筑】药典革新/种植园革新
+building_uba_herbal_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_hospital_03
+							has_building_or_higher = UBA_garden_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			culture = { has_cultural_parameter = unlocks_herbal_building }
+		}
+	}
+}
+# 橄榄园 种植园革新
+building_uba_olive_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_garden_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+		AND = {
+			has_global_variable = is_rba_loaded
+			OR = {
+				terrain = hills
+				terrain = mountains
+				terrain = drylands
+				terrain = plains
+				terrain = oasis
+				terrain = floodplains
+				terrain = farmlands
+				terrain = forest
+				terrain = wetlands
+				
+			}
+			OR = {
+				geographical_region = mediteranean_coast
+				trigger_if = { 
+					limit = { has_global_variable = is_rba_loaded }
+					culture = { has_cultural_parameter = unlocks_olive_for_more_region }
+					geographical_region = material_woods_mediterranean
+				}
+			}
+		}
+	}
+		
+	
+}
+# 葡萄园 种植园革新
+building_uba_vineyard_requirement = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_test_building_1
+							has_building_or_higher = UBA_garden_03
+						}
+					}
+				}
+			}
+		}
+		AND = {
+			has_global_variable = is_rba_loaded
+			NOR = { # 地形
+				terrain = desert
+				terrain = desert_mountains
+				terrain = taiga
+				terrain = jungle
+				terrain = steppe
+			}
+			OR = { # 非葡萄产地
+				has_game_rule = rba_region_limit_off
+				NOT = { geographical_region = rba_no_vineyard_region }
+			}
+			OR = { # 文化与宗教
+				AND = {
+					has_building_or_higher = temple_$NUMBER$
+					OR = {
+						faith = faith:catholic
+						faith = { has_doctrine_parameter = allows_brewery }
+					}
+				}
+				AND = {
+					has_building_or_higher = city_$NUMBER$
+					culture = { has_cultural_parameter = allows_brewery }
+				}
+				AND = {
+					trigger_if = { 
+						limit = { has_global_variable = is_rba_loaded }
+						culture = { has_cultural_parameter = unlocks_breweries_for_other_holdings }
+					}
+					OR = {
+						has_building_or_higher = city_$NUMBER$
+						has_building_or_higher = temple_$NUMBER$
+						has_building_or_higher = castle_$NUMBER$
+						has_building_or_higher = temple_citadel_$NUMBER$
+					}
+					# scope:holder = {
+					# 	OR = {
+					# 		NOT = { religion = religion:islam_religion }
+					# 		has_trait = drunkard
+					# 		has_trait = lifestyle_reveler
+					# 	}
+					# }
+				}
+			}
+		}
+	}
+}
+
+### 龙窑【原版革新】
+# 陶瓷
+building_uba_kiln_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	culture = { has_cultural_parameter = unlock_dragon_kiln_buildings }
+	OR = {
+		trigger_if = { 
+			limit = { has_global_variable = is_rba_loaded }
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = hills
+				terrain = terraced_hills
+				culture = { has_cultural_parameter = can_build_quarries_everywhere }
+				scope:holder = {
+					highest_held_title_tier >= tier_empire
+				}
+			}
+		}
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					trigger_if = { 
+						limit = { has_global_variable = is_uba_loaded }
+						OR = {
+							has_building_or_higher = UBA_workshop_03
+							has_building_or_higher = UBA_test_building_1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+### 占城稻【原版革新】
+# 茶叶
+building_uba_tea_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	culture = {
+		OR = {
+			has_cultural_parameter = unlocks_tea_buildings
+			has_innovation = innovation_champa_rice
+		}
+	}
+	trigger_if = { 
+		limit = { has_global_variable = is_rba_loaded }
+		OR = {
+			AND = {
+				OR = {
+					has_game_rule = rba_region_limit_off
+					geographical_region = rba_tea_region
+				}
+				OR = {
+					terrain = mountains
+					terrain = hills
+					terrain = terraced_hills
+					terrain = floodplains
+				}
+			}
+			scope:holder = {
+				any_directly_owned_province = {
+					OR = {
+						has_building_or_higher = UBA_garden_03
+						has_building_or_higher = UBA_test_building_1
+					}
+				}
+			}
+		}
+	}
+	trigger_else_if = {
+		limit = { has_global_variable = is_uba_loaded }
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					has_building_or_higher = UBA_garden_03
+					has_building_or_higher = UBA_test_building_1
+				}
+			}
+		}
+	}
+}
+# 丝绸
+building_uba_silk_requirement_terrain = {
+	NOT = { has_game_rule = uba_common_buildings_off }
+	OR = {
+		# scope:holder = { house = { has_house_modifier = ep3_unlocked_silk } }
+		culture = { has_cultural_parameter = unlocks_silk_buildings_parameter }
+	}
+	trigger_if = { 
+		limit = { has_global_variable = is_rba_loaded }
+		OR = {
+			AND = {
+				OR = {
+					has_game_rule = rba_region_limit_off
+					geographical_region = rba_silk_region
+					# this.barony = title:b_constantinople
+				}
+				OR = {
+					terrain = farmlands
+					terrain = plains
+					terrain = floodplains
+					terrain = terraced_hills
+				}
+			}
+			scope:holder = {
+				any_directly_owned_province = {
+					OR = {
+						has_building_or_higher = UBA_garden_03
+						has_building_or_higher = UBA_test_building_1
+					}
+				}
+			}
+		}
+	}
+	trigger_else_if = {
+		limit = { has_global_variable = is_uba_loaded }
+		scope:holder = {
+			any_directly_owned_province = {
+				OR = {
+					has_building_or_higher = UBA_garden_03
+					has_building_or_higher = UBA_test_building_1
+				}
+			}
+		}
+	}
+}

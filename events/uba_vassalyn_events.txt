@@ -1,0 +1,511 @@
+﻿namespace = uba_vassalyn
+#Vassalyn's gift
+uba_vassalyn.1000 = { #要矿吗
+	type = character_event
+	title = uba_vassalyn.1000.t
+	desc = uba_vassalyn.1000.desc
+	theme = skull
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = fear #ecstasy
+	}
+
+	option = {
+		name = uba_vassalyn.1000.a
+		flavor = uba_vassalyn.1000.a.flavor
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1001
+		}
+	}
+
+	# option = {
+	# 	name = uba_vassalyn.1000.z
+	# 	flavor = uba_vassalyn.1000.z.flavor
+	# 	hidden_effect = {
+	# 		trigger_event = uba_decisions.0001
+	# 	}
+	# }
+	
+	option = {
+		name = uba_vassalyn.1000.back
+		flavor = uba_vassalyn.1000.back.flavor
+		remove_global_variable = uba_event_ongoing
+		# add_gold = 2000
+		# uba_cleanup_effect = yes
+		# remove_decision_cooldown = uba_building_decision_1
+	}
+	
+	option = {
+		name = uba_vassalyn.1000.cancel
+		flavor = uba_vassalyn.1000.cancel.flavor
+		uba_cleanup_effect = yes
+		remove_decision_cooldown = uba_building_decision_1
+	}
+}
+uba_vassalyn.1001 = { #矿
+	type = character_event
+	title = uba_vassalyn.1001.t
+	desc = {
+		first_valid = {
+			# 初见
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = var:uba_deal_with_vassalyn }
+				}
+				desc = uba_vassalyn.1001.desc
+			}
+			# 欢迎下次光临
+			triggered_desc = {
+				trigger = {
+					exists = var:uba_deal_with_vassalyn
+				}
+				desc = uba_vassalyn.1001.again
+			}
+		}
+	}
+	theme = skull
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	option = {
+		name = uba_vassalyn.1001.a
+		flavor = uba_vassalyn.1001.a.flavor
+		add_piety = -200
+		remove_short_term_gold = 30
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1100
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1001.b
+		flavor = uba_vassalyn.1001.b.flavor
+		add_piety = -200
+		remove_short_term_gold = 30
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1200
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1001.c
+		flavor = uba_vassalyn.1001.c.flavor
+		add_piety = -200
+		remove_short_term_gold = 30
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_wonderful_mines_added
+				}
+			}
+		}
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1900
+		}
+	}
+
+	# option = {
+	# 	name = uba_vassalyn.1001.z
+	# 	hidden_effect = {
+	# 		trigger_event = uba_decisions.0001
+	# 	}
+	# }
+	
+	option = {
+		name = uba_vassalyn.1001.back
+		flavor = uba_vassalyn.1001.back.flavor
+	}
+	
+	option = {
+		name = uba_vassalyn.1001.cancel
+		flavor = uba_vassalyn.1001.cancel.flavor
+	}
+}
+uba_vassalyn.1100 = { #非金属矿
+	type = character_event
+	title = uba_vassalyn.1100.t
+	desc = uba_vassalyn.1100.desc
+	theme = secret
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	immediate = {
+		set_variable = {
+			name = uba_deal_with_vassalyn
+			value = 1
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1100.a
+		flavor = uba_vassalyn.1100.a.flavor
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_gems_mines_added
+				}
+			}
+			# exists = var:uba_building_location
+		}
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_gems_mines_01
+		# 	add_special_building = UBA_gems_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 5 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_gems_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_gems_mines_01
+		# 	add_special_building = UBA_gems_mines_01
+		# }
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_gems_mines_added
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1100.b
+		flavor = uba_vassalyn.1100.b.flavor
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_diamonds_mines_added
+				}
+			}
+			# exists = var:uba_building_location
+		}
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_diamonds_mines_01
+		# 	add_special_building = UBA_diamonds_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 5 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_diamonds_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_diamonds_mines_01
+		# 	add_special_building = UBA_diamonds_mines_01
+		# }
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_diamonds_mines_added
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1100.c
+		flavor = uba_vassalyn.1100.c.flavor
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_jade_mines_01
+		}
+	}
+	option = {
+		name = uba_vassalyn.1100.d
+		flavor = uba_vassalyn.1100.d.flavor
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_salt_mines_01
+		}
+	}
+	option = {
+		name = uba_vassalyn.1100.z
+		flavor = uba_vassalyn.1100.z.flavor
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1001
+		}
+	}
+}
+uba_vassalyn.1200 = { #金属矿
+	type = character_event
+	title = uba_vassalyn.1200.t
+	desc = uba_vassalyn.1200.desc
+	theme = secret
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	immediate = {
+		set_variable = {
+			name = uba_deal_with_vassalyn
+			value = 1
+		}
+	}
+	
+	option = {
+		name = uba_vassalyn.1200.a
+		flavor = uba_vassalyn.1200.a.flavor
+		# trigger = { exists = var:uba_building_location }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_gold_mines_01
+		# 		add_special_building = UBA_gold_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 4 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_gold_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_gold_mines_01
+		# 	add_special_building = UBA_gold_mines_01
+		# }
+	}
+
+	option = {
+		name = uba_vassalyn.1200.b
+		flavor = uba_vassalyn.1200.b.flavor
+		# trigger = { exists = var:uba_building_location }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_silver_mines_01
+		# 		add_special_building = UBA_silver_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 3 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_silver_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_silver_mines_01
+		# 	add_special_building = UBA_silver_mines_01
+		# }
+	}
+	
+	option = {
+		name = uba_vassalyn.1200.c
+		flavor = uba_vassalyn.1200.c.flavor
+		# trigger = { exists = var:uba_building_location }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_copper_mines_01
+		# 		add_special_building = UBA_copper_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 2 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_copper_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_copper_mines_01
+		# 	add_special_building = UBA_copper_mines_01
+		# }
+	}
+
+	option = {
+		name = uba_vassalyn.1200.d
+		flavor = uba_vassalyn.1200.d.flavor
+		# trigger = { exists = var:uba_building_location }
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_iron_mines_01
+		# 		add_special_building = UBA_iron_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 2 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_iron_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_iron_mines_01
+		# 	add_special_building = UBA_iron_mines_01
+		# }
+	}
+
+	option = {
+		name = uba_vassalyn.1200.z
+		flavor = uba_vassalyn.1200.z.flavor
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1001
+		}
+	}
+}
+uba_vassalyn.1900 = { #我全都要
+	type = character_event
+	title = uba_vassalyn.1900.t
+	desc = uba_vassalyn.1900.desc
+	theme = secret
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	immediate = {
+		set_variable = {
+			name = uba_deal_with_vassalyn
+			value = 1
+		}
+	}
+	
+	option = {
+		name = uba_vassalyn.1900.a
+		flavor = uba_vassalyn.1900.a.flavor
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1901
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1900.z
+		flavor = uba_vassalyn.1900.z.flavor
+		hidden_effect = {
+			trigger_event = uba_vassalyn.1001
+		}
+	}
+}
+uba_vassalyn.1901 = { #奇迹矿
+	type = character_event
+	title = uba_vassalyn.1901.t
+	desc = uba_vassalyn.1901.desc
+	theme = secret
+	override_sound = { reference = event:/SFX/Events/Themes/sfx_event_theme_type_generic }
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+
+	immediate = {
+		trigger_event = {
+			id = uba_vassalyn.1902
+			days = 7
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1901.a
+		flavor = uba_vassalyn.1901.a.flavor
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_wonderful_mines_added
+				}
+			}
+			# exists = var:uba_building_location
+		}
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_wonderful_mines_01
+		# 		add_special_building = UBA_wonderful_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 10 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_wonderful_mines_01
+		}
+		# scope:barony.title_province = {
+		# 	add_special_building_slot = UBA_wonderful_mines_01
+		# 	add_special_building = UBA_wonderful_mines_01
+		# }
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_wonderful_mines_added
+		}
+	}
+
+	option = {
+		name = uba_vassalyn.1901.b
+		flavor = uba_vassalyn.1901.b.flavor
+		trigger = {
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:UBA_wonderful_mines_added
+				}
+			}
+			exists = var:uba_building_location
+		}
+		# if = {
+		# 	limit = { exists = var:uba_building_location }
+		# 	var:uba_building_location = { save_scope_as = uba_building_location }
+		# 	var:uba_building_location = {
+		# 		add_special_building_slot = UBA_wonderful_mines_01
+		# 		add_special_building = UBA_wonderful_mines_01
+		# 	}
+		# 	uba_cleanup_effect = yes
+		# 	uba_deal_with_chlosey_effect = { NUM = 10 }
+		# }
+		set_variable = {
+			name = uba_find_mines_planned
+			value = flag:UBA_wonderful_mines_01
+		}
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:UBA_wonderful_mines_added
+		}
+	}
+}
+uba_vassalyn.1902 = { #奇迹的代价
+	type = character_event
+	title = uba_vassalyn.1902.t
+	desc = uba_vassalyn.1902.desc
+	theme = mental_break
+	left_portrait = {
+		character = root
+		animation = stress
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_stress"
+	}
+
+	option = {
+		name = uba_vassalyn.1902.a
+		flavor = uba_vassalyn.1902.a.flavor
+		# scope:actor = {
+		# 	add_piety_level = -1
+		# 	add_prestige_level = -1
+		# 	stress_impact = { base = major_stress_impact_gain }
+		# }
+		add_piety_level = -2
+		add_prestige_level = -2
+		stress_impact = { base = massive_stress_impact_gain }
+	}
+}

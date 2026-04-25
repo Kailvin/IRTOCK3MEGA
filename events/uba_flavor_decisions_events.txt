@@ -1,0 +1,268 @@
+﻿namespace = uba_flavor_decisions
+
+# 领养宠物
+uba_flavor_decisions.0011 = {
+	type = character_event
+	title = uba_flavor_decisions.0011.t
+	desc = uba_flavor_decisions.0011.desc
+	theme = laamp
+	override_background = { reference = terrain }
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+
+	#领养一只小狗
+	option = {
+		name = uba_flavor_decisions.0011.a
+		trigger = {
+			NOT = { has_character_flag = had_dog_story }
+		}
+		start_dog_story_cycle_effect = yes
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	#领养一只小猫
+	option = {
+		name = uba_flavor_decisions.0011.b
+		start_cat_story_cycle_effect = yes
+		trigger = {
+			NOT = { has_character_flag = had_cat_story }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	#领养一匹战马
+	option = {
+		name = uba_flavor_decisions.0011.c
+		start_warhorse_story_cycle_effect = yes
+		trigger = {
+			NOT = { has_character_flag = had_warhorse_story }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	#领养一块石头
+	option = {
+		name = uba_flavor_decisions.0011.rock
+		custom_tooltip = uba_flavor_decisions.0011.rock.tt
+		trigger = {
+			has_trait = eccentric
+			NOT = { has_character_modifier = rock_story_modifier } 
+		}
+		hidden_effect = {
+			trigger_event = pet_rock.0001
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	#算了（放弃）
+	option = {
+		name = uba_flavor_decisions.0011.cancel
+		add_gold = medium_gold_value
+		remove_decision_cooldown = uba_flavor_pet_decision
+	}
+}
+
+# 寻找狩猎目标
+uba_flavor_decisions.0012 = {
+	type = character_event
+	title = uba_flavor_decisions.0012.t
+	desc = uba_flavor_decisions.0012.desc
+	theme = hunt_activity
+	override_background = {
+		trigger = { is_landed = yes }
+		reference = relaxing_room
+	}
+	override_background = {
+		trigger = { is_landed = no }
+		reference = terrain_travel
+	}
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:portrait_character
+		animation = hunting_knife_start
+	}
+
+	trigger = {
+		employs_court_position = master_of_hunt_court_position
+	}
+
+	immediate = {
+		# Save courtier
+		hunt_activity_sighting_master_effect = { TYPE = hunter }
+		remove_character_flag = recent_hunt_sighting
+		hidden_effect = {
+			random_court_position_holder = {
+				type = master_of_hunt_court_position
+				limit = {
+					NOT = {
+						has_trait = lifestyle_hunter
+					}
+				}
+				add_trait = lifestyle_hunter
+			}
+		}
+		add_trait = lifestyle_hunter
+	}
+
+	#寻找普通目标
+	option = {
+		name = uba_flavor_decisions.0012.a
+		trigger_event = {
+			id = hunt.2500
+			days = { 7 14 }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	#寻找鹰猎目标
+	option = {
+		name = uba_flavor_decisions.0012.b
+		trigger_event = {
+			id = hunt.2530
+			days = { 7 14 }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	#寻找传奇目标
+	option = {
+		name = uba_flavor_decisions.0012.c
+		trigger_event = {
+			id = hunt.2510
+			days = { 14 28 }
+		}
+		trigger = {
+			NOT = { any_realm_county = { has_county_modifier = hunt_sighting_legendary_modifier } }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	#寻找野兽目标
+	option = {
+		name = uba_flavor_decisions.0012.d
+		trigger_event = {
+			id = hunt.2520
+			days = { 14 28 }
+		}
+		trigger = {
+			NOT = { any_realm_county = { has_county_modifier = hunt_sighting_dangerous_modifier } }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	#算了（放弃）
+	option = {
+		name = uba_flavor_decisions.0012.cancel
+		add_gold = medium_gold_value
+		remove_decision_cooldown = uba_flavor_hunt_decision
+	}
+}
+
+
+scripted_trigger fp1_0071_valid_marshal_for_delegation_trigger = {
+	exists = this
+	is_available_ai_adult = yes
+}
+
+
+# 提高军事技能
+uba_flavor_decisions.0021 = {
+	type = character_event
+	title = uba_flavor_decisions.0021.t
+	desc = uba_flavor_decisions.0021.desc
+	theme = martial_strategy_focus
+	left_portrait = {
+		character = root
+		animation = personality_compassionate
+	}
+	right_portrait = {
+		character = scope:training_knight
+		animation = inspect_weapon
+	}
+
+	immediate = {
+		random_knight = {
+			limit = {
+				prowess >= 8
+				root = {
+					any_knight = {
+						prowess >= 8
+						NOT = { this = scope:training_knight }
+					}
+				}
+			}
+			save_scope_as = training_knight
+		}
+	}
+
+	option = {
+		name = uba_flavor_decisions.0021.a
+		custom_tooltip = uba_flavor_decisions.0021.a.tt
+		every_knight = {
+			limit = {
+				prowess < 8
+			}
+			add_prowess_skill = { 2 4 }
+		}
+		every_knight = {
+			limit = {
+				prowess >= 8
+			}
+			add_prowess_skill = { 1 2 }
+		}
+		root = {
+			add_prowess_skill = { 1 4 }
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+
+	option = {
+		name = uba_flavor_decisions.0021.b
+		custom_tooltip = uba_flavor_decisions.0021.b.tt
+		hidden_effect = {
+			every_knight = {
+				# limit = {
+				# 	prowess >= 8
+				# }
+				give_random_commander_trait_effect = yes
+			}
+			root = {
+				give_random_commander_trait_effect = yes
+			}
+		}
+		# root = {
+		# 	add_prowess_skill = 2
+		# }
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	#算了（放弃）
+	option = {
+		name = uba_flavor_decisions.0021.cancel
+		add_gold = medium_gold_value
+		remove_decision_cooldown = uba_flavor_knight_decision
+	}
+}

@@ -1,0 +1,444 @@
+﻿uba_remove_special_building_effect = {
+	uba_remove_vanilla_special_buildings_effect = yes
+	uba_remove_uba_special_buildings_effect = yes
+}
+# 清除原版特建
+uba_remove_vanilla_special_buildings_effect = {
+	scope:barony.title_province = {
+		switch = {
+			trigger = has_building_or_higher
+			# theodosian_walls_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = theodosian_walls } }
+			# aurelian_walls_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = aurelian_walls } }
+			holy_site_cathedral_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_cathedral } }
+			holy_site_mosque_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_mosque } }
+			holy_site_fire_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_fire_temple } }
+			holy_site_pagan_grand_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_pagan_grand_temple } }
+			holy_site_indian_grand_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_indian_grand_temple } }
+			holy_site_other_grand_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_other_grand_temple } }
+			holy_site_imam_ali_mosque_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_imam_ali_mosque } }
+			holy_site_great_mosque_of_mecca_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_great_mosque_of_mecca } }
+			holy_site_great_mosque_of_cordoba_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_great_mosque_of_cordoba } }
+			holy_site_great_mosque_of_djenne_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_great_mosque_of_djenne } }
+			holy_site_great_mosque_of_samarra_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_great_mosque_of_samarra } }
+			holy_site_cologne_cathedral_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_cologne_cathedral } }
+			holy_site_canterbury_cathedral_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_canterbury_cathedral } }
+			holy_site_prophetic_mosque_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_prophetic_mosque } }
+			doges_palace_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = doges_palace } }
+			walls_of_genoa_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = walls_of_genoa } }
+			visby_ringmur_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = visby_ringmur } }
+			walls_of_benin_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = walls_of_benin } }
+			the_colosseum_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = the_colosseum } }
+			iron_pillar_of_delhi_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = iron_pillar_of_delhi } }
+			iron_pillar_of_dhar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = iron_pillar_of_dhar } }
+			the_pyramids_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = the_pyramids } }
+			stonehenge_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = stonehenge } }
+			offas_dyke_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = offas_dyke } }
+			hadrians_wall_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hadrians_wall } }
+			petra_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = petra } }
+			buddhas_of_bamian_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = buddhas_of_bamian } }
+			alhambra_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = alhambra } }
+			alhambra_02 = { uba_remove_vanilla_special_building_effect = { BUILDING = alhambra_02 } }
+			citadel_of_aleppo_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = citadel_of_aleppo } }
+			citadel_of_aleppo_02 = { uba_remove_vanilla_special_building_effect = { BUILDING = citadel_of_aleppo_02 } }
+			house_of_wisdom_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = house_of_wisdom } }
+			the_tower_of_london_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = the_tower_of_london } }
+			notre_dame_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = notre_dame } }
+			brihadeeswarar_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = brihadeeswarar_temple } }
+			shwedagon_pagoda_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = shwedagon_pagoda } }
+			ananda_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ananda_temple } }
+			the_friday_mosque_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = the_friday_mosque } }
+			khajuraho_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = khajuraho } }
+			palace_of_aachen_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = palace_of_aachen } }
+			hagia_sophia_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hagia_sophia } }
+			hagia_sophia_02 = { uba_remove_vanilla_special_building_effect = { BUILDING = hagia_sophia_02 } }
+			dome_of_the_rock_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dome_of_the_rock } }
+			temple_in_jerusalem_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = temple_in_jerusalem } }
+			rammelsberg_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = rammelsberg_mines } }
+			kutna_hora_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kutna_hora_mines } }
+			kremnica_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kremnica_mines } }
+			falun_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = falun_mines } }
+			konasamudram_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = konasamudram_mines } }
+			dean_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dean_mines } }
+			schwaz_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = schwaz_mines } }
+			argentiera_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = argentiera_mines } }
+			srebrenica_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = srebrenica_mines } }
+			kollur_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kollur_mines } }
+			siderokausia_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = siderokausia_mines } }
+			zawar_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = zawar_mines } }
+			pansjhir_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = pansjhir_mines } }
+			nishapur_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = nishapur_mines } }
+			ratnapura_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ratnapura_mines } }
+			allaq_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = allaq_mines } }
+			takkeda_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = takkeda_mines } }
+			turda_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = turda_mines } }
+			taghaza_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = taghaza_mines } }
+			phocaea_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = phocaea_mines } }
+			verespatak_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = verespatak_mines } }
+			khetri_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = khetri_mines } }
+			trepca_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = trepca_mines } }
+			rudnik_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = rudnik_mines } }
+			ijil_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ijil_mines } }
+			cevennes_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = cevennes_mines } }
+			mali_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mali_mines } }
+			hall_of_heroes_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hall_of_heroes } }
+			generic_university = { uba_remove_vanilla_special_building_effect = { BUILDING = generic_university } }
+			al_azhar_university = { uba_remove_vanilla_special_building_effect = { BUILDING = al_azhar_university } }
+			sankore_university = { uba_remove_vanilla_special_building_effect = { BUILDING = sankore_university } }
+			siena_university = { uba_remove_vanilla_special_building_effect = { BUILDING = siena_university } }
+			nalanda_university = { uba_remove_vanilla_special_building_effect = { BUILDING = nalanda_university } }
+			special_sicilian_parliament_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = special_sicilian_parliament } }
+			special_greenhouse_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = special_greenhouse } }
+			hotin_fort_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hotin_fort } }
+			golden_gate_of_kiev_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = golden_gate_of_kiev } }
+			heddal_stave_church_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = heddal_stave_church } }
+			temple_of_uppsala_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = temple_of_uppsala } }
+			lund_cathedral_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lund_cathedral } }
+			danevirke_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = danevirke } }
+			roman_wall_of_lugo_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = roman_wall_of_lugo } }
+			rock_of_gibraltar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = rock_of_gibraltar } }
+			aljaferia_palace_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = aljaferia_palace } }
+			tower_of_hercules_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = tower_of_hercules } }
+			city_wall_of_toledo_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = city_wall_of_toledo } }
+			alcazar_of_segovia_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = alcazar_of_segovia } }
+			holy_site_basilica_santiago_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_basilica_santiago } }
+			imam_reza_shrine_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = imam_reza_shrine } }
+			soltaniyeh_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = soltaniyeh } }
+			palace_of_ctesiphon_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = palace_of_ctesiphon } }
+			falak_ol_aflak_citadel_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = falak_ol_aflak_citadel } }
+			minarets_and_remains_of_jam_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = minarets_and_remains_of_jam } }
+			great_wall_of_gorgan_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = great_wall_of_gorgan } }
+			maharloo_lake_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = maharloo_lake } }
+			rainbow_mountains_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = rainbow_mountains } }
+			mount_damavand_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_damavand } }
+			tomb_of_cyrus_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = tomb_of_cyrus } }
+			ark_of_bukhara_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ark_of_bukhara } }
+			shah_i_zinda_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = shah_i_zinda } }
+			alamut_castle_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = alamut_castle } }
+			event_tower_of_silence_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = event_tower_of_silence } }
+			legendary_shrine = { uba_remove_vanilla_special_building_effect = { BUILDING = legendary_shrine } }
+			legendary_palace = { uba_remove_vanilla_special_building_effect = { BUILDING = legendary_palace } }
+			legendary_statue = { uba_remove_vanilla_special_building_effect = { BUILDING = legendary_statue } }
+			legendary_watchtower = { uba_remove_vanilla_special_building_effect = { BUILDING = legendary_watchtower } }
+			legendary_hunting_lodge = { uba_remove_vanilla_special_building_effect = { BUILDING = legendary_hunting_lodge } }
+		# 1.13 加入特建
+			church_of_the_theotokos = { uba_remove_vanilla_special_building_effect = { BUILDING = church_of_the_theotokos } }
+			parthenon = { uba_remove_vanilla_special_building_effect = { BUILDING = parthenon } }
+			hagios_demetrios = { uba_remove_vanilla_special_building_effect = { BUILDING = hagios_demetrios } }
+			kassiopi_castle = { uba_remove_vanilla_special_building_effect = { BUILDING = kassiopi_castle } }
+			saint_lazarus = { uba_remove_vanilla_special_building_effect = { BUILDING = saint_lazarus } }
+			sumela_monastery_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = sumela_monastery } }
+			patras_castle = { uba_remove_vanilla_special_building_effect = { BUILDING = patras_castle } }
+			maiden_tower = { uba_remove_vanilla_special_building_effect = { BUILDING = maiden_tower } }
+			despot_palace = { uba_remove_vanilla_special_building_effect = { BUILDING = despot_palace } }
+			meteora_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = meteora } }
+			mount_athos_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_athos } }
+			apollinare_nuovo = { uba_remove_vanilla_special_building_effect = { BUILDING = apollinare_nuovo } }
+			saint_catherine = { uba_remove_vanilla_special_building_effect = { BUILDING = saint_catherine } }
+			jvari_monastery = { uba_remove_vanilla_special_building_effect = { BUILDING = jvari_monastery } }
+			etchmiadzin_cathedral = { uba_remove_vanilla_special_building_effect = { BUILDING = etchmiadzin_cathedral } }
+			cattolica_stilo = { uba_remove_vanilla_special_building_effect = { BUILDING = cattolica_stilo } }
+			hosios_loukas = { uba_remove_vanilla_special_building_effect = { BUILDING = hosios_loukas } }
+			sofia_ohrid = { uba_remove_vanilla_special_building_effect = { BUILDING = sofia_ohrid } }
+			fairy_chimneys = { uba_remove_vanilla_special_building_effect = { BUILDING = fairy_chimneys } }
+			cilician_gates = { uba_remove_vanilla_special_building_effect = { BUILDING = cilician_gates } }
+			london_bridge_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = london_bridge } }
+		#ccp3
+			drassanes_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = drassanes } }
+			kyz_kala_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kyz_kala } }
+			cluny_abbey_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = cluny_abbey } }
+			york_walls_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = york_walls } }
+			damascus_mosque_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = damascus_mosque } }
+			jokhang_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = jokhang } }
+			wartburg_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = wartburg } }
+			beta_giyorgis_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = beta_giyorgis } }
+			holy_wisdom_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_wisdom } }
+			kano_walls_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kano_walls } }
+			somapura_university_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = somapura_university } }
+			duomo_florence_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = duomo_florence } }
+			konark_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = konark_temple } }
+			al_qarawiyyin_university_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = al_qarawiyyin_university } }
+			kairouan_basins_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kairouan_basins } }
+			ghana_palace_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ghana_palace } }
+			visegrad_castle_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = visegrad_castle } }
+			wawel_cathedral_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = wawel_cathedral } }
+			vatapi_caves_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = vatapi_caves } }
+			jaisalmer_fort_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = jaisalmer_fort } }
+		# 1.18 加入特建
+			holy_site_buddhist_grand_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_buddhist_grand_temple } }
+			holy_site_japanese_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_japanese_temple } }
+			holy_site_chinese_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_chinese_temple } }
+			holy_site_se_asia_pagan_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = holy_site_se_asia_pagan_temple } }
+			swahili_port_pemba = { uba_remove_vanilla_special_building_effect = { BUILDING = swahili_port_pemba } }
+			swahili_port_zanzibar = { uba_remove_vanilla_special_building_effect = { BUILDING = swahili_port_zanzibar } }
+			swahili_port_mombasa = { uba_remove_vanilla_special_building_effect = { BUILDING = swahili_port_mombasa } }
+			swahili_port_pate = { uba_remove_vanilla_special_building_effect = { BUILDING = swahili_port_pate } }
+			swahili_port_lamu = { uba_remove_vanilla_special_building_effect = { BUILDING = swahili_port_lamu } }
+			wulingyuan_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = wulingyuan } }
+			leshan_giant_buddha_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = leshan_giant_buddha } }
+			yungang_grottoes_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yungang_grottoes } }
+			wudang_mountain_temples_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = wudang_mountain_temples } }
+			shaolin_monastery_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = shaolin_monastery } }
+			lingyin_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lingyin_temple } }
+			giant_wild_goose_pagoda_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = giant_wild_goose_pagoda } }
+			qianling_mausoleum_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = qianling_mausoleum } }
+			quanzhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = quanzhou_seaport } }
+			angkor_wat_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = angkor_wat } }
+			citadel_thang_long_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = citadel_thang_long } }
+			po_klong_garai_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = po_klong_garai } }
+			krakatoa_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = krakatoa } }
+			borobudur_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = borobudur } }
+			hoshi_ryokan_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hoshi_ryokan } }
+			herat_bazaar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = herat_bazaar } }
+			dvin_shuka_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dvin_shuka } }
+			lhasa_market_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lhasa_market } }
+			khiva_bazaar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = khiva_bazaar } }
+			changan_market_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = changan_market } }
+			lahur_bazaar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lahur_bazaar } }
+			hamadan_bazaar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hamadan_bazaar } }
+			dunhuang_market_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dunhuang_market } }
+			sunday_bazaar_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = sunday_bazaar } }
+			mount_fuji_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_fuji } }
+			itsukushima_jinja_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = itsukushima_jinja } }
+			heian_palace_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = heian_palace } }
+			ise_jingu_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ise_jingu } }
+			kofuku_ji_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kofuku_ji } }
+			enryaku_ji_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = enryaku_ji } }
+			dazaifu_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dazaifu } }
+			chinjufu_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = chinjufu } }
+			hakata_port_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hakata_port } }
+			hwangnyongsa_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hwangnyongsa } }
+			byeokran_port_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = byeokran_port } }
+			mount_baekdu_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_baekdu } }
+			dau_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dau_temple } }
+			liuhe_pagoda_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = liuhe_pagoda } }
+			muaro_jambi_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = muaro_jambi } }
+			hanging_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hanging_temple } }
+			pagoda_of_fogong_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = pagoda_of_fogong_temple } }
+			plain_of_jars_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = plain_of_jars } }
+			dieng_plateau_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dieng_plateau } }
+			mount_apo_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_apo } }
+			besakih_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = besakih_temple } }
+			gongsanseong_fortress_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = gongsanseong_fortress } }
+			white_deer_grotto_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = white_deer_grotto_academy } }
+			shigu_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = shigu_academy } }
+			culai_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = culai_academy } }
+			lize_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lize_academy } }
+			maoshan_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = maoshan_academy } }
+			tiantai_monasteries_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = tiantai_monasteries } }
+			jizu_shan_temples_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = jizu_shan_temples } }
+			nanhua_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = nanhua_temple } }
+	
+			# kaifeng_palace_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = kaifeng_palace } }
+			# forbidden_city_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = forbidden_city } }
+		# UBA 历史特建
+			daxiangguo_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = daxiangguo_temple } }
+			white_horse_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = white_horse_temple } }
+			xianshen_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = xianshen_temple } }
+			wuhou_shrine_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = wuhou_shrine } }
+			confucian_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = confucian_temple } }
+			dujiangyan_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = dujiangyan } }
+			qingshui_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = qingshui_temple } }
+			marco_polo_bridge_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = marco_polo_bridge } }
+			yueyang_tower_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yueyang_tower } }
+			yellow_crane_tower_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yellow_crane_tower } }
+			stork_tower_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = stork_tower } }
+			prince_teng_pavilion_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = prince_teng_pavilion } }
+			penglai_pavilion_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = penglai_pavilion } }
+			songling_mausoleum_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = songling_mausoleum } }
+			changgan_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = changgan_temple } }
+			foguang_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = foguang_temple } }
+			qingcheng_mountain_temples_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = qingcheng_mountain_temples } }
+			daming_temple_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = daming_temple } }
+
+			baidi_fortress_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = baidi_fortress } }
+			diaoyu_fortress_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = diaoyu_fortress } }
+
+			yuelu_academy_uba_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yuelu_academy } }
+			chenghao_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = chenghao_academy } }
+			shidong_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = shidong_academy } }
+			quanshan_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = quanshan_academy } }
+			ehu_academy_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = ehu_academy } }
+
+			hangzhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hangzhou_seaport } }
+			xiuzhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = xiuzhou_seaport } }
+			mingzhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mingzhou_seaport } }
+			guangzhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = guangzhou_seaport } }
+			mizhou_seaport_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mizhou_seaport } }
+			
+			mount_tai_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = mount_tai } }
+		# UBA 历史矿藏
+			laizhou_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = laizhou_mines } }
+			zijinshan_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = zijinshan_mines } }
+			tonglyushan_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = tonglyushan_mines } }
+			huize_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = huize_mines } }
+			hanxing_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = hanxing_mines } }
+			zigong_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = zigong_mines } }
+			yanzhou_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yanzhou_mines } }
+			xiechi_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = xiechi_mines } }
+			lianghuai_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = lianghuai_mines } }
+			yanguan_mines_01 = { uba_remove_vanilla_special_building_effect = { BUILDING = yanguan_mines } }
+		}
+	}
+}
+# 清除UBA所属的全部特建
+uba_remove_uba_special_buildings_effect = {
+	scope:barony.title_province = {
+		# 特建
+		switch = {
+			trigger = has_building_or_higher
+			# 特建
+			UBA_colosseum_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_colosseum } }
+			UBA_reserve_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_reserve } }
+			UBA_palace_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_palace } }
+			UBA_castle_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_castle } }
+			UBA_tower_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_tower } }
+			UBA_knight_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_knight } }
+			UBA_workshop_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_workshop } }
+			UBA_governor_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_governor } }
+			UBA_parliament_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_parliament } }
+			UBA_hospital_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_hospital } }
+			UBA_university_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_university } }
+			UBA_church_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_church } }
+			UBA_market_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_market } }
+			UBA_port_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_port } }
+			UBA_holyland_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_holyland } }
+			UBA_basins_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_basins } }
+			UBA_academy_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_academy } }
+			UBA_garden_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_garden } }
+			UBA_secret_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_secret } }
+			UBA_hunting_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_hunting } }
+			UBA_pasture_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_pasture } }
+			UBA_yurt_01 = { uba_remove_uba_special_building_effect = { BUILDING = UBA_yurt } }
+			# 矿
+			UBA_gems_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_gems_mines } }
+			UBA_diamonds_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_diamonds_mines } }
+			UBA_jade_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_jade_mines } }
+			UBA_salt_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_salt_mines } }
+			UBA_gold_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_gold_mines } }
+			UBA_silver_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_silver_mines } }
+			UBA_copper_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_copper_mines } }
+			UBA_iron_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_iron_mines } }
+			UBA_wonderful_mines_01 = { uba_remove_uba_special_mine_effect = { BUILDING = UBA_wonderful_mines } }
+		}
+	}
+}
+# 清除原版特建
+uba_remove_vanilla_special_building_effect = {
+	switch = {
+		trigger = has_building
+		$BUILDING$ = { remove_building = $BUILDING$ }
+		$BUILDING$_01 = { remove_building = $BUILDING$_01 }
+		$BUILDING$_02 = { remove_building = $BUILDING$_02 }
+		$BUILDING$_03 = { remove_building = $BUILDING$_03 }
+		$BUILDING$_04 = { remove_building = $BUILDING$_04 }
+		$BUILDING$_05 = { remove_building = $BUILDING$_05 }
+		$BUILDING$_06 = { remove_building = $BUILDING$_06 }
+		$BUILDING$_07 = { remove_building = $BUILDING$_07 }
+		$BUILDING$_08 = { remove_building = $BUILDING$_08 }
+	}
+	# if = {
+	# 	limit = {
+    #         has_building = $BUILDING$
+    #     }
+	# 	remove_building = $BUILDING$
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_01
+    #     }
+	# 	remove_building = $BUILDING$_01
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_02
+    #     }
+	# 	remove_building = $BUILDING$_02
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_03
+    #     }
+	# 	remove_building = $BUILDING$_03
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_04
+    #     }
+	# 	remove_building = $BUILDING$_04
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_05
+    #     }
+	# 	remove_building = $BUILDING$_05
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_06
+    #     }
+	# 	remove_building = $BUILDING$_06
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_07
+    #     }
+	# 	remove_building = $BUILDING$_07
+	# }
+	# else_if = {
+	# 	limit = {
+    #         has_building = $BUILDING$_08
+    #     }
+	# 	remove_building = $BUILDING$_08
+	# }
+}
+# UBA建筑特建
+uba_remove_uba_special_building_effect = {
+	switch = {
+		trigger = has_building
+		$BUILDING$_01 = { remove_building = $BUILDING$_01 }
+		$BUILDING$_02 = { remove_building = $BUILDING$_02 }
+		$BUILDING$_03 = { remove_building = $BUILDING$_03 }
+		$BUILDING$_04 = { remove_building = $BUILDING$_04 }
+		$BUILDING$_05 = {
+			remove_building = $BUILDING$_05
+			if = {
+				limit = {
+					is_target_in_global_variable_list = {
+						name = uba_unique_buildings_finished
+						target = flag:$BUILDING$_finished
+					}
+				}
+				remove_list_global_variable = {
+					name = uba_unique_buildings_finished
+					target = flag:$BUILDING$_finished
+				}
+			}
+		}
+	}
+}
+# UBA矿井特建
+uba_remove_uba_special_mine_effect = {
+	switch = {
+		trigger = has_building
+		$BUILDING$_01 = { remove_building = $BUILDING$_01 }
+		$BUILDING$_02 = { remove_building = $BUILDING$_02 }
+		$BUILDING$_03 = { remove_building = $BUILDING$_03 }
+		$BUILDING$_04 = { remove_building = $BUILDING$_04 }
+		$BUILDING$_05 = { remove_building = $BUILDING$_05 }
+		$BUILDING$_06 = { remove_building = $BUILDING$_06 }
+		$BUILDING$_07 = { remove_building = $BUILDING$_07 }
+		$BUILDING$_08 = { remove_building = $BUILDING$_08 }
+	}
+	if = {
+		limit = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:$MINE$_mines_added
+			}
+        }
+		remove_list_global_variable = {
+			name = unavailable_unique_decisions
+			target = flag:$MINE$_mines_added
+		}
+	}
+}

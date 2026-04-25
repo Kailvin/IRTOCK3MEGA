@@ -1,0 +1,670 @@
+﻿## 奇观决议
+uba_building_decision = { #选择建筑，准备大工程
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_legitimacy.dds"
+	}
+	decision_group_type = uba
+	ai_check_interval = 0
+	desc = uba_building_decision_desc
+	selection_tooltip = uba_building_decision_tooltip
+
+	widget = {
+		gui = "decision_view_widget_option_list_uba"
+		controller = decision_option_list_controller
+
+		#decision_has_second_step = yes
+		#decision_custom_widget_container = "custom_widgets_container_step_two"
+		decision_to_second_step_button = "CHOOSE_LEGENDARY_BUILDING"
+
+		item = { # 外交
+			value = uba_diplomacy
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_diplomacy_tt
+					OR = {
+						has_trait = architect
+						has_trait = education_diplomacy
+						has_trait = diplomat
+						has_trait = august
+						has_trait = family_first
+						# has_lifestyle = diplomacy_lifestyle
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_diplomacy_desc
+			localization = uba_building_decision_diplomacy
+			icon = "gfx/interface/icons/court_position_types/chronicler_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 军事
+			value = uba_martial
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_martial_tt
+					OR = {
+						has_trait = architect
+						has_trait = education_martial
+						has_trait = strategist
+						has_trait = overseer
+						has_trait = gallant
+						# has_lifestyle = martial_lifestyle
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_martial_desc
+			localization = uba_building_decision_martial
+			icon = "gfx/interface/icons/court_position_types/champion_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 管理
+			value = uba_stewardship
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_stewardship_tt
+					OR = {
+						has_trait = architect
+						has_trait = education_stewardship
+						has_trait = avaricious
+						has_trait = administrator
+						
+						has_trait = education_republican_knowledge_1
+						has_trait = education_republican_knowledge_2
+						has_trait = education_republican_knowledge_3
+						has_trait = education_republican_knowledge_4
+						#has_lifestyle = stewardship_lifestyle
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_stewardship_desc
+			localization = uba_building_decision_stewardship
+			icon = "gfx/interface/icons/court_position_types/court_tutor_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 学识
+			value = uba_learning
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_learning_tt
+					OR = {
+						has_trait = architect
+						has_trait = education_learning
+						has_trait = whole_of_body
+						has_trait = scholar
+						has_trait = theologian
+						#has_lifestyle = learning_lifestyle
+						has_trait = lifestyle_mystic
+						has_trait = lifestyle_physician
+						has_trait = lifestyle_herbalist
+						has_trait = witch
+						has_trait = pilgrim
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_learning_desc
+			localization = uba_building_decision_learning
+			icon = "gfx/interface/icons/court_position_types/court_scholar_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 旅行
+			value = uba_travel
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_travel_tt
+					OR = {
+						has_trait = architect
+						has_trait = lifestyle_traveler
+						has_trait = pilgrim
+						has_trait = theologian #神学家
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_travel_desc
+			localization = uba_building_decision_travel
+			icon = "gfx/interface/icons/court_position_types/travel_leader_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 生活
+			value = uba_lifestyle
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_lifestyle_tt
+					OR = {
+						has_trait = scholar #学者
+						has_trait = architect
+						has_trait = lifestyle_mystic
+						has_trait = witch
+						has_trait = lifestyle_herbalist
+						has_trait = lifestyle_gardener
+						has_trait = lifestyle_hunter
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_lifestyle_desc
+			localization = uba_building_decision_lifestyle
+			icon = "gfx/interface/icons/court_position_types/cultural_emissary_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 谋略
+			value = uba_intrigue
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_intrigue_tt
+					OR = {
+						has_trait = education_intrigue
+						has_trait = schemer
+						has_trait = seducer
+						has_trait = torturer
+						#has_lifestyle = intrigue_lifestyle
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_intrigue_desc
+			localization = uba_building_decision_intrigue
+			icon = "gfx/interface/icons/court_position_types/master_assassin_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 游牧
+			value = uba_nomad
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cost_tt
+					short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+					text = uba_nomad_tt
+					OR = {
+						government_has_flag = government_is_nomadic
+						has_trait = nomadic_philosophy
+					}
+				}
+			}
+			current_description = uba_building_decision_nomad_desc
+			localization = uba_building_decision_nomad
+			icon = "gfx/interface/icons/court_position_types/yurtchi_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 财富
+			value = uba_cash
+			is_valid = {
+				custom_tooltip = { 
+					text = uba_cash_tt
+				}
+			}
+			current_description = uba_building_decision_cash_desc
+			localization = uba_building_decision_cash
+			icon = "gfx/interface/icons/court_position_types/antiquarian_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+		item = { # 城墙与成就建筑
+			value = uba_wall
+			is_valid = {
+				custom_tooltip = { 
+				 	text = uba_cost_tt
+				 	short_term_treasury_or_gold > uba_decision_cost
+				}
+				custom_tooltip = { 
+				 	text = uba_wall_tt
+				 	OR = {
+				 		has_trait = architect
+				 		uba_achievement_unlocked_trigger = yes
+					}
+				}
+				custom_tooltip = { 
+					text = uba_no_nomad_tt
+					NOR = {
+						government_has_flag = government_is_nomadic
+					}
+				}
+			}
+			current_description = uba_building_decision_wall_desc
+			localization = uba_building_decision_wall
+			icon = "gfx/interface/icons/court_position_types/royal_architect_court_position.dds"
+			ai_chance = { value = 10 }
+		}
+	}
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		exists = dynasty
+		is_ai = no
+
+		NOR = { 
+			exists = global_var:uba_decision_off # 决议组关闭
+			# exists = global_var:uba_event_ongoing # 选址事件未结束
+			exists = var:uba_construct_wonder_planned # 已选定
+			exists = var:uba_find_mines_planned # 已选定
+		}
+	}
+
+	is_valid = {
+		# OR = {
+		# 	highest_held_title_tier >= tier_kingdom
+		# 	AND = {
+		# 		is_independent_ruler = yes
+		# 		highest_held_title_tier <= tier_kingdom
+		# 		prestige_level >= medium_prestige_level
+		# 	}
+		# 	AND = {
+		# 		is_independent_ruler = no
+		# 		highest_held_title_tier <= tier_kingdom
+		# 		prestige_level >= high_prestige_level
+		# 	}
+		# }
+		# OR = {
+		# 	employs_court_position = royal_architect_court_position
+		# 	# any_court_position_holder = { type = royal_architect_court_position }
+		# 	has_trait = architect
+		# 	stewardship >= high_skill_rating
+		# }
+		custom_tooltip = {
+			text = great_project_type_uba_construct_wonder_built_recently
+			NOT = {
+				any_sub_realm_county = {
+					has_county_modifier = uba_construct_wonder_built_modifier
+				}
+			}
+		}
+	}
+
+	cost = {
+		gold = 0
+	}
+
+	effect = {
+		custom_tooltip =  uba_building_decision_2_effect
+		custom_tooltip =  uba_construct_wonder_built_modifier_tooltip
+		# show_as_tooltip = {
+		# 	root.capital_province.county = {
+		# 		add_county_modifier = {
+		# 			modifier = uba_construct_wonder_built_modifier
+		# 			days = uba_decision_cooldown
+		# 		}
+		# 	}
+		# }
+		hidden_effect = {
+			#title = uba_building_decision_2.toast
+			if = {
+				limit = {
+					scope:uba_diplomacy = yes
+				}
+				trigger_event = uba_decisions.2000
+			}
+			else_if = {
+				limit = {
+					scope:uba_martial = yes
+				}
+				trigger_event = uba_decisions.3000
+			}
+			else_if = {
+				limit = {
+					scope:uba_stewardship = yes
+				}
+				trigger_event = uba_decisions.4000
+			}
+			else_if = {
+				limit = {
+					scope:uba_learning = yes
+				}
+				trigger_event = uba_decisions.6000
+			}
+			else_if = {
+				limit = {
+					scope:uba_travel = yes
+				}
+				trigger_event = uba_decisions.7000
+			}
+			else_if = {
+				limit = {
+					scope:uba_lifestyle = yes
+				}
+				trigger_event = uba_decisions.8000
+			}
+			else_if = {
+				limit = {
+					scope:uba_intrigue = yes
+				}
+				trigger_event = uba_decisions.5000
+			}
+			else_if = {
+				limit = {
+					scope:uba_nomad = yes
+				}
+				trigger_event = uba_decisions.9000
+			}
+			else_if = {
+				limit = {
+					scope:uba_cash = yes
+					NOT = { exists = var:uba_deal_with_vassalyn }
+				}
+				trigger_event = uba_vassalyn.1000
+			}
+			else_if = {
+				limit = {
+					scope:uba_cash = yes
+					exists = var:uba_deal_with_vassalyn
+				}
+				trigger_event = uba_vassalyn.1001
+			}
+			else_if = {
+				limit = {
+					scope:uba_wall = yes
+				}
+				trigger_event = uba_decisions.1000
+			}
+		}
+		
+		if = { # Royal Architect
+			limit = { employs_court_position = royal_architect_court_position }
+			random_court_position_holder = {
+				type = royal_architect_court_position
+				save_scope_as = uba_architect
+			}
+		}
+		
+		set_global_variable = {
+			name = uba_event_ongoing
+			value = yes
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_remove_building_decision = { #清理特殊建筑
+	picture = {reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"}
+	ai_check_interval = 0
+	decision_group_type = uba
+	desc = uba_remove_building_decision_desc
+	selection_tooltip = uba_remove_building_decision_tooltip
+
+	widget = {
+		gui = decision_view_widget_uba_building_special
+		controller = create_holy_order
+		barony_valid = {
+			trigger_if = {
+				limit = {
+					exists = this
+				}
+				uba_remove_barony_is_valid_trigger = {
+					CHARACTER = scope:ruler
+				}
+			}
+			trigger_else = {
+				custom_description = {
+					text = "has_holy_order_barony_selected"
+					always = no
+				}
+			}
+		}
+	}
+
+	is_shown = {
+		always = no
+		is_ai = no
+		is_ruler = yes
+		is_landed = yes
+		NOT = {
+			exists = global_var:uba_decision_off
+		}
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+		treasury_or_gold = 500
+	}
+
+	effect = {
+		trigger_event = uba_remove_decisions.0001
+		custom_tooltip = uba_remove_building_decision_effect
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_nomadic_building_decision = { #游牧升级特建
+	picture = {
+		reference = "gfx/interface/illustrations/activity_splash_screens/tour_arrival_tribal_neutral.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba
+	desc = uba_nomadic_building_decision_desc
+	selection_tooltip = uba_nomadic_building_decision_tooltip
+
+	widget = {
+		gui = decision_view_widget_uba_building_special
+		controller = create_holy_order
+		barony_valid = {
+			trigger_if = {
+				limit = {
+					exists = this
+				}
+				uba_nomadic_building_barony_is_valid_trigger = {
+					CHARACTER = scope:ruler
+				}
+			}
+			trigger_else = {
+				custom_description = {
+					text = "has_holy_order_barony_selected"
+					always = no
+				}
+			}
+		}
+	}
+
+	is_shown = {
+		is_ai = no
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			government_has_flag = government_is_nomadic
+			has_trait = nomadic_philosophy
+		}
+		NOT = {
+			exists = global_var:uba_decision_off
+		}
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	cost = {
+        gold = {
+            value = massive_prestige_value
+        }
+        prestige = {
+            value = massive_prestige_value
+        }
+        herd = {
+            value = 2000
+        }
+	}
+
+	# cooldown = {
+	# 	years = uba_decision_cooldown
+	# }
+
+	effect = {
+		trigger_event = uba_nomadic_decisions.0001
+		custom_tooltip = uba_nomadic_building_decision_effect
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_decision_off = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba
+	desc = uba_decision_off_desc
+	selection_tooltip = uba_decision_off_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_ai = no
+		NOT = {
+			exists = global_var:uba_decision_off
+		}
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	# cost = {
+	# 	gold = 0
+	# }
+
+	effect = {
+		custom_tooltip =  uba_decision_off_effect
+		set_global_variable = uba_decision_off
+		if = {
+			limit = {
+				exists = global_var:uba_event_ongoing
+			}
+			remove_global_variable = uba_event_ongoing
+		}
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+uba_decision_on = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	ai_check_interval = 0
+	decision_group_type = uba
+	desc = uba_decision_on_desc
+	selection_tooltip = uba_decision_on_tooltip
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		is_ai = no
+		exists = global_var:uba_decision_off
+	}
+
+	is_valid = {
+		# always = no
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+	}
+
+	# cost = {
+	# 	gold = 0
+	# }
+
+	effect = {
+		custom_tooltip =  uba_decision_on_effect
+		remove_global_variable = uba_decision_off
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+

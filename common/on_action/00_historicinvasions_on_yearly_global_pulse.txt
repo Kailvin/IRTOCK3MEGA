@@ -2469,7 +2469,7 @@ hebrew_invasion_on_action = { # 370 or random
 		NOT = { # is set in story
 			is_target_in_global_variable_list = {
 				name = historicinvasions_story_started
-				target = flag:indus_story_started
+				target = flag:hebrew_story_started
 			}
 		}
 	}

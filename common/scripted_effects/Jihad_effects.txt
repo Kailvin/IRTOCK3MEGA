@@ -187,7 +187,7 @@ spawn_jihad_army_effect = {
 		uses_supply = no
 		inheritable = no
 		
-		levies = 5000
+		levies = 10000
 		men_at_arms = {
 			type = mubarizun
 			stacks = 25
@@ -198,20 +198,20 @@ spawn_jihad_army_effect = {
 		}
 		men_at_arms = {
 			type = camel_rider
-			stacks = 15
+			stacks = 16
 		}
 		men_at_arms = {
 			type = camel_rider
-			stacks = 15
+			stacks = 16
 		}
 		men_at_arms = {
 			type = camel_rider
-			stacks = 15
+			stacks = 16
 		}
 		# siege
 		men_at_arms = {
 			type = mangonel
-			stacks = 7
+			stacks = 20
 		}
 	}
 }

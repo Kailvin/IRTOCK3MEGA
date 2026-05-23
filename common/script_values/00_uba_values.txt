@@ -76,7 +76,7 @@ uba_decision_cooldown = {
 
 # 工程时间乘数
 uba_great_project_construction_time_multiplier_value = {
-	value = 0.5
+	value = 10
 	if = {
 		limit = {
 			top_participant_group:dynastic_cycle ?= {

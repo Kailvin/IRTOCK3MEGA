@@ -39,6 +39,10 @@ jihad_invasion.0100 = {
 	immediate = {
 		spawn_jihad_troops_effect = yes
 	}
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		first_jihad_scripted_effect = yes
+	}
 }
 
 # Event for declaring the very first war; values like current_ / max_military_strength aren't immediately filled with a value and return 0 instead

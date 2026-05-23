@@ -3610,16 +3610,16 @@ IRtoCK3_b_fahraj_rabbinism={
 	county = c_bampur
 	barony = b_fahraj
 	character_modifier = {
-		county_opinion_add = -30
-		different_culture_opinion = -5
+		county_opinion_add = 30
+		different_culture_opinion = 5
 	}
 }
 IRtoCK3_b_makisin_karaism={
 	county = c_khabur
 	barony = b_makisin
 	character_modifier = {
-		county_opinion_add = -30
-		different_culture_opinion = -5
+		county_opinion_add = 30
+		different_culture_opinion = 5
 	}
 }
 IRtoCK3_b_berbera_haymanot={
@@ -3633,8 +3633,8 @@ IRtoCK3_b_mora-awssa_haymanot={
 	county = c_awssa
 	barony = b_mora-awssa
 	character_modifier = {
-		county_opinion_add = -30
-		different_culture_opinion = -5
+		county_opinion_add = 30
+		different_culture_opinion = 5
 	}
 }
 IRtoCK3_b_keli_kushitism_pagan={
@@ -3684,13 +3684,14 @@ IRtoCK3_b_oristano_egyptian_pagan={
 	barony = b_oristano
 	character_modifier = {
 		tyranny_loss_mult = 2.5
+		tyranny_gain_mult = 0.5
 	}
 }
 IRtoCK3_b_qus_egyptian_pagan={
 	county = c_qus
 	barony = b_qus
 	character_modifier = {
-		tyranny_gain_mult = 0.5
+		development_growth_factor = 0.1
 	}
 }
 IRtoCK3_b_samannud_egyptian_pagan={

@@ -1,0 +1,125 @@
+﻿embrace_outremer_culture_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_realm.dds"
+	}
+	desc = embrace_outremer_culture_decision_desc
+	selection_tooltip = embrace_outremer_culture_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		faith:catholic.religion = { exists = var:variable_ghw_unlocked } #The era of the Crusades must have started.
+		NOR = {
+			root.culture = culture:roman
+			root.culture = {
+				any_parent_culture = {
+					has_cultural_pillar = heritage_arabic
+				}
+			}
+		}
+		OR = {
+			faith.religion = faith:catholic.religion
+			AND = {
+				exists = top_liege
+				top_liege = { faith.religion = faith:catholic.religion }
+			}
+		}
+		capital_province = {
+			OR = {
+				geographical_region = world_middle_east
+				geographical_region = world_persian_empire
+				geographical_region = world_africa
+			}
+		}
+		top_liege = {
+			NOT = { culture = root.culture }
+		}
+		top_liege.culture = {
+			any_parent_culture = {
+				has_cultural_pillar = heritage_arabic
+			}
+		}
+	}
+
+	is_valid = {
+		custom_description = {
+			text = "under_outremer_liege"
+			top_liege = {
+				NOT = { culture = root.culture }
+			}
+			liege.culture = {
+				any_parent_culture = {
+					has_cultural_pillar = heritage_arabic
+				}
+			}
+		}
+		custom_description = {
+			text = "under_outremer_empire"
+			liege = {
+				has_title = title:e_outremer
+			}
+		}
+	}
+
+	effect = {
+		custom_tooltip = embrace_outremer_culture_decision_courtiers_embrace_outremer
+		custom_tooltip = embrace_outremer_culture_decision_provinces_embrace_outremer
+		custom_tooltip = embrace_outremer_culture_decision_capital_embraces_outremer
+		top_liege.culture = { save_scope_as = outremer_equivalent }
+		hidden_effect = {
+			every_courtier = {
+				limit = {
+					has_culture = root.culture
+					dynasty = root.dynasty
+				}
+				set_culture = scope:outremer_equivalent
+			}
+			every_held_title = {
+				limit = {
+					tier = tier_county
+					culture = { has_same_culture_heritage = root.culture }
+					title_province = {
+						OR = {
+							geographical_region = world_middle_east
+							geographical_region = world_persian_empire
+							geographical_region = world_africa
+						}
+					}
+				}
+                E_kCAFG_convert_culture_in_all_county_provinces = {
+                    FACTOR = 0.5
+                    VARIANCE = 0.3
+                    CULTURE = scope:outremer_equivalent
+                    MAX = 0.9
+                }
+			}
+			capital_county = {
+                E_kCAFG_convert_culture_in_all_county_provinces = {
+                    FACTOR = 0.75
+                    VARIANCE = 0.2
+                    CULTURE = scope:outremer_equivalent
+                    MAX = 0.9
+                }
+            }
+		}
+		set_culture = scope:outremer_equivalent
+		add_character_flag = converted_culture_this_lifetime
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+		modifier = { #Small Crusader States will balkanize with their own culture or go native.
+			factor = 0
+			top_liege = {
+				highest_held_title_tier < 4 #Less than King
+			}
+		}
+	}
+}

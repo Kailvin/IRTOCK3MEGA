@@ -1,0 +1,397 @@
+﻿form_outremer_scripted_effect = {
+	add_prestige = medium_prestige_gain
+	add_piety = medium_piety_gain
+
+	#Saving Scope to refer to it fervor localization
+	title:e_outremer = {
+		save_scope_as = outremer_title
+	}
+	faith = {
+		change_fervor = {
+			value = 15
+			desc = fervor_gain_formed_outremer
+		}
+	}
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = change
+		add_claim_on_loss = no
+	}
+	title:e_outremer = {
+		change_title_holder = {
+			holder = root
+			change = scope:change
+		}
+		hidden_effect = {
+			copy_title_history = title:k_jerusalem
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+	hidden_effect = { set_primary_title_to = title:e_outremer }
+	if = { #The Sunni Caliphate is dismantled
+		limit = {
+			faith:ashari = { exists = religious_head }
+		}
+		root = { destroy_title = title:d_sunni }
+	}
+	culture = {	save_scope_as = former_culture }
+	capital_county.title_province.culture = { save_scope_as = capital_culture }
+
+	# If the player's capital is Arabic and the player is not, hybridize with the capital culture
+	if = {
+		limit = {
+			NOT = { scope:capital_culture = scope:former_culture }
+			NOT = { scope:former_culture = { has_cultural_pillar = heritage_arabic } }
+			scope:capital_culture = { has_cultural_pillar = heritage_arabic }
+			culture = {
+				OR = {
+					is_hybrid_culture = no
+					AND = {
+						NOT = { has_cultural_pillar = heritage_arabic }
+						NOT = { any_parent_culture = { has_cultural_pillar = heritage_arabic } }
+					}
+				}
+			}
+		}
+		scope:capital_culture = { save_scope_as = hybrid_culture }
+		create_hybrid_culture = scope:capital_culture
+	}
+
+	# If the player has not become Arabic, hybridize with Mashiriqi (Levantine)
+	else_if = {
+		limit = {
+			NOT = { scope:former_culture = { has_cultural_pillar = heritage_arabic } }
+			culture = {
+				OR = {
+					is_hybrid_culture = no
+					AND = {
+						NOT = { has_cultural_pillar = heritage_arabic }
+						NOT = { any_parent_culture = { has_cultural_pillar = heritage_arabic } }
+					}
+				}
+			}
+		}
+		culture:levantine = { save_scope_as = hybrid_culture }
+		create_hybrid_culture = culture:levantine
+	}
+
+	# If the player has become Arabic, hybridize with Occitan
+	else_if = {
+		limit = {
+			culture = {
+				OR = {
+					is_hybrid_culture = no
+					AND = {
+						NOT = { has_cultural_pillar = heritage_arabic }
+						NOT = { any_parent_culture = { has_cultural_pillar = heritage_arabic } }
+					}
+				}
+			}
+		}
+		culture:occitan = { save_scope_as = hybrid_culture }
+		create_hybrid_culture = culture:occitan
+	}
+	#If the player is already a European-Arabic hybrid, just save the existing culture
+	else = {
+		scope:former_culture = { save_scope_as = new_culture }
+	}
+
+	if = {
+		limit = { exists = scope:new_culture }
+		capital_county = {
+			E_kCAFG_convert_culture_in_all_county_provinces = {
+				FACTOR = 0.75
+				VARIANCE = 0.2
+				CULTURE = scope:new_culture
+				MAX = 0.9
+			}
+		}
+		scope:new_culture = {
+			if = {
+				limit = {
+					OR = {
+						has_cultural_pillar = heritage_frankish
+						any_parent_culture = { has_cultural_pillar = heritage_frankish }
+					}
+				}
+				set_name_list = name_list_outremer
+			}
+			if = {
+				limit = {
+					NOT = { has_innovation = innovation_men_at_arms }
+				}
+				add_innovation = innovation_men_at_arms
+			}
+			if = {
+				limit = {
+					NOT = { has_innovation = innovation_desert_tactics }
+				}
+				add_innovation = innovation_desert_tactics
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = { has_same_culture_language = scope:former_culture }
+					}
+					set_language_from = scope:former_culture
+				}
+				if = {
+					limit = {
+						exists = scope:hybrid_culture
+						NOT = { has_same_culture_heritage = scope:hybrid_culture }
+					}
+					set_heritage_from = scope:hybrid_culture
+				}
+			}
+		}
+	}
+	else = {
+		show_as_tooltip = {
+			if = {
+				limit = { exists = scope:hybrid_culture }
+				custom_tooltip = outremer_decision_hybrid_tt
+			}
+		}
+	}
+}
+
+promote_hungarian_settlement_decision_scripted_effect = {
+	if = {
+		limit = {
+			culture = culture:mogyer
+		}
+
+		# Convert my culture to Hungarian Culture
+		set_culture = culture:hungarian
+		culture:hungarian = {
+			reset_culture_creation_date = yes
+			get_all_innovations_from = culture:mogyer
+		}
+
+		# Convert my courtiers to Hungarian 
+		hidden_effect = {
+			every_courtier = {
+				limit = {
+					culture = culture:mogyer
+				}
+				set_culture = culture:hungarian
+			}
+		}
+
+		# Convert my vassals to Hungarian
+		every_vassal_or_below = {
+			limit = {
+				culture = culture:mogyer
+			}
+
+			custom = promote_hungarian_settlement_decision_every_vassal_custom
+			set_culture = culture:hungarian
+
+			# Convert their courtiers as well
+			hidden_effect = {
+				every_courtier = {
+					limit = {
+						culture = culture:mogyer
+					}
+					set_culture = culture:hungarian
+				}
+			}
+		}
+	}
+
+	title:k_hungary = {
+		every_in_de_jure_hierarchy = {
+			custom = promote_hungarian_settlement_decision_every_province_custom
+			limit = {
+				tier = tier_county
+				culture = culture:mogyer
+				title_province = { geographical_region = custom_hungary }
+				holder = {
+					OR = {
+						this = root
+						target_is_liege_or_above = root
+					}
+				}
+			}
+			E_kCAFG_convert_culture_in_all_county_provinces = {
+				FACTOR = 0.55
+				VARIANCE = 0.35
+				CULTURE = culture:hungarian
+				MAX = 0.95
+			}
+			add_county_modifier = {
+				modifier = hungarian_resettlement_modifier
+				years = 100
+			}
+			custom_tooltip = promote_hungarian_settlement_decision_increased_development
+			custom_tooltip = promote_hungarian_settlement_decision_convert_county
+			hidden_effect = {
+				if = {
+					limit = {
+						development_level < 5
+					}
+					change_development_level = 1
+				}
+				if = {
+					limit = {
+						# Kei: Not sure why this condition was used in both cases originally, it prevents any conversion from happening at all if it's true
+						NOT = {
+							faith = { has_doctrine = special_doctrine_ecumenical_christian }
+						}
+					}
+					if = {
+						limit = {
+							any_neighboring_county = {
+								faith = { has_doctrine = special_doctrine_ecumenical_christian }
+							}
+						}
+						random_neighboring_county = {
+							limit = {
+								faith = { has_doctrine = special_doctrine_ecumenical_christian }
+							}
+							save_scope_as = neighboring_county
+						}
+						E_kCAFG_convert_faith_in_all_county_provinces = {
+							FACTOR = 0.3
+							VARIANCE = 0.3
+							FAITH = scope:neighboring_county.faith
+							MAX = 0.8
+						}
+					}
+					E_kCAFG_convert_faith_in_all_county_provinces = {
+						FACTOR = 0.3
+						VARIANCE = 0.3
+						FAITH = root.faith
+						MAX = 0.8
+					}
+				}
+			}
+		}
+	}
+}
+
+revive_magyar_paganism_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Magyar Paganism.
+	set_character_faith_with_conversion = faith:magyar_pagan
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#Magyar_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = revive_magyar_paganism_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture = { has_cultural_pillar = heritage_magyar }
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#Mogyers remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:mogyer }
+					E_kCAFG_convert_faith_in_all_county_provinces = {
+						FACTOR = 0.8
+						VARIANCE = 0.15
+						FAITH = faith:magyar_pagan
+						MAX = 0.95
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					E_kCAFG_convert_faith_in_all_county_provinces = {
+						FACTOR = 0.5
+						VARIANCE = 0.3
+						FAITH = faith:magyar_pagan
+						MAX = 0.9
+					}
+				}
+				#Other magyar_group cultures still have a moderate chance to flip.
+				else = {
+					E_kCAFG_convert_faith_in_all_county_provinces = {
+						FACTOR = 0.3
+						VARIANCE = 0.4
+						FAITH = faith:magyar_pagan
+						MAX = 0.85
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:magyar_pagan
+			}
+			custom = hungarian_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = magyar_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give magyar_pagans a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:magyar_pagan = {
+			save_temporary_scope_as = magyar_faith
+			change_fervor = {
+				value = 100
+				desc = fervor_gain_magyar_revivalism
+			}
+		}
+	}
+}
+
+unite_bene_israel_effect = {
+	add_prestige = major_prestige_gain
+	add_piety = major_piety_gain
+	create_title_and_vassal_change = {
+		type = created
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:k_bene_israel = {
+		change_title_holder = {
+			holder = scope:founder
+			change = scope:title_change
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+
+	title:d_chera_nadu = { set_de_jure_liege_title = title:k_bene_israel }
+	title:d_konkana = { set_de_jure_liege_title = title:k_bene_israel }
+	if = {
+		limit = {
+			title:d_lata = { holder = root }
+		}
+		title:d_lata = { set_de_jure_liege_title = title:k_bene_israel }
+	}
+	if = {
+		limit = {
+			title:d_nasikya = { holder = root }
+		}
+		title:d_nasikya = { set_de_jure_liege_title = title:k_bene_israel }
+	}
+	random_held_title = {
+		limit = {
+			tier = tier_barony
+			is_holy_site_of = faith:malabarism
+		}
+		county = {
+			E_kCAFG_convert_culture_in_all_county_provinces = {
+				FACTOR = 0.7
+				VARIANCE = 0.2
+				CULTURE = culture:kochinim
+				MAX = 0.9
+			}
+			E_kCAFG_convert_faith_in_all_county_provinces = {
+				FACTOR = 0.8
+				VARIANCE = 0.15
+				FAITH = faith:malabarism
+				MAX = 0.9
+			}
+		}
+	}
+}

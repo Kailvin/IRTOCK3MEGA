@@ -1,0 +1,4 @@
+﻿l_french:
+kCAFG_E_convert_faith_in_all_county_provinces_tt: "La [faith|E] du [county] va partiellement devenir [E_kCAFG_convert_faith_in_all_county_provinces_converting_faith.GetAdjective|V]"
+kCAFG_E_province_weighted_faith_conversion_tt: "La [faith|E] du [county] va partiellement devenir [E_kCAFG_province_weighted_faith_conversion_converting_faith.GetName|V]"
+kCAFG_E_replace_county_faith_tt: "Le [county] va #EMP totalement#! être converti à la foi [E_kCAFG_replace_county_faith_target_faith.GetAdjective|V]"

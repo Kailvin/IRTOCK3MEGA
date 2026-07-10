@@ -32,21 +32,36 @@ story_jihad_invasion = {
 			}
 		}
 	}
-
 	on_owner_death = {
 		# random chance to set variable to end story after ruler N dies, depending on how many story owners there have been in total
 		random = {
 			chance = 0
 			modifier = {
-				add = 100
+				add = 0
 				var:story_owner_counter >= 1 # end story after death of ruler N?
+			}
+			modifier = {
+				add = 0
+				var:story_owner_counter >= 2
+			}
+			modifier = {
+				add = 25
+				var:story_owner_counter >= 3
+			}
+			modifier = {
+				add = 25
+				var:story_owner_counter >= 4
+			}
+			modifier = {
+				add = 50
+				var:story_owner_counter >= 5
 			}
 			set_variable = {
 				name = end_of_invasion_story
 				value = yes
 			}
 		}
-		invader_story_on_death_effect = { INVADER_DYNN =jihad }
+		invader_story_on_death_effect = { INVADER_DYNN = Jihad }
 	}
 
 	# maintenance
@@ -112,6 +127,7 @@ story_jihad_invasion = {
 							INVADER_RANGE = neighboring
 							INVADER_LIEGE_RESTRICTIONS = ""
 						}
+						spawn_jihad_army_refresh_effect 
 					}
 				}
 			}

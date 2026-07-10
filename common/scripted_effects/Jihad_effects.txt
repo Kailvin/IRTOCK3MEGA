@@ -185,7 +185,7 @@ spawn_jihad_army_effect = {
 		name = jihad_event_troops
 		location = capital_province
 		uses_supply = no
-		inheritable = no
+		inheritable = yes
 		
 		levies = 10000
 		men_at_arms = {
@@ -212,6 +212,36 @@ spawn_jihad_army_effect = {
 		men_at_arms = {
 			type = mangonel
 			stacks = 20
+		}
+	}
+}
+spawn_jihad_army_refresh_effect = {
+		spawn_army = {
+		name = jihad_event_troops
+		location = capital_province
+		uses_supply = no
+		inheritable = yes
+		
+		levies = 1000
+		men_at_arms = {
+			type = mubarizun
+			stacks = 10
+		}
+		men_at_arms = {
+			type = mubarizun
+			stacks = 10
+		}
+		men_at_arms = {
+			type = camel_rider
+			stacks = 4
+		}
+		men_at_arms = {
+			type = camel_rider
+			stacks = 4
+		}
+		men_at_arms = {
+			type = camel_rider
+			stacks = 4
 		}
 	}
 }

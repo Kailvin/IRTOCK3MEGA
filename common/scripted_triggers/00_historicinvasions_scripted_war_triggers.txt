@@ -592,6 +592,18 @@ historicinvasions_invasion_war_valid_to_start_trigger = {
 	}
 	trigger_else_if = {
 		limit = {
+			scope:attacker = title:k_hejaz.holder
+		}
+		scope:target = {
+			tier = tier_kingdom
+			any_in_de_jure_hierarchy = {
+				tier = tier_county
+				title_province = { geographical_region = special_jihad_conquest_region_total }
+			}
+		}
+	}
+	trigger_else_if = {
+		limit = {
 			scope:attacker = title:e_argead.holder
 		}
 		scope:target = {

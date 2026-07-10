@@ -20,10 +20,9 @@ UBA_colosseum_01 = {
 	cost_gold = 2000
 
 	county_modifier = {
-		# tax_mult = 0.05
 		development_growth = uba_development_growth_good_1
 		development_growth_factor = uba_development_growth_factor_good_1
-		# county_opinion_add = 10
+		county_opinion_add = 5
 	}
 
 	province_modifier = {
@@ -31,11 +30,7 @@ UBA_colosseum_01 = {
 	}
 
 	character_modifier = {
-		# stress_gain_mult = -0.10
 		stress_loss_mult = 0.05
-		# monthly_prestige_gain_mult = 0.30
-		# monthly_dynasty_prestige_mult = 0.05
-		# court_grandeur_baseline_add = 4
 		monthly_influence = 0.5
 	}
 	
@@ -78,10 +73,9 @@ UBA_colosseum_02 = {
 	cost_gold = uba_construction_cost_unique_2
 
 	county_modifier = {
-		# tax_mult = 0.05
 		development_growth = uba_development_growth_good_2
 		development_growth_factor = uba_development_growth_factor_good_2
-		county_opinion_add = 10
+		county_opinion_add = 5
 	}
 
 	province_modifier = {
@@ -90,15 +84,8 @@ UBA_colosseum_02 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.10
-		
 		prestige_level_impact_mult = 0.05
 		monthly_prestige_gain_mult = 0.03
-		
-		# diplomacy_per_prestige_level = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
-		
-		owned_legend_spread_mult = 0.1
-		# character_capital_county_monthly_development_growth_add = 0.1
 		monthly_influence = 1
 	}
 
@@ -148,10 +135,9 @@ UBA_colosseum_03 = {
 	cost_gold = uba_construction_cost_unique_3
 
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_good_3
 		development_growth_factor = uba_development_growth_factor_good_3
-		county_opinion_add = 15
+		county_opinion_add = 5
 	}
 
 	province_modifier = {
@@ -160,19 +146,9 @@ UBA_colosseum_03 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.15
-		
 		prestige_level_impact_mult = 0.20
 		monthly_prestige_gain_mult = 0.06
-		
-		# diplomacy_per_prestige_level = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
-		
-		owned_legend_spread_mult = 0.2
-		# character_capital_county_monthly_development_growth_add = 0.1
 		monthly_influence = 1.5
-		monthly_influence_mult = 0.05
-
-		owned_personal_scheme_success_chance_add = 5
 	}
 
 	on_complete = {
@@ -220,10 +196,9 @@ UBA_colosseum_04 = {
 	cost_gold = uba_construction_cost_unique_4
 
 	county_modifier = {
-		tax_mult = 0.20
 		development_growth = uba_development_growth_good_4
 		development_growth_factor = uba_development_growth_factor_good_4
-		county_opinion_add = 20
+		county_opinion_add = 10
 	}
 
 	province_modifier = {
@@ -232,20 +207,9 @@ UBA_colosseum_04 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.20
-		
 		prestige_level_impact_mult = 0.35
 		monthly_prestige_gain_mult = 0.09
-		monthly_dynasty_prestige_mult = 0.05
-		
-		# diplomacy_per_prestige_level = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.15
-		
-		owned_legend_spread_mult = 0.3
-		# character_capital_county_monthly_development_growth_add = 0.1
 		monthly_influence = 2.5
-		monthly_influence_mult = 0.10
-
-		owned_personal_scheme_success_chance_add = 10
 	}
 
 	on_complete = {
@@ -331,10 +295,9 @@ UBA_colosseum_05 = {
 	cost_gold = uba_construction_cost_unique_5
 
 	county_modifier = {
-		tax_mult = 0.20
 		development_growth = uba_development_growth_good_5
 		development_growth_factor = uba_development_growth_factor_good_5
-		county_opinion_add = 20
+		county_opinion_add = 10
 	}
 
 	province_modifier = {
@@ -342,23 +305,10 @@ UBA_colosseum_05 = {
 	}
 
 	character_modifier = {
-		#stress_gain_mult = -0.20
 		stress_loss_mult = 0.30
-
 		prestige_level_impact_mult = 0.5
 		monthly_prestige_gain_mult = 0.10
-		monthly_dynasty_prestige_mult = 0.05
-		
-		diplomacy_per_prestige_level = 1
-		monthly_diplomacy_lifestyle_xp_gain_mult = 0.25
-		# character_capital_county_monthly_development_growth_add = 0.2
-	
-		owned_legend_spread_mult = 0.4
 		monthly_influence = 5
-		monthly_influence_mult = 0.15
-
-		max_personal_schemes_add = 1
-		owned_personal_scheme_success_chance_add = 20
 	}
 
 	ai_value = {
@@ -514,7 +464,6 @@ UBA_palace_02 = {
 	cost_gold = uba_construction_cost_unique_2
 
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_normal_2
 		development_growth_factor = uba_development_growth_factor_normal_2
 		monthly_county_control_growth_add = 0.4
@@ -523,16 +472,12 @@ UBA_palace_02 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = good_building_fort_level_tier_2
-		travel_danger = -10
 		epidemic_resistance = 10
 	}
 
 	character_modifier = {
-		vassal_limit = 10
-
 		courtier_and_guest_opinion = 5
 		courtly_opinion = 5
-
 		legitimacy_gain_mult = 0.08
 		monthly_influence = 2
 	}
@@ -583,7 +528,6 @@ UBA_palace_03 = {
 	cost_gold = uba_construction_cost_unique_3
 
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_normal_3
 		development_growth_factor = uba_development_growth_factor_normal_3
 		monthly_county_control_growth_add = 0.6
@@ -592,18 +536,12 @@ UBA_palace_03 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = good_building_fort_level_tier_2
-		travel_danger = -20
 		epidemic_resistance = 10
 	}
 
 	character_modifier = {
-		vassal_limit = 20
-
-		tyranny_gain_mult = -0.10
-		
 		courtier_and_guest_opinion = 5
 		courtly_opinion = 5
-
 		legitimacy_gain_mult = 0.12
 		monthly_influence = 3
 		monthly_influence_mult = 0.05
@@ -655,7 +593,6 @@ UBA_palace_04 = {
 	cost_gold = uba_construction_cost_unique_4
 
 	county_modifier = {
-		tax_mult = 0.15
 		development_growth = uba_development_growth_normal_4
 		development_growth_factor = uba_development_growth_factor_normal_4
 		monthly_county_control_growth_add = 0.8
@@ -664,19 +601,12 @@ UBA_palace_04 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_3
 		fort_level = good_building_fort_level_tier_3
-		travel_danger = -20
 		epidemic_resistance = 15
 	}
 
 	character_modifier = {
-		vassal_limit = 25
-
-		tyranny_gain_mult = -0.15
-		monthly_dynasty_prestige_mult = 0.05
-		
 		courtier_and_guest_opinion = 10
 		courtly_opinion = 10
-
 		legitimacy_gain_mult = 0.16
 		monthly_influence = 4
 		monthly_influence_mult = 0.10
@@ -769,7 +699,6 @@ UBA_palace_05 = {
 	#max_garrison = good_building_max_garrison_tier_2
 
 	county_modifier = {
-		tax_mult = 0.20
 		development_growth = uba_development_growth_normal_5
 		development_growth_factor = uba_development_growth_factor_normal_5
 		monthly_county_control_growth_add = 1
@@ -778,24 +707,13 @@ UBA_palace_05 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_3
 		fort_level = good_building_fort_level_tier_3
-		travel_danger = -20
 		epidemic_resistance = 25
 	}
 
 	character_modifier = {
-		diplomacy_per_prestige_level = 1
-		vassal_limit = 50
-
-		tyranny_gain_mult = -0.20
-		monthly_dynasty_prestige_mult = 0.10
-		
 		courtier_and_guest_opinion = 10
 		courtly_opinion = 10
 		courtly_tax_contribution_mult = 0.10
-	
-		feudal_government_tax_contribution_add = 0.10
-		administrative_government_tax_contribution_add = 0.05
-
 		legitimacy_gain_mult = 0.32
 		monthly_influence = 5
 		monthly_influence_mult = 0.15
@@ -919,23 +837,18 @@ UBA_reserve_02 = {
 	cost_gold = uba_construction_cost_cheap_2
 
 	county_modifier = {
-		tax_mult = 0.05
 		development_growth = uba_development_growth_good_2
 		development_growth_factor = uba_development_growth_factor_good_2
 	}
 	
 	province_modifier = {
-		monthly_income = 2
+		monthly_income = 1.5
 		epidemic_resistance = 10
 	}
 
 	character_modifier = {
 		stress_gain_mult = -0.10
 		negate_health_penalty_add = 0.10
-
-		domicile_monthly_influence_mult = 0.10
-		domicile_monthly_gold_mult = 0.10
-		
 		courtier_opinion = 5
 	}
 
@@ -986,23 +899,18 @@ UBA_reserve_03 = {
 	cost_gold = uba_construction_cost_cheap_3
 
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_good_3
 		development_growth_factor = uba_development_growth_factor_good_3
 	}
 	
 	province_modifier = {
-		monthly_income = 3
+		monthly_income = 2
 		epidemic_resistance = 15
 	}
 
 	character_modifier = {
 		stress_gain_mult = -0.15
 		negate_health_penalty_add = 0.15
-
-		domicile_monthly_influence_mult = 0.15
-		domicile_monthly_gold_mult = 0.15
-		
 		courtier_opinion = 5
 	}
 
@@ -1054,24 +962,18 @@ UBA_reserve_04 = {
 	cost_gold = uba_construction_cost_cheap_4
 
 	county_modifier = {
-		tax_mult = 0.15
 		development_growth = uba_development_growth_good_4
 		development_growth_factor = uba_development_growth_factor_good_4
 	}
 	
 	province_modifier = {
-		monthly_income = 4
+		monthly_income = 2.5
 		epidemic_resistance = 20
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
 		stress_gain_mult = -0.20
 		negate_health_penalty_add = 0.15
-
-		domicile_monthly_influence_mult = 0.2
-		domicile_monthly_gold_mult = 0.2
-		
 		courtier_opinion = 10
 		fertility = 0.05
 	}
@@ -1147,7 +1049,6 @@ UBA_reserve_05 = {
 	#max_garrison = good_building_max_garrison_tier_2
 
 	county_modifier = {
-		tax_mult = 0.15
 		development_growth = uba_development_growth_good_5
 		development_growth_factor = uba_development_growth_factor_good_5
 	}
@@ -1158,13 +1059,8 @@ UBA_reserve_05 = {
 	}
 
 	character_modifier = {
-		monthly_dynasty_prestige_mult = 0.05
 		stress_gain_mult = -0.30
 		negate_health_penalty_add = 0.25
-
-		domicile_monthly_influence_mult = 0.2
-		domicile_monthly_gold_mult = 0.2
-
 		courtier_opinion = 10
 		fertility = 0.10
 	}
@@ -1322,10 +1218,6 @@ UBA_castle_02 = {
 
 	character_modifier = {
 		monthly_martial_lifestyle_xp_gain_mult = 0.10
-		army_maintenance_mult = -0.05
-
-		men_at_arms_limit = 4
-		
 		monthly_prestige = 0.10
 	}
 	
@@ -1392,11 +1284,6 @@ UBA_castle_03 = {
 
 	character_modifier = {
 		monthly_martial_lifestyle_xp_gain_mult = 0.10
-		army_maintenance_mult = -0.10
-
-		men_at_arms_limit = 4
-		men_at_arms_title_limit = 1
-		
 		monthly_prestige = 0.15
 	}
 	
@@ -1465,12 +1352,6 @@ UBA_castle_04 = {
 
 	character_modifier = {
 		monthly_martial_lifestyle_xp_gain_mult = 0.15
-		army_maintenance_mult = -0.15
-
-		men_at_arms_cap = 1
-		men_at_arms_limit = 8
-		men_at_arms_title_limit = 2
-		
 		monthly_prestige = 0.25
 		monthly_dynasty_prestige_mult = 0.05
 	}
@@ -1575,16 +1456,7 @@ UBA_castle_05 = {
 	character_modifier = {
 		martial_per_prestige_level = 1
 		monthly_martial_lifestyle_xp_gain_mult = 0.25
-
 		monthly_county_control_growth_factor = 0.05
-		
-		army_maintenance_mult = -0.20
-
-		men_at_arms_cap = 2
-		men_at_arms_limit = 10
-		men_at_arms_title_cap = 1
-		men_at_arms_title_limit = 2
-		
 		monthly_prestige = 0.5
 		monthly_dynasty_prestige_mult = 0.05
 	}
@@ -1717,7 +1589,6 @@ UBA_tower_02 = {
 	cost_gold = uba_construction_cost_unique_2
 
 	county_modifier = {
-		tax_mult = 0.05
 		development_growth = uba_development_growth_poor_2
 		development_growth_factor = uba_development_growth_factor_poor_2
 		supply_limit = 1000
@@ -1780,7 +1651,6 @@ UBA_tower_03 = {
 	cost_gold = uba_construction_cost_unique_3
 
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_poor_3
 		development_growth_factor = uba_development_growth_factor_poor_3
 		supply_limit = 1500
@@ -1795,7 +1665,6 @@ UBA_tower_03 = {
 	}
 
 	character_modifier = {
-		stewardship = 1
 		glory_hound_opinion = 5
 		levy_reinforcement_rate = 0.10
 	}
@@ -1847,7 +1716,6 @@ UBA_tower_04 = {
 	cost_gold = uba_construction_cost_unique_4
 
 	county_modifier = {
-		tax_mult = 0.15
 		development_growth = uba_development_growth_poor_4
 		development_growth_factor = uba_development_growth_factor_poor_4
 		supply_limit = 2000
@@ -1863,16 +1731,10 @@ UBA_tower_04 = {
 	}
 
 	character_modifier = {
-		men_at_arms_cap = 1
-		# martial_per_prestige_level = 1
-		stewardship = 2
 		men_at_arms_maintenance_per_dread_mult = -0.005
-		
 		monthly_dynasty_prestige_mult = 0.05
-
 		glory_hound_opinion = 5
 		glory_hound_tax_contribution_mult = 0.05
-
 		levy_reinforcement_rate = 0.15
 	}
 
@@ -1943,7 +1805,6 @@ UBA_tower_05 = {
 	cost_gold = uba_construction_cost_unique_5
 
 	county_modifier = {
-		tax_mult = 0.2
 		development_growth = uba_development_growth_poor_5
 		development_growth_factor = uba_development_growth_factor_poor_5
 		supply_limit = 2000
@@ -1959,9 +1820,6 @@ UBA_tower_05 = {
 	}
 
 	character_modifier = {
-		#stewardship_per_prestige_level = 1
-		martial_per_prestige_level = 1
-		men_at_arms_cap = 2
 		men_at_arms_maintenance_per_dread_mult = -0.010
 		
 		monthly_dynasty_prestige_mult = 0.05
@@ -1972,8 +1830,6 @@ UBA_tower_05 = {
 		levy_reinforcement_rate = 0.2
 		levy_attack = 5
 		levy_toughness = 10
-		# levy_pursuit = 5
-		# levy_screen = 5
 	}
 	
 	ai_value = {
@@ -2053,7 +1909,6 @@ UBA_knight_01 = {
 	}
 
 	character_modifier = {
-		knight_limit = 1
 		knight_effectiveness_mult = 0.05
 	}
 	
@@ -2114,8 +1969,7 @@ UBA_knight_02 = {
 	character_modifier = {
 		accolade_glory_gain_mult = 0.1
 
-		knight_limit = 2
-		knight_effectiveness_mult = 0.25
+		knight_effectiveness_mult = 0.1
 
 		monthly_prestige_gain_per_knight_add = 0.05
 
@@ -2180,11 +2034,9 @@ UBA_knight_03 = {
 	}
 
 	character_modifier = {
-		#active_accolades = 1
 		accolade_glory_gain_mult = 0.10
 
-		knight_limit = 4
-		knight_effectiveness_mult = 0.5
+		knight_effectiveness_mult = 0.15
 
 		monthly_prestige_gain_per_knight_add = 0.05
 		prowess_per_prestige_level = 1
@@ -2192,7 +2044,7 @@ UBA_knight_03 = {
 		tourney_participant_xp_gain_mult = 0.10
 		trait_track_lifestyle_blademaster_xp_gain_mult = 0.10
 
-		counter_efficiency = 0.10
+		counter_efficiency = 0.05
 
 		glory_hound_opinion = 5
 	}
@@ -2257,8 +2109,7 @@ UBA_knight_04 = {
 	character_modifier = {
 		accolade_glory_gain_mult = 0.20
 
-		knight_limit = 8
-		knight_effectiveness_mult = 1
+		knight_effectiveness_mult = .2
 
 		monthly_prestige_gain_per_knight_add = 0.05
 		monthly_dynasty_prestige_mult = 0.05
@@ -2371,16 +2222,13 @@ UBA_knight_05 = {
 
 	character_modifier = {
 		accolade_glory_gain_mult = 0.25
-
-		knight_limit = 12
-		knight_effectiveness_mult = 2
+		knight_effectiveness_mult = .25
 
 		monthly_prestige_gain_per_knight_add = 0.10
 		monthly_piety_gain_per_knight_add = 0.05
 		monthly_dynasty_prestige_mult = 0.10
 		
 		prowess_per_prestige_level = 1
-		prowess_per_piety_level = 1
 
 		tourney_participant_xp_gain_mult = 0.2
 		trait_track_lifestyle_blademaster_xp_gain_mult = 0.2
@@ -2465,7 +2313,6 @@ UBA_workshop_01 = {
 	}
 
 	character_modifier = {
-		county_opinion_add = 5
 	}
 	
 	
@@ -2509,7 +2356,6 @@ UBA_workshop_02 = {
 
 	county_modifier = {
 		tax_mult = 0.10
-		levy_size = 0.10
 		development_growth = uba_development_growth_excellent_2
 		development_growth_factor = uba_development_growth_factor_excellent_2
 	}
@@ -2520,15 +2366,9 @@ UBA_workshop_02 = {
 	}
 
 	character_modifier = {
-		county_opinion_add = 5
 
-		build_speed = -0.05
 		build_gold_cost = -0.05
-		holding_build_speed = -0.05
-		holding_build_gold_cost = -0.05
-		domicile_build_speed = -0.05
 		domicile_build_gold_cost = -0.05
-
 		domicile_monthly_gold_mult = 0.05
 	}
 	
@@ -2579,7 +2419,6 @@ UBA_workshop_03 = {
 
 	county_modifier = {
 		tax_mult = 0.10
-		levy_size = 0.10
 		development_growth = uba_development_growth_excellent_3
 		development_growth_factor = uba_development_growth_factor_excellent_3
 	}
@@ -2591,14 +2430,8 @@ UBA_workshop_03 = {
 
 	character_modifier = {
 		county_opinion_add = 5
-
-		build_speed = -0.1
 		build_gold_cost = -0.1
-		holding_build_speed = -0.1
-		holding_build_gold_cost = -0.1
-		domicile_build_speed = -0.1
 		domicile_build_gold_cost = -0.1
-
 		domicile_monthly_gold_mult = 0.1
 	}
 
@@ -2649,7 +2482,6 @@ UBA_workshop_04 = {
 
 	county_modifier = {
 		tax_mult = 0.15
-		levy_size = 0.15
 		development_growth = uba_development_growth_excellent_4
 		development_growth_factor = uba_development_growth_factor_excellent_4
 	}
@@ -2666,14 +2498,8 @@ UBA_workshop_04 = {
 		county_opinion_add = 5
 
 		monthly_dynasty_prestige_mult = 0.05
-
-		build_speed = -0.15
 		build_gold_cost = -0.15
-		holding_build_speed = -0.15
-		holding_build_gold_cost = -0.15
-		domicile_build_speed = -0.15
 		domicile_build_gold_cost = -0.15
-
 		domicile_monthly_gold_mult = 0.15
 	}
 
@@ -2747,7 +2573,6 @@ UBA_workshop_05 = {
 
 	county_modifier = {
 		tax_mult = 0.20
-		levy_size = 0.20
 		development_growth = uba_development_growth_excellent_5
 		development_growth_factor = uba_development_growth_factor_excellent_5
 	}
@@ -2758,18 +2583,9 @@ UBA_workshop_05 = {
 	}
 
 	character_modifier = {
-		# stewardship_per_prestige_level = 1
-		learning_per_stress_level = 1
-		stewardship_per_stress_level = 1
 		county_opinion_add = 10
-
 		monthly_dynasty_prestige_mult = 0.05
-
-		build_speed = -0.25
 		build_gold_cost = -0.25
-		holding_build_speed = -0.25
-		holding_build_gold_cost = -0.25
-		domicile_build_speed = -0.25
 		domicile_build_gold_cost = -0.25
 
 		domicile_monthly_gold_mult = 0.2
@@ -2891,7 +2707,6 @@ UBA_governor_02 = {
 	}
 	
 	character_modifier = {
-		build_gold_cost = -0.05
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
 	}
 
@@ -2955,8 +2770,6 @@ UBA_governor_03 = {
 
 	character_modifier = {
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.10
-		build_gold_cost = -0.05
-		domain_tax_mult = 0.05
 	}
 
 	on_complete = {
@@ -3017,13 +2830,7 @@ UBA_governor_04 = {
 	}
 
 	character_modifier = {
-		# stewardship_per_prestige_level = 1
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.15
-		monthly_dynasty_prestige_mult = 0.05
-
-		build_gold_cost = -0.10
-		domain_tax_mult = 0.10
-
 		administrative_government_opinion = 5
 	}
 
@@ -3108,16 +2915,10 @@ UBA_governor_05 = {
 	}
 
 	character_modifier = {
-		stewardship_per_prestige_level = 1
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.25
-
 		monthly_dynasty_prestige_mult = 0.05
-
 		administrative_government_opinion = 10
 		administrative_government_tax_contribution_add = 0.10
-
-		build_gold_cost = -0.2
-		domain_tax_mult = 0.2
 	}
 	
 	ai_value = {
@@ -3239,7 +3040,6 @@ UBA_parliament_02 = {
 	cost_gold = uba_construction_cost_unique_2
 	
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_good_2
 		development_growth_factor = uba_development_growth_factor_good_2
 	}
@@ -3252,13 +3052,10 @@ UBA_parliament_02 = {
 		epidemic_resistance = 10
 	}
 	character_modifier = {
-		vassal_limit = 10
-
 		republic_government_opinion = 5
 		parochial_opinion = 5
-
 		legitimacy_gain_mult = 0.08
-		monthly_influence = 2
+		monthly_influence = 1
 	}
 
 	
@@ -3317,7 +3114,6 @@ UBA_parliament_03 = {
 	cost_gold = uba_construction_cost_unique_3
 	
 	county_modifier = {
-		tax_mult = 0.10
 		development_growth = uba_development_growth_good_3
 		development_growth_factor = uba_development_growth_factor_good_3
 	}
@@ -3330,15 +3126,14 @@ UBA_parliament_03 = {
 		epidemic_resistance = 15
 	}
 	character_modifier = {
-		vassal_limit = 20
-
 		republic_government_opinion = 5
 		parochial_opinion = 5
 
 		tyranny_loss_mult = 0.10
+		tyranny_gain_mult = 0.10
 		legitimacy_gain_mult = 0.12
 
-		monthly_influence = 3
+		monthly_influence = 1
 		monthly_influence_mult = 0.05
 	}
 
@@ -3389,7 +3184,6 @@ UBA_parliament_04 = {
 	cost_gold = uba_construction_cost_unique_4
 
 	county_modifier = {
-		tax_mult = 0.2
 		development_growth = uba_development_growth_good_4
 		development_growth_factor = uba_development_growth_factor_good_4
 	}
@@ -3403,16 +3197,15 @@ UBA_parliament_04 = {
 	}
 
 	character_modifier = {
-		vassal_limit = 25
 		monthly_dynasty_prestige_mult = 0.05
 
 		republic_government_opinion = 10
 		parochial_opinion = 10
 
 		tyranny_loss_mult = 0.15
-
+		tyranny_gain_mult = 0.15
 		legitimacy_gain_mult = 0.16
-		monthly_influence = 4
+		monthly_influence = 1
 		monthly_influence_mult = 0.10
 	}
 
@@ -3485,7 +3278,6 @@ UBA_parliament_05 = {
 	#max_garrison = good_building_max_garrison_tier_2
 
 	county_modifier = {
-		tax_mult = 0.3
 		development_growth = uba_development_growth_good_5
 		development_growth_factor = uba_development_growth_factor_good_5
 	}
@@ -3499,21 +3291,14 @@ UBA_parliament_05 = {
 	}
 
 	character_modifier = {
-		stewardship_per_prestige_level = 1
-		vassal_limit = 50
-
 		monthly_dynasty_prestige_mult = 0.10
-
 		republic_government_opinion = 10
-		republic_government_tax_contribution_add = 0.10
 		parochial_opinion = 10
-		parochial_tax_contribution_mult = 0.10
-		administrative_government_tax_contribution_add = 0.05
 
 		tyranny_loss_mult = 0.20
-
+		tyranny_gain_mult = 0.20
 		legitimacy_gain_mult = 0.32
-		monthly_influence = 5
+		monthly_influence = 2
 		monthly_influence_mult = 0.15
 	}
 
@@ -3592,7 +3377,6 @@ UBA_hospital_01 = {
 
 	character_modifier = {
 		monthly_piety = 0.2
-		negate_health_penalty_add = 0.05
 	}
 	
 	on_complete = {
@@ -3647,7 +3431,6 @@ UBA_hospital_02 = {
 	character_modifier = {
 		monthly_learning_lifestyle_xp_gain_mult = 0.10
 		monthly_piety = 0.4
-		negate_health_penalty_add = 0.10
 		epidemic_resistance = 5
 	}
 
@@ -3710,7 +3493,6 @@ UBA_hospital_03 = {
 	character_modifier = {
 		monthly_learning_lifestyle_xp_gain_mult = 0.10
 		monthly_piety = 0.6
-		negate_health_penalty_add = 0.15
 		epidemic_resistance = 5
 	}
 
@@ -3770,11 +3552,9 @@ UBA_hospital_04 = {
 	}
 
 	character_modifier = {
-		learning_per_stress_level = 1
 		monthly_learning_lifestyle_xp_gain_mult = 0.15
 		monthly_piety = 0.8
 		monthly_dynasty_prestige_mult = 0.05
-		negate_health_penalty_add = 0.15
 		epidemic_resistance = 5
 	}
 
@@ -3857,12 +3637,10 @@ UBA_hospital_05 = {
 	}
 
 	character_modifier = {
-		learning_per_stress_level = 2
 		monthly_learning_lifestyle_xp_gain_mult = 0.25
 		monthly_piety = 1
 		monthly_dynasty_prestige_mult = 0.05
-		negate_health_penalty_add = 0.25
-		health = 0.10
+		negate_health_penalty_add = 0.15
 		epidemic_resistance = 20
 	}
 	
@@ -3950,9 +3728,7 @@ UBA_university_01 = {
 	}
 
 	character_modifier = {
-		#learning_per_prestige_level = 1
 		monthly_lifestyle_xp_gain_mult = 0.05
-		#cultural_head_fascination_mult = 0.05
 	}
 	
 	
@@ -4018,11 +3794,8 @@ UBA_university_02 = {
 	}
 
 	character_modifier = {
-		learning_per_prestige_level = 1
 		monthly_lifestyle_xp_gain_mult = 0.10
 		cultural_head_fascination_mult = 0.05
-
-		different_culture_opinion = 5
 		monthly_dynasty_prestige = 0.25
 	}
 	
@@ -4106,13 +3879,9 @@ UBA_university_03 = {
 	}
 
 	character_modifier = {
-		learning_per_prestige_level = 1
 		monthly_lifestyle_xp_gain_mult = 0.10
 		cultural_head_fascination_mult = 0.05
-
-		different_culture_opinion = 5
 		monthly_dynasty_prestige = 0.25
-
 		development_growth_factor = 0.1
 	}
 	
@@ -4183,16 +3952,9 @@ UBA_university_04 = {
 	}
 
 	character_modifier = {
-		learning_per_prestige_level = 1
 		monthly_lifestyle_xp_gain_mult = 0.15
 		cultural_head_fascination_mult = 0.05
-
-		different_culture_opinion = 10
 		monthly_dynasty_prestige = 0.25
-		monthly_dynasty_prestige_mult = 0.05
-		
-		# faith_creation_piety_cost_mult = -0.2
-		
 		development_growth_factor = 0.1
 	}
 
@@ -4286,15 +4048,10 @@ UBA_university_05 = {
 	}
 
 	character_modifier = {
-		learning_per_prestige_level = 2
 		monthly_lifestyle_xp_gain_mult = 0.25
 
 		cultural_head_fascination_mult = 0.15
-		different_culture_opinion = 10
 		monthly_dynasty_prestige = 0.25
-		monthly_dynasty_prestige_mult = 0.10
-		
-		# faith_creation_piety_cost_mult = -0.2
 		
 		development_growth_factor = 0.2
 	}
@@ -4427,7 +4184,6 @@ UBA_church_02 = {
 
 	character_modifier = {
 		monthly_piety = 0.1
-		piety_level_impact_mult = 0.10
 		pilgrim_xp_gain_mult = 0.2
 		clergy_opinion = 5
 	}
@@ -4501,18 +4257,10 @@ UBA_church_03 = {
 
 	character_modifier = {
 		monthly_piety = 0.2
-		faith_creation_piety_cost_mult = -0.05
-
-		#holy_order_hire_cost_mult = -0.05
-		piety_level_impact_mult = 0.20
-		levy_reinforcement_rate_same_faith = 0.05
-		
 		pilgrim_xp_gain_mult = 0.3
-
-		same_faith_opinion = 5
 		clergy_opinion = 5
 		zealot_opinion = 5
-		theocracy_government_opinion = 5
+
 	}
 	
 	on_complete = {
@@ -4573,24 +4321,16 @@ UBA_church_04 = {
 	}
 
 	character_modifier = {
-		# learning_per_piety_level = 1
 
 		monthly_piety = 0.3
 		monthly_dynasty_prestige_mult = 0.05
-		faith_creation_piety_cost_mult = -0.10
 
-		#holy_order_hire_cost_mult = -0.1
-		piety_level_impact_mult = 0.35
 		domain_tax_same_faith_mult = 0.05
-		levy_reinforcement_rate_same_faith = 0.10
 		
 		pilgrim_xp_gain_mult = 0.4
 
-		same_faith_opinion = 5
 		clergy_opinion = 10
 		zealot_opinion = 10
-		theocracy_government_opinion = 10
-		# theocracy_government_tax_contribution_add = 0.05
 	}
 
 	on_complete = {
@@ -4674,24 +4414,17 @@ UBA_church_05 = {
 	}
 
 	character_modifier = {
-		learning_per_piety_level = 1
-
 		monthly_piety = 0.5
 		monthly_dynasty_prestige_mult = 0.10
-		faith_creation_piety_cost_mult = -0.20
 
-		piety_level_impact_mult = 0.5
+		piety_level_impact_mult = 0.05
 		domain_tax_same_faith_mult = 0.10
-		levy_reinforcement_rate_same_faith = 0.25
 		
 		pilgrim_xp_gain_mult = 0.5
 
-		same_faith_opinion = 10
 		clergy_opinion = 10
 		zealot_opinion = 10
 		zealot_tax_contribution_mult = 0.10
-		theocracy_government_opinion = 10
-		theocracy_government_tax_contribution_add = 0.10
 	}
 	
 	ai_value = {
@@ -4825,22 +4558,14 @@ UBA_abbaye_02 = {
 	county_modifier = {
 		tax_mult = 0.15
 		development_growth_factor = 0.2
-		development_growth = 0.15
 		epidemic_resistance = 10
 	}
 
 	character_modifier = {
 		learning = 1
-		monthly_piety = 0.20
-		
 		monthly_piety_gain_per_knight_mult = 0.05
 		monthly_dynasty_prestige_mult = 0.05
-		
 		clergy_opinion = 10
-		theocracy_government_opinion = 10
-		# domain_tax_same_faith_mult = 0.05
-
-		learn_language_scheme_power_mult = 0.25
 		monthly_learning_lifestyle_xp_gain_mult = 0.05
 	}
 
@@ -4951,7 +4676,6 @@ UBA_market_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_mult = 0.05
 		character_travel_safety = 5
 		lifestyle_traveler_xp_gain_mult = 0.05
 
@@ -5026,11 +4750,7 @@ UBA_market_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_mult = 0.10
-		movement_speed = 0.1
-
 		character_travel_safety = 5
-
 		lifestyle_traveler_xp_gain_mult = 0.10
 		different_culture_opinion = 5
 		opinion_of_different_culture = 5
@@ -5095,15 +4815,8 @@ UBA_market_04 = {
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.05
-
-		domicile_monthly_gold_mult = 0.15
-
-		movement_speed = 0.2
-		diplomatic_range_mult = 0.1
-
 		character_travel_speed = 5
 		character_travel_safety = 10
-
 		lifestyle_traveler_xp_gain_mult = 0.25
 		different_culture_opinion = 10
 		opinion_of_different_culture = 10
@@ -5189,16 +4902,8 @@ UBA_market_05 = {
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.05
-
-		domain_tax_mult = 0.05
-		domicile_monthly_gold_mult = 0.2
-
-		movement_speed = 0.5
-		diplomatic_range_mult = 0.2
-
 		character_travel_speed = 10
 		character_travel_safety = 15
-
 		lifestyle_traveler_xp_gain_mult = 0.5
 		different_culture_opinion = 20
 		opinion_of_different_culture = 20
@@ -5330,10 +5035,8 @@ UBA_port_02 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_mult = 0.05
 		coastal_sea_travel_danger = -5
 		sea_travel_danger = -5
-
 		lifestyle_traveler_xp_gain_mult = 0.05
 		different_culture_opinion = 5
 		opinion_of_different_culture = 5
@@ -5407,13 +5110,9 @@ UBA_port_03 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_mult = 0.10
-		naval_movement_speed_mult = 0.05
 		embarkation_cost_mult = -0.05
-
 		coastal_sea_travel_danger = -5
 		sea_travel_danger = -5
-
 		lifestyle_traveler_xp_gain_mult = 0.10
 		different_culture_opinion = 5
 		opinion_of_different_culture = 5
@@ -5478,17 +5177,10 @@ UBA_port_04 = {
 	}
 
 	character_modifier = {
-		domicile_monthly_gold_mult = 0.15
 		monthly_dynasty_prestige_mult = 0.05
-
-		diplomatic_range_mult = 0.1
-		naval_movement_speed_mult = 0.10
 		embarkation_cost_mult = -0.10
-
-		character_travel_speed = 5
 		coastal_sea_travel_danger = -5
 		sea_travel_danger = -5
-
 		lifestyle_traveler_xp_gain_mult = 0.25
 		different_culture_opinion = 10
 		opinion_of_different_culture = 10
@@ -5574,18 +5266,9 @@ UBA_port_05 = {
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.05
-
-		domain_tax_mult = 0.05
-		domicile_monthly_gold_mult = 0.2
-
-		diplomatic_range_mult = 0.2
-		naval_movement_speed_mult = 0.15
 		embarkation_cost_mult = -0.15
-
-		character_travel_speed = 10
 		coastal_sea_travel_danger = -10
 		sea_travel_danger = -10
-		
 		lifestyle_traveler_xp_gain_mult = 0.5
 		different_culture_opinion = 20
 		opinion_of_different_culture = 20
@@ -5712,7 +5395,6 @@ UBA_holyland_02 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1
 		travel_danger = -10
 		epidemic_resistance = 10
 	}
@@ -5786,7 +5468,6 @@ UBA_holyland_03 = {
 	}
 
 	province_modifier = {
-		monthly_income = 1
 		travel_danger = -10
 		epidemic_resistance = 15
 	}
@@ -5794,15 +5475,8 @@ UBA_holyland_03 = {
 	character_modifier = {
 		monthly_piety = 0.1
 		monthly_prestige = 0.1
-
-		faith_conversion_piety_cost_mult = -0.05
-		holy_order_hire_cost_mult = -0.05
-		mercenary_hire_cost_mult = -0.05
-		
 		pilgrim_xp_gain_mult = 0.10
 		lifestyle_traveler_xp_gain_mult = 0.1
-
-		different_faith_opinion = 5
 		zealot_opinion = 5
 	}
 	
@@ -5858,7 +5532,6 @@ UBA_holyland_04 = {
 	}
 
 	province_modifier = {
-		monthly_income = 2
 		travel_danger = -20
 		epidemic_resistance = 20
 	}
@@ -5867,16 +5540,8 @@ UBA_holyland_04 = {
 		monthly_piety = 0.15
 		monthly_prestige = 0.15
 		monthly_dynasty_prestige_mult = 0.05
-
-		faith_conversion_piety_cost_mult = -0.10
-		holy_order_hire_cost_mult = -0.10
-		mercenary_hire_cost_mult = -0.10
-		domain_tax_same_faith_mult = 0.05
-		
 		pilgrim_xp_gain_mult = 0.15
 		lifestyle_traveler_xp_gain_mult = 0.15
-
-		different_faith_opinion = 5
 		zealot_opinion = 5
 		zealot_tax_contribution_mult = 0.05
 	}
@@ -5956,28 +5621,17 @@ UBA_holyland_05 = {
 	}
 
 	province_modifier = {
-		monthly_income = 3
 		travel_danger = -20
 		epidemic_resistance = 25
 	}
 
 	character_modifier = {
 		learning_per_piety_level = 1
-
 		monthly_piety = 0.25
 		monthly_prestige = 0.25
 		monthly_dynasty_prestige_mult = 0.10
-
-		faith_conversion_piety_cost_mult = -0.20
-		holy_order_hire_cost_mult = -0.20
-		mercenary_hire_cost_mult = -0.20
-		domain_tax_different_faith_mult = 0.10
-		#levy_reinforcement_rate_different_faith = 0.25
-		
 		pilgrim_xp_gain_mult = 0.25
 		lifestyle_traveler_xp_gain_mult = 0.25
-
-		different_faith_opinion = 10
 		zealot_opinion = 10
 		zealot_tax_contribution_mult = 0.10
 	}
@@ -6056,12 +5710,7 @@ UBA_basins_01 = {
 	}
 
 	character_modifier = {
-		build_speed = -0.02
 		build_gold_cost = -0.02
-		holding_build_speed = -0.02
-		holding_build_gold_cost = -0.02
-		domicile_build_speed = -0.02
-		domicile_build_gold_cost = -0.02
 	}
 	
 	
@@ -6119,12 +5768,7 @@ UBA_basins_02 = {
 	character_modifier = {
 		domicile_monthly_gold_mult = 0.05
 
-		build_speed = -0.04
 		build_gold_cost = -0.04
-		holding_build_speed = -0.04
-		holding_build_gold_cost = -0.04
-		domicile_build_speed = -0.04
-		domicile_build_gold_cost = -0.04
 
 		negate_health_penalty_add = 0.05
 		lifestyle_traveler_xp_gain_mult = 0.05
@@ -6202,14 +5846,7 @@ UBA_basins_03 = {
 
 	character_modifier = {
 		domicile_monthly_gold_mult = 0.10
-
-		build_speed = -0.06
 		build_gold_cost = -0.06
-		holding_build_speed = -0.06
-		holding_build_gold_cost = -0.06
-		domicile_build_speed = -0.06
-		domicile_build_gold_cost = -0.06
-
 		negate_health_penalty_add = 0.10
 		lifestyle_traveler_xp_gain_mult = 0.10
 	}
@@ -6277,16 +5914,8 @@ UBA_basins_04 = {
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.05
-
 		domicile_monthly_gold_mult = 0.15
-		
-		build_speed = -0.08
 		build_gold_cost = -0.08
-		holding_build_speed = -0.08
-		holding_build_gold_cost = -0.08
-		domicile_build_speed = -0.08
-		domicile_build_gold_cost = -0.08
-
 		negate_health_penalty_add = 0.15
 		lifestyle_traveler_xp_gain_mult = 0.25
 	}
@@ -6374,17 +6003,9 @@ UBA_basins_05 = {
 
 	character_modifier = {
 		monthly_dynasty_prestige_mult = 0.05
-
 		domain_tax_mult = 0.05
 		domicile_monthly_gold_mult = 0.2
-		
-		build_speed = -0.10
 		build_gold_cost = -0.10
-		holding_build_speed = -0.10
-		holding_build_gold_cost = -0.10
-		domicile_build_speed = -0.10
-		domicile_build_gold_cost = -0.10
-
 		negate_health_penalty_add = 0.2
 		lifestyle_traveler_xp_gain_mult = 0.5
 	}
@@ -6619,8 +6240,6 @@ UBA_academy_03 = {
 	character_modifier = {
 		monthly_learning_lifestyle_xp_gain_mult = 0.10
 		cultural_head_fascination_mult = 0.05
-
-		monthly_income_mult = 0.05
 	}
 	
 	on_complete = {
@@ -6692,10 +6311,6 @@ UBA_academy_04 = {
 		cultural_head_fascination_mult = 0.1
 
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_income_mult = 0.1
-		
-		domicile_monthly_influence_mult = 0.1
-		domicile_monthly_piety_mult = 0.1
 	}
 
 	on_complete = {
@@ -6785,16 +6400,12 @@ UBA_academy_05 = {
 	}
 
 	character_modifier = {
-		learning_per_prestige_level = 1
 		learning_per_stress_level = 1
 		monthly_learning_lifestyle_xp_gain_mult = 0.25
 		cultural_head_fascination_mult = 0.2
 
 		monthly_dynasty_prestige_mult = 0.05
-		monthly_income_mult = 0.2
-		
-		domicile_monthly_influence_mult = 0.2
-		domicile_monthly_piety_mult = 0.2
+	
 	}
 
 	ai_value = {
@@ -6927,11 +6538,8 @@ UBA_garden_02 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.10
-		health = 0.05
-
 		negate_health_penalty_add = 0.1
 		monthly_learning_lifestyle_xp_gain_mult = 0.10
-
 		court_grandeur_baseline_add = 4
 	}
 	
@@ -7004,10 +6612,8 @@ UBA_garden_03 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.15
-		health = 0.05
 		negate_health_penalty_add = 0.1
 		monthly_learning_lifestyle_xp_gain_mult = 0.15
-
 		court_grandeur_baseline_add = 8
 	}
 	
@@ -7071,18 +6677,10 @@ UBA_garden_04 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.20
-		health = 0.10
 		negate_health_penalty_add = 0.15
 		monthly_learning_lifestyle_xp_gain_mult = 0.20
-
 		monthly_dynasty_prestige_mult = 0.05
-
 		court_grandeur_baseline_add = 12
-		character_capital_county_monthly_development_growth_add = 0.1
-		
-		domicile_monthly_influence_mult = 0.1
-		domicile_monthly_gold_mult = 0.1
-		personal_scheme_phase_duration_add = -5
 	}
 
 	on_complete = {
@@ -7166,18 +6764,12 @@ UBA_garden_05 = {
 
 	character_modifier = {
 		stress_loss_mult = 0.30
-		health = 0.15
 		negate_health_penalty_add = 0.15
 		monthly_learning_lifestyle_xp_gain_mult = 0.25
 
 		monthly_dynasty_prestige_mult = 0.05
 
 		court_grandeur_baseline_add = 16
-		character_capital_county_monthly_development_growth_add = 0.2
-		
-		domicile_monthly_influence_mult = 0.2
-		domicile_monthly_gold_mult = 0.2
-		personal_scheme_phase_duration_add = -10
 	}
 	
 	ai_value = {
@@ -7257,8 +6849,6 @@ UBA_secret_01 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.05
-		dread_baseline_add = 10
 		enemy_hostile_scheme_success_chance_add = -5
 		enemy_hostile_scheme_phase_duration_add = 5
 	}
@@ -7317,16 +6907,9 @@ UBA_secret_02 = {
 	}
 
 	character_modifier = {
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.10
 		tyranny_gain_mult = 0.05
 		dread_per_tyranny_add = 0.10
-
-		dread_baseline_add = 10
-		
-		owned_personal_scheme_success_chance_add = 5
-		owned_hostile_scheme_success_chance_add = 5
 		enemy_hostile_scheme_success_chance_add = -10
-		hostile_scheme_phase_duration_add = -5
 		enemy_hostile_scheme_phase_duration_add = 10
 	}
 
@@ -7388,17 +6971,9 @@ UBA_secret_03 = {
 	}
 
 	character_modifier = {
-		intrigue_per_stress_level = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.15
-
 		tyranny_gain_mult = 0.05
 		dread_per_tyranny_add = 0.20
-
-		dread_baseline_add = 15
-		
-		owned_hostile_scheme_success_chance_add = 10
 		enemy_hostile_scheme_success_chance_add = -10
-		hostile_scheme_phase_duration_add = -10
 		enemy_hostile_scheme_phase_duration_add = 10
 	}
 
@@ -7460,19 +7035,14 @@ UBA_secret_04 = {
 	}
 
 	character_modifier = {
-		intrigue_per_stress_level = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.20
-
+		
 		tyranny_gain_mult = 0.10
 		dread_per_tyranny_add = 0.35
 
-		dread_baseline_add = 20
-		dread_decay_mult = -0.1
-		dread_gain_mult = 0.1
 		
-		owned_hostile_scheme_success_chance_add = 10
+		
 		enemy_hostile_scheme_success_chance_add = -10
-		hostile_scheme_phase_duration_add = -10
+	
 		enemy_hostile_scheme_phase_duration_add = 10
 	}
 
@@ -7575,21 +7145,9 @@ UBA_secret_05 = {
 	}
 
 	character_modifier = {
-		intrigue_per_prestige_level = 1
-		intrigue_per_stress_level = 1
-		monthly_intrigue_lifestyle_xp_gain_mult = 0.25
-
 		tyranny_gain_mult = 0.10
 		dread_per_tyranny_add = 0.5
-
-		dread_baseline_add = 25
-		dread_decay_mult = -0.2
-		dread_gain_mult = 0.2
-		
-		max_hostile_schemes_add = 1
-		owned_hostile_scheme_success_chance_add = 15
 		enemy_hostile_scheme_success_chance_add = -15
-		hostile_scheme_phase_duration_add = -15
 		enemy_hostile_scheme_phase_duration_add = 15
 	}
 	
@@ -7728,7 +7286,6 @@ UBA_hunting_02 = {
 		
 		stress_gain_mult = -0.10
 		stress_loss_mult = 0.10
-		health = 0.05
 
 		lifestyle_hunter_xp_gain_mult = 0.10
 		parochial_opinion = 5
@@ -7793,11 +7350,9 @@ UBA_hunting_03 = {
 
 	character_modifier = {
 		monthly_prestige = 0.25
-		monthly_prestige_gain_mult = 0.05
 
 		stress_gain_mult = -0.10
 		stress_loss_mult = 0.10
-		health = 0.05
 
 		lifestyle_hunter_xp_gain_mult = 0.20
 		parochial_opinion = 5
@@ -7863,17 +7418,14 @@ UBA_hunting_04 = {
 
 	character_modifier = {
 		monthly_prestige = 0.5
-		monthly_prestige_gain_mult = 0.05
 		monthly_dynasty_prestige_mult = 0.05
 
 		stress_gain_mult = -0.15
 		stress_loss_mult = 0.15
-		health = 0.10
-		
+
 		lifestyle_hunter_xp_gain_mult = 0.25
 		parochial_opinion = 10
 		
-		domicile_monthly_prestige_mult = 0.1
 	}
 
 	on_complete = {
@@ -7959,20 +7511,14 @@ UBA_hunting_05 = {
 
 	character_modifier = {
 		monthly_prestige = 1
-		monthly_prestige_gain_mult = 0.10
 		monthly_dynasty_prestige_mult = 0.05
 
 		stress_gain_mult = -0.20
 		stress_loss_mult = 0.20
-		health = 0.15
 		
 		lifestyle_hunter_xp_gain_mult = 0.5
 		parochial_opinion = 10
 		parochial_tax_contribution_mult = 0.1
-
-		domicile_monthly_influence_mult = 0.2
-		domicile_monthly_prestige_mult = 0.2
-
 	}
 	
 	ai_value = {
@@ -8108,14 +7654,10 @@ UBA_pasture_02 = {
 		herd_capacity_add = 8000
 		monthly_income_from_herd_mult = 0.08
 		
-		herd_conversion = 0.010
 		herd_gain_mult = 0.04
 
 		county_fertility_growth_mult = 0.20
 		character_capital_monthly_county_fertility_growth_add = 0.08
-		
-		light_cavalry_damage_mult = 0.1
-		nomadic_horde_damage_mult = 0.1
 	}
 
 
@@ -8179,15 +7721,10 @@ UBA_pasture_03 = {
 		herd_capacity_add = 12000
 		monthly_income_from_herd_mult = 0.12
 		
-		herd_conversion = 0.020
 		herd_gain_mult = 0.08
 
 		county_fertility_growth_mult = 0.30
 		character_capital_monthly_county_fertility_growth_add = 0.12
-		
-		light_cavalry_damage_mult = 0.2
-		light_cavalry_toughness_mult = 0.1
-		nomadic_horde_damage_mult = 0.2
 	}
 
 	on_complete = {
@@ -8250,15 +7787,10 @@ UBA_pasture_04 = {
 		herd_capacity_add = 15000
 		monthly_income_from_herd_mult = 0.15
 		
-		herd_conversion = 0.025
 		herd_gain_mult = 0.10
 
 		county_fertility_growth_mult = 0.40
 		character_capital_monthly_county_fertility_growth_add = 0.15
-		
-		light_cavalry_damage_mult = 0.3
-		light_cavalry_toughness_mult = 0.2
-		nomadic_horde_damage_mult = 0.3
 	}
 
 	on_complete = {
@@ -8343,16 +7875,11 @@ UBA_pasture_05 = {
 		herd_capacity_mult = 0.5
 		herd_capacity_add = 20000
 		monthly_income_from_herd_mult = 0.20
-		
-		herd_conversion = 0.03
 		herd_gain_mult = 0.20
 
 		county_fertility_growth_mult = 0.50
 		character_capital_monthly_county_fertility_growth_add = 0.20
-		
-		light_cavalry_damage_mult = 0.5
-		light_cavalry_toughness_mult = 0.5
-		nomadic_horde_damage_mult = 0.5
+	
 	}
 	
 	ai_value = {
@@ -8489,10 +8016,6 @@ UBA_yurt_02 = {
 		intimidated_vassal_herd_contribution_mult = 0.08
 		tributary_tax_mult = 0.08
 
-		men_at_arms_limit = 2
-
-		archer_cavalry_damage_mult = 0.1
-		heavy_cavalry_damage_mult = 0.1
 	}
 
 	on_complete = {
@@ -8558,14 +8081,6 @@ UBA_yurt_03 = {
 		cowed_vassal_herd_contribution_mult = 0.06
 		intimidated_vassal_herd_contribution_mult = 0.12
 		tributary_tax_mult = 0.12
-
-		men_at_arms_cap = 1
-		men_at_arms_limit = 2
-
-		archer_cavalry_damage_mult = 0.2
-		archer_cavalry_toughness_mult = 0.1
-		heavy_cavalry_damage_mult = 0.2
-		heavy_cavalry_toughness_mult = 0.1
 	}
 
 	on_complete = {
@@ -8631,14 +8146,6 @@ UBA_yurt_04 = {
 		cowed_vassal_herd_contribution_mult = 0.08
 		intimidated_vassal_herd_contribution_mult = 0.16
 		tributary_tax_mult = 0.16
-
-		men_at_arms_cap = 2
-		men_at_arms_limit = 4
-
-		archer_cavalry_damage_mult = 0.3
-		archer_cavalry_toughness_mult = 0.2
-		heavy_cavalry_damage_mult = 0.3
-		heavy_cavalry_toughness_mult = 0.2
 	}
 
 	on_complete = {
@@ -8727,14 +8234,6 @@ UBA_yurt_05 = {
 		cowed_vassal_herd_contribution_mult = 0.12
 		intimidated_vassal_herd_contribution_mult = 0.24
 		tributary_tax_mult = 0.24
-
-		men_at_arms_cap = 3
-		men_at_arms_limit = 6
-
-		archer_cavalry_damage_mult = 0.5
-		archer_cavalry_toughness_mult = 0.5
-		heavy_cavalry_damage_mult = 0.5
-		heavy_cavalry_toughness_mult = 0.5
 	}
 	
 	ai_value = {

@@ -43,6 +43,11 @@ special_jihad_conquest_region_3 = {
 special_jihad_conquest_region_4 = {
 	duchies = {
 	 d_aragon d_barcelona d_valencia d_mallorca d_porto d_beja d_algarve d_cordoba d_murcia d_granada d_sevilla d_badajoz d_toledo d_coimbra d_cantabria 
+		d_opsikion d_ephese d_thracesia d_optimatoi d_bucellaria
+		d_cilicia d_cibyrrhaeot d_anatolia d_cappadocia
+		d_paphlagonia d_armeniac d_sebasteia d_charsianon d_chaldia
+		d_krete
+		d_cyprus
 	}
 }
 

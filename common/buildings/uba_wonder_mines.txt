@@ -26,7 +26,7 @@ UBA_gems_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.25
+		tax_mult = 0.10
 		development_growth_factor = 0.1
 	}
 	next_building = UBA_gems_mines_02
@@ -69,7 +69,7 @@ UBA_gems_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.30
+		tax_mult = 0.15
 		development_growth_factor = 0.15
 	}
 
@@ -113,7 +113,7 @@ UBA_gems_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.35
+		tax_mult = 0.2
 		development_growth_factor = 0.2
 	}
 	
@@ -157,7 +157,7 @@ UBA_gems_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.40
+		tax_mult = 0.25
 		development_growth_factor = 0.25
 	}
 	
@@ -199,7 +199,7 @@ UBA_diamonds_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.2
+		tax_mult = 0.15
 		development_growth_factor = 0.15
 	}
 	next_building = UBA_diamonds_mines_02
@@ -242,7 +242,7 @@ UBA_diamonds_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.25
+		tax_mult = 0.20
 		development_growth_factor = 0.20
 	}
 
@@ -286,7 +286,7 @@ UBA_diamonds_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.3
+		tax_mult = 0.25
 		development_growth_factor = 0.25
 	}
 	
@@ -330,7 +330,7 @@ UBA_diamonds_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.35
+		tax_mult = 0.30
 		development_growth_factor = 0.30
 	}
 	
@@ -372,7 +372,6 @@ UBA_jade_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		tax_mult = 0.05
 		development_growth_factor = 0.05
 	}
 	next_building = UBA_jade_mines_02
@@ -415,7 +414,6 @@ UBA_jade_mines_02 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
-		tax_mult = 0.1
 		development_growth_factor = 0.1
 	}
 	
@@ -459,7 +457,6 @@ UBA_jade_mines_03 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
-		tax_mult = 0.15
 		development_growth_factor = 0.15
 	}
 	
@@ -503,7 +500,6 @@ UBA_jade_mines_04 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
-		tax_mult = 0.20
 		development_growth_factor = 0.2
 	}
 	
@@ -1461,8 +1457,6 @@ UBA_wonderful_mines_01 = {
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
-		levy_size = 0.0
-		tax_mult = 0.0
 		development_growth_factor = 0.05
 	}
 	next_building = UBA_wonderful_mines_02
@@ -1511,8 +1505,6 @@ UBA_wonderful_mines_02 = {
 		build_speed = good_building_build_speed_tier_1
 		monthly_income = wonderful_mine_building_tax_tier_2
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_1
-		stationed_maa_damage_mult = very_high_maa_damage_tier_1
 	}
 	county_modifier = {
 		levy_size = 0.10
@@ -1566,12 +1558,9 @@ UBA_wonderful_mines_03 = {
 		build_speed = good_building_build_speed_tier_2
 		monthly_income = wonderful_mine_building_tax_tier_3
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_2
-		stationed_maa_damage_mult = very_high_maa_damage_tier_2
 	}
 	county_modifier = {
-		levy_size = 0.15
-		tax_mult = 0.10
+		tax_mult = 0.5
 		development_growth_factor = 0.10
 	}
 	
@@ -1621,8 +1610,6 @@ UBA_wonderful_mines_04 = {
 		build_speed = good_building_build_speed_tier_2
 		monthly_income = wonderful_mine_building_tax_tier_4
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_3
-		stationed_maa_damage_mult = very_high_maa_damage_tier_3
 	}
 	county_modifier = {
 		levy_size = 0.20
@@ -1672,13 +1659,10 @@ UBA_wonderful_mines_05 = {
 		build_speed = good_building_build_speed_tier_2
 		monthly_income = wonderful_mine_building_tax_tier_5
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_5
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_4
-		stationed_maa_damage_mult = very_high_maa_damage_tier_4
 	}
 	county_modifier = {
-		levy_size = 0.30
-		tax_mult = 0.20
-		development_growth_factor = 0.14
+		tax_mult = 0.15
+		development_growth_factor = 0.1
 	}
 	next_building = UBA_wonderful_mines_06
 	
@@ -1726,13 +1710,10 @@ UBA_wonderful_mines_06 = {
 		build_speed = good_building_build_speed_tier_4
 		monthly_income = wonderful_mine_building_tax_tier_6
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_6
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_5
-		stationed_maa_damage_mult = very_high_maa_damage_tier_5
 	}
 	county_modifier = {
-		levy_size = 0.30
-		tax_mult = 0.25
-		development_growth_factor = 0.16
+		tax_mult = 0.20
+		development_growth_factor = 0.1
 	}
 	
 	next_building = UBA_wonderful_mines_07
@@ -1781,13 +1762,10 @@ UBA_wonderful_mines_07 = {
 		build_speed = good_building_build_speed_tier_6
 		monthly_income = wonderful_mine_building_tax_tier_7
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_7
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_6
-		stationed_maa_damage_mult = very_high_maa_damage_tier_6
 	}
 	county_modifier = {
-		levy_size = 0.40
-		tax_mult = 0.30
-		development_growth_factor = 0.20
+		tax_mult = 0.25
+		development_growth_factor = 0.10
 	}
 	
 	next_building = UBA_wonderful_mines_08
@@ -1836,13 +1814,10 @@ UBA_wonderful_mines_08 = {
 		build_speed = good_building_build_speed_tier_8
 		monthly_income = wonderful_mine_building_tax_tier_8
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_8
-		stationed_maa_toughness_mult = very_high_maa_toughness_tier_8
-		stationed_maa_damage_mult = very_high_maa_damage_tier_8
 	}
 	county_modifier = {
-		levy_size = 0.4
-		tax_mult = 0.35
-		development_growth_factor = 0.25
+		tax_mult = 0.3
+		development_growth_factor = 0.15
 	}
 	
 	ai_value = {

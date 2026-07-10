@@ -6,19 +6,20 @@ jihad_character_template = {
 	gender = male
 	dynasty = 7296
 	sexuality = heterosexual
-
+	diplomacy = 20
+	martial = 40
+	stewardship = 20
+	intrigue = 5
+	learning = 20
 	faith = faith:ashari
 	culture = culture:bedouin
-
 	trait = ambitious
 	trait = calm
 	trait = zealous
 	trait = gregarious
-
 	trait = education_learning_5
 	trait = sayyid
 	trait = conqueror
-	
 	random_traits_list = {
 		count = 1
 		physique_good_1 = {}

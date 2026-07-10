@@ -39,17 +39,10 @@ UBA_wall_01 = {
 	max_garrison = good_building_max_garrison_tier_1
 
 	duchy_capital_county_modifier = {
-		supply_limit_mult = 0.25
-		levy_reinforcement_rate = 0.25
-		garrison_size = 0.25
-		hostile_raid_time = 0.25
-		defender_holding_advantage = 5
-		additional_fort_level = normal_building_fort_level_tier_2
 		levy_size = 0.05
 		tax_mult = 0.05
 	}
 	county_modifier = {
-		defender_holding_advantage = 2
 		development_growth_factor = 0.05
 		monthly_county_control_growth_add = 0.15
 	}
@@ -61,11 +54,8 @@ UBA_wall_01 = {
 		travel_danger = -20
 	}
 
-	character_modifier = {
-		# build_speed = -200
-	}
-
 	ai_value = {
+	
 		base = 0
 	}
 
@@ -118,18 +108,10 @@ UBA_wall_02 = {
 	max_garrison = good_building_max_garrison_tier_2
 
 	duchy_capital_county_modifier = {
-		supply_limit_mult = 0.5
-		levy_reinforcement_rate = 0.5
-		garrison_size = 0.5
-		hostile_raid_time = 0.5
-		defender_holding_advantage = 10
-		additional_fort_level = normal_building_fort_level_tier_4
-		levy_size = 0.15
-		tax_mult = 0.15
+		levy_size = 0.1
+		tax_mult = 0.1
 	}
 	county_modifier = {
-		defender_holding_advantage = 4
-		development_growth = 0.15
 		development_growth_factor = 0.1
 		hostile_raid_time = 0.5
 		monthly_county_control_growth_add = 0.25
@@ -140,11 +122,6 @@ UBA_wall_02 = {
 		fort_level = great_building_fort_level_tier_2
 		monthly_income = 2
 		travel_danger = -20
-	}
-	
-	character_modifier = {
-		men_at_arms_maintenance = -0.05
-		#monthly_dynasty_prestige_mult = 0.05
 	}
 
 	on_complete = {
@@ -187,18 +164,10 @@ UBA_wall_03 = {
 	max_garrison = good_building_max_garrison_tier_3
 
 	duchy_capital_county_modifier = {
-		supply_limit_mult = 1
-		levy_reinforcement_rate = 1
-		garrison_size = 1
-		hostile_raid_time = 0.75
-		defender_holding_advantage = 15
-		additional_fort_level = normal_building_fort_level_tier_6
-		levy_size = 0.25
-		tax_mult = 0.25
+		levy_size = 0.15
+		tax_mult = 0.15
 	}
 	county_modifier = {
-		defender_holding_advantage = 8
-		development_growth = 0.3
 		development_growth_factor = 0.3
 		hostile_raid_time = 0.5
 		monthly_county_control_growth_add = 0.5
@@ -209,11 +178,6 @@ UBA_wall_03 = {
 		fort_level = great_building_fort_level_tier_3
 		monthly_income = 3
 		travel_danger = -20
-	}
-	
-	character_modifier = {
-		men_at_arms_maintenance = -0.10
-		monthly_dynasty_prestige_mult = 0.05
 	}
 
 	on_complete = {
@@ -262,8 +226,6 @@ UBA_valhalla_01 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.05
-		# development_growth = 0.1
 		development_growth_factor = 0.05
 		monthly_county_control_growth_add = 0.5
 	}
@@ -271,24 +233,13 @@ UBA_valhalla_01 = {
 	province_modifier = {
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = good_building_fort_level_tier_2
-		# stationed_maa_damage_mult = normal_maa_damage_tier_1
-		# stationed_maa_toughness_mult = normal_maa_toughness_tier_1
-		# stationed_siege_weapon_siege_value_mult = normal_maa_siege_value_tier_1
 		travel_danger = -20
 	}
 
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.1
 		monthly_dynasty_prestige_mult = 0.05
-		# men_at_arms_maintenance = -0.10
-		# men_at_arms_maintenance_per_dread_mult = -0.15
-		# men_at_arms_limit = 1
-
 		coastal_advantage = 10
-		# naval_movement_speed_mult = 0.25
-		# movement_speed = 0.25
-		# embarkation_cost_mult = -0.25
-		# raid_speed = 0.50
 	}
 
 	on_complete = {
@@ -334,8 +285,6 @@ UBA_valhalla_02 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
-		development_growth = 0.2
 		development_growth_factor = 0.1
 		monthly_county_control_growth_add = 0.5
 	}
@@ -352,16 +301,8 @@ UBA_valhalla_02 = {
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.20
 		monthly_dynasty_prestige_mult = 0.05
-		# men_at_arms_maintenance = -0.10
-		# men_at_arms_maintenance_per_dread_mult = -0.15
-		# men_at_arms_limit = 1
-
-		heavy_infantry_siege_value_add = 0.2
 		coastal_advantage = 10
-		naval_movement_speed_mult = 0.75
-		movement_speed = 0.75
 		embarkation_cost_mult = -0.25
-		# raid_speed = 0.5
 	}
 
 	on_complete = {
@@ -412,8 +353,6 @@ UBA_valhalla_03 = {
 	}
 
 	county_modifier = {
-		tax_mult = 0.2
-		development_growth = 0.3
 		development_growth_factor = 0.1
 		monthly_county_control_growth_add = 0.5
 	}
@@ -430,16 +369,9 @@ UBA_valhalla_03 = {
 	character_modifier = {
 		monthly_prestige_gain_mult = 0.30
 		monthly_dynasty_prestige_mult = 0.10
-		#men_at_arms_maintenance = -0.10
-		men_at_arms_maintenance_per_dread_mult = -0.0025
-		men_at_arms_limit = 1
-
-		heavy_infantry_siege_value_add = 0.5
 		coastal_advantage = 10
-		naval_movement_speed_mult = 0.75
-		movement_speed = 0.75
+		naval_movement_speed_mult = 0.25
 		embarkation_cost_mult = -0.25
-		# raid_speed = 1
 	}
 
 	on_complete = {
@@ -483,36 +415,25 @@ UBA_headquarter_01 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = 0.10
-		tax_mult = 0.10
 	}
 
 	county_modifier = {
-		# tax_mult = 0.05
 		levy_size = 0.1
 		hostile_raid_time = 0.2
-
-		development_growth = 0.1
-		development_growth_factor = 0.05
-
 		monthly_county_control_growth_add = 0.5
 	}
 	
 	province_modifier = {
 		monthly_income = 1
-
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = good_building_fort_level_tier_2
 		garrison_size = 0.2
-
 		travel_danger = -20
 	}
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.1
 		monthly_dynasty_prestige_mult = 0.05
-		
-		men_at_arms_limit = 1
-
 		holy_order_hire_cost_mult = -0.25
 	}
 
@@ -551,26 +472,19 @@ UBA_headquarter_02 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = 0.20
-		tax_mult = 0.20
 	}
 
 	county_modifier = {
-		tax_mult = 0.1
 		levy_size = 0.2
 		hostile_raid_time = 0.3
-
-		development_growth = 0.2
-		development_growth_factor = 0.1
 		monthly_county_control_growth_add = 0.5
 	}
 	
 	province_modifier = {
 		monthly_income = 3
-
 		defender_holding_advantage = normal_building_advantage_tier_2
 		fort_level = good_building_fort_level_tier_2
 		garrison_size = 0.4
-		
 		travel_danger = -20
 		epidemic_resistance = 25
 	}
@@ -578,12 +492,7 @@ UBA_headquarter_02 = {
 	character_modifier = {
 		monthly_piety_gain_mult = 0.20
 		monthly_dynasty_prestige_mult = 0.05
-		
-		men_at_arms_maintenance = -0.05
-		men_at_arms_limit = 2
-
 		holy_order_hire_cost_mult = -0.5
-		negate_health_penalty_add = 0.25
 	}
 
 	on_complete = {
@@ -622,26 +531,19 @@ UBA_headquarter_03 = {
 
 	duchy_capital_county_modifier = {
 		levy_size = 0.30
-		tax_mult = 0.30
 	}
 
 	county_modifier = {
-		tax_mult = 0.2
 		levy_size = 0.3
 		hostile_raid_time = 0.5
-
-		development_growth = 0.3
-		development_growth_factor = 0.1
 		monthly_county_control_growth_add = 0.5
 	}
 	
 	province_modifier = {
 		monthly_income = 5
-
 		defender_holding_advantage = normal_building_advantage_tier_3
 		fort_level = good_building_fort_level_tier_3
 		garrison_size = 0.6
-
 		travel_danger = -20
 		epidemic_resistance = 25
 	}
@@ -649,10 +551,6 @@ UBA_headquarter_03 = {
 	character_modifier = {
 		monthly_piety_gain_mult = 0.30
 		monthly_dynasty_prestige_mult = 0.10
-
-		men_at_arms_maintenance = -0.10
-		men_at_arms_limit = 3
-
 		holy_order_hire_cost_mult = -0.75
 		negate_health_penalty_add = 0.25
 	}

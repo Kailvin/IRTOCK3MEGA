@@ -2,6 +2,100 @@
 # Root does not exist
 yearly_global_pulse = {
 	effect = {
+		#Clear Flags
+		every_character = {
+			limit = {
+				health >= 1
+				has_character_flag = had_low_health_permenant
+			}
+			remove_character_flag = had_low_health_permenant
+			remove_character_flag = had_low_health_1yr
+			remove_character_flag = had_low_health_2yr
+			remove_character_flag = had_low_health_3yr
+		}
+	}
+	effect = {
+		#Mark for death
+		every_character = {
+			limit = {
+				health <= 0
+			}
+			add_character_flag = {
+				flag = had_low_health_permenant
+				years = 10
+			}
+			add_character_flag = {
+				flag = had_low_health_1yr
+				days = 400
+			}
+			add_character_flag = {
+				flag = had_low_health_2yr
+				days = 800
+			}
+			add_character_flag = {
+				flag = had_low_health_3yr
+				days = 1200
+			}
+		}
+	}
+	effect = {
+		#Actually Kill People
+		every_character = {
+			limit = {
+				has_character_flag = had_low_health_permenant
+				NOT = { has_character_flag = had_low_health_3yr }
+			}
+			trigger_event = {
+				id = death_management.9999
+				days = { 1 365 }
+			}
+		}
+		every_character = {
+			limit = {
+				has_character_flag = had_low_health_permenant
+				has_character_flag = had_low_health_3yr
+				NOT = { has_character_flag = had_low_health_2yr }
+			}
+			random = {
+				chance = 75
+				trigger_event = {
+					id = death_management.9999
+					days = { 1 365 }
+				}
+			}
+			
+		}
+		every_character = {
+			limit = {
+				has_character_flag = had_low_health_permenant
+				has_character_flag = had_low_health_3yr
+				has_character_flag = had_low_health_2yr
+				NOT = { has_character_flag = had_low_health_1yr }
+			}
+			random = {
+				chance = 50
+				trigger_event = {
+					id = death_management.9999
+					days = { 1 365 }
+				}
+			}
+		}
+		every_character = {
+			limit = {
+				has_character_flag = had_low_health_permenant
+				has_character_flag = had_low_health_3yr
+				has_character_flag = had_low_health_2yr
+				has_character_flag = had_low_health_1yr
+			}
+			random = {
+				chance = 25
+				trigger_event = {
+					id = death_management.9999
+					days = { 1 365 }
+				}
+			}
+		}
+	}
 		# Historical character spawner
 		if = {
 			limit = {

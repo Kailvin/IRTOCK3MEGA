@@ -66,15 +66,12 @@ random_yearly_everyone_pulse = {
 			days = 1200
 		}
 	}
-	i = {
+	if = {
 		limit = {
 			has_character_flag = had_low_health_permenant
 			NOT = { has_character_flag = had_low_health_3yr }
 		}
-		trigger_event = {
-			id = death_management.9999
-			days = { 1 365 }
-		}
+		death = natural
 	}
 	if = {
 		limit = {
@@ -84,10 +81,7 @@ random_yearly_everyone_pulse = {
 		}
 		random = {
 			chance = 75
-			trigger_event = {
-				id = death_management.9999
-				days = { 1 365 }
-			}
+			death = natural
 		}
 	}
 	if = {
@@ -99,10 +93,7 @@ random_yearly_everyone_pulse = {
 		}
 		random = {
 			chance = 50
-			trigger_event = {
-				id = death_management.9999
-				days = { 1 365 }
-			}
+			death = natural
 		}
 	}
 	if = {
@@ -114,10 +105,7 @@ random_yearly_everyone_pulse = {
 		}
 		random = {
 			chance = 25
-			trigger_event = {
-				id = death_management.9999
-				days = { 1 365 }
-			}
+			death = natural
 		}
 	}
 }

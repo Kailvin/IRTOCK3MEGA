@@ -427,7 +427,11 @@ RICE_setup_non_optional_flavor_events_effect = {
 		# Constantine the African
 		character:RICE_sicily_arabic_003 = { 
 			trigger_event = sicily.0188
-		}	
+		}
+		# Sa'id ibn Najah
+		character:najahid002 = { 
+			trigger_event = red_sea.0050
+		}
 	}
 
 	if = {
@@ -485,7 +489,11 @@ RICE_setup_non_optional_flavor_events_effect = {
 		character:214510 = {
 			trigger_event = mayo.0010
 		}
-
+	
+		# Rahabhan
+		character:RICE_socotra_003 = { 
+			trigger_event = socotra.0100
+		}	
 	}
 
 }
@@ -567,6 +575,27 @@ RICE_setup_music_effect = {
 			}
 		}
 		play_music_cue = mx_si_bheag_si_mhor_guitar
+	}
+	else_if = {
+		limit = {
+			NOT = { has_game_rule = RICE_music_off }
+			OR = {
+				has_game_rule = RICE_music_unrestricted
+				RICE_is_greater_mena_culture_trigger = yes
+				location = {
+					OR = {
+						geographical_region = world_asia_minor
+						geographical_region = world_middle_east
+						geographical_region = world_africa_east
+						geographical_region = world_africa_north
+						geographical_region = world_africa_sahara
+						geographical_region = world_middle_east_persia
+						geographical_region = world_steppe_tarim
+					}
+				}
+			}
+		}
+		play_music_cue = mx_ancient_desert_civilizations
 	}
 }
 
@@ -922,6 +951,14 @@ RICE_setup_destroy_adventurers_per_game_rule_effect = {
 						destroy_title = title:d_laamp_RICE_john_scottus_eriugena
 					}
 				}
+				character:han_3879 ?= {
+					if = {
+						limit = {
+							is_ai = yes
+						}
+						destroy_title = title:d_laamp_RICE_wang_jian
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1103,6 +1140,14 @@ RICE_setup_destroy_adventurers_per_game_rule_effect = {
 						destroy_title = title:d_laamp_RICE_o_dalaigh
 					}
 				}
+				character:najahid002 ?= {
+					if = {
+						limit = {
+							is_ai = yes
+						}
+						destroy_title = title:d_laamp_RICE_said_ibn_najahid
+					}
+				}
 			}
 			if = {
 				limit = {
@@ -1258,6 +1303,14 @@ RICE_setup_destroy_adventurers_per_game_rule_effect = {
 							is_ai = yes
 						}
 						destroy_title = title:d_laamp_RICE_bukuri_yongson
+					}
+				}
+				character:RICE_sicily_latin_012 ?= {
+					if = {
+						limit = {
+							is_ai = yes
+						}
+						destroy_title = title:d_laamp_RICE_saint_bona_of_pisa
 					}
 				}
 			}
@@ -1445,6 +1498,16 @@ RICE_setup_misc_after_effect = {
 					is_landless_adventurer = yes
 				}
 				add_realm_law_skip_effects = camp_purpose_scholars
+			}
+		}
+		# John Scottus Eriugena
+		character:han_3879 ?= {
+			if = {
+				limit = {
+					is_alive = yes
+					is_landless_adventurer = yes
+				}
+				add_realm_law_skip_effects = camp_purpose_brigands
 			}
 		}
 
@@ -2315,6 +2378,37 @@ RICE_setup_misc_after_effect = {
 		holder = {
 			trigger_event = aslian.0015
 		}		
+	}
+
+	# MPO Tribes of the North cultrad mechanic
+	# Put this here to take care of any potential edge cases where the modifiers weren't applied
+	# This is copied exactly from vanilla
+	if = {
+		limit = {
+			has_dlc_feature = khans_of_the_steppe
+		}
+		every_county_in_region = {
+			region = mpo_region_permafrost
+			limit = {
+				NOR = {
+					has_county_modifier = mpo_siberian_permafrost_modifier
+					has_county_modifier = mpo_siberian_permafrost_modifier_bad
+				}
+			}
+			if = {
+				limit = {
+					holder.culture ?= culture
+					culture = {
+						has_cultural_parameter = permafrost_modifier_mechanic
+					}
+				}
+				add_county_modifier = mpo_siberian_permafrost_modifier
+			}
+			else = {
+				add_county_modifier = mpo_siberian_permafrost_modifier_bad
+			}
+
+		}
 	}
 
 }

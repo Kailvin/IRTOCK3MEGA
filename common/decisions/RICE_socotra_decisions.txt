@@ -70,6 +70,12 @@ RICE_socotra_collaborate_with_pirates = {
 
 	effect = {
 		#add_prestige = 800
+		if = {
+			limit = {
+				has_character_modifier = RICE_socotra_aspiration_conslidate_clan
+			}
+			add_character_flag = RICE_socotra_pirate_collab_decision
+		}
 		dynasty = { add_dynasty_prestige = miniscule_dynasty_prestige_gain }
 		add_legitimacy = miniscule_legitimacy_loss
 		custom_tooltip = RICE_socotra_collaborate_with_pirates_effect_tooltip
@@ -457,7 +463,7 @@ RICE_socotra_draft_bawarij_pirates = {
 		#highest_held_title_tier > tier_barony
 		is_landed = yes
 		has_title = title:c_socotra
-		is_at_war = yes
+		#is_at_war = yes
 	}
 	
 	is_valid = {
@@ -544,9 +550,11 @@ RICE_socotra_moon_sacrifice = {
 		highest_held_title_tier > tier_barony
 		is_landed = yes
 		has_title = title:c_socotra
+		#culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 	}
 	
 	is_valid = {
+		#culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 		OR = {
 			NOT = { has_trait = zealous }
 			custom_description = {
@@ -612,7 +620,7 @@ RICE_socotra_moon_sacrifice = {
 
 
 RICE_socotra_form_socotra_kingdom = {
-	picture = { reference = "gfx/interface/illustrations/decisions/decision_visit_western_oasis_springs.dds" }
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_RICE_tropicana.dds" }
 	decision_group_type = major
 	desc = RICE_socotra_form_socotra_kingdom_desc
 
@@ -620,9 +628,9 @@ RICE_socotra_form_socotra_kingdom = {
 		barony = 0
 		county = 0
 		duchy = 120
-		kingdom = 120
-		empire = 120
-		hegemony = 120
+		kingdom = 0 	# Changed to 0 because non-duchy tiers would never take this since it's only available to Dukes
+		empire = 0		# Changed to 0 because non-duchy tiers would never take this since it's only available to Dukes
+		hegemony = 0	# Changed to 0 because non-duchy tiers would never take this since it's only available to Dukes
 	}
 
 	is_shown = {
@@ -642,10 +650,27 @@ RICE_socotra_form_socotra_kingdom = {
 		prestige_level >= 3
 		#dynasty = { dynasty_prestige_level >= 3 }
 		completely_controls = title:d_socotra
-		custom_description = {
-			text = RICE_socotra_collaborate_with_pirates_requirement_2
-			dynasty ?= {
-				has_dynasty_perk = RICE_socotra_indian_ocean_legacy_2
+		OR = {
+			culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }	
+			custom_description = {
+				text = RICE_socotra_collaborate_with_pirates_requirement_2
+				dynasty ?= {
+					has_dynasty_perk = RICE_socotra_indian_ocean_legacy_2
+				}
+			}
+		}
+		OR = {
+			custom_tooltip = {
+				text = RICE_socotra_development_req
+				title:c_socotra = {
+					development_level >= RICE_sicily_pavia_development_level
+				}
+			}	
+			custom_description = {
+				text = RICE_socotra_collaborate_with_pirates_requirement_2
+				dynasty ?= {
+					has_dynasty_perk = RICE_socotra_indian_ocean_legacy_2
+				}
 			}
 		}		
 	}
@@ -748,8 +773,9 @@ RICE_pirate_indian_ocean_decision = {
 		item = {
 			value = RICE_pirate_establish_relations
 			is_valid = {
-				NOT = {
+				NOR = { 
 					has_character_modifier = RICE_pirate_indian_ocean_connections_modifier
+					culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 				}
 			}
 			current_description = RICE_pirate_establish_relations_desc
@@ -771,6 +797,7 @@ RICE_pirate_indian_ocean_decision = {
 						any_held_county = { 
 							RICE_socotra_has_pirate_den_trigger = yes
 						}
+						culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 					}
 				}
 			}
@@ -793,6 +820,7 @@ RICE_pirate_indian_ocean_decision = {
 						any_held_county = { 
 							RICE_socotra_has_pirate_den_trigger = yes
 						}
+						culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 					}
 				}
 			}
@@ -815,6 +843,7 @@ RICE_pirate_indian_ocean_decision = {
 						any_held_county = { 
 							RICE_socotra_has_pirate_den_trigger = yes
 						}
+						culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 					}
 				}
 			}
@@ -837,6 +866,7 @@ RICE_pirate_indian_ocean_decision = {
 						any_held_county = { 
 							RICE_socotra_has_pirate_den_trigger = yes
 						}
+						culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
 					}
 				}
 			}
@@ -1027,3 +1057,263 @@ RICE_pirate_indian_ocean_decision = {
 		}
 	}
 }
+
+
+RICE_socotra_cast_insular_sorcery = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_hammerfell.dds" }
+	desc = RICE_socotra_cast_insular_sorcery_desc
+	decision_group_type = RICE_regional
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 64
+		duchy = 48
+		kingdom = 48
+		empire = 48
+		hegemony = 48
+	}
+	
+	cooldown = { days = RICE_socotra_insular_sorcery_cooldown } 
+
+	is_shown = {
+		is_landed = yes
+		OR = {
+			has_trait = RICE_socotra_sorcerer
+			culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
+		}
+	}
+
+	is_valid = {
+		#OR = {
+		#	has_trait = RICE_socotra_sorcerer
+			culture = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs }
+		#}
+		OR = {
+			has_trait = RICE_socotra_sorcerer
+			has_trait = lifestyle_mystic
+			has_trait = witch
+			#has_trait = lifestyle_physician
+			#has_trait = lifestyle_herbalist
+			learning >= medium_skill_rating
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_adult = yes
+		RICE_is_available_adult_even_if_sick_trigger = yes
+	}
+
+	
+	widget = {
+		gui = "decision_view_widget_RICE_socotra_cast_insular_sorcery"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = "RICE_SOCOTRA_SORCERY_PICK_TYPE"
+		show_from_start = yes	
+		
+		
+		### Rejuvenate Clan
+		item = {
+			is_valid = {
+				exists = dynasty
+			}
+			value = RICE_socotra_cast_insular_sorcery_rejuvenate_clan
+			current_description = RICE_socotra_cast_insular_sorcery_rejuvenate_clan_desc
+			localization = RICE_socotra_cast_insular_sorcery_rejuvenate_clan_name
+			icon = "gfx/interface/icons/culture_tradition/4-items/philosopher.dds"
+			ai_chance = {
+				value = 10
+			}
+		}	
+		
+		### Weaken Enemies
+		item = {
+			value = RICE_socotra_cast_insular_sorcery_impair_enemies
+			current_description = RICE_socotra_cast_insular_sorcery_impair_enemies_desc
+			localization = RICE_socotra_cast_insular_sorcery_impair_enemies_name
+			icon = "gfx/interface/icons/culture_tradition/4-items/speech.dds" # type_disaster
+			ai_chance = {
+				value = 10
+			}
+		}		
+		
+		### Pray for Water
+		item = {
+			is_valid = {
+				is_landed = yes
+			}
+			value = RICE_socotra_cast_insular_sorcery_pray_for_water
+			current_description = RICE_socotra_cast_insular_sorcery_pray_for_water_desc
+			localization = RICE_socotra_cast_insular_sorcery_pray_for_water_name
+			icon = "gfx/interface/icons/culture_tradition/4-items/water_technology.dds"
+			ai_chance = {
+				value = 10
+			}
+		}		
+		
+		### Insulate Coasts
+		item = {
+			value = RICE_socotra_cast_insular_sorcery_insulate_coasts
+			is_valid = {
+				custom_description = {
+					text = RICE_capital_coastal_county
+					any_held_county = {
+						is_coastal_county = yes
+					}
+				}
+			}
+			current_description = RICE_socotra_cast_insular_sorcery_insulate_coasts_desc
+			localization = RICE_socotra_cast_insular_sorcery_insulate_coasts_name
+			icon = "gfx/interface/icons/culture_tradition/4-items/desert_mountains.dds"
+			ai_chance = {
+				value = 10
+			}
+		}		
+		
+		### Bless Ships
+		item = {
+			value = RICE_socotra_cast_insular_sorcery_bless_ships
+			is_valid = {
+				custom_description = {
+					text = RICE_capital_coastal_county
+					any_held_county = {
+						is_coastal_county = yes
+					}
+				}
+			}
+			current_description = RICE_socotra_cast_insular_sorcery_bless_ships_desc
+			localization = RICE_socotra_cast_insular_sorcery_bless_ships_name
+			icon = "gfx/interface/icons/culture_tradition/4-items/ship.dds"
+			ai_chance = {
+				value = 10
+			}
+		}		
+
+	}
+
+	cost = {
+		gold = RICE_socotra_insular_sorcery_gold_cost # Will depend
+		piety = RICE_socotra_insular_sorcery_piety_cost
+	}
+	
+	ai_potential = {
+		short_term_gold > RICE_socotra_insular_sorcery_gold_cost
+		piety > RICE_socotra_insular_sorcery_piety_cost
+	}
+
+	effect = {	
+		save_scope_as = sorcerer
+		if = {
+			limit = {
+				has_character_modifier = RICE_socotra_aspiration_conslidate_clan
+			}
+			add_character_flag = RICE_socotra_rahabhan_did_insular_sorcery_once
+		}
+		custom_tooltip = RICE_socotra_cast_insular_sorcery_effect_tooltip_1
+		custom_tooltip = RICE_socotra_cast_insular_sorcery_effect_tooltip_2
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			random_list = {
+				10 = {
+					trigger = {
+						exists = dynasty
+					}
+					trigger_event = socotra.0110
+				}
+				10 = {
+					trigger_event = socotra.0111
+				}
+				10 = {
+					trigger = {
+						is_landed = yes
+					}
+					trigger_event = socotra.0112
+				}
+				10 = {
+					trigger = {						
+						any_held_county = {
+							is_coastal_county = yes
+						}
+					}
+					trigger_event = socotra.0113
+				}
+				10 = {
+					trigger = {
+						any_held_county = {
+							is_coastal_county = yes
+						}
+					}
+					trigger_event = socotra.0114
+				}
+			}
+		}
+
+		else_if = {
+			limit = { scope:RICE_socotra_cast_insular_sorcery_rejuvenate_clan = yes }
+			custom_tooltip = RICE_socotra_cast_insular_sorcery_rejuvenate_clan_effect_tooltip_1
+			trigger_event = socotra.0110
+		}
+
+		else_if = {
+			limit = { scope:RICE_socotra_cast_insular_sorcery_impair_enemies = yes }
+			show_as_tooltip = {
+				custom_tooltip = RICE_socotra_cast_insular_sorcery_impair_enemies_effect_tooltip_1
+			}
+			trigger_event = socotra.0111
+		}
+
+		else_if = {
+			limit = { scope:RICE_socotra_cast_insular_sorcery_pray_for_water = yes }
+			show_as_tooltip = {
+				custom_tooltip = RICE_socotra_cast_insular_sorcery_pray_for_water_effect_tooltip_1
+			}
+			trigger_event = socotra.0112
+		}
+
+		else_if = {
+			limit = { scope:RICE_socotra_cast_insular_sorcery_insulate_coasts = yes }
+			show_as_tooltip = {
+				custom_tooltip = RICE_socotra_cast_insular_sorcery_insulate_coasts_effect_tooltip_1
+			}
+			trigger_event = socotra.0113
+		}
+
+		else_if = {
+			limit = { scope:RICE_socotra_cast_insular_sorcery_bless_ships = yes }
+			show_as_tooltip = {
+				custom_tooltip = RICE_socotra_cast_insular_sorcery_bless_ships_effect_tooltip_1
+				custom_tooltip = RICE_socotra_cast_insular_sorcery_bless_ships_effect_tooltip_2
+			}
+			trigger_event = socotra.0114
+		}
+
+		if = {
+			limit = {
+				has_game_rule = RICE_historical_context_on
+			}
+			custom_tooltip = RICE_socotra_cast_insular_sorcery_context_tooltip
+		}
+
+	}
+
+	ai_will_do = {
+		base = 30
+		modifier = {
+			add = -10
+			has_trait = lazy
+		}
+		modifier = {
+			add = 10
+			has_trait = diligent
+		}
+		modifier = {
+			add = -10
+			has_trait = content
+		}
+		modifier = {
+			add = 10
+			has_trait = ambitious
+		}
+	}
+}
+

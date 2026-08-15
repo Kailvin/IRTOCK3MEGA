@@ -2044,6 +2044,10 @@ RICE_events_courtier_yearly_pulse = {
 		50 = sardinia.0011		# Sardinian courtier spawn in North Africa (setup event)
 		50 = sardinia.0013		# Afro-Latin courtier spawn in North Africa or Western Mediterranean
 
+		# SICILY
+		100 = sicily.0234		# Sicilian refugee spawn
+		100 = sicily.0235		# Sicilian migrant courtier spawn
+
 		# GALICIA-VOLHYNIA
 		50 = galicia2.0010		# Volga-Dnieper Merchant Spawn event in the Volga-Dnieper Trade Region
 
@@ -2147,7 +2151,7 @@ RICE_tarim_basin_silk_road_communities_events_pulse = {
 	}
 	random_events = {
 		chance_of_no_event = {
-			value = 50
+			value = 30
 			if = {
 				limit = {
 					exists = dynasty
@@ -2159,7 +2163,7 @@ RICE_tarim_basin_silk_road_communities_events_pulse = {
 			}
 		}
 
-		300 = 0
+		100 = 0
 
 		10 = tarim_basin.0021  # Gift of gold from locals
 		10 = tarim_basin.0022  # Gift of promising business deals

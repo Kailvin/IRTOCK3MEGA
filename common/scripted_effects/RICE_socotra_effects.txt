@@ -126,6 +126,11 @@
 			add_culture_tradition = tradition_RICE_ubiquity_of_poetry
 			remove_variable = tradition_cooldown
 		}
+		if = {
+			limit = { NOT = { has_cultural_tradition = tradition_RICE_sorcerous_corsairs } }
+			add_culture_tradition = tradition_RICE_sorcerous_corsairs
+			remove_variable = tradition_cooldown
+		}
 	}
 	# For CE
 	if = {
@@ -232,6 +237,34 @@
 				add_special_building = RICE_pirate_den_01
 			}
 		}
+	}
+
+	##############################################
+	#
+	# CHARACTERS
+	#
+	##############################################
+
+	# Give Rahabhan his titles in Socotra
+	if = {		
+		limit = {
+			character:214510 ?= { is_alive = yes }
+		}
+		character:RICE_socotra_003 ?= {
+			get_title = title:d_socotra
+			get_title = title:c_socotra
+			get_title = title:d_socotra
+			RICE_setup_new_granted_ruler_bonuses_effect = yes
+			#add_courtier = character:RICE_socotra_004
+			#add_courtier = character:RICE_socotra_005
+			add_character_modifier = {
+				modifier = RICE_socotra_aspiration_conslidate_clan
+			}
+			set_variable = {
+				name = RICE_historical_aspiration
+				value = flag:rahabhan
+			}
+		}	
 	}
 
 	##############################################
@@ -354,6 +387,7 @@ make_south_arabian_culture_effect = {
 		limit = {
 			is_married = yes
 			any_spouse = { is_landed = no }
+			culture = { has_cultural_pillar = heritage_arabic }
 		}
 		every_spouse = {
 			set_culture = culture:south_arabian
@@ -369,12 +403,14 @@ make_south_arabian_culture_effect = {
 		limit = {
 			any_close_family_member = {
 				is_landed = no
+				culture = { has_cultural_pillar = heritage_arabic }
 			}
 		}
 		every_close_family_member = {
 			custom = all_family_members
 			limit = {
 				is_landed = no
+				culture = { has_cultural_pillar = heritage_arabic }
 			}
 			set_culture = culture:south_arabian
 			if = {
@@ -392,15 +428,18 @@ make_south_arabian_culture_effect = {
 			OR = {
 				any_vassal = {
 					is_ai = yes
+					culture = { has_cultural_pillar = heritage_arabic }
 				}
 				any_courtier = {
 					is_ai = yes
+					culture = { has_cultural_pillar = heritage_arabic }
 				}			
 			}
 		}
 		every_vassal = {
 			limit = {
 				is_ai = yes
+				culture = { has_cultural_pillar = heritage_arabic }
 			}
 			set_culture = culture:south_arabian
 			if = {
@@ -411,7 +450,12 @@ make_south_arabian_culture_effect = {
 			}
 			hidden_effect = {
 				if = {
-					limit = { any_spouse = { is_landed = no } }
+					limit = {
+						any_spouse = {
+							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
+						}
+					}
 					every_spouse = {
 						set_culture = culture:south_arabian
 						if = {
@@ -426,11 +470,13 @@ make_south_arabian_culture_effect = {
 					limit = {
 						any_close_family_member = {
 							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
 						}
 					}
 					every_close_family_member = {
 						limit = {
 							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
 						}
 						set_culture = culture:south_arabian
 						if = {
@@ -446,6 +492,7 @@ make_south_arabian_culture_effect = {
 		every_courtier = {
 			limit = {
 				is_ai = yes
+				culture = { has_cultural_pillar = heritage_arabic }
 			}
 			set_culture = culture:south_arabian
 			if = {
@@ -456,7 +503,12 @@ make_south_arabian_culture_effect = {
 			}
 			hidden_effect = {
 				if = {
-					limit = { any_spouse = { is_landed = no } }
+					limit = {
+						any_spouse = {
+							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
+						}
+					}
 					every_spouse = {
 						set_culture = culture:south_arabian
 						if = {
@@ -471,11 +523,13 @@ make_south_arabian_culture_effect = {
 					limit = {
 						any_close_family_member = {
 							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
 						}
 					}
 					every_close_family_member = {
 						limit = {
 							is_landed = no
+							culture = { has_cultural_pillar = heritage_arabic }
 						}
 						set_culture = culture:south_arabian
 						if = {
@@ -523,6 +577,12 @@ RICE_socotra_add_indian_ocean_pirate_den_effect = {
 
 
 RICE_socotra_bawarij_spawn_effect = {
+	if = {
+		limit = {
+			has_character_modifier = RICE_socotra_aspiration_conslidate_clan
+		}
+		add_character_flag = RICE_socotra_did_bawarij_pirates_decision
+	}
 	# Bawarij Pirates to the rescue... right?
 	spawn_army = {
 		levies = 500
@@ -998,10 +1058,173 @@ RICE_indian_ocean_renege_on_pirate_collaboration_effect = {
 
 
 
+RICE_socotra_sorcerer_small_xp_gain = {
+	if = {
+		limit = {
+			has_trait = RICE_socotra_sorcerer
+		}
+		add_trait_xp = {
+			trait = RICE_socotra_sorcerer
+			value = RICE_socotra_sorcerer_small_xp_gain
+		}
+	}
+	else_if = {
+		random = {
+			chance = 25
+			add_trait = RICE_socotra_sorcerer
+		}
+	}
+}
+
+RICE_socotra_sorcerer_medium_xp_gain = {
+	if = {
+		limit = {
+			has_trait = RICE_socotra_sorcerer
+		}
+		add_trait_xp = {
+			trait = RICE_socotra_sorcerer
+			value = RICE_socotra_sorcerer_medium_xp_gain
+		}
+	}
+	else_if = {
+		random = {
+			chance = 50
+			add_trait = RICE_socotra_sorcerer
+		}
+	}
+}
+
+RICE_socotra_sorcerer_large_xp_gain = {
+	if = {
+		limit = {
+			has_trait = RICE_socotra_sorcerer
+		}
+		add_trait_xp = {
+			trait = RICE_socotra_sorcerer
+			value = RICE_socotra_sorcerer_large_xp_gain
+		}
+	}
+	else_if = {
+		random = {
+			chance = 75
+			add_trait = RICE_socotra_sorcerer
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_strength_weak_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_small_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_strength_modifier_weak
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_wisdom_weak_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_small_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_weak
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_fortune_weak_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_small_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_weak
+				years = 10
+			}
+		}
+	}
+}
 
 
+RICE_socotra_rejuvenate_clan_strength_normal_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_medium_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_strength_modifier_normal
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_wisdom_normal_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_medium_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_normal
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_fortune_normal_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_medium_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_normal
+				years = 10
+			}
+		}
+	}
+}
 
 
+RICE_socotra_rejuvenate_clan_strength_strong_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_large_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_strength_modifier_strong
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_wisdom_strong_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_large_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_strong
+				years = 10
+			}
+		}
+	}
+}
+
+RICE_socotra_rejuvenate_clan_fortune_strong_effect = {
+	scope:sorcerer = {
+		RICE_socotra_sorcerer_large_xp_gain = yes
+		dynasty ?= {
+			add_dynasty_modifier = {
+				modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_strong
+				years = 10
+			}
+		}
+	}
+}
 
 
-
+RICE_socotra_bless_ships_effect = {
+	add_piety = minor_piety_gain
+	add_prestige = minor_prestige_gain
+	add_legitimacy = miniscule_legitimacy_gain
+}

@@ -154,6 +154,59 @@ south_ethiopia.0002 = {
 }
 
 
+# Praying at the Sycamore Tree
+south_ethiopia.0003 = {
+	type = character_event
+	title = south_ethiopia.0003.t
+	window = big_event_window
+	desc = south_ethiopia.0003.desc
+	theme = faith
+	override_background = { reference = RICE_background_african_village }
+
+	right_portrait = {
+		character = root
+		animation = prayer
+		camera = camera_event_group_talking_left_left
+	}
+
+	# Reputation and Honor
+	option = {
+		name = south_ethiopia.0003.a
+		RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		RICE_south_ethiopia_sycamore_tree_diplomacy_effect = yes
+	}
+
+	# Military
+	option = {
+		name = south_ethiopia.0003.b
+		RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		RICE_south_ethiopia_sycamore_tree_martial_effect = yes
+	}
+
+	# Prosperity
+	option = {
+		name = south_ethiopia.0003.c
+		RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		RICE_south_ethiopia_sycamore_tree_stewardship_effect = yes
+	}
+
+	# Relationships
+	option = {
+		name = south_ethiopia.0003.d
+		RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		RICE_south_ethiopia_sycamore_tree_intrigue_effect = yes
+	}
+
+	# Supernatural
+	option = {
+		name = south_ethiopia.0003.e
+		RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		RICE_south_ethiopia_sycamore_tree_learning_effect = yes
+	}
+}
+
+
+
 # Aari/South Omotic character spawn
 south_ethiopia.0010 = {
 	type = character_event

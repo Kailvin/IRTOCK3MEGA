@@ -449,3 +449,111 @@ RICE_south_ethiopia_fandaanano_decision = {
 
 	}
 }
+
+
+# Pray to a Sycamore Tree
+RICE_south_ethiopia_pray_to_a_sycamore_tree = {
+	picture = { reference = "gfx/interface/illustrations/decisions/decision_RICE_african_savanna.dds" }
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 48
+		duchy = 48
+		kingdom = 36
+		empire = 36
+		hegemony = 36
+	}
+	decision_group_type = RICE_religious	
+	cooldown = { days = 3650 } 
+
+	desc = RICE_south_ethiopia_pray_to_a_sycamore_tree_desc
+	selection_tooltip = RICE_south_ethiopia_pray_to_a_sycamore_tree_tooltip
+
+	is_shown = {
+		is_playable_character = yes
+		OR = {
+			culture = { has_cultural_pillar = heritage_somalian }
+			culture = { has_cultural_tradition = tradition_RICE_gadaa }
+			culture = { has_cultural_tradition = tradition_RICE_halale }
+			culture = { has_cultural_tradition = tradition_RICE_honorable_marauders }
+		}
+		# Capital is in the Sycamore Fig region
+		OR = {
+			root.capital_county ?= {
+				title_province = { geographical_region = RICE_sycamore_fig_region }
+			}	
+			domicile.domicile_location ?= {
+				geographical_region = RICE_sycamore_fig_region
+			}
+		}
+	}
+	
+	is_valid = {
+		OR = {
+			culture = { has_cultural_pillar = heritage_somalian }
+			culture = { has_cultural_tradition = tradition_RICE_gadaa }
+			culture = { has_cultural_tradition = tradition_RICE_halale }
+			culture = { has_cultural_tradition = tradition_RICE_honorable_marauders }
+		}
+		OR = {
+			custom_description = {
+				text = "RICE_sycamore_geographical_req"
+				root.capital_county ?= {
+					title_province = { geographical_region = RICE_sycamore_fig_region }
+				}
+			}
+			custom_description = {
+				text = "RICE_sycamore_domicile_geographical_req"	
+				domicile.domicile_location ?= {
+					geographical_region = RICE_sycamore_fig_region
+				}
+			}
+		}
+	}
+	
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+	}
+
+	effect = {
+		show_as_tooltip = {
+			RICE_south_ethiopia_sycamore_tree_general_effect = yes
+		}
+		custom_tooltip = RICE_south_ethiopia_pray_to_a_sycamore_tree_effect_tooltip_1
+		if = {
+			limit = {
+				has_game_rule = RICE_historical_context_on
+			}
+			custom_tooltip = RICE_south_ethiopia_pray_to_a_sycamore_tree_context_tooltip
+		}
+		trigger_event = south_ethiopia.0003 
+	}
+
+	cost = {
+		gold = minor_gold_value # Will depend
+		piety = medium_piety_gain
+	}
+	
+	ai_potential = {
+		short_term_gold > minor_gold_value
+	}
+
+	ai_will_do = {
+		base = 25
+		modifier = {
+			add = -5
+			has_trait = cynical
+		}
+		modifier = {
+			add = 5
+			has_trait = zealous
+		}
+		modifier = {
+			add = -10
+			has_trait = content
+		}
+		modifier = {
+			add = 10
+			has_trait = ambitious
+		}
+	}
+}

@@ -89,12 +89,14 @@
 	male_names = {
 		Atabutwre Bagisht Batur Bruk Churi Dezau Eumrai Gish Giwish Ich Imra Indr Janera Jast Ji Kantaar Kime Kshul Kshumai Lemoch Mahadeo Malda Mandi Mara
 		Markhor Moni Mou MUmoch MUnt Shomde Shurmoch Sucha Urta Wushum Yamarajan Yush ZUzum
+		# Legendary Kalash figures
+		Adabog Aliksher Asparhoni Babura Bangota Bangush Bedana Bulasing Chiu Danisht Dhondi Dhulla Gaha Gilasur Gordemeo Gorghekht Jangashingar Khurkash Kolandy Komakshai Latharuk Majikdamori Miteravi Mitrawi Rajuk Shalak Sharuta Shurasai Sirang Suasai Wai
 	}
 	female_names = {
 		Charmovetr Chit Dezalik Disani Dizane Jeshtak Jim Krumai Kshul Le Machi Markhor Nirmali Saranji Shur Suchi Surmiya Tchina Vetr Wotni Zhibulu
 	}
 
-	founder_named_dynasties = yes
+	#founder_named_dynasties = yes
 
 }
 
@@ -273,7 +275,7 @@ name_list_burusho = {
 		Asomoon Axo Baardum Batbat Belis Bilas Bilchon Bulbul Burum Buseiko Bush Buwa Cel Chin Czan Czapayom Daltas Diyaarchom Donesh Du Echoghon Fooh Gaganom Galgi Garom Gashoskin Ghashep Ghasichom Ghughundil Girkis Gusparish Hal Halanz Haralt Heyom Jee Khorong Larokores Malthash Odel Oveljiyeshom Partaawuus Sheghesom Shekark Shoqom Showa Tik Toll Tsil Ut Yatal
 	}
 	
-	founder_named_dynasties = yes
+	#founder_named_dynasties = yes
 
 }
 
@@ -340,7 +342,7 @@ name_list_vedda = {
 		Viyani Walaha Wiri
 	}
 	
-	founder_named_dynasties = yes
+	#founder_named_dynasties = yes
 
 	mercenary_names = {
 		{ name = "mercenary_company_company_of_the_staff" }
@@ -466,7 +468,7 @@ name_list_munda = {
 	
 	dynasty_of_location_prefix = "dynnp_of"
 	
-	house_based_map_names = yes
+	#house_based_map_names = yes
 
 
 }

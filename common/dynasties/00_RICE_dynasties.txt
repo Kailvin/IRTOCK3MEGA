@@ -932,3 +932,42 @@ RICE_dynasty_atto_of_monte_cassino = {
 	name = "RICE_dynn_monte_cassino"
 	culture = "sicilian"
 }
+
+RICE_il_kishin_dynasty = {
+	#prefix = "dynnp_RICE_il"
+	name = "RICE_dynn_kishin"
+	culture = "south_arabian"
+}
+
+me_najahid_dynasty = {
+	#prefix = "dynnp_RICE_il"
+	name = "RICE_dynn_najahid"
+	culture = "ethiopian"
+}
+
+RICE_dynasty_di_pisa = {
+	prefix = "dynnp_di"
+	name = "b_pisa"
+	culture = "italian"
+}
+
+RICE_dynasty_al_Franji = {
+	name = "al_franji"
+	culture = "levantine"
+}
+
+RICE_khaulanite_dynasty = {
+	name = "RICE_dynn_khaulanite"
+	culture = "himyarite"
+}
+
+RICE_chitral_867_dynasty = {
+	name = "dynn_Kalasha"
+	culture = "nuristani"
+}
+
+RICE_dynasty_de_paiva = {
+	prefix = "dynnp_de"
+	name = "dynn_RICE_paiva"
+	culture = "portuguese"
+}

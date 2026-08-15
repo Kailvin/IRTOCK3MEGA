@@ -8,6 +8,9 @@
 # socotra.0030-socotra.0039	Zahra the Socotran History Events
 # socotra.0040-socotra.0049	Moon Sacrifice
 # socotra.0050-socotra.0089	Socotra Generic Flavor Events
+# socotra.0090-socotra.0099 Socotran Piracy
+# socotra.0100-socotra.0109 Rahabhan Flavor Events/Aspiration
+# socotra.0110-socotra.0129 Socotran Sorcery
 # 
 ###############################################################################
 
@@ -85,6 +88,9 @@ socotra.0001 = {
 						is_close_or_extended_family_of = root
 						is_spouse_of = root
 						has_character_flag = RICE_socotra_dont_kill
+						this = character:RICE_socotra_003
+						this = character:RICE_socotra_004
+						this = character:RICE_socotra_005
 					}
 				}
 				death = {
@@ -3967,6 +3973,12 @@ socotra.0041 = {
 	
 	after = {
 		hidden_effect = {
+			if = {
+				limit = {
+					has_character_modifier = RICE_socotra_aspiration_conslidate_clan
+				}
+				add_character_flag = RICE_socotra_rahabhan_did_moon_sacrifice
+			}
 			random_list = {
 				20 = {
 					modifier = {
@@ -5934,3 +5946,1972 @@ socotra.0094 = {
 		RICE_pirates_ransom_prisoners_gold_effect = yes
 	}
 }
+
+
+######################################################################################
+# 
+# RAHABHAN EVENTS
+# 
+# socotra.0100-socotra.0109 reserved
+# 
+######################################################################################
+
+
+# Introduce Rahabhan
+socotra.0100 = {
+	type = character_event
+	title = socotra.0100.t
+	desc = socotra.0100.desc
+	window = big_event_window
+	theme = memory_intrigue
+	override_background = { reference = RICE_background_socotra_tree }
+	
+	left_portrait = {
+		character = scope:rahabhan
+		animation = personality_callous
+		camera = camera_event_right_pointing_right
+	}
+	right_portrait = {
+		character = scope:rahabhan_wife
+		animation = war_over_tie
+		camera = camera_event_right_pointing_very_right
+	}
+
+	immediate = {
+		character:RICE_socotra_003 = {
+			save_scope_as = rahabhan
+		}
+		character:RICE_socotra_004 = {
+			save_scope_as = rahabhan_wife
+		}
+		show_as_tooltip = {
+			add_character_modifier = {
+				modifier = RICE_socotra_aspiration_conslidate_clan
+			}
+		}
+		# Create characters to use as reference for copying DNA in case he's a different ethnicity
+		hidden_effect = {
+			# Roman/Greek
+			create_character = {
+				location = title:c_socotra.holder.capital_province
+				random_traits = yes
+				faith = faith:nestorian
+				culture = culture:greek
+				gender_female_chance = 100
+				save_scope_as = roman_courtier
+			}
+			# Persian
+			create_character = {
+				location = title:c_socotra.holder.capital_province
+				random_traits = yes
+				faith = faith:nestorian
+				culture = culture:persian
+				gender_female_chance = 100
+				save_scope_as = persian_courtier
+			}
+			# Indian
+			create_character = {
+				location = title:c_socotra.holder.capital_province
+				random_traits = yes
+				faith = faith:nestorian
+				culture = culture:gujarati
+				gender_female_chance = 100
+				save_scope_as = indian_courtier
+			}
+			# African
+			create_character = {
+				location = title:c_socotra.holder.capital_province
+				random_traits = yes
+				faith = faith:nestorian
+				culture = culture:swahili
+				gender_female_chance = 100
+				save_scope_as = african_courtier
+			}
+		}
+		
+	}
+	
+	option = { # Franks
+		name = socotra.0100.a
+		scope:rahabhan_wife = {
+			random_list = {
+				60 = { }
+				5 = { set_culture = culture:norman }
+				5 = { set_culture = culture:occitan }
+				5 = {
+					set_culture = culture:cisalpine
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+				5 = {
+					set_culture = culture:franconian					
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+				5 = {
+					set_culture = culture:irish
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+				5 = {
+					set_culture = culture:polish
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+				5 = {
+					set_culture = culture:swedish
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+				5 = {
+					set_culture = culture:portuguese
+					hidden_effect = {
+						scope:rahabhan_wife = { unlearn_language = language_french }
+					}
+				}
+			}
+		}
+		# AI will more likely go with this option
+		ai_chance = {
+			base = 60
+		}
+	}	
+	
+	option = { # Romans
+		name = socotra.0100.b
+		scope:rahabhan_wife = {
+			random_list = {
+				60 = { set_culture = culture:greek }
+				10 = { set_culture = culture:armenian }
+				10 = { set_culture = culture:sicilian }
+				10 = { set_culture = culture:african_roman }
+				10 = { set_culture = culture:bulgarian }
+			}
+		}
+		custom_tooltip = RICE_physical_appearance_change_wife_desc
+		hidden_effect = {
+			scope:rahabhan_wife = {
+				unlearn_language = language_french
+				copy_inheritable_appearance_from = scope:roman_courtier
+			}
+		}
+		# However, there's a chance the AI will go with this option instead
+		ai_chance = {
+			base = 10
+		}
+	}	
+	
+	option = { # Persians
+		name = socotra.0100.c
+		scope:rahabhan_wife = {
+			random_list = {
+				60 = { set_culture = culture:persian }
+				20 = { set_culture = culture:tajik }
+				10 = { set_culture = culture:afghan }
+				10 = { set_culture = culture:khalaj }
+			}
+		}
+		custom_tooltip = RICE_physical_appearance_change_wife_desc
+		hidden_effect = {
+			scope:rahabhan_wife = {
+				unlearn_language = language_french
+				copy_inheritable_appearance_from = scope:persian_courtier
+			}
+		}
+		# However, there's a chance the AI will go with this option instead
+		ai_chance = {
+			base = 10
+		}
+	}	
+	
+	option = { # Indians
+		name = socotra.0100.d
+		scope:rahabhan_wife = {
+			random_list = {
+				30 = { set_culture = culture:sindhi }
+				30 = { set_culture = culture:gujarati }
+				10 = { set_culture = culture:tamil }
+				10 = { set_culture = culture:telugu }
+				10 = { set_culture = culture:marathi }
+				10 = { set_culture = culture:sinhala }
+			}
+		}
+		custom_tooltip = RICE_physical_appearance_change_wife_desc
+		hidden_effect = {
+			scope:rahabhan_wife = {
+				unlearn_language = language_french
+				copy_inheritable_appearance_from = scope:indian_courtier
+			}
+		}
+		# However, there's a chance the AI will go with this option instead
+		ai_chance = {
+			base = 10
+		}
+	}	
+	
+	option = { # Africans
+		name = socotra.0100.e
+		scope:rahabhan_wife = {
+			random_list = {
+				20 = { set_culture = culture:swahili }
+				20 = { set_culture = culture:somali }
+				10 = { set_culture = culture:beja }
+				10 = { set_culture = culture:nubian }
+				10 = { set_culture = culture:ethiopian }
+				10 = { set_culture = culture:harla }
+				10 = { set_culture = culture:afar }
+				10 = { set_culture = culture:east_bantu }
+			}
+		}
+		custom_tooltip = RICE_physical_appearance_change_wife_desc
+		hidden_effect = {
+			scope:rahabhan_wife = {
+				unlearn_language = language_french
+				copy_inheritable_appearance_from = scope:african_courtier
+			}
+		}
+		# However, there's a chance the AI will go with this option instead
+		ai_chance = {
+			base = 10
+		}
+	}	
+
+	after = {
+		trigger_event = socotra.0101
+		hidden_effect = {
+			scope:roman_courtier = { death = { death_reason = death_vanished } }
+			scope:persian_courtier = { death = { death_reason = death_vanished } }
+			scope:indian_courtier = { death = { death_reason = death_vanished } }
+			scope:african_courtier = { death = { death_reason = death_vanished } }
+		}		
+	}
+
+}
+
+
+# Introduce Rahabhan - conclusions
+socotra.0101 = {
+	type = character_event
+	title = socotra.0101.t
+	desc = socotra.0101.desc
+	window = big_event_window
+	theme = RICE_theme_socotra_beach
+	override_icon = { reference = "gfx/interface/icons/event_types/type_travel_sea.dds" }
+
+	
+	left_portrait = {
+		character = scope:rahabhan
+		animation = personality_callous
+		camera = camera_event_right_pointing_right
+	}
+	right_portrait = {
+		character = scope:rahabhan_wife
+		animation = war_over_tie
+		camera = camera_event_right_pointing_very_right
+	}
+	
+	option = { # Ok
+		name = socotra.0101.a		
+		flavor = {
+			triggered_desc = {
+				trigger = {
+					has_game_rule = RICE_historical_context_on
+				}
+				desc = socotra.0101.info
+			}
+		}	
+	}
+
+
+
+}
+
+
+# Rahabhan's Aspiration fulfilled
+socotra.0102 = {
+	type = character_event
+	title = socotra.0102.t
+	desc = socotra.0102.desc
+	theme = dynasty
+	override_background = { reference = RICE_background_socotra_tree }
+
+	
+	left_portrait = {
+		character = scope:rahabhan
+		animation = personality_callous
+		camera = camera_event_right_pointing_right
+	}
+	right_portrait = {
+		character = scope:rahabhan_wife
+		animation = war_over_tie
+		camera = camera_event_right_pointing_very_right
+	}
+
+	immediate = {
+		
+		character:RICE_socotra_003 = {
+			save_scope_as = rahabhan
+		}
+		character:RICE_socotra_004 = {
+			save_scope_as = rahabhan_wife
+		}
+
+		RICE_historical_aspiration_fulfilled_effect = yes
+
+		hidden_effect = {
+			if = {
+				limit = {
+					has_character_modifier = RICE_socotra_aspiration_conslidate_clan
+				}
+				remove_character_modifier = RICE_socotra_aspiration_conslidate_clan
+			}
+		}
+
+		# Main Objective Reward
+
+		dynasty ?= {
+			add_dynasty_prestige = RICE_aspiration_large_resource_bonus
+		}
+		if = {
+			limit = {
+				prestige_level >= 3
+			}
+			add_piety = RICE_aspiration_medium_resource_bonus
+		}
+		if = {
+			limit = {
+				piety_level >= 3
+			}
+			add_prestige = RICE_aspiration_medium_resource_bonus
+		}
+		add_gold = RICE_aspiration_medium_resource_bonus
+		title:c_socotra = {
+			change_development_level = RICE_socotra_rahabhan_aspiration_dev_bonus
+		}
+
+		# Bonus Objective Reward(s)
+		if = {
+			limit = {
+				character:RICE_socotra_004 ?= {
+					is_alive = yes
+					OR = {
+						has_relation_lover = root
+						has_relation_soulmate = root
+						has_relation_friend = root
+						has_relation_best_friend = root				
+					}
+				}
+			}
+			add_character_modifier = {
+				modifier = RICE_socotra_rahabhan_wife_relationship_modifier
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = RICE_socotra_rahabhan_did_moon_sacrifice
+			}
+			add_intrigue_lifestyle_perk_points = 1
+		}
+		if = {
+			limit = {
+				has_trait_xp = {
+					trait = RICE_socotra_sorcerer
+					value >= 50
+				}
+			}
+			add_learning_lifestyle_perk_points = 1
+		}
+		if = {
+			limit = {
+				has_character_flag = RICE_socotra_did_bawarij_pirates_decision
+				#has_character_flag = RICE_socotra_pirate_collab_decision
+			}
+			spawn_army = {
+				levies = 300
+				men_at_arms = {
+					type = khandayat
+					stacks = 1
+				}
+				men_at_arms = {
+					type = horn_warrior
+					stacks = 2
+				}
+				men_at_arms = {
+					type = abudrar
+					stacks = 1
+				}
+				men_at_arms = {
+					type = bowmen
+					stacks = 2
+				}
+				men_at_arms = {
+					type = RICE_swahili_sailors
+					stacks = 1
+				}
+				location = title:c_socotra.title_province
+				war = war
+				#inheritable = no
+				name = event_troop_default_name
+			}
+		}
+
+	}
+
+	# Ok
+	option = {
+		name = socotra.0102.a
+	}
+
+}
+
+
+######################################################################################
+# 
+# SOCOTRAN SORCERY
+# 
+# socotra.0110-socotra.0129 reserved
+# 
+######################################################################################
+
+
+# Rejuvenate Clan
+socotra.0110 = {
+	type = character_event
+	title = socotra.0110.t
+	desc = socotra.0110.desc
+	theme = memory_diplomacy
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	
+	# Strength
+	option = {
+		name = socotra.0110.a
+		duel = {
+			skills = { diplomacy learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.strong
+					RICE_socotra_rejuvenate_clan_strength_strong_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0120
+						}
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.normal
+					RICE_socotra_rejuvenate_clan_strength_normal_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0120
+						}
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.weak
+					RICE_socotra_rejuvenate_clan_strength_weak_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0120
+						}
+					}
+				}
+			}
+		}
+	}	
+	
+	# wisdom
+	option = {
+		name = socotra.0110.b
+		duel = {
+			skills = { diplomacy learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.strong
+					RICE_socotra_rejuvenate_clan_wisdom_strong_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0121
+						}
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.normal
+					RICE_socotra_rejuvenate_clan_wisdom_normal_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0121
+						}
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.weak
+					RICE_socotra_rejuvenate_clan_wisdom_weak_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0121
+						}
+					}
+				}
+			}
+		}
+	}	
+	
+	# fortune
+	option = {
+		name = socotra.0110.c
+		duel = {
+			skills = { diplomacy learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.strong
+					RICE_socotra_rejuvenate_clan_fortune_strong_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0122
+						}
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.normal
+					RICE_socotra_rejuvenate_clan_fortune_normal_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0122
+						}
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0110.weak
+					RICE_socotra_rejuvenate_clan_fortune_weak_effect = yes
+				}
+				hidden_effect = {
+					dynasty ?= {
+						every_dynasty_member = {
+							limit = {
+								is_ai = no
+							}
+							trigger_event = socotra.0122
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+# Impair Enemies
+socotra.0111 = {
+	type = character_event
+	title = socotra.0111.t
+	desc = socotra.0111.desc
+	theme = memory_martial
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	
+	option = {
+		name = socotra.0111.a
+		duel = {
+			skills = { martial learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0111.strong
+					RICE_socotra_sorcerer_large_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_impairing_enemies_modifier_strong
+						years = 10
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0111.normal
+					RICE_socotra_sorcerer_medium_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_impairing_enemies_modifier_normal
+						years = 10
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0111.weak
+					RICE_socotra_sorcerer_small_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_impairing_enemies_modifier_weak
+						years = 10
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+# Pray for Water
+socotra.0112 = {
+	type = character_event
+	title = socotra.0112.t
+	desc = socotra.0112.desc
+	theme = memory_stewardship
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	
+	option = {
+		name = socotra.0112.a
+		duel = {
+			skills = { stewardship learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0112.strong
+					RICE_socotra_sorcerer_large_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_county
+						limit = {
+							tier = tier_county			
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_pray_for_water_modifier_strong
+							years = 5
+						}
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0112.normal
+					RICE_socotra_sorcerer_medium_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_county
+						limit = {
+							tier = tier_county			
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_pray_for_water_modifier_normal
+							years = 5
+						}
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0112.weak
+					RICE_socotra_sorcerer_small_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_county
+						limit = {
+							tier = tier_county			
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_pray_for_water_modifier_weak
+							years = 5
+						}
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+
+
+# Insulate Coasts
+socotra.0113 = {
+	type = character_event
+	title = socotra.0113.t
+	desc = socotra.0113.desc
+	theme = memory_intrigue
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	
+	option = {
+		name = socotra.0113.a
+		duel = {
+			skills = { intrigue learning }
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0113.strong
+					RICE_socotra_sorcerer_large_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_coastal_county
+						limit = {
+							tier = tier_county
+							is_coastal_county = yes	
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_insulated_coastline_modifier_strong
+							years = 5
+						}
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0113.normal
+					RICE_socotra_sorcerer_medium_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_county
+						limit = {
+							tier = tier_county	
+							is_coastal_county = yes		
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_insulated_coastline_modifier_normal
+							years = 5
+						}
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0113.weak
+					RICE_socotra_sorcerer_small_xp_gain = yes
+					every_held_title = {
+						custom = RICE_every_county
+						limit = {
+							tier = tier_county	
+							is_coastal_county = yes		
+						}
+						add_county_modifier = {
+							modifier = RICE_socotra_insulated_coastline_modifier_weak
+							years = 5
+						}
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+
+
+# Bless Ships
+socotra.0114 = {
+	type = character_event
+	title = socotra.0114.t
+	desc = socotra.0114.desc
+	theme = memory_learning
+	override_background = { reference = docks }
+	
+	right_portrait = {
+		character = root
+		animation = war_attacker
+	}
+	
+	option = {
+		name = socotra.0114.a
+		duel = {
+			skill = learning
+			value = medium_skill_rating
+			# Strong
+			15 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.5
+					min = -49
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0114.strong
+					RICE_socotra_sorcerer_large_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_blessed_ships_modifier_strong
+						years = 10
+					}
+					trigger_event = {
+						id = socotra.0123
+						days = 365
+					}
+				}
+			}
+			# Normal
+			35 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 25
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 50
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 75
+					}
+				}
+				modifier = {
+					add = 5
+					has_trait = RICE_socotra_sorcerer								
+					has_trait_xp = {
+						trait = RICE_socotra_sorcerer
+						value >= 100
+					}
+				}
+				modifier = {
+					add = 3
+					piety_level >= 2
+				}
+				modifier = {
+					add = 3
+					piety_level >= 3
+				}
+				modifier = {
+					add = 3
+					piety_level >= 4
+				}
+				modifier = {
+					add = 3
+					piety_level >= 5
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0114.normal
+					RICE_socotra_sorcerer_medium_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_blessed_ships_modifier_normal
+						years = 10
+					}
+					trigger_event = {
+						id = socotra.0123
+						days = 365
+					}
+				}
+			}
+			# Weak
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.5
+					min = -49
+				}
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = ROOT
+					title = socotra.0114.weak
+					RICE_socotra_sorcerer_small_xp_gain = yes
+					add_character_modifier = {
+						modifier = RICE_socotra_blessed_ships_modifier_weak
+						years = 10
+					}
+					trigger_event = {
+						id = socotra.0123
+						days = 365
+					}
+				}
+			}
+		}
+	}	
+
+}
+
+
+# Empower through Sorcery - Strength
+socotra.0120 = {
+	type = character_event
+	title = socotra.0120.t
+	desc = socotra.0120.desc
+	theme = dynasty
+	
+	right_portrait = {
+		character = scope:sorcerer
+		animation = throne_room_one_handed_passive_1
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_strength_modifier_weak
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_strength_weak_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_strength_modifier_normal
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_strength_normal_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_strength_modifier_strong
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_strength_strong_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = socotra.0120.a
+	}
+
+}
+
+
+
+# Empower through Sorcery - wisdom
+socotra.0121 = {
+	type = character_event
+	title = socotra.0121.t
+	desc = socotra.0121.desc
+	theme = dynasty
+	
+	right_portrait = {
+		character = scope:sorcerer
+		animation = holding_staff
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_weak
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_wisdom_weak_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_normal
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_wisdom_normal_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_wisdom_modifier_strong
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_wisdom_strong_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = socotra.0121.a
+	}
+
+}
+
+# Empower through Sorcery - fortune
+socotra.0122 = {
+	type = character_event
+	title = socotra.0122.t
+	desc = socotra.0122.desc
+	theme = dynasty
+	
+	right_portrait = {
+		character = scope:sorcerer
+		animation = steward
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_weak
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_fortune_weak_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_normal
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_fortune_normal_effect = yes
+			}
+		}
+		else_if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_modifier = RICE_socotra_rejuvenate_clan_fortune_modifier_strong
+				}
+			}
+			show_as_tooltip = {
+				RICE_socotra_rejuvenate_clan_fortune_strong_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = socotra.0122.a
+	}
+
+}
+
+# Blessed Ships
+socotra.0123 = {	
+	type = character_event
+	hidden = yes
+	# type = character_event
+	# title = socotra.0123.t
+	# desc = socotra.0123.desc
+	# theme = stewardship_wealth_focus
+	# override_icon = { reference = "gfx/interface/icons/event_types/type_travel_sea.dds" }
+	
+	# right_portrait = {
+	# 	character = scope:sorcerer
+	# 	animation = steward
+	# }
+
+	trigger = {
+		OR = {
+			has_character_modifier = RICE_socotra_blessed_ships_modifier_strong
+			has_character_modifier = RICE_socotra_blessed_ships_modifier_normal
+			has_character_modifier = RICE_socotra_blessed_ships_modifier_weak
+		}
+	}
+
+	immediate = {
+
+		if = {
+			limit = {
+				has_character_modifier = RICE_socotra_blessed_ships_modifier_strong
+			}
+			random = {
+				chance = RICE_socotra_bless_ship_chance_strong
+				send_interface_message = {
+					type = event_generic_good
+					title = socotra.0123.title
+					RICE_socotra_bless_ships_effect = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = RICE_socotra_blessed_ships_modifier_normal
+			}
+			random = {
+				chance = RICE_socotra_bless_ship_chance_normal
+				send_interface_message = {
+					type = event_generic_good
+					title = socotra.0123.title
+					RICE_socotra_bless_ships_effect = yes
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_character_modifier = RICE_socotra_blessed_ships_modifier_weak
+			}
+			random = {
+				chance = RICE_socotra_bless_ship_chance_weak
+				send_interface_message = {
+					type = event_generic_good
+					title = socotra.0123.title
+					RICE_socotra_bless_ships_effect = yes
+				}
+			}
+		}
+
+
+		if = {
+			limit = {
+				OR = {
+					has_character_modifier = RICE_socotra_blessed_ships_modifier_strong
+					has_character_modifier = RICE_socotra_blessed_ships_modifier_normal
+					has_character_modifier = RICE_socotra_blessed_ships_modifier_weak
+				}
+			}
+			trigger_event = {
+				id = socotra.0123
+				days = 365
+			}
+		}
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

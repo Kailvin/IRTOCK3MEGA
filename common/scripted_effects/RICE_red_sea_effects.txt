@@ -221,6 +221,38 @@
 		}
 	}
 
+	## Add Walled City of Shibam
+	# In vanilla Shibam-Sanaa doesn't have a holding, so make Ash-Sharaf a church and Shibam-Sanaa a city
+	if = {
+		limit = {
+			title:b_ash-sharaf = {
+				NOT = { title_province = { has_holding_type = church_holding } }
+			}
+		}
+		title:b_ash-sharaf.title_province = {
+			set_holding_type = church_holding
+		}
+	}
+	if = {
+		limit = {
+			title:b_shibam-sanaa = {
+				NOT = { title_province = { has_holding_type = city_holding } }
+			}
+		}
+		title:b_shibam-sanaa.title_province = {
+			set_holding_type = city_holding
+		}
+	}
+	if = {
+		limit = {
+			title:b_shibam-sanaa = {
+				title_province = { has_special_building = no }
+			}
+		}
+		title:b_shibam-sanaa.title_province = {
+			add_special_building = RICE_red_sea_walled_city_of_shibam
+		}
+	}
 	
 	## Tweak building set up for Suakin, Aydhab, Badi, and Allaqi
 	if = {
@@ -437,6 +469,88 @@
 			}
 		}
 	}
+
+	# Children of Najah, founder of the Najahids
+	# Sa'id ibn Najah
+	if = {
+		limit = {
+			character:najahid002 ?= {
+				is_alive = yes
+			}
+		}
+		character:najahid002 = {
+			add_character_modifier = {
+				modifier = RICE_red_sea_aspiration_avenge_najah
+			}
+			set_variable = {
+				name = RICE_historical_aspiration
+				value = flag:said_jayyash
+			}
+		}
+	}
+	# Jayyash ibn Najah
+	if = {
+		limit = {
+			character:najahid003 ?= {
+				is_alive = yes
+			}
+		}
+		character:najahid003 = {
+			add_character_modifier = {
+				modifier = RICE_red_sea_aspiration_avenge_najah
+			}
+			set_variable = {
+				name = RICE_historical_aspiration
+				value = flag:said_jayyash
+			}
+		}
+	}
+	# adh-Dhakhirah bint Najah
+	if = {
+		limit = {
+			character:me_najahid_002 ?= {
+				is_alive = yes
+			}
+		}
+		character:me_najahid_002 = {
+			add_character_modifier = {
+				modifier = RICE_red_sea_aspiration_avenge_najah
+			}
+			set_variable = {
+				name = RICE_historical_aspiration
+				value = flag:said_jayyash
+			}
+		}
+	}
+
+	############################################################
+	#
+	# MISCELLANEOUS
+	#
+	############################################################
+
+	# Add a few (lowborn) characters with the Khat Addict trait at game start
+	every_ruler = {
+		limit = {
+			is_landed = yes
+			capital_province ?= {
+				OR = {
+					geographical_region = world_africa_east
+					geographical_region = world_middle_east_arabia
+				}
+			}
+		}
+		every_courtier_or_guest = {
+			limit = {
+				has_no_particular_noble_roots_trigger = yes
+				RICE_enjoys_khat_trigger = yes
+			}
+			random = {
+				chance = 1
+				add_trait = RICE_khat_addict
+			}
+		}
+	}	
 		
 }
 
@@ -540,5 +654,90 @@ RICE_organize_red_sea_ferries_effect = {
 		add_county_modifier = {
 			modifier = RICE_red_sea_massawa_mosque
 		}
+	}
+}
+
+
+
+RICE_red_sea_chew_khat_effect = {
+
+	if = {
+		limit = {
+			NOT = { has_trait = RICE_khat_addict }
+		}
+		custom_tooltip = RICE_red_sea_chew_khat_effect_tooltip_1 
+		hidden_effect = {
+			random = {
+				chance = RICE_red_sea_khat_addict_chance
+				trigger_event = red_sea.0006
+				#add_trait = RICE_khat_addict
+			}
+		}
+	}
+
+	RICE_red_sea_khat_addiction_effect = yes
+
+
+	add_stress = medium_stress_loss
+
+	every_courtier_or_guest = {
+		custom = RICE_all_khat_courtiers_and_guests
+		limit = {
+			is_available_ai_adult = yes
+			RICE_enjoys_khat_trigger = yes
+			NOR = {
+				has_trait = zealous
+				has_trait = temperate
+				has_trait = paranoid
+				has_trait = shy
+			}
+		}
+		RICE_red_sea_khat_addiction_effect = yes
+		add_opinion = {
+			target = root
+			modifier = RICE_opinion_chewed_khat_together
+		}
+		reverse_add_opinion = {
+			target = root
+			modifier = RICE_opinion_chewed_khat_together
+		}
+		if = {
+			limit = {
+				NOT = { has_trait = RICE_khat_addict }
+			}
+			hidden_effect = {
+				random = {
+					chance = RICE_red_sea_khat_addict_chance
+					trigger_event = red_sea.0006
+					#add_trait = RICE_khat_addict
+				}
+			}			
+		}
+	}
+
+}
+
+RICE_red_sea_khat_addiction_effect = {
+	# No point in counting if you have the trait
+	if = {
+		limit = {
+			NOT = { has_trait = RICE_khat_addict }
+		}
+		if = {
+			limit = { NOT = { exists = var:RICE_red_sea_khat_addiction_counter } }
+			set_variable = {
+				name = RICE_red_sea_khat_addiction_counter
+				value = 1
+			}
+		}
+		else = {
+			random = {
+				chance = 50
+				change_variable = {
+					name = RICE_red_sea_khat_addiction_counter
+					add = 1
+				}	
+			}	
+		}	
 	}
 }

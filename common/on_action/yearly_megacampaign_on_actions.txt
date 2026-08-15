@@ -1,0 +1,142 @@
+﻿# Called every Jan 1st
+# Root does not exist
+yearly_global_pulse = {
+	# Historical character spawner
+}
+
+# Called from code once a year for "playable" (count+) characters.
+# Root is the character
+yearly_playable_pulse = {
+}
+
+# Called from code once every three years for "playable" (count+) characters.
+# Root is the character
+three_year_playable_pulse = {
+}
+
+# Called from code once every five years for "playable" (count+) characters.
+# Root is the character
+five_year_playable_pulse = {
+
+}
+
+# Called from code once a quarter for "playable" (count+) characters.
+# Root is the character
+# scope:quarter is which quarter it's for, from 1 to 4. Note that scope:quarter = 1 isn't necessarily in Q1 by calendar time
+quarterly_playable_pulse = {
+
+}
+
+# Called from code once a year for all "playable" characters, at a random point that year (individually for each character). Different time from the random_yearly_everyone_pulse (coincides by random 1 time out of 365)
+# Root is the character
+random_yearly_playable_pulse = {
+}
+
+# Called from code once a year for all characters, at a random point that year (individually for each character)
+# Root is the character
+random_yearly_everyone_pulse = {
+	if = {
+		limit = {
+			health >= 1
+			has_character_flag = had_low_health_permenant
+		}
+		remove_character_flag = had_low_health_permenant
+		remove_character_flag = had_low_health_1yr
+		remove_character_flag = had_low_health_2yr
+		remove_character_flag = had_low_health_3yr
+	}
+	if = {
+		limit = {
+			health <= 0
+		}
+		add_character_flag = {
+			flag = had_low_health_permenant
+			years = 10
+		}
+		add_character_flag = {
+			flag = had_low_health_1yr
+			days = 400
+		}
+		add_character_flag = {
+			flag = had_low_health_2yr
+			days = 800
+		}
+		add_character_flag = {
+			flag = had_low_health_3yr
+			days = 1200
+		}
+	}
+	i = {
+		limit = {
+			has_character_flag = had_low_health_permenant
+			NOT = { has_character_flag = had_low_health_3yr }
+		}
+		trigger_event = {
+			id = death_management.9999
+			days = { 1 365 }
+		}
+	}
+	if = {
+		limit = {
+			has_character_flag = had_low_health_permenant
+			has_character_flag = had_low_health_3yr
+			NOT = { has_character_flag = had_low_health_2yr }
+		}
+		random = {
+			chance = 75
+			trigger_event = {
+				id = death_management.9999
+				days = { 1 365 }
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_character_flag = had_low_health_permenant
+			has_character_flag = had_low_health_3yr
+			has_character_flag = had_low_health_2yr
+			NOT = { has_character_flag = had_low_health_1yr }
+		}
+		random = {
+			chance = 50
+			trigger_event = {
+				id = death_management.9999
+				days = { 1 365 }
+			}
+		}
+	}
+	if = {
+		limit = {
+			has_character_flag = had_low_health_permenant
+			has_character_flag = had_low_health_3yr
+			has_character_flag = had_low_health_2yr
+			has_character_flag = had_low_health_1yr
+		}
+		random = {
+			chance = 25
+			trigger_event = {
+				id = death_management.9999
+				days = { 1 365 }
+			}
+		}
+	}
+}
+
+# Called from code once every five years for all characters.
+# Root is the character
+five_year_everyone_pulse = {
+}
+
+# Called from code once every 3 years for pool characters
+# root = the character
+three_year_pool_pulse = {
+}
+
+#Only triggered if you actually have prisoners
+prison_maintenance_pulse = {
+}
+
+
+#Pulse for various AI stuff
+ai_character_pulse = {
+}

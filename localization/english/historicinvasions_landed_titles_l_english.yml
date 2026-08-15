@@ -27,7 +27,10 @@
  k_ziyarid_adj:0 "Gilak"
 
  k_indus:0 "Indus"
- k_indus_adj: :Indian"
+ k_indus_adj:0 :Indian"
+ 
+ e_carpathia:0 "First Caliphate"
+ e_carpathia_adj:0 "Islamic"
 
  e_ayyubid_article:0 "the "
  e_ayyubid:0 "$hi_dynn_hadabanid_house_ayyubid$ $empire_feudal_iranian_group$"

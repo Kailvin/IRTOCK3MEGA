@@ -28189,14 +28189,18 @@ k_jazira = {
 	ruler_uses_title_name = no
 }
 e_carpathia = {
-	capital = c_visegrad
-	color = { 210 115 35 }
-	landless = no
-	definite_form = no
-	ruler_uses_title_name = no
+	capital = c_mecca
+	color = { 20 160 30 }
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
 	}
+	definite_form = yes
+	ruler_uses_title_name = no
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
 }
 k_moldavia = {
 	capital = c_suceava

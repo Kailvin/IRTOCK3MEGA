@@ -592,7 +592,7 @@ historicinvasions_invasion_war_valid_to_start_trigger = {
 	}
 	trigger_else_if = {
 		limit = {
-			scope:attacker = title:k_hejaz.holder
+			scope:attacker = title:e_carpathia.holder
 		}
 		scope:target = {
 			tier = tier_kingdom

@@ -6,7 +6,7 @@ story_jihad_invasion = {
 	on_setup = {
 		historicinvasions_story_setup_effect = { # global start variable, story variables, conditional dissolution protection
 			INVADER_DYNN =jihad # for story start global variable
-			INVADER_TITLE = title:k_hejaz # title the invader spawns with
+			INVADER_TITLE = title:e_carpathia # title the invader spawns with
 		}
 		story_owner = {
 			jihad_maintenance_effect = {

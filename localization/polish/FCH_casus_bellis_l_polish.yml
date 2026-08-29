@@ -1,0 +1,6 @@
+﻿# Kingdom and Empire Conquest custom localization by Guildar_, Polish translation by Zszywka
+
+l_polish:
+# Nazwy dla wojen wraz z definicjami dla królestw i cesarstw
+ CONQUEST_KINGDOM_CB_NAME:0 "Podbij [kingdom|E]"
+ CONQUEST_EMPIRE_CB_NAME:0 "Podbij [empire|E]"

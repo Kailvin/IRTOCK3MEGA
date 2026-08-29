@@ -1,0 +1,163 @@
+﻿# Title Holder Requirments files by Guildar_, ideas by Akatosharine and delan211
+
+# Hegemon titles for Feudal, Tribal, and Republic governments of Roman culture:
+hegemon_feudal_male_roman = {
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 5000
+    name_lists = { name_list_roman }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_female_roman = {
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 5000
+    name_lists = { name_list_roman }
+    governments = { feudal_government tribal_government }
+}
+hegemony_feudal_roman = {
+	type = title
+	tier = hegemony
+	priority = 5000
+    name_lists = { name_list_roman }
+	governments = { feudal_government tribal_government }
+}
+hegemon_republic_male_roman = {
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 5000
+    name_lists = { name_list_roman }
+    governments = { republic_government }
+}
+hegemon_republic_female_roman = {
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 5000
+    name_lists = { name_list_roman }
+    governments = { republic_government }
+}
+hegemon_republic_roman = {
+	type = title
+	tier = hegemony
+	priority = 5000
+    name_lists = { name_list_roman }
+	governments = { republic_government }
+}
+
+# Hegemon title for Feudal and Tribal governments of Greek culture:
+hegemon_feudal_male_greek = {
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 500
+    name_lists = { name_list_greek }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_female_greek = {
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 500
+    name_lists = { name_list_greek }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_greek = { # Added this so that the Greek title also had a unique name - Guildar_
+	type = title
+	tier = hegemony
+	priority = 500
+    name_lists = { name_list_greek }
+	governments = { feudal_government tribal_government }
+}
+
+# Hegemon title for Feudal and Tribal governments of Norse culture:
+hegemon_feudal_male_norse = {
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 250
+    name_lists = { name_list_norse }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_female_norse = { # Added this so that there is a female title meaning "All Queen" to go along with the "All King above. - Guildar_
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 250
+    name_lists = { name_list_norse }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_norse = { # Added this so that the title alos has a unique name meaning "All Kingdom" to go with the above titles. - Guildar_
+	type = title
+	tier = hegemony
+	priority = 250
+    name_lists = { name_list_norse }
+	governments = { feudal_government tribal_government }
+}
+
+# Hegemon title for Feudal and Tribal governments of Frankish cultures:
+hegemon_feudal_male_frankish = {
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 300
+    heritages = { heritage_frankish }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_female_frankish = {
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 300
+    heritages = { heritage_frankish }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_frankish = { # Added this just for a unique French spelling of hegemony since the titles were unique and it should be "Hégémonie" but the game does not like the é character. - Guildar_
+	type = title
+	tier = hegemony
+	priority = 46
+    heritages = { heritage_frankish }
+	governments = { feudal_government tribal_government }
+}
+# Hegemon title for Feudal and Tribal governments of West Slavic cultures:
+hegemon_feudal_male_west_slavic = { # Means Superior and is the male version of the word.
+    type = character
+    gender = male
+    special = holder
+    tier = hegemony
+    priority = 250
+    heritages = { heritage_west_slavic }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_female_west_slavic = { # Means same as above but the female version of the word
+    type = character
+    gender = female
+    special = holder
+    tier = hegemony
+    priority = 250
+    heritages = { heritage_west_slavic }
+    governments = { feudal_government tribal_government }
+}
+hegemon_feudal_west_slavic= { # Means "Commonwelth" which is fitting for a hegemony title
+    type = title
+	tier = hegemony
+	priority = 250
+    heritages = { heritage_west_slavic }
+	governments = { feudal_government tribal_government }
+}
+
+# Note: I added priority based off of the "legitimacy" based off of how important they were in real history, that way certain titles take importance over others. However, the French title name is less important due to
+# it just being the word hegemony in French. - Guildar_

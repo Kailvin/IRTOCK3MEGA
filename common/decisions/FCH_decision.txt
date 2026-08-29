@@ -1,0 +1,176 @@
+﻿# Found New Hegemony custom decision by Guildar_
+
+found_hegemony_decision = {
+	picture = {
+		trigger = {
+			government_is_japanese_trigger = yes
+		}
+		reference = "gfx/interface/illustrations/event_story/tgp_japanese_shogunate.dds"
+	}
+	picture = {
+		trigger = { culture = { has_graphical_east_asia_culture_group_trigger = yes } }
+		reference = "gfx/interface/illustrations/event_story/tgp_dynastic_cycle_stability.dds"
+	}
+	picture = {
+		trigger = { culture = { has_graphical_india_culture_group_trigger = yes } }
+		reference = "gfx/interface/illustrations/decisions/tgp_decision_mandala.dds"
+	}
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	}
+	decision_group_type = major
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 0
+		duchy = 0
+		kingdom = 0
+		empire = 6
+		hegemony = 0
+	}
+	desc = found_hegemony_decision_desc
+
+	is_shown = {
+		highest_held_title_tier = tier_empire
+		OR = {
+			top_liege = this
+			any_held_title = {
+				count >= 3
+				title_tier = empire
+			}
+		}
+		NOT = {
+			has_game_rule = off_custom_kingdoms
+		}
+		is_landed_or_landless_administrative = yes
+	}
+
+	is_valid = {
+		OR = {
+			prestige_level >= 5
+			piety_level >= 5
+		}
+		trigger_if = {
+			limit = {
+				government_has_flag = government_is_nomadic
+			}
+			OR = {
+				sub_realm_size >= 80
+				AND = {
+					custom_description = {
+						text = found_hegemony_decision_three_empires_held
+						any_held_title = {
+							count >= 2
+							title_tier = empire
+						}
+					}
+					sub_realm_size >= 60
+				}
+			}
+		}
+		trigger_else = {
+			OR = {
+				sub_realm_size >= 160
+				AND = {
+					custom_description = {
+						text = found_hegemony_decision_three_empires_held
+						any_held_title = {
+							count >= 3
+							title_tier = empire
+						}
+					}
+					sub_realm_size >= 120
+				}
+			}
+		}
+
+		trigger_if = {
+			limit = {
+				government_has_flag = government_is_nomadic
+			}
+			OR = {
+				has_realm_law = nomadic_authority_5
+				has_realm_law = nomadic_authority_4
+			}
+		}
+
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
+
+	is_valid_showing_failures_only = {
+		top_liege = this
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = {
+			value = 2200
+			if = {
+				limit = {
+					OR = {
+						government_has_flag = government_is_nomadic
+						has_treasury = yes
+					}
+				}
+				multiply = 0
+			}
+		}
+		treasury = {
+			value = 2200
+			if = {
+				limit = {
+					has_treasury = no
+				}
+				multiply = 0
+			}
+		}
+		prestige = 3000
+		piety = {
+			value = 1600
+			if = {
+				limit = {
+					government_has_flag = government_is_nomadic
+				}
+				multiply = 0
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				NOT = { government_has_flag = government_is_nomadic }
+			}
+			create_custom_hegemony_effect = yes
+			gain_heroic_legend_seed_tooltip_effect = yes
+			hidden_effect = {
+				legend_seed_new_title_effect = yes
+			}
+		}
+		else = {
+			create_custom_hegemony_effect = yes
+		}
+		if = {
+			limit = {
+				is_ai = no
+				NOT = { exists = global_var:found_hegemony_decision  }
+			}
+			set_global_variable = {
+				name = found_hegemony_decision
+				value = root
+			}
+			#set_global_variable = {
+			#	name = found_hegemony_decision_empire
+			#	value = root.primary_title
+			#}
+		}
+	}
+
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+  		base = 0
+	}
+}

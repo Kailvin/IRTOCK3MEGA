@@ -1,0 +1,6 @@
+﻿# Kingdom and Empire Conquest custom localization by Guildar_, Chinese translations by 無壹
+
+l_simp_chinese:
+# Titles for the wars along with definitions for kingdoms and empires:
+ CONQUEST_KINGDOM_CB_NAME:0 "征服[kingdom|E]"
+ CONQUEST_EMPIRE_CB_NAME:0 "征服[empire|E]"

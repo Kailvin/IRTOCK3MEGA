@@ -1,0 +1,28 @@
+﻿# Culture Title Localization files by Guildar_, localization by Akatosharine, west slavic localization by delan211, Polish translation by Zszywka
+
+l_polish:
+ # Hegemon titles for Feudal, Tribal, and Republic governments of Roman culture:
+ hegemon_feudal_male_roman:0 "Dominus"
+ hegemon_feudal_female_roman:0 "Domina"
+ hegemony_feudal_roman:0 "Dominium"
+ hegemon_republic_male_roman:0 "Tetrarcha"
+ hegemon_republic_female_roman:0 "Tetrarcha"
+ hegemon_republic_roman:0 "Tetrarchia"
+# Hegemon title for Feudal and Tribal governments of Greek culture:
+ hegemon_feudal_male_greek:0 "Autokrator"
+ hegemon_feudal_female_greek:0 "Autokratorka"
+ hegemon_feudal_greek:0 "Autokracja"
+ # Hegemon title for Feudal and Tribal governments of Norse culture:
+ hegemon_feudal_male_norse:0 "Allkonungr"
+ hegemon_feudal_female_norse:0 "Alldróttning"
+ hegemon_feudal_norse:0 "Allkonung-ríki"
+ # Hegemon title for Feudal and Tribal governments of Frankish cultures:
+ hegemon_feudal_male_frankish:0 "August"
+ hegemon_feudal_female_frankish:0 "Augusta"
+ hegemon_feudal_frankish:0 "Hegemonia"
+ # Hegemon title for Feudal and Tribal governments of West Slavic cultures:
+ hegemon_feudal_male_west_slavic:0 "Zwierzchnik"
+ hegemon_feudal_female_west_slavic:0 "Zwierzchniczka"
+ hegemon_feudal_west_slavic:0 "Rzeczpospolita"
+
+# Note: I added: a title name for Greek culture, a female and title name for Norse culture, and the title name for French culture.

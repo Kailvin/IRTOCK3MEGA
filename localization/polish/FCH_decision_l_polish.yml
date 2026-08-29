@@ -1,0 +1,37 @@
+﻿# Found New Hegemony custom localization by Guildar_, ideas by Xerdos, Polish translation by Zszywka
+
+l_polish:
+ # Found New Hegemony:
+ found_hegemony_decision:0 "Ustanów nową hegemonię"
+ found_hegemony_decision_desc:0 "Utworzę hegemonię, która przyćmi wszystkie inne i przetrwa dłużej niż sam świat."
+ found_hegemony_decision_confirm:0 "Zgromadź państwo"
+ found_hegemony_decision_tooltip:0 "Ustanów zupełnie nowy tytuł hegemonii"
+ create_new_hegemony:0 "Tworzysz nową hegemonię"
+ create_title_every_held_empire:0 "Każdy tytuł cesarski, który [hold|E] lub [completely_control|E]"
+ create_custom_hegemony_de_jure_changes:0 "Staje się [de_jure|E] [empires|E] twojej nowej hegemonii"
+ found_hegemony_decision_three_empires_held:0 "Posiadasz co najmniej trzy [empires|E]"
+
+ # Events related to founding the new hegemony:
+ FCH_major_decisions.1.t:0 "Powstaje nowy [founder.GetTitleAsNameNoTooltip]..."
+ FCH_major_decisions.1.opening_empires:0 "Władam rozległymi obszarami, stałem się jednym z najpotężniejszych władców świata i zdobyłem wystarczającą kontrolę nad cesarstwami [empire_1.GetNameNoTierNoTooltip], [empire_2.GetNameNoTierNoTooltip] oraz [empire_3.GetNameNoTierNoTooltip], by rywalizować nawet z samymi bogami!"
+ FCH_major_decisions.1.opening:0 "Każdy wasal kłania się przede mną, drżąc przed potęgą, którą teraz dzierżę. Nawet [ROOT.Char.GetFaith.PriestNeuterPlural] lękają się mnie i zastanawiają, czy [ROOT.Char.GetFaith.PantheonTerm] uznaje mnie teraz za równego sobie, biorąc pod uwagę moją władzę i pozycję."
+ FCH_major_decisions.1.i_am_religious_head:0 "\n\nSkoro wszyscy i tak postrzegają mnie jako głowę wiary, nie powinno dziwić, że mogę przywdziać koronę i ogłosić się władcą rozległych ziem. W końcu, skoro jestem tak blisko [ROOT.Char.GetFaith.PantheonTerm], dlaczego nie miałbym rządzić większością znanego świata?"
+ FCH_major_decisions.1.blessed_by_religious_head:0 "\n\nGdy [religious_figure.GetTitledFirstName] kłania się i nakłada mi koronę na głowę, nie jest tajemnicą, że wszyscy zazdroszczą mi mojej pozycji jako nowego [founder.GetTitleAsNameNoTooltip]. Teraz cały świat drży u mych stóp!"
+ FCH_major_decisions.1.a:0 "[new_title.GetNameNoTierNoTooltip] powstało, by rządzić światem!"
+
+ FCH_major_decisions.2.t:0 "Zgromadzenie królestw..."
+ FCH_major_decisions.2.opening:0 "[founder.GetFirstName], nasz [founder.GetLadyLord], który rządził nami oraz niezliczonymi rozległymi ziemiami, stał się jednym z najpotężniejszych władców świata i wezwał nas, wraz z [founder.GetFaith.PriestNeuterPlural], byśmy dołączyli do [founder.GetHerHim] w wielkim zamku. Wszyscy drżymy, widząc wyraźnie, że [founder.GetSheHe] rywalizuje nawet z królestwem [ROOT.Char.GetFaith.PantheonTerm]!"
+ FCH_major_decisions.2.i_am_religious_head:0 "\n\nKłaniam się, nakładając nową koronę na głowę [founder.GetHerHis],"
+ FCH_major_decisions.2.religious_head_hegemony:0 "\n\nGdy [founder.GetSheHe] nakłada nową koronę na swoją głowę,"
+ FCH_major_decisions.2.blessed_by_religious_head:0 "\n\n[religious_figure.GetTitledFirstName] kłania się, gdy nowa korona zostaje nałożona na głowę [founder.GetHerHis],"
+ FCH_major_decisions.2.end:0 "[founder.GetFirstName] ogłasza powstanie nowego państwa, które ma rywalizować nawet z samymi bogami! [founder.GetHerHis|U] słudzy kłaniają się z czcią przed [founder.GetHerHim]."
+ FCH_major_decisions.2.a:0 "[new_title.GetNameNoTierNoTooltip] będzie wieczne!"
+
+ FCH_major_decisions.3.t:0 "Nieoczekiwane roszczenie"
+ FCH_major_decisions.3.desc:0 "\"[founder.GetTitleAsNameNoTooltip]\" [founder.GetFirstName] z [new_title.GetNameNoTierNoTooltip] ogłosił powstanie nowej hegemonii i twierdzi, że część #EMP moich#! prawowitych ziem wchodzi w jej skład! Ma nawet czelność twierdzić, że rywalizuje z samymi bogami! Jakże to głupie i aroganckie!"
+ FCH_major_decisions.3.a:0 "Ten uzurpator wkrótce zostanie zapomniany..."
+
+ FCH_major_decisions.4.t:0 "Pogłoski o wzroście potęgi"
+ FCH_major_decisions.4.desc:0 "W naszym państwie krążą pogłoski, że pewien władca, [founder.GetTitleAsNameNoTooltip] [founder.GetFirstName], utworzył nową hegemonię znaną jako [new_title.GetName]. Jest to niepokojące, gdyż [founder.GetSheHe] twierdzi, że rywalizuje nawet z samymi bogami! Choć roszczenie to jest dość niedorzeczne, powinniśmy zachować czujność, by [founder.GetSheHe] nie sięgnął po nasze ziemie."
+ FCH_major_decisions.4.a:0 "Miejmy nadzieję, że państwo [founder.GetHerHis] wkrótce się rozpadnie..."
+ FCH_major_decisions.4.tooltip:0 "UWAGA: Jeśli widzisz to wydarzenie, zalecane jest sprawdzenie trybu mapy hegemonii, ponieważ nowa hegemonia posiada teraz granice na mapie, które mogły nadpisać wcześniejsze granice hegemonii istniejące wcześniej."

@@ -1,0 +1,37 @@
+﻿# Found New Hegemony custom localization by Guildar_, ideas by Xerdos, Chinese translations by 無壹
+
+l_simp_chinese:
+ # Found New Hegemony:
+ found_hegemony_decision:0 "建立新霸权"
+ found_hegemony_decision_desc:0 "我将建立一个超越其他霸权的霸权，并比世界本身更持久。"
+ found_hegemony_decision_confirm:0 "一统领地"
+ found_hegemony_decision_tooltip:0 "建立一个全新的霸权头衔"
+ create_new_hegemony:0 "你建立了一个新的霸权"
+ create_title_every_held_empire:0 "你[hold|E]或[completely_control|E]的每一个帝国头衔"
+ create_custom_hegemony_de_jure_changes:0 "成为你新霸权下的[de_jure|E][empires|E]"
+ found_hegemony_decision_three_empires_held:0 "你持有3个或更多[empires|E]"
+
+ # Events related to founding the new hegemony:
+ FCH_major_decisions.1.t:0 "一个新[founder.GetTitleAsNameNoTooltip]崛起……"
+ FCH_major_decisions.1.opening_empires:0 "我曾统治辽阔疆域，成为世间最强大的统治者之一，对[empire_1.GetNameNoTierNoTooltip]、[empire_2.GetNameNoTierNoTooltip]与[empire_3.GetNameNoTierNoTooltip]诸帝国的掌控力甚至足以比肩神明！"
+ FCH_major_decisions.1.opening:0 "每个封臣都向我俯首，在我如今掌握的权势前颤抖。就连[ROOT.Char.GetFaith.PriestNeuterPlural]也畏惧我，并思忖着[ROOT.Char.GetFaith.PantheonTerm]是否因我的力量与地位而将我视作平等的存在。"
+ FCH_major_decisions.1.i_am_religious_head:0 "\n\n既然所有人都视我为信仰领袖，那么我能戴上王冠并宣称自己是广袤疆域的统治者便不足为奇。毕竟，若我已如此接近[ROOT.Char.GetFaith.PantheonTerm]，为何不能获准统治已知世界的大部分地区呢？"
+ FCH_major_decisions.1.blessed_by_religious_head:0 "\n\n当[religious_figure.GetTitledFirstName]躬身将王冠戴于我首时，无人不艳羡我这新任[founder.GetTitleAsNameNoTooltip]之位。而今，世界皆在我脚下震颤！"
+ FCH_major_decisions.1.a:0 "[new_title.GetNameNoTierNoTooltip]已崛起以统治世界！"
+
+ FCH_major_decisions.2.t:0 "诸王国的一统……"
+ FCH_major_decisions.2.opening:0 "[founder.GetFirstName]，我们统治着无数辽阔疆域的[founder.GetLadyLord]，已成为世间最强大的统治者之一，此刻正召集我们与[founder.GetFaith.PriestNeuterPlural]前往宏伟城堡觐见[founder.GetHerHim]。众人无不战栗——显然[founder.GetSheHe]的威势已足以比肩[ROOT.Char.GetFaith.PantheonTerm]的领域！"
+ FCH_major_decisions.2.i_am_religious_head:0 "\n\n我鞠躬为[founder.GetHerHis]戴上新王冠。"
+ FCH_major_decisions.2.religious_head_hegemony:0 "\n\n当[founder.GetSheHe]将新王冠戴在[founder.GetHerHis]的头上时，"
+ FCH_major_decisions.2.blessed_by_religious_head:0 "\n\n[religious_figure.GetTitledFirstName]在新王冠戴到[founder.GetHerHis]的头上时躬身致意。"
+ FCH_major_decisions.2.end:0 "[founder.GetFirstName]宣告建立新的国家，其威势足以匹敌诸神！[founder.GetHerHis|U]的仆从们恭敬地向其俯身行礼。"
+ FCH_major_decisions.2.a:0 "[new_title.GetNameNoTierNoTooltip]将永垂不朽！"
+
+ FCH_major_decisions.3.t:0 "一个意外宣称"
+ FCH_major_decisions.3.desc:0 "“[founder.GetTitleAsNameNoTooltip]”[new_title.GetNameNoTierNoTooltip]的[founder.GetFirstName]宣布建立新霸权，竟声称#EMP 我#!的合法领土属于其中！[founder.GetSheHe]甚至胆敢宣称自己可与诸神比肩！何等愚妄傲慢！"
+ FCH_major_decisions.3.a:0 "那个伪朝很快就会被遗忘的……"
+
+ FCH_major_decisions.4.t:0 "关于权力上升的传闻"
+ FCH_major_decisions.4.desc:0 "在我们的领地中，有传言称一位统治者[founder.GetTitleAsNameNoTooltip][founder.GetFirstName]建立了一个名为[new_title.GetName]的新霸权。此事相当令人担忧，因为[founder.GetSheHe]竟宣称要与诸神为敌！虽然这种说法十分愚蠢，我们仍需警惕[founder.GetSheHe]侵占我们领土的企图。"
+ FCH_major_decisions.4.a:0 "但愿[founder.GetHerHis]的国家早日崩溃……"
+ FCH_major_decisions.4.tooltip:0 "注意：如果你看到此事件，建议你检查霸权地图模式，因为新霸权目前在地图上拥有边界，可能已覆盖先前存在的旧霸权边界。"

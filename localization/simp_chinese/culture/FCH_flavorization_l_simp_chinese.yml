@@ -1,0 +1,28 @@
+﻿# Culture Title Localization files by Guildar_, localization by Akatosharine, west slavic localization by delan211, Chinese translations by 無壹
+
+l_simp_chinese:
+ # Hegemon titles for Feudal, Tribal, and Republic governments of Roman culture:
+ hegemon_feudal_male_roman:0 "主宰" 
+ hegemon_feudal_female_roman:0 "女主宰"
+ hegemony_feudal_roman:0 "主宰国"
+ hegemon_republic_male_roman:0 "四分帝"
+ hegemon_republic_female_roman:0 "女四分帝"
+ hegemon_republic_roman:0 "四分帝国"
+# Hegemon title for Feudal and Tribal governments of Greek culture:
+ hegemon_feudal_male_greek:0 "独裁者"
+ hegemon_feudal_female_greek:0 "女独裁者"
+ hegemon_feudal_greek:0 "独裁国"
+ # Hegemon title for Feudal and Tribal governments of Norse culture:
+ hegemon_feudal_male_norse:0 "至高王"
+ hegemon_feudal_female_norse:0 "至高女王"
+ hegemon_feudal_norse:0 "至高王国"
+ # Hegemon title for Feudal and Tribal governments of Frankish cultures:
+ hegemon_feudal_male_frankish:0 "奥古斯特"
+ hegemon_feudal_female_frankish:0 "奥古斯塔"
+ hegemon_feudal_frankish:0 "霸权国"
+ # Hegemon title for Feudal and Tribal governments of West Slavic cultures:
+ hegemon_feudal_male_west_slavic:0 "上主"
+ hegemon_feudal_female_west_slavic:0 "女上主"
+ hegemon_feudal_west_slavic:0 "联邦"
+
+# Note: I added: a title name for Greek culture, a female and title name for Norse culture, and the title name for French culture.

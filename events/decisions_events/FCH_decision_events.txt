@@ -1,0 +1,198 @@
+﻿# Hegemony Decision Events by Guildar_, idea by Xerdos
+
+namespace = FCH_major_decisions
+
+#I have founded a Hegemony
+FCH_major_decisions.1 = {
+	type = character_event
+	title = FCH_major_decisions.1.t
+	desc = {
+		triggered_desc = {
+			trigger = { exists = scope:three_empires }
+			desc = {
+				desc = FCH_major_decisions.1.opening_empires
+				desc = double_line_break
+			}
+		}
+		desc = FCH_major_decisions.1.opening
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = faith.religious_head
+					faith.religious_head = root
+				}
+				desc = FCH_major_decisions.1.i_am_religious_head
+			}
+			triggered_desc = {
+				trigger = {
+					exists = faith.religious_head
+				}
+				desc = FCH_major_decisions.1.blessed_by_religious_head
+			}
+			desc = FCH_major_decisions.1.i_am_religious_head
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		# If hegemony is formed from three empires, specifically shout that out
+		if = {
+			limit = {
+				any_held_title = {
+					title_tier = empire
+					count >= 3
+				}
+			}
+			scope:old_title = { # Carried over from the decision
+				save_scope_as = empire_1
+			}
+			random_held_title = {
+				title_tier = empire
+				limit = {
+					this != scope:empire_1
+				}
+				save_scope_as = empire_2
+			}
+			random_held_title = {
+				title_tier = empire
+				limit = {
+					NOR = {
+						this = scope:empire_1
+						this = scope:empire_2
+					}
+				}
+				save_scope_as = empire_3
+			}
+			if = { # Safeguarding against loc-breaking here
+				limit = {
+					exists = scope:empire_1
+					exists = scope:empire_2
+					exists = scope:empire_3
+				}
+				save_scope_value_as = {
+					name = three_empires
+					value = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = faith.religious_head
+			}
+			faith.religious_head = {
+				save_scope_as = religious_figure
+			}
+		}
+		show_as_tooltip = {
+			set_primary_title_to = scope:new_title
+		}
+	}
+
+	option = {
+		name = FCH_major_decisions.1.a
+		custom_tooltip = major_decisions.1101.i_have_become_royal
+	}
+}
+
+#My liege has founded a hegemony
+FCH_major_decisions.2 = {
+	type = character_event
+	title = FCH_major_decisions.2.t
+	desc = {
+		desc = FCH_major_decisions.2.opening
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = faith.religious_head
+					faith.religious_head = root
+				}
+				desc = FCH_major_decisions.2.i_am_religious_head
+			}
+			triggered_desc = {
+				trigger = {
+					exists = faith.religious_head
+					faith.religious_head = scope:founder
+				}
+				desc = FCH_major_decisions.2.religious_head_hegemony
+			}
+			triggered_desc = {
+				trigger = {
+					exists = faith.religious_head
+				}
+				desc = FCH_major_decisions.2.blessed_by_religious_head
+			}
+			desc = FCH_major_decisions.2.religious_head_hegemony
+		}
+		desc = FCH_major_decisions.2.end
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_succession"
+		if = {
+			limit = {
+				exists = scope:founder.faith.religious_head
+			}
+			scope:founder.faith.religious_head = {
+				save_scope_as = religious_figure
+			}
+		}
+		show_as_tooltip = {
+			set_primary_title_to = scope:new_title
+		}
+	}
+
+	option = {
+		name = FCH_major_decisions.2.a
+		custom_tooltip = major_decisions.1102.has_become_royal
+	}
+}
+
+#I have lost de jure territory to a new empire
+FCH_major_decisions.3 = {
+	type = character_event
+	title = FCH_major_decisions.3.t
+	desc = FCH_major_decisions.3.desc
+	theme = realm
+	left_portrait = {
+		character = scope:founder
+		animation = personality_greedy
+	}
+	
+	option = {
+		name = FCH_major_decisions.3.a
+		show_as_tooltip = {
+			every_in_list = {
+				list = notification_titles
+				set_de_jure_liege_title = scope:new_title
+			}
+		}
+	}
+}
+
+# Let the world know about my new hegemony
+FCH_major_decisions.4 = {
+    type = character_event
+    title = FCH_major_decisions.4.t
+    desc = FCH_major_decisions.4.desc
+    theme = realm
+    left_portrait = {
+        character = scope:founder
+        animation = personality_callous
+    }
+    option = {
+		name = FCH_major_decisions.4.a
+		show_as_tooltip = {
+			custom_tooltip = FCH_major_decisions.4.tooltip
+		}
+	}
+}
